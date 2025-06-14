@@ -1,0 +1,560 @@
+[
+  {
+    "title": "Photoelectric Effect Threshold Frequency",
+    "ques": "A metal surface has a work function of 2.5 eV. What is the threshold frequency required to emit photoelectrons from the surface? (Planck's constant h = 6.63×10⁻³⁴ J·s, 1 eV = 1.6×10⁻¹⁹ J)",
+    "answer": {
+      "type": "text",
+      "content": "Threshold frequency f = Work function / Planck's constant\n= (2.5 × 1.6×10⁻¹⁹ J) / (6.63×10⁻³⁴ J·s)\n= 6.03 × 10¹⁴ Hz"
+    },
+    "explanation": "***Step 1: Convert work function to joules.***\n```2.5 eV × 1.6×10⁻¹⁹ J/eV = 4.0×10⁻¹⁹ J```\n\n***Step 2: Use the equation f = φ / h***\n```f = 4.0×10⁻¹⁹ J / 6.63×10⁻³⁴ J·s```\n\n***Step 3: Calculate the result***\n```f ≈ 6.03 × 10¹⁴ Hz```\n\nSo, the threshold frequency is ***6.03 × 10¹⁴ Hz***."
+  },
+  {
+    "title": "Bohr Model of Hydrogen",
+    "ques": "Calculate the energy of an electron in the second orbit (n=2) of a hydrogen atom using the Bohr model. (Ground state energy E₁ = -13.6 eV)",
+    "answer": {
+      "type": "text",
+      "content": "Energy at level n = E₁ / n²\n= -13.6 eV / 4\n= -3.4 eV"
+    },
+    "explanation": "***Bohr’s energy level formula is Eₙ = E₁ / n²***\n\n***Step 1: Substitute n = 2 into the formula***\n```E₂ = -13.6 eV / (2²) = -13.6 / 4```\n\n***Step 2: Simplify the result***\n```E₂ = -3.4 eV```\n\nHence, the energy of the electron in the second orbit is ***-3.4 eV***."
+  },
+  {
+    "title": "Radioactive Decay Law",
+    "ques": "A radioactive substance has a half-life of 10 hours. What fraction of the substance remains after 30 hours?",
+    "answer": {
+      "type": "text",
+      "content": "After 30 hours, number of half-lives = 30 / 10 = 3\nRemaining fraction = (1/2)^3 = 1/8"
+    },
+    "explanation": "***Step 1: Calculate number of half-lives***\n```30 hours / 10 hours = 3 half-lives```\n\n***Step 2: Use the decay formula N = N₀ × (1/2)^n***\n```N/N₀ = (1/2)^3 = 1/8```\n\nSo, ***1/8*** of the substance remains after 30 hours."
+  },
+  {
+    "title": "Nuclear Fission Energy Release",
+    "ques": "If 1 kg of uranium-235 undergoes fission and each fission releases 200 MeV, estimate the total energy released. (1 MeV = 1.6×10⁻¹³ J, Avogadro's number = 6.022×10²³)",
+    "answer": {
+      "type": "text",
+      "content": "Number of atoms = (1000 g / 235 g/mol) × 6.022×10²³\n≈ 2.56 × 10²⁴ atoms\nTotal energy = 2.56 × 10²⁴ × 200 × 1.6×10⁻¹³ J\n≈ 8.2 × 10¹³ J"
+    },
+    "explanation": "***Step 1: Find number of atoms***\n```1 kg = 1000 g; Number of moles = 1000 / 235 ≈ 4.255\nAtoms = 4.255 × 6.022×10²³ ≈ 2.56×10²⁴``` \n\n***Step 2: Energy per atom = 200 MeV = 200 × 1.6×10⁻¹³ J***\n```= 3.2×10⁻¹¹ J``` \n\n***Step 3: Multiply total atoms by energy per atom***\n```2.56×10²⁴ × 3.2×10⁻¹¹ ≈ 8.2×10¹³ J```\n\nSo, total energy released ≈ ***8.2 × 10¹³ J***."
+  },
+  {
+    "title": "Time Dilation in Special Relativity",
+    "ques": "A spaceship moves at 0.8c relative to Earth. If 5 years pass on Earth, how much time is experienced on the spaceship?",
+    "answer": {
+      "type": "text",
+      "content": "Time experienced on spaceship = t√(1 - v²/c²)\n= 5 × √(1 - 0.8²)\n= 5 × √(1 - 0.64)\n= 5 × √(0.36) = 5 × 0.6 = 3 years"
+    },
+    "explanation": "***Time dilation formula: t' = t × √(1 - v²/c²)***\n\n***Step 1: Calculate the square of the velocity fraction***\n```(0.8c)² = 0.64c²``` \n\n***Step 2: Substitute into the formula***\n```t' = 5 × √(1 - 0.64) = 5 × √0.36 = 5 × 0.6``` \n\nSo, the time experienced on the spaceship is ***3 years***."
+  },
+  {
+    "title": "Mass-Energy Equivalence",
+    "ques": "How much energy is equivalent to 2 grams of mass according to Einstein’s mass-energy relation? (c = 3×10⁸ m/s)",
+    "answer": {
+      "type": "text",
+      "content": "E = mc²\n= 0.002 kg × (3×10⁸ m/s)²\n= 0.002 × 9×10¹⁶\n= 1.8 × 10¹⁴ J"
+    },
+    "explanation": "***Use Einstein’s formula E = mc²***\n\n***Step 1: Convert 2 g to kg***\n```2 g = 0.002 kg```\n\n***Step 2: Substitute values into the formula***\n```E = 0.002 × (3×10⁸)² = 0.002 × 9×10¹⁶``` \n\n***Step 3: Calculate the energy***\n```E = 1.8 × 10¹⁴ J```\n\nSo, the equivalent energy is ***1.8 × 10¹⁴ J***."
+  },
+  {
+    "title": "Semiconductors - Intrinsic Carrier Concentration",
+    "ques": "What happens to the conductivity of an intrinsic semiconductor when temperature increases?",
+    "answer": {
+      "type": "text",
+      "content": "As temperature increases, more electrons gain energy to jump from the valence band to the conduction band,\nincreasing the intrinsic carrier concentration and hence the conductivity."
+    },
+    "explanation": "***At higher temperatures, thermal energy excites more electrons.***\n\n***Step 1: Electrons move from valence to conduction band.***\n```This creates more electron-hole pairs.```\n\n***Step 2: More carriers mean higher conductivity.***\n```σ ∝ n, where n is the carrier concentration.```\n\nSo, with increase in temperature, ***conductivity increases*** due to higher intrinsic carrier generation."
+  },
+  {
+    "title": "Diode Forward Bias",
+    "ques": "What is the condition for a p-n junction diode to conduct current?",
+    "answer": {
+      "type": "text",
+      "content": "A p-n junction diode conducts current when it is forward biased:\np-side connected to positive terminal and n-side to negative terminal."
+    },
+    "explanation": "***Forward bias condition: p to +ve, n to -ve***\n\n***Step 1: Reduces the potential barrier.***\n```Forward bias narrows the depletion region.```\n\n***Step 2: Allows majority carriers to flow.***\n```Electrons from n-side and holes from p-side move across junction.```\n\nHence, for conduction, ***the diode must be forward biased.***"
+  },
+  {
+    "title": "Photon Energy Calculation",
+    "ques": "Calculate the energy of a photon with a wavelength of 400 nm. (Use h = 6.63×10⁻³⁴ J·s, c = 3×10⁸ m/s)",
+    "answer": {
+      "type": "text",
+      "content": "E = hc / λ\n= (6.63×10⁻³⁴ × 3×10⁸) / (400×10⁻⁹)\n= 4.97 × 10⁻¹⁹ J"
+    },
+    "explanation": "***Step 1: Use the photon energy formula: E = hc / λ***\n```λ = 400 nm = 400 × 10⁻⁹ m```\n\n***Step 2: Substitute h and c values***\n```E = (6.63×10⁻³⁴ × 3×10⁸) / (400×10⁻⁹)``` \n\n***Step 3: Calculate***\n```E ≈ 4.97 × 10⁻¹⁹ J```\n\nSo, the photon energy is ***4.97 × 10⁻¹⁹ joules.***"
+  },
+  {
+    "title": "Bohr Model Wavelength Emission",
+    "ques": "What is the wavelength of the photon emitted when an electron in hydrogen jumps from n=3 to n=2? (Use Rydberg constant R = 1.097×10⁷ m⁻¹)",
+    "answer": {
+      "type": "text",
+      "content": "1/λ = R (1/n₁² - 1/n₂²)\n= 1.097×10⁷ (1/2² - 1/3²)\n= 1.097×10⁷ × (5/36)\nλ ≈ 656 nm"
+    },
+    "explanation": "***Step 1: Use Rydberg formula: 1/λ = R(1/n₁² - 1/n₂²)***\n```n₁ = 2, n₂ = 3``` \n\n***Step 2: Plug in values***\n```1/λ = 1.097×10⁷ × (1/4 - 1/9) = 1.097×10⁷ × (5/36)``` \n\n***Step 3: Calculate λ***\n```λ ≈ 656 nm```\n\nSo, the emitted photon has a wavelength of ***656 nm.***"
+  },
+  {
+    "title": "Fusion Reaction Mass Defect",
+    "ques": "In a fusion reaction, two deuterium nuclei combine to form a helium-3 nucleus and a neutron. Calculate the mass defect if masses are: D = 2.014 u, He-3 = 3.016 u, neutron = 1.009 u. (1 u = 931 MeV)",
+    "answer": {
+      "type": "text",
+      "content": "Total mass before = 2 × 2.014 = 4.028 u\nTotal mass after = 3.016 + 1.009 = 4.025 u\nMass defect = 4.028 - 4.025 = 0.003 u\nEnergy = 0.003 × 931 = 2.793 MeV"
+    },
+    "explanation": "***Step 1: Total mass before reaction***\n```= 2 × 2.014 u = 4.028 u```\n\n***Step 2: Total mass after reaction***\n```= 3.016 + 1.009 = 4.025 u```\n\n***Step 3: Calculate mass defect***\n```Δm = 4.028 - 4.025 = 0.003 u```\n\n***Step 4: Convert to energy***\n```E = 0.003 × 931 = 2.793 MeV```\n\nSo, energy released is ***2.793 MeV.***"
+  },
+  {
+    "title": "Relativistic Length Contraction",
+    "ques": "A spaceship of proper length 150 m moves at 0.6c relative to an observer. What is its observed length?",
+    "answer": {
+      "type": "text",
+      "content": "L = L₀√(1 - v²/c²)\n= 150 × √(1 - 0.36)\n= 150 × √0.64\n= 150 × 0.8 = 120 m"
+    },
+    "explanation": "***Step 1: Use length contraction formula: L = L₀√(1 - v²/c²)***\n```v = 0.6c ⇒ v²/c² = 0.36```\n\n***Step 2: Plug into formula***\n```L = 150 × √(1 - 0.36) = 150 × √0.64 = 150 × 0.8``` \n\nSo, the contracted length is ***120 m.***"
+  },
+  {
+    "title": "Decay Constant from Half-Life",
+    "ques": "The half-life of a radioactive isotope is 2 hours. What is its decay constant?",
+    "answer": {
+      "type": "text",
+      "content": "Decay constant λ = ln(2) / T₁/₂\n= 0.693 / 2\n= 0.3465 hr⁻¹"
+    },
+    "explanation": "***Step 1: Use formula λ = ln(2) / T₁/₂***\n```λ = 0.693 / 2 = 0.3465 hr⁻¹```\n\nSo, the decay constant is ***0.3465 per hour.***"
+  },
+  {
+    "title": "Zener Diode Breakdown",
+    "ques": "What is the main application of a Zener diode and under what condition does it operate?",
+    "answer": {
+      "type": "text",
+      "content": "A Zener diode is used for voltage regulation.\nIt operates in reverse bias beyond its breakdown voltage."
+    },
+    "explanation": "***Step 1: Zener diode is always reverse biased***\n```Unlike regular diodes, it is meant to conduct in reverse beyond a set voltage.```\n\n***Step 2: Used for voltage regulation***\n```Because the voltage across it stays nearly constant after breakdown.```\n\nSo, ***Zener diodes regulate voltage when reverse biased beyond their breakdown voltage.***"
+  },
+  {
+    "title": "Band Gap and Conductivity",
+    "ques": "Which has higher conductivity at room temperature: silicon or germanium? Why?",
+    "answer": {
+      "type": "text",
+      "content": "Germanium has a smaller band gap (~0.66 eV) than silicon (~1.1 eV),\nso more electrons can jump to the conduction band,\nresulting in higher conductivity."
+    },
+    "explanation": "***Step 1: Compare band gaps***\n```Si ≈ 1.1 eV, Ge ≈ 0.66 eV```\n\n***Step 2: Smaller band gap → easier excitation of electrons***\n```More carriers in conduction band at same temperature```\n\nSo, ***Germanium has higher conductivity at room temperature.***"
+  },
+  {
+    "title": "Stopping Potential in Photoelectric Effect",
+    "ques": "Light of frequency 7×10¹⁴ Hz falls on a metal surface with a work function of 2.2 eV. Calculate the stopping potential. (h = 6.63×10⁻³⁴ J·s, 1 eV = 1.6×10⁻¹⁹ J, e = 1.6×10⁻¹⁹ C)",
+    "answer": {
+      "type": "text",
+      "content": "E = hf = 6.63×10⁻³⁴ × 7×10¹⁴ = 4.64×10⁻¹⁹ J\nWork function = 2.2 × 1.6×10⁻¹⁹ = 3.52×10⁻¹⁹ J\nK.E. = 4.64×10⁻¹⁹ - 3.52×10⁻¹⁹ = 1.12×10⁻¹⁹ J\nStopping potential = K.E. / e = 1.12×10⁻¹⁹ / 1.6×10⁻¹⁹ = 0.7 V"
+    },
+    "explanation": "***Step 1: Calculate energy of incoming photon***\n```E = hf = 6.63×10⁻³⁴ × 7×10¹⁴ = 4.64×10⁻¹⁹ J```\n\n***Step 2: Convert work function to joules***\n```φ = 2.2 eV × 1.6×10⁻¹⁹ = 3.52×10⁻¹⁹ J```\n\n***Step 3: Find maximum kinetic energy***\n```K.E. = E - φ = 1.12×10⁻¹⁹ J```\n\n***Step 4: Convert K.E. to stopping potential***\n```V₀ = K.E. / e = 1.12×10⁻¹⁹ / 1.6×10⁻¹⁹ = 0.7 V```\n\nSo, the stopping potential is ***0.7 volts.***"
+  },
+  {
+    "title": "Bohr Radius of Hydrogen Atom",
+    "ques": "Calculate the radius of the first orbit (n=1) in a hydrogen atom using the Bohr model. (Use ε₀ = 8.85×10⁻¹² C²/N·m², h = 6.63×10⁻³⁴ J·s, mₑ = 9.11×10⁻³¹ kg, e = 1.6×10⁻¹⁹ C, π ≈ 3.14)",
+    "answer": {
+      "type": "text",
+      "content": "Bohr radius r₁ = (ε₀h²) / (πmₑe²)\n= (8.85×10⁻¹² × (6.63×10⁻³⁴)²) / (3.14 × 9.11×10⁻³¹ × (1.6×10⁻¹⁹)²)\n≈ 5.29 × 10⁻¹¹ m"
+    },
+    "explanation": "***Step 1: Use Bohr radius formula: r₁ = (ε₀h²)/(πmₑe²)***\n\n***Step 2: Substitute constants***\n```Numerator: ε₀h² = 8.85×10⁻¹² × (6.63×10⁻³⁴)²```\n```Denominator: πmₑe² = 3.14 × 9.11×10⁻³¹ × (1.6×10⁻¹⁹)²```\n\n***Step 3: Simplify expression***\n```r₁ ≈ 5.29 × 10⁻¹¹ m```\n\nThis is the ***Bohr radius of the hydrogen atom.***"
+  },
+  {
+    "title": "Activity and Number of Nuclei",
+    "ques": "A radioactive sample shows an activity of 500 Bq and has a decay constant of 0.002 s⁻¹. Calculate the number of undecayed nuclei present.",
+    "answer": {
+      "type": "text",
+      "content": "A = λN ⇒ N = A / λ\n= 500 / 0.002\n= 2.5 × 10⁵ nuclei"
+    },
+    "explanation": "***Step 1: Use the relation A = λN***\n```Rearranged: N = A / λ```\n\n***Step 2: Plug in values***\n```N = 500 / 0.002 = 250000```\n\nSo, the number of undecayed nuclei is ***2.5 × 10⁵.***"
+  },
+  {
+    "title": "Energy Released in Fission Reaction",
+    "ques": "A single fission event of uranium-235 releases 3 neutrons and 210 MeV of energy. How much energy is released if 1 mole undergoes complete fission? (1 MeV = 1.6×10⁻¹³ J, Avogadro’s number = 6.022×10²³)",
+    "answer": {
+      "type": "text",
+      "content": "Energy per atom = 210 × 1.6×10⁻¹³ = 3.36×10⁻¹¹ J\nTotal energy = 3.36×10⁻¹¹ × 6.022×10²³\n= 2.02 × 10¹³ J"
+    },
+    "explanation": "***Step 1: Convert energy per fission to joules***\n```E = 210 MeV = 210 × 1.6×10⁻¹³ = 3.36×10⁻¹¹ J```\n\n***Step 2: Multiply by number of atoms in a mole***\n```E_total = 3.36×10⁻¹¹ × 6.022×10²³``` \n\n***Step 3: Final energy released***\n```E_total ≈ 2.02 × 10¹³ J```\n\nSo, ***2.02 × 10¹³ joules*** is released from complete fission of 1 mole."
+  },
+  {
+    "title": "Time Dilation for High-Speed Travel",
+    "ques": "An astronaut travels at 0.9c for 10 years (as measured by an observer on Earth). How long does the astronaut feel the journey lasts?",
+    "answer": {
+      "type": "text",
+      "content": "t' = t × √(1 - v²/c²)\n= 10 × √(1 - 0.81)\n= 10 × √0.19\n≈ 10 × 0.436 = 4.36 years"
+    },
+    "explanation": "***Step 1: Apply time dilation formula t' = t × √(1 - v²/c²)***\n```v = 0.9c ⇒ v²/c² = 0.81```\n\n***Step 2: Substitute values***\n```t' = 10 × √(1 - 0.81) = 10 × √0.19 ≈ 10 × 0.436``` \n\nSo, the astronaut experiences ***about 4.36 years.***"
+  },
+  {
+    "title": "Diode Reverse Bias Behavior",
+    "ques": "What happens when a normal silicon diode is reverse biased?",
+    "answer": {
+      "type": "text",
+      "content": "In reverse bias, current through a silicon diode is nearly zero,\nexcept a small leakage current until breakdown occurs at high reverse voltage."
+    },
+    "explanation": "***Step 1: Apply reverse bias — positive to n-side, negative to p-side***\n```This widens the depletion layer.```\n\n***Step 2: Very little current flows***\n```Only a small leakage current due to minority carriers is present.```\n\n***Step 3: Breakdown occurs beyond critical voltage***\n```Sudden increase in current if reverse voltage exceeds breakdown limit.```\n\nThus, in reverse bias, ***the diode blocks current unless breakdown happens.***"
+  },
+  {
+    "title": "Temperature Dependence of Diode Voltage",
+    "ques": "How does increasing temperature affect the forward voltage drop of a silicon diode?",
+    "answer": {
+      "type": "text",
+      "content": "As temperature increases, the forward voltage drop across a silicon diode decreases,\ndue to increased intrinsic carrier concentration and lower barrier potential."
+    },
+    "explanation": "***Step 1: Higher temperature increases carrier energy***\n```More electrons cross the junction with less external voltage.```\n\n***Step 2: Barrier potential decreases***\n```Which means forward voltage drop reduces.```\n\nSo, with rising temperature, ***the forward voltage drop of a diode decreases.***"
+  },
+  {
+    "title": "Threshold Frequency Concept",
+    "ques": "A metal has a work function of 3.0 eV. What is the threshold frequency of the light required to eject electrons? (h = 6.63×10⁻³⁴ J·s, 1 eV = 1.6×10⁻¹⁹ J)",
+    "answer": {
+      "type": "text",
+      "content": "ϕ = hf₀ ⇒ f₀ = ϕ / h\n= (3.0 × 1.6×10⁻¹⁹) / 6.63×10⁻³⁴\n≈ 7.24 × 10¹⁴ Hz"
+    },
+    "explanation": "***Step 1: Convert work function to joules***\n```ϕ = 3.0 eV = 3.0 × 1.6×10⁻¹⁹ = 4.8×10⁻¹⁹ J```\n\n***Step 2: Use formula ϕ = hf₀***\n```f₀ = ϕ / h = 4.8×10⁻¹⁹ / 6.63×10⁻³⁴``` \n\n***Step 3: Calculate threshold frequency***\n```f₀ ≈ 7.24 × 10¹⁴ Hz```\n\nSo, the threshold frequency is ***7.24 × 10¹⁴ Hz.***"
+  },
+  {
+    "title": "Transition Energy in Bohr Model",
+    "ques": "Calculate the energy emitted when an electron in a hydrogen atom jumps from n = 4 to n = 1. (Use E = -13.6 eV / n²)",
+    "answer": {
+      "type": "text",
+      "content": "E₄ = -13.6 / 16 = -0.85 eV\nE₁ = -13.6 eV\nΔE = E₁ - E₄ = -13.6 - (-0.85) = -12.75 eV"
+    },
+    "explanation": "***Step 1: Use energy formula for hydrogen atom***\n```Eₙ = -13.6 / n²```\n\n***Step 2: Calculate initial and final energies***\n```E₄ = -13.6 / 16 = -0.85 eV```  \n```E₁ = -13.6 eV```\n\n***Step 3: Find energy difference***\n```ΔE = E₁ - E₄ = -13.6 - (-0.85) = -12.75 eV```\n\nSo, ***12.75 eV is emitted as radiation.***"
+  },
+  {
+    "title": "Alpha Particle Range Estimation",
+    "ques": "If an alpha particle has an energy of 5 MeV, estimate its range in air using the empirical formula R (in cm) ≈ (E in MeV)^(3/2) / 1.5.",
+    "answer": {
+      "type": "text",
+      "content": "R = (5)^(3/2) / 1.5 = √125 / 1.5 ≈ 11.18 / 1.5 ≈ 7.45 cm"
+    },
+    "explanation": "***Step 1: Use empirical formula***\n```R = E^(3/2) / 1.5```\n\n***Step 2: E = 5 MeV ⇒ E^(3/2) = √(5³) = √125 ≈ 11.18***\n\n***Step 3: Final calculation***\n```R = 11.18 / 1.5 ≈ 7.45 cm```\n\nSo, the alpha particle has a range of about ***7.45 cm in air.***"
+  },
+  {
+    "title": "Fusion vs Fission Energy",
+    "ques": "Compare the energy per nucleon released in fusion and fission, and explain which is more efficient.",
+    "answer": {
+      "type": "text",
+      "content": "Fusion releases ~6-8 MeV per nucleon (e.g., D-T fusion),\nwhile fission releases ~0.85 MeV per nucleon.\nHence, fusion is more energy-efficient per nucleon."
+    },
+    "explanation": "***Step 1: Energy released in fusion***\n```~6-8 MeV per nucleon (e.g., hydrogen fusion in stars)```\n\n***Step 2: Energy released in fission***\n```~0.85 MeV per nucleon (e.g., U-235)```\n\n***Step 3: Comparison***\n```Fusion releases more energy per nucleon.```\n\nTherefore, ***fusion is more efficient than fission per nucleon.***"
+  },
+  {
+    "title": "Relativistic Mass Increase",
+    "ques": "Calculate the relativistic mass of an object moving at 0.8c, if its rest mass is 2 kg.",
+    "answer": {
+      "type": "text",
+      "content": "m = m₀ / √(1 - v²/c²) = 2 / √(1 - 0.64) = 2 / √0.36 = 2 / 0.6 = 3.33 kg"
+    },
+    "explanation": "***Step 1: Use relativistic mass formula m = m₀ / √(1 - v²/c²)***\n```v = 0.8c ⇒ v²/c² = 0.64```\n\n***Step 2: Plug into formula***\n```m = 2 / √(1 - 0.64) = 2 / 0.6 = 3.33 kg```\n\nSo, the relativistic mass is ***3.33 kg.***"
+  },
+  {
+    "title": "Mass-Energy Equivalence Application",
+    "ques": "How much mass is converted into energy if a nuclear reactor generates 9×10¹³ J of energy? (Use c = 3×10⁸ m/s)",
+    "answer": {
+      "type": "text",
+      "content": "E = mc² ⇒ m = E / c² = 9×10¹³ / (9×10¹⁶) = 0.001 kg"
+    },
+    "explanation": "***Step 1: Use E = mc² and solve for m***\n```m = E / c² = 9×10¹³ / (3×10⁸)² = 9×10¹³ / 9×10¹⁶ = 0.001 kg```\n\nSo, the mass converted is ***0.001 kg or 1 gram.***"
+  },
+  {
+    "title": "Forward Bias Voltage for Silicon Diode",
+    "ques": "What is the typical forward voltage drop across a silicon diode, and why does it occur?",
+    "answer": {
+      "type": "text",
+      "content": "The typical forward voltage drop is about 0.7 V.\nIt occurs due to the built-in potential barrier of the p-n junction."
+    },
+    "explanation": "***Step 1: Understand diode forward bias***\n```Current starts flowing only after overcoming the barrier.```\n\n***Step 2: Built-in potential of silicon***\n```≈ 0.7 V required to push carriers across the junction.```\n\nHence, ***forward voltage drop is ~0.7 V for silicon diodes.***"
+  },
+  {
+    "title": "PN Junction Barrier Behavior",
+    "ques": "Explain what happens to the depletion region when a PN junction is reverse biased.",
+    "answer": {
+      "type": "text",
+      "content": "In reverse bias, the depletion region widens,\nas majority carriers are pulled away from the junction,\npreventing current flow."
+    },
+    "explanation": "***Step 1: Reverse bias → positive to n-side, negative to p-side***\n```This opposes the movement of majority carriers.```\n\n***Step 2: Depletion region expands***\n```More ions are exposed, increasing barrier width.```\n\n***Step 3: Current is blocked***\n```Except for a small leakage due to minority carriers.```\n\nSo, reverse bias ***increases the depletion width and inhibits current.***"
+  },
+  {
+    "title": "Effect of Light Intensity on Photoelectric Current",
+    "ques": "If the frequency of incident light is constant but its intensity is doubled, what happens to the photoelectric current?",
+    "answer": {
+      "type": "text",
+      "content": "The photoelectric current doubles,\nas more photons result in more emitted electrons\nprovided the frequency is above the threshold."
+    },
+    "explanation": "***Step 1: Frequency remains constant, so energy per photon is unchanged***\n```E = hf, and f is constant.```\n\n***Step 2: Doubling intensity increases photon flux***\n```More photons per second hit the surface.```\n\n***Step 3: More electrons are ejected***\n```This increases the photoelectric current.```\n\nSo, ***photoelectric current doubles if intensity doubles.***"
+  },
+  {
+    "title": "Wavelength of Emitted Light in Bohr Transition",
+    "ques": "Find the wavelength of light emitted when an electron in hydrogen atom falls from n = 3 to n = 2. Use R_H = 1.097×10⁷ m⁻¹.",
+    "answer": {
+      "type": "text",
+      "content": "1/λ = R_H (1/n₁² - 1/n₂²) = 1.097×10⁷ (1/2² - 1/3²)\n= 1.097×10⁷ (1/4 - 1/9)\n= 1.097×10⁷ × (5/36)\nλ ≈ 656 nm"
+    },
+    "explanation": "***Step 1: Use the Balmer formula***\n```1/λ = R_H (1/n₁² - 1/n₂²), where n₂ > n₁``` \n```1/λ = 1.097×10⁷ × (1/4 - 1/9) = 1.097×10⁷ × (5/36)```\n\n***Step 2: Calculate 1/λ***\n```1/λ ≈ 1.524×10⁶ ⇒ λ ≈ 656 nm```\n\nSo, light of ***wavelength ~656 nm*** is emitted (visible red line)."
+  },
+  {
+    "title": "Half-Life and Remaining Mass",
+    "ques": "A 200 g sample of a radioactive substance has a half-life of 4 hours. How much remains after 12 hours?",
+    "answer": {
+      "type": "text",
+      "content": "Number of half-lives = 12 / 4 = 3\nRemaining mass = 200 × (1/2)³ = 25 g"
+    },
+    "explanation": "***Step 1: Find number of half-lives elapsed***\n```n = 12 / 4 = 3```\n\n***Step 2: Use decay formula***\n```Remaining = Initial × (1/2)^n = 200 × (1/2)^3 = 25 g```\n\nSo, ***25 grams*** of the substance remains after 12 hours."
+  },
+  {
+    "title": "Chain Reaction in Fission",
+    "ques": "Explain why nuclear fission reactions can become self-sustaining.",
+    "answer": {
+      "type": "text",
+      "content": "Fission of heavy nuclei like U-235 releases multiple neutrons,\nwhich can trigger further fissions,\nleading to a chain reaction if at least one neutron per event causes another fission."
+    },
+    "explanation": "***Step 1: Each fission event releases ~2–3 neutrons***\n```These can initiate more fission events.```\n\n***Step 2: Sustained reaction requires average ≥1 neutron causing another fission***\n```This is called a critical condition.```\n\n***Step 3: Result is exponential increase in energy***\n```If controlled, it’s useful (reactors); uncontrolled, it's explosive (bombs).```\n\nThus, ***self-sustaining chain reactions occur in nuclear fission.***"
+  },
+  {
+    "title": "Length Contraction in Special Relativity",
+    "ques": "A spaceship of proper length 100 m moves at 0.6c relative to Earth. What is its observed length from Earth?",
+    "answer": {
+      "type": "text",
+      "content": "L = L₀ × √(1 - v²/c²) = 100 × √(1 - 0.36)\n= 100 × √0.64 = 100 × 0.8 = 80 m"
+    },
+    "explanation": "***Step 1: Use length contraction formula***\n```L = L₀ × √(1 - v²/c²)```\n\n***Step 2: Substitute values***\n```L = 100 × √(1 - 0.36) = 100 × √0.64 = 100 × 0.8 = 80 m```\n\nSo, the observed length is ***80 meters.***"
+  },
+  {
+    "title": "Semiconductor Conductivity with Temperature",
+    "ques": "How does the conductivity of an intrinsic semiconductor change with temperature?",
+    "answer": {
+      "type": "text",
+      "content": "As temperature increases,\nthe conductivity of an intrinsic semiconductor increases,\ndue to increased thermal generation of electron-hole pairs."
+    },
+    "explanation": "***Step 1: Heating excites more electrons across the band gap***\n```More charge carriers are available.```\n\n***Step 2: More carriers = higher conductivity***\n```σ ∝ n (number of charge carriers)```\n\nHence, ***conductivity increases with temperature*** in intrinsic semiconductors."
+  },
+  {
+    "title": "Zener Diode in Reverse Bias",
+    "ques": "A Zener diode with breakdown voltage 5.6 V is connected in reverse bias. What happens if the reverse voltage is 6 V?",
+    "answer": {
+      "type": "text",
+      "content": "The Zener diode enters breakdown,\nmaintains a constant voltage of 5.6 V across it,\nand conducts current in reverse direction."
+    },
+    "explanation": "***Step 1: Zener diode designed for reverse breakdown***\n```At V > breakdown, it starts conducting in reverse.```\n\n***Step 2: It maintains constant voltage***\n```Acts as voltage regulator by clamping voltage to 5.6 V.```\n\nSo, the diode ***clamps voltage at 5.6 V*** and conducts current."
+  },
+  {
+    "title": "Energy of X-Ray Photon from Electron Transition",
+    "ques": "An electron transitions from the K shell (n=1) to the L shell (n=2) in a hydrogen-like ion. Calculate the energy of the emitted X-ray photon if Z = 2. Use Eₙ = -13.6 Z² / n² eV.",
+    "answer": {
+      "type": "text",
+      "content": "E₁ = -13.6 × 4 / 1² = -54.4 eV\nE₂ = -13.6 × 4 / 4 = -13.6 eV\nΔE = |E₂ - E₁| = |-13.6 + 54.4| = 40.8 eV"
+    },
+    "explanation": "***Step 1: Use hydrogen-like energy formula***\n```Eₙ = -13.6 Z² / n²```\n\n***Step 2: Compute E₁ and E₂ for Z = 2***\n```E₁ = -54.4 eV, E₂ = -13.6 eV```\n\n***Step 3: Energy emitted = E₁ - E₂ = 40.8 eV***\n\nSo, ***photon energy is 40.8 eV.***"
+  },
+  {
+    "title": "Stopping Potential in Photoelectric Effect",
+    "ques": "Light of wavelength 250 nm falls on a metal surface with a work function of 2.2 eV. Calculate the stopping potential. (h = 6.63×10⁻³⁴ J·s, c = 3×10⁸ m/s, 1 eV = 1.6×10⁻¹⁹ J)",
+    "answer": {
+      "type": "text",
+      "content": "E = hc/λ = (6.63×10⁻³⁴ × 3×10⁸) / (250×10⁻⁹)\n= 7.956×10⁻¹⁹ J = 4.97 eV\nStopping potential = (E - ϕ)/e = (4.97 - 2.2) = 2.77 V"
+    },
+    "explanation": "***Step 1: Calculate photon energy***\n```E = hc/λ = (6.63×10⁻³⁴ × 3×10⁸) / 250×10⁻⁹ = 7.956×10⁻¹⁹ J```\n\n***Step 2: Convert to eV***\n```E = 7.956×10⁻¹⁹ / 1.6×10⁻¹⁹ ≈ 4.97 eV```\n\n***Step 3: Subtract work function to get stopping potential***\n```V₀ = (E - ϕ) = 4.97 - 2.2 = 2.77 V```\n\nSo, ***stopping potential is 2.77 V.***"
+  },
+  {
+    "title": "Bohr Radius Calculation",
+    "ques": "Calculate the radius of the second orbit (n=2) of a hydrogen atom using Bohr’s model. (Bohr radius a₀ = 0.529 Å)",
+    "answer": {
+      "type": "text",
+      "content": "r_n = n² × a₀ = 2² × 0.529 Å = 4 × 0.529 = 2.116 Å"
+    },
+    "explanation": "***Step 1: Use Bohr radius formula***\n```r_n = n² × a₀``` \n\n***Step 2: Substitute n = 2 and a₀ = 0.529 Å***\n```r_2 = 4 × 0.529 = 2.116 Å```\n\nSo, the second orbit radius is ***2.116 Å.***"
+  },
+  {
+    "title": "Gamma Decay Characteristics",
+    "ques": "Why does gamma decay not change the atomic number or mass number of a nucleus?",
+    "answer": {
+      "type": "text",
+      "content": "Gamma decay involves emission of electromagnetic radiation\nfrom an excited nucleus,\nwith no change in proton or neutron number."
+    },
+    "explanation": "***Step 1: Gamma photons are neutral***\n```They carry no charge and no mass.```\n\n***Step 2: Emission occurs when nucleus drops to lower energy state***\n```No nucleons are added or removed.```\n\nThus, ***gamma decay doesn't alter atomic or mass numbers.***"
+  },
+  {
+    "title": "Fusion in the Sun",
+    "ques": "Describe the fusion process occurring in the sun and identify the main elements involved.",
+    "answer": {
+      "type": "text",
+      "content": "Hydrogen nuclei fuse to form helium\nthrough a series of steps called the proton-proton chain,\nreleasing energy in the form of light and heat."
+    },
+    "explanation": "***Step 1: Main reaction in the sun***\n```4¹H → ⁴He + 2e⁺ + 2ν + energy```\n\n***Step 2: Involves fusion of protons (hydrogen nuclei)***\n```Occurs under extreme pressure and temperature in the core.```\n\n***Step 3: Mass is lost and converted to energy***\n```According to E = mc²```\n\nSo, ***hydrogen fusion powers the sun.***"
+  },
+  {
+    "title": "Relativistic Time Dilation for Fast Object",
+    "ques": "A spaceship travels at 0.9c relative to Earth. If 10 years pass on Earth, how much time does the crew experience?",
+    "answer": {
+      "type": "text",
+      "content": "Δt' = Δt × √(1 - v²/c²) = 10 × √(1 - 0.81)\n= 10 × √0.19 ≈ 10 × 0.436 = 4.36 years"
+    },
+    "explanation": "***Step 1: Time dilation formula***\n```Δt' = Δt × √(1 - v²/c²)``` \n\n***Step 2: v = 0.9c ⇒ v²/c² = 0.81***\n```√(1 - 0.81) = √0.19 ≈ 0.436```\n\n***Step 3: Multiply with Earth time***\n```Δt' = 10 × 0.436 = 4.36 years```\n\nSo, ***astronauts experience 4.36 years.***"
+  },
+  {
+    "title": "Forward Bias in LED",
+    "ques": "Explain how a Light Emitting Diode (LED) emits light when forward biased.",
+    "answer": {
+      "type": "text",
+      "content": "In forward bias, electrons and holes recombine at the junction,\nand the energy released appears as visible light photons."
+    },
+    "explanation": "***Step 1: Current flows in forward bias***\n```Electrons from n-side meet holes on p-side.```\n\n***Step 2: Recombination releases energy***\n```This energy is emitted as photons.```\n\n***Step 3: Choice of material determines light wavelength***\n```E.g., GaAs emits infrared, GaP emits visible light.```\n\nSo, ***LEDs emit light due to electron-hole recombination.***"
+  },
+  {
+    "title": "Depletion Region Width with Forward Bias",
+    "ques": "What happens to the width of the depletion region in a p-n junction when forward biased?",
+    "answer": {
+      "type": "text",
+      "content": "The depletion region becomes narrower,\nas forward bias reduces the potential barrier\nand allows charge carriers to move across the junction."
+    },
+    "explanation": "***Step 1: Forward bias applies external voltage***\n```This opposes the built-in potential of the junction.```\n\n***Step 2: Reduced potential barrier***\n```Electrons and holes move toward the junction.```\n\n***Step 3: Depletion zone shrinks***\n```More carriers recombine, narrowing the region.```\n\nSo, ***the depletion width decreases in forward bias.***"
+  },
+  {
+    "title": "Energy Released in Fusion Reaction",
+    "ques": "Two deuterium nuclei (²H) fuse to form helium-3 (³He) and a neutron. Calculate the energy released if the mass difference is 0.0189 u. (1 u = 931.5 MeV)",
+    "answer": {
+      "type": "text",
+      "content": "ΔE = 0.0189 u × 931.5 MeV/u = 17.61 MeV"
+    },
+    "explanation": "***Step 1: Use mass-energy equivalence***\n```ΔE = Δm × 931.5 MeV/u```\n\n***Step 2: Multiply mass difference***\n```ΔE = 0.0189 × 931.5 ≈ 17.61 MeV```\n\nSo, the fusion reaction releases ***17.61 MeV of energy.***"
+  },
+  {
+    "title": "Threshold Frequency Concept",
+    "ques": "A metal surface does not emit photoelectrons when illuminated with light of wavelength 700 nm, but starts emitting when exposed to 500 nm light. Explain why this happens.",
+    "answer": {
+      "type": "text",
+      "content": "The energy of 700 nm photons is less than the work function,\nso no photoemission occurs.\n500 nm photons have higher energy exceeding the threshold,\nhence photoelectrons are emitted."
+    },
+    "explanation": "***Step 1: Photon energy depends on wavelength***\n```E = hc/λ ⇒ longer λ means lower energy.```\n\n***Step 2: Compare with metal's work function***\n```If E < φ, no photoemission. If E ≥ φ, electrons are emitted.```\n\n***Step 3: 700 nm < threshold frequency***\n```Insufficient energy to release electrons.```\n\n***Step 4: 500 nm ≥ threshold frequency***\n```Enough energy to overcome work function.```\n\nThus, ***emission begins when photon energy crosses the threshold.***"
+  },
+  {
+    "title": "Energy Levels and Ionization Energy",
+    "ques": "What is the ionization energy of a hydrogen atom in the ground state according to Bohr's model?",
+    "answer": {
+      "type": "text",
+      "content": "Ionization energy = Energy needed to move electron from n = 1 to n = ∞\n= 13.6 eV"
+    },
+    "explanation": "***Step 1: Ground state energy of hydrogen***\n```E₁ = -13.6 eV```\n\n***Step 2: Ionization means taking electron to n = ∞***\n```E_∞ = 0 eV (free electron)```\n\n***Step 3: Difference = 0 - (-13.6) = 13.6 eV***\n\nSo, ***hydrogen’s ionization energy is 13.6 eV.***"
+  },
+  {
+    "title": "Decay Equation for Beta Minus",
+    "ques": "Write the nuclear equation for beta minus decay of carbon-14.",
+    "answer": {
+      "type": "text",
+      "content": "₆¹⁴C → ₇¹⁴N + β⁻ + 𝜈̅ₑ"
+    },
+    "explanation": "***Step 1: Beta minus decay converts a neutron into a proton***\n```This increases atomic number by 1.```\n\n***Step 2: Mass number remains unchanged***\n```Only proton number changes.```\n\n***Step 3: Electron and antineutrino are emitted***\n```These conserve charge and lepton number.```\n\nSo, ***carbon-14 becomes nitrogen-14 through beta decay.***"
+  },
+  {
+    "title": "Neutron-to-Proton Ratio in Stability",
+    "ques": "Why do heavy nuclei have more neutrons than protons for stability?",
+    "answer": {
+      "type": "text",
+      "content": "Extra neutrons help reduce electrostatic repulsion between protons\nand provide strong nuclear force\nwithout increasing repulsion."
+    },
+    "explanation": "***Step 1: Protons repel due to positive charges***\n```Electrostatic repulsion increases with more protons.```\n\n***Step 2: Neutrons add attractive nuclear force***\n```They contribute to binding without adding repulsion.```\n\n***Step 3: Heavy nuclei need more neutrons***\n```To counteract the strong proton-proton repulsion.```\n\nThus, ***a high neutron-to-proton ratio stabilizes heavy nuclei.***"
+  },
+  {
+    "title": "Relativistic Mass Increase",
+    "ques": "An object moves at 0.8c. By what factor does its relativistic mass increase?",
+    "answer": {
+      "type": "text",
+      "content": "γ = 1 / √(1 - v²/c²) = 1 / √(1 - 0.64) = 1 / √0.36 = 1.667\nSo, mass increases by a factor of 1.667"
+    },
+    "explanation": "***Step 1: Use Lorentz factor γ***\n```γ = 1 / √(1 - v²/c²)```\n\n***Step 2: Substitute v = 0.8c***\n```γ = 1 / √(1 - 0.64) = 1 / √0.36 = 1 / 0.6 = 1.667```\n\n***Step 3: Relativistic mass = γ × rest mass***\n\nSo, ***mass increases by a factor of 1.667.***"
+  },
+  {
+    "title": "Barrier Potential of Diode",
+    "ques": "What is the typical barrier potential for a silicon diode at room temperature, and why is it important?",
+    "answer": {
+      "type": "text",
+      "content": "The barrier potential for silicon is about 0.7 V.\nIt represents the minimum voltage needed\nto allow significant current flow in forward bias."
+    },
+    "explanation": "***Step 1: Barrier potential forms due to diffusion of charges***\n```Creates an electric field at the junction.```\n\n***Step 2: For silicon, this is approximately 0.7 V***\n```Forward bias must overcome this to conduct.```\n\n***Step 3: Below 0.7 V, diode does not conduct significantly***\n```Only leakage or minimal current flows.```\n\nSo, ***0.7 V is the ‘turn-on’ voltage for a silicon diode.***"
+  },
+  {
+    "title": "Band Gap and Electrical Conductivity",
+    "ques": "Explain why conductors, semiconductors, and insulators differ in conductivity based on their band gaps.",
+    "answer": {
+      "type": "text",
+      "content": "Conductors have overlapping bands,\nsemiconductors have small band gaps (~1 eV),\nand insulators have large gaps (>3 eV),\nmaking it harder for electrons to move freely."
+    },
+    "explanation": "***Step 1: In conductors***\n```Valence and conduction bands overlap ⇒ free electrons move easily.```\n\n***Step 2: In semiconductors***\n```Small band gap ⇒ some electrons thermally excited into conduction band.```\n\n***Step 3: In insulators***\n```Large band gap ⇒ electrons can't jump without high energy input.```\n\nSo, ***band gap size explains differences in electrical behavior.***"
+  },
+  {
+    "title": "Mass-Energy Conversion in Annihilation",
+    "ques": "When an electron and positron annihilate, two photons are produced. What is the energy of each photon? (mass of electron = 9.11×10⁻³¹ kg)",
+    "answer": {
+      "type": "text",
+      "content": "Total energy = 2 × (mc²) = 2 × (9.11×10⁻³¹ × (3×10⁸)²)\n= 1.64×10⁻¹³ J\nEach photon has energy = 0.82×10⁻¹³ J"
+    },
+    "explanation": "***Step 1: Use E = mc² for each particle***\n```E = 9.11×10⁻³¹ × 9×10¹⁶ = 8.2×10⁻¹⁴ J (per particle)```\n\n***Step 2: Total energy = sum of both particles***\n```= 2 × 8.2×10⁻¹⁴ = 1.64×10⁻¹³ J```\n\n***Step 3: Two photons share energy equally***\n```Each = 0.82×10⁻¹³ J```\n\nSo, ***each photon has 0.82×10⁻¹³ J of energy.***"
+  },
+  {
+    "title": "Effect of Light Intensity on Photoelectric Current",
+    "ques": "In a photoelectric experiment, how does increasing the intensity of incident light affect the photoelectric current, assuming the frequency is above threshold?",
+    "answer": {
+      "type": "text",
+      "content": "Photoelectric current increases\nas intensity increases,\nbecause more photons lead to more ejected electrons per second."
+    },
+    "explanation": "***Step 1: Intensity is related to photon number***\n```Higher intensity ⇒ more photons per unit time.```\n\n***Step 2: Each photon can eject one electron***\n```So, more photons = more electrons.```\n\n***Step 3: Frequency is already above threshold***\n```So ejection depends on photon quantity, not energy.```\n\nThus, ***photoelectric current increases with intensity.***"
+  },
+  {
+    "title": "Bohr Model – Velocity of Electron",
+    "ques": "Calculate the velocity of an electron in the first Bohr orbit of hydrogen. (e = 1.6×10⁻¹⁹ C, ε₀ = 8.85×10⁻¹² C²/N·m², h = 6.63×10⁻³⁴ J·s, mₑ = 9.1×10⁻³¹ kg)",
+    "answer": {
+      "type": "text",
+      "content": "v = e² / (2ε₀h) = (1.6×10⁻¹⁹)² / (2×8.85×10⁻¹²×6.63×10⁻³⁴) ≈ 2.19×10⁶ m/s"
+    },
+    "explanation": "***Step 1: Use derived velocity formula from Bohr model***\n```v₁ = e² / (2ε₀h)```\n\n***Step 2: Substitute known constants***\n```v = (1.6×10⁻¹⁹)² / (2×8.85×10⁻¹²×6.63×10⁻³⁴) ≈ 2.19×10⁶ m/s```\n\nSo, ***the velocity of electron in n=1 is ≈ 2.19×10⁶ m/s.***"
+  },
+  {
+    "title": "Half-life and Remaining Mass",
+    "ques": "A radioactive sample has a half-life of 5 years. How much of a 100 g sample will remain after 15 years?",
+    "answer": {
+      "type": "text",
+      "content": "After 15 years (3 half-lives):\nRemaining mass = 100 × (1/2)³ = 12.5 g"
+    },
+    "explanation": "***Step 1: Determine number of half-lives***\n```15 years ÷ 5 years = 3 half-lives```\n\n***Step 2: Apply decay formula***\n```Remaining = Initial × (1/2)^n = 100 × (1/2)^3 = 12.5 g```\n\nSo, ***12.5 g remains after 15 years.***"
+  },
+  {
+    "title": "Chain Reaction in Nuclear Fission",
+    "ques": "Explain how a chain reaction is sustained in a nuclear fission process.",
+    "answer": {
+      "type": "text",
+      "content": "In fission, each reaction releases neutrons\nthat can initiate further fission in other nuclei,\nsustaining a chain reaction."
+    },
+    "explanation": "***Step 1: Fission splits a heavy nucleus***\n```Releases energy and 2-3 neutrons per event.```\n\n***Step 2: These neutrons can strike other nuclei***\n```Triggering more fission reactions.```\n\n***Step 3: If at least one neutron causes further fission***\n```The process continues — a chain reaction.```\n\nSo, ***released neutrons propagate the reaction.***"
+  },
+  {
+    "title": "Time Dilation with Twin Paradox",
+    "ques": "If one twin travels at 0.95c for 20 years (Earth frame) and returns, how much younger will they be compared to the twin who stayed on Earth?",
+    "answer": {
+      "type": "text",
+      "content": "γ = 1 / √(1 - 0.95²) ≈ 3.202\nTime for traveling twin = 20 / 3.202 ≈ 6.25 years\nDifference = 20 - 6.25 = 13.75 years"
+    },
+    "explanation": "***Step 1: Find Lorentz factor γ***\n```γ = 1 / √(1 - 0.95²) = 1 / √(1 - 0.9025) = 1 / √0.0975 ≈ 3.202```\n\n***Step 2: Time experienced by traveler***\n```Δt' = Δt / γ = 20 / 3.202 ≈ 6.25 years```\n\n***Step 3: Difference in aging***\n```20 - 6.25 = 13.75 years younger```\n\nSo, ***the traveling twin is 13.75 years younger.***"
+  },
+  {
+    "title": "Reverse Bias Characteristics of Diode",
+    "ques": "What happens to the current through a diode in reverse bias, and why?",
+    "answer": {
+      "type": "text",
+      "content": "In reverse bias, only a tiny leakage current flows,\nas the potential barrier increases\nand majority carriers cannot cross the junction."
+    },
+    "explanation": "***Step 1: Reverse bias widens depletion layer***\n```Increases potential barrier.```\n\n***Step 2: Majority carriers are repelled***\n```They cannot cross the junction.```\n\n***Step 3: Only minority carriers contribute to leakage***\n```Resulting in very small reverse current.```\n\nSo, ***current is minimal in reverse bias.***"
+  },
+  {
+    "title": "Conductivity of Intrinsic Semiconductor",
+    "ques": "Why does the conductivity of an intrinsic semiconductor increase with temperature?",
+    "answer": {
+      "type": "text",
+      "content": "As temperature increases,\nmore electrons gain enough energy\nto jump from the valence to conduction band,\nincreasing carrier concentration and conductivity."
+    },
+    "explanation": "***Step 1: Thermal energy excites electrons***\n```Electrons jump across the band gap.```\n\n***Step 2: Each excited electron leaves behind a hole***\n```Creates electron-hole pairs.```\n\n***Step 3: More charge carriers = higher conductivity***\n```Carrier concentration increases exponentially with temperature.```\n\nSo, ***conductivity rises with temperature.***"
+  },
+  {
+    "title": "Fusion vs Fission Energy Release",
+    "ques": "Why does fusion release more energy per nucleon than fission?",
+    "answer": {
+      "type": "text",
+      "content": "In fusion, light nuclei form a more stable nucleus\nwith higher binding energy per nucleon,\nreleasing greater energy per nucleon\nthan heavy nuclei splitting in fission."
+    },
+    "explanation": "***Step 1: Fusion forms stable nuclei***\n```Higher binding energy per nucleon = more stability.```\n\n***Step 2: Fission splits already large unstable nuclei***\n```Still releases energy, but less per nucleon.```\n\n***Step 3: Binding energy curve peaks near iron***\n```Fusion moves toward that peak more efficiently.```\n\nSo, ***fusion releases more energy per nucleon.***"
+  }
+]

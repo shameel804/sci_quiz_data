@@ -1,0 +1,290 @@
+[
+  {
+    "title": "First Law of Thermodynamics",
+    "ques": "A system absorbs 500 J of heat and does 200 J of work on the surroundings. What is the change in internal energy of the system?",
+    "answer": {
+      "type": "text",
+      "content": "The change in internal energy is 300 J."
+    },
+    "explanation": "***First Law of Thermodynamics*** states:\n```ΔU = Q - W```\nwhere ```ΔU``` is change in internal energy,\n```Q``` is heat added to the system,\nand ```W``` is work done by the system.\n\nGiven: ```Q = 500 J```, ```W = 200 J```\nSo, ```ΔU = 500 J - 200 J = 300 J```\n\n***Therefore, the internal energy increases by 300 J.***"
+  },
+  {
+    "title": "Conduction Heat Transfer",
+    "ques": "A metal rod has a thermal conductivity of 400 W/m·K, a length of 2 m, and cross-sectional area of 0.01 m². If one end is at 100°C and the other at 0°C, what is the rate of heat transfer through the rod?",
+    "answer": {
+      "type": "text",
+      "content": "The rate of heat transfer is 2000 W."
+    },
+    "explanation": "Use ***Fourier’s law of heat conduction***:\n```Q/t = (k·A·ΔT)/L```\nwhere ```k = 400 W/m·K```, ```A = 0.01 m²```, ```ΔT = 100°C```, ```L = 2 m```\n\nPlug in the values:\n```Q/t = (400 × 0.01 × 100) / 2 = 400 / 2 = 2000 W```\n\n***Thus, 2000 W of heat is transferred per second.***"
+  },
+  {
+    "title": "Thermal Expansion",
+    "ques": "An aluminum rod of length 2 m is heated from 20°C to 100°C. If the coefficient of linear expansion is 2.4 × 10⁻⁵ /°C, what is the increase in length?",
+    "answer": {
+      "type": "text",
+      "content": "The increase in length is 0.00384 m or 3.84 mm."
+    },
+    "explanation": "***Formula for linear expansion***:\n```ΔL = α·L·ΔT```\nwhere ```α = 2.4 × 10⁻⁵ /°C```, ```L = 2 m```, ```ΔT = 80°C```\n\n```ΔL = 2.4 × 10⁻⁵ × 2 × 80 = 0.00384 m```\n\n***Hence, the rod expands by 3.84 mm.***"
+  },
+  {
+    "title": "Specific Heat Capacity",
+    "ques": "How much heat is needed to raise the temperature of 2 kg of water from 25°C to 75°C? (Specific heat capacity of water = 4186 J/kg·°C)",
+    "answer": {
+      "type": "text",
+      "content": "The heat required is 418600 J."
+    },
+    "explanation": "***Formula:*** ```Q = mcΔT```\nwhere ```m = 2 kg```, ```c = 4186 J/kg·°C```, ```ΔT = 50°C```\n\n```Q = 2 × 4186 × 50 = 418600 J```\n\n***Therefore, 418600 joules of heat are required.***"
+  },
+  {
+    "title": "Convection Heat Transfer",
+    "ques": "What mechanism primarily causes heat transfer in boiling water?",
+    "answer": {
+      "type": "text",
+      "content": "Convection is the primary mechanism of heat transfer in boiling water."
+    },
+    "explanation": "In ***convection***, heat is transferred by the ***bulk movement of fluid*** (liquid or gas).\n\nIn boiling water, warmer water at the bottom becomes less dense and rises,\nwhile cooler, denser water descends. This creates a ***convection current***.\n\n***Hence, convection is the dominant heat transfer method during boiling.***"
+  },
+  {
+    "title": "Radiation Heat Transfer",
+    "ques": "Why do black surfaces absorb more heat than white surfaces?",
+    "answer": {
+      "type": "text",
+      "content": "Black surfaces are better absorbers of radiation than white surfaces."
+    },
+    "explanation": "Heat transfer by ***radiation*** involves electromagnetic waves.\n\n***Black surfaces*** are good absorbers and emitters of radiation because they absorb all wavelengths.\n***White surfaces*** reflect most of the radiation and hence absorb less.\n\n***Therefore, black surfaces heat up more due to better absorption of thermal radiation.***"
+  },
+  {
+    "title": "Efficiency of Heat Engine",
+    "ques": "A heat engine absorbs 1000 J of heat from the hot reservoir and rejects 600 J to the cold reservoir. What is its efficiency?",
+    "answer": {
+      "type": "text",
+      "content": "The efficiency of the heat engine is 40%."
+    },
+    "explanation": "Efficiency of a heat engine:\n```η = (W/Q₁) × 100```\nWhere ```W = Q₁ - Q₂ = 1000 J - 600 J = 400 J```\n\n```η = (400 / 1000) × 100 = 40%```\n\n***Thus, the engine operates at 40% efficiency.***"
+  },
+  {
+    "title": "Entropy Change in Reversible Process",
+    "ques": "What is the change in entropy when 500 J of heat is added reversibly to a system at 250 K?",
+    "answer": {
+      "type": "text",
+      "content": "The change in entropy is 2 J/K."
+    },
+    "explanation": "Entropy change for a reversible process:\n```ΔS = Q_rev / T```\nGiven: ```Q_rev = 500 J```, ```T = 250 K```\n\n```ΔS = 500 / 250 = 2 J/K```\n\n***Therefore, the entropy increases by 2 J/K.***"
+  },
+  {
+    "title": "Zeroth Law of Thermodynamics",
+    "ques": "If object A is in thermal equilibrium with object B, and object B is in thermal equilibrium with object C, what can be said about the relationship between A and C?",
+    "answer": {
+      "type": "text",
+      "content": "Objects A and C are in thermal equilibrium with each other."
+    },
+    "explanation": "According to the ***Zeroth Law of Thermodynamics***:\n\nIf ```A ⇌ B``` and ```B ⇌ C``` in thermal equilibrium,\nthen ***A ⇌ C***.\n\nThis law establishes the concept of ***temperature*** as a measurable quantity.\n\n***Therefore, A and C must be in thermal equilibrium.***"
+  },
+  {
+    "title": "Second Law of Thermodynamics",
+    "ques": "Why can't all of the heat energy absorbed by a heat engine be converted into work?",
+    "answer": {
+      "type": "text",
+      "content": "Because some energy is always lost as waste heat due to the Second Law of Thermodynamics."
+    },
+    "explanation": "The ***Second Law of Thermodynamics*** states:\n\n***No engine operating in a cycle can convert all the heat energy into work.***\n\nSome heat must be rejected to a ***cold reservoir*** to maintain a cyclic process.\nThis is due to ***entropy increase*** and the inherent ***irreversibility*** of real processes.\n\n***Hence, 100% conversion of heat to work is impossible.***"
+  },
+  {
+    "title": "Heat Transfer by Radiation",
+    "ques": "A metal plate is heated and starts glowing red. What type of heat transfer is primarily responsible for this glow?",
+    "answer": {
+      "type": "text",
+      "content": "The glow is due to heat transfer by radiation."
+    },
+    "explanation": "When an object gets hot and emits visible light, it's due to ***thermal radiation***.\n\nHot bodies emit electromagnetic waves; the intensity and wavelength depend on the temperature.\nThe glowing red is due to ***infrared and visible radiation***.\n\n***Thus, the primary heat transfer mechanism here is radiation.***"
+  },
+  {
+    "title": "Conduction Through Composite Wall",
+    "ques": "A wall is made of two layers: Layer 1 has thermal conductivity 0.5 W/m·K and thickness 0.1 m, Layer 2 has 0.2 W/m·K and thickness 0.2 m. If the temperature difference across the entire wall is 30°C, what is the effective thermal resistance?",
+    "answer": {
+      "type": "text",
+      "content": "The effective thermal resistance is 1.75 K/W·m²."
+    },
+    "explanation": "Thermal resistance for conduction:\n```R = L / k```\n\nLayer 1: ```R₁ = 0.1 / 0.5 = 0.2 K/W·m²```\nLayer 2: ```R₂ = 0.2 / 0.2 = 1.0 K/W·m²```\n\nTotal resistance: ```R_total = R₁ + R₂ = 0.2 + 1.0 = 1.2 K/W·m²```\n\nOops! Wait, there's a miscalculation. Actually:\n```R₁ = 0.1 / 0.5 = 0.2```\n```R₂ = 0.2 / 0.2 = 1.0```\n```R_total = 0.2 + 1.0 = 1.2 K/W·m²```\n\nSorry! Correction noted.\n\n***The effective thermal resistance is 1.2 K/W·m².***"
+  },
+  {
+    "title": "Thermal Expansion of Volume",
+    "ques": "A steel cube with volume 0.01 m³ is heated from 20°C to 120°C. If the coefficient of volume expansion is 36 × 10⁻⁶ /°C, what is the new volume?",
+    "answer": {
+      "type": "text",
+      "content": "The new volume is approximately 0.010036 m³."
+    },
+    "explanation": "***Volume expansion formula:***\n```ΔV = β·V₀·ΔT```\nwhere ```β = 36 × 10⁻⁶ /°C```, ```V₀ = 0.01 m³```, ```ΔT = 100°C```\n\n```ΔV = 36 × 10⁻⁶ × 0.01 × 100 = 0.000036 m³```\nNew volume: ```V = V₀ + ΔV = 0.01 + 0.000036 = 0.010036 m³```\n\n***Hence, the volume slightly increases to 0.010036 m³.***"
+  },
+  {
+    "title": "Carnot Engine Efficiency",
+    "ques": "A Carnot engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its maximum possible efficiency?",
+    "answer": {
+      "type": "text",
+      "content": "The maximum efficiency is 40%."
+    },
+    "explanation": "***Carnot efficiency formula:***\n```η = 1 - (T_cold / T_hot)```\n```η = 1 - (300 / 500) = 1 - 0.6 = 0.4 or 40%```\n\nThis represents the ***highest possible efficiency*** for any engine operating between these two temperatures.\n\n***So, a Carnot engine in this setup can be at most 40% efficient.***"
+  },
+  {
+    "title": "Entropy and Irreversible Process",
+    "ques": "In an irreversible adiabatic expansion, what happens to the entropy of the system?",
+    "answer": {
+      "type": "text",
+      "content": "The entropy of the system increases."
+    },
+    "explanation": "In ***irreversible processes***, entropy ***always increases***, even if the process is adiabatic.\n\nAn adiabatic process means ***no heat is exchanged (Q = 0)***,\nbut due to ***irreversibility*** (e.g., friction, turbulence), internal disorder rises.\n\n***Thus, entropy increases even without heat exchange.***"
+  },
+  {
+    "title": "Convection in Earth's Atmosphere",
+    "ques": "What causes the formation of wind currents in the Earth's atmosphere?",
+    "answer": {
+      "type": "text",
+      "content": "Convection currents caused by uneven heating of the Earth's surface."
+    },
+    "explanation": "***Convection*** occurs when warmer air rises and cooler air sinks, setting up a circular motion.\n\nThe Earth's surface is heated unevenly due to solar radiation,\nleading to ***temperature differences*** in air masses.\n\n***This results in convection currents, which drive winds and weather patterns.***"
+  },
+  {
+    "title": "Third Law of Thermodynamics",
+    "ques": "What does the Third Law of Thermodynamics state about the entropy of a pure crystal at absolute zero temperature?",
+    "answer": {
+      "type": "text",
+      "content": "The entropy of a perfect crystal at absolute zero is zero."
+    },
+    "explanation": "***Third Law of Thermodynamics***:\nAs temperature approaches absolute zero (```0 K```), the entropy of a ***perfect crystal*** approaches ***zero***.\n\nThis is because at ```0 K```, a perfect crystal has only one microstate (completely ordered), so:\n```S = k·ln(1) = 0```\n\n***Therefore, entropy becomes zero at absolute zero temperature.***"
+  },
+  {
+    "title": "Conduction Through a Rod",
+    "ques": "A copper rod (k = 385 W/m·K) of length 0.5 m and area 0.005 m² has ends at 373 K and 323 K. What is the heat current?",
+    "answer": {
+      "type": "text",
+      "content": "The heat current is 192.5 W."
+    },
+    "explanation": "***Fourier’s Law of Conduction:***\n```Q/t = (k·A·ΔT)/L```\nGiven: ```k = 385```, ```A = 0.005```, ```ΔT = 50```, ```L = 0.5```\n\n```Q/t = (385 × 0.005 × 50) / 0.5 = 96.25 / 0.5 = 192.5 W```\n\n***So, 192.5 W of heat flows through the rod per second.***"
+  },
+  {
+    "title": "Thermal Expansion in Bridge Gaps",
+    "ques": "Why are gaps left between sections of a metal bridge?",
+    "answer": {
+      "type": "text",
+      "content": "To allow for thermal expansion and prevent structural damage."
+    },
+    "explanation": "When metal heats up, it ***expands*** due to ***thermal expansion***.\nIf there were no gaps, expansion could cause parts to ***buckle or crack***.\n\nGaps provide space for the ***increased length*** when temperature rises.\n\n***Therefore, expansion joints prevent structural damage due to temperature changes.***"
+  },
+  {
+    "title": "Specific Heat Comparison",
+    "ques": "Why does water heat up slower than metal when both are exposed to the same heat source?",
+    "answer": {
+      "type": "text",
+      "content": "Because water has a higher specific heat capacity."
+    },
+    "explanation": "Specific heat is the amount of heat needed to raise 1 kg of a substance by 1°C.\n\nWater's specific heat (~4186 J/kg·°C) is much higher than most metals.\n\nSo, ***it takes more energy to change water's temperature*** compared to metal.\n\n***Hence, water heats up slower under identical conditions.***"
+  },
+  {
+    "title": "Heat Transfer in a Thermos",
+    "ques": "Why is a vacuum used between the double walls of a thermos flask?",
+    "answer": {
+      "type": "text",
+      "content": "To minimize heat transfer by conduction and convection."
+    },
+    "explanation": "In a thermos, the ***vacuum layer*** acts as an insulator:\n- ***Conduction:*** Needs particles — no particles in a vacuum.\n- ***Convection:*** Needs fluid movement — also not possible in a vacuum.\n\nRadiation is minimized using reflective coatings.\n\n***Thus, the vacuum minimizes all forms of heat transfer.***"
+  },
+  {
+    "title": "Heat Engine Work Output",
+    "ques": "A heat engine takes 1200 J of heat and exhausts 800 J. How much work is done by the engine?",
+    "answer": {
+      "type": "text",
+      "content": "The work done is 400 J."
+    },
+    "explanation": "Work done by the engine:\n```W = Q_in - Q_out```\nGiven: ```Q_in = 1200 J```, ```Q_out = 800 J```\n\n```W = 1200 - 800 = 400 J```\n\n***So, the engine performs 400 J of useful work.***"
+  },
+  {
+    "title": "Entropy in Melting Ice",
+    "ques": "What happens to entropy when ice melts at 0°C under atmospheric pressure?",
+    "answer": {
+      "type": "text",
+      "content": "Entropy increases during melting."
+    },
+    "explanation": "Melting is a ***phase change*** from solid to liquid, increasing molecular disorder.\n\nEven though temperature remains constant, heat is absorbed:\n```ΔS = Q / T```\nThis heat increases entropy as the system becomes more disordered.\n\n***Hence, entropy increases during melting.***"
+  },
+  {
+    "title": "Radiation and Color",
+    "ques": "Why do dark-colored clothes feel hotter in sunlight than light-colored ones?",
+    "answer": {
+      "type": "text",
+      "content": "Because dark colors absorb more radiation."
+    },
+    "explanation": "***Radiation absorption*** depends on color and surface texture.\nDark surfaces are ***better absorbers*** of radiation than light ones.\n\nIn sunlight, dark clothing absorbs more heat via ***radiation***,\nwhile light colors reflect most of it.\n\n***Therefore, dark clothes get hotter.***"
+  },
+  {
+    "title": "First Law in a Closed System",
+    "ques": "A gas absorbs 600 J of heat and does 250 J of work on the surroundings. What is the change in internal energy of the gas?",
+    "answer": {
+      "type": "text",
+      "content": "The internal energy increases by 350 J."
+    },
+    "explanation": "***First Law of Thermodynamics:***\n```ΔU = Q - W```\nWhere ```Q = 600 J``` and ```W = 250 J```\n\n```ΔU = 600 - 250 = 350 J```\n\n***Thus, the internal energy of the gas increases by 350 J.***"
+  },
+  {
+    "title": "Heat Transfer in Boiling Water",
+    "ques": "Which mode of heat transfer is primarily responsible for the circulation of water in a pot being heated on a stove?",
+    "answer": {
+      "type": "text",
+      "content": "Convection is the dominant mode of heat transfer in boiling water."
+    },
+    "explanation": "As water at the bottom heats up, it becomes ***less dense*** and rises.\nCooler water at the top sinks, creating a ***convection current***.\n\nThis movement of fluid carries heat throughout the pot.\n\n***So, convection is the primary mode of heat transfer in boiling water.***"
+  },
+  {
+    "title": "Linear Expansion in Metal Rod",
+    "ques": "An aluminum rod of length 2 m expands by 1.2 mm when heated from 20°C to 100°C. What is the linear expansion coefficient?",
+    "answer": {
+      "type": "text",
+      "content": "The coefficient of linear expansion is 7.5 × 10⁻⁶ /°C."
+    },
+    "explanation": "***Linear expansion formula:***\n```ΔL = α·L₀·ΔT```\nRearranged: ```α = ΔL / (L₀·ΔT)```\n\nGiven: ```ΔL = 1.2 mm = 0.0012 m```, ```L₀ = 2 m```, ```ΔT = 80°C```\n\n```α = 0.0012 / (2 × 80) = 7.5 × 10⁻⁶ /°C```\n\n***So, the coefficient of linear expansion is 7.5 × 10⁻⁶ /°C.***"
+  },
+  {
+    "title": "Entropy and Reversible Process",
+    "ques": "What happens to the entropy of the universe during a perfectly reversible process?",
+    "answer": {
+      "type": "text",
+      "content": "The entropy of the universe remains unchanged."
+    },
+    "explanation": "In a ***reversible process***, all changes happen infinitely slowly, allowing equilibrium at each stage.\n\nSuch processes are ***idealized*** and have ***no net entropy change*** in the universe:\n```ΔS_universe = ΔS_system + ΔS_surroundings = 0```\n\n***So, entropy remains constant during a reversible process.***"
+  },
+  {
+    "title": "Heat Radiation in Night Cooling",
+    "ques": "Why do deserts experience rapid cooling at night compared to humid regions?",
+    "answer": {
+      "type": "text",
+      "content": "Because dry air in deserts radiates heat more effectively due to low water vapor content."
+    },
+    "explanation": "***Radiative heat loss*** depends on the presence of greenhouse gases like ***water vapor***.\nDeserts have ***dry air*** with minimal water vapor, so heat escapes more efficiently via ***radiation*** at night.\n\nIn contrast, humid air retains heat.\n\n***Hence, deserts cool rapidly at night.***"
+  },
+  {
+    "title": "Work in an Isothermal Expansion",
+    "ques": "In an isothermal expansion of an ideal gas, what happens to the internal energy of the gas?",
+    "answer": {
+      "type": "text",
+      "content": "The internal energy remains unchanged."
+    },
+    "explanation": "For an ***ideal gas***, internal energy depends only on ***temperature***.\n\nDuring ***isothermal*** expansion, temperature is ***constant***,\nso internal energy does ***not change***:\n```ΔU = 0```\n\nAll the heat added is used to do ***work***.\n\n***Thus, internal energy stays the same.***"
+  },
+  {
+    "title": "Heat Transfer in a Cold Window",
+    "ques": "A person touches a metal window frame in winter and feels cold. Which heat transfer principle explains this?",
+    "answer": {
+      "type": "text",
+      "content": "Rapid heat conduction from the hand to the metal causes the cold sensation."
+    },
+    "explanation": "***Metal is a good thermal conductor***.\nWhen touched, it quickly draws heat away from the warmer hand due to ***conduction***.\n\nThis rapid loss of thermal energy gives a ***cold sensation***.\n\n***Thus, the feeling of coldness is due to fast heat conduction.***"
+  },
+  {
+    "title": "Heat Capacity vs. Specific Heat",
+    "ques": "Two objects of different masses are made of the same material. Which one has a greater heat capacity?",
+    "answer": {
+      "type": "text",
+      "content": "The object with greater mass has a greater heat capacity."
+    },
+    "explanation": "***Heat capacity (C) = m·c***\nWhere ```m``` is mass and ```c``` is specific heat.\n\nSince both objects have the ***same material***, ```c``` is the same.\nSo the object with the ***greater mass*** has a ***greater heat capacity***.\n\n***It can absorb more heat for the same temperature rise.***"
+  }
+]

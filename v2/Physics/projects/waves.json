@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Relationship between Frequency and Wavelength",
+    "ques": "A wave travels with a speed of 340 m/s and has a frequency of 170 Hz. What is its wavelength?",
+    "answer": {
+      "type": "text",
+      "content": "Wavelength = Speed / Frequency\n= 340 / 170\n= 2 meters"
+    },
+    "explanation": "***Wavelength = Speed / Frequency***\nWe are given the speed ```v = 340 m/s``` and frequency ```f = 170 Hz```.\nSubstituting into the formula:\n```λ = v / f = 340 / 170 = 2 m```\nSo, the ***wavelength*** of the wave is ***2 meters***."
+  },
+  {
+    "title": "Doppler Effect - Approaching Source",
+    "ques": "A car honks its horn (frequency 500 Hz) while moving toward a stationary observer at 20 m/s. Speed of sound is 340 m/s. What frequency does the observer hear?",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × (v / (v - vs))\n= 500 × (340 / (340 - 20))\n= 500 × (340 / 320)\n≈ 531.25 Hz"
+    },
+    "explanation": "We use the ***Doppler Effect formula for a moving source approaching the observer***:\n```f' = f × (v / (v - vs))```\nGiven:\n```f = 500 Hz```, ```v = 340 m/s```, ```vs = 20 m/s```\nSubstitute values:\n```f' = 500 × (340 / 320) ≈ 531.25 Hz```\nSo, the ***observed frequency*** is approximately ***531.25 Hz***."
+  },
+  {
+    "title": "Refraction of Light",
+    "ques": "A ray of light enters from air (n = 1) into water (n = 1.33) at an angle of incidence of 30°. What is the angle of refraction?",
+    "answer": {
+      "type": "text",
+      "content": "Using Snell's law:\nn1 × sin(i) = n2 × sin(r)\n1 × sin(30°) = 1.33 × sin(r)\n0.5 = 1.33 × sin(r)\nsin(r) = 0.5 / 1.33 ≈ 0.3759\nr ≈ 22.09°"
+    },
+    "explanation": "***Snell's law*** is used: ```n1 × sin(i) = n2 × sin(r)```\nHere:\n```n1 = 1```, ```n2 = 1.33```, ```i = 30°```\nSo,\n```1 × sin(30°) = 1.33 × sin(r)```\n```0.5 = 1.33 × sin(r)```\n```sin(r) = 0.5 / 1.33 ≈ 0.3759```\nTaking the inverse sine:\n```r ≈ sin⁻¹(0.3759) ≈ 22.09°```\nSo, the ***angle of refraction*** is ***22.09 degrees***."
+  },
+  {
+    "title": "Double Slit Interference",
+    "ques": "In a double-slit experiment, the slit separation is 0.5 mm and the distance to the screen is 2 m. If the wavelength of light used is 600 nm, what is the fringe spacing?",
+    "answer": {
+      "type": "text",
+      "content": "Fringe spacing (Δy) = λL / d\n= (600 × 10⁻⁹ × 2) / (0.5 × 10⁻³)\n= 2.4 × 10⁻³ m = 2.4 mm"
+    },
+    "explanation": "The formula for fringe spacing in interference is:\n```Δy = λL / d```\nWhere:\n```λ = 600 nm = 600 × 10⁻⁹ m```\n```L = 2 m```\n```d = 0.5 mm = 0.5 × 10⁻³ m```\nSubstitute:\n```Δy = (600 × 10⁻⁹ × 2) / (0.5 × 10⁻³) = 2.4 × 10⁻³ m```\nConvert to mm:\n```2.4 × 10⁻³ m = 2.4 mm```\nSo, the ***fringe spacing*** is ***2.4 mm***."
+  },
+  {
+    "title": "Diffraction by a Single Slit",
+    "ques": "A single slit of width 0.2 mm is illuminated by light of wavelength 500 nm. What is the angular position of the first minimum?",
+    "answer": {
+      "type": "text",
+      "content": "a × sin(θ) = mλ\nFor first minimum, m = 1:\n0.2 × 10⁻³ × sin(θ) = 500 × 10⁻⁹\nsin(θ) = (500 × 10⁻⁹) / (0.2 × 10⁻³) = 0.0025\nθ ≈ sin⁻¹(0.0025) ≈ 0.143°"
+    },
+    "explanation": "For ***single-slit diffraction***, the condition for minima is:\n```a × sin(θ) = mλ```\nWhere:\n```a = 0.2 mm = 0.2 × 10⁻³ m```\n```λ = 500 nm = 500 × 10⁻⁹ m```\nFor the ***first minimum***, m = 1:\n```0.2 × 10⁻³ × sin(θ) = 500 × 10⁻⁹```\n```sin(θ) = (500 × 10⁻⁹) / (0.2 × 10⁻³) = 0.0025```\n```θ ≈ sin⁻¹(0.0025) ≈ 0.143°```\nSo, the ***angle of first minimum*** is approximately ***0.143 degrees***."
+  },
+  {
+    "title": "Wave Speed from Wavelength and Frequency",
+    "ques": "A wave on a string has a wavelength of 0.8 meters and a frequency of 120 Hz. What is the speed of the wave?",
+    "answer": {
+      "type": "text",
+      "content": "Speed = Wavelength × Frequency\n= 0.8 × 120\n= 96 m/s"
+    },
+    "explanation": "***Wave speed formula: v = λ × f***\nGiven:\n```λ = 0.8 m```, ```f = 120 Hz```\nSubstitute values:\n```v = 0.8 × 120 = 96 m/s```\nSo, the ***speed of the wave*** is ***96 meters per second***."
+  },
+  {
+    "title": "Doppler Effect - Moving Observer",
+    "ques": "An observer moves towards a stationary sound source at 10 m/s. The source emits a sound of frequency 400 Hz. What is the frequency heard by the observer? (Speed of sound = 340 m/s)",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × (v + vo) / v\n= 400 × (340 + 10) / 340\n= 400 × (350 / 340)\n≈ 411.76 Hz"
+    },
+    "explanation": "***Doppler Effect when observer moves towards source***:\n```f' = f × (v + vo) / v```\nWhere:\n```f = 400 Hz```, ```v = 340 m/s```, ```vo = 10 m/s```\nSubstitute:\n```f' = 400 × (350 / 340) ≈ 411.76 Hz```\nSo, the ***observed frequency*** is approximately ***411.76 Hz***."
+  },
+  {
+    "title": "Image Formation by Convex Lens",
+    "ques": "An object is placed 30 cm from a convex lens with a focal length of 10 cm. Where is the image formed?",
+    "answer": {
+      "type": "text",
+      "content": "1/f = 1/v - 1/u\n1/10 = 1/v - 1/(-30)\n1/10 = 1/v + 1/30\n1/v = 1/10 - 1/30 = (3 - 1)/30 = 2/30 = 1/15\nv = 15 cm"
+    },
+    "explanation": "***Lens formula: 1/f = 1/v - 1/u***\nGiven:\n```f = +10 cm``` (convex lens), ```u = -30 cm``` (object distance is always negative)\nSubstitute:\n```1/10 = 1/v + 1/30```\nFind common denominator:\n```1/v = 1/10 - 1/30 = (3 - 1)/30 = 2/30 = 1/15```\nSo, ```v = 15 cm```\nThe ***image is formed 15 cm on the other side of the lens***."
+  },
+  {
+    "title": "Constructive Interference Condition",
+    "ques": "Two sound sources emit waves of the same frequency and are in phase. If the path difference to a point is 1.2 meters and the wavelength is 0.6 meters, will the interference at that point be constructive or destructive?",
+    "answer": {
+      "type": "text",
+      "content": "Path difference = 1.2 m\nWavelength = 0.6 m\nSince 1.2 is a multiple of 0.6, interference is constructive"
+    },
+    "explanation": "For ***constructive interference***:\n```Path difference = nλ``` where n is an integer.\nGiven:\n```Path difference = 1.2 m```, ```λ = 0.6 m```\n1.2 / 0.6 = 2 (an integer)\nHence, the condition for ***constructive interference is satisfied***."
+  },
+  {
+    "title": "Diffraction Grating - Angle of Maxima",
+    "ques": "Light of wavelength 450 nm is incident on a diffraction grating with 5000 lines/cm. At what angle is the first-order maximum observed?",
+    "answer": {
+      "type": "text",
+      "content": "d = 1 / (5000 × 100) = 2 × 10⁻⁶ m\nnλ = d × sin(θ)\n1 × 450 × 10⁻⁹ = 2 × 10⁻⁶ × sin(θ)\nsin(θ) = 0.225\nθ ≈ 13.02°"
+    },
+    "explanation": "***Grating equation: nλ = d × sin(θ)***\nLines per cm: ```5000 lines/cm = 500000 lines/m```\nSo:\n```d = 1 / 500000 = 2 × 10⁻⁶ m```\nGiven:\n```λ = 450 nm = 450 × 10⁻⁹ m```, ```n = 1```\nPlug into formula:\n```1 × 450 × 10⁻⁹ = 2 × 10⁻⁶ × sin(θ)```\nSolve:\n```sin(θ) = 0.225 → θ ≈ 13.02°```\nSo, the ***first-order maximum*** is observed at ***13.02 degrees***."
+  },
+  {
+    "title": "Frequency from Wave Speed and Wavelength",
+    "ques": "An ocean wave travels at 12 m/s and has a wavelength of 4 meters. What is the frequency of the wave?",
+    "answer": {
+      "type": "text",
+      "content": "Frequency = Speed / Wavelength\n= 12 / 4\n= 3 Hz"
+    },
+    "explanation": "***Frequency = Speed / Wavelength***\nGiven:\n```v = 12 m/s```, ```λ = 4 m```\nSubstitute:\n```f = v / λ = 12 / 4 = 3 Hz```\nSo, the ***frequency*** of the wave is ***3 Hertz***."
+  },
+  {
+    "title": "Doppler Effect - Both Source and Observer Moving",
+    "ques": "A train moving at 25 m/s blows a whistle of frequency 600 Hz. An observer is moving towards the train at 15 m/s. What frequency does the observer hear? (Speed of sound = 340 m/s)",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × (v + vo) / (v - vs)\n= 600 × (340 + 15) / (340 - 25)\n= 600 × (355 / 315)\n≈ 676.19 Hz"
+    },
+    "explanation": "***Doppler Effect when both observer and source are moving***:\n```f' = f × (v + vo) / (v - vs)```\nWhere:\n```f = 600 Hz```, ```vo = 15 m/s```, ```vs = 25 m/s```, ```v = 340 m/s```\nSubstitute:\n```f' = 600 × (355 / 315) ≈ 676.19 Hz```\nSo, the ***observer hears a frequency of approximately 676.19 Hz***."
+  },
+  {
+    "title": "Mirror Image Location",
+    "ques": "An object is placed 10 cm in front of a concave mirror with a focal length of 15 cm. Where is the image formed?",
+    "answer": {
+      "type": "text",
+      "content": "1/f = 1/v + 1/u\n1/(-15) = 1/v + 1/(-10)\n1/v = -1/15 + 1/10 = (−2 + 3)/30 = 1/30\nv = 30 cm"
+    },
+    "explanation": "***Mirror formula: 1/f = 1/v + 1/u***\nFor a ***concave mirror***, focal length is negative: ```f = -15 cm```\nObject is in front: ```u = -10 cm```\nSo:\n```1/f = 1/v + 1/u → -1/15 = 1/v - 1/10```\n```1/v = -1/15 + 1/10 = 1/30```\nSo, ```v = 30 cm```\nThe ***image is formed 30 cm in front of the mirror*** (real and inverted)."
+  },
+  {
+    "title": "Phase Difference and Path Difference",
+    "ques": "What is the phase difference between two waves if the path difference between them is 3/4 of the wavelength?",
+    "answer": {
+      "type": "text",
+      "content": "Phase difference = (2π × Path Difference) / Wavelength\n= (2π × 3/4) = (3π/2) radians"
+    },
+    "explanation": "***Phase difference φ = (2π × Δx) / λ***\nGiven:\n```Path difference Δx = 3/4 λ```\nSubstitute:\n```φ = 2π × (3/4) = 3π/2 radians```\nSo, the ***phase difference*** is ***3π/2 radians***."
+  },
+  {
+    "title": "Diffraction Angle for Second Minimum",
+    "ques": "A slit of width 0.1 mm is used with light of wavelength 650 nm. At what angle does the second diffraction minimum occur?",
+    "answer": {
+      "type": "text",
+      "content": "a × sin(θ) = mλ\n0.1 × 10⁻³ × sin(θ) = 2 × 650 × 10⁻⁹\nsin(θ) = (1300 × 10⁻⁹) / (0.1 × 10⁻³) = 0.013\nθ ≈ sin⁻¹(0.013) ≈ 0.745°"
+    },
+    "explanation": "***Condition for diffraction minima***: ```a × sin(θ) = mλ```\nGiven:\n```a = 0.1 mm = 0.1 × 10⁻³ m```, ```λ = 650 nm = 650 × 10⁻⁹ m```, ```m = 2```\nSubstitute:\n```a × sin(θ) = 2 × 650 × 10⁻⁹```\n```sin(θ) = 1300 × 10⁻⁹ / 0.1 × 10⁻³ = 0.013```\nSo,\n```θ ≈ sin⁻¹(0.013) ≈ 0.745°```\nThe ***second diffraction minimum*** occurs at approximately ***0.745 degrees***."
+  },
+  {
+    "title": "Time Period from Frequency",
+    "ques": "A wave has a frequency of 50 Hz. What is the time period of the wave?",
+    "answer": {
+      "type": "text",
+      "content": "Time period T = 1 / f\n= 1 / 50\n= 0.02 s"
+    },
+    "explanation": "***Time period is the reciprocal of frequency***:\n```T = 1 / f```\nGiven:\n```f = 50 Hz```\n```T = 1 / 50 = 0.02 s```\nSo, the ***time period*** of the wave is ***0.02 seconds***."
+  },
+  {
+    "title": "Perceived Frequency from Receding Source",
+    "ques": "An ambulance is moving away from a stationary observer at 30 m/s and its siren emits sound at 800 Hz. What frequency does the observer hear? (Speed of sound = 340 m/s)",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × v / (v + vs)\n= 800 × 340 / (340 + 30)\n= 800 × 340 / 370 ≈ 734.59 Hz"
+    },
+    "explanation": "***Doppler Effect when source moves away from observer***:\n```f' = f × v / (v + vs)```\nHere:\n```f = 800 Hz```, ```v = 340 m/s```, ```vs = 30 m/s```\nSubstitute:\n```f' = 800 × 340 / 370 ≈ 734.59 Hz```\nSo, the ***observer hears a lower frequency of approximately 734.59 Hz***."
+  },
+  {
+    "title": "Total Internal Reflection Critical Angle",
+    "ques": "Find the critical angle for total internal reflection for light going from glass (n = 1.5) to air (n = 1.0).",
+    "answer": {
+      "type": "text",
+      "content": "sin(c) = n2 / n1 = 1 / 1.5 = 0.6667\nc = sin⁻¹(0.6667) ≈ 41.81°"
+    },
+    "explanation": "***Critical angle*** is given by:\n```sin(c) = n2 / n1```\nWhere:\n```n1 = 1.5 (glass)```, ```n2 = 1.0 (air)```\nSo:\n```sin(c) = 1 / 1.5 = 0.6667```\n```c = sin⁻¹(0.6667) ≈ 41.81°```\nThus, ***total internal reflection*** occurs for angles ***greater than 41.81°***."
+  },
+  {
+    "title": "Young's Double Slit: Order of Bright Fringe",
+    "ques": "In a double slit experiment, bright fringes are observed 3 mm apart on the screen. If the screen is 2 m away and the slit separation is 0.5 mm, what is the wavelength of light used?",
+    "answer": {
+      "type": "text",
+      "content": "λ = (Δy × d) / L\n= (3 × 10⁻³ × 0.5 × 10⁻³) / 2\n= 7.5 × 10⁻⁷ m = 750 nm"
+    },
+    "explanation": "***Fringe spacing formula***: ```Δy = λL / d``` → Solve for λ:\n```λ = Δy × d / L```\nGiven:\n```Δy = 3 mm = 3 × 10⁻³ m```\n```d = 0.5 mm = 0.5 × 10⁻³ m```\n```L = 2 m```\nSubstitute:\n```λ = (3 × 10⁻³ × 0.5 × 10⁻³) / 2 = 7.5 × 10⁻⁷ m = 750 nm```\nSo, the ***wavelength of the light is 750 nm***."
+  },
+  {
+    "title": "Lens Magnification",
+    "ques": "An object 5 cm tall is placed 20 cm in front of a converging lens of focal length 10 cm. What is the height of the image?",
+    "answer": {
+      "type": "text",
+      "content": "1/f = 1/v - 1/u\n1/10 = 1/v - 1/(-20)\n1/v = 1/10 + 1/20 = (2 + 1)/20 = 3/20\nv = 20/3 ≈ 6.67 cm\nMagnification M = v/u = (20/3) / -20 = -1/3\nImage height = M × object height = -1/3 × 5 = -1.67 cm"
+    },
+    "explanation": "***Lens formula: 1/f = 1/v - 1/u***\nGiven:\n```f = 10 cm```, ```u = -20 cm```\nSo:\n```1/v = 1/10 + 1/20 = 3/20 → v = 20/3 cm```\n***Magnification M = v/u = (20/3) / (-20) = -1/3***\nImage height = M × object height = -1/3 × 5 = -1.67 cm\nSo, the ***image is 1.67 cm tall and inverted***."
+  },
+  {
+    "title": "Relation Between Period and Wavelength",
+    "ques": "A wave travels with a speed of 300 m/s and a wavelength of 1.5 meters. What is the time period of the wave?",
+    "answer": {
+      "type": "text",
+      "content": "Frequency f = v / λ = 300 / 1.5 = 200 Hz\nTime period T = 1 / f = 1 / 200 = 0.005 s"
+    },
+    "explanation": "***Step 1: Find frequency using f = v / λ***\n```v = 300 m/s```, ```λ = 1.5 m```\n```f = 300 / 1.5 = 200 Hz```\n***Step 2: Time period is the inverse of frequency***\n```T = 1 / f = 1 / 200 = 0.005 s```\nSo, the ***time period of the wave is 0.005 seconds***."
+  },
+  {
+    "title": "Doppler Shift with Approaching Source and Observer",
+    "ques": "A car is approaching a stationary observer at 20 m/s while blowing its horn at 500 Hz. What frequency does the observer hear if the speed of sound is 340 m/s?",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × v / (v - vs)\n= 500 × 340 / (340 - 20) = 500 × 340 / 320 = 531.25 Hz"
+    },
+    "explanation": "***Source approaching stationary observer***:\nUse formula: ```f' = f × v / (v - vs)```\nGiven:\n```f = 500 Hz```, ```vs = 20 m/s```, ```v = 340 m/s```\n```f' = 500 × 340 / 320 = 531.25 Hz```\nSo, the ***observer hears a frequency of 531.25 Hz***."
+  },
+  {
+    "title": "Refraction Angle in Glass",
+    "ques": "A ray of light enters a glass slab from air at an angle of 45°. If the refractive index of glass is 1.5, what is the angle of refraction?",
+    "answer": {
+      "type": "text",
+      "content": "n₁ sin(θ₁) = n₂ sin(θ₂)\n1 × sin(45°) = 1.5 × sin(θ₂)\nsin(θ₂) = sin(45°)/1.5 ≈ 0.471\nθ₂ ≈ 28.1°"
+    },
+    "explanation": "***Snell's Law: n₁ sin(θ₁) = n₂ sin(θ₂)***\nGiven:\n```n₁ = 1 (air)```, ```θ₁ = 45°```, ```n₂ = 1.5 (glass)```\n```sin(θ₂) = sin(45°)/1.5 ≈ 0.707 / 1.5 ≈ 0.471```\n```θ₂ ≈ sin⁻¹(0.471) ≈ 28.1°```\nSo, the ***angle of refraction in glass is approximately 28.1°***."
+  },
+  {
+    "title": "Interference Path Difference for Destructive Interference",
+    "ques": "What should be the minimum path difference between two coherent light waves to produce destructive interference?",
+    "answer": {
+      "type": "text",
+      "content": "Path difference = (2n + 1)λ/2, for n = 0, minimum = λ/2"
+    },
+    "explanation": "***Destructive interference occurs when path difference = (2n + 1)λ/2***\nFor ***minimum*** path difference, use ```n = 0```:\n```Path difference = λ/2```\nSo, ***destructive interference occurs when the waves differ by half a wavelength***."
+  },
+  {
+    "title": "Width of Central Diffraction Maximum",
+    "ques": "A single slit of width 0.2 mm is illuminated with light of wavelength 600 nm. Find the angular width of the central maximum in the diffraction pattern.",
+    "answer": {
+      "type": "text",
+      "content": "Angular width = 2 × θ\nsin(θ) = λ / a = 600×10⁻⁹ / 0.2×10⁻³ = 0.003\nθ ≈ sin⁻¹(0.003) ≈ 0.172°\nAngular width ≈ 2 × 0.172° = 0.344°"
+    },
+    "explanation": "***For single slit diffraction, angular width of central maximum = 2θ***\nWhere:\n```sin(θ) = λ / a```\nGiven:\n```λ = 600 nm = 600×10⁻⁹ m```, ```a = 0.2 mm = 0.2×10⁻³ m```\n```sin(θ) = 0.003 → θ ≈ 0.172°```\nSo, total angular width:\n```2 × 0.172° = 0.344°```\nThus, the ***central diffraction maximum spans an angle of 0.344°***."
+  },
+  {
+    "title": "Wave Displacement Calculation",
+    "ques": "A point on a wave oscillates with an amplitude of 2 cm and a frequency of 10 Hz. What is the maximum speed of this point?",
+    "answer": {
+      "type": "text",
+      "content": "v_max = 2πfA\n= 2π × 10 × 0.02\n≈ 1.26 m/s"
+    },
+    "explanation": "***Maximum speed in wave motion is given by: v_max = 2πfA***\nGiven:\n```f = 10 Hz```, ```A = 2 cm = 0.02 m```\nSubstitute:\n```v_max = 2π × 10 × 0.02 ≈ 1.26 m/s```\nSo, the ***maximum speed of the oscillating point is approximately 1.26 m/s***."
+  },
+  {
+    "title": "Doppler Effect - Observer Moving Away",
+    "ques": "An observer moves away from a stationary source at 10 m/s. The source emits a sound of 400 Hz. What frequency does the observer hear? (Speed of sound = 340 m/s)",
+    "answer": {
+      "type": "text",
+      "content": "f' = f × (v - vo) / v\n= 400 × (340 - 10) / 340\n= 400 × 330 / 340 ≈ 388.24 Hz"
+    },
+    "explanation": "***When the observer moves away from a stationary source***:\nUse: ```f' = f × (v - vo) / v```\nGiven:\n```f = 400 Hz```, ```vo = 10 m/s```, ```v = 340 m/s```\nSubstitute:\n```f' = 400 × 330 / 340 ≈ 388.24 Hz```\nSo, the ***observed frequency is approximately 388.24 Hz***."
+  },
+  {
+    "title": "Apparent Depth in Refraction",
+    "ques": "A coin lies at the bottom of a water tank 40 cm deep. If the refractive index of water is 1.33, what is the apparent depth of the coin?",
+    "answer": {
+      "type": "text",
+      "content": "Apparent depth = Real depth / Refractive index\n= 40 / 1.33 ≈ 30.08 cm"
+    },
+    "explanation": "***Apparent depth is given by: Apparent = Real / n***\nGiven:\n```Real depth = 40 cm```, ```n = 1.33```\n```Apparent depth = 40 / 1.33 ≈ 30.08 cm```\nSo, the ***coin appears to be at a depth of 30.08 cm from the surface***."
+  },
+  {
+    "title": "Fringe Width with Changed Wavelength",
+    "ques": "In a double slit experiment, if the wavelength of light is changed from 500 nm to 600 nm while keeping slit separation and screen distance fixed, how does the fringe width change?",
+    "answer": {
+      "type": "text",
+      "content": "Fringe width β ∝ λ\nNew width = (600 / 500) × original width = 1.2 × original width"
+    },
+    "explanation": "***Fringe width (β) is directly proportional to wavelength (λ)***:\n```β ∝ λ```\nSo, if:\n```λ increases from 500 nm to 600 nm```,\n```New β = (600 / 500) × original = 1.2 × original```\nThe ***fringe width increases by 20%***."
+  },
+  {
+    "title": "Lens Power Calculation",
+    "ques": "Calculate the power of a convex lens with a focal length of 25 cm.",
+    "answer": {
+      "type": "text",
+      "content": "Power (P) = 100 / f (in cm)\n= 100 / 25 = +4 D"
+    },
+    "explanation": "***Lens power is given by: P = 100 / f (in cm)***\nGiven:\n```f = 25 cm (positive for convex)```\n```P = 100 / 25 = +4 D```\nSo, the ***lens has a power of +4 diopters***."
+  }
+]

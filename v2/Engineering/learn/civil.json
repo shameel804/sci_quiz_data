@@ -1,0 +1,59 @@
+{
+    "id": "learn_civil",
+    "topicId": "civil",
+    "topicTitle": "Civil Engineering",
+    "description": "Explore structural analysis, bridge design, geotechnical, and transportation",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "civil_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Civil Engineering 🏗️\n\n## Topics\n- Structural analysis\n- Bridge & building design\n- Geotechnical engineering\n- Transportation systems"
+        },
+        {
+            "id": "civil_2",
+            "type": "content",
+            "title": "Structures",
+            "content": "# Structural Analysis 🏢\n\n## Forces\n| Type | Direction |\n|------|----------|\n| Tension | Pulling |\n| Compression | Pushing |\n| Shear | Sliding |\n| Moment | Rotation |\n\n## Analysis\n- Free body diagrams\n- Equilibrium equations"
+        },
+        {
+            "id": "civil_3",
+            "type": "content",
+            "title": "Bridges",
+            "content": "# Bridge Design 🌉\n\n| Type | Span |\n|------|------|\n| Beam | Short |\n| Arch | Medium |\n| Suspension | Long |\n| Cable-stayed | Long |\n\n## Design Factors\n- Load capacity\n- Materials\n- Environmental"
+        },
+        {
+            "id": "civil_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Which bridge type is best for long spans?",
+            "quizOptions": [
+                "Beam",
+                "Arch",
+                "Suspension",
+                "Truss"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "civil_4",
+            "type": "content",
+            "title": "Geotechnical",
+            "content": "# Geotechnical Engineering 🏔️\n\n## Topics\n- Soil mechanics\n- Foundations\n- Slope stability\n- Retaining walls\n\n## Foundation Types\n| Type | Use |\n|------|-----|\n| Shallow | Light loads |\n| Deep (piles) | Heavy loads |"
+        },
+        {
+            "id": "civil_5",
+            "type": "content",
+            "title": "Transportation",
+            "content": "# Transportation 🚗\n\n## Elements\n- Highway design\n- Traffic flow\n- Pavement engineering\n- Rail systems\n\n## Planning\n- Capacity analysis\n- Safety\n- Environmental impact"
+        },
+        {
+            "id": "civil_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Forces: Tension, compression, shear\n- Bridges: Beam to suspension\n- Foundations: Shallow vs deep\n- Transportation: Roads, traffic, rail"
+        }
+    ]
+}

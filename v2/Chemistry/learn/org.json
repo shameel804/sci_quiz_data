@@ -1,0 +1,117 @@
+{
+    "id": "learn_org",
+    "topicId": "org",
+    "topicTitle": "Organic Chemistry",
+    "description": "Explore hydrocarbons, functional groups, nomenclature, and biomolecules - the chemistry of carbon",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "org_1",
+            "type": "content",
+            "title": "Welcome to Organic Chemistry",
+            "content": "# Introduction to Organic Chemistry 🧬\n\nWelcome to **Organic Chemistry** - the study of carbon-containing compounds!\n\n## What you'll learn:\n- **Hydrocarbons** - Alkanes, alkenes, alkynes\n- **Functional Groups** - Alcohols, carboxylic acids, and more\n- **IUPAC Nomenclature** - Systematic naming\n- **Biomolecules** - Proteins, carbohydrates, polymers\n\n> 💡 **Fun Fact:** Carbon can form over 10 million different compounds - more than all other elements combined!\n\n## Why Carbon is Special\n\n| Property | Significance |\n|----------|-------------|\n| 4 valence electrons | Can form 4 bonds |\n| Catenation | Forms long chains and rings |\n| Multiple bonding | Single, double, triple |\n| Bond stability | Strong C-C and C-H bonds |\n\n## Organic vs Inorganic\n\n| Organic | Inorganic |\n|---------|----------|\n| Contains carbon | Usually no carbon |\n| Covalent bonding | Often ionic |\n| Low melting points | High melting points |\n| Life-based | Mineral-based |\n\n## Applications\n\n- 💊 Pharmaceuticals\n- 🧴 Plastics and polymers\n- ⛽ Fuels\n- 🍎 Food and nutrition\n- 🧬 Biochemistry\n\nLet's explore the world of carbon!"
+        },
+        {
+            "id": "org_2",
+            "type": "content",
+            "title": "Alkanes",
+            "content": "# Alkanes (Saturated Hydrocarbons) ⛽\n\n## Definition\n\nHydrocarbons with **only single bonds** between carbon atoms.\n\nGeneral formula: **CₙH₂ₙ₊₂**\n\n## The First Ten Alkanes\n\n| Name | Formula | Carbons |\n|------|---------|--------|\n| Methane | CH₄ | 1 |\n| Ethane | C₂H₆ | 2 |\n| Propane | C₃H₈ | 3 |\n| Butane | C₄H₁₀ | 4 |\n| Pentane | C₅H₁₂ | 5 |\n| Hexane | C₆H₁₄ | 6 |\n| Heptane | C₇H₁₆ | 7 |\n| Octane | C₈H₁₈ | 8 |\n| Nonane | C₉H₂₀ | 9 |\n| Decane | C₁₀H₂₂ | 10 |\n\n## Structure of Methane\n\n```\n        H\n        │\n    H───C───H    Tetrahedral geometry\n        │        109.5° bond angles\n        H\n```\n\n## Properties\n\n| Property | Trend |\n|----------|-------|\n| Boiling point | Increases with chain length |\n| Density | Increases with chain length |\n| State at RT | C1-4: gas, C5-17: liquid, C18+: solid |\n| Solubility in water | Insoluble (non-polar) |\n\n## Reactions of Alkanes\n\n### Combustion\n```\nCH₄ + 2O₂ → CO₂ + 2H₂O + heat\n```\n\n### Substitution (with halogens)\n```\nCH₄ + Cl₂ → CH₃Cl + HCl (UV light)\n```\n\n> 🎯 **Key Point:** Alkanes are relatively unreactive due to strong C-C and C-H bonds!"
+        },
+        {
+            "id": "org_3",
+            "type": "content",
+            "title": "Alkenes and Alkynes",
+            "content": "# Alkenes and Alkynes 🔗\n\n## Alkenes (C=C double bond)\n\nGeneral formula: **CₙH₂ₙ**\n\n### Structure\n```\n      H     H\n       \\   /\n        C=C       Planar around C=C\n       /   \\      120° bond angles\n      H     H\n      (Ethene)\n```\n\n### Common Alkenes\n\n| Name | Formula |\n|------|--------|\n| Ethene (ethylene) | C₂H₄ |\n| Propene | C₃H₆ |\n| Butene | C₄H₈ |\n\n## Alkynes (C≡C triple bond)\n\nGeneral formula: **CₙH₂ₙ₋₂**\n\n### Structure\n```\n    H─C≡C─H     Linear around C≡C\n    (Ethyne/     180° bond angle\n     Acetylene)\n```\n\n## Reactions of Alkenes\n\n### Addition Reactions\n\n| Reagent | Product |\n|---------|---------|\n| H₂ (+ catalyst) | Alkane |\n| Br₂ | Dibromoalkane |\n| H₂O (+ acid) | Alcohol |\n| HCl | Chloroalkane |\n\n### Polymerization\n```\nnCH₂=CH₂ → [─CH₂─CH₂─]ₙ\n (Ethene)   (Polyethylene)\n```\n\n## Bromine Test\n\n| Compound | Bromine water |\n|----------|---------------|\n| Alkane | Stays orange |\n| Alkene/Alkyne | Decolorizes (orange → colorless) |\n\n> 💡 **Key Difference:** Unsaturated compounds (alkenes, alkynes) undergo addition; saturated (alkanes) undergo substitution!"
+        },
+        {
+            "id": "org_quiz_1",
+            "type": "quiz",
+            "title": "Hydrocarbons Quiz",
+            "content": "Test your understanding of hydrocarbons!",
+            "quizQuestion": "What is the general formula for alkenes?",
+            "quizOptions": [
+                "CₙH₂ₙ₊₂",
+                "CₙH₂ₙ",
+                "CₙH₂ₙ₋₂",
+                "CₙHₙ"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "org_4",
+            "type": "content",
+            "title": "Functional Groups: Alcohols",
+            "content": "# Alcohols (─OH) 🍷\n\n## Structure\n\n```\n    R─O─H\n    \n    R = carbon chain\n    ─OH = hydroxyl group\n```\n\n## Classification\n\n| Type | Structure | Example |\n|------|-----------|--------|\n| Primary (1°) | R─CH₂─OH | Ethanol |\n| Secondary (2°) | R₂CH─OH | Isopropanol |\n| Tertiary (3°) | R₃C─OH | t-Butanol |\n\n## Common Alcohols\n\n| Name | Formula | Use |\n|------|---------|-----|\n| Methanol | CH₃OH | Solvent, fuel |\n| Ethanol | C₂H₅OH | Beverages, fuel |\n| Propan-2-ol | (CH₃)₂CHOH | Rubbing alcohol |\n| Glycerol | C₃H₅(OH)₃ | Moisturizer |\n\n## Properties\n\n| Property | Explanation |\n|----------|-------------|\n| Higher BP than alkanes | Hydrogen bonding |\n| Soluble in water (small) | H-bonding with water |\n| Less soluble (larger) | Non-polar chain dominates |\n\n## Reactions\n\n### Combustion\n```\nC₂H₅OH + 3O₂ → 2CO₂ + 3H₂O\n```\n\n### Oxidation (controlled)\n\n| Alcohol type | Product |\n|--------------|--------|\n| Primary | Aldehyde → Carboxylic acid |\n| Secondary | Ketone |\n| Tertiary | No oxidation |\n\n### Dehydration\n```\nC₂H₅OH → C₂H₄ + H₂O (with acid catalyst)\n```\n\n> 🎯 **Key Point:** The ─OH group makes alcohols polar and capable of hydrogen bonding!"
+        },
+        {
+            "id": "org_5",
+            "type": "content",
+            "title": "Carboxylic Acids",
+            "content": "# Carboxylic Acids (─COOH) 🍋\n\n## Structure\n\n```\n          O\n          ║\n      R───C\n          │\n          O─H\n          \n    The carboxyl group: ─COOH\n```\n\n## Common Carboxylic Acids\n\n| Name | Formula | Source |\n|------|---------|--------|\n| Methanoic (formic) | HCOOH | Ant stings |\n| Ethanoic (acetic) | CH₃COOH | Vinegar |\n| Citric | C₆H₈O₇ | Citrus fruits |\n| Lactic | C₃H₆O₃ | Sour milk, muscles |\n\n## Properties\n\n| Property | Reason |\n|----------|--------|\n| Acidic | Releases H⁺ |\n| Higher BP | Strong H-bonding (dimer) |\n| Soluble (small) | H-bonding |\n| Sour taste | Acidic nature |\n\n## Acid Strength\n\n- Weaker than mineral acids (HCl, H₂SO₄)\n- Stronger than alcohols, water\n\n## Reactions\n\n### With Bases (Neutralization)\n```\nCH₃COOH + NaOH → CH₃COONa + H₂O\n                  (Sodium acetate)\n```\n\n### With Carbonates\n```\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑\n                    (fizzing indicates acid!)\n```\n\n### Esterification\n```\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O\n  Acid     Alcohol     Ester      Water\n```\n\n> 💡 **Application:** Carboxylic acids are essential in food preservation, pharmaceuticals, and polymers!"
+        },
+        {
+            "id": "org_6",
+            "type": "content",
+            "title": "More Functional Groups",
+            "content": "# More Functional Groups 🧪\n\n## Aldehydes (─CHO)\n\n```\n      O\n      ║\n  R───C─H\n```\n- Terminal carbonyl group\n- Example: Methanal (formaldehyde)\n\n## Ketones (C═O)\n\n```\n      O\n      ║\n  R───C───R'\n```\n- Carbonyl between two carbons\n- Example: Propanone (acetone)\n\n## Esters (─COO─)\n\n```\n      O\n      ║\n  R───C─O─R'\n```\n- Sweet, fruity smells\n- Example: Ethyl acetate\n\n## Amines (─NH₂)\n\n```\n  R─NH₂     (Primary)\n  R₂NH      (Secondary)\n  R₃N       (Tertiary)\n```\n- Derived from ammonia\n- Often fishy smell\n\n## Functional Group Summary\n\n| Group | Structure | Properties |\n|-------|-----------|------------|\n| Alcohol | ─OH | Polar, H-bonding |\n| Aldehyde | ─CHO | Reactive, reduces |\n| Ketone | ═O | Less reactive than aldehyde |\n| Carboxylic acid | ─COOH | Acidic, H-bonding |\n| Ester | ─COO─ | Pleasant odor |\n| Amine | ─NH₂ | Basic |\n| Ether | ─O─ | Low reactivity |\n| Halide | ─X | Polar C-X bond |\n\n## Priority Order (for naming)\n\nCarboxylic acid > Aldehyde > Ketone > Alcohol > Amine > Ether > Alkene > Alkane\n\n> 🎯 **Key Point:** Functional groups determine chemical reactivity and properties!"
+        },
+        {
+            "id": "org_quiz_2",
+            "type": "quiz",
+            "title": "Functional Groups Quiz",
+            "content": "Test your knowledge of functional groups!",
+            "quizQuestion": "Which functional group is present in ethanol (C₂H₅OH)?",
+            "quizOptions": [
+                "Carboxyl",
+                "Hydroxyl",
+                "Carbonyl",
+                "Amino"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "org_7",
+            "type": "content",
+            "title": "IUPAC Nomenclature",
+            "content": "# IUPAC Nomenclature 📝\n\n## Naming Steps\n\n### 1. Find longest carbon chain (parent)\n\n| Carbons | Prefix |\n|---------|--------|\n| 1 | Meth- |\n| 2 | Eth- |\n| 3 | Prop- |\n| 4 | But- |\n| 5 | Pent- |\n| 6 | Hex- |\n\n### 2. Identify functional groups (suffix)\n\n| Group | Suffix |\n|-------|--------|\n| Alkane | -ane |\n| Alkene | -ene |\n| Alkyne | -yne |\n| Alcohol | -ol |\n| Aldehyde | -al |\n| Ketone | -one |\n| Carboxylic acid | -oic acid |\n\n### 3. Number the chain\n- Start from end closest to highest priority group\n\n### 4. Name substituents\n\n| Substituent | Prefix |\n|-------------|--------|\n| ─CH₃ | methyl- |\n| ─Cl | chloro- |\n| ─Br | bromo- |\n| ─OH | hydroxy- |\n\n### 5. Assemble the name\nSubstituents (alphabetically) + position + parent + suffix\n\n## Examples\n\n```\n    CH₃─CH₂─CH₂─CH₃ → Butane\n    \n    CH₃─CH(CH₃)─CH₃ → 2-Methylpropane\n    \n    CH₂=CH─CH₃ → Propene\n    \n    CH₃─CH₂─OH → Ethanol\n    \n    CH₃─CH(OH)─CH₃ → Propan-2-ol\n```\n\n> 💡 **Tip:** Practice naming structures both ways: name → structure and structure → name!"
+        },
+        {
+            "id": "org_8",
+            "type": "content",
+            "title": "Isomerism",
+            "content": "# Isomerism 🔄\n\nIsomers have the **same molecular formula** but **different structures**.\n\n## Types of Isomerism\n\n### 1. Structural (Constitutional) Isomerism\n\n**Chain Isomerism**\n```\nC₄H₁₀:  CH₃-CH₂-CH₂-CH₃  (butane)\n        CH₃-CH(CH₃)-CH₃   (2-methylpropane)\n```\n\n**Position Isomerism**\n```\nC₃H₈O:  CH₃-CH₂-CH₂-OH  (propan-1-ol)\n        CH₃-CH(OH)-CH₃   (propan-2-ol)\n```\n\n**Functional Group Isomerism**\n```\nC₂H₆O:  CH₃-CH₂-OH  (ethanol - alcohol)\n        CH₃-O-CH₃   (dimethyl ether)\n```\n\n### 2. Stereoisomerism\n\n**Geometric (cis-trans) Isomerism**\n```\n        H     H              H     CH₃\n         \\   /                \\   /\n          C=C                  C=C\n         /   \\                /   \\\n       CH₃   CH₃            CH₃    H\n        cis                  trans\n```\n\n**Optical Isomerism**\n- Four different groups on one carbon\n- Mirror images (enantiomers)\n- Rotate polarized light\n\n## Why Isomers Matter\n\n| Property | Can differ between isomers |\n|----------|---------------------------|\n| Boiling point | Yes |\n| Solubility | Yes |\n| Biological activity | Yes! |\n| Reactivity | Yes |\n\n> 🎯 **Important:** Many drugs have isomers where only one form is active or safe!"
+        },
+        {
+            "id": "org_9",
+            "type": "content",
+            "title": "Polymers",
+            "content": "# Polymers 🧬\n\n## What are Polymers?\n\n```\nMonomer + Monomer + Monomer + ... → Polymer\n(small units)                     (long chain)\n```\n\n## Types of Polymerization\n\n### Addition Polymerization\n\nDouble bonds open and monomers add:\n\n```\nnCH₂=CH₂ → [─CH₂─CH₂─]ₙ\n Ethene     Polyethylene\n```\n\n### Condensation Polymerization\n\nMonomers join with loss of small molecule (water):\n\n```\nDiacid + Diamine → Polyamide + H₂O\n                   (Nylon)\n```\n\n## Common Addition Polymers\n\n| Monomer | Polymer | Use |\n|---------|---------|-----|\n| Ethene | Polyethylene (PE) | Bags, bottles |\n| Propene | Polypropylene (PP) | Containers |\n| Styrene | Polystyrene (PS) | Packaging |\n| Vinyl chloride | PVC | Pipes |\n| Tetrafluoroethene | PTFE (Teflon) | Non-stick |\n\n## Common Condensation Polymers\n\n| Type | Linkage | Example |\n|------|---------|--------|\n| Polyester | ─COO─ | PET (bottles) |\n| Polyamide | ─CONH─ | Nylon |\n| Polyurethane | ─NHCOO─ | Foam |\n\n## Polymer Properties\n\n| Property | Depends on |\n|----------|------------|\n| Strength | Chain length, crosslinking |\n| Flexibility | Chain structure |\n| Melting point | Intermolecular forces |\n| Crystallinity | Chain regularity |\n\n## Environmental Concerns\n\n- Most synthetic polymers are non-biodegradable\n- Accumulate in environment\n- Solutions: Recycling, biodegradable polymers\n\n> 💡 **Fun Fact:** Proteins and DNA are natural polymers!"
+        },
+        {
+            "id": "org_10",
+            "type": "content",
+            "title": "Biomolecules: Proteins and Carbohydrates",
+            "content": "# Biomolecules 🧬\n\n## Carbohydrates\n\nGeneral formula: Cₙ(H₂O)ₘ\n\n### Classification\n\n| Type | Units | Examples |\n|------|-------|----------|\n| Monosaccharides | 1 | Glucose, fructose |\n| Disaccharides | 2 | Sucrose, lactose |\n| Polysaccharides | Many | Starch, cellulose |\n\n### Glucose Structure\n\n```\n    H   O\n     \\ ║\n      C\n      │\n   H─C─OH\n      │\n  HO─C─H\n      │\n   H─C─OH\n      │\n   H─C─OH\n      │\n     CH₂OH\n```\n\n### Functions\n\n- Energy source\n- Energy storage (starch, glycogen)\n- Structural (cellulose, chitin)\n\n## Proteins\n\nPolymers of **amino acids** linked by **peptide bonds**.\n\n### Amino Acid Structure\n\n```\n        R\n        │\n   H₂N─C─COOH\n        │\n        H\n```\n\n### Peptide Bond Formation\n\n```\nAmino acid + Amino acid → Dipeptide + H₂O\n                    ─CONH─ (peptide bond)\n```\n\n### Protein Structure Levels\n\n| Level | Description |\n|-------|-------------|\n| Primary | Amino acid sequence |\n| Secondary | α-helix, β-sheet |\n| Tertiary | 3D folding |\n| Quaternary | Multiple chains |\n\n### Protein Functions\n\n| Type | Function | Example |\n|------|----------|--------|\n| Enzymes | Catalysis | Amylase |\n| Structural | Support | Collagen |\n| Transport | Carry molecules | Hemoglobin |\n| Hormones | Signaling | Insulin |\n\n> 🎯 **Key Point:** Biomolecules are the chemistry of life!"
+        },
+        {
+            "id": "org_quiz_3",
+            "type": "quiz",
+            "title": "Biomolecules Quiz",
+            "content": "Test your understanding of biological molecules!",
+            "quizQuestion": "What type of polymerization produces nylon?",
+            "quizOptions": [
+                "Addition polymerization",
+                "Condensation polymerization",
+                "Free radical polymerization",
+                "Ionic polymerization"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "org_11",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Organic Chemistry! Here's what you've mastered:\n\n## Hydrocarbons\n- ✅ **Alkanes** (CₙH₂ₙ₊₂): Saturated, single bonds\n- ✅ **Alkenes** (CₙH₂ₙ): Double bond, addition reactions\n- ✅ **Alkynes** (CₙH₂ₙ₋₂): Triple bond\n\n## Functional Groups\n\n| Group | Structure | Example |\n|-------|-----------|--------|\n| Alcohol | ─OH | Ethanol |\n| Aldehyde | ─CHO | Methanal |\n| Ketone | ═O | Propanone |\n| Carboxylic acid | ─COOH | Ethanoic acid |\n| Ester | ─COO─ | Ethyl acetate |\n| Amine | ─NH₂ | Methylamine |\n\n## IUPAC Nomenclature\n- ✅ Parent chain + suffix for functional group\n- ✅ Substituents as prefixes with positions\n\n## Isomerism\n- ✅ Structural (chain, position, functional group)\n- ✅ Stereoisomerism (geometric, optical)\n\n## Polymers\n- ✅ Addition polymerization: Alkenes\n- ✅ Condensation polymerization: Polyesters, polyamides\n\n## Biomolecules\n- ✅ Carbohydrates: Energy and structure\n- ✅ Proteins: Amino acids, peptide bonds\n\n> 🚀 **Next Steps:** Explore Analytical Chemistry to learn how we identify and quantify these compounds!\n\nYou now understand the chemistry of carbon and life!"
+        }
+    ]
+}

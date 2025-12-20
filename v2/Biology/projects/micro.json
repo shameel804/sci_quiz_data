@@ -1,380 +1,56 @@
 [
-  {
-    "title": "Differences Between Bacteria and Viruses",
-    "ques": "Explain three major differences between bacteria and viruses in terms of structure, reproduction, and treatment.",
-    "answer": {
-      "type": "text",
-      "content": "1. Bacteria are single-celled organisms with a cell wall, while viruses are non-cellular and consist of genetic material in a protein coat.\n2. Bacteria reproduce independently through binary fission, but viruses require a host cell to replicate.\n3. Bacterial infections are treated with antibiotics, whereas viral infections require antivirals or vaccines."
+    {
+        "title": "Bacteria Basics 🦠",
+        "ques": "1. What shapes can bacteria be?\n2. Are bacteria prokaryotic or eukaryotic?\n3. How do bacteria reproduce?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Shapes:**\n- Cocci (spherical)\n- Bacilli (rod-shaped)\n- Spirilla (spiral)\n\n**2. Prokaryotic** (no nucleus or membrane-bound organelles)\n\n**3. Binary fission:** DNA replicates → cell divides → 2 identical cells"
+        },
+        "explanation": "**Bacteria** reproduce very fast (every 20 minutes). That's why infections spread quickly."
     },
-    "explanation": "***1. Structure***: \n```Bacteria``` have a complete cellular structure, including a cell wall and cytoplasm. \n```Viruses``` are much simpler, made up of DNA or RNA enclosed in a protein coat, with no cell structures.\n\n***2. Reproduction***: \n```Bacteria``` reproduce on their own by binary fission. \n```Viruses``` cannot reproduce unless they infect a host cell and hijack its machinery.\n\n***3. Treatment***: \n```Antibiotics``` kill or inhibit bacteria, but they don't work on viruses. \n```Viruses``` are managed through antivirals or vaccines to prevent infection."
-  },
-  {
-    "title": "Role of Yeast in Fermentation",
-    "ques": "Describe the role of yeast in the fermentation process used in baking and brewing.",
-    "answer": {
-      "type": "text",
-      "content": "Yeast is a microorganism that ferments sugars into alcohol and carbon dioxide. In baking, the CO2 causes dough to rise, while in brewing, alcohol is produced during fermentation."
+    {
+        "title": "Virus Structure 🔬",
+        "ques": "1. Is a virus alive?\n2. Basic virus structure\n3. Lytic vs lysogenic cycle",
+        "answer": {
+            "type": "text",
+            "content": "**1. Not alive:** Cannot reproduce without host cell\n\n**2. Structure:**\n- Genetic material (DNA or RNA)\n- Protein coat (capsid)\n- Some have envelope\n\n**3. Cycles:**\n- Lytic: Virus reproduces, destroys cell\n- Lysogenic: Virus DNA integrates, lies dormant"
+        },
+        "explanation": "**Viruses** are on the edge of life. They need host cells to replicate."
     },
-    "explanation": "***Fermentation*** is an anaerobic process in which \n```yeast breaks down sugars``` like glucose.\n\nIn ***baking***: \nYeast converts sugar into carbon dioxide, forming bubbles in the dough. This makes the dough rise and gives bread its soft texture.\n\nIn ***brewing***: \nYeast converts sugar into ethanol (alcohol) and carbon dioxide. This process is essential in making beer and wine."
-  },
-  {
-    "title": "Use of Antibiotics",
-    "ques": "What are antibiotics, and why don't they work on viral infections?",
-    "answer": {
-      "type": "text",
-      "content": "Antibiotics are drugs that kill or stop the growth of bacteria. They are ineffective against viruses because viruses do not have the structures that antibiotics target, such as cell walls or metabolic pathways."
+    {
+        "title": "Fermentation 🍺",
+        "ques": "1. What is fermentation?\n2. Two types and products\n3. Industrial applications",
+        "answer": {
+            "type": "text",
+            "content": "**1. Fermentation:** Anaerobic respiration (no oxygen)\n\n**2. Types:**\n- Alcoholic: Glucose → Ethanol + CO₂ (yeast)\n- Lactic acid: Glucose → Lactic acid (muscles, yogurt)\n\n**3. Applications:**\n- Beer/wine (alcohol)\n- Bread (CO₂ for rising)\n- Yogurt/cheese (lactic acid)"
+        },
+        "explanation": "**Fermentation** produces less ATP than aerobic respiration but works without oxygen."
     },
-    "explanation": "***Antibiotics*** work by targeting specific features of bacteria such as the cell wall, protein synthesis machinery, or metabolic enzymes.\n\n```Viruses``` lack these features — they don't have a cell wall or metabolism. Instead, they hijack host cells to reproduce.\n\nSo, antibiotics cannot interfere with viral replication, making them ***ineffective against viruses***."
-  },
-  {
-    "title": "Genetic Modification in Agriculture",
-    "ques": "What is a genetically modified organism (GMO), and how is it created?",
-    "answer": {
-      "type": "text",
-      "content": "A GMO is an organism whose DNA has been altered using genetic engineering. Scientists insert specific genes into an organism's genome using techniques like CRISPR or bacterial vectors to give it new traits."
+    {
+        "title": "Antibiotics 💊",
+        "ques": "1. How do antibiotics work?\n2. Why don't they work on viruses?\n3. What is antibiotic resistance?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Mechanism:** Target bacterial structures (cell wall synthesis, protein synthesis)\n\n**2. Not effective on viruses:** Viruses lack cell walls and ribosomes that antibiotics target\n\n**3. Resistance:** Bacteria evolve to survive antibiotics (overuse accelerates this)"
+        },
+        "explanation": "**Antibiotic resistance** is a global health threat. Complete your prescribed course!"
     },
-    "explanation": "***Genetic engineering*** involves directly modifying an organism's DNA to introduce new traits.\n\nTo create a ```GMO```:\n1. Identify a useful gene (e.g., pest resistance).\n2. Use tools like ***CRISPR*** or ***Agrobacterium tumefaciens*** to insert the gene into the target organism.\n3. The modified organism expresses the new gene, giving it the desired trait (e.g., drought resistance, faster growth)."
-  },
-  {
-    "title": "Applications of Stem Cells",
-    "ques": "List two major applications of stem cells in medicine.",
-    "answer": {
-      "type": "text",
-      "content": "1. Regenerative medicine: Stem cells can regenerate damaged tissues such as in spinal cord injuries or heart disease.\n2. Treatment of blood disorders: Bone marrow transplants use stem cells to treat leukemia and other blood conditions."
+    {
+        "title": "Genetic Engineering 🧬",
+        "ques": "1. What are GMOs?\n2. How is insulin produced?\n3. Give 2 benefits and 2 concerns",
+        "answer": {
+            "type": "text",
+            "content": "**1. GMOs:** Organisms with DNA modified using biotechnology\n\n**2. Insulin production:** Human insulin gene inserted into bacteria → bacteria produce insulin\n\n**3. Benefits:** Disease-resistant crops, medicine production\n**Concerns:** Unknown long-term effects, corporate control of seeds"
+        },
+        "explanation": "**Genetic engineering** uses restriction enzymes and plasmids to insert genes into organisms."
     },
-    "explanation": "***Stem cells*** have the ability to become any type of cell in the body.\n\nIn ***regenerative medicine***: \n```Stem cells``` can be used to grow new tissues and organs, helping patients recover from injuries and diseases.\n\nIn ***blood disorder treatment***: \n```Hematopoietic stem cells``` from bone marrow are transplanted to produce new blood cells in patients with leukemia or anemia."
-  },
-  {
-    "title": "Cloning Basics",
-    "ques": "What is cloning, and how is reproductive cloning different from therapeutic cloning?",
-    "answer": {
-      "type": "text",
-      "content": "Cloning is the process of creating a genetically identical copy of an organism or cell.\nReproductive cloning creates a full living organism, while therapeutic cloning produces stem cells for treatment purposes."
-    },
-    "explanation": "***Cloning*** creates an exact genetic copy of an organism.\n\n***Reproductive cloning***: \nInvolves transferring DNA into an egg cell and implanting the embryo into a surrogate, resulting in a cloned animal (e.g., Dolly the sheep).\n\n***Therapeutic cloning***: \nSimilar DNA transfer is done, but the embryo is not implanted. Instead, ```stem cells``` are harvested for research or medical treatments."
-  },
-  {
-    "title": "Structure of Fungi",
-    "ques": "Describe the basic structure of fungi and how it differs from bacteria.",
-    "answer": {
-      "type": "text",
-      "content": "Fungi are eukaryotic organisms made of hyphae that form a network called mycelium. Unlike bacteria, which are prokaryotic and lack organelles, fungi have nuclei and membrane-bound organelles."
-    },
-    "explanation": "***Fungi structure***: \nFungi are composed of thread-like structures called ```hyphae```, which branch out to form a network called ```mycelium```.\n\n***Fungi vs Bacteria***:\n- Fungi are ***eukaryotic***, meaning they have a nucleus and organelles.\n- Bacteria are ***prokaryotic*** and lack a true nucleus and membrane-bound structures.\nThis difference affects how they function and how we target them with treatments."
-  },
-  {
-    "title": "Bacterial Role in Biotechnology",
-    "ques": "How are bacteria used in the field of biotechnology? Give two specific examples.",
-    "answer": {
-      "type": "text",
-      "content": "Bacteria are used to produce insulin through genetic engineering and in the cleanup of oil spills using bioremediation techniques."
-    },
-    "explanation": "***Genetically engineered bacteria***:\nScientists insert the human insulin gene into ```E. coli```, which then produces insulin used to treat diabetes.\n\n***Bioremediation***:\nCertain bacteria can digest harmful substances. For example, ```Pseudomonas``` species are used to break down oil in contaminated environments.\nThese uses show the versatility of bacteria in both medicine and environmental cleanup."
-  },
-  {
-    "title": "Viral Replication Cycle",
-    "ques": "Outline the basic steps of the viral replication cycle inside a host cell.",
-    "answer": {
-      "type": "text",
-      "content": "1. Attachment: Virus binds to the host cell.\n2. Entry: Viral genetic material enters the host.\n3. Replication: Host machinery makes viral components.\n4. Assembly: New viruses are put together.\n5. Release: Viruses burst out or bud off the host cell."
-    },
-    "explanation": "***Step 1 - Attachment***: \nThe virus recognizes and binds to a specific receptor on the host cell's surface.\n\n***Step 2 - Entry***: \nThe virus injects its DNA/RNA or is engulfed into the cell.\n\n***Step 3 - Replication***: \nThe host cell's machinery is hijacked to replicate viral genomes and proteins.\n\n***Step 4 - Assembly***: \nNew viral particles are assembled inside the host cell.\n\n***Step 5 - Release***: \nNew viruses leave the host cell via ```lysis``` (bursting) or ```budding```, ready to infect new cells."
-  },
-  {
-    "title": "Antibiotic Resistance",
-    "ques": "What is antibiotic resistance, and how does it develop in bacterial populations?",
-    "answer": {
-      "type": "text",
-      "content": "Antibiotic resistance is when bacteria evolve to survive exposure to antibiotics. It develops through random mutations and overuse or misuse of antibiotics, which select for resistant strains."
-    },
-    "explanation": "***Antibiotic resistance*** occurs when bacteria change in ways that reduce or eliminate the effectiveness of drugs.\n\n***How it develops***:\n- Mutations may randomly give some bacteria resistance.\n- When antibiotics are overused, they kill non-resistant bacteria, leaving behind the resistant ones to multiply.\n- This creates a population of ```resistant bacteria``` that no longer respond to standard treatments."
-  },
-  {
-    "title": "GMO Benefits and Concerns",
-    "ques": "List one benefit and one concern associated with genetically modified organisms in agriculture.",
-    "answer": {
-      "type": "text",
-      "content": "Benefit: GMOs can increase crop yield and reduce the need for pesticides.\nConcern: There may be environmental risks such as gene transfer to wild species or reduced biodiversity."
-    },
-    "explanation": "***Benefit***: \nSome GM crops are engineered to resist pests or tolerate drought. This means farmers can produce more food with fewer chemicals.\n\n***Concern***: \nGenes from GMOs may unintentionally spread to wild plants through cross-pollination, possibly leading to ecological imbalances or reduced genetic variety in nature."
-  },
-  {
-    "title": "Somatic vs Embryonic Stem Cells",
-    "ques": "Differentiate between somatic (adult) stem cells and embryonic stem cells.",
-    "answer": {
-      "type": "text",
-      "content": "Somatic stem cells are found in adult tissues and can form limited cell types. Embryonic stem cells come from early embryos and can become any cell type in the body."
-    },
-    "explanation": "***Somatic stem cells***:\n- Found in organs like bone marrow.\n- Are ***multipotent*** — can develop into a few related cell types (e.g., blood cells).\n\n***Embryonic stem cells***:\n- Sourced from early-stage embryos.\n- Are ***pluripotent*** — can turn into ***any*** cell type in the body.\nThese differences affect their potential uses and ethical considerations in medicine."
-  },
-  {
-    "title": "Cloning in Animals",
-    "ques": "Explain how cloning is used in animals and provide one real-world example.",
-    "answer": {
-      "type": "text",
-      "content": "Cloning in animals involves creating a genetic copy using a somatic cell nucleus. A real-world example is Dolly the sheep, the first cloned mammal from an adult cell."
-    },
-    "explanation": "***Animal cloning*** uses a technique called ***somatic cell nuclear transfer (SCNT)***:\n1. Take the nucleus from a donor adult cell.\n2. Insert it into an enucleated egg cell.\n3. Stimulate cell division.\n4. Implant the embryo into a surrogate.\n\n***Example***: \n```Dolly the sheep``` was cloned in 1996 using SCNT, proving that adult cells can be reprogrammed to create a full organism."
-  },
-  {
-    "title": "Fungal Infections in Humans",
-    "ques": "Name two common fungal infections in humans and explain how they are typically treated.",
-    "answer": {
-      "type": "text",
-      "content": "1. Athlete's foot: Treated with topical antifungal creams like clotrimazole.\n2. Candidiasis (yeast infection): Treated with oral or topical antifungal medications such as fluconazole."
-    },
-    "explanation": "***Athlete’s foot*** is caused by fungi like ```Trichophyton``` and thrives in moist environments like shoes. It causes itching and skin peeling between toes.\n\nTreatment: ***Antifungal creams*** are applied to kill the fungus and prevent its spread.\n\n***Candidiasis*** is caused by the yeast ```Candida albicans```. It can affect the mouth, genitals, or bloodstream in severe cases.\n\nTreatment: Involves ***antifungal drugs*** taken orally or applied topically depending on the infection’s location."
-  },
-  {
-    "title": "Viruses in Biotechnology",
-    "ques": "How are viruses used in genetic engineering and gene therapy?",
-    "answer": {
-      "type": "text",
-      "content": "Viruses are used as vectors to deliver therapeutic genes into cells. Modified viruses can insert corrected genes into a patient’s DNA to treat genetic disorders like cystic fibrosis."
-    },
-    "explanation": "***Viruses as vectors***:\nScientists engineer viruses to carry useful genes instead of harmful ones.\n\nIn ***gene therapy***, viruses deliver these genes into target cells where the DNA is integrated into the genome.\n\nExample: In treating cystic fibrosis, a modified virus delivers a functioning CFTR gene to cells in the respiratory tract.\n\nThis method takes advantage of the virus's natural ability to enter cells and insert genetic material."
-  },
-  {
-    "title": "Probiotic Bacteria",
-    "ques": "What are probiotics, and how do they benefit human health?",
-    "answer": {
-      "type": "text",
-      "content": "Probiotics are live beneficial bacteria found in foods like yogurt. They support gut health by improving digestion and boosting the immune system."
-    },
-    "explanation": "***Probiotics*** are strains of bacteria such as ```Lactobacillus``` and ```Bifidobacterium```.\n\nThey colonize the digestive tract and:\n- Compete with harmful microbes.\n- Aid in digestion and nutrient absorption.\n- Support immune function.\n\nThey are often consumed through fermented foods and supplements to maintain a healthy gut microbiome."
-  },
-  {
-    "title": "Industrial Use of Fungi",
-    "ques": "Give two industrial uses of fungi and the products they help produce.",
-    "answer": {
-      "type": "text",
-      "content": "1. Penicillium species are used to produce the antibiotic penicillin.\n2. Aspergillus species are used in the production of citric acid for food and beverages."
-    },
-    "explanation": "***Penicillium*** notatum produces the antibiotic ```penicillin```, which kills or inhibits the growth of bacteria. It was the first antibiotic discovered and revolutionized medicine.\n\n***Aspergillus*** niger is used industrially to ferment sugars and produce large quantities of ```citric acid```, commonly used as a preservative and flavor enhancer in soft drinks and processed foods."
-  },
-  {
-    "title": "Transgenic Plants",
-    "ques": "What is a transgenic plant, and how is it created?",
-    "answer": {
-      "type": "text",
-      "content": "A transgenic plant contains genes from another organism introduced via genetic engineering. This is done using gene guns or bacterial vectors like Agrobacterium tumefaciens."
-    },
-    "explanation": "***Transgenic plants*** carry foreign genes that give them new traits (e.g., pest resistance, drought tolerance).\n\n***Creation methods***:\n- ***Gene gun***: Shoots DNA-coated particles into plant cells.\n- ***Agrobacterium***: A natural soil bacterium modified to transfer desired genes into the plant genome.\n\nExample: ```Bt corn``` contains a bacterial gene that produces a protein toxic to certain insects, reducing the need for chemical pesticides."
-  },
-  {
-    "title": "Cloning for Endangered Species",
-    "ques": "How can cloning be used to help conserve endangered species?",
-    "answer": {
-      "type": "text",
-      "content": "Cloning can help endangered species by creating genetic copies of animals from preserved cells, increasing population numbers and genetic diversity."
-    },
-    "explanation": "***Conservation cloning*** involves creating new individuals from stored cells or tissue of endangered animals.\n\nScientists extract DNA from preserved tissue and implant it into enucleated egg cells of a closely related species.\n\nExample: The ```black-footed ferret``` has been cloned to help boost its wild population using cells frozen for over 30 years.\n\nThis technique holds promise for species with critically low numbers or those already extinct in the wild."
-  },
-  {
-    "title": "Anaerobic Fermentation",
-    "ques": "Explain why fermentation is considered an anaerobic process and provide one example.",
-    "answer": {
-      "type": "text",
-      "content": "Fermentation is anaerobic because it occurs without oxygen. For example, yeast ferments glucose into ethanol and carbon dioxide in beer production."
-    },
-    "explanation": "***Anaerobic fermentation*** means it takes place in the absence of ```oxygen```.\n\nIn ***yeast fermentation***:\n- Glucose → Ethanol + CO₂ + Energy\n- Yeast cells break down sugars to produce energy without using oxygen.\n\nThis is how alcoholic beverages like beer and wine are made.\n\nOxygen is not required, which makes fermentation useful in environments or processes where oxygen is limited or undesirable."
-  },
-  {
-    "title": "Bacterial Cell vs Human Cell",
-    "ques": "List two structural differences between a bacterial cell and a human (eukaryotic) cell.",
-    "answer": {
-      "type": "text",
-      "content": "1. Bacterial cells lack a true nucleus, while human cells have a membrane-bound nucleus.\n2. Bacteria have a cell wall made of peptidoglycan, whereas human cells do not have a cell wall."
-    },
-    "explanation": "***Nucleus***:\nBacteria are ***prokaryotic*** — their genetic material floats freely in the cytoplasm.\nHuman cells are ***eukaryotic*** and store DNA inside a membrane-bound ```nucleus```.\n\n***Cell wall***:\nBacterial cell walls are made of ```peptidoglycan```, providing structure and protection.\nHuman cells lack a cell wall entirely, having only a flexible cell membrane."
-  },
-  {
-    "title": "Virus Specificity",
-    "ques": "Why can some viruses infect humans but not animals, and vice versa?",
-    "answer": {
-      "type": "text",
-      "content": "Viruses can only infect cells with specific receptors that match their surface proteins. If the host does not have these receptors, the virus cannot enter or replicate."
-    },
-    "explanation": "***Viral surface proteins*** must bind to specific receptors on the host cell.\n\nIf the target cell lacks the correct ```receptor protein```, the virus cannot attach and infect it.\n\nExample: The ***HIV virus*** binds to the CD4 receptor found on human T-cells but not on animal cells. This makes it ***host-specific***."
-  },
-  {
-    "title": "Antibiotics From Microorganisms",
-    "ques": "Name one bacterium and one fungus that naturally produce antibiotics.",
-    "answer": {
-      "type": "text",
-      "content": "1. Streptomyces (bacterium) produces streptomycin.\n2. Penicillium (fungus) produces penicillin."
-    },
-    "explanation": "***Streptomyces*** is a soil-dwelling bacterium that produces a range of antibiotics, including ```streptomycin```, which targets bacterial ribosomes.\n\n***Penicillium*** is a mold that produces ```penicillin```, the first discovered antibiotic, which interferes with bacterial cell wall synthesis.\n\nThese natural products are harvested and used in medicine to treat bacterial infections."
-  },
-  {
-    "title": "CRISPR in GMOs",
-    "ques": "How is CRISPR technology used to develop genetically modified organisms (GMOs)?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR is used to precisely edit DNA by cutting specific sequences and inserting desired genes. This allows scientists to create GMOs with targeted traits like disease resistance or faster growth."
-    },
-    "explanation": "***CRISPR-Cas9*** is a gene-editing tool that acts like molecular scissors.\n\nIt targets a specific DNA sequence, makes a cut, and allows scientists to:\n- ***Remove*** unwanted genes.\n- ***Insert*** beneficial genes (e.g., for drought resistance).\n\nThis technique is used to create crops with improved traits without introducing random mutations."
-  },
-  {
-    "title": "Cloning Limitations",
-    "ques": "What is one major limitation of reproductive cloning in animals?",
-    "answer": {
-      "type": "text",
-      "content": "One major limitation is low success rate. Many cloned embryos fail to develop properly, and the animals that are born often suffer from health issues or premature aging."
-    },
-    "explanation": "***Low success rate***: \nOnly a small percentage of cloned embryos survive to birth.\n\n***Health problems***:\nClones may show abnormalities such as enlarged organs, poor immune function, or rapid aging due to shortened telomeres.\n\nExample: ```Dolly the sheep``` had health issues and died relatively young, highlighting the biological challenges of cloning."
-  },
-  {
-    "title": "Lactic Acid Fermentation",
-    "ques": "What is lactic acid fermentation, and where does it occur naturally?",
-    "answer": {
-      "type": "text",
-      "content": "Lactic acid fermentation is an anaerobic process where glucose is converted into lactic acid. It occurs in muscle cells during intense activity and in bacteria used to make yogurt."
-    },
-    "explanation": "***Lactic acid fermentation*** happens without oxygen.\n\nIn ***muscles***:\nWhen oxygen is low during intense exercise, cells convert glucose into ```lactic acid``` to produce energy.\n\nIn ***food production***:\nBacteria like ```Lactobacillus``` ferment milk sugars to produce lactic acid, which thickens milk and gives yogurt its sour taste."
-  },
-  {
-    "title": "Virus vs Fungi",
-    "ques": "State one major structural difference between viruses and fungi.",
-    "answer": {
-      "type": "text",
-      "content": "Viruses are non-cellular and lack organelles, while fungi are multicellular organisms with nuclei and organelles."
-    },
-    "explanation": "***Viruses***:\n- Made of genetic material (DNA or RNA) in a protein coat.\n- Do not have cells, nuclei, or organelles.\n\n***Fungi***:\n- Are ***eukaryotic*** and have a full cellular structure, including nuclei, mitochondria, and membranes.\n- Many fungi are multicellular, forming hyphae and mycelium.\n\nThis difference affects how they reproduce, grow, and respond to treatment."
-  },
-  {
-    "title": "Bacterial Biofilms",
-    "ques": "What is a bacterial biofilm, and why is it significant in healthcare settings?",
-    "answer": {
-      "type": "text",
-      "content": "A bacterial biofilm is a structured community of bacteria embedded in a self-produced slime-like matrix. It is significant in healthcare because it makes infections more resistant to antibiotics and immune responses."
-    },
-    "explanation": "***Bacterial biofilm***:\nA biofilm forms when bacteria adhere to surfaces and secrete a sticky layer of polysaccharides.\n\n***In healthcare***:\nBiofilms can form on medical devices like catheters or implants, leading to persistent infections that are difficult to treat due to the protective ```matrix``` that blocks antibiotics and immune cells."
-  },
-  {
-    "title": "Role of Yeast in Baking",
-    "ques": "How does yeast contribute to the rising of bread dough?",
-    "answer": {
-      "type": "text",
-      "content": "Yeast ferments sugars in the dough, producing carbon dioxide gas which gets trapped in the gluten network, causing the dough to rise."
-    },
-    "explanation": "***Yeast fermentation***:\nYeast breaks down sugars via anaerobic respiration:\n```Glucose → Ethanol + CO₂```\n\nThe ***CO₂ gas*** becomes trapped in the elastic gluten matrix of the dough, expanding it and making the bread light and airy.\nThis is why yeast is essential in baking for texture and volume."
-  },
-  {
-    "title": "Plasmids in Genetic Engineering",
-    "ques": "What is the role of plasmids in genetic engineering of bacteria?",
-    "answer": {
-      "type": "text",
-      "content": "Plasmids are circular DNA molecules used as vectors to introduce foreign genes into bacteria for protein production or research."
-    },
-    "explanation": "***Plasmids***:\nSmall, circular DNA separate from bacterial chromosomes.\n\n***In genetic engineering***:\nScientists insert a desired gene into a plasmid, which is then introduced into bacteria.\nThe bacteria replicate the plasmid and express the inserted gene, producing useful proteins like ```insulin``` or enzymes."
-  },
-  {
-    "title": "Fungal Spores and Spread",
-    "ques": "How do fungi spread, and what role do spores play in their life cycle?",
-    "answer": {
-      "type": "text",
-      "content": "Fungi spread by releasing spores into the environment. These spores are resistant structures that grow into new fungal colonies under suitable conditions."
-    },
-    "explanation": "***Fungal spores***:\nReproductive units capable of surviving harsh conditions.\n\nFungi like ```mold``` or ```mushrooms``` produce spores that disperse via air, water, or animals.\nWhen conditions are right (moisture, temperature), spores germinate and grow into new ***mycelium*** networks, continuing the life cycle."
-  },
-  {
-    "title": "Stem Cells in Medicine",
-    "ques": "How are stem cells used in the treatment of blood-related disorders?",
-    "answer": {
-      "type": "text",
-      "content": "Stem cells from bone marrow or cord blood can be transplanted to regenerate healthy blood cells in patients with leukemia or anemia."
-    },
-    "explanation": "***Stem cell therapy***:\nStem cells can differentiate into various blood cell types (RBCs, WBCs, platelets).\n\nIn ***leukemia***, diseased bone marrow is replaced with healthy stem cells via a transplant.\nThese new cells repopulate the marrow and restore normal blood function.\nCord blood, rich in stem cells, is often stored for future medical use."
-  },
-  {
-    "title": "Cloning for Agriculture",
-    "ques": "Why might farmers use cloning techniques in agriculture?",
-    "answer": {
-      "type": "text",
-      "content": "Farmers use cloning to produce animals or plants with desirable traits like high yield, disease resistance, or uniform quality."
-    },
-    "explanation": "***Agricultural cloning***:\nUsed to replicate organisms with ideal traits.\n\nFor example:\n- A cow with high milk yield is cloned to reproduce identical, high-performing offspring.\n- In plants, cloning ensures crops grow with consistent size, taste, and resistance.\nThis increases farm productivity and product quality."
-  },
-  {
-    "title": "Antibiotic Targets",
-    "ques": "Why don't antibiotics work against viruses?",
-    "answer": {
-      "type": "text",
-      "content": "Antibiotics target structures like bacterial cell walls or protein synthesis machinery, which viruses do not possess. Viruses rely on host cells to reproduce."
-    },
-    "explanation": "***Bacteria vs Viruses***:\nAntibiotics interfere with processes unique to bacteria:\n- ```Cell wall synthesis```\n- ```Ribosomal function```\n\nViruses lack these components. They hijack host cell machinery to replicate, so antibiotics have no effect on them.\nThis is why viral infections (e.g., colds, flu) aren't treated with antibiotics."
-  },
-  {
-    "title": "Bacteria in Nitrogen Fixation",
-    "ques": "Name one role of bacteria in the nitrogen cycle and explain its importance to plants.",
-    "answer": {
-      "type": "text",
-      "content": "Nitrogen-fixing bacteria like Rhizobium convert atmospheric nitrogen into ammonia, which plants can absorb to make proteins and grow."
-    },
-    "explanation": "***Nitrogen-fixing bacteria*** such as ```Rhizobium``` live in root nodules of leguminous plants.\n\nThey convert nitrogen gas (N₂) into ```ammonia (NH₃)```, a form that plants can use to build amino acids and proteins.\nThis process enriches the soil and reduces the need for chemical fertilizers."
-  },
-  {
-    "title": "Viral Replication Steps",
-    "ques": "Briefly describe the process of viral replication inside a host cell.",
-    "answer": {
-      "type": "text",
-      "content": "A virus attaches to a host cell, injects its genetic material, hijacks the cell’s machinery to make viral components, assembles new viruses, and releases them by bursting the cell."
-    },
-    "explanation": "1. ***Attachment***: Virus binds to specific receptors on the host cell surface.\n2. ***Penetration***: Viral genetic material enters the host cell.\n3. ***Replication***: Host cell machinery is used to copy viral DNA/RNA and produce proteins.\n4. ***Assembly***: New virus particles are put together.\n5. ***Release***: The host cell bursts (```lysis```) or releases viruses slowly, spreading the infection."
-  },
-  {
-    "title": "Fungi in Decomposition",
-    "ques": "What role do fungi play in ecosystems, particularly in nutrient cycling?",
-    "answer": {
-      "type": "text",
-      "content": "Fungi act as decomposers by breaking down dead organic matter and recycling nutrients back into the soil."
-    },
-    "explanation": "***Fungi*** secrete enzymes that digest complex organic materials in dead plants and animals.\n\nThey absorb nutrients through their hyphae, and release simple compounds like ```carbon``` and ```nitrogen``` back into the ecosystem.\n\nThis process maintains soil fertility and supports plant growth."
-  },
-  {
-    "title": "Use of Fermentation in Industry",
-    "ques": "Name one industrial application of fermentation and the microorganism used.",
-    "answer": {
-      "type": "text",
-      "content": "Ethanol production uses yeast (Saccharomyces cerevisiae) to ferment sugars into alcohol."
-    },
-    "explanation": "***Saccharomyces cerevisiae***, a common yeast, ferments glucose in the absence of oxygen.\n\nThe chemical reaction is:\n```Glucose → Ethanol + Carbon dioxide + Energy```\n\nThis is used in:\n- Alcoholic beverage production\n- Biofuel industries to make ethanol for fuel"
-  },
-  {
-    "title": "Golden Rice as a GMO",
-    "ques": "What is Golden Rice, and what makes it genetically modified?",
-    "answer": {
-      "type": "text",
-      "content": "Golden Rice is a genetically modified rice that contains genes from other species to produce beta-carotene, a precursor of vitamin A."
-    },
-    "explanation": "***Golden Rice*** contains genes from daffodils and a bacterium that enable it to produce ```beta-carotene``` in the grain.\n\nThis helps address vitamin A deficiency in populations that rely heavily on rice.\n\nIt’s a GMO because foreign genes were ***inserted*** into its genome using ***genetic engineering*** tools."
-  },
-  {
-    "title": "Ethical Concern in Cloning",
-    "ques": "Mention one ethical concern associated with human cloning.",
-    "answer": {
-      "type": "text",
-      "content": "One ethical concern is the potential loss of individuality and the psychological impact on the cloned person knowing they are a copy of someone else."
-    },
-    "explanation": "Cloning a human could raise ***identity and autonomy*** issues.\n\nA clone might struggle with the idea of being a genetic duplicate and feel pressure to live up to the original’s life.\n\nThere are also concerns about the use of embryos and the ***potential misuse*** of cloning for non-medical purposes."
-  },
-  {
-    "title": "Antibiotic Resistance",
-    "ques": "How can overuse of antibiotics lead to antibiotic resistance in bacteria?",
-    "answer": {
-      "type": "text",
-      "content": "Overuse of antibiotics kills susceptible bacteria but allows resistant ones to survive and multiply, leading to strains that no longer respond to common treatments."
-    },
-    "explanation": "When antibiotics are used too often or incorrectly, ***natural selection*** favors bacteria with resistance genes.\n\nThese bacteria survive, reproduce, and pass on resistance traits (e.g., via ```plasmids```).\n\nResult: Common infections become harder to treat and require stronger or multiple drugs."
-  },
-  {
-    "title": "Induced Pluripotent Stem Cells",
-    "ques": "What are induced pluripotent stem cells (iPSCs), and how are they created?",
-    "answer": {
-      "type": "text",
-      "content": "iPSCs are adult cells reprogrammed to behave like embryonic stem cells by introducing specific genes that reset their state."
-    },
-    "explanation": "***iPSCs*** are made by inserting a set of regulatory genes into adult cells (e.g., skin cells).\n\nThese genes (e.g., ***Oct4, Sox2, Klf4, c-Myc***) reset the cell’s function and make it ***pluripotent***—capable of becoming any cell type.\n\niPSCs are used in research and therapy without the ethical issues of embryonic stem cells."
-  }
+    {
+        "title": "Stem Cells 🔬",
+        "ques": "1. What are stem cells?\n2. Embryonic vs adult stem cells\n3. Potential applications",
+        "answer": {
+            "type": "text",
+            "content": "**1. Stem cells:** Undifferentiated cells that can become specialized cells\n\n**2. Types:**\n- Embryonic: Can become any cell type (pluripotent)\n- Adult: More limited differentiation\n\n**3. Applications:**\n- Organ regeneration\n- Disease treatment\n- Drug testing"
+        },
+        "explanation": "**Stem cells** offer hope for treating currently incurable diseases but raise ethical concerns."
+    }
 ]

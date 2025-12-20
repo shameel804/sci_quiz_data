@@ -1,326 +1,56 @@
 [
-  {
-    "title": "Hydrogenation of Alkenes",
-    "ques": "What happens when ethene is treated with hydrogen gas in the presence of a nickel catalyst? Write the reaction and explain the type of reaction involved.",
-    "answer": {
-      "type": "text",
-      "content": "Ethene reacts with hydrogen in the presence of nickel to form ethane.\nC2H4 + H2 → C2H6\nThis is an example of an addition reaction."
+    {
+        "title": "Hydrocarbon Naming 🔗",
+        "ques": "Name these compounds:\n1. CH₃-CH₂-CH₂-CH₃\n2. CH₂=CH-CH₃\n3. CH≡C-CH₃",
+        "answer": {
+            "type": "text",
+            "content": "**1.** Butane (4 carbons, single bonds only)\n\n**2.** Propene (3 carbons, one double bond)\n\n**3.** Propyne (3 carbons, one triple bond)"
+        },
+        "explanation": "**IUPAC naming:** Count carbons for prefix (meth-, eth-, prop-, but-). Suffix shows bond type (-ane, -ene, -yne)."
     },
-    "explanation": "Ethene (```C2H4```) is an ***alkene*** with a ***double bond***.\nWhen treated with ***H2 in the presence of a Ni catalyst***:\n```C2H4 + H2 → C2H6```\nThe ***π-bond breaks*** and ***H atoms add*** across the double bond.\nThis is an ***addition reaction***, specifically ***hydrogenation***.\nProduct ***C2H6 (ethane)*** is a ***saturated alkane***."
-  },
-  {
-    "title": "Alcohol Functional Group Test",
-    "ques": "Which chemical test is used to detect the presence of the hydroxyl group in alcohols, and what observation confirms it?",
-    "answer": {
-      "type": "text",
-      "content": "The Lucas test is used to detect alcohols.\nTertiary alcohols give immediate turbidity when treated with Lucas reagent."
+    {
+        "title": "Functional Groups 🧬",
+        "ques": "Identify the functional group:\n1. CH₃OH\n2. CH₃COOH\n3. CH₃CHO\n4. CH₃COCH₃",
+        "answer": {
+            "type": "text",
+            "content": "**1.** CH₃OH → **Alcohol** (-OH)\n\n**2.** CH₃COOH → **Carboxylic acid** (-COOH)\n\n**3.** CH₃CHO → **Aldehyde** (-CHO)\n\n**4.** CH₃COCH₃ → **Ketone** (C=O between carbons)"
+        },
+        "explanation": "**Functional groups** determine chemical properties. Aldehydes have C=O at end; ketones have C=O in middle."
     },
-    "explanation": "***Lucas reagent*** = ***ZnCl2 + concentrated HCl***.\nUsed to differentiate ***primary, secondary, and tertiary alcohols***.\n- ***Tertiary alcohols*** react immediately → ***cloudy solution***\n- ***Secondary alcohols*** react slowly (5–10 mins)\n- ***Primary alcohols*** do not react at room temp\nThe ***turbidity*** is due to ***alkyl halide formation***, which is ***insoluble*** in the aqueous solution."
-  },
-  {
-    "title": "IUPAC Naming of Branched Alkanes",
-    "ques": "Write the IUPAC name of the compound:\nCH3–CH(CH3)–CH2–CH3",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is 2-methylbutane."
+    {
+        "title": "IUPAC Nomenclature 📝",
+        "ques": "Name: CH₃-CH(CH₃)-CH₂-CH₃\n\n1. Identify parent chain\n2. Number carbons\n3. Give full IUPAC name",
+        "answer": {
+            "type": "text",
+            "content": "**1. Parent chain:** 4 carbons (butane)\n\n**2. Numbering:** Start from end nearest branch\n```\n    CH₃\n     |\n1   2   3   4\nCH₃-CH-CH₂-CH₃\n```\n\n**3. Name: 2-methylbutane**"
+        },
+        "explanation": "**IUPAC rules:** Find longest chain, number from end nearest substituent, name substituents with position numbers."
     },
-    "explanation": "Step-by-step:\n1. Identify the ***longest continuous chain*** → ***butane (4 carbon atoms)***\n2. A ***methyl group (-CH3)*** is attached to the ***second carbon***.\n3. Numbering starts from the end nearest to the substituent.\nThus, the correct IUPAC name is: ***2-methylbutane***."
-  },
-  {
-    "title": "Combustion of Alkyne",
-    "ques": "Write the balanced equation for the complete combustion of ethyne. What are the products?",
-    "answer": {
-      "type": "text",
-      "content": "2C2H2 + 5O2 → 4CO2 + 2H2O\nThe products are carbon dioxide and water."
+    {
+        "title": "Polymer Types 🔄",
+        "ques": "Compare addition and condensation polymers:\n1. Define each type\n2. Give one example of each\n3. What byproduct forms in condensation?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Addition polymer:** Monomers add directly; no byproduct\n**Condensation polymer:** Monomers join by removing small molecule\n\n**2. Examples:**\n- Addition: Polyethylene (from ethene)\n- Condensation: Nylon (from diamine + diacid)\n\n**3. Byproduct:** Usually water (H₂O) or HCl"
+        },
+        "explanation": "**Addition polymers** form from alkenes (C=C opens). **Condensation polymers** join by eliminating small molecules between functional groups."
     },
-    "explanation": "Ethyne (```C2H2```) is an ***alkyne***.\nComplete combustion means burning in ***excess oxygen***.\nBalanced equation:\n```2C2H2 + 5O2 → 4CO2 + 2H2O```\nProducts:\n- ***Carbon dioxide (CO2)***\n- ***Water (H2O)***\nThis is an ***exothermic reaction*** releasing heat and light."
-  },
-  {
-    "title": "Formation of Proteins",
-    "ques": "How are proteins formed from amino acids? Name the bond involved in this process.",
-    "answer": {
-      "type": "text",
-      "content": "Proteins are formed by the polymerization of amino acids through peptide bonds.\nThese bonds link the amino group of one amino acid to the carboxyl group of another."
+    {
+        "title": "Biomolecules 🧬",
+        "ques": "Match the biomolecule with its monomer:\n1. Proteins\n2. Carbohydrates\n3. Nucleic acids",
+        "answer": {
+            "type": "text",
+            "content": "**1. Proteins** → Amino acids (20 types)\n\n**2. Carbohydrates** → Monosaccharides (glucose, fructose)\n\n**3. Nucleic acids** → Nucleotides (sugar + phosphate + base)"
+        },
+        "explanation": "**Biomolecules** are polymers of smaller units. Proteins have peptide bonds; carbohydrates have glycosidic bonds."
     },
-    "explanation": "***Amino acids*** contain both ***–NH2 (amino)*** and ***–COOH (carboxyl)*** groups.\nIn a ***condensation reaction***:\n```–COOH + –NH2 → –CO–NH– (peptide bond) + H2O```\nThis forms a ***peptide bond***.\nRepeated peptide bond formation leads to ***polypeptides*** → fold into ***proteins***.\nProteins are ***biopolymers*** essential for life."
-  },
-  {
-    "title": "Carbohydrate Classification",
-    "ques": "Classify glucose and sucrose based on their structure and hydrolysis behavior.",
-    "answer": {
-      "type": "text",
-      "content": "Glucose is a monosaccharide; it cannot be hydrolyzed further.\nSucrose is a disaccharide; it gives glucose and fructose upon hydrolysis."
-    },
-    "explanation": "***Glucose***:\n- Single sugar unit → ***monosaccharide***\n- Cannot be broken down into simpler sugars\n\n***Sucrose***:\n- Formed by joining glucose + fructose\n- Hence, a ***disaccharide***\nOn hydrolysis:\n```Sucrose + H2O → Glucose + Fructose```\nClassification is based on ***number of sugar units***."
-  },
-  {
-    "title": "Test to Distinguish Alkene from Alkane",
-    "ques": "Which simple chemical test can be used to distinguish between an alkene and an alkane? Explain the observation.",
-    "answer": {
-      "type": "text",
-      "content": "The bromine water test distinguishes alkenes from alkanes.\nAlkenes decolorize bromine water, while alkanes do not."
-    },
-    "explanation": "***Alkenes*** contain a ***carbon–carbon double bond (C=C)***.\n***Bromine water*** is orange-brown.\nWhen added to an alkene:\n```C=C + Br2 → Br–C–C–Br```\n- Bromine adds across the double bond\n- ***Color disappears (decolorization)***\nAlkanes do ***not react*** with bromine water in the dark → ***no color change***.\nHence, ***bromine water test*** is used to identify unsaturation."
-  },
-  {
-    "title": "Boiling Point of Alcohols vs Alkanes",
-    "ques": "Why do alcohols have higher boiling points than alkanes of similar molecular mass?",
-    "answer": {
-      "type": "text",
-      "content": "Alcohols form intermolecular hydrogen bonds, which require more energy to break, resulting in higher boiling points than alkanes."
-    },
-    "explanation": "***Alcohols*** have the ***–OH (hydroxyl)*** group.\nThis group allows ***hydrogen bonding***:\n```R–OH···HO–R```\nHydrogen bonds are ***strong intermolecular forces***.\nIn contrast, ***alkanes*** only have ***van der Waals forces***.\nTherefore, ***more energy is required to boil alcohols*** → ***higher boiling point***."
-  },
-  {
-    "title": "IUPAC Name for a Carboxylic Acid",
-    "ques": "Give the IUPAC name of the compound:\nCH3–CH2–CH2–COOH",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is butanoic acid."
-    },
-    "explanation": "Step-by-step:\n- Count the carbon atoms → ***4 carbon atoms***\n- The compound has a ***carboxylic acid group (–COOH)***\nBase name: ***butane***\nReplace 'e' with 'oic acid':\n```butane → butanoic acid```\nFinal IUPAC name: ***butanoic acid***"
-  },
-  {
-    "title": "Hydration of Alkyne",
-    "ques": "What is the product when ethyne is treated with water in the presence of sulfuric acid and HgSO4?",
-    "answer": {
-      "type": "text",
-      "content": "Ethyne reacts with water in the presence of H2SO4 and HgSO4 to form acetaldehyde."
-    },
-    "explanation": "***Ethyne (C2H2)*** undergoes ***hydration reaction***:\nReagents: ***Dil. H2SO4 + HgSO4 catalyst***\n```C2H2 + H2O → CH3CHO```\nFirst forms ***vinyl alcohol (enol)*** → rearranges to ***acetaldehyde***\nThis is an example of ***keto-enol tautomerism***.\nFinal product: ***CH3CHO (acetaldehyde)***"
-  },
-  {
-    "title": "Peptide Bond Representation",
-    "ques": "What type of bond links amino acids in proteins? Write the general reaction between two amino acids.",
-    "answer": {
-      "type": "text",
-      "content": "Amino acids are linked by peptide bonds.\nThe general reaction is:\nNH2–CHR–COOH + NH2–CHR'–COOH → NH2–CHR–CO–NH–CHR'–COOH + H2O"
-    },
-    "explanation": "***Peptide bond*** forms between:\n- ***–COOH of one amino acid***\n- ***–NH2 of another***\nReaction:\n```–COOH + –NH2 → –CO–NH– + H2O```\nThis is a ***condensation reaction*** (water eliminated).\nRepeating this forms ***polypeptides*** → fold into ***proteins***."
-  },
-  {
-    "title": "Monomer of Cellulose",
-    "ques": "What is the monomer of cellulose? How are the monomers linked?",
-    "answer": {
-      "type": "text",
-      "content": "The monomer of cellulose is β-D-glucose.\nThey are linked by β(1→4) glycosidic bonds."
-    },
-    "explanation": "***Cellulose*** is a ***natural polysaccharide***.\nMonomer: ***β-D-glucose***\nLinkage: ```β(1→4) glycosidic bond```\nThis means:\n- ***C1 of one glucose*** links to ***C4 of next*** via ***oxygen bridge***\nStructure is ***linear and rigid*** → allows cellulose to form ***fibers*** in plant cell walls."
-  },
-  {
-    "title": "Chain Isomerism in Alkanes",
-    "ques": "What is chain isomerism? Give one example using C5H12.",
-    "answer": {
-      "type": "text",
-      "content": "Chain isomerism occurs when compounds have the same molecular formula but different arrangements of the carbon chain.\nExample: Pentane (CH3–CH2–CH2–CH2–CH3) and 2-methylbutane (CH3–CH(CH3)–CH2–CH3) are chain isomers."
-    },
-    "explanation": "***Chain isomerism*** is a type of ***structural isomerism***.\nMolecules have same formula but differ in ***carbon chain branching***.\nFor C5H12:\n- ***Pentane***: linear chain → ```CH3–CH2–CH2–CH2–CH3```\n- ***2-Methylbutane***: branched chain → ```CH3–CH(CH3)–CH2–CH3```\nThese are ***chain isomers*** because the ***carbon skeleton differs***."
-  },
-  {
-    "title": "Oxidation of Primary Alcohols",
-    "ques": "What is the product when ethanol is oxidized using acidic potassium dichromate? Write the balanced equation.",
-    "answer": {
-      "type": "text",
-      "content": "Ethanol is oxidized to ethanoic acid.\nBalanced equation:\nCH3CH2OH + 2[O] → CH3COOH + H2O"
-    },
-    "explanation": "Reagent: ***Acidified K2Cr2O7*** → oxidizing agent\n***Primary alcohol (ethanol)*** undergoes ***complete oxidation***:\n```CH3CH2OH + 2[O] → CH3COOH + H2O```\nProduct: ***ethanoic acid*** (a carboxylic acid)\nColor change: ***orange to green*** due to reduction of ***Cr2O7²⁻ to Cr³⁺***."
-  },
-  {
-    "title": "IUPAC Name of a Compound with Double Bond and Methyl Group",
-    "ques": "Write the IUPAC name of the compound:\nCH2=CH–CH(CH3)–CH2–CH3",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is 3-methylpent-1-ene."
-    },
-    "explanation": "Step-by-step:\n1. Longest chain with double bond → ***5 carbons*** = pentene\n2. Double bond starts at ***carbon 1*** → pent-1-ene\n3. ***Methyl group*** at carbon 3\nCombine:\n```3-methylpent-1-ene```\nThis follows ***lowest locant rule*** for the double bond."
-  },
-  {
-    "title": "Combustion Products of Propane",
-    "ques": "Write the balanced equation for complete combustion of propane.",
-    "answer": {
-      "type": "text",
-      "content": "C3H8 + 5O2 → 3CO2 + 4H2O"
-    },
-    "explanation": "***Complete combustion*** occurs in excess oxygen.\nPropane formula: ```C3H8```\nBalanced equation:\n```C3H8 + 5O2 → 3CO2 + 4H2O```\nProducts:\n- ***Carbon dioxide (CO2)***\n- ***Water (H2O)***\nThis reaction releases ***heat and light*** → ***exothermic***."
-  },
-  {
-    "title": "Distinguishing Aldehyde and Carboxylic Acid",
-    "ques": "How can you distinguish between ethanal and ethanoic acid using sodium carbonate?",
-    "answer": {
-      "type": "text",
-      "content": "Add sodium carbonate to both. Ethanoic acid will produce effervescence due to CO2. Ethanal will not react."
-    },
-    "explanation": "***Ethanoic acid (CH3COOH)*** is a ***carboxylic acid***.\nIt reacts with ***sodium carbonate (Na2CO3)***:\n```CH3COOH + Na2CO3 → CH3COONa + CO2 + H2O```\nEffervescence due to ***carbon dioxide***.\n***Ethanal (CH3CHO)*** is an ***aldehyde***.\nIt does ***not react with Na2CO3***.\nSo, ***presence of bubbles*** confirms ***acidic compound***."
-  },
-  {
-    "title": "Glycosidic Bond in Disaccharides",
-    "ques": "What is a glycosidic bond? Give an example of a disaccharide and the type of glycosidic linkage it has.",
-    "answer": {
-      "type": "text",
-      "content": "A glycosidic bond is a covalent bond formed between two monosaccharide units.\nExample: Maltose has an α(1→4) glycosidic bond."
-    },
-    "explanation": "***Glycosidic bond***: formed when ***–OH groups of two monosaccharides*** react.\nIn ***maltose***:\n- Two ***α-D-glucose*** units\n- Linked by ***α(1→4) bond*** → C1 of one glucose connects to C4 of another\nReaction eliminates ***H2O*** → ***condensation reaction***.\nThis bond holds the sugar units in ***disaccharides*** and ***polysaccharides***."
-  },
-  {
-    "title": "Markovnikov's Rule Application",
-    "ques": "What is the major product when propene reacts with HBr? Use Markovnikov's rule to justify your answer.",
-    "answer": {
-      "type": "text",
-      "content": "The major product is 2-bromopropane.\nAccording to Markovnikov's rule, the H attaches to the carbon with more hydrogens, and Br attaches to the carbon with fewer hydrogens."
-    },
-    "explanation": "Propene: ```CH3–CH=CH2```\nWhen it reacts with ***HBr***, addition takes place across the double bond.\n***Markovnikov’s rule***: H attaches to the carbon that already has more H atoms.\nSo, Br attaches to the ***middle carbon*** (secondary)\nProduct: ```CH3–CHBr–CH3``` → ***2-bromopropane***\nThis is the ***major product*** due to ***carbocation stability***."
-  },
-  {
-    "title": "Decarboxylation of Carboxylic Acids",
-    "ques": "What is the product when sodium ethanoate is heated with soda lime?",
-    "answer": {
-      "type": "text",
-      "content": "Methane is formed when sodium ethanoate is heated with soda lime.\nCH3COONa + NaOH → CH4 + Na2CO3"
-    },
-    "explanation": "***Soda lime*** = mixture of ***NaOH and CaO***\n***Decarboxylation reaction***: removal of CO2 from carboxylic acid salt.\nReaction:\n```CH3COONa + NaOH → CH4 + Na2CO3```\n- Ethanoate loses –COONa group\n- ***Methane (CH4)*** is formed\nThis reaction confirms ***presence of carboxylate salt***."
-  },
-  {
-    "title": "IUPAC Naming: Substituted Cycloalkane",
-    "ques": "Give the IUPAC name of the compound:\nA cyclopentane ring with a methyl group on carbon 1 and an ethyl group on carbon 2.",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is 1-ethyl-2-methylcyclopentane."
-    },
-    "explanation": "Step-by-step:\n1. Base structure: ***cyclopentane*** (5-carbon ring)\n2. Substituents: ***ethyl at C1***, ***methyl at C2***\n3. Alphabetical priority: ***ethyl > methyl***\nSo, numbering starts from ***ethyl group***.\nFinal name: ***1-ethyl-2-methylcyclopentane***"
-  },
-  {
-    "title": "Alkyne to Alkene Reduction",
-    "ques": "How can you convert 2-butyne to cis-2-butene? Name the reagent used.",
-    "answer": {
-      "type": "text",
-      "content": "2-butyne can be converted to cis-2-butene using Lindlar's catalyst."
-    },
-    "explanation": "2-Butyne: ```CH3–C≡C–CH3```\nReduction using ***Lindlar's catalyst*** (Pd on CaCO3, poisoned with lead)\nThis gives ***partial hydrogenation***:\n```CH3–CH=CH–CH3``` (cis form)\n***Cis-2-butene*** is the major product.\n***Lindlar’s catalyst*** stops further hydrogenation to alkane."
-  },
-  {
-    "title": "Hydrolysis of Sucrose",
-    "ques": "What are the products of sucrose hydrolysis? Name the enzyme involved.",
-    "answer": {
-      "type": "text",
-      "content": "Hydrolysis of sucrose produces glucose and fructose.\nThe enzyme involved is sucrase (invertase)."
-    },
-    "explanation": "***Sucrose*** is a ***disaccharide*** of glucose and fructose.\nIn presence of ***sucrase (invertase)***:\n```Sucrose + H2O → Glucose + Fructose```\nThis is a ***hydrolysis reaction***, breaking the ***glycosidic bond***.\nThe resulting mixture is called ***invert sugar*** due to optical rotation change."
-  },
-  {
-    "title": "Zwitterion Structure of Amino Acids",
-    "ques": "What is a zwitterion? Draw the zwitterionic structure of glycine.",
-    "answer": {
-      "type": "text",
-      "content": "A zwitterion is a molecule with both positive and negative charges but is overall neutral.\nGlycine zwitterion: +H3N–CH2–COO−"
-    },
-    "explanation": "***Amino acids*** like ***glycine*** have both ***–NH2 and –COOH*** groups.\nIn aqueous solution (near neutral pH), glycine exists as:\n```+H3N–CH2–COO−```\n- ***NH2 gains H+ → NH3+***\n- ***COOH loses H+ → COO−***\nThis is called a ***zwitterion***: has ***both charges*** but overall ***neutral***."
-  },
-  {
-    "title": "Alkyne Triple Bond Confirmation",
-    "ques": "How would you confirm the presence of a triple bond in an organic compound like ethyne?",
-    "answer": {
-      "type": "text",
-      "content": "Perform a reaction with ammoniacal silver nitrate (Tollens' reagent).\nEthyne forms a white precipitate of silver acetylide, confirming the terminal triple bond."
-    },
-    "explanation": "***Terminal alkynes*** like ethyne (CH≡CH) react with ***ammoniacal AgNO3***:\n```CH≡CH + AgNO3 + NH3 → AgC≡CAg (white ppt) + NH4NO3```\n***Silver acetylide*** is insoluble → ***white precipitate*** confirms ***terminal triple bond***.\nThis test is specific for ***terminal alkynes***, not internal ones."
-  },
-  {
-    "title": "Effect of Hydrogen Bonding on Alcohol Solubility",
-    "ques": "Why are lower alcohols like methanol and ethanol highly soluble in water?",
-    "answer": {
-      "type": "text",
-      "content": "Lower alcohols form hydrogen bonds with water molecules, making them highly soluble."
-    },
-    "explanation": "***Methanol (CH3OH)*** and ***ethanol (CH3CH2OH)*** contain a ***hydroxyl group (–OH)***.\nThis group can form ***hydrogen bonds*** with water:\n```R–OH···H2O```\nHydrogen bonding → ***strong intermolecular attraction*** → ***increased solubility***\nAs chain length increases, ***hydrophobic effect dominates*** → solubility decreases."
-  },
-  {
-    "title": "IUPAC Nomenclature with Functional Group Priority",
-    "ques": "Name the compound: CH3–CH(OH)–COOH. Explain your reasoning.",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is 2-hydroxypropanoic acid."
-    },
-    "explanation": "Longest chain: ***3 carbons*** → ***propanoic acid***\n***Carboxylic acid (–COOH)*** is the ***principal functional group*** → gets position 1.\n***Hydroxyl group (–OH)*** is at position 2 → prefix = hydroxy\nFinal name: ```2-hydroxypropanoic acid```\nAlso known as ***lactic acid***."
-  },
-  {
-    "title": "Polymer Classification",
-    "ques": "Is nylon-6,6 a condensation or addition polymer? Justify your answer.",
-    "answer": {
-      "type": "text",
-      "content": "Nylon-6,6 is a condensation polymer because it is formed by the reaction of a diamine and a dicarboxylic acid with elimination of water."
-    },
-    "explanation": "***Nylon-6,6*** is made from:\n- ***Hexamethylenediamine (NH2–(CH2)6–NH2)***\n- ***Adipic acid (HOOC–(CH2)4–COOH)***\nThey react to form ***amide bonds (–CONH–)*** and eliminate ***water (H2O)***:\n```–COOH + –NH2 → –CONH– + H2O```\nThis is characteristic of ***condensation polymerization***."
-  },
-  {
-    "title": "Dehydration of Alcohol",
-    "ques": "What is the product when ethanol is heated with concentrated sulfuric acid at 170°C?",
-    "answer": {
-      "type": "text",
-      "content": "Ethanol undergoes dehydration to form ethene.\nCH3CH2OH → CH2=CH2 + H2O"
-    },
-    "explanation": "***Ethanol (CH3CH2OH)*** when heated with ***conc. H2SO4*** at ***170°C*** undergoes ***elimination reaction***.\nRemoves water (H2O) → forms ***ethene (CH2=CH2)***:\n```CH3CH2OH → CH2=CH2 + H2O```\nThis is ***acid-catalyzed dehydration*** of alcohol → forms ***alkene***."
-  },
-  {
-    "title": "Carbohydrate Classification",
-    "ques": "Classify glucose and sucrose as monosaccharide or disaccharide and explain the difference.",
-    "answer": {
-      "type": "text",
-      "content": "Glucose is a monosaccharide, sucrose is a disaccharide.\nMonosaccharides are single sugar units, while disaccharides contain two sugar units linked by a glycosidic bond."
-    },
-    "explanation": "***Glucose***: a ***monosaccharide*** → basic unit of carbohydrates\n***Sucrose***: a ***disaccharide*** → made from ***glucose + fructose***\nBond: ```α(1→2) glycosidic bond```\nMonosaccharides: simple sugars → ***cannot be hydrolyzed further***\nDisaccharides: yield two monosaccharides on ***hydrolysis***."
-  },
-  {
-    "title": "Isomerism in Alkenes",
-    "ques": "Draw and name the possible geometric isomers of but-2-ene. Explain the type of isomerism involved.",
-    "answer": {
-      "type": "text",
-      "content": "The two geometric isomers of but-2-ene are:\n1. cis-but-2-ene\n2. trans-but-2-ene"
-    },
-    "explanation": "But-2-ene: ```CH3–CH=CH–CH3```\nDue to restricted rotation around the double bond, ***geometrical isomerism*** arises:\n- ***cis-but-2-ene***: Both methyl groups on the ***same side*** of the double bond.\n- ***trans-but-2-ene***: Methyl groups on ***opposite sides***.\nThese are ***stereoisomers*** differing in ***spatial arrangement***."
-  },
-  {
-    "title": "Oxidation of Primary Alcohols",
-    "ques": "What is the product formed when ethanol is oxidized with acidified potassium dichromate? Write the equation.",
-    "answer": {
-      "type": "text",
-      "content": "Ethanol is oxidized to ethanoic acid.\nCH3CH2OH + [O] → CH3COOH + H2O"
-    },
-    "explanation": "***Ethanol (CH3CH2OH)*** is a ***primary alcohol***.\nOn oxidation with ***acidified K2Cr2O7***, it forms ***ethanoic acid (CH3COOH)***:\n```CH3CH2OH + 2[O] → CH3COOH + H2O```\n***Orange dichromate*** turns ***green*** indicating oxidation.\nThis is a ***two-step oxidation***: alcohol → aldehyde → acid."
-  },
-  {
-    "title": "IUPAC Nomenclature of Substituted Alkane",
-    "ques": "Give the IUPAC name of the compound: CH3–CH(CH3)–CH2–CH2–CH3",
-    "answer": {
-      "type": "text",
-      "content": "The IUPAC name is 2-methylpentane."
-    },
-    "explanation": "Longest chain: ***5 carbon atoms*** → ***pentane***\nMethyl group is attached to the ***2nd carbon***\nNumbering from left gives ***lowest locant***\nSo, name: ```2-methylpentane```\n***Branched alkanes*** follow prefix-root-suffix pattern."
-  },
-  {
-    "title": "Peptide Bond Formation",
-    "ques": "What type of bond joins two amino acids in a protein? Name the functional group formed.",
-    "answer": {
-      "type": "text",
-      "content": "A peptide bond joins two amino acids.\nThe functional group formed is an amide group (–CONH–)."
-    },
-    "explanation": "***Amino group (–NH2)*** of one amino acid reacts with ***carboxyl group (–COOH)*** of another:\n```–COOH + –NH2 → –CONH– + H2O```\nThis forms an ***amide bond*** known as ***peptide bond***.\nRepeating this forms ***polypeptides*** or ***proteins***.\nIt is a type of ***condensation reaction***."
-  },
-  {
-    "title": "Combustion of Alkanes",
-    "ques": "Write the balanced chemical equation for the complete combustion of propane (C3H8).",
-    "answer": {
-      "type": "text",
-      "content": "C3H8 + 5O2 → 3CO2 + 4H2O"
-    },
-    "explanation": "***Complete combustion*** of alkanes gives ***CO2 and H2O***:\nPropane: ```C3H8```\nBalanced equation:\n```C3H8 + 5O2 → 3CO2 + 4H2O```\n***Exothermic reaction***, used as fuel.\nReleases ***heat and light***.\nOccurs in ***excess oxygen***."
-  },
-  {
-    "title": "Disaccharide Hydrolysis",
-    "ques": "What monosaccharides are produced when maltose is hydrolyzed? Write the equation.",
-    "answer": {
-      "type": "text",
-      "content": "Hydrolysis of maltose produces two glucose molecules.\nC12H22O11 + H2O → 2C6H12O6"
-    },
-    "explanation": "***Maltose*** is a disaccharide of ***glucose + glucose***.\nHydrolysis reaction in presence of ***acid or enzyme (maltase)***:\n```C12H22O11 + H2O → 2C6H12O6```\n***Glycosidic bond*** is broken.\nProduct is ***two glucose units***.\nUsed in metabolism and fermentation."
-  }
+    {
+        "title": "Isomerism 🔀",
+        "ques": "Draw structural isomers of C₄H₁₀:\n1. How many isomers exist?\n2. Name both isomers\n3. Which has higher boiling point and why?",
+        "answer": {
+            "type": "text",
+            "content": "**1.** Two isomers exist\n\n**2. Names:**\n- n-Butane: CH₃-CH₂-CH₂-CH₃\n- Isobutane: CH₃-CH(CH₃)-CH₃\n\n**3.** n-Butane has higher bp (more surface area for van der Waals forces)"
+        },
+        "explanation": "**Structural isomers** have same formula, different arrangement. Branching reduces surface area → weaker intermolecular forces → lower bp."
+    }
 ]

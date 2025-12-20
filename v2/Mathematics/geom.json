@@ -1,0 +1,6233 @@
+[
+    {
+        "q": "What is a point in geometry?",
+        "type": "mcq",
+        "o": [
+            "A location in space with no dimensions",
+            "A line segment",
+            "A plane surface",
+            "A three-dimensional object"
+        ]
+    },
+    {
+        "q": "A line extends infinitely in ______ directions.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "four"
+        ]
+    },
+    {
+        "q": "A ray has one endpoint and extends infinitely in one direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a line segment?",
+        "type": "mcq",
+        "o": [
+            "A part of a line with two endpoints",
+            "A line with no endpoints",
+            "A curved path",
+            "An infinite line"
+        ]
+    },
+    {
+        "q": "Collinear points lie on the same ______.",
+        "type": "fill_blank",
+        "answers": [
+            "line"
+        ],
+        "other_options": [
+            "plane",
+            "circle",
+            "curve"
+        ]
+    },
+    {
+        "q": "Three non-collinear points determine exactly one plane.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the measure of a right angle?",
+        "type": "mcq",
+        "o": [
+            "90 degrees",
+            "180 degrees",
+            "45 degrees",
+            "360 degrees"
+        ]
+    },
+    {
+        "q": "An acute angle measures less than 90 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "An ______ angle measures more than 90 degrees but less than 180 degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "obtuse"
+        ],
+        "other_options": [
+            "acute",
+            "right",
+            "reflex"
+        ]
+    },
+    {
+        "q": "What is a straight angle?",
+        "type": "mcq",
+        "o": [
+            "An angle measuring 180 degrees",
+            "An angle measuring 90 degrees",
+            "An angle measuring 360 degrees",
+            "An angle measuring 0 degrees"
+        ]
+    },
+    {
+        "q": "Match the angle type with its measure:",
+        "type": "match",
+        "left": [
+            "Acute",
+            "Right",
+            "Obtuse",
+            "Reflex"
+        ],
+        "right": [
+            "Less than 90 degrees",
+            "Exactly 90 degrees",
+            "Between 90 and 180 degrees",
+            "Between 180 and 360 degrees"
+        ]
+    },
+    {
+        "q": "Complementary angles add up to ______ degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "90"
+        ],
+        "other_options": [
+            "180",
+            "360",
+            "45"
+        ]
+    },
+    {
+        "q": "Supplementary angles add up to 180 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Vertical angles are congruent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are adjacent angles?",
+        "type": "mcq",
+        "o": [
+            "Angles that share a common vertex and side",
+            "Angles that are equal",
+            "Angles that are opposite each other",
+            "Angles that add up to 90 degrees"
+        ]
+    },
+    {
+        "q": "If two parallel lines are cut by a transversal, alternate interior angles are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "congruent"
+        ],
+        "other_options": [
+            "supplementary",
+            "complementary",
+            "adjacent"
+        ]
+    },
+    {
+        "q": "Corresponding angles are congruent when formed by parallel lines and a transversal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a polygon?",
+        "type": "mcq",
+        "o": [
+            "A closed plane figure made of line segments",
+            "An open figure",
+            "A curved shape",
+            "A three-dimensional object"
+        ]
+    },
+    {
+        "q": "A polygon with 5 sides is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pentagon"
+        ],
+        "other_options": [
+            "hexagon",
+            "quadrilateral",
+            "octagon"
+        ]
+    },
+    {
+        "q": "Match the polygon with its number of sides:",
+        "type": "match",
+        "left": [
+            "Triangle",
+            "Quadrilateral",
+            "Hexagon",
+            "Octagon"
+        ],
+        "right": [
+            "3 sides",
+            "4 sides",
+            "6 sides",
+            "8 sides"
+        ]
+    },
+    {
+        "q": "A regular polygon has all sides and angles equal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the sum of interior angles of a triangle?",
+        "type": "mcq",
+        "o": [
+            "180 degrees",
+            "360 degrees",
+            "90 degrees",
+            "270 degrees"
+        ]
+    },
+    {
+        "q": "The formula for the sum of interior angles of an n-sided polygon is (n-2) * 180 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an equilateral triangle?",
+        "type": "mcq",
+        "o": [
+            "A triangle with all sides equal",
+            "A triangle with all sides different",
+            "A triangle with one right angle",
+            "A triangle with two equal sides"
+        ]
+    },
+    {
+        "q": "An isosceles triangle has ______ equal sides.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "three",
+            "one",
+            "none"
+        ]
+    },
+    {
+        "q": "A scalene triangle has no equal sides.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the triangle type with its property:",
+        "type": "match",
+        "left": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right"
+        ],
+        "right": [
+            "All sides equal",
+            "Two sides equal",
+            "No sides equal",
+            "One 90-degree angle"
+        ]
+    },
+    {
+        "q": "In a right triangle, the side opposite the right angle is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hypotenuse"
+        ],
+        "other_options": [
+            "leg",
+            "base",
+            "altitude"
+        ]
+    },
+    {
+        "q": "The Pythagorean theorem states a^2 + b^2 = c^2 for a right triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the length of the hypotenuse of a right triangle with legs 3 and 4?",
+        "type": "mcq",
+        "o": [
+            "5",
+            "7",
+            "12",
+            "25"
+        ]
+    },
+    {
+        "q": "Rearrange the steps to use the Pythagorean theorem:",
+        "type": "rearrange",
+        "words": [
+            "Identify the right angle",
+            "Label the sides",
+            "Apply a^2 + b^2 = c^2",
+            "Solve for unknown",
+            "Check the answer"
+        ]
+    },
+    {
+        "q": "What is the area of a triangle?",
+        "type": "mcq",
+        "o": [
+            "(1/2) * base * height",
+            "base * height",
+            "side * side",
+            "2 * base * height"
+        ]
+    },
+    {
+        "q": "The perimeter of a triangle is the sum of all its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sides"
+        ],
+        "other_options": [
+            "angles",
+            "heights",
+            "diagonals"
+        ]
+    },
+    {
+        "q": "What is a quadrilateral?",
+        "type": "mcq",
+        "o": [
+            "A polygon with 4 sides",
+            "A polygon with 3 sides",
+            "A polygon with 5 sides",
+            "A polygon with 6 sides"
+        ]
+    },
+    {
+        "q": "The sum of interior angles of a quadrilateral is ______ degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "360"
+        ],
+        "other_options": [
+            "180",
+            "540",
+            "720"
+        ]
+    },
+    {
+        "q": "A rectangle has all angles equal to 90 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a square?",
+        "type": "mcq",
+        "o": [
+            "A rectangle with all sides equal",
+            "A parallelogram with no right angles",
+            "A quadrilateral with no parallel sides",
+            "A rhombus with no right angles"
+        ]
+    },
+    {
+        "q": "Match the quadrilateral with its property:",
+        "type": "match",
+        "left": [
+            "Rectangle",
+            "Square",
+            "Rhombus",
+            "Trapezoid"
+        ],
+        "right": [
+            "Opposite sides equal and all right angles",
+            "All sides equal and all right angles",
+            "All sides equal but angles not 90 degrees",
+            "Exactly one pair of parallel sides"
+        ]
+    },
+    {
+        "q": "A parallelogram has ______ pairs of parallel sides.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "none"
+        ]
+    },
+    {
+        "q": "The diagonals of a rectangle are equal in length.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the area of a rectangle?",
+        "type": "mcq",
+        "o": [
+            "length * width",
+            "(1/2) * base * height",
+            "side * side * side",
+            "2 * (length + width)"
+        ]
+    },
+    {
+        "q": "The area of a square with side s is s^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the area of a parallelogram?",
+        "type": "mcq",
+        "o": [
+            "base * height",
+            "length * width",
+            "(1/2) * d1 * d2",
+            "side^2"
+        ]
+    },
+    {
+        "q": "The diagonals of a rhombus are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "perpendicular"
+        ],
+        "other_options": [
+            "parallel",
+            "equal",
+            "congruent"
+        ]
+    },
+    {
+        "q": "What is a circle?",
+        "type": "mcq",
+        "o": [
+            "A set of all points equidistant from a center point",
+            "A polygon with infinite sides",
+            "A curved line with endpoints",
+            "A three-dimensional shape"
+        ]
+    },
+    {
+        "q": "The distance from the center to any point on the circle is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radius"
+        ],
+        "other_options": [
+            "diameter",
+            "chord",
+            "arc"
+        ]
+    },
+    {
+        "q": "The diameter is twice the radius.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the circumference of a circle?",
+        "type": "mcq",
+        "o": [
+            "2 * pi * r",
+            "pi * r^2",
+            "2 * pi * r^2",
+            "pi * d^2"
+        ]
+    },
+    {
+        "q": "The area of a circle is pi * r^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the circle term with its definition:",
+        "type": "match",
+        "left": [
+            "Radius",
+            "Diameter",
+            "Chord",
+            "Arc"
+        ],
+        "right": [
+            "Center to edge",
+            "Edge to edge through center",
+            "Any edge to edge line",
+            "Part of circumference"
+        ]
+    },
+    {
+        "q": "A ______ is the longest chord of a circle.",
+        "type": "fill_blank",
+        "answers": [
+            "diameter"
+        ],
+        "other_options": [
+            "radius",
+            "arc",
+            "sector"
+        ]
+    },
+    {
+        "q": "What is a sector of a circle?",
+        "type": "mcq",
+        "o": [
+            "A region bounded by two radii and an arc",
+            "A line segment through the center",
+            "Half of the circle",
+            "The circumference"
+        ]
+    },
+    {
+        "q": "A tangent to a circle is perpendicular to the radius at the point of tangency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is congruence in geometry?",
+        "type": "mcq",
+        "o": [
+            "Same shape and same size",
+            "Same shape but different size",
+            "Different shape but same size",
+            "Different shape and size"
+        ]
+    },
+    {
+        "q": "Two figures are similar if they have the same ______ but possibly different sizes.",
+        "type": "fill_blank",
+        "answers": [
+            "shape"
+        ],
+        "other_options": [
+            "size",
+            "area",
+            "perimeter"
+        ]
+    },
+    {
+        "q": "Congruent triangles have corresponding sides and angles equal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does SSS stand for in triangle congruence?",
+        "type": "mcq",
+        "o": [
+            "Side-Side-Side",
+            "Side-Angle-Side",
+            "Angle-Side-Angle",
+            "Angle-Angle-Side"
+        ]
+    },
+    {
+        "q": "Match the triangle congruence postulate:",
+        "type": "match",
+        "left": [
+            "SSS",
+            "SAS",
+            "ASA",
+            "AAS"
+        ],
+        "right": [
+            "Three sides equal",
+            "Two sides and included angle",
+            "Two angles and included side",
+            "Two angles and non-included side"
+        ]
+    },
+    {
+        "q": "SAS means Side-Angle-Side.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a transformation in geometry?",
+        "type": "mcq",
+        "o": [
+            "A change in position, size, or shape of a figure",
+            "A new figure creation",
+            "Erasing a figure",
+            "Coloring a figure"
+        ]
+    },
+    {
+        "q": "A translation moves every point the same distance in the same ______.",
+        "type": "fill_blank",
+        "answers": [
+            "direction"
+        ],
+        "other_options": [
+            "angle",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "A rotation turns a figure around a fixed point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a reflection?",
+        "type": "mcq",
+        "o": [
+            "A flip over a line",
+            "A slide along a path",
+            "A turn around a point",
+            "An increase in size"
+        ]
+    },
+    {
+        "q": "Match the transformation with its description:",
+        "type": "match",
+        "left": [
+            "Translation",
+            "Rotation",
+            "Reflection",
+            "Dilation"
+        ],
+        "right": [
+            "Slide",
+            "Turn",
+            "Flip",
+            "Resize"
+        ]
+    },
+    {
+        "q": "A dilation changes the ______ of a figure.",
+        "type": "fill_blank",
+        "answers": [
+            "size"
+        ],
+        "other_options": [
+            "shape",
+            "position",
+            "angles"
+        ]
+    },
+    {
+        "q": "Rearrange the rigid transformations:",
+        "type": "rearrange",
+        "words": [
+            "Translation",
+            "Rotation",
+            "Reflection"
+        ]
+    },
+    {
+        "q": "What is the coordinate plane?",
+        "type": "mcq",
+        "o": [
+            "A plane formed by two perpendicular number lines",
+            "A three-dimensional space",
+            "A single number line",
+            "A circular grid"
+        ]
+    },
+    {
+        "q": "The horizontal axis is called the ______-axis.",
+        "type": "fill_blank",
+        "answers": [
+            "x"
+        ],
+        "other_options": [
+            "y",
+            "z",
+            "origin"
+        ]
+    },
+    {
+        "q": "The point where the x-axis and y-axis meet is called the origin.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are the coordinates of the origin?",
+        "type": "mcq",
+        "o": [
+            "(0, 0)",
+            "(1, 1)",
+            "(0, 1)",
+            "(1, 0)"
+        ]
+    },
+    {
+        "q": "The coordinate plane is divided into 4 ______.",
+        "type": "fill_blank",
+        "answers": [
+            "quadrants"
+        ],
+        "other_options": [
+            "sections",
+            "parts",
+            "halves"
+        ]
+    },
+    {
+        "q": "Match the quadrant with its sign pattern:",
+        "type": "match",
+        "left": [
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III",
+            "Quadrant IV"
+        ],
+        "right": [
+            "(+, +)",
+            "(-, +)",
+            "(-, -)",
+            "(+, -)"
+        ]
+    },
+    {
+        "q": "The distance formula is derived from the Pythagorean theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the distance between (0, 0) and (3, 4)?",
+        "type": "mcq",
+        "o": [
+            "5",
+            "7",
+            "12",
+            "25"
+        ]
+    },
+    {
+        "q": "The midpoint formula gives the point exactly ______ between two points.",
+        "type": "fill_blank",
+        "answers": [
+            "halfway"
+        ],
+        "other_options": [
+            "one-third",
+            "quarter",
+            "double"
+        ]
+    },
+    {
+        "q": "What is the midpoint of (0, 0) and (4, 6)?",
+        "type": "mcq",
+        "o": [
+            "(2, 3)",
+            "(4, 6)",
+            "(2, 2)",
+            "(3, 3)"
+        ]
+    },
+    {
+        "q": "The slope of a line measures its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "steepness"
+        ],
+        "other_options": [
+            "length",
+            "color",
+            "width"
+        ]
+    },
+    {
+        "q": "Slope is calculated as rise over run.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the slope of a horizontal line?",
+        "type": "mcq",
+        "o": [
+            "0",
+            "1",
+            "Undefined",
+            "Infinity"
+        ]
+    },
+    {
+        "q": "A vertical line has ______ slope.",
+        "type": "fill_blank",
+        "answers": [
+            "undefined"
+        ],
+        "other_options": [
+            "zero",
+            "positive",
+            "negative"
+        ]
+    },
+    {
+        "q": "Parallel lines have the same slope.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Perpendicular lines have slopes that are negative reciprocals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the slope-intercept form of a line?",
+        "type": "mcq",
+        "o": [
+            "y = mx + b",
+            "ax + by = c",
+            "y - y1 = m(x - x1)",
+            "x/a + y/b = 1"
+        ]
+    },
+    {
+        "q": "In y = mx + b, m represents the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "slope"
+        ],
+        "other_options": [
+            "y-intercept",
+            "x-intercept",
+            "origin"
+        ]
+    },
+    {
+        "q": "In y = mx + b, b represents the y-intercept.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the form of a line with its equation:",
+        "type": "match",
+        "left": [
+            "Slope-intercept",
+            "Point-slope",
+            "Standard form",
+            "Intercept form"
+        ],
+        "right": [
+            "y = mx + b",
+            "y - y1 = m(x - x1)",
+            "ax + by = c",
+            "x/a + y/b = 1"
+        ]
+    },
+    {
+        "q": "Rearrange steps to find the equation of a line:",
+        "type": "rearrange",
+        "words": [
+            "Identify two points",
+            "Calculate slope",
+            "Use point-slope form",
+            "Simplify to slope-intercept",
+            "Check your answer"
+        ]
+    },
+    {
+        "q": "What is the perimeter of a figure?",
+        "type": "mcq",
+        "o": [
+            "The total length of all sides",
+            "The space inside the figure",
+            "The diagonal length",
+            "Half the sum of sides"
+        ]
+    },
+    {
+        "q": "The area measures the ______ inside a figure.",
+        "type": "fill_blank",
+        "answers": [
+            "space"
+        ],
+        "other_options": [
+            "perimeter",
+            "length",
+            "height"
+        ]
+    },
+    {
+        "q": "Area is measured in square units.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the area of a trapezoid?",
+        "type": "mcq",
+        "o": [
+            "(1/2) * (b1 + b2) * h",
+            "base * height",
+            "side * side",
+            "pi * r^2"
+        ]
+    },
+    {
+        "q": "The area of a rhombus is (1/2) * d1 * d2 where d1 and d2 are diagonals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the perimeter of a circle called?",
+        "type": "mcq",
+        "o": [
+            "Circumference",
+            "Diameter",
+            "Radius",
+            "Area"
+        ]
+    },
+    {
+        "q": "What is the central angle of a circle?",
+        "type": "mcq",
+        "o": [
+            "An angle with vertex at the center",
+            "An angle at the edge of the circle",
+            "An angle measuring 180 degrees",
+            "An angle outside the circle"
+        ]
+    },
+    {
+        "q": "An inscribed angle has its vertex on the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "circle"
+        ],
+        "other_options": [
+            "center",
+            "diameter",
+            "radius"
+        ]
+    },
+    {
+        "q": "An inscribed angle is half the central angle that subtends the same arc.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a semicircle?",
+        "type": "mcq",
+        "o": [
+            "Half of a circle",
+            "A quarter of a circle",
+            "The full circle",
+            "A sector of 45 degrees"
+        ]
+    },
+    {
+        "q": "The angle inscribed in a semicircle is ______ degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "90"
+        ],
+        "other_options": [
+            "180",
+            "45",
+            "360"
+        ]
+    },
+    {
+        "q": "A secant is a line that intersects a circle at two points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the circle terminology:",
+        "type": "match",
+        "left": [
+            "Secant",
+            "Tangent",
+            "Chord",
+            "Central angle"
+        ],
+        "right": [
+            "Intersects at 2 points",
+            "Touches at 1 point",
+            "Line segment in circle",
+            "Vertex at center"
+        ]
+    },
+    {
+        "q": "What is a minor arc?",
+        "type": "mcq",
+        "o": [
+            "An arc less than a semicircle",
+            "An arc greater than a semicircle",
+            "Exactly half the circle",
+            "The entire circumference"
+        ]
+    },
+    {
+        "q": "A major arc is greater than a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "semicircle"
+        ],
+        "other_options": [
+            "diameter",
+            "radius",
+            "chord"
+        ]
+    },
+    {
+        "q": "Rearrange the steps to find arc length:",
+        "type": "rearrange",
+        "words": [
+            "Find the central angle",
+            "Convert to radians if needed",
+            "Apply arc length = r * theta",
+            "Calculate the result",
+            "Check units"
+        ]
+    },
+    {
+        "q": "What is a segment of a circle?",
+        "type": "mcq",
+        "o": [
+            "Region between a chord and its arc",
+            "Region between two radii",
+            "Half the circle",
+            "The diameter"
+        ]
+    },
+    {
+        "q": "The area of a sector is (theta/360) * pi * r^2 for angle theta in degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the locus of points equidistant from two given points?",
+        "type": "mcq",
+        "o": [
+            "The perpendicular bisector of the segment joining them",
+            "A circle",
+            "A parabola",
+            "A parallel line"
+        ]
+    },
+    {
+        "q": "The angle bisector is the locus of points equidistant from two ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lines"
+        ],
+        "other_options": [
+            "points",
+            "circles",
+            "planes"
+        ]
+    },
+    {
+        "q": "What is the incenter of a triangle?",
+        "type": "mcq",
+        "o": [
+            "The point where angle bisectors meet",
+            "The point where medians meet",
+            "The point where altitudes meet",
+            "The point where perpendicular bisectors meet"
+        ]
+    },
+    {
+        "q": "Match the triangle center with its definition:",
+        "type": "match",
+        "left": [
+            "Incenter",
+            "Circumcenter",
+            "Centroid",
+            "Orthocenter"
+        ],
+        "right": [
+            "Angle bisectors meet",
+            "Perpendicular bisectors meet",
+            "Medians meet",
+            "Altitudes meet"
+        ]
+    },
+    {
+        "q": "The centroid divides each median in ratio ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2:1"
+        ],
+        "other_options": [
+            "1:1",
+            "3:1",
+            "1:2"
+        ]
+    },
+    {
+        "q": "The circumcenter is equidistant from all vertices of a triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Euler line?",
+        "type": "mcq",
+        "o": [
+            "Line passing through orthocenter, centroid, and circumcenter",
+            "Any altitude of a triangle",
+            "The base of a triangle",
+            "The longest side"
+        ]
+    },
+    {
+        "q": "What is a median of a triangle?",
+        "type": "mcq",
+        "o": [
+            "A segment from vertex to midpoint of opposite side",
+            "A segment from vertex perpendicular to opposite side",
+            "A line bisecting an angle",
+            "The longest side"
+        ]
+    },
+    {
+        "q": "An altitude of a triangle is perpendicular to the ______ side.",
+        "type": "fill_blank",
+        "answers": [
+            "opposite"
+        ],
+        "other_options": [
+            "adjacent",
+            "longest",
+            "shortest"
+        ]
+    },
+    {
+        "q": "The three altitudes of a triangle always meet at a single point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the inradius of a triangle?",
+        "type": "mcq",
+        "o": [
+            "The radius of the inscribed circle",
+            "The radius of the circumscribed circle",
+            "Half the longest side",
+            "The altitude"
+        ]
+    },
+    {
+        "q": "The area of a triangle equals r * s where r is inradius and s is semi-perimeter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange triangle centers from most commonly taught first:",
+        "type": "rearrange",
+        "words": [
+            "Centroid",
+            "Incenter",
+            "Circumcenter",
+            "Orthocenter",
+            "Nine-point center"
+        ]
+    },
+    {
+        "q": "What is the circumradius of a triangle?",
+        "type": "mcq",
+        "o": [
+            "The radius of the circumscribed circle",
+            "The radius of the inscribed circle",
+            "The median length",
+            "The altitude length"
+        ]
+    },
+    {
+        "q": "For a right triangle, the circumcenter is at the ______ of the hypotenuse.",
+        "type": "fill_blank",
+        "answers": [
+            "midpoint"
+        ],
+        "other_options": [
+            "vertex",
+            "foot",
+            "center"
+        ]
+    },
+    {
+        "q": "What is Heron's formula used for?",
+        "type": "mcq",
+        "o": [
+            "Finding the area of a triangle given three sides",
+            "Finding the perimeter",
+            "Finding the altitude",
+            "Finding the median"
+        ]
+    },
+    {
+        "q": "Heron's formula is A = sqrt(s(s-a)(s-b)(s-c)) where s is the semi-perimeter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a cyclic quadrilateral?",
+        "type": "mcq",
+        "o": [
+            "A quadrilateral inscribed in a circle",
+            "A quadrilateral with all sides equal",
+            "A quadrilateral with parallel sides",
+            "Any four-sided polygon"
+        ]
+    },
+    {
+        "q": "Opposite angles of a cyclic quadrilateral are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "supplementary"
+        ],
+        "other_options": [
+            "complementary",
+            "equal",
+            "congruent"
+        ]
+    },
+    {
+        "q": "Match the quadrilateral property with its shape:",
+        "type": "match",
+        "left": [
+            "All angles 90 degrees",
+            "Diagonals bisect each other",
+            "Diagonals perpendicular",
+            "Opposite angles supplementary"
+        ],
+        "right": [
+            "Rectangle",
+            "Parallelogram",
+            "Rhombus",
+            "Cyclic quadrilateral"
+        ]
+    },
+    {
+        "q": "What is Ptolemy's theorem about?",
+        "type": "mcq",
+        "o": [
+            "Relationship between sides and diagonals of a cyclic quadrilateral",
+            "The Pythagorean theorem",
+            "Similar triangles",
+            "Circle area"
+        ]
+    },
+    {
+        "q": "In Ptolemy's theorem, AC * BD = AB * CD + AD * BC for cyclic quadrilateral ABCD.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the power of a point with respect to a circle?",
+        "type": "mcq",
+        "o": [
+            "The product of signed distances to intersection points with any line through it",
+            "The distance to the center",
+            "The radius",
+            "The area of the circle"
+        ]
+    },
+    {
+        "q": "The radical axis of two circles is the locus of points with equal ______ to both circles.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "distance",
+            "tangent",
+            "radius"
+        ]
+    },
+    {
+        "q": "Two circles are orthogonal if they intersect at right angles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange circle theorems by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Central angle theorem",
+            "Inscribed angle theorem",
+            "Power of a point",
+            "Ptolemy's theorem",
+            "Radical axis"
+        ]
+    },
+    {
+        "q": "What is a prism?",
+        "type": "mcq",
+        "o": [
+            "A 3D solid with two parallel congruent bases",
+            "A pyramid",
+            "A sphere",
+            "A cone"
+        ]
+    },
+    {
+        "q": "The volume of a rectangular prism is length * width * ______.",
+        "type": "fill_blank",
+        "answers": [
+            "height"
+        ],
+        "other_options": [
+            "diagonal",
+            "area",
+            "perimeter"
+        ]
+    },
+    {
+        "q": "The surface area of a cube with side s is 6s^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the volume of a cube with side 3?",
+        "type": "mcq",
+        "o": [
+            "27",
+            "9",
+            "18",
+            "54"
+        ]
+    },
+    {
+        "q": "Match the 3D shape with its volume formula:",
+        "type": "match",
+        "left": [
+            "Cube",
+            "Cylinder",
+            "Sphere",
+            "Cone"
+        ],
+        "right": [
+            "s^3",
+            "pi * r^2 * h",
+            "(4/3) * pi * r^3",
+            "(1/3) * pi * r^2 * h"
+        ]
+    },
+    {
+        "q": "What is a pyramid?",
+        "type": "mcq",
+        "o": [
+            "A solid with a polygon base and triangular faces meeting at a point",
+            "A solid with two circular bases",
+            "A sphere",
+            "A prism"
+        ]
+    },
+    {
+        "q": "The volume of a pyramid is (1/3) * base area * ______.",
+        "type": "fill_blank",
+        "answers": [
+            "height"
+        ],
+        "other_options": [
+            "slant height",
+            "perimeter",
+            "diagonal"
+        ]
+    },
+    {
+        "q": "A cylinder has two circular bases that are parallel and congruent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the volume of a cylinder?",
+        "type": "mcq",
+        "o": [
+            "pi * r^2 * h",
+            "(1/3) * pi * r^2 * h",
+            "(4/3) * pi * r^3",
+            "2 * pi * r * h"
+        ]
+    },
+    {
+        "q": "The lateral surface area of a cylinder is 2 * pi * r * h.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a cone?",
+        "type": "mcq",
+        "o": [
+            "A solid with a circular base and a vertex",
+            "A solid with two circular bases",
+            "A pyramid with square base",
+            "A sphere"
+        ]
+    },
+    {
+        "q": "The slant height of a cone can be found using the ______ theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "Pythagorean"
+        ],
+        "other_options": [
+            "Heron's",
+            "Ptolemy's",
+            "Thales"
+        ]
+    },
+    {
+        "q": "Rearrange 3D shapes by volume formula complexity:",
+        "type": "rearrange",
+        "words": [
+            "Cube",
+            "Rectangular prism",
+            "Cylinder",
+            "Cone",
+            "Sphere"
+        ]
+    },
+    {
+        "q": "What is a sphere?",
+        "type": "mcq",
+        "o": [
+            "A 3D shape where all points are equidistant from the center",
+            "A flat circle",
+            "A cylinder with no height",
+            "A cone with no vertex"
+        ]
+    },
+    {
+        "q": "The surface area of a sphere is 4 * pi * r^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the volume of a sphere with radius 3?",
+        "type": "mcq",
+        "o": [
+            "36 * pi",
+            "27 * pi",
+            "12 * pi",
+            "108 * pi"
+        ]
+    },
+    {
+        "q": "A great circle of a sphere has the same ______ as the sphere.",
+        "type": "fill_blank",
+        "answers": [
+            "radius"
+        ],
+        "other_options": [
+            "area",
+            "volume",
+            "diameter"
+        ]
+    },
+    {
+        "q": "Match the 3D shape with its surface area formula:",
+        "type": "match",
+        "left": [
+            "Sphere",
+            "Cylinder (total)",
+            "Cube",
+            "Cone (total)"
+        ],
+        "right": [
+            "4 * pi * r^2",
+            "2 * pi * r * (r + h)",
+            "6 * s^2",
+            "pi * r * (r + l)"
+        ]
+    },
+    {
+        "q": "What is the ratio of similarity called?",
+        "type": "mcq",
+        "o": [
+            "Scale factor",
+            "Proportion",
+            "Ratio",
+            "Factor"
+        ]
+    },
+    {
+        "q": "If two figures are similar with scale factor k, their areas are in ratio ______.",
+        "type": "fill_blank",
+        "answers": [
+            "k^2"
+        ],
+        "other_options": [
+            "k",
+            "k^3",
+            "2k"
+        ]
+    },
+    {
+        "q": "Similar solids have volumes in ratio k^3 where k is the scale factor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the AA criterion for triangle similarity?",
+        "type": "mcq",
+        "o": [
+            "Two pairs of corresponding angles are equal",
+            "All three sides are proportional",
+            "Two sides and included angle are equal",
+            "All three angles are 60 degrees"
+        ]
+    },
+    {
+        "q": "Match the similarity criterion:",
+        "type": "match",
+        "left": [
+            "AA",
+            "SSS similarity",
+            "SAS similarity",
+            "Congruence"
+        ],
+        "right": [
+            "Two angles equal",
+            "Three sides proportional",
+            "Two sides proportional and included angle equal",
+            "Same size and shape"
+        ]
+    },
+    {
+        "q": "If two triangles are similar, corresponding sides are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "proportional"
+        ],
+        "other_options": [
+            "equal",
+            "perpendicular",
+            "parallel"
+        ]
+    },
+    {
+        "q": "The Basic Proportionality Theorem relates parallel lines and transversals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the geometric mean?",
+        "type": "mcq",
+        "o": [
+            "sqrt(a * b) for two numbers a and b",
+            "(a + b) / 2",
+            "a * b",
+            "a - b"
+        ]
+    },
+    {
+        "q": "In a right triangle, the altitude to the hypotenuse creates similar triangles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the steps to prove triangles similar:",
+        "type": "rearrange",
+        "words": [
+            "Identify the triangles",
+            "Find corresponding angles or sides",
+            "Apply similarity criterion",
+            "State the similarity",
+            "Write the proportion"
+        ]
+    },
+    {
+        "q": "What are the coordinates of a point after reflection over the x-axis?",
+        "type": "mcq",
+        "o": [
+            "(x, -y)",
+            "(-x, y)",
+            "(-x, -y)",
+            "(y, x)"
+        ]
+    },
+    {
+        "q": "Reflection over the y-axis changes (x, y) to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(-x, y)"
+        ],
+        "other_options": [
+            "(x, -y)",
+            "(-x, -y)",
+            "(y, x)"
+        ]
+    },
+    {
+        "q": "A 180-degree rotation about the origin maps (x, y) to (-x, -y).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a 90-degree counterclockwise rotation of (x, y) about the origin?",
+        "type": "mcq",
+        "o": [
+            "(-y, x)",
+            "(y, -x)",
+            "(-x, -y)",
+            "(x, y)"
+        ]
+    },
+    {
+        "q": "Match the transformation with its coordinate rule:",
+        "type": "match",
+        "left": [
+            "Reflect over x-axis",
+            "Reflect over y-axis",
+            "Rotate 180 degrees",
+            "Translate by (a, b)"
+        ],
+        "right": [
+            "(x, -y)",
+            "(-x, y)",
+            "(-x, -y)",
+            "(x+a, y+b)"
+        ]
+    },
+    {
+        "q": "A dilation with center at origin and scale factor k maps (x, y) to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(kx, ky)"
+        ],
+        "other_options": [
+            "(x+k, y+k)",
+            "(x/k, y/k)",
+            "(k, k)"
+        ]
+    },
+    {
+        "q": "Rigid transformations preserve distance and angle measure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a glide reflection?",
+        "type": "mcq",
+        "o": [
+            "A translation followed by a reflection",
+            "Two reflections",
+            "A rotation only",
+            "A dilation"
+        ]
+    },
+    {
+        "q": "The composition of two reflections over parallel lines is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "translation"
+        ],
+        "other_options": [
+            "rotation",
+            "dilation",
+            "reflection"
+        ]
+    },
+    {
+        "q": "The composition of two reflections over intersecting lines is a rotation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange transformation types by rigidity:",
+        "type": "rearrange",
+        "words": [
+            "Translation",
+            "Rotation",
+            "Reflection",
+            "Dilation"
+        ]
+    },
+    {
+        "q": "What is the equation of a circle with center (h, k) and radius r?",
+        "type": "mcq",
+        "o": [
+            "(x - h)^2 + (y - k)^2 = r^2",
+            "x^2 + y^2 = r",
+            "(x + h)^2 + (y + k)^2 = r",
+            "x^2 - y^2 = r^2"
+        ]
+    },
+    {
+        "q": "The equation x^2 + y^2 = 25 represents a circle with radius ______.",
+        "type": "fill_blank",
+        "answers": [
+            "5"
+        ],
+        "other_options": [
+            "25",
+            "12.5",
+            "10"
+        ]
+    },
+    {
+        "q": "The general form of a circle equation is x^2 + y^2 + Dx + Ey + F = 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the center of x^2 + y^2 - 4x + 6y - 12 = 0?",
+        "type": "mcq",
+        "o": [
+            "(2, -3)",
+            "(-2, 3)",
+            "(4, -6)",
+            "(-4, 6)"
+        ]
+    },
+    {
+        "q": "Match the conic section with its definition:",
+        "type": "match",
+        "left": [
+            "Circle",
+            "Ellipse",
+            "Parabola",
+            "Hyperbola"
+        ],
+        "right": [
+            "All points equidistant from center",
+            "Sum of distances to foci constant",
+            "Points equidistant from focus and directrix",
+            "Difference of distances to foci constant"
+        ]
+    },
+    {
+        "q": "The equation of a parabola with vertex at origin opening upward is y = ax^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the focus of y = x^2 / 4?",
+        "type": "mcq",
+        "o": [
+            "(0, 1)",
+            "(0, 4)",
+            "(1, 0)",
+            "(0, 0.25)"
+        ]
+    },
+    {
+        "q": "An ellipse has eccentricity less than ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Rearrange conic sections by eccentricity (increasing):",
+        "type": "rearrange",
+        "words": [
+            "Circle (e=0)",
+            "Ellipse (0<e<1)",
+            "Parabola (e=1)",
+            "Hyperbola (e>1)"
+        ]
+    },
+    {
+        "q": "What is the directrix of a parabola?",
+        "type": "mcq",
+        "o": [
+            "A line perpendicular to the axis at distance p from vertex",
+            "The vertex",
+            "The focus",
+            "The axis of symmetry"
+        ]
+    },
+    {
+        "q": "What is the standard form of an ellipse centered at origin?",
+        "type": "mcq",
+        "o": [
+            "x^2/a^2 + y^2/b^2 = 1",
+            "x^2 + y^2 = 1",
+            "x^2/a^2 - y^2/b^2 = 1",
+            "y = ax^2"
+        ]
+    },
+    {
+        "q": "The foci of an ellipse lie on the ______ axis.",
+        "type": "fill_blank",
+        "answers": [
+            "major"
+        ],
+        "other_options": [
+            "minor",
+            "transverse",
+            "conjugate"
+        ]
+    },
+    {
+        "q": "The sum of distances from any point on an ellipse to both foci is constant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a hyperbola?",
+        "type": "mcq",
+        "o": [
+            "The set of points where difference of distances to foci is constant",
+            "The set of points equidistant from center",
+            "The set of points equidistant from focus and directrix",
+            "A closed curve"
+        ]
+    },
+    {
+        "q": "A hyperbola has two branches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the conic with its eccentricity:",
+        "type": "match",
+        "left": [
+            "Circle",
+            "Ellipse",
+            "Parabola",
+            "Hyperbola"
+        ],
+        "right": [
+            "e = 0",
+            "0 < e < 1",
+            "e = 1",
+            "e > 1"
+        ]
+    },
+    {
+        "q": "The asymptotes of a hyperbola x^2/a^2 - y^2/b^2 = 1 are y = +/- (b/a)x.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a vector in geometry?",
+        "type": "mcq",
+        "o": [
+            "A quantity with magnitude and direction",
+            "A quantity with magnitude only",
+            "A point in space",
+            "A line segment"
+        ]
+    },
+    {
+        "q": "The magnitude of vector (3, 4) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "5"
+        ],
+        "other_options": [
+            "7",
+            "12",
+            "1"
+        ]
+    },
+    {
+        "q": "Two vectors are equal if they have the same magnitude and direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is vector addition?",
+        "type": "mcq",
+        "o": [
+            "Adding corresponding components",
+            "Multiplying magnitudes",
+            "Subtracting directions",
+            "Dividing by magnitude"
+        ]
+    },
+    {
+        "q": "The zero vector has magnitude ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "undefined",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Match the vector operation with its result:",
+        "type": "match",
+        "left": [
+            "Vector addition",
+            "Scalar multiplication",
+            "Dot product",
+            "Cross product"
+        ],
+        "right": [
+            "Vector",
+            "Vector",
+            "Scalar",
+            "Vector"
+        ]
+    },
+    {
+        "q": "The dot product of perpendicular vectors is zero.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the dot product of (1, 2) and (3, 4)?",
+        "type": "mcq",
+        "o": [
+            "11",
+            "7",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "q": "The cross product is only defined in ______ dimensions.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "4",
+            "any"
+        ]
+    },
+    {
+        "q": "The cross product of two vectors is perpendicular to both.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange vector concepts from basic to advanced:",
+        "type": "rearrange",
+        "words": [
+            "Magnitude",
+            "Direction",
+            "Addition",
+            "Dot product",
+            "Cross product"
+        ]
+    },
+    {
+        "q": "What is the unit vector?",
+        "type": "mcq",
+        "o": [
+            "A vector with magnitude 1",
+            "A vector with magnitude 0",
+            "Any vector",
+            "A vector perpendicular to all others"
+        ]
+    },
+    {
+        "q": "To find the unit vector, divide by the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magnitude"
+        ],
+        "other_options": [
+            "direction",
+            "sum",
+            "product"
+        ]
+    },
+    {
+        "q": "What is a position vector?",
+        "type": "mcq",
+        "o": [
+            "A vector from origin to a point",
+            "Any vector",
+            "A unit vector",
+            "A zero vector"
+        ]
+    },
+    {
+        "q": "Match the vector type with its definition:",
+        "type": "match",
+        "left": [
+            "Position vector",
+            "Unit vector",
+            "Zero vector",
+            "Negative vector"
+        ],
+        "right": [
+            "From origin",
+            "Magnitude 1",
+            "Magnitude 0",
+            "Opposite direction"
+        ]
+    },
+    {
+        "q": "What is the angle between two vectors given by?",
+        "type": "mcq",
+        "o": [
+            "cos(theta) = (u dot v) / (|u| * |v|)",
+            "sin(theta) = (u dot v) / (|u| * |v|)",
+            "tan(theta) = |u| / |v|",
+            "theta = u + v"
+        ]
+    },
+    {
+        "q": "Parallel vectors have dot product equal to product of their magnitudes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is vector projection?",
+        "type": "mcq",
+        "o": [
+            "The component of one vector along another",
+            "The cross product",
+            "The sum of vectors",
+            "The zero vector"
+        ]
+    },
+    {
+        "q": "The projection of u onto v is ((u dot v) / |v|^2) * v.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the steps to find angle between vectors:",
+        "type": "rearrange",
+        "words": [
+            "Find dot product",
+            "Find magnitudes",
+            "Compute ratio",
+            "Take arccos",
+            "Convert to degrees if needed"
+        ]
+    },
+    {
+        "q": "What is the equation of a line in 3D space?",
+        "type": "mcq",
+        "o": [
+            "r = a + t*b where a is a point and b is direction",
+            "y = mx + c",
+            "ax + by + c = 0",
+            "x^2 + y^2 = r^2"
+        ]
+    },
+    {
+        "q": "A plane in 3D is defined by ax + by + cz = d.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The normal vector to a plane ax + by + cz = d is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(a, b, c)"
+        ],
+        "other_options": [
+            "(x, y, z)",
+            "(1, 1, 1)",
+            "(d, d, d)"
+        ]
+    },
+    {
+        "q": "What is the distance from point (x0, y0, z0) to plane ax + by + cz = d?",
+        "type": "mcq",
+        "o": [
+            "|ax0 + by0 + cz0 - d| / sqrt(a^2 + b^2 + c^2)",
+            "ax0 + by0 + cz0",
+            "sqrt(x0^2 + y0^2 + z0^2)",
+            "a + b + c"
+        ]
+    },
+    {
+        "q": "Two planes are parallel if their normal vectors are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "parallel"
+        ],
+        "other_options": [
+            "perpendicular",
+            "equal",
+            "opposite"
+        ]
+    },
+    {
+        "q": "Match the 3D geometry concept with its equation:",
+        "type": "match",
+        "left": [
+            "Line",
+            "Plane",
+            "Sphere",
+            "Distance formula"
+        ],
+        "right": [
+            "r = a + tb",
+            "ax + by + cz = d",
+            "x^2 + y^2 + z^2 = r^2",
+            "sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)"
+        ]
+    },
+    {
+        "q": "The angle between two planes equals the angle between their normal vectors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a dihedral angle?",
+        "type": "mcq",
+        "o": [
+            "The angle between two intersecting planes",
+            "The angle in a triangle",
+            "The central angle of a circle",
+            "The angle of rotation"
+        ]
+    },
+    {
+        "q": "Rearrange 3D geometry topics from basic to advanced:",
+        "type": "rearrange",
+        "words": [
+            "Points in 3D",
+            "Lines in 3D",
+            "Planes",
+            "Intersections",
+            "Distance formulas"
+        ]
+    },
+    {
+        "q": "What is a proof in geometry?",
+        "type": "mcq",
+        "o": [
+            "A logical argument showing why a statement is true",
+            "A guess about a theorem",
+            "A picture of a shape",
+            "A calculation"
+        ]
+    },
+    {
+        "q": "In a two-column proof, statements are paired with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reasons"
+        ],
+        "other_options": [
+            "diagrams",
+            "calculations",
+            "guesses"
+        ]
+    },
+    {
+        "q": "A paragraph proof uses complete sentences to present the argument.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a postulate?",
+        "type": "mcq",
+        "o": [
+            "A statement accepted without proof",
+            "A statement that must be proven",
+            "A false statement",
+            "A calculation"
+        ]
+    },
+    {
+        "q": "Match the proof term with its meaning:",
+        "type": "match",
+        "left": [
+            "Postulate",
+            "Theorem",
+            "Corollary",
+            "Lemma"
+        ],
+        "right": [
+            "Accepted without proof",
+            "Proven statement",
+            "Follows easily from theorem",
+            "Helper theorem"
+        ]
+    },
+    {
+        "q": "A theorem is a statement that has been ______.",
+        "type": "fill_blank",
+        "answers": [
+            "proven"
+        ],
+        "other_options": [
+            "assumed",
+            "guessed",
+            "calculated"
+        ]
+    },
+    {
+        "q": "What is a contrapositive?",
+        "type": "mcq",
+        "o": [
+            "If not Q, then not P (from If P, then Q)",
+            "If Q, then P",
+            "The same as the original",
+            "A parallel statement"
+        ]
+    },
+    {
+        "q": "A statement and its contrapositive have the same truth value.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Indirect proof assumes the opposite of what you want to prove.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange proof types from simplest to most complex:",
+        "type": "rearrange",
+        "words": [
+            "Direct proof",
+            "Two-column proof",
+            "Paragraph proof",
+            "Indirect proof",
+            "Coordinate proof"
+        ]
+    },
+    {
+        "q": "What is the Triangle Inequality Theorem?",
+        "type": "mcq",
+        "o": [
+            "Sum of two sides is greater than the third side",
+            "Sum of angles is 180 degrees",
+            "Pythagorean theorem",
+            "Similar triangles have proportional sides"
+        ]
+    },
+    {
+        "q": "The exterior angle of a triangle equals the sum of the two ______ interior angles.",
+        "type": "fill_blank",
+        "answers": [
+            "remote"
+        ],
+        "other_options": [
+            "adjacent",
+            "opposite",
+            "supplementary"
+        ]
+    },
+    {
+        "q": "The Angle Bisector Theorem relates to dividing opposite side proportionally.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem with its statement:",
+        "type": "match",
+        "left": [
+            "Triangle Inequality",
+            "Angle Bisector",
+            "Midsegment",
+            "Ceva's"
+        ],
+        "right": [
+            "Sum of two sides > third",
+            "Divides opposite side proportionally",
+            "Parallel to base, half length",
+            "Cevians concurrent condition"
+        ]
+    },
+    {
+        "q": "What is a midsegment of a triangle?",
+        "type": "mcq",
+        "o": [
+            "A segment connecting midpoints of two sides",
+            "The median",
+            "The altitude",
+            "The angle bisector"
+        ]
+    },
+    {
+        "q": "A midsegment is parallel to the third side and half its length.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Stewart's Theorem about?",
+        "type": "mcq",
+        "o": [
+            "Relationship between sides and a cevian length",
+            "Similar triangles",
+            "Circle tangents",
+            "Parallel lines"
+        ]
+    },
+    {
+        "q": "Ceva's Theorem gives conditions for three cevians to be ______.",
+        "type": "fill_blank",
+        "answers": [
+            "concurrent"
+        ],
+        "other_options": [
+            "parallel",
+            "perpendicular",
+            "equal"
+        ]
+    },
+    {
+        "q": "Menelaus's Theorem relates to collinear points on triangle sides.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange triangle theorems by difficulty:",
+        "type": "rearrange",
+        "words": [
+            "Triangle Inequality",
+            "Pythagorean",
+            "Angle Bisector",
+            "Stewart's",
+            "Ceva's"
+        ]
+    },
+    {
+        "q": "What is the nine-point circle?",
+        "type": "mcq",
+        "o": [
+            "Circle through midpoints of sides, feet of altitudes, and midpoints of segments from orthocenter to vertices",
+            "The circumcircle",
+            "The incircle",
+            "Any circle through 9 points"
+        ]
+    },
+    {
+        "q": "The nine-point circle has radius ______ of the circumradius.",
+        "type": "fill_blank",
+        "answers": [
+            "half"
+        ],
+        "other_options": [
+            "double",
+            "equal",
+            "triple"
+        ]
+    },
+    {
+        "q": "The Simson line is related to points on the circumcircle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Euler line?",
+        "type": "mcq",
+        "o": [
+            "Line through orthocenter, centroid, and circumcenter",
+            "Any altitude",
+            "The base of a triangle",
+            "A median"
+        ]
+    },
+    {
+        "q": "Match the famous result with its topic:",
+        "type": "match",
+        "left": [
+            "Nine-point circle",
+            "Euler line",
+            "Simson line",
+            "Feuerbach's theorem"
+        ],
+        "right": [
+            "Special circle",
+            "Triangle centers",
+            "Circumcircle projections",
+            "Nine-point and incircle tangent"
+        ]
+    },
+    {
+        "q": "What is inversive geometry about?",
+        "type": "mcq",
+        "o": [
+            "Transformations using circle inversion",
+            "Reflections over lines",
+            "Rotations",
+            "Translations"
+        ]
+    },
+    {
+        "q": "Under circle inversion, points inside the circle map ______.",
+        "type": "fill_blank",
+        "answers": [
+            "outside"
+        ],
+        "other_options": [
+            "inside",
+            "to the center",
+            "to themselves"
+        ]
+    },
+    {
+        "q": "Inversion preserves angles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Lines through the center of inversion map to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "themselves"
+        ],
+        "other_options": [
+            "circles",
+            "points",
+            "other lines"
+        ]
+    },
+    {
+        "q": "Rearrange geometry topics by abstraction level:",
+        "type": "rearrange",
+        "words": [
+            "Euclidean geometry",
+            "Coordinate geometry",
+            "Transformational geometry",
+            "Inversive geometry",
+            "Projective geometry"
+        ]
+    },
+    {
+        "q": "What is projective geometry?",
+        "type": "mcq",
+        "o": [
+            "Geometry where parallel lines meet at a point at infinity",
+            "Standard Euclidean geometry",
+            "Only 2D geometry",
+            "Geometry of circles"
+        ]
+    },
+    {
+        "q": "In projective geometry, every two lines intersect at exactly one point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the cross-ratio?",
+        "type": "mcq",
+        "o": [
+            "An invariant under projective transformations",
+            "The ratio of two sides",
+            "The product of diagonals",
+            "The sum of angles"
+        ]
+    },
+    {
+        "q": "Match the geometry type with its key feature:",
+        "type": "match",
+        "left": [
+            "Euclidean",
+            "Affine",
+            "Projective",
+            "Hyperbolic"
+        ],
+        "right": [
+            "Parallel postulate holds",
+            "Parallel lines preserved",
+            "All lines meet",
+            "Many parallel lines through a point"
+        ]
+    },
+    {
+        "q": "Desargues' theorem is fundamental in ______ geometry.",
+        "type": "fill_blank",
+        "answers": [
+            "projective"
+        ],
+        "other_options": [
+            "Euclidean",
+            "spherical",
+            "hyperbolic"
+        ]
+    },
+    {
+        "q": "What is spherical geometry?",
+        "type": "mcq",
+        "o": [
+            "Geometry on the surface of a sphere",
+            "Geometry in 3D space",
+            "Euclidean geometry",
+            "Projective geometry"
+        ]
+    },
+    {
+        "q": "In spherical geometry, great circles play the role of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lines"
+        ],
+        "other_options": [
+            "points",
+            "circles",
+            "planes"
+        ]
+    },
+    {
+        "q": "The sum of angles in a spherical triangle is greater than 180 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hyperbolic geometry?",
+        "type": "mcq",
+        "o": [
+            "Geometry where through a point not on a line, many parallels exist",
+            "Geometry on a sphere",
+            "Euclidean geometry",
+            "Geometry of ellipses"
+        ]
+    },
+    {
+        "q": "Match the non-Euclidean geometry with its property:",
+        "type": "match",
+        "left": [
+            "Spherical",
+            "Hyperbolic",
+            "Euclidean",
+            "Affine"
+        ],
+        "right": [
+            "No parallel lines",
+            "Many parallels",
+            "Exactly one parallel",
+            "Parallel lines preserved"
+        ]
+    },
+    {
+        "q": "The sum of angles in a hyperbolic triangle is ______ 180 degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "less than"
+        ],
+        "other_options": [
+            "equal to",
+            "greater than",
+            "exactly"
+        ]
+    },
+    {
+        "q": "Rearrange geometries by curvature (positive to negative):",
+        "type": "rearrange",
+        "words": [
+            "Spherical (positive)",
+            "Euclidean (zero)",
+            "Hyperbolic (negative)"
+        ]
+    },
+    {
+        "q": "What is a tessellation?",
+        "type": "mcq",
+        "o": [
+            "A tiling of the plane with no gaps or overlaps",
+            "A 3D shape",
+            "A transformation",
+            "A type of circle"
+        ]
+    },
+    {
+        "q": "Regular tessellations use only one type of ______ polygon.",
+        "type": "fill_blank",
+        "answers": [
+            "regular"
+        ],
+        "other_options": [
+            "irregular",
+            "convex",
+            "concave"
+        ]
+    },
+    {
+        "q": "There are exactly 3 regular tessellations of the plane.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which regular polygons can tessellate the plane alone?",
+        "type": "mcq",
+        "o": [
+            "Triangle, square, hexagon",
+            "Triangle, pentagon, hexagon",
+            "Square, pentagon, octagon",
+            "Any regular polygon"
+        ]
+    },
+    {
+        "q": "Match the tessellation type:",
+        "type": "match",
+        "left": [
+            "Regular",
+            "Semi-regular",
+            "Demi-regular",
+            "Penrose"
+        ],
+        "right": [
+            "One polygon type",
+            "Multiple types, same vertex figure",
+            "Multiple vertex figures",
+            "Non-periodic"
+        ]
+    },
+    {
+        "q": "What is a fractal?",
+        "type": "mcq",
+        "o": [
+            "A shape with self-similarity at different scales",
+            "A regular polygon",
+            "A 3D solid",
+            "A tessellation"
+        ]
+    },
+    {
+        "q": "The Koch snowflake has ______ perimeter but finite area.",
+        "type": "fill_blank",
+        "answers": [
+            "infinite"
+        ],
+        "other_options": [
+            "finite",
+            "zero",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Fractals can have non-integer dimension.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Sierpinski triangle is a famous ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractal"
+        ],
+        "other_options": [
+            "polygon",
+            "tessellation",
+            "solid"
+        ]
+    },
+    {
+        "q": "Rearrange by fractal dimension (increasing):",
+        "type": "rearrange",
+        "words": [
+            "Point (0)",
+            "Line (1)",
+            "Cantor set (~0.63)",
+            "Sierpinski (~1.58)",
+            "Plane (2)"
+        ]
+    },
+    {
+        "q": "What is a Platonic solid?",
+        "type": "mcq",
+        "o": [
+            "A convex polyhedron with congruent regular polygon faces",
+            "Any 3D shape",
+            "A shape with curved surfaces",
+            "A tessellation"
+        ]
+    },
+    {
+        "q": "There are exactly ______ Platonic solids.",
+        "type": "fill_blank",
+        "answers": [
+            "5"
+        ],
+        "other_options": [
+            "3",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "q": "The tetrahedron has 4 triangular faces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Platonic solid with its number of faces:",
+        "type": "match",
+        "left": [
+            "Tetrahedron",
+            "Cube",
+            "Octahedron",
+            "Icosahedron"
+        ],
+        "right": [
+            "4",
+            "6",
+            "8",
+            "20"
+        ]
+    },
+    {
+        "q": "What is Euler's formula for polyhedra?",
+        "type": "mcq",
+        "o": [
+            "V - E + F = 2",
+            "V + E + F = 2",
+            "V * E * F = 2",
+            "V - E - F = 2"
+        ]
+    },
+    {
+        "q": "For a cube: V = 8, E = 12, F = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "4",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "q": "An Archimedean solid has at least two types of regular polygon faces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The dual of a cube is an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "octahedron"
+        ],
+        "other_options": [
+            "tetrahedron",
+            "dodecahedron",
+            "icosahedron"
+        ]
+    },
+    {
+        "q": "Rearrange Platonic solids by number of faces:",
+        "type": "rearrange",
+        "words": [
+            "Tetrahedron (4)",
+            "Cube (6)",
+            "Octahedron (8)",
+            "Dodecahedron (12)",
+            "Icosahedron (20)"
+        ]
+    },
+    {
+        "q": "What is the golden ratio?",
+        "type": "mcq",
+        "o": [
+            "(1 + sqrt(5)) / 2, approximately 1.618",
+            "Pi, approximately 3.14",
+            "e, approximately 2.718",
+            "sqrt(2), approximately 1.414"
+        ]
+    },
+    {
+        "q": "The golden ratio appears in the regular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pentagon"
+        ],
+        "other_options": [
+            "triangle",
+            "square",
+            "hexagon"
+        ]
+    },
+    {
+        "q": "The golden rectangle has sides in the golden ratio.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geometric construction with the tool used:",
+        "type": "match",
+        "left": [
+            "Perpendicular bisector",
+            "Angle bisector",
+            "Parallel line",
+            "Regular hexagon"
+        ],
+        "right": [
+            "Compass from endpoints",
+            "Arc intersections",
+            "Corresponding angles",
+            "Compass = radius"
+        ]
+    },
+    {
+        "q": "It is impossible to trisect a general angle using compass and straightedge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a geometric construction?",
+        "type": "mcq",
+        "o": [
+            "Creating figures using only compass and straightedge",
+            "Drawing with any tools",
+            "Using a protractor",
+            "Measuring with a ruler"
+        ]
+    },
+    {
+        "q": "Squaring the circle is ______ with compass and straightedge.",
+        "type": "fill_blank",
+        "answers": [
+            "impossible"
+        ],
+        "other_options": [
+            "easy",
+            "trivial",
+            "possible"
+        ]
+    },
+    {
+        "q": "Rearrange construction problems by solvability:",
+        "type": "rearrange",
+        "words": [
+            "Perpendicular bisector (solvable)",
+            "Angle bisector (solvable)",
+            "Regular pentagon (solvable)",
+            "Angle trisection (impossible)",
+            "Squaring circle (impossible)"
+        ]
+    },
+    {
+        "q": "What is barycentric coordinates?",
+        "type": "mcq",
+        "o": [
+            "Coordinates relative to vertices of a triangle",
+            "Cartesian coordinates",
+            "Polar coordinates",
+            "Spherical coordinates"
+        ]
+    },
+    {
+        "q": "In barycentric coordinates, the centroid is (1:1:1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The incenter in barycentric coordinates uses side lengths as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "weights"
+        ],
+        "other_options": [
+            "products",
+            "sums",
+            "differences"
+        ]
+    },
+    {
+        "q": "Match the coordinate system with its best use:",
+        "type": "match",
+        "left": [
+            "Cartesian",
+            "Polar",
+            "Barycentric",
+            "Trilinear"
+        ],
+        "right": [
+            "General purpose",
+            "Circular symmetry",
+            "Triangle centers",
+            "Distance to sides"
+        ]
+    },
+    {
+        "q": "What is trigonometric form of complex numbers used for in geometry?",
+        "type": "mcq",
+        "o": [
+            "Rotations and scaling in the plane",
+            "3D transformations",
+            "Volume calculations",
+            "Surface area"
+        ]
+    },
+    {
+        "q": "Multiplying complex numbers corresponds to adding ______.",
+        "type": "fill_blank",
+        "answers": [
+            "angles"
+        ],
+        "other_options": [
+            "magnitudes",
+            "real parts",
+            "imaginary parts"
+        ]
+    },
+    {
+        "q": "The nth roots of unity form the vertices of a regular n-gon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many roots of unity are there for z^6 = 1?",
+        "type": "mcq",
+        "o": [
+            "6",
+            "1",
+            "2",
+            "12"
+        ]
+    },
+    {
+        "q": "Rearrange complex number applications in geometry:",
+        "type": "rearrange",
+        "words": [
+            "Points as complex numbers",
+            "Rotations",
+            "Reflections",
+            "Spiral similarities",
+            "Mobius transformations"
+        ]
+    },
+    {
+        "q": "What is a directed angle?",
+        "type": "mcq",
+        "o": [
+            "An angle measured with a sign indicating orientation",
+            "Any angle",
+            "A right angle",
+            "An angle in a triangle"
+        ]
+    },
+    {
+        "q": "Directed angles help avoid ______ in geometric proofs.",
+        "type": "fill_blank",
+        "answers": [
+            "case analysis"
+        ],
+        "other_options": [
+            "calculations",
+            "drawings",
+            "measurements"
+        ]
+    },
+    {
+        "q": "In directed angle notation, angle ABC = -angle CBA.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is radical center of three circles?",
+        "type": "mcq",
+        "o": [
+            "The point where all three radical axes meet",
+            "The center of any circle",
+            "The incenter",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "Match the circle configuration with its property:",
+        "type": "match",
+        "left": [
+            "Radical center",
+            "Coaxial circles",
+            "Orthogonal circles",
+            "Apollonius circle"
+        ],
+        "right": [
+            "Common to three radical axes",
+            "Share radical axis",
+            "Perpendicular at intersection",
+            "Locus of constant distance ratio"
+        ]
+    },
+    {
+        "q": "What is a pedal triangle?",
+        "type": "mcq",
+        "o": [
+            "Triangle formed by feet of perpendiculars from a point to sides",
+            "Any small triangle",
+            "The medial triangle",
+            "A similar triangle"
+        ]
+    },
+    {
+        "q": "The medial triangle connects the ______ of the sides.",
+        "type": "fill_blank",
+        "answers": [
+            "midpoints"
+        ],
+        "other_options": [
+            "vertices",
+            "feet",
+            "centers"
+        ]
+    },
+    {
+        "q": "Rearrange special triangles by construction complexity:",
+        "type": "rearrange",
+        "words": [
+            "Medial triangle",
+            "Orthic triangle",
+            "Pedal triangle",
+            "Contact triangle",
+            "Tangential triangle"
+        ]
+    },
+    {
+        "q": "What is the isogonal conjugate?",
+        "type": "mcq",
+        "o": [
+            "Reflection of cevians over angle bisectors",
+            "The midpoint",
+            "The centroid",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "The isogonal conjugate of the incenter is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "incenter"
+        ],
+        "other_options": [
+            "circumcenter",
+            "centroid",
+            "orthocenter"
+        ]
+    },
+    {
+        "q": "What is the isotomic conjugate?",
+        "type": "mcq",
+        "o": [
+            "Reflection of cevians over midpoints of sides",
+            "The isogonal conjugate",
+            "The centroid",
+            "The incenter"
+        ]
+    },
+    {
+        "q": "Match the conjugate with its construction:",
+        "type": "match",
+        "left": [
+            "Isogonal",
+            "Isotomic",
+            "Complement",
+            "Anticomplement"
+        ],
+        "right": [
+            "Reflect over angle bisectors",
+            "Reflect over midpoints",
+            "From medial triangle",
+            "Inverse of complement"
+        ]
+    },
+    {
+        "q": "What is mass point geometry used for?",
+        "type": "mcq",
+        "o": [
+            "Solving problems involving ratios and cevians",
+            "Calculating areas only",
+            "Finding angles",
+            "Computing volumes"
+        ]
+    },
+    {
+        "q": "In mass point geometry, the centroid balances the triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange problem-solving techniques by abstraction:",
+        "type": "rearrange",
+        "words": [
+            "Direct calculation",
+            "Coordinate geometry",
+            "Mass points",
+            "Barycentric coordinates",
+            "Projective methods"
+        ]
+    },
+    {
+        "q": "What is a homothety?",
+        "type": "mcq",
+        "o": [
+            "A dilation centered at a fixed point",
+            "A rotation",
+            "A reflection",
+            "A translation"
+        ]
+    },
+    {
+        "q": "A homothety with ratio -1 is equivalent to ______ about the center.",
+        "type": "fill_blank",
+        "answers": [
+            "point reflection"
+        ],
+        "other_options": [
+            "rotation",
+            "translation",
+            "dilation"
+        ]
+    },
+    {
+        "q": "Two circles are related by a homothety (possibly two).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a spiral similarity?",
+        "type": "mcq",
+        "o": [
+            "A rotation combined with a dilation",
+            "A translation followed by rotation",
+            "Two reflections",
+            "A pure rotation"
+        ]
+    },
+    {
+        "q": "Match the transformation with its invariant:",
+        "type": "match",
+        "left": [
+            "Translation",
+            "Rotation",
+            "Dilation",
+            "Reflection"
+        ],
+        "right": [
+            "Direction",
+            "Center point",
+            "Center point",
+            "Line of reflection"
+        ]
+    },
+    {
+        "q": "Every orientation-preserving similarity is a spiral similarity or translation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a harmonic division?",
+        "type": "mcq",
+        "o": [
+            "Four points where cross-ratio is -1",
+            "Four equal parts",
+            "Two equal halves",
+            "Any four collinear points"
+        ]
+    },
+    {
+        "q": "The cross-ratio of a harmonic range is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "-1"
+        ],
+        "other_options": [
+            "1",
+            "0",
+            "2"
+        ]
+    },
+    {
+        "q": "Rearrange projective concepts by importance:",
+        "type": "rearrange",
+        "words": [
+            "Cross-ratio",
+            "Harmonic division",
+            "Poles and polars",
+            "Desargues' theorem",
+            "Pascal's theorem"
+        ]
+    },
+    {
+        "q": "What is Pascal's theorem about?",
+        "type": "mcq",
+        "o": [
+            "Opposite sides of a hexagon inscribed in a conic meet collinearly",
+            "Triangle angle sum",
+            "Circle tangents",
+            "Parallel lines"
+        ]
+    },
+    {
+        "q": "Pascal's theorem applies to any ______ inscribed in a conic.",
+        "type": "fill_blank",
+        "answers": [
+            "hexagon"
+        ],
+        "other_options": [
+            "triangle",
+            "quadrilateral",
+            "pentagon"
+        ]
+    },
+    {
+        "q": "What is Brianchon's theorem?",
+        "type": "mcq",
+        "o": [
+            "Diagonals of hexagon circumscribed about a conic are concurrent",
+            "Triangle centers are collinear",
+            "Parallel lines never meet",
+            "Circles intersect at two points"
+        ]
+    },
+    {
+        "q": "Pascal's and Brianchon's theorems are projective ______.",
+        "type": "fill_blank",
+        "answers": [
+            "duals"
+        ],
+        "other_options": [
+            "inverses",
+            "converses",
+            "copies"
+        ]
+    },
+    {
+        "q": "Match the theorem with its configuration:",
+        "type": "match",
+        "left": [
+            "Pascal",
+            "Brianchon",
+            "Desargues",
+            "Pappus"
+        ],
+        "right": [
+            "Inscribed hexagon",
+            "Circumscribed hexagon",
+            "Two triangles perspective",
+            "Collinear points on lines"
+        ]
+    },
+    {
+        "q": "What is a pole and polar relationship?",
+        "type": "mcq",
+        "o": [
+            "A duality between points and lines with respect to a conic",
+            "Two opposite points",
+            "North and south poles",
+            "A pair of parallel lines"
+        ]
+    },
+    {
+        "q": "If point P lies on line l, then the polar of P passes through the pole of l.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The polar of the center of a circle is at ______.",
+        "type": "fill_blank",
+        "answers": [
+            "infinity"
+        ],
+        "other_options": [
+            "the center",
+            "the origin",
+            "the circumference"
+        ]
+    },
+    {
+        "q": "Rearrange conic topics by difficulty:",
+        "type": "rearrange",
+        "words": [
+            "Circle equation",
+            "Parabola focus",
+            "Ellipse foci",
+            "Hyperbola asymptotes",
+            "Poles and polars"
+        ]
+    },
+    {
+        "q": "What is the latus rectum of a parabola?",
+        "type": "mcq",
+        "o": [
+            "The chord through the focus perpendicular to the axis",
+            "The directrix",
+            "The axis of symmetry",
+            "The vertex"
+        ]
+    },
+    {
+        "q": "The length of the latus rectum of y = x^2/4p is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "4p"
+        ],
+        "other_options": [
+            "2p",
+            "p",
+            "p^2"
+        ]
+    },
+    {
+        "q": "What is a confocal conic?",
+        "type": "mcq",
+        "o": [
+            "Conics sharing the same foci",
+            "Conics of the same type",
+            "Parallel conics",
+            "Congruent conics"
+        ]
+    },
+    {
+        "q": "Confocal ellipses and hyperbolas are orthogonal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the conic with its reflective property:",
+        "type": "match",
+        "left": [
+            "Parabola",
+            "Ellipse",
+            "Hyperbola",
+            "Circle"
+        ],
+        "right": [
+            "Parallel rays to focus",
+            "One focus to other",
+            "Rays from focus reflect away",
+            "Center to center"
+        ]
+    },
+    {
+        "q": "What is an affine transformation?",
+        "type": "mcq",
+        "o": [
+            "A transformation preserving parallelism and ratios",
+            "A rotation only",
+            "A reflection only",
+            "A translation only"
+        ]
+    },
+    {
+        "q": "Affine transformations preserve ______ but not necessarily angles.",
+        "type": "fill_blank",
+        "answers": [
+            "parallelism"
+        ],
+        "other_options": [
+            "lengths",
+            "angles",
+            "areas"
+        ]
+    },
+    {
+        "q": "Every affine transformation can be expressed as a matrix plus translation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Shearing is an ______ transformation.",
+        "type": "fill_blank",
+        "answers": [
+            "affine"
+        ],
+        "other_options": [
+            "isometry",
+            "similarity",
+            "rotation"
+        ]
+    },
+    {
+        "q": "What is a similarity transformation?",
+        "type": "mcq",
+        "o": [
+            "A transformation preserving shape but not necessarily size",
+            "A transformation preserving size only",
+            "An isometry",
+            "A translation"
+        ]
+    },
+    {
+        "q": "Rearrange transformations from most restrictive to least:",
+        "type": "rearrange",
+        "words": [
+            "Isometry",
+            "Similarity",
+            "Affine",
+            "Projective",
+            "Topological"
+        ]
+    },
+    {
+        "q": "What is the fundamental theorem of similarity?",
+        "type": "mcq",
+        "o": [
+            "Similar figures have proportional corresponding lengths",
+            "All figures are similar",
+            "Similar figures are congruent",
+            "Similarity is transitive only"
+        ]
+    },
+    {
+        "q": "The ratio of areas of similar figures is the ______ of the scale factor.",
+        "type": "fill_blank",
+        "answers": [
+            "square"
+        ],
+        "other_options": [
+            "cube",
+            "half",
+            "double"
+        ]
+    },
+    {
+        "q": "The ratio of volumes of similar solids is the cube of the scale factor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the invariant with the transformation type:",
+        "type": "match",
+        "left": [
+            "Distance",
+            "Angles",
+            "Parallelism",
+            "Cross-ratio"
+        ],
+        "right": [
+            "Isometry",
+            "Similarity",
+            "Affine",
+            "Projective"
+        ]
+    },
+    {
+        "q": "What is a convex set?",
+        "type": "mcq",
+        "o": [
+            "A set where any two points can be joined by a line segment within the set",
+            "Any set",
+            "A set with curves",
+            "An empty set"
+        ]
+    },
+    {
+        "q": "A convex polygon has all interior angles ______ 180 degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "less than"
+        ],
+        "other_options": [
+            "greater than",
+            "equal to",
+            "at least"
+        ]
+    },
+    {
+        "q": "The convex hull is the smallest convex set containing a given set.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange polygon types by convexity:",
+        "type": "rearrange",
+        "words": [
+            "Convex polygon",
+            "Star polygon",
+            "Simple polygon",
+            "Self-intersecting polygon"
+        ]
+    },
+    {
+        "q": "What is Voronoi diagram?",
+        "type": "mcq",
+        "o": [
+            "Partition of plane into regions closest to each point in a set",
+            "A tessellation pattern",
+            "A type of graph",
+            "A circle packing"
+        ]
+    },
+    {
+        "q": "The dual of a Voronoi diagram is the ______ triangulation.",
+        "type": "fill_blank",
+        "answers": [
+            "Delaunay"
+        ],
+        "other_options": [
+            "Regular",
+            "Random",
+            "Uniform"
+        ]
+    },
+    {
+        "q": "Voronoi regions are always convex.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the computational geometry concept:",
+        "type": "match",
+        "left": [
+            "Voronoi diagram",
+            "Delaunay triangulation",
+            "Convex hull",
+            "Line arrangement"
+        ],
+        "right": [
+            "Nearest neighbor regions",
+            "Maximizes minimum angle",
+            "Smallest enclosing convex set",
+            "Lines partition plane"
+        ]
+    },
+    {
+        "q": "What is the winding number?",
+        "type": "mcq",
+        "o": [
+            "Number of times a curve winds around a point",
+            "The perimeter",
+            "The area",
+            "The curvature"
+        ]
+    },
+    {
+        "q": "A point inside a simple closed curve has winding number ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "-1"
+        ]
+    },
+    {
+        "q": "What is the shoelace formula used for?",
+        "type": "mcq",
+        "o": [
+            "Computing area of a simple polygon from coordinates",
+            "Finding the perimeter",
+            "Computing angles",
+            "Finding the centroid only"
+        ]
+    },
+    {
+        "q": "The shoelace formula gives signed area, which can be negative for clockwise vertices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange computational geometry problems by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Point in polygon",
+            "Convex hull",
+            "Voronoi diagram",
+            "Triangulation",
+            "Motion planning"
+        ]
+    },
+    {
+        "q": "What is Pick's theorem about?",
+        "type": "mcq",
+        "o": [
+            "Area of lattice polygon from interior and boundary points",
+            "Perimeter formula",
+            "Angle sum",
+            "Similarity"
+        ]
+    },
+    {
+        "q": "Pick's theorem: A = i + b/2 - 1 where i is interior points and b is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "boundary points"
+        ],
+        "other_options": [
+            "vertices",
+            "edges",
+            "diagonals"
+        ]
+    },
+    {
+        "q": "Pick's theorem applies to simple polygons with vertices on lattice points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the taxicab (Manhattan) distance?",
+        "type": "mcq",
+        "o": [
+            "|x2 - x1| + |y2 - y1|",
+            "sqrt((x2-x1)^2 + (y2-y1)^2)",
+            "max(|x2-x1|, |y2-y1|)",
+            "(x2-x1) + (y2-y1)"
+        ]
+    },
+    {
+        "q": "Match the metric with its name:",
+        "type": "match",
+        "left": [
+            "Euclidean",
+            "Taxicab",
+            "Chebyshev",
+            "Minkowski"
+        ],
+        "right": [
+            "L2 norm",
+            "L1 norm",
+            "L-infinity norm",
+            "Lp norm"
+        ]
+    },
+    {
+        "q": "In taxicab geometry, circles appear as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "squares"
+        ],
+        "other_options": [
+            "circles",
+            "triangles",
+            "hexagons"
+        ]
+    },
+    {
+        "q": "What is a geodesic?",
+        "type": "mcq",
+        "o": [
+            "The shortest path between two points on a surface",
+            "Any path",
+            "A straight line only",
+            "A curved path"
+        ]
+    },
+    {
+        "q": "On a sphere, geodesics are arcs of great circles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Gaussian curvature?",
+        "type": "mcq",
+        "o": [
+            "The product of principal curvatures at a point",
+            "The sum of curvatures",
+            "A constant for all surfaces",
+            "Always positive"
+        ]
+    },
+    {
+        "q": "A sphere has ______ Gaussian curvature.",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "zero",
+            "undefined"
+        ]
+    },
+    {
+        "q": "A plane has zero Gaussian curvature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A saddle point has negative Gaussian curvature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange surfaces by Gaussian curvature sign:",
+        "type": "rearrange",
+        "words": [
+            "Sphere (positive)",
+            "Cylinder (zero)",
+            "Plane (zero)",
+            "Saddle (negative)",
+            "Pseudosphere (negative)"
+        ]
+    },
+    {
+        "q": "What is the Gauss-Bonnet theorem about?",
+        "type": "mcq",
+        "o": [
+            "Relates total curvature to topology (Euler characteristic)",
+            "Triangle angle sum",
+            "Circle area",
+            "Polygon sides"
+        ]
+    },
+    {
+        "q": "The Euler characteristic of a sphere is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "-2"
+        ]
+    },
+    {
+        "q": "A torus has Euler characteristic 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the surface with its Euler characteristic:",
+        "type": "match",
+        "left": [
+            "Sphere",
+            "Torus",
+            "Klein bottle",
+            "Projective plane"
+        ],
+        "right": [
+            "2",
+            "0",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "What is a regular polytope?",
+        "type": "mcq",
+        "o": [
+            "A polytope with congruent regular facets and identical vertex figures",
+            "Any 3D shape",
+            "A polygon",
+            "A tessellation"
+        ]
+    },
+    {
+        "q": "There are ______ regular convex polytopes in 4D.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "5",
+            "4",
+            "8"
+        ]
+    },
+    {
+        "q": "The 4D analog of a cube is called a tesseract.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a simplicial complex?",
+        "type": "mcq",
+        "o": [
+            "A collection of simplices (points, edges, triangles...) with certain properties",
+            "A simple polygon",
+            "A single simplex",
+            "A graph"
+        ]
+    },
+    {
+        "q": "Rearrange simplices by dimension:",
+        "type": "rearrange",
+        "words": [
+            "Vertex (0-simplex)",
+            "Edge (1-simplex)",
+            "Triangle (2-simplex)",
+            "Tetrahedron (3-simplex)"
+        ]
+    },
+    {
+        "q": "What is an oriented angle?",
+        "type": "mcq",
+        "o": [
+            "An angle with a specified direction of rotation",
+            "An acute angle",
+            "A right angle",
+            "Any angle"
+        ]
+    },
+    {
+        "q": "Oriented angles are key in complex number representations of geometry.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "When using complex numbers, rotation by theta is multiplication by e^(i*theta).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The complex number representation simplifies ______ calculations.",
+        "type": "fill_blank",
+        "answers": [
+            "rotation"
+        ],
+        "other_options": [
+            "area",
+            "volume",
+            "length"
+        ]
+    },
+    {
+        "q": "What is a Mobius transformation?",
+        "type": "mcq",
+        "o": [
+            "f(z) = (az + b) / (cz + d) where ad - bc is nonzero",
+            "Any polynomial",
+            "A translation only",
+            "A reflection"
+        ]
+    },
+    {
+        "q": "Mobius transformations map circles and lines to circles or lines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Mobius transformation component:",
+        "type": "match",
+        "left": [
+            "a = d = 1, b = t, c = 0",
+            "a = r, b = c = 0, d = 1",
+            "a = 0, b = c = d = 1",
+            "a = e^(i*theta), d = 1"
+        ],
+        "right": [
+            "Translation",
+            "Scaling",
+            "Inversion",
+            "Rotation"
+        ]
+    },
+    {
+        "q": "What is a fixed point of a transformation?",
+        "type": "mcq",
+        "o": [
+            "A point that maps to itself",
+            "Any point",
+            "The origin only",
+            "A moving point"
+        ]
+    },
+    {
+        "q": "A rotation has exactly ______ fixed point (the center).",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "zero",
+            "two",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Rearrange transformations by number of fixed points:",
+        "type": "rearrange",
+        "words": [
+            "Translation (0 if non-trivial)",
+            "Rotation (1)",
+            "Reflection (line of fixed points)",
+            "Identity (all points)"
+        ]
+    },
+    {
+        "q": "What is trigonometric identity sin^2(x) + cos^2(x)?",
+        "type": "mcq",
+        "o": [
+            "1",
+            "0",
+            "2",
+            "tan^2(x)"
+        ]
+    },
+    {
+        "q": "The Law of Cosines generalizes the ______ theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "Pythagorean"
+        ],
+        "other_options": [
+            "Heron's",
+            "Stewart's",
+            "Ceva's"
+        ]
+    },
+    {
+        "q": "The Law of Sines states a/sin(A) = b/sin(B) = c/sin(C) = 2R.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the law with its formula:",
+        "type": "match",
+        "left": [
+            "Law of Cosines",
+            "Law of Sines",
+            "Law of Tangents",
+            "Angle bisector length"
+        ],
+        "right": [
+            "c^2 = a^2 + b^2 - 2ab*cos(C)",
+            "a/sin(A) = b/sin(B)",
+            "(a-b)/(a+b) = tan((A-B)/2)/tan((A+B)/2)",
+            "sqrt(ab((a+b)^2 - c^2))/(a+b)"
+        ]
+    },
+    {
+        "q": "What is the area of triangle using sine: (1/2)*a*b*sin(C)?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the circumradius formula R = abc / (4 * Area)?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The inradius r = Area / s where s is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "semi-perimeter"
+        ],
+        "other_options": [
+            "perimeter",
+            "side",
+            "diagonal"
+        ]
+    },
+    {
+        "q": "Rearrange triangle formulas by frequency of use:",
+        "type": "rearrange",
+        "words": [
+            "Pythagorean theorem",
+            "Area = (1/2)bh",
+            "Law of Cosines",
+            "Law of Sines",
+            "Heron's formula"
+        ]
+    },
+    {
+        "q": "What is angle chasing?",
+        "type": "mcq",
+        "o": [
+            "A technique to find angles by using known relationships",
+            "Measuring angles with a protractor",
+            "Drawing angles",
+            "Random guessing"
+        ]
+    },
+    {
+        "q": "In angle chasing, inscribed angles subtending the same arc are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "supplementary",
+            "complementary",
+            "different"
+        ]
+    },
+    {
+        "q": "Central angles are twice the inscribed angles on the same arc.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the tangent-secant angle?",
+        "type": "mcq",
+        "o": [
+            "Half the difference of intercepted arcs",
+            "Half the sum of arcs",
+            "The central angle",
+            "The inscribed angle"
+        ]
+    },
+    {
+        "q": "Match the angle theorem with its configuration:",
+        "type": "match",
+        "left": [
+            "Inscribed angle",
+            "Tangent-chord",
+            "Tangent-secant",
+            "Secant-secant"
+        ],
+        "right": [
+            "Half central angle",
+            "Half intercepted arc",
+            "Half arc difference",
+            "Half arc difference"
+        ]
+    },
+    {
+        "q": "What is the power of a point theorem?",
+        "type": "mcq",
+        "o": [
+            "Products of segments are equal for lines through a point intersecting a circle",
+            "Sum of angles is 180",
+            "Pythagorean theorem",
+            "Similar triangles"
+        ]
+    },
+    {
+        "q": "For two chords through a point: PA * PB = PC * PD.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "For a tangent and secant: PT^2 = PA * PB.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange circle theorems applications:",
+        "type": "rearrange",
+        "words": [
+            "Inscribed angle",
+            "Power of a point",
+            "Radical axis",
+            "Poles and polars"
+        ]
+    },
+    {
+        "q": "What is a cyclic hexagon?",
+        "type": "mcq",
+        "o": [
+            "A hexagon inscribed in a circle",
+            "Any hexagon",
+            "A regular hexagon only",
+            "A convex hexagon"
+        ]
+    },
+    {
+        "q": "Pascal's theorem applies to cyclic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hexagons"
+        ],
+        "other_options": [
+            "triangles",
+            "quadrilaterals",
+            "pentagons"
+        ]
+    },
+    {
+        "q": "The six points of a cyclic hexagon can be any points on a circle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the theorem of three tangent circles?",
+        "type": "mcq",
+        "o": [
+            "Descartes' Circle Theorem relating radii and curvatures",
+            "All tangent circles are equal",
+            "Three circles can't be tangent",
+            "Only congruent circles can be tangent"
+        ]
+    },
+    {
+        "q": "Descartes' Circle Theorem: (k1 + k2 + k3 + k4)^2 = 2(k1^2 + k2^2 + k3^2 + k4^2) for curvatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Curvature is defined as ______ of radius.",
+        "type": "fill_blank",
+        "answers": [
+            "reciprocal"
+        ],
+        "other_options": [
+            "double",
+            "square",
+            "half"
+        ]
+    },
+    {
+        "q": "Match the circle configuration theorem:",
+        "type": "match",
+        "left": [
+            "Ptolemy's",
+            "Descartes",
+            "Japanese Temple",
+            "Apollonius"
+        ],
+        "right": [
+            "Cyclic quadrilateral",
+            "Four tangent circles",
+            "Sangaku problems",
+            "Circle tangent to given objects"
+        ]
+    },
+    {
+        "q": "What is the problem of Apollonius?",
+        "type": "mcq",
+        "o": [
+            "Construct circles tangent to three given circles/lines/points",
+            "Find the area of a circle",
+            "Trisect an angle",
+            "Square the circle"
+        ]
+    },
+    {
+        "q": "The problem of Apollonius has at most ______ solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "8"
+        ],
+        "other_options": [
+            "4",
+            "1",
+            "16"
+        ]
+    },
+    {
+        "q": "Rearrange classical construction problems by solvability:",
+        "type": "rearrange",
+        "words": [
+            "Bisect angle (yes)",
+            "Apollonius (yes)",
+            "Double cube (no)",
+            "Trisect angle (no)",
+            "Square circle (no)"
+        ]
+    },
+    {
+        "q": "What is the Napoleon triangle?",
+        "type": "mcq",
+        "o": [
+            "The triangle formed by centers of equilateral triangles on sides of a triangle",
+            "Any equilateral triangle",
+            "The medial triangle",
+            "The orthic triangle"
+        ]
+    },
+    {
+        "q": "Napoleon's theorem states the Napoleon triangle is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "equilateral"
+        ],
+        "other_options": [
+            "isosceles",
+            "right",
+            "scalene"
+        ]
+    },
+    {
+        "q": "The inner and outer Napoleon triangles exist for any triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Morley's theorem about?",
+        "type": "mcq",
+        "o": [
+            "The triangle formed by trisector intersections is equilateral",
+            "Triangle angle sum",
+            "Circle tangent properties",
+            "Parallel lines"
+        ]
+    },
+    {
+        "q": "Match the named theorem with its result:",
+        "type": "match",
+        "left": [
+            "Napoleon",
+            "Morley",
+            "Viviani",
+            "Van Aubel"
+        ],
+        "right": [
+            "Equilateral from side triangles",
+            "Equilateral from trisectors",
+            "Sum of distances in equilateral",
+            "Quadrilateral squares"
+        ]
+    },
+    {
+        "q": "Viviani's theorem: the sum of distances from any point inside an equilateral triangle to its sides is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "constant"
+        ],
+        "other_options": [
+            "variable",
+            "zero",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Van Aubel's theorem relates squares on quadrilateral sides.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a complete quadrilateral?",
+        "type": "mcq",
+        "o": [
+            "The figure formed by 4 lines in general position with all 6 intersection points",
+            "Any quadrilateral",
+            "A convex quadrilateral",
+            "A cyclic quadrilateral"
+        ]
+    },
+    {
+        "q": "A complete quadrilateral has ______ diagonal lines.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "4",
+            "6"
+        ]
+    },
+    {
+        "q": "Rearrange quadrilateral types by structure:",
+        "type": "rearrange",
+        "words": [
+            "Simple quadrilateral",
+            "Convex quadrilateral",
+            "Cyclic quadrilateral",
+            "Complete quadrilateral"
+        ]
+    },
+    {
+        "q": "What is the Miquel point?",
+        "type": "mcq",
+        "o": [
+            "The common point of circumcircles in Miquel's theorem",
+            "The centroid",
+            "The incenter",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "Miquel's theorem applies to a triangle with points on each side.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The four circumcircles of a complete quadrilateral pass through a common point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a spiral of Theodorus?",
+        "type": "mcq",
+        "o": [
+            "A spiral made of right triangles with hypotenuses sqrt(2), sqrt(3), sqrt(4)...",
+            "An Archimedean spiral",
+            "A logarithmic spiral",
+            "A golden spiral"
+        ]
+    },
+    {
+        "q": "Match the spiral with its property:",
+        "type": "match",
+        "left": [
+            "Archimedean",
+            "Logarithmic",
+            "Fermat",
+            "Golden"
+        ],
+        "right": [
+            "r = a + b*theta",
+            "r = a*e^(b*theta)",
+            "r^2 = a^2*theta",
+            "Logarithmic with golden ratio"
+        ]
+    },
+    {
+        "q": "The logarithmic spiral is also called the ______ spiral.",
+        "type": "fill_blank",
+        "answers": [
+            "equiangular"
+        ],
+        "other_options": [
+            "variable",
+            "random",
+            "polygonal"
+        ]
+    },
+    {
+        "q": "What is Cavalieri's principle?",
+        "type": "mcq",
+        "o": [
+            "Solids with equal cross-sectional areas at every height have equal volume",
+            "All pyramids have equal volume",
+            "Volume depends on shape only",
+            "Surface area equals volume"
+        ]
+    },
+    {
+        "q": "Cavalieri's principle is useful for computing volumes of curved solids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The volume of a sphere equals (4/3) * pi * r^3 proved using Cavalieri's principle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange volume computation methods by rigour:",
+        "type": "rearrange",
+        "words": [
+            "Formulas",
+            "Cavalieri",
+            "Integration",
+            "Measure theory"
+        ]
+    },
+    {
+        "q": "What is the centroid of a triangle with vertices (x1,y1), (x2,y2), (x3,y3)?",
+        "type": "mcq",
+        "o": [
+            "((x1+x2+x3)/3, (y1+y2+y3)/3)",
+            "((x1+x2)/2, (y1+y2)/2)",
+            "(x1*x2*x3, y1*y2*y3)",
+            "(x1-x2+x3, y1-y2+y3)"
+        ]
+    },
+    {
+        "q": "The centroid divides each median in ratio 2:1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The incenter coordinates use ______ as weights.",
+        "type": "fill_blank",
+        "answers": [
+            "side lengths"
+        ],
+        "other_options": [
+            "angles",
+            "areas",
+            "1:1:1"
+        ]
+    },
+    {
+        "q": "What is the Nagel point?",
+        "type": "mcq",
+        "o": [
+            "The isotomic conjugate of the incenter",
+            "The centroid",
+            "The orthocenter",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "Match the triangle center with its barycentric coordinates:",
+        "type": "match",
+        "left": [
+            "Centroid",
+            "Incenter",
+            "Circumcenter",
+            "Orthocenter"
+        ],
+        "right": [
+            "1:1:1",
+            "a:b:c",
+            "sin(2A):sin(2B):sin(2C)",
+            "tan(A):tan(B):tan(C)"
+        ]
+    },
+    {
+        "q": "What is the Gergonne point?",
+        "type": "mcq",
+        "o": [
+            "The point where lines from vertices to opposite incircle touch points meet",
+            "The incenter",
+            "The centroid",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "The Gergonne point lies inside the triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Nagel point lies ______ the triangle.",
+        "type": "fill_blank",
+        "answers": [
+            "inside"
+        ],
+        "other_options": [
+            "outside",
+            "on",
+            "at the vertex of"
+        ]
+    },
+    {
+        "q": "Rearrange triangle centers by discovery date (earliest first):",
+        "type": "rearrange",
+        "words": [
+            "Centroid (ancient)",
+            "Circumcenter (ancient)",
+            "Euler point (1700s)",
+            "Fermat point (1600s)",
+            "Kimberling centers (modern)"
+        ]
+    },
+    {
+        "q": "What is the Fermat point?",
+        "type": "mcq",
+        "o": [
+            "The point minimizing sum of distances to vertices",
+            "The centroid",
+            "The incenter",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "If all angles of a triangle are less than 120 degrees, the Fermat point is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "interior"
+        ],
+        "other_options": [
+            "exterior",
+            "on a vertex",
+            "undefined"
+        ]
+    },
+    {
+        "q": "At the Fermat point, lines to vertices make 120-degree angles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Torricelli point?",
+        "type": "mcq",
+        "o": [
+            "Another name for the first Fermat point",
+            "The centroid",
+            "The incenter",
+            "The midpoint"
+        ]
+    },
+    {
+        "q": "Match the optimization point with what it minimizes:",
+        "type": "match",
+        "left": [
+            "Fermat point",
+            "Centroid",
+            "Circumcenter",
+            "Incenter"
+        ],
+        "right": [
+            "Sum of distances to vertices",
+            "Sum of squared distances",
+            "Distance to vertices (equal)",
+            "Distance to sides (equal)"
+        ]
+    },
+    {
+        "q": "What is the symmedian point?",
+        "type": "mcq",
+        "o": [
+            "The isogonal conjugate of the centroid",
+            "The centroid itself",
+            "The incenter",
+            "The circumcenter"
+        ]
+    },
+    {
+        "q": "Symmedians are reflections of medians over ______.",
+        "type": "fill_blank",
+        "answers": [
+            "angle bisectors"
+        ],
+        "other_options": [
+            "altitudes",
+            "sides",
+            "perpendicular bisectors"
+        ]
+    },
+    {
+        "q": "The symmedian point lies inside the triangle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange triangle centers by importance in competition math:",
+        "type": "rearrange",
+        "words": [
+            "Incenter",
+            "Circumcenter",
+            "Centroid",
+            "Orthocenter",
+            "Fermat point"
+        ]
+    },
+    {
+        "q": "What is a pencil of circles?",
+        "type": "mcq",
+        "o": [
+            "A family of circles passing through two common points or tangent to a line at a point",
+            "Any collection of circles",
+            "Concentric circles only",
+            "Non-intersecting circles"
+        ]
+    },
+    {
+        "q": "Coaxial circles share a common ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radical axis"
+        ],
+        "other_options": [
+            "center",
+            "radius",
+            "tangent"
+        ]
+    },
+    {
+        "q": "Every two non-concentric circles define a unique radical axis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the radical center of three circles?",
+        "type": "mcq",
+        "o": [
+            "The intersection of the three pairwise radical axes",
+            "The average of centers",
+            "The largest circle's center",
+            "The incircle center"
+        ]
+    },
+    {
+        "q": "Match the circle family with its property:",
+        "type": "match",
+        "left": [
+            "Concentric",
+            "Coaxial",
+            "Orthogonal pencil",
+            "Apollonius"
+        ],
+        "right": [
+            "Same center",
+            "Common radical axis",
+            "Perpendicular to coaxial",
+            "Constant ratio of distances"
+        ]
+    },
+    {
+        "q": "What is an Apollonius circle?",
+        "type": "mcq",
+        "o": [
+            "Locus of points with constant ratio of distances to two fixed points",
+            "Any circle",
+            "The circumcircle",
+            "The incircle"
+        ]
+    },
+    {
+        "q": "When the ratio is 1, the Apollonius circle becomes the perpendicular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bisector"
+        ],
+        "other_options": [
+            "diameter",
+            "tangent",
+            "chord"
+        ]
+    },
+    {
+        "q": "Rearrange circle properties by abstraction:",
+        "type": "rearrange",
+        "words": [
+            "Radius",
+            "Circumference",
+            "Tangent lines",
+            "Power of point",
+            "Radical axis"
+        ]
+    },
+    {
+        "q": "What is Poncelet's closure theorem?",
+        "type": "mcq",
+        "o": [
+            "If a polygon closes for one starting point, it closes for any starting point",
+            "All polygons are closed",
+            "Circles always close",
+            "Triangles have three sides"
+        ]
+    },
+    {
+        "q": "Poncelet's theorem applies to polygons inscribed in one conic and circumscribed about another.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a porism?",
+        "type": "mcq",
+        "o": [
+            "A theorem stating if one solution exists, infinitely many exist",
+            "A false statement",
+            "A single solution problem",
+            "A postulate"
+        ]
+    },
+    {
+        "q": "Steiner's porism concerns chains of ______ circles.",
+        "type": "fill_blank",
+        "answers": [
+            "tangent"
+        ],
+        "other_options": [
+            "concentric",
+            "parallel",
+            "orthogonal"
+        ]
+    },
+    {
+        "q": "What is the arbelos?",
+        "type": "mcq",
+        "o": [
+            "A region bounded by three semicircles",
+            "A triangle",
+            "A quadrilateral",
+            "A regular polygon"
+        ]
+    },
+    {
+        "q": "The twin circles of Archimedes are equal circles in an arbelos.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the classical figure with its discoverer:",
+        "type": "match",
+        "left": [
+            "Arbelos",
+            "Salinon",
+            "Hippocrates' lune",
+            "Pappus chains"
+        ],
+        "right": [
+            "Archimedes",
+            "Archimedes",
+            "Hippocrates",
+            "Pappus"
+        ]
+    },
+    {
+        "q": "What is a Reuleaux triangle?",
+        "type": "mcq",
+        "o": [
+            "A curve of constant width formed by circular arcs",
+            "An equilateral triangle",
+            "A circle",
+            "A regular hexagon"
+        ]
+    },
+    {
+        "q": "A Reuleaux triangle has constant ______.",
+        "type": "fill_blank",
+        "answers": [
+            "width"
+        ],
+        "other_options": [
+            "area",
+            "perimeter",
+            "angle"
+        ]
+    },
+    {
+        "q": "The Reuleaux triangle is not a Wankel engine rotor (it's a related curve).",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Rearrange curves of constant width by construction complexity:",
+        "type": "rearrange",
+        "words": [
+            "Circle",
+            "Reuleaux triangle",
+            "Reuleaux pentagon",
+            "Smooth Reuleaux",
+            "General constant width"
+        ]
+    },
+    {
+        "q": "What is the isoperimetric inequality?",
+        "type": "mcq",
+        "o": [
+            "Among all shapes of given perimeter, the circle has maximum area",
+            "All shapes have equal perimeter",
+            "Triangles have maximum area",
+            "Squares are optimal"
+        ]
+    },
+    {
+        "q": "The isoperimetric inequality states 4 * pi * A <= L^2 where A is area and L is perimeter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Equality in the isoperimetric inequality holds only for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "circles"
+        ],
+        "other_options": [
+            "squares",
+            "triangles",
+            "hexagons"
+        ]
+    },
+    {
+        "q": "What is Blaschke's theorem?",
+        "type": "mcq",
+        "o": [
+            "A convex body of constant width is determined by its support function",
+            "All circles are equal",
+            "Triangles have three sides",
+            "Squares are convex"
+        ]
+    },
+    {
+        "q": "Match the optimization problem with its optimal shape:",
+        "type": "match",
+        "left": [
+            "Max area given perimeter",
+            "Min perimeter given area",
+            "Max volume given surface area",
+            "Min surface given volume"
+        ],
+        "right": [
+            "Circle",
+            "Circle",
+            "Sphere",
+            "Sphere"
+        ]
+    },
+    {
+        "q": "What is the ham sandwich theorem?",
+        "type": "mcq",
+        "o": [
+            "Any n measurable sets in R^n can be bisected by a single hyperplane",
+            "Sandwiches can be cut",
+            "Triangles can be bisected",
+            "Circles are symmetric"
+        ]
+    },
+    {
+        "q": "The ham sandwich theorem is a result in ______ geometry.",
+        "type": "fill_blank",
+        "answers": [
+            "combinatorial"
+        ],
+        "other_options": [
+            "Euclidean",
+            "projective",
+            "hyperbolic"
+        ]
+    },
+    {
+        "q": "Borsuk's conjecture about dividing convex sets is false in high dimensions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Helly's theorem about?",
+        "type": "mcq",
+        "o": [
+            "If convex sets pairwise intersect appropriately, they all have common intersection",
+            "Convex sets are always disjoint",
+            "All sets intersect",
+            "No sets can intersect"
+        ]
+    },
+    {
+        "q": "Rearrange combinatorial geometry theorems by abstraction:",
+        "type": "rearrange",
+        "words": [
+            "Helly's theorem",
+            "Radon's theorem",
+            "Caratheodory's theorem",
+            "Tverberg's theorem"
+        ]
+    },
+    {
+        "q": "What is Sylvester-Gallai theorem?",
+        "type": "mcq",
+        "o": [
+            "Any finite set of non-collinear points has a line through exactly two points",
+            "All points are collinear",
+            "Three points determine a plane",
+            "Points can be arbitrarily placed"
+        ]
+    },
+    {
+        "q": "The Sylvester-Gallai theorem guarantees the existence of an ______ line.",
+        "type": "fill_blank",
+        "answers": [
+            "ordinary"
+        ],
+        "other_options": [
+            "parallel",
+            "perpendicular",
+            "curved"
+        ]
+    },
+    {
+        "q": "What is the orchard planting problem?",
+        "type": "mcq",
+        "o": [
+            "Maximizing lines containing exactly 3 points",
+            "Planting trees randomly",
+            "Minimizing area",
+            "Maximizing perimeter"
+        ]
+    },
+    {
+        "q": "The orchard problem is related to ______ geometry.",
+        "type": "fill_blank",
+        "answers": [
+            "discrete"
+        ],
+        "other_options": [
+            "continuous",
+            "smooth",
+            "curved"
+        ]
+    },
+    {
+        "q": "Match the discrete geometry problem:",
+        "type": "match",
+        "left": [
+            "Sylvester-Gallai",
+            "Orchard problem",
+            "No-three-in-line",
+            "Crossing number"
+        ],
+        "right": [
+            "Ordinary lines exist",
+            "Max 3-point lines",
+            "Points on grid avoiding collinearity",
+            "Min crossings in graph drawing"
+        ]
+    },
+    {
+        "q": "What is the crossing number of a graph?",
+        "type": "mcq",
+        "o": [
+            "Minimum number of edge crossings in any drawing",
+            "Number of vertices",
+            "Number of edges",
+            "Diameter of the graph"
+        ]
+    },
+    {
+        "q": "K5 and K3,3 are the minimal non-planar graphs by ______ theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "Kuratowski's"
+        ],
+        "other_options": [
+            "Euler's",
+            "Gauss's",
+            "Fermat's"
+        ]
+    },
+    {
+        "q": "A graph is planar if and only if it contains no K5 or K3,3 subdivision.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the art gallery theorem?",
+        "type": "mcq",
+        "o": [
+            "floor(n/3) guards suffice to cover a simple n-gon",
+            "One guard covers any gallery",
+            "Guards are not needed",
+            "n guards are always needed"
+        ]
+    },
+    {
+        "q": "Rearrange visibility problems by solution complexity:",
+        "type": "rearrange",
+        "words": [
+            "Visibility from a point",
+            "Visibility polygon",
+            "Art gallery",
+            "Watchman route",
+            "Terrain guarding"
+        ]
+    },
+    {
+        "q": "What is a visibility polygon?",
+        "type": "mcq",
+        "o": [
+            "The set of all points visible from a given point",
+            "Any polygon",
+            "A convex polygon",
+            "A star polygon"
+        ]
+    },
+    {
+        "q": "The visibility polygon from a point in a simple polygon is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "star-shaped"
+        ],
+        "other_options": [
+            "convex",
+            "concave",
+            "circular"
+        ]
+    },
+    {
+        "q": "What is the shortest path problem in a polygonal domain?",
+        "type": "mcq",
+        "o": [
+            "Finding the minimum length path avoiding obstacles",
+            "Any straight line",
+            "The longest path",
+            "Random walk"
+        ]
+    },
+    {
+        "q": "Match the path problem with its algorithm:",
+        "type": "match",
+        "left": [
+            "Shortest path in polygon",
+            "Shortest path among obstacles",
+            "Geodesic on polyhedron",
+            "Watchman route"
+        ],
+        "right": [
+            "Visibility graph or funnel",
+            "Visibility graph",
+            "Unfolding",
+            "Art gallery extension"
+        ]
+    },
+    {
+        "q": "What is the Minkowski sum of two sets?",
+        "type": "mcq",
+        "o": [
+            "Set of all pairwise sums of elements from each set",
+            "Intersection of sets",
+            "Union of sets",
+            "Difference of sets"
+        ]
+    },
+    {
+        "q": "The Minkowski sum of two convex polygons is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "convex"
+        ],
+        "other_options": [
+            "concave",
+            "star-shaped",
+            "random"
+        ]
+    },
+    {
+        "q": "Minkowski sums are used in robot motion planning.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is configuration space in robotics?",
+        "type": "mcq",
+        "o": [
+            "The space of all possible robot positions/orientations",
+            "Physical space only",
+            "The workspace",
+            "A single point"
+        ]
+    },
+    {
+        "q": "Rearrange motion planning concepts:",
+        "type": "rearrange",
+        "words": [
+            "Configuration space",
+            "C-obstacles",
+            "Free space",
+            "Path planning",
+            "Motion planning"
+        ]
+    },
+    {
+        "q": "What is the Gauss map?",
+        "type": "mcq",
+        "o": [
+            "Maps surface points to unit normal vectors on a sphere",
+            "Any function",
+            "A projection",
+            "A rotation"
+        ]
+    },
+    {
+        "q": "The Gauss map relates surface curvature to area on the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "unit sphere"
+        ],
+        "other_options": [
+            "plane",
+            "cylinder",
+            "origin"
+        ]
+    },
+    {
+        "q": "What is a developable surface?",
+        "type": "mcq",
+        "o": [
+            "A surface that can be flattened without distortion",
+            "Any curved surface",
+            "Only spheres",
+            "Only planes"
+        ]
+    },
+    {
+        "q": "Cylinders and cones are developable surfaces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A sphere is not developable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the surface with its Gaussian curvature type:",
+        "type": "match",
+        "left": [
+            "Cylinder",
+            "Cone",
+            "Sphere",
+            "Hyperbolic paraboloid"
+        ],
+        "right": [
+            "Zero",
+            "Zero",
+            "Positive",
+            "Negative"
+        ]
+    },
+    {
+        "q": "What is an isometry of a surface?",
+        "type": "mcq",
+        "o": [
+            "A distance-preserving map",
+            "Any map",
+            "A scaling",
+            "A rotation only"
+        ]
+    },
+    {
+        "q": "Gaussian curvature is invariant under ______.",
+        "type": "fill_blank",
+        "answers": [
+            "isometries"
+        ],
+        "other_options": [
+            "projections",
+            "scalings",
+            "reflections"
+        ]
+    },
+    {
+        "q": "This is Gauss's Theorema Egregium.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are asymptotic curves on a surface?",
+        "type": "mcq",
+        "o": [
+            "Curves along which normal curvature vanishes",
+            "Any curves",
+            "Geodesics",
+            "Circles"
+        ]
+    },
+    {
+        "q": "Rearrange surface curves by importance:",
+        "type": "rearrange",
+        "words": [
+            "Geodesics",
+            "Lines of curvature",
+            "Asymptotic curves",
+            "Contour lines"
+        ]
+    },
+    {
+        "q": "What are lines of curvature?",
+        "type": "mcq",
+        "o": [
+            "Curves along principal curvature directions",
+            "Any curves on surface",
+            "Geodesics",
+            "Asymptotic curves"
+        ]
+    },
+    {
+        "q": "Lines of curvature are orthogonal at umbilic points.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "An umbilic point has ______ principal curvatures.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "different",
+            "zero",
+            "infinite"
+        ]
+    },
+    {
+        "q": "What is the mean curvature?",
+        "type": "mcq",
+        "o": [
+            "The average of principal curvatures",
+            "The product of curvatures",
+            "Always zero",
+            "The maximum curvature"
+        ]
+    },
+    {
+        "q": "A surface with zero mean curvature everywhere is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "minimal"
+        ],
+        "other_options": [
+            "maximal",
+            "flat",
+            "curved"
+        ]
+    },
+    {
+        "q": "Soap films form minimal surfaces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the minimal surface with its name:",
+        "type": "match",
+        "left": [
+            "Catenoid",
+            "Helicoid",
+            "Costa surface",
+            "Enneper surface"
+        ],
+        "right": [
+            "Rotated catenary",
+            "Spiral ramp",
+            "Costa's minimal surface",
+            "Enneper's surface"
+        ]
+    },
+    {
+        "q": "What is the Plateau problem?",
+        "type": "mcq",
+        "o": [
+            "Finding minimal surface spanning a given boundary curve",
+            "Maximizing area",
+            "Finding geodesics",
+            "Computing curvature"
+        ]
+    },
+    {
+        "q": "The Plateau problem is named after physicist Joseph ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Plateau"
+        ],
+        "other_options": [
+            "Euler",
+            "Gauss",
+            "Riemann"
+        ]
+    },
+    {
+        "q": "Douglas and Rado independently solved the Plateau problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange surface types by mean curvature property:",
+        "type": "rearrange",
+        "words": [
+            "Minimal (H=0)",
+            "Constant mean curvature",
+            "General surface",
+            "Umbilic surface"
+        ]
+    },
+    {
+        "q": "What is a ruled surface?",
+        "type": "mcq",
+        "o": [
+            "A surface that can be swept out by a moving line",
+            "A flat surface only",
+            "A curved surface with no lines",
+            "A sphere"
+        ]
+    },
+    {
+        "q": "The hyperboloid of one sheet is a ______ surface.",
+        "type": "fill_blank",
+        "answers": [
+            "doubly ruled"
+        ],
+        "other_options": [
+            "flat",
+            "minimal",
+            "spherical"
+        ]
+    },
+    {
+        "q": "Doubly ruled surfaces have two families of lines through each point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which quadric surfaces are ruled?",
+        "type": "mcq",
+        "o": [
+            "Hyperboloid of one sheet, hyperbolic paraboloid, cones, cylinders",
+            "Spheres and ellipsoids",
+            "Only planes",
+            "No quadrics are ruled"
+        ]
+    },
+    {
+        "q": "Match the quadric with its type:",
+        "type": "match",
+        "left": [
+            "Ellipsoid",
+            "Hyperboloid (1 sheet)",
+            "Hyperboloid (2 sheets)",
+            "Paraboloid (elliptic)"
+        ],
+        "right": [
+            "Non-ruled",
+            "Doubly ruled",
+            "Non-ruled",
+            "Non-ruled"
+        ]
+    },
+    {
+        "q": "What is a quadric surface?",
+        "type": "mcq",
+        "o": [
+            "A surface defined by a degree-2 polynomial in x, y, z",
+            "Any surface",
+            "Only spheres",
+            "Only planes"
+        ]
+    },
+    {
+        "q": "There are ______ main types of quadric surfaces.",
+        "type": "fill_blank",
+        "answers": [
+            "17"
+        ],
+        "other_options": [
+            "5",
+            "9",
+            "3"
+        ]
+    },
+    {
+        "q": "An ellipsoid has equation x^2/a^2 + y^2/b^2 + z^2/c^2 = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange quadrics by number of sheets:",
+        "type": "rearrange",
+        "words": [
+            "Point (0)",
+            "Ellipsoid (1)",
+            "Hyperboloid 1 sheet (1)",
+            "Hyperboloid 2 sheets (2)",
+            "Cone (2 nappes)"
+        ]
+    },
+    {
+        "q": "What is a parametric surface?",
+        "type": "mcq",
+        "o": [
+            "A surface defined by functions x(u,v), y(u,v), z(u,v)",
+            "A surface defined implicitly",
+            "Only planes",
+            "Only spheres"
+        ]
+    },
+    {
+        "q": "The sphere can be parametrized using ______ and longitude.",
+        "type": "fill_blank",
+        "answers": [
+            "latitude"
+        ],
+        "other_options": [
+            "x and y",
+            "radius",
+            "angle"
+        ]
+    },
+    {
+        "q": "A torus can be parametrized using two angle parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the fundamental form of a surface?",
+        "type": "mcq",
+        "o": [
+            "A quadratic form measuring lengths and angles on the surface",
+            "Any function",
+            "The surface equation",
+            "A vector"
+        ]
+    },
+    {
+        "q": "Match the fundamental form with what it measures:",
+        "type": "match",
+        "left": [
+            "First fundamental form",
+            "Second fundamental form",
+            "Third fundamental form",
+            "Shape operator"
+        ],
+        "right": [
+            "Lengths on surface",
+            "Curvature",
+            "Related to curvature",
+            "Maps tangent plane"
+        ]
+    },
+    {
+        "q": "What is the angle excess on a sphere?",
+        "type": "mcq",
+        "o": [
+            "Sum of angles minus 180 degrees, proportional to area",
+            "Always zero",
+            "Always negative",
+            "Equal to 180 degrees"
+        ]
+    },
+    {
+        "q": "On a sphere, angle excess equals Area / R^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The area of a spherical triangle can be computed from its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "angles"
+        ],
+        "other_options": [
+            "sides only",
+            "vertices",
+            "center"
+        ]
+    },
+    {
+        "q": "What is the spherical law of cosines?",
+        "type": "mcq",
+        "o": [
+            "cos(c) = cos(a)*cos(b) + sin(a)*sin(b)*cos(C)",
+            "The same as plane law of cosines",
+            "c^2 = a^2 + b^2 - 2ab*cos(C)",
+            "There is no spherical law"
+        ]
+    },
+    {
+        "q": "Rearrange spherical trigonometry formulas:",
+        "type": "rearrange",
+        "words": [
+            "Spherical law of cosines",
+            "Spherical law of sines",
+            "Napier's rules",
+            "Half-angle formulas"
+        ]
+    },
+    {
+        "q": "What makes a geometry 'non-Euclidean'?",
+        "type": "mcq",
+        "o": [
+            "The parallel postulate fails",
+            "Angles don't exist",
+            "Lines don't exist",
+            "Points don't exist"
+        ]
+    },
+    {
+        "q": "Hyperbolic geometry has ______ curvature.",
+        "type": "fill_blank",
+        "answers": [
+            "negative"
+        ],
+        "other_options": [
+            "positive",
+            "zero",
+            "undefined"
+        ]
+    },
+    {
+        "q": "The Poincare disk is a model of hyperbolic geometry.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the Poincare disk, geodesics are arcs of circles perpendicular to the boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the hyperbolic model with its boundary:",
+        "type": "match",
+        "left": [
+            "Poincare disk",
+            "Upper half-plane",
+            "Klein model",
+            "Hyperboloid model"
+        ],
+        "right": [
+            "Circle at infinity",
+            "Real line",
+            "Circle (straight lines)",
+            "Points at infinity"
+        ]
+    },
+    {
+        "q": "What is the area of an ideal hyperbolic triangle?",
+        "type": "mcq",
+        "o": [
+            "pi (constant)",
+            "Zero",
+            "Infinite",
+            "Depends on size"
+        ]
+    },
+    {
+        "q": "An ideal triangle has all vertices at ______.",
+        "type": "fill_blank",
+        "answers": [
+            "infinity"
+        ],
+        "other_options": [
+            "the origin",
+            "the center",
+            "finite points"
+        ]
+    },
+    {
+        "q": "In hyperbolic geometry, similar triangles are congruent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange hyperbolic geometry concepts:",
+        "type": "rearrange",
+        "words": [
+            "Points",
+            "Geodesics",
+            "Parallel lines",
+            "Ideal points",
+            "Horocycles"
+        ]
+    },
+    {
+        "q": "What is a horocycle?",
+        "type": "mcq",
+        "o": [
+            "A curve perpendicular to all geodesics through an ideal point",
+            "A circle",
+            "A geodesic",
+            "A straight line"
+        ]
+    },
+    {
+        "q": "Horocycles in the upper half-plane are horizontal lines or circles tangent to the boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a hypercycle (equidistant curve)?",
+        "type": "mcq",
+        "o": [
+            "A curve at constant distance from a geodesic",
+            "A geodesic",
+            "A horocycle",
+            "A circle"
+        ]
+    },
+    {
+        "q": "Match the curve in hyperbolic geometry:",
+        "type": "match",
+        "left": [
+            "Geodesic",
+            "Circle",
+            "Horocycle",
+            "Hypercycle"
+        ],
+        "right": [
+            "Straight line",
+            "Constant distance from point",
+            "Limit of circles",
+            "Constant distance from line"
+        ]
+    },
+    {
+        "q": "What is geometric measure theory?",
+        "type": "mcq",
+        "o": [
+            "Study of geometric properties of sets using measure theory",
+            "Basic geometry",
+            "Only triangles",
+            "Algebra"
+        ]
+    },
+    {
+        "q": "Hausdorff measure generalizes length, area, and volume to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractional dimensions"
+        ],
+        "other_options": [
+            "integers only",
+            "negative numbers",
+            "complex numbers"
+        ]
+    },
+    {
+        "q": "The Hausdorff dimension of the Cantor set is log(2)/log(3).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Minkowski content?",
+        "type": "mcq",
+        "o": [
+            "A measure of size using epsilon-neighborhoods",
+            "The volume",
+            "The area",
+            "The length"
+        ]
+    },
+    {
+        "q": "Rearrange dimensional concepts:",
+        "type": "rearrange",
+        "words": [
+            "Topological dimension",
+            "Hausdorff dimension",
+            "Box-counting dimension",
+            "Packing dimension"
+        ]
+    },
+    {
+        "q": "What is a convex body?",
+        "type": "mcq",
+        "o": [
+            "A compact convex set with non-empty interior",
+            "Any set",
+            "A point",
+            "An empty set"
+        ]
+    },
+    {
+        "q": "Every convex body is the intersection of its supporting ______.",
+        "type": "fill_blank",
+        "answers": [
+            "half-spaces"
+        ],
+        "other_options": [
+            "lines",
+            "planes only",
+            "points"
+        ]
+    },
+    {
+        "q": "The Brunn-Minkowski inequality relates volumes of convex bodies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is John's ellipsoid?",
+        "type": "mcq",
+        "o": [
+            "The maximum volume ellipsoid contained in a convex body",
+            "Any ellipsoid",
+            "The minimum volume ellipsoid",
+            "A sphere"
+        ]
+    },
+    {
+        "q": "Match the ellipsoid with its property:",
+        "type": "match",
+        "left": [
+            "John's ellipsoid",
+            "Lowner-John ellipsoid",
+            "Inertia ellipsoid",
+            "Steiner ellipsoid"
+        ],
+        "right": [
+            "Max volume inside",
+            "Min volume outside",
+            "Moment of inertia",
+            "Equal area"
+        ]
+    },
+    {
+        "q": "What is the mixed volume?",
+        "type": "mcq",
+        "o": [
+            "A symmetric function of n convex bodies generalizing volume",
+            "Product of volumes",
+            "Sum of volumes",
+            "Difference of volumes"
+        ]
+    },
+    {
+        "q": "Mixed volumes appear in Minkowski's inequality and the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Alexandrov-Fenchel inequality"
+        ],
+        "other_options": [
+            "Pythagorean theorem",
+            "isoperimetric inequality",
+            "Gauss-Bonnet"
+        ]
+    },
+    {
+        "q": "Rearrange convex geometry topics:",
+        "type": "rearrange",
+        "words": [
+            "Convex sets",
+            "Support function",
+            "Mixed volumes",
+            "Brunn-Minkowski",
+            "Alexandrov-Fenchel"
+        ]
+    },
+    {
+        "q": "What is a zonoid?",
+        "type": "mcq",
+        "o": [
+            "A limit of zonotopes",
+            "Any convex body",
+            "A sphere",
+            "A cube"
+        ]
+    },
+    {
+        "q": "A zonotope is a Minkowski sum of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "line segments"
+        ],
+        "other_options": [
+            "circles",
+            "spheres",
+            "triangles"
+        ]
+    },
+    {
+        "q": "Every 2D zonoid is a zonogon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Mahler's conjecture?",
+        "type": "mcq",
+        "o": [
+            "A lower bound on the volume product of a convex body and its polar",
+            "All convex bodies are spheres",
+            "Volume is always 1",
+            "Upper bound on volume"
+        ]
+    },
+    {
+        "q": "The simplex is conjectured to be the ______ for Mahler's conjecture.",
+        "type": "fill_blank",
+        "answers": [
+            "minimizer"
+        ],
+        "other_options": [
+            "maximizer",
+            "average",
+            "median"
+        ]
+    },
+    {
+        "q": "Mahler's conjecture is still open for general convex bodies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a lattice polygon?",
+        "type": "mcq",
+        "o": [
+            "A polygon with all vertices at integer coordinates",
+            "Any polygon",
+            "Only squares",
+            "Regular polygons"
+        ]
+    },
+    {
+        "q": "Match the lattice geometry result:",
+        "type": "match",
+        "left": [
+            "Pick's theorem",
+            "Minkowski's theorem",
+            "Lattice basis reduction",
+            "Ehrhart polynomial"
+        ],
+        "right": [
+            "Area from lattice points",
+            "Lattice points in convex body",
+            "LLL algorithm",
+            "Counting lattice points"
+        ]
+    },
+    {
+        "q": "The Ehrhart polynomial counts lattice points in dilated polytopes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the dual polytope?",
+        "type": "mcq",
+        "o": [
+            "A polytope whose vertices correspond to facets of the original",
+            "The same polytope",
+            "Any polytope",
+            "The interior"
+        ]
+    },
+    {
+        "q": "The dual of a dual is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "original"
+        ],
+        "other_options": [
+            "empty set",
+            "universe",
+            "dual again"
+        ]
+    },
+    {
+        "q": "Rearrange polytope concepts:",
+        "type": "rearrange",
+        "words": [
+            "Vertices",
+            "Edges",
+            "Faces",
+            "f-vector",
+            "h-vector"
+        ]
+    },
+    {
+        "q": "What is the f-vector of a polytope?",
+        "type": "mcq",
+        "o": [
+            "The vector counting faces of each dimension",
+            "The volume",
+            "The surface area",
+            "The centroid"
+        ]
+    },
+    {
+        "q": "The Dehn-Sommerville relations constrain the f-vector of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "simplicial polytopes"
+        ],
+        "other_options": [
+            "any polytope",
+            "cubes only",
+            "tetrahedra only"
+        ]
+    },
+    {
+        "q": "What is a simplicial polytope?",
+        "type": "mcq",
+        "o": [
+            "A polytope where all faces are simplices",
+            "Any polytope",
+            "Only tetrahedra",
+            "A cube"
+        ]
+    },
+    {
+        "q": "The g-theorem characterizes f-vectors of ______ polytopes.",
+        "type": "fill_blank",
+        "answers": [
+            "simplicial"
+        ],
+        "other_options": [
+            "all",
+            "cubical",
+            "random"
+        ]
+    },
+    {
+        "q": "What is the Upper Bound Theorem for polytopes?",
+        "type": "mcq",
+        "o": [
+            "Cyclic polytopes maximize the number of faces",
+            "All polytopes have same faces",
+            "Cubes have maximum faces",
+            "Simplices have maximum faces"
+        ]
+    },
+    {
+        "q": "McMullen proved the g-theorem for simplicial polytopes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the polytope result with its contributor:",
+        "type": "match",
+        "left": [
+            "Euler formula",
+            "Upper Bound Theorem",
+            "g-theorem",
+            "Steinitz theorem"
+        ],
+        "right": [
+            "Euler",
+            "McMullen",
+            "Billera-Lee, Stanley",
+            "Steinitz"
+        ]
+    },
+    {
+        "q": "What is Steinitz's theorem?",
+        "type": "mcq",
+        "o": [
+            "A graph is the 1-skeleton of a 3-polytope iff it is planar and 3-connected",
+            "All graphs are polytope graphs",
+            "Polytopes have no graphs",
+            "Only cubes have graphs"
+        ]
+    },
+    {
+        "q": "Rearrange polytope theorems by importance:",
+        "type": "rearrange",
+        "words": [
+            "Euler formula",
+            "Steinitz theorem",
+            "Upper Bound",
+            "g-theorem",
+            "Balinski theorem"
+        ]
+    },
+    {
+        "q": "What is a neighborly polytope?",
+        "type": "mcq",
+        "o": [
+            "Every set of floor(d/2) vertices forms a face",
+            "Any polytope",
+            "Only simplices",
+            "Polytopes with few faces"
+        ]
+    },
+    {
+        "q": "Cyclic polytopes are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "neighborly"
+        ],
+        "other_options": [
+            "simple",
+            "cubical",
+            "random"
+        ]
+    },
+    {
+        "q": "What is a simple polytope?",
+        "type": "mcq",
+        "o": [
+            "Each vertex is contained in exactly d edges in d dimensions",
+            "A simplicial polytope",
+            "The dual of simplicial",
+            "A cube only"
+        ]
+    },
+    {
+        "q": "Simple and simplicial are dual concepts for polytopes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the polytope type:",
+        "type": "match",
+        "left": [
+            "Simple",
+            "Simplicial",
+            "Neighborly",
+            "Cyclic"
+        ],
+        "right": [
+            "d edges at vertex",
+            "Simplex faces",
+            "Many complete faces",
+            "On moment curve"
+        ]
+    },
+    {
+        "q": "What is a centrally symmetric polytope?",
+        "type": "mcq",
+        "o": [
+            "A polytope symmetric about a center point",
+            "Any polytope",
+            "Only cubes",
+            "Only simplices"
+        ]
+    },
+    {
+        "q": "The cube is centrally symmetric.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The simplex is not centrally symmetric.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a polar polytope?",
+        "type": "mcq",
+        "o": [
+            "The dual defined using polarity with respect to a sphere",
+            "Any polytope",
+            "A vertex",
+            "An edge"
+        ]
+    },
+    {
+        "q": "Rearrange duality concepts:",
+        "type": "rearrange",
+        "words": [
+            "Dual polygon",
+            "Dual polyhedron",
+            "Polar polytope",
+            "Combinatorial dual"
+        ]
+    },
+    {
+        "q": "What is an abstract polytope?",
+        "type": "mcq",
+        "o": [
+            "A purely combinatorial generalization of polytopes",
+            "A concrete shape",
+            "Only 3D objects",
+            "A physical model"
+        ]
+    },
+    {
+        "q": "Abstract polytopes are defined by face ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lattices"
+        ],
+        "other_options": [
+            "graphs",
+            "matrices",
+            "equations"
+        ]
+    },
+    {
+        "q": "What is a regular abstract polytope?",
+        "type": "mcq",
+        "o": [
+            "An abstract polytope with maximum symmetry",
+            "Any abstract polytope",
+            "A cube only",
+            "A simplex only"
+        ]
+    },
+    {
+        "q": "Match the polytope abstraction level:",
+        "type": "match",
+        "left": [
+            "Convex polytope",
+            "Star polytope",
+            "Abstract polytope",
+            "Combinatorial type"
+        ],
+        "right": [
+            "Concrete geometry",
+            "Self-intersecting",
+            "Purely combinatorial",
+            "Graph structure"
+        ]
+    },
+    {
+        "q": "What is a Coxeter group?",
+        "type": "mcq",
+        "o": [
+            "A group generated by reflections",
+            "Any group",
+            "A symmetry of numbers",
+            "A counting group"
+        ]
+    },
+    {
+        "q": "Coxeter groups describe symmetries of regular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "polytopes"
+        ],
+        "other_options": [
+            "numbers",
+            "functions",
+            "equations"
+        ]
+    },
+    {
+        "q": "What is a Wythoff construction?",
+        "type": "mcq",
+        "o": [
+            "Constructing uniform polytopes from kaleidoscopic reflections",
+            "Any construction",
+            "Building cubes",
+            "Drawing circles"
+        ]
+    },
+    {
+        "q": "Rearrange symmetry concepts:",
+        "type": "rearrange",
+        "words": [
+            "Reflections",
+            "Rotation groups",
+            "Coxeter groups",
+            "Kaleidoscopes",
+            "Wythoff construction"
+        ]
+    },
+    {
+        "q": "What is a dissection?",
+        "type": "mcq",
+        "o": [
+            "Cutting a shape into pieces that can form another shape",
+            "Combining shapes",
+            "Drawing shapes",
+            "Measuring shapes"
+        ]
+    },
+    {
+        "q": "Equidecomposable polygons have equal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "area"
+        ],
+        "other_options": [
+            "perimeter",
+            "angles",
+            "sides"
+        ]
+    },
+    {
+        "q": "The Bolyai-Gerwien theorem says any two equal-area polygons are equidecomposable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Hilbert's third problem asks about 3D dissection equivalence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Dehn proved that cube and tetrahedron of equal volume are not equidecomposable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dissection result:",
+        "type": "match",
+        "left": [
+            "Bolyai-Gerwien",
+            "Dehn",
+            "Wallace",
+            "Sydler"
+        ],
+        "right": [
+            "Polygon equivalence",
+            "Non-equivalence in 3D",
+            "Also proved Bolyai-Gerwien",
+            "Extended Dehn's work"
+        ]
+    },
+    {
+        "q": "What is the Dehn invariant?",
+        "type": "mcq",
+        "o": [
+            "An invariant under dissection using edge lengths and dihedral angles",
+            "Volume",
+            "Surface area",
+            "Perimeter"
+        ]
+    },
+    {
+        "q": "Two polyhedra are scissors-congruent iff they have same volume and ______ invariant.",
+        "type": "fill_blank",
+        "answers": [
+            "Dehn"
+        ],
+        "other_options": [
+            "Euler",
+            "Gauss",
+            "Newton"
+        ]
+    },
+    {
+        "q": "What is a hinged dissection?",
+        "type": "mcq",
+        "o": [
+            "A dissection where pieces are connected by hinges",
+            "Any dissection",
+            "A rigid dissection",
+            "An impossible dissection"
+        ]
+    },
+    {
+        "q": "Rearrange dissection concepts by abstraction:",
+        "type": "rearrange",
+        "words": [
+            "Scissors congruence",
+            "Hinged dissection",
+            "Dehn invariant",
+            "Sydler theorem"
+        ]
+    },
+    {
+        "q": "What is the Ham-Sandwich theorem in higher dimensions?",
+        "type": "mcq",
+        "o": [
+            "n sets in R^n can be bisected by a hyperplane",
+            "Only works in 2D",
+            "Only for convex sets",
+            "Doesn't generalize"
+        ]
+    },
+    {
+        "q": "The ham sandwich theorem uses the ______ theorem in its proof.",
+        "type": "fill_blank",
+        "answers": [
+            "Borsuk-Ulam"
+        ],
+        "other_options": [
+            "Pythagorean",
+            "Mean value",
+            "Fundamental"
+        ]
+    },
+    {
+        "q": "What is the Kakeya needle problem?",
+        "type": "mcq",
+        "o": [
+            "Finding the smallest set in which a needle can be rotated 180 degrees",
+            "Threading a needle",
+            "Measuring needle length",
+            "Bending needles"
+        ]
+    },
+    {
+        "q": "The Kakeya needle problem has solutions of arbitrarily small ______.",
+        "type": "fill_blank",
+        "answers": [
+            "area"
+        ],
+        "other_options": [
+            "length",
+            "width",
+            "perimeter"
+        ]
+    },
+    {
+        "q": "Besicovitch sets have measure zero but contain unit segments in every direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the problem with its field:",
+        "type": "match",
+        "left": [
+            "Kakeya",
+            "Ham sandwich",
+            "Art gallery",
+            "Sylvester-Gallai"
+        ],
+        "right": [
+            "Geometric analysis",
+            "Algebraic topology",
+            "Computational geometry",
+            "Discrete geometry"
+        ]
+    },
+    {
+        "q": "What is an isoperimetric problem?",
+        "type": "mcq",
+        "o": [
+            "Optimizing area/volume given perimeter/surface constraints",
+            "Any geometry problem",
+            "Measuring perimeter",
+            "Counting points"
+        ]
+    },
+    {
+        "q": "Rearrange optimization problems by classical importance:",
+        "type": "rearrange",
+        "words": [
+            "Isoperimetric problem",
+            "Brachistochrone",
+            "Plateau problem",
+            "Steiner tree"
+        ]
+    },
+    {
+        "q": "What is a geometric inequality?",
+        "type": "mcq",
+        "o": [
+            "An inequality relating geometric quantities",
+            "Any equation",
+            "Only Pythagorean theorem",
+            "A formula"
+        ]
+    },
+    {
+        "q": "The triangle inequality is a fundamental ______ inequality.",
+        "type": "fill_blank",
+        "answers": [
+            "geometric"
+        ],
+        "other_options": [
+            "algebraic",
+            "calculus",
+            "topological"
+        ]
+    }
+]

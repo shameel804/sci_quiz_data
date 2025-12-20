@@ -1,0 +1,6559 @@
+[
+    {
+        "q": "What is geological engineering?",
+        "type": "mcq",
+        "o": [
+            "Application of geology to engineering problems involving rocks and soils",
+            "Only mining",
+            "Only construction",
+            "Only drilling"
+        ]
+    },
+    {
+        "q": "Geological engineers work with both natural and man-made structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geological engineering field with its focus:",
+        "type": "match",
+        "left": [
+            "Geotechnical",
+            "Mining",
+            "Petroleum",
+            "Environmental"
+        ],
+        "right": [
+            "Foundations",
+            "Extraction",
+            "Oil and gas",
+            "Remediation"
+        ]
+    },
+    {
+        "q": "The ______ is the study of soil and rock behavior for engineering purposes.",
+        "type": "fill_blank",
+        "answers": [
+            "geotechnical engineering"
+        ],
+        "other_options": [
+            "hydrology",
+            "mineralogy",
+            "petrology"
+        ]
+    },
+    {
+        "q": "What is soil mechanics?",
+        "type": "mcq",
+        "o": [
+            "Study of the physical properties and behavior of soil under stress",
+            "Only soil chemistry",
+            "Plant growth in soil",
+            "Soil color study"
+        ]
+    },
+    {
+        "q": "Arrange the soil particle sizes from largest to smallest:",
+        "type": "rearrange",
+        "words": [
+            "Gravel",
+            "Sand",
+            "Silt",
+            "Clay"
+        ]
+    },
+    {
+        "q": "Soil consists of mineral particles, water, air, and organic matter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the soil property with its measurement:",
+        "type": "match",
+        "left": [
+            "Density",
+            "Porosity",
+            "Permeability",
+            "Strength"
+        ],
+        "right": [
+            "Mass per volume",
+            "Void ratio",
+            "Water flow",
+            "Load capacity"
+        ]
+    },
+    {
+        "q": "The ______ is the ratio of void volume to total volume in soil.",
+        "type": "fill_blank",
+        "answers": [
+            "porosity"
+        ],
+        "other_options": [
+            "density",
+            "strength",
+            "moisture"
+        ]
+    },
+    {
+        "q": "What is rock mechanics?",
+        "type": "mcq",
+        "o": [
+            "Study of the mechanical behavior of rocks and rock masses",
+            "Only rock classification",
+            "Rock collection",
+            "Rock identification"
+        ]
+    },
+    {
+        "q": "Rock strength is typically greater than soil strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock property with its test:",
+        "type": "match",
+        "left": [
+            "Compressive strength",
+            "Tensile strength",
+            "Shear strength",
+            "Hardness"
+        ],
+        "right": [
+            "Uniaxial test",
+            "Brazilian test",
+            "Direct shear",
+            "Scratch test"
+        ]
+    },
+    {
+        "q": "The ______ test measures rock compressive strength.",
+        "type": "fill_blank",
+        "answers": [
+            "uniaxial compression or unconfined compression"
+        ],
+        "other_options": [
+            "tensile",
+            "shear",
+            "bending"
+        ]
+    },
+    {
+        "q": "What is a foundation?",
+        "type": "mcq",
+        "o": [
+            "The structural element that transfers building loads to the ground",
+            "Only the basement",
+            "The roof structure",
+            "Wall supports"
+        ]
+    },
+    {
+        "q": "Arrange the foundation types by depth:",
+        "type": "rearrange",
+        "words": [
+            "Shallow foundation",
+            "Mat foundation",
+            "Deep foundation",
+            "Pile foundation"
+        ]
+    },
+    {
+        "q": "The type of foundation depends on soil conditions and building loads.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the foundation type with its application:",
+        "type": "match",
+        "left": [
+            "Spread footing",
+            "Mat foundation",
+            "Pile foundation",
+            "Caisson"
+        ],
+        "right": [
+            "Light structures",
+            "Soft soils",
+            "Deep bearing",
+            "Bridge piers"
+        ]
+    },
+    {
+        "q": "The ______ foundation spreads loads over a larger area.",
+        "type": "fill_blank",
+        "answers": [
+            "spread or shallow"
+        ],
+        "other_options": [
+            "deep",
+            "pile",
+            "caisson"
+        ]
+    },
+    {
+        "q": "What is bearing capacity?",
+        "type": "mcq",
+        "o": [
+            "The maximum load a soil can support without failure",
+            "Soil color",
+            "Water content",
+            "Grain size"
+        ]
+    },
+    {
+        "q": "Bearing capacity depends on soil type, depth, and water table.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bearing capacity factor with its influence:",
+        "type": "match",
+        "left": [
+            "Cohesion",
+            "Friction angle",
+            "Surcharge",
+            "Unit weight"
+        ],
+        "right": [
+            "Nc factor",
+            "Nq factor",
+            "Overburden",
+            "Ng factor"
+        ]
+    },
+    {
+        "q": "The ______ capacity is the maximum pressure soil can withstand.",
+        "type": "fill_blank",
+        "answers": [
+            "bearing or ultimate bearing"
+        ],
+        "other_options": [
+            "tensile",
+            "shear",
+            "compressive"
+        ]
+    },
+    {
+        "q": "What is slope stability?",
+        "type": "mcq",
+        "o": [
+            "Analysis of slope resistance to failure and landslides",
+            "Flat ground only",
+            "Building height",
+            "Road width"
+        ]
+    },
+    {
+        "q": "Arrange the slope stability factors:",
+        "type": "rearrange",
+        "words": [
+            "Slope angle",
+            "Soil strength",
+            "Water content",
+            "Vegetation"
+        ]
+    },
+    {
+        "q": "Water infiltration can trigger slope failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the slope failure type with its motion:",
+        "type": "match",
+        "left": [
+            "Slide",
+            "Flow",
+            "Fall",
+            "Topple"
+        ],
+        "right": [
+            "Along surface",
+            "Fluid motion",
+            "Free fall",
+            "Rotation forward"
+        ]
+    },
+    {
+        "q": "The ______ of safety is the ratio of resisting forces to driving forces.",
+        "type": "fill_blank",
+        "answers": [
+            "factor"
+        ],
+        "other_options": [
+            "margin",
+            "coefficient",
+            "index"
+        ]
+    },
+    {
+        "q": "What is a retaining wall?",
+        "type": "mcq",
+        "o": [
+            "A structure that holds back soil and prevents slope failure",
+            "A building wall",
+            "A fence",
+            "A dam"
+        ]
+    },
+    {
+        "q": "Retaining walls must resist lateral earth pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the retaining wall type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Gravity",
+            "Cantilever",
+            "Anchored",
+            "Mechanically stabilized"
+        ],
+        "right": [
+            "Weight",
+            "Bending",
+            "Tiebacks",
+            "Reinforced soil"
+        ]
+    },
+    {
+        "q": "The ______ pressure acts on the back of retaining walls.",
+        "type": "fill_blank",
+        "answers": [
+            "lateral earth or active"
+        ],
+        "other_options": [
+            "vertical",
+            "water",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is site investigation?",
+        "type": "mcq",
+        "o": [
+            "Study of subsurface conditions before construction",
+            "Only surface survey",
+            "Building design",
+            "Cost estimation"
+        ]
+    },
+    {
+        "q": "Arrange the site investigation phases:",
+        "type": "rearrange",
+        "words": [
+            "Desk study",
+            "Site reconnaissance",
+            "Subsurface investigation",
+            "Laboratory testing"
+        ]
+    },
+    {
+        "q": "Boreholes are used to sample subsurface soils.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the investigation method with its purpose:",
+        "type": "match",
+        "left": [
+            "Borehole",
+            "CPT",
+            "SPT",
+            "Geophysics"
+        ],
+        "right": [
+            "Sampling",
+            "Continuous profile",
+            "Blow count",
+            "Non-invasive"
+        ]
+    },
+    {
+        "q": "The ______ Penetration Test measures soil resistance to a driven sampler.",
+        "type": "fill_blank",
+        "answers": [
+            "Standard or SPT"
+        ],
+        "other_options": [
+            "Cone",
+            "Dynamic",
+            "Static"
+        ]
+    },
+    {
+        "q": "What is groundwater hydrology?",
+        "type": "mcq",
+        "o": [
+            "Study of water movement and storage in underground formations",
+            "Surface water only",
+            "Ocean currents",
+            "Rainfall patterns"
+        ]
+    },
+    {
+        "q": "The water table is the upper surface of saturated groundwater.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the groundwater term with its meaning:",
+        "type": "match",
+        "left": [
+            "Aquifer",
+            "Aquitard",
+            "Water table",
+            "Artesian"
+        ],
+        "right": [
+            "Permeable layer",
+            "Low permeability",
+            "Saturation level",
+            "Pressurized"
+        ]
+    },
+    {
+        "q": "The ______ is a geological formation that transmits water readily.",
+        "type": "fill_blank",
+        "answers": [
+            "aquifer"
+        ],
+        "other_options": [
+            "aquitard",
+            "aquiclude",
+            "aquifuge"
+        ]
+    },
+    {
+        "q": "What is dewatering?",
+        "type": "mcq",
+        "o": [
+            "Removing groundwater from a construction site",
+            "Adding water",
+            "Water treatment",
+            "Irrigation"
+        ]
+    },
+    {
+        "q": "Arrange the dewatering methods:",
+        "type": "rearrange",
+        "words": [
+            "Sumps",
+            "Wellpoints",
+            "Deep wells",
+            "Cutoff walls"
+        ]
+    },
+    {
+        "q": "Dewatering is necessary when excavating below the water table.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dewatering method with its depth:",
+        "type": "match",
+        "left": [
+            "Sump pumping",
+            "Wellpoint",
+            "Deep well",
+            "Ejector well"
+        ],
+        "right": [
+            "Shallow",
+            "Medium",
+            "Deep",
+            "Low permeability"
+        ]
+    },
+    {
+        "q": "The ______ are used to lower the water table during construction.",
+        "type": "fill_blank",
+        "answers": [
+            "wellpoints or dewatering wells"
+        ],
+        "other_options": [
+            "piles",
+            "anchors",
+            "grout"
+        ]
+    },
+    {
+        "q": "What is tunneling?",
+        "type": "mcq",
+        "o": [
+            "Excavating underground passages for transport or utilities",
+            "Surface construction only",
+            "Building bridges",
+            "Road construction"
+        ]
+    },
+    {
+        "q": "Tunnel construction methods depend on ground conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the tunneling method with its ground type:",
+        "type": "match",
+        "left": [
+            "TBM",
+            "Cut and cover",
+            "NATM",
+            "Immersed tube"
+        ],
+        "right": [
+            "Variable ground",
+            "Near surface",
+            "Rock",
+            "Water crossing"
+        ]
+    },
+    {
+        "q": "The ______ Boring Machine excavates circular tunnels.",
+        "type": "fill_blank",
+        "answers": [
+            "Tunnel"
+        ],
+        "other_options": [
+            "Rock",
+            "Drill",
+            "Earth"
+        ]
+    },
+    {
+        "q": "What is dam engineering?",
+        "type": "mcq",
+        "o": [
+            "Design and construction of barriers to impound water",
+            "Only bridges",
+            "Road construction",
+            "Building design"
+        ]
+    },
+    {
+        "q": "Arrange the dam types by construction material:",
+        "type": "rearrange",
+        "words": [
+            "Earthfill",
+            "Rockfill",
+            "Concrete gravity",
+            "Arch dam"
+        ]
+    },
+    {
+        "q": "Dam safety requires monitoring seepage and settlement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dam type with its resistance mechanism:",
+        "type": "match",
+        "left": [
+            "Gravity",
+            "Arch",
+            "Buttress",
+            "Embankment"
+        ],
+        "right": [
+            "Weight",
+            "Shape transfer",
+            "Supports",
+            "Mass"
+        ]
+    },
+    {
+        "q": "The ______ dam relies on its weight to resist water pressure.",
+        "type": "fill_blank",
+        "answers": [
+            "gravity"
+        ],
+        "other_options": [
+            "arch",
+            "buttress",
+            "roller"
+        ]
+    },
+    {
+        "q": "What is grouting?",
+        "type": "mcq",
+        "o": [
+            "Injecting materials into ground to improve properties",
+            "Surface coating",
+            "Painting",
+            "Cleaning"
+        ]
+    },
+    {
+        "q": "Grouting can reduce permeability and increase strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the grout type with its application:",
+        "type": "match",
+        "left": [
+            "Cement",
+            "Chemical",
+            "Polyurethane",
+            "Microfine"
+        ],
+        "right": [
+            "Rock fractures",
+            "Fine soils",
+            "Water stopping",
+            "Fine fractures"
+        ]
+    },
+    {
+        "q": "The ______ fills voids and fractures in rock and soil.",
+        "type": "fill_blank",
+        "answers": [
+            "grout"
+        ],
+        "other_options": [
+            "cement",
+            "concrete",
+            "mortar"
+        ]
+    },
+    {
+        "q": "What is soil stabilization?",
+        "type": "mcq",
+        "o": [
+            "Improving soil engineering properties through treatment",
+            "Only soil removal",
+            "Soil testing",
+            "Soil classification"
+        ]
+    },
+    {
+        "q": "Arrange the stabilization methods:",
+        "type": "rearrange",
+        "words": [
+            "Compaction",
+            "Chemical addition",
+            "Reinforcement",
+            "Drainage"
+        ]
+    },
+    {
+        "q": "Lime and cement can stabilize clay soils.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stabilizer with its soil type:",
+        "type": "match",
+        "left": [
+            "Lime",
+            "Cement",
+            "Fly ash",
+            "Bitumen"
+        ],
+        "right": [
+            "Clay",
+            "Granular",
+            "Pozzolanic",
+            "Sandy"
+        ]
+    },
+    {
+        "q": "The ______ stabilization adds chemicals to improve soil properties.",
+        "type": "fill_blank",
+        "answers": [
+            "chemical"
+        ],
+        "other_options": [
+            "mechanical",
+            "thermal",
+            "biological"
+        ]
+    },
+    {
+        "q": "What is compaction?",
+        "type": "mcq",
+        "o": [
+            "Densification of soil by mechanical means to reduce voids",
+            "Loosening soil",
+            "Adding water",
+            "Soil testing"
+        ]
+    },
+    {
+        "q": "The Proctor test determines optimum moisture content for compaction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the compaction equipment with its soil type:",
+        "type": "match",
+        "left": [
+            "Smooth roller",
+            "Sheepsfoot",
+            "Vibratory",
+            "Pneumatic"
+        ],
+        "right": [
+            "Granular",
+            "Cohesive",
+            "Sand and gravel",
+            "Mixed soils"
+        ]
+    },
+    {
+        "q": "The ______ moisture content gives maximum dry density.",
+        "type": "fill_blank",
+        "answers": [
+            "optimum"
+        ],
+        "other_options": [
+            "maximum",
+            "minimum",
+            "average"
+        ]
+    },
+    {
+        "q": "What are piles?",
+        "type": "mcq",
+        "o": [
+            "Slender structural elements driven or drilled into ground for support",
+            "Surface foundations",
+            "Walls",
+            "Beams"
+        ]
+    },
+    {
+        "q": "Arrange the pile types by installation method:",
+        "type": "rearrange",
+        "words": [
+            "Driven",
+            "Bored",
+            "Cast-in-place",
+            "Precast"
+        ]
+    },
+    {
+        "q": "Piles transfer loads to deeper, stronger soil layers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pile type with its material:",
+        "type": "match",
+        "left": [
+            "Steel",
+            "Concrete",
+            "Timber",
+            "Composite"
+        ],
+        "right": [
+            "H-pile",
+            "Precast",
+            "Treated wood",
+            "Steel and concrete"
+        ]
+    },
+    {
+        "q": "The ______ piles are driven into the ground using a hammer.",
+        "type": "fill_blank",
+        "answers": [
+            "displacement or driven"
+        ],
+        "other_options": [
+            "bored",
+            "drilled",
+            "cast"
+        ]
+    },
+    {
+        "q": "What is consolidation?",
+        "type": "mcq",
+        "o": [
+            "Time-dependent compression of saturated soils under load",
+            "Immediate settlement",
+            "Soil expansion",
+            "Erosion"
+        ]
+    },
+    {
+        "q": "Clay soils consolidate slowly due to low permeability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the consolidation parameter with its measurement:",
+        "type": "match",
+        "left": [
+            "Compression index",
+            "Preconsolidation",
+            "Coefficient cv",
+            "Secondary compression"
+        ],
+        "right": [
+            "Slope of curve",
+            "Maximum past pressure",
+            "Rate of settlement",
+            "Creep"
+        ]
+    },
+    {
+        "q": "The ______ test measures consolidation properties of clay.",
+        "type": "fill_blank",
+        "answers": [
+            "oedometer or consolidation"
+        ],
+        "other_options": [
+            "triaxial",
+            "direct shear",
+            "unconfined"
+        ]
+    },
+    {
+        "q": "What is liquefaction?",
+        "type": "mcq",
+        "o": [
+            "Loss of soil strength due to earthquake-induced pore pressure",
+            "Soil drying",
+            "Soil freezing",
+            "Soil compaction"
+        ]
+    },
+    {
+        "q": "Arrange the liquefaction susceptibility factors:",
+        "type": "rearrange",
+        "words": [
+            "Loose sand",
+            "Saturated",
+            "Earthquake shaking",
+            "Low confining stress"
+        ]
+    },
+    {
+        "q": "Liquefaction can cause buildings to sink and structures to fail.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the liquefaction effect with its consequence:",
+        "type": "match",
+        "left": [
+            "Settlement",
+            "Lateral spread",
+            "Sand boils",
+            "Foundation failure"
+        ],
+        "right": [
+            "Sinking",
+            "Horizontal movement",
+            "Sand eruption",
+            "Tilting"
+        ]
+    },
+    {
+        "q": "The ______ resistance of soil determines its susceptibility to liquefaction.",
+        "type": "fill_blank",
+        "answers": [
+            "cyclic or liquefaction"
+        ],
+        "other_options": [
+            "tensile",
+            "compressive",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is earthquake engineering?",
+        "type": "mcq",
+        "o": [
+            "Design of structures to resist earthquake forces",
+            "Only earthquake prediction",
+            "Seismology only",
+            "Geology only"
+        ]
+    },
+    {
+        "q": "Seismic design considers earthquake magnitude, distance, and soil conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seismic concept with its meaning:",
+        "type": "match",
+        "left": [
+            "PGA",
+            "Response spectrum",
+            "Base isolation",
+            "Ductility"
+        ],
+        "right": [
+            "Peak ground acceleration",
+            "Frequency response",
+            "Decoupling",
+            "Energy absorption"
+        ]
+    },
+    {
+        "q": "The ______ design ensures structures can withstand earthquake forces.",
+        "type": "fill_blank",
+        "answers": [
+            "seismic"
+        ],
+        "other_options": [
+            "static",
+            "wind",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is mining engineering?",
+        "type": "mcq",
+        "o": [
+            "Extraction of minerals from the earth safely and economically",
+            "Only surface digging",
+            "Only oil drilling",
+            "Only construction"
+        ]
+    },
+    {
+        "q": "Arrange the mining methods by depth:",
+        "type": "rearrange",
+        "words": [
+            "Surface mining",
+            "Open pit",
+            "Underground",
+            "Deep mining"
+        ]
+    },
+    {
+        "q": "Ground control is essential for safe underground mining.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mining method with its application:",
+        "type": "match",
+        "left": [
+            "Open pit",
+            "Room and pillar",
+            "Block caving",
+            "Longwall"
+        ],
+        "right": [
+            "Large ore body",
+            "Flat deposits",
+            "Massive ore",
+            "Coal seams"
+        ]
+    },
+    {
+        "q": "The ______ mining extracts ore from the surface downward.",
+        "type": "fill_blank",
+        "answers": [
+            "open pit or surface"
+        ],
+        "other_options": [
+            "underground",
+            "deep",
+            "tunnel"
+        ]
+    },
+    {
+        "q": "Geological engineering applies earth science principles to solve engineering problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Site conditions are crucial for all geotechnical design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Understanding soil and rock behavior is fundamental to geological engineering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Unified Soil Classification System?",
+        "type": "mcq",
+        "o": [
+            "Standard system for classifying soils based on grain size and plasticity",
+            "Rock classification",
+            "Water classification",
+            "Climate classification"
+        ]
+    },
+    {
+        "q": "Arrange the USCS soil groups:",
+        "type": "rearrange",
+        "words": [
+            "Gravel (G)",
+            "Sand (S)",
+            "Silt (M)",
+            "Clay (C)",
+            "Organic (O)"
+        ]
+    },
+    {
+        "q": "The USCS uses two-letter symbols to classify soils.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the USCS symbol with its meaning:",
+        "type": "match",
+        "left": [
+            "GW",
+            "SW",
+            "ML",
+            "CH"
+        ],
+        "right": [
+            "Well-graded gravel",
+            "Well-graded sand",
+            "Low plasticity silt",
+            "High plasticity clay"
+        ]
+    },
+    {
+        "q": "The ______ Classification System is standard for engineering soil classification.",
+        "type": "fill_blank",
+        "answers": [
+            "Unified Soil or USCS"
+        ],
+        "other_options": [
+            "AASHTO",
+            "MIT",
+            "British"
+        ]
+    },
+    {
+        "q": "What is Atterberg limits?",
+        "type": "mcq",
+        "o": [
+            "Water content boundaries that define soil plasticity behavior",
+            "Strength limits",
+            "Size limits",
+            "Temperature limits"
+        ]
+    },
+    {
+        "q": "The liquid limit is the water content at which soil transitions to liquid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Atterberg limit with its test:",
+        "type": "match",
+        "left": [
+            "Liquid limit",
+            "Plastic limit",
+            "Shrinkage limit",
+            "Plasticity index"
+        ],
+        "right": [
+            "Casagrande cup",
+            "Thread rolling",
+            "Volumetric shrinkage",
+            "LL minus PL"
+        ]
+    },
+    {
+        "q": "The ______ index equals liquid limit minus plastic limit.",
+        "type": "fill_blank",
+        "answers": [
+            "plasticity"
+        ],
+        "other_options": [
+            "liquidity",
+            "shrinkage",
+            "consistency"
+        ]
+    },
+    {
+        "q": "What is effective stress?",
+        "type": "mcq",
+        "o": [
+            "Total stress minus pore water pressure, controlling soil strength",
+            "Total stress only",
+            "Water pressure only",
+            "Surface stress"
+        ]
+    },
+    {
+        "q": "Arrange the stress concepts:",
+        "type": "rearrange",
+        "words": [
+            "Total stress",
+            "Pore pressure",
+            "Effective stress",
+            "Shear stress"
+        ]
+    },
+    {
+        "q": "Soil strength and deformation depend on effective stress.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stress type with its source:",
+        "type": "match",
+        "left": [
+            "Total stress",
+            "Pore pressure",
+            "Effective stress",
+            "Neutral stress"
+        ],
+        "right": [
+            "Overburden weight",
+            "Water",
+            "Grain contact",
+            "Same as pore"
+        ]
+    },
+    {
+        "q": "The ______ stress principle states effective stress controls soil behavior.",
+        "type": "fill_blank",
+        "answers": [
+            "Terzaghi or effective"
+        ],
+        "other_options": [
+            "Mohr",
+            "Coulomb",
+            "Rankine"
+        ]
+    },
+    {
+        "q": "What is Mohr-Coulomb failure criterion?",
+        "type": "mcq",
+        "o": [
+            "Relationship between shear strength, cohesion, and friction angle",
+            "Only cohesion",
+            "Only friction",
+            "Water flow"
+        ]
+    },
+    {
+        "q": "Shear strength equals cohesion plus normal stress times tangent of friction angle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Mohr-Coulomb parameter with its meaning:",
+        "type": "match",
+        "left": [
+            "Cohesion c",
+            "Friction angle phi",
+            "Shear strength tau",
+            "Normal stress sigma"
+        ],
+        "right": [
+            "Intercept",
+            "Slope",
+            "Resistance",
+            "Perpendicular force"
+        ]
+    },
+    {
+        "q": "The ______ failure envelope defines shear strength at failure.",
+        "type": "fill_blank",
+        "answers": [
+            "Mohr-Coulomb"
+        ],
+        "other_options": [
+            "Rankine",
+            "Coulomb",
+            "Mohr only"
+        ]
+    },
+    {
+        "q": "What is the triaxial test?",
+        "type": "mcq",
+        "o": [
+            "Laboratory test measuring soil strength under controlled confining pressure",
+            "Field test only",
+            "Surface test",
+            "Water test"
+        ]
+    },
+    {
+        "q": "Arrange the triaxial test types:",
+        "type": "rearrange",
+        "words": [
+            "UU (unconsolidated undrained)",
+            "CU (consolidated undrained)",
+            "CD (consolidated drained)"
+        ]
+    },
+    {
+        "q": "Triaxial tests can measure both drained and undrained strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the triaxial test with its application:",
+        "type": "match",
+        "left": [
+            "UU",
+            "CU",
+            "CD",
+            "Extension"
+        ],
+        "right": [
+            "Quick clay",
+            "Intermediate",
+            "Long-term",
+            "Tensile zones"
+        ]
+    },
+    {
+        "q": "The ______ test applies axial load to a confined soil sample.",
+        "type": "fill_blank",
+        "answers": [
+            "triaxial"
+        ],
+        "other_options": [
+            "direct shear",
+            "unconfined",
+            "oedometer"
+        ]
+    },
+    {
+        "q": "What is Darcy's Law?",
+        "type": "mcq",
+        "o": [
+            "Relationship between groundwater flow rate and hydraulic gradient",
+            "Electric flow",
+            "Heat flow",
+            "Air flow"
+        ]
+    },
+    {
+        "q": "Flow velocity equals permeability times hydraulic gradient.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Darcy's Law term with its unit:",
+        "type": "match",
+        "left": [
+            "Permeability k",
+            "Hydraulic gradient",
+            "Flow velocity",
+            "Discharge"
+        ],
+        "right": [
+            "m/s or cm/s",
+            "Dimensionless",
+            "m/s",
+            "m3/s"
+        ]
+    },
+    {
+        "q": "The ______ coefficient describes soil's ability to transmit water.",
+        "type": "fill_blank",
+        "answers": [
+            "permeability or hydraulic conductivity"
+        ],
+        "other_options": [
+            "porosity",
+            "void ratio",
+            "saturation"
+        ]
+    },
+    {
+        "q": "What is seepage analysis?",
+        "type": "mcq",
+        "o": [
+            "Study of water flow through porous media and structures",
+            "Surface runoff only",
+            "Rainfall analysis",
+            "River flow"
+        ]
+    },
+    {
+        "q": "Arrange the seepage analysis methods:",
+        "type": "rearrange",
+        "words": [
+            "Flow nets",
+            "Finite elements",
+            "Analytical solutions",
+            "Physical models"
+        ]
+    },
+    {
+        "q": "Seepage can cause uplift pressure and erosion in dams.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seepage concept with its meaning:",
+        "type": "match",
+        "left": [
+            "Flow net",
+            "Equipotential",
+            "Flow line",
+            "Exit gradient"
+        ],
+        "right": [
+            "Graphical solution",
+            "Same head",
+            "Flow path",
+            "Piping risk"
+        ]
+    },
+    {
+        "q": "The ______ is a graphical method for solving two-dimensional seepage.",
+        "type": "fill_blank",
+        "answers": [
+            "flow net"
+        ],
+        "other_options": [
+            "finite element",
+            "analytical",
+            "numerical"
+        ]
+    },
+    {
+        "q": "What is earth pressure?",
+        "type": "mcq",
+        "o": [
+            "Lateral pressure exerted by soil on retaining structures",
+            "Vertical pressure only",
+            "Water pressure only",
+            "Air pressure"
+        ]
+    },
+    {
+        "q": "Active earth pressure is less than at-rest pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the earth pressure state with wall movement:",
+        "type": "match",
+        "left": [
+            "Active",
+            "Passive",
+            "At-rest",
+            "K0"
+        ],
+        "right": [
+            "Wall moves away",
+            "Wall moves into",
+            "No movement",
+            "Coefficient at rest"
+        ]
+    },
+    {
+        "q": "The ______ earth pressure coefficient describes lateral pressure ratio.",
+        "type": "fill_blank",
+        "answers": [
+            "Ko or at-rest"
+        ],
+        "other_options": [
+            "Ka",
+            "Kp",
+            "K1"
+        ]
+    },
+    {
+        "q": "What is the limit equilibrium method?",
+        "type": "mcq",
+        "o": [
+            "Analysis method assuming failure along a specific surface",
+            "Deformation analysis",
+            "Stress analysis",
+            "Dynamic analysis"
+        ]
+    },
+    {
+        "q": "Arrange the slope stability methods:",
+        "type": "rearrange",
+        "words": [
+            "Ordinary method",
+            "Bishop simplified",
+            "Janbu",
+            "Spencer"
+        ]
+    },
+    {
+        "q": "Limit equilibrium methods assume soil is at failure along the slip surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the slope method with its assumptions:",
+        "type": "match",
+        "left": [
+            "Ordinary",
+            "Bishop",
+            "Janbu",
+            "Spencer"
+        ],
+        "right": [
+            "No interslice forces",
+            "Horizontal interslice",
+            "Force equilibrium",
+            "Both force and moment"
+        ]
+    },
+    {
+        "q": "The ______ method is a more rigorous slope stability analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "Spencer or Morgenstern-Price"
+        ],
+        "other_options": [
+            "Ordinary",
+            "Simplified",
+            "Basic"
+        ]
+    },
+    {
+        "q": "What is rock mass classification?",
+        "type": "mcq",
+        "o": [
+            "System for rating rock quality for engineering purposes",
+            "Only rock type naming",
+            "Mineral identification",
+            "Color classification"
+        ]
+    },
+    {
+        "q": "The RQD (Rock Quality Designation) measures fracture intensity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock classification with its developer:",
+        "type": "match",
+        "left": [
+            "RMR",
+            "Q-system",
+            "GSI",
+            "RQD"
+        ],
+        "right": [
+            "Bieniawski",
+            "Barton",
+            "Hoek",
+            "Deere"
+        ]
+    },
+    {
+        "q": "The ______ system rates rock mass quality from 0.001 to 1000.",
+        "type": "fill_blank",
+        "answers": [
+            "Q or Q-system"
+        ],
+        "other_options": [
+            "RMR",
+            "GSI",
+            "RQD"
+        ]
+    },
+    {
+        "q": "What is the Rock Mass Rating system?",
+        "type": "mcq",
+        "o": [
+            "Classification system using rock strength, RQD, spacing, condition, water, and orientation",
+            "Single parameter system",
+            "Only rock type",
+            "Only strength"
+        ]
+    },
+    {
+        "q": "Arrange the RMR parameters:",
+        "type": "rearrange",
+        "words": [
+            "Strength",
+            "RQD",
+            "Joint spacing",
+            "Joint condition",
+            "Groundwater",
+            "Orientation"
+        ]
+    },
+    {
+        "q": "RMR values range from 0 to 100.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the RMR class with its description:",
+        "type": "match",
+        "left": [
+            "Class I",
+            "Class II",
+            "Class III",
+            "Class V"
+        ],
+        "right": [
+            "Very good rock",
+            "Good rock",
+            "Fair rock",
+            "Very poor rock"
+        ]
+    },
+    {
+        "q": "The ______ Rating ranges from 0 to 100 for rock quality.",
+        "type": "fill_blank",
+        "answers": [
+            "Rock Mass or RMR"
+        ],
+        "other_options": [
+            "RQD",
+            "Q-system",
+            "GSI"
+        ]
+    },
+    {
+        "q": "What is rock bolt support?",
+        "type": "mcq",
+        "o": [
+            "Steel bars installed in rock to reinforce and stabilize excavations",
+            "Concrete columns",
+            "Steel beams",
+            "Shotcrete only"
+        ]
+    },
+    {
+        "q": "Rock bolts work by tension and bonding to the rock mass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock bolt type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Mechanical",
+            "Grouted",
+            "Cable",
+            "Split set"
+        ],
+        "right": [
+            "Expansion shell",
+            "Cement or resin",
+            "High capacity",
+            "Friction"
+        ]
+    },
+    {
+        "q": "The ______ bolts are tensioned using an expansion anchor.",
+        "type": "fill_blank",
+        "answers": [
+            "mechanical or expansion"
+        ],
+        "other_options": [
+            "grouted",
+            "friction",
+            "cable"
+        ]
+    },
+    {
+        "q": "What is shotcrete?",
+        "type": "mcq",
+        "o": [
+            "Sprayed concrete used for rock and soil support",
+            "Poured concrete",
+            "Precast concrete",
+            "Asphalt"
+        ]
+    },
+    {
+        "q": "Arrange the shotcrete applications:",
+        "type": "rearrange",
+        "words": [
+            "Tunnel lining",
+            "Slope stabilization",
+            "Underground support",
+            "Structural repair"
+        ]
+    },
+    {
+        "q": "Shotcrete can be applied by dry or wet mix methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the shotcrete type with its application:",
+        "type": "match",
+        "left": [
+            "Plain",
+            "Fiber reinforced",
+            "Steel fiber",
+            "Synthetic fiber"
+        ],
+        "right": [
+            "Basic support",
+            "Crack control",
+            "High toughness",
+            "Light reinforcement"
+        ]
+    },
+    {
+        "q": "The ______ mix shotcrete is mixed before being pumped.",
+        "type": "fill_blank",
+        "answers": [
+            "wet"
+        ],
+        "other_options": [
+            "dry",
+            "slurry",
+            "paste"
+        ]
+    },
+    {
+        "q": "What is ground improvement?",
+        "type": "mcq",
+        "o": [
+            "Techniques to enhance soil engineering properties before construction",
+            "Only compaction",
+            "Building reinforcement",
+            "Surface treatment"
+        ]
+    },
+    {
+        "q": "Ground improvement reduces settlement and increases strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ground improvement method with its principle:",
+        "type": "match",
+        "left": [
+            "Dynamic compaction",
+            "Stone columns",
+            "Jet grouting",
+            "Preloading"
+        ],
+        "right": [
+            "Impact densification",
+            "Replacement",
+            "Soil-cement mix",
+            "Consolidation"
+        ]
+    },
+    {
+        "q": "The ______ compaction uses heavy weights dropped from height.",
+        "type": "fill_blank",
+        "answers": [
+            "dynamic"
+        ],
+        "other_options": [
+            "static",
+            "vibratory",
+            "roller"
+        ]
+    },
+    {
+        "q": "What is vibrocompaction?",
+        "type": "mcq",
+        "o": [
+            "Ground improvement using vibration to densify granular soils",
+            "Static compaction",
+            "Chemical treatment",
+            "Thermal treatment"
+        ]
+    },
+    {
+        "q": "Arrange the vibratory improvement methods:",
+        "type": "rearrange",
+        "words": [
+            "Vibrocompaction",
+            "Vibroreplacement",
+            "Stone columns",
+            "Sand compaction piles"
+        ]
+    },
+    {
+        "q": "Vibrocompaction is most effective in loose sands and gravels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the vibro technique with its soil type:",
+        "type": "match",
+        "left": [
+            "Vibrocompaction",
+            "Vibroreplacement",
+            "Vibrodisplacement",
+            "Vibroflotation"
+        ],
+        "right": [
+            "Clean sands",
+            "Silty soils",
+            "Soft clays",
+            "Saturated sands"
+        ]
+    },
+    {
+        "q": "The ______ method densifies loose granular soils using vibration.",
+        "type": "fill_blank",
+        "answers": [
+            "vibrocompaction or vibroflotation"
+        ],
+        "other_options": [
+            "preloading",
+            "grouting",
+            "freezing"
+        ]
+    },
+    {
+        "q": "What is ground freezing?",
+        "type": "mcq",
+        "o": [
+            "Temporary ground support by freezing pore water in soil",
+            "Permanent freezing",
+            "Heating ground",
+            "Drying ground"
+        ]
+    },
+    {
+        "q": "Ground freezing creates a frozen soil barrier for excavation support.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the freezing method with its coolant:",
+        "type": "match",
+        "left": [
+            "Brine",
+            "Liquid nitrogen",
+            "Ammonia",
+            "Freon"
+        ],
+        "right": [
+            "Slow freezing",
+            "Quick freezing",
+            "Industrial",
+            "Mechanical"
+        ]
+    },
+    {
+        "q": "The ______ freezing uses circulated cold brine for temporary support.",
+        "type": "fill_blank",
+        "answers": [
+            "ground or artificial"
+        ],
+        "other_options": [
+            "natural",
+            "permanent",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is soil nailing?",
+        "type": "mcq",
+        "o": [
+            "Installing passive steel bars to reinforce soil slopes and excavations",
+            "Rock bolting only",
+            "Pile installation",
+            "Grouting"
+        ]
+    },
+    {
+        "q": "Arrange the soil nail components:",
+        "type": "rearrange",
+        "words": [
+            "Nail bar",
+            "Grout",
+            "Facing",
+            "Drainage"
+        ]
+    },
+    {
+        "q": "Soil nails work by mobilizing tensile resistance as soil deforms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the soil nail type with its installation:",
+        "type": "match",
+        "left": [
+            "Drilled and grouted",
+            "Driven",
+            "Self-drilling",
+            "Launched"
+        ],
+        "right": [
+            "Rotary drilling",
+            "Impact driving",
+            "Hollow stem",
+            "Air pressure"
+        ]
+    },
+    {
+        "q": "The ______ nails are installed by drilling and filling with grout.",
+        "type": "fill_blank",
+        "answers": [
+            "grouted or drilled"
+        ],
+        "other_options": [
+            "driven",
+            "launched",
+            "jacked"
+        ]
+    },
+    {
+        "q": "What are geosynthetics?",
+        "type": "mcq",
+        "o": [
+            "Synthetic polymeric products used in geotechnical applications",
+            "Natural materials only",
+            "Steel products",
+            "Concrete products"
+        ]
+    },
+    {
+        "q": "Geosynthetics include geotextiles, geogrids, and geomembranes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geosynthetic with its function:",
+        "type": "match",
+        "left": [
+            "Geotextile",
+            "Geogrid",
+            "Geomembrane",
+            "Geocomposite"
+        ],
+        "right": [
+            "Separation/filtration",
+            "Reinforcement",
+            "Barrier",
+            "Multiple functions"
+        ]
+    },
+    {
+        "q": "The ______ are planar polymer sheets used as barriers.",
+        "type": "fill_blank",
+        "answers": [
+            "geomembranes"
+        ],
+        "other_options": [
+            "geotextiles",
+            "geogrids",
+            "geonets"
+        ]
+    },
+    {
+        "q": "What is mechanically stabilized earth?",
+        "type": "mcq",
+        "o": [
+            "Reinforced soil structures using layers of geosynthetics or metal strips",
+            "Unreinforced soil",
+            "Concrete walls",
+            "Stone walls"
+        ]
+    },
+    {
+        "q": "Arrange the MSE wall components:",
+        "type": "rearrange",
+        "words": [
+            "Facing",
+            "Reinforcement",
+            "Backfill",
+            "Foundation"
+        ]
+    },
+    {
+        "q": "MSE walls are more flexible than conventional retaining walls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the MSE reinforcement with its material:",
+        "type": "match",
+        "left": [
+            "Metal strips",
+            "Bar mats",
+            "Geotextile",
+            "Geogrid"
+        ],
+        "right": [
+            "Galvanized steel",
+            "Welded wire",
+            "Woven fabric",
+            "Polymer grid"
+        ]
+    },
+    {
+        "q": "The ______ Stabilized Earth combines soil and reinforcement for structures.",
+        "type": "fill_blank",
+        "answers": [
+            "Mechanically"
+        ],
+        "other_options": [
+            "Chemically",
+            "Naturally",
+            "Thermally"
+        ]
+    },
+    {
+        "q": "What is deep mixing?",
+        "type": "mcq",
+        "o": [
+            "In-situ soil improvement by mixing with binder using rotating tools",
+            "Surface mixing only",
+            "Excavation method",
+            "Drilling method"
+        ]
+    },
+    {
+        "q": "Deep mixing creates soil-cement columns for ground improvement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the deep mixing type with its method:",
+        "type": "match",
+        "left": [
+            "Wet mixing",
+            "Dry mixing",
+            "Wet jet",
+            "Mass mixing"
+        ],
+        "right": [
+            "Slurry injection",
+            "Powder injection",
+            "High pressure",
+            "Large volume"
+        ]
+    },
+    {
+        "q": "The ______ mixing injects cement slurry during mechanical mixing.",
+        "type": "fill_blank",
+        "answers": [
+            "wet"
+        ],
+        "other_options": [
+            "dry",
+            "chemical",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is jet grouting?",
+        "type": "mcq",
+        "o": [
+            "High-pressure injection of grout to erode and mix with soil",
+            "Low-pressure grouting",
+            "Surface treatment",
+            "Compaction grouting"
+        ]
+    },
+    {
+        "q": "Arrange the jet grouting systems:",
+        "type": "rearrange",
+        "words": [
+            "Single fluid",
+            "Double fluid",
+            "Triple fluid"
+        ]
+    },
+    {
+        "q": "Jet grouting can create soil-cement columns of various diameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the jet grout system with its components:",
+        "type": "match",
+        "left": [
+            "Single",
+            "Double",
+            "Triple",
+            "Super jet"
+        ],
+        "right": [
+            "Grout only",
+            "Grout and air",
+            "Grout, air, and water",
+            "Enhanced system"
+        ]
+    },
+    {
+        "q": "The ______ grouting uses high-pressure jets to erode and mix soil.",
+        "type": "fill_blank",
+        "answers": [
+            "jet"
+        ],
+        "other_options": [
+            "permeation",
+            "compaction",
+            "compensation"
+        ]
+    },
+    {
+        "q": "What is compensation grouting?",
+        "type": "mcq",
+        "o": [
+            "Grouting to counteract ground settlement during tunneling",
+            "Standard grouting",
+            "Rock grouting",
+            "Dam grouting"
+        ]
+    },
+    {
+        "q": "Compensation grouting injects grout to lift and protect structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the grouting type with its purpose:",
+        "type": "match",
+        "left": [
+            "Permeation",
+            "Compaction",
+            "Compensation",
+            "Fracture"
+        ],
+        "right": [
+            "Fill voids",
+            "Displace soil",
+            "Counteract settlement",
+            "Create lenses"
+        ]
+    },
+    {
+        "q": "The ______ grouting protects structures from tunneling settlement.",
+        "type": "fill_blank",
+        "answers": [
+            "compensation"
+        ],
+        "other_options": [
+            "permeation",
+            "compaction",
+            "fracture"
+        ]
+    },
+    {
+        "q": "What is ground anchor?",
+        "type": "mcq",
+        "o": [
+            "Tensioned element transferring load to rock or soil at depth",
+            "Surface anchor",
+            "Ship anchor",
+            "Building anchor"
+        ]
+    },
+    {
+        "q": "Arrange the ground anchor components:",
+        "type": "rearrange",
+        "words": [
+            "Anchor head",
+            "Free length",
+            "Bond length",
+            "Tendon"
+        ]
+    },
+    {
+        "q": "Ground anchors can be permanent or temporary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the anchor type with its application:",
+        "type": "match",
+        "left": [
+            "Strand",
+            "Bar",
+            "Cable",
+            "Micropile"
+        ],
+        "right": [
+            "High capacity",
+            "Lower capacity",
+            "Very high capacity",
+            "Compression anchor"
+        ]
+    },
+    {
+        "q": "The ______ length transfers anchor load to the ground.",
+        "type": "fill_blank",
+        "answers": [
+            "bond or fixed"
+        ],
+        "other_options": [
+            "free",
+            "stressing",
+            "total"
+        ]
+    },
+    {
+        "q": "What is diaphragm wall?",
+        "type": "mcq",
+        "o": [
+            "Deep reinforced concrete wall constructed in excavated trench",
+            "Surface wall",
+            "Brick wall",
+            "Timber wall"
+        ]
+    },
+    {
+        "q": "Diaphragm walls are constructed using bentonite slurry support.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the deep wall type with its construction:",
+        "type": "match",
+        "left": [
+            "Diaphragm",
+            "Secant pile",
+            "Contiguous pile",
+            "Sheet pile"
+        ],
+        "right": [
+            "Trench and concrete",
+            "Overlapping piles",
+            "Touching piles",
+            "Driven interlocking"
+        ]
+    },
+    {
+        "q": "The ______ wall is cast in place under bentonite slurry.",
+        "type": "fill_blank",
+        "answers": [
+            "diaphragm or slurry"
+        ],
+        "other_options": [
+            "sheet pile",
+            "soldier pile",
+            "timber"
+        ]
+    },
+    {
+        "q": "What is secant pile wall?",
+        "type": "mcq",
+        "o": [
+            "Retaining wall of overlapping bored piles",
+            "Non-touching piles",
+            "Steel sheet wall",
+            "Gravity wall"
+        ]
+    },
+    {
+        "q": "Arrange the pile wall types by water tightness:",
+        "type": "rearrange",
+        "words": [
+            "Contiguous",
+            "Hard/soft secant",
+            "Hard/firm secant",
+            "Hard/hard secant"
+        ]
+    },
+    {
+        "q": "Secant pile walls consist of primary and secondary piles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pile wall with its spacing:",
+        "type": "match",
+        "left": [
+            "Contiguous",
+            "Secant",
+            "Soldier pile",
+            "Sheet pile"
+        ],
+        "right": [
+            "Gaps",
+            "Overlap",
+            "Wide spacing",
+            "Continuous"
+        ]
+    },
+    {
+        "q": "The ______ pile wall has overlapping piles for water tightness.",
+        "type": "fill_blank",
+        "answers": [
+            "secant"
+        ],
+        "other_options": [
+            "contiguous",
+            "soldier",
+            "sheet"
+        ]
+    },
+    {
+        "q": "What is underpinning?",
+        "type": "mcq",
+        "o": [
+            "Extending or strengthening existing foundations",
+            "Building demolition",
+            "New construction only",
+            "Surface treatment"
+        ]
+    },
+    {
+        "q": "Underpinning may be needed when excavating near existing structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the underpinning method with its technique:",
+        "type": "match",
+        "left": [
+            "Mass concrete",
+            "Beam and base",
+            "Mini-pile",
+            "Jet grout"
+        ],
+        "right": [
+            "Traditional",
+            "Engineered",
+            "Deep transfer",
+            "Soil improvement"
+        ]
+    },
+    {
+        "q": "The ______ extends foundations to deeper bearing strata.",
+        "type": "fill_blank",
+        "answers": [
+            "underpinning"
+        ],
+        "other_options": [
+            "shoring",
+            "bracing",
+            "lifting"
+        ]
+    },
+    {
+        "q": "What is building settlement?",
+        "type": "mcq",
+        "o": [
+            "Downward movement of structures due to soil compression",
+            "Upward movement",
+            "Lateral movement",
+            "No movement"
+        ]
+    },
+    {
+        "q": "Arrange the settlement types:",
+        "type": "rearrange",
+        "words": [
+            "Immediate",
+            "Consolidation",
+            "Secondary",
+            "Total"
+        ]
+    },
+    {
+        "q": "Differential settlement can damage structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the settlement type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Immediate",
+            "Consolidation",
+            "Secondary",
+            "Elastic"
+        ],
+        "right": [
+            "Distortion",
+            "Pore pressure",
+            "Creep",
+            "Recoverable"
+        ]
+    },
+    {
+        "q": "The ______ settlement is time-dependent compression of clay.",
+        "type": "fill_blank",
+        "answers": [
+            "consolidation"
+        ],
+        "other_options": [
+            "immediate",
+            "secondary",
+            "elastic"
+        ]
+    },
+    {
+        "q": "What is pile load testing?",
+        "type": "mcq",
+        "o": [
+            "Testing piles to verify design capacity and performance",
+            "No testing needed",
+            "Visual inspection only",
+            "Calculation only"
+        ]
+    },
+    {
+        "q": "Static load tests apply load gradually and measure settlement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pile test type with its method:",
+        "type": "match",
+        "left": [
+            "Static",
+            "Dynamic",
+            "Statnamic",
+            "Integrity"
+        ],
+        "right": [
+            "Maintained load",
+            "Hammer blow",
+            "Rapid load",
+            "Sonic testing"
+        ]
+    },
+    {
+        "q": "The ______ load test applies static load to measure pile capacity.",
+        "type": "fill_blank",
+        "answers": [
+            "static or maintained"
+        ],
+        "other_options": [
+            "dynamic",
+            "rapid",
+            "quick"
+        ]
+    },
+    {
+        "q": "What is negative skin friction?",
+        "type": "mcq",
+        "o": [
+            "Downward drag on piles due to settling soil",
+            "Upward force",
+            "Lateral force",
+            "No friction"
+        ]
+    },
+    {
+        "q": "Negative skin friction increases the load on pile foundations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pile load component with its direction:",
+        "type": "match",
+        "left": [
+            "Positive friction",
+            "Negative friction",
+            "End bearing",
+            "Lateral load"
+        ],
+        "right": [
+            "Upward support",
+            "Downward drag",
+            "Tip resistance",
+            "Horizontal"
+        ]
+    },
+    {
+        "q": "The ______ friction occurs when soil settles faster than the pile.",
+        "type": "fill_blank",
+        "answers": [
+            "negative skin or downdrag"
+        ],
+        "other_options": [
+            "positive",
+            "lateral",
+            "end"
+        ]
+    },
+    {
+        "q": "What is the NATM technique?",
+        "type": "mcq",
+        "o": [
+            "Tunnel construction method using shotcrete and rock bolts with monitoring",
+            "TBM only",
+            "Cut and cover",
+            "Drill and blast only"
+        ]
+    },
+    {
+        "q": "NATM stands for New Austrian Tunneling Method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the NATM element with its purpose:",
+        "type": "match",
+        "left": [
+            "Shotcrete",
+            "Rock bolts",
+            "Lattice girders",
+            "Monitoring"
+        ],
+        "right": [
+            "Surface support",
+            "Internal reinforcement",
+            "Structural ribs",
+            "Performance tracking"
+        ]
+    },
+    {
+        "q": "The ______ Tunneling Method uses sequential excavation with monitoring.",
+        "type": "fill_blank",
+        "answers": [
+            "New Austrian or NATM"
+        ],
+        "other_options": [
+            "Traditional",
+            "Cut and cover",
+            "TBM"
+        ]
+    },
+    {
+        "q": "Geological engineering is essential for safe and economical construction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Ground conditions significantly affect construction methods and costs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Proper site investigation is critical for all geotechnical projects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is petroleum geology?",
+        "type": "mcq",
+        "o": [
+            "Study of geological conditions for oil and gas accumulation",
+            "Only rock study",
+            "Water geology",
+            "Mineral geology"
+        ]
+    },
+    {
+        "q": "Arrange the petroleum system elements:",
+        "type": "rearrange",
+        "words": [
+            "Source rock",
+            "Migration",
+            "Reservoir",
+            "Trap",
+            "Seal"
+        ]
+    },
+    {
+        "q": "Hydrocarbons migrate from source rocks to reservoirs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the petroleum element with its function:",
+        "type": "match",
+        "left": [
+            "Source rock",
+            "Reservoir",
+            "Seal",
+            "Trap"
+        ],
+        "right": [
+            "Organic matter",
+            "Porous storage",
+            "Impermeable cap",
+            "Structure"
+        ]
+    },
+    {
+        "q": "The ______ rock contains organic matter that generates hydrocarbons.",
+        "type": "fill_blank",
+        "answers": [
+            "source"
+        ],
+        "other_options": [
+            "reservoir",
+            "seal",
+            "cap"
+        ]
+    },
+    {
+        "q": "What is reservoir engineering?",
+        "type": "mcq",
+        "o": [
+            "Management of underground hydrocarbon reservoirs for optimal recovery",
+            "Surface storage only",
+            "Pipeline engineering",
+            "Refinery engineering"
+        ]
+    },
+    {
+        "q": "Reservoir porosity and permeability control fluid storage and flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the reservoir property with its measurement:",
+        "type": "match",
+        "left": [
+            "Porosity",
+            "Permeability",
+            "Saturation",
+            "Pressure"
+        ],
+        "right": [
+            "Void fraction",
+            "Flow capacity",
+            "Fluid content",
+            "Drive energy"
+        ]
+    },
+    {
+        "q": "The ______ describes the reservoir's ability to transmit fluids.",
+        "type": "fill_blank",
+        "answers": [
+            "permeability"
+        ],
+        "other_options": [
+            "porosity",
+            "saturation",
+            "pressure"
+        ]
+    },
+    {
+        "q": "What is drilling engineering?",
+        "type": "mcq",
+        "o": [
+            "Design and operation of systems to drill wells for oil and gas",
+            "Surface excavation only",
+            "Mining only",
+            "Tunneling only"
+        ]
+    },
+    {
+        "q": "Arrange the drilling components:",
+        "type": "rearrange",
+        "words": [
+            "Drill bit",
+            "Drill string",
+            "Mud system",
+            "Blowout preventer"
+        ]
+    },
+    {
+        "q": "Drilling mud cools the bit and carries cuttings to surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the drilling component with its function:",
+        "type": "match",
+        "left": [
+            "Drill bit",
+            "Mud",
+            "Casing",
+            "BOP"
+        ],
+        "right": [
+            "Rock cutting",
+            "Circulation",
+            "Well support",
+            "Pressure control"
+        ]
+    },
+    {
+        "q": "The ______ preventer controls well pressure during drilling.",
+        "type": "fill_blank",
+        "answers": [
+            "blowout"
+        ],
+        "other_options": [
+            "pressure",
+            "flow",
+            "gas"
+        ]
+    },
+    {
+        "q": "What is well completion?",
+        "type": "mcq",
+        "o": [
+            "Process of preparing a drilled well for production",
+            "Drilling only",
+            "Exploration only",
+            "Abandonment only"
+        ]
+    },
+    {
+        "q": "Casing and cementing protect the well and isolate formations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the completion type with its method:",
+        "type": "match",
+        "left": [
+            "Open hole",
+            "Cased hole",
+            "Gravel pack",
+            "Frac pack"
+        ],
+        "right": [
+            "No casing",
+            "Perforated casing",
+            "Sand control",
+            "Stimulation"
+        ]
+    },
+    {
+        "q": "The ______ completion perforates casing to access the reservoir.",
+        "type": "fill_blank",
+        "answers": [
+            "cased hole"
+        ],
+        "other_options": [
+            "open hole",
+            "barefoot",
+            "unlined"
+        ]
+    },
+    {
+        "q": "What is hydraulic fracturing?",
+        "type": "mcq",
+        "o": [
+            "Stimulation technique using high-pressure fluid to fracture rock",
+            "Chemical treatment only",
+            "Thermal treatment",
+            "Mechanical excavation"
+        ]
+    },
+    {
+        "q": "Arrange the hydraulic fracturing stages:",
+        "type": "rearrange",
+        "words": [
+            "Pad stage",
+            "Slurry stage",
+            "Flush stage",
+            "Flowback"
+        ]
+    },
+    {
+        "q": "Proppant keeps fractures open after pressure is released.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the frac component with its purpose:",
+        "type": "match",
+        "left": [
+            "Pad fluid",
+            "Proppant",
+            "Breaker",
+            "Diverter"
+        ],
+        "right": [
+            "Initiate fracture",
+            "Keep open",
+            "Break gel",
+            "Direct flow"
+        ]
+    },
+    {
+        "q": "The ______ holds fractures open to allow hydrocarbon flow.",
+        "type": "fill_blank",
+        "answers": [
+            "proppant"
+        ],
+        "other_options": [
+            "gel",
+            "fluid",
+            "breaker"
+        ]
+    },
+    {
+        "q": "What is enhanced oil recovery?",
+        "type": "mcq",
+        "o": [
+            "Techniques to increase oil extraction beyond primary and secondary methods",
+            "Primary recovery only",
+            "No enhancement",
+            "Water flooding only"
+        ]
+    },
+    {
+        "q": "EOR methods include thermal, chemical, and gas injection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the EOR method with its mechanism:",
+        "type": "match",
+        "left": [
+            "Steam injection",
+            "CO2 flooding",
+            "Polymer flooding",
+            "Surfactant"
+        ],
+        "right": [
+            "Reduce viscosity",
+            "Miscibility",
+            "Mobility control",
+            "Reduce tension"
+        ]
+    },
+    {
+        "q": "The ______ oil recovery uses advanced techniques after water flooding.",
+        "type": "fill_blank",
+        "answers": [
+            "enhanced or tertiary"
+        ],
+        "other_options": [
+            "primary",
+            "secondary",
+            "natural"
+        ]
+    },
+    {
+        "q": "What is environmental geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Application of geotechnical principles to environmental problems",
+            "Only soil testing",
+            "Only construction",
+            "Only mining"
+        ]
+    },
+    {
+        "q": "Arrange the environmental geotechnics applications:",
+        "type": "rearrange",
+        "words": [
+            "Landfill design",
+            "Contaminated site remediation",
+            "Waste containment",
+            "Erosion control"
+        ]
+    },
+    {
+        "q": "Geomembranes serve as barriers in waste containment systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the environmental application with its geotechnical solution:",
+        "type": "match",
+        "left": [
+            "Landfill",
+            "Contamination",
+            "Erosion",
+            "Slope failure"
+        ],
+        "right": [
+            "Liner system",
+            "Barrier wall",
+            "Geotextile",
+            "Stabilization"
+        ]
+    },
+    {
+        "q": "The ______ geotechnics addresses waste and contamination issues.",
+        "type": "fill_blank",
+        "answers": [
+            "environmental"
+        ],
+        "other_options": [
+            "construction",
+            "mining",
+            "petroleum"
+        ]
+    },
+    {
+        "q": "What is landfill engineering?",
+        "type": "mcq",
+        "o": [
+            "Design and construction of waste disposal facilities",
+            "Only incineration",
+            "Only recycling",
+            "Only composting"
+        ]
+    },
+    {
+        "q": "Modern landfills have liner and leachate collection systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the landfill component with its function:",
+        "type": "match",
+        "left": [
+            "Liner",
+            "Leachate collection",
+            "Gas collection",
+            "Final cover"
+        ],
+        "right": [
+            "Prevent leakage",
+            "Remove liquid",
+            "Capture methane",
+            "Close site"
+        ]
+    },
+    {
+        "q": "The ______ system prevents contaminated water from escaping landfills.",
+        "type": "fill_blank",
+        "answers": [
+            "liner"
+        ],
+        "other_options": [
+            "cover",
+            "cap",
+            "barrier"
+        ]
+    },
+    {
+        "q": "What is contaminated site remediation?",
+        "type": "mcq",
+        "o": [
+            "Cleaning up polluted soil and groundwater to reduce health risks",
+            "Only monitoring",
+            "No treatment",
+            "Contamination spreading"
+        ]
+    },
+    {
+        "q": "Arrange the remediation approaches:",
+        "type": "rearrange",
+        "words": [
+            "Source removal",
+            "Containment",
+            "In-situ treatment",
+            "Monitored natural attenuation"
+        ]
+    },
+    {
+        "q": "Pump and treat removes contaminated groundwater for treatment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the remediation method with its mechanism:",
+        "type": "match",
+        "left": [
+            "Excavation",
+            "Pump and treat",
+            "Bioremediation",
+            "Chemical oxidation"
+        ],
+        "right": [
+            "Physical removal",
+            "Groundwater extraction",
+            "Microbial degradation",
+            "Destroy contaminants"
+        ]
+    },
+    {
+        "q": "The ______ remediation uses microorganisms to break down contaminants.",
+        "type": "fill_blank",
+        "answers": [
+            "bioremediation"
+        ],
+        "other_options": [
+            "chemical",
+            "thermal",
+            "physical"
+        ]
+    },
+    {
+        "q": "What is containment barrier?",
+        "type": "mcq",
+        "o": [
+            "Subsurface wall to prevent contaminant migration",
+            "Surface fence",
+            "Building wall",
+            "Road barrier"
+        ]
+    },
+    {
+        "q": "Slurry walls can contain groundwater contamination.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the barrier type with its material:",
+        "type": "match",
+        "left": [
+            "Slurry wall",
+            "Sheet pile",
+            "Jet grout",
+            "Frozen soil"
+        ],
+        "right": [
+            "Bentonite-cement",
+            "Steel",
+            "Soil-cement",
+            "Ice"
+        ]
+    },
+    {
+        "q": "The ______ barrier prevents horizontal groundwater and contaminant flow.",
+        "type": "fill_blank",
+        "answers": [
+            "vertical or cutoff"
+        ],
+        "other_options": [
+            "horizontal",
+            "surface",
+            "cap"
+        ]
+    },
+    {
+        "q": "What is geotechnical instrumentation?",
+        "type": "mcq",
+        "o": [
+            "Devices for measuring ground behavior and structure performance",
+            "Only visual observation",
+            "No measurements",
+            "Calculation only"
+        ]
+    },
+    {
+        "q": "Arrange the instrumentation parameters:",
+        "type": "rearrange",
+        "words": [
+            "Displacement",
+            "Stress",
+            "Pore pressure",
+            "Vibration"
+        ]
+    },
+    {
+        "q": "Piezometers measure pore water pressure in soil.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the instrument with its measurement:",
+        "type": "match",
+        "left": [
+            "Inclinometer",
+            "Piezometer",
+            "Extensometer",
+            "Load cell"
+        ],
+        "right": [
+            "Lateral movement",
+            "Water pressure",
+            "Elongation",
+            "Force"
+        ]
+    },
+    {
+        "q": "The ______ measures horizontal ground movement with depth.",
+        "type": "fill_blank",
+        "answers": [
+            "inclinometer"
+        ],
+        "other_options": [
+            "piezometer",
+            "extensometer",
+            "settlement plate"
+        ]
+    },
+    {
+        "q": "What is numerical modeling in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Computer simulation of soil and rock behavior under various conditions",
+            "Only hand calculations",
+            "No modeling needed",
+            "Physical testing only"
+        ]
+    },
+    {
+        "q": "Finite element and finite difference methods are common in geotechnics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the numerical method with its application:",
+        "type": "match",
+        "left": [
+            "FEM",
+            "FDM",
+            "DEM",
+            "BEM"
+        ],
+        "right": [
+            "Complex geometry",
+            "Flow problems",
+            "Granular materials",
+            "Infinite domain"
+        ]
+    },
+    {
+        "q": "The ______ element method discretizes soil into elements for analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "boundary",
+            "discrete",
+            "distinct"
+        ]
+    },
+    {
+        "q": "What is constitutive modeling?",
+        "type": "mcq",
+        "o": [
+            "Mathematical description of soil stress-strain behavior",
+            "Only classification",
+            "No modeling",
+            "Visual description"
+        ]
+    },
+    {
+        "q": "Arrange the soil models by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Linear elastic",
+            "Mohr-Coulomb",
+            "Hardening soil",
+            "Hypoplastic"
+        ]
+    },
+    {
+        "q": "Different soil behaviors require different constitutive models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the soil model with its characteristic:",
+        "type": "match",
+        "left": [
+            "Elastic",
+            "Mohr-Coulomb",
+            "Cam-clay",
+            "Hardening soil"
+        ],
+        "right": [
+            "Linear",
+            "Failure criterion",
+            "Critical state",
+            "Stiffness variation"
+        ]
+    },
+    {
+        "q": "The ______ model describes soil stress-strain relationship.",
+        "type": "fill_blank",
+        "answers": [
+            "constitutive"
+        ],
+        "other_options": [
+            "empirical",
+            "descriptive",
+            "analytical"
+        ]
+    },
+    {
+        "q": "What is risk assessment in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Systematic evaluation of potential hazards and their consequences",
+            "No risk consideration",
+            "Only cost analysis",
+            "Only safety factors"
+        ]
+    },
+    {
+        "q": "Risk equals probability times consequence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the risk component with its evaluation:",
+        "type": "match",
+        "left": [
+            "Hazard",
+            "Probability",
+            "Consequence",
+            "Vulnerability"
+        ],
+        "right": [
+            "Potential event",
+            "Likelihood",
+            "Impact",
+            "Susceptibility"
+        ]
+    },
+    {
+        "q": "The ______ assessment evaluates likelihood and impact of failures.",
+        "type": "fill_blank",
+        "answers": [
+            "risk"
+        ],
+        "other_options": [
+            "safety",
+            "design",
+            "quality"
+        ]
+    },
+    {
+        "q": "What is reliability-based design?",
+        "type": "mcq",
+        "o": [
+            "Design approach considering uncertainty and probability of failure",
+            "Only deterministic design",
+            "No uncertainty considered",
+            "Fixed factors only"
+        ]
+    },
+    {
+        "q": "Arrange the design philosophies:",
+        "type": "rearrange",
+        "words": [
+            "Allowable stress",
+            "Load factor",
+            "Limit state",
+            "Reliability-based"
+        ]
+    },
+    {
+        "q": "Reliability design accounts for variability in soil properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the design approach with its basis:",
+        "type": "match",
+        "left": [
+            "ASD",
+            "LRFD",
+            "Eurocode",
+            "Probability"
+        ],
+        "right": [
+            "Working stress",
+            "Load-resistance",
+            "Partial factors",
+            "Reliability index"
+        ]
+    },
+    {
+        "q": "The ______ index measures reliability against failure.",
+        "type": "fill_blank",
+        "answers": [
+            "reliability or beta"
+        ],
+        "other_options": [
+            "safety",
+            "resistance",
+            "load"
+        ]
+    },
+    {
+        "q": "What is offshore geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Geotechnical engineering for marine and offshore structures",
+            "Only onshore work",
+            "Only river work",
+            "Only lake work"
+        ]
+    },
+    {
+        "q": "Offshore foundations face wave, current, and seabed challenges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the offshore foundation with its application:",
+        "type": "match",
+        "left": [
+            "Gravity base",
+            "Jacket",
+            "Monopile",
+            "Floating"
+        ],
+        "right": [
+            "Heavy structures",
+            "Fixed platform",
+            "Wind turbine",
+            "Deep water"
+        ]
+    },
+    {
+        "q": "The ______ geotechnics addresses marine foundation challenges.",
+        "type": "fill_blank",
+        "answers": [
+            "offshore"
+        ],
+        "other_options": [
+            "onshore",
+            "inland",
+            "terrestrial"
+        ]
+    },
+    {
+        "q": "What is submarine cable and pipeline installation?",
+        "type": "mcq",
+        "o": [
+            "Laying cables and pipes on or in the seabed",
+            "Only onshore installation",
+            "Aerial installation",
+            "Underground only"
+        ]
+    },
+    {
+        "q": "Arrange the pipeline protection methods:",
+        "type": "rearrange",
+        "words": [
+            "Burial",
+            "Rock dumping",
+            "Concrete mattress",
+            "Trenching"
+        ]
+    },
+    {
+        "q": "Seabed conditions affect cable and pipeline route selection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the protection method with its purpose:",
+        "type": "match",
+        "left": [
+            "Trenching",
+            "Rock armor",
+            "Mattress",
+            "Burial"
+        ],
+        "right": [
+            "Physical protection",
+            "Scour protection",
+            "Stability",
+            "Anchor protection"
+        ]
+    },
+    {
+        "q": "The ______ cables and pipelines require seabed route engineering.",
+        "type": "fill_blank",
+        "answers": [
+            "submarine or subsea"
+        ],
+        "other_options": [
+            "aerial",
+            "surface",
+            "overhead"
+        ]
+    },
+    {
+        "q": "What is earthquake-induced landslides?",
+        "type": "mcq",
+        "o": [
+            "Slope failures triggered by seismic shaking",
+            "Only rainfall-induced",
+            "No seismic effects",
+            "Human-induced only"
+        ]
+    },
+    {
+        "q": "Newmark method estimates earthquake-induced slope displacement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seismic slope analysis with its method:",
+        "type": "match",
+        "left": [
+            "Pseudostatic",
+            "Newmark",
+            "Stress-deformation",
+            "Empirical"
+        ],
+        "right": [
+            "Static equivalent",
+            "Displacement",
+            "Dynamic FEM",
+            "Historical data"
+        ]
+    },
+    {
+        "q": "The ______ analysis uses static forces to represent earthquake loading.",
+        "type": "fill_blank",
+        "answers": [
+            "pseudostatic"
+        ],
+        "other_options": [
+            "dynamic",
+            "displacement",
+            "deformation"
+        ]
+    },
+    {
+        "q": "What is ground response analysis?",
+        "type": "mcq",
+        "o": [
+            "Study of how soil layers modify earthquake ground motions",
+            "Only rock response",
+            "No site effects",
+            "Surface response only"
+        ]
+    },
+    {
+        "q": "Arrange the ground response factors:",
+        "type": "rearrange",
+        "words": [
+            "Soil layer thickness",
+            "Shear wave velocity",
+            "Damping",
+            "Input motion"
+        ]
+    },
+    {
+        "q": "Soft soils can amplify earthquake ground motions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the site effect with its characteristic:",
+        "type": "match",
+        "left": [
+            "Amplification",
+            "Resonance",
+            "Liquefaction",
+            "Basin effect"
+        ],
+        "right": [
+            "Increased motion",
+            "Frequency match",
+            "Strength loss",
+            "Wave trapping"
+        ]
+    },
+    {
+        "q": "The ______ response analysis evaluates soil effects on earthquake motion.",
+        "type": "fill_blank",
+        "answers": [
+            "ground or site"
+        ],
+        "other_options": [
+            "structure",
+            "building",
+            "surface"
+        ]
+    },
+    {
+        "q": "What is soil-structure interaction?",
+        "type": "mcq",
+        "o": [
+            "Mutual influence between foundation soil and structure during loading",
+            "No interaction",
+            "Structure alone",
+            "Soil alone"
+        ]
+    },
+    {
+        "q": "SSI can affect both structure response and foundation design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the SSI effect with its mechanism:",
+        "type": "match",
+        "left": [
+            "Kinematic",
+            "Inertial",
+            "Foundation rocking",
+            "Period lengthening"
+        ],
+        "right": [
+            "Wave modification",
+            "Structure feedback",
+            "Rotation",
+            "Flexibility increase"
+        ]
+    },
+    {
+        "q": "The ______ interaction considers mutual effects of soil and structure.",
+        "type": "fill_blank",
+        "answers": [
+            "soil-structure"
+        ],
+        "other_options": [
+            "soil-water",
+            "structure-structure",
+            "rock-structure"
+        ]
+    },
+    {
+        "q": "What is geotechnical earthquake engineering?",
+        "type": "mcq",
+        "o": [
+            "Application of earthquake engineering principles to soil and foundation problems",
+            "Only building engineering",
+            "Only seismology",
+            "Only geology"
+        ]
+    },
+    {
+        "q": "Arrange the geotechnical earthquake topics:",
+        "type": "rearrange",
+        "words": [
+            "Site characterization",
+            "Ground response",
+            "Liquefaction",
+            "Slope stability"
+        ]
+    },
+    {
+        "q": "Geotechnical earthquake engineering addresses ground failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seismic hazard with its geotechnical effect:",
+        "type": "match",
+        "left": [
+            "Ground shaking",
+            "Liquefaction",
+            "Landslide",
+            "Fault rupture"
+        ],
+        "right": [
+            "Amplification",
+            "Strength loss",
+            "Mass movement",
+            "Ground offset"
+        ]
+    },
+    {
+        "q": "The ______ earthquake engineering addresses soil and foundation response.",
+        "type": "fill_blank",
+        "answers": [
+            "geotechnical"
+        ],
+        "other_options": [
+            "structural",
+            "architectural",
+            "mechanical"
+        ]
+    },
+    {
+        "q": "What is permafrost engineering?",
+        "type": "mcq",
+        "o": [
+            "Construction in permanently frozen ground conditions",
+            "Tropical engineering",
+            "Desert engineering",
+            "Only cold weather"
+        ]
+    },
+    {
+        "q": "Permafrost thaw can cause settlement and foundation problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the permafrost solution with its method:",
+        "type": "match",
+        "left": [
+            "Thermosyphon",
+            "Insulation",
+            "Pile foundation",
+            "Ventilated pad"
+        ],
+        "right": [
+            "Heat extraction",
+            "Thermal barrier",
+            "Elevated structure",
+            "Air cooling"
+        ]
+    },
+    {
+        "q": "The ______ engineering addresses frozen ground construction challenges.",
+        "type": "fill_blank",
+        "answers": [
+            "permafrost or cold regions"
+        ],
+        "other_options": [
+            "tropical",
+            "arid",
+            "temperate"
+        ]
+    },
+    {
+        "q": "What is tailings dam engineering?",
+        "type": "mcq",
+        "o": [
+            "Design and management of dams storing mine waste",
+            "Only water dams",
+            "Only concrete dams",
+            "Only natural lakes"
+        ]
+    },
+    {
+        "q": "Arrange the tailings dam failure modes:",
+        "type": "rearrange",
+        "words": [
+            "Overtopping",
+            "Slope failure",
+            "Foundation failure",
+            "Seepage erosion"
+        ]
+    },
+    {
+        "q": "Tailings dams require ongoing monitoring and management.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the tailings dam type with its construction:",
+        "type": "match",
+        "left": [
+            "Upstream",
+            "Downstream",
+            "Centerline",
+            "Filtered tailings"
+        ],
+        "right": [
+            "Built on tailings",
+            "Built on starter dam",
+            "Combination",
+            "Dry stack"
+        ]
+    },
+    {
+        "q": "The ______ dams store mine waste and require careful design.",
+        "type": "fill_blank",
+        "answers": [
+            "tailings"
+        ],
+        "other_options": [
+            "water",
+            "concrete",
+            "hydroelectric"
+        ]
+    },
+    {
+        "q": "What is rockfill dam construction?",
+        "type": "mcq",
+        "o": [
+            "Building dams using compacted rock materials",
+            "Only concrete dams",
+            "Only earth dams",
+            "Only steel dams"
+        ]
+    },
+    {
+        "q": "Rockfill dams can be faced with concrete or asphaltic material.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rockfill dam face with its material:",
+        "type": "match",
+        "left": [
+            "CFRD",
+            "AFRD",
+            "Earth core",
+            "Clay core"
+        ],
+        "right": [
+            "Concrete face",
+            "Asphalt face",
+            "Central core",
+            "Impermeable core"
+        ]
+    },
+    {
+        "q": "The ______ faced rockfill dam uses concrete as waterproofing.",
+        "type": "fill_blank",
+        "answers": [
+            "concrete"
+        ],
+        "other_options": [
+            "asphalt",
+            "earth",
+            "clay"
+        ]
+    },
+    {
+        "q": "What is underground space development?",
+        "type": "mcq",
+        "o": [
+            "Creation and use of subsurface space for various purposes",
+            "Only mining",
+            "Only tunnels",
+            "Only basements"
+        ]
+    },
+    {
+        "q": "Arrange the underground space uses:",
+        "type": "rearrange",
+        "words": [
+            "Transportation",
+            "Storage",
+            "Utilities",
+            "Commercial"
+        ]
+    },
+    {
+        "q": "Underground development can reduce surface land use pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the underground use with its application:",
+        "type": "match",
+        "left": [
+            "Metro",
+            "Cavern",
+            "Utility tunnel",
+            "Underground mall"
+        ],
+        "right": [
+            "Transit",
+            "Storage",
+            "Services",
+            "Commercial"
+        ]
+    },
+    {
+        "q": "The ______ space development utilizes subsurface areas.",
+        "type": "fill_blank",
+        "answers": [
+            "underground"
+        ],
+        "other_options": [
+            "surface",
+            "aerial",
+            "elevated"
+        ]
+    },
+    {
+        "q": "What is rock blasting design?",
+        "type": "mcq",
+        "o": [
+            "Planning explosive use for rock excavation",
+            "Only chemical breaking",
+            "Mechanical only",
+            "No explosives"
+        ]
+    },
+    {
+        "q": "Controlled blasting minimizes vibration and damage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the blasting parameter with its control:",
+        "type": "match",
+        "left": [
+            "Charge weight",
+            "Delay timing",
+            "Hole pattern",
+            "Stemming"
+        ],
+        "right": [
+            "Vibration level",
+            "Fragmentation",
+            "Rock breakage",
+            "Energy confinement"
+        ]
+    },
+    {
+        "q": "The ______ blasting limits vibration impacts on structures.",
+        "type": "fill_blank",
+        "answers": [
+            "controlled or precision"
+        ],
+        "other_options": [
+            "uncontrolled",
+            "bulk",
+            "production"
+        ]
+    },
+    {
+        "q": "What is mine backfill?",
+        "type": "mcq",
+        "o": [
+            "Material placed in mined voids to provide ground support",
+            "Surface filling only",
+            "No void filling",
+            "Building material"
+        ]
+    },
+    {
+        "q": "Arrange the backfill types:",
+        "type": "rearrange",
+        "words": [
+            "Rock fill",
+            "Hydraulic fill",
+            "Paste fill",
+            "Cemented fill"
+        ]
+    },
+    {
+        "q": "Cemented backfill provides structural support in underground mining.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the backfill type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Paste",
+            "Hydraulic",
+            "Rock",
+            "Cemented"
+        ],
+        "right": [
+            "High density",
+            "Slurry transport",
+            "Coarse material",
+            "Strength development"
+        ]
+    },
+    {
+        "q": "The ______ fill provides ground support in underground mines.",
+        "type": "fill_blank",
+        "answers": [
+            "backfill or mine"
+        ],
+        "other_options": [
+            "surface",
+            "topsoil",
+            "cover"
+        ]
+    },
+    {
+        "q": "What is slope monitoring?",
+        "type": "mcq",
+        "o": [
+            "Measuring slope movement and conditions to detect instability",
+            "No monitoring needed",
+            "Visual inspection only",
+            "Annual check only"
+        ]
+    },
+    {
+        "q": "Real-time monitoring can provide early warning of slope failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the monitoring method with its parameter:",
+        "type": "match",
+        "left": [
+            "Survey",
+            "Inclinometer",
+            "Piezometer",
+            "Extensometer"
+        ],
+        "right": [
+            "Surface movement",
+            "Subsurface movement",
+            "Water pressure",
+            "Crack opening"
+        ]
+    },
+    {
+        "q": "The ______ monitoring detects slope movement before failure.",
+        "type": "fill_blank",
+        "answers": [
+            "slope or geotechnical"
+        ],
+        "other_options": [
+            "weather",
+            "traffic",
+            "building"
+        ]
+    },
+    {
+        "q": "What is ground subsidence?",
+        "type": "mcq",
+        "o": [
+            "Downward ground movement due to underground extraction or natural processes",
+            "Upward movement",
+            "Lateral movement",
+            "No movement"
+        ]
+    },
+    {
+        "q": "Arrange the subsidence causes:",
+        "type": "rearrange",
+        "words": [
+            "Mining",
+            "Groundwater withdrawal",
+            "Natural dissolution",
+            "Underground construction"
+        ]
+    },
+    {
+        "q": "Groundwater pumping can cause land subsidence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the subsidence cause with its mechanism:",
+        "type": "match",
+        "left": [
+            "Mining",
+            "Pumping",
+            "Karst",
+            "Tunneling"
+        ],
+        "right": [
+            "Void collapse",
+            "Compaction",
+            "Dissolution",
+            "Stress relief"
+        ]
+    },
+    {
+        "q": "The ______ is ground surface lowering due to underground changes.",
+        "type": "fill_blank",
+        "answers": [
+            "subsidence"
+        ],
+        "other_options": [
+            "uplift",
+            "heave",
+            "swelling"
+        ]
+    },
+    {
+        "q": "Geological engineering requires integration of multiple disciplines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Field experience is essential for good geotechnical judgment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Safety is the primary concern in all geological engineering projects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Environmental considerations are integral to modern geological engineering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Geological engineering continues to advance with new technologies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the critical state soil mechanics?",
+        "type": "mcq",
+        "o": [
+            "Framework describing soil behavior at large strains",
+            "Small strain theory",
+            "Elastic theory only",
+            "Linear analysis"
+        ]
+    },
+    {
+        "q": "At critical state, soil deforms at constant volume and stress.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the critical state parameter with its meaning:",
+        "type": "match",
+        "left": [
+            "Critical state line",
+            "Void ratio",
+            "State parameter",
+            "Overconsolidation ratio"
+        ],
+        "right": [
+            "Failure locus",
+            "Volume state",
+            "Distance from CSL",
+            "Stress history"
+        ]
+    },
+    {
+        "q": "The ______ state is reached when soil deforms at constant stress and volume.",
+        "type": "fill_blank",
+        "answers": [
+            "critical"
+        ],
+        "other_options": [
+            "elastic",
+            "initial",
+            "peak"
+        ]
+    },
+    {
+        "q": "What is the Hoek-Brown criterion?",
+        "type": "mcq",
+        "o": [
+            "Nonlinear rock mass strength criterion",
+            "Linear strength",
+            "Soil strength only",
+            "Concrete strength"
+        ]
+    },
+    {
+        "q": "Arrange the Hoek-Brown parameters:",
+        "type": "rearrange",
+        "words": [
+            "Intact strength",
+            "GSI",
+            "mi constant",
+            "Disturbance factor"
+        ]
+    },
+    {
+        "q": "Hoek-Brown criterion accounts for rock mass jointing and disturbance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Hoek-Brown parameter with its influence:",
+        "type": "match",
+        "left": [
+            "UCS",
+            "GSI",
+            "mi",
+            "D"
+        ],
+        "right": [
+            "Intact strength",
+            "Rock quality",
+            "Rock type",
+            "Blast damage"
+        ]
+    },
+    {
+        "q": "The ______ criterion is commonly used for rock mass strength.",
+        "type": "fill_blank",
+        "answers": [
+            "Hoek-Brown"
+        ],
+        "other_options": [
+            "Mohr-Coulomb",
+            "Drucker-Prager",
+            "Tresca"
+        ]
+    },
+    {
+        "q": "What is CPT interpretation?",
+        "type": "mcq",
+        "o": [
+            "Deriving soil properties from cone penetration test data",
+            "Visual inspection",
+            "No interpretation",
+            "Laboratory testing"
+        ]
+    },
+    {
+        "q": "CPT provides continuous soil profile without sampling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CPT parameter with its soil property:",
+        "type": "match",
+        "left": [
+            "Tip resistance",
+            "Sleeve friction",
+            "Pore pressure",
+            "Friction ratio"
+        ],
+        "right": [
+            "Strength",
+            "Soil type",
+            "Consolidation",
+            "Classification"
+        ]
+    },
+    {
+        "q": "The ______ penetration test provides continuous in-situ soil data.",
+        "type": "fill_blank",
+        "answers": [
+            "cone or CPT"
+        ],
+        "other_options": [
+            "standard",
+            "dynamic",
+            "plate"
+        ]
+    },
+    {
+        "q": "What is dilatometer testing?",
+        "type": "mcq",
+        "o": [
+            "In-situ test using flat blade to measure soil stiffness and stress",
+            "Laboratory test",
+            "Surface test",
+            "Load test"
+        ]
+    },
+    {
+        "q": "Arrange the DMT parameters:",
+        "type": "rearrange",
+        "words": [
+            "Material index",
+            "Horizontal stress index",
+            "Dilatometer modulus"
+        ]
+    },
+    {
+        "q": "DMT measures horizontal stress and stiffness in soil.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the DMT parameter with its derivation:",
+        "type": "match",
+        "left": [
+            "ID",
+            "KD",
+            "ED",
+            "Ko"
+        ],
+        "right": [
+            "Material index",
+            "Horizontal stress index",
+            "Modulus",
+            "At-rest coefficient"
+        ]
+    },
+    {
+        "q": "The ______ test uses a flat blade for in-situ testing.",
+        "type": "fill_blank",
+        "answers": [
+            "dilatometer or DMT"
+        ],
+        "other_options": [
+            "cone",
+            "pressuremeter",
+            "vane"
+        ]
+    },
+    {
+        "q": "What is pressuremeter testing?",
+        "type": "mcq",
+        "o": [
+            "In-situ test expanding cylindrical probe to measure soil response",
+            "Surface test",
+            "Laboratory test",
+            "Sample test"
+        ]
+    },
+    {
+        "q": "Pressuremeter measures soil modulus and strength in-situ.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pressuremeter type with its installation:",
+        "type": "match",
+        "left": [
+            "Menard",
+            "Self-boring",
+            "Pushed-in",
+            "Full displacement"
+        ],
+        "right": [
+            "Pre-drilled",
+            "Excavates hole",
+            "Pushed",
+            "Displaces soil"
+        ]
+    },
+    {
+        "q": "The ______ measures in-situ stress-strain response of soil.",
+        "type": "fill_blank",
+        "answers": [
+            "pressuremeter"
+        ],
+        "other_options": [
+            "vane",
+            "plate",
+            "penetrometer"
+        ]
+    },
+    {
+        "q": "What is crosshole seismic testing?",
+        "type": "mcq",
+        "o": [
+            "Measuring wave velocities between boreholes",
+            "Surface waves only",
+            "Single borehole",
+            "No waves"
+        ]
+    },
+    {
+        "q": "Arrange the seismic testing methods:",
+        "type": "rearrange",
+        "words": [
+            "Crosshole",
+            "Downhole",
+            "SASW",
+            "MASW"
+        ]
+    },
+    {
+        "q": "Crosshole tests measure shear wave velocity between boreholes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seismic method with its configuration:",
+        "type": "match",
+        "left": [
+            "Crosshole",
+            "Downhole",
+            "SASW",
+            "Seismic reflection"
+        ],
+        "right": [
+            "Between holes",
+            "Single hole",
+            "Surface",
+            "Deep profiling"
+        ]
+    },
+    {
+        "q": "The ______ wave velocity indicates soil stiffness.",
+        "type": "fill_blank",
+        "answers": [
+            "shear or S"
+        ],
+        "other_options": [
+            "P",
+            "surface",
+            "body"
+        ]
+    },
+    {
+        "q": "What is electrical resistivity imaging?",
+        "type": "mcq",
+        "o": [
+            "Geophysical method mapping subsurface using electrical resistance",
+            "Seismic method",
+            "Magnetic method",
+            "Gravity method"
+        ]
+    },
+    {
+        "q": "Resistivity is affected by soil moisture and dissolved solids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geophysical method with its principle:",
+        "type": "match",
+        "left": [
+            "Resistivity",
+            "Seismic",
+            "GPR",
+            "Magnetic"
+        ],
+        "right": [
+            "Electrical",
+            "Elastic waves",
+            "Radar",
+            "Magnetic field"
+        ]
+    },
+    {
+        "q": "The ______ resistivity measures subsurface electrical properties.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical"
+        ],
+        "other_options": [
+            "magnetic",
+            "seismic",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is ground penetrating radar?",
+        "type": "mcq",
+        "o": [
+            "Geophysical method using radar to image subsurface",
+            "Seismic method",
+            "Electrical method",
+            "Magnetic method"
+        ]
+    },
+    {
+        "q": "Arrange the GPR applications:",
+        "type": "rearrange",
+        "words": [
+            "Utility detection",
+            "Void detection",
+            "Concrete inspection",
+            "Archaeological survey"
+        ]
+    },
+    {
+        "q": "GPR depth penetration depends on frequency and soil conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the GPR factor with its effect:",
+        "type": "match",
+        "left": [
+            "Frequency",
+            "Conductivity",
+            "Water content",
+            "Antenna"
+        ],
+        "right": [
+            "Resolution vs depth",
+            "Attenuation",
+            "Signal loss",
+            "Coverage"
+        ]
+    },
+    {
+        "q": "The ______ penetrating radar images shallow subsurface features.",
+        "type": "fill_blank",
+        "answers": [
+            "ground or GPR"
+        ],
+        "other_options": [
+            "seismic",
+            "magnetic",
+            "electrical"
+        ]
+    },
+    {
+        "q": "What is lateral pile loading?",
+        "type": "mcq",
+        "o": [
+            "Horizontal forces applied to piles from soil or structures",
+            "Only vertical loads",
+            "No lateral loading",
+            "Torsion only"
+        ]
+    },
+    {
+        "q": "Lateral pile response depends on pile stiffness and soil properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the lateral pile method with its approach:",
+        "type": "match",
+        "left": [
+            "p-y curves",
+            "Subgrade reaction",
+            "Continuum",
+            "Finite element"
+        ],
+        "right": [
+            "Nonlinear springs",
+            "Linear springs",
+            "Elastic half-space",
+            "Numerical"
+        ]
+    },
+    {
+        "q": "The ______ curves describe nonlinear lateral pile-soil interaction.",
+        "type": "fill_blank",
+        "answers": [
+            "p-y"
+        ],
+        "other_options": [
+            "t-z",
+            "q-z",
+            "stress-strain"
+        ]
+    },
+    {
+        "q": "What is pile group effects?",
+        "type": "mcq",
+        "o": [
+            "Interaction between closely spaced piles affecting capacity",
+            "Single pile behavior",
+            "No interaction",
+            "Surface effects"
+        ]
+    },
+    {
+        "q": "Arrange the pile group effects:",
+        "type": "rearrange",
+        "words": [
+            "Efficiency reduction",
+            "Settlement increase",
+            "Load distribution",
+            "Raft behavior"
+        ]
+    },
+    {
+        "q": "Closely spaced piles have reduced efficiency compared to isolated piles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pile group factor with its effect:",
+        "type": "match",
+        "left": [
+            "Efficiency",
+            "Settlement ratio",
+            "Spacing",
+            "Cap stiffness"
+        ],
+        "right": [
+            "Capacity reduction",
+            "Increased settlement",
+            "Interaction",
+            "Load distribution"
+        ]
+    },
+    {
+        "q": "The ______ efficiency accounts for pile interaction in groups.",
+        "type": "fill_blank",
+        "answers": [
+            "group"
+        ],
+        "other_options": [
+            "single",
+            "individual",
+            "isolated"
+        ]
+    },
+    {
+        "q": "What is caisson foundation?",
+        "type": "mcq",
+        "o": [
+            "Large diameter deep foundation constructed by excavation",
+            "Driven pile",
+            "Spread footing",
+            "Mat foundation"
+        ]
+    },
+    {
+        "q": "Caissons can support very large loads in deep bearing layers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the caisson type with its installation:",
+        "type": "match",
+        "left": [
+            "Open",
+            "Pneumatic",
+            "Box",
+            "Floating"
+        ],
+        "right": [
+            "Excavation inside",
+            "Compressed air",
+            "Prefabricated",
+            "Towed and sunk"
+        ]
+    },
+    {
+        "q": "The ______ foundation uses large diameter shafts to deep layers.",
+        "type": "fill_blank",
+        "answers": [
+            "caisson or drilled shaft"
+        ],
+        "other_options": [
+            "pile",
+            "spread",
+            "mat"
+        ]
+    },
+    {
+        "q": "What is soil liquefaction mitigation?",
+        "type": "mcq",
+        "o": [
+            "Ground improvement to reduce liquefaction potential",
+            "No treatment needed",
+            "Accept liquefaction",
+            "Surface treatment only"
+        ]
+    },
+    {
+        "q": "Arrange the liquefaction mitigation methods:",
+        "type": "rearrange",
+        "words": [
+            "Densification",
+            "Drainage",
+            "Reinforcement",
+            "Ground replacement"
+        ]
+    },
+    {
+        "q": "Densification increases liquefaction resistance of loose sands.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mitigation method with its mechanism:",
+        "type": "match",
+        "left": [
+            "Vibro",
+            "Drains",
+            "Compaction piles",
+            "Soil mixing"
+        ],
+        "right": [
+            "Densification",
+            "Pore pressure relief",
+            "Displacement",
+            "Cementation"
+        ]
+    },
+    {
+        "q": "The ______ columns provide drainage for pore pressure dissipation.",
+        "type": "fill_blank",
+        "answers": [
+            "stone or gravel"
+        ],
+        "other_options": [
+            "concrete",
+            "steel",
+            "plastic"
+        ]
+    },
+    {
+        "q": "What is surface wave methods?",
+        "type": "mcq",
+        "o": [
+            "Geophysical testing using Rayleigh waves to determine shear wave velocity",
+            "Body wave methods",
+            "Crosshole only",
+            "Laboratory testing"
+        ]
+    },
+    {
+        "q": "MASW is commonly used for site characterization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the surface wave method with its configuration:",
+        "type": "match",
+        "left": [
+            "SASW",
+            "MASW",
+            "Refraction",
+            "ReMi"
+        ],
+        "right": [
+            "Two receivers",
+            "Array",
+            "First arrivals",
+            "Passive"
+        ]
+    },
+    {
+        "q": "The ______ wave velocity profile indicates soil stiffness with depth.",
+        "type": "fill_blank",
+        "answers": [
+            "shear"
+        ],
+        "other_options": [
+            "compression",
+            "surface",
+            "body"
+        ]
+    },
+    {
+        "q": "What is strain softening?",
+        "type": "mcq",
+        "o": [
+            "Reduction in soil strength after peak with continued deformation",
+            "Strength increase",
+            "Constant strength",
+            "No change"
+        ]
+    },
+    {
+        "q": "Arrange the soil behavior types:",
+        "type": "rearrange",
+        "words": [
+            "Strain hardening",
+            "Perfectly plastic",
+            "Strain softening",
+            "Brittle"
+        ]
+    },
+    {
+        "q": "Strain softening can lead to progressive slope failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the behavior with its stress-strain curve:",
+        "type": "match",
+        "left": [
+            "Hardening",
+            "Perfect plastic",
+            "Softening",
+            "Brittle"
+        ],
+        "right": [
+            "Rising curve",
+            "Flat plateau",
+            "Falling after peak",
+            "Sudden drop"
+        ]
+    },
+    {
+        "q": "The ______ behavior shows decreasing strength after peak.",
+        "type": "fill_blank",
+        "answers": [
+            "strain softening"
+        ],
+        "other_options": [
+            "hardening",
+            "elastic",
+            "plastic"
+        ]
+    },
+    {
+        "q": "What is time-dependent soil behavior?",
+        "type": "mcq",
+        "o": [
+            "Soil deformation continuing over time under constant loading",
+            "Instantaneous only",
+            "No time effects",
+            "Static behavior"
+        ]
+    },
+    {
+        "q": "Creep and aging are time-dependent soil behaviors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the time effect with its description:",
+        "type": "match",
+        "left": [
+            "Creep",
+            "Relaxation",
+            "Aging",
+            "Thixotropy"
+        ],
+        "right": [
+            "Deformation at constant stress",
+            "Stress reduction",
+            "Strength gain",
+            "Recovery at rest"
+        ]
+    },
+    {
+        "q": "The ______ is continued deformation under constant stress over time.",
+        "type": "fill_blank",
+        "answers": [
+            "creep or secondary compression"
+        ],
+        "other_options": [
+            "relaxation",
+            "aging",
+            "consolidation"
+        ]
+    },
+    {
+        "q": "What is unsaturated soil mechanics?",
+        "type": "mcq",
+        "o": [
+            "Study of soil behavior when not fully water-saturated",
+            "Saturated soil only",
+            "Dry soil only",
+            "No water consideration"
+        ]
+    },
+    {
+        "q": "Arrange the unsaturated soil parameters:",
+        "type": "rearrange",
+        "words": [
+            "Matric suction",
+            "Degree of saturation",
+            "Air entry",
+            "Residual water content"
+        ]
+    },
+    {
+        "q": "Matric suction increases soil strength in unsaturated conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the unsaturated concept with its meaning:",
+        "type": "match",
+        "left": [
+            "Matric suction",
+            "SWCC",
+            "Air entry",
+            "Residual"
+        ],
+        "right": [
+            "Ua - Uw",
+            "Water retention",
+            "Desaturation start",
+            "Minimum water"
+        ]
+    },
+    {
+        "q": "The ______ suction represents the pressure difference between air and water.",
+        "type": "fill_blank",
+        "answers": [
+            "matric"
+        ],
+        "other_options": [
+            "osmotic",
+            "total",
+            "capillary"
+        ]
+    },
+    {
+        "q": "What is expansive soil?",
+        "type": "mcq",
+        "o": [
+            "Soil that significantly changes volume with moisture content changes",
+            "Non-expansive soil",
+            "Rock",
+            "Gravel"
+        ]
+    },
+    {
+        "q": "Expansive soils can cause foundation heave and cracking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the expansive soil indicator with its test:",
+        "type": "match",
+        "left": [
+            "Plasticity index",
+            "Free swell",
+            "Linear shrinkage",
+            "Clay content"
+        ],
+        "right": [
+            "Atterberg limits",
+            "Volume change",
+            "Length change",
+            "Grain size"
+        ]
+    },
+    {
+        "q": "The ______ soil swells significantly when wetted.",
+        "type": "fill_blank",
+        "answers": [
+            "expansive"
+        ],
+        "other_options": [
+            "compressible",
+            "granular",
+            "cohesionless"
+        ]
+    },
+    {
+        "q": "What is collapsible soil?",
+        "type": "mcq",
+        "o": [
+            "Soil that undergoes large settlement when saturated under load",
+            "Expansive soil",
+            "Non-collapsible",
+            "Rock"
+        ]
+    },
+    {
+        "q": "Arrange the collapse mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Wetting",
+            "Loading",
+            "Bond breakdown",
+            "Volume reduction"
+        ]
+    },
+    {
+        "q": "Collapsible soils often have open structure with weak cementation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the collapsible soil type with its origin:",
+        "type": "match",
+        "left": [
+            "Loess",
+            "Alluvial",
+            "Residual",
+            "Fill"
+        ],
+        "right": [
+            "Windblown",
+            "Water deposited",
+            "Weathered",
+            "Man-made"
+        ]
+    },
+    {
+        "q": "The ______ potential indicates volume reduction upon wetting.",
+        "type": "fill_blank",
+        "answers": [
+            "collapse"
+        ],
+        "other_options": [
+            "swell",
+            "shrink",
+            "expand"
+        ]
+    },
+    {
+        "q": "What is organic soil?",
+        "type": "mcq",
+        "o": [
+            "Soil with significant decayed plant material affecting properties",
+            "Mineral soil only",
+            "Rock",
+            "No organic matter"
+        ]
+    },
+    {
+        "q": "Organic soils are highly compressible and have low strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the organic soil type with its origin:",
+        "type": "match",
+        "left": [
+            "Peat",
+            "Muck",
+            "Organic clay",
+            "Organic silt"
+        ],
+        "right": [
+            "Recognizable fibers",
+            "Decomposed",
+            "Clay with organics",
+            "Silt with organics"
+        ]
+    },
+    {
+        "q": "The ______ content significantly affects soil compressibility.",
+        "type": "fill_blank",
+        "answers": [
+            "organic"
+        ],
+        "other_options": [
+            "mineral",
+            "water",
+            "air"
+        ]
+    },
+    {
+        "q": "What is sensitive clay?",
+        "type": "mcq",
+        "o": [
+            "Clay that loses significant strength when remolded",
+            "Non-sensitive clay",
+            "Sand",
+            "Gravel"
+        ]
+    },
+    {
+        "q": "Arrange the sensitivity classifications:",
+        "type": "rearrange",
+        "words": [
+            "Low sensitivity",
+            "Medium sensitivity",
+            "High sensitivity",
+            "Quick clay"
+        ]
+    },
+    {
+        "q": "Quick clays can liquefy when disturbed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sensitivity class with its range:",
+        "type": "match",
+        "left": [
+            "Low",
+            "Medium",
+            "Sensitive",
+            "Quick"
+        ],
+        "right": [
+            "1-2",
+            "2-4",
+            "4-8",
+            "Greater than 16"
+        ]
+    },
+    {
+        "q": "The ______ is the ratio of undisturbed to remolded strength.",
+        "type": "fill_blank",
+        "answers": [
+            "sensitivity"
+        ],
+        "other_options": [
+            "strength",
+            "stiffness",
+            "plasticity"
+        ]
+    },
+    {
+        "q": "What is reinforced earth?",
+        "type": "mcq",
+        "o": [
+            "Soil strengthened by internal reinforcement elements",
+            "Unreinforced soil",
+            "Concrete wall",
+            "Rock wall"
+        ]
+    },
+    {
+        "q": "Reinforced earth uses friction between soil and reinforcement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the reinforced earth component with its function:",
+        "type": "match",
+        "left": [
+            "Facing",
+            "Reinforcement",
+            "Backfill",
+            "Connection"
+        ],
+        "right": [
+            "Aesthetic/erosion",
+            "Load transfer",
+            "Bulk material",
+            "Facing to reinforcement"
+        ]
+    },
+    {
+        "q": "The ______ earth system uses layers of reinforcement in fill.",
+        "type": "fill_blank",
+        "answers": [
+            "reinforced"
+        ],
+        "other_options": [
+            "unreinforced",
+            "natural",
+            "cemented"
+        ]
+    },
+    {
+        "q": "What is geogrid reinforcement?",
+        "type": "mcq",
+        "o": [
+            "Grid-shaped polymeric material for soil reinforcement",
+            "Fabric only",
+            "Steel only",
+            "Natural materials"
+        ]
+    },
+    {
+        "q": "Arrange the geosynthetic reinforcement types:",
+        "type": "rearrange",
+        "words": [
+            "Geogrid",
+            "Geotextile",
+            "Geocell",
+            "Geostrip"
+        ]
+    },
+    {
+        "q": "Geogrids provide interlock with soil particles for reinforcement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geogrid type with its manufacture:",
+        "type": "match",
+        "left": [
+            "Extruded",
+            "Woven",
+            "Welded",
+            "Knitted"
+        ],
+        "right": [
+            "Punched and stretched",
+            "Interlaced yarns",
+            "Fused junctions",
+            "Looped yarns"
+        ]
+    },
+    {
+        "q": "The ______ provides tensile reinforcement through soil interlock.",
+        "type": "fill_blank",
+        "answers": [
+            "geogrid"
+        ],
+        "other_options": [
+            "geotextile",
+            "geomembrane",
+            "geocloth"
+        ]
+    },
+    {
+        "q": "What is construction dewatering?",
+        "type": "mcq",
+        "o": [
+            "Lowering groundwater level for dry excavation conditions",
+            "Adding water",
+            "No water control",
+            "Surface drainage only"
+        ]
+    },
+    {
+        "q": "Arrange the dewatering stages:",
+        "type": "rearrange",
+        "words": [
+            "Planning",
+            "Installation",
+            "Operation",
+            "Monitoring"
+        ]
+    },
+    {
+        "q": "Dewatering can cause settlement in adjacent structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dewatering effect with its mitigation:",
+        "type": "match",
+        "left": [
+            "Settlement",
+            "Piping",
+            "Discharge",
+            "Contamination"
+        ],
+        "right": [
+            "Recharge",
+            "Filter design",
+            "Permit",
+            "Treatment"
+        ]
+    },
+    {
+        "q": "The ______ effects of dewatering must be considered in design.",
+        "type": "fill_blank",
+        "answers": [
+            "environmental or settlement"
+        ],
+        "other_options": [
+            "structural",
+            "architectural",
+            "aesthetic"
+        ]
+    },
+    {
+        "q": "What is ground movement prediction?",
+        "type": "mcq",
+        "o": [
+            "Estimating settlement and displacement from construction activities",
+            "No prediction",
+            "Only measurement",
+            "No movement"
+        ]
+    },
+    {
+        "q": "Tunneling-induced settlement can affect surface structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ground movement cause with its pattern:",
+        "type": "match",
+        "left": [
+            "Tunneling",
+            "Dewatering",
+            "Excavation",
+            "Loading"
+        ],
+        "right": [
+            "Settlement trough",
+            "Regional subsidence",
+            "Wall deflection",
+            "Bearing settlement"
+        ]
+    },
+    {
+        "q": "The ______ volume loss affects tunneling-induced settlement.",
+        "type": "fill_blank",
+        "answers": [
+            "volume or ground"
+        ],
+        "other_options": [
+            "stress",
+            "water",
+            "air"
+        ]
+    },
+    {
+        "q": "What is building damage classification?",
+        "type": "mcq",
+        "o": [
+            "Categorizing structure damage from ground movement",
+            "No classification",
+            "Only demolition",
+            "Visual inspection only"
+        ]
+    },
+    {
+        "q": "Arrange the damage categories:",
+        "type": "rearrange",
+        "words": [
+            "Negligible",
+            "Slight",
+            "Moderate",
+            "Severe"
+        ]
+    },
+    {
+        "q": "Angular distortion relates ground movement to building damage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the damage criterion with its measure:",
+        "type": "match",
+        "left": [
+            "Angular distortion",
+            "Horizontal strain",
+            "Relative rotation",
+            "Deflection ratio"
+        ],
+        "right": [
+            "Differential/length",
+            "Elongation",
+            "Tilt difference",
+            "Settlement/length"
+        ]
+    },
+    {
+        "q": "The ______ distortion is a key indicator of building damage risk.",
+        "type": "fill_blank",
+        "answers": [
+            "angular"
+        ],
+        "other_options": [
+            "horizontal",
+            "vertical",
+            "torsional"
+        ]
+    },
+    {
+        "q": "What is real-time monitoring?",
+        "type": "mcq",
+        "o": [
+            "Continuous automated measurement with immediate data availability",
+            "Manual monitoring only",
+            "Periodic measurement",
+            "No monitoring"
+        ]
+    },
+    {
+        "q": "Real-time monitoring enables rapid response to unexpected behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the monitoring system with its feature:",
+        "type": "match",
+        "left": [
+            "Automated",
+            "Wireless",
+            "Remote",
+            "Alert"
+        ],
+        "right": [
+            "No manual reading",
+            "No cables",
+            "Off-site access",
+            "Threshold warning"
+        ]
+    },
+    {
+        "q": "The ______ monitoring provides immediate data for decision making.",
+        "type": "fill_blank",
+        "answers": [
+            "real-time"
+        ],
+        "other_options": [
+            "periodic",
+            "manual",
+            "annual"
+        ]
+    },
+    {
+        "q": "What is observational method?",
+        "type": "mcq",
+        "o": [
+            "Design approach using monitoring to verify and modify design during construction",
+            "Fixed design only",
+            "No monitoring",
+            "No modification"
+        ]
+    },
+    {
+        "q": "Arrange the observational method steps:",
+        "type": "rearrange",
+        "words": [
+            "Most probable conditions",
+            "Acceptable limits",
+            "Monitoring plan",
+            "Contingency measures"
+        ]
+    },
+    {
+        "q": "The observational method requires pre-planned contingencies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the observational method element with its requirement:",
+        "type": "match",
+        "left": [
+            "Design",
+            "Monitoring",
+            "Triggers",
+            "Contingency"
+        ],
+        "right": [
+            "Most probable",
+            "Verify behavior",
+            "Action levels",
+            "Alternative measures"
+        ]
+    },
+    {
+        "q": "The ______ method adapts design based on observed performance.",
+        "type": "fill_blank",
+        "answers": [
+            "observational"
+        ],
+        "other_options": [
+            "prescriptive",
+            "empirical",
+            "deterministic"
+        ]
+    },
+    {
+        "q": "What is geotechnical forensic engineering?",
+        "type": "mcq",
+        "o": [
+            "Investigation of geotechnical failures to determine causes",
+            "New design only",
+            "No investigation",
+            "Construction only"
+        ]
+    },
+    {
+        "q": "Forensic investigation helps prevent future similar failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the forensic step with its activity:",
+        "type": "match",
+        "left": [
+            "Documentation",
+            "Investigation",
+            "Analysis",
+            "Recommendations"
+        ],
+        "right": [
+            "Evidence collection",
+            "Testing",
+            "Cause determination",
+            "Prevention"
+        ]
+    },
+    {
+        "q": "The ______ engineering investigates causes of geotechnical failures.",
+        "type": "fill_blank",
+        "answers": [
+            "forensic"
+        ],
+        "other_options": [
+            "design",
+            "construction",
+            "research"
+        ]
+    },
+    {
+        "q": "What is sustainability in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Balancing environmental, social, and economic factors in geotechnical practice",
+            "Only cost consideration",
+            "Only technical",
+            "No environmental consideration"
+        ]
+    },
+    {
+        "q": "Arrange the sustainability aspects:",
+        "type": "rearrange",
+        "words": [
+            "Environmental",
+            "Social",
+            "Economic",
+            "Technical"
+        ]
+    },
+    {
+        "q": "Sustainable geotechnics considers life cycle impacts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sustainability factor with its consideration:",
+        "type": "match",
+        "left": [
+            "Carbon",
+            "Materials",
+            "Energy",
+            "Durability"
+        ],
+        "right": [
+            "Emissions",
+            "Recycled content",
+            "Consumption",
+            "Design life"
+        ]
+    },
+    {
+        "q": "The ______ geotechnics considers environmental and social impacts.",
+        "type": "fill_blank",
+        "answers": [
+            "sustainable"
+        ],
+        "other_options": [
+            "traditional",
+            "conventional",
+            "standard"
+        ]
+    },
+    {
+        "q": "Geological engineering integrates geology and engineering for society.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Continuing education is essential for geological engineers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Professional ethics guide geological engineering practice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Collaboration is key to successful geological engineering projects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Geological engineering knowledge protects public safety and the environment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Bayesian updating in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Statistical method to update probabilities with new data",
+            "No updating needed",
+            "Fixed probabilities",
+            "Only subjective assessment"
+        ]
+    },
+    {
+        "q": "Bayesian methods combine prior knowledge with observed data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Bayesian term with its meaning:",
+        "type": "match",
+        "left": [
+            "Prior",
+            "Likelihood",
+            "Posterior",
+            "Evidence"
+        ],
+        "right": [
+            "Initial belief",
+            "Data probability",
+            "Updated belief",
+            "Normalizing constant"
+        ]
+    },
+    {
+        "q": "The ______ updating refines estimates as new information becomes available.",
+        "type": "fill_blank",
+        "answers": [
+            "Bayesian"
+        ],
+        "other_options": [
+            "frequentist",
+            "deterministic",
+            "empirical"
+        ]
+    },
+    {
+        "q": "What is geostatistics?",
+        "type": "mcq",
+        "o": [
+            "Statistical methods for spatially correlated data in geology",
+            "Only descriptive statistics",
+            "No spatial consideration",
+            "Only laboratory data"
+        ]
+    },
+    {
+        "q": "Arrange the geostatistical methods:",
+        "type": "rearrange",
+        "words": [
+            "Variogram analysis",
+            "Kriging",
+            "Sequential simulation",
+            "Indicator methods"
+        ]
+    },
+    {
+        "q": "Kriging provides best linear unbiased estimates of spatial data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geostatistical concept with its function:",
+        "type": "match",
+        "left": [
+            "Variogram",
+            "Kriging",
+            "Range",
+            "Nugget"
+        ],
+        "right": [
+            "Spatial correlation",
+            "Interpolation",
+            "Correlation distance",
+            "Short-scale variation"
+        ]
+    },
+    {
+        "q": "The ______ describes spatial correlation structure in soil properties.",
+        "type": "fill_blank",
+        "answers": [
+            "variogram or semivariogram"
+        ],
+        "other_options": [
+            "histogram",
+            "correlation",
+            "regression"
+        ]
+    },
+    {
+        "q": "What is machine learning in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Using algorithms to identify patterns and make predictions from data",
+            "Only manual analysis",
+            "No pattern recognition",
+            "Only simple statistics"
+        ]
+    },
+    {
+        "q": "Machine learning can identify complex patterns in geotechnical data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ML method with its application:",
+        "type": "match",
+        "left": [
+            "Neural network",
+            "Random forest",
+            "SVM",
+            "Clustering"
+        ],
+        "right": [
+            "Complex relationships",
+            "Ensemble decision",
+            "Classification",
+            "Grouping"
+        ]
+    },
+    {
+        "q": "The ______ learning identifies patterns in geotechnical data.",
+        "type": "fill_blank",
+        "answers": [
+            "machine"
+        ],
+        "other_options": [
+            "manual",
+            "traditional",
+            "simple"
+        ]
+    },
+    {
+        "q": "What is BIM in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Building Information Modeling applied to ground and foundations",
+            "Only building design",
+            "No 3D modeling",
+            "Only visualization"
+        ]
+    },
+    {
+        "q": "Arrange the BIM levels of development:",
+        "type": "rearrange",
+        "words": [
+            "LOD 100",
+            "LOD 200",
+            "LOD 300",
+            "LOD 400"
+        ]
+    },
+    {
+        "q": "BIM enables integration of geotechnical data with structural design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the BIM benefit with its advantage:",
+        "type": "match",
+        "left": [
+            "Visualization",
+            "Collaboration",
+            "Clash detection",
+            "As-built"
+        ],
+        "right": [
+            "3D understanding",
+            "Shared model",
+            "Conflict identification",
+            "Record"
+        ]
+    },
+    {
+        "q": "The ______ Information Modeling integrates geotechnical data with design.",
+        "type": "fill_blank",
+        "answers": [
+            "Building or BIM"
+        ],
+        "other_options": [
+            "CAD",
+            "GIS",
+            "Database"
+        ]
+    },
+    {
+        "q": "What is digital twin in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Virtual replica of physical system updated with real-time data",
+            "Only static model",
+            "No data connection",
+            "Physical model only"
+        ]
+    },
+    {
+        "q": "Digital twins enable predictive analysis of geotechnical systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the digital twin component with its function:",
+        "type": "match",
+        "left": [
+            "Physical asset",
+            "Virtual model",
+            "Data connection",
+            "Analytics"
+        ],
+        "right": [
+            "Real world",
+            "Digital representation",
+            "Real-time link",
+            "Predictions"
+        ]
+    },
+    {
+        "q": "The ______ twin provides virtual replica with real-time data connection.",
+        "type": "fill_blank",
+        "answers": [
+            "digital"
+        ],
+        "other_options": [
+            "physical",
+            "analog",
+            "static"
+        ]
+    },
+    {
+        "q": "What is IoT in geotechnical monitoring?",
+        "type": "mcq",
+        "o": [
+            "Internet of Things sensors for automated data collection",
+            "Manual monitoring only",
+            "No wireless",
+            "Only visual inspection"
+        ]
+    },
+    {
+        "q": "Arrange the IoT monitoring components:",
+        "type": "rearrange",
+        "words": [
+            "Sensors",
+            "Data transmission",
+            "Cloud storage",
+            "Analytics platform"
+        ]
+    },
+    {
+        "q": "IoT enables remote and automated geotechnical monitoring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the IoT component with its role:",
+        "type": "match",
+        "left": [
+            "Sensor",
+            "Gateway",
+            "Cloud",
+            "Dashboard"
+        ],
+        "right": [
+            "Measurement",
+            "Communication",
+            "Storage",
+            "Visualization"
+        ]
+    },
+    {
+        "q": "The ______ of Things technology enables smart geotechnical monitoring.",
+        "type": "fill_blank",
+        "answers": [
+            "Internet"
+        ],
+        "other_options": [
+            "Network",
+            "System",
+            "Web"
+        ]
+    },
+    {
+        "q": "What is autonomous monitoring?",
+        "type": "mcq",
+        "o": [
+            "Self-operating monitoring systems with minimal human intervention",
+            "Manual only",
+            "No automation",
+            "Daily visits required"
+        ]
+    },
+    {
+        "q": "Autonomous systems can operate continuously without human presence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the autonomous feature with its benefit:",
+        "type": "match",
+        "left": [
+            "Self-powered",
+            "Self-healing",
+            "Remote access",
+            "Automated alerts"
+        ],
+        "right": [
+            "No external power",
+            "Fault recovery",
+            "Anywhere access",
+            "Immediate notification"
+        ]
+    },
+    {
+        "q": "The ______ monitoring operates with minimal human intervention.",
+        "type": "fill_blank",
+        "answers": [
+            "autonomous"
+        ],
+        "other_options": [
+            "manual",
+            "supervised",
+            "periodic"
+        ]
+    },
+    {
+        "q": "What is lidar in site investigation?",
+        "type": "mcq",
+        "o": [
+            "Light detection and ranging for terrain and structure mapping",
+            "Only radar",
+            "Manual survey only",
+            "No 3D capability"
+        ]
+    },
+    {
+        "q": "Lidar provides high-resolution 3D terrain models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the lidar application with its use:",
+        "type": "match",
+        "left": [
+            "Terrestrial",
+            "Airborne",
+            "Mobile",
+            "Drone"
+        ],
+        "right": [
+            "Static ground",
+            "Large area",
+            "Vehicle mounted",
+            "UAV"
+        ]
+    },
+    {
+        "q": "The ______ survey provides high-resolution 3D point clouds.",
+        "type": "fill_blank",
+        "answers": [
+            "lidar"
+        ],
+        "other_options": [
+            "photogrammetry",
+            "GPS",
+            "total station"
+        ]
+    },
+    {
+        "q": "What is drone surveying?",
+        "type": "mcq",
+        "o": [
+            "Using unmanned aerial vehicles for site mapping and inspection",
+            "Only ground survey",
+            "No aerial capability",
+            "Manned aircraft only"
+        ]
+    },
+    {
+        "q": "Arrange the drone survey applications:",
+        "type": "rearrange",
+        "words": [
+            "Mapping",
+            "Inspection",
+            "Volumetric analysis",
+            "Monitoring"
+        ]
+    },
+    {
+        "q": "Drones can access difficult terrain safely and efficiently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the drone sensor with its output:",
+        "type": "match",
+        "left": [
+            "RGB camera",
+            "Lidar",
+            "Thermal",
+            "Multispectral"
+        ],
+        "right": [
+            "Orthophoto",
+            "Point cloud",
+            "Heat map",
+            "Vegetation index"
+        ]
+    },
+    {
+        "q": "The ______ aerial vehicles enable efficient site surveying.",
+        "type": "fill_blank",
+        "answers": [
+            "unmanned or drone"
+        ],
+        "other_options": [
+            "manned",
+            "satellite",
+            "balloon"
+        ]
+    },
+    {
+        "q": "What is InSAR monitoring?",
+        "type": "mcq",
+        "o": [
+            "Satellite radar interferometry for measuring ground deformation",
+            "Only ground survey",
+            "No satellite",
+            "Visual observation"
+        ]
+    },
+    {
+        "q": "InSAR can detect millimeter-scale ground movements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the InSAR parameter with its measurement:",
+        "type": "match",
+        "left": [
+            "Phase difference",
+            "Coherence",
+            "Time series",
+            "Deformation rate"
+        ],
+        "right": [
+            "Displacement",
+            "Signal quality",
+            "Historical movement",
+            "Velocity"
+        ]
+    },
+    {
+        "q": "The ______ interferometry monitors ground deformation from space.",
+        "type": "fill_blank",
+        "answers": [
+            "satellite radar or InSAR"
+        ],
+        "other_options": [
+            "optical",
+            "GPS",
+            "ground-based"
+        ]
+    },
+    {
+        "q": "What is carbon footprint in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Greenhouse gas emissions from geotechnical construction activities",
+            "No emissions",
+            "Only energy use",
+            "Only materials"
+        ]
+    },
+    {
+        "q": "Arrange the carbon sources in geotechnics:",
+        "type": "rearrange",
+        "words": [
+            "Materials",
+            "Transport",
+            "Equipment",
+            "Energy"
+        ]
+    },
+    {
+        "q": "Cement production is a major carbon source in ground improvement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the activity with its carbon impact:",
+        "type": "match",
+        "left": [
+            "Concrete production",
+            "Steel manufacture",
+            "Diesel equipment",
+            "Transport"
+        ],
+        "right": [
+            "High embodied carbon",
+            "High energy",
+            "Site emissions",
+            "Distance factor"
+        ]
+    },
+    {
+        "q": "The ______ footprint measures geotechnical construction emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon"
+        ],
+        "other_options": [
+            "water",
+            "energy",
+            "material"
+        ]
+    },
+    {
+        "q": "What is geothermal energy?",
+        "type": "mcq",
+        "o": [
+            "Heat energy from the earth used for heating, cooling, and power",
+            "Only solar energy",
+            "Only wind energy",
+            "Only fossil fuels"
+        ]
+    },
+    {
+        "q": "Ground source heat pumps use shallow geothermal energy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geothermal system with its depth:",
+        "type": "match",
+        "left": [
+            "Shallow",
+            "Intermediate",
+            "Deep",
+            "Enhanced"
+        ],
+        "right": [
+            "Ground source heat pump",
+            "Direct use",
+            "Power generation",
+            "Engineered reservoir"
+        ]
+    },
+    {
+        "q": "The ______ energy extracts heat from the ground for sustainable use.",
+        "type": "fill_blank",
+        "answers": [
+            "geothermal"
+        ],
+        "other_options": [
+            "solar",
+            "wind",
+            "hydro"
+        ]
+    },
+    {
+        "q": "What is energy foundation?",
+        "type": "mcq",
+        "o": [
+            "Foundation element that also functions as heat exchanger",
+            "Only structural support",
+            "No energy function",
+            "Separate systems"
+        ]
+    },
+    {
+        "q": "Arrange the energy foundation types:",
+        "type": "rearrange",
+        "words": [
+            "Energy piles",
+            "Energy walls",
+            "Energy tunnels",
+            "Energy slabs"
+        ]
+    },
+    {
+        "q": "Energy piles combine structural support with geothermal heat exchange.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the energy foundation with its application:",
+        "type": "match",
+        "left": [
+            "Energy pile",
+            "Energy diaphragm",
+            "Energy tunnel",
+            "Energy slab"
+        ],
+        "right": [
+            "Deep foundation",
+            "Basement wall",
+            "Underground transit",
+            "Raft foundation"
+        ]
+    },
+    {
+        "q": "The ______ foundation serves both structural and energy functions.",
+        "type": "fill_blank",
+        "answers": [
+            "energy or thermo-active"
+        ],
+        "other_options": [
+            "conventional",
+            "traditional",
+            "standard"
+        ]
+    },
+    {
+        "q": "What is carbon capture and storage?",
+        "type": "mcq",
+        "o": [
+            "Geological sequestration of CO2 in underground formations",
+            "Atmospheric release",
+            "No storage",
+            "Surface storage only"
+        ]
+    },
+    {
+        "q": "Deep saline aquifers are potential CO2 storage formations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CCS component with its function:",
+        "type": "match",
+        "left": [
+            "Capture",
+            "Transport",
+            "Injection",
+            "Monitoring"
+        ],
+        "right": [
+            "Separate CO2",
+            "Pipeline/ship",
+            "Underground storage",
+            "Verify containment"
+        ]
+    },
+    {
+        "q": "The ______ capture and storage sequesters CO2 in geological formations.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon"
+        ],
+        "other_options": [
+            "methane",
+            "nitrogen",
+            "oxygen"
+        ]
+    },
+    {
+        "q": "What is circular economy in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Minimizing waste through reuse and recycling of materials",
+            "Linear economy",
+            "No reuse",
+            "Only new materials"
+        ]
+    },
+    {
+        "q": "Arrange the circular economy principles:",
+        "type": "rearrange",
+        "words": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Recover"
+        ]
+    },
+    {
+        "q": "Recycled aggregates can substitute virgin materials in geotechnics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the circular approach with its example:",
+        "type": "match",
+        "left": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Recover"
+        ],
+        "right": [
+            "Less material",
+            "In-situ treatment",
+            "Recycled aggregate",
+            "Waste fill"
+        ]
+    },
+    {
+        "q": "The ______ economy minimizes waste through material reuse.",
+        "type": "fill_blank",
+        "answers": [
+            "circular"
+        ],
+        "other_options": [
+            "linear",
+            "traditional",
+            "conventional"
+        ]
+    },
+    {
+        "q": "What is climate adaptation in geotechnics?",
+        "type": "mcq",
+        "o": [
+            "Designing for changing climate conditions and extreme events",
+            "No climate consideration",
+            "Only current climate",
+            "No adaptation needed"
+        ]
+    },
+    {
+        "q": "Climate change may affect soil moisture, freeze-thaw, and sea levels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the climate impact with its geotechnical effect:",
+        "type": "match",
+        "left": [
+            "Wetter conditions",
+            "Drier conditions",
+            "Sea level rise",
+            "Extreme events"
+        ],
+        "right": [
+            "Slope stability",
+            "Shrink-swell",
+            "Coastal flooding",
+            "Design loads"
+        ]
+    },
+    {
+        "q": "The ______ adaptation prepares infrastructure for climate change.",
+        "type": "fill_blank",
+        "answers": [
+            "climate"
+        ],
+        "other_options": [
+            "weather",
+            "seasonal",
+            "temperature"
+        ]
+    },
+    {
+        "q": "What is resilient infrastructure?",
+        "type": "mcq",
+        "o": [
+            "Infrastructure that can withstand and recover from disruptions",
+            "No recovery capability",
+            "Only resistance",
+            "No redundancy"
+        ]
+    },
+    {
+        "q": "Arrange the resilience components:",
+        "type": "rearrange",
+        "words": [
+            "Resistance",
+            "Redundancy",
+            "Response",
+            "Recovery"
+        ]
+    },
+    {
+        "q": "Resilient design considers multiple hazards and scenarios.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the resilience measure with its benefit:",
+        "type": "match",
+        "left": [
+            "Redundancy",
+            "Flexibility",
+            "Robustness",
+            "Resourcefulness"
+        ],
+        "right": [
+            "Backup systems",
+            "Adaptability",
+            "Strength",
+            "Problem solving"
+        ]
+    },
+    {
+        "q": "The ______ infrastructure can withstand and recover from hazards.",
+        "type": "fill_blank",
+        "answers": [
+            "resilient"
+        ],
+        "other_options": [
+            "vulnerable",
+            "fragile",
+            "rigid"
+        ]
+    },
+    {
+        "q": "What is nature-based solutions?",
+        "type": "mcq",
+        "o": [
+            "Using natural systems for geotechnical and environmental functions",
+            "Only engineered solutions",
+            "No natural elements",
+            "Only hard engineering"
+        ]
+    },
+    {
+        "q": "Bioengineering uses vegetation for slope stabilization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the nature-based solution with its function:",
+        "type": "match",
+        "left": [
+            "Green infrastructure",
+            "Living shoreline",
+            "Bioswale",
+            "Constructed wetland"
+        ],
+        "right": [
+            "Urban drainage",
+            "Coastal protection",
+            "Stormwater",
+            "Treatment"
+        ]
+    },
+    {
+        "q": "The ______ based solutions use natural systems for engineering functions.",
+        "type": "fill_blank",
+        "answers": [
+            "nature"
+        ],
+        "other_options": [
+            "technology",
+            "machine",
+            "artificial"
+        ]
+    },
+    {
+        "q": "Geological engineering is essential for infrastructure development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Understanding ground conditions is fundamental to safe construction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Geological engineering evolves with new technologies and challenges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Sustainability is becoming central to geological engineering practice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The future of geological engineering includes digital technologies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Geological engineering contributes to solving global challenges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is geoenvironmental engineering?",
+        "type": "mcq",
+        "o": [
+            "Combining geotechnical and environmental engineering for waste and contamination",
+            "Only waste disposal",
+            "Only contamination",
+            "Only construction"
+        ]
+    },
+    {
+        "q": "Geoenvironmental engineering addresses landfills, containment, and remediation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geoenvironmental application with its focus:",
+        "type": "match",
+        "left": [
+            "Landfill",
+            "Containment",
+            "Remediation",
+            "Brownfield"
+        ],
+        "right": [
+            "Waste disposal",
+            "Prevent spread",
+            "Cleanup",
+            "Redevelopment"
+        ]
+    },
+    {
+        "q": "The ______ engineering addresses waste and contamination problems.",
+        "type": "fill_blank",
+        "answers": [
+            "geoenvironmental"
+        ],
+        "other_options": [
+            "geotechnical",
+            "structural",
+            "civil"
+        ]
+    },
+    {
+        "q": "What is rock slope engineering?",
+        "type": "mcq",
+        "o": [
+            "Design and stabilization of slopes in rock masses",
+            "Only soil slopes",
+            "Only flat ground",
+            "No rock consideration"
+        ]
+    },
+    {
+        "q": "Arrange the rock slope failure types:",
+        "type": "rearrange",
+        "words": [
+            "Planar",
+            "Wedge",
+            "Toppling",
+            "Circular"
+        ]
+    },
+    {
+        "q": "Rock discontinuities control many slope failure modes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock failure with its geometry:",
+        "type": "match",
+        "left": [
+            "Planar",
+            "Wedge",
+            "Toppling",
+            "Circular"
+        ],
+        "right": [
+            "Single plane",
+            "Two planes",
+            "Rotation",
+            "Arc shaped"
+        ]
+    },
+    {
+        "q": "The ______ slope engineering designs stable excavations in rock.",
+        "type": "fill_blank",
+        "answers": [
+            "rock"
+        ],
+        "other_options": [
+            "soil",
+            "earth",
+            "ground"
+        ]
+    },
+    {
+        "q": "What is soft ground tunneling?",
+        "type": "mcq",
+        "o": [
+            "Tunneling through soil and weak rock requiring ground support",
+            "Only hard rock",
+            "No ground support",
+            "Open excavation"
+        ]
+    },
+    {
+        "q": "Shield tunneling provides continuous ground support in soft ground.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the soft ground method with its support mechanism:",
+        "type": "match",
+        "left": [
+            "Slurry TBM",
+            "EPB TBM",
+            "Compressed air",
+            "Freezing"
+        ],
+        "right": [
+            "Fluid pressure",
+            "Earth pressure",
+            "Air pressure",
+            "Ice support"
+        ]
+    },
+    {
+        "q": "The ______ ground tunneling requires continuous face support.",
+        "type": "fill_blank",
+        "answers": [
+            "soft"
+        ],
+        "other_options": [
+            "hard",
+            "rock",
+            "stable"
+        ]
+    },
+    {
+        "q": "What is deep excavation design?",
+        "type": "mcq",
+        "o": [
+            "Engineering analysis for excavations requiring lateral support",
+            "Only shallow excavation",
+            "No support needed",
+            "Only surface work"
+        ]
+    },
+    {
+        "q": "Arrange the deep excavation support systems:",
+        "type": "rearrange",
+        "words": [
+            "Sheet pile",
+            "Soldier pile",
+            "Diaphragm wall",
+            "Secant pile"
+        ]
+    },
+    {
+        "q": "Deep excavations require consideration of adjacent structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bracing system with its method:",
+        "type": "match",
+        "left": [
+            "Struts",
+            "Anchors",
+            "Top-down",
+            "Rakers"
+        ],
+        "right": [
+            "Internal support",
+            "External support",
+            "Progressive",
+            "Inclined supports"
+        ]
+    },
+    {
+        "q": "The ______ excavation requires lateral support systems.",
+        "type": "fill_blank",
+        "answers": [
+            "deep"
+        ],
+        "other_options": [
+            "shallow",
+            "surface",
+            "open"
+        ]
+    },
+    {
+        "q": "Geological engineering requires sound judgment based on experience.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Ground uncertainty must be recognized in geotechnical practice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Good geological engineering balances safety, economy, and sustainability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ground anchor testing?",
+        "type": "mcq",
+        "o": [
+            "Verification of anchor capacity through proof and acceptance tests",
+            "No testing needed",
+            "Visual inspection only",
+            "Calculation only"
+        ]
+    },
+    {
+        "q": "Proof testing loads anchors beyond design capacity to verify performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the anchor test with its purpose:",
+        "type": "match",
+        "left": [
+            "Proof test",
+            "Acceptance test",
+            "Creep test",
+            "Lift-off test"
+        ],
+        "right": [
+            "Design verification",
+            "Production QC",
+            "Long-term behavior",
+            "Lock-off load"
+        ]
+    },
+    {
+        "q": "The ______ test verifies anchor capacity exceeds design load.",
+        "type": "fill_blank",
+        "answers": [
+            "proof or performance"
+        ],
+        "other_options": [
+            "acceptance",
+            "creep",
+            "lift-off"
+        ]
+    },
+    {
+        "q": "What is micropile foundation?",
+        "type": "mcq",
+        "o": [
+            "Small diameter drilled and grouted pile for structural support",
+            "Large diameter pile",
+            "Driven pile only",
+            "Surface foundation"
+        ]
+    },
+    {
+        "q": "Arrange the micropile types:",
+        "type": "rearrange",
+        "words": [
+            "Type A gravity grout",
+            "Type B pressure grout",
+            "Type C post grout",
+            "Type D multiple post grout"
+        ]
+    },
+    {
+        "q": "Micropiles can be installed in restricted access conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the micropile type with its grouting:",
+        "type": "match",
+        "left": [
+            "Type A",
+            "Type B",
+            "Type C",
+            "Type D"
+        ],
+        "right": [
+            "Gravity",
+            "Pressure during withdrawal",
+            "Single post-grout",
+            "Multiple post-grout"
+        ]
+    },
+    {
+        "q": "The ______ are small diameter piles suitable for underpinning.",
+        "type": "fill_blank",
+        "answers": [
+            "micropiles"
+        ],
+        "other_options": [
+            "sheet piles",
+            "driven piles",
+            "caissons"
+        ]
+    },
+    {
+        "q": "What is helical pile?",
+        "type": "mcq",
+        "o": [
+            "Screw-in foundation with helical plates for soil bearing",
+            "Driven pile",
+            "Drilled shaft",
+            "Spread footing"
+        ]
+    },
+    {
+        "q": "Helical piles can be installed with minimal vibration and noise.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the helical pile component with its function:",
+        "type": "match",
+        "left": [
+            "Shaft",
+            "Helix plate",
+            "Lead section",
+            "Extension"
+        ],
+        "right": [
+            "Load transfer",
+            "Bearing",
+            "First installed",
+            "Added depth"
+        ]
+    },
+    {
+        "q": "The ______ piles are screwed into ground for foundation support.",
+        "type": "fill_blank",
+        "answers": [
+            "helical or screw"
+        ],
+        "other_options": [
+            "driven",
+            "drilled",
+            "cast"
+        ]
+    },
+    {
+        "q": "What is ground anchor corrosion protection?",
+        "type": "mcq",
+        "o": [
+            "Measures to prevent deterioration of anchor steel in aggressive environments",
+            "No protection needed",
+            "Only for temporary anchors",
+            "Surface treatment only"
+        ]
+    },
+    {
+        "q": "Arrange the corrosion protection levels:",
+        "type": "rearrange",
+        "words": [
+            "Class I (encapsulated)",
+            "Class II (grout protected)",
+            "Unprotected temporary"
+        ]
+    },
+    {
+        "q": "Permanent anchors require higher corrosion protection than temporary anchors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the protection method with its application:",
+        "type": "match",
+        "left": [
+            "Encapsulation",
+            "Grout cover",
+            "Epoxy coating",
+            "Galvanizing"
+        ],
+        "right": [
+            "Double corrosion protection",
+            "Single protection",
+            "Steel surface",
+            "Zinc coating"
+        ]
+    },
+    {
+        "q": "The ______ protection prevents anchor steel deterioration.",
+        "type": "fill_blank",
+        "answers": [
+            "corrosion"
+        ],
+        "other_options": [
+            "thermal",
+            "mechanical",
+            "chemical"
+        ]
+    },
+    {
+        "q": "Geological engineering is a rewarding profession serving society.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Continuous learning is essential for geological engineering professionals.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

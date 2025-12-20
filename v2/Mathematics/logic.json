@@ -1,0 +1,6679 @@
+[
+    {
+        "q": "What is propositional logic?",
+        "type": "mcq",
+        "o": [
+            "A branch of logic dealing with propositions that can be true or false",
+            "Mathematical calculus",
+            "Set theory only",
+            "Number theory"
+        ]
+    },
+    {
+        "q": "A proposition is a statement that is either ______ or false.",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "maybe",
+            "always",
+            "never"
+        ]
+    },
+    {
+        "q": "The statement 'x + 2 = 5' is a proposition if x is specified.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logical term:",
+        "type": "match",
+        "left": [
+            "Proposition",
+            "Predicate",
+            "Connective",
+            "Quantifier"
+        ],
+        "right": [
+            "True/false statement",
+            "Statement with variable",
+            "AND, OR, NOT",
+            "For all, exists"
+        ]
+    },
+    {
+        "q": "Rearrange logical complexity:",
+        "type": "rearrange",
+        "words": [
+            "Atomic proposition",
+            "Compound proposition",
+            "Predicate logic",
+            "First-order logic"
+        ]
+    },
+    {
+        "q": "What is negation in logic?",
+        "type": "mcq",
+        "o": [
+            "The NOT operator that reverses the truth value",
+            "Addition",
+            "Multiplication",
+            "Division"
+        ]
+    },
+    {
+        "q": "The negation of P is written as NOT P or ______P.",
+        "type": "fill_blank",
+        "answers": [
+            "~"
+        ],
+        "other_options": [
+            "+",
+            "-",
+            "/"
+        ]
+    },
+    {
+        "q": "If P is true, then NOT P is false.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the negation:",
+        "type": "match",
+        "left": [
+            "~True",
+            "~False",
+            "~~P",
+            "~(P AND Q)"
+        ],
+        "right": [
+            "False",
+            "True",
+            "P",
+            "~P OR ~Q"
+        ]
+    },
+    {
+        "q": "Rearrange double negation:",
+        "type": "rearrange",
+        "words": [
+            "P is true",
+            "~P is false",
+            "~~P is true",
+            "Same as P"
+        ]
+    },
+    {
+        "q": "What is logical conjunction (AND)?",
+        "type": "mcq",
+        "o": [
+            "True only when both operands are true",
+            "True when at least one is true",
+            "True when both are false",
+            "Always true"
+        ]
+    },
+    {
+        "q": "P AND Q is true only if both P and Q are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "false",
+            "unknown",
+            "mixed"
+        ]
+    },
+    {
+        "q": "True AND False equals False.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the AND result:",
+        "type": "match",
+        "left": [
+            "T AND T",
+            "T AND F",
+            "F AND T",
+            "F AND F"
+        ],
+        "right": [
+            "T",
+            "F",
+            "F",
+            "F"
+        ]
+    },
+    {
+        "q": "Rearrange AND truth table:",
+        "type": "rearrange",
+        "words": [
+            "F AND F = F",
+            "F AND T = F",
+            "T AND F = F",
+            "T AND T = T"
+        ]
+    },
+    {
+        "q": "What is logical disjunction (OR)?",
+        "type": "mcq",
+        "o": [
+            "True when at least one operand is true",
+            "True only when both are true",
+            "True only when both are false",
+            "Always false"
+        ]
+    },
+    {
+        "q": "P OR Q is true if at least ______ is true.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "two",
+            "none",
+            "all"
+        ]
+    },
+    {
+        "q": "False OR False equals False.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the OR result:",
+        "type": "match",
+        "left": [
+            "T OR T",
+            "T OR F",
+            "F OR T",
+            "F OR F"
+        ],
+        "right": [
+            "T",
+            "T",
+            "T",
+            "F"
+        ]
+    },
+    {
+        "q": "Rearrange OR truth table:",
+        "type": "rearrange",
+        "words": [
+            "F OR F = F",
+            "F OR T = T",
+            "T OR F = T",
+            "T OR T = T"
+        ]
+    },
+    {
+        "q": "What is exclusive OR (XOR)?",
+        "type": "mcq",
+        "o": [
+            "True when exactly one operand is true, not both",
+            "Same as OR",
+            "Same as AND",
+            "Always true"
+        ]
+    },
+    {
+        "q": "P XOR Q is true when P and Q have ______ truth values.",
+        "type": "fill_blank",
+        "answers": [
+            "different"
+        ],
+        "other_options": [
+            "same",
+            "unknown",
+            "no"
+        ]
+    },
+    {
+        "q": "True XOR True equals False.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the XOR result:",
+        "type": "match",
+        "left": [
+            "T XOR T",
+            "T XOR F",
+            "F XOR T",
+            "F XOR F"
+        ],
+        "right": [
+            "F",
+            "T",
+            "T",
+            "F"
+        ]
+    },
+    {
+        "q": "Rearrange XOR properties:",
+        "type": "rearrange",
+        "words": [
+            "Same inputs = False",
+            "Different inputs = True",
+            "P XOR P = False",
+            "P XOR ~P = True"
+        ]
+    },
+    {
+        "q": "What is logical implication (IF...THEN)?",
+        "type": "mcq",
+        "o": [
+            "P implies Q: false only when P is true and Q is false",
+            "Same as AND",
+            "Same as OR",
+            "Always true"
+        ]
+    },
+    {
+        "q": "P -> Q is false only when P is true and Q is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "false"
+        ],
+        "other_options": [
+            "true",
+            "unknown",
+            "P"
+        ]
+    },
+    {
+        "q": "False implies anything is always true (vacuously true).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the implication result:",
+        "type": "match",
+        "left": [
+            "T -> T",
+            "T -> F",
+            "F -> T",
+            "F -> F"
+        ],
+        "right": [
+            "T",
+            "F",
+            "T",
+            "T"
+        ]
+    },
+    {
+        "q": "Rearrange implication truth:",
+        "type": "rearrange",
+        "words": [
+            "F -> F = T",
+            "F -> T = T",
+            "T -> T = T",
+            "T -> F = F"
+        ]
+    },
+    {
+        "q": "What is logical equivalence (biconditional)?",
+        "type": "mcq",
+        "o": [
+            "P if and only if Q: true when both have the same truth value",
+            "One-way implication",
+            "Same as XOR",
+            "Same as OR"
+        ]
+    },
+    {
+        "q": "P <-> Q is true when P and Q have the ______ truth value.",
+        "type": "fill_blank",
+        "answers": [
+            "same"
+        ],
+        "other_options": [
+            "different",
+            "unknown",
+            "opposite"
+        ]
+    },
+    {
+        "q": "True if and only if True equals True.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the biconditional:",
+        "type": "match",
+        "left": [
+            "T <-> T",
+            "T <-> F",
+            "F <-> T",
+            "F <-> F"
+        ],
+        "right": [
+            "T",
+            "F",
+            "F",
+            "T"
+        ]
+    },
+    {
+        "q": "Rearrange biconditional properties:",
+        "type": "rearrange",
+        "words": [
+            "P <-> Q means (P->Q) AND (Q->P)",
+            "Same values = True",
+            "Different values = False",
+            "Equivalent to XNOR"
+        ]
+    },
+    {
+        "q": "What is a tautology?",
+        "type": "mcq",
+        "o": [
+            "A compound proposition that is always true regardless of component truth values",
+            "A contradiction",
+            "A contingency",
+            "A predicate"
+        ]
+    },
+    {
+        "q": "P OR ~P is a ______ (always true).",
+        "type": "fill_blank",
+        "answers": [
+            "tautology"
+        ],
+        "other_options": [
+            "contradiction",
+            "contingency",
+            "variable"
+        ]
+    },
+    {
+        "q": "A tautology is true for all possible truth value assignments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the proposition type:",
+        "type": "match",
+        "left": [
+            "Tautology",
+            "Contradiction",
+            "Contingency",
+            "Atomic"
+        ],
+        "right": [
+            "Always true",
+            "Always false",
+            "Sometimes true",
+            "Simple proposition"
+        ]
+    },
+    {
+        "q": "Rearrange proposition types:",
+        "type": "rearrange",
+        "words": [
+            "Atomic (simple)",
+            "Compound",
+            "Contingency (may vary)",
+            "Tautology/Contradiction (fixed)"
+        ]
+    },
+    {
+        "q": "What is a contradiction?",
+        "type": "mcq",
+        "o": [
+            "A compound proposition that is always false",
+            "A tautology",
+            "A contingency",
+            "An implication"
+        ]
+    },
+    {
+        "q": "P AND ~P is a ______ (always false).",
+        "type": "fill_blank",
+        "answers": [
+            "contradiction"
+        ],
+        "other_options": [
+            "tautology",
+            "contingency",
+            "axiom"
+        ]
+    },
+    {
+        "q": "A contradiction has no satisfying assignment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the formula:",
+        "type": "match",
+        "left": [
+            "P OR ~P",
+            "P AND ~P",
+            "P",
+            "P -> P"
+        ],
+        "right": [
+            "Tautology",
+            "Contradiction",
+            "Contingency",
+            "Tautology"
+        ]
+    },
+    {
+        "q": "Rearrange from always false to always true:",
+        "type": "rearrange",
+        "words": [
+            "Contradiction (always F)",
+            "Contingency (varies)",
+            "Tautology (always T)"
+        ]
+    },
+    {
+        "q": "What is De Morgan's law?",
+        "type": "mcq",
+        "o": [
+            "~(P AND Q) = ~P OR ~Q and ~(P OR Q) = ~P AND ~Q",
+            "P AND Q = P OR Q",
+            "~P = P",
+            "P -> Q = Q -> P"
+        ]
+    },
+    {
+        "q": "De Morgan: ~(P OR Q) = ~P ______ ~Q.",
+        "type": "fill_blank",
+        "answers": [
+            "AND"
+        ],
+        "other_options": [
+            "OR",
+            "XOR",
+            "IMPLIES"
+        ]
+    },
+    {
+        "q": "De Morgan's laws distribute negation over AND and OR.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match De Morgan's law:",
+        "type": "match",
+        "left": [
+            "~(P AND Q)",
+            "~(P OR Q)",
+            "~(~P)",
+            "~(P -> Q)"
+        ],
+        "right": [
+            "~P OR ~Q",
+            "~P AND ~Q",
+            "P",
+            "P AND ~Q"
+        ]
+    },
+    {
+        "q": "Rearrange De Morgan transformation:",
+        "type": "rearrange",
+        "words": [
+            "Original: ~(P AND Q)",
+            "Negate operator",
+            "Negate operands",
+            "Result: ~P OR ~Q"
+        ]
+    },
+    {
+        "q": "What is the contrapositive?",
+        "type": "mcq",
+        "o": [
+            "~Q -> ~P, logically equivalent to P -> Q",
+            "Q -> P",
+            "P -> Q",
+            "~P -> ~Q"
+        ]
+    },
+    {
+        "q": "The contrapositive of P -> Q is ~Q -> ______.",
+        "type": "fill_blank",
+        "answers": [
+            "~P"
+        ],
+        "other_options": [
+            "P",
+            "Q",
+            "~Q"
+        ]
+    },
+    {
+        "q": "A statement and its contrapositive are logically equivalent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the related statement:",
+        "type": "match",
+        "left": [
+            "P -> Q",
+            "Q -> P",
+            "~P -> ~Q",
+            "~Q -> ~P"
+        ],
+        "right": [
+            "Original",
+            "Converse",
+            "Inverse",
+            "Contrapositive"
+        ]
+    },
+    {
+        "q": "Rearrange implication forms:",
+        "type": "rearrange",
+        "words": [
+            "Original: P -> Q",
+            "Converse: Q -> P",
+            "Inverse: ~P -> ~Q",
+            "Contrapositive: ~Q -> ~P"
+        ]
+    },
+    {
+        "q": "What is a set?",
+        "type": "mcq",
+        "o": [
+            "A collection of distinct objects considered as a whole",
+            "A single number",
+            "A function",
+            "An equation"
+        ]
+    },
+    {
+        "q": "Sets are typically denoted with ______ letters like A, B, C.",
+        "type": "fill_blank",
+        "answers": [
+            "capital"
+        ],
+        "other_options": [
+            "lowercase",
+            "Greek",
+            "script"
+        ]
+    },
+    {
+        "q": "The set {1, 2, 3} and {3, 2, 1} are equal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the set notation:",
+        "type": "match",
+        "left": [
+            "{1, 2, 3}",
+            "x in A",
+            "empty set",
+            "|A|"
+        ],
+        "right": [
+            "Roster notation",
+            "x is element of A",
+            "{} or ∅",
+            "Cardinality"
+        ]
+    },
+    {
+        "q": "Rearrange set concepts:",
+        "type": "rearrange",
+        "words": [
+            "Define set",
+            "List elements",
+            "Check membership",
+            "Count elements (cardinality)"
+        ]
+    },
+    {
+        "q": "What is set union?",
+        "type": "mcq",
+        "o": [
+            "A ∪ B: elements in A or B or both",
+            "Elements in both A and B only",
+            "Elements in A but not B",
+            "No elements"
+        ]
+    },
+    {
+        "q": "A ∪ B contains all elements in A ______ B.",
+        "type": "fill_blank",
+        "answers": [
+            "or"
+        ],
+        "other_options": [
+            "and",
+            "minus",
+            "times"
+        ]
+    },
+    {
+        "q": "{1, 2} ∪ {2, 3} = {1, 2, 3}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the set operation:",
+        "type": "match",
+        "left": [
+            "A ∪ B",
+            "A ∩ B",
+            "A - B",
+            "A'"
+        ],
+        "right": [
+            "Union",
+            "Intersection",
+            "Difference",
+            "Complement"
+        ]
+    },
+    {
+        "q": "Rearrange set operations by inclusiveness:",
+        "type": "rearrange",
+        "words": [
+            "A ∩ B (least)",
+            "A",
+            "A ∪ B",
+            "Universal set (most)"
+        ]
+    },
+    {
+        "q": "What is set intersection?",
+        "type": "mcq",
+        "o": [
+            "A ∩ B: elements in both A and B",
+            "Elements in A or B",
+            "Elements only in A",
+            "Empty set"
+        ]
+    },
+    {
+        "q": "A ∩ B contains only elements common to ______ sets.",
+        "type": "fill_blank",
+        "answers": [
+            "both"
+        ],
+        "other_options": [
+            "one",
+            "no",
+            "all"
+        ]
+    },
+    {
+        "q": "{1, 2, 3} ∩ {2, 3, 4} = {2, 3}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the intersection result:",
+        "type": "match",
+        "left": [
+            "{1,2} ∩ {2,3}",
+            "{1,2} ∩ {3,4}",
+            "A ∩ A",
+            "A ∩ ∅"
+        ],
+        "right": [
+            "{2}",
+            "∅",
+            "A",
+            "∅"
+        ]
+    },
+    {
+        "q": "Rearrange intersection properties:",
+        "type": "rearrange",
+        "words": [
+            "A ∩ B ⊆ A",
+            "A ∩ B ⊆ B",
+            "A ∩ A = A",
+            "A ∩ ∅ = ∅"
+        ]
+    },
+    {
+        "q": "What is set difference?",
+        "type": "mcq",
+        "o": [
+            "A - B: elements in A but not in B",
+            "Elements in both",
+            "Elements in B but not A",
+            "Union"
+        ]
+    },
+    {
+        "q": "A - B removes elements of ______ from A.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "A",
+            "C",
+            "∅"
+        ]
+    },
+    {
+        "q": "{1, 2, 3} - {2, 3} = {1}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the difference:",
+        "type": "match",
+        "left": [
+            "{1,2,3} - {2}",
+            "A - A",
+            "A - ∅",
+            "∅ - A"
+        ],
+        "right": [
+            "{1,3}",
+            "∅",
+            "A",
+            "∅"
+        ]
+    },
+    {
+        "q": "Rearrange set difference:",
+        "type": "rearrange",
+        "words": [
+            "Start with A",
+            "Remove elements in B",
+            "Keep remaining",
+            "Result: A - B"
+        ]
+    },
+    {
+        "q": "What is set complement?",
+        "type": "mcq",
+        "o": [
+            "A': all elements in the universal set U not in A",
+            "A itself",
+            "Empty set",
+            "Union with B"
+        ]
+    },
+    {
+        "q": "A' = U - ______ (universal set minus A).",
+        "type": "fill_blank",
+        "answers": [
+            "A"
+        ],
+        "other_options": [
+            "B",
+            "U",
+            "∅"
+        ]
+    },
+    {
+        "q": "The complement of a set depends on the universal set.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the complement property:",
+        "type": "match",
+        "left": [
+            "A ∪ A'",
+            "A ∩ A'",
+            "(A')'",
+            "∅'"
+        ],
+        "right": [
+            "U",
+            "∅",
+            "A",
+            "U"
+        ]
+    },
+    {
+        "q": "Rearrange complement laws:",
+        "type": "rearrange",
+        "words": [
+            "A ∪ A' = U",
+            "A ∩ A' = ∅",
+            "(A')' = A",
+            "De Morgan applies"
+        ]
+    },
+    {
+        "q": "What is a subset?",
+        "type": "mcq",
+        "o": [
+            "A ⊆ B: every element of A is also in B",
+            "A contains B",
+            "A equals B",
+            "A and B are disjoint"
+        ]
+    },
+    {
+        "q": "A ⊆ B means A is a ______ of B.",
+        "type": "fill_blank",
+        "answers": [
+            "subset"
+        ],
+        "other_options": [
+            "superset",
+            "complement",
+            "union"
+        ]
+    },
+    {
+        "q": "{1, 2} ⊆ {1, 2, 3} is true.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the relationship:",
+        "type": "match",
+        "left": [
+            "A ⊆ B",
+            "A ⊂ B",
+            "A = B",
+            "A ⊇ B"
+        ],
+        "right": [
+            "Subset or equal",
+            "Proper subset",
+            "Same elements",
+            "Superset or equal"
+        ]
+    },
+    {
+        "q": "Rearrange subset relationships:",
+        "type": "rearrange",
+        "words": [
+            "∅ ⊆ A",
+            "A ⊆ A",
+            "A ⊂ B (proper)",
+            "A = B (equality)"
+        ]
+    },
+    {
+        "q": "What is the power set?",
+        "type": "mcq",
+        "o": [
+            "P(A): the set of all subsets of A, including ∅ and A itself",
+            "A squared",
+            "Union of all sets",
+            "Complement of A"
+        ]
+    },
+    {
+        "q": "If |A| = n, then |P(A)| = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2^n"
+        ],
+        "other_options": [
+            "n",
+            "n^2",
+            "n!"
+        ]
+    },
+    {
+        "q": "The power set of {1, 2} has 4 elements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the power set:",
+        "type": "match",
+        "left": [
+            "P({a})",
+            "P({a,b})",
+            "P(∅)",
+            "|P(A)|"
+        ],
+        "right": [
+            "{∅, {a}}",
+            "{∅, {a}, {b}, {a,b}}",
+            "{∅}",
+            "2^|A|"
+        ]
+    },
+    {
+        "q": "Rearrange power set size:",
+        "type": "rearrange",
+        "words": [
+            "|A|=0 -> |P(A)|=1",
+            "|A|=1 -> |P(A)|=2",
+            "|A|=2 -> |P(A)|=4",
+            "|A|=3 -> |P(A)|=8"
+        ]
+    },
+    {
+        "q": "What is the Cartesian product?",
+        "type": "mcq",
+        "o": [
+            "A × B: set of all ordered pairs (a, b) where a ∈ A and b ∈ B",
+            "Union of A and B",
+            "Intersection",
+            "Power set"
+        ]
+    },
+    {
+        "q": "A × B has |A| * |______| elements.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "A",
+            "C",
+            "∅"
+        ]
+    },
+    {
+        "q": "{1} × {a, b} = {(1, a), (1, b)}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Cartesian product:",
+        "type": "match",
+        "left": [
+            "{1,2} × {a}",
+            "A × ∅",
+            "A × A",
+            "|A × B|"
+        ],
+        "right": [
+            "{(1,a), (2,a)}",
+            "∅",
+            "A squared",
+            "|A| * |B|"
+        ]
+    },
+    {
+        "q": "Rearrange Cartesian product:",
+        "type": "rearrange",
+        "words": [
+            "Take element from A",
+            "Pair with each element of B",
+            "Collect all pairs",
+            "Result is A × B"
+        ]
+    },
+    {
+        "q": "What is the universal quantifier?",
+        "type": "mcq",
+        "o": [
+            "∀x (for all x): the statement holds for every x in the domain",
+            "There exists",
+            "Not",
+            "And"
+        ]
+    },
+    {
+        "q": "∀x P(x) means P(x) is true for ______ x.",
+        "type": "fill_blank",
+        "answers": [
+            "all"
+        ],
+        "other_options": [
+            "some",
+            "no",
+            "one"
+        ]
+    },
+    {
+        "q": "∀x (x > 0) is false if any x <= 0 exists in the domain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quantifier:",
+        "type": "match",
+        "left": [
+            "∀",
+            "∃",
+            "∃!",
+            "~∀"
+        ],
+        "right": [
+            "For all",
+            "There exists",
+            "There exists exactly one",
+            "Not for all"
+        ]
+    },
+    {
+        "q": "Rearrange quantifier negation:",
+        "type": "rearrange",
+        "words": [
+            "Original: ∀x P(x)",
+            "Negation: ~∀x P(x)",
+            "Equivalent: ∃x ~P(x)",
+            "Some x fails P"
+        ]
+    },
+    {
+        "q": "What is the existential quantifier?",
+        "type": "mcq",
+        "o": [
+            "∃x (there exists x): the statement holds for at least one x",
+            "For all x",
+            "For no x",
+            "Implies"
+        ]
+    },
+    {
+        "q": "∃x P(x) is true if at least ______ satisfies P.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "all",
+            "none",
+            "two"
+        ]
+    },
+    {
+        "q": "∃x (x = 0) is true if 0 is in the domain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quantified statement:",
+        "type": "match",
+        "left": [
+            "∀x P(x)",
+            "∃x P(x)",
+            "~∃x P(x)",
+            "∃!x P(x)"
+        ],
+        "right": [
+            "All satisfy P",
+            "At least one satisfies",
+            "None satisfy",
+            "Exactly one satisfies"
+        ]
+    },
+    {
+        "q": "Rearrange existential negation:",
+        "type": "rearrange",
+        "words": [
+            "Original: ∃x P(x)",
+            "Negation: ~∃x P(x)",
+            "Equivalent: ∀x ~P(x)",
+            "No x satisfies P"
+        ]
+    },
+    {
+        "q": "What is a proof by direct method?",
+        "type": "mcq",
+        "o": [
+            "Assuming P and showing Q follows directly to prove P -> Q",
+            "Assuming ~Q",
+            "Proof by contradiction",
+            "Proof by induction"
+        ]
+    },
+    {
+        "q": "Direct proof: Assume P, then derive ______ step by step.",
+        "type": "fill_blank",
+        "answers": [
+            "Q"
+        ],
+        "other_options": [
+            "P",
+            "~P",
+            "~Q"
+        ]
+    },
+    {
+        "q": "Direct proofs start from the hypothesis and work toward the conclusion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the proof method:",
+        "type": "match",
+        "left": [
+            "Direct",
+            "Contrapositive",
+            "Contradiction",
+            "Induction"
+        ],
+        "right": [
+            "Assume P, show Q",
+            "Assume ~Q, show ~P",
+            "Assume ~Q and P, derive false",
+            "Base + inductive step"
+        ]
+    },
+    {
+        "q": "Rearrange direct proof:",
+        "type": "rearrange",
+        "words": [
+            "Assume hypothesis P",
+            "Apply definitions/theorems",
+            "Derive intermediate steps",
+            "Conclude Q"
+        ]
+    },
+    {
+        "q": "What is proof by contrapositive?",
+        "type": "mcq",
+        "o": [
+            "Proving ~Q -> ~P instead of P -> Q (logically equivalent)",
+            "Proving P -> Q directly",
+            "Using contradiction",
+            "Using induction"
+        ]
+    },
+    {
+        "q": "Contrapositive proof assumes ______ and derives ~P.",
+        "type": "fill_blank",
+        "answers": [
+            "~Q"
+        ],
+        "other_options": [
+            "Q",
+            "P",
+            "~P"
+        ]
+    },
+    {
+        "q": "Proof by contrapositive is equivalent to direct proof.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logical equivalence:",
+        "type": "match",
+        "left": [
+            "P -> Q",
+            "~Q -> ~P",
+            "~(P -> Q)",
+            "P <-> Q"
+        ],
+        "right": [
+            "Original",
+            "Contrapositive",
+            "P AND ~Q",
+            "(P->Q) AND (Q->P)"
+        ]
+    },
+    {
+        "q": "Rearrange contrapositive proof:",
+        "type": "rearrange",
+        "words": [
+            "To prove P -> Q",
+            "Assume ~Q",
+            "Derive ~P",
+            "Conclude P -> Q"
+        ]
+    },
+    {
+        "q": "What is proof by contradiction?",
+        "type": "mcq",
+        "o": [
+            "Assuming the negation of what you want to prove, then deriving a contradiction",
+            "Direct proof",
+            "Contrapositive proof",
+            "Exhaustive proof"
+        ]
+    },
+    {
+        "q": "Contradiction proof: assume ~P and derive a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "contradiction"
+        ],
+        "other_options": [
+            "truth",
+            "theorem",
+            "lemma"
+        ]
+    },
+    {
+        "q": "A contradiction means the assumption must be false.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the contradiction form:",
+        "type": "match",
+        "left": [
+            "R AND ~R",
+            "True AND False",
+            "0 = 1",
+            "∅ ≠ ∅"
+        ],
+        "right": [
+            "Contradiction",
+            "Contradiction",
+            "Contradiction",
+            "Contradiction"
+        ]
+    },
+    {
+        "q": "Rearrange proof by contradiction:",
+        "type": "rearrange",
+        "words": [
+            "To prove P",
+            "Assume ~P",
+            "Derive contradiction",
+            "Conclude P is true"
+        ]
+    },
+    {
+        "q": "What is mathematical induction?",
+        "type": "mcq",
+        "o": [
+            "Proving a statement for all natural numbers using base case and inductive step",
+            "Direct proof only",
+            "Contradiction",
+            "Contrapositive"
+        ]
+    },
+    {
+        "q": "Induction has two parts: ______ case and inductive step.",
+        "type": "fill_blank",
+        "answers": [
+            "base"
+        ],
+        "other_options": [
+            "final",
+            "middle",
+            "random"
+        ]
+    },
+    {
+        "q": "The inductive hypothesis assumes P(k) to prove P(k+1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the induction step:",
+        "type": "match",
+        "left": [
+            "Base case",
+            "Inductive hypothesis",
+            "Inductive step",
+            "Conclusion"
+        ],
+        "right": [
+            "Prove P(1)",
+            "Assume P(k)",
+            "Prove P(k+1)",
+            "P holds for all n"
+        ]
+    },
+    {
+        "q": "Rearrange mathematical induction:",
+        "type": "rearrange",
+        "words": [
+            "Prove base case P(1)",
+            "Assume P(k) is true",
+            "Prove P(k+1) using P(k)",
+            "Conclude for all n"
+        ]
+    },
+    {
+        "q": "What is strong induction?",
+        "type": "mcq",
+        "o": [
+            "Assuming P(1), P(2), ..., P(k) to prove P(k+1)",
+            "Only assuming P(k)",
+            "No base case needed",
+            "Same as contradiction"
+        ]
+    },
+    {
+        "q": "Strong induction assumes all previous cases up to ______ to prove P(k+1).",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "1",
+            "k+1",
+            "n"
+        ]
+    },
+    {
+        "q": "Strong induction is logically equivalent to weak induction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the induction type:",
+        "type": "match",
+        "left": [
+            "Weak",
+            "Strong",
+            "Structural",
+            "Transfinite"
+        ],
+        "right": [
+            "Use P(k) only",
+            "Use P(1)...P(k)",
+            "For recursive structures",
+            "For ordinals"
+        ]
+    },
+    {
+        "q": "Rearrange induction strength:",
+        "type": "rearrange",
+        "words": [
+            "Weak (P(k) only)",
+            "Strong (all up to k)",
+            "Same logical power",
+            "Choose based on convenience"
+        ]
+    },
+    {
+        "q": "What is a relation in set theory?",
+        "type": "mcq",
+        "o": [
+            "A subset of A × B, specifying which pairs are related",
+            "A function only",
+            "A number",
+            "An operator"
+        ]
+    },
+    {
+        "q": "A relation R from A to B is a subset of A × ______.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "A",
+            "R",
+            "∅"
+        ]
+    },
+    {
+        "q": "Relations can be represented as sets of ordered pairs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the relation notation:",
+        "type": "match",
+        "left": [
+            "(a, b) ∈ R",
+            "aRb",
+            "R ⊆ A × A",
+            "R^(-1)"
+        ],
+        "right": [
+            "a related to b",
+            "Same as (a,b) ∈ R",
+            "Binary relation on A",
+            "Inverse relation"
+        ]
+    },
+    {
+        "q": "Rearrange relation types:",
+        "type": "rearrange",
+        "words": [
+            "Binary relation (on pairs)",
+            "Ternary (on triples)",
+            "n-ary (on n-tuples)",
+            "Most common: binary"
+        ]
+    },
+    {
+        "q": "What is a reflexive relation?",
+        "type": "mcq",
+        "o": [
+            "∀x: xRx (every element is related to itself)",
+            "Never relates to itself",
+            "Only distinct elements",
+            "Same as symmetric"
+        ]
+    },
+    {
+        "q": "Reflexive: for all x in A, ______ is in R.",
+        "type": "fill_blank",
+        "answers": [
+            "(x,x)"
+        ],
+        "other_options": [
+            "(x,y)",
+            "(y,x)",
+            "(1,1)"
+        ]
+    },
+    {
+        "q": "The 'less than or equal' relation (≤) is reflexive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the relation property:",
+        "type": "match",
+        "left": [
+            "Reflexive",
+            "Irreflexive",
+            "Symmetric",
+            "Antisymmetric"
+        ],
+        "right": [
+            "xRx for all x",
+            "Never xRx",
+            "xRy implies yRx",
+            "xRy and yRx implies x=y"
+        ]
+    },
+    {
+        "q": "Rearrange reflexivity examples:",
+        "type": "rearrange",
+        "words": [
+            "= is reflexive",
+            "≤ is reflexive",
+            "< is irreflexive",
+            "≠ is irreflexive"
+        ]
+    },
+    {
+        "q": "What is a symmetric relation?",
+        "type": "mcq",
+        "o": [
+            "xRy implies yRx for all x, y",
+            "xRy implies yRy",
+            "xRy implies xRx",
+            "Only one direction"
+        ]
+    },
+    {
+        "q": "Symmetric means if (x,y) ∈ R, then (y,______) ∈ R.",
+        "type": "fill_blank",
+        "answers": [
+            "x"
+        ],
+        "other_options": [
+            "y",
+            "z",
+            "w"
+        ]
+    },
+    {
+        "q": "Equality (=) is symmetric: a = b implies b = a.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match symmetric relations:",
+        "type": "match",
+        "left": [
+            "=",
+            "≠",
+            "≤",
+            "<"
+        ],
+        "right": [
+            "Symmetric",
+            "Symmetric",
+            "Not symmetric",
+            "Not symmetric"
+        ]
+    },
+    {
+        "q": "Rearrange symmetry check:",
+        "type": "rearrange",
+        "words": [
+            "Take any (x,y) in R",
+            "Check if (y,x) in R",
+            "If always yes: symmetric",
+            "If any fails: not symmetric"
+        ]
+    },
+    {
+        "q": "What is a transitive relation?",
+        "type": "mcq",
+        "o": [
+            "xRy and yRz implies xRz for all x, y, z",
+            "xRy implies yRx",
+            "xRx for all x",
+            "No chain property"
+        ]
+    },
+    {
+        "q": "Transitive: if aRb and bRc, then ______Rc.",
+        "type": "fill_blank",
+        "answers": [
+            "a"
+        ],
+        "other_options": [
+            "b",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "q": "Less than (<) is transitive: a < b and b < c implies a < c.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match transitivity examples:",
+        "type": "match",
+        "left": [
+            "<",
+            "≤",
+            "=",
+            "is sibling of"
+        ],
+        "right": [
+            "Transitive",
+            "Transitive",
+            "Transitive",
+            "Not transitive"
+        ]
+    },
+    {
+        "q": "Rearrange transitivity check:",
+        "type": "rearrange",
+        "words": [
+            "Find (a,b) in R",
+            "Find (b,c) in R",
+            "Check if (a,c) in R",
+            "If always yes: transitive"
+        ]
+    },
+    {
+        "q": "What is an equivalence relation?",
+        "type": "mcq",
+        "o": [
+            "A relation that is reflexive, symmetric, and transitive",
+            "Only reflexive",
+            "Only symmetric",
+            "Only transitive"
+        ]
+    },
+    {
+        "q": "Equivalence relations partition a set into ______ classes.",
+        "type": "fill_blank",
+        "answers": [
+            "equivalence"
+        ],
+        "other_options": [
+            "empty",
+            "random",
+            "single"
+        ]
+    },
+    {
+        "q": "Equality (=) is an equivalence relation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the equivalence property:",
+        "type": "match",
+        "left": [
+            "Reflexive",
+            "Symmetric",
+            "Transitive",
+            "All three"
+        ],
+        "right": [
+            "xRx",
+            "xRy -> yRx",
+            "xRy, yRz -> xRz",
+            "Equivalence relation"
+        ]
+    },
+    {
+        "q": "Rearrange equivalence checking:",
+        "type": "rearrange",
+        "words": [
+            "Check reflexive",
+            "Check symmetric",
+            "Check transitive",
+            "All pass = equivalence"
+        ]
+    },
+    {
+        "q": "What is an equivalence class?",
+        "type": "mcq",
+        "o": [
+            "[a] = {x : xRa}, all elements equivalent to a",
+            "A single element",
+            "The empty set",
+            "The universal set"
+        ]
+    },
+    {
+        "q": "Equivalence classes ______ the set (no overlap, cover all).",
+        "type": "fill_blank",
+        "answers": [
+            "partition"
+        ],
+        "other_options": [
+            "double",
+            "empty",
+            "randomize"
+        ]
+    },
+    {
+        "q": "Two equivalence classes are either equal or disjoint.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the partition property:",
+        "type": "match",
+        "left": [
+            "[a] = [b]",
+            "[a] ∩ [b] = ∅",
+            "∪ of all classes",
+            "Representative"
+        ],
+        "right": [
+            "If aRb",
+            "If not aRb",
+            "Entire set",
+            "Any element of class"
+        ]
+    },
+    {
+        "q": "Rearrange partition formation:",
+        "type": "rearrange",
+        "words": [
+            "Start with equivalence relation",
+            "Group related elements",
+            "Form equivalence classes",
+            "Partition complete"
+        ]
+    },
+    {
+        "q": "What is a partial order?",
+        "type": "mcq",
+        "o": [
+            "A relation that is reflexive, antisymmetric, and transitive",
+            "Reflexive and symmetric",
+            "Symmetric and transitive",
+            "Just reflexive"
+        ]
+    },
+    {
+        "q": "A partial order is also called a ______ set when combined with a set.",
+        "type": "fill_blank",
+        "answers": [
+            "poset"
+        ],
+        "other_options": [
+            "group",
+            "ring",
+            "field"
+        ]
+    },
+    {
+        "q": "The subset relation (⊆) is a partial order on sets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the order property:",
+        "type": "match",
+        "left": [
+            "Reflexive",
+            "Antisymmetric",
+            "Transitive",
+            "Total"
+        ],
+        "right": [
+            "a ≤ a",
+            "a≤b and b≤a -> a=b",
+            "a≤b and b≤c -> a≤c",
+            "Any two comparable"
+        ]
+    },
+    {
+        "q": "Rearrange partial order examples:",
+        "type": "rearrange",
+        "words": [
+            "≤ on numbers",
+            "⊆ on sets",
+            "Divisibility on integers",
+            "All are partial orders"
+        ]
+    },
+    {
+        "q": "What is a total order?",
+        "type": "mcq",
+        "o": [
+            "A partial order where any two elements are comparable",
+            "A partial order only",
+            "An equivalence relation",
+            "No ordering"
+        ]
+    },
+    {
+        "q": "In a total order, for any a, b: either a ≤ b or b ≤ ______.",
+        "type": "fill_blank",
+        "answers": [
+            "a"
+        ],
+        "other_options": [
+            "c",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "The standard ≤ on real numbers is a total order.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the order type:",
+        "type": "match",
+        "left": [
+            "Partial",
+            "Total",
+            "Well-order",
+            "Strict"
+        ],
+        "right": [
+            "Some incomparable",
+            "All comparable",
+            "Every subset has minimum",
+            "< instead of ≤"
+        ]
+    },
+    {
+        "q": "Rearrange order strength:",
+        "type": "rearrange",
+        "words": [
+            "Partial (weakest)",
+            "Total (stronger)",
+            "Well-order (strongest)",
+            "Subset relation ⊆"
+        ]
+    },
+    {
+        "q": "What is a function?",
+        "type": "mcq",
+        "o": [
+            "A relation where each element in the domain maps to exactly one element in the codomain",
+            "Any relation",
+            "A set only",
+            "A number"
+        ]
+    },
+    {
+        "q": "A function f: A -> B maps each element of A to exactly ______ element of B.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "zero",
+            "many",
+            "two"
+        ]
+    },
+    {
+        "q": "Functions are also called mappings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the function term:",
+        "type": "match",
+        "left": [
+            "Domain",
+            "Codomain",
+            "Range",
+            "Image"
+        ],
+        "right": [
+            "Input set",
+            "Possible output set",
+            "Actual outputs",
+            "f(x)"
+        ]
+    },
+    {
+        "q": "Rearrange function concepts:",
+        "type": "rearrange",
+        "words": [
+            "Domain A",
+            "Codomain B",
+            "Rule f",
+            "f: A -> B"
+        ]
+    },
+    {
+        "q": "What is an injective (one-to-one) function?",
+        "type": "mcq",
+        "o": [
+            "Different inputs give different outputs: f(a) = f(b) implies a = b",
+            "Same output for all inputs",
+            "Every codomain element is hit",
+            "Bijection"
+        ]
+    },
+    {
+        "q": "Injective means no two different elements map to the ______ output.",
+        "type": "fill_blank",
+        "answers": [
+            "same"
+        ],
+        "other_options": [
+            "different",
+            "any",
+            "some"
+        ]
+    },
+    {
+        "q": "f(x) = x^2 on all reals is not injective (f(-2) = f(2) = 4).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the injection property:",
+        "type": "match",
+        "left": [
+            "f(a) = f(b)",
+            "a ≠ b",
+            "Distinct inputs",
+            "Horizontal line test"
+        ],
+        "right": [
+            "Implies a = b",
+            "f(a) ≠ f(b)",
+            "Give distinct outputs",
+            "Passes for injection"
+        ]
+    },
+    {
+        "q": "Rearrange injection check:",
+        "type": "rearrange",
+        "words": [
+            "Assume f(a) = f(b)",
+            "Must show a = b",
+            "If true: injective",
+            "If counterexample: not injective"
+        ]
+    },
+    {
+        "q": "What is a surjective (onto) function?",
+        "type": "mcq",
+        "o": [
+            "Every element in the codomain is mapped to by some element in the domain",
+            "One-to-one",
+            "All inputs same output",
+            "No mapping"
+        ]
+    },
+    {
+        "q": "Surjective means range equals ______.",
+        "type": "fill_blank",
+        "answers": [
+            "codomain"
+        ],
+        "other_options": [
+            "domain",
+            "empty set",
+            "subset"
+        ]
+    },
+    {
+        "q": "f(x) = x^2 from R to R is not surjective (no preimage for -1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the surjection property:",
+        "type": "match",
+        "left": [
+            "Every b in B",
+            "Has preimage a",
+            "Range",
+            "Onto"
+        ],
+        "right": [
+            "Is considered",
+            "Such that f(a) = b",
+            "Equals codomain",
+            "Surjective"
+        ]
+    },
+    {
+        "q": "Rearrange surjection check:",
+        "type": "rearrange",
+        "words": [
+            "Take any b in B",
+            "Find a such that f(a) = b",
+            "If always exists: surjective",
+            "Else: not surjective"
+        ]
+    },
+    {
+        "q": "What is a bijective function?",
+        "type": "mcq",
+        "o": [
+            "A function that is both injective and surjective",
+            "Only injective",
+            "Only surjective",
+            "Neither"
+        ]
+    },
+    {
+        "q": "Bijection = injection + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "surjection"
+        ],
+        "other_options": [
+            "function",
+            "relation",
+            "set"
+        ]
+    },
+    {
+        "q": "Bijections have inverses that are also functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bijection property:",
+        "type": "match",
+        "left": [
+            "One-to-one",
+            "Onto",
+            "Invertible",
+            "Same cardinality"
+        ],
+        "right": [
+            "Injective",
+            "Surjective",
+            "Has inverse function",
+            "If bijection exists"
+        ]
+    },
+    {
+        "q": "Rearrange bijection check:",
+        "type": "rearrange",
+        "words": [
+            "Check injective",
+            "Check surjective",
+            "If both: bijective",
+            "Inverse exists"
+        ]
+    },
+    {
+        "q": "What is function composition?",
+        "type": "mcq",
+        "o": [
+            "(g ∘ f)(x) = g(f(x)), applying f first then g",
+            "f + g",
+            "f * g",
+            "f - g"
+        ]
+    },
+    {
+        "q": "Composition (g ∘ f)(x) applies ______ first, then g.",
+        "type": "fill_blank",
+        "answers": [
+            "f"
+        ],
+        "other_options": [
+            "g",
+            "x",
+            "h"
+        ]
+    },
+    {
+        "q": "Function composition is associative: (h ∘ g) ∘ f = h ∘ (g ∘ f).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the composition property:",
+        "type": "match",
+        "left": [
+            "(g ∘ f)(x)",
+            "Associative",
+            "Not commutative",
+            "Identity"
+        ],
+        "right": [
+            "g(f(x))",
+            "(h∘g)∘f = h∘(g∘f)",
+            "g∘f ≠ f∘g generally",
+            "id ∘ f = f"
+        ]
+    },
+    {
+        "q": "Rearrange composition order:",
+        "type": "rearrange",
+        "words": [
+            "Input x",
+            "Apply f to get f(x)",
+            "Apply g to get g(f(x))",
+            "Result: (g ∘ f)(x)"
+        ]
+    },
+    {
+        "q": "What is the inverse function?",
+        "type": "mcq",
+        "o": [
+            "f^(-1) where f^(-1)(f(x)) = x for all x (only exists if f is bijective)",
+            "f * (-1)",
+            "1/f",
+            "-f"
+        ]
+    },
+    {
+        "q": "If f is bijective, f^(-1) ∘ f = ______ (identity).",
+        "type": "fill_blank",
+        "answers": [
+            "id"
+        ],
+        "other_options": [
+            "f",
+            "g",
+            "0"
+        ]
+    },
+    {
+        "q": "Only bijective functions have inverse functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the inverse property:",
+        "type": "match",
+        "left": [
+            "f^(-1)(f(x))",
+            "f(f^(-1)(y))",
+            "(f^(-1))^(-1)",
+            "Domain of f^(-1)"
+        ],
+        "right": [
+            "x",
+            "y",
+            "f",
+            "Range of f"
+        ]
+    },
+    {
+        "q": "Rearrange inverse finding:",
+        "type": "rearrange",
+        "words": [
+            "Write y = f(x)",
+            "Solve for x in terms of y",
+            "f^(-1)(y) = x",
+            "Verify f^(-1)(f(x)) = x"
+        ]
+    },
+    {
+        "q": "What is Boolean algebra?",
+        "type": "mcq",
+        "o": [
+            "Algebra of logical values (0 and 1) with AND, OR, NOT operations",
+            "Regular arithmetic",
+            "Complex numbers",
+            "Calculus"
+        ]
+    },
+    {
+        "q": "Boolean algebra uses values ______ and 0 (or True and False).",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Boolean algebra is fundamental to digital circuit design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Boolean operation:",
+        "type": "match",
+        "left": [
+            "AND",
+            "OR",
+            "NOT",
+            "XOR"
+        ],
+        "right": [
+            "Conjunction",
+            "Disjunction",
+            "Negation",
+            "Exclusive or"
+        ]
+    },
+    {
+        "q": "Rearrange Boolean laws:",
+        "type": "rearrange",
+        "words": [
+            "Identity: A AND 1 = A",
+            "Null: A AND 0 = 0",
+            "Complement: A AND ~A = 0",
+            "Idempotent: A AND A = A"
+        ]
+    },
+    {
+        "q": "What is the absorption law?",
+        "type": "mcq",
+        "o": [
+            "A OR (A AND B) = A and A AND (A OR B) = A",
+            "A AND B = B AND A",
+            "A OR B = B OR A",
+            "~(~A) = A"
+        ]
+    },
+    {
+        "q": "Absorption: A OR (A AND B) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "A"
+        ],
+        "other_options": [
+            "B",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "Absorption law simplifies logical expressions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Boolean law:",
+        "type": "match",
+        "left": [
+            "Commutative",
+            "Associative",
+            "Distributive",
+            "Absorption"
+        ],
+        "right": [
+            "A*B = B*A",
+            "(A*B)*C = A*(B*C)",
+            "A*(B+C) = A*B + A*C",
+            "A + A*B = A"
+        ]
+    },
+    {
+        "q": "Rearrange simplification using absorption:",
+        "type": "rearrange",
+        "words": [
+            "Original: A OR (A AND B)",
+            "Factor A: A*(1 OR B)",
+            "Since 1 OR B = 1",
+            "Result: A"
+        ]
+    },
+    {
+        "q": "What is cardinality?",
+        "type": "mcq",
+        "o": [
+            "The number of elements in a set, denoted |A|",
+            "The largest element",
+            "The smallest element",
+            "The median"
+        ]
+    },
+    {
+        "q": "|{1, 2, 3}| = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "1",
+            "2",
+            "0"
+        ]
+    },
+    {
+        "q": "The cardinality of the empty set is 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cardinality:",
+        "type": "match",
+        "left": [
+            "|∅|",
+            "|{a}|",
+            "|{a, b}|",
+            "|N|"
+        ],
+        "right": [
+            "0",
+            "1",
+            "2",
+            "ℵ₀ (countably infinite)"
+        ]
+    },
+    {
+        "q": "Rearrange cardinality concepts:",
+        "type": "rearrange",
+        "words": [
+            "Finite: |A| is natural number",
+            "Countably infinite: |A| = |N|",
+            "Uncountable: |A| > |N|",
+            "|R| > |N|"
+        ]
+    },
+    {
+        "q": "What does countably infinite mean?",
+        "type": "mcq",
+        "o": [
+            "A set that can be put in bijection with the natural numbers N",
+            "A finite set",
+            "An uncountable set",
+            "An empty set"
+        ]
+    },
+    {
+        "q": "The set of ______ numbers is countably infinite.",
+        "type": "fill_blank",
+        "answers": [
+            "natural"
+        ],
+        "other_options": [
+            "real",
+            "complex",
+            "irrational"
+        ]
+    },
+    {
+        "q": "The integers Z are countably infinite.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the set cardinality:",
+        "type": "match",
+        "left": [
+            "N",
+            "Z",
+            "Q",
+            "R"
+        ],
+        "right": [
+            "Countable",
+            "Countable",
+            "Countable",
+            "Uncountable"
+        ]
+    },
+    {
+        "q": "Rearrange by cardinality:",
+        "type": "rearrange",
+        "words": [
+            "Finite sets (smallest)",
+            "Countably infinite",
+            "Uncountable",
+            "Real numbers (uncountable)"
+        ]
+    },
+    {
+        "q": "What is Cantor's theorem?",
+        "type": "mcq",
+        "o": [
+            "For any set A, |P(A)| > |A| (power set is strictly larger)",
+            "|A| = |P(A)|",
+            "|A| > |P(A)|",
+            "They are equal for infinite sets"
+        ]
+    },
+    {
+        "q": "Cantor's theorem: |P(A)| ______ |A| (strict inequality).",
+        "type": "fill_blank",
+        "answers": [
+            ">"
+        ],
+        "other_options": [
+            "=",
+            "<",
+            "≤"
+        ]
+    },
+    {
+        "q": "The real numbers are uncountable (proven by Cantor's diagonal argument).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Cantor's result:",
+        "type": "match",
+        "left": [
+            "|N|",
+            "|P(N)|",
+            "|R|",
+            "Diagonal argument"
+        ],
+        "right": [
+            "ℵ₀",
+            "2^ℵ₀",
+            "2^ℵ₀ = c",
+            "Proves R uncountable"
+        ]
+    },
+    {
+        "q": "Rearrange Cantor's diagonal argument:",
+        "type": "rearrange",
+        "words": [
+            "Assume R is countable",
+            "List all reals",
+            "Construct diagonal differs from all",
+            "Contradiction: not listed"
+        ]
+    },
+    {
+        "q": "What is the pigeonhole principle?",
+        "type": "mcq",
+        "o": [
+            "If n+1 pigeons go into n holes, at least one hole has 2+ pigeons",
+            "Each hole gets one pigeon",
+            "Pigeons avoid holes",
+            "No pigeons, no holes"
+        ]
+    },
+    {
+        "q": "Pigeonhole: if |A| > |B|, any function f: A -> B is not ______.",
+        "type": "fill_blank",
+        "answers": [
+            "injective"
+        ],
+        "other_options": [
+            "surjective",
+            "bijective",
+            "defined"
+        ]
+    },
+    {
+        "q": "The pigeonhole principle proves some collisions must occur.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pigeonhole application:",
+        "type": "match",
+        "left": [
+            "5 socks, 2 colors",
+            "13 people, 12 months",
+            "366 people",
+            "n+1 items, n bins"
+        ],
+        "right": [
+            "3+ same color",
+            "2+ same birthday month",
+            "2+ same birthday",
+            "2+ in some bin"
+        ]
+    },
+    {
+        "q": "Rearrange pigeonhole proof:",
+        "type": "rearrange",
+        "words": [
+            "Count items (pigeons)",
+            "Count containers (holes)",
+            "If items > containers",
+            "Some container has 2+ items"
+        ]
+    },
+    {
+        "q": "What is the inclusion-exclusion principle?",
+        "type": "mcq",
+        "o": [
+            "|A ∪ B| = |A| + |B| - |A ∩ B|, avoiding double counting",
+            "|A ∪ B| = |A| + |B|",
+            "|A ∪ B| = |A| * |B|",
+            "|A ∪ B| = |A ∩ B|"
+        ]
+    },
+    {
+        "q": "|A ∪ B| = |A| + |B| - |A ∩ ______|.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "A",
+            "C",
+            "∅"
+        ]
+    },
+    {
+        "q": "Inclusion-exclusion generalizes to any number of sets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match inclusion-exclusion for 3 sets:",
+        "type": "match",
+        "left": [
+            "|A|+|B|+|C|",
+            "-|A∩B|-|A∩C|-|B∩C|",
+            "+|A∩B∩C|",
+            "Result"
+        ],
+        "right": [
+            "Add singles",
+            "Subtract pairs",
+            "Add triple",
+            "|A ∪ B ∪ C|"
+        ]
+    },
+    {
+        "q": "Rearrange inclusion-exclusion:",
+        "type": "rearrange",
+        "words": [
+            "Add individual sets",
+            "Subtract pairwise intersections",
+            "Add triple intersections",
+            "...alternate signs"
+        ]
+    },
+    {
+        "q": "What is a well-formed formula (wff)?",
+        "type": "mcq",
+        "o": [
+            "A syntactically correct expression in a formal language",
+            "Any string",
+            "Only true statements",
+            "Natural language"
+        ]
+    },
+    {
+        "q": "In propositional logic, P AND Q is a valid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "wff"
+        ],
+        "other_options": [
+            "number",
+            "set",
+            "function"
+        ]
+    },
+    {
+        "q": "Not every string of symbols is a well-formed formula.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the formula type:",
+        "type": "match",
+        "left": [
+            "P AND Q",
+            "AND P Q",
+            "P -> Q",
+            "((P))"
+        ],
+        "right": [
+            "WFF (infix)",
+            "WFF (prefix)",
+            "WFF",
+            "WFF"
+        ]
+    },
+    {
+        "q": "Rearrange wff construction:",
+        "type": "rearrange",
+        "words": [
+            "Atoms are wffs",
+            "If A is wff, ~A is wff",
+            "If A,B wffs, (A AND B) is wff",
+            "Only these are wffs"
+        ]
+    },
+    {
+        "q": "What is satisfiability (SAT)?",
+        "type": "mcq",
+        "o": [
+            "A formula is satisfiable if some truth assignment makes it true",
+            "Always true",
+            "Always false",
+            "No assignment exists"
+        ]
+    },
+    {
+        "q": "A formula is satisfiable if it has at least one ______ assignment.",
+        "type": "fill_blank",
+        "answers": [
+            "satisfying"
+        ],
+        "other_options": [
+            "false",
+            "complex",
+            "empty"
+        ]
+    },
+    {
+        "q": "P AND ~P is unsatisfiable (a contradiction).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match satisfiability:",
+        "type": "match",
+        "left": [
+            "Satisfiable",
+            "Unsatisfiable",
+            "Valid (tautology)",
+            "Contingent"
+        ],
+        "right": [
+            "Some assignment true",
+            "No assignment true",
+            "All assignments true",
+            "Some true, some false"
+        ]
+    },
+    {
+        "q": "Rearrange satisfiability checking:",
+        "type": "rearrange",
+        "words": [
+            "Given formula F",
+            "Search for satisfying assignment",
+            "If found: satisfiable",
+            "If none exists: unsatisfiable"
+        ]
+    },
+    {
+        "q": "What is conjunctive normal form (CNF)?",
+        "type": "mcq",
+        "o": [
+            "A formula as a conjunction of clauses, each clause being a disjunction of literals",
+            "A disjunction of conjunctions",
+            "Any formula",
+            "Only atoms"
+        ]
+    },
+    {
+        "q": "CNF: (A OR B) AND (C OR ~D) is a ______ of disjunctions.",
+        "type": "fill_blank",
+        "answers": [
+            "conjunction"
+        ],
+        "other_options": [
+            "disjunction",
+            "negation",
+            "implication"
+        ]
+    },
+    {
+        "q": "Every propositional formula can be converted to CNF.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the normal form:",
+        "type": "match",
+        "left": [
+            "CNF",
+            "DNF",
+            "NNF",
+            "PRENEX"
+        ],
+        "right": [
+            "AND of ORs",
+            "OR of ANDs",
+            "Negations at atoms",
+            "Quantifiers at front"
+        ]
+    },
+    {
+        "q": "Rearrange CNF conversion:",
+        "type": "rearrange",
+        "words": [
+            "Eliminate implications",
+            "Push negations inward",
+            "Distribute OR over AND",
+            "Result is CNF"
+        ]
+    },
+    {
+        "q": "What is a resolution proof?",
+        "type": "mcq",
+        "o": [
+            "Proof technique deriving empty clause from CNF to show unsatisfiability",
+            "Direct proof",
+            "Induction",
+            "Contradiction without clauses"
+        ]
+    },
+    {
+        "q": "Resolution: from (A OR B) and (~A OR C), derive (B OR ______).",
+        "type": "fill_blank",
+        "answers": [
+            "C"
+        ],
+        "other_options": [
+            "A",
+            "~B",
+            "~C"
+        ]
+    },
+    {
+        "q": "If resolution derives the empty clause, the formula is unsatisfiable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match resolution terms:",
+        "type": "match",
+        "left": [
+            "Resolvent",
+            "Clause",
+            "Literal",
+            "Empty clause"
+        ],
+        "right": [
+            "Result of resolution",
+            "Disjunction of literals",
+            "Atom or negated atom",
+            "Contradiction"
+        ]
+    },
+    {
+        "q": "Rearrange resolution refutation:",
+        "type": "rearrange",
+        "words": [
+            "Convert to CNF",
+            "Negate goal and add",
+            "Apply resolution repeatedly",
+            "Derive empty clause = proved"
+        ]
+    },
+    {
+        "q": "What is predicate logic (first-order logic)?",
+        "type": "mcq",
+        "o": [
+            "Logic with quantifiers, predicates, and variables over a domain",
+            "Propositional logic only",
+            "Boolean algebra",
+            "Set theory only"
+        ]
+    },
+    {
+        "q": "First-order logic adds ______ (∀, ∃) to propositional logic.",
+        "type": "fill_blank",
+        "answers": [
+            "quantifiers"
+        ],
+        "other_options": [
+            "numbers",
+            "sets",
+            "functions"
+        ]
+    },
+    {
+        "q": "∀x P(x) means 'for all x in the domain, P(x) is true'.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match first-order logic terms:",
+        "type": "match",
+        "left": [
+            "Term",
+            "Predicate",
+            "Formula",
+            "Sentence"
+        ],
+        "right": [
+            "Variable or constant",
+            "Relation symbol",
+            "Expression with predicates",
+            "Closed formula (no free vars)"
+        ]
+    },
+    {
+        "q": "Rearrange FOL complexity:",
+        "type": "rearrange",
+        "words": [
+            "Propositional (simplest)",
+            "First-order (FOL)",
+            "Second-order",
+            "Higher-order (most complex)"
+        ]
+    },
+    {
+        "q": "What is a free variable?",
+        "type": "mcq",
+        "o": [
+            "A variable not bound by any quantifier",
+            "A variable bound by ∀",
+            "A constant",
+            "A predicate"
+        ]
+    },
+    {
+        "q": "In ∀x P(x, y), x is bound and y is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "free"
+        ],
+        "other_options": [
+            "bound",
+            "constant",
+            "predicate"
+        ]
+    },
+    {
+        "q": "A sentence has no free variables.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match variable status:",
+        "type": "match",
+        "left": [
+            "∀x P(x)",
+            "P(y)",
+            "∃x ∀y Q(x,y)",
+            "R(a)"
+        ],
+        "right": [
+            "x bound, no free",
+            "y free",
+            "x,y bound",
+            "a is constant"
+        ]
+    },
+    {
+        "q": "Rearrange variable concepts:",
+        "type": "rearrange",
+        "words": [
+            "Variable in formula",
+            "Check if quantified",
+            "If yes: bound",
+            "If no: free"
+        ]
+    },
+    {
+        "q": "What is unification?",
+        "type": "mcq",
+        "o": [
+            "Finding substitutions to make two terms identical",
+            "Making terms different",
+            "Removing variables",
+            "Adding constants"
+        ]
+    },
+    {
+        "q": "Unify P(x, a) and P(b, a) gives substitution x = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "b"
+        ],
+        "other_options": [
+            "a",
+            "x",
+            "y"
+        ]
+    },
+    {
+        "q": "Unification is key to Prolog and automated theorem proving.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match unification result:",
+        "type": "match",
+        "left": [
+            "P(x) and P(a)",
+            "P(x) and Q(x)",
+            "P(f(x)) and P(f(a))",
+            "P(x) and P(x)"
+        ],
+        "right": [
+            "{x/a}",
+            "Not unifiable",
+            "{x/a}",
+            "{}"
+        ]
+    },
+    {
+        "q": "Rearrange unification algorithm:",
+        "type": "rearrange",
+        "words": [
+            "Compare terms",
+            "If both variables, unify",
+            "If variable and term, substitute",
+            "If function, unify args recursively"
+        ]
+    },
+    {
+        "q": "What is Godel's incompleteness theorem (first)?",
+        "type": "mcq",
+        "o": [
+            "Any sufficiently powerful consistent system has true statements it cannot prove",
+            "All true statements are provable",
+            "Logic is complete",
+            "Arithmetic is decidable"
+        ]
+    },
+    {
+        "q": "Godel's first theorem: there are true but ______ statements.",
+        "type": "fill_blank",
+        "answers": [
+            "unprovable"
+        ],
+        "other_options": [
+            "false",
+            "simple",
+            "computable"
+        ]
+    },
+    {
+        "q": "Godel's theorem applies to systems strong enough to express arithmetic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Godel's results:",
+        "type": "match",
+        "left": [
+            "First incompleteness",
+            "Second incompleteness",
+            "Completeness theorem",
+            "Compactness"
+        ],
+        "right": [
+            "True but unprovable exists",
+            "Cannot prove own consistency",
+            "FOL is complete",
+            "Finite satisfiability"
+        ]
+    },
+    {
+        "q": "Rearrange Godel impact:",
+        "type": "rearrange",
+        "words": [
+            "Hilbert's program: formalize all math",
+            "Godel: limits exist",
+            "Some truths unprovable",
+            "Mathematics is open-ended"
+        ]
+    },
+    {
+        "q": "What is decidability?",
+        "type": "mcq",
+        "o": [
+            "A problem is decidable if an algorithm can always give yes/no answer",
+            "No algorithm exists",
+            "Only sometimes answerable",
+            "Human judgment needed"
+        ]
+    },
+    {
+        "q": "A decidable problem has an algorithm that always ______.",
+        "type": "fill_blank",
+        "answers": [
+            "terminates"
+        ],
+        "other_options": [
+            "loops",
+            "crashes",
+            "guesses"
+        ]
+    },
+    {
+        "q": "Propositional satisfiability is decidable (though NP-complete).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match decidability:",
+        "type": "match",
+        "left": [
+            "Propositional SAT",
+            "FOL validity",
+            "Halting problem",
+            "Finite automata emptiness"
+        ],
+        "right": [
+            "Decidable (NP-complete)",
+            "Undecidable",
+            "Undecidable",
+            "Decidable"
+        ]
+    },
+    {
+        "q": "Rearrange decidability concepts:",
+        "type": "rearrange",
+        "words": [
+            "Decidable: algorithm exists",
+            "Semi-decidable: may not halt",
+            "Undecidable: no algorithm",
+            "Halting problem: undecidable"
+        ]
+    },
+    {
+        "q": "What is the halting problem?",
+        "type": "mcq",
+        "o": [
+            "Determining whether a given program halts on given input (undecidable)",
+            "A decidable problem",
+            "Stopping a running program",
+            "Debugging"
+        ]
+    },
+    {
+        "q": "Turing proved the halting problem is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "undecidable"
+        ],
+        "other_options": [
+            "decidable",
+            "simple",
+            "NP-complete"
+        ]
+    },
+    {
+        "q": "No algorithm can decide halting for all programs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Turing's proof:",
+        "type": "match",
+        "left": [
+            "Assume halting decidable",
+            "Construct H(P, I)",
+            "Build paradoxical D",
+            "D halts iff it doesn't"
+        ],
+        "right": [
+            "Proof step 1",
+            "Halting decider",
+            "Diagonalization",
+            "Contradiction"
+        ]
+    },
+    {
+        "q": "Rearrange halting proof:",
+        "type": "rearrange",
+        "words": [
+            "Assume decider H exists",
+            "Build D that uses H",
+            "D does opposite of H's answer",
+            "Contradiction proves undecidable"
+        ]
+    },
+    {
+        "q": "What is a Turing machine?",
+        "type": "mcq",
+        "o": [
+            "Abstract model of computation with infinite tape, head, and state transitions",
+            "A physical computer",
+            "A calculator",
+            "A logic gate"
+        ]
+    },
+    {
+        "q": "Turing machines have an infinite ______ for memory.",
+        "type": "fill_blank",
+        "answers": [
+            "tape"
+        ],
+        "other_options": [
+            "disk",
+            "screen",
+            "keyboard"
+        ]
+    },
+    {
+        "q": "Turing machines can compute anything that any algorithm can compute (Church-Turing thesis).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Turing machine component:",
+        "type": "match",
+        "left": [
+            "Tape",
+            "Head",
+            "State",
+            "Transition"
+        ],
+        "right": [
+            "Memory",
+            "Read/write position",
+            "Current configuration",
+            "Next action rule"
+        ]
+    },
+    {
+        "q": "Rearrange TM operation:",
+        "type": "rearrange",
+        "words": [
+            "Read current symbol",
+            "Look up transition",
+            "Write new symbol",
+            "Move head and change state"
+        ]
+    },
+    {
+        "q": "What is the Church-Turing thesis?",
+        "type": "mcq",
+        "o": [
+            "Any computable function can be computed by a Turing machine",
+            "Only TMs can compute",
+            "Humans can compute more than TMs",
+            "Quantum computers are different"
+        ]
+    },
+    {
+        "q": "Church-Turing thesis: Turing machines capture all ______ computation.",
+        "type": "fill_blank",
+        "answers": [
+            "effective"
+        ],
+        "other_options": [
+            "fast",
+            "simple",
+            "random"
+        ]
+    },
+    {
+        "q": "The Church-Turing thesis is a philosophical claim, not a theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match equivalent models:",
+        "type": "match",
+        "left": [
+            "Turing machine",
+            "Lambda calculus",
+            "Recursive functions",
+            "Post systems"
+        ],
+        "right": [
+            "Turing",
+            "Church",
+            "Godel",
+            "Post"
+        ]
+    },
+    {
+        "q": "Rearrange computability models:",
+        "type": "rearrange",
+        "words": [
+            "Turing machines",
+            "Lambda calculus",
+            "Recursive functions",
+            "All equivalent (Church-Turing)"
+        ]
+    },
+    {
+        "q": "What is NP-completeness?",
+        "type": "mcq",
+        "o": [
+            "Hardest problems in NP: if one is in P, then P = NP",
+            "Easy problems",
+            "Undecidable problems",
+            "Same as P"
+        ]
+    },
+    {
+        "q": "NP-complete problems are the ______ problems in NP.",
+        "type": "fill_blank",
+        "answers": [
+            "hardest"
+        ],
+        "other_options": [
+            "easiest",
+            "simplest",
+            "fastest"
+        ]
+    },
+    {
+        "q": "SAT (Boolean satisfiability) is NP-complete.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match complexity class:",
+        "type": "match",
+        "left": [
+            "P",
+            "NP",
+            "NP-complete",
+            "NP-hard"
+        ],
+        "right": [
+            "Polynomial time",
+            "Verifiable in poly time",
+            "Hardest in NP",
+            "At least as hard as NP-complete"
+        ]
+    },
+    {
+        "q": "Rearrange complexity hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "P (fastest)",
+            "NP (verify fast)",
+            "NP-complete (hardest in NP)",
+            "NP-hard (at least as hard)"
+        ]
+    },
+    {
+        "q": "What is a lattice in order theory?",
+        "type": "mcq",
+        "o": [
+            "A poset where every two elements have a meet (greatest lower bound) and join (least upper bound)",
+            "Any ordered set",
+            "Only finite sets",
+            "A graph"
+        ]
+    },
+    {
+        "q": "In a lattice, meet (∧) gives greatest ______ bound.",
+        "type": "fill_blank",
+        "answers": [
+            "lower"
+        ],
+        "other_options": [
+            "upper",
+            "middle",
+            "average"
+        ]
+    },
+    {
+        "q": "The power set of a set with subset ordering forms a lattice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match lattice operation:",
+        "type": "match",
+        "left": [
+            "Meet (∧)",
+            "Join (∨)",
+            "Top",
+            "Bottom"
+        ],
+        "right": [
+            "Greatest lower bound",
+            "Least upper bound",
+            "Greatest element",
+            "Least element"
+        ]
+    },
+    {
+        "q": "Rearrange lattice properties:",
+        "type": "rearrange",
+        "words": [
+            "Partial order",
+            "Every pair has meet",
+            "Every pair has join",
+            "= Lattice"
+        ]
+    },
+    {
+        "q": "What is a Boolean lattice?",
+        "type": "mcq",
+        "o": [
+            "A complemented distributive lattice",
+            "Any lattice",
+            "A total order",
+            "A graph"
+        ]
+    },
+    {
+        "q": "Boolean lattices have ______ for every element.",
+        "type": "fill_blank",
+        "answers": [
+            "complements"
+        ],
+        "other_options": [
+            "duplicates",
+            "inverses",
+            "squares"
+        ]
+    },
+    {
+        "q": "The power set lattice is a Boolean lattice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Boolean lattice property:",
+        "type": "match",
+        "left": [
+            "Distributive",
+            "Complemented",
+            "Bounded",
+            "Boolean"
+        ],
+        "right": [
+            "a∧(b∨c) = (a∧b)∨(a∧c)",
+            "Every a has a'",
+            "Has 0 and 1",
+            "All three"
+        ]
+    },
+    {
+        "q": "Rearrange Boolean algebra from lattice:",
+        "type": "rearrange",
+        "words": [
+            "Lattice",
+            "Add distributivity",
+            "Add complements",
+            "= Boolean algebra"
+        ]
+    },
+    {
+        "q": "What is a fixed point?",
+        "type": "mcq",
+        "o": [
+            "A point x where f(x) = x",
+            "f(x) ≠ x",
+            "Maximum value",
+            "Minimum value"
+        ]
+    },
+    {
+        "q": "x is a fixed point of f if f(x) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "x"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "f"
+        ]
+    },
+    {
+        "q": "Knaster-Tarski theorem guarantees fixed points for monotone functions on complete lattices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match fixed point concept:",
+        "type": "match",
+        "left": [
+            "Fixed point",
+            "Least fixed point",
+            "Greatest fixed point",
+            "Knaster-Tarski"
+        ],
+        "right": [
+            "f(x) = x",
+            "Smallest x with f(x) = x",
+            "Largest x with f(x) = x",
+            "Existence theorem"
+        ]
+    },
+    {
+        "q": "Rearrange fixed point finding:",
+        "type": "rearrange",
+        "words": [
+            "Start from bottom (for lfp)",
+            "Apply function repeatedly",
+            "Reach fixed point",
+            "f^n(bottom) = lfp"
+        ]
+    },
+    {
+        "q": "What is modal logic?",
+        "type": "mcq",
+        "o": [
+            "Logic with operators for necessity (□) and possibility (◇)",
+            "Propositional logic only",
+            "First-order logic",
+            "Boolean algebra"
+        ]
+    },
+    {
+        "q": "Modal logic uses □ for ______ and ◇ for possibility.",
+        "type": "fill_blank",
+        "answers": [
+            "necessity"
+        ],
+        "other_options": [
+            "possibility",
+            "truth",
+            "falsity"
+        ]
+    },
+    {
+        "q": "□P means 'P is necessarily true' (in all possible worlds).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match modal operator:",
+        "type": "match",
+        "left": [
+            "□P",
+            "◇P",
+            "□~P",
+            "~◇P"
+        ],
+        "right": [
+            "Necessary P",
+            "Possible P",
+            "Necessarily not P",
+            "Impossible P"
+        ]
+    },
+    {
+        "q": "Rearrange modal relationships:",
+        "type": "rearrange",
+        "words": [
+            "□P = ~◇~P",
+            "◇P = ~□~P",
+            "Necessity and possibility dual",
+            "Like ∀ and ∃"
+        ]
+    },
+    {
+        "q": "What is temporal logic?",
+        "type": "mcq",
+        "o": [
+            "Logic reasoning about time: eventually, always, until, next",
+            "Timeless logic",
+            "Boolean algebra",
+            "Set theory"
+        ]
+    },
+    {
+        "q": "Temporal logic uses operators like □ (always) and ◇ (________).",
+        "type": "fill_blank",
+        "answers": [
+            "eventually"
+        ],
+        "other_options": [
+            "never",
+            "sometimes",
+            "rarely"
+        ]
+    },
+    {
+        "q": "LTL (Linear Temporal Logic) is used in model checking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match temporal operator:",
+        "type": "match",
+        "left": [
+            "□ (G)",
+            "◇ (F)",
+            "X",
+            "U"
+        ],
+        "right": [
+            "Globally (always)",
+            "Finally (eventually)",
+            "Next state",
+            "Until"
+        ]
+    },
+    {
+        "q": "Rearrange temporal logic uses:",
+        "type": "rearrange",
+        "words": [
+            "Specify system properties",
+            "Express safety (□¬bad)",
+            "Express liveness (◇good)",
+            "Verify with model checking"
+        ]
+    },
+    {
+        "q": "What is intuitionistic logic?",
+        "type": "mcq",
+        "o": [
+            "Logic rejecting the law of excluded middle (P OR ~P not always valid)",
+            "Classical logic",
+            "Modal logic",
+            "Boolean algebra"
+        ]
+    },
+    {
+        "q": "Intuitionistic logic rejects the law of ______ middle.",
+        "type": "fill_blank",
+        "answers": [
+            "excluded"
+        ],
+        "other_options": [
+            "included",
+            "implied",
+            "derived"
+        ]
+    },
+    {
+        "q": "In intuitionistic logic, double negation elimination (~~P -> P) is not valid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logic type:",
+        "type": "match",
+        "left": [
+            "Classical",
+            "Intuitionistic",
+            "Linear",
+            "Fuzzy"
+        ],
+        "right": [
+            "Excluded middle holds",
+            "Constructive proofs",
+            "Resource-sensitive",
+            "Degrees of truth"
+        ]
+    },
+    {
+        "q": "Rearrange logic strictness:",
+        "type": "rearrange",
+        "words": [
+            "Classical (most permissive)",
+            "Intuitionistic (stricter)",
+            "Linear (resources matter)",
+            "All have uses"
+        ]
+    },
+    {
+        "q": "What is a Heyting algebra?",
+        "type": "mcq",
+        "o": [
+            "Algebraic model of intuitionistic logic",
+            "Boolean algebra",
+            "Group theory",
+            "Ring theory"
+        ]
+    },
+    {
+        "q": "Heyting algebras generalize ______ algebras without complementation law.",
+        "type": "fill_blank",
+        "answers": [
+            "Boolean"
+        ],
+        "other_options": [
+            "Linear",
+            "Matrix",
+            "Ring"
+        ]
+    },
+    {
+        "q": "Every Boolean algebra is a Heyting algebra.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algebra:",
+        "type": "match",
+        "left": [
+            "Boolean",
+            "Heyting",
+            "Complete lattice",
+            "Ring"
+        ],
+        "right": [
+            "Classical logic",
+            "Intuitionistic logic",
+            "Fixed points exist",
+            "Addition/multiplication"
+        ]
+    },
+    {
+        "q": "Rearrange algebra generality:",
+        "type": "rearrange",
+        "words": [
+            "Boolean (specific)",
+            "Heyting (more general)",
+            "Lattice (even more)",
+            "Poset (most general)"
+        ]
+    },
+    {
+        "q": "What is the principle of explosion?",
+        "type": "mcq",
+        "o": [
+            "From a contradiction, anything follows (P AND ~P implies Q)",
+            "Nothing follows",
+            "Only P follows",
+            "Only Q follows"
+        ]
+    },
+    {
+        "q": "Ex falso quodlibet: from ______, anything can be proven.",
+        "type": "fill_blank",
+        "answers": [
+            "false"
+        ],
+        "other_options": [
+            "true",
+            "nothing",
+            "something"
+        ]
+    },
+    {
+        "q": "Paraconsistent logics reject the principle of explosion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logic property:",
+        "type": "match",
+        "left": [
+            "Classical",
+            "Intuitionistic",
+            "Paraconsistent",
+            "Relevant"
+        ],
+        "right": [
+            "Explosion valid",
+            "No double negation",
+            "No explosion",
+            "Implication needs relevance"
+        ]
+    },
+    {
+        "q": "Rearrange explosion:",
+        "type": "rearrange",
+        "words": [
+            "Assume P AND ~P",
+            "This is false",
+            "False implies anything",
+            "Therefore Q (any Q)"
+        ]
+    },
+    {
+        "q": "What is a natural deduction proof?",
+        "type": "mcq",
+        "o": [
+            "Proof system with introduction and elimination rules for each connective",
+            "Only axioms",
+            "Only truth tables",
+            "Semantic only"
+        ]
+    },
+    {
+        "q": "Natural deduction uses ______ and elimination rules.",
+        "type": "fill_blank",
+        "answers": [
+            "introduction"
+        ],
+        "other_options": [
+            "axiom",
+            "resolution",
+            "truth"
+        ]
+    },
+    {
+        "q": "Natural deduction mirrors how mathematicians actually reason.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rule type:",
+        "type": "match",
+        "left": [
+            "AND-Intro",
+            "AND-Elim",
+            "OR-Intro",
+            "Implies-Intro"
+        ],
+        "right": [
+            "From P,Q get P∧Q",
+            "From P∧Q get P",
+            "From P get P∨Q",
+            "Assume P, derive Q"
+        ]
+    },
+    {
+        "q": "Rearrange natural deduction proof:",
+        "type": "rearrange",
+        "words": [
+            "State goal",
+            "Make assumptions",
+            "Apply rules",
+            "Discharge assumptions"
+        ]
+    },
+    {
+        "q": "What is a sequent calculus?",
+        "type": "mcq",
+        "o": [
+            "Proof system with sequents (A1,...,An ⊢ B) and inference rules",
+            "Only truth tables",
+            "Natural language proofs",
+            "Numerical computation"
+        ]
+    },
+    {
+        "q": "A sequent A ⊢ B means: from A, we can ______ B.",
+        "type": "fill_blank",
+        "answers": [
+            "derive"
+        ],
+        "other_options": [
+            "falsify",
+            "ignore",
+            "delete"
+        ]
+    },
+    {
+        "q": "Gentzen invented both natural deduction and sequent calculus.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the proof system:",
+        "type": "match",
+        "left": [
+            "Hilbert",
+            "Natural deduction",
+            "Sequent calculus",
+            "Resolution"
+        ],
+        "right": [
+            "Few rules, many axioms",
+            "Intro/elim rules",
+            "Sequent rules",
+            "Clause-based"
+        ]
+    },
+    {
+        "q": "Rearrange proof system development:",
+        "type": "rearrange",
+        "words": [
+            "Hilbert (earliest)",
+            "Natural deduction (Gentzen)",
+            "Sequent calculus (Gentzen)",
+            "Resolution (Robinson)"
+        ]
+    },
+    {
+        "q": "What is cut elimination?",
+        "type": "mcq",
+        "o": [
+            "Theorem that proofs can be simplified by removing 'cut' (lemma) uses",
+            "Adding more cuts",
+            "Making proofs longer",
+            "Proof by contradiction"
+        ]
+    },
+    {
+        "q": "Cut elimination shows proofs can be done ______ intermediate lemmas.",
+        "type": "fill_blank",
+        "answers": [
+            "without"
+        ],
+        "other_options": [
+            "with",
+            "using",
+            "adding"
+        ]
+    },
+    {
+        "q": "Cut-free proofs have the subformula property.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match cut elimination:",
+        "type": "match",
+        "left": [
+            "Cut rule",
+            "Cut elimination",
+            "Subformula property",
+            "Hauptsatz"
+        ],
+        "right": [
+            "Uses lemma",
+            "Remove cuts",
+            "Only subformulas appear",
+            "Main theorem (German)"
+        ]
+    },
+    {
+        "q": "Rearrange cut elimination:",
+        "type": "rearrange",
+        "words": [
+            "Proof with cuts",
+            "Apply elimination procedure",
+            "Proof without cuts",
+            "Same conclusion"
+        ]
+    },
+    {
+        "q": "What is the Curry-Howard correspondence?",
+        "type": "mcq",
+        "o": [
+            "Correspondence between proofs and programs: propositions as types",
+            "No correspondence exists",
+            "Only about numbers",
+            "Classical logic only"
+        ]
+    },
+    {
+        "q": "Curry-Howard: proofs correspond to programs, propositions to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "types"
+        ],
+        "other_options": [
+            "numbers",
+            "sets",
+            "strings"
+        ]
+    },
+    {
+        "q": "A proof of A -> B corresponds to a function of type A -> B.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Curry-Howard:",
+        "type": "match",
+        "left": [
+            "Proposition",
+            "Proof",
+            "Implication",
+            "Product"
+        ],
+        "right": [
+            "Type",
+            "Program/Term",
+            "Function type",
+            "Pair type"
+        ]
+    },
+    {
+        "q": "Rearrange Curry-Howard correspondence:",
+        "type": "rearrange",
+        "words": [
+            "Logic side: propositions",
+            "Type side: types",
+            "Logic: proofs",
+            "Types: programs"
+        ]
+    },
+    {
+        "q": "What is a model in logic?",
+        "type": "mcq",
+        "o": [
+            "A structure that gives meaning to formulas (domain + interpretation)",
+            "A formula itself",
+            "A proof",
+            "A syntax"
+        ]
+    },
+    {
+        "q": "A model provides ______ for variables, predicates, and functions.",
+        "type": "fill_blank",
+        "answers": [
+            "interpretations"
+        ],
+        "other_options": [
+            "proofs",
+            "axioms",
+            "rules"
+        ]
+    },
+    {
+        "q": "A formula is valid if true in all models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match semantic concept:",
+        "type": "match",
+        "left": [
+            "Model",
+            "Satisfaction",
+            "Validity",
+            "Consequence"
+        ],
+        "right": [
+            "Interpretation",
+            "M |= φ",
+            "True in all models",
+            "Follows semantically"
+        ]
+    },
+    {
+        "q": "Rearrange model theory:",
+        "type": "rearrange",
+        "words": [
+            "Define syntax",
+            "Define semantics (models)",
+            "Check truth in models",
+            "Valid = true in all"
+        ]
+    },
+    {
+        "q": "What is soundness?",
+        "type": "mcq",
+        "o": [
+            "If provable, then true (proofs only prove truths)",
+            "If true, then provable",
+            "Neither sound nor complete",
+            "Same as completeness"
+        ]
+    },
+    {
+        "q": "Soundness: ⊢ φ implies ______ φ.",
+        "type": "fill_blank",
+        "answers": [
+            "|="
+        ],
+        "other_options": [
+            "⊢",
+            "≠",
+            "∅"
+        ]
+    },
+    {
+        "q": "A sound proof system never proves false statements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match metatheorem:",
+        "type": "match",
+        "left": [
+            "Soundness",
+            "Completeness",
+            "Decidability",
+            "Compactness"
+        ],
+        "right": [
+            "⊢ implies |=",
+            "|= implies ⊢",
+            "Algorithm exists",
+            "Finite subset suffices"
+        ]
+    },
+    {
+        "q": "Rearrange soundness and completeness:",
+        "type": "rearrange",
+        "words": [
+            "Soundness: provable -> true",
+            "Completeness: true -> provable",
+            "Both: provable iff true",
+            "Ideal proof system"
+        ]
+    },
+    {
+        "q": "What is completeness (logical)?",
+        "type": "mcq",
+        "o": [
+            "If true in all models, then provable (all truths are provable)",
+            "If provable, then true",
+            "Undecidable",
+            "Incomplete"
+        ]
+    },
+    {
+        "q": "Godel's completeness: for FOL, |= φ implies ______ φ.",
+        "type": "fill_blank",
+        "answers": [
+            "⊢"
+        ],
+        "other_options": [
+            "|=",
+            "≠",
+            "∅"
+        ]
+    },
+    {
+        "q": "First-order logic is complete: every valid formula is provable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem:",
+        "type": "match",
+        "left": [
+            "Godel completeness",
+            "Godel incompleteness",
+            "Lowenheim-Skolem",
+            "Compactness"
+        ],
+        "right": [
+            "FOL complete",
+            "Arithmetic incomplete",
+            "Countable models exist",
+            "Finite satisfiability"
+        ]
+    },
+    {
+        "q": "Rearrange Godel's contributions:",
+        "type": "rearrange",
+        "words": [
+            "Completeness theorem (1929)",
+            "First incompleteness (1931)",
+            "Second incompleteness (1931)",
+            "All foundational"
+        ]
+    },
+    {
+        "q": "What is a constructive proof?",
+        "type": "mcq",
+        "o": [
+            "Proof that provides a witness or algorithm, not just existence",
+            "Non-constructive proof",
+            "Proof by contradiction",
+            "Classical proof"
+        ]
+    },
+    {
+        "q": "Constructive proofs provide an actual ______ for existence claims.",
+        "type": "fill_blank",
+        "answers": [
+            "witness"
+        ],
+        "other_options": [
+            "denial",
+            "contradiction",
+            "assumption"
+        ]
+    },
+    {
+        "q": "Proof by contradiction is generally not constructive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match proof type:",
+        "type": "match",
+        "left": [
+            "Constructive",
+            "Non-constructive",
+            "Direct",
+            "Contradiction"
+        ],
+        "right": [
+            "Provides witness",
+            "Existence without witness",
+            "Assume hypothesis",
+            "Assume negation"
+        ]
+    },
+    {
+        "q": "Rearrange proof constructivity:",
+        "type": "rearrange",
+        "words": [
+            "Claim: ∃x P(x)",
+            "Constructive: exhibit such x",
+            "Non-constructive: prove existence",
+            "Constructive is stronger"
+        ]
+    },
+    {
+        "q": "What is the axiom of choice?",
+        "type": "mcq",
+        "o": [
+            "Given any collection of non-empty sets, a choice function exists selecting one element from each",
+            "No choice is possible",
+            "Only finite choices",
+            "Empty set contains elements"
+        ]
+    },
+    {
+        "q": "Axiom of choice: we can ______ one element from each of infinitely many sets.",
+        "type": "fill_blank",
+        "answers": [
+            "choose"
+        ],
+        "other_options": [
+            "delete",
+            "count",
+            "ignore"
+        ]
+    },
+    {
+        "q": "The axiom of choice is independent of ZF set theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match AC equivalent:",
+        "type": "match",
+        "left": [
+            "Axiom of Choice",
+            "Zorn's Lemma",
+            "Well-ordering theorem",
+            "Tychonoff's theorem"
+        ],
+        "right": [
+            "Choice function exists",
+            "Maximal element exists",
+            "Every set can be well-ordered",
+            "Product of compacts is compact"
+        ]
+    },
+    {
+        "q": "Rearrange AC controversy:",
+        "type": "rearrange",
+        "words": [
+            "Useful in proofs",
+            "Non-constructive flavor",
+            "Independent of ZF",
+            "Accepted by most mathematicians"
+        ]
+    },
+    {
+        "q": "What is Zorn's Lemma?",
+        "type": "mcq",
+        "o": [
+            "If every chain in a poset has an upper bound, then a maximal element exists",
+            "No maximal element exists",
+            "All elements are equal",
+            "The poset is finite"
+        ]
+    },
+    {
+        "q": "Zorn's Lemma: if every chain has upper bound, then ______ exists.",
+        "type": "fill_blank",
+        "answers": [
+            "maximal"
+        ],
+        "other_options": [
+            "minimal",
+            "equal",
+            "none"
+        ]
+    },
+    {
+        "q": "Zorn's Lemma is equivalent to the Axiom of Choice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the equivalent statement:",
+        "type": "match",
+        "left": [
+            "AC",
+            "Zorn",
+            "Well-ordering",
+            "Hausdorff maximal"
+        ],
+        "right": [
+            "Choice function",
+            "Maximal in posets",
+            "Well-order exists",
+            "Maximal chain exists"
+        ]
+    },
+    {
+        "q": "Rearrange Zorn's Lemma application:",
+        "type": "rearrange",
+        "words": [
+            "Define poset structure",
+            "Verify chain condition",
+            "Apply Zorn's Lemma",
+            "Get maximal element"
+        ]
+    },
+    {
+        "q": "What is the continuum hypothesis?",
+        "type": "mcq",
+        "o": [
+            "There is no set with cardinality strictly between |N| and |R|",
+            "|N| = |R|",
+            "|R| < |N|",
+            "Infinite sets don't exist"
+        ]
+    },
+    {
+        "q": "CH claims: there is no cardinality between |N| and |______|.",
+        "type": "fill_blank",
+        "answers": [
+            "R"
+        ],
+        "other_options": [
+            "Z",
+            "Q",
+            "N"
+        ]
+    },
+    {
+        "q": "The continuum hypothesis is independent of ZFC (undecidable).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match independence result:",
+        "type": "match",
+        "left": [
+            "CH",
+            "AC",
+            "Parallel postulate",
+            "Godel incompleteness"
+        ],
+        "right": [
+            "Cohen/Godel",
+            "Godel/Cohen",
+            "Non-Euclidean geometry",
+            "Arithmetic limits"
+        ]
+    },
+    {
+        "q": "Rearrange CH independence:",
+        "type": "rearrange",
+        "words": [
+            "Godel: CH consistent with ZFC",
+            "Cohen: ~CH consistent with ZFC",
+            "Therefore: CH independent",
+            "Cannot prove or disprove in ZFC"
+        ]
+    },
+    {
+        "q": "What is a finite automaton?",
+        "type": "mcq",
+        "o": [
+            "Abstract machine with finite states, processing input one symbol at a time",
+            "Infinite memory",
+            "A Turing machine",
+            "A human computer"
+        ]
+    },
+    {
+        "q": "Finite automata have ______ number of states.",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "infinite",
+            "zero",
+            "variable"
+        ]
+    },
+    {
+        "q": "Finite automata can recognize regular languages.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the automaton type:",
+        "type": "match",
+        "left": [
+            "DFA",
+            "NFA",
+            "PDA",
+            "TM"
+        ],
+        "right": [
+            "Deterministic FA",
+            "Nondeterministic FA",
+            "Pushdown automaton",
+            "Turing machine"
+        ]
+    },
+    {
+        "q": "Rearrange automata hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "FA (weakest)",
+            "PDA (adds stack)",
+            "LBA (bounded tape)",
+            "TM (most powerful)"
+        ]
+    },
+    {
+        "q": "What is a regular expression?",
+        "type": "mcq",
+        "o": [
+            "Pattern notation for describing regular languages using union, concat, star",
+            "Context-free grammar",
+            "Turing machine",
+            "Natural language"
+        ]
+    },
+    {
+        "q": "Kleene star (*) means zero or more ______.",
+        "type": "fill_blank",
+        "answers": [
+            "repetitions"
+        ],
+        "other_options": [
+            "deletions",
+            "additions",
+            "changes"
+        ]
+    },
+    {
+        "q": "Regular expressions and finite automata have the same expressive power.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match regex operation:",
+        "type": "match",
+        "left": [
+            "Union |",
+            "Concat",
+            "Star *",
+            "Plus +"
+        ],
+        "right": [
+            "Either or",
+            "Sequencing",
+            "Zero or more",
+            "One or more"
+        ]
+    },
+    {
+        "q": "Rearrange regex to FA:",
+        "type": "rearrange",
+        "words": [
+            "Parse regex",
+            "Build NFAs for each part",
+            "Combine using operations",
+            "Convert to DFA if needed"
+        ]
+    },
+    {
+        "q": "What is a context-free grammar?",
+        "type": "mcq",
+        "o": [
+            "Grammar with rules A -> α where A is a single nonterminal",
+            "Regular grammar",
+            "Context-sensitive grammar",
+            "Unrestricted grammar"
+        ]
+    },
+    {
+        "q": "CFGs are more expressive than ______ languages.",
+        "type": "fill_blank",
+        "answers": [
+            "regular"
+        ],
+        "other_options": [
+            "context-free",
+            "recursive",
+            "unrestricted"
+        ]
+    },
+    {
+        "q": "Programming language syntax is often context-free.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the grammar type:",
+        "type": "match",
+        "left": [
+            "Regular",
+            "Context-free",
+            "Context-sensitive",
+            "Unrestricted"
+        ],
+        "right": [
+            "FA",
+            "PDA",
+            "LBA",
+            "TM"
+        ]
+    },
+    {
+        "q": "Rearrange Chomsky hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Type 3: Regular",
+            "Type 2: Context-free",
+            "Type 1: Context-sensitive",
+            "Type 0: Unrestricted"
+        ]
+    },
+    {
+        "q": "What is a pushdown automaton?",
+        "type": "mcq",
+        "o": [
+            "FA with an additional stack for memory",
+            "FA only",
+            "Turing machine",
+            "No memory"
+        ]
+    },
+    {
+        "q": "PDAs recognize ______ languages.",
+        "type": "fill_blank",
+        "answers": [
+            "context-free"
+        ],
+        "other_options": [
+            "regular",
+            "recursive",
+            "unrestricted"
+        ]
+    },
+    {
+        "q": "PDAs can match parentheses (which FA cannot).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match PDA property:",
+        "type": "match",
+        "left": [
+            "Stack",
+            "Push",
+            "Pop",
+            "Accept"
+        ],
+        "right": [
+            "LIFO memory",
+            "Add to top",
+            "Remove from top",
+            "Empty stack or final state"
+        ]
+    },
+    {
+        "q": "Rearrange PDA for matching parentheses:",
+        "type": "rearrange",
+        "words": [
+            "See '(': push",
+            "See ')': pop",
+            "End: stack empty?",
+            "If yes: accept"
+        ]
+    },
+    {
+        "q": "What is reducibility in complexity theory?",
+        "type": "mcq",
+        "o": [
+            "Problem A reduces to B if solving B allows solving A",
+            "A is harder than B",
+            "A and B are unrelated",
+            "A is unsolvable"
+        ]
+    },
+    {
+        "q": "A ≤ B means A reduces to B: solving ______ solves A.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "A",
+            "C",
+            "nothing"
+        ]
+    },
+    {
+        "q": "If A reduces to B and B is decidable, then A is decidable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match reduction:",
+        "type": "match",
+        "left": [
+            "A ≤ B",
+            "B decidable",
+            "B undecidable",
+            "A undecidable"
+        ],
+        "right": [
+            "A at most as hard as B",
+            "A decidable",
+            "Inconclusive for A",
+            "B undecidable (contrapositive)"
+        ]
+    },
+    {
+        "q": "Rearrange reduction proof:",
+        "type": "rearrange",
+        "words": [
+            "Want to show A undecidable",
+            "Find known undecidable B",
+            "Show B ≤ A",
+            "Therefore A undecidable"
+        ]
+    },
+    {
+        "q": "What is the pumping lemma for regular languages?",
+        "type": "mcq",
+        "o": [
+            "For long enough strings in a regular language, a middle section can be repeated",
+            "No pumping",
+            "All languages can pump",
+            "Only context-free"
+        ]
+    },
+    {
+        "q": "Pumping: for sufficiently long strings, xyz where y can be ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pumped"
+        ],
+        "other_options": [
+            "deleted",
+            "reversed",
+            "doubled"
+        ]
+    },
+    {
+        "q": "Pumping lemma is used to prove languages are NOT regular.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match pumping lemma:",
+        "type": "match",
+        "left": [
+            "Regular PL",
+            "CFL PL",
+            "|y| > 0",
+            "Pumping length"
+        ],
+        "right": [
+            "y repeatable",
+            "vw repeatable",
+            "Non-empty pump",
+            "Minimum length"
+        ]
+    },
+    {
+        "q": "Rearrange pumping proof:",
+        "type": "rearrange",
+        "words": [
+            "Assume L is regular",
+            "Apply pumping lemma",
+            "Show contradiction",
+            "L is not regular"
+        ]
+    },
+    {
+        "q": "What is modus ponens?",
+        "type": "mcq",
+        "o": [
+            "From P and P -> Q, conclude Q",
+            "From Q, conclude P",
+            "From P, conclude ~P",
+            "No conclusion"
+        ]
+    },
+    {
+        "q": "Modus ponens: P, P -> Q, therefore ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Q"
+        ],
+        "other_options": [
+            "P",
+            "~P",
+            "~Q"
+        ]
+    },
+    {
+        "q": "Modus ponens is a valid inference rule in classical logic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match inference rule:",
+        "type": "match",
+        "left": [
+            "Modus ponens",
+            "Modus tollens",
+            "Hypothetical syllogism",
+            "Disjunctive syllogism"
+        ],
+        "right": [
+            "P, P->Q ⊢ Q",
+            "~Q, P->Q ⊢ ~P",
+            "P->Q, Q->R ⊢ P->R",
+            "P∨Q, ~P ⊢ Q"
+        ]
+    },
+    {
+        "q": "Rearrange modus ponens:",
+        "type": "rearrange",
+        "words": [
+            "Premise 1: P",
+            "Premise 2: P -> Q",
+            "Apply MP",
+            "Conclusion: Q"
+        ]
+    },
+    {
+        "q": "What is modus tollens?",
+        "type": "mcq",
+        "o": [
+            "From ~Q and P -> Q, conclude ~P",
+            "From Q, conclude P",
+            "From P, conclude Q",
+            "No valid conclusion"
+        ]
+    },
+    {
+        "q": "Modus tollens: ~Q, P -> Q, therefore ______.",
+        "type": "fill_blank",
+        "answers": [
+            "~P"
+        ],
+        "other_options": [
+            "P",
+            "Q",
+            "~Q"
+        ]
+    },
+    {
+        "q": "Modus tollens is reasoning by denying the consequent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match valid vs invalid:",
+        "type": "match",
+        "left": [
+            "Modus ponens",
+            "Modus tollens",
+            "Affirming consequent",
+            "Denying antecedent"
+        ],
+        "right": [
+            "Valid",
+            "Valid",
+            "Fallacy",
+            "Fallacy"
+        ]
+    },
+    {
+        "q": "Rearrange modus tollens:",
+        "type": "rearrange",
+        "words": [
+            "Premise: P -> Q",
+            "Premise: ~Q",
+            "Contrapositive: ~Q -> ~P",
+            "Conclusion: ~P"
+        ]
+    },
+    {
+        "q": "What is the symmetric difference of sets?",
+        "type": "mcq",
+        "o": [
+            "A △ B = (A - B) ∪ (B - A), elements in exactly one set",
+            "A ∩ B",
+            "A ∪ B",
+            "A - B only"
+        ]
+    },
+    {
+        "q": "Symmetric difference contains elements in A or B but not ______.",
+        "type": "fill_blank",
+        "answers": [
+            "both"
+        ],
+        "other_options": [
+            "neither",
+            "A",
+            "B"
+        ]
+    },
+    {
+        "q": "A △ A = ∅ (symmetric difference of a set with itself is empty).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match symmetric difference:",
+        "type": "match",
+        "left": [
+            "A △ B",
+            "A △ ∅",
+            "A △ A",
+            "A △ (B △ C)"
+        ],
+        "right": [
+            "Elements in exactly one",
+            "A",
+            "∅",
+            "Associative"
+        ]
+    },
+    {
+        "q": "Rearrange symmetric difference:",
+        "type": "rearrange",
+        "words": [
+            "Compute A - B",
+            "Compute B - A",
+            "Take union",
+            "Result: A △ B"
+        ]
+    },
+    {
+        "q": "What is a disjoint set?",
+        "type": "mcq",
+        "o": [
+            "Sets A and B where A ∩ B = ∅ (no common elements)",
+            "A ∩ B ≠ ∅",
+            "A = B",
+            "A ⊆ B"
+        ]
+    },
+    {
+        "q": "A and B are disjoint if A ∩ B = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "∅"
+        ],
+        "other_options": [
+            "A",
+            "B",
+            "U"
+        ]
+    },
+    {
+        "q": "If A and B are disjoint, then |A ∪ B| = |A| + |B|.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match disjoint sets:",
+        "type": "match",
+        "left": [
+            "{1,2} and {3,4}",
+            "{1,2} and {2,3}",
+            "Even and odd integers",
+            "Empty set and anything"
+        ],
+        "right": [
+            "Disjoint",
+            "Not disjoint",
+            "Disjoint",
+            "Disjoint"
+        ]
+    },
+    {
+        "q": "Rearrange disjoint partition:",
+        "type": "rearrange",
+        "words": [
+            "Sets are disjoint",
+            "Union covers the whole",
+            "= Partition",
+            "Equivalence classes are such"
+        ]
+    },
+    {
+        "q": "What is a proof by cases?",
+        "type": "mcq",
+        "o": [
+            "Proving a statement by considering all possible cases separately",
+            "Direct proof only",
+            "Contradiction only",
+            "Induction only"
+        ]
+    },
+    {
+        "q": "Proof by cases: if cases are ______, proving each proves the whole.",
+        "type": "fill_blank",
+        "answers": [
+            "exhaustive"
+        ],
+        "other_options": [
+            "partial",
+            "overlapping",
+            "undetermined"
+        ]
+    },
+    {
+        "q": "Proving 'P holds for all n' by checking even and odd cases is valid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match proof by cases:",
+        "type": "match",
+        "left": [
+            "Case 1: n even",
+            "Case 2: n odd",
+            "Exhaustive",
+            "Conclusion"
+        ],
+        "right": [
+            "Prove P for even n",
+            "Prove P for odd n",
+            "All n covered",
+            "P for all n"
+        ]
+    },
+    {
+        "q": "Rearrange proof by cases:",
+        "type": "rearrange",
+        "words": [
+            "Identify exhaustive cases",
+            "Prove for each case",
+            "Combine all cases",
+            "Conclude statement holds"
+        ]
+    },
+    {
+        "q": "What is a vacuous truth?",
+        "type": "mcq",
+        "o": [
+            "A conditional P -> Q is vacuously true if P is always false",
+            "P is always true",
+            "Q is always true",
+            "Neither P nor Q"
+        ]
+    },
+    {
+        "q": "If no x satisfies P(x), then ∀x (P(x) -> Q(x)) is ______ true.",
+        "type": "fill_blank",
+        "answers": [
+            "vacuously"
+        ],
+        "other_options": [
+            "always",
+            "never",
+            "sometimes"
+        ]
+    },
+    {
+        "q": "'All unicorns are purple' is vacuously true (no unicorns exist).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match vacuous truth:",
+        "type": "match",
+        "left": [
+            "False -> True",
+            "False -> False",
+            "∀x in ∅: P(x)",
+            "No counterexample"
+        ],
+        "right": [
+            "True",
+            "True",
+            "Vacuously true",
+            "Vacuously holds"
+        ]
+    },
+    {
+        "q": "Rearrange vacuous reasoning:",
+        "type": "rearrange",
+        "words": [
+            "Statement: ∀x (P(x) -> Q(x))",
+            "If no x with P(x)",
+            "No counterexample possible",
+            "Statement vacuously true"
+        ]
+    },
+    {
+        "q": "What is the well-ordering principle?",
+        "type": "mcq",
+        "o": [
+            "Every non-empty set of natural numbers has a least element",
+            "No least element exists",
+            "Only for finite sets",
+            "Only for real numbers"
+        ]
+    },
+    {
+        "q": "Well-ordering: every non-empty subset of N has a ______ element.",
+        "type": "fill_blank",
+        "answers": [
+            "least"
+        ],
+        "other_options": [
+            "greatest",
+            "average",
+            "random"
+        ]
+    },
+    {
+        "q": "The well-ordering principle is equivalent to induction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match well-ordering:",
+        "type": "match",
+        "left": [
+            "N",
+            "Z",
+            "Q",
+            "R"
+        ],
+        "right": [
+            "Well-ordered",
+            "Not well-ordered",
+            "Not well-ordered",
+            "Not well-ordered"
+        ]
+    },
+    {
+        "q": "Rearrange well-ordering equivalence:",
+        "type": "rearrange",
+        "words": [
+            "Induction",
+            "Well-ordering",
+            "Strong induction",
+            "All equivalent for N"
+        ]
+    },
+    {
+        "q": "What is a closure property?",
+        "type": "mcq",
+        "o": [
+            "A set is closed under an operation if applying the operation to set elements yields set elements",
+            "Sets are always open",
+            "No closure exists",
+            "Closure means empty"
+        ]
+    },
+    {
+        "q": "Natural numbers are closed under ______.",
+        "type": "fill_blank",
+        "answers": [
+            "addition"
+        ],
+        "other_options": [
+            "subtraction",
+            "division",
+            "negation"
+        ]
+    },
+    {
+        "q": "Regular languages are closed under union, intersection, and complement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match closure:",
+        "type": "match",
+        "left": [
+            "N under +",
+            "Z under -",
+            "Q under /",
+            "R under sqrt"
+        ],
+        "right": [
+            "Closed",
+            "Closed",
+            "Closed (except 0)",
+            "Not closed (negative)"
+        ]
+    },
+    {
+        "q": "Rearrange closure checking:",
+        "type": "rearrange",
+        "words": [
+            "Take elements from set",
+            "Apply operation",
+            "Check if result in set",
+            "If always: closed"
+        ]
+    },
+    {
+        "q": "What is a recursive definition?",
+        "type": "mcq",
+        "o": [
+            "Definition with base cases and recursive cases building on previously defined elements",
+            "Non-recursive only",
+            "Circular definition",
+            "No definition"
+        ]
+    },
+    {
+        "q": "Recursive definitions have a ______ case and recursive cases.",
+        "type": "fill_blank",
+        "answers": [
+            "base"
+        ],
+        "other_options": [
+            "final",
+            "middle",
+            "random"
+        ]
+    },
+    {
+        "q": "Factorial is recursively defined: 0! = 1, n! = n * (n-1)!.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match recursive definition:",
+        "type": "match",
+        "left": [
+            "Factorial",
+            "Fibonacci",
+            "Lists",
+            "Trees"
+        ],
+        "right": [
+            "n * (n-1)!",
+            "F(n-1) + F(n-2)",
+            "Empty or head:tail",
+            "Empty or node(subtrees)"
+        ]
+    },
+    {
+        "q": "Rearrange recursive definition:",
+        "type": "rearrange",
+        "words": [
+            "Define base case(s)",
+            "Define recursive case(s)",
+            "Ensure termination",
+            "Well-founded"
+        ]
+    },
+    {
+        "q": "What is structural induction?",
+        "type": "mcq",
+        "o": [
+            "Induction on recursively defined structures (lists, trees, formulas)",
+            "Only for numbers",
+            "No induction",
+            "Random proof"
+        ]
+    },
+    {
+        "q": "Structural induction proves properties of ______ defined structures.",
+        "type": "fill_blank",
+        "answers": [
+            "recursively"
+        ],
+        "other_options": [
+            "randomly",
+            "finitely",
+            "simply"
+        ]
+    },
+    {
+        "q": "Structural induction is used to prove properties of parse trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match induction type:",
+        "type": "match",
+        "left": [
+            "Mathematical",
+            "Strong",
+            "Structural",
+            "Transfinite"
+        ],
+        "right": [
+            "On N",
+            "Using P(1)...P(k)",
+            "On recursive structures",
+            "On ordinals"
+        ]
+    },
+    {
+        "q": "Rearrange structural induction:",
+        "type": "rearrange",
+        "words": [
+            "Prove for base cases",
+            "Assume for substructures",
+            "Prove for composite",
+            "Property holds for all"
+        ]
+    },
+    {
+        "q": "What is a formal language?",
+        "type": "mcq",
+        "o": [
+            "A set of strings over an alphabet",
+            "Natural language",
+            "A single string",
+            "No strings"
+        ]
+    },
+    {
+        "q": "A formal language L is a ______ of strings.",
+        "type": "fill_blank",
+        "answers": [
+            "set"
+        ],
+        "other_options": [
+            "list",
+            "number",
+            "function"
+        ]
+    },
+    {
+        "q": "The empty language {} and {empty string} are different.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match language type:",
+        "type": "match",
+        "left": [
+            "Regular",
+            "Context-free",
+            "Context-sensitive",
+            "Recursive"
+        ],
+        "right": [
+            "FA recognizable",
+            "PDA recognizable",
+            "LBA recognizable",
+            "TM decidable"
+        ]
+    },
+    {
+        "q": "Rearrange Chomsky hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Regular ⊂ CFL",
+            "CFL ⊂ CSL",
+            "CSL ⊂ Recursive",
+            "Recursive ⊂ RE"
+        ]
+    },
+    {
+        "q": "What is a derivation in a grammar?",
+        "type": "mcq",
+        "o": [
+            "Sequence of rule applications transforming start symbol to a string",
+            "A single rule",
+            "No transformation",
+            "Parsing only"
+        ]
+    },
+    {
+        "q": "Derivation: S => ... => w shows w is ______ by the grammar.",
+        "type": "fill_blank",
+        "answers": [
+            "generated"
+        ],
+        "other_options": [
+            "rejected",
+            "ignored",
+            "deleted"
+        ]
+    },
+    {
+        "q": "Leftmost and rightmost derivations differ only in order of rule application.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match derivation type:",
+        "type": "match",
+        "left": [
+            "Leftmost",
+            "Rightmost",
+            "Parse tree",
+            "Ambiguous"
+        ],
+        "right": [
+            "Expand leftmost nonterminal",
+            "Expand rightmost",
+            "Tree representation",
+            "Multiple parse trees"
+        ]
+    },
+    {
+        "q": "Rearrange derivation process:",
+        "type": "rearrange",
+        "words": [
+            "Start with S",
+            "Apply production rules",
+            "Replace nonterminals",
+            "Reach terminal string"
+        ]
+    },
+    {
+        "q": "What is a prefix-free code?",
+        "type": "mcq",
+        "o": [
+            "No codeword is a prefix of another codeword",
+            "All codewords have prefixes",
+            "Only one codeword",
+            "Empty codewords"
+        ]
+    },
+    {
+        "q": "Prefix-free codes allow ______ decoding.",
+        "type": "fill_blank",
+        "answers": [
+            "instantaneous"
+        ],
+        "other_options": [
+            "delayed",
+            "impossible",
+            "random"
+        ]
+    },
+    {
+        "q": "Huffman codes are prefix-free.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match code property:",
+        "type": "match",
+        "left": [
+            "Prefix-free",
+            "Uniquely decodable",
+            "Huffman",
+            "Fixed-length"
+        ],
+        "right": [
+            "Instant decode",
+            "Unique decode",
+            "Optimal prefix-free",
+            "All same length"
+        ]
+    },
+    {
+        "q": "Rearrange prefix-free checking:",
+        "type": "rearrange",
+        "words": [
+            "Take any two codewords",
+            "Check if one is prefix of other",
+            "If never: prefix-free",
+            "Kraft inequality"
+        ]
+    },
+    {
+        "q": "What is the Myhill-Nerode theorem?",
+        "type": "mcq",
+        "o": [
+            "Characterizes regular languages by equivalence relation with finite index",
+            "All languages are regular",
+            "No characterization",
+            "Only for CFLs"
+        ]
+    },
+    {
+        "q": "Myhill-Nerode: L is regular iff indistinguishability has ______ index.",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "infinite",
+            "zero",
+            "one"
+        ]
+    },
+    {
+        "q": "Myhill-Nerode gives the minimum DFA states for a regular language.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Myhill-Nerode concepts:",
+        "type": "match",
+        "left": [
+            "Equivalence relation",
+            "Index",
+            "Refinement",
+            "Regular"
+        ],
+        "right": [
+            "x ≡ y if behave same",
+            "Number of classes",
+            "Finer partition",
+            "Finite index"
+        ]
+    },
+    {
+        "q": "Rearrange Myhill-Nerode application:",
+        "type": "rearrange",
+        "words": [
+            "Define ≡_L relation",
+            "Count equivalence classes",
+            "If finite: L regular",
+            "Classes = minimal DFA states"
+        ]
+    },
+    {
+        "q": "What is SAT (satisfiability problem)?",
+        "type": "mcq",
+        "o": [
+            "Given a Boolean formula, is there an assignment making it true?",
+            "Always satisfiable",
+            "Never satisfiable",
+            "Only for small formulas"
+        ]
+    },
+    {
+        "q": "SAT was the first problem proven ______-complete.",
+        "type": "fill_blank",
+        "answers": [
+            "NP"
+        ],
+        "other_options": [
+            "P",
+            "PSPACE",
+            "EXPTIME"
+        ]
+    },
+    {
+        "q": "3-SAT (CNF with 3 literals per clause) is also NP-complete.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match SAT variant:",
+        "type": "match",
+        "left": [
+            "SAT",
+            "3-SAT",
+            "2-SAT",
+            "Horn-SAT"
+        ],
+        "right": [
+            "NP-complete",
+            "NP-complete",
+            "P (polynomial)",
+            "P (polynomial)"
+        ]
+    },
+    {
+        "q": "Rearrange SAT solving:",
+        "type": "rearrange",
+        "words": [
+            "Convert to CNF",
+            "Try assignments",
+            "Use DPLL/CDCL",
+            "Find if satisfiable"
+        ]
+    },
+    {
+        "q": "What is the N-Queens problem?",
+        "type": "mcq",
+        "o": [
+            "Place N queens on NxN board so none attack each other",
+            "N rooks problem",
+            "Chess opening",
+            "Checkmate puzzle"
+        ]
+    },
+    {
+        "q": "N-Queens: no two queens on same row, column, or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "diagonal"
+        ],
+        "other_options": [
+            "square",
+            "edge",
+            "corner"
+        ]
+    },
+    {
+        "q": "N-Queens is often solved using backtracking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match constraint satisfaction:",
+        "type": "match",
+        "left": [
+            "N-Queens",
+            "Graph coloring",
+            "Sudoku",
+            "SAT"
+        ],
+        "right": [
+            "Board constraints",
+            "Adjacent different",
+            "Cell constraints",
+            "CNF formula"
+        ]
+    },
+    {
+        "q": "Rearrange N-Queens backtracking:",
+        "type": "rearrange",
+        "words": [
+            "Place queen in row",
+            "Check constraints",
+            "If conflict: backtrack",
+            "If all placed: solution"
+        ]
+    },
+    {
+        "q": "What is the graph isomorphism problem?",
+        "type": "mcq",
+        "o": [
+            "Given two graphs, do they have the same structure (bijection preserving edges)?",
+            "Always isomorphic",
+            "Never isomorphic",
+            "Only for trees"
+        ]
+    },
+    {
+        "q": "Graph isomorphism: find bijection preserving ______ structure.",
+        "type": "fill_blank",
+        "answers": [
+            "edge"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Graph isomorphism is believed to be neither in P nor NP-complete.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match graph property:",
+        "type": "match",
+        "left": [
+            "Isomorphism",
+            "Automorphism",
+            "Subgraph isomorphism",
+            "Planarity"
+        ],
+        "right": [
+            "Same structure",
+            "Self-isomorphism",
+            "NP-complete",
+            "Polynomial"
+        ]
+    },
+    {
+        "q": "Rearrange isomorphism checking:",
+        "type": "rearrange",
+        "words": [
+            "Check vertex count",
+            "Check edge count",
+            "Check degree sequence",
+            "Find bijection"
+        ]
+    },
+    {
+        "q": "What is a deterministic algorithm?",
+        "type": "mcq",
+        "o": [
+            "Algorithm that produces the same output for same input (no randomness)",
+            "Random algorithm",
+            "Non-terminating",
+            "Parallel algorithm"
+        ]
+    },
+    {
+        "q": "Deterministic algorithms have no ______ in their computation.",
+        "type": "fill_blank",
+        "answers": [
+            "randomness"
+        ],
+        "other_options": [
+            "steps",
+            "inputs",
+            "outputs"
+        ]
+    },
+    {
+        "q": "DFAs are deterministic: one transition per symbol.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match algorithm type:",
+        "type": "match",
+        "left": [
+            "Deterministic",
+            "Randomized",
+            "Nondeterministic",
+            "Parallel"
+        ],
+        "right": [
+            "Fixed behavior",
+            "Uses random bits",
+            "Explores paths",
+            "Multiple processors"
+        ]
+    },
+    {
+        "q": "Rearrange algorithm classification:",
+        "type": "rearrange",
+        "words": [
+            "Deterministic (standard)",
+            "Randomized (probabilistic)",
+            "Nondeterministic (theory)",
+            "Quantum (future)"
+        ]
+    },
+    {
+        "q": "What is a randomized algorithm?",
+        "type": "mcq",
+        "o": [
+            "Algorithm that uses random bits to guide computation",
+            "Deterministic only",
+            "No output",
+            "Always wrong"
+        ]
+    },
+    {
+        "q": "Randomized algorithms may give ______ outcomes on multiple runs.",
+        "type": "fill_blank",
+        "answers": [
+            "different"
+        ],
+        "other_options": [
+            "same",
+            "wrong",
+            "no"
+        ]
+    },
+    {
+        "q": "Monte Carlo algorithms may give wrong answers with small probability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match randomized types:",
+        "type": "match",
+        "left": [
+            "Las Vegas",
+            "Monte Carlo",
+            "BPP",
+            "RP"
+        ],
+        "right": [
+            "Always correct, random time",
+            "May err, fixed time",
+            "Bounded error both ways",
+            "One-sided error"
+        ]
+    },
+    {
+        "q": "Rearrange randomized concepts:",
+        "type": "rearrange",
+        "words": [
+            "Random bits available",
+            "Algorithm uses randomness",
+            "Analysis considers probability",
+            "Expected behavior"
+        ]
+    },
+    {
+        "q": "What is space complexity?",
+        "type": "mcq",
+        "o": [
+            "Amount of memory used by an algorithm as function of input size",
+            "Time taken",
+            "Number of processors",
+            "Power consumed"
+        ]
+    },
+    {
+        "q": "Space complexity measures ______ usage.",
+        "type": "fill_blank",
+        "answers": [
+            "memory"
+        ],
+        "other_options": [
+            "time",
+            "power",
+            "network"
+        ]
+    },
+    {
+        "q": "PSPACE contains all problems solvable with polynomial space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match space class:",
+        "type": "match",
+        "left": [
+            "L",
+            "NL",
+            "PSPACE",
+            "EXPSPACE"
+        ],
+        "right": [
+            "Log space",
+            "Nondeterministic log",
+            "Polynomial space",
+            "Exponential space"
+        ]
+    },
+    {
+        "q": "Rearrange space hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "L ⊆ NL",
+            "NL ⊆ P",
+            "P ⊆ PSPACE",
+            "PSPACE ⊆ EXPTIME"
+        ]
+    },
+    {
+        "q": "What is Rice's theorem?",
+        "type": "mcq",
+        "o": [
+            "Any non-trivial property of the language of a TM is undecidable",
+            "All properties decidable",
+            "Only halting undecidable",
+            "No undecidable properties"
+        ]
+    },
+    {
+        "q": "Rice's theorem: ______ semantic properties of TMs are undecidable.",
+        "type": "fill_blank",
+        "answers": [
+            "non-trivial"
+        ],
+        "other_options": [
+            "trivial",
+            "all",
+            "none"
+        ]
+    },
+    {
+        "q": "Rice's theorem generalizes the undecidability of the halting problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Rice's theorem:",
+        "type": "match",
+        "left": [
+            "Is L(M) empty?",
+            "Is L(M) finite?",
+            "Is L(M) regular?",
+            "Does M halt on empty?"
+        ],
+        "right": [
+            "Undecidable",
+            "Undecidable",
+            "Undecidable",
+            "Undecidable"
+        ]
+    },
+    {
+        "q": "Rearrange Rice's implications:",
+        "type": "rearrange",
+        "words": [
+            "Want to decide property P",
+            "P is non-trivial about L(M)",
+            "Rice: P is undecidable",
+            "Cannot build algorithm"
+        ]
+    },
+    {
+        "q": "What is an oracle in complexity?",
+        "type": "mcq",
+        "o": [
+            "Black box that answers queries about a problem in one step",
+            "A human expert",
+            "No help",
+            "Standard algorithm"
+        ]
+    },
+    {
+        "q": "P^NP means P with an ______ for NP-complete problems.",
+        "type": "fill_blank",
+        "answers": [
+            "oracle"
+        ],
+        "other_options": [
+            "algorithm",
+            "proof",
+            "definition"
+        ]
+    },
+    {
+        "q": "Relativized results use oracles to study complexity relationships.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match oracle complexity:",
+        "type": "match",
+        "left": [
+            "P^A",
+            "NP^A",
+            "P = NP?",
+            "Relativization barrier"
+        ],
+        "right": [
+            "P with oracle A",
+            "NP with oracle A",
+            "Unknown",
+            "Can't prove with oracles alone"
+        ]
+    },
+    {
+        "q": "Rearrange oracle use:",
+        "type": "rearrange",
+        "words": [
+            "Define oracle for problem",
+            "Algorithm makes queries",
+            "Oracle answers instantly",
+            "Analyze complexity with oracle"
+        ]
+    },
+    {
+        "q": "What is the polynomial hierarchy?",
+        "type": "mcq",
+        "o": [
+            "Hierarchy of complexity classes: P ⊆ NP ⊆ PH",
+            "Only P and NP",
+            "No hierarchy",
+            "Linear ordering"
+        ]
+    },
+    {
+        "q": "The polynomial hierarchy PH is the ______ of Sigma_k and Pi_k for all k.",
+        "type": "fill_blank",
+        "answers": [
+            "union"
+        ],
+        "other_options": [
+            "intersection",
+            "difference",
+            "product"
+        ]
+    },
+    {
+        "q": "If NP = P, then the polynomial hierarchy collapses to P.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match PH levels:",
+        "type": "match",
+        "left": [
+            "Sigma_0",
+            "Sigma_1",
+            "Sigma_2",
+            "Pi_1"
+        ],
+        "right": [
+            "P",
+            "NP",
+            "NP^NP",
+            "co-NP"
+        ]
+    },
+    {
+        "q": "Rearrange PH levels:",
+        "type": "rearrange",
+        "words": [
+            "Sigma_0 = P",
+            "Sigma_1 = NP",
+            "Sigma_2 = NP^NP",
+            "...continues"
+        ]
+    },
+    {
+        "q": "What is a witness certificate?",
+        "type": "mcq",
+        "o": [
+            "Short proof that can be verified quickly (in polynomial time)",
+            "Long proof",
+            "No verification possible",
+            "Only for P problems"
+        ]
+    },
+    {
+        "q": "NP is defined as problems with polynomial-time verifiable ______.",
+        "type": "fill_blank",
+        "answers": [
+            "certificates"
+        ],
+        "other_options": [
+            "algorithms",
+            "inputs",
+            "outputs"
+        ]
+    },
+    {
+        "q": "A satisfying assignment is a certificate for SAT.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match certificate:",
+        "type": "match",
+        "left": [
+            "SAT",
+            "HAM-CYCLE",
+            "CLIQUE",
+            "PRIME"
+        ],
+        "right": [
+            "Assignment",
+            "Hamiltonian path",
+            "k vertices forming clique",
+            "Efficient test exists"
+        ]
+    },
+    {
+        "q": "Rearrange NP verification:",
+        "type": "rearrange",
+        "words": [
+            "Given input x",
+            "Guess certificate y",
+            "Verify in poly time",
+            "If verified: x in L"
+        ]
+    },
+    {
+        "q": "What is co-NP?",
+        "type": "mcq",
+        "o": [
+            "Complements of NP problems: easy to verify NO instances",
+            "Same as NP",
+            "Opposite of P",
+            "Undecidable problems"
+        ]
+    },
+    {
+        "q": "co-NP contains complements of ______ problems.",
+        "type": "fill_blank",
+        "answers": [
+            "NP"
+        ],
+        "other_options": [
+            "P",
+            "PSPACE",
+            "EXP"
+        ]
+    },
+    {
+        "q": "UNSAT (unsatisfiable formulas) is in co-NP.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match NP vs co-NP:",
+        "type": "match",
+        "left": [
+            "SAT",
+            "UNSAT",
+            "PRIMES",
+            "P"
+        ],
+        "right": [
+            "NP-complete",
+            "co-NP-complete",
+            "Both NP and co-NP",
+            "Both NP and co-NP"
+        ]
+    },
+    {
+        "q": "Rearrange NP/co-NP:",
+        "type": "rearrange",
+        "words": [
+            "NP: verify YES",
+            "co-NP: verify NO",
+            "P ⊆ NP ∩ co-NP",
+            "Unknown if NP = co-NP"
+        ]
+    },
+    {
+        "q": "What is interactive proof?",
+        "type": "mcq",
+        "o": [
+            "Proof system where verifier interacts with prover to check validity",
+            "Non-interactive only",
+            "Single message",
+            "No verification"
+        ]
+    },
+    {
+        "q": "Interactive proofs have a ______ and a verifier exchanging messages.",
+        "type": "fill_blank",
+        "answers": [
+            "prover"
+        ],
+        "other_options": [
+            "solver",
+            "oracle",
+            "algorithm"
+        ]
+    },
+    {
+        "q": "IP = PSPACE (interactive proofs characterize PSPACE).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match IP variants:",
+        "type": "match",
+        "left": [
+            "IP",
+            "AM",
+            "MA",
+            "ZKP"
+        ],
+        "right": [
+            "Unbounded prover",
+            "Arthur-Merlin",
+            "Merlin-Arthur",
+            "Zero-knowledge"
+        ]
+    },
+    {
+        "q": "Rearrange interactive proof:",
+        "type": "rearrange",
+        "words": [
+            "Prover sends message",
+            "Verifier sends challenge",
+            "Repeat rounds",
+            "Verifier accepts/rejects"
+        ]
+    },
+    {
+        "q": "What is zero-knowledge proof?",
+        "type": "mcq",
+        "o": [
+            "Proof that reveals nothing beyond validity of the statement",
+            "Reveals everything",
+            "No proof",
+            "Complete disclosure"
+        ]
+    },
+    {
+        "q": "Zero-knowledge proofs reveal ______ beyond statement validity.",
+        "type": "fill_blank",
+        "answers": [
+            "nothing"
+        ],
+        "other_options": [
+            "everything",
+            "something",
+            "half"
+        ]
+    },
+    {
+        "q": "Zero-knowledge proofs are used in cryptographic protocols.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match ZKP property:",
+        "type": "match",
+        "left": [
+            "Completeness",
+            "Soundness",
+            "Zero-knowledge",
+            "Simulation"
+        ],
+        "right": [
+            "True proved true",
+            "False rejected",
+            "No info leaked",
+            "Transcript reproducible"
+        ]
+    },
+    {
+        "q": "Rearrange ZKP properties:",
+        "type": "rearrange",
+        "words": [
+            "Completeness: honest prover convinces",
+            "Soundness: no cheating",
+            "Zero-knowledge: no extra info",
+            "All three required"
+        ]
+    },
+    {
+        "q": "What is a probabilistically checkable proof (PCP)?",
+        "type": "mcq",
+        "o": [
+            "Proof that can be verified by reading only a few random bits",
+            "Read entire proof",
+            "No verification",
+            "Deterministic only"
+        ]
+    },
+    {
+        "q": "PCP theorem: NP has proofs verifiable with ______ random queries.",
+        "type": "fill_blank",
+        "answers": [
+            "constant"
+        ],
+        "other_options": [
+            "linear",
+            "exponential",
+            "none"
+        ]
+    },
+    {
+        "q": "PCP theorem characterizes approximation hardness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match PCP concepts:",
+        "type": "match",
+        "left": [
+            "Random bits",
+            "Query complexity",
+            "Gap",
+            "Approximation"
+        ],
+        "right": [
+            "Randomness used",
+            "Bits read from proof",
+            "Accept/reject probability difference",
+            "Related hardness"
+        ]
+    },
+    {
+        "q": "Rearrange PCP verification:",
+        "type": "rearrange",
+        "words": [
+            "Receive proof",
+            "Use random bits",
+            "Query few positions",
+            "Accept/reject"
+        ]
+    },
+    {
+        "q": "What is a many-one reduction?",
+        "type": "mcq",
+        "o": [
+            "Reduction where f(x) in B iff x in A (computable function)",
+            "A to B without function",
+            "No reduction",
+            "Bijective only"
+        ]
+    },
+    {
+        "q": "Many-one reduction: A <=m B if computable ______ exists.",
+        "type": "fill_blank",
+        "answers": [
+            "function"
+        ],
+        "other_options": [
+            "set",
+            "number",
+            "string"
+        ]
+    },
+    {
+        "q": "Polynomial-time many-one reductions are used for NP-completeness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match reduction type:",
+        "type": "match",
+        "left": [
+            "Many-one",
+            "Turing",
+            "Polynomial-time",
+            "Log-space"
+        ],
+        "right": [
+            "Single query",
+            "Multiple queries",
+            "Poly computable",
+            "Log-space computable"
+        ]
+    },
+    {
+        "q": "Rearrange reduction hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Many-one (restrictive)",
+            "Truth-table",
+            "Turing (flexible)",
+            "All preserve decidability"
+        ]
+    },
+    {
+        "q": "What is a Turing reduction?",
+        "type": "mcq",
+        "o": [
+            "Reduction using oracle calls to solve a problem",
+            "No oracle used",
+            "Single call only",
+            "Same as many-one"
+        ]
+    },
+    {
+        "q": "Turing reduction: A <=T B if A decidable using ______ for B.",
+        "type": "fill_blank",
+        "answers": [
+            "oracle"
+        ],
+        "other_options": [
+            "algorithm",
+            "proof",
+            "set"
+        ]
+    },
+    {
+        "q": "Turing reductions are more general than many-one reductions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match reduction comparison:",
+        "type": "match",
+        "left": [
+            "A <=m B",
+            "A <=T B",
+            "NP-complete via",
+            "NP-hard via"
+        ],
+        "right": [
+            "Single function call",
+            "Multiple oracle calls",
+            "Polynomial many-one",
+            "Turing reduction"
+        ]
+    },
+    {
+        "q": "Rearrange reduction use:",
+        "type": "rearrange",
+        "words": [
+            "Define reduction function",
+            "Show membership preserved",
+            "If B easy, A easy",
+            "Contrapositive for hardness"
+        ]
+    },
+    {
+        "q": "What is the recursion theorem?",
+        "type": "mcq",
+        "o": [
+            "A program can obtain its own source code (self-reference possible)",
+            "No self-reference",
+            "Only finite programs",
+            "Circular only"
+        ]
+    },
+    {
+        "q": "Recursion theorem: for any f, there exists e with phi_e = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "f(e)"
+        ],
+        "other_options": [
+            "e",
+            "f",
+            "0"
+        ]
+    },
+    {
+        "q": "Quines (self-printing programs) are applications of the recursion theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match recursion theorem:",
+        "type": "match",
+        "left": [
+            "Self-reference",
+            "Fixed point",
+            "Quine",
+            "Kleene"
+        ],
+        "right": [
+            "Access own code",
+            "phi_e = f(e)",
+            "Self-printing program",
+            "Proved theorem"
+        ]
+    },
+    {
+        "q": "Rearrange recursion theorem use:",
+        "type": "rearrange",
+        "words": [
+            "Define transformation f",
+            "Recursion theorem gives e",
+            "phi_e = f(e)",
+            "Self-reference achieved"
+        ]
+    },
+    {
+        "q": "What is an enumerable set?",
+        "type": "mcq",
+        "o": [
+            "Set that can be listed by a TM (may not halt on non-members)",
+            "Always decidable",
+            "Finite only",
+            "No enumeration"
+        ]
+    },
+    {
+        "q": "Recursively enumerable = ______ recognizable.",
+        "type": "fill_blank",
+        "answers": [
+            "TM"
+        ],
+        "other_options": [
+            "FA",
+            "PDA",
+            "LBA"
+        ]
+    },
+    {
+        "q": "A set is decidable iff both it and its complement are RE.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match enumerable concepts:",
+        "type": "match",
+        "left": [
+            "RE",
+            "co-RE",
+            "Recursive",
+            "Non-RE"
+        ],
+        "right": [
+            "TM halts on members",
+            "TM halts on non-members",
+            "TM halts on all",
+            "TM can't enumerate"
+        ]
+    },
+    {
+        "q": "Rearrange enumerable hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Recursive = decidable",
+            "RE = semi-decidable",
+            "co-RE = complement semi",
+            "Non-RE outside TM reach"
+        ]
+    },
+    {
+        "q": "What is a busy beaver function?",
+        "type": "mcq",
+        "o": [
+            "Maximum steps/symbols an n-state TM can produce before halting",
+            "Minimum steps",
+            "No halting",
+            "Always computable"
+        ]
+    },
+    {
+        "q": "Busy beaver BB(n) is not ______ (grows faster than any computable function).",
+        "type": "fill_blank",
+        "answers": [
+            "computable"
+        ],
+        "other_options": [
+            "finite",
+            "positive",
+            "increasing"
+        ]
+    },
+    {
+        "q": "BB(n) grows faster than any computable function.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match busy beaver:",
+        "type": "match",
+        "left": [
+            "BB(1)",
+            "BB(2)",
+            "Growth rate",
+            "Computability"
+        ],
+        "right": [
+            "1",
+            "4",
+            "Faster than computable",
+            "Not computable"
+        ]
+    },
+    {
+        "q": "Rearrange busy beaver reasoning:",
+        "type": "rearrange",
+        "words": [
+            "Consider all n-state TMs",
+            "Find maximum output",
+            "Define BB(n)",
+            "Not computable (ties to halting)"
+        ]
+    },
+    {
+        "q": "What is Kolmogorov complexity?",
+        "type": "mcq",
+        "o": [
+            "Shortest program that outputs a given string",
+            "Longest program",
+            "String length",
+            "No complexity"
+        ]
+    },
+    {
+        "q": "K(x) = length of shortest ______ outputting x.",
+        "type": "fill_blank",
+        "answers": [
+            "program"
+        ],
+        "other_options": [
+            "string",
+            "number",
+            "set"
+        ]
+    },
+    {
+        "q": "Kolmogorov complexity is not computable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match complexity concept:",
+        "type": "match",
+        "left": [
+            "K(x)",
+            "Random string",
+            "Compressible",
+            "Invariance"
+        ],
+        "right": [
+            "Program complexity",
+            "K(x) ~ |x|",
+            "K(x) << |x|",
+            "Up to constant"
+        ]
+    },
+    {
+        "q": "Rearrange Kolmogorov concepts:",
+        "type": "rearrange",
+        "words": [
+            "Define shortest program",
+            "K(x) = its length",
+            "Random if K(x) ~ |x|",
+            "Compressible if K(x) << |x|"
+        ]
+    },
+    {
+        "q": "What is program verification?",
+        "type": "mcq",
+        "o": [
+            "Proving a program meets its specification",
+            "Running tests only",
+            "No checking",
+            "Compilation"
+        ]
+    },
+    {
+        "q": "Program verification proves ______ of software.",
+        "type": "fill_blank",
+        "answers": [
+            "correctness"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "beauty"
+        ]
+    },
+    {
+        "q": "Hoare logic is used for program verification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match verification approach:",
+        "type": "match",
+        "left": [
+            "Hoare logic",
+            "Model checking",
+            "Testing",
+            "Proof assistant"
+        ],
+        "right": [
+            "{P}S{Q}",
+            "Exhaustive state check",
+            "Sample execution",
+            "Interactive proof"
+        ]
+    },
+    {
+        "q": "Rearrange verification methods:",
+        "type": "rearrange",
+        "words": [
+            "Write specification",
+            "Prove code meets spec",
+            "Use Hoare triples",
+            "Establish correctness"
+        ]
+    },
+    {
+        "q": "What is a Hoare triple?",
+        "type": "mcq",
+        "o": [
+            "{P}S{Q}: if P holds before S, then Q holds after S",
+            "P, Q, S unrelated",
+            "Only for loops",
+            "No precondition"
+        ]
+    },
+    {
+        "q": "Hoare triple: {P}S{Q} means P is ______ and Q is postcondition.",
+        "type": "fill_blank",
+        "answers": [
+            "precondition"
+        ],
+        "other_options": [
+            "postcondition",
+            "invariant",
+            "variant"
+        ]
+    },
+    {
+        "q": "Hoare logic has rules for assignment, composition, and conditionals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match Hoare component:",
+        "type": "match",
+        "left": [
+            "P",
+            "S",
+            "Q",
+            "Loop invariant"
+        ],
+        "right": [
+            "Precondition",
+            "Statement",
+            "Postcondition",
+            "Holds through iterations"
+        ]
+    },
+    {
+        "q": "Rearrange Hoare reasoning:",
+        "type": "rearrange",
+        "words": [
+            "State precondition P",
+            "Execute statement S",
+            "Verify postcondition Q",
+            "{P}S{Q} holds"
+        ]
+    },
+    {
+        "q": "What is a loop invariant?",
+        "type": "mcq",
+        "o": [
+            "Property true before, during, and after each loop iteration",
+            "Changes each iteration",
+            "Only at start",
+            "Only at end"
+        ]
+    },
+    {
+        "q": "Loop invariant: property I true at every ______ iteration.",
+        "type": "fill_blank",
+        "answers": [
+            "loop"
+        ],
+        "other_options": [
+            "other",
+            "final",
+            "random"
+        ]
+    },
+    {
+        "q": "Finding loop invariants is key to proving loop correctness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match loop verification:",
+        "type": "match",
+        "left": [
+            "Invariant",
+            "Variant",
+            "Termination",
+            "Partial correctness"
+        ],
+        "right": [
+            "True throughout",
+            "Decreases each iteration",
+            "Variant reaches bound",
+            "If terminates, correct"
+        ]
+    },
+    {
+        "q": "Rearrange loop proof:",
+        "type": "rearrange",
+        "words": [
+            "Find invariant I",
+            "Prove I holds initially",
+            "Prove I preserved",
+            "Conclude I holds at end"
+        ]
+    },
+    {
+        "q": "What is total correctness?",
+        "type": "mcq",
+        "o": [
+            "Partial correctness plus termination",
+            "Partial correctness only",
+            "Termination only",
+            "No correctness"
+        ]
+    },
+    {
+        "q": "Total correctness = partial correctness + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "termination"
+        ],
+        "other_options": [
+            "speed",
+            "space",
+            "simplicity"
+        ]
+    },
+    {
+        "q": "A partially correct non-terminating program is not totally correct.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match correctness type:",
+        "type": "match",
+        "left": [
+            "Partial",
+            "Total",
+            "Termination proof",
+            "Variant function"
+        ],
+        "right": [
+            "If terminates, correct",
+            "Correct and terminates",
+            "Show program halts",
+            "Decreasing measure"
+        ]
+    },
+    {
+        "q": "Rearrange correctness proof:",
+        "type": "rearrange",
+        "words": [
+            "Prove partial correctness",
+            "Prove termination",
+            "Combine both",
+            "Total correctness established"
+        ]
+    },
+    {
+        "q": "What is the difference between syntax and semantics?",
+        "type": "mcq",
+        "o": [
+            "Syntax is structure/form; semantics is meaning/interpretation",
+            "Syntax is meaning; semantics is structure",
+            "Both are the same",
+            "Neither applies to logic"
+        ]
+    },
+    {
+        "q": "Syntax concerns ______ of formulas; semantics concerns truth values.",
+        "type": "fill_blank",
+        "answers": [
+            "form"
+        ],
+        "other_options": [
+            "meaning",
+            "truth",
+            "value"
+        ]
+    },
+    {
+        "q": "A syntactically valid formula may be semantically false.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match syntax vs semantics:",
+        "type": "match",
+        "left": [
+            "Syntax",
+            "Semantics",
+            "Parsing",
+            "Interpretation"
+        ],
+        "right": [
+            "Well-formedness",
+            "Truth conditions",
+            "Syntactic analysis",
+            "Semantic analysis"
+        ]
+    },
+    {
+        "q": "Rearrange language processing:",
+        "type": "rearrange",
+        "words": [
+            "Lexical analysis",
+            "Syntactic analysis",
+            "Semantic analysis",
+            "Code generation"
+        ]
+    },
+    {
+        "q": "What is monotonic logic?",
+        "type": "mcq",
+        "o": [
+            "Adding premises never invalidates existing conclusions",
+            "Conclusions can be retracted",
+            "Non-monotonic reasoning",
+            "Default logic"
+        ]
+    },
+    {
+        "q": "Classical logic is ______: adding facts doesn't remove conclusions.",
+        "type": "fill_blank",
+        "answers": [
+            "monotonic"
+        ],
+        "other_options": [
+            "non-monotonic",
+            "paraconsistent",
+            "fuzzy"
+        ]
+    },
+    {
+        "q": "Non-monotonic logics allow retraction of conclusions when new info arrives.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match logic type:",
+        "type": "match",
+        "left": [
+            "Monotonic",
+            "Non-monotonic",
+            "Default logic",
+            "Belief revision"
+        ],
+        "right": [
+            "Classical",
+            "Can retract",
+            "Assume unless contrary",
+            "Update beliefs"
+        ]
+    },
+    {
+        "q": "Rearrange monotonicity:",
+        "type": "rearrange",
+        "words": [
+            "Conclusions from premises",
+            "Add more premises",
+            "Old conclusions remain",
+            "= Monotonic"
+        ]
+    },
+    {
+        "q": "What is a paradox in logic?",
+        "type": "mcq",
+        "o": [
+            "Statement that leads to contradiction or counter-intuitive conclusions",
+            "Always true statement",
+            "Simple proof",
+            "No contradiction"
+        ]
+    },
+    {
+        "q": "Russell's paradox concerns the set of all sets that don't contain ______.",
+        "type": "fill_blank",
+        "answers": [
+            "themselves"
+        ],
+        "other_options": [
+            "others",
+            "elements",
+            "numbers"
+        ]
+    },
+    {
+        "q": "The Liar's paradox ('This statement is false') is self-referential.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the paradox:",
+        "type": "match",
+        "left": [
+            "Russell's",
+            "Liar's",
+            "Barber",
+            "Unexpected hanging"
+        ],
+        "right": [
+            "Set theory",
+            "Self-reference",
+            "Who shaves the barber?",
+            "Epistemic"
+        ]
+    },
+    {
+        "q": "Rearrange paradox resolution:",
+        "type": "rearrange",
+        "words": [
+            "Identify contradiction",
+            "Analyze assumptions",
+            "Modify axioms/definitions",
+            "Resolve paradox"
+        ]
+    }
+]

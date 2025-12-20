@@ -1,0 +1,59 @@
+{
+    "id": "learn_robo",
+    "topicId": "robo",
+    "topicTitle": "Robotics",
+    "description": "Explore robot kinematics, control systems, sensors, and autonomous systems",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "robo_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Robotics 🤖\n\n## Topics\n- Robot kinematics\n- Control systems\n- Sensors & actuators\n- Autonomous systems"
+        },
+        {
+            "id": "robo_2",
+            "type": "content",
+            "title": "Kinematics",
+            "content": "# Robot Kinematics 🦾\n\n## Types\n| Type | Motion |\n|------|--------|\n| Forward | Joint → End position |\n| Inverse | End position → Joints |\n\n## DOF\nDegrees of freedom = independent motions"
+        },
+        {
+            "id": "robo_3",
+            "type": "content",
+            "title": "Control",
+            "content": "# Control Systems 🎛️\n\n## PID Control\n```\nu = Kp*e + Ki*∫e + Kd*(de/dt)\n```\n\n| Term | Function |\n|------|----------|\n| P | Present error |\n| I | Past error |\n| D | Future trend |"
+        },
+        {
+            "id": "robo_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "PID control's 'I' term addresses:",
+            "quizOptions": [
+                "Present error",
+                "Past error accumulation",
+                "Error rate",
+                "Noise"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "robo_4",
+            "type": "content",
+            "title": "Sensors",
+            "content": "# Sensors & Actuators 📡\n\n## Sensors\n| Sensor | Measures |\n|--------|----------|\n| Encoder | Position |\n| IMU | Orientation |\n| LIDAR | Distance |\n| Camera | Vision |\n\n## Actuators\n- Motors (DC, stepper, servo)\n- Pneumatic/hydraulic"
+        },
+        {
+            "id": "robo_5",
+            "type": "content",
+            "title": "Autonomous",
+            "content": "# Autonomous Systems 🚗\n\n## Components\n- Perception (sensors)\n- Planning (path finding)\n- Control (actuation)\n\n## Applications\n- Self-driving cars\n- Drones\n- Industrial robots"
+        },
+        {
+            "id": "robo_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Kinematics: Forward & inverse\n- PID: Proportional, Integral, Derivative\n- Sensors: Encoder, LIDAR, camera\n- Autonomous: Sense → Plan → Act"
+        }
+    ]
+}

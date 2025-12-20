@@ -1,0 +1,59 @@
+{
+    "id": "learn_ocean",
+    "topicId": "ocean",
+    "topicTitle": "Oceanography",
+    "description": "Explore ocean currents, marine ecosystems, tides, and ocean floor",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ocean_1",
+            "type": "content",
+            "title": "Welcome to Oceanography",
+            "content": "# Oceanography 🌊\n\n## What you'll learn:\n- Ocean currents\n- Marine ecosystems\n- Tides and waves\n- Ocean floor topography\n\n## Ocean Facts\n- Covers 71% of Earth\n- Average depth: 3,688 m\n- 97% of Earth's water"
+        },
+        {
+            "id": "ocean_2",
+            "type": "content",
+            "title": "Ocean Currents",
+            "content": "# Ocean Currents 🔄\n\n## Types\n| Type | Cause |\n|------|-------|\n| Surface | Wind |\n| Thermohaline | Density differences |\n\n## Major Currents\n- Gulf Stream (warm)\n- California Current (cold)\n- Antarctic Circumpolar\n\n## Coriolis Effect\n- Deflects currents right (N)\n- Deflects left (S)"
+        },
+        {
+            "id": "ocean_3",
+            "type": "content",
+            "title": "Tides and Waves",
+            "content": "# Tides and Waves 🌙\n\n## Tides\n| Type | Cause |\n|------|-------|\n| Spring | Sun+Moon aligned |\n| Neap | Sun-Moon perpendicular |\n\n## Waves\n| Part | Description |\n|------|-------------|\n| Crest | Top |\n| Trough | Bottom |\n| Wavelength | Crest to crest |\n| Amplitude | Height |"
+        },
+        {
+            "id": "ocean_quiz_1",
+            "type": "quiz",
+            "title": "Ocean Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What causes deep ocean currents?",
+            "quizOptions": [
+                "Wind",
+                "Density differences",
+                "Tides",
+                "Earthquakes"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ocean_4",
+            "type": "content",
+            "title": "Ocean Floor",
+            "content": "# Ocean Floor 🏔️\n\n## Features\n| Feature | Description |\n|---------|-------------|\n| Continental shelf | Shallow, near coast |\n| Continental slope | Steep descent |\n| Abyssal plain | Flat, deep |\n| Mid-ocean ridge | Volcanic mountains |\n| Trench | Deepest parts |\n\n## Mariana Trench\n- Deepest: 11,034 m"
+        },
+        {
+            "id": "ocean_5",
+            "type": "content",
+            "title": "Marine Ecosystems",
+            "content": "# Marine Ecosystems 🐠\n\n## Zones\n| Zone | Light? | Life |\n|------|--------|------|\n| Epipelagic | Yes | Most life |\n| Mesopelagic | Dim | Some |\n| Bathypelagic | No | Sparse |\n| Abyssopelagic | No | Minimal |\n\n## Key Ecosystems\n- Coral reefs\n- Kelp forests\n- Deep sea vents"
+        },
+        {
+            "id": "ocean_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Surface currents: Wind-driven\n- Thermohaline: Density-driven\n- Tides: Moon/Sun gravity\n- Ocean zones: Light decreases with depth"
+        }
+    ]
+}

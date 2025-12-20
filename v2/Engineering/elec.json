@@ -1,0 +1,6656 @@
+[
+    {
+        "q": "What is electric current?",
+        "type": "mcq",
+        "o": [
+            "Flow of electric charge through a conductor",
+            "Static electric charge",
+            "Magnetic field strength",
+            "Voltage differential"
+        ]
+    },
+    {
+        "q": "The unit of electric current is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ampere"
+        ],
+        "other_options": [
+            "volt",
+            "ohm",
+            "watt"
+        ]
+    },
+    {
+        "q": "What is Ohm's law?",
+        "type": "mcq",
+        "o": [
+            "Voltage equals current times resistance",
+            "Power equals voltage times current",
+            "Resistance equals voltage divided by current",
+            "Current equals voltage divided by power"
+        ]
+    },
+    {
+        "q": "Match the electrical quantity with its unit:",
+        "type": "match",
+        "left": [
+            "Voltage",
+            "Current",
+            "Resistance",
+            "Power"
+        ],
+        "right": [
+            "Volt",
+            "Ampere",
+            "Ohm",
+            "Watt"
+        ]
+    },
+    {
+        "q": "Resistance opposes the flow of ______ in a circuit.",
+        "type": "fill_blank",
+        "answers": [
+            "current"
+        ],
+        "other_options": [
+            "voltage",
+            "power",
+            "frequency"
+        ]
+    },
+    {
+        "q": "What is a conductor?",
+        "type": "mcq",
+        "o": [
+            "Material that allows easy flow of electric current",
+            "Material that blocks current flow",
+            "Device that stores charge",
+            "Source of voltage"
+        ]
+    },
+    {
+        "q": "Copper is a good conductor of electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an insulator?",
+        "type": "mcq",
+        "o": [
+            "Material that resists electric current flow",
+            "Material that conducts well",
+            "Device that generates voltage",
+            "Component that stores energy"
+        ]
+    },
+    {
+        "q": "Rearrange the electrical components by typical resistance:",
+        "type": "rearrange",
+        "words": [
+            "Wire",
+            "Resistor",
+            "Lamp",
+            "Open circuit"
+        ]
+    },
+    {
+        "q": "What is a series circuit?",
+        "type": "mcq",
+        "o": [
+            "Components connected end-to-end in single path",
+            "Components connected in parallel branches",
+            "Circuit with no resistance",
+            "Circuit with only voltage source"
+        ]
+    },
+    {
+        "q": "In a series circuit, current is the ______ through all components.",
+        "type": "fill_blank",
+        "answers": [
+            "same"
+        ],
+        "other_options": [
+            "different",
+            "zero",
+            "maximum"
+        ]
+    },
+    {
+        "q": "What is a parallel circuit?",
+        "type": "mcq",
+        "o": [
+            "Components connected across same voltage points",
+            "Components in single path",
+            "Circuit with no load",
+            "Circuit without ground"
+        ]
+    },
+    {
+        "q": "Match the circuit type with its property:",
+        "type": "match",
+        "left": [
+            "Series",
+            "Parallel",
+            "Short circuit",
+            "Open circuit"
+        ],
+        "right": [
+            "Same current",
+            "Same voltage",
+            "Zero resistance path",
+            "Infinite resistance"
+        ]
+    },
+    {
+        "q": "Voltage across parallel components is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "different",
+            "zero",
+            "varying"
+        ]
+    },
+    {
+        "q": "What is electric power?",
+        "type": "mcq",
+        "o": [
+            "Rate of energy transfer in a circuit",
+            "Total energy stored",
+            "Maximum voltage",
+            "Resistance value"
+        ]
+    },
+    {
+        "q": "Power equals voltage times current.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a resistor used for?",
+        "type": "mcq",
+        "o": [
+            "Limit current flow in a circuit",
+            "Store electrical energy",
+            "Generate voltage",
+            "Amplify signals"
+        ]
+    },
+    {
+        "q": "Rearrange the safety priorities when working with electricity:",
+        "type": "rearrange",
+        "words": [
+            "Turn off power",
+            "Verify no voltage",
+            "Use insulated tools",
+            "Ground yourself"
+        ]
+    },
+    {
+        "q": "What is a capacitor?",
+        "type": "mcq",
+        "o": [
+            "Device that stores electrical charge",
+            "Device that limits current",
+            "Source of AC voltage",
+            "Type of switch"
+        ]
+    },
+    {
+        "q": "Capacitance is measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "farads"
+        ],
+        "other_options": [
+            "henrys",
+            "ohms",
+            "volts"
+        ]
+    },
+    {
+        "q": "What is an inductor?",
+        "type": "mcq",
+        "o": [
+            "Device that stores energy in magnetic field",
+            "Device that stores charge",
+            "Device that generates heat",
+            "Type of resistor"
+        ]
+    },
+    {
+        "q": "Match the component with its symbol description:",
+        "type": "match",
+        "left": [
+            "Resistor",
+            "Capacitor",
+            "Inductor",
+            "Battery"
+        ],
+        "right": [
+            "Zigzag line",
+            "Two parallel lines",
+            "Coiled line",
+            "Long and short lines"
+        ]
+    },
+    {
+        "q": "Inductance is measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "henrys"
+        ],
+        "other_options": [
+            "farads",
+            "ohms",
+            "amperes"
+        ]
+    },
+    {
+        "q": "What is AC current?",
+        "type": "mcq",
+        "o": [
+            "Current that periodically reverses direction",
+            "Current that flows in one direction",
+            "Static electricity",
+            "Zero current"
+        ]
+    },
+    {
+        "q": "DC current flows in only one direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is frequency in AC circuits?",
+        "type": "mcq",
+        "o": [
+            "Number of cycles per second",
+            "Maximum voltage value",
+            "Average current",
+            "Total power"
+        ]
+    },
+    {
+        "q": "Rearrange the electromagnetic spectrum by frequency:",
+        "type": "rearrange",
+        "words": [
+            "Radio waves",
+            "Infrared",
+            "Visible light",
+            "X-rays"
+        ]
+    },
+    {
+        "q": "What is the standard power frequency in most countries?",
+        "type": "mcq",
+        "o": [
+            "50 or 60 Hz",
+            "100 Hz",
+            "1000 Hz",
+            "1 Hz"
+        ]
+    },
+    {
+        "q": "The period of a wave is the inverse of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "frequency"
+        ],
+        "other_options": [
+            "amplitude",
+            "wavelength",
+            "phase"
+        ]
+    },
+    {
+        "q": "What is a transformer used for?",
+        "type": "mcq",
+        "o": [
+            "Change voltage level in AC circuits",
+            "Convert AC to DC",
+            "Store electrical energy",
+            "Generate electricity"
+        ]
+    },
+    {
+        "q": "Match the transformer type with its function:",
+        "type": "match",
+        "left": [
+            "Step-up",
+            "Step-down",
+            "Isolation",
+            "Auto-transformer"
+        ],
+        "right": [
+            "Increase voltage",
+            "Decrease voltage",
+            "Provide electrical isolation",
+            "Variable voltage output"
+        ]
+    },
+    {
+        "q": "A step-up transformer increases ______ while decreasing current.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage"
+        ],
+        "other_options": [
+            "current",
+            "resistance",
+            "power"
+        ]
+    },
+    {
+        "q": "What is a diode?",
+        "type": "mcq",
+        "o": [
+            "Device that allows current in one direction",
+            "Device that amplifies signals",
+            "Device that stores charge",
+            "Device that regulates voltage"
+        ]
+    },
+    {
+        "q": "LEDs are light-emitting diodes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a transistor?",
+        "type": "mcq",
+        "o": [
+            "Semiconductor device for switching or amplifying",
+            "Type of resistor",
+            "Voltage source",
+            "Current measuring device"
+        ]
+    },
+    {
+        "q": "Rearrange the electronic component complexity:",
+        "type": "rearrange",
+        "words": [
+            "Resistor",
+            "Diode",
+            "Transistor",
+            "Integrated circuit"
+        ]
+    },
+    {
+        "q": "What is ground in electrical circuits?",
+        "type": "mcq",
+        "o": [
+            "Reference point for voltage measurements",
+            "Maximum voltage point",
+            "Source of power",
+            "Type of insulator"
+        ]
+    },
+    {
+        "q": "The neutral wire carries ______ equal to the hot wire in a balanced load.",
+        "type": "fill_blank",
+        "answers": [
+            "current"
+        ],
+        "other_options": [
+            "voltage",
+            "power",
+            "resistance"
+        ]
+    },
+    {
+        "q": "What is a fuse used for?",
+        "type": "mcq",
+        "o": [
+            "Protect circuits from overcurrent",
+            "Increase voltage",
+            "Store energy",
+            "Measure current"
+        ]
+    },
+    {
+        "q": "Match the protection device with its operation:",
+        "type": "match",
+        "left": [
+            "Fuse",
+            "Circuit breaker",
+            "GFCI",
+            "Surge protector"
+        ],
+        "right": [
+            "Melts to open circuit",
+            "Trips to open circuit",
+            "Detects ground fault current",
+            "Absorbs voltage spikes"
+        ]
+    },
+    {
+        "q": "A circuit breaker can be ______ after tripping.",
+        "type": "fill_blank",
+        "answers": [
+            "reset"
+        ],
+        "other_options": [
+            "replaced",
+            "melted",
+            "discarded"
+        ]
+    },
+    {
+        "q": "What is Kirchhoff's current law?",
+        "type": "mcq",
+        "o": [
+            "Sum of currents at a node equals zero",
+            "Sum of voltages in a loop equals zero",
+            "Current equals voltage over resistance",
+            "Power equals current times voltage"
+        ]
+    },
+    {
+        "q": "Kirchhoff's voltage law states that the sum of voltages around a closed loop equals ______.",
+        "type": "fill_blank",
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "maximum",
+            "minimum",
+            "infinite"
+        ]
+    },
+    {
+        "q": "What is an electric motor?",
+        "type": "mcq",
+        "o": [
+            "Device that converts electrical to mechanical energy",
+            "Device that generates electricity",
+            "Device that stores charge",
+            "Device that measures current"
+        ]
+    },
+    {
+        "q": "Match the motor type with its characteristic:",
+        "type": "match",
+        "left": [
+            "DC motor",
+            "AC induction motor",
+            "Synchronous motor",
+            "Stepper motor"
+        ],
+        "right": [
+            "Uses brushes and commutator",
+            "No brushes with squirrel cage",
+            "Runs at exact speed",
+            "Precise angular positioning"
+        ]
+    },
+    {
+        "q": "A generator converts ______ energy to electrical energy.",
+        "type": "fill_blank",
+        "answers": [
+            "mechanical"
+        ],
+        "other_options": [
+            "chemical",
+            "thermal",
+            "nuclear"
+        ]
+    },
+    {
+        "q": "What is electromagnetic induction?",
+        "type": "mcq",
+        "o": [
+            "Voltage induced by changing magnetic field",
+            "Current produced by static charge",
+            "Resistance created by heat",
+            "Power generated by friction"
+        ]
+    },
+    {
+        "q": "Faraday's law describes electromagnetic induction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Region where magnetic force acts",
+            "Type of electric current",
+            "Form of voltage",
+            "Kind of resistance"
+        ]
+    },
+    {
+        "q": "Rearrange the electromagnetic concepts historically:",
+        "type": "rearrange",
+        "words": [
+            "Static electricity",
+            "Battery",
+            "Electromagnetism",
+            "Electronics"
+        ]
+    },
+    {
+        "q": "What is a solenoid?",
+        "type": "mcq",
+        "o": [
+            "Coil that produces magnetic field when current flows",
+            "Type of resistor",
+            "Kind of capacitor",
+            "Form of transformer"
+        ]
+    },
+    {
+        "q": "The strength of an electromagnet depends on ______ and number of turns.",
+        "type": "fill_blank",
+        "answers": [
+            "current"
+        ],
+        "other_options": [
+            "voltage",
+            "resistance",
+            "capacitance"
+        ]
+    },
+    {
+        "q": "What is a relay?",
+        "type": "mcq",
+        "o": [
+            "Electromagnetically operated switch",
+            "Type of transformer",
+            "Kind of motor",
+            "Form of generator"
+        ]
+    },
+    {
+        "q": "Match the switch type with its operation:",
+        "type": "match",
+        "left": [
+            "SPST",
+            "SPDT",
+            "DPST",
+            "DPDT"
+        ],
+        "right": [
+            "Single pole single throw",
+            "Single pole double throw",
+            "Double pole single throw",
+            "Double pole double throw"
+        ]
+    },
+    {
+        "q": "A normally open contact is ______ until activated.",
+        "type": "fill_blank",
+        "answers": [
+            "open"
+        ],
+        "other_options": [
+            "closed",
+            "shorted",
+            "grounded"
+        ]
+    },
+    {
+        "q": "What is a multimeter used for?",
+        "type": "mcq",
+        "o": [
+            "Measure voltage current and resistance",
+            "Generate electricity",
+            "Store charge",
+            "Amplify signals"
+        ]
+    },
+    {
+        "q": "An ammeter measures current and must be connected in series.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a voltmeter used for?",
+        "type": "mcq",
+        "o": [
+            "Measure potential difference across components",
+            "Measure current flow",
+            "Measure resistance value",
+            "Generate test signals"
+        ]
+    },
+    {
+        "q": "Rearrange the troubleshooting steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify problem",
+            "Analyze circuit",
+            "Test components",
+            "Repair or replace"
+        ]
+    },
+    {
+        "q": "What is the color code for a 1000 ohm resistor?",
+        "type": "mcq",
+        "o": [
+            "Brown black red",
+            "Red red red",
+            "Brown black orange",
+            "Yellow violet red"
+        ]
+    },
+    {
+        "q": "Brown represents the digit ______ in resistor color code.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "What is a printed circuit board?",
+        "type": "mcq",
+        "o": [
+            "Board with conductive tracks for mounting components",
+            "Display panel",
+            "Power supply unit",
+            "Type of transformer"
+        ]
+    },
+    {
+        "q": "Match the PCB term with its meaning:",
+        "type": "match",
+        "left": [
+            "Trace",
+            "Pad",
+            "Via",
+            "Silkscreen"
+        ],
+        "right": [
+            "Conductive path",
+            "Component connection point",
+            "Hole connecting layers",
+            "Component labels"
+        ]
+    },
+    {
+        "q": "Through-hole components have leads that pass ______ the PCB.",
+        "type": "fill_blank",
+        "answers": [
+            "through"
+        ],
+        "other_options": [
+            "around",
+            "over",
+            "under"
+        ]
+    },
+    {
+        "q": "What is surface mount technology?",
+        "type": "mcq",
+        "o": [
+            "Components mounted directly on PCB surface",
+            "Through-hole mounting",
+            "Wire-wrap connections",
+            "Breadboard assembly"
+        ]
+    },
+    {
+        "q": "SMD components are smaller than through-hole equivalents.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a breadboard?",
+        "type": "mcq",
+        "o": [
+            "Reusable prototyping board for electronic circuits",
+            "Type of PCB for production",
+            "Power supply unit",
+            "Testing equipment"
+        ]
+    },
+    {
+        "q": "Rearrange the circuit development stages:",
+        "type": "rearrange",
+        "words": [
+            "Schematic design",
+            "Breadboard prototype",
+            "PCB layout",
+            "Manufacturing"
+        ]
+    },
+    {
+        "q": "What is a schematic diagram?",
+        "type": "mcq",
+        "o": [
+            "Symbolic representation of circuit connections",
+            "Physical layout of components",
+            "Photograph of circuit",
+            "Bill of materials"
+        ]
+    },
+    {
+        "q": "Component ______ show standard symbols on schematics.",
+        "type": "fill_blank",
+        "answers": [
+            "libraries"
+        ],
+        "other_options": [
+            "catalogs",
+            "databases",
+            "inventories"
+        ]
+    },
+    {
+        "q": "What is electrical safety grounding?",
+        "type": "mcq",
+        "o": [
+            "Connecting equipment to earth for fault protection",
+            "Measuring ground voltage",
+            "Testing soil resistance",
+            "Burying cables"
+        ]
+    },
+    {
+        "q": "Match the wire color with US standard function:",
+        "type": "match",
+        "left": [
+            "Black",
+            "White",
+            "Green",
+            "Red"
+        ],
+        "right": [
+            "Hot phase A",
+            "Neutral",
+            "Ground",
+            "Hot phase B"
+        ]
+    },
+    {
+        "q": "The ground wire provides a ______ path for fault current.",
+        "type": "fill_blank",
+        "answers": [
+            "safe"
+        ],
+        "other_options": [
+            "dangerous",
+            "blocked",
+            "high resistance"
+        ]
+    },
+    {
+        "q": "What is electrical shock caused by?",
+        "type": "mcq",
+        "o": [
+            "Current flowing through the body",
+            "Voltage touching skin",
+            "Resistance of wires",
+            "Power consumption"
+        ]
+    },
+    {
+        "q": "Low current at high voltage can be more dangerous than high voltage alone.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is arc flash?",
+        "type": "mcq",
+        "o": [
+            "Dangerous electrical explosion from fault",
+            "Normal switch operation",
+            "LED indicator light",
+            "Voltage measurement"
+        ]
+    },
+    {
+        "q": "Rearrange the lockout-tagout procedure:",
+        "type": "rearrange",
+        "words": [
+            "Identify sources",
+            "Notify workers",
+            "Isolate energy",
+            "Verify zero energy"
+        ]
+    },
+    {
+        "q": "What is personal protective equipment for electrical work?",
+        "type": "mcq",
+        "o": [
+            "Insulated gloves boots and tools",
+            "Regular work clothes",
+            "Safety glasses only",
+            "Hard hat only"
+        ]
+    },
+    {
+        "q": "Class 00 gloves are rated for ______ volt maximum.",
+        "type": "fill_blank",
+        "answers": [
+            "500"
+        ],
+        "other_options": [
+            "100",
+            "1000",
+            "5000"
+        ]
+    },
+    {
+        "q": "What is the purpose of a voltage tester?",
+        "type": "mcq",
+        "o": [
+            "Verify presence or absence of voltage",
+            "Measure exact voltage",
+            "Generate test voltage",
+            "Store charge"
+        ]
+    },
+    {
+        "q": "Match the meter type with its primary use:",
+        "type": "match",
+        "left": [
+            "Voltmeter",
+            "Ammeter",
+            "Ohmmeter",
+            "Wattmeter"
+        ],
+        "right": [
+            "Measure voltage",
+            "Measure current",
+            "Measure resistance",
+            "Measure power"
+        ]
+    },
+    {
+        "q": "A clamp meter measures current without ______ the circuit.",
+        "type": "fill_blank",
+        "answers": [
+            "breaking"
+        ],
+        "other_options": [
+            "touching",
+            "grounding",
+            "powering"
+        ]
+    },
+    {
+        "q": "What is an oscilloscope used for?",
+        "type": "mcq",
+        "o": [
+            "Display voltage waveforms over time",
+            "Measure resistance",
+            "Generate test signals",
+            "Store measurements"
+        ]
+    },
+    {
+        "q": "A logic analyzer is used for digital circuit troubleshooting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a function generator?",
+        "type": "mcq",
+        "o": [
+            "Device that produces test waveforms",
+            "Device that measures frequency",
+            "Device that stores data",
+            "Device that converts voltage"
+        ]
+    },
+    {
+        "q": "Rearrange the frequency ranges:",
+        "type": "rearrange",
+        "words": [
+            "Audio",
+            "Radio",
+            "Microwave",
+            "Optical"
+        ]
+    },
+    {
+        "q": "What is impedance?",
+        "type": "mcq",
+        "o": [
+            "Opposition to AC current including resistance and reactance",
+            "DC resistance only",
+            "Voltage drop",
+            "Power consumption"
+        ]
+    },
+    {
+        "q": "Impedance is measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ohms"
+        ],
+        "other_options": [
+            "farads",
+            "henrys",
+            "watts"
+        ]
+    },
+    {
+        "q": "What is reactance?",
+        "type": "mcq",
+        "o": [
+            "Opposition to current change from capacitors or inductors",
+            "DC resistance",
+            "Power factor",
+            "Frequency response"
+        ]
+    },
+    {
+        "q": "Match the reactance type with its component:",
+        "type": "match",
+        "left": [
+            "Capacitive reactance",
+            "Inductive reactance",
+            "Resistance",
+            "Impedance"
+        ],
+        "right": [
+            "Capacitor",
+            "Inductor",
+            "Resistor",
+            "Combined RLC"
+        ]
+    },
+    {
+        "q": "Capacitive reactance ______ as frequency increases.",
+        "type": "fill_blank",
+        "answers": [
+            "decreases"
+        ],
+        "other_options": [
+            "increases",
+            "stays same",
+            "becomes zero"
+        ]
+    },
+    {
+        "q": "Inductive reactance increases with higher frequency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power factor?",
+        "type": "mcq",
+        "o": [
+            "Ratio of real power to apparent power",
+            "Maximum power output",
+            "Minimum power consumption",
+            "Power efficiency"
+        ]
+    },
+    {
+        "q": "A power factor of 1 indicates ______ load.",
+        "type": "fill_blank",
+        "answers": [
+            "purely resistive"
+        ],
+        "other_options": [
+            "purely inductive",
+            "purely capacitive",
+            "no"
+        ]
+    },
+    {
+        "q": "What causes low power factor?",
+        "type": "mcq",
+        "o": [
+            "Reactive loads like motors and transformers",
+            "Purely resistive loads",
+            "High efficiency equipment",
+            "Low power consumption"
+        ]
+    },
+    {
+        "q": "Power factor correction typically uses ______ to offset inductive loads.",
+        "type": "fill_blank",
+        "answers": [
+            "capacitors"
+        ],
+        "other_options": [
+            "inductors",
+            "resistors",
+            "transformers"
+        ]
+    },
+    {
+        "q": "What is the three-phase power system?",
+        "type": "mcq",
+        "o": [
+            "System with three alternating currents offset by 120 degrees",
+            "System with three transformers",
+            "Three separate power sources",
+            "Triple voltage system"
+        ]
+    },
+    {
+        "q": "Match the three-phase connection with its characteristic:",
+        "type": "match",
+        "left": [
+            "Wye (star)",
+            "Delta",
+            "Wye-delta",
+            "Delta-wye"
+        ],
+        "right": [
+            "Neutral available",
+            "Higher voltage between phases",
+            "Motor starting configuration",
+            "Transformer distribution"
+        ]
+    },
+    {
+        "q": "In a balanced three-phase wye system, line voltage is ______ times phase voltage.",
+        "type": "fill_blank",
+        "answers": [
+            "1.732"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "1.414"
+        ]
+    },
+    {
+        "q": "What is the advantage of three-phase power?",
+        "type": "mcq",
+        "o": [
+            "More efficient power transmission and constant power delivery",
+            "Simpler wiring",
+            "Lower voltage requirement",
+            "Less expensive equipment"
+        ]
+    },
+    {
+        "q": "Three-phase motors are more efficient than single-phase motors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a variable frequency drive?",
+        "type": "mcq",
+        "o": [
+            "Device that controls motor speed by changing frequency",
+            "Fixed speed motor controller",
+            "Power measurement device",
+            "Voltage regulator"
+        ]
+    },
+    {
+        "q": "Rearrange the VFD components in signal flow:",
+        "type": "rearrange",
+        "words": [
+            "Rectifier",
+            "DC bus",
+            "Inverter",
+            "Motor"
+        ]
+    },
+    {
+        "q": "What is soft starting of motors?",
+        "type": "mcq",
+        "o": [
+            "Gradually increasing voltage during startup",
+            "Immediate full voltage start",
+            "Reducing motor size",
+            "Using smaller fuses"
+        ]
+    },
+    {
+        "q": "Inrush current during motor starting can be ______ times rated current.",
+        "type": "fill_blank",
+        "answers": [
+            "6 to 8"
+        ],
+        "other_options": [
+            "1 to 2",
+            "2 to 3",
+            "10 to 15"
+        ]
+    },
+    {
+        "q": "What is motor nameplate data?",
+        "type": "mcq",
+        "o": [
+            "Specifications and ratings of the motor",
+            "Manufacturer warranty",
+            "Installation instructions",
+            "Maintenance schedule"
+        ]
+    },
+    {
+        "q": "Match the motor rating with its meaning:",
+        "type": "match",
+        "left": [
+            "HP",
+            "RPM",
+            "Voltage",
+            "FLA"
+        ],
+        "right": [
+            "Mechanical power output",
+            "Rotational speed",
+            "Operating voltage",
+            "Full load current"
+        ]
+    },
+    {
+        "q": "Service factor indicates the ______ above rated load a motor can handle.",
+        "type": "fill_blank",
+        "answers": [
+            "overload"
+        ],
+        "other_options": [
+            "underload",
+            "normal",
+            "minimum"
+        ]
+    },
+    {
+        "q": "What is the NEMA enclosure rating?",
+        "type": "mcq",
+        "o": [
+            "Protection level against environment",
+            "Motor power rating",
+            "Efficiency class",
+            "Mounting type"
+        ]
+    },
+    {
+        "q": "NEMA 4X enclosure is watertight and corrosion resistant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is insulation class in motors?",
+        "type": "mcq",
+        "o": [
+            "Maximum operating temperature rating",
+            "Mechanical strength",
+            "Voltage withstand",
+            "Current capacity"
+        ]
+    },
+    {
+        "q": "Rearrange the insulation classes by temperature rating:",
+        "type": "rearrange",
+        "words": [
+            "Class A",
+            "Class B",
+            "Class F",
+            "Class H"
+        ]
+    },
+    {
+        "q": "What is motor efficiency?",
+        "type": "mcq",
+        "o": [
+            "Ratio of mechanical output to electrical input",
+            "Maximum speed",
+            "Current draw",
+            "Starting torque"
+        ]
+    },
+    {
+        "q": "High efficiency motors have lower ______ losses.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "mechanical",
+            "structural",
+            "operational"
+        ]
+    },
+    {
+        "q": "What is the locked rotor condition?",
+        "type": "mcq",
+        "o": [
+            "Motor stalled with power applied",
+            "Motor at full speed",
+            "Motor disconnected",
+            "Motor coasting down"
+        ]
+    },
+    {
+        "q": "Match the motor protection with its function:",
+        "type": "match",
+        "left": [
+            "Overload relay",
+            "Fuse",
+            "Ground fault",
+            "Undervoltage"
+        ],
+        "right": [
+            "Protect against current overload",
+            "Protect against short circuit",
+            "Detect ground faults",
+            "Prevent low voltage operation"
+        ]
+    },
+    {
+        "q": "Thermal overload relays use ______ elements to detect overheating.",
+        "type": "fill_blank",
+        "answers": [
+            "bimetallic"
+        ],
+        "other_options": [
+            "electronic",
+            "magnetic",
+            "optical"
+        ]
+    },
+    {
+        "q": "What is motor starter?",
+        "type": "mcq",
+        "o": [
+            "Device that controls motor starting and stopping",
+            "Motor speed controller",
+            "Power measurement device",
+            "Voltage regulator"
+        ]
+    },
+    {
+        "q": "Contactors include an electromagnet that closes the main contacts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the difference between contactor and relay?",
+        "type": "mcq",
+        "o": [
+            "Contactors handle higher current loads",
+            "Relays are larger",
+            "Both are identical",
+            "Relays handle more current"
+        ]
+    },
+    {
+        "q": "Rearrange the motor control circuit elements:",
+        "type": "rearrange",
+        "words": [
+            "Power source",
+            "Disconnect",
+            "Starter",
+            "Motor"
+        ]
+    },
+    {
+        "q": "What is a ladder diagram?",
+        "type": "mcq",
+        "o": [
+            "Schematic for control logic circuits",
+            "Physical wiring layout",
+            "Motor specification sheet",
+            "Safety checklist"
+        ]
+    },
+    {
+        "q": "In ladder logic, contacts in series represent ______ logic.",
+        "type": "fill_blank",
+        "answers": [
+            "AND"
+        ],
+        "other_options": [
+            "OR",
+            "NOT",
+            "XOR"
+        ]
+    },
+    {
+        "q": "What is a programmable logic controller?",
+        "type": "mcq",
+        "o": [
+            "Industrial digital computer for control",
+            "Personal computer",
+            "Analog controller",
+            "Manual switch panel"
+        ]
+    },
+    {
+        "q": "Match the PLC component with its function:",
+        "type": "match",
+        "left": [
+            "CPU",
+            "Input module",
+            "Output module",
+            "Power supply"
+        ],
+        "right": [
+            "Process program",
+            "Read sensors",
+            "Control actuators",
+            "Provide DC power"
+        ]
+    },
+    {
+        "q": "PLC scan cycle reads inputs, executes program, then updates ______.",
+        "type": "fill_blank",
+        "answers": [
+            "outputs"
+        ],
+        "other_options": [
+            "inputs",
+            "memory",
+            "power"
+        ]
+    },
+    {
+        "q": "What is a digital input to a PLC?",
+        "type": "mcq",
+        "o": [
+            "On-off signal from sensors or switches",
+            "Variable voltage signal",
+            "Output to motors",
+            "Communication signal"
+        ]
+    },
+    {
+        "q": "Analog inputs provide variable signals like 4-20 mA.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a timer in PLC programming?",
+        "type": "mcq",
+        "o": [
+            "Instruction that delays output based on time",
+            "Real-time clock",
+            "Speed measurement",
+            "Temperature sensor"
+        ]
+    },
+    {
+        "q": "Rearrange the PLC programming steps:",
+        "type": "rearrange",
+        "words": [
+            "Define requirements",
+            "Write program",
+            "Test offline",
+            "Download and run"
+        ]
+    },
+    {
+        "q": "What is a counter in PLC programming?",
+        "type": "mcq",
+        "o": [
+            "Instruction that counts events",
+            "Speed measurement",
+            "Timer alternative",
+            "Motor controller"
+        ]
+    },
+    {
+        "q": "The preset value of a timer determines the ______ before output activates.",
+        "type": "fill_blank",
+        "answers": [
+            "delay time"
+        ],
+        "other_options": [
+            "count",
+            "speed",
+            "current"
+        ]
+    },
+    {
+        "q": "What is HMI in industrial control?",
+        "type": "mcq",
+        "o": [
+            "Human Machine Interface for operator interaction",
+            "Hardware maintenance inspection",
+            "High mechanical integrity",
+            "Hazardous material indicator"
+        ]
+    },
+    {
+        "q": "Match the communication protocol with its application:",
+        "type": "match",
+        "left": [
+            "Modbus",
+            "Ethernet/IP",
+            "Profibus",
+            "DeviceNet"
+        ],
+        "right": [
+            "Serial industrial communication",
+            "Ethernet based industrial",
+            "European standard",
+            "Low-level device network"
+        ]
+    },
+    {
+        "q": "SCADA stands for Supervisory Control and ______ Acquisition.",
+        "type": "fill_blank",
+        "answers": [
+            "Data"
+        ],
+        "other_options": [
+            "Diagnostic",
+            "Device",
+            "Direct"
+        ]
+    },
+    {
+        "q": "What is industrial Ethernet?",
+        "type": "mcq",
+        "o": [
+            "Ethernet adapted for industrial automation",
+            "Home network",
+            "Wireless protocol",
+            "Telephone system"
+        ]
+    },
+    {
+        "q": "Industrial Ethernet must meet real-time communication requirements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is distributed control system?",
+        "type": "mcq",
+        "o": [
+            "Control system with multiple interconnected controllers",
+            "Single centralized controller",
+            "Manual control only",
+            "Standalone equipment"
+        ]
+    },
+    {
+        "q": "Rearrange the control system hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Field devices",
+            "Controllers",
+            "SCADA",
+            "Enterprise"
+        ]
+    },
+    {
+        "q": "What is fieldbus?",
+        "type": "mcq",
+        "o": [
+            "Digital network connecting field devices to controllers",
+            "Power distribution bus",
+            "Mechanical bus bar",
+            "Transportation system"
+        ]
+    },
+    {
+        "q": "4-20 mA current loops are immune to ______ noise interference.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage"
+        ],
+        "other_options": [
+            "current",
+            "frequency",
+            "temperature"
+        ]
+    },
+    {
+        "q": "What is an encoder?",
+        "type": "mcq",
+        "o": [
+            "Device that converts position to electrical signals",
+            "Motor speed controller",
+            "Power amplifier",
+            "Voltage regulator"
+        ]
+    },
+    {
+        "q": "Match the encoder type with its output:",
+        "type": "match",
+        "left": [
+            "Incremental",
+            "Absolute",
+            "Resolver",
+            "Tachometer"
+        ],
+        "right": [
+            "Pulse train",
+            "Position code",
+            "Analog sine cosine",
+            "Voltage proportional to speed"
+        ]
+    },
+    {
+        "q": "Absolute encoders retain position information after ______.",
+        "type": "fill_blank",
+        "answers": [
+            "power loss"
+        ],
+        "other_options": [
+            "movement",
+            "calibration",
+            "reset"
+        ]
+    },
+    {
+        "q": "What is a proximity sensor?",
+        "type": "mcq",
+        "o": [
+            "Sensor that detects objects without contact",
+            "Temperature sensor",
+            "Pressure sensor",
+            "Flow sensor"
+        ]
+    },
+    {
+        "q": "Inductive proximity sensors detect metallic objects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a photoelectric sensor?",
+        "type": "mcq",
+        "o": [
+            "Sensor using light beam for detection",
+            "Pressure measurement device",
+            "Temperature sensor",
+            "Vibration sensor"
+        ]
+    },
+    {
+        "q": "Rearrange the sensor types by detection range:",
+        "type": "rearrange",
+        "words": [
+            "Inductive",
+            "Capacitive",
+            "Ultrasonic",
+            "Photoelectric"
+        ]
+    },
+    {
+        "q": "What is a strain gauge?",
+        "type": "mcq",
+        "o": [
+            "Sensor that measures mechanical deformation",
+            "Temperature sensor",
+            "Pressure gauge",
+            "Flow meter"
+        ]
+    },
+    {
+        "q": "Strain gauges change ______ when deformed.",
+        "type": "fill_blank",
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "capacitance",
+            "inductance",
+            "voltage"
+        ]
+    },
+    {
+        "q": "What is a load cell?",
+        "type": "mcq",
+        "o": [
+            "Force or weight measuring transducer",
+            "Battery pack",
+            "Motor starter",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "Match the sensor with its measured quantity:",
+        "type": "match",
+        "left": [
+            "RTD",
+            "Thermocouple",
+            "Pressure transducer",
+            "Flow meter"
+        ],
+        "right": [
+            "Temperature",
+            "Temperature",
+            "Pressure",
+            "Flow rate"
+        ]
+    },
+    {
+        "q": "Thermocouples generate voltage based on ______ at junctions.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature difference"
+        ],
+        "other_options": [
+            "pressure",
+            "current",
+            "resistance"
+        ]
+    },
+    {
+        "q": "What is an RTD?",
+        "type": "mcq",
+        "o": [
+            "Resistance temperature detector",
+            "Real time display",
+            "Rapid thermal device",
+            "Remote temperature dial"
+        ]
+    },
+    {
+        "q": "PT100 is a platinum RTD with 100 ohms at zero degrees C.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a PID controller?",
+        "type": "mcq",
+        "o": [
+            "Proportional Integral Derivative feedback controller",
+            "Programmable input device",
+            "Power isolation device",
+            "Phase induction driver"
+        ]
+    },
+    {
+        "q": "Rearrange the PID tuning steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify process",
+            "Set initial gains",
+            "Tune response",
+            "Fine tune"
+        ]
+    },
+    {
+        "q": "What is the proportional band in control?",
+        "type": "mcq",
+        "o": [
+            "Range of error that produces full output change",
+            "Maximum output value",
+            "Minimum input value",
+            "Controller dead band"
+        ]
+    },
+    {
+        "q": "Integral action eliminates ______ error in control systems.",
+        "type": "fill_blank",
+        "answers": [
+            "steady-state"
+        ],
+        "other_options": [
+            "transient",
+            "peak",
+            "random"
+        ]
+    },
+    {
+        "q": "What is integral windup?",
+        "type": "mcq",
+        "o": [
+            "Integral term accumulating during saturation",
+            "Mechanical spring tension",
+            "Motor overload",
+            "Sensor drift"
+        ]
+    },
+    {
+        "q": "Match the control action with its effect:",
+        "type": "match",
+        "left": [
+            "Proportional",
+            "Integral",
+            "Derivative",
+            "Feedforward"
+        ],
+        "right": [
+            "Reduces error proportionally",
+            "Eliminates offset",
+            "Responds to rate of change",
+            "Anticipates disturbances"
+        ]
+    },
+    {
+        "q": "Derivative action responds to the ______ of change of error.",
+        "type": "fill_blank",
+        "answers": [
+            "rate"
+        ],
+        "other_options": [
+            "sum",
+            "average",
+            "peak"
+        ]
+    },
+    {
+        "q": "What is cascade control?",
+        "type": "mcq",
+        "o": [
+            "Multiple controllers with one output feeding another",
+            "Single loop control",
+            "Manual control",
+            "Emergency shutdown"
+        ]
+    },
+    {
+        "q": "The secondary loop in cascade control responds faster than primary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ratio control?",
+        "type": "mcq",
+        "o": [
+            "Maintaining fixed ratio between two variables",
+            "On-off control",
+            "Proportional only control",
+            "Time-based control"
+        ]
+    },
+    {
+        "q": "Rearrange the control system design steps:",
+        "type": "rearrange",
+        "words": [
+            "Define objectives",
+            "Select strategy",
+            "Tune controller",
+            "Validate performance"
+        ]
+    },
+    {
+        "q": "What is motor protection relay?",
+        "type": "mcq",
+        "o": [
+            "Device that protects motors from various faults",
+            "Motor starter",
+            "Speed controller",
+            "Power meter"
+        ]
+    },
+    {
+        "q": "Phase loss protection prevents motor damage from ______ supply.",
+        "type": "fill_blank",
+        "answers": [
+            "single-phase"
+        ],
+        "other_options": [
+            "three-phase",
+            "DC",
+            "AC"
+        ]
+    },
+    {
+        "q": "What is overcurrent protection?",
+        "type": "mcq",
+        "o": [
+            "Protecting circuits from excessive current",
+            "Measuring current",
+            "Generating current",
+            "Reducing current"
+        ]
+    },
+    {
+        "q": "Match the protective device with its application:",
+        "type": "match",
+        "left": [
+            "MCB",
+            "MCCB",
+            "ELCB",
+            "ACB"
+        ],
+        "right": [
+            "Low current circuits",
+            "Medium current circuits",
+            "Earth leakage detection",
+            "High current circuits"
+        ]
+    },
+    {
+        "q": "The breaking capacity of a circuit breaker is the maximum ______ it can safely interrupt.",
+        "type": "fill_blank",
+        "answers": [
+            "fault current"
+        ],
+        "other_options": [
+            "voltage",
+            "power",
+            "resistance"
+        ]
+    },
+    {
+        "q": "What is earth leakage current?",
+        "type": "mcq",
+        "o": [
+            "Current flowing to ground through insulation faults",
+            "Normal operating current",
+            "Maximum load current",
+            "Starting current"
+        ]
+    },
+    {
+        "q": "Ground fault circuit interrupters protect against electrocution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is selective coordination in protection?",
+        "type": "mcq",
+        "o": [
+            "Ensuring only the closest device trips during fault",
+            "All devices trip together",
+            "Random device tripping",
+            "Manual device selection"
+        ]
+    },
+    {
+        "q": "Rearrange the protection coordination hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Equipment fuse",
+            "Branch circuit breaker",
+            "Feeder breaker",
+            "Main breaker"
+        ]
+    },
+    {
+        "q": "What is an uninterruptible power supply?",
+        "type": "mcq",
+        "o": [
+            "System providing backup power during outages",
+            "Regular power outlet",
+            "Generator only",
+            "Solar panel system"
+        ]
+    },
+    {
+        "q": "Double conversion UPS provides ______ isolation from input power.",
+        "type": "fill_blank",
+        "answers": [
+            "complete"
+        ],
+        "other_options": [
+            "partial",
+            "no",
+            "temporary"
+        ]
+    },
+    {
+        "q": "What is the purpose of harmonic filters?",
+        "type": "mcq",
+        "o": [
+            "Reduce harmonic distortion in power systems",
+            "Filter dust from equipment",
+            "Remove water from fuel",
+            "Clean air supply"
+        ]
+    },
+    {
+        "q": "Match the power quality issue with its effect:",
+        "type": "match",
+        "left": [
+            "Sag",
+            "Swell",
+            "Harmonics",
+            "Transient"
+        ],
+        "right": [
+            "Short voltage reduction",
+            "Short voltage increase",
+            "Waveform distortion",
+            "Very short spike"
+        ]
+    },
+    {
+        "q": "Total harmonic distortion measures the ______ content of a waveform.",
+        "type": "fill_blank",
+        "answers": [
+            "harmonic"
+        ],
+        "other_options": [
+            "fundamental",
+            "average",
+            "peak"
+        ]
+    },
+    {
+        "q": "What is power factor correction?",
+        "type": "mcq",
+        "o": [
+            "Improving power factor to reduce reactive power",
+            "Increasing power consumption",
+            "Reducing voltage",
+            "Increasing current"
+        ]
+    },
+    {
+        "q": "Capacitor banks are commonly used for power factor correction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is demand management in electrical systems?",
+        "type": "mcq",
+        "o": [
+            "Controlling peak power consumption",
+            "Increasing power supply",
+            "Reducing equipment size",
+            "Eliminating all loads"
+        ]
+    },
+    {
+        "q": "Rearrange the energy efficiency audit steps:",
+        "type": "rearrange",
+        "words": [
+            "Data collection",
+            "Analysis",
+            "Recommendations",
+            "Implementation"
+        ]
+    },
+    {
+        "q": "What is load shedding?",
+        "type": "mcq",
+        "o": [
+            "Disconnecting non-critical loads during peak demand",
+            "Adding more loads",
+            "Increasing voltage",
+            "Reducing frequency"
+        ]
+    },
+    {
+        "q": "Smart meters enable ______ monitoring of energy consumption.",
+        "type": "fill_blank",
+        "answers": [
+            "real-time"
+        ],
+        "other_options": [
+            "monthly",
+            "yearly",
+            "manual"
+        ]
+    },
+    {
+        "q": "What is renewable energy integration?",
+        "type": "mcq",
+        "o": [
+            "Connecting renewable sources to the power grid",
+            "Using only fossil fuels",
+            "Disconnecting solar panels",
+            "Reducing power consumption"
+        ]
+    },
+    {
+        "q": "Match the renewable source with its converter:",
+        "type": "match",
+        "left": [
+            "Solar PV",
+            "Wind turbine",
+            "Fuel cell",
+            "Battery storage"
+        ],
+        "right": [
+            "DC to AC inverter",
+            "AC to AC converter",
+            "DC to DC converter",
+            "Bidirectional converter"
+        ]
+    },
+    {
+        "q": "Grid-tied inverters must synchronize with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grid frequency and voltage"
+        ],
+        "other_options": [
+            "battery voltage",
+            "motor speed",
+            "transformer ratio"
+        ]
+    },
+    {
+        "q": "What is maximum power point tracking?",
+        "type": "mcq",
+        "o": [
+            "Algorithm to extract maximum power from solar panels",
+            "Speed control for motors",
+            "Voltage regulation method",
+            "Current limiting technique"
+        ]
+    },
+    {
+        "q": "Off-grid systems require energy storage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a microgrid?",
+        "type": "mcq",
+        "o": [
+            "Local power system that can operate independently",
+            "Very small transformer",
+            "Miniature circuit breaker",
+            "Small electric motor"
+        ]
+    },
+    {
+        "q": "Rearrange the power system components by voltage level:",
+        "type": "rearrange",
+        "words": [
+            "Generation",
+            "Transmission",
+            "Distribution",
+            "Utilization"
+        ]
+    },
+    {
+        "q": "What is IEEE in electrical engineering?",
+        "type": "mcq",
+        "o": [
+            "Institute of Electrical and Electronics Engineers",
+            "International Electric Energy Exchange",
+            "Industrial Electronics Equipment Enterprise",
+            "Integrated Electronic Engineering Entity"
+        ]
+    },
+    {
+        "q": "NEC stands for National ______ Code.",
+        "type": "fill_blank",
+        "answers": [
+            "Electrical"
+        ],
+        "other_options": [
+            "Electronic",
+            "Energy",
+            "Engineering"
+        ]
+    },
+    {
+        "q": "What is the purpose of electrical codes?",
+        "type": "mcq",
+        "o": [
+            "Ensure safe electrical installations",
+            "Increase installation costs",
+            "Complicate wiring",
+            "Reduce efficiency"
+        ]
+    },
+    {
+        "q": "Match the code with its focus:",
+        "type": "match",
+        "left": [
+            "NEC",
+            "NFPA 70E",
+            "IEEE standards",
+            "UL listing"
+        ],
+        "right": [
+            "Installation safety",
+            "Electrical safety workplace",
+            "Engineering practices",
+            "Product safety certification"
+        ]
+    },
+    {
+        "q": "Arc flash hazard analysis determines safe ______ boundaries.",
+        "type": "fill_blank",
+        "answers": [
+            "working"
+        ],
+        "other_options": [
+            "voltage",
+            "current",
+            "temperature"
+        ]
+    },
+    {
+        "q": "What is the purpose of one-line diagrams?",
+        "type": "mcq",
+        "o": [
+            "Show power system in simplified single line",
+            "Detailed wiring diagram",
+            "Physical layout drawing",
+            "Equipment specification"
+        ]
+    },
+    {
+        "q": "Riser diagrams show vertical distribution in buildings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is short circuit current rating?",
+        "type": "mcq",
+        "o": [
+            "Maximum fault current equipment can withstand",
+            "Normal operating current",
+            "Starting current",
+            "Idle current"
+        ]
+    },
+    {
+        "q": "Rearrange the short circuit current calculation steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify source",
+            "Calculate impedances",
+            "Determine available current",
+            "Select rated equipment"
+        ]
+    },
+    {
+        "q": "What is voltage drop calculation?",
+        "type": "mcq",
+        "o": [
+            "Determining voltage loss in conductors",
+            "Measuring voltage at source",
+            "Calculating power consumption",
+            "Finding resistance"
+        ]
+    },
+    {
+        "q": "The NEC recommends maximum ______ percent voltage drop for branch circuits.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "1",
+            "5",
+            "10"
+        ]
+    },
+    {
+        "q": "What is conductor ampacity?",
+        "type": "mcq",
+        "o": [
+            "Maximum current carrying capacity",
+            "Minimum voltage rating",
+            "Resistance per foot",
+            "Cost per meter"
+        ]
+    },
+    {
+        "q": "Match the wire gauge with approximate ampacity:",
+        "type": "match",
+        "left": [
+            "14 AWG",
+            "12 AWG",
+            "10 AWG",
+            "8 AWG"
+        ],
+        "right": [
+            "15 amperes",
+            "20 amperes",
+            "30 amperes",
+            "40 amperes"
+        ]
+    },
+    {
+        "q": "Conduit fill limits the percentage of ______ that can be filled with conductors.",
+        "type": "fill_blank",
+        "answers": [
+            "cross-sectional area"
+        ],
+        "other_options": [
+            "length",
+            "weight",
+            "voltage"
+        ]
+    },
+    {
+        "q": "What is derating in electrical systems?",
+        "type": "mcq",
+        "o": [
+            "Reducing capacity due to adverse conditions",
+            "Increasing voltage rating",
+            "Adding more conductors",
+            "Removing protection"
+        ]
+    },
+    {
+        "q": "High ambient temperature requires ampacity derating.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an electrical panel schedule?",
+        "type": "mcq",
+        "o": [
+            "Table showing circuit breakers and loads",
+            "Maintenance calendar",
+            "Voltage measurement log",
+            "Energy consumption record"
+        ]
+    },
+    {
+        "q": "Rearrange the electrical design process:",
+        "type": "rearrange",
+        "words": [
+            "Load calculation",
+            "Equipment selection",
+            "Circuit design",
+            "Installation"
+        ]
+    },
+    {
+        "q": "What is demand factor in load calculations?",
+        "type": "mcq",
+        "o": [
+            "Ratio of maximum demand to total connected load",
+            "Power factor of load",
+            "Efficiency rating",
+            "Safety factor"
+        ]
+    },
+    {
+        "q": "Diversity factor accounts for loads not operating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "simultaneously"
+        ],
+        "other_options": [
+            "efficiently",
+            "correctly",
+            "safely"
+        ]
+    },
+    {
+        "q": "What is lighting load calculation based on?",
+        "type": "mcq",
+        "o": [
+            "Watts per square foot for building type",
+            "Number of windows",
+            "Ceiling height only",
+            "Wall color"
+        ]
+    },
+    {
+        "q": "Match the building area with typical lighting load:",
+        "type": "match",
+        "left": [
+            "Office",
+            "Retail",
+            "Warehouse",
+            "Hospital"
+        ],
+        "right": [
+            "3-5 W per sqft",
+            "5-8 W per sqft",
+            "1-2 W per sqft",
+            "4-6 W per sqft"
+        ]
+    },
+    {
+        "q": "Receptacle loads are calculated at ______ VA each for general purpose.",
+        "type": "fill_blank",
+        "answers": [
+            "180"
+        ],
+        "other_options": [
+            "100",
+            "250",
+            "500"
+        ]
+    },
+    {
+        "q": "What is power quality monitoring?",
+        "type": "mcq",
+        "o": [
+            "Measuring and analyzing electrical parameters",
+            "Generating power",
+            "Distributing power",
+            "Consuming power"
+        ]
+    },
+    {
+        "q": "Power analyzers measure voltage, current, and power factor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What causes voltage flicker?",
+        "type": "mcq",
+        "o": [
+            "Rapidly varying loads like welders or arc furnaces",
+            "Steady state loads",
+            "Constant voltage sources",
+            "Static equipment"
+        ]
+    },
+    {
+        "q": "Rearrange the power quality issues by time duration:",
+        "type": "rearrange",
+        "words": [
+            "Transient",
+            "Sag or Swell",
+            "Interruption",
+            "Undervoltage"
+        ]
+    },
+    {
+        "q": "What is voltage unbalance?",
+        "type": "mcq",
+        "o": [
+            "Unequal voltages in three-phase system",
+            "DC offset in AC signal",
+            "Frequency variation",
+            "Power fluctuation"
+        ]
+    },
+    {
+        "q": "Voltage unbalance causes motor ______ to increase.",
+        "type": "fill_blank",
+        "answers": [
+            "heating"
+        ],
+        "other_options": [
+            "speed",
+            "efficiency",
+            "output"
+        ]
+    },
+    {
+        "q": "What is a ferroresonance?",
+        "type": "mcq",
+        "o": [
+            "Resonance between capacitance and transformer saturation",
+            "Normal transformer operation",
+            "Motor starting phenomenon",
+            "Generator excitation"
+        ]
+    },
+    {
+        "q": "Match the power electronic device with its application:",
+        "type": "match",
+        "left": [
+            "IGBT",
+            "Thyristor",
+            "MOSFET",
+            "Diode"
+        ],
+        "right": [
+            "High power switching",
+            "High current AC control",
+            "High frequency switching",
+            "Rectification"
+        ]
+    },
+    {
+        "q": "PWM inverters produce ______ wave approximating sine wave.",
+        "type": "fill_blank",
+        "answers": [
+            "pulsed"
+        ],
+        "other_options": [
+            "square",
+            "triangle",
+            "sawtooth"
+        ]
+    },
+    {
+        "q": "What is active front end in drives?",
+        "type": "mcq",
+        "o": [
+            "Regenerative converter for bidirectional power flow",
+            "Passive diode rectifier",
+            "Motor winding",
+            "Output filter"
+        ]
+    },
+    {
+        "q": "Regenerative drives can return energy to the power grid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dynamic braking?",
+        "type": "mcq",
+        "o": [
+            "Converting kinetic energy to heat in resistors",
+            "Mechanical brake application",
+            "Regenerating to grid",
+            "Coast to stop"
+        ]
+    },
+    {
+        "q": "Rearrange the VFD operation modes:",
+        "type": "rearrange",
+        "words": [
+            "Acceleration",
+            "Constant speed",
+            "Deceleration",
+            "Stop"
+        ]
+    },
+    {
+        "q": "What is vector control in drives?",
+        "type": "mcq",
+        "o": [
+            "Independent control of torque and flux",
+            "Simple speed control",
+            "On-off control",
+            "Manual speed setting"
+        ]
+    },
+    {
+        "q": "Encoder feedback provides ______ position information for servo drives.",
+        "type": "fill_blank",
+        "answers": [
+            "precise"
+        ],
+        "other_options": [
+            "approximate",
+            "estimated",
+            "random"
+        ]
+    },
+    {
+        "q": "What is a servo motor?",
+        "type": "mcq",
+        "o": [
+            "Motor with precise position and speed control",
+            "Large industrial motor",
+            "Simple AC motor",
+            "Universal motor"
+        ]
+    },
+    {
+        "q": "Match the motor type with its control feature:",
+        "type": "match",
+        "left": [
+            "Servo",
+            "Stepper",
+            "Induction VFD",
+            "DC brush"
+        ],
+        "right": [
+            "Closed loop position",
+            "Open loop position",
+            "Speed control",
+            "Simple torque control"
+        ]
+    },
+    {
+        "q": "Brushless DC motors use electronic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "commutation"
+        ],
+        "other_options": [
+            "lubrication",
+            "cooling",
+            "mounting"
+        ]
+    },
+    {
+        "q": "What is torque control in drives?",
+        "type": "mcq",
+        "o": [
+            "Regulating motor torque output",
+            "Speed regulation only",
+            "Position control only",
+            "Power measurement"
+        ]
+    },
+    {
+        "q": "Sensorless vector control eliminates the need for encoders.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is flux weakening in motor drives?",
+        "type": "mcq",
+        "o": [
+            "Reducing flux to achieve higher speed",
+            "Increasing torque at low speed",
+            "Lowering voltage",
+            "Reducing current"
+        ]
+    },
+    {
+        "q": "Rearrange the drive parameter setup sequence:",
+        "type": "rearrange",
+        "words": [
+            "Motor data entry",
+            "Control mode selection",
+            "Speed and torque limits",
+            "Protection settings"
+        ]
+    },
+    {
+        "q": "What is an application macro in drives?",
+        "type": "mcq",
+        "o": [
+            "Preconfigured settings for common applications",
+            "Programming language",
+            "Motor size calculation",
+            "Wiring diagram"
+        ]
+    },
+    {
+        "q": "Drives can communicate via ______ for integration with control systems.",
+        "type": "fill_blank",
+        "answers": [
+            "fieldbus"
+        ],
+        "other_options": [
+            "telephone",
+            "radio",
+            "optical"
+        ]
+    },
+    {
+        "q": "What is carrier frequency in PWM drives?",
+        "type": "mcq",
+        "o": [
+            "Switching frequency of the inverter",
+            "Output frequency to motor",
+            "Input line frequency",
+            "Resonant frequency"
+        ]
+    },
+    {
+        "q": "Match the drive fault with its typical cause:",
+        "type": "match",
+        "left": [
+            "Overcurrent",
+            "Ground fault",
+            "Overvoltage",
+            "Overtemperature"
+        ],
+        "right": [
+            "Short circuit or overload",
+            "Insulation failure",
+            "Regeneration or line surge",
+            "Cooling failure"
+        ]
+    },
+    {
+        "q": "Drive thermal protection monitors ______ temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "heat sink"
+        ],
+        "other_options": [
+            "room",
+            "motor",
+            "cable"
+        ]
+    },
+    {
+        "q": "What is electronic motor protection?",
+        "type": "mcq",
+        "o": [
+            "Microprocessor-based motor protection relay",
+            "Fuse protection only",
+            "Mechanical overload device",
+            "Manual reset button"
+        ]
+    },
+    {
+        "q": "Electronic overloads can model motor thermal capacity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is current transformer ratio?",
+        "type": "mcq",
+        "o": [
+            "Ratio of primary to secondary current",
+            "Voltage transformation ratio",
+            "Power factor",
+            "Efficiency rating"
+        ]
+    },
+    {
+        "q": "Rearrange the metering circuit components:",
+        "type": "rearrange",
+        "words": [
+            "CT",
+            "PT",
+            "Meter",
+            "Display"
+        ]
+    },
+    {
+        "q": "What is burden in current transformers?",
+        "type": "mcq",
+        "o": [
+            "Connected load on secondary",
+            "Weight of transformer",
+            "Voltage rating",
+            "Current capacity"
+        ]
+    },
+    {
+        "q": "Opening a CT secondary with current flowing causes ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dangerous high voltage"
+        ],
+        "other_options": [
+            "nothing",
+            "normal operation",
+            "low voltage"
+        ]
+    },
+    {
+        "q": "What is a potential transformer?",
+        "type": "mcq",
+        "o": [
+            "Transformer for metering and relay voltage",
+            "Power transformer",
+            "Current measurement device",
+            "Motor starter"
+        ]
+    },
+    {
+        "q": "Match the instrument transformer with its secondary rating:",
+        "type": "match",
+        "left": [
+            "CT standard",
+            "PT standard",
+            "Zero sequence CT",
+            "Auxiliary CT"
+        ],
+        "right": [
+            "5 amperes",
+            "120 volts",
+            "5 amperes",
+            "5 or 1 amperes"
+        ]
+    },
+    {
+        "q": "Accuracy class determines measurement ______.",
+        "type": "fill_blank",
+        "answers": [
+            "precision"
+        ],
+        "other_options": [
+            "speed",
+            "cost",
+            "size"
+        ]
+    },
+    {
+        "q": "What is protective relay?",
+        "type": "mcq",
+        "o": [
+            "Device that detects faults and trips circuit breakers",
+            "Power measurement device",
+            "Motor starter",
+            "Voltage regulator"
+        ]
+    },
+    {
+        "q": "Differential protection compares current entering and leaving zone.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is overcurrent relay?",
+        "type": "mcq",
+        "o": [
+            "Relay that operates on excessive current",
+            "Voltage sensing relay",
+            "Frequency relay",
+            "Power relay"
+        ]
+    },
+    {
+        "q": "Rearrange the relay operating sequence:",
+        "type": "rearrange",
+        "words": [
+            "Fault occurs",
+            "Relay detects",
+            "Trip signal",
+            "Breaker opens"
+        ]
+    },
+    {
+        "q": "What is inverse time overcurrent characteristic?",
+        "type": "mcq",
+        "o": [
+            "Operating time decreases as current increases",
+            "Fixed time operation",
+            "Instantaneous operation",
+            "No time delay"
+        ]
+    },
+    {
+        "q": "The pickup setting determines minimum ______ for relay operation.",
+        "type": "fill_blank",
+        "answers": [
+            "current"
+        ],
+        "other_options": [
+            "voltage",
+            "time",
+            "power"
+        ]
+    },
+    {
+        "q": "What is distance protection?",
+        "type": "mcq",
+        "o": [
+            "Protection based on impedance to fault",
+            "Physical distance measurement",
+            "Time-based protection",
+            "Current-based only"
+        ]
+    },
+    {
+        "q": "Match the protection scheme with its application:",
+        "type": "match",
+        "left": [
+            "Differential",
+            "Distance",
+            "Overcurrent",
+            "Pilot"
+        ],
+        "right": [
+            "Transformer and bus",
+            "Transmission line",
+            "Radial feeder",
+            "Fast line protection"
+        ]
+    },
+    {
+        "q": "Zones of protection overlap to ensure no ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gaps"
+        ],
+        "other_options": [
+            "overlaps",
+            "redundancy",
+            "backup"
+        ]
+    },
+    {
+        "q": "What is backup protection?",
+        "type": "mcq",
+        "o": [
+            "Secondary protection if primary fails",
+            "Primary protection system",
+            "Manual backup only",
+            "Emergency generator"
+        ]
+    },
+    {
+        "q": "Breaker failure protection trips adjacent breakers if main fails.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is autoreclosing?",
+        "type": "mcq",
+        "o": [
+            "Automatic reclosure attempt after trip",
+            "Manual closing only",
+            "Permanent trip",
+            "Lock out"
+        ]
+    },
+    {
+        "q": "Rearrange the reclosing sequence:",
+        "type": "rearrange",
+        "words": [
+            "Trip",
+            "Wait",
+            "Reclose",
+            "Check success"
+        ]
+    },
+    {
+        "q": "What is synchrocheck relay?",
+        "type": "mcq",
+        "o": [
+            "Verifies synchronization before closing",
+            "Measures current",
+            "Controls voltage",
+            "Monitors frequency only"
+        ]
+    },
+    {
+        "q": "Dead line charging permits reclose when ______ is absent.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage"
+        ],
+        "other_options": [
+            "current",
+            "frequency",
+            "power"
+        ]
+    },
+    {
+        "q": "What is fault location in transmission lines?",
+        "type": "mcq",
+        "o": [
+            "Determining physical location of fault",
+            "Repairing the fault",
+            "Preventing the fault",
+            "Ignoring the fault"
+        ]
+    },
+    {
+        "q": "Match the fault type with its characteristics:",
+        "type": "match",
+        "left": [
+            "Single line to ground",
+            "Line to line",
+            "Double line to ground",
+            "Three phase"
+        ],
+        "right": [
+            "Most common",
+            "Moderate severity",
+            "More severe",
+            "Symmetrical most severe"
+        ]
+    },
+    {
+        "q": "Traveling wave fault locators measure time of wave ______.",
+        "type": "fill_blank",
+        "answers": [
+            "arrival"
+        ],
+        "other_options": [
+            "departure",
+            "speed",
+            "amplitude"
+        ]
+    },
+    {
+        "q": "What is ground grid in substations?",
+        "type": "mcq",
+        "o": [
+            "Network of buried conductors for safety grounding",
+            "Power grid connection",
+            "Control signal grid",
+            "Communications network"
+        ]
+    },
+    {
+        "q": "Step potential is voltage between feet of a person walking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is touch potential?",
+        "type": "mcq",
+        "o": [
+            "Voltage between hands and feet when touching grounded object",
+            "Voltage between conductors",
+            "Phase voltage",
+            "Line voltage"
+        ]
+    },
+    {
+        "q": "Rearrange the grounding system components:",
+        "type": "rearrange",
+        "words": [
+            "Ground rods",
+            "Ground conductors",
+            "Ground grid",
+            "Equipment connections"
+        ]
+    },
+    {
+        "q": "What is soil resistivity?",
+        "type": "mcq",
+        "o": [
+            "Measure of soil's resistance to current flow",
+            "Moisture content",
+            "Temperature",
+            "Density"
+        ]
+    },
+    {
+        "q": "Lower soil resistivity provides better ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grounding"
+        ],
+        "other_options": [
+            "insulation",
+            "drainage",
+            "testing"
+        ]
+    },
+    {
+        "q": "What is cathodic protection?",
+        "type": "mcq",
+        "o": [
+            "Protecting metal from corrosion by making it cathode",
+            "Protecting cables from heat",
+            "Insulating conductors",
+            "Preventing short circuits"
+        ]
+    },
+    {
+        "q": "Match the grounding electrode with its typical use:",
+        "type": "match",
+        "left": [
+            "Ground rod",
+            "Ground plate",
+            "Concrete encased",
+            "Water pipe"
+        ],
+        "right": [
+            "Standard installation",
+            "High resistance soil",
+            "Building foundation",
+            "Supplemental electrode"
+        ]
+    },
+    {
+        "q": "Exothermic welding creates ______ connections in grounding systems.",
+        "type": "fill_blank",
+        "answers": [
+            "permanent"
+        ],
+        "other_options": [
+            "temporary",
+            "weak",
+            "removable"
+        ]
+    },
+    {
+        "q": "What is system grounding?",
+        "type": "mcq",
+        "o": [
+            "Intentional connection of system neutral to earth",
+            "Equipment grounding only",
+            "Lightning protection",
+            "Static discharge"
+        ]
+    },
+    {
+        "q": "Ungrounded systems can experience transient overvoltages during faults.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is resistance grounding?",
+        "type": "mcq",
+        "o": [
+            "Limiting ground fault current with resistor",
+            "Zero impedance grounding",
+            "Solid grounding",
+            "No grounding"
+        ]
+    },
+    {
+        "q": "Rearrange the grounding types by fault current level:",
+        "type": "rearrange",
+        "words": [
+            "High resistance",
+            "Low resistance",
+            "Reactance",
+            "Solid"
+        ]
+    },
+    {
+        "q": "What is grounding transformer?",
+        "type": "mcq",
+        "o": [
+            "Provides neutral for delta systems",
+            "Steps voltage down",
+            "Steps voltage up",
+            "Isolates systems"
+        ]
+    },
+    {
+        "q": "Zigzag transformers are commonly used for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grounding"
+        ],
+        "other_options": [
+            "power",
+            "isolation",
+            "lighting"
+        ]
+    },
+    {
+        "q": "What is lightning arrester?",
+        "type": "mcq",
+        "o": [
+            "Device that diverts lightning surges to ground",
+            "Lightning rod",
+            "Grounding conductor",
+            "Fuse"
+        ]
+    },
+    {
+        "q": "Match the surge protection device with its characteristic:",
+        "type": "match",
+        "left": [
+            "MOV",
+            "Gas tube",
+            "Silicon avalanche",
+            "Spark gap"
+        ],
+        "right": [
+            "Fast response clamping",
+            "High energy capacity",
+            "Very fast precise",
+            "High current handling"
+        ]
+    },
+    {
+        "q": "Surge protection rating is in ______ per phase.",
+        "type": "fill_blank",
+        "answers": [
+            "kiloamps"
+        ],
+        "other_options": [
+            "volts",
+            "watts",
+            "ohms"
+        ]
+    },
+    {
+        "q": "What is coordination of surge protection?",
+        "type": "mcq",
+        "o": [
+            "Multiple levels working together for complete protection",
+            "Single point protection",
+            "No protection needed",
+            "Random placement"
+        ]
+    },
+    {
+        "q": "Type 1 surge protectors are installed at service entrance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power system stability?",
+        "type": "mcq",
+        "o": [
+            "Ability to maintain synchronism after disturbance",
+            "Constant voltage only",
+            "Fixed frequency",
+            "Zero current"
+        ]
+    },
+    {
+        "q": "Rearrange the stability types by time frame:",
+        "type": "rearrange",
+        "words": [
+            "Transient",
+            "Dynamic",
+            "Steady-state",
+            "Voltage"
+        ]
+    },
+    {
+        "q": "What is reactive power?",
+        "type": "mcq",
+        "o": [
+            "Power oscillating between source and reactive loads",
+            "Power consumed by resistance",
+            "Power delivered to motor shaft",
+            "Power lost in cables"
+        ]
+    },
+    {
+        "q": "Reactive power is measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "VAR"
+        ],
+        "other_options": [
+            "watts",
+            "VA",
+            "joules"
+        ]
+    },
+    {
+        "q": "What is voltage regulation in power systems?",
+        "type": "mcq",
+        "o": [
+            "Maintaining voltage within acceptable limits",
+            "Measuring voltage",
+            "Generating voltage",
+            "Consuming voltage"
+        ]
+    },
+    {
+        "q": "Match the voltage regulation device with its function:",
+        "type": "match",
+        "left": [
+            "LTC",
+            "Voltage regulator",
+            "Capacitor bank",
+            "SVC"
+        ],
+        "right": [
+            "Tap changing transformer",
+            "Buck-boost transformer",
+            "Reactive compensation",
+            "Fast dynamic compensation"
+        ]
+    },
+    {
+        "q": "Load tap changers adjust transformer ratio under ______.",
+        "type": "fill_blank",
+        "answers": [
+            "load"
+        ],
+        "other_options": [
+            "vacuum",
+            "oil",
+            "no"
+        ]
+    },
+    {
+        "q": "What is FACTS in power systems?",
+        "type": "mcq",
+        "o": [
+            "Flexible AC Transmission Systems",
+            "Fixed Alternating Current Transfer",
+            "Fast Access Control Technology",
+            "Frequency Adjusted Control"
+        ]
+    },
+    {
+        "q": "STATCOM provides fast reactive power compensation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is HVDC transmission?",
+        "type": "mcq",
+        "o": [
+            "High Voltage Direct Current power transmission",
+            "High Volume Data Control",
+            "Heavy Voltage Distribution Center",
+            "Hybrid Voltage DC"
+        ]
+    },
+    {
+        "q": "Rearrange the HVDC system components:",
+        "type": "rearrange",
+        "words": [
+            "Converter station",
+            "DC line",
+            "Filters",
+            "Receiving converter"
+        ]
+    },
+    {
+        "q": "What is the advantage of HVDC for long distances?",
+        "type": "mcq",
+        "o": [
+            "Lower losses and no charging current",
+            "Simpler equipment",
+            "Lower voltage used",
+            "Easier switching"
+        ]
+    },
+    {
+        "q": "VSC HVDC uses voltage source ______.",
+        "type": "fill_blank",
+        "answers": [
+            "converters"
+        ],
+        "other_options": [
+            "transformers",
+            "generators",
+            "motors"
+        ]
+    },
+    {
+        "q": "What is back-to-back HVDC?",
+        "type": "mcq",
+        "o": [
+            "Asynchronous tie between AC systems",
+            "Long distance DC transmission",
+            "Offshore wind connection",
+            "Underground cable"
+        ]
+    },
+    {
+        "q": "Match the HVDC application with its advantage:",
+        "type": "match",
+        "left": [
+            "Long distance",
+            "Underwater cable",
+            "Asynchronous tie",
+            "Offshore wind"
+        ],
+        "right": [
+            "Lower losses",
+            "No charging current",
+            "Frequency independence",
+            "Controlled power flow"
+        ]
+    },
+    {
+        "q": "Thyristor valves are used in classic ______ converters.",
+        "type": "fill_blank",
+        "answers": [
+            "LCC"
+        ],
+        "other_options": [
+            "VSC",
+            "PWM",
+            "MMC"
+        ]
+    },
+    {
+        "q": "What is power system planning?",
+        "type": "mcq",
+        "o": [
+            "Designing system to meet future load growth",
+            "Operating existing system",
+            "Repairing equipment",
+            "Selling power"
+        ]
+    },
+    {
+        "q": "Load forecasting predicts future power demand.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is contingency analysis?",
+        "type": "mcq",
+        "o": [
+            "Analyzing system behavior during outages",
+            "Normal operation study",
+            "Load calculation",
+            "Cost estimation"
+        ]
+    },
+    {
+        "q": "Rearrange the planning study sequence:",
+        "type": "rearrange",
+        "words": [
+            "Load forecast",
+            "System model",
+            "Contingency study",
+            "Solution development"
+        ]
+    },
+    {
+        "q": "What is N-1 criterion?",
+        "type": "mcq",
+        "o": [
+            "System operates normally with any single element out",
+            "All elements must operate",
+            "Two elements can fail",
+            "No redundancy needed"
+        ]
+    },
+    {
+        "q": "Economic dispatch minimizes generation ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cost"
+        ],
+        "other_options": [
+            "output",
+            "voltage",
+            "current"
+        ]
+    },
+    {
+        "q": "What is unit commitment?",
+        "type": "mcq",
+        "o": [
+            "Scheduling generators to meet load",
+            "Installing new generators",
+            "Removing generators",
+            "Testing generators"
+        ]
+    },
+    {
+        "q": "Match the generation resource with its dispatch characteristic:",
+        "type": "match",
+        "left": [
+            "Base load",
+            "Intermediate",
+            "Peaking",
+            "Renewable"
+        ],
+        "right": [
+            "Runs continuously",
+            "Follows load",
+            "Short duration high demand",
+            "Variable output"
+        ]
+    },
+    {
+        "q": "Spinning reserve is generating capacity synchronized and ready to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "load"
+        ],
+        "other_options": [
+            "disconnect",
+            "stop",
+            "idle"
+        ]
+    },
+    {
+        "q": "What is automatic generation control?",
+        "type": "mcq",
+        "o": [
+            "System that maintains frequency and interchange",
+            "Manual dispatch only",
+            "Fixed generation schedule",
+            "Emergency control only"
+        ]
+    },
+    {
+        "q": "Area control error indicates generation-load imbalance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power system blackout?",
+        "type": "mcq",
+        "o": [
+            "Complete loss of power over large area",
+            "Planned outage",
+            "Equipment test",
+            "Normal operation"
+        ]
+    },
+    {
+        "q": "Rearrange the restoration sequence after blackout:",
+        "type": "rearrange",
+        "words": [
+            "Black start",
+            "Energize backbone",
+            "Connect loads",
+            "Full restoration"
+        ]
+    },
+    {
+        "q": "What is black start capability?",
+        "type": "mcq",
+        "o": [
+            "Starting generators without external power",
+            "Normal generator start",
+            "Emergency stop",
+            "Load shedding"
+        ]
+    },
+    {
+        "q": "Under frequency load shedding protects system from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "collapse"
+        ],
+        "other_options": [
+            "overfrequency",
+            "overvoltage",
+            "overpower"
+        ]
+    },
+    {
+        "q": "What is system operator in power grids?",
+        "type": "mcq",
+        "o": [
+            "Entity responsible for real-time system operation",
+            "Generator owner",
+            "Customer",
+            "Equipment manufacturer"
+        ]
+    },
+    {
+        "q": "Match the grid term with its meaning:",
+        "type": "match",
+        "left": [
+            "ISO",
+            "RTO",
+            "NERC",
+            "FERC"
+        ],
+        "right": [
+            "Independent System Operator",
+            "Regional Transmission Organization",
+            "Reliability standards",
+            "Federal regulation"
+        ]
+    },
+    {
+        "q": "Reliability standards are mandatory for bulk power ______.",
+        "type": "fill_blank",
+        "answers": [
+            "system"
+        ],
+        "other_options": [
+            "plants",
+            "generators",
+            "meters"
+        ]
+    },
+    {
+        "q": "What is cybersecurity in power systems?",
+        "type": "mcq",
+        "o": [
+            "Protecting control systems from cyber attacks",
+            "Physical security only",
+            "Environmental protection",
+            "Safety equipment"
+        ]
+    },
+    {
+        "q": "NERC CIP standards address critical infrastructure protection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SCADA security?",
+        "type": "mcq",
+        "o": [
+            "Protecting supervisory control systems from threats",
+            "Physical plant security",
+            "Personnel security",
+            "Document security"
+        ]
+    },
+    {
+        "q": "Rearrange the cybersecurity defense layers:",
+        "type": "rearrange",
+        "words": [
+            "Perimeter",
+            "Network",
+            "Host",
+            "Application"
+        ]
+    },
+    {
+        "q": "What is firewalls in industrial networks?",
+        "type": "mcq",
+        "o": [
+            "Devices that filter network traffic",
+            "Physical barriers",
+            "Fire protection",
+            "Cooling systems"
+        ]
+    },
+    {
+        "q": "Network segmentation isolates critical systems from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "general networks"
+        ],
+        "other_options": [
+            "power",
+            "ground",
+            "each other"
+        ]
+    },
+    {
+        "q": "What is intrusion detection in control systems?",
+        "type": "mcq",
+        "o": [
+            "Monitoring for unauthorized access attempts",
+            "Physical intrusion only",
+            "Equipment testing",
+            "Routine maintenance"
+        ]
+    },
+    {
+        "q": "Match the security control with its function:",
+        "type": "match",
+        "left": [
+            "Firewall",
+            "IDS",
+            "Encryption",
+            "Authentication"
+        ],
+        "right": [
+            "Block traffic",
+            "Detect threats",
+            "Protect data",
+            "Verify identity"
+        ]
+    },
+    {
+        "q": "Defense in depth uses multiple ______ of security.",
+        "type": "fill_blank",
+        "answers": [
+            "layers"
+        ],
+        "other_options": [
+            "points",
+            "types",
+            "brands"
+        ]
+    },
+    {
+        "q": "What is patch management?",
+        "type": "mcq",
+        "o": [
+            "Updating software to fix vulnerabilities",
+            "Physical repairs",
+            "Cable management",
+            "Equipment installation"
+        ]
+    },
+    {
+        "q": "Air-gapped systems have no electronic connection to other networks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is incident response in control systems?",
+        "type": "mcq",
+        "o": [
+            "Planned actions after security event",
+            "Normal operations",
+            "Equipment maintenance",
+            "Staff training"
+        ]
+    },
+    {
+        "q": "Rearrange the incident response phases:",
+        "type": "rearrange",
+        "words": [
+            "Preparation",
+            "Detection",
+            "Containment",
+            "Recovery"
+        ]
+    },
+    {
+        "q": "What is smart grid?",
+        "type": "mcq",
+        "o": [
+            "Modernized grid with digital communication",
+            "Traditional grid",
+            "DC power grid",
+            "Isolated grid"
+        ]
+    },
+    {
+        "q": "Advanced metering infrastructure enables two-way ______.",
+        "type": "fill_blank",
+        "answers": [
+            "communication"
+        ],
+        "other_options": [
+            "power",
+            "current",
+            "voltage"
+        ]
+    },
+    {
+        "q": "What is demand response?",
+        "type": "mcq",
+        "o": [
+            "Customers reducing load during peak periods",
+            "Increasing generation",
+            "Building more plants",
+            "Adding transmission lines"
+        ]
+    },
+    {
+        "q": "Match the smart grid technology with its benefit:",
+        "type": "match",
+        "left": [
+            "AMI",
+            "Distribution automation",
+            "Volt-VAR optimization",
+            "Outage management"
+        ],
+        "right": [
+            "Customer data and control",
+            "Self-healing network",
+            "Energy efficiency",
+            "Fast restoration"
+        ]
+    },
+    {
+        "q": "Fault location isolation and service restoration is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "FLISR"
+        ],
+        "other_options": [
+            "SCADA",
+            "DMS",
+            "OMS"
+        ]
+    },
+    {
+        "q": "What is distributed energy resources?",
+        "type": "mcq",
+        "o": [
+            "Small generation and storage near loads",
+            "Central power plants only",
+            "Transmission lines",
+            "Control centers"
+        ]
+    },
+    {
+        "q": "Prosumers both produce and consume electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is electric vehicle charging infrastructure?",
+        "type": "mcq",
+        "o": [
+            "Equipment for charging electric vehicles",
+            "Gas stations",
+            "Power plants",
+            "Transmission lines"
+        ]
+    },
+    {
+        "q": "Rearrange EV charging levels by power:",
+        "type": "rearrange",
+        "words": [
+            "Level 1",
+            "Level 2",
+            "DC fast",
+            "Ultra-fast"
+        ]
+    },
+    {
+        "q": "What is vehicle-to-grid technology?",
+        "type": "mcq",
+        "o": [
+            "EVs providing power back to grid",
+            "One-way charging only",
+            "Gas vehicle refueling",
+            "Fleet management"
+        ]
+    },
+    {
+        "q": "Smart charging optimizes EV charging based on grid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conditions"
+        ],
+        "other_options": [
+            "size",
+            "age",
+            "color"
+        ]
+    },
+    {
+        "q": "What is energy storage in power systems?",
+        "type": "mcq",
+        "o": [
+            "Storing energy for later use",
+            "Generating power",
+            "Transmitting power",
+            "Consuming power"
+        ]
+    },
+    {
+        "q": "Match the storage technology with its characteristics:",
+        "type": "match",
+        "left": [
+            "Lithium ion",
+            "Pumped hydro",
+            "Flywheel",
+            "Compressed air"
+        ],
+        "right": [
+            "Fast response battery",
+            "Large scale long duration",
+            "Very fast short duration",
+            "Medium scale geological"
+        ]
+    },
+    {
+        "q": "Battery energy storage systems provide ancillary ______ services.",
+        "type": "fill_blank",
+        "answers": [
+            "grid"
+        ],
+        "other_options": [
+            "water",
+            "gas",
+            "steam"
+        ]
+    },
+    {
+        "q": "What is frequency regulation with batteries?",
+        "type": "mcq",
+        "o": [
+            "Fast injection or absorption of power to maintain frequency",
+            "Slow power changes",
+            "Fixed power output",
+            "No power flow"
+        ]
+    },
+    {
+        "q": "Round trip efficiency measures energy in versus energy out.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is peak shaving with batteries?",
+        "type": "mcq",
+        "o": [
+            "Reducing demand charges by discharging during peaks",
+            "Generating during peaks",
+            "Increasing peak demand",
+            "Ignoring peaks"
+        ]
+    },
+    {
+        "q": "Time-of-use rates encourage shifting load to ______ periods.",
+        "type": "fill_blank",
+        "answers": [
+            "off-peak"
+        ],
+        "other_options": [
+            "peak",
+            "any",
+            "random"
+        ]
+    },
+    {
+        "q": "What is behind-the-meter storage?",
+        "type": "mcq",
+        "o": [
+            "Storage connected at customer premises",
+            "Utility scale storage",
+            "Transmission connected",
+            "Grid scale only"
+        ]
+    },
+    {
+        "q": "Match the grid service with storage benefit:",
+        "type": "match",
+        "left": [
+            "Frequency regulation",
+            "Peak shaving",
+            "Backup power",
+            "Renewable integration"
+        ],
+        "right": [
+            "Fast response",
+            "Reduce demand charges",
+            "Reliability",
+            "Smooth variability"
+        ]
+    },
+    {
+        "q": "Battery state of charge indicates remaining ______.",
+        "type": "fill_blank",
+        "answers": [
+            "capacity"
+        ],
+        "other_options": [
+            "voltage",
+            "current",
+            "resistance"
+        ]
+    },
+    {
+        "q": "What is depth of discharge?",
+        "type": "mcq",
+        "o": [
+            "Percentage of capacity used from battery",
+            "Maximum voltage",
+            "Charging speed",
+            "Physical depth"
+        ]
+    },
+    {
+        "q": "Deep discharge reduces battery cycle life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a battery management system?",
+        "type": "mcq",
+        "o": [
+            "Electronics that monitor and protect batteries",
+            "Battery charging station",
+            "Power plant control",
+            "Grid management"
+        ]
+    },
+    {
+        "q": "Rearrange the BMS functions:",
+        "type": "rearrange",
+        "words": [
+            "Cell monitoring",
+            "Balancing",
+            "Protection",
+            "Communication"
+        ]
+    },
+    {
+        "q": "What is cell balancing?",
+        "type": "mcq",
+        "o": [
+            "Equalizing charge across cells in a pack",
+            "Weighing battery cells",
+            "Physical arrangement",
+            "Color coding"
+        ]
+    },
+    {
+        "q": "Thermal management prevents battery ______ and improves life.",
+        "type": "fill_blank",
+        "answers": [
+            "overheating"
+        ],
+        "other_options": [
+            "charging",
+            "discharging",
+            "balancing"
+        ]
+    },
+    {
+        "q": "What is solid state battery technology?",
+        "type": "mcq",
+        "o": [
+            "Battery with solid electrolyte instead of liquid",
+            "Heavy metal battery",
+            "Water-based battery",
+            "Gas-filled battery"
+        ]
+    },
+    {
+        "q": "Match the battery chemistry with its characteristic:",
+        "type": "match",
+        "left": [
+            "Lithium ion",
+            "Lead acid",
+            "Sodium sulfur",
+            "Flow battery"
+        ],
+        "right": [
+            "High energy density",
+            "Low cost established",
+            "High temperature operation",
+            "Scalable capacity"
+        ]
+    },
+    {
+        "q": "Safety testing ensures batteries meet ______ standards.",
+        "type": "fill_blank",
+        "answers": [
+            "UL or IEC"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "What is second life for EV batteries?",
+        "type": "mcq",
+        "o": [
+            "Repurposing retired EV batteries for stationary storage",
+            "Rebuilding new batteries",
+            "Recycling immediately",
+            "Disposal only"
+        ]
+    },
+    {
+        "q": "Battery recycling recovers valuable materials like lithium and cobalt.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thermal runaway in batteries?",
+        "type": "mcq",
+        "o": [
+            "Uncontrolled temperature increase leading to fire",
+            "Normal operation",
+            "Cooling process",
+            "Gradual discharge"
+        ]
+    },
+    {
+        "q": "Rearrange the battery fire response steps:",
+        "type": "rearrange",
+        "words": [
+            "Evacuate",
+            "Isolate power",
+            "Apply suppression",
+            "Ventilate"
+        ]
+    },
+    {
+        "q": "What is power electronics in renewable integration?",
+        "type": "mcq",
+        "o": [
+            "Converters connecting renewables to grid",
+            "Nuclear power control",
+            "Fossil fuel systems",
+            "Mechanical switches only"
+        ]
+    },
+    {
+        "q": "Grid-forming inverters can create their own ______.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage and frequency"
+        ],
+        "other_options": [
+            "current",
+            "power",
+            "load"
+        ]
+    },
+    {
+        "q": "What is virtual inertia?",
+        "type": "mcq",
+        "o": [
+            "Emulating rotating mass response with power electronics",
+            "Actual rotating mass",
+            "Generator replacement",
+            "Motor operation"
+        ]
+    },
+    {
+        "q": "Match the inverter type with its function:",
+        "type": "match",
+        "left": [
+            "Grid-following",
+            "Grid-forming",
+            "String inverter",
+            "Microinverter"
+        ],
+        "right": [
+            "Follows grid voltage",
+            "Creates voltage reference",
+            "Multiple panels",
+            "Single panel"
+        ]
+    },
+    {
+        "q": "Anti-islanding protection prevents energizing during ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grid outage"
+        ],
+        "other_options": [
+            "normal operation",
+            "peak demand",
+            "low load"
+        ]
+    },
+    {
+        "q": "What is ride-through capability?",
+        "type": "mcq",
+        "o": [
+            "Staying connected during grid disturbances",
+            "Disconnecting during faults",
+            "Regular operation",
+            "Standby mode"
+        ]
+    },
+    {
+        "q": "Voltage ride-through prevents tripping during sags and swells.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is reactive power support from inverters?",
+        "type": "mcq",
+        "o": [
+            "Providing VARs to support grid voltage",
+            "Real power only",
+            "Current limiting",
+            "Frequency control"
+        ]
+    },
+    {
+        "q": "Rearrange the interconnection study sequence:",
+        "type": "rearrange",
+        "words": [
+            "Feasibility",
+            "System impact",
+            "Facilities study",
+            "Agreement"
+        ]
+    },
+    {
+        "q": "What is IEEE 1547?",
+        "type": "mcq",
+        "o": [
+            "Standard for interconnecting distributed resources",
+            "Motor standard",
+            "Transformer standard",
+            "Cable standard"
+        ]
+    },
+    {
+        "q": "Point of common coupling is where DER connects to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "utility grid"
+        ],
+        "other_options": [
+            "battery",
+            "inverter",
+            "meter"
+        ]
+    },
+    {
+        "q": "What is hosting capacity?",
+        "type": "mcq",
+        "o": [
+            "Maximum DER a feeder can accept without upgrades",
+            "Number of customers",
+            "Transformer size",
+            "Line length"
+        ]
+    },
+    {
+        "q": "Match the interconnection level with its review type:",
+        "type": "match",
+        "left": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+        ],
+        "right": [
+            "Fast track small",
+            "Fast track medium",
+            "Detailed study",
+            "Large scale comprehensive"
+        ]
+    },
+    {
+        "q": "Export limiting controls maximum power to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grid"
+        ],
+        "other_options": [
+            "battery",
+            "load",
+            "inverter"
+        ]
+    },
+    {
+        "q": "What is net metering?",
+        "type": "mcq",
+        "o": [
+            "Crediting customer for excess generation exported",
+            "Only purchasing power",
+            "No generation allowed",
+            "Fixed rate billing"
+        ]
+    },
+    {
+        "q": "Feed-in tariffs provide fixed payment for renewable generation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power purchase agreement?",
+        "type": "mcq",
+        "o": [
+            "Contract for buying power from generator",
+            "Equipment purchase",
+            "Service agreement",
+            "Warranty contract"
+        ]
+    },
+    {
+        "q": "Rearrange the project development phases:",
+        "type": "rearrange",
+        "words": [
+            "Feasibility",
+            "Permitting",
+            "Construction",
+            "Commissioning"
+        ]
+    },
+    {
+        "q": "What is commissioning in electrical projects?",
+        "type": "mcq",
+        "o": [
+            "Testing and verification before operation",
+            "Project planning",
+            "Design phase",
+            "Demolition"
+        ]
+    },
+    {
+        "q": "Acceptance testing verifies equipment meets ______.",
+        "type": "fill_blank",
+        "answers": [
+            "specifications"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "location"
+        ]
+    },
+    {
+        "q": "What is electrical system study?",
+        "type": "mcq",
+        "o": [
+            "Analysis of power system for design or operation",
+            "Physical inspection only",
+            "Equipment counting",
+            "Historical review"
+        ]
+    },
+    {
+        "q": "Match the study type with its purpose:",
+        "type": "match",
+        "left": [
+            "Load flow",
+            "Short circuit",
+            "Coordination",
+            "Arc flash"
+        ],
+        "right": [
+            "Voltage and loading",
+            "Fault currents",
+            "Protection timing",
+            "Safety boundaries"
+        ]
+    },
+    {
+        "q": "Power systems modeling uses software to simulate ______.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical behavior"
+        ],
+        "other_options": [
+            "weather",
+            "economics",
+            "politics"
+        ]
+    },
+    {
+        "q": "What is model validation?",
+        "type": "mcq",
+        "o": [
+            "Verifying model matches actual system",
+            "Creating new models",
+            "Deleting old models",
+            "Publishing models"
+        ]
+    },
+    {
+        "q": "Dynamic simulation analyzes system response over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is harmonic analysis?",
+        "type": "mcq",
+        "o": [
+            "Study of non-sinusoidal waveform effects",
+            "Music analysis",
+            "Color analysis",
+            "Weight measurement"
+        ]
+    },
+    {
+        "q": "Rearrange the power system analysis types by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Steady state",
+            "Short circuit",
+            "Dynamic",
+            "Transient"
+        ]
+    },
+    {
+        "q": "What is power flow study?",
+        "type": "mcq",
+        "o": [
+            "Calculating voltages and power in steady state",
+            "Measuring water flow",
+            "Testing equipment",
+            "Physical inspection"
+        ]
+    },
+    {
+        "q": "Slack bus provides reference ______ for power flow.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage"
+        ],
+        "other_options": [
+            "current",
+            "power",
+            "frequency"
+        ]
+    },
+    {
+        "q": "What is Newton-Raphson method in power systems?",
+        "type": "mcq",
+        "o": [
+            "Iterative method for solving power flow equations",
+            "Construction technique",
+            "Testing procedure",
+            "Naming convention"
+        ]
+    },
+    {
+        "q": "Match the bus type with its specified quantities:",
+        "type": "match",
+        "left": [
+            "Slack",
+            "PV",
+            "PQ",
+            "Load"
+        ],
+        "right": [
+            "V and angle",
+            "P and V",
+            "P and Q",
+            "P and Q demand"
+        ]
+    },
+    {
+        "q": "Convergence indicates the solution meets ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tolerance"
+        ],
+        "other_options": [
+            "maximum",
+            "minimum",
+            "average"
+        ]
+    },
+    {
+        "q": "What is per-unit system?",
+        "type": "mcq",
+        "o": [
+            "Normalizing quantities to base values",
+            "Metric units",
+            "Imperial units",
+            "Random scaling"
+        ]
+    },
+    {
+        "q": "Per-unit values simplify calculations across voltage levels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is base MVA in per-unit calculations?",
+        "type": "mcq",
+        "o": [
+            "Reference power for normalization",
+            "Maximum power",
+            "Minimum power",
+            "Average power"
+        ]
+    },
+    {
+        "q": "Rearrange the system study steps:",
+        "type": "rearrange",
+        "words": [
+            "Collect data",
+            "Build model",
+            "Run study",
+            "Analyze results"
+        ]
+    },
+    {
+        "q": "What is sensitivity analysis?",
+        "type": "mcq",
+        "o": [
+            "How changes in inputs affect outputs",
+            "Single scenario analysis",
+            "Fixed parameter study",
+            "No variation testing"
+        ]
+    },
+    {
+        "q": "Scenario analysis tests ______ future conditions.",
+        "type": "fill_blank",
+        "answers": [
+            "different"
+        ],
+        "other_options": [
+            "same",
+            "no",
+            "fixed"
+        ]
+    },
+    {
+        "q": "What is risk assessment in power systems?",
+        "type": "mcq",
+        "o": [
+            "Evaluating probability and impact of events",
+            "Only measuring current",
+            "Ignoring failures",
+            "Simple counting"
+        ]
+    },
+    {
+        "q": "Match the reliability metric with its meaning:",
+        "type": "match",
+        "left": [
+            "SAIDI",
+            "SAIFI",
+            "CAIDI",
+            "MAIFI"
+        ],
+        "right": [
+            "Average interruption duration",
+            "Average interruption frequency",
+            "Average duration per interruption",
+            "Momentary interruptions"
+        ]
+    },
+    {
+        "q": "LOLE stands for Loss of Load ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Expectation"
+        ],
+        "other_options": [
+            "Energy",
+            "Event",
+            "Evaluation"
+        ]
+    },
+    {
+        "q": "What is resource adequacy?",
+        "type": "mcq",
+        "o": [
+            "Having sufficient generation to meet load",
+            "Excess generation",
+            "No generation",
+            "Load rejection"
+        ]
+    },
+    {
+        "q": "Capacity markets ensure resource adequacy through payments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is transmission planning?",
+        "type": "mcq",
+        "o": [
+            "Expanding and reinforcing transmission system",
+            "Distribution only",
+            "Generation planning",
+            "Load management"
+        ]
+    },
+    {
+        "q": "Rearrange the grid modernization priorities:",
+        "type": "rearrange",
+        "words": [
+            "Reliability",
+            "Efficiency",
+            "Resilience",
+            "Sustainability"
+        ]
+    },
+    {
+        "q": "What is grid resilience?",
+        "type": "mcq",
+        "o": [
+            "Ability to withstand and recover from events",
+            "Normal operation only",
+            "Planned outages",
+            "Equipment maintenance"
+        ]
+    },
+    {
+        "q": "Resilience planning considers ______ weather events.",
+        "type": "fill_blank",
+        "answers": [
+            "extreme"
+        ],
+        "other_options": [
+            "normal",
+            "mild",
+            "typical"
+        ]
+    },
+    {
+        "q": "What is hardening of infrastructure?",
+        "type": "mcq",
+        "o": [
+            "Physical improvements to withstand events",
+            "Software updates",
+            "Temporary repairs",
+            "Ignoring threats"
+        ]
+    },
+    {
+        "q": "Match the resilience measure with its implementation:",
+        "type": "match",
+        "left": [
+            "Undergrounding",
+            "Flood barriers",
+            "Backup generation",
+            "Mutual aid"
+        ],
+        "right": [
+            "Bury cables",
+            "Water protection",
+            "Emergency power",
+            "Utility coordination"
+        ]
+    },
+    {
+        "q": "Sectionalizing enables isolating faulted ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sections"
+        ],
+        "other_options": [
+            "equipment",
+            "loads",
+            "generators"
+        ]
+    },
+    {
+        "q": "What is vegetation management?",
+        "type": "mcq",
+        "o": [
+            "Trimming trees near power lines",
+            "Growing trees",
+            "Ignoring vegetation",
+            "Planting crops"
+        ]
+    },
+    {
+        "q": "Pole inspection identifies deterioration before failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is predictive maintenance?",
+        "type": "mcq",
+        "o": [
+            "Using data to predict and prevent failures",
+            "Reactive maintenance only",
+            "No maintenance",
+            "Scheduled replacement"
+        ]
+    },
+    {
+        "q": "Rearrange the maintenance types by sophistication:",
+        "type": "rearrange",
+        "words": [
+            "Reactive",
+            "Preventive",
+            "Condition-based",
+            "Predictive"
+        ]
+    },
+    {
+        "q": "What is condition-based maintenance?",
+        "type": "mcq",
+        "o": [
+            "Maintenance based on equipment condition monitoring",
+            "Time-based only",
+            "Run to failure",
+            "Random maintenance"
+        ]
+    },
+    {
+        "q": "Thermography detects ______ issues in electrical equipment.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal"
+        ],
+        "other_options": [
+            "chemical",
+            "mechanical",
+            "acoustic"
+        ]
+    },
+    {
+        "q": "What is partial discharge testing?",
+        "type": "mcq",
+        "o": [
+            "Detecting insulation degradation",
+            "Testing complete discharge",
+            "Measuring current",
+            "Voltage regulation"
+        ]
+    },
+    {
+        "q": "Match the test with its application:",
+        "type": "match",
+        "left": [
+            "Thermography",
+            "Partial discharge",
+            "DGA",
+            "Megger test"
+        ],
+        "right": [
+            "Connections and components",
+            "High voltage insulation",
+            "Transformer oil",
+            "Insulation resistance"
+        ]
+    },
+    {
+        "q": "Dissolved gas analysis monitors transformer ______.",
+        "type": "fill_blank",
+        "answers": [
+            "health"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "size"
+        ]
+    },
+    {
+        "q": "What is asset management in utilities?",
+        "type": "mcq",
+        "o": [
+            "Optimizing lifecycle value of infrastructure",
+            "Buying new equipment only",
+            "Ignoring old equipment",
+            "Selling assets"
+        ]
+    },
+    {
+        "q": "Risk-based asset management prioritizes based on failure consequence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is health index for equipment?",
+        "type": "mcq",
+        "o": [
+            "Combined score of equipment condition factors",
+            "Age only",
+            "Size measurement",
+            "Color rating"
+        ]
+    },
+    {
+        "q": "Rearrange the asset lifecycle phases:",
+        "type": "rearrange",
+        "words": [
+            "Procurement",
+            "Installation",
+            "Operation",
+            "Retirement"
+        ]
+    },
+    {
+        "q": "What is remaining useful life estimation?",
+        "type": "mcq",
+        "o": [
+            "Predicting how long equipment will function",
+            "Age calculation only",
+            "Original life specification",
+            "Warranty period"
+        ]
+    },
+    {
+        "q": "Failure analysis determines root ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cause"
+        ],
+        "other_options": [
+            "symptom",
+            "effect",
+            "time"
+        ]
+    },
+    {
+        "q": "What is reliability centered maintenance?",
+        "type": "mcq",
+        "o": [
+            "Systematic approach to maintenance strategy",
+            "Random maintenance",
+            "No analysis",
+            "Simple calendar-based"
+        ]
+    },
+    {
+        "q": "Match the failure pattern with equipment type:",
+        "type": "match",
+        "left": [
+            "Infant mortality",
+            "Random",
+            "Wear out",
+            "Bathtub curve"
+        ],
+        "right": [
+            "Early life failures",
+            "Constant rate",
+            "End of life",
+            "Combined pattern"
+        ]
+    },
+    {
+        "q": "MTBF stands for Mean Time Between ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Failures"
+        ],
+        "other_options": [
+            "Fixes",
+            "Faults",
+            "Functions"
+        ]
+    },
+    {
+        "q": "What is MTTR?",
+        "type": "mcq",
+        "o": [
+            "Mean Time To Repair",
+            "Maximum Time To Replace",
+            "Minimum Test Time Required",
+            "Mean Total Test Result"
+        ]
+    },
+    {
+        "q": "Availability equals MTBF divided by MTBF plus MTTR.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is redundancy in electrical systems?",
+        "type": "mcq",
+        "o": [
+            "Backup components that operate if primary fails",
+            "Extra unused equipment",
+            "Oversized equipment",
+            "Duplicate documentation"
+        ]
+    },
+    {
+        "q": "Rearrange the redundancy levels:",
+        "type": "rearrange",
+        "words": [
+            "N",
+            "N+1",
+            "2N",
+            "2N+1"
+        ]
+    },
+    {
+        "q": "What is transfer switch?",
+        "type": "mcq",
+        "o": [
+            "Device that switches between power sources",
+            "Regular light switch",
+            "Motor starter",
+            "Fuse holder"
+        ]
+    },
+    {
+        "q": "Automatic transfer switches operate without ______ intervention.",
+        "type": "fill_blank",
+        "answers": [
+            "manual"
+        ],
+        "other_options": [
+            "electrical",
+            "mechanical",
+            "computer"
+        ]
+    },
+    {
+        "q": "What is paralleling of generators?",
+        "type": "mcq",
+        "o": [
+            "Connecting multiple generators to share load",
+            "Running one generator",
+            "Disconnecting generators",
+            "Testing generators separately"
+        ]
+    },
+    {
+        "q": "Match the facility with typical electrical system design:",
+        "type": "match",
+        "left": [
+            "Hospital",
+            "Data center",
+            "Industrial plant",
+            "Commercial building"
+        ],
+        "right": [
+            "Highly redundant",
+            "2N or 2N+1",
+            "Main-tie-main",
+            "Simple radial"
+        ]
+    },
+    {
+        "q": "Selective coordination ensures ______ protection operates first.",
+        "type": "fill_blank",
+        "answers": [
+            "downstream"
+        ],
+        "other_options": [
+            "upstream",
+            "all",
+            "random"
+        ]
+    },
+    {
+        "q": "What is arc flash study?",
+        "type": "mcq",
+        "o": [
+            "Analysis of incident energy at equipment",
+            "Lighting design",
+            "Color study",
+            "Weight calculation"
+        ]
+    },
+    {
+        "q": "Arc flash labels show incident energy and required PPE.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is approach boundary in arc flash safety?",
+        "type": "mcq",
+        "o": [
+            "Distance requiring specific protection level",
+            "Equipment size",
+            "Voltage rating",
+            "Current capacity"
+        ]
+    },
+    {
+        "q": "Rearrange the arc flash boundaries from farthest to nearest:",
+        "type": "rearrange",
+        "words": [
+            "Limited",
+            "Restricted",
+            "Prohibited",
+            "Arc flash"
+        ]
+    },
+    {
+        "q": "What is energized work permit?",
+        "type": "mcq",
+        "o": [
+            "Authorization to work on live equipment",
+            "De-energized work permit",
+            "Regular work order",
+            "Vacation request"
+        ]
+    },
+    {
+        "q": "Justified energized work requires demonstrating ______ to de-energize.",
+        "type": "fill_blank",
+        "answers": [
+            "infeasibility"
+        ],
+        "other_options": [
+            "ability",
+            "ease",
+            "preference"
+        ]
+    },
+    {
+        "q": "What creates arc flash hazard?",
+        "type": "mcq",
+        "o": [
+            "Electrical arcing releasing energy",
+            "Normal operation",
+            "De-energized equipment",
+            "Low voltage only"
+        ]
+    },
+    {
+        "q": "Match the PPE category with arc rating:",
+        "type": "match",
+        "left": [
+            "Category 1",
+            "Category 2",
+            "Category 3",
+            "Category 4"
+        ],
+        "right": [
+            "4 cal",
+            "8 cal",
+            "25 cal",
+            "40 cal"
+        ]
+    },
+    {
+        "q": "Incident energy increases with arcing ______.",
+        "type": "fill_blank",
+        "answers": [
+            "duration"
+        ],
+        "other_options": [
+            "voltage",
+            "current",
+            "distance"
+        ]
+    },
+    {
+        "q": "What reduces arc flash hazard?",
+        "type": "mcq",
+        "o": [
+            "Faster protective device clearing",
+            "Slower clearing",
+            "Higher fault current",
+            "Closer working distance"
+        ]
+    },
+    {
+        "q": "Arc flash relay provides dedicated arc detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is remote racking of breakers?",
+        "type": "mcq",
+        "o": [
+            "Operating breaker from safe distance",
+            "Manual local operation",
+            "Automatic operation",
+            "Remote monitoring only"
+        ]
+    },
+    {
+        "q": "Rearrange the electrical safety program elements:",
+        "type": "rearrange",
+        "words": [
+            "Hazard analysis",
+            "Training",
+            "Procedures",
+            "Auditing"
+        ]
+    },
+    {
+        "q": "What is electrical safe work practices?",
+        "type": "mcq",
+        "o": [
+            "Procedures to prevent electrical injury",
+            "Equipment specifications",
+            "Design standards",
+            "Maintenance schedules"
+        ]
+    },
+    {
+        "q": "Qualified person has training to recognize ______ hazards.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical"
+        ],
+        "other_options": [
+            "chemical",
+            "mechanical",
+            "biological"
+        ]
+    },
+    {
+        "q": "What is the purpose of a surge arrester in power systems?",
+        "type": "mcq",
+        "o": [
+            "Protect equipment from voltage spikes",
+            "Increase power factor",
+            "Reduce harmonics",
+            "Balance phases"
+        ]
+    },
+    {
+        "q": "The Nyquist stability criterion uses ______ plot analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "polar"
+        ],
+        "other_options": [
+            "Bode",
+            "root locus",
+            "time domain"
+        ]
+    },
+    {
+        "q": "Match the filter type with its frequency response:",
+        "type": "match",
+        "left": [
+            "Low-pass",
+            "High-pass",
+            "Band-pass",
+            "Band-stop"
+        ],
+        "right": [
+            "Passes low frequencies",
+            "Passes high frequencies",
+            "Passes a range of frequencies",
+            "Rejects a range of frequencies"
+        ]
+    },
+    {
+        "q": "What is the function of a snubber circuit?",
+        "type": "mcq",
+        "o": [
+            "Suppress voltage transients across switches",
+            "Increase switching speed",
+            "Reduce conduction losses",
+            "Improve power factor"
+        ]
+    },
+    {
+        "q": "Ferroresonance occurs in circuits with ______ and capacitance.",
+        "type": "fill_blank",
+        "answers": [
+            "saturable inductance"
+        ],
+        "other_options": [
+            "resistance",
+            "linear inductance",
+            "pure reactance"
+        ]
+    },
+    {
+        "q": "A Smith chart is used for impedance matching.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the characteristic impedance of a transmission line?",
+        "type": "mcq",
+        "o": [
+            "Ratio of voltage to current for traveling wave",
+            "DC resistance of the line",
+            "Impedance at resonance",
+            "Load impedance"
+        ]
+    },
+    {
+        "q": "Rearrange the power system protection zones from source to load:",
+        "type": "rearrange",
+        "words": [
+            "Generator",
+            "Transmission",
+            "Substation",
+            "Distribution"
+        ]
+    },
+    {
+        "q": "What causes skin effect in conductors?",
+        "type": "mcq",
+        "o": [
+            "Current concentration at conductor surface at high frequencies",
+            "Temperature variation",
+            "Magnetic saturation",
+            "Dielectric breakdown"
+        ]
+    },
+    {
+        "q": "The proximity effect increases conductor resistance at ______ frequencies.",
+        "type": "fill_blank",
+        "answers": [
+            "high"
+        ],
+        "other_options": [
+            "low",
+            "zero",
+            "negative"
+        ]
+    },
+    {
+        "q": "Match the modulation technique with its characteristic:",
+        "type": "match",
+        "left": [
+            "AM",
+            "FM",
+            "PM",
+            "QAM"
+        ],
+        "right": [
+            "Amplitude varies with signal",
+            "Frequency varies with signal",
+            "Phase varies with signal",
+            "Both amplitude and phase vary"
+        ]
+    },
+    {
+        "q": "What is the purpose of a PLL (Phase-Locked Loop)?",
+        "type": "mcq",
+        "o": [
+            "Synchronize output frequency with input signal",
+            "Amplify signals",
+            "Filter noise",
+            "Convert analog to digital"
+        ]
+    },
+    {
+        "q": "A Schmitt trigger provides ______ for noise immunity.",
+        "type": "fill_blank",
+        "answers": [
+            "hysteresis"
+        ],
+        "other_options": [
+            "gain",
+            "attenuation",
+            "filtering"
+        ]
+    },
+    {
+        "q": "Hysteresis in a Schmitt trigger prevents oscillation due to noise.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the function of a current transformer?",
+        "type": "mcq",
+        "o": [
+            "Step down current for measurement",
+            "Step up voltage",
+            "Store energy",
+            "Convert AC to DC"
+        ]
+    },
+    {
+        "q": "Rearrange the steps in designing a control system:",
+        "type": "rearrange",
+        "words": [
+            "Define specifications",
+            "Model the plant",
+            "Design controller",
+            "Simulate and test"
+        ]
+    },
+    {
+        "q": "What is the purpose of a compensator in control systems?",
+        "type": "mcq",
+        "o": [
+            "Modify system dynamics to meet specifications",
+            "Amplify the input signal",
+            "Convert digital to analog",
+            "Measure output"
+        ]
+    },
+    {
+        "q": "A lead compensator adds ______ at crossover frequency.",
+        "type": "fill_blank",
+        "answers": [
+            "phase lead"
+        ],
+        "other_options": [
+            "phase lag",
+            "gain",
+            "attenuation"
+        ]
+    },
+    {
+        "q": "Match the controller type with its effect:",
+        "type": "match",
+        "left": [
+            "P controller",
+            "I controller",
+            "D controller",
+            "PID controller"
+        ],
+        "right": [
+            "Proportional action",
+            "Eliminates steady-state error",
+            "Improves transient response",
+            "Combined benefits"
+        ]
+    },
+    {
+        "q": "What is the purpose of anti-windup in PID controllers?",
+        "type": "mcq",
+        "o": [
+            "Prevent integrator saturation",
+            "Increase gain",
+            "Add derivative action",
+            "Filter noise"
+        ]
+    },
+    {
+        "q": "The Ziegler-Nichols method is used for PID ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tuning"
+        ],
+        "other_options": [
+            "design",
+            "simulation",
+            "analysis"
+        ]
+    },
+    {
+        "q": "State-space representation uses matrices to describe system dynamics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is observability in control systems?",
+        "type": "mcq",
+        "o": [
+            "Ability to determine states from outputs",
+            "Ability to control all states",
+            "System stability measure",
+            "Response speed"
+        ]
+    },
+    {
+        "q": "Rearrange the signal processing chain:",
+        "type": "rearrange",
+        "words": [
+            "Anti-aliasing filter",
+            "ADC",
+            "Digital processing",
+            "DAC"
+        ]
+    },
+    {
+        "q": "What is the Nyquist rate for a signal with bandwidth B?",
+        "type": "mcq",
+        "o": [
+            "2B samples per second",
+            "B samples per second",
+            "B/2 samples per second",
+            "4B samples per second"
+        ]
+    },
+    {
+        "q": "Aliasing occurs when sampling rate is less than ______ rate.",
+        "type": "fill_blank",
+        "answers": [
+            "Nyquist"
+        ],
+        "other_options": [
+            "Shannon",
+            "Fourier",
+            "Laplace"
+        ]
+    },
+    {
+        "q": "Match the window function with its characteristic:",
+        "type": "match",
+        "left": [
+            "Rectangular",
+            "Hamming",
+            "Hanning",
+            "Blackman"
+        ],
+        "right": [
+            "Highest resolution but sidelobes",
+            "Good sidelobe suppression",
+            "Common general purpose",
+            "Best sidelobe suppression"
+        ]
+    },
+    {
+        "q": "What is the purpose of zero-padding in FFT?",
+        "type": "mcq",
+        "o": [
+            "Increase frequency resolution in display",
+            "Reduce computation time",
+            "Eliminate aliasing",
+            "Remove DC component"
+        ]
+    },
+    {
+        "q": "A FIR filter has ______ impulse response.",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "infinite",
+            "zero",
+            "negative"
+        ]
+    },
+    {
+        "q": "IIR filters can be unstable while FIR filters are always stable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of a Butterworth filter?",
+        "type": "mcq",
+        "o": [
+            "Maximally flat frequency response",
+            "Sharpest cutoff",
+            "Linear phase response",
+            "Minimum component count"
+        ]
+    },
+    {
+        "q": "Rearrange the electromagnetic spectrum by frequency:",
+        "type": "rearrange",
+        "words": [
+            "Radio waves",
+            "Microwaves",
+            "Infrared",
+            "Visible light"
+        ]
+    },
+    {
+        "q": "What is the skin depth in electromagnetics?",
+        "type": "mcq",
+        "o": [
+            "Depth at which current density falls to 1/e",
+            "Conductor diameter",
+            "Insulation thickness",
+            "Wavelength in conductor"
+        ]
+    },
+    {
+        "q": "Faraday's law relates changing ______ flux to induced EMF.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic"
+        ],
+        "other_options": [
+            "electric",
+            "thermal",
+            "gravitational"
+        ]
+    },
+    {
+        "q": "Match Maxwell's equation with its physical meaning:",
+        "type": "match",
+        "left": [
+            "Gauss law for E",
+            "Gauss law for B",
+            "Faraday law",
+            "Ampere-Maxwell law"
+        ],
+        "right": [
+            "Electric charges create E field",
+            "No magnetic monopoles",
+            "Changing B creates E",
+            "Current and changing E create B"
+        ]
+    },
+    {
+        "q": "What is the purpose of impedance matching?",
+        "type": "mcq",
+        "o": [
+            "Maximum power transfer",
+            "Minimum voltage",
+            "Maximum current",
+            "Reduce frequency"
+        ]
+    },
+    {
+        "q": "A quarter-wave transformer matches impedances using ______ length.",
+        "type": "fill_blank",
+        "answers": [
+            "lambda/4"
+        ],
+        "other_options": [
+            "lambda/2",
+            "lambda",
+            "2*lambda"
+        ]
+    },
+    {
+        "q": "TEM mode has no field components in the direction of propagation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the cutoff frequency in a waveguide?",
+        "type": "mcq",
+        "o": [
+            "Minimum frequency for wave propagation",
+            "Maximum frequency allowed",
+            "Center frequency",
+            "Resonant frequency"
+        ]
+    },
+    {
+        "q": "Rearrange the power electronics converter types by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Diode rectifier",
+            "Thyristor rectifier",
+            "PWM converter",
+            "Multilevel converter"
+        ]
+    },
+    {
+        "q": "What is the purpose of a gate driver circuit?",
+        "type": "mcq",
+        "o": [
+            "Provide proper voltage and current to switch gate",
+            "Rectify AC to DC",
+            "Filter output voltage",
+            "Measure power"
+        ]
+    },
+    {
+        "q": "Dead time in inverters prevents ______ of switches.",
+        "type": "fill_blank",
+        "answers": [
+            "shoot-through"
+        ],
+        "other_options": [
+            "overheating",
+            "oscillation",
+            "saturation"
+        ]
+    },
+    {
+        "q": "Match the power switch with its characteristic:",
+        "type": "match",
+        "left": [
+            "MOSFET",
+            "IGBT",
+            "Thyristor",
+            "GaN HEMT"
+        ],
+        "right": [
+            "Fast switching, voltage controlled",
+            "High current handling",
+            "Latching device",
+            "Very high frequency capability"
+        ]
+    },
+    {
+        "q": "What is soft switching in power electronics?",
+        "type": "mcq",
+        "o": [
+            "Switching at zero voltage or current",
+            "Slow switching transitions",
+            "Low frequency operation",
+            "Manual switch control"
+        ]
+    },
+    {
+        "q": "ZVS stands for Zero ______ Switching.",
+        "type": "fill_blank",
+        "answers": [
+            "Voltage"
+        ],
+        "other_options": [
+            "Current",
+            "Power",
+            "Impedance"
+        ]
+    },
+    {
+        "q": "Resonant converters achieve soft switching using LC circuits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of a flyback converter?",
+        "type": "mcq",
+        "o": [
+            "Isolated DC-DC conversion with energy storage",
+            "AC to DC rectification only",
+            "Power factor correction",
+            "Motor control"
+        ]
+    },
+    {
+        "q": "Rearrange the motor drive control hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Position loop",
+            "Speed loop",
+            "Current loop",
+            "PWM generation"
+        ]
+    },
+    {
+        "q": "What is field-oriented control in motor drives?",
+        "type": "mcq",
+        "o": [
+            "Independent control of torque and flux",
+            "Simple V/f control",
+            "Open-loop speed control",
+            "Scalar control method"
+        ]
+    },
+    {
+        "q": "Space vector modulation provides better DC bus ______ than sinusoidal PWM.",
+        "type": "fill_blank",
+        "answers": [
+            "utilization"
+        ],
+        "other_options": [
+            "filtering",
+            "protection",
+            "isolation"
+        ]
+    },
+    {
+        "q": "Match the inverter topology with its application:",
+        "type": "match",
+        "left": [
+            "Two-level",
+            "Three-level NPC",
+            "Flying capacitor",
+            "Cascaded H-bridge"
+        ],
+        "right": [
+            "Simple low power drives",
+            "Medium voltage drives",
+            "High frequency switching",
+            "Very high voltage applications"
+        ]
+    },
+    {
+        "q": "What is the purpose of regenerative braking in motor drives?",
+        "type": "mcq",
+        "o": [
+            "Return kinetic energy to power source",
+            "Increase motor speed",
+            "Improve power factor",
+            "Reduce harmonics"
+        ]
+    },
+    {
+        "q": "A four-quadrant drive can operate in ______ modes.",
+        "type": "fill_blank",
+        "answers": [
+            "motoring and regenerating"
+        ],
+        "other_options": [
+            "forward only",
+            "reverse only",
+            "braking only"
+        ]
+    },
+    {
+        "q": "Direct torque control eliminates the need for current regulators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cogging torque in permanent magnet motors?",
+        "type": "mcq",
+        "o": [
+            "Torque variation due to slot and magnet interaction",
+            "Maximum torque output",
+            "Starting torque",
+            "Braking torque"
+        ]
+    },
+    {
+        "q": "Rearrange the power quality issues by frequency:",
+        "type": "rearrange",
+        "words": [
+            "Voltage sag",
+            "Harmonics",
+            "Transients",
+            "High-frequency noise"
+        ]
+    },
+    {
+        "q": "What is the purpose of an active filter?",
+        "type": "mcq",
+        "o": [
+            "Inject compensating currents to cancel harmonics",
+            "Block all frequencies",
+            "Amplify signals",
+            "Store energy"
+        ]
+    },
+    {
+        "q": "THD stands for Total Harmonic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Distortion"
+        ],
+        "other_options": [
+            "Distribution",
+            "Deviation",
+            "Difference"
+        ]
+    },
+    {
+        "q": "Match the power quality device with its function:",
+        "type": "match",
+        "left": [
+            "UPS",
+            "DVR",
+            "STATCOM",
+            "Active filter"
+        ],
+        "right": [
+            "Backup power supply",
+            "Voltage sag compensation",
+            "Reactive power compensation",
+            "Harmonic mitigation"
+        ]
+    },
+    {
+        "q": "What is flicker in power systems?",
+        "type": "mcq",
+        "o": [
+            "Rapid voltage variations causing visible light fluctuation",
+            "Steady-state voltage drop",
+            "Harmonic distortion",
+            "Power interruption"
+        ]
+    },
+    {
+        "q": "IEEE 519 specifies limits for ______ distortion.",
+        "type": "fill_blank",
+        "answers": [
+            "harmonic"
+        ],
+        "other_options": [
+            "voltage",
+            "frequency",
+            "power"
+        ]
+    },
+    {
+        "q": "Interharmonics are non-integer multiples of fundamental frequency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of a dynamic voltage restorer?",
+        "type": "mcq",
+        "o": [
+            "Inject series voltage to compensate sags",
+            "Provide backup power",
+            "Filter harmonics",
+            "Correct power factor"
+        ]
+    },
+    {
+        "q": "Rearrange the renewable energy conversion stages:",
+        "type": "rearrange",
+        "words": [
+            "Energy capture",
+            "Power conversion",
+            "Grid synchronization",
+            "Power injection"
+        ]
+    },
+    {
+        "q": "What is MPPT in solar power systems?",
+        "type": "mcq",
+        "o": [
+            "Algorithm to extract maximum power from PV panels",
+            "Motor protection technique",
+            "Modulation method",
+            "Measurement protocol"
+        ]
+    },
+    {
+        "q": "The P&O algorithm in MPPT stands for Perturb and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Observe"
+        ],
+        "other_options": [
+            "Optimize",
+            "Output",
+            "Operate"
+        ]
+    },
+    {
+        "q": "Match the renewable source with its converter type:",
+        "type": "match",
+        "left": [
+            "Solar PV",
+            "Wind DFIG",
+            "Wind PMSG",
+            "Fuel cell"
+        ],
+        "right": [
+            "DC-DC boost + inverter",
+            "Partial power converter",
+            "Full power converter",
+            "DC-DC + inverter"
+        ]
+    },
+    {
+        "q": "What is the purpose of a grid-forming inverter?",
+        "type": "mcq",
+        "o": [
+            "Establish voltage and frequency independently",
+            "Follow grid voltage and frequency",
+            "Only rectify power",
+            "Store energy"
+        ]
+    },
+    {
+        "q": "Anti-islanding protection prevents ______ mode operation.",
+        "type": "fill_blank",
+        "answers": [
+            "island"
+        ],
+        "other_options": [
+            "grid",
+            "parallel",
+            "series"
+        ]
+    },
+    {
+        "q": "Virtual synchronous machine control mimics generator behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is droop control in microgrids?",
+        "type": "mcq",
+        "o": [
+            "Power sharing based on frequency/voltage droop",
+            "Maximum power tracking",
+            "Harmonic filtering",
+            "Fault protection"
+        ]
+    },
+    {
+        "q": "Rearrange the battery management system functions:",
+        "type": "rearrange",
+        "words": [
+            "Cell monitoring",
+            "State estimation",
+            "Balancing",
+            "Protection"
+        ]
+    },
+    {
+        "q": "What is state of charge (SOC) in batteries?",
+        "type": "mcq",
+        "o": [
+            "Remaining capacity as percentage of full capacity",
+            "Maximum current output",
+            "Voltage level",
+            "Temperature rating"
+        ]
+    },
+    {
+        "q": "Coulomb counting estimates SOC by integrating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "current"
+        ],
+        "other_options": [
+            "voltage",
+            "power",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the battery chemistry with its characteristic:",
+        "type": "match",
+        "left": [
+            "Lead-acid",
+            "Li-ion",
+            "NiMH",
+            "LiFePO4"
+        ],
+        "right": [
+            "Low cost, heavy",
+            "High energy density",
+            "Good cycle life",
+            "Safe, long life"
+        ]
+    },
+    {
+        "q": "What is cell balancing in battery packs?",
+        "type": "mcq",
+        "o": [
+            "Equalizing charge across series cells",
+            "Increasing total capacity",
+            "Reducing weight",
+            "Improving discharge rate"
+        ]
+    },
+    {
+        "q": "Passive balancing dissipates excess energy as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "heat"
+        ],
+        "other_options": [
+            "light",
+            "sound",
+            "motion"
+        ]
+    },
+    {
+        "q": "Active balancing transfers energy between cells without loss.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the C-rate of a battery?",
+        "type": "mcq",
+        "o": [
+            "Charge or discharge rate relative to capacity",
+            "Cost rate",
+            "Chemical composition",
+            "Cycle count"
+        ]
+    },
+    {
+        "q": "Rearrange the EV charging levels by power:",
+        "type": "rearrange",
+        "words": [
+            "Level 1 AC",
+            "Level 2 AC",
+            "DC fast charging",
+            "Ultra-fast DC"
+        ]
+    },
+    {
+        "q": "What is V2G technology?",
+        "type": "mcq",
+        "o": [
+            "Vehicle to Grid power flow",
+            "Voltage to Ground measurement",
+            "Variable to Gain control",
+            "Vector to Graph conversion"
+        ]
+    },
+    {
+        "q": "Bidirectional chargers enable ______ power flow.",
+        "type": "fill_blank",
+        "answers": [
+            "two-way"
+        ],
+        "other_options": [
+            "one-way",
+            "three-way",
+            "no"
+        ]
+    },
+    {
+        "q": "Match the EV charging standard with its region:",
+        "type": "match",
+        "left": [
+            "CCS1",
+            "CCS2",
+            "CHAdeMO",
+            "GB/T"
+        ],
+        "right": [
+            "North America",
+            "Europe",
+            "Japan",
+            "China"
+        ]
+    },
+    {
+        "q": "What is the purpose of a PFC circuit?",
+        "type": "mcq",
+        "o": [
+            "Shape input current to follow voltage",
+            "Increase power output",
+            "Filter harmonics only",
+            "Regulate DC voltage"
+        ]
+    },
+    {
+        "q": "Boost PFC operates in CCM or ______ mode.",
+        "type": "fill_blank",
+        "answers": [
+            "DCM"
+        ],
+        "other_options": [
+            "PWM",
+            "PFM",
+            "VFM"
+        ]
+    },
+    {
+        "q": "Totem-pole PFC achieves higher efficiency than conventional boost PFC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of an LLC resonant converter?",
+        "type": "mcq",
+        "o": [
+            "High efficiency DC-DC conversion with soft switching",
+            "AC to DC rectification",
+            "Power factor correction",
+            "Motor control"
+        ]
+    },
+    {
+        "q": "Rearrange the EMC filter stages from line to load:",
+        "type": "rearrange",
+        "words": [
+            "Common mode choke",
+            "Differential mode filter",
+            "X capacitors",
+            "Y capacitors"
+        ]
+    },
+    {
+        "q": "What causes conducted EMI in power electronics?",
+        "type": "mcq",
+        "o": [
+            "High frequency switching currents",
+            "Low frequency operation",
+            "Steady-state current",
+            "DC components"
+        ]
+    },
+    {
+        "q": "CISPR 32 specifies ______ emission limits.",
+        "type": "fill_blank",
+        "answers": [
+            "electromagnetic"
+        ],
+        "other_options": [
+            "thermal",
+            "acoustic",
+            "optical"
+        ]
+    },
+    {
+        "q": "Match the EMC component with its function:",
+        "type": "match",
+        "left": [
+            "Common mode choke",
+            "X capacitor",
+            "Y capacitor",
+            "Ferrite bead"
+        ],
+        "right": [
+            "Block common mode noise",
+            "Filter differential mode noise",
+            "Filter common mode noise to ground",
+            "High frequency attenuation"
+        ]
+    },
+    {
+        "q": "What is the purpose of shielding in electronics?",
+        "type": "mcq",
+        "o": [
+            "Block electromagnetic radiation",
+            "Improve thermal performance",
+            "Increase power output",
+            "Reduce weight"
+        ]
+    },
+    {
+        "q": "Skin effect in shields increases effectiveness at ______ frequencies.",
+        "type": "fill_blank",
+        "answers": [
+            "high"
+        ],
+        "other_options": [
+            "low",
+            "zero",
+            "negative"
+        ]
+    },
+    {
+        "q": "Proper grounding is essential for EMC compliance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of spread spectrum clocking?",
+        "type": "mcq",
+        "o": [
+            "Reduce peak EMI by spreading energy",
+            "Increase clock frequency",
+            "Improve timing accuracy",
+            "Reduce power consumption"
+        ]
+    },
+    {
+        "q": "Rearrange the reliability assessment stages:",
+        "type": "rearrange",
+        "words": [
+            "FMEA",
+            "FTA",
+            "Reliability prediction",
+            "Accelerated testing"
+        ]
+    },
+    {
+        "q": "What is MTBF in reliability engineering?",
+        "type": "mcq",
+        "o": [
+            "Mean Time Between Failures",
+            "Maximum Time Before Failure",
+            "Minimum Test Before Fabrication",
+            "Mean Temperature Before Failure"
+        ]
+    },
+    {
+        "q": "Bathtub curve describes failure rate over ______ life.",
+        "type": "fill_blank",
+        "answers": [
+            "product"
+        ],
+        "other_options": [
+            "test",
+            "design",
+            "simulation"
+        ]
+    },
+    {
+        "q": "Match the failure mode with its cause:",
+        "type": "match",
+        "left": [
+            "Electromigration",
+            "Hot carrier injection",
+            "TDDB",
+            "Latch-up"
+        ],
+        "right": [
+            "Metal atom movement",
+            "High energy carriers",
+            "Gate oxide breakdown",
+            "Parasitic thyristor triggering"
+        ]
+    },
+    {
+        "q": "What is derating in electronics design?",
+        "type": "mcq",
+        "o": [
+            "Operating components below maximum ratings",
+            "Increasing component ratings",
+            "Removing components",
+            "Testing at extreme conditions"
+        ]
+    },
+    {
+        "q": "Thermal cycling causes ______ fatigue failures.",
+        "type": "fill_blank",
+        "answers": [
+            "solder joint"
+        ],
+        "other_options": [
+            "component",
+            "board",
+            "connector"
+        ]
+    },
+    {
+        "q": "HALT testing uses accelerated stress to find design weaknesses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of conformal coating?",
+        "type": "mcq",
+        "o": [
+            "Protect PCB from moisture and contaminants",
+            "Improve thermal conductivity",
+            "Increase current capacity",
+            "Reduce weight"
+        ]
+    },
+    {
+        "q": "Rearrange the PCB design process:",
+        "type": "rearrange",
+        "words": [
+            "Schematic capture",
+            "Component placement",
+            "Routing",
+            "Design rule check"
+        ]
+    },
+    {
+        "q": "What is the purpose of via stitching?",
+        "type": "mcq",
+        "o": [
+            "Connect ground planes for better shielding",
+            "Increase signal speed",
+            "Reduce board layers",
+            "Improve thermal performance"
+        ]
+    },
+    {
+        "q": "Controlled impedance traces maintain consistent ______ along their length.",
+        "type": "fill_blank",
+        "answers": [
+            "impedance"
+        ],
+        "other_options": [
+            "voltage",
+            "current",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the PCB layer with its function:",
+        "type": "match",
+        "left": [
+            "Signal layer",
+            "Power plane",
+            "Ground plane",
+            "Solder mask"
+        ],
+        "right": [
+            "Carries traces",
+            "Distributes power",
+            "Return path and shielding",
+            "Protects copper"
+        ]
+    },
+    {
+        "q": "What is differential pair routing?",
+        "type": "mcq",
+        "o": [
+            "Routing two traces together for noise immunity",
+            "Routing on different layers",
+            "Using different trace widths",
+            "Connecting to different grounds"
+        ]
+    },
+    {
+        "q": "Differential pairs should maintain consistent ______ between traces.",
+        "type": "fill_blank",
+        "answers": [
+            "spacing"
+        ],
+        "other_options": [
+            "voltage",
+            "current",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Return path planning is critical for signal integrity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What causes crosstalk in PCB traces?",
+        "type": "mcq",
+        "o": [
+            "Electromagnetic coupling between adjacent traces",
+            "Power supply noise",
+            "Component failures",
+            "Temperature variations"
+        ]
+    },
+    {
+        "q": "Rearrange the signal integrity issues by frequency dependency:",
+        "type": "rearrange",
+        "words": [
+            "IR drop",
+            "Crosstalk",
+            "Reflections",
+            "Skin effect losses"
+        ]
+    },
+    {
+        "q": "What is the purpose of decoupling capacitors?",
+        "type": "mcq",
+        "o": [
+            "Provide local charge reservoir for ICs",
+            "Block DC signals",
+            "Increase power consumption",
+            "Reduce board area"
+        ]
+    },
+    {
+        "q": "Target impedance for PDN is typically in ______ range.",
+        "type": "fill_blank",
+        "answers": [
+            "milliohm"
+        ],
+        "other_options": [
+            "ohm",
+            "kilohm",
+            "megaohm"
+        ]
+    },
+    {
+        "q": "Match the measurement equipment with its use:",
+        "type": "match",
+        "left": [
+            "Oscilloscope",
+            "Spectrum analyzer",
+            "VNA",
+            "TDR"
+        ],
+        "right": [
+            "Time domain signals",
+            "Frequency content",
+            "S-parameters",
+            "Impedance profile"
+        ]
+    },
+    {
+        "q": "What is eye diagram analysis used for?",
+        "type": "mcq",
+        "o": [
+            "Assess signal quality for high-speed digital links",
+            "Measure power consumption",
+            "Calculate impedance",
+            "Determine frequency response"
+        ]
+    },
+    {
+        "q": "Jitter is the variation in signal ______ timing.",
+        "type": "fill_blank",
+        "answers": [
+            "edge"
+        ],
+        "other_options": [
+            "amplitude",
+            "frequency",
+            "phase"
+        ]
+    },
+    {
+        "q": "Pre-emphasis boosts high frequencies to compensate for channel loss.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is equalization in high-speed links?",
+        "type": "mcq",
+        "o": [
+            "Compensate for frequency-dependent channel losses",
+            "Balance power between phases",
+            "Equalize voltages",
+            "Match impedances"
+        ]
+    },
+    {
+        "q": "Rearrange the communication protocol layers:",
+        "type": "rearrange",
+        "words": [
+            "Physical",
+            "Data link",
+            "Network",
+            "Application"
+        ]
+    },
+    {
+        "q": "What is the purpose of Manchester encoding?",
+        "type": "mcq",
+        "o": [
+            "Embed clock in data transitions",
+            "Compress data",
+            "Encrypt data",
+            "Error correction"
+        ]
+    },
+    {
+        "q": "8b/10b encoding provides DC balance and ______ detection.",
+        "type": "fill_blank",
+        "answers": [
+            "error"
+        ],
+        "other_options": [
+            "clock",
+            "phase",
+            "frequency"
+        ]
+    },
+    {
+        "q": "Match the serial protocol with its application:",
+        "type": "match",
+        "left": [
+            "SPI",
+            "I2C",
+            "UART",
+            "CAN"
+        ],
+        "right": [
+            "High-speed chip communication",
+            "Multi-device bus with addressing",
+            "Simple point-to-point",
+            "Automotive networking"
+        ]
+    },
+    {
+        "q": "What is the purpose of a CDR circuit?",
+        "type": "mcq",
+        "o": [
+            "Recover clock from data stream",
+            "Compress data rate",
+            "Convert digital to analog",
+            "Detect errors"
+        ]
+    },
+    {
+        "q": "CDR stands for Clock and Data ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Recovery"
+        ],
+        "other_options": [
+            "Restoration",
+            "Routing",
+            "Reduction"
+        ]
+    },
+    {
+        "q": "SerDes converts parallel data to serial for transmission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of scrambling in high-speed links?",
+        "type": "mcq",
+        "o": [
+            "Randomize data to avoid long runs of same bit",
+            "Encrypt data",
+            "Compress data",
+            "Correct errors"
+        ]
+    },
+    {
+        "q": "Rearrange the test and measurement sequence:",
+        "type": "rearrange",
+        "words": [
+            "Functional test",
+            "In-circuit test",
+            "Boundary scan",
+            "Final test"
+        ]
+    },
+    {
+        "q": "What is JTAG used for?",
+        "type": "mcq",
+        "o": [
+            "Boundary scan testing and debugging",
+            "Power measurement",
+            "Thermal analysis",
+            "EMC testing"
+        ]
+    },
+    {
+        "q": "IEEE 1149.1 defines the ______ standard.",
+        "type": "fill_blank",
+        "answers": [
+            "JTAG"
+        ],
+        "other_options": [
+            "USB",
+            "PCIe",
+            "Ethernet"
+        ]
+    },
+    {
+        "q": "Match the test type with its purpose:",
+        "type": "match",
+        "left": [
+            "Flying probe",
+            "ICT",
+            "Functional",
+            "AOI"
+        ],
+        "right": [
+            "Flexible low-volume testing",
+            "High-volume bed of nails",
+            "Verify system operation",
+            "Visual inspection"
+        ]
+    },
+    {
+        "q": "What is design for testability (DFT)?",
+        "type": "mcq",
+        "o": [
+            "Design features that improve test access",
+            "Testing the design process",
+            "Designing tests first",
+            "Testing for durability"
+        ]
+    },
+    {
+        "q": "Scan chains allow shifting test patterns through ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flip-flops"
+        ],
+        "other_options": [
+            "capacitors",
+            "resistors",
+            "inductors"
+        ]
+    },
+    {
+        "q": "Built-in self-test (BIST) includes test circuitry on chip.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of ATPG?",
+        "type": "mcq",
+        "o": [
+            "Automatic test pattern generation",
+            "Analog to parallel conversion",
+            "Advanced thermal protection",
+            "Automated timing analysis"
+        ]
+    },
+    {
+        "q": "Rearrange the fault coverage hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Stuck-at faults",
+            "Transition faults",
+            "Path delay faults",
+            "Bridging faults"
+        ]
+    },
+    {
+        "q": "What is fault simulation?",
+        "type": "mcq",
+        "o": [
+            "Determine which faults are detected by test patterns",
+            "Simulate faulty operation",
+            "Test fault tolerance",
+            "Generate faulty chips"
+        ]
+    },
+    {
+        "q": "Fault coverage is the percentage of ______ faults detected.",
+        "type": "fill_blank",
+        "answers": [
+            "modeled"
+        ],
+        "other_options": [
+            "actual",
+            "random",
+            "physical"
+        ]
+    },
+    {
+        "q": "Match the industry standard with its scope:",
+        "type": "match",
+        "left": [
+            "IPC-A-610",
+            "J-STD-001",
+            "IPC-2221",
+            "IPC-7351"
+        ],
+        "right": [
+            "Acceptability criteria",
+            "Soldering requirements",
+            "PCB design",
+            "Land pattern design"
+        ]
+    },
+    {
+        "q": "What is the purpose of statistical process control?",
+        "type": "mcq",
+        "o": [
+            "Monitor manufacturing process variations",
+            "Control product statistics",
+            "Process statistical data",
+            "Control testing procedures"
+        ]
+    },
+    {
+        "q": "Six sigma targets ______ defects per million opportunities.",
+        "type": "fill_blank",
+        "answers": [
+            "3.4"
+        ],
+        "other_options": [
+            "6",
+            "10",
+            "100"
+        ]
+    },
+    {
+        "q": "Cp and Cpk measure process capability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of root cause analysis?",
+        "type": "mcq",
+        "o": [
+            "Identify fundamental cause of problems",
+            "Analyze root circuits",
+            "Calculate square roots",
+            "Design root networks"
+        ]
+    },
+    {
+        "q": "Rearrange the PDCA cycle steps:",
+        "type": "rearrange",
+        "words": [
+            "Plan",
+            "Do",
+            "Check",
+            "Act"
+        ]
+    },
+    {
+        "q": "What is Pareto analysis?",
+        "type": "mcq",
+        "o": [
+            "Identify most significant factors causing defects",
+            "Analyze parallel circuits",
+            "Calculate partial derivatives",
+            "Design partitioned systems"
+        ]
+    },
+    {
+        "q": "The 80/20 rule states that 80% of effects come from ______ of causes.",
+        "type": "fill_blank",
+        "answers": [
+            "20%"
+        ],
+        "other_options": [
+            "50%",
+            "10%",
+            "80%"
+        ]
+    },
+    {
+        "q": "Match the quality tool with its purpose:",
+        "type": "match",
+        "left": [
+            "Fishbone diagram",
+            "Control chart",
+            "Histogram",
+            "Scatter plot"
+        ],
+        "right": [
+            "Cause and effect analysis",
+            "Process monitoring",
+            "Distribution analysis",
+            "Correlation analysis"
+        ]
+    },
+    {
+        "q": "What is poka-yoke?",
+        "type": "mcq",
+        "o": [
+            "Mistake-proofing design",
+            "Japanese quality standard",
+            "Process optimization",
+            "Statistical method"
+        ]
+    },
+    {
+        "q": "FMEA stands for Failure Mode and ______ Analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "Effects"
+        ],
+        "other_options": [
+            "Error",
+            "Efficiency",
+            "Engineering"
+        ]
+    },
+    {
+        "q": "Risk Priority Number (RPN) is calculated from severity, occurrence, and detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of a voltage reference in analog circuits?",
+        "type": "mcq",
+        "o": [
+            "Provide stable voltage for accurate measurements",
+            "Increase signal amplitude",
+            "Filter noise",
+            "Convert analog to digital"
+        ]
+    },
+    {
+        "q": "Bandgap references use the temperature properties of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "silicon"
+        ],
+        "other_options": [
+            "copper",
+            "aluminum",
+            "gold"
+        ]
+    },
+    {
+        "q": "Match the ADC type with its speed characteristic:",
+        "type": "match",
+        "left": [
+            "Flash ADC",
+            "SAR ADC",
+            "Delta-sigma ADC",
+            "Dual slope ADC"
+        ],
+        "right": [
+            "Fastest, parallel comparison",
+            "Medium speed, binary search",
+            "Oversampling for high resolution",
+            "Slow, high accuracy"
+        ]
+    },
+    {
+        "q": "What is quantization error in ADC?",
+        "type": "mcq",
+        "o": [
+            "Difference between actual and digitized value",
+            "Sampling rate error",
+            "Clock jitter",
+            "Input offset"
+        ]
+    },
+    {
+        "q": "ENOB stands for Effective Number of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Bits"
+        ],
+        "other_options": [
+            "Bytes",
+            "Bauds",
+            "Bands"
+        ]
+    },
+    {
+        "q": "Dithering improves ADC linearity by adding small noise.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of a sample-and-hold circuit?",
+        "type": "mcq",
+        "o": [
+            "Maintain constant input during ADC conversion",
+            "Amplify signals",
+            "Filter high frequencies",
+            "Convert digital to analog"
+        ]
+    },
+    {
+        "q": "Rearrange the DAC types by resolution capability:",
+        "type": "rearrange",
+        "words": [
+            "Binary weighted",
+            "R-2R ladder",
+            "Current steering",
+            "Delta-sigma"
+        ]
+    },
+    {
+        "q": "What causes DNL errors in DACs?",
+        "type": "mcq",
+        "o": [
+            "Non-uniform step sizes between codes",
+            "Power supply noise",
+            "Temperature drift",
+            "Clock jitter"
+        ]
+    },
+    {
+        "q": "INL measures the deviation from ideal ______ transfer function.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "exponential",
+            "logarithmic",
+            "quadratic"
+        ]
+    },
+    {
+        "q": "Match the sensor type with its measurement:",
+        "type": "match",
+        "left": [
+            "RTD",
+            "Thermocouple",
+            "Strain gauge",
+            "LVDT"
+        ],
+        "right": [
+            "Resistance temperature",
+            "Voltage from temperature",
+            "Resistance from strain",
+            "Displacement"
+        ]
+    },
+    {
+        "q": "What is the Wheatstone bridge used for?",
+        "type": "mcq",
+        "o": [
+            "Precise resistance measurement",
+            "Voltage amplification",
+            "Current limiting",
+            "Frequency division"
+        ]
+    },
+    {
+        "q": "Signal conditioning includes amplification, filtering, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "isolation"
+        ],
+        "other_options": [
+            "modulation",
+            "demodulation",
+            "encryption"
+        ]
+    },
+    {
+        "q": "Instrumentation amplifiers have high common-mode rejection ratio.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is galvanic isolation in signals?",
+        "type": "mcq",
+        "o": [
+            "No direct electrical connection between circuits",
+            "Grounding all signals",
+            "Shielding cables",
+            "Filtering noise"
+        ]
+    }
+]

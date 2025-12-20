@@ -1,0 +1,56 @@
+[
+    {
+        "title": "ML Basics 🤖",
+        "ques": "1. What is machine learning?\n2. Supervised vs unsupervised learning\n3. What is a model?",
+        "answer": {
+            "type": "text",
+            "content": "**1. ML:** Computers learn patterns from data without explicit programming\n\n**2. Types:**\n- Supervised: Labeled data (input→output pairs)\n- Unsupervised: No labels, find patterns\n\n**3. Model:** Mathematical representation that makes predictions based on learned patterns"
+        },
+        "explanation": "**ML** finds patterns humans might miss. Powered by data and computing power."
+    },
+    {
+        "title": "Neural Networks 🧠",
+        "ques": "1. What is a neural network?\n2. What is a layer?\n3. What is activation function?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Neural network:** Computing system inspired by biological neurons; interconnected nodes process data\n\n**2. Layer:** Group of neurons at same depth\n- Input layer (receives data)\n- Hidden layers (process)\n- Output layer (predictions)\n\n**3. Activation function:** Introduces non-linearity (ReLU, sigmoid); decides if neuron \"fires\""
+        },
+        "explanation": "**Deep learning** uses many hidden layers. More layers = more complex patterns learned."
+    },
+    {
+        "title": "NLP Introduction 💬",
+        "ques": "1. What is NLP?\n2. Common NLP tasks\n3. What is tokenization?",
+        "answer": {
+            "type": "text",
+            "content": "**1. NLP (Natural Language Processing):** AI understanding and generating human language\n\n**2. Tasks:**\n- Sentiment analysis\n- Translation\n- Chatbots\n- Text summarization\n- Named entity recognition\n\n**3. Tokenization:** Splitting text into pieces (tokens) - words, subwords, or characters"
+        },
+        "explanation": "**ChatGPT, Google Translate** are NLP applications. Transformers revolutionized the field."
+    },
+    {
+        "title": "AI Ethics ⚖️",
+        "ques": "1. What is AI bias?\n2. Privacy concerns\n3. Why is explainability important?",
+        "answer": {
+            "type": "text",
+            "content": "**1. AI bias:** Models learn biases from training data → unfair outcomes (hiring, lending, policing)\n\n**2. Privacy concerns:**\n- Data collection for training\n- Facial recognition\n- Personal data in models\n\n**3. Explainability:** Need to understand WHY AI makes decisions (healthcare, legal, financial)"
+        },
+        "explanation": "**Responsible AI** requires addressing bias, privacy, transparency. Not just technical problem!"
+    },
+    {
+        "title": "Training Models 📈",
+        "ques": "1. What is training data?\n2. What is overfitting?\n3. Train vs test split",
+        "answer": {
+            "type": "text",
+            "content": "**1. Training data:** Examples model learns from (input-output pairs for supervised)\n\n**2. Overfitting:** Model memorizes training data, fails on new data (too complex)\n\n**3. Split:**\n- Training set (~80%): Learn patterns\n- Test set (~20%): Evaluate performance on unseen data"
+        },
+        "explanation": "**Good generalization** is the goal. Always validate on data model hasn't seen!"
+    },
+    {
+        "title": "AI Applications 🌍",
+        "ques": "1. AI in healthcare\n2. AI in transportation\n3. Future of AI",
+        "answer": {
+            "type": "text",
+            "content": "**1. Healthcare:**\n- Disease diagnosis (X-rays, scans)\n- Drug discovery\n- Personalized treatment\n\n**2. Transportation:**\n- Self-driving cars\n- Traffic optimization\n- Route planning\n\n**3. Future:**\n- More capable assistants\n- Scientific discovery\n- Ensuring beneficial outcomes"
+        },
+        "explanation": "**AI** is transforming every industry. Balance benefits with risks and ethical considerations."
+    }
+]

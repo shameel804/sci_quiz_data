@@ -1,0 +1,59 @@
+{
+    "id": "learn_algebra",
+    "topicId": "algebra",
+    "topicTitle": "Algebra",
+    "description": "Explore linear equations, quadratics, matrices, and functions",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "algebra_1",
+            "type": "content",
+            "title": "Welcome to Algebra",
+            "content": "# Introduction to Algebra 🔢\n\nWelcome to **Algebra** - the language of mathematics!\n\n## What you'll learn:\n- **Linear Equations** - Solving for unknowns\n- **Quadratic Equations** - Parabolas and roots\n- **Matrices** - Array mathematics\n- **Functions** - Input-output relationships\n\n> 💡 **Fun Fact:** \"Algebra\" comes from the Arabic \"al-jabr,\" meaning \"reunion of broken parts.\"\n\n## What is Algebra?\n\nUsing symbols (variables) to represent numbers and relationships.\n\n## Key Vocabulary\n\n| Term | Definition | Example |\n|------|------------|--------|\n| Variable | Unknown quantity | x, y, z |\n| Coefficient | Number multiplying variable | 3 in 3x |\n| Constant | Fixed value | 5 in x + 5 |\n| Expression | Math phrase | 2x + 3 |\n| Equation | Statement of equality | 2x + 3 = 7 |\n\n## Why Algebra Matters\n\n- 🔬 Foundation for all sciences\n- 💰 Financial modeling\n- 🏗️ Engineering design\n- 💻 Computer algorithms\n\n## Basic Properties\n\n| Property | Example |\n|----------|--------|\n| Commutative | a + b = b + a |\n| Associative | (a + b) + c = a + (b + c) |\n| Distributive | a(b + c) = ab + ac |\n\nLet's solve the unknown!"
+        },
+        {
+            "id": "algebra_2",
+            "type": "content",
+            "title": "Linear Equations",
+            "content": "# Linear Equations 📏\n\n## Standard Forms\n\n### One Variable\n```\nax + b = c\n\nSolve for x:\nx = (c - b)/a\n```\n\n### Two Variables\n```\nax + by = c\n\nForms:\n• Standard: Ax + By = C\n• Slope-intercept: y = mx + b\n• Point-slope: y - y₁ = m(x - x₁)\n```\n\n## Solving Linear Equations\n\n### Step by Step\n\n```\n3x + 5 = 17\n\nStep 1: Subtract 5\n3x = 12\n\nStep 2: Divide by 3\nx = 4 ✓\n```\n\n## Systems of Linear Equations\n\n### Two Methods\n\n**Substitution:**\n```\nx + y = 5\n2x - y = 4\n\nFrom eq 1: y = 5 - x\nSubstitute: 2x - (5-x) = 4\n            3x = 9\n            x = 3, y = 2\n```\n\n**Elimination:**\n```\n x + y = 5\n2x - y = 4\n─────────── Add\n3x    = 9\n x    = 3, y = 2\n```\n\n## Linear Inequalities\n\n```\n2x + 3 < 7\n2x < 4\nx < 2\n\n←───●)────────→\n    2    Solution: x < 2\n```\n\n> 🎯 **Key Point:** Flip inequality sign when multiplying/dividing by negative!"
+        },
+        {
+            "id": "algebra_3",
+            "type": "content",
+            "title": "Quadratic Equations",
+            "content": "# Quadratic Equations 📐\n\n## Standard Form\n\n```\nax² + bx + c = 0\n\nwhere a ≠ 0\n```\n\n## The Parabola\n\n```\n        y\n        │    ╱ ╲\n        │   ╱   ╲\n        │  ╱     ╲\n    ────┼─●───────●─── x\n        │    Roots\n```\n\n## Solving Methods\n\n### 1. Factoring\n\n```\nx² - 5x + 6 = 0\n(x - 2)(x - 3) = 0\nx = 2 or x = 3\n```\n\n### 2. Quadratic Formula\n\n```\n      -b ± √(b² - 4ac)\nx = ─────────────────────\n           2a\n```\n\n### 3. Completing the Square\n\n```\nx² + 6x = 7\nx² + 6x + 9 = 16\n(x + 3)² = 16\nx + 3 = ±4\nx = 1 or x = -7\n```\n\n## The Discriminant\n\n```\nD = b² - 4ac\n```\n\n| D Value | Roots |\n|---------|-------|\n| D > 0 | Two real roots |\n| D = 0 | One repeated root |\n| D < 0 | Two complex roots |\n\n## Vertex Form\n\n```\ny = a(x - h)² + k\n\nVertex: (h, k)\n```\n\n## Sum and Product of Roots\n\n```\nRoots: r₁, r₂\n\nSum: r₁ + r₂ = -b/a\nProduct: r₁ × r₂ = c/a\n```\n\n> 💡 **Key Point:** The quadratic formula ALWAYS works!"
+        },
+        {
+            "id": "algebra_quiz_1",
+            "type": "quiz",
+            "title": "Algebra Quiz",
+            "content": "Test your algebra skills!",
+            "quizQuestion": "What is the discriminant of x² + 4x + 4 = 0?",
+            "quizOptions": [
+                "16",
+                "0",
+                "-16",
+                "8"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "algebra_4",
+            "type": "content",
+            "title": "Matrices and Determinants",
+            "content": "# Matrices and Determinants 🧮\n\n## What is a Matrix?\n\nRectangular array of numbers.\n\n```\n      columns\n        ↓\nA = [ 1  2  3 ]  ← rows\n    [ 4  5  6 ]\n\nThis is a 2×3 matrix\n```\n\n## Matrix Operations\n\n### Addition (Same dimensions)\n```\n[1 2] + [5 6] = [6 8]\n[3 4]   [7 8]   [10 12]\n```\n\n### Scalar Multiplication\n```\n2 × [1 2] = [2 4]\n    [3 4]   [6 8]\n```\n\n### Matrix Multiplication\n```\n[a b] × [e f] = [ae+bg  af+bh]\n[c d]   [g h]   [ce+dg  cf+dh]\n```\n\n### Note: AB ≠ BA generally!\n\n## Determinant\n\n### 2×2 Matrix\n```\n|a b| = ad - bc\n|c d|\n```\n\n### 3×3 Matrix\n```\n|a b c|\n|d e f| = a(ei-fh) - b(di-fg) + c(dh-eg)\n|g h i|\n```\n\n## Applications\n\n| Application | Use |\n|-------------|-----|\n| Systems of equations | Cramer's rule |\n| Computer graphics | Transformations |\n| Data science | Linear regression |\n| Physics | Rotations |\n\n## Special Matrices\n\n| Type | Definition |\n|------|------------|\n| Identity | Diagonal 1s, rest 0s |\n| Zero | All zeros |\n| Transpose | Rows ↔ Columns |\n| Inverse | A × A⁻¹ = I |\n\n> 🎯 **Key Point:** Matrix has inverse only if determinant ≠ 0!"
+        },
+        {
+            "id": "algebra_5",
+            "type": "content",
+            "title": "Functions and Graphs",
+            "content": "# Functions and Graphs 📈\n\n## What is a Function?\n\nRule that assigns each input exactly ONE output.\n\n```\nf(x) = 2x + 3\n\nInput x → [ Function ] → Output f(x)\n```\n\n## Function Notation\n\n```\nf(x) = x² + 1\n\nf(2) = 2² + 1 = 5\nf(-1) = (-1)² + 1 = 2\n```\n\n## Domain and Range\n\n| Term | Definition |\n|------|------------|\n| Domain | All possible inputs (x) |\n| Range | All possible outputs (y) |\n\n### Example\n```\nf(x) = √x\n\nDomain: x ≥ 0\nRange: f(x) ≥ 0\n```\n\n## Common Functions\n\n| Function | Graph Shape |\n|----------|------------|\n| Linear: f(x) = mx + b | Straight line |\n| Quadratic: f(x) = x² | Parabola |\n| Cubic: f(x) = x³ | S-curve |\n| Exponential: f(x) = aˣ | Growth/decay |\n| Logarithmic: f(x) = log x | Slow growth |\n\n## Function Operations\n\n```\n(f + g)(x) = f(x) + g(x)\n(f - g)(x) = f(x) - g(x)\n(f × g)(x) = f(x) × g(x)\n(f/g)(x) = f(x)/g(x), g(x) ≠ 0\n```\n\n## Composition\n\n```\n(f ∘ g)(x) = f(g(x))\n\nIf f(x) = x² and g(x) = x + 1:\n(f ∘ g)(x) = (x + 1)²\n```\n\n## Inverse Functions\n\n```\nf(f⁻¹(x)) = x\n\nTo find inverse: swap x and y, solve for y\n```\n\n> 💡 **Key Point:** A function passes the vertical line test!"
+        },
+        {
+            "id": "algebra_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Algebra! Here's what you've mastered:\n\n## Linear Equations\n- ✅ Solving ax + b = c\n- ✅ Systems (substitution, elimination)\n- ✅ Slope-intercept form: y = mx + b\n\n## Quadratic Equations\n- ✅ Standard form: ax² + bx + c = 0\n- ✅ Quadratic formula: x = (-b ± √D)/2a\n- ✅ Discriminant: D = b² - 4ac\n- ✅ Vertex form: y = a(x-h)² + k\n\n## Matrices\n\n| Operation | Rule |\n|-----------|------|\n| Addition | Element by element |\n| Multiplication | Row × Column |\n| Determinant (2×2) | ad - bc |\n\n## Functions\n\n- ✅ f(x) notation\n- ✅ Domain and range\n- ✅ Composition: f(g(x))\n- ✅ Inverse: f⁻¹(x)\n\n## Key Formulas\n\n| Formula | Use |\n|---------|-----|\n| Quadratic formula | Solve any quadratic |\n| Slope | m = (y₂-y₁)/(x₂-x₁) |\n| Midpoint | ((x₁+x₂)/2, (y₁+y₂)/2) |\n| Distance | √((x₂-x₁)² + (y₂-y₁)²) |\n\n> 🚀 **Next Steps:** Explore Geometry for shapes and spatial reasoning!\n\nYou now have the algebraic foundation for advanced mathematics!"
+        }
+    ]
+}

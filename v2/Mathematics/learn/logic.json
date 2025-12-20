@@ -1,0 +1,59 @@
+{
+    "id": "learn_logic",
+    "topicId": "logic",
+    "topicTitle": "Logic and Set Theory",
+    "description": "Explore propositional logic, set operations, and proof techniques",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "logic_1",
+            "type": "content",
+            "title": "Introduction to Logic",
+            "content": "# Logic and Set Theory 🧠\n\n## What you'll learn:\n- Propositional logic\n- Set operations\n- Proof techniques\n- Cardinality\n\n## Propositional Logic\n| Symbol | Meaning |\n|--------|--------|\n| ∧ | AND |\n| ∨ | OR |\n| ¬ | NOT |\n| → | Implies |\n| ↔ | If and only if |"
+        },
+        {
+            "id": "logic_2",
+            "type": "content",
+            "title": "Truth Tables",
+            "content": "# Truth Tables 📋\n\n## AND (∧)\n| P | Q | P∧Q |\n|---|---|-----|\n| T | T | T |\n| T | F | F |\n| F | T | F |\n| F | F | F |\n\n## OR (∨)\n| P | Q | P∨Q |\n|---|---|-----|\n| T | T | T |\n| T | F | T |\n| F | T | T |\n| F | F | F |\n\n## Implication (→)\nP→Q is false only when P true, Q false."
+        },
+        {
+            "id": "logic_3",
+            "type": "content",
+            "title": "Set Theory",
+            "content": "# Set Operations 📦\n\n## Basic Operations\n| Operation | Symbol | Meaning |\n|-----------|--------|--------|\n| Union | A∪B | In A or B |\n| Intersection | A∩B | In A and B |\n| Complement | A' | Not in A |\n| Difference | A-B | In A, not B |\n\n## Properties\n- A∪∅ = A\n- A∩∅ = ∅\n- A∪A' = U (universal)\n- A∩A' = ∅"
+        },
+        {
+            "id": "logic_quiz_1",
+            "type": "quiz",
+            "title": "Logic Quiz",
+            "content": "Test your logic!",
+            "quizQuestion": "What is A∩∅?",
+            "quizOptions": [
+                "A",
+                "∅",
+                "U",
+                "A'"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "logic_4",
+            "type": "content",
+            "title": "Proof Techniques",
+            "content": "# Proof Techniques 📝\n\n## Direct Proof\nAssume P, show Q directly.\n\n## Contradiction\nAssume ¬Q, derive contradiction.\n\n## Induction\n1. Base case: Show P(1)\n2. Inductive step: P(k)→P(k+1)\n\n## Contrapositive\nProve ¬Q→¬P (equivalent to P→Q)"
+        },
+        {
+            "id": "logic_5",
+            "type": "content",
+            "title": "Cardinality",
+            "content": "# Cardinality ∞\n\n## Finite Sets\n|A| = number of elements\n\n## Countable Infinite\n- ℕ, ℤ, ℚ same cardinality\n- Can list all elements\n\n## Uncountable\n- ℝ is uncountable\n- |ℝ| > |ℕ| (Cantor's proof)\n\n## Power Set\n|P(A)| = 2^|A|"
+        },
+        {
+            "id": "logic_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n## Logic\n- AND, OR, NOT, Implies\n- Truth tables\n\n## Sets\n- Union, Intersection\n- Complement, Difference\n\n## Proofs\n- Direct, Contradiction\n- Induction\n\n## Cardinality\n- Countable vs Uncountable"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": "learn_algo",
+    "topicId": "algo",
+    "topicTitle": "Algorithms",
+    "description": "Explore sorting, searching, time complexity, and graph algorithms",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "algo_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Algorithms 💻\n\n## What is an Algorithm?\nStep-by-step procedure to solve a problem.\n\n## Topics\n- Sorting algorithms\n- Search algorithms\n- Time complexity\n- Graph algorithms"
+        },
+        {
+            "id": "algo_2",
+            "type": "content",
+            "title": "Sorting",
+            "content": "# Sorting Algorithms 📊\n\n| Algorithm | Time (avg) | Space |\n|-----------|------------|-------|\n| Bubble | O(n²) | O(1) |\n| Merge | O(n log n) | O(n) |\n| Quick | O(n log n) | O(log n) |\n| Insertion | O(n²) | O(1) |\n\n## Stable vs Unstable\n- Stable: Preserves equal element order\n- Merge sort is stable"
+        },
+        {
+            "id": "algo_3",
+            "type": "content",
+            "title": "Searching",
+            "content": "# Search Algorithms 🔍\n\n## Linear Search\n- O(n) time\n- Works on unsorted\n\n## Binary Search\n- O(log n) time\n- Requires sorted array\n```\nmid = (low + high) / 2\nif target < arr[mid]: search left\nelse: search right\n```"
+        },
+        {
+            "id": "algo_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "What is the time complexity of binary search?",
+            "quizOptions": [
+                "O(n)",
+                "O(n²)",
+                "O(log n)",
+                "O(1)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "algo_4",
+            "type": "content",
+            "title": "Big-O Notation",
+            "content": "# Time Complexity ⏱️\n\n## Common Complexities\n| Notation | Name | Example |\n|----------|------|--------|\n| O(1) | Constant | Array access |\n| O(log n) | Logarithmic | Binary search |\n| O(n) | Linear | Linear search |\n| O(n log n) | Linearithmic | Merge sort |\n| O(n²) | Quadratic | Bubble sort |"
+        },
+        {
+            "id": "algo_5",
+            "type": "content",
+            "title": "Graph Algorithms",
+            "content": "# Graph Algorithms 🔗\n\n## Traversal\n- BFS: Level by level\n- DFS: Deep first\n\n## Shortest Path\n| Algorithm | Use |\n|-----------|-----|\n| Dijkstra | Weighted, non-negative |\n| Bellman-Ford | Negative weights |\n| Floyd-Warshall | All pairs |"
+        },
+        {
+            "id": "algo_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Sorting: O(n²) vs O(n log n)\n- Binary search: O(log n)\n- BFS/DFS for graph traversal\n- Big-O measures efficiency"
+        }
+    ]
+}

@@ -1,272 +1,56 @@
 [
-  {
-    "title": "Mole-to-Mass Conversion",
-    "ques": "Calculate the mass of 0.5 moles of sodium chloride (NaCl). (Atomic masses: Na = 23, Cl = 35.5)",
-    "answer": {
-      "type": "text",
-      "content": "Mass = moles × molar mass\nMolar mass of NaCl = 23 + 35.5 = 58.5 g/mol\nMass = 0.5 × 58.5 = 29.25 g"
+    {
+        "title": "Mole Calculations ⚖️",
+        "ques": "Calculate for 18g of water (H₂O):\n1. Number of moles\n2. Number of molecules\n3. Number of hydrogen atoms",
+        "answer": {
+            "type": "text",
+            "content": "**1. Moles:**\n```\nMolar mass H₂O = 2(1) + 16 = 18 g/mol\nmoles = 18g / 18g/mol = 1 mol\n```\n\n**2. Molecules:**\n```\n1 mol × 6.022×10²³ = 6.022×10²³ molecules\n```\n\n**3. H atoms:**\n```\n2 H per molecule × 6.022×10²³ = 1.204×10²⁴ atoms\n```"
+        },
+        "explanation": "**Avogadro's number** (6.022×10²³) is the bridge between moles and particles. Always use molar mass to convert mass to moles first."
     },
-    "explanation": "***Mass = moles × molar mass*** is the basic stoichiometric formula for converting moles into grams.\nMolar mass of NaCl is calculated as ***23 (Na) + 35.5 (Cl) = 58.5 g/mol***.\nMultiplying by 0.5 moles gives ***29.25 g***.\nSo, the mass of 0.5 moles of NaCl is ```29.25 g```."
-  },
-  {
-    "title": "Titration Endpoint Calculation",
-    "ques": "25.0 mL of HCl was titrated with 0.1 M NaOH. If 30.0 mL of NaOH was required to reach the endpoint, calculate the concentration of HCl.",
-    "answer": {
-      "type": "text",
-      "content": "NaOH moles = 0.1 × 0.030 = 0.003 mol\nHCl moles = 0.003 mol (1:1 ratio)\nConcentration = moles / volume (in L) = 0.003 / 0.025 = 0.12 M"
+    {
+        "title": "Titration Calculation 🧫",
+        "ques": "25 mL of unknown HCl requires 30 mL of 0.1 M NaOH for neutralization.\n\n1. Find molarity of HCl\n2. Find mass of HCl in 100 mL of this solution\n3. What indicator would you use?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Molarity:**\n```\nM₁V₁ = M₂V₂\nM × 25 = 0.1 × 30\nM = 0.12 M\n```\n\n**2. Mass in 100 mL:**\n```\nmoles = 0.12 × 0.1 = 0.012 mol\nmass = 0.012 × 36.5 = 0.438 g\n```\n\n**3. Indicator:** Phenolphthalein (colorless in acid, pink in base)"
+        },
+        "explanation": "**Titration** uses known concentration to find unknown. Strong acid + strong base → pH 7 at endpoint."
     },
-    "explanation": "First, calculate moles of NaOH: ***0.1 mol/L × 0.030 L = 0.003 mol***.\nBecause NaOH and HCl react in a ***1:1*** molar ratio, moles of HCl = ```0.003 mol```.\nNow, concentration of HCl = ***moles / volume*** = ***0.003 / 0.025 = 0.12 M***."
-  },
-  {
-    "title": "pH Calculation for a Strong Acid",
-    "ques": "What is the pH of a 0.001 M HCl solution?",
-    "answer": {
-      "type": "text",
-      "content": "pH = -log[H+]\npH = -log(0.001) = 3"
+    {
+        "title": "pH Calculations 📏",
+        "ques": "Calculate:\n1. pH of 0.01 M HNO₃\n2. pH of 0.001 M NaOH\n3. [H⁺] if pH = 5",
+        "answer": {
+            "type": "text",
+            "content": "**1.** pH = -log(0.01) = **2**\n\n**2.** pOH = -log(0.001) = 3\npH = 14 - 3 = **11**\n\n**3.** [H⁺] = 10⁻⁵ = **0.00001 M**"
+        },
+        "explanation": "For strong acids/bases, [H⁺] = concentration directly. Remember: pH + pOH = 14 at 25°C."
     },
-    "explanation": "HCl is a ***strong acid***, so it dissociates completely in solution: ```[H⁺] = 0.001 M```.\nApply the pH formula: ***pH = -log[H⁺]***.\n-log(0.001) = ***3***, so the pH is ```3```."
-  },
-  {
-    "title": "Rf Value in Chromatography",
-    "ques": "In a chromatography experiment, a dye travels 3 cm while the solvent front moves 6 cm. Calculate the Rf value.",
-    "answer": {
-      "type": "text",
-      "content": "Rf = distance moved by dye / distance moved by solvent\nRf = 3 / 6 = 0.5"
+    {
+        "title": "Chromatography 📊",
+        "ques": "In paper chromatography, a spot travels 6 cm while solvent travels 10 cm.\n\n1. Calculate Rf value\n2. What does Rf tell you?\n3. Name two types of chromatography",
+        "answer": {
+            "type": "text",
+            "content": "**1. Rf value:**\n```\nRf = distance by spot / distance by solvent\nRf = 6/10 = 0.6\n```\n\n**2.** Rf identifies substances; each compound has characteristic Rf in given conditions\n\n**3. Types:**\n- Paper chromatography\n- Column chromatography\n- Gas chromatography (GC)\n- HPLC"
+        },
+        "explanation": "**Chromatography** separates mixtures by differential movement through stationary phase. Rf is constant for each substance under fixed conditions."
     },
-    "explanation": "Rf value is calculated as: ***Rf = distance traveled by component / distance traveled by solvent front***.\nHere, dye travels 3 cm and solvent front 6 cm.\nSo, Rf = ***3 / 6 = 0.5***.\nThe Rf value is ```0.5```."
-  },
-  {
-    "title": "Identifying a Compound using Mass Spectrometry",
-    "ques": "A compound shows a molecular ion peak at m/z = 58 in a mass spectrum. Suggest a possible molecular formula.",
-    "answer": {
-      "type": "text",
-      "content": "Molecular ion peak represents the molecular mass.\nC3H6O has molar mass = (3×12) + (6×1) + (16) = 58\nSo, possible formula is C3H6O"
+    {
+        "title": "Spectroscopy Basics 🌈",
+        "ques": "Match the spectroscopy with what it detects:\n1. IR spectroscopy\n2. UV-Vis spectroscopy\n3. NMR spectroscopy",
+        "answer": {
+            "type": "text",
+            "content": "**1. IR:** Functional groups (bond vibrations)\n\n**2. UV-Vis:** Electronic transitions (conjugation, color)\n\n**3. NMR:** Chemical environment of H/C atoms (structure)"
+        },
+        "explanation": "**Spectroscopy** uses electromagnetic radiation to probe molecular structure. Each technique reveals different information."
     },
-    "explanation": "Mass spectrometry gives a ***molecular ion peak (M⁺)*** that corresponds to the molecular mass.\nGiven m/z = 58, a molecule with that mass is needed.\nC₃H₆O gives: ***3×12 (C) + 6×1 (H) + 16 (O) = 58***.\nHence, a possible compound is ```C3H6O``` (e.g., acetone)."
-  },
-  {
-    "title": "Limiting Reagent Determination",
-    "ques": "If 2.0 mol of H₂ reacts with 1.0 mol of O₂ according to the equation: 2H₂ + O₂ → 2H₂O, identify the limiting reagent and calculate the amount of water formed.",
-    "answer": {
-      "type": "text",
-      "content": "From the balanced equation, 2 mol H₂ reacts with 1 mol O₂.\nGiven: 2 mol H₂ and 1 mol O₂ — exact stoichiometric ratio.\nNo limiting reagent; both completely react.\nH₂O produced = 2 mol"
-    },
-    "explanation": "The balanced equation ***2H₂ + O₂ → 2H₂O*** shows a ***2:1 molar ratio*** between H₂ and O₂.\nGiven 2 mol H₂ and 1 mol O₂, the ratio matches the stoichiometry exactly.\nSo, ***neither reagent is in excess*** — they completely react.\nThus, the amount of water formed is ***2 mol***, since the equation shows ***2 mol H₂O per 2 mol H₂ reacted***.\nFinal answer: ```2 mol H₂O```."
-  },
-  {
-    "title": "Normality in Titration",
-    "ques": "Calculate the volume of 0.5 N H₂SO₄ needed to neutralize 40 mL of 1.0 N NaOH.",
-    "answer": {
-      "type": "text",
-      "content": "Using: N₁V₁ = N₂V₂\n(1.0)(40) = (0.5)(V₂)\nV₂ = 80 mL"
-    },
-    "explanation": "In acid-base titration, use ***N₁V₁ = N₂V₂*** where ***N*** is normality and ***V*** is volume.\nNaOH side: ***N₁ = 1.0, V₁ = 40 mL***.\nH₂SO₄ side: ***N₂ = 0.5***, solve for V₂:\n***1.0 × 40 = 0.5 × V₂*** → V₂ = ***80 mL***.\nSo, ```80 mL``` of H₂SO₄ is needed."
-  },
-  {
-    "title": "pH of Weak Acid",
-    "ques": "Calculate the pH of a 0.1 M acetic acid solution. (Ka = 1.8 × 10⁻⁵)",
-    "answer": {
-      "type": "text",
-      "content": "[H⁺] = √(Ka × C) = √(1.8×10⁻⁵ × 0.1) ≈ 1.34×10⁻³\npH = -log(1.34×10⁻³) ≈ 2.87"
-    },
-    "explanation": "For weak acids: ***[H⁺] = √(Ka × C)***.\nHere, Ka = 1.8×10⁻⁵ and C = 0.1 M.\nSo, [H⁺] ≈ ***√(1.8×10⁻⁵ × 0.1) = 1.34×10⁻³***.\nNow apply pH formula: ***pH = -log[H⁺]***.\n-log(1.34×10⁻³) ≈ ***2.87***.\nSo, pH ≈ ```2.87```."
-  },
-  {
-    "title": "Retention Time in Gas Chromatography",
-    "ques": "In a gas chromatography experiment, compound A elutes at 3.2 minutes and compound B at 5.4 minutes. Which compound has higher affinity for the stationary phase?",
-    "answer": {
-      "type": "text",
-      "content": "Compound B has a longer retention time (5.4 min), so it interacts more with the stationary phase than compound A."
-    },
-    "explanation": "Retention time is the time a compound takes to pass through the column.\n***Longer retention time means stronger interaction with the stationary phase***.\nCompound B takes ***5.4 min*** while A takes ***3.2 min***.\nHence, ***Compound B interacts more*** with the stationary phase.\nSo, the compound with higher affinity is ```Compound B```."
-  },
-  {
-    "title": "Beer-Lambert Law in Spectroscopy",
-    "ques": "A solution has an absorbance of 0.6 at 400 nm. If the path length is 1 cm and molar absorptivity is 200 L·mol⁻¹·cm⁻¹, calculate the concentration.",
-    "answer": {
-      "type": "text",
-      "content": "Using A = εcl:\n0.6 = 200 × c × 1\nc = 0.6 / 200 = 0.003 mol/L"
-    },
-    "explanation": "Beer-Lambert Law: ***A = εcl***, where A = absorbance, ε = molar absorptivity, c = concentration, l = path length.\nSubstitute: ***0.6 = 200 × c × 1***.\nRearrange: ***c = 0.6 / 200 = 0.003 mol/L***.\nSo, the concentration is ```0.003 mol/L```."
-  },
-  {
-    "title": "Empirical Formula from Combustion Data",
-    "ques": "A 0.25 g sample of a hydrocarbon is completely combusted, producing 0.733 g of CO₂ and 0.300 g of H₂O. Determine the empirical formula of the hydrocarbon.",
-    "answer": {
-      "type": "text",
-      "content": "Moles of C = 0.733 g / 44.01 g/mol = 0.0167 mol\nMoles of H = (0.300 g / 18.02 g/mol) × 2 = 0.0333 mol\nMole ratio C:H ≈ 1:2\nEmpirical formula = CH₂"
-    },
-    "explanation": "***CO₂ contains one carbon atom***, so moles of C = 0.733 / 44.01 ≈ ***0.0167 mol***.\n***Each H₂O contains two H atoms***, so moles of H = (0.300 / 18.02) × 2 ≈ ***0.0333 mol***.\nNow find the simplest ratio: ***C:H ≈ 0.0167 : 0.0333 ≈ 1 : 2***.\nThus, the empirical formula is ```CH₂```."
-  },
-  {
-    "title": "Equivalence Point Volume",
-    "ques": "How many mL of 0.2 M H₂SO₄ are needed to completely neutralize 50 mL of 0.1 M NaOH?",
-    "answer": {
-      "type": "text",
-      "content": "H₂SO₄ provides 2 H⁺ per molecule → N = 0.2 × 2 = 0.4 N\nNaOH is monoprotic → N = 0.1 N\nUse N₁V₁ = N₂V₂:\n(0.4)(V) = (0.1)(50) → V = 12.5 mL"
-    },
-    "explanation": "H₂SO₄ is a ***diprotic acid***, so normality = ***0.2 M × 2 = 0.4 N***.\nNaOH is monoprotic, so ***N = 0.1 N***.\nUsing ***N₁V₁ = N₂V₂***: 0.4 × V = 0.1 × 50 → V = ***12.5 mL***.\nSo, ```12.5 mL``` of H₂SO₄ is required for neutralization."
-  },
-  {
-    "title": "pH of a Basic Salt Solution",
-    "ques": "Calculate the pH of a 0.05 M sodium acetate (CH₃COONa) solution. Given: Ka for acetic acid = 1.8 × 10⁻⁵.",
-    "answer": {
-      "type": "text",
-      "content": "Kb = Kw / Ka = 1.0×10⁻¹⁴ / 1.8×10⁻⁵ ≈ 5.56×10⁻¹⁰\n[OH⁻] = √(Kb × C) = √(5.56×10⁻¹⁰ × 0.05) ≈ 5.27×10⁻⁶\npOH ≈ 5.28 → pH = 14 - 5.28 ≈ 8.72"
-    },
-    "explanation": "Sodium acetate is a ***basic salt*** from a weak acid.\nCalculate ***Kb = Kw / Ka = 1.0×10⁻¹⁴ / 1.8×10⁻⁵ = 5.56×10⁻¹⁰***.\nNow find [OH⁻]: ***√(Kb × C) = √(5.56×10⁻¹⁰ × 0.05) ≈ 5.27×10⁻⁶***.\nThen, ***pOH = -log[OH⁻] ≈ 5.28***.\nSo, ***pH = 14 - 5.28 = 8.72***.\nFinal answer: ```pH ≈ 8.72```."
-  },
-  {
-    "title": "Paper Chromatography - Solvent Effect",
-    "ques": "Two pigments A and B are separated using two different solvents in paper chromatography. In solvent X, A moves 5 cm and B moves 2 cm. In solvent Y, A moves 4 cm and B moves 4.5 cm. Which solvent better separates A and B?",
-    "answer": {
-      "type": "text",
-      "content": "In solvent X, separation = 3 cm (5 - 2)\nIn solvent Y, separation = 0.5 cm (4.5 - 4)\nBetter separation is achieved with solvent X"
-    },
-    "explanation": "Separation effectiveness is based on ***distance between the two spots***.\nIn solvent X: A = 5 cm, B = 2 cm → separation = ***3 cm***.\nIn solvent Y: A = 4 cm, B = 4.5 cm → separation = ***0.5 cm***.\nSince ***3 cm > 0.5 cm***, solvent X provides better separation.\nAnswer: ```Solvent X```."
-  },
-  {
-    "title": "UV-Visible Spectroscopy Peak Shift",
-    "ques": "A compound shows an absorption peak at 300 nm. After adding a conjugated double bond, the peak shifts to 340 nm. What is this shift called, and what does it indicate?",
-    "answer": {
-      "type": "text",
-      "content": "This is a bathochromic shift (red shift).\nIt indicates increased conjugation and lower energy transition."
-    },
-    "explanation": "When the ***absorption peak moves to a longer wavelength***, it is called a ***bathochromic shift*** or ***red shift***.\nThis occurs due to ***extended conjugation*** in the molecule, which lowers the energy required for electron excitation.\nSo, a shift from ***300 nm to 340 nm*** means the system now absorbs at ***lower energy, longer wavelength***.\nAnswer: ```Bathochromic shift (red shift)```."
-  },
-  {
-    "title": "Calculating Molecules in a Sample",
-    "ques": "How many molecules are present in 0.75 moles of CO₂?",
-    "answer": {
-      "type": "text",
-      "content": "Number of molecules = moles × Avogadro’s number\n= 0.75 × 6.022×10²³\n= 4.52 × 10²³ molecules"
-    },
-    "explanation": "***Avogadro's number = 6.022×10²³ molecules/mol***.\nTo calculate the number of molecules, use: ***moles × Avogadro’s number***.\nSo: ***0.75 × 6.022×10²³ = 4.52 × 10²³ molecules***.\nFinal answer: ```4.52 × 10²³ molecules``` of CO₂."
-  },
-  {
-    "title": "Volume of Gas at STP",
-    "ques": "What is the volume occupied by 3.0 moles of an ideal gas at standard temperature and pressure (STP)?",
-    "answer": {
-      "type": "text",
-      "content": "At STP, 1 mole of gas occupies 22.4 L\nVolume = 3.0 × 22.4 = 67.2 L"
-    },
-    "explanation": "At ***STP (Standard Temperature and Pressure)***, 1 mole of any ideal gas occupies ***22.4 liters***.\nMultiply by the number of moles: ***3.0 × 22.4 = 67.2 L***.\nFinal answer: ```67.2 liters```."
-  },
-  {
-    "title": "Calculating pH from pKa and Concentration",
-    "ques": "Calculate the pH of a 0.2 M solution of a weak acid with pKa = 4.8 using the formula pH = 0.5(pKa - log C).",
-    "answer": {
-      "type": "text",
-      "content": "pH = 0.5(pKa - log C)\n= 0.5(4.8 - log 0.2)\n= 0.5(4.8 + 0.699) = 0.5 × 5.499 ≈ 2.75"
-    },
-    "explanation": "Given: ***pH = 0.5(pKa - log C)***.\nSubstitute values: ***pKa = 4.8***, ***C = 0.2 M***.\nlog(0.2) ≈ -0.699, so: 4.8 - (-0.699) = ***4.8 + 0.699 = 5.499***.\nThen, pH = ***0.5 × 5.499 ≈ 2.75***.\nFinal answer: ```pH ≈ 2.75```."
-  },
-  {
-    "title": "Buffer Capacity Concept",
-    "ques": "A buffer is made using 0.3 M acetic acid and 0.3 M sodium acetate. If a few drops of HCl are added, will the pH significantly change? Explain why.",
-    "answer": {
-      "type": "text",
-      "content": "No, the pH will not significantly change.\nThe buffer resists pH change by neutralizing added acid with acetate ions."
-    },
-    "explanation": "A ***buffer solution*** consists of a ***weak acid and its conjugate base***.\nHere: ***acetic acid (weak acid) + sodium acetate (conjugate base)***.\nWhen HCl is added, ***acetate ions (CH₃COO⁻) neutralize the extra H⁺***.\nThus, the pH remains nearly constant.\nAnswer: ```pH does not significantly change```."
-  },
-  {
-    "title": "TLC vs HPLC",
-    "ques": "Compare Thin Layer Chromatography (TLC) and High-Performance Liquid Chromatography (HPLC) in terms of resolution and sensitivity.",
-    "answer": {
-      "type": "text",
-      "content": "TLC has lower resolution and sensitivity.\nHPLC provides higher resolution, sensitivity, and quantitative results."
-    },
-    "explanation": "***TLC is simple and quick***, but it is ***less sensitive*** and offers only qualitative data.\n***HPLC is more advanced***, offering ***high resolution***, ***greater sensitivity***, and ***quantitative analysis***.\nTherefore, HPLC is preferred for detailed separation and measurement.\nFinal answer: ```HPLC > TLC in resolution and sensitivity```."
-  },
-  {
-    "title": "Percentage Yield in Reaction",
-    "ques": "In a reaction, 5.00 g of ethene (C₂H₄) reacts with excess oxygen to produce 12.0 g of CO₂. Calculate the percentage yield. (Molar mass of C₂H₄ = 28 g/mol, CO₂ = 44 g/mol)",
-    "answer": {
-      "type": "text",
-      "content": "Moles of C₂H₄ = 5.00 / 28 = 0.179 mol\nFrom equation: 1 mol C₂H₄ → 2 mol CO₂\nTheoretical moles CO₂ = 0.179 × 2 = 0.358 mol\nMass CO₂ = 0.358 × 44 = 15.75 g\n% yield = (12.0 / 15.75) × 100 ≈ 76.2%"
-    },
-    "explanation": "***Moles of C₂H₄ = 5.00 g / 28 g/mol = 0.179 mol***.\nBalanced equation: ***C₂H₄ + 3O₂ → 2CO₂ + 2H₂O***, so 1 mol C₂H₄ gives ***2 mol CO₂***.\nTheoretical moles CO₂ = ***0.179 × 2 = 0.358 mol***.\nMass of CO₂ = ***0.358 × 44 = 15.75 g***.\n% yield = ***12.0 / 15.75 × 100 ≈ 76.2%***.\nAnswer: ```76.2%```."
-  },
-  {
-    "title": "pH After Dilution",
-    "ques": "What is the pH of a 0.01 M HCl solution after it is diluted 10 times?",
-    "answer": {
-      "type": "text",
-      "content": "Original [H⁺] = 0.01 M → pH = 2\nAfter 10× dilution: [H⁺] = 0.001 M → pH = 3"
-    },
-    "explanation": "HCl is a ***strong acid***, so [H⁺] = given concentration.\nInitial concentration: ***0.01 M → pH = -log(0.01) = 2***.\nAfter 10× dilution: ***0.01 / 10 = 0.001 M → pH = -log(0.001) = 3***.\nAnswer: ```pH = 3```."
-  },
-  {
-    "title": "Rf Value in Chromatography",
-    "ques": "A pigment travels 2.5 cm from the baseline while the solvent front moves 5.0 cm in a chromatography experiment. Calculate the Rf value.",
-    "answer": {
-      "type": "text",
-      "content": "Rf = Distance traveled by substance / Distance traveled by solvent\nRf = 2.5 / 5.0 = 0.5"
-    },
-    "explanation": "***Rf (Retention factor) = Distance moved by compound ÷ Distance moved by solvent front***.\nGiven: compound = ***2.5 cm***, solvent = ***5.0 cm***.\nRf = ***2.5 / 5.0 = 0.5***.\nAnswer: ```0.5```."
-  },
-  {
-    "title": "Absorbance and Concentration Relationship",
-    "ques": "In UV spectroscopy, the absorbance of a dye solution doubles when its concentration is doubled. What law does this observation support?",
-    "answer": {
-      "type": "text",
-      "content": "This supports Beer-Lambert Law, which states that absorbance is directly proportional to concentration."
-    },
-    "explanation": "***Beer-Lambert Law: A = εcl***.\nIf ***c (concentration) doubles*** and ***ε, l remain constant***, then ***A (absorbance) also doubles***.\nThe direct proportionality between absorbance and concentration confirms the Beer-Lambert Law.\nAnswer: ```Beer-Lambert Law```."
-  },
-  {
-    "title": "Mole Ratio in a Reaction",
-    "ques": "In the reaction N₂ + 3H₂ → 2NH₃, how many moles of hydrogen are needed to react with 4 moles of nitrogen?",
-    "answer": {
-      "type": "text",
-      "content": "From the balanced equation: 1 mol N₂ : 3 mol H₂\nSo, 4 mol N₂ × 3 = 12 mol H₂ needed"
-    },
-    "explanation": "***Balanced equation: N₂ + 3H₂ → 2NH₃***.\nThis gives the molar ratio: ***1 mol N₂ : 3 mol H₂***.\nSo for ***4 mol N₂***, you need: ***4 × 3 = 12 mol H₂***.\nAnswer: ```12 mol```."
-  },
-  {
-    "title": "Limiting Reagent Identification",
-    "ques": "When 2.0 mol of Al reacts with 3.0 mol of Cl₂ in the reaction 2Al + 3Cl₂ → 2AlCl₃, which reactant is the limiting reagent?",
-    "answer": {
-      "type": "text",
-      "content": "Mole ratio: 2 mol Al reacts with 3 mol Cl₂\nCheck proportion:\n2 mol Al needs 3 mol Cl₂ → exactly matched\nTherefore, no excess → both are limiting together"
-    },
-    "explanation": "***Balanced equation: 2Al + 3Cl₂ → 2AlCl₃***.\nGiven: ***2 mol Al and 3 mol Cl₂***.\nFrom the ratio: ***2 mol Al requires 3 mol Cl₂*** → it's a ***stoichiometric mix***.\nSo, ***both reactants are completely used up with none in excess***.\nAnswer: ```Neither is in excess; both limit the reaction equally```."
-  },
-  {
-    "title": "Titration Calculation with Diprotic Acid",
-    "ques": "How many moles of NaOH are required to neutralize 25.0 mL of 0.1 M H₂SO₄ completely?",
-    "answer": {
-      "type": "text",
-      "content": "H₂SO₄ is diprotic: 1 mol H₂SO₄ → 2 mol NaOH\nMoles of H₂SO₄ = 0.025 × 0.1 = 0.0025 mol\nMoles NaOH = 0.0025 × 2 = 0.005 mol"
-    },
-    "explanation": "***H₂SO₄ is a diprotic acid*** → each mole donates ***2 moles of H⁺***.\nMoles of H₂SO₄ = ***0.025 L × 0.1 M = 0.0025 mol***.\nEach mole needs ***2 mol NaOH*** → 0.0025 × 2 = ***0.005 mol NaOH***.\nAnswer: ```0.005 mol```."
-  },
-  {
-    "title": "Calculating pH of a Weak Base",
-    "ques": "Calculate the pH of a 0.05 M NH₃ solution. Kb for NH₃ = 1.8 × 10⁻⁵.",
-    "answer": {
-      "type": "text",
-      "content": "[OH⁻] = √(Kb × C) = √(1.8×10⁻⁵ × 0.05) ≈ 9.49×10⁻⁴\npOH = -log(9.49×10⁻⁴) ≈ 3.02 → pH = 14 - 3.02 = 10.98"
-    },
-    "explanation": "***NH₃ is a weak base***, so use: ***[OH⁻] = √(Kb × C)***.\n= √(1.8×10⁻⁵ × 0.05) = √(9×10⁻⁷) ≈ ***9.49×10⁻⁴***.\nThen, ***pOH = -log(9.49×10⁻⁴) ≈ 3.02***.\npH = ***14 - 3.02 = 10.98***.\nAnswer: ```pH ≈ 10.98```."
-  },
-  {
-    "title": "Chromatogram Peak Interpretation",
-    "ques": "In a gas chromatogram, compound X elutes at 3.2 minutes and compound Y at 5.8 minutes. Which compound has stronger interactions with the stationary phase?",
-    "answer": {
-      "type": "text",
-      "content": "Compound Y, because it elutes later, indicating stronger retention by the stationary phase."
-    },
-    "explanation": "***Retention time*** is the time a compound takes to pass through the chromatographic system.\n***Longer retention time = stronger interaction with the stationary phase***.\nCompound Y has ***higher retention time (5.8 min)*** than X (3.2 min), so it interacts more strongly.\nAnswer: ```Compound Y```."
-  },
-  {
-    "title": "Interpreting IR Spectra",
-    "ques": "A compound shows a strong absorption around 1700 cm⁻¹ in its IR spectrum. Which functional group is likely present?",
-    "answer": {
-      "type": "text",
-      "content": "The absorption at 1700 cm⁻¹ is characteristic of a carbonyl (C=O) functional group."
-    },
-    "explanation": "***Infrared (IR) absorption around 1700 cm⁻¹*** is typically due to ***C=O stretching***.\nThis band is ***strong and sharp*** and found in aldehydes, ketones, acids, and esters.\nSo, a strong band near 1700 cm⁻¹ suggests a ***carbonyl group***.\nAnswer: ```C=O functional group```."
-  }
+    {
+        "title": "Stoichiometry Problem ⚗️",
+        "ques": "For: 2H₂ + O₂ → 2H₂O\n\n1. How many moles of H₂O from 4 mol H₂?\n2. How many grams of O₂ needed for 36g H₂O?\n3. Limiting reagent if 3 mol H₂ and 2 mol O₂?",
+        "answer": {
+            "type": "text",
+            "content": "**1.** 2:2 ratio → 4 mol H₂ produces **4 mol H₂O**\n\n**2.** 36g H₂O = 2 mol\n1 mol O₂ → 2 mol H₂O\nSo need 1 mol O₂ = **32 g**\n\n**3.** 3 mol H₂ needs 1.5 mol O₂\nHave 2 mol O₂ → **H₂ is limiting reagent**"
+        },
+        "explanation": "**Stoichiometry** uses mole ratios from balanced equations. The limiting reagent is completely consumed first."
+    }
 ]

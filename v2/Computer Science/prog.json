@@ -1,0 +1,6620 @@
+[
+    {
+        "q": "What is a variable in programming?",
+        "type": "mcq",
+        "o": [
+            "A named storage location for data",
+            "A type of function",
+            "A loop structure",
+            "A programming language"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a primitive data type?",
+        "type": "mcq",
+        "o": [
+            "Array",
+            "Integer",
+            "Float",
+            "Boolean"
+        ]
+    },
+    {
+        "q": "A variable must be declared before it can be used.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 5\ny = 3\nprint(x + y)",
+        "o": [
+            "8",
+            "53",
+            "5 + 3",
+            "Error"
+        ]
+    },
+    {
+        "q": "A _____ stores a sequence of characters.",
+        "type": "fill_blank",
+        "answers": [
+            "string"
+        ],
+        "other_options": [
+            "integer",
+            "boolean",
+            "float"
+        ]
+    },
+    {
+        "q": "Match the data type with its example:",
+        "type": "match",
+        "left": [
+            "Integer",
+            "Float",
+            "String",
+            "Boolean"
+        ],
+        "right": [
+            "42",
+            "3.14",
+            "Hello",
+            "True"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "name = 'Python'\nprint(len(name))",
+        "o": [
+            "6",
+            "5",
+            "Python",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange the steps to declare and initialize a variable:",
+        "type": "rearrange",
+        "words": [
+            "Choose data type",
+            "Choose variable name",
+            "Assign value",
+            "Use variable"
+        ]
+    },
+    {
+        "q": "Python is a dynamically typed language.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 10\nx = x + 5\nprint(x)",
+        "o": [
+            "15",
+            "10",
+            "5",
+            "Error"
+        ]
+    },
+    {
+        "q": "Which operator is used for integer division in Python?",
+        "type": "mcq",
+        "o": [
+            "//",
+            "/",
+            "%",
+            "**"
+        ]
+    },
+    {
+        "q": "The modulo operator returns the _____ of division.",
+        "type": "fill_blank",
+        "answers": [
+            "remainder"
+        ],
+        "other_options": [
+            "quotient",
+            "product",
+            "sum"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "print(17 % 5)",
+        "o": [
+            "2",
+            "3",
+            "17",
+            "5"
+        ]
+    },
+    {
+        "q": "Match the operator with its operation:",
+        "type": "match",
+        "left": [
+            "+",
+            "-",
+            "*",
+            "/"
+        ],
+        "right": [
+            "Addition",
+            "Subtraction",
+            "Multiplication",
+            "Division"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "print(2 ** 3)",
+        "o": [
+            "8",
+            "6",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "q": "In Python, strings are immutable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "s = 'Hello'\nprint(s[0])",
+        "o": [
+            "H",
+            "e",
+            "Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "String indexing in Python starts at _____.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "-1",
+            "2"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "s = 'Python'\nprint(s[-1])",
+        "o": [
+            "n",
+            "P",
+            "o",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid string concatenation:",
+        "type": "rearrange",
+        "words": [
+            "first =",
+            "'Hello'",
+            "+",
+            "'World'"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "print('Hello' + ' ' + 'World')",
+        "o": [
+            "Hello World",
+            "HelloWorld",
+            "Hello+World",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the string method with its purpose:",
+        "type": "match",
+        "left": [
+            "upper()",
+            "lower()",
+            "strip()",
+            "split()"
+        ],
+        "right": [
+            "Convert to uppercase",
+            "Convert to lowercase",
+            "Remove whitespace",
+            "Split into list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "s = 'hello'\nprint(s.upper())",
+        "o": [
+            "HELLO",
+            "hello",
+            "Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "Lists in Python can contain elements of different types.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "lst = [1, 2, 3]\nprint(len(lst))",
+        "o": [
+            "3",
+            "2",
+            "6",
+            "1"
+        ]
+    },
+    {
+        "q": "A _____ is an ordered, mutable collection in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "list"
+        ],
+        "other_options": [
+            "tuple",
+            "set",
+            "dictionary"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "lst = [1, 2, 3]\nlst.append(4)\nprint(lst)",
+        "o": [
+            "[1, 2, 3, 4]",
+            "[4, 1, 2, 3]",
+            "[1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Tuples are immutable in Python.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the collection type with its property:",
+        "type": "match",
+        "left": [
+            "List",
+            "Tuple",
+            "Set",
+            "Dictionary"
+        ],
+        "right": [
+            "Mutable ordered",
+            "Immutable ordered",
+            "Unordered unique",
+            "Key-value pairs"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "d = {'a': 1, 'b': 2}\nprint(d['a'])",
+        "o": [
+            "1",
+            "a",
+            "{'a': 1}",
+            "Error"
+        ]
+    },
+    {
+        "q": "Dictionaries store data in _____ pairs.",
+        "type": "fill_blank",
+        "answers": [
+            "key-value"
+        ],
+        "other_options": [
+            "index-value",
+            "name-type",
+            "list-tuple"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "s = {1, 2, 2, 3}\nprint(len(s))",
+        "o": [
+            "3",
+            "4",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Sets cannot contain duplicate elements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to correctly define a dictionary:",
+        "type": "rearrange",
+        "words": [
+            "d =",
+            "{",
+            "'key': 'value'",
+            "}"
+        ]
+    },
+    {
+        "q": "What is the purpose of an if statement?",
+        "type": "mcq",
+        "o": [
+            "To execute code conditionally",
+            "To define a function",
+            "To create a loop",
+            "To import a module"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 5\nif x > 3:\n    print('Big')\nelse:\n    print('Small')",
+        "o": [
+            "Big",
+            "Small",
+            "5",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ keyword is used for alternative conditions in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "elif"
+        ],
+        "other_options": [
+            "else if",
+            "elseif",
+            "otherwise"
+        ]
+    },
+    {
+        "q": "Match the comparison operator with its meaning:",
+        "type": "match",
+        "left": [
+            "==",
+            "!=",
+            ">",
+            "<"
+        ],
+        "right": [
+            "Equal to",
+            "Not equal to",
+            "Greater than",
+            "Less than"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 10\nif x > 5 and x < 15:\n    print('Yes')\nelse:\n    print('No')",
+        "o": [
+            "Yes",
+            "No",
+            "10",
+            "Error"
+        ]
+    },
+    {
+        "q": "The 'and' operator returns True only if both operands are True.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 3\nif x > 5 or x < 4:\n    print('Yes')\nelse:\n    print('No')",
+        "o": [
+            "Yes",
+            "No",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ operator inverts a boolean value.",
+        "type": "fill_blank",
+        "answers": [
+            "not"
+        ],
+        "other_options": [
+            "and",
+            "or",
+            "xor"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid if-else structure:",
+        "type": "rearrange",
+        "words": [
+            "if condition:",
+            "    action1",
+            "else:",
+            "    action2"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "for i in range(3):\n    print(i)",
+        "o": [
+            "0 1 2",
+            "1 2 3",
+            "0 1 2 3",
+            "Error"
+        ]
+    },
+    {
+        "q": "A for loop iterates over a sequence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "for i in range(1, 4):\n    print(i)",
+        "o": [
+            "1 2 3",
+            "1 2 3 4",
+            "0 1 2 3",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the loop type with its use case:",
+        "type": "match",
+        "left": [
+            "for loop",
+            "while loop",
+            "nested loop",
+            "infinite loop"
+        ],
+        "right": [
+            "Known iterations",
+            "Unknown iterations",
+            "Multi-dimensional",
+            "Runs forever"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "i = 0\nwhile i < 3:\n    print(i)\n    i += 1",
+        "o": [
+            "0 1 2",
+            "1 2 3",
+            "0 1 2 3",
+            "Infinite loop"
+        ]
+    },
+    {
+        "q": "The _____ statement exits a loop early.",
+        "type": "fill_blank",
+        "answers": [
+            "break"
+        ],
+        "other_options": [
+            "continue",
+            "pass",
+            "return"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "for i in range(5):\n    if i == 3:\n        break\n    print(i)",
+        "o": [
+            "0 1 2",
+            "0 1 2 3",
+            "0 1 2 3 4",
+            "3"
+        ]
+    },
+    {
+        "q": "The continue statement skips the current iteration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "for i in range(5):\n    if i == 2:\n        continue\n    print(i)",
+        "o": [
+            "0 1 3 4",
+            "0 1 2 3 4",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid while loop:",
+        "type": "rearrange",
+        "words": [
+            "while condition:",
+            "    action",
+            "    update",
+            "end loop"
+        ]
+    },
+    {
+        "q": "What is a function in programming?",
+        "type": "mcq",
+        "o": [
+            "A reusable block of code",
+            "A type of variable",
+            "A loop structure",
+            "A data type"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def greet():\n    return 'Hello'\n\nprint(greet())",
+        "o": [
+            "Hello",
+            "greet",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ keyword is used to define a function in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "def"
+        ],
+        "other_options": [
+            "function",
+            "func",
+            "define"
+        ]
+    },
+    {
+        "q": "Functions can take parameters as input.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def add(a, b):\n    return a + b\n\nprint(add(3, 5))",
+        "o": [
+            "8",
+            "35",
+            "add(3, 5)",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the function concept with its definition:",
+        "type": "match",
+        "left": [
+            "Parameter",
+            "Argument",
+            "Return value",
+            "Function call"
+        ],
+        "right": [
+            "Variable in definition",
+            "Value passed in",
+            "Output of function",
+            "Executing function"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def multiply(x, y=2):\n    return x * y\n\nprint(multiply(5))",
+        "o": [
+            "10",
+            "5",
+            "7",
+            "Error"
+        ]
+    },
+    {
+        "q": "Default parameters have preset values if no argument is provided.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def concat(*args):\n    return ''.join(args)\n\nprint(concat('a', 'b', 'c'))",
+        "o": [
+            "abc",
+            "a b c",
+            "('a', 'b', 'c')",
+            "Error"
+        ]
+    },
+    {
+        "q": "The *args syntax allows a function to accept _____ arguments.",
+        "type": "fill_blank",
+        "answers": [
+            "variable"
+        ],
+        "other_options": [
+            "fixed",
+            "keyword",
+            "named"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid function definition:",
+        "type": "rearrange",
+        "words": [
+            "def",
+            "function_name",
+            "(parameters):",
+            "body"
+        ]
+    },
+    {
+        "q": "What is recursion?",
+        "type": "mcq",
+        "o": [
+            "A function that calls itself",
+            "A loop that runs forever",
+            "A way to define variables",
+            "A type of data structure"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(5))",
+        "o": [
+            "120",
+            "5",
+            "24",
+            "Error"
+        ]
+    },
+    {
+        "q": "Every recursive function needs a _____ case.",
+        "type": "fill_blank",
+        "answers": [
+            "base"
+        ],
+        "other_options": [
+            "loop",
+            "return",
+            "call"
+        ]
+    },
+    {
+        "q": "Recursion can cause stack overflow if too deep.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the recursion concept with its description:",
+        "type": "match",
+        "left": [
+            "Base case",
+            "Recursive call",
+            "Stack frame",
+            "Tail recursion"
+        ],
+        "right": [
+            "Stops recursion",
+            "Function calls itself",
+            "Memory for call",
+            "Last operation is call"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\n\nprint(fib(6))",
+        "o": [
+            "8",
+            "5",
+            "13",
+            "6"
+        ]
+    },
+    {
+        "q": "What is object-oriented programming?",
+        "type": "mcq",
+        "o": [
+            "Programming using objects and classes",
+            "Programming using only functions",
+            "Programming without variables",
+            "Programming in machine code"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Dog:\n    def bark(self):\n        return 'Woof!'\n\nd = Dog()\nprint(d.bark())",
+        "o": [
+            "Woof!",
+            "Dog",
+            "bark",
+            "Error"
+        ]
+    },
+    {
+        "q": "A _____ is a blueprint for creating objects.",
+        "type": "fill_blank",
+        "answers": [
+            "class"
+        ],
+        "other_options": [
+            "function",
+            "module",
+            "variable"
+        ]
+    },
+    {
+        "q": "Classes can have attributes and methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the OOP term with its definition:",
+        "type": "match",
+        "left": [
+            "Class",
+            "Object",
+            "Method",
+            "Attribute"
+        ],
+        "right": [
+            "Blueprint",
+            "Instance",
+            "Function in class",
+            "Variable in class"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Person:\n    def __init__(self, name):\n        self.name = name\n\np = Person('Alice')\nprint(p.name)",
+        "o": [
+            "Alice",
+            "Person",
+            "name",
+            "Error"
+        ]
+    },
+    {
+        "q": "The __init__ method is called a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "constructor"
+        ],
+        "other_options": [
+            "destructor",
+            "initializer",
+            "creator"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid class definition:",
+        "type": "rearrange",
+        "words": [
+            "class ClassName:",
+            "    def __init__(self):",
+            "        self.attribute = value",
+            "    def method(self):"
+        ]
+    },
+    {
+        "q": "What is inheritance in OOP?",
+        "type": "mcq",
+        "o": [
+            "A class deriving properties from another class",
+            "Creating multiple objects",
+            "Hiding implementation details",
+            "Overloading operators"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Animal:\n    def speak(self):\n        return 'Sound'\n\nclass Cat(Animal):\n    def speak(self):\n        return 'Meow'\n\nc = Cat()\nprint(c.speak())",
+        "o": [
+            "Meow",
+            "Sound",
+            "Cat",
+            "Error"
+        ]
+    },
+    {
+        "q": "Method overriding allows a child class to provide a different implementation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the OOP principle with its description:",
+        "type": "match",
+        "left": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "right": [
+            "Bundling data and methods",
+            "Deriving from parent",
+            "Many forms",
+            "Hiding complexity"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Parent:\n    def greet(self):\n        return 'Hello'\n\nclass Child(Parent):\n    pass\n\nc = Child()\nprint(c.greet())",
+        "o": [
+            "Hello",
+            "Child",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ keyword accesses the parent class.",
+        "type": "fill_blank",
+        "answers": [
+            "super"
+        ],
+        "other_options": [
+            "parent",
+            "base",
+            "this"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class A:\n    def __init__(self):\n        self.x = 10\n\nclass B(A):\n    def __init__(self):\n        super().__init__()\n        self.y = 20\n\nb = B()\nprint(b.x + b.y)",
+        "o": [
+            "30",
+            "10",
+            "20",
+            "Error"
+        ]
+    },
+    {
+        "q": "Encapsulation hides the internal state of an object.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Counter:\n    count = 0\n    def __init__(self):\n        Counter.count += 1\n\na = Counter()\nb = Counter()\nprint(Counter.count)",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "A _____ variable is shared among all instances of a class.",
+        "type": "fill_blank",
+        "answers": [
+            "class"
+        ],
+        "other_options": [
+            "instance",
+            "static",
+            "global"
+        ]
+    },
+    {
+        "q": "Rearrange the OOP concepts in order of increasing complexity:",
+        "type": "rearrange",
+        "words": [
+            "Classes",
+            "Objects",
+            "Inheritance",
+            "Polymorphism"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Math:\n    @staticmethod\n    def add(a, b):\n        return a + b\n\nprint(Math.add(3, 4))",
+        "o": [
+            "7",
+            "34",
+            "Math.add(3, 4)",
+            "Error"
+        ]
+    },
+    {
+        "q": "Static methods do not require an instance to be called.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the method type with its decorator:",
+        "type": "match",
+        "left": [
+            "Instance method",
+            "Class method",
+            "Static method",
+            "Property"
+        ],
+        "right": [
+            "No decorator",
+            "@classmethod",
+            "@staticmethod",
+            "@property"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')",
+        "o": [
+            "Cannot divide by zero",
+            "Error",
+            "0",
+            "None"
+        ]
+    },
+    {
+        "q": "Exception handling prevents program crashes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ block contains code that might raise an exception.",
+        "type": "fill_blank",
+        "answers": [
+            "try"
+        ],
+        "other_options": [
+            "except",
+            "finally",
+            "raise"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "try:\n    x = int('hello')\nexcept ValueError:\n    print('Invalid')",
+        "o": [
+            "Invalid",
+            "hello",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Match the exception with its cause:",
+        "type": "match",
+        "left": [
+            "ValueError",
+            "TypeError",
+            "KeyError",
+            "IndexError"
+        ],
+        "right": [
+            "Invalid value",
+            "Wrong type",
+            "Missing key",
+            "Out of bounds"
+        ]
+    },
+    {
+        "q": "The finally block always executes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "try:\n    x = 10\nfinally:\n    print('Done')",
+        "o": [
+            "Done",
+            "10",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "The _____ keyword raises an exception manually.",
+        "type": "fill_blank",
+        "answers": [
+            "raise"
+        ],
+        "other_options": [
+            "throw",
+            "error",
+            "except"
+        ]
+    },
+    {
+        "q": "Rearrange the exception handling structure:",
+        "type": "rearrange",
+        "words": [
+            "try:",
+            "    risky_code",
+            "except Exception:",
+            "    handle_error"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def divide(a, b):\n    if b == 0:\n        raise ValueError('Cannot divide by zero')\n    return a / b\n\ntry:\n    print(divide(10, 2))\nexcept ValueError:\n    print('Error')",
+        "o": [
+            "5.0",
+            "Error",
+            "5",
+            "None"
+        ]
+    },
+    {
+        "q": "Custom exceptions can be created by inheriting from Exception.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "numbers = [1, 2, 3, 4, 5]\nprint(numbers[1:4])",
+        "o": [
+            "[2, 3, 4]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]",
+            "[2, 3, 4, 5]"
+        ]
+    },
+    {
+        "q": "List slicing uses the format [start:stop:step].",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "numbers = [1, 2, 3, 4, 5]\nprint(numbers[::2])",
+        "o": [
+            "[1, 3, 5]",
+            "[2, 4]",
+            "[1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ step value reverses a list when set to -1.",
+        "type": "fill_blank",
+        "answers": [
+            "step"
+        ],
+        "other_options": [
+            "start",
+            "stop",
+            "index"
+        ]
+    },
+    {
+        "q": "Match the slice with its result for [1,2,3,4,5]:",
+        "type": "match",
+        "left": [
+            "[1:]",
+            "[:-1]",
+            "[:3]",
+            "[1:4]"
+        ],
+        "right": [
+            "[2,3,4,5]",
+            "[1,2,3,4]",
+            "[1,2,3]",
+            "[2,3,4]"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "s = 'Hello World'\nprint(s[::-1])",
+        "o": [
+            "dlroW olleH",
+            "Hello World",
+            "World Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a list comprehension?",
+        "type": "mcq",
+        "o": [
+            "A concise way to create lists",
+            "A type of loop",
+            "A sorting algorithm",
+            "A data type"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "squares = [x**2 for x in range(5)]\nprint(squares)",
+        "o": [
+            "[0, 1, 4, 9, 16]",
+            "[1, 4, 9, 16, 25]",
+            "[0, 1, 2, 3, 4]",
+            "Error"
+        ]
+    },
+    {
+        "q": "List comprehensions can include conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "evens = [x for x in range(10) if x % 2 == 0]\nprint(evens)",
+        "o": [
+            "[0, 2, 4, 6, 8]",
+            "[2, 4, 6, 8, 10]",
+            "[1, 3, 5, 7, 9]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to form a valid list comprehension:",
+        "type": "rearrange",
+        "words": [
+            "[",
+            "expression",
+            "for item in iterable",
+            "]"
+        ]
+    },
+    {
+        "q": "Match the comprehension type with its syntax:",
+        "type": "match",
+        "left": [
+            "List",
+            "Set",
+            "Dict",
+            "Generator"
+        ],
+        "right": [
+            "[expr for x in iter]",
+            "{expr for x in iter}",
+            "{k:v for x in iter}",
+            "(expr for x in iter)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "d = {x: x**2 for x in range(3)}\nprint(d)",
+        "o": [
+            "{0: 0, 1: 1, 2: 4}",
+            "{1: 1, 2: 4, 3: 9}",
+            "[0, 1, 4]",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a lambda function?",
+        "type": "mcq",
+        "o": [
+            "An anonymous function",
+            "A named function",
+            "A loop construct",
+            "A class method"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "f = lambda x: x * 2\nprint(f(5))",
+        "o": [
+            "10",
+            "5",
+            "25",
+            "Error"
+        ]
+    },
+    {
+        "q": "Lambda functions can only contain a single expression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ keyword defines an anonymous function.",
+        "type": "fill_blank",
+        "answers": [
+            "lambda"
+        ],
+        "other_options": [
+            "def",
+            "func",
+            "anonymous"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "add = lambda a, b: a + b\nprint(add(3, 4))",
+        "o": [
+            "7",
+            "34",
+            "12",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the function with its purpose:",
+        "type": "match",
+        "left": [
+            "map()",
+            "filter()",
+            "reduce()",
+            "sorted()"
+        ],
+        "right": [
+            "Apply to all",
+            "Keep matching",
+            "Combine to one",
+            "Return sorted"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "numbers = [1, 2, 3, 4]\nresult = list(map(lambda x: x**2, numbers))\nprint(result)",
+        "o": [
+            "[1, 4, 9, 16]",
+            "[2, 4, 6, 8]",
+            "[1, 2, 3, 4]",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "numbers = [1, 2, 3, 4, 5, 6]\nresult = list(filter(lambda x: x % 2 == 0, numbers))\nprint(result)",
+        "o": [
+            "[2, 4, 6]",
+            "[1, 3, 5]",
+            "[1, 2, 3, 4, 5, 6]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to use map with a lambda:",
+        "type": "rearrange",
+        "words": [
+            "map(",
+            "lambda x: x*2,",
+            "numbers",
+            ")"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import reduce\nresult = reduce(lambda a, b: a + b, [1, 2, 3, 4])\nprint(result)",
+        "o": [
+            "10",
+            "[1, 2, 3, 4]",
+            "24",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a generator in Python?",
+        "type": "mcq",
+        "o": [
+            "A function that yields values lazily",
+            "A type of list",
+            "A loop construct",
+            "A class attribute"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def gen():\n    yield 1\n    yield 2\n    yield 3\n\ng = gen()\nprint(next(g))",
+        "o": [
+            "1",
+            "[1, 2, 3]",
+            "gen",
+            "Error"
+        ]
+    },
+    {
+        "q": "Generators use the _____ keyword instead of return.",
+        "type": "fill_blank",
+        "answers": [
+            "yield"
+        ],
+        "other_options": [
+            "return",
+            "give",
+            "produce"
+        ]
+    },
+    {
+        "q": "Generators are memory-efficient for large data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the iterator method with its purpose:",
+        "type": "match",
+        "left": [
+            "__iter__()",
+            "__next__()",
+            "yield",
+            "StopIteration"
+        ],
+        "right": [
+            "Return iterator",
+            "Get next item",
+            "Pause and return",
+            "Signal end"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "gen = (x**2 for x in range(3))\nprint(list(gen))",
+        "o": [
+            "[0, 1, 4]",
+            "[1, 4, 9]",
+            "(0, 1, 4)",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a decorator in Python?",
+        "type": "mcq",
+        "o": [
+            "A function that modifies another function",
+            "A type of class",
+            "A loop structure",
+            "A variable type"
+        ]
+    },
+    {
+        "q": "The _____ symbol is used to apply a decorator.",
+        "type": "fill_blank",
+        "answers": [
+            "@"
+        ],
+        "other_options": [
+            "#",
+            "$",
+            "&"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def uppercase(func):\n    def wrapper():\n        return func().upper()\n    return wrapper\n\n@uppercase\ndef greet():\n    return 'hello'\n\nprint(greet())",
+        "o": [
+            "HELLO",
+            "hello",
+            "Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "Decorators can take arguments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to define a simple decorator:",
+        "type": "rearrange",
+        "words": [
+            "def decorator(func):",
+            "    def wrapper():",
+            "        return func()",
+            "    return wrapper"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def timer(func):\n    def wrapper(*args):\n        result = func(*args)\n        return result\n    return wrapper\n\n@timer\ndef add(a, b):\n    return a + b\n\nprint(add(2, 3))",
+        "o": [
+            "5",
+            "23",
+            "add",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the decorator use with its purpose:",
+        "type": "match",
+        "left": [
+            "@property",
+            "@staticmethod",
+            "@classmethod",
+            "@abstractmethod"
+        ],
+        "right": [
+            "Getter method",
+            "No self needed",
+            "Class as first arg",
+            "Must override"
+        ]
+    },
+    {
+        "q": "What is scope in programming?",
+        "type": "mcq",
+        "o": [
+            "Where a variable is accessible",
+            "A type of function",
+            "A loop structure",
+            "A data type"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 10\ndef foo():\n    x = 20\n    print(x)\n\nfoo()\nprint(x)",
+        "o": [
+            "20 10",
+            "10 10",
+            "20 20",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ keyword accesses a global variable inside a function.",
+        "type": "fill_blank",
+        "answers": [
+            "global"
+        ],
+        "other_options": [
+            "local",
+            "outer",
+            "nonlocal"
+        ]
+    },
+    {
+        "q": "Local variables have higher priority than global variables.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the scope type with its location:",
+        "type": "match",
+        "left": [
+            "Local",
+            "Enclosing",
+            "Global",
+            "Built-in"
+        ],
+        "right": [
+            "Inside function",
+            "Outer function",
+            "Module level",
+            "Python internals"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 5\ndef outer():\n    x = 10\n    def inner():\n        nonlocal x\n        x = 15\n    inner()\n    return x\n\nprint(outer())",
+        "o": [
+            "15",
+            "10",
+            "5",
+            "Error"
+        ]
+    },
+    {
+        "q": "The nonlocal keyword is used in nested functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the LEGB rule order:",
+        "type": "rearrange",
+        "words": [
+            "Local",
+            "Enclosing",
+            "Global",
+            "Built-in"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def outer():\n    x = 10\n    def inner():\n        return x\n    return inner\n\nclosure = outer()\nprint(closure())",
+        "o": [
+            "10",
+            "outer",
+            "inner",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a closure?",
+        "type": "mcq",
+        "o": [
+            "A function that remembers its enclosing scope",
+            "A way to close files",
+            "A type of class",
+            "A loop structure"
+        ]
+    },
+    {
+        "q": "Closures can access variables from their enclosing scope.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def make_multiplier(n):\n    def multiplier(x):\n        return x * n\n    return multiplier\n\ndouble = make_multiplier(2)\nprint(double(5))",
+        "o": [
+            "10",
+            "5",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is multiple inheritance?",
+        "type": "mcq",
+        "o": [
+            "A class inheriting from multiple parent classes",
+            "Creating multiple objects",
+            "Inheriting the same class multiple times",
+            "Using multiple methods"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class A:\n    def greet(self):\n        return 'A'\n\nclass B:\n    def greet(self):\n        return 'B'\n\nclass C(A, B):\n    pass\n\nc = C()\nprint(c.greet())",
+        "o": [
+            "A",
+            "B",
+            "C",
+            "Error"
+        ]
+    },
+    {
+        "q": "The MRO determines the order of method resolution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "MRO stands for Method _____ Order.",
+        "type": "fill_blank",
+        "answers": [
+            "Resolution"
+        ],
+        "other_options": [
+            "Return",
+            "Reference",
+            "Recursive"
+        ]
+    },
+    {
+        "q": "Match the OOP concept with its description:",
+        "type": "match",
+        "left": [
+            "Single inheritance",
+            "Multiple inheritance",
+            "Multilevel",
+            "Hierarchical"
+        ],
+        "right": [
+            "One parent",
+            "Many parents",
+            "Chain of classes",
+            "Many children"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Animal:\n    def __init__(self, name):\n        self.name = name\n\nclass Dog(Animal):\n    def __init__(self, name, breed):\n        super().__init__(name)\n        self.breed = breed\n\nd = Dog('Max', 'Labrador')\nprint(d.name)",
+        "o": [
+            "Max",
+            "Labrador",
+            "Dog",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is polymorphism?",
+        "type": "mcq",
+        "o": [
+            "Objects of different types responding to the same interface",
+            "Creating multiple classes",
+            "Hiding data",
+            "Using static methods"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Shape:\n    def area(self):\n        pass\n\nclass Circle(Shape):\n    def __init__(self, r):\n        self.r = r\n    def area(self):\n        return 3.14 * self.r * self.r\n\nc = Circle(2)\nprint(c.area())",
+        "o": [
+            "12.56",
+            "6.28",
+            "3.14",
+            "Error"
+        ]
+    },
+    {
+        "q": "Duck typing is a form of polymorphism.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to demonstrate polymorphism:",
+        "type": "rearrange",
+        "words": [
+            "Define base method",
+            "Override in child",
+            "Call same method",
+            "Different behavior"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Bird:\n    def fly(self):\n        return 'Flying'\n\nclass Penguin(Bird):\n    def fly(self):\n        return 'Cannot fly'\n\np = Penguin()\nprint(p.fly())",
+        "o": [
+            "Cannot fly",
+            "Flying",
+            "Penguin",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is abstraction in OOP?",
+        "type": "mcq",
+        "o": [
+            "Hiding implementation details",
+            "Creating objects",
+            "Inheriting from classes",
+            "Defining variables"
+        ]
+    },
+    {
+        "q": "Abstract classes cannot be instantiated directly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ module provides abstract base classes.",
+        "type": "fill_blank",
+        "answers": [
+            "abc"
+        ],
+        "other_options": [
+            "abstract",
+            "base",
+            "class"
+        ]
+    },
+    {
+        "q": "Match the abstraction concept with its use:",
+        "type": "match",
+        "left": [
+            "ABC",
+            "@abstractmethod",
+            "Interface",
+            "Contract"
+        ],
+        "right": [
+            "Abstract base",
+            "Must implement",
+            "Define methods",
+            "Promise behavior"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from abc import ABC, abstractmethod\n\nclass Vehicle(ABC):\n    @abstractmethod\n    def start(self):\n        pass\n\nclass Car(Vehicle):\n    def start(self):\n        return 'Engine started'\n\nc = Car()\nprint(c.start())",
+        "o": [
+            "Engine started",
+            "Vehicle",
+            "Car",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is encapsulation?",
+        "type": "mcq",
+        "o": [
+            "Bundling data and methods together",
+            "Creating multiple instances",
+            "Inheriting properties",
+            "Using global variables"
+        ]
+    },
+    {
+        "q": "Private attributes in Python start with double underscores.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Account:\n    def __init__(self):\n        self.__balance = 100\n    def get_balance(self):\n        return self.__balance\n\na = Account()\nprint(a.get_balance())",
+        "o": [
+            "100",
+            "__balance",
+            "Account",
+            "Error"
+        ]
+    },
+    {
+        "q": "Name mangling adds _ClassName prefix to private attributes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to create a property:",
+        "type": "rearrange",
+        "words": [
+            "@property",
+            "def value(self):",
+            "    return self._value",
+            "setter method"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Circle:\n    def __init__(self, radius):\n        self._radius = radius\n    \n    @property\n    def radius(self):\n        return self._radius\n\nc = Circle(5)\nprint(c.radius)",
+        "o": [
+            "5",
+            "radius",
+            "Circle",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the access modifier with its convention:",
+        "type": "match",
+        "left": [
+            "Public",
+            "Protected",
+            "Private",
+            "Dunder"
+        ],
+        "right": [
+            "name",
+            "_name",
+            "__name",
+            "__name__"
+        ]
+    },
+    {
+        "q": "What is a module in Python?",
+        "type": "mcq",
+        "o": [
+            "A file containing Python code",
+            "A type of function",
+            "A loop structure",
+            "A data type"
+        ]
+    },
+    {
+        "q": "The _____ keyword imports modules in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "import"
+        ],
+        "other_options": [
+            "include",
+            "require",
+            "use"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import math\nprint(math.sqrt(16))",
+        "o": [
+            "4.0",
+            "16",
+            "4",
+            "Error"
+        ]
+    },
+    {
+        "q": "Modules can be imported with an alias using 'as'.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the import style with its syntax:",
+        "type": "match",
+        "left": [
+            "Full import",
+            "Alias",
+            "Specific",
+            "All"
+        ],
+        "right": [
+            "import module",
+            "import module as m",
+            "from module import func",
+            "from module import *"
+        ]
+    },
+    {
+        "q": "What is a package in Python?",
+        "type": "mcq",
+        "o": [
+            "A directory containing modules",
+            "A single Python file",
+            "A function collection",
+            "A class definition"
+        ]
+    },
+    {
+        "q": "Packages require an __init__.py file.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to create a package structure:",
+        "type": "rearrange",
+        "words": [
+            "Create directory",
+            "Add __init__.py",
+            "Add modules",
+            "Import package"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from math import pi\nprint(round(pi, 2))",
+        "o": [
+            "3.14",
+            "3.141592",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is file handling in Python?",
+        "type": "mcq",
+        "o": [
+            "Reading and writing files",
+            "Creating functions",
+            "Defining classes",
+            "Using loops"
+        ]
+    },
+    {
+        "q": "The _____ function opens a file in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "open"
+        ],
+        "other_options": [
+            "read",
+            "file",
+            "load"
+        ]
+    },
+    {
+        "q": "Match the file mode with its purpose:",
+        "type": "match",
+        "left": [
+            "'r'",
+            "'w'",
+            "'a'",
+            "'b'"
+        ],
+        "right": [
+            "Read",
+            "Write",
+            "Append",
+            "Binary"
+        ]
+    },
+    {
+        "q": "The 'with' statement automatically closes files.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to read a file:",
+        "type": "rearrange",
+        "words": [
+            "with open('file.txt') as f:",
+            "    content = f.read()",
+            "    print(content)",
+            "# file closed"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "with open('test.txt', 'w') as f:\n    f.write('Hello')\nwith open('test.txt', 'r') as f:\n    print(f.read())",
+        "o": [
+            "Hello",
+            "test.txt",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "The readline() method reads one line at a time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "data = ['line1\\n', 'line2\\n']\nwith open('test.txt', 'w') as f:\n    f.writelines(data)\nprint('Done')",
+        "o": [
+            "Done",
+            "line1 line2",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Match the file method with its function:",
+        "type": "match",
+        "left": [
+            "read()",
+            "readline()",
+            "readlines()",
+            "seek()"
+        ],
+        "right": [
+            "Read all",
+            "Read one line",
+            "Read as list",
+            "Move cursor"
+        ]
+    },
+    {
+        "q": "What is JSON?",
+        "type": "mcq",
+        "o": [
+            "JavaScript Object Notation for data exchange",
+            "A programming language",
+            "A database",
+            "A file system"
+        ]
+    },
+    {
+        "q": "The _____ module handles JSON in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "json"
+        ],
+        "other_options": [
+            "pickle",
+            "csv",
+            "xml"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import json\ndata = {'name': 'Alice', 'age': 30}\nprint(json.dumps(data))",
+        "o": [
+            "{\"name\": \"Alice\", \"age\": 30}",
+            "{'name': 'Alice', 'age': 30}",
+            "Alice 30",
+            "Error"
+        ]
+    },
+    {
+        "q": "json.loads() parses a JSON string to Python object.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to parse JSON:",
+        "type": "rearrange",
+        "words": [
+            "import json",
+            "json_string = '...'",
+            "data = json.loads(json_string)",
+            "use data"
+        ]
+    },
+    {
+        "q": "What is regular expression?",
+        "type": "mcq",
+        "o": [
+            "A pattern for matching text",
+            "A type of function",
+            "A data structure",
+            "A loop construct"
+        ]
+    },
+    {
+        "q": "The _____ module provides regex support in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "re"
+        ],
+        "other_options": [
+            "regex",
+            "match",
+            "pattern"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import re\nresult = re.search(r'\\d+', 'abc123def')\nprint(result.group())",
+        "o": [
+            "123",
+            "abc",
+            "def",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the regex pattern with its meaning:",
+        "type": "match",
+        "left": [
+            "\\d",
+            "\\w",
+            "\\s",
+            "."
+        ],
+        "right": [
+            "Digit",
+            "Word char",
+            "Whitespace",
+            "Any char"
+        ]
+    },
+    {
+        "q": "The * quantifier matches zero or more occurrences.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import re\npattern = r'^Hello'\nprint(bool(re.match(pattern, 'Hello World')))",
+        "o": [
+            "True",
+            "False",
+            "Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a context manager?",
+        "type": "mcq",
+        "o": [
+            "An object that manages resource allocation",
+            "A type of variable",
+            "A loop structure",
+            "A data type"
+        ]
+    },
+    {
+        "q": "Context managers implement __enter__ and _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "__exit__"
+        ],
+        "other_options": [
+            "__close__",
+            "__end__",
+            "__finish__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class MyContext:\n    def __enter__(self):\n        print('Enter')\n        return self\n    def __exit__(self, *args):\n        print('Exit')\n\nwith MyContext():\n    print('Inside')",
+        "o": [
+            "Enter Inside Exit",
+            "Inside",
+            "Enter Exit",
+            "Error"
+        ]
+    },
+    {
+        "q": "The contextlib module provides context manager utilities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to create a context manager:",
+        "type": "rearrange",
+        "words": [
+            "Define __enter__",
+            "Define __exit__",
+            "Use with statement",
+            "Cleanup runs"
+        ]
+    },
+    {
+        "q": "What is a named tuple?",
+        "type": "mcq",
+        "o": [
+            "A tuple with named fields",
+            "A regular tuple",
+            "A dictionary",
+            "A list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import namedtuple\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(3, 4)\nprint(p.x)",
+        "o": [
+            "3",
+            "4",
+            "Point",
+            "Error"
+        ]
+    },
+    {
+        "q": "Named tuples are immutable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the collections type with its use:",
+        "type": "match",
+        "left": [
+            "namedtuple",
+            "deque",
+            "Counter",
+            "defaultdict"
+        ],
+        "right": [
+            "Named fields",
+            "Fast append/pop",
+            "Count items",
+            "Default values"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import Counter\nc = Counter('abracadabra')\nprint(c['a'])",
+        "o": [
+            "5",
+            "4",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "What is a dataclass?",
+        "type": "mcq",
+        "o": [
+            "A decorator that auto-generates class methods",
+            "A type of database",
+            "A file format",
+            "A loop structure"
+        ]
+    },
+    {
+        "q": "The _____ decorator creates dataclasses.",
+        "type": "fill_blank",
+        "answers": [
+            "@dataclass"
+        ],
+        "other_options": [
+            "@data",
+            "@class",
+            "@auto"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from dataclasses import dataclass\n\n@dataclass\nclass Point:\n    x: int\n    y: int\n\np = Point(3, 4)\nprint(p)",
+        "o": [
+            "Point(x=3, y=4)",
+            "(3, 4)",
+            "3, 4",
+            "Error"
+        ]
+    },
+    {
+        "q": "Dataclasses auto-generate __init__ and __repr__.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to define a dataclass:",
+        "type": "rearrange",
+        "words": [
+            "from dataclasses import dataclass",
+            "@dataclass",
+            "class Name:",
+            "    field: type"
+        ]
+    },
+    {
+        "q": "What is type hinting?",
+        "type": "mcq",
+        "o": [
+            "Annotations indicating expected types",
+            "Type conversion",
+            "Type checking at runtime",
+            "Error handling"
+        ]
+    },
+    {
+        "q": "Type hints are enforced at runtime in Python.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def greet(name: str) -> str:\n    return f'Hello, {name}'\n\nprint(greet('World'))",
+        "o": [
+            "Hello, World",
+            "World",
+            "Hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the typing module type with its meaning:",
+        "type": "match",
+        "left": [
+            "List[int]",
+            "Dict[str, int]",
+            "Optional[str]",
+            "Union[int, str]"
+        ],
+        "right": [
+            "List of ints",
+            "String to int map",
+            "String or None",
+            "Int or string"
+        ]
+    },
+    {
+        "q": "The _____ module provides advanced type hints.",
+        "type": "fill_blank",
+        "answers": [
+            "typing"
+        ],
+        "other_options": [
+            "types",
+            "hints",
+            "annotations"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import List\n\ndef sum_list(numbers: List[int]) -> int:\n    return sum(numbers)\n\nprint(sum_list([1, 2, 3]))",
+        "o": [
+            "6",
+            "[1, 2, 3]",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is an iterator?",
+        "type": "mcq",
+        "o": [
+            "An object that can be iterated over",
+            "A type of loop",
+            "A data structure",
+            "A function"
+        ]
+    },
+    {
+        "q": "Iterators implement __iter__ and _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "__next__"
+        ],
+        "other_options": [
+            "__get__",
+            "__yield__",
+            "__return__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Counter:\n    def __init__(self, max):\n        self.max = max\n        self.n = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.n >= self.max:\n            raise StopIteration\n        self.n += 1\n        return self.n\n\nc = Counter(3)\nprint(list(c))",
+        "o": [
+            "[1, 2, 3]",
+            "[0, 1, 2]",
+            "[0, 1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "StopIteration signals the end of iteration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the iteration concept with its function:",
+        "type": "match",
+        "left": [
+            "iter()",
+            "next()",
+            "enumerate()",
+            "zip()"
+        ],
+        "right": [
+            "Get iterator",
+            "Get next item",
+            "Add indices",
+            "Combine iterables"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "nums = [1, 2, 3]\nfor i, n in enumerate(nums):\n    print(f'{i}:{n}')",
+        "o": [
+            "0:1 1:2 2:3",
+            "1:1 2:2 3:3",
+            "1 2 3",
+            "Error"
+        ]
+    },
+    {
+        "q": "What does zip() do?",
+        "type": "mcq",
+        "o": [
+            "Combines iterables element by element",
+            "Compresses files",
+            "Sorts a list",
+            "Filters values"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "a = [1, 2, 3]\nb = ['a', 'b', 'c']\nprint(list(zip(a, b)))",
+        "o": [
+            "[(1, 'a'), (2, 'b'), (3, 'c')]",
+            "[1, 'a', 2, 'b', 3, 'c']",
+            "[[1, 'a'], [2, 'b'], [3, 'c']]",
+            "Error"
+        ]
+    },
+    {
+        "q": "zip() stops at the shortest iterable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to use zip:",
+        "type": "rearrange",
+        "words": [
+            "Define list1",
+            "Define list2",
+            "zip(list1, list2)",
+            "Iterate pairs"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "pairs = [(1, 'a'), (2, 'b')]\nnums, chars = zip(*pairs)\nprint(nums)",
+        "o": [
+            "(1, 2)",
+            "[1, 2]",
+            "1, 2",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the any() function?",
+        "type": "mcq",
+        "o": [
+            "Returns True if any element is True",
+            "Returns any random element",
+            "Checks data type",
+            "Sorts the list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "print(any([False, False, True]))",
+        "o": [
+            "True",
+            "False",
+            "1",
+            "Error"
+        ]
+    },
+    {
+        "q": "all() returns True if all elements are True.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the function with its behavior:",
+        "type": "match",
+        "left": [
+            "any()",
+            "all()",
+            "sum()",
+            "max()"
+        ],
+        "right": [
+            "Any True",
+            "All True",
+            "Total",
+            "Largest"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "print(all([True, True, False]))",
+        "o": [
+            "False",
+            "True",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the sorted() function?",
+        "type": "mcq",
+        "o": [
+            "Returns a new sorted list",
+            "Sorts the list in place",
+            "Filters the list",
+            "Reverses the list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "nums = [3, 1, 4, 1, 5]\nprint(sorted(nums, reverse=True))",
+        "o": [
+            "[5, 4, 3, 1, 1]",
+            "[1, 1, 3, 4, 5]",
+            "[3, 1, 4, 1, 5]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The key parameter customizes sorting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "words = ['banana', 'apple', 'cherry']\nprint(sorted(words, key=len))",
+        "o": [
+            "['apple', 'banana', 'cherry']",
+            "['cherry', 'banana', 'apple']",
+            "['banana', 'apple', 'cherry']",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to sort by custom key:",
+        "type": "rearrange",
+        "words": [
+            "sorted(",
+            "iterable,",
+            "key=function,",
+            ")"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "data = [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}]\nresult = sorted(data, key=lambda x: x['age'])\nprint(result[0]['name'])",
+        "o": [
+            "Bob",
+            "Alice",
+            "25",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is string formatting with f-strings?",
+        "type": "mcq",
+        "o": [
+            "Inline expression interpolation",
+            "String concatenation",
+            "Regular expressions",
+            "Type conversion"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "name = 'World'\nprint(f'Hello, {name}!')",
+        "o": [
+            "Hello, World!",
+            "Hello, {name}!",
+            "f'Hello, World!'",
+            "Error"
+        ]
+    },
+    {
+        "q": "F-strings can contain expressions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the format specifier with its use:",
+        "type": "match",
+        "left": [
+            ".2f",
+            "d",
+            "s",
+            "x"
+        ],
+        "right": [
+            "2 decimal float",
+            "Integer",
+            "String",
+            "Hexadecimal"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "value = 3.14159\nprint(f'{value:.2f}')",
+        "o": [
+            "3.14",
+            "3.14159",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 10\ny = 20\nprint(f'{x + y = }')",
+        "o": [
+            "x + y = 30",
+            "30",
+            "x + y",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to format a number:",
+        "type": "rearrange",
+        "words": [
+            "f'",
+            "{value",
+            ":",
+            ".2f",
+            "}'"
+        ]
+    },
+    {
+        "q": "What is unpacking in Python?",
+        "type": "mcq",
+        "o": [
+            "Extracting values from iterables",
+            "Importing modules",
+            "Creating packages",
+            "Defining functions"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "a, b, c = [1, 2, 3]\nprint(b)",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "The * operator collects remaining values.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "first, *rest = [1, 2, 3, 4, 5]\nprint(rest)",
+        "o": [
+            "[2, 3, 4, 5]",
+            "[1]",
+            "1",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the unpacking syntax with its result:",
+        "type": "match",
+        "left": [
+            "a, b = x",
+            "*a, b = x",
+            "a, *b = x",
+            "a, *_, b = x"
+        ],
+        "right": [
+            "Two values",
+            "Rest then last",
+            "First then rest",
+            "First, middle, last"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "*_, last = [1, 2, 3, 4, 5]\nprint(last)",
+        "o": [
+            "5",
+            "[1, 2, 3, 4]",
+            "1",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the walrus operator?",
+        "type": "mcq",
+        "o": [
+            "Assignment expression :=",
+            "A comparison operator",
+            "A logical operator",
+            "A bitwise operator"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "if (n := len('hello')) > 3:\n    print(n)",
+        "o": [
+            "5",
+            "True",
+            "hello",
+            "Error"
+        ]
+    },
+    {
+        "q": "The walrus operator assigns and returns a value.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "while (line := 'test') and False:\n    pass\nprint(line)",
+        "o": [
+            "test",
+            "None",
+            "False",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to use walrus operator:",
+        "type": "rearrange",
+        "words": [
+            "if (",
+            "var :=",
+            "expression",
+            ") condition:"
+        ]
+    },
+    {
+        "q": "What is the ternary operator in Python?",
+        "type": "mcq",
+        "o": [
+            "value_if_true if condition else value_if_false",
+            "condition ? true : false",
+            "if-then-else",
+            "switch-case"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = 5\nresult = 'big' if x > 3 else 'small'\nprint(result)",
+        "o": [
+            "big",
+            "small",
+            "5",
+            "Error"
+        ]
+    },
+    {
+        "q": "Ternary operators can be nested.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the expression with its equivalent:",
+        "type": "match",
+        "left": [
+            "a if c else b",
+            "a or b",
+            "a and b",
+            "not a"
+        ],
+        "right": [
+            "Conditional",
+            "First truthy",
+            "Last if both",
+            "Negation"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "x = None\ny = x or 'default'\nprint(y)",
+        "o": [
+            "default",
+            "None",
+            "x",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is method chaining?",
+        "type": "mcq",
+        "o": [
+            "Calling multiple methods sequentially",
+            "Inheriting methods",
+            "Overriding methods",
+            "Defining methods"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "result = '  Hello World  '.strip().lower().replace(' ', '_')\nprint(result)",
+        "o": [
+            "hello_world",
+            "Hello World",
+            "hello world",
+            "Error"
+        ]
+    },
+    {
+        "q": "Method chaining returns the modified object.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange method chain operations:",
+        "type": "rearrange",
+        "words": [
+            "string",
+            ".strip()",
+            ".lower()",
+            ".split()"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "nums = [1, 2, 3]\nresult = sorted(nums, reverse=True)\nprint(result[:2])",
+        "o": [
+            "[3, 2]",
+            "[1, 2]",
+            "[3, 2, 1]",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a metaclass in Python?",
+        "type": "mcq",
+        "o": [
+            "A class whose instances are classes",
+            "A subclass",
+            "An abstract class",
+            "A static class"
+        ]
+    },
+    {
+        "q": "The _____ function returns the type of an object.",
+        "type": "fill_blank",
+        "answers": [
+            "type"
+        ],
+        "other_options": [
+            "class",
+            "meta",
+            "isinstance"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Meta(type):\n    def __new__(cls, name, bases, attrs):\n        attrs['greeting'] = 'Hello'\n        return super().__new__(cls, name, bases, attrs)\n\nclass MyClass(metaclass=Meta):\n    pass\n\nprint(MyClass.greeting)",
+        "o": [
+            "Hello",
+            "MyClass",
+            "Meta",
+            "Error"
+        ]
+    },
+    {
+        "q": "Metaclasses control class creation behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dunder method with its purpose:",
+        "type": "match",
+        "left": [
+            "__new__",
+            "__init__",
+            "__call__",
+            "__del__"
+        ],
+        "right": [
+            "Create instance",
+            "Initialize instance",
+            "Make callable",
+            "Destructor"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance\n\na = Singleton()\nb = Singleton()\nprint(a is b)",
+        "o": [
+            "True",
+            "False",
+            "Singleton",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is descriptor protocol?",
+        "type": "mcq",
+        "o": [
+            "Methods __get__, __set__, __delete__ for attribute access",
+            "A way to describe classes",
+            "Documentation strings",
+            "Type annotations"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Validator:\n    def __set_name__(self, owner, name):\n        self.name = name\n    def __get__(self, obj, type=None):\n        return obj.__dict__.get(self.name, 0)\n    def __set__(self, obj, value):\n        obj.__dict__[self.name] = value\n\nclass MyClass:\n    x = Validator()\n\nm = MyClass()\nm.x = 10\nprint(m.x)",
+        "o": [
+            "10",
+            "0",
+            "Validator",
+            "Error"
+        ]
+    },
+    {
+        "q": "Descriptors are invoked by the _____ lookup mechanism.",
+        "type": "fill_blank",
+        "answers": [
+            "attribute"
+        ],
+        "other_options": [
+            "method",
+            "class",
+            "instance"
+        ]
+    },
+    {
+        "q": "Rearrange to create a descriptor:",
+        "type": "rearrange",
+        "words": [
+            "Define __get__",
+            "Define __set__",
+            "Use in class",
+            "Access attribute"
+        ]
+    },
+    {
+        "q": "What is a mixin class?",
+        "type": "mcq",
+        "o": [
+            "A class that provides methods to other classes",
+            "A class that mixes data types",
+            "A singleton class",
+            "An abstract class"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class LogMixin:\n    def log(self, msg):\n        return f'[LOG] {msg}'\n\nclass App(LogMixin):\n    pass\n\na = App()\nprint(a.log('Started'))",
+        "o": [
+            "[LOG] Started",
+            "Started",
+            "App",
+            "Error"
+        ]
+    },
+    {
+        "q": "Mixins provide reusable functionality without inheritance hierarchy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the design pattern with its purpose:",
+        "type": "match",
+        "left": [
+            "Singleton",
+            "Factory",
+            "Observer",
+            "Decorator"
+        ],
+        "right": [
+            "Single instance",
+            "Create objects",
+            "Event handling",
+            "Add behavior"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import wraps\n\ndef debug(func):\n    @wraps(func)\n    def wrapper(*args, **kwargs):\n        return func(*args, **kwargs)\n    return wrapper\n\n@debug\ndef add(a, b):\n    '''Adds two numbers'''\n    return a + b\n\nprint(add.__name__)",
+        "o": [
+            "add",
+            "wrapper",
+            "debug",
+            "Error"
+        ]
+    },
+    {
+        "q": "@wraps preserves the original function metadata.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is functools.partial?",
+        "type": "mcq",
+        "o": [
+            "Creates a function with some arguments pre-filled",
+            "Partially evaluates expressions",
+            "Splits a function",
+            "Caches results"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import partial\n\ndef power(base, exp):\n    return base ** exp\n\nsquare = partial(power, exp=2)\nprint(square(5))",
+        "o": [
+            "25",
+            "5",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ decorator caches function results.",
+        "type": "fill_blank",
+        "answers": [
+            "@lru_cache"
+        ],
+        "other_options": [
+            "@cache",
+            "@memo",
+            "@store"
+        ]
+    },
+    {
+        "q": "Rearrange to use lru_cache:",
+        "type": "rearrange",
+        "words": [
+            "from functools import lru_cache",
+            "@lru_cache",
+            "def expensive_func():",
+            "    return result"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef fib(n):\n    if n < 2:\n        return n\n    return fib(n-1) + fib(n-2)\n\nprint(fib(10))",
+        "o": [
+            "55",
+            "89",
+            "34",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the itertools module?",
+        "type": "mcq",
+        "o": [
+            "Provides efficient iterator functions",
+            "A type of loop",
+            "Database iterator",
+            "File reader"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import chain\n\na = [1, 2]\nb = [3, 4]\nprint(list(chain(a, b)))",
+        "o": [
+            "[1, 2, 3, 4]",
+            "[[1, 2], [3, 4]]",
+            "[(1, 3), (2, 4)]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the itertools function with its purpose:",
+        "type": "match",
+        "left": [
+            "chain",
+            "cycle",
+            "repeat",
+            "count"
+        ],
+        "right": [
+            "Combine iterables",
+            "Repeat infinitely",
+            "Repeat value",
+            "Infinite counter"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import islice\n\nnums = range(100)\nprint(list(islice(nums, 5, 10)))",
+        "o": [
+            "[5, 6, 7, 8, 9]",
+            "[0, 1, 2, 3, 4]",
+            "[5, 6, 7, 8, 9, 10]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ function groups consecutive equal elements.",
+        "type": "fill_blank",
+        "answers": [
+            "groupby"
+        ],
+        "other_options": [
+            "group",
+            "cluster",
+            "partition"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import permutations\n\nprint(list(permutations('AB')))",
+        "o": [
+            "[('A', 'B'), ('B', 'A')]",
+            "[('A', 'A'), ('B', 'B')]",
+            "['AB', 'BA']",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import combinations\n\nprint(list(combinations('ABC', 2)))",
+        "o": [
+            "[('A', 'B'), ('A', 'C'), ('B', 'C')]",
+            "[('A', 'B'), ('B', 'C')]",
+            "['AB', 'BC', 'AC']",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to use itertools:",
+        "type": "rearrange",
+        "words": [
+            "from itertools import func",
+            "result = func(args)",
+            "list(result)",
+            "process items"
+        ]
+    },
+    {
+        "q": "What is threading in Python?",
+        "type": "mcq",
+        "o": [
+            "Running multiple threads concurrently",
+            "Connecting strings",
+            "Data piping",
+            "File operations"
+        ]
+    },
+    {
+        "q": "The _____ module provides threading support.",
+        "type": "fill_blank",
+        "answers": [
+            "threading"
+        ],
+        "other_options": [
+            "thread",
+            "concurrent",
+            "parallel"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import threading\n\ndef task():\n    return 'Done'\n\nt = threading.Thread(target=task)\nt.start()\nt.join()\nprint('Complete')",
+        "o": [
+            "Complete",
+            "Done",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "The GIL limits true parallelism in Python threads.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the threading concept with its use:",
+        "type": "match",
+        "left": [
+            "Lock",
+            "RLock",
+            "Semaphore",
+            "Event"
+        ],
+        "right": [
+            "Mutual exclusion",
+            "Reentrant lock",
+            "Limited access",
+            "Signal threads"
+        ]
+    },
+    {
+        "q": "What is multiprocessing in Python?",
+        "type": "mcq",
+        "o": [
+            "Running multiple processes in parallel",
+            "Multiple CPU cores",
+            "Memory management",
+            "File processing"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from multiprocessing import Pool\n\ndef square(x):\n    return x * x\n\nwith Pool(2) as p:\n    result = p.map(square, [1, 2, 3])\nprint(result)",
+        "o": [
+            "[1, 4, 9]",
+            "[1, 2, 3]",
+            "[2, 4, 6]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Multiprocessing bypasses the GIL.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to use process pool:",
+        "type": "rearrange",
+        "words": [
+            "Create Pool",
+            "Submit tasks",
+            "Get results",
+            "Close pool"
+        ]
+    },
+    {
+        "q": "What is asyncio in Python?",
+        "type": "mcq",
+        "o": [
+            "Asynchronous I/O framework",
+            "Audio processing",
+            "Automatic IO",
+            "Async imports"
+        ]
+    },
+    {
+        "q": "The _____ keyword defines an async function.",
+        "type": "fill_blank",
+        "answers": [
+            "async"
+        ],
+        "other_options": [
+            "await",
+            "defer",
+            "yield"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import asyncio\n\nasync def greet():\n    return 'Hello'\n\nresult = asyncio.run(greet())\nprint(result)",
+        "o": [
+            "Hello",
+            "greet",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "await pauses coroutine until result is ready.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the asyncio concept with its purpose:",
+        "type": "match",
+        "left": [
+            "async def",
+            "await",
+            "asyncio.run",
+            "asyncio.gather"
+        ],
+        "right": [
+            "Define coroutine",
+            "Wait for result",
+            "Run event loop",
+            "Run multiple"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import asyncio\n\nasync def foo():\n    await asyncio.sleep(0)\n    return 1\n\nasync def bar():\n    await asyncio.sleep(0)\n    return 2\n\nasync def main():\n    results = await asyncio.gather(foo(), bar())\n    return sum(results)\n\nprint(asyncio.run(main()))",
+        "o": [
+            "3",
+            "[1, 2]",
+            "1",
+            "Error"
+        ]
+    },
+    {
+        "q": "What is a coroutine?",
+        "type": "mcq",
+        "o": [
+            "A function that can pause and resume",
+            "A type of loop",
+            "A thread",
+            "A process"
+        ]
+    },
+    {
+        "q": "Coroutines use cooperative multitasking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "async def counter():\n    for i in range(3):\n        yield i\n\nasync def main():\n    result = []\n    async for i in counter():\n        result.append(i)\n    return result\n\nimport asyncio\nprint(asyncio.run(main()))",
+        "o": [
+            "[0, 1, 2]",
+            "[1, 2, 3]",
+            "0 1 2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange async programming flow:",
+        "type": "rearrange",
+        "words": [
+            "Define async function",
+            "Use await inside",
+            "Call asyncio.run",
+            "Get result"
+        ]
+    },
+    {
+        "q": "What is unit testing?",
+        "type": "mcq",
+        "o": [
+            "Testing individual units of code",
+            "Testing entire system",
+            "User testing",
+            "Performance testing"
+        ]
+    },
+    {
+        "q": "The _____ module provides unit testing in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "unittest"
+        ],
+        "other_options": [
+            "test",
+            "pytest",
+            "testing"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import unittest\n\nclass TestMath(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(1 + 1, 2)\n\nprint('Tests defined')",
+        "o": [
+            "Tests defined",
+            "True",
+            "TestCase",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the assertion method with its check:",
+        "type": "match",
+        "left": [
+            "assertEqual",
+            "assertTrue",
+            "assertRaises",
+            "assertIn"
+        ],
+        "right": [
+            "a == b",
+            "bool(x)",
+            "Raises exception",
+            "a in b"
+        ]
+    },
+    {
+        "q": "What is pytest?",
+        "type": "mcq",
+        "o": [
+            "A popular testing framework",
+            "A Python module",
+            "A debugger",
+            "A profiler"
+        ]
+    },
+    {
+        "q": "pytest test functions start with test_.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def test_simple():\n    assert 1 + 1 == 2\n\nprint('Test passed' if test_simple() is None else 'Failed')",
+        "o": [
+            "Test passed",
+            "Failed",
+            "True",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange to write a pytest test:",
+        "type": "rearrange",
+        "words": [
+            "def test_function():",
+            "    # arrange",
+            "    # act",
+            "    assert expected"
+        ]
+    },
+    {
+        "q": "What are fixtures in pytest?",
+        "type": "mcq",
+        "o": [
+            "Setup/teardown functions for tests",
+            "Fixed values",
+            "Test results",
+            "Error handlers"
+        ]
+    },
+    {
+        "q": "The @pytest.fixture decorator defines a fixture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the testing concept with its purpose:",
+        "type": "match",
+        "left": [
+            "Fixture",
+            "Mock",
+            "Patch",
+            "Parametrize"
+        ],
+        "right": [
+            "Setup data",
+            "Fake object",
+            "Replace behavior",
+            "Multiple inputs"
+        ]
+    },
+    {
+        "q": "What is mocking in testing?",
+        "type": "mcq",
+        "o": [
+            "Replacing objects with fake implementations",
+            "Making fun of code",
+            "Documenting tests",
+            "Running tests"
+        ]
+    },
+    {
+        "q": "The _____ module provides mocking utilities.",
+        "type": "fill_blank",
+        "answers": [
+            "unittest.mock"
+        ],
+        "other_options": [
+            "mock",
+            "fake",
+            "stub"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from unittest.mock import Mock\n\nm = Mock(return_value=42)\nprint(m())",
+        "o": [
+            "42",
+            "Mock",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Mock objects record how they were called.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to use mock:",
+        "type": "rearrange",
+        "words": [
+            "Create Mock",
+            "Set return_value",
+            "Call mock",
+            "Assert calls"
+        ]
+    },
+    {
+        "q": "What is logging in Python?",
+        "type": "mcq",
+        "o": [
+            "Recording program events",
+            "File storage",
+            "Database queries",
+            "Network calls"
+        ]
+    },
+    {
+        "q": "The _____ module provides logging functionality.",
+        "type": "fill_blank",
+        "answers": [
+            "logging"
+        ],
+        "other_options": [
+            "log",
+            "logger",
+            "logs"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import logging\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\nlogger.info('Test message')\nprint('Done')",
+        "o": [
+            "Done",
+            "Test message",
+            "INFO",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the log level with its severity:",
+        "type": "match",
+        "left": [
+            "DEBUG",
+            "INFO",
+            "WARNING",
+            "ERROR"
+        ],
+        "right": [
+            "Lowest",
+            "Normal",
+            "Potential issue",
+            "Problem"
+        ]
+    },
+    {
+        "q": "Loggers can have multiple handlers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import logging\nlevels = [logging.DEBUG, logging.INFO, logging.WARNING]\nprint(logging.WARNING > logging.DEBUG)",
+        "o": [
+            "True",
+            "False",
+            "WARNING",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange logging setup:",
+        "type": "rearrange",
+        "words": [
+            "Configure basicConfig",
+            "Create logger",
+            "Add handlers",
+            "Log messages"
+        ]
+    },
+    {
+        "q": "What is a virtual environment?",
+        "type": "mcq",
+        "o": [
+            "Isolated Python environment",
+            "Virtual machine",
+            "Cloud environment",
+            "Testing environment"
+        ]
+    },
+    {
+        "q": "The _____ module creates virtual environments.",
+        "type": "fill_blank",
+        "answers": [
+            "venv"
+        ],
+        "other_options": [
+            "virtualenv",
+            "env",
+            "pyenv"
+        ]
+    },
+    {
+        "q": "Match the command with its purpose:",
+        "type": "match",
+        "left": [
+            "python -m venv",
+            "source activate",
+            "pip install",
+            "pip freeze"
+        ],
+        "right": [
+            "Create venv",
+            "Activate venv",
+            "Install package",
+            "List packages"
+        ]
+    },
+    {
+        "q": "Virtual environments prevent package conflicts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pip?",
+        "type": "mcq",
+        "o": [
+            "Python package installer",
+            "Python interpreter",
+            "Package creator",
+            "Code formatter"
+        ]
+    },
+    {
+        "q": "The requirements.txt file lists project dependencies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange to set up a project:",
+        "type": "rearrange",
+        "words": [
+            "Create venv",
+            "Activate venv",
+            "pip install",
+            "pip freeze > requirements.txt"
+        ]
+    },
+    {
+        "q": "What is documentation in code?",
+        "type": "mcq",
+        "o": [
+            "Explaining code functionality",
+            "Debugging code",
+            "Testing code",
+            "Compiling code"
+        ]
+    },
+    {
+        "q": "The _____ are used for function documentation.",
+        "type": "fill_blank",
+        "answers": [
+            "docstrings"
+        ],
+        "other_options": [
+            "comments",
+            "annotations",
+            "hints"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def greet(name):\n    '''Return a greeting.'''\n    return f'Hello, {name}'\n\nprint(greet.__doc__)",
+        "o": [
+            "Return a greeting.",
+            "greet",
+            "Hello, name",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the documentation style with its format:",
+        "type": "match",
+        "left": [
+            "Google",
+            "NumPy",
+            "Sphinx",
+            "Epytext"
+        ],
+        "right": [
+            "Args/Returns",
+            "Parameters/Returns",
+            "param/return",
+            "@param/@return"
+        ]
+    },
+    {
+        "q": "Type hints serve as documentation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Counter:\n    count = 0\n    def __init__(self):\n        Counter.count += 1\n\na = Counter()\nb = Counter()\nprint(Counter.count)",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "A _____ variable is shared across all instances of a class.",
+        "type": "fill_blank",
+        "answers": [
+            "class"
+        ],
+        "other_options": [
+            "instance",
+            "local",
+            "global"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Parent:\n    def speak(self):\n        return 'Parent'\n\nclass Child(Parent):\n    def speak(self):\n        return 'Child'\n\nc = Child()\nprint(c.speak())",
+        "o": [
+            "Child",
+            "Parent",
+            "ParentChild",
+            "Error"
+        ]
+    },
+    {
+        "q": "Method overriding allows a subclass to provide specific implementation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class A:\n    def greet(self):\n        return 'A'\n\nclass B(A):\n    def greet(self):\n        return super().greet() + 'B'\n\nprint(B().greet())",
+        "o": [
+            "AB",
+            "B",
+            "A",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the OOP concept with its description:",
+        "type": "match",
+        "left": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "right": [
+            "Data hiding",
+            "Code reuse",
+            "Many forms",
+            "Hide complexity"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class MyClass:\n    def __init__(self):\n        self.__private = 10\n\nobj = MyClass()\nprint(obj._MyClass__private)",
+        "o": [
+            "10",
+            "Error",
+            "None",
+            "__private"
+        ]
+    },
+    {
+        "q": "Name mangling in Python uses _____ prefix.",
+        "type": "fill_blank",
+        "answers": [
+            "double underscore"
+        ],
+        "other_options": [
+            "single underscore",
+            "triple underscore",
+            "at symbol"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class A:\n    pass\n\nclass B:\n    pass\n\nclass C(A, B):\n    pass\n\nprint(C.__mro__)",
+        "o": [
+            "(C, A, B, object)",
+            "(C, B, A, object)",
+            "(A, B, C, object)",
+            "Error"
+        ]
+    },
+    {
+        "q": "Multiple inheritance can lead to the diamond problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Caught')\nfinally:\n    print('Done')",
+        "o": [
+            "Caught Done",
+            "Error",
+            "Caught",
+            "Done"
+        ]
+    },
+    {
+        "q": "The _____ block always executes regardless of exceptions.",
+        "type": "fill_blank",
+        "answers": [
+            "finally"
+        ],
+        "other_options": [
+            "except",
+            "else",
+            "try"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "try:\n    x = int('abc')\nexcept ValueError as e:\n    print('Error')\nelse:\n    print('Success')",
+        "o": [
+            "Error",
+            "Success",
+            "Error Success",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Match the exception with its cause:",
+        "type": "match",
+        "left": [
+            "ValueError",
+            "TypeError",
+            "KeyError",
+            "IndexError"
+        ],
+        "right": [
+            "Invalid value",
+            "Wrong type",
+            "Missing key",
+            "Out of range"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class CustomError(Exception):\n    pass\n\ntry:\n    raise CustomError('Oops')\nexcept CustomError as e:\n    print(e)",
+        "o": [
+            "Oops",
+            "CustomError",
+            "Error",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Custom exceptions should inherit from Exception class.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def gen():\n    yield 1\n    yield 2\n    yield 3\n\ng = gen()\nprint(next(g), next(g))",
+        "o": [
+            "1 2",
+            "1 1",
+            "1 2 3",
+            "Error"
+        ]
+    },
+    {
+        "q": "Generators use _____ to produce values lazily.",
+        "type": "fill_blank",
+        "answers": [
+            "yield"
+        ],
+        "other_options": [
+            "return",
+            "produce",
+            "generate"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def countdown(n):\n    while n > 0:\n        yield n\n        n -= 1\n\nprint(list(countdown(3)))",
+        "o": [
+            "[3, 2, 1]",
+            "[1, 2, 3]",
+            "[0, 1, 2]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Generators are memory efficient for large datasets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "squares = (x**2 for x in range(4))\nprint(list(squares))",
+        "o": [
+            "[0, 1, 4, 9]",
+            "[1, 4, 9, 16]",
+            "(0, 1, 4, 9)",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the concept with its syntax:",
+        "type": "match",
+        "left": [
+            "List comp",
+            "Generator exp",
+            "Dict comp",
+            "Set comp"
+        ],
+        "right": [
+            "[x for x]",
+            "(x for x)",
+            "{k: v for}",
+            "{x for x}"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def decorator(func):\n    def wrapper():\n        print('Before')\n        func()\n        print('After')\n    return wrapper\n\n@decorator\ndef greet():\n    print('Hello')\n\ngreet()",
+        "o": [
+            "Before Hello After",
+            "Hello",
+            "Before After",
+            "Error"
+        ]
+    },
+    {
+        "q": "Decorators modify function behavior without changing code.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ symbol is used to apply decorators in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "@"
+        ],
+        "other_options": [
+            "#",
+            "$",
+            "&"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def repeat(n):\n    def decorator(func):\n        def wrapper():\n            for _ in range(n):\n                func()\n        return wrapper\n    return decorator\n\n@repeat(2)\ndef hi():\n    print('Hi')\n\nhi()",
+        "o": [
+            "Hi Hi",
+            "Hi",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange decorator application order:",
+        "type": "rearrange",
+        "words": [
+            "@decorator",
+            "def function():",
+            "function body",
+            "return value"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import wraps\n\ndef logged(func):\n    @wraps(func)\n    def wrapper(*args):\n        return func(*args)\n    return wrapper\n\n@logged\ndef add(a, b):\n    '''Adds two numbers'''\n    return a + b\n\nprint(add.__doc__)",
+        "o": [
+            "Adds two numbers",
+            "None",
+            "wrapper",
+            "Error"
+        ]
+    },
+    {
+        "q": "functools.wraps preserves the original function metadata.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Property:\n    def __init__(self, val):\n        self._val = val\n    \n    @property\n    def val(self):\n        return self._val\n\np = Property(42)\nprint(p.val)",
+        "o": [
+            "42",
+            "_val",
+            "Property",
+            "Error"
+        ]
+    },
+    {
+        "q": "The @property decorator creates _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "getter"
+        ],
+        "other_options": [
+            "setter",
+            "deleter",
+            "private"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Circle:\n    def __init__(self, r):\n        self._r = r\n    \n    @property\n    def area(self):\n        return 3.14 * self._r ** 2\n\nc = Circle(2)\nprint(c.area)",
+        "o": [
+            "12.56",
+            "6.28",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the property decorator with its purpose:",
+        "type": "match",
+        "left": [
+            "@property",
+            "@x.setter",
+            "@x.deleter",
+            "@staticmethod"
+        ],
+        "right": [
+            "Get value",
+            "Set value",
+            "Delete value",
+            "No self"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Counter:\n    def __init__(self):\n        self._count = 0\n    \n    @property\n    def count(self):\n        return self._count\n    \n    @count.setter\n    def count(self, val):\n        if val >= 0:\n            self._count = val\n\nc = Counter()\nc.count = 5\nprint(c.count)",
+        "o": [
+            "5",
+            "0",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Properties allow validation when setting values.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class MyClass:\n    @staticmethod\n    def greet():\n        return 'Hello'\n\nprint(MyClass.greet())",
+        "o": [
+            "Hello",
+            "Error",
+            "None",
+            "MyClass"
+        ]
+    },
+    {
+        "q": "Static methods do not receive _____ as first parameter.",
+        "type": "fill_blank",
+        "answers": [
+            "self"
+        ],
+        "other_options": [
+            "cls",
+            "this",
+            "args"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Math:\n    @classmethod\n    def info(cls):\n        return cls.__name__\n\nprint(Math.info())",
+        "o": [
+            "Math",
+            "info",
+            "class",
+            "Error"
+        ]
+    },
+    {
+        "q": "Class methods receive the class as first argument.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the method type with its first parameter:",
+        "type": "match",
+        "left": [
+            "Instance method",
+            "Class method",
+            "Static method",
+            "Abstract method"
+        ],
+        "right": [
+            "self",
+            "cls",
+            "None",
+            "Defined in subclass"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from abc import ABC, abstractmethod\n\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass\n\nclass Square(Shape):\n    def __init__(self, s):\n        self.s = s\n    def area(self):\n        return self.s ** 2\n\nprint(Square(3).area())",
+        "o": [
+            "9",
+            "Error",
+            "3",
+            "None"
+        ]
+    },
+    {
+        "q": "Abstract classes cannot be instantiated directly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ module provides abstract base class support.",
+        "type": "fill_blank",
+        "answers": [
+            "abc"
+        ],
+        "other_options": [
+            "abstract",
+            "base",
+            "interface"
+        ]
+    },
+    {
+        "q": "Rearrange to create an abstract class:",
+        "type": "rearrange",
+        "words": [
+            "from abc import ABC",
+            "class MyABC(ABC):",
+            "@abstractmethod",
+            "def method(self):"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Meta(type):\n    def __new__(cls, name, bases, attrs):\n        attrs['version'] = 1\n        return super().__new__(cls, name, bases, attrs)\n\nclass MyClass(metaclass=Meta):\n    pass\n\nprint(MyClass.version)",
+        "o": [
+            "1",
+            "Error",
+            "None",
+            "Meta"
+        ]
+    },
+    {
+        "q": "Metaclasses control how _____ are created.",
+        "type": "fill_blank",
+        "answers": [
+            "classes"
+        ],
+        "other_options": [
+            "instances",
+            "functions",
+            "modules"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance\n\na = Singleton()\nb = Singleton()\nprint(a is b)",
+        "o": [
+            "True",
+            "False",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "The Singleton pattern ensures only one instance exists.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the design pattern with its purpose:",
+        "type": "match",
+        "left": [
+            "Singleton",
+            "Factory",
+            "Observer",
+            "Strategy"
+        ],
+        "right": [
+            "One instance",
+            "Object creation",
+            "Event notify",
+            "Swap algorithms"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class ContextMgr:\n    def __enter__(self):\n        print('Enter')\n        return self\n    def __exit__(self, *args):\n        print('Exit')\n\nwith ContextMgr():\n    print('Inside')",
+        "o": [
+            "Enter Inside Exit",
+            "Inside",
+            "Enter Exit",
+            "Error"
+        ]
+    },
+    {
+        "q": "Context managers implement __enter__ and _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "__exit__"
+        ],
+        "other_options": [
+            "__close__",
+            "__with__",
+            "__context__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from contextlib import contextmanager\n\n@contextmanager\ndef my_ctx():\n    print('Before')\n    yield 'Value'\n    print('After')\n\nwith my_ctx() as v:\n    print(v)",
+        "o": [
+            "Before Value After",
+            "Value",
+            "Before After",
+            "Error"
+        ]
+    },
+    {
+        "q": "The contextlib module simplifies context manager creation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Descriptor:\n    def __get__(self, obj, type=None):\n        return 'Got'\n    def __set__(self, obj, value):\n        pass\n\nclass MyClass:\n    attr = Descriptor()\n\nprint(MyClass().attr)",
+        "o": [
+            "Got",
+            "Descriptor",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Descriptors define _____ behavior for attribute access.",
+        "type": "fill_blank",
+        "answers": [
+            "custom"
+        ],
+        "other_options": [
+            "default",
+            "static",
+            "private"
+        ]
+    },
+    {
+        "q": "Match the descriptor method with its purpose:",
+        "type": "match",
+        "left": [
+            "__get__",
+            "__set__",
+            "__delete__",
+            "__set_name__"
+        ],
+        "right": [
+            "Read attr",
+            "Write attr",
+            "Delete attr",
+            "Set attr name"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def trace(cls):\n    orig_init = cls.__init__\n    def new_init(self, *args):\n        print('Creating')\n        orig_init(self, *args)\n    cls.__init__ = new_init\n    return cls\n\n@trace\nclass Point:\n    def __init__(self, x):\n        self.x = x\n\np = Point(1)",
+        "o": [
+            "Creating",
+            "Point",
+            "1",
+            "Error"
+        ]
+    },
+    {
+        "q": "Class decorators modify class behavior at definition time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from dataclasses import dataclass\n\n@dataclass\nclass Point:\n    x: int\n    y: int\n\np = Point(1, 2)\nprint(p)",
+        "o": [
+            "Point(x=1, y=2)",
+            "(1, 2)",
+            "Point",
+            "Error"
+        ]
+    },
+    {
+        "q": "Dataclasses automatically generate __init__ and __repr__.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ decorator creates immutable dataclass instances.",
+        "type": "fill_blank",
+        "answers": [
+            "frozen"
+        ],
+        "other_options": [
+            "immutable",
+            "readonly",
+            "const"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from dataclasses import dataclass, field\n\n@dataclass\nclass Item:\n    name: str\n    tags: list = field(default_factory=list)\n\ni = Item('A')\ni.tags.append('x')\nprint(len(i.tags))",
+        "o": [
+            "1",
+            "0",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Match the dataclass parameter with its effect:",
+        "type": "match",
+        "left": [
+            "frozen",
+            "order",
+            "eq",
+            "repr"
+        ],
+        "right": [
+            "Immutable",
+            "Comparison",
+            "Equality",
+            "String rep"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import threading\n\ncounter = 0\nlock = threading.Lock()\n\ndef increment():\n    global counter\n    with lock:\n        counter += 1\n\nt1 = threading.Thread(target=increment)\nt2 = threading.Thread(target=increment)\nt1.start(); t2.start()\nt1.join(); t2.join()\nprint(counter)",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "Locks prevent _____ conditions in multithreading.",
+        "type": "fill_blank",
+        "answers": [
+            "race"
+        ],
+        "other_options": [
+            "dead",
+            "live",
+            "wait"
+        ]
+    },
+    {
+        "q": "The GIL in Python limits true parallelism for CPU-bound tasks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the threading concept with its description:",
+        "type": "match",
+        "left": [
+            "Thread",
+            "Lock",
+            "Semaphore",
+            "Event"
+        ],
+        "right": [
+            "Execution unit",
+            "Mutual exclusion",
+            "Counting lock",
+            "Signal flag"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import asyncio\n\nasync def greet():\n    return 'Hello'\n\nresult = asyncio.run(greet())\nprint(result)",
+        "o": [
+            "Hello",
+            "coroutine",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ keyword defines an asynchronous function.",
+        "type": "fill_blank",
+        "answers": [
+            "async"
+        ],
+        "other_options": [
+            "await",
+            "coroutine",
+            "defer"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import asyncio\n\nasync def task(n):\n    await asyncio.sleep(0)\n    return n * 2\n\nasync def main():\n    results = await asyncio.gather(task(1), task(2))\n    print(sum(results))\n\nasyncio.run(main())",
+        "o": [
+            "6",
+            "3",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "asyncio.gather runs coroutines concurrently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the async concept with its purpose:",
+        "type": "match",
+        "left": [
+            "async def",
+            "await",
+            "gather",
+            "create_task"
+        ],
+        "right": [
+            "Define coroutine",
+            "Pause execution",
+            "Run parallel",
+            "Schedule task"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import lru_cache\n\n@lru_cache(maxsize=2)\ndef fib(n):\n    if n < 2:\n        return n\n    return fib(n-1) + fib(n-2)\n\nprint(fib(5))",
+        "o": [
+            "5",
+            "8",
+            "3",
+            "Error"
+        ]
+    },
+    {
+        "q": "lru_cache implements _____ to store function results.",
+        "type": "fill_blank",
+        "answers": [
+            "memoization"
+        ],
+        "other_options": [
+            "caching",
+            "hashing",
+            "buffering"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import partial\n\ndef power(base, exp):\n    return base ** exp\n\nsquare = partial(power, exp=2)\nprint(square(3))",
+        "o": [
+            "9",
+            "6",
+            "8",
+            "Error"
+        ]
+    },
+    {
+        "q": "partial freezes some function arguments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the functools function with its purpose:",
+        "type": "match",
+        "left": [
+            "lru_cache",
+            "partial",
+            "reduce",
+            "wraps"
+        ],
+        "right": [
+            "Cache results",
+            "Fix arguments",
+            "Fold sequence",
+            "Preserve metadata"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import chain\n\na = [1, 2]\nb = [3, 4]\nprint(list(chain(a, b)))",
+        "o": [
+            "[1, 2, 3, 4]",
+            "[[1, 2], [3, 4]]",
+            "[1, 2, [3, 4]]",
+            "Error"
+        ]
+    },
+    {
+        "q": "itertools.chain _____ multiple iterables together.",
+        "type": "fill_blank",
+        "answers": [
+            "concatenates"
+        ],
+        "other_options": [
+            "merges",
+            "zips",
+            "combines"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import combinations\n\nprint(list(combinations([1,2,3], 2)))",
+        "o": [
+            "[(1,2), (1,3), (2,3)]",
+            "[(1,2), (2,3)]",
+            "[[1,2], [1,3], [2,3]]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange itertools functions by complexity:",
+        "type": "rearrange",
+        "words": [
+            "count",
+            "cycle",
+            "chain",
+            "combinations",
+            "permutations"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from itertools import groupby\n\ndata = [1, 1, 2, 2, 3]\ngroups = [(k, list(g)) for k, g in groupby(data)]\nprint(len(groups))",
+        "o": [
+            "3",
+            "5",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "groupby requires sorted input for correct grouping.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the itertools function with its output type:",
+        "type": "match",
+        "left": [
+            "count",
+            "cycle",
+            "repeat",
+            "islice"
+        ],
+        "right": [
+            "Infinite nums",
+            "Infinite loop",
+            "Repeat value",
+            "Slice iter"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import Counter\n\nc = Counter('aabbc')\nprint(c.most_common(1))",
+        "o": [
+            "[('a', 2)]",
+            "[('b', 2)]",
+            "('a', 2)",
+            "Error"
+        ]
+    },
+    {
+        "q": "Counter counts _____ occurrences in an iterable.",
+        "type": "fill_blank",
+        "answers": [
+            "element"
+        ],
+        "other_options": [
+            "type",
+            "index",
+            "value"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import defaultdict\n\nd = defaultdict(list)\nd['a'].append(1)\nd['a'].append(2)\nprint(d['a'])",
+        "o": [
+            "[1, 2]",
+            "1",
+            "[1]",
+            "Error"
+        ]
+    },
+    {
+        "q": "defaultdict provides default values for missing keys.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the collections type with its purpose:",
+        "type": "match",
+        "left": [
+            "Counter",
+            "defaultdict",
+            "OrderedDict",
+            "deque"
+        ],
+        "right": [
+            "Count items",
+            "Default values",
+            "Ordered keys",
+            "Double-ended"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import namedtuple\n\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(1, 2)\nprint(p.x + p.y)",
+        "o": [
+            "3",
+            "(1, 2)",
+            "Point",
+            "Error"
+        ]
+    },
+    {
+        "q": "namedtuple creates _____ with named fields.",
+        "type": "fill_blank",
+        "answers": [
+            "tuples"
+        ],
+        "other_options": [
+            "lists",
+            "dicts",
+            "classes"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import deque\n\nd = deque([1, 2, 3])\nd.appendleft(0)\nd.pop()\nprint(list(d))",
+        "o": [
+            "[0, 1, 2]",
+            "[1, 2, 3]",
+            "[0, 1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "deque supports O(1) operations at both ends.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange deque operations from left to right:",
+        "type": "rearrange",
+        "words": [
+            "appendleft",
+            "append",
+            "popleft",
+            "pop",
+            "rotate"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import re\n\npattern = r'\\d+'\ntext = 'a1b22c333'\nprint(re.findall(pattern, text))",
+        "o": [
+            "['1', '22', '333']",
+            "['1', '2', '3']",
+            "[1, 22, 333]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The _____ function finds all regex matches.",
+        "type": "fill_blank",
+        "answers": [
+            "findall"
+        ],
+        "other_options": [
+            "match",
+            "search",
+            "find"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import re\n\ntext = 'hello world'\nresult = re.sub(r'\\s', '_', text)\nprint(result)",
+        "o": [
+            "hello_world",
+            "helloworld",
+            "hello world",
+            "Error"
+        ]
+    },
+    {
+        "q": "re.sub replaces matched patterns with replacement text.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the regex pattern with its meaning:",
+        "type": "match",
+        "left": [
+            "\\d",
+            "\\w",
+            "\\s",
+            "."
+        ],
+        "right": [
+            "Digit",
+            "Word char",
+            "Whitespace",
+            "Any char"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import re\n\npattern = r'(\\w+)@(\\w+)'\nmatch = re.search(pattern, 'user@domain')\nprint(match.group(1))",
+        "o": [
+            "user",
+            "domain",
+            "user@domain",
+            "Error"
+        ]
+    },
+    {
+        "q": "Capturing groups are defined with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "parentheses"
+        ],
+        "other_options": [
+            "brackets",
+            "braces",
+            "pipes"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import json\n\ndata = {'name': 'Alice', 'age': 30}\njson_str = json.dumps(data)\nprint(type(json_str).__name__)",
+        "o": [
+            "str",
+            "dict",
+            "bytes",
+            "Error"
+        ]
+    },
+    {
+        "q": "json.dumps converts Python objects to _____ strings.",
+        "type": "fill_blank",
+        "answers": [
+            "JSON"
+        ],
+        "other_options": [
+            "XML",
+            "YAML",
+            "CSV"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import json\n\njson_str = '{\"x\": 1, \"y\": 2}'\ndata = json.loads(json_str)\nprint(data['x'] + data['y'])",
+        "o": [
+            "3",
+            "12",
+            "xy",
+            "Error"
+        ]
+    },
+    {
+        "q": "json.loads parses JSON string into Python objects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the json function with its purpose:",
+        "type": "match",
+        "left": [
+            "dumps",
+            "loads",
+            "dump",
+            "load"
+        ],
+        "right": [
+            "To string",
+            "From string",
+            "To file",
+            "From file"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import pickle\n\ndata = {'a': 1}\nserialized = pickle.dumps(data)\ndeserialized = pickle.loads(serialized)\nprint(deserialized['a'])",
+        "o": [
+            "1",
+            "a",
+            "data",
+            "Error"
+        ]
+    },
+    {
+        "q": "pickle serializes Python objects to _____ format.",
+        "type": "fill_blank",
+        "answers": [
+            "binary"
+        ],
+        "other_options": [
+            "text",
+            "JSON",
+            "XML"
+        ]
+    },
+    {
+        "q": "pickle is safe to use with untrusted data.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Cls:\n    def __slots__ = ['x', 'y']\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n\nc = Cls(1, 2)\nprint(hasattr(c, '__dict__'))",
+        "o": [
+            "False",
+            "True",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "__slots__ reduces memory by avoiding _____ creation.",
+        "type": "fill_blank",
+        "answers": [
+            "__dict__"
+        ],
+        "other_options": [
+            "__init__",
+            "__new__",
+            "__class__"
+        ]
+    },
+    {
+        "q": "Rearrange memory optimization techniques by impact:",
+        "type": "rearrange",
+        "words": [
+            "__slots__",
+            "generators",
+            "del unused",
+            "gc.collect"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import weakref\n\nclass Obj:\n    pass\n\no = Obj()\nref = weakref.ref(o)\nprint(ref() is o)",
+        "o": [
+            "True",
+            "False",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Weak references do not prevent garbage collection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the memory concept with its description:",
+        "type": "match",
+        "left": [
+            "Reference count",
+            "Garbage collect",
+            "Weak ref",
+            "Cycle detect"
+        ],
+        "right": [
+            "Track refs",
+            "Free memory",
+            "No ownership",
+            "Find cycles"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import sys\n\na = [1, 2, 3]\nprint(sys.getsizeof(a) > 0)",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "sys.getsizeof returns the _____ of an object in bytes.",
+        "type": "fill_blank",
+        "answers": [
+            "size"
+        ],
+        "other_options": [
+            "type",
+            "length",
+            "count"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import copy\n\na = [[1, 2], [3, 4]]\nb = copy.deepcopy(a)\na[0][0] = 99\nprint(b[0][0])",
+        "o": [
+            "1",
+            "99",
+            "[1, 2]",
+            "Error"
+        ]
+    },
+    {
+        "q": "deepcopy creates completely independent copies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the copy type with its behavior:",
+        "type": "match",
+        "left": [
+            "Assignment",
+            "Shallow copy",
+            "Deep copy",
+            "Slice copy"
+        ],
+        "right": [
+            "Same object",
+            "New outer",
+            "All new",
+            "List only"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import List, Optional\n\ndef process(items: List[int]) -> Optional[int]:\n    return items[0] if items else None\n\nprint(process([1, 2, 3]))",
+        "o": [
+            "1",
+            "[1, 2, 3]",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Type hints are enforced at runtime in Python.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The _____ module provides type hinting tools.",
+        "type": "fill_blank",
+        "answers": [
+            "typing"
+        ],
+        "other_options": [
+            "types",
+            "hints",
+            "annotations"
+        ]
+    },
+    {
+        "q": "Match the typing construct with its meaning:",
+        "type": "match",
+        "left": [
+            "List[int]",
+            "Dict[str, int]",
+            "Optional[T]",
+            "Union[A, B]"
+        ],
+        "right": [
+            "Int list",
+            "Str-int dict",
+            "T or None",
+            "A or B"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import TypeVar, Generic\n\nT = TypeVar('T')\n\nclass Box(Generic[T]):\n    def __init__(self, item: T):\n        self.item = item\n\nb = Box(42)\nprint(type(b.item).__name__)",
+        "o": [
+            "int",
+            "T",
+            "Box",
+            "Error"
+        ]
+    },
+    {
+        "q": "TypeVar creates _____ type variables.",
+        "type": "fill_blank",
+        "answers": [
+            "generic"
+        ],
+        "other_options": [
+            "static",
+            "dynamic",
+            "typed"
+        ]
+    },
+    {
+        "q": "Rearrange type annotation evolution:",
+        "type": "rearrange",
+        "words": [
+            "No hints",
+            "Comment hints",
+            "Function hints",
+            "Variable hints",
+            "Generic"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import dis\n\ndef add(a, b):\n    return a + b\n\nprint('LOAD_FAST' in str(dis.dis(add)))",
+        "o": [
+            "None",
+            "True",
+            "False",
+            "Error"
+        ]
+    },
+    {
+        "q": "The dis module is used to inspect Python _____.",
+        "type": "fill_blank",
+        "answers": [
+            "bytecode"
+        ],
+        "other_options": [
+            "source",
+            "ast",
+            "tokens"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import ast\n\ntree = ast.parse('x = 1 + 2')\nprint(type(tree.body[0]).__name__)",
+        "o": [
+            "Assign",
+            "BinOp",
+            "Num",
+            "Error"
+        ]
+    },
+    {
+        "q": "AST stands for _____ Syntax Tree.",
+        "type": "fill_blank",
+        "answers": [
+            "Abstract"
+        ],
+        "other_options": [
+            "Advanced",
+            "Analyzed",
+            "Automatic"
+        ]
+    },
+    {
+        "q": "Match the compilation stage with its output:",
+        "type": "match",
+        "left": [
+            "Tokenize",
+            "Parse",
+            "Compile",
+            "Execute"
+        ],
+        "right": [
+            "Tokens",
+            "AST",
+            "Bytecode",
+            "Result"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "code = compile('x = 1', 'test', 'exec')\nprint(type(code).__name__)",
+        "o": [
+            "code",
+            "function",
+            "module",
+            "Error"
+        ]
+    },
+    {
+        "q": "compile() creates code objects from source strings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def func():\n    x = 1\n\nprint(func.__code__.co_varnames)",
+        "o": [
+            "('x',)",
+            "['x']",
+            "x",
+            "Error"
+        ]
+    },
+    {
+        "q": "Code objects contain _____ about compiled functions.",
+        "type": "fill_blank",
+        "answers": [
+            "metadata"
+        ],
+        "other_options": [
+            "source",
+            "comments",
+            "tests"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Protocol:\n    def __getattr__(self, name):\n        return f'Missing {name}'\n\np = Protocol()\nprint(p.unknown)",
+        "o": [
+            "Missing unknown",
+            "AttributeError",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "__getattr__ is called when attribute lookup _____.",
+        "type": "fill_blank",
+        "answers": [
+            "fails"
+        ],
+        "other_options": [
+            "starts",
+            "succeeds",
+            "completes"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Proxy:\n    def __init__(self, obj):\n        self._obj = obj\n    def __getattr__(self, name):\n        return getattr(self._obj, name)\n\nclass Real:\n    value = 42\n\np = Proxy(Real())\nprint(p.value)",
+        "o": [
+            "42",
+            "None",
+            "Error",
+            "Proxy"
+        ]
+    },
+    {
+        "q": "The Proxy pattern delegates method calls to another object.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dunder method with its trigger:",
+        "type": "match",
+        "left": [
+            "__getattr__",
+            "__getattribute__",
+            "__setattr__",
+            "__delattr__"
+        ],
+        "right": [
+            "Missing attr",
+            "Any attr get",
+            "Set attr",
+            "Delete attr"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Meta(type):\n    def __call__(cls, *args):\n        print('Creating')\n        return super().__call__(*args)\n\nclass MyClass(metaclass=Meta):\n    pass\n\nobj = MyClass()",
+        "o": [
+            "Creating",
+            "MyClass",
+            "Meta",
+            "Error"
+        ]
+    },
+    {
+        "q": "Metaclass __call__ controls _____ instantiation.",
+        "type": "fill_blank",
+        "answers": [
+            "class"
+        ],
+        "other_options": [
+            "function",
+            "method",
+            "module"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Registry(type):\n    _classes = {}\n    def __new__(cls, name, bases, attrs):\n        klass = super().__new__(cls, name, bases, attrs)\n        cls._classes[name] = klass\n        return klass\n\nclass A(metaclass=Registry): pass\nclass B(metaclass=Registry): pass\n\nprint(len(Registry._classes))",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "Metaclass registries track all created classes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def singleton(cls):\n    instances = {}\n    def get_instance(*args):\n        if cls not in instances:\n            instances[cls] = cls(*args)\n        return instances[cls]\n    return get_instance\n\n@singleton\nclass Config:\n    pass\n\na = Config()\nb = Config()\nprint(a is b)",
+        "o": [
+            "True",
+            "False",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Class decorators can implement the _____ pattern.",
+        "type": "fill_blank",
+        "answers": [
+            "singleton"
+        ],
+        "other_options": [
+            "factory",
+            "observer",
+            "builder"
+        ]
+    },
+    {
+        "q": "Rearrange singleton implementation steps:",
+        "type": "rearrange",
+        "words": [
+            "Check exists",
+            "Create instance",
+            "Store instance",
+            "Return instance"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Cached:\n    _cache = {}\n    def __new__(cls, value):\n        if value not in cls._cache:\n            cls._cache[value] = super().__new__(cls)\n        return cls._cache[value]\n    def __init__(self, value):\n        self.value = value\n\na = Cached(1)\nb = Cached(1)\nprint(a is b)",
+        "o": [
+            "True",
+            "False",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "__new__ is responsible for creating the _____ itself.",
+        "type": "fill_blank",
+        "answers": [
+            "instance"
+        ],
+        "other_options": [
+            "class",
+            "method",
+            "attribute"
+        ]
+    },
+    {
+        "q": "Match the object creation method with its role:",
+        "type": "match",
+        "left": [
+            "__new__",
+            "__init__",
+            "__del__",
+            "__call__"
+        ],
+        "right": [
+            "Create object",
+            "Initialize",
+            "Finalize",
+            "Invoke object"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Fluent:\n    def __init__(self):\n        self.value = 0\n    def add(self, n):\n        self.value += n\n        return self\n    def multiply(self, n):\n        self.value *= n\n        return self\n\nresult = Fluent().add(2).multiply(3).value\nprint(result)",
+        "o": [
+            "6",
+            "5",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "Fluent interfaces allow method _____.",
+        "type": "fill_blank",
+        "answers": [
+            "chaining"
+        ],
+        "other_options": [
+            "overloading",
+            "hiding",
+            "binding"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from contextlib import suppress\n\nwith suppress(KeyError):\n    d = {}\n    print(d['missing'])\nprint('Done')",
+        "o": [
+            "Done",
+            "KeyError",
+            "None Done",
+            "Error"
+        ]
+    },
+    {
+        "q": "contextlib.suppress ignores specified exceptions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from contextlib import ExitStack\n\nwith ExitStack() as stack:\n    files = [stack.enter_context(open(__file__, 'r')) for _ in range(2)]\n    print(len(files))",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "ExitStack manages multiple _____ managers dynamically.",
+        "type": "fill_blank",
+        "answers": [
+            "context"
+        ],
+        "other_options": [
+            "exception",
+            "file",
+            "resource"
+        ]
+    },
+    {
+        "q": "Match the contextlib utility with its purpose:",
+        "type": "match",
+        "left": [
+            "suppress",
+            "redirect_stdout",
+            "ExitStack",
+            "closing"
+        ],
+        "right": [
+            "Ignore error",
+            "Capture output",
+            "Dynamic mgrs",
+            "Auto close"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class LazyProperty:\n    def __init__(self, func):\n        self.func = func\n    def __get__(self, obj, cls):\n        if obj is None:\n            return self\n        value = self.func(obj)\n        setattr(obj, self.func.__name__, value)\n        return value\n\nclass Data:\n    @LazyProperty\n    def computed(self):\n        print('Computing')\n        return 42\n\nd = Data()\nprint(d.computed, d.computed)",
+        "o": [
+            "Computing 42 42",
+            "Computing 42 Computing 42",
+            "42 42",
+            "Error"
+        ]
+    },
+    {
+        "q": "Lazy properties compute values only _____.",
+        "type": "fill_blank",
+        "answers": [
+            "once"
+        ],
+        "other_options": [
+            "twice",
+            "never",
+            "always"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Validator:\n    def __set_name__(self, owner, name):\n        self.name = name\n    def __get__(self, obj, cls):\n        return obj.__dict__.get(self.name)\n    def __set__(self, obj, value):\n        if not isinstance(value, int):\n            raise TypeError('Must be int')\n        obj.__dict__[self.name] = value\n\nclass Model:\n    age = Validator()\n\nm = Model()\nm.age = 25\nprint(m.age)",
+        "o": [
+            "25",
+            "Validator",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Descriptors enable custom _____ validation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange descriptor protocol methods:",
+        "type": "rearrange",
+        "words": [
+            "__set_name__",
+            "__get__",
+            "__set__",
+            "__delete__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import operator\n\nadd = operator.add\nresult = add(2, 3)\nprint(result)",
+        "o": [
+            "5",
+            "2 3",
+            "add",
+            "Error"
+        ]
+    },
+    {
+        "q": "The operator module provides function versions of _____.",
+        "type": "fill_blank",
+        "answers": [
+            "operators"
+        ],
+        "other_options": [
+            "methods",
+            "classes",
+            "modules"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import operator\n\ndata = [{'x': 3}, {'x': 1}, {'x': 2}]\nsorted_data = sorted(data, key=operator.itemgetter('x'))\nprint([d['x'] for d in sorted_data])",
+        "o": [
+            "[1, 2, 3]",
+            "[3, 1, 2]",
+            "[3, 2, 1]",
+            "Error"
+        ]
+    },
+    {
+        "q": "itemgetter creates functions that extract _____ values.",
+        "type": "fill_blank",
+        "answers": [
+            "key"
+        ],
+        "other_options": [
+            "index",
+            "type",
+            "class"
+        ]
+    },
+    {
+        "q": "Match the operator function with its equivalent:",
+        "type": "match",
+        "left": [
+            "add",
+            "mul",
+            "itemgetter",
+            "attrgetter"
+        ],
+        "right": [
+            "a + b",
+            "a * b",
+            "obj[key]",
+            "obj.attr"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Observable:\n    def __init__(self):\n        self._observers = []\n    def attach(self, observer):\n        self._observers.append(observer)\n    def notify(self, msg):\n        for obs in self._observers:\n            obs(msg)\n\no = Observable()\no.attach(lambda x: print(x))\no.notify('Hi')",
+        "o": [
+            "Hi",
+            "Observable",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "The Observer pattern implements _____ notifications.",
+        "type": "fill_blank",
+        "answers": [
+            "event"
+        ],
+        "other_options": [
+            "error",
+            "log",
+            "state"
+        ]
+    },
+    {
+        "q": "Observers are notified when the subject state changes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Builder:\n    def __init__(self):\n        self.parts = []\n    def add_part(self, part):\n        self.parts.append(part)\n        return self\n    def build(self):\n        return '-'.join(self.parts)\n\nresult = Builder().add_part('a').add_part('b').build()\nprint(result)",
+        "o": [
+            "a-b",
+            "['a', 'b']",
+            "ab",
+            "Error"
+        ]
+    },
+    {
+        "q": "The Builder pattern constructs objects _____.",
+        "type": "fill_blank",
+        "answers": [
+            "step-by-step"
+        ],
+        "other_options": [
+            "instantly",
+            "randomly",
+            "recursively"
+        ]
+    },
+    {
+        "q": "Match the design pattern with its type:",
+        "type": "match",
+        "left": [
+            "Singleton",
+            "Factory",
+            "Adapter",
+            "Observer"
+        ],
+        "right": [
+            "Creational",
+            "Creational",
+            "Structural",
+            "Behavioral"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Strategy:\n    def execute(self, data):\n        raise NotImplementedError\n\nclass SumStrategy(Strategy):\n    def execute(self, data):\n        return sum(data)\n\nclass Context:\n    def __init__(self, strategy):\n        self.strategy = strategy\n    def run(self, data):\n        return self.strategy.execute(data)\n\nctx = Context(SumStrategy())\nprint(ctx.run([1, 2, 3]))",
+        "o": [
+            "6",
+            "[1, 2, 3]",
+            "SumStrategy",
+            "Error"
+        ]
+    },
+    {
+        "q": "Strategy pattern allows swapping _____ at runtime.",
+        "type": "fill_blank",
+        "answers": [
+            "algorithms"
+        ],
+        "other_options": [
+            "classes",
+            "modules",
+            "variables"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from functools import singledispatch\n\n@singledispatch\ndef process(arg):\n    return 'unknown'\n\n@process.register(int)\ndef _(arg):\n    return 'int'\n\n@process.register(str)\ndef _(arg):\n    return 'str'\n\nprint(process(42), process('hi'))",
+        "o": [
+            "int str",
+            "unknown unknown",
+            "42 hi",
+            "Error"
+        ]
+    },
+    {
+        "q": "singledispatch provides _____ dispatch based on argument type.",
+        "type": "fill_blank",
+        "answers": [
+            "single"
+        ],
+        "other_options": [
+            "double",
+            "triple",
+            "multi"
+        ]
+    },
+    {
+        "q": "singledispatch is a form of function overloading.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from abc import ABC, abstractmethod\n\nclass Command(ABC):\n    @abstractmethod\n    def execute(self): pass\n\nclass PrintCmd(Command):\n    def __init__(self, msg):\n        self.msg = msg\n    def execute(self):\n        print(self.msg)\n\ncmd = PrintCmd('Hello')\ncmd.execute()",
+        "o": [
+            "Hello",
+            "PrintCmd",
+            "Command",
+            "Error"
+        ]
+    },
+    {
+        "q": "The Command pattern encapsulates _____ as objects.",
+        "type": "fill_blank",
+        "answers": [
+            "requests"
+        ],
+        "other_options": [
+            "responses",
+            "errors",
+            "data"
+        ]
+    },
+    {
+        "q": "Rearrange OOP principles by abstraction level:",
+        "type": "rearrange",
+        "words": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Abstraction"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Immutable:\n    __slots__ = ('_value',)\n    def __init__(self, value):\n        object.__setattr__(self, '_value', value)\n    def __setattr__(self, name, value):\n        raise AttributeError('Immutable')\n    @property\n    def value(self):\n        return self._value\n\ni = Immutable(42)\nprint(i.value)",
+        "o": [
+            "42",
+            "Immutable",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Immutable objects prevent _____ after creation.",
+        "type": "fill_blank",
+        "answers": [
+            "modification"
+        ],
+        "other_options": [
+            "access",
+            "reading",
+            "copying"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Mixin:\n    def greet(self):\n        return 'Hello'\n\nclass Base:\n    pass\n\nclass Child(Mixin, Base):\n    pass\n\nprint(Child().greet())",
+        "o": [
+            "Hello",
+            "Error",
+            "None",
+            "Child"
+        ]
+    },
+    {
+        "q": "Mixins provide reusable _____ without inheritance overhead.",
+        "type": "fill_blank",
+        "answers": [
+            "functionality"
+        ],
+        "other_options": [
+            "state",
+            "variables",
+            "attributes"
+        ]
+    },
+    {
+        "q": "Match the inheritance type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Single",
+            "Multiple",
+            "Mixin",
+            "Abstract"
+        ],
+        "right": [
+            "One parent",
+            "Many parents",
+            "Behavior reuse",
+            "Template class"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class A:\n    def method(self):\n        return 'A'\n\nclass B(A):\n    def method(self):\n        return super().method() + 'B'\n\nclass C(A):\n    def method(self):\n        return super().method() + 'C'\n\nclass D(B, C):\n    def method(self):\n        return super().method() + 'D'\n\nprint(D().method())",
+        "o": [
+            "ACBD",
+            "ABD",
+            "ACD",
+            "Error"
+        ]
+    },
+    {
+        "q": "Python uses C3 linearization for MRO calculation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "MRO stands for Method _____ Order.",
+        "type": "fill_blank",
+        "answers": [
+            "Resolution"
+        ],
+        "other_options": [
+            "Routing",
+            "Register",
+            "Return"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import functools\n\ndef memoize(func):\n    cache = {}\n    @functools.wraps(func)\n    def wrapper(*args):\n        if args not in cache:\n            cache[args] = func(*args)\n        return cache[args]\n    return wrapper\n\n@memoize\ndef fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\n\nprint(fib(10))",
+        "o": [
+            "55",
+            "34",
+            "89",
+            "Error"
+        ]
+    },
+    {
+        "q": "Memoization trades _____ for speed.",
+        "type": "fill_blank",
+        "answers": [
+            "memory"
+        ],
+        "other_options": [
+            "accuracy",
+            "readability",
+            "simplicity"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Protocol:\n    def __iter__(self):\n        return iter([1, 2, 3])\n\nfor x in Protocol():\n    print(x, end=' ')",
+        "o": [
+            "1 2 3",
+            "Protocol",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Iterables must implement the _____ method.",
+        "type": "fill_blank",
+        "answers": [
+            "__iter__"
+        ],
+        "other_options": [
+            "__next__",
+            "__list__",
+            "__loop__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Counter:\n    def __init__(self, n):\n        self.n = n\n        self.i = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.i >= self.n:\n            raise StopIteration\n        self.i += 1\n        return self.i\n\nprint(list(Counter(3)))",
+        "o": [
+            "[1, 2, 3]",
+            "[0, 1, 2]",
+            "[0, 1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "Iterators must implement both __iter__ and __next__.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the protocol with its required methods:",
+        "type": "match",
+        "left": [
+            "Iterable",
+            "Iterator",
+            "Context Mgr",
+            "Descriptor"
+        ],
+        "right": [
+            "__iter__",
+            "__iter__ __next__",
+            "__enter__ __exit__",
+            "__get__ __set__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Sequence:\n    def __init__(self, data):\n        self.data = data\n    def __len__(self):\n        return len(self.data)\n    def __getitem__(self, i):\n        return self.data[i]\n\nprint(len(Sequence([1,2,3])))",
+        "o": [
+            "3",
+            "Sequence",
+            "[1, 2, 3]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The sequence protocol requires __len__ and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "__getitem__"
+        ],
+        "other_options": [
+            "__setitem__",
+            "__iter__",
+            "__contains__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Hashable:\n    def __init__(self, v):\n        self.v = v\n    def __hash__(self):\n        return hash(self.v)\n    def __eq__(self, other):\n        return self.v == other.v\n\ns = {Hashable(1), Hashable(1)}\nprint(len(s))",
+        "o": [
+            "1",
+            "2",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "Hashable objects must define __hash__ and __eq__.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Comparable:\n    def __init__(self, v):\n        self.v = v\n    def __lt__(self, other):\n        return self.v < other.v\n\nitems = [Comparable(3), Comparable(1), Comparable(2)]\nprint([x.v for x in sorted(items)])",
+        "o": [
+            "[1, 2, 3]",
+            "[3, 2, 1]",
+            "[3, 1, 2]",
+            "Error"
+        ]
+    },
+    {
+        "q": "The functools.total_ordering decorator generates missing comparison methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dunder method with its operation:",
+        "type": "match",
+        "left": [
+            "__hash__",
+            "__eq__",
+            "__lt__",
+            "__bool__"
+        ],
+        "right": [
+            "hash()",
+            "==",
+            "<",
+            "bool()"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Callable:\n    def __call__(self, x):\n        return x * 2\n\nf = Callable()\nprint(f(5))",
+        "o": [
+            "10",
+            "5",
+            "Callable",
+            "Error"
+        ]
+    },
+    {
+        "q": "Objects with __call__ can be used like _____.",
+        "type": "fill_blank",
+        "answers": [
+            "functions"
+        ],
+        "other_options": [
+            "classes",
+            "modules",
+            "methods"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Adder:\n    def __init__(self, n):\n        self.n = n\n    def __call__(self, x):\n        return self.n + x\n    def __repr__(self):\n        return f'Adder({self.n})'\n\na = Adder(10)\nprint(a(5), repr(a))",
+        "o": [
+            "15 Adder(10)",
+            "10 5",
+            "15",
+            "Error"
+        ]
+    },
+    {
+        "q": "__repr__ returns a _____ representation of an object.",
+        "type": "fill_blank",
+        "answers": [
+            "developer"
+        ],
+        "other_options": [
+            "user",
+            "simple",
+            "visual"
+        ]
+    },
+    {
+        "q": "Rearrange dunder methods by specificity:",
+        "type": "rearrange",
+        "words": [
+            "__str__",
+            "__repr__",
+            "__format__",
+            "__bytes__"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import unittest\n\nclass Test(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(1 + 1, 2)\n\nprint(hasattr(Test, 'test_add'))",
+        "o": [
+            "True",
+            "False",
+            "Test",
+            "Error"
+        ]
+    },
+    {
+        "q": "unittest test methods must start with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "test_"
+        ],
+        "other_options": [
+            "check_",
+            "verify_",
+            "run_"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import pytest\n\ndef test_basic():\n    assert 1 + 1 == 2\n\nprint(test_basic())",
+        "o": [
+            "None",
+            "True",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "pytest uses assert statements for test assertions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the testing term with its definition:",
+        "type": "match",
+        "left": [
+            "Unit test",
+            "Integration test",
+            "Fixture",
+            "Mock"
+        ],
+        "right": [
+            "Single function",
+            "Combined modules",
+            "Test setup",
+            "Fake object"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from unittest.mock import Mock\n\nm = Mock()\nm.greet.return_value = 'Hi'\nprint(m.greet())",
+        "o": [
+            "Hi",
+            "Mock",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Mocks simulate _____ for isolated testing.",
+        "type": "fill_blank",
+        "answers": [
+            "dependencies"
+        ],
+        "other_options": [
+            "errors",
+            "outputs",
+            "results"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from unittest.mock import patch\n\ndef get_data():\n    return 'real'\n\nwith patch('__main__.get_data', return_value='fake'):\n    print(get_data())",
+        "o": [
+            "fake",
+            "real",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "The patch decorator replaces objects during testing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import logging\n\nlogging.basicConfig(level=logging.DEBUG)\nlogger = logging.getLogger(__name__)\nlogger.debug('Test')\nprint('Done')",
+        "o": [
+            "Done",
+            "DEBUG:Test",
+            "Test Done",
+            "Error"
+        ]
+    },
+    {
+        "q": "Logging levels from lowest to highest: DEBUG, INFO, WARNING, ERROR, _____.",
+        "type": "fill_blank",
+        "answers": [
+            "CRITICAL"
+        ],
+        "other_options": [
+            "FATAL",
+            "SEVERE",
+            "ALERT"
+        ]
+    },
+    {
+        "q": "Match the logging level with its use:",
+        "type": "match",
+        "left": [
+            "DEBUG",
+            "INFO",
+            "WARNING",
+            "ERROR"
+        ],
+        "right": [
+            "Diagnostic",
+            "General",
+            "Potential issue",
+            "Failure"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import time\n\nstart = time.perf_counter()\nsum(range(1000))\nend = time.perf_counter()\nprint(end > start)",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "time.perf_counter is preferred for _____ measurements.",
+        "type": "fill_blank",
+        "answers": [
+            "performance"
+        ],
+        "other_options": [
+            "date",
+            "timezone",
+            "calendar"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import timeit\n\nt = timeit.timeit('sum(range(100))', number=1000)\nprint(t > 0)",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "Error"
+        ]
+    },
+    {
+        "q": "timeit provides accurate timing by running code multiple times.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import cProfile\n\ndef fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\n\nprint(hasattr(cProfile, 'run'))",
+        "o": [
+            "True",
+            "False",
+            "run",
+            "Error"
+        ]
+    },
+    {
+        "q": "cProfile is used for _____ Python programs.",
+        "type": "fill_blank",
+        "answers": [
+            "profiling"
+        ],
+        "other_options": [
+            "debugging",
+            "testing",
+            "compiling"
+        ]
+    },
+    {
+        "q": "Rearrange performance tools by granularity:",
+        "type": "rearrange",
+        "words": [
+            "timeit",
+            "cProfile",
+            "line_profiler",
+            "memory_profiler"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import pdb\n\ndef buggy():\n    x = 1\n    return x\n\nprint(hasattr(pdb, 'set_trace'))",
+        "o": [
+            "True",
+            "False",
+            "set_trace",
+            "Error"
+        ]
+    },
+    {
+        "q": "pdb is Python's built-in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "debugger"
+        ],
+        "other_options": [
+            "profiler",
+            "tester",
+            "compiler"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import traceback\n\ntry:\n    1/0\nexcept:\n    tb = traceback.format_exc()\n    print('ZeroDivisionError' in tb)",
+        "o": [
+            "True",
+            "False",
+            "Error",
+            "None"
+        ]
+    },
+    {
+        "q": "Match the debugging tool with its purpose:",
+        "type": "match",
+        "left": [
+            "pdb",
+            "traceback",
+            "logging",
+            "assert"
+        ],
+        "right": [
+            "Interactive debug",
+            "Error trace",
+            "Record events",
+            "Check condition"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import Protocol\n\nclass Drawable(Protocol):\n    def draw(self) -> None: ...\n\nclass Circle:\n    def draw(self) -> None:\n        print('O')\n\ndef render(d: Drawable):\n    d.draw()\n\nrender(Circle())",
+        "o": [
+            "O",
+            "Circle",
+            "Drawable",
+            "Error"
+        ]
+    },
+    {
+        "q": "typing.Protocol enables _____ typing in Python.",
+        "type": "fill_blank",
+        "answers": [
+            "structural"
+        ],
+        "other_options": [
+            "nominal",
+            "dynamic",
+            "static"
+        ]
+    },
+    {
+        "q": "Structural typing checks interface compatibility, not inheritance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import Callable\n\ndef apply(func: Callable[[int], int], x: int) -> int:\n    return func(x)\n\nprint(apply(lambda x: x * 2, 5))",
+        "o": [
+            "10",
+            "5",
+            "Callable",
+            "Error"
+        ]
+    },
+    {
+        "q": "Callable type hints specify _____ signatures.",
+        "type": "fill_blank",
+        "answers": [
+            "function"
+        ],
+        "other_options": [
+            "class",
+            "method",
+            "module"
+        ]
+    },
+    {
+        "q": "Match the typing feature with Python version:",
+        "type": "match",
+        "left": [
+            "Type hints",
+            "TypedDict",
+            "Literal",
+            "ParamSpec"
+        ],
+        "right": [
+            "3.5",
+            "3.8",
+            "3.8",
+            "3.10"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from dataclasses import dataclass\nfrom typing import ClassVar\n\n@dataclass\nclass Counter:\n    count: ClassVar[int] = 0\n    value: int = 0\n\nCounter.count = 5\nprint(Counter.count)",
+        "o": [
+            "5",
+            "0",
+            "ClassVar",
+            "Error"
+        ]
+    },
+    {
+        "q": "ClassVar indicates class-level _____ in dataclasses.",
+        "type": "fill_blank",
+        "answers": [
+            "attributes"
+        ],
+        "other_options": [
+            "methods",
+            "types",
+            "constants"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import Final\n\nMAX: Final = 100\nprint(MAX)",
+        "o": [
+            "100",
+            "Final",
+            "MAX",
+            "Error"
+        ]
+    },
+    {
+        "q": "Final indicates a variable should not be reassigned.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from enum import Enum, auto\n\nclass Color(Enum):\n    RED = auto()\n    GREEN = auto()\n    BLUE = auto()\n\nprint(Color.RED.value)",
+        "o": [
+            "1",
+            "RED",
+            "auto()",
+            "Error"
+        ]
+    },
+    {
+        "q": "auto() automatically assigns _____ values to enum members.",
+        "type": "fill_blank",
+        "answers": [
+            "integer"
+        ],
+        "other_options": [
+            "string",
+            "float",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange enum features by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Basic enum",
+            "IntEnum",
+            "Flag",
+            "IntFlag"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from enum import Flag, auto\n\nclass Perm(Flag):\n    R = auto()\n    W = auto()\n    X = auto()\n\np = Perm.R | Perm.W\nprint(Perm.R in p)",
+        "o": [
+            "True",
+            "False",
+            "R",
+            "Error"
+        ]
+    },
+    {
+        "q": "Flag enums support _____ operations.",
+        "type": "fill_blank",
+        "answers": [
+            "bitwise"
+        ],
+        "other_options": [
+            "string",
+            "math",
+            "logical"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from pathlib import Path\n\np = Path('/a/b/c.txt')\nprint(p.suffix)",
+        "o": [
+            ".txt",
+            "c.txt",
+            "c",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the pathlib attribute with its value:",
+        "type": "match",
+        "left": [
+            "stem",
+            "suffix",
+            "parent",
+            "name"
+        ],
+        "right": [
+            "Filename no ext",
+            "Extension",
+            "Parent dir",
+            "Full filename"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from pathlib import Path\n\np = Path('/a/b') / 'c.txt'\nprint(p.exists() or str(p).endswith('c.txt'))",
+        "o": [
+            "True",
+            "False",
+            "/a/b/c.txt",
+            "Error"
+        ]
+    },
+    {
+        "q": "pathlib.Path uses / operator for path _____.",
+        "type": "fill_blank",
+        "answers": [
+            "joining"
+        ],
+        "other_options": [
+            "splitting",
+            "creating",
+            "deleting"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import os\nfrom contextlib import contextmanager\n\n@contextmanager\ndef temp_chdir(path):\n    old = os.getcwd()\n    try:\n        os.chdir(path)\n        yield\n    finally:\n        os.chdir(old)\n\nprint(hasattr(temp_chdir, '__call__'))",
+        "o": [
+            "True",
+            "False",
+            "temp_chdir",
+            "Error"
+        ]
+    },
+    {
+        "q": "Context managers ensure cleanup using _____.",
+        "type": "fill_blank",
+        "answers": [
+            "finally"
+        ],
+        "other_options": [
+            "except",
+            "else",
+            "return"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import struct\n\npacked = struct.pack('!I', 1024)\nprint(len(packed))",
+        "o": [
+            "4",
+            "1024",
+            "2",
+            "Error"
+        ]
+    },
+    {
+        "q": "struct module handles _____ data formats.",
+        "type": "fill_blank",
+        "answers": [
+            "binary"
+        ],
+        "other_options": [
+            "text",
+            "JSON",
+            "XML"
+        ]
+    },
+    {
+        "q": "Match the struct format with its type:",
+        "type": "match",
+        "left": [
+            "i",
+            "f",
+            "d",
+            "s"
+        ],
+        "right": [
+            "int",
+            "float",
+            "double",
+            "string"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import array\n\na = array.array('i', [1, 2, 3])\na.append(4)\nprint(len(a))",
+        "o": [
+            "4",
+            "3",
+            "10",
+            "Error"
+        ]
+    },
+    {
+        "q": "array.array is more _____ efficient than lists for homogeneous data.",
+        "type": "fill_blank",
+        "answers": [
+            "memory"
+        ],
+        "other_options": [
+            "time",
+            "code",
+            "type"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import NamedTuple\n\nclass Point(NamedTuple):\n    x: int\n    y: int\n\np = Point(1, 2)\nprint(p.x + p.y)",
+        "o": [
+            "3",
+            "Point",
+            "(1, 2)",
+            "Error"
+        ]
+    },
+    {
+        "q": "NamedTuple is a typed alternative to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "namedtuple"
+        ],
+        "other_options": [
+            "dataclass",
+            "dict",
+            "tuple"
+        ]
+    },
+    {
+        "q": "Rearrange data container types by features:",
+        "type": "rearrange",
+        "words": [
+            "tuple",
+            "namedtuple",
+            "NamedTuple",
+            "dataclass"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from typing import TypedDict\n\nclass Person(TypedDict):\n    name: str\n    age: int\n\np: Person = {'name': 'Alice', 'age': 30}\nprint(p['name'])",
+        "o": [
+            "Alice",
+            "Person",
+            "name",
+            "Error"
+        ]
+    },
+    {
+        "q": "TypedDict provides type hints for _____ structures.",
+        "type": "fill_blank",
+        "answers": [
+            "dictionary"
+        ],
+        "other_options": [
+            "list",
+            "tuple",
+            "set"
+        ]
+    },
+    {
+        "q": "Match the typing construct with its base type:",
+        "type": "match",
+        "left": [
+            "TypedDict",
+            "NamedTuple",
+            "dataclass",
+            "Enum"
+        ],
+        "right": [
+            "dict",
+            "tuple",
+            "object",
+            "type"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class Meta:\n    __slots__ = ['name']\n    def __init__(self, name):\n        self.name = name\n\nm = Meta('test')\nprint(hasattr(m, '__dict__'))",
+        "o": [
+            "False",
+            "True",
+            "test",
+            "Error"
+        ]
+    },
+    {
+        "q": "__slots__ disables instance _____ creation.",
+        "type": "fill_blank",
+        "answers": [
+            "__dict__"
+        ],
+        "other_options": [
+            "__class__",
+            "__name__",
+            "__module__"
+        ]
+    },
+    {
+        "q": "Using __slots__ can reduce memory by up to 50% for many instances.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

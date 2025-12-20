@@ -1,0 +1,59 @@
+{
+    "id": "learn_scientists",
+    "topicId": "scientists",
+    "topicTitle": "Famous Scientists",
+    "description": "Explore the lives and contributions of history's greatest scientists",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "scientists_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Famous Scientists 👨‍🔬\n\n## Giants of Science\nThe people who shaped our understanding of the universe."
+        },
+        {
+            "id": "scientists_2",
+            "type": "content",
+            "title": "Physicists",
+            "content": "# Famous Physicists ⚛️\n\n| Scientist | Known For |\n|-----------|----------|\n| Isaac Newton | Gravity, calculus |\n| Albert Einstein | Relativity, E=mc² |\n| Niels Bohr | Atomic model |\n| Stephen Hawking | Black holes |\n| Richard Feynman | QED |"
+        },
+        {
+            "id": "scientists_3",
+            "type": "content",
+            "title": "Biologists",
+            "content": "# Famous Biologists 🧬\n\n| Scientist | Known For |\n|-----------|----------|\n| Charles Darwin | Evolution |\n| Gregor Mendel | Genetics |\n| Louis Pasteur | Germ theory |\n| Rosalind Franklin | DNA X-ray |\n| Jane Goodall | Primatology |"
+        },
+        {
+            "id": "scientists_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Who is known as the 'father of genetics'?",
+            "quizOptions": [
+                "Darwin",
+                "Mendel",
+                "Pasteur",
+                "Watson"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "scientists_4",
+            "type": "content",
+            "title": "Chemists",
+            "content": "# Famous Chemists ⚗️\n\n| Scientist | Known For |\n|-----------|----------|\n| Marie Curie | Radioactivity |\n| Dmitri Mendeleev | Periodic table |\n| Antoine Lavoisier | Modern chemistry |\n| Linus Pauling | Chemical bonds |"
+        },
+        {
+            "id": "scientists_5",
+            "type": "content",
+            "title": "Women in Science",
+            "content": "# Women in Science 👩‍🔬\n\n| Scientist | Field | Achievement |\n|-----------|-------|-------------|\n| Marie Curie | Chemistry | 2 Nobel Prizes |\n| Ada Lovelace | Computing | First programmer |\n| Rachel Carson | Environment | Silent Spring |\n| Hypatia | Math | Ancient scholar |"
+        },
+        {
+            "id": "scientists_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Physics: Newton, Einstein, Hawking\n- Biology: Darwin, Pasteur, Franklin\n- Chemistry: Curie, Mendeleev\n- Women pioneers in all fields"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": "learn_prog",
+    "topicId": "prog",
+    "topicTitle": "Programming Concepts",
+    "description": "Explore variables, control structures, functions, and OOP",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "prog_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Programming Concepts 💻\n\n## Topics\n- Variables & data types\n- Control structures\n- Functions & recursion\n- Object-oriented programming"
+        },
+        {
+            "id": "prog_2",
+            "type": "content",
+            "title": "Variables",
+            "content": "# Variables & Data Types 📦\n\n## Common Types\n| Type | Examples |\n|------|----------|\n| Integer | 1, -5, 100 |\n| Float | 3.14, -2.5 |\n| String | \"Hello\" |\n| Boolean | true, false |\n| Array | [1, 2, 3] |"
+        },
+        {
+            "id": "prog_3",
+            "type": "content",
+            "title": "Control Structures",
+            "content": "# Control Structures 🔀\n\n## Conditionals\n```\nif condition:\n    do_something\nelse:\n    do_other\n```\n\n## Loops\n| Type | Use |\n|------|-----|\n| for | Known iterations |\n| while | Condition-based |\n| do-while | At least once |"
+        },
+        {
+            "id": "prog_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Which loop guarantees at least one execution?",
+            "quizOptions": [
+                "for",
+                "while",
+                "do-while",
+                "if"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "prog_4",
+            "type": "content",
+            "title": "Functions",
+            "content": "# Functions 📝\n\n## Benefits\n- Code reuse\n- Modularity\n- Abstraction\n\n## Recursion\n```\nfunction factorial(n):\n    if n <= 1: return 1\n    return n * factorial(n-1)\n```"
+        },
+        {
+            "id": "prog_5",
+            "type": "content",
+            "title": "OOP",
+            "content": "# Object-Oriented Programming 🏗️\n\n## Pillars\n| Concept | Description |\n|---------|-------------|\n| Encapsulation | Hide data |\n| Inheritance | Reuse/extend |\n| Polymorphism | Many forms |\n| Abstraction | Hide complexity |"
+        },
+        {
+            "id": "prog_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Variables hold data\n- if/else, loops for control\n- Functions for reuse\n- OOP: 4 pillars"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": "learn_chem",
+    "topicId": "chem",
+    "topicTitle": "Chemical Engineering",
+    "description": "Explore chemical reactors, mass transfer, thermodynamics, and polymer engineering",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Chemical Engineering 🧪\n\n## Topics\n- Chemical reactors\n- Mass transfer\n- Thermodynamics\n- Polymer engineering"
+        },
+        {
+            "id": "chem_2",
+            "type": "content",
+            "title": "Reactors",
+            "content": "# Chemical Reactors ⚗️\n\n| Type | Flow |\n|------|------|\n| Batch | None |\n| CSTR | Continuous, mixed |\n| PFR | Continuous, plug flow |\n\n## Design\n- Conversion\n- Residence time\n- Temperature control"
+        },
+        {
+            "id": "chem_3",
+            "type": "content",
+            "title": "Mass Transfer",
+            "content": "# Mass Transfer 💨\n\n## Processes\n| Process | Principle |\n|---------|----------|\n| Distillation | Volatility |\n| Absorption | Solubility |\n| Extraction | Partition |\n| Adsorption | Surface binding |\n\n## Fick's Law\nJ = -D(dC/dx)"
+        },
+        {
+            "id": "chem_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "CSTR stands for:",
+            "quizOptions": [
+                "Batch reactor",
+                "Continuous Stirred Tank Reactor",
+                "Plug flow",
+                "None"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_4",
+            "type": "content",
+            "title": "Thermo",
+            "content": "# Process Thermodynamics 🌡️\n\n## Key Concepts\n- Energy balance\n- Phase equilibria\n- Chemical equilibrium\n- Reaction kinetics\n\n## Applications\n- Heat exchangers\n- Separation processes\n- Reaction optimization"
+        },
+        {
+            "id": "chem_5",
+            "type": "content",
+            "title": "Polymers",
+            "content": "# Polymer Engineering 🔗\n\n## Types\n| Polymer | Example |\n|---------|--------|\n| Thermoplastic | PET, HDPE |\n| Thermoset | Epoxy |\n| Elastomer | Rubber |\n\n## Processing\n- Extrusion\n- Injection molding\n- Blow molding"
+        },
+        {
+            "id": "chem_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Reactors: Batch, CSTR, PFR\n- Mass transfer: Distillation, extraction\n- Thermodynamics: Energy balance\n- Polymers: Thermoplastic vs thermoset"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": "learn_trig",
+    "topicId": "trig",
+    "topicTitle": "Trigonometry",
+    "description": "Explore trigonometric functions, identities, and applications",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "trig_1",
+            "type": "content",
+            "title": "Welcome to Trigonometry",
+            "content": "# Introduction to Trigonometry 📐\n\n## What you'll learn:\n- **Trig Functions** - Sine, cosine, tangent\n- **Identities** - Key relationships\n- **Triangle Applications** - Solving triangles\n- **Polar Coordinates** - Alternative system\n\n## The Unit Circle\n\n```\n          90°\n           │\n    II     │     I\n180° ──────●────── 0°\n   III     │    IV\n          270°\n```\n\n## SOH-CAH-TOA\n\n| Function | Ratio |\n|----------|-------|\n| **S**ine | **O**pp/**H**yp |\n| **C**osine | **A**dj/**H**yp |\n| **T**angent | **O**pp/**A**dj |"
+        },
+        {
+            "id": "trig_2",
+            "type": "content",
+            "title": "Trig Functions",
+            "content": "# Trigonometric Functions 📊\n\n## Special Angles\n\n| θ | sin θ | cos θ | tan θ |\n|---|-------|-------|-------|\n| 0° | 0 | 1 | 0 |\n| 30° | 1/2 | √3/2 | 1/√3 |\n| 45° | √2/2 | √2/2 | 1 |\n| 60° | √3/2 | 1/2 | √3 |\n| 90° | 1 | 0 | undef |\n\n## Radians\n\n```\n360° = 2π radians\n180° = π radians\n```\n\n## Key Properties\n\n| Property | Value |\n|----------|-------|\n| Period (sin, cos) | 2π |\n| Period (tan) | π |\n| Range (sin, cos) | [-1, 1] |\n\n> 🎯 **Key Point:** sin²θ + cos²θ = 1 always!"
+        },
+        {
+            "id": "trig_3",
+            "type": "content",
+            "title": "Identities",
+            "content": "# Trigonometric Identities 🔄\n\n## Pythagorean\n```\nsin²θ + cos²θ = 1\n1 + tan²θ = sec²θ\n```\n\n## Sum/Difference\n```\nsin(A ± B) = sin A cos B ± cos A sin B\ncos(A ± B) = cos A cos B ∓ sin A sin B\n```\n\n## Double Angle\n```\nsin 2θ = 2 sin θ cos θ\ncos 2θ = cos²θ - sin²θ\n```\n\n## Even-Odd\n```\nsin(-θ) = -sin θ (odd)\ncos(-θ) = cos θ (even)\n```"
+        },
+        {
+            "id": "trig_quiz_1",
+            "type": "quiz",
+            "title": "Trig Quiz",
+            "content": "Test your skills!",
+            "quizQuestion": "What is sin(30°)?",
+            "quizOptions": [
+                "1/2",
+                "√3/2",
+                "√2/2",
+                "1"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "trig_4",
+            "type": "content",
+            "title": "Solving Triangles",
+            "content": "# Solving Triangles 🔺\n\n## Law of Sines\n```\na/sin A = b/sin B = c/sin C\n```\nUse for AAS, ASA, SSA.\n\n## Law of Cosines\n```\nc² = a² + b² - 2ab cos C\n```\nUse for SAS, SSS.\n\n## Area\n```\nArea = (1/2)ab sin C\n```"
+        },
+        {
+            "id": "trig_5",
+            "type": "content",
+            "title": "Polar Coordinates",
+            "content": "# Polar Coordinates 🌀\n\n## Conversion\n```\nx = r cos θ,  y = r sin θ\nr = √(x² + y²),  θ = tan⁻¹(y/x)\n```\n\n## Common Curves\n| Curve | Equation |\n|-------|----------|\n| Circle | r = a |\n| Cardioid | r = a(1 + cos θ) |\n| Rose | r = a sin(nθ) |"
+        },
+        {
+            "id": "trig_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n## Key Formulas\n| Law | Formula |\n|-----|--------|\n| Sines | a/sin A = b/sin B |\n| Cosines | c² = a² + b² - 2ab cos C |\n\n## Identities\n- sin²θ + cos²θ = 1\n- sin 2θ = 2 sin θ cos θ\n\n## Polar\n- x = r cos θ, y = r sin θ"
+        }
+    ]
+}

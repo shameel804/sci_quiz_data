@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Linear Models 📈",
+        "ques": "A car rental costs $30/day plus $0.20/mile.\n1. Write the cost function\n2. Graph it\n3. Cost for 3 days and 150 miles?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Cost function:**\nC(d, m) = 30d + 0.20m\n\n**2. For fixed days (d=1):**\nC = 30 + 0.20m (linear, y-intercept 30, slope 0.20)\n\n**3. Cost calculation:**\nC = 30(3) + 0.20(150) = 90 + 30 = **$120**"
+        },
+        "explanation": "**Linear models** have constant rate of change. Form: y = mx + b (slope + intercept)."
+    },
+    {
+        "title": "Exponential Growth 📊",
+        "ques": "Bacteria double every 20 minutes. Starting with 100:\n1. Write population function\n2. Population after 2 hours?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Population function:**\nP(t) = 100 × 2^(t/20)\nwhere t is time in minutes\n\n**2. After 2 hours (120 min):**\n```\nP(120) = 100 × 2^(120/20)\n       = 100 × 2^6\n       = 100 × 64 = 6,400 bacteria\n```"
+        },
+        "explanation": "**Exponential growth:** P(t) = P₀ · b^(t/T) where T is doubling time. Growth is \"explosive.\""
+    },
+    {
+        "title": "Population Dynamics 🐰",
+        "ques": "A population follows logistic growth:\n1. What limits population growth?\n2. What is carrying capacity?\n3. Draw S-curve shape",
+        "answer": {
+            "type": "text",
+            "content": "**1. Limiting factors:**\n- Food availability\n- Space/habitat\n- Predators\n- Disease\n\n**2. Carrying capacity (K):** Maximum sustainable population the environment can support\n\n**3. S-curve:**\n```\nPop\n K |------------•••\n   |         •\n   |       •\n   |     •\n   |   •\n   | •\n   |_________________Time\n```\nSlow start → rapid growth → levels off"
+        },
+        "explanation": "**Logistic model:** dP/dt = rP(1 - P/K). Realistic for populations with resource limits."
+    },
+    {
+        "title": "Optimization 🎯",
+        "ques": "Fence 3 sides of a rectangle against a wall with 100m of fencing.\n1. Write area function\n2. Find dimensions for maximum area",
+        "answer": {
+            "type": "text",
+            "content": "**1. Setup:**\nLet x = parallel to wall, y = perpendicular\nConstraint: x + 2y = 100 → x = 100 - 2y\nArea: A = xy = (100-2y)y = 100y - 2y²\n\n**2. Maximize:**\n```\ndA/dy = 100 - 4y = 0\ny = 25 m\nx = 100 - 50 = 50 m\n```\n**Dimensions: 50m × 25m**\nMax Area = 1250 m²"
+        },
+        "explanation": "**Optimization** uses calculus to find max/min. Set derivative = 0, solve for variable."
+    },
+    {
+        "title": "Physics Models 🚗",
+        "ques": "A ball is thrown up with v₀ = 20 m/s.\nh(t) = -5t² + 20t\n1. When does it reach max height?\n2. What is max height?\n3. When does it land?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Max height time:**\ndh/dt = -10t + 20 = 0\nt = **2 seconds**\n\n**2. Max height:**\nh(2) = -5(4) + 20(2) = -20 + 40 = **20 m**\n\n**3. Landing time:**\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0 or t = **4 seconds**"
+        },
+        "explanation": "**Projectile motion** is parabolic. Time to max = v₀/g. Total flight = 2 × time to max."
+    },
+    {
+        "title": "Data Fitting 📉",
+        "ques": "Given data: (1,2), (2,5), (3,10)\n1. Is this linear or exponential?\n2. What type of regression to use?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Check pattern:**\n- Linear: constant difference? 5-2=3, 10-5=5 → No\n- Exponential: constant ratio? 5/2=2.5, 10/5=2 → Close but not exact\n\n**2. Best fit:** Power or polynomial regression\nActual: y ≈ x² + 1 (quadratic)\n\nCheck: 1+1=2 ✓, 4+1=5 ✓, 9+1=10 ✓"
+        },
+        "explanation": "**Data fitting** identifies the model type. Check for constant differences (linear), ratios (exponential), or try polynomial."
+    }
+]

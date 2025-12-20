@@ -1,0 +1,59 @@
+{
+    "id": "learn_eco",
+    "topicId": "eco",
+    "topicTitle": "Ecology",
+    "description": "Explore ecosystems, food webs, biogeochemical cycles, and population dynamics",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "eco_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Ecology 🌿\n\n## What you'll learn:\n- Ecosystems\n- Food webs\n- Biogeochemical cycles\n- Population dynamics"
+        },
+        {
+            "id": "eco_2",
+            "type": "content",
+            "title": "Ecosystems",
+            "content": "# Ecosystems 🏞️\n\n## Components\n| Type | Examples |\n|------|----------|\n| Biotic | Plants, animals |\n| Abiotic | Water, sun, soil |\n\n## Types\n- Terrestrial (forest, desert)\n- Aquatic (freshwater, marine)"
+        },
+        {
+            "id": "eco_3",
+            "type": "content",
+            "title": "Food Webs",
+            "content": "# Food Webs 🕸️\n\n## Trophic Levels\n| Level | Organisms |\n|-------|----------|\n| Producers | Plants |\n| Primary consumers | Herbivores |\n| Secondary | Carnivores |\n| Tertiary | Top predators |\n\n## 10% Rule\nOnly 10% energy transfers to next level"
+        },
+        {
+            "id": "eco_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "How much energy transfers between trophic levels?",
+            "quizOptions": [
+                "100%",
+                "50%",
+                "10%",
+                "1%"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "eco_4",
+            "type": "content",
+            "title": "Cycles",
+            "content": "# Biogeochemical Cycles ♻️\n\n| Cycle | Key Process |\n|-------|------------|\n| Carbon | Photosynthesis/respiration |\n| Nitrogen | Fixation by bacteria |\n| Water | Evaporation/precip |\n| Phosphorus | Rock weathering |"
+        },
+        {
+            "id": "eco_5",
+            "type": "content",
+            "title": "Populations",
+            "content": "# Population Dynamics 📊\n\n## Growth Types\n| Type | Pattern |\n|------|--------|\n| Exponential | J-curve |\n| Logistic | S-curve |\n\n## Carrying Capacity (K)\nMax population environment can support"
+        },
+        {
+            "id": "eco_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Ecosystems: Biotic + abiotic\n- 10% energy rule\n- Cycles: C, N, H₂O, P\n- Carrying capacity limits growth"
+        }
+    ]
+}

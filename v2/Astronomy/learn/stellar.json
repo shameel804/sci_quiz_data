@@ -1,0 +1,85 @@
+{
+    "id": "learn_stellar",
+    "topicId": "stellar",
+    "topicTitle": "Stellar Astronomy",
+    "description": "Explore star formation, classification, stellar evolution, supernovae, and binary star systems",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "stellar_1",
+            "type": "content",
+            "title": "Welcome to Stellar Astronomy",
+            "content": "# Introduction to Stellar Astronomy ⭐\n\nWelcome to **Stellar Astronomy** - the study of stars!\n\n## What you'll learn:\n- **Star Formation** - Birth of stars\n- **Classification** - The H-R diagram\n- **Stellar Evolution** - Life cycles of stars\n- **Death of Stars** - White dwarfs to black holes\n- **Binary Systems** - Star pairs\n\n> 💡 **Fun Fact:** There are more stars in the universe than grains of sand on all Earth's beaches!\n\n## What is a Star?\n\nA massive ball of hot gas undergoing **nuclear fusion** in its core.\n\n```\n    H + H + H + H → He + Energy\n    \n    This is what makes stars shine!\n```\n\n## Quick Facts About Our Sun\n\n| Property | Value |\n|----------|-------|\n| Type | G-type main sequence |\n| Age | 4.6 billion years |\n| Diameter | 1.4 million km |\n| Mass | 333,000 × Earth |\n| Surface temperature | 5,500°C |\n| Core temperature | 15 million°C |\n\n## Why Study Stars?\n\n- 🧬 We are made of stardust\n- ⚗️ Stars create all heavy elements\n- 🌍 Sun sustains all life on Earth\n- 🔮 Understanding cosmic evolution\n\nLet's explore the life and death of stars!"
+        },
+        {
+            "id": "stellar_2",
+            "type": "content",
+            "title": "Star Formation",
+            "content": "# Star Formation 🌟\n\n## Birth from Nebulae\n\n```\n    Giant Molecular Cloud (nebula)\n            ↓\n    Gravity pulls gas and dust together\n            ↓\n    Dense core forms (protostar)\n            ↓\n    Core heats up from compression\n            ↓\n    Nuclear fusion ignites → Star!\n```\n\n## Giant Molecular Clouds\n\n- Mostly hydrogen (H₂)\n- Cold: 10-30 K\n- Dense (for space!)\n- Sizes: 15-600 light-years\n- Famous example: Orion Nebula\n\n## Protostar Stage\n\n| Phase | What Happens |\n|-------|-------------|\n| Collapse | Cloud fragments |\n| Heating | Gravitational energy → Heat |\n| Disk formation | Angular momentum → Disk |\n| Accretion | Material falls onto core |\n| T Tauri | Unstable pre-main sequence |\n\n## Birth Conditions\n\n```\nTo become a star:\nCore temperature must reach ~10 million K\n        → Hydrogen fusion begins\n        → Star joins \"main sequence\"\n```\n\n## Failed Stars\n\n| Object | Mass | Fusion? |\n|--------|------|--------|\n| Planet | < 13 Mⱼ | No |\n| Brown dwarf | 13-80 Mⱼ | Deuterium only |\n| Red dwarf | 80 Mⱼ - 0.5 M☉ | Hydrogen |\n\n(Mⱼ = Jupiter masses, M☉ = Solar masses)\n\n> 🎯 **Key Point:** It takes ~10 million years for a Sun-like star to form!"
+        },
+        {
+            "id": "stellar_3",
+            "type": "content",
+            "title": "The H-R Diagram",
+            "content": "# The Hertzsprung-Russell Diagram 📊\n\nThe most important diagram in stellar astronomy!\n\n## The H-R Diagram\n\n```\nLuminosity\n   ↑\n  10⁴│  Giants    Supergiants\n      │    ★★★       ★★★\n      │\n   1  │     Main Sequence\n      │        ★★★★★★★★ (like our Sun)\n      │           ★★★★★★\n 10⁻⁴│               ★\n      │                 White Dwarfs\n      └────────────────────────→\n     Hot (O)                   Cool (M)\n     Blue                      Red\n     40,000 K               2,500 K\n```\n\n## Spectral Classes\n\n> **O B A F G K M** - \"Oh Be A Fine Guy/Girl, Kiss Me\"\n\n| Class | Temperature | Color | Example |\n|-------|-------------|-------|---------|\n| O | > 30,000 K | Blue | Rigel |\n| B | 10,000-30,000 | Blue-white | Spica |\n| A | 7,500-10,000 | White | Sirius |\n| F | 6,000-7,500 | Yellow-white | Canopus |\n| G | 5,200-6,000 | Yellow | Sun |\n| K | 3,700-5,200 | Orange | Arcturus |\n| M | < 3,700 K | Red | Betelgeuse |\n\n## Luminosity Classes\n\n| Class | Type |\n|-------|------|\n| I | Supergiant |\n| II | Bright giant |\n| III | Giant |\n| IV | Subgiant |\n| V | Main sequence |\n\n**Example:** Sun = G2V\n\n## What the H-R Diagram Tells Us\n\n- Star's current evolutionary stage\n- Mass (on main sequence)\n- Lifetime\n\n> 💡 **Key Point:** 90% of stars are on the main sequence!"
+        },
+        {
+            "id": "stellar_quiz_1",
+            "type": "quiz",
+            "title": "Star Classification Quiz",
+            "content": "Test your knowledge of stars!",
+            "quizQuestion": "What spectral class is our Sun?",
+            "quizOptions": [
+                "O",
+                "A",
+                "G",
+                "M"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "stellar_4",
+            "type": "content",
+            "title": "Stellar Evolution - Low Mass",
+            "content": "# Stellar Evolution: Low Mass Stars 🌟\n\n(Stars like our Sun: < 8 M☉)\n\n## Main Sequence Phase\n\n```\nH → He (core)\n\nLasts ~10 billion years (for Sun)\n```\n\n## Red Giant Phase\n\n```\n1. Hydrogen exhausted in core\n        ↓\n2. Core contracts, heats\n        ↓\n3. H burns in shell around core\n        ↓\n4. Outer layers expand → Red Giant\n        ↓\n5. Core hot enough: He → C (triple-alpha)\n        ↓\n6. Helium flash\n```\n\n## Planetary Nebula\n\n```\nOuter layers ejected\n        ↓\n    ╔═══════════╗\n    ║  ○ ○ ○    ║\n    ║    ★      ║  ← Hot core exposed\n    ║  ○ ○ ○    ║\n    ╚═══════════╝\n        ↓\nBeautiful nebula visible\n```\n\n## White Dwarf\n\nFinal remnant for low-mass stars.\n\n| Property | Value |\n|----------|-------|\n| Mass | Up to 1.4 M☉ |\n| Size | ~Earth-sized |\n| Density | ~1 ton/cm³ |\n| Temperature | Starts hot, cools forever |\n| Composition | Carbon and oxygen |\n\n## Full Evolution\n\n```\nMolecular cloud → Protostar → Main sequence → Red giant\n        → Planetary nebula → White dwarf → Black dwarf\n```\n\n(Black dwarfs don't exist yet - universe too young!)\n\n> 🎯 **Key Point:** The Sun will become a red giant in ~5 billion years!"
+        },
+        {
+            "id": "stellar_5",
+            "type": "content",
+            "title": "Stellar Evolution - High Mass",
+            "content": "# Stellar Evolution: High Mass Stars 💥\n\n(Stars > 8 M☉)\n\n## Fast and Furious\n\n| Star Mass | Main Sequence Lifetime |\n|-----------|------------------------|\n| 0.5 M☉ | 100+ billion years |\n| 1 M☉ | 10 billion years |\n| 10 M☉ | 20 million years |\n| 50 M☉ | 1 million years |\n\n## Nucleosynthesis\n\nMassive stars fuse progressively heavier elements:\n\n```\n┌─────────────────────────┐\n│         H → He          │\n│  ┌───────────────────┐  │\n│  │     He → C        │  │\n│  │  ┌─────────────┐  │  │\n│  │  │   C → Ne    │  │  │\n│  │  │  ┌───────┐  │  │  │\n│  │  │  │Ne→O→Si│  │  │  │\n│  │  │  │ Fe ↑  │  │  │  │\n│  │  │  └───────┘  │  │  │\n│  │  └─────────────┘  │  │\n│  └───────────────────┘  │\n└─────────────────────────┘\nOnion-like structure\n```\n\n## The Iron Problem\n\n- Fusing iron ABSORBS energy\n- Core suddenly collapses\n- SUPERNOVA!\n\n## Supernova\n\n```\n1. Core collapses in milliseconds\n        ↓\n2. Rebounds off dense core\n        ↓\n3. Outer layers blown off\n        ↓\n4. Brighter than entire galaxy!\n```\n\n## What's Left Behind\n\n| Remnant | Original Mass | Size |\n|---------|---------------|------|\n| Neutron star | 8-25 M☉ | ~20 km |\n| Black hole | > 25 M☉ | Singularity |\n\n> 💡 **Key Point:** All elements heavier than iron are made in supernovae!"
+        },
+        {
+            "id": "stellar_6",
+            "type": "content",
+            "title": "Stellar Remnants",
+            "content": "# Stellar Remnants 💀\n\n## White Dwarfs\n\n- Supported by electron degeneracy pressure\n- Mass limit: 1.4 M☉ (Chandrasekhar limit)\n- Earth-sized\n- No fusion\n- Cools forever\n\n## Neutron Stars\n\n```\n    ~20 km diameter\n    ★ Incredibly dense\n    \n    1 teaspoon = billion tons!\n```\n\n| Property | Value |\n|----------|-------|\n| Mass | 1.4-2 M☉ |\n| Diameter | ~20 km |\n| Density | 10¹⁷ kg/m³ |\n| Spin | Up to 700 rev/sec |\n| Magnetic field | 10⁸-10¹⁵ × Sun |\n\n### Pulsars\n\nRotating neutron stars with beams of radiation.\n\n```\n        ★ Rotation axis\n       /│\\\n      / │ \\  Magnetic axis\n   ─────★─────\n      \\ │ /\n       \\│/\n   Beams sweep like lighthouse\n```\n\n## Black Holes\n\nGravity so strong, nothing escapes - not even light!\n\n### Event Horizon\n\nPoint of no return.\n\n### Schwarzschild Radius\n\n```\nrₛ = 2GM/c²\n\nFor Sun: ~3 km\nFor Earth: ~9 mm\n```\n\n### Properties\n\n- Mass, spin, charge (that's all!)\n- Singularity at center\n- Time dilation near horizon\n- Hawking radiation (theoretical)\n\n> 🎯 **Key Point:** Black holes are not "vacuum cleaners" - they only affect nearby matter!"
+        },
+        {
+            "id": "stellar_quiz_2",
+            "type": "quiz",
+            "title": "Stellar Remnants Quiz",
+            "content": "Test your understanding of stellar remnants!",
+            "quizQuestion": "What is the maximum mass of a white dwarf?",
+            "quizOptions": [
+                "0.5 solar masses",
+                "1.4 solar masses",
+                "3 solar masses",
+                "8 solar masses"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "stellar_7",
+            "type": "content",
+            "title": "Binary Star Systems",
+            "content": "# Binary Star Systems ⭐⭐\n\nMost stars have companions!\n\n## Types of Binary Stars\n\n| Type | Detection Method |\n|------|------------------|\n| **Visual** | See both stars |\n| **Spectroscopic** | Doppler shift in spectra |\n| **Eclipsing** | Brightness dips |\n| **Astrometric** | Wobbling motion |\n\n## Eclipsing Binaries\n\n```\nBrightness\n    │────────╱╲────────╱╲────────\n    │       /  \\      /  \\\n    │      /    \\    /    \\\n    └─────────────────────────→ Time\n           Eclipse  Eclipse\n```\n\n## Mass Transfer\n\nIn close binaries, mass can flow between stars.\n\n```\n    ★₁ ────────→ ★₂\n    Donor    Accretor\n    \n    Through Roche lobe overflow\n```\n\n## Cataclysmic Variables\n\n| Type | Description |\n|------|-------------|\n| Nova | WD surface explosion |\n| Type Ia Supernova | WD exceeds 1.4 M☉, explodes |\n| X-ray binary | Accretion onto NS/BH |\n\n## Binary Star Importance\n\n### Determining Masses\n\nKepler's 3rd law applied to binaries:\n```\n(M₁ + M₂) = a³/P²\n```\n\n### Type Ia Supernovae\n\n- Standard candles (same brightness)\n- Used to measure cosmic distances\n- Led to dark energy discovery!\n\n## Famous Binaries\n\n| System | Type |\n|--------|------|\n| Sirius A & B | WD + main sequence |\n| Algol | Eclipsing |\n| Cygnus X-1 | Black hole + star |\n\n> 💡 **Key Point:** About half of all stars are in binary or multiple systems!"
+        },
+        {
+            "id": "stellar_8",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Stellar Astronomy! Here's what you've mastered:\n\n## Star Formation\n- ✅ Molecular clouds → Protostars → Main sequence\n- ✅ Requires core temperature of ~10 million K\n\n## H-R Diagram\n- ✅ Spectral classes: OBAFGKM\n- ✅ Luminosity classes: I to V\n- ✅ Main sequence, giants, white dwarfs\n\n## Stellar Evolution\n\n| Low Mass (< 8 M☉) | High Mass (> 8 M☉) |\n|-------------------|--------------------|\n| Main sequence → Red giant | Main sequence → Supergiant |\n| Planetary nebula | Supernova! |\n| White dwarf | Neutron star or Black hole |\n\n## Stellar Remnants\n\n| Remnant | Mass Limit | Support |\n|---------|------------|--------|\n| White dwarf | < 1.4 M☉ | Electron degeneracy |\n| Neutron star | < 3 M☉ | Neutron degeneracy |\n| Black hole | > 3 M☉ | Nothing (collapse) |\n\n## Binary Stars\n- ✅ Visual, spectroscopic, eclipsing\n- ✅ Mass transfer and cataclysmic variables\n- ✅ Type Ia supernovae as standard candles\n\n> 🚀 **Next Steps:** Explore Galaxies and Cosmology!\n\nYou now understand the life cycles of stars!"
+        }
+    ]
+}

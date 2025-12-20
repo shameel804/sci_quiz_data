@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Measures of Central Tendency 📊",
+        "ques": "For data: 3, 7, 5, 9, 5, 8, 5, 2, 6\n1. Find mean, median, mode\n2. Which is most affected by outliers?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Calculations:**\n- Mean: (3+7+5+9+5+8+5+2+6)/9 = 50/9 ≈ 5.56\n- Median: Sorted: 2,3,5,5,5,6,7,8,9 → **5** (middle)\n- Mode: **5** (appears 3 times)\n\n**2.** Mean is most affected by outliers"
+        },
+        "explanation": "**Mean** uses all values; **median** is middle value; **mode** is most frequent. Median is robust to outliers."
+    },
+    {
+        "title": "Probability Basics 🎲",
+        "ques": "Two dice are rolled:\n1. P(sum = 7)\n2. P(both same)\n3. P(sum > 10)",
+        "answer": {
+            "type": "text",
+            "content": "**Total outcomes:** 6 × 6 = 36\n\n**1. Sum = 7:** (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 ways\nP = 6/36 = **1/6**\n\n**2. Both same:** (1,1),(2,2),...,(6,6) = 6 ways\nP = 6/36 = **1/6**\n\n**3. Sum > 10:** (5,6),(6,5),(6,6) = 3 ways\nP = 3/36 = **1/12**"
+        },
+        "explanation": "**Probability** = favorable outcomes / total outcomes. List systematically to avoid missing cases."
+    },
+    {
+        "title": "Normal Distribution 📈",
+        "ques": "IQ scores: μ = 100, σ = 15\n1. What % are between 85 and 115?\n2. What score is at 95th percentile?",
+        "answer": {
+            "type": "text",
+            "content": "**1. 85-115 is μ ± 1σ:**\nEmpirical rule: **~68%**\n\n**2. 95th percentile:**\nz = 1.645 (from table)\nScore = μ + zσ = 100 + 1.645(15) ≈ **125**"
+        },
+        "explanation": "**68-95-99.7 rule:** 68% within 1σ, 95% within 2σ, 99.7% within 3σ of mean."
+    },
+    {
+        "title": "Hypothesis Testing 🔬",
+        "ques": "A coin flipped 100 times shows 60 heads.\n1. Set up null and alternative hypotheses\n2. Is this significant at α = 0.05?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Hypotheses:**\n- H₀: p = 0.5 (fair coin)\n- H₁: p ≠ 0.5 (not fair)\n\n**2. Test:**\n```\nExpected: 50 heads\nSE = √(np(1-p)) = √25 = 5\nz = (60-50)/5 = 2.0\n```\nCritical z = ±1.96\n2.0 > 1.96 → **Reject H₀ (significant)**"
+        },
+        "explanation": "**Hypothesis testing** determines if results are statistically significant or due to chance."
+    },
+    {
+        "title": "Combinatorics 🔢",
+        "ques": "1. How many ways to arrange MATH?\n2. How many ways to choose 3 from 10?\n3. How many 4-digit PINs?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Permutation of 4 letters:**\n4! = 24 ways\n\n**2. Combination C(10,3):**\n10!/(3!×7!) = 120 ways\n\n**3. PIN codes:**\n10⁴ = 10,000 (repetition allowed)"
+        },
+        "explanation": "**Permutations** when order matters; **combinations** when order doesn't. Use multiplication principle for independent choices."
+    },
+    {
+        "title": "Conditional Probability 🔗",
+        "ques": "Bag has 3 red, 2 blue balls. Draw 2 without replacement.\n1. P(both red)\n2. P(second red | first red)",
+        "answer": {
+            "type": "text",
+            "content": "**1. Both red:**\n```\nP = (3/5) × (2/4) = 6/20 = 3/10\n```\n\n**2. P(2nd red | 1st red):**\nAfter 1st red: 2 red left, 4 total\nP = **2/4 = 1/2**"
+        },
+        "explanation": "**Conditional probability** P(A|B) = P(A and B)/P(B). Without replacement changes subsequent probabilities."
+    }
+]

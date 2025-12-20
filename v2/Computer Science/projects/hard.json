@@ -1,0 +1,56 @@
+[
+    {
+        "title": "CPU Basics 🖥️",
+        "ques": "1. What does CPU stand for?\n2. Main CPU components\n3. What is clock speed?",
+        "answer": {
+            "type": "text",
+            "content": "**1.** Central Processing Unit - \"brain\" of computer\n\n**2. Components:**\n- ALU (Arithmetic Logic Unit): Math and logic\n- Control Unit: Directs operations\n- Registers: Fast temporary storage\n- Cache: Quick access memory\n\n**3. Clock speed:** Cycles per second (GHz)\n- 3 GHz = 3 billion cycles/second\n- Higher = faster (with caveats)"
+        },
+        "explanation": "**Moore's Law:** Transistor count doubles every ~2 years. Slowing down now."
+    },
+    {
+        "title": "Memory Hierarchy 📊",
+        "ques": "1. Types of memory (fast to slow)\n2. RAM vs ROM\n3. Why have multiple levels?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Hierarchy (fast→slow, expensive→cheap):**\nRegisters → L1 Cache → L2 Cache → L3 Cache → RAM → SSD → HDD\n\n**2. RAM vs ROM:**\n- RAM: Volatile, read/write (working memory)\n- ROM: Non-volatile, read-only (firmware)\n\n**3. Why levels:**\n- Fast memory is expensive\n- Keep frequently used data in fast cache\n- Trade-off: speed vs capacity vs cost"
+        },
+        "explanation": "**Cache** dramatically speeds up computing by keeping hot data close to CPU."
+    },
+    {
+        "title": "Logic Gates ⚡",
+        "ques": "1. Basic logic gates\n2. Truth table for AND\n3. How computer adds numbers",
+        "answer": {
+            "type": "text",
+            "content": "**1. Basic gates:**\n- AND: Both inputs 1 → output 1\n- OR: Either input 1 → output 1\n- NOT: Inverts input\n- XOR: One but not both → 1\n\n**2. AND truth table:**\n| A | B | A AND B |\n|---|---|--------|\n| 0 | 0 | 0 |\n| 0 | 1 | 0 |\n| 1 | 0 | 0 |\n| 1 | 1 | 1 |\n\n**3. Addition:** Half adder (XOR for sum, AND for carry) → Full adder → Ripple adder"
+        },
+        "explanation": "**All computing** reduces to logic gates. Billions of transistors implement gates."
+    },
+    {
+        "title": "Storage Devices 💾",
+        "ques": "1. HDD vs SSD\n2. Advantages of each\n3. How SSDs work",
+        "answer": {
+            "type": "text",
+            "content": "**1. Key difference:**\n- HDD: Spinning magnetic disks, mechanical\n- SSD: Flash memory, no moving parts\n\n**2. Comparison:**\n| Feature | HDD | SSD |\n|---------|-----|-----|\n| Speed | Slower | 5-10× faster |\n| Price | Cheaper/GB | More expensive |\n| Durability | Fragile | Shock resistant |\n| Noise | Audible | Silent |\n\n**3. SSD working:** Stores data as electrical charges in flash cells (NAND)"
+        },
+        "explanation": "**SSDs** are standard for OS now. HDDs still used for bulk storage (cost)."
+    },
+    {
+        "title": "Binary System 🔢",
+        "ques": "1. Convert 13 to binary\n2. Convert 1010 to decimal\n3. Why computers use binary",
+        "answer": {
+            "type": "text",
+            "content": "**1. 13 to binary:**\n13 ÷ 2 = 6 R1\n6 ÷ 2 = 3 R0\n3 ÷ 2 = 1 R1\n1 ÷ 2 = 0 R1\n**13 = 1101**\n\n**2. 1010 to decimal:**\n1×8 + 0×4 + 1×2 + 0×1 = **10**\n\n**3. Binary because:**\n- Two states easy to implement (on/off, high/low voltage)\n- Reliable, less error-prone\n- Logic gates work naturally with binary"
+        },
+        "explanation": "**Bit** (binary digit) is smallest data unit. 8 bits = 1 byte."
+    },
+    {
+        "title": "I/O Systems 🔌",
+        "ques": "1. Common I/O devices\n2. USB versions\n3. What is driver?",
+        "answer": {
+            "type": "text",
+            "content": "**1. I/O devices:**\n- Input: Keyboard, mouse, microphone, camera\n- Output: Monitor, speakers, printer\n- Both: Touchscreen, network card\n\n**2. USB versions:**\n- USB 2.0: 480 Mbps\n- USB 3.0: 5 Gbps\n- USB 4.0: 40 Gbps\n\n**3. Driver:** Software that allows OS to communicate with hardware device"
+        },
+        "explanation": "**Drivers** translate between OS and devices. Missing driver = device won't work."
+    }
+]

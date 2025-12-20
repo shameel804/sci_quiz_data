@@ -1,0 +1,79 @@
+{
+    "id": "learn_galaxy",
+    "topicId": "galaxy",
+    "topicTitle": "Galaxies and Cosmology",
+    "description": "Explore galaxy types, cosmic microwave background, Big Bang theory, and dark matter/energy",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "galaxy_1",
+            "type": "content",
+            "title": "Welcome to Galaxies and Cosmology",
+            "content": "# Introduction to Galaxies and Cosmology 🌌\n\nWelcome to **Galaxies and Cosmology** - exploring the large-scale universe!\n\n## What you'll learn:\n- **Galaxy Types** - Spiral, elliptical, irregular\n- **The Milky Way** - Our home galaxy\n- **Cosmic Microwave Background** - Echo of the Big Bang\n- **Big Bang Theory** - Origin of the universe\n- **Dark Matter and Energy** - The invisible universe\n\n> 💡 **Fun Fact:** There are more galaxies in the universe than stars in the Milky Way!\n\n## Scale of the Universe\n\n```\nEarth → Solar System → Milky Way → Local Group → Virgo Supercluster → Observable Universe\n        ↓              ↓           ↓            ↓                    ↓\n      1 AU         100,000 ly   10 million ly   100 million ly     93 billion ly\n```\n\n## Galaxy Basics\n\n| Property | Typical Value |\n|----------|---------------|\n| Size | 1,000 - 100,000 light-years |\n| Stars | 100 million - 100 trillion |\n| Mass | 10⁸ - 10¹⁴ solar masses |\n| Types | Spiral, Elliptical, Irregular |\n\n## Edwin Hubble's Contributions\n\n- Proved galaxies exist beyond Milky Way (1924)\n- Galaxy classification scheme\n- Discovered universe is expanding (1929)\n\nLet's explore the cosmos!"
+        },
+        {
+            "id": "galaxy_2",
+            "type": "content",
+            "title": "Galaxy Types",
+            "content": "# Galaxy Types 🌀\n\n## Hubble's Tuning Fork\n\n```\n                    Sa → Sb → Sc\n                   /\n           E0 → E7 \n                   \\\n                    SBa → SBb → SBc\n                    \n           Elliptical    Spiral    Barred Spiral\n```\n\n## Spiral Galaxies (Sa, Sb, Sc)\n\n```\n       ╭───────╮\n      ╱   ★★    ╲\n     ╱  ★★★★★★   ╲\n    │ ★★★★★★★★★★ │  ← Disk with spiral arms\n     ╲  ★★★★★★   ╱\n      ╲   ★★    ╱\n       ╰───────╯\n```\n\n| Features | Description |\n|----------|-------------|\n| Arms | Young stars, gas, dust |\n| Disk | Flat, rotates |\n| Bulge | Old stars at center |\n| Halo | Globular clusters |\n\nExamples: Milky Way, Andromeda (M31)\n\n## Elliptical Galaxies (E0-E7)\n\n- Sphere to football shaped\n- Old, red stars\n- Little gas/dust\n- No ongoing star formation\n- Range: Dwarf to giant\n\n## Irregular Galaxies\n\n- No defined shape\n- Often from collisions\n- Active star formation\n- Examples: Large/Small Magellanic Clouds\n\n## Galaxy Collisions\n\n```\n🌀 + 🌀 → 🌀🌀 → Giant Elliptical\n\n(Stars rarely collide - too far apart!)\n```\n\n> 🎯 **Key Point:** The Milky Way will collide with Andromeda in ~4.5 billion years!"
+        },
+        {
+            "id": "galaxy_3",
+            "type": "content",
+            "title": "The Milky Way",
+            "content": "# The Milky Way 🌌\n\nOur home galaxy.\n\n## Structure\n\n```\n                  Side view:\n    ★ Globular clusters\n    ★               ★\n    ══════╤═╤═╤═══════  ← Disk (~1,000 ly thick)\n          │ │ │\n          Central bulge\n          │\n          Supermassive black hole\n          (Sagittarius A*)\n```\n\n## Key Facts\n\n| Property | Value |\n|----------|-------|\n| Type | Barred spiral (SBc) |\n| Diameter | ~100,000 light-years |\n| Stars | 200-400 billion |\n| Mass | ~1.5 trillion M☉ |\n| Age | 13.6 billion years |\n| Black hole | 4 million M☉ |\n\n## Spiral Arms\n\n- Orion Arm (we're here!)\n- Perseus Arm\n- Sagittarius Arm\n- Carina Arm\n\n## Sun's Location\n\n```\n    Galactic center\n         │\n         ├── 26,000 ly ──→ ☀ Sun\n         │                 │\n         │                 Orion Arm\n```\n\n## Motion\n\n- Sun orbits galactic center\n- Orbital period: ~230 million years\n- One \"galactic year\"\n\n## Dark Matter Halo\n\n- Extends beyond visible galaxy\n- ~10× mass of visible matter\n- Detected by rotation curves\n\n> 💡 **Key Point:** From Earth, we see the Milky Way edge-on as a band across the sky!"
+        },
+        {
+            "id": "galaxy_quiz_1",
+            "type": "quiz",
+            "title": "Galaxies Quiz",
+            "content": "Test your knowledge of galaxies!",
+            "quizQuestion": "What type of galaxy is the Milky Way?",
+            "quizOptions": [
+                "Elliptical",
+                "Spiral",
+                "Irregular",
+                "Barred spiral"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "galaxy_4",
+            "type": "content",
+            "title": "The Big Bang Theory",
+            "content": "# The Big Bang Theory 💥\n\n## Not an Explosion INTO Space\n\nThe Big Bang was the creation of space itself!\n\n```\nBefore: No space, no time\n    ↓\nBig Bang: Space begins expanding\n    ↓\nNow: Space still expanding\n```\n\n## Timeline\n\n| Time | Event |\n|------|-------|\n| 0 | Singularity - infinite density |\n| 10⁻⁴³ s | Planck era (physics unknown) |\n| 10⁻³⁶ s | Inflation (rapid expansion) |\n| 10⁻⁶ s | Quarks form protons/neutrons |\n| 3 min | Nucleosynthesis (H, He, Li) |\n| 380,000 yr | Atoms form, CMB released |\n| 200 million yr | First stars |\n| 13.8 billion yr | Today |\n\n## Evidence for the Big Bang\n\n### 1. Cosmic Microwave Background\n- Leftover heat from early universe\n- Observed by Penzias & Wilson (1964)\n\n### 2. Hubble's Law (Expanding Universe)\n```\nv = H₀ × d\n\nFarther galaxies → Moving away faster\n```\n\n### 3. Primordial Abundances\n- 75% H, 25% He (by mass)\n- Matches Big Bang predictions\n\n### 4. Formation of Structure\n- Galaxies evolved over time\n- We see younger galaxies further away\n\n## What the Big Bang ISN'T\n\n- NOT an explosion into existing space\n- NOT from a single point in space (happened everywhere)\n- NOT the "edge" of the universe\n\n> 🎯 **Key Point:** The universe is 13.8 billion years old!"
+        },
+        {
+            "id": "galaxy_5",
+            "type": "content",
+            "title": "Cosmic Microwave Background",
+            "content": "# Cosmic Microwave Background (CMB) 📡\n\n## What is the CMB?\n\nThe \"afterglow\" of the Big Bang - the oldest light we can see.\n\n## Why 380,000 Years?\n\n```\nBefore 380,000 years:\n- Universe too hot\n- Electrons free, scattered light\n- Universe was opaque\n\nAt 380,000 years:\n- Cooled to ~3,000 K\n- Electrons joined nuclei (recombination)\n- Light could travel freely!\n- Universe became transparent\n```\n\n## CMB Properties\n\n| Property | Value |\n|----------|-------|\n| Current temperature | 2.725 K |\n| Original temperature | ~3,000 K |\n| Wavelength | Microwave |\n| Uniformity | 99.999% same |\n\n## Why So Cold Now?\n\n```\nSpace expanded → Light \"stretched\" → Wavelength longer → Temperature lower\n\n3,000 K → 2.725 K (1,100× stretching)\n```\n\n## CMB Anisotropies\n\nTiny variations (~0.001°) in CMB temperature.\n\n```\n    Slightly warmer ────→ More matter ────→ Galaxies formed\n    Slightly cooler ────→ Less matter ────→ Voids\n```\n\n## COBE, WMAP, Planck\n\n| Satellite | Year | Achievement |\n|-----------|------|-------------|\n| COBE | 1992 | First detection of variations |\n| WMAP | 2003 | Detailed map |\n| Planck | 2013 | Precise measurements |\n\n> 💡 **Key Point:** CMB proves the universe was once hot, dense, and opaque!"
+        },
+        {
+            "id": "galaxy_6",
+            "type": "content",
+            "title": "Dark Matter and Dark Energy",
+            "content": "# Dark Matter and Dark Energy 🌑\n\n## The Universe's Composition\n\n```\n    ┌──────────────────────────────────────┐\n    │           Dark Energy               │ 68%\n    ├──────────────────────────────────────┤\n    │      Dark Matter                     │ 27%\n    ├───────┤                              │\n    │Visible│ 5%                           │\n    └───────┴──────────────────────────────┘\n```\n\nWe can only see 5% of the universe!\n\n## Dark Matter 🔮\n\n### Evidence\n\n**Galaxy rotation curves:**\n```\nExpected:  Velocity decreases outward (like planets)\nObserved:  Velocity stays constant\n\n→ Must be invisible mass providing gravity\n```\n\n**Gravitational lensing:**\n- Light bends around invisible mass\n- We can map dark matter distribution\n\n### Properties\n\n- Has mass (gravity)\n- Does NOT emit light\n- Does NOT interact with light\n- ~85% of all matter\n- Unknown composition (WIMPs? Axions?)\n\n## Dark Energy ⚡\n\n### Discovery (1998)\n\nType Ia supernovae were dimmer than expected.\n→ Universe is accelerating!\n\n### What it Does\n\n```\nGravity: Pulls things together\nDark energy: Pushes things apart (stronger at large scales)\n```\n\n### Properties\n\n- Causes accelerating expansion\n- ~68% of universe\n- Completely unknown nature\n- Cosmological constant? Quintessence?\n\n> 🎯 **Key Point:** 95% of the universe is invisible to us!"
+        },
+        {
+            "id": "galaxy_quiz_2",
+            "type": "quiz",
+            "title": "Cosmology Quiz",
+            "content": "Test your understanding of cosmology!",
+            "quizQuestion": "What percentage of the universe is made of visible (normal) matter?",
+            "quizOptions": [
+                "About 5%",
+                "About 27%",
+                "About 68%",
+                "About 95%"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "galaxy_7",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Galaxies and Cosmology! Here's what you've mastered:\n\n## Galaxy Types\n- ✅ Spiral: Disk, arms, young stars\n- ✅ Elliptical: Smooth, old stars\n- ✅ Irregular: No defined shape\n\n## The Milky Way\n- ✅ Barred spiral galaxy\n- ✅ ~100,000 ly diameter\n- ✅ 200-400 billion stars\n- ✅ Central supermassive black hole\n\n## Big Bang Theory\n- ✅ Universe began 13.8 billion years ago\n- ✅ Space itself is expanding\n- ✅ Evidence: CMB, Hubble's Law, abundances\n\n## Cosmic Microwave Background\n- ✅ Afterglow from 380,000 years after Big Bang\n- ✅ Temperature: 2.725 K\n- ✅ Tiny variations → Seeds of galaxies\n\n## Dark Matter & Dark Energy\n\n| Component | Percentage | Effect |\n|-----------|------------|--------|\n| Dark energy | 68% | Accelerates expansion |\n| Dark matter | 27% | Invisible gravity |\n| Visible matter | 5% | Stars, planets, us |\n\n> 🚀 **Next Steps:** Explore Space Exploration to see how we study the cosmos!\n\nYou now understand the large-scale structure and history of the universe!"
+        }
+    ]
+}

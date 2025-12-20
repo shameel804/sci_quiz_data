@@ -1,0 +1,59 @@
+{
+    "id": "learn_discov",
+    "topicId": "discov",
+    "topicTitle": "Scientific Discoveries",
+    "description": "Explore major scientific discoveries and their impact on history",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "discov_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Scientific Discoveries 🔬\n\n## Game-Changing Discoveries\nMoments that changed our understanding of the world."
+        },
+        {
+            "id": "discov_2",
+            "type": "content",
+            "title": "Physics Discoveries",
+            "content": "# Physics Discoveries ⚛️\n\n| Discovery | Scientist | Year |\n|-----------|-----------|------|\n| Gravity | Newton | 1687 |\n| Electromagnetism | Maxwell | 1865 |\n| Relativity | Einstein | 1905/1915 |\n| Quantum mechanics | Planck et al | 1900s |"
+        },
+        {
+            "id": "discov_3",
+            "type": "content",
+            "title": "Biology Discoveries",
+            "content": "# Biology Discoveries 🧬\n\n| Discovery | Scientists | Year |\n|-----------|-----------|------|\n| Evolution | Darwin | 1859 |\n| Germ theory | Pasteur | 1861 |\n| DNA structure | Watson, Crick | 1953 |\n| Antibiotics | Fleming | 1928 |"
+        },
+        {
+            "id": "discov_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Who discovered the structure of DNA?",
+            "quizOptions": [
+                "Darwin",
+                "Watson and Crick",
+                "Fleming",
+                "Pasteur"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "discov_4",
+            "type": "content",
+            "title": "Chemistry Discoveries",
+            "content": "# Chemistry Discoveries ⚗️\n\n| Discovery | Scientist | Year |\n|-----------|-----------|------|\n| Oxygen | Lavoisier | 1778 |\n| Periodic table | Mendeleev | 1869 |\n| Radioactivity | Curie | 1898 |\n| Atomic structure | Rutherford | 1911 |"
+        },
+        {
+            "id": "discov_5",
+            "type": "content",
+            "title": "Medical Discoveries",
+            "content": "# Medical Discoveries 💉\n\n| Discovery | Impact |\n|-----------|--------|\n| Vaccines | Prevented epidemics |\n| Anesthesia | Painless surgery |\n| X-rays | See inside body |\n| Penicillin | Fight infections |"
+        },
+        {
+            "id": "discov_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Physics: Gravity, relativity, QM\n- Biology: Evolution, DNA\n- Chemistry: Elements, atoms\n- Medicine: Vaccines, antibiotics"
+        }
+    ]
+}

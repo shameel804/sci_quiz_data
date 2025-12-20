@@ -1,317 +1,56 @@
 [
-  {
-    "title": "DNA Replication Process",
-    "ques": "Describe the steps involved in the DNA replication process.",
-    "answer": {
-      "type": "text",
-      "content": "1. The DNA double helix unwinds.\n2. Helicase enzyme breaks hydrogen bonds between strands.\n3. Single-strand binding proteins stabilize separated strands.\n4. Primase synthesizes RNA primers.\n5. DNA polymerase adds nucleotides in 5’ to 3’ direction.\n6. Leading strand is synthesized continuously, lagging strand in Okazaki fragments.\n7. DNA ligase joins Okazaki fragments."
+    {
+        "title": "DNA Structure 🧬",
+        "ques": "1. What are the 4 DNA bases?\n2. What base pairs with what?\n3. What holds the double helix together?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Bases:** Adenine, Thymine, Guanine, Cytosine (A, T, G, C)\n\n**2. Base pairing:**\n- A pairs with T (2 H-bonds)\n- G pairs with C (3 H-bonds)\n\n**3. Held together by:**\n- Hydrogen bonds between bases\n- Sugar-phosphate backbone"
+        },
+        "explanation": "**Chargaff's rules:** A=T and G=C. The double helix was discovered by Watson & Crick in 1953."
     },
-    "explanation": "***1. The DNA double helix unwinds:***\nThis allows the two strands to separate and serve as templates.\n\n***2. Helicase enzyme breaks hydrogen bonds:***\nHelicase breaks the bonds between the nitrogenous bases, separating the strands.\n\n***3. Single-strand binding proteins:***\nThey keep the strands from re-annealing or degrading.\n\n***4. Primase synthesizes RNA primers:***\nPrimase lays down short RNA sequences to initiate synthesis.\n\n***5. DNA polymerase action:***\nAdds complementary nucleotides to the growing strand.\n\n***6. Leading vs. lagging strand:***\n```Leading strand``` is synthesized continuously.\n```Lagging strand``` is synthesized in short segments.\n\n***7. DNA ligase:***\nJoins the Okazaki fragments on the lagging strand."
-  },
-  {
-    "title": "Monohybrid Cross (Mendelian)",
-    "ques": "In pea plants, tall (T) is dominant over short (t). Cross two heterozygous (Tt) plants. What is the genotypic and phenotypic ratio?",
-    "answer": {
-      "type": "text",
-      "content": "Genotypic ratio: 1 TT : 2 Tt : 1 tt\nPhenotypic ratio: 3 Tall : 1 Short"
+    {
+        "title": "Mendelian Inheritance 🎲",
+        "ques": "Two heterozygous tall plants (Tt) are crossed.\n\n1. Draw the Punnett square\n2. What is the phenotype ratio?\n3. What is the genotype ratio?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Punnett square:**\n```\n     T    t\n   +----+----+\nT  | TT | Tt |\n   +----+----+\nt  | Tt | tt |\n   +----+----+\n```\n\n**2. Phenotype:** 3 tall : 1 short (3:1)\n\n**3. Genotype:** 1 TT : 2 Tt : 1 tt (1:2:1)"
+        },
+        "explanation": "**Monohybrid cross** of heterozygotes gives 3:1 phenotype ratio. This was Mendel's key discovery."
     },
-    "explanation": "***Genotypic ratio:***\nCrossing Tt × Tt using a Punnett square gives:\n```TT, Tt, Tt, tt```\nSo, the ratio is 1:2:1 for genotypes.\n\n***Phenotypic ratio:***\nTT and Tt are both tall, tt is short.\nThus, 3 tall to 1 short."
-  },
-  {
-    "title": "Genetic Mutation Types",
-    "ques": "List and briefly describe four types of genetic mutations that can alter DNA.",
-    "answer": {
-      "type": "text",
-      "content": "1. Substitution - One base is replaced by another.\n2. Insertion - An extra base is added.\n3. Deletion - A base is removed.\n4. Frameshift - Caused by insertions or deletions that change the reading frame."
+    {
+        "title": "Genetic Mutations 🔀",
+        "ques": "Classify:\n1. Point mutation vs chromosomal mutation\n2. Give example of each\n3. What is a frameshift mutation?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Types:**\n- Point: Single nucleotide change\n- Chromosomal: Large DNA segment affected\n\n**2. Examples:**\n- Point: Sickle cell (A→T substitution)\n- Chromosomal: Down syndrome (extra chr. 21)\n\n**3. Frameshift:** Insertion/deletion shifts reading frame → all codons after are wrong"
+        },
+        "explanation": "**Mutations** can be neutral, harmful, or beneficial. Frameshift mutations usually have severe effects."
     },
-    "explanation": "***1. Substitution:***\nA single nucleotide is replaced, which may result in a different amino acid or a silent mutation.\n\n***2. Insertion:***\nAn extra base is inserted, potentially disrupting the gene sequence.\n\n***3. Deletion:***\nA base is lost, which can cause a gene to malfunction.\n\n***4. Frameshift:***\n```Insertions or deletions``` that aren’t multiples of 3 bases shift the reading frame, possibly changing every amino acid after the mutation."
-  },
-  {
-    "title": "Cystic Fibrosis Inheritance",
-    "ques": "Cystic fibrosis is a recessive disorder. Two carriers have a child. What is the probability that the child will have the disease?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 25% chance that the child will have cystic fibrosis."
+    {
+        "title": "CRISPR Technology ✂️",
+        "ques": "1. What does CRISPR stand for?\n2. How does Cas9 work?\n3. Name 2 potential applications",
+        "answer": {
+            "type": "text",
+            "content": "**1.** Clustered Regularly Interspaced Short Palindromic Repeats\n\n**2. Cas9 mechanism:**\n- Guide RNA directs Cas9 to target DNA\n- Cas9 cuts both DNA strands\n- Cell repairs with new sequence\n\n**3. Applications:**\n- Gene therapy (cure genetic diseases)\n- Disease-resistant crops\n- Creating disease models"
+        },
+        "explanation": "**CRISPR** is a revolutionary gene-editing tool. It's cheaper and more precise than previous methods."
     },
-    "explanation": "***Recessive disorder:***\nMeans two copies of the defective gene (ff) are needed.\n\n***Parents are carriers:***\nSo, both have genotype ```Ff```.\n\n***Punnett square:***\nCross Ff × Ff gives:\n```FF, Ff, Ff, ff```\nOnly ```ff``` results in the disorder → 1 out of 4 = 25%."
-  },
-  {
-    "title": "CRISPR-Cas9 Mechanism",
-    "ques": "Explain how CRISPR-Cas9 is used to edit genes.",
-    "answer": {
-      "type": "text",
-      "content": "1. A guide RNA (gRNA) targets a specific DNA sequence.\n2. Cas9 enzyme cuts the DNA at that location.\n3. The cell tries to repair the break.\n4. Scientists can insert or delete specific DNA sequences during this repair process."
+    {
+        "title": "DNA Replication 🔄",
+        "ques": "1. Why is replication called 'semi-conservative'?\n2. What enzyme unwinds DNA?\n3. What enzyme synthesizes new DNA?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Semi-conservative:** Each new DNA molecule has one original strand and one new strand\n\n**2. Unwinds:** Helicase (breaks H-bonds)\n\n**3. Synthesizes:** DNA Polymerase (adds nucleotides 5'→3')"
+        },
+        "explanation": "**DNA replication** is extremely accurate (1 error per 10⁹ nucleotides) thanks to proofreading by DNA polymerase."
     },
-    "explanation": "***1. Guide RNA:***\nA custom RNA sequence guides the system to the target DNA site.\n\n***2. Cas9:***\n```Cas9``` is a protein that acts like molecular scissors, cutting the DNA.\n\n***3. DNA repair:***\nCells naturally repair breaks in DNA, creating an opportunity for editing.\n\n***4. Gene editing:***\nScientists use this repair mechanism to insert new genes or disable faulty ones."
-  },
-  {
-    "title": "DNA Base Pairing Rules",
-    "ques": "If one strand of DNA has the sequence 5'-ATGCCGTA-3', what would be the complementary strand?",
-    "answer": {
-      "type": "text",
-      "content": "The complementary strand is 3'-TACGGCAT-5'."
-    },
-    "explanation": "***Base pairing rule:***\nA pairs with T, and C pairs with G.\n\nGiven strand: ```5'-ATGCCGTA-3'```\n\nComplementary strand:\nA → T\nT → A\nG → C\nC → G\nC → G\nG → C\nT → A\nA → T\nSo the complementary strand is ```3'-TACGGCAT-5'```."
-  },
-  {
-    "title": "Dihybrid Cross Outcome",
-    "ques": "In pea plants, round (R) is dominant over wrinkled (r), and yellow (Y) is dominant over green (y). What phenotypic ratio is expected from a RrYy × RrYy cross?",
-    "answer": {
-      "type": "text",
-      "content": "Phenotypic ratio: 9 Round Yellow : 3 Round Green : 3 Wrinkled Yellow : 1 Wrinkled Green"
-    },
-    "explanation": "***Dihybrid cross:***\nWhen both parents are ```RrYy```, apply a 4x4 Punnett square.\n\n***Phenotypes:***\n- Round Yellow (RRYY, RRYy, RrYY, RrYy) → 9\n- Round Green (RRyy, Rryy) → 3\n- Wrinkled Yellow (rrYY, rrYy) → 3\n- Wrinkled Green (rryy) → 1\n\nThus, the phenotypic ratio is ```9:3:3:1```."
-  },
-  {
-    "title": "Silent vs. Nonsense Mutation",
-    "ques": "What is the difference between a silent mutation and a nonsense mutation?",
-    "answer": {
-      "type": "text",
-      "content": "Silent mutation: Changes a base but does not change the amino acid.\nNonsense mutation: Changes a codon to a stop codon, ending the protein early."
-    },
-    "explanation": "***Silent mutation:***\nOccurs when a nucleotide is changed but the new codon still codes for the same amino acid.\nExample: ```GAA → GAG``` both code for glutamic acid.\n\n***Nonsense mutation:***\nIntroduces a premature stop codon.\nExample: ```UAC → UAA```\nThis results in a truncated, often nonfunctional protein."
-  },
-  {
-    "title": "Carrier Probability for Tay-Sachs",
-    "ques": "Tay-Sachs is a recessive disorder. If one parent is a carrier and the other is not, what is the chance their child will be affected?",
-    "answer": {
-      "type": "text",
-      "content": "0% chance the child will have Tay-Sachs, but 50% chance they will be a carrier."
-    },
-    "explanation": "***Carrier (heterozygous):*** One parent has genotype ```Tt```, the other is ```TT```.\n\n***Cross:***\nTt × TT → offspring genotypes: TT, TT, Tt, Tt\n\n***Outcomes:***\n- No child gets two recessive alleles → ```0% affected```\n- Two children inherit one recessive allele → ```50% carriers```"
-  },
-  {
-    "title": "CRISPR Ethical Consideration",
-    "ques": "What is one major ethical concern related to CRISPR gene editing in humans?",
-    "answer": {
-      "type": "text",
-      "content": "One major ethical concern is the possibility of editing embryos for non-medical traits, leading to 'designer babies'."
-    },
-    "explanation": "***CRISPR potential:***\nIt allows precise gene editing, even in embryos.\n\n***Ethical issue:***\nIf used to alter traits like intelligence or appearance, it could promote inequality and discrimination.\n\n***Term:*** This is often referred to as ```\"designer babies\"``` — a controversial application of genetic engineering.\n\nMany scientists advocate for regulations and public dialogue before proceeding with such uses."
-  },
-  {
-    "title": "Function of DNA Polymerase",
-    "ques": "What is the role of DNA polymerase in DNA replication, and how does it ensure accuracy?",
-    "answer": {
-      "type": "text",
-      "content": "DNA polymerase adds nucleotides to the growing DNA strand during replication.\nIt also proofreads the newly synthesized DNA to correct errors."
-    },
-    "explanation": "***Adding nucleotides:***\nDNA polymerase attaches free nucleotides to the 3’ end of the new strand using the template strand.\n\n***Directionality:***\nIt works in the ```5’ to 3’``` direction only.\n\n***Proofreading:***\nThe enzyme checks for mismatched bases and replaces them.\nThis proofreading reduces mutation rates and maintains DNA integrity."
-  },
-  {
-    "title": "Test Cross in Mendelian Genetics",
-    "ques": "How would you determine the genotype of a tall pea plant that could be either TT or Tt?",
-    "answer": {
-      "type": "text",
-      "content": "Perform a test cross by crossing the tall plant with a homozygous recessive (tt) plant.\nIf any offspring are short, the unknown plant is heterozygous (Tt)."
-    },
-    "explanation": "***Test cross:***\nUsed to determine an unknown dominant phenotype's genotype.\n\n***Cross with tt:***\n- TT × tt → All tall offspring\n- Tt × tt → 50% tall, 50% short\n\n***Conclusion:***\nIf you observe short plants among the offspring, the unknown parent must be ```Tt```."
-  },
-  {
-    "title": "Frameshift Mutation Consequences",
-    "ques": "Why are frameshift mutations often more harmful than point mutations?",
-    "answer": {
-      "type": "text",
-      "content": "Frameshift mutations shift the entire reading frame of a gene,\nchanging every codon after the mutation and potentially producing a nonfunctional protein."
-    },
-    "explanation": "***Point mutation:***\nAffects only one base and may result in a single amino acid change or no change at all.\n\n***Frameshift mutation:***\nCaused by insertion or deletion of a base not in multiples of three.\n\n***Effect:***\nChanges all downstream codons, often introducing premature stop codons.\n```Example: Original: AUG-GCU-ACG → Mutated: AUG-CUA-CG...```\nThis typically renders the protein nonfunctional."
-  },
-  {
-    "title": "Huntington’s Disease Inheritance",
-    "ques": "Huntington’s disease is caused by a dominant allele (H). If one parent is heterozygous (Hh) and the other is homozygous recessive (hh), what is the chance their child will develop the disease?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 50% chance the child will inherit Huntington’s disease."
-    },
-    "explanation": "***Dominant disorder:***\nOnly one copy of the mutant allele (H) is needed.\n\n***Cross: Hh × hh***\nPossible offspring: ```Hh, Hh, hh, hh```\n\n- Hh = has the disease\n- hh = unaffected\n\nSo, there's a ```2 out of 4 = 50%``` chance of inheriting the disorder."
-  },
-  {
-    "title": "CRISPR vs Traditional Gene Therapy",
-    "ques": "How does CRISPR differ from traditional gene therapy approaches?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR precisely edits genes at specific locations in the genome,\nwhile traditional gene therapy often adds a normal gene without fixing the original defect."
-    },
-    "explanation": "***CRISPR:***\nUses a guide RNA and Cas9 enzyme to target and cut specific DNA sequences.\nAllows for deletion, replacement, or correction of genes at their original location.\n\n***Traditional gene therapy:***\nTypically uses a viral vector to insert a healthy gene into the genome.\nIt does not usually correct or remove the defective gene.\n\n***Key difference:***\n```CRISPR = edit```\n```Traditional therapy = supplement```"
-  },
-  {
-    "title": "Role of Hydrogen Bonds in DNA",
-    "ques": "What role do hydrogen bonds play in the structure and function of DNA?",
-    "answer": {
-      "type": "text",
-      "content": "Hydrogen bonds hold the two DNA strands together between complementary bases.\nThey allow the DNA to unzip during replication and transcription."
-    },
-    "explanation": "***Base pairing:***\nHydrogen bonds form between specific base pairs:\n```A-T = 2 hydrogen bonds```, ```C-G = 3 hydrogen bonds```\n\n***Function:***\nThese bonds stabilize the double helix but are weak enough to break for replication or transcription.\n\n***Unzipping DNA:***\nDuring replication, enzymes like helicase break these bonds to separate strands."
-  },
-  {
-    "title": "Phenotypic Ratio in Incomplete Dominance",
-    "ques": "In snapdragons, red (RR) and white (WW) flowers show incomplete dominance. What is the phenotypic ratio when two pink (RW) flowers are crossed?",
-    "answer": {
-      "type": "text",
-      "content": "Phenotypic ratio: 1 Red : 2 Pink : 1 White"
-    },
-    "explanation": "***Incomplete dominance:***\nHeterozygous individuals (RW) have a blend of traits (pink).\n\n***Cross: RW × RW***\nGenotypes: ```RR, RW, RW, WW```\n\n***Phenotypes:***\n- RR = Red\n- RW = Pink\n- WW = White\n\nSo, the phenotypic ratio is ```1:2:1```."
-  },
-  {
-    "title": "Nonsense Mutation in a Gene",
-    "ques": "A gene originally codes for 300 amino acids. A mutation introduces a premature stop codon at position 50. What kind of mutation is this and what’s the likely result?",
-    "answer": {
-      "type": "text",
-      "content": "This is a nonsense mutation.\nIt will result in a truncated protein with only 49 amino acids, likely nonfunctional."
-    },
-    "explanation": "***Nonsense mutation:***\nOccurs when a codon is changed to a stop codon (e.g., UAU → UAA).\n\n***Effect:***\nTranslation halts early. Protein synthesis ends prematurely.\n\n***Example:***\nOriginal length: ```300 amino acids```\nAfter mutation: ```only 49 translated```\n\n***Result:***\nProtein will likely lose its function due to incomplete structure."
-  },
-  {
-    "title": "Autosomal Recessive Disorder Probability",
-    "ques": "Two individuals who are both carriers for sickle-cell anemia (Ss) plan to have a child. What is the probability their child will be affected?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 25% chance the child will have sickle-cell anemia."
-    },
-    "explanation": "***Carrier parents:***\nBoth are heterozygous (Ss).\n\n***Cross: Ss × Ss***\nPossible genotypes: ```SS, Ss, Ss, ss```\n\nOnly ```ss``` results in the disorder.\nThus, 1 out of 4 = ```25% affected```."
-  },
-  {
-    "title": "CRISPR's Use in Gene Knockout",
-    "ques": "How is CRISPR used to perform a gene knockout in a laboratory experiment?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR is programmed to cut a specific gene.\nThe DNA break is repaired by the cell incorrectly, disrupting the gene and 'knocking it out'."
-    },
-    "explanation": "***Guide RNA (gRNA):***\nTargets a specific sequence in the genome.\n\n***Cas9 protein:***\nCreates a double-strand break at the target site.\n\n***Knockout:***\nWhen the cell attempts to repair the cut via ```non-homologous end joining (NHEJ)```, it often introduces small errors (insertions or deletions).\nThese errors disrupt the gene's function, effectively 'knocking it out'."
-  },
-  {
-    "title": "Leading vs Lagging Strand",
-    "ques": "During DNA replication, what is the difference between the leading and lagging strands?",
-    "answer": {
-      "type": "text",
-      "content": "The leading strand is synthesized continuously in the 5' to 3' direction.\nThe lagging strand is synthesized discontinuously as Okazaki fragments."
-    },
-    "explanation": "***Leading strand:***\nDNA polymerase synthesizes this strand in a smooth, continuous fashion as it follows the replication fork.\nDirection: ```5' → 3'```.\n\n***Lagging strand:***\nSince it moves away from the fork, it's synthesized in short segments called ```Okazaki fragments```, later joined by DNA ligase.\n\n***Result:***\nOne strand is continuous, the other is built in pieces."
-  },
-  {
-    "title": "Sex-Linked Inheritance in Color Blindness",
-    "ques": "A woman who is a carrier for red-green color blindness (XᶜX) has children with a man who has normal vision (XY). What is the probability that a son will be color blind?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 50% chance the son will be color blind."
-    },
-    "explanation": "***Sex-linked trait:***\nRed-green color blindness is carried on the X chromosome (Xᶜ = affected allele).\n\n***Cross: XᶜX × XY***\nSons receive their X chromosome from the mother and Y from the father.\n\nSons' possibilities:\n- X (normal) + Y → Normal son\n- Xᶜ + Y → Color-blind son\n\n***Probability:***\n```1 out of 2 = 50% chance``` of having a color-blind son."
-  },
-  {
-    "title": "Deletion Mutation Impact",
-    "ques": "A mutation deletes three bases from the coding sequence of a gene. What will be the likely effect on the resulting protein?",
-    "answer": {
-      "type": "text",
-      "content": "It will result in the loss of one amino acid from the protein,\nbut the reading frame will remain unchanged."
-    },
-    "explanation": "***Deletion of 3 bases:***\nBecause codons are 3 bases long, removing one full codon deletes one amino acid.\n\n***Effect:***\nNo frameshift occurs — the downstream codons remain in the correct reading frame.\n\n***Protein result:***\nThe protein may be functional or partially impaired depending on which amino acid was removed."
-  },
-  {
-    "title": "Recessive Genetic Disorder Identification",
-    "ques": "Why do recessive genetic disorders often skip generations in a family?",
-    "answer": {
-      "type": "text",
-      "content": "Because individuals must inherit two copies of the recessive allele\nto express the disorder, carriers without symptoms can pass it on."
-    },
-    "explanation": "***Recessive inheritance:***\nOnly individuals with genotype ```aa``` express the disorder.\n\n***Carriers (Aa):***\nAppear healthy but can pass on the recessive allele.\n\n***Family pattern:***\nIf two carriers have children, the disorder can appear unexpectedly:\n```Aa × Aa → aa (25%)```\nHence, the disorder may skip generations."
-  },
-  {
-    "title": "CRISPR Target Specificity",
-    "ques": "How does CRISPR ensure it edits the correct location in the genome?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR uses a custom guide RNA that matches the target DNA sequence.\nThis ensures that the Cas9 enzyme cuts only at the specific site."
-    },
-    "explanation": "***Guide RNA (gRNA):***\nDesigned to be complementary to the DNA sequence of interest.\n\n***Targeting:***\nThe Cas9 enzyme binds to the gRNA and scans the genome for a matching sequence.\nOnce matched, Cas9 makes a cut at that exact location.\n\n***Precision:***\nThe accuracy of CRISPR relies on the ```20-nucleotide sequence``` of the guide RNA.\nSmall mismatches can prevent binding, increasing targeting specificity."
-  },
-  {
-    "title": "Enzyme That Unzips DNA",
-    "ques": "Which enzyme is responsible for separating the DNA strands during replication, and how does it work?",
-    "answer": {
-      "type": "text",
-      "content": "The enzyme is helicase.\nIt unwinds the DNA double helix by breaking the hydrogen bonds between base pairs."
-    },
-    "explanation": "***Helicase function:***\nIt binds to the origin of replication and moves along the DNA.\n\n***Mechanism:***\nIt breaks the ```hydrogen bonds``` between complementary bases:\n```A=T and C≡G```\n\nThis creates a replication fork with two single-stranded templates."
-  },
-  {
-    "title": "Monohybrid Cross in Guinea Pigs",
-    "ques": "In guinea pigs, black fur (B) is dominant over white (b). Two heterozygous black guinea pigs are crossed. What is the probability of getting a white offspring?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 25% chance of producing a white guinea pig."
-    },
-    "explanation": "***Cross: Bb × Bb***\nGenotypes: ```BB, Bb, Bb, bb```\n\nOnly ```bb``` results in white fur.\n\n***Probability:***\n1 out of 4 = ```25%``` chance for white fur."
-  },
-  {
-    "title": "Missense Mutation Outcome",
-    "ques": "A mutation changes the codon GAG (glutamic acid) to GTG (valine). What type of mutation is this, and what is the likely effect?",
-    "answer": {
-      "type": "text",
-      "content": "This is a missense mutation.\nIt substitutes one amino acid for another, which may affect the protein’s function."
-    },
-    "explanation": "***Missense mutation:***\nA base substitution leads to a codon coding for a different amino acid.\n\n***Example:***\n```GAG → GTG```\n- GAG = glutamic acid\n- GTG = valine\n\n***Possible effects:***\n- May alter protein shape or function.\n- In some cases (like sickle-cell anemia), it leads to disease."
-  },
-  {
-    "title": "Probability of Inheriting Albinism",
-    "ques": "Albinism is an autosomal recessive disorder. If both parents are carriers, what is the probability that their child will not have albinism and also not be a carrier?",
-    "answer": {
-      "type": "text",
-      "content": "There is a 25% chance the child will be unaffected and not a carrier."
-    },
-    "explanation": "***Carrier parents:*** Both are ```Aa``` (heterozygous).\n\n***Cross: Aa × Aa***\nGenotypes: ```AA, Aa, Aa, aa```\n\n- AA = unaffected, not a carrier\n- Aa = unaffected carrier\n- aa = affected\n\nOnly ```AA``` satisfies the condition → ```1 out of 4 = 25%```"
-  },
-  {
-    "title": "CRISPR in Agriculture",
-    "ques": "How can CRISPR be used to improve crop resistance to disease?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR can disable or modify genes that make crops susceptible to pathogens,\nthereby enhancing natural resistance without introducing foreign DNA."
-    },
-    "explanation": "***CRISPR application:***\nTarget genes in plants that contribute to disease susceptibility.\n\n***Mechanism:***\nUse guide RNA to direct Cas9 to cut the gene of interest.\n\n***Result:***\n- Mutation disables the gene\n- Plant becomes resistant\n\n***Advantage:***\nThis is a precise, non-GMO method of crop improvement."
-  },
-  {
-    "title": "Origin of Replication",
-    "ques": "What is the origin of replication in DNA, and why is it important for DNA synthesis?",
-    "answer": {
-      "type": "text",
-      "content": "The origin of replication is a specific DNA sequence where replication begins.\nIt allows enzymes like helicase and DNA polymerase to start copying the DNA."
-    },
-    "explanation": "***Definition:***\nThe origin of replication is a fixed starting point on the DNA molecule.\n\n***Importance:***\nEnzymes such as ```helicase``` bind here to start unwinding the DNA.\nThen, ```DNA polymerase``` builds new strands from this point.\n\n***In eukaryotes:***\nThere are multiple origins to speed up replication of large genomes."
-  },
-  {
-    "title": "Punnett Square for Blood Type Inheritance",
-    "ques": "A mother has blood type AB and the father has blood type O. What are the possible blood types of their children?",
-    "answer": {
-      "type": "text",
-      "content": "The children can have either blood type A or blood type B."
-    },
-    "explanation": "***Mother: AB genotype*** → contributes either A or B allele\n***Father: OO genotype*** → contributes only O allele\n\n***Punnett Square:***\n- AO = blood type A\n- BO = blood type B\n\nNo child can inherit AB or O blood types.\nSo, possible blood types = ```A or B```."
-  },
-  {
-    "title": "Silent Mutation Effect",
-    "ques": "A DNA codon changes from GAA to GAG. What type of mutation is this and what is the outcome?",
-    "answer": {
-      "type": "text",
-      "content": "This is a silent mutation.\nIt does not change the amino acid sequence, so the protein remains unchanged."
-    },
-    "explanation": "***Codons:***\n- GAA and GAG both code for ```glutamic acid```\n\n***Silent mutation:***\nA change in the DNA sequence that doesn't affect the amino acid.\n\n***Effect:***\nBecause the genetic code is ```degenerate``` (multiple codons per amino acid), the protein remains functional."
-  },
-  {
-    "title": "Carrier Probability in Cystic Fibrosis",
-    "ques": "If a child has cystic fibrosis (autosomal recessive), what must be true about the parents' genotypes?",
-    "answer": {
-      "type": "text",
-      "content": "Both parents must be carriers (heterozygous) or affected themselves.\nEach must contribute one copy of the mutated gene."
-    },
-    "explanation": "***Cystic fibrosis:***\nCaused by a mutation in both alleles (genotype: ```ff```)\n\n***Parents:***\n- Must each have at least one ```f``` allele\n- Likely genotypes: ```Ff × Ff``` or one parent could be ```ff```\n\n***Conclusion:***\nIf the child is affected, each parent passed on a recessive allele.\nThus, both must be carriers or affected."
-  },
-  {
-    "title": "CRISPR and Gene Activation",
-    "ques": "Besides cutting DNA, how can CRISPR be used to activate a gene?",
-    "answer": {
-      "type": "text",
-      "content": "CRISPR can use a modified Cas9 protein that does not cut DNA,\nand attach activator proteins to increase gene expression."
-    },
-    "explanation": "***Modified CRISPR:***\nUses a dead Cas9 (```dCas9```) that binds DNA without cutting it.\n\n***Activation:***\nThe dCas9 is fused with a transcriptional activator (like VP64).\n\n***Effect:***\nWhen guided to a gene's promoter region, it recruits RNA polymerase and enhances transcription.\n\n***Use:***\nThis version of CRISPR is used to turn genes **on** instead of editing or disabling them."
-  }
+    {
+        "title": "Genetic Disorders 🏥",
+        "ques": "Match with inheritance pattern:\n1. Cystic fibrosis\n2. Huntington's disease\n3. Hemophilia",
+        "answer": {
+            "type": "text",
+            "content": "**1. Cystic fibrosis** → Autosomal recessive (need 2 copies)\n\n**2. Huntington's disease** → Autosomal dominant (1 copy causes disease)\n\n**3. Hemophilia** → X-linked recessive (more common in males)"
+        },
+        "explanation": "**Inheritance patterns** determine disease risk. X-linked recessive affects males more because they have only one X chromosome."
+    }
 ]

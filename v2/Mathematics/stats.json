@@ -1,0 +1,6331 @@
+[
+    {
+        "q": "What is statistics?",
+        "type": "mcq",
+        "o": [
+            "The science of collecting, analyzing, and interpreting data",
+            "A branch of physics",
+            "Pure mathematics only",
+            "Computer programming"
+        ]
+    },
+    {
+        "q": "Statistics is divided into descriptive and ______ branches.",
+        "type": "fill_blank",
+        "answers": [
+            "inferential"
+        ],
+        "other_options": [
+            "computational",
+            "theoretical",
+            "applied"
+        ]
+    },
+    {
+        "q": "What is a population in statistics?",
+        "type": "mcq",
+        "o": [
+            "The entire group being studied",
+            "A small subset",
+            "Only people",
+            "A random selection"
+        ]
+    },
+    {
+        "q": "A sample is a ______ of the population.",
+        "type": "fill_blank",
+        "answers": [
+            "subset"
+        ],
+        "other_options": [
+            "duplicate",
+            "average",
+            "maximum"
+        ]
+    },
+    {
+        "q": "Match the term with its definition:",
+        "type": "match",
+        "left": [
+            "Population",
+            "Sample",
+            "Parameter",
+            "Statistic"
+        ],
+        "right": [
+            "Entire group",
+            "Subset of population",
+            "Population measure",
+            "Sample measure"
+        ]
+    },
+    {
+        "q": "What is the mean?",
+        "type": "mcq",
+        "o": [
+            "The sum of values divided by the count",
+            "The middle value",
+            "The most frequent value",
+            "The range"
+        ]
+    },
+    {
+        "q": "The mean is calculated as sum(x) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "n"
+        ],
+        "other_options": [
+            "2",
+            "max",
+            "min"
+        ]
+    },
+    {
+        "q": "The mean is sensitive to outliers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange measures of central tendency:",
+        "type": "rearrange",
+        "words": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Midrange"
+        ]
+    },
+    {
+        "q": "What is the median?",
+        "type": "mcq",
+        "o": [
+            "The middle value when data is sorted",
+            "The average",
+            "The most common value",
+            "The difference between max and min"
+        ]
+    },
+    {
+        "q": "For an odd number of values, the median is the ______ value.",
+        "type": "fill_blank",
+        "answers": [
+            "middle"
+        ],
+        "other_options": [
+            "first",
+            "last",
+            "average"
+        ]
+    },
+    {
+        "q": "The median is resistant to outliers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the mode?",
+        "type": "mcq",
+        "o": [
+            "The most frequently occurring value",
+            "The middle value",
+            "The average",
+            "The range"
+        ]
+    },
+    {
+        "q": "A distribution can have more than one mode.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the measure with its property:",
+        "type": "match",
+        "left": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+        ],
+        "right": [
+            "Uses all values",
+            "Resistant to outliers",
+            "Most frequent",
+            "Spread measure"
+        ]
+    },
+    {
+        "q": "What is the range?",
+        "type": "mcq",
+        "o": [
+            "Maximum value minus minimum value",
+            "The average",
+            "The median",
+            "The mode"
+        ]
+    },
+    {
+        "q": "Range = max - ______.",
+        "type": "fill_blank",
+        "answers": [
+            "min"
+        ],
+        "other_options": [
+            "mean",
+            "median",
+            "mode"
+        ]
+    },
+    {
+        "q": "The range uses only two data points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is variance?",
+        "type": "mcq",
+        "o": [
+            "The average of squared deviations from the mean",
+            "The range",
+            "The mean",
+            "The median"
+        ]
+    },
+    {
+        "q": "Rearrange measures of spread:",
+        "type": "rearrange",
+        "words": [
+            "Range",
+            "Variance",
+            "Standard deviation",
+            "IQR"
+        ]
+    },
+    {
+        "q": "Population variance divides by N, sample variance divides by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "n-1"
+        ],
+        "other_options": [
+            "n",
+            "n+1",
+            "2n"
+        ]
+    },
+    {
+        "q": "What is standard deviation?",
+        "type": "mcq",
+        "o": [
+            "The square root of variance",
+            "The variance squared",
+            "The range",
+            "The mean"
+        ]
+    },
+    {
+        "q": "Standard deviation has the same units as the ______ data.",
+        "type": "fill_blank",
+        "answers": [
+            "original"
+        ],
+        "other_options": [
+            "squared",
+            "different",
+            "no"
+        ]
+    },
+    {
+        "q": "A larger standard deviation means more spread.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the symbol with its meaning:",
+        "type": "match",
+        "left": [
+            "mu",
+            "sigma",
+            "x-bar",
+            "s"
+        ],
+        "right": [
+            "Population mean",
+            "Population std dev",
+            "Sample mean",
+            "Sample std dev"
+        ]
+    },
+    {
+        "q": "What is the interquartile range (IQR)?",
+        "type": "mcq",
+        "o": [
+            "Q3 - Q1, the middle 50% of data",
+            "Max - Min",
+            "The median",
+            "The mean"
+        ]
+    },
+    {
+        "q": "IQR = Q3 - ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Q1"
+        ],
+        "other_options": [
+            "Q2",
+            "mean",
+            "median"
+        ]
+    },
+    {
+        "q": "IQR is resistant to outliers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a quartile?",
+        "type": "mcq",
+        "o": [
+            "A value that divides data into four equal parts",
+            "A percentage",
+            "The mode",
+            "The mean"
+        ]
+    },
+    {
+        "q": "Rearrange quartiles:",
+        "type": "rearrange",
+        "words": [
+            "Min",
+            "Q1",
+            "Q2 (Median)",
+            "Q3",
+            "Max"
+        ]
+    },
+    {
+        "q": "What is a percentile?",
+        "type": "mcq",
+        "o": [
+            "A value below which a percentage of data falls",
+            "A fraction",
+            "The mode",
+            "Always 100"
+        ]
+    },
+    {
+        "q": "The median is the ______ percentile.",
+        "type": "fill_blank",
+        "answers": [
+            "50th"
+        ],
+        "other_options": [
+            "25th",
+            "75th",
+            "100th"
+        ]
+    },
+    {
+        "q": "Q1 is the 25th percentile.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the percentile with the quartile:",
+        "type": "match",
+        "left": [
+            "25th percentile",
+            "50th percentile",
+            "75th percentile",
+            "100th percentile"
+        ],
+        "right": [
+            "Q1",
+            "Q2/Median",
+            "Q3",
+            "Maximum"
+        ]
+    },
+    {
+        "q": "What is a box plot (box-and-whisker)?",
+        "type": "mcq",
+        "o": [
+            "A graph showing the five-number summary",
+            "A bar chart",
+            "A pie chart",
+            "A line graph"
+        ]
+    },
+    {
+        "q": "A box plot shows min, Q1, median, Q3, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "max"
+        ],
+        "other_options": [
+            "mean",
+            "mode",
+            "range"
+        ]
+    },
+    {
+        "q": "Outliers are typically shown as separate points on a box plot.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange data visualization types:",
+        "type": "rearrange",
+        "words": [
+            "Histogram",
+            "Box plot",
+            "Scatter plot",
+            "Bar chart"
+        ]
+    },
+    {
+        "q": "What is a histogram?",
+        "type": "mcq",
+        "o": [
+            "A graph showing frequency distribution of continuous data",
+            "A pie chart",
+            "A line graph",
+            "A scatter plot"
+        ]
+    },
+    {
+        "q": "Histograms use ______ to represent frequencies.",
+        "type": "fill_blank",
+        "answers": [
+            "bars"
+        ],
+        "other_options": [
+            "points",
+            "lines",
+            "circles"
+        ]
+    },
+    {
+        "q": "In a histogram, bars are adjacent (no gaps) for continuous data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the chart type with its best use:",
+        "type": "match",
+        "left": [
+            "Histogram",
+            "Bar chart",
+            "Pie chart",
+            "Scatter plot"
+        ],
+        "right": [
+            "Frequency of continuous data",
+            "Categorical comparisons",
+            "Parts of a whole",
+            "Relationship between two variables"
+        ]
+    },
+    {
+        "q": "What is a normal distribution?",
+        "type": "mcq",
+        "o": [
+            "A symmetric bell-shaped distribution",
+            "A uniform distribution",
+            "A skewed distribution",
+            "Any distribution"
+        ]
+    },
+    {
+        "q": "The normal distribution is defined by mean mu and standard deviation ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sigma"
+        ],
+        "other_options": [
+            "variance",
+            "range",
+            "mode"
+        ]
+    },
+    {
+        "q": "About 68% of data falls within one standard deviation of the mean for a normal distribution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange empirical rule percentages:",
+        "type": "rearrange",
+        "words": [
+            "68% (1 sigma)",
+            "95% (2 sigma)",
+            "99.7% (3 sigma)"
+        ]
+    },
+    {
+        "q": "What is a z-score?",
+        "type": "mcq",
+        "o": [
+            "The number of standard deviations from the mean",
+            "The mean",
+            "The median",
+            "The mode"
+        ]
+    },
+    {
+        "q": "z = (x - mu) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sigma"
+        ],
+        "other_options": [
+            "mu",
+            "n",
+            "variance"
+        ]
+    },
+    {
+        "q": "A z-score of 0 means the value equals the mean.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the z-score with its interpretation:",
+        "type": "match",
+        "left": [
+            "z = 0",
+            "z = 1",
+            "z = -2",
+            "z = 3"
+        ],
+        "right": [
+            "At the mean",
+            "1 std dev above",
+            "2 std dev below",
+            "3 std dev above"
+        ]
+    },
+    {
+        "q": "What is the standard normal distribution?",
+        "type": "mcq",
+        "o": [
+            "A normal distribution with mean 0 and std dev 1",
+            "Any normal distribution",
+            "A uniform distribution",
+            "A skewed distribution"
+        ]
+    },
+    {
+        "q": "The standard normal distribution has mean ______ and std dev 1.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "100",
+            "50"
+        ]
+    },
+    {
+        "q": "Z-tables give probabilities for the standard normal distribution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is probability?",
+        "type": "mcq",
+        "o": [
+            "A measure of how likely an event is to occur",
+            "A certainty",
+            "The mean",
+            "The mode"
+        ]
+    },
+    {
+        "q": "Rearrange probability concepts:",
+        "type": "rearrange",
+        "words": [
+            "Sample space",
+            "Event",
+            "Probability",
+            "Outcome"
+        ]
+    },
+    {
+        "q": "Probability is always between ______ and 1.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "-1",
+            "0.5",
+            "100"
+        ]
+    },
+    {
+        "q": "A probability of 0 means the event is impossible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the probability with its meaning:",
+        "type": "match",
+        "left": [
+            "P = 0",
+            "P = 0.5",
+            "P = 1",
+            "0 < P < 1"
+        ],
+        "right": [
+            "Impossible",
+            "Equally likely",
+            "Certain",
+            "Possible but not certain"
+        ]
+    },
+    {
+        "q": "What is the addition rule of probability?",
+        "type": "mcq",
+        "o": [
+            "P(A or B) = P(A) + P(B) - P(A and B)",
+            "P(A) * P(B)",
+            "P(A) - P(B)",
+            "P(A) / P(B)"
+        ]
+    },
+    {
+        "q": "For mutually exclusive events, P(A or B) = P(A) + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "P(B)"
+        ],
+        "other_options": [
+            "P(A)",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "Mutually exclusive events cannot occur simultaneously.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the multiplication rule for independent events?",
+        "type": "mcq",
+        "o": [
+            "P(A and B) = P(A) * P(B)",
+            "P(A) + P(B)",
+            "P(A) - P(B)",
+            "P(A) / P(B)"
+        ]
+    },
+    {
+        "q": "Rearrange probability rules:",
+        "type": "rearrange",
+        "words": [
+            "Addition rule",
+            "Multiplication rule",
+            "Complement rule",
+            "Conditional probability"
+        ]
+    },
+    {
+        "q": "Independent events do not affect each other's probabilities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is conditional probability?",
+        "type": "mcq",
+        "o": [
+            "P(A|B) = probability of A given B has occurred",
+            "P(A) * P(B)",
+            "P(A) + P(B)",
+            "P(A) - P(B)"
+        ]
+    },
+    {
+        "q": "P(A|B) = P(A and B) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "P(B)"
+        ],
+        "other_options": [
+            "P(A)",
+            "1",
+            "0"
+        ]
+    },
+    {
+        "q": "Match the probability formula:",
+        "type": "match",
+        "left": [
+            "P(A')",
+            "P(A or B)",
+            "P(A and B) for independent",
+            "P(A|B)"
+        ],
+        "right": [
+            "1 - P(A)",
+            "P(A) + P(B) - P(A and B)",
+            "P(A) * P(B)",
+            "P(A and B) / P(B)"
+        ]
+    },
+    {
+        "q": "What is Bayes' theorem?",
+        "type": "mcq",
+        "o": [
+            "P(A|B) = P(B|A) * P(A) / P(B)",
+            "P(A) + P(B)",
+            "P(A) * P(B)",
+            "P(A) - P(B)"
+        ]
+    },
+    {
+        "q": "Bayes' theorem allows us to update ______ based on new evidence.",
+        "type": "fill_blank",
+        "answers": [
+            "probabilities"
+        ],
+        "other_options": [
+            "means",
+            "medians",
+            "modes"
+        ]
+    },
+    {
+        "q": "Bayes' theorem is fundamental to Bayesian statistics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Bayes' theorem components:",
+        "type": "rearrange",
+        "words": [
+            "Prior P(A)",
+            "Likelihood P(B|A)",
+            "Evidence P(B)",
+            "Posterior P(A|B)"
+        ]
+    },
+    {
+        "q": "What is a random variable?",
+        "type": "mcq",
+        "o": [
+            "A variable whose value is determined by a random event",
+            "A constant",
+            "Any variable",
+            "Only integers"
+        ]
+    },
+    {
+        "q": "Random variables can be discrete or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "continuous"
+        ],
+        "other_options": [
+            "constant",
+            "random",
+            "fixed"
+        ]
+    },
+    {
+        "q": "A discrete random variable takes countable values.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the random variable type:",
+        "type": "match",
+        "left": [
+            "Discrete",
+            "Continuous",
+            "Bernoulli",
+            "Normal"
+        ],
+        "right": [
+            "Countable values",
+            "Any value in interval",
+            "Two outcomes",
+            "Bell-shaped"
+        ]
+    },
+    {
+        "q": "What is a probability distribution?",
+        "type": "mcq",
+        "o": [
+            "A function giving probabilities for all possible values",
+            "A single probability",
+            "Just the mean",
+            "The range"
+        ]
+    },
+    {
+        "q": "The sum of all probabilities in a discrete distribution equals ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "100",
+            "infinity"
+        ]
+    },
+    {
+        "q": "For continuous distributions, we use probability density functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange distribution types:",
+        "type": "rearrange",
+        "words": [
+            "Uniform",
+            "Binomial",
+            "Poisson",
+            "Normal",
+            "Exponential"
+        ]
+    },
+    {
+        "q": "What is expected value (E[X])?",
+        "type": "mcq",
+        "o": [
+            "The long-run average of the random variable",
+            "The mode",
+            "The range",
+            "The maximum"
+        ]
+    },
+    {
+        "q": "E[X] = sum of x * P(x) for discrete distributions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Expected value is also called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mean"
+        ],
+        "other_options": [
+            "mode",
+            "median",
+            "range"
+        ]
+    },
+    {
+        "q": "Match the concept:",
+        "type": "match",
+        "left": [
+            "E[X]",
+            "Var(X)",
+            "SD(X)",
+            "E[X^2]"
+        ],
+        "right": [
+            "Mean",
+            "Variance",
+            "Standard deviation",
+            "Second moment"
+        ]
+    },
+    {
+        "q": "What is the binomial distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution of successes in n independent Bernoulli trials",
+            "A continuous distribution",
+            "A normal distribution",
+            "Any distribution"
+        ]
+    },
+    {
+        "q": "A binomial distribution has parameters n and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "p"
+        ],
+        "other_options": [
+            "lambda",
+            "mu",
+            "sigma"
+        ]
+    },
+    {
+        "q": "The binomial coefficient C(n,k) gives the number of ways to choose k from n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "For binomial distribution, E[X] = n * p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange binomial distribution facts:",
+        "type": "rearrange",
+        "words": [
+            "n trials",
+            "p probability",
+            "P(X=k) formula",
+            "E[X] = np",
+            "Var(X) = np(1-p)"
+        ]
+    },
+    {
+        "q": "What is the Poisson distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution of rare events in a fixed interval",
+            "A continuous distribution",
+            "A binomial distribution",
+            "A uniform distribution"
+        ]
+    },
+    {
+        "q": "The Poisson distribution has parameter ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lambda"
+        ],
+        "other_options": [
+            "p",
+            "mu",
+            "sigma"
+        ]
+    },
+    {
+        "q": "For Poisson distribution, E[X] = Var(X) = lambda.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the distribution with its use case:",
+        "type": "match",
+        "left": [
+            "Binomial",
+            "Poisson",
+            "Normal",
+            "Exponential"
+        ],
+        "right": [
+            "Fixed trials with success/failure",
+            "Rare events per interval",
+            "Continuous symmetric",
+            "Time between events"
+        ]
+    },
+    {
+        "q": "What is the uniform distribution?",
+        "type": "mcq",
+        "o": [
+            "All outcomes equally likely",
+            "Bell-shaped",
+            "Skewed right",
+            "Skewed left"
+        ]
+    },
+    {
+        "q": "For uniform distribution on [a,b], f(x) = 1/(b-a).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the exponential distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution of time between events in a Poisson process",
+            "A discrete distribution",
+            "A normal distribution",
+            "A binomial distribution"
+        ]
+    },
+    {
+        "q": "The exponential distribution has parameter ______ (rate).",
+        "type": "fill_blank",
+        "answers": [
+            "lambda"
+        ],
+        "other_options": [
+            "mu",
+            "sigma",
+            "p"
+        ]
+    },
+    {
+        "q": "The exponential distribution is memoryless.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange continuous distributions:",
+        "type": "rearrange",
+        "words": [
+            "Uniform",
+            "Normal",
+            "Exponential",
+            "Gamma",
+            "Beta"
+        ]
+    },
+    {
+        "q": "What is the gamma distribution?",
+        "type": "mcq",
+        "o": [
+            "A generalization of the exponential distribution",
+            "A discrete distribution",
+            "Same as normal",
+            "Only for integers"
+        ]
+    },
+    {
+        "q": "The gamma distribution has parameters shape and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rate"
+        ],
+        "other_options": [
+            "mean",
+            "median",
+            "mode"
+        ]
+    },
+    {
+        "q": "When shape = 1, the gamma distribution is exponential.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the distribution with its relationship:",
+        "type": "match",
+        "left": [
+            "Chi-squared",
+            "Erlang",
+            "F-distribution",
+            "t-distribution"
+        ],
+        "right": [
+            "Special gamma",
+            "Integer shape gamma",
+            "Ratio of chi-squared",
+            "Normal/sqrt(chi-squared)"
+        ]
+    },
+    {
+        "q": "What is the beta distribution?",
+        "type": "mcq",
+        "o": [
+            "A distribution on [0,1] for proportions",
+            "A discrete distribution",
+            "A normal distribution",
+            "Unbounded"
+        ]
+    },
+    {
+        "q": "The beta distribution has parameters alpha and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "beta"
+        ],
+        "other_options": [
+            "gamma",
+            "lambda",
+            "theta"
+        ]
+    },
+    {
+        "q": "The beta distribution is the conjugate prior for binomial likelihood.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Bayesian concepts:",
+        "type": "rearrange",
+        "words": [
+            "Prior",
+            "Likelihood",
+            "Posterior",
+            "Evidence"
+        ]
+    },
+    {
+        "q": "What is the chi-squared distribution?",
+        "type": "mcq",
+        "o": [
+            "Sum of squared standard normal variables",
+            "A normal distribution",
+            "A uniform distribution",
+            "A discrete distribution"
+        ]
+    },
+    {
+        "q": "Chi-squared distribution has ______ degrees of freedom as parameter.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "n",
+            "lambda",
+            "mu"
+        ]
+    },
+    {
+        "q": "The chi-squared distribution is used in goodness-of-fit tests.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the test with its distribution:",
+        "type": "match",
+        "left": [
+            "Chi-squared test",
+            "t-test",
+            "F-test",
+            "z-test"
+        ],
+        "right": [
+            "Chi-squared",
+            "Student's t",
+            "F-distribution",
+            "Standard normal"
+        ]
+    },
+    {
+        "q": "What is the Student's t-distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution used for small samples when population std dev is unknown",
+            "Same as normal",
+            "A discrete distribution",
+            "For large samples only"
+        ]
+    },
+    {
+        "q": "The t-distribution has heavier ______ than normal.",
+        "type": "fill_blank",
+        "answers": [
+            "tails"
+        ],
+        "other_options": [
+            "center",
+            "peak",
+            "mode"
+        ]
+    },
+    {
+        "q": "As degrees of freedom increase, t-distribution approaches normal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by sample size requirements:",
+        "type": "rearrange",
+        "words": [
+            "z-test (large n)",
+            "t-test (small n)",
+            "Chi-squared",
+            "F-test"
+        ]
+    },
+    {
+        "q": "What is the F-distribution?",
+        "type": "mcq",
+        "o": [
+            "Ratio of two chi-squared variables divided by their degrees of freedom",
+            "A normal distribution",
+            "A single chi-squared",
+            "Same as t"
+        ]
+    },
+    {
+        "q": "F-distribution is always ______ (never negative).",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "zero",
+            "complex"
+        ]
+    },
+    {
+        "q": "F-tests are used in ANOVA.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ANOVA concept:",
+        "type": "match",
+        "left": [
+            "SSB",
+            "SSW",
+            "MSB",
+            "F-statistic"
+        ],
+        "right": [
+            "Sum of squares between groups",
+            "Sum of squares within groups",
+            "Mean square between",
+            "MSB/MSW"
+        ]
+    },
+    {
+        "q": "What is hypothesis testing?",
+        "type": "mcq",
+        "o": [
+            "A method to decide between competing claims using data",
+            "Finding the mean",
+            "Calculating variance",
+            "Drawing graphs"
+        ]
+    },
+    {
+        "q": "The null hypothesis is denoted ______.",
+        "type": "fill_blank",
+        "answers": [
+            "H0"
+        ],
+        "other_options": [
+            "H1",
+            "Ha",
+            "Hb"
+        ]
+    },
+    {
+        "q": "The alternative hypothesis is what we want to prove.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange hypothesis testing steps:",
+        "type": "rearrange",
+        "words": [
+            "State hypotheses",
+            "Choose significance level",
+            "Collect data",
+            "Calculate test statistic",
+            "Make decision"
+        ]
+    },
+    {
+        "q": "What is the p-value?",
+        "type": "mcq",
+        "o": [
+            "Probability of observing data as extreme as observed, given H0 is true",
+            "Probability H0 is true",
+            "Probability H1 is true",
+            "The significance level"
+        ]
+    },
+    {
+        "q": "If p-value < alpha, we ______ H0.",
+        "type": "fill_blank",
+        "answers": [
+            "reject"
+        ],
+        "other_options": [
+            "accept",
+            "prove",
+            "confirm"
+        ]
+    },
+    {
+        "q": "A small p-value provides evidence against the null hypothesis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the p-value with interpretation:",
+        "type": "match",
+        "left": [
+            "p < 0.01",
+            "p < 0.05",
+            "p < 0.10",
+            "p > 0.10"
+        ],
+        "right": [
+            "Strong evidence against H0",
+            "Moderate evidence",
+            "Weak evidence",
+            "Insufficient evidence"
+        ]
+    },
+    {
+        "q": "What is a Type I error?",
+        "type": "mcq",
+        "o": [
+            "Rejecting H0 when it is actually true",
+            "Failing to reject H0 when it is false",
+            "Correct rejection",
+            "No error"
+        ]
+    },
+    {
+        "q": "Type I error probability equals ______ (significance level).",
+        "type": "fill_blank",
+        "answers": [
+            "alpha"
+        ],
+        "other_options": [
+            "beta",
+            "p-value",
+            "1"
+        ]
+    },
+    {
+        "q": "Type I error is also called a false positive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the error type:",
+        "type": "match",
+        "left": [
+            "Type I",
+            "Type II",
+            "Power",
+            "Significance level"
+        ],
+        "right": [
+            "False positive",
+            "False negative",
+            "1 - beta",
+            "alpha"
+        ]
+    },
+    {
+        "q": "What is a Type II error?",
+        "type": "mcq",
+        "o": [
+            "Failing to reject H0 when it is actually false",
+            "Rejecting H0 when it is true",
+            "Correct decision",
+            "No error"
+        ]
+    },
+    {
+        "q": "Type II error probability is denoted ______.",
+        "type": "fill_blank",
+        "answers": [
+            "beta"
+        ],
+        "other_options": [
+            "alpha",
+            "gamma",
+            "delta"
+        ]
+    },
+    {
+        "q": "Type II error is also called a false negative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by severity (typically):",
+        "type": "rearrange",
+        "words": [
+            "Type I (false alarm)",
+            "Type II (missed detection)",
+            "Correct H0",
+            "Correct H1"
+        ]
+    },
+    {
+        "q": "What is statistical power?",
+        "type": "mcq",
+        "o": [
+            "Probability of correctly rejecting a false H0",
+            "Type I error rate",
+            "Type II error rate",
+            "The p-value"
+        ]
+    },
+    {
+        "q": "Power = 1 - ______.",
+        "type": "fill_blank",
+        "answers": [
+            "beta"
+        ],
+        "other_options": [
+            "alpha",
+            "p-value",
+            "0"
+        ]
+    },
+    {
+        "q": "Higher power means better ability to detect a true effect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the factor with its effect on power:",
+        "type": "match",
+        "left": [
+            "Larger sample size",
+            "Larger effect size",
+            "Smaller alpha",
+            "More variability"
+        ],
+        "right": [
+            "Increases power",
+            "Increases power",
+            "Decreases power",
+            "Decreases power"
+        ]
+    },
+    {
+        "q": "What is a confidence interval?",
+        "type": "mcq",
+        "o": [
+            "A range of values likely to contain the population parameter",
+            "A single point estimate",
+            "The p-value",
+            "The test statistic"
+        ]
+    },
+    {
+        "q": "A 95% CI means we are 95% confident the interval contains the true ______.",
+        "type": "fill_blank",
+        "answers": [
+            "parameter"
+        ],
+        "other_options": [
+            "sample",
+            "mean",
+            "median"
+        ]
+    },
+    {
+        "q": "Wider confidence intervals indicate more uncertainty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange confidence levels:",
+        "type": "rearrange",
+        "words": [
+            "90% CI (narrower)",
+            "95% CI",
+            "99% CI (wider)"
+        ]
+    },
+    {
+        "q": "What is a one-sample t-test?",
+        "type": "mcq",
+        "o": [
+            "A test comparing a sample mean to a hypothesized population mean",
+            "Comparing two samples",
+            "Comparing proportions",
+            "Correlation test"
+        ]
+    },
+    {
+        "q": "t = (x-bar - mu_0) / (s / sqrt(n)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "One-sample t-test assumes the population is approximately ______.",
+        "type": "fill_blank",
+        "answers": [
+            "normal"
+        ],
+        "other_options": [
+            "uniform",
+            "exponential",
+            "binomial"
+        ]
+    },
+    {
+        "q": "Match the t-test type:",
+        "type": "match",
+        "left": [
+            "One-sample t",
+            "Two-sample t",
+            "Paired t",
+            "Welch's t"
+        ],
+        "right": [
+            "Sample vs value",
+            "Two independent groups",
+            "Before/after",
+            "Unequal variances"
+        ]
+    },
+    {
+        "q": "What is a two-sample t-test?",
+        "type": "mcq",
+        "o": [
+            "A test comparing means of two independent groups",
+            "Comparing a sample to a value",
+            "Paired observations",
+            "Proportion test"
+        ]
+    },
+    {
+        "q": "The pooled two-sample t-test assumes equal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "variances"
+        ],
+        "other_options": [
+            "means",
+            "sizes",
+            "distributions"
+        ]
+    },
+    {
+        "q": "Welch's t-test does not assume equal variances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange t-test assumptions:",
+        "type": "rearrange",
+        "words": [
+            "Normality",
+            "Independence",
+            "Random sampling",
+            "Equal variances (if pooled)"
+        ]
+    },
+    {
+        "q": "What is a paired t-test?",
+        "type": "mcq",
+        "o": [
+            "A test for paired/matched observations (e.g., before-after)",
+            "Two independent groups",
+            "One sample vs value",
+            "Correlation"
+        ]
+    },
+    {
+        "q": "Paired t-test analyzes the ______ between paired observations.",
+        "type": "fill_blank",
+        "answers": [
+            "differences"
+        ],
+        "other_options": [
+            "sums",
+            "products",
+            "ratios"
+        ]
+    },
+    {
+        "q": "The paired t-test reduces variability by using pairs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the scenario with test type:",
+        "type": "match",
+        "left": [
+            "Before-after study",
+            "Control vs treatment",
+            "Sample vs standard",
+            "Matched pairs"
+        ],
+        "right": [
+            "Paired t",
+            "Two-sample t",
+            "One-sample t",
+            "Paired t"
+        ]
+    },
+    {
+        "q": "What is ANOVA?",
+        "type": "mcq",
+        "o": [
+            "Analysis of Variance - comparing means of 3+ groups",
+            "A t-test",
+            "Regression",
+            "Correlation"
+        ]
+    },
+    {
+        "q": "ANOVA uses the ______ distribution.",
+        "type": "fill_blank",
+        "answers": [
+            "F"
+        ],
+        "other_options": [
+            "t",
+            "z",
+            "chi-squared"
+        ]
+    },
+    {
+        "q": "ANOVA tests if at least one group mean differs from others.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ANOVA components:",
+        "type": "rearrange",
+        "words": [
+            "Total SS",
+            "Between SS",
+            "Within SS",
+            "F-ratio"
+        ]
+    },
+    {
+        "q": "What is a chi-squared goodness-of-fit test?",
+        "type": "mcq",
+        "o": [
+            "A test comparing observed frequencies to expected frequencies",
+            "A t-test",
+            "ANOVA",
+            "Regression"
+        ]
+    },
+    {
+        "q": "Chi-squared = sum of (O - E)^2 / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "E"
+        ],
+        "other_options": [
+            "O",
+            "n",
+            "df"
+        ]
+    },
+    {
+        "q": "Chi-squared test requires expected frequencies of at least 5.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the chi-squared test type:",
+        "type": "match",
+        "left": [
+            "Goodness-of-fit",
+            "Test of independence",
+            "Test of homogeneity",
+            "Variance test"
+        ],
+        "right": [
+            "One categorical variable",
+            "Two categorical variables",
+            "Same distribution across groups",
+            "Population variance"
+        ]
+    },
+    {
+        "q": "What is correlation?",
+        "type": "mcq",
+        "o": [
+            "A measure of linear relationship between two variables",
+            "Causation",
+            "The mean",
+            "The mode"
+        ]
+    },
+    {
+        "q": "Pearson's r ranges from ______ to 1.",
+        "type": "fill_blank",
+        "answers": [
+            "-1"
+        ],
+        "other_options": [
+            "0",
+            "-infinity",
+            "1"
+        ]
+    },
+    {
+        "q": "Correlation does not imply causation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the correlation value with interpretation:",
+        "type": "match",
+        "left": [
+            "r = 1",
+            "r = -1",
+            "r = 0",
+            "r = 0.5"
+        ],
+        "right": [
+            "Perfect positive",
+            "Perfect negative",
+            "No linear relationship",
+            "Moderate positive"
+        ]
+    },
+    {
+        "q": "What is simple linear regression?",
+        "type": "mcq",
+        "o": [
+            "Modeling Y as a linear function of X: Y = a + bX + error",
+            "Correlation only",
+            "ANOVA",
+            "t-test"
+        ]
+    },
+    {
+        "q": "In Y = a + bX, b is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "slope"
+        ],
+        "other_options": [
+            "intercept",
+            "mean",
+            "variance"
+        ]
+    },
+    {
+        "q": "The regression line minimizes the sum of squared residuals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange regression concepts:",
+        "type": "rearrange",
+        "words": [
+            "Scatter plot",
+            "Fit line",
+            "Residuals",
+            "R-squared",
+            "Predictions"
+        ]
+    },
+    {
+        "q": "What is R-squared?",
+        "type": "mcq",
+        "o": [
+            "Proportion of variance in Y explained by X",
+            "Correlation",
+            "Slope",
+            "Intercept"
+        ]
+    },
+    {
+        "q": "R-squared ranges from 0 to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "-1",
+            "100",
+            "infinity"
+        ]
+    },
+    {
+        "q": "R-squared = r^2 for simple linear regression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the regression measure:",
+        "type": "match",
+        "left": [
+            "R-squared",
+            "Adjusted R-squared",
+            "RMSE",
+            "MAE"
+        ],
+        "right": [
+            "Variance explained",
+            "Penalizes extra predictors",
+            "Square root mean squared error",
+            "Mean absolute error"
+        ]
+    },
+    {
+        "q": "What is multiple regression?",
+        "type": "mcq",
+        "o": [
+            "Regression with multiple independent variables",
+            "Simple regression",
+            "Correlation",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Y = b0 + b1*X1 + b2*X2 + ... + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "error"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "Y"
+        ]
+    },
+    {
+        "q": "Multicollinearity occurs when predictors are highly correlated with each other.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange regression assumptions:",
+        "type": "rearrange",
+        "words": [
+            "Linearity",
+            "Independence",
+            "Normality of errors",
+            "Homoscedasticity"
+        ]
+    },
+    {
+        "q": "What are the combinations formula?",
+        "type": "mcq",
+        "o": [
+            "C(n,r) = n! / (r!(n-r)!)",
+            "P(n,r) = n! / (n-r)!",
+            "n^r",
+            "r^n"
+        ]
+    },
+    {
+        "q": "Combinations count ______ where order doesn't matter.",
+        "type": "fill_blank",
+        "answers": [
+            "selections"
+        ],
+        "other_options": [
+            "arrangements",
+            "permutations",
+            "sequences"
+        ]
+    },
+    {
+        "q": "C(n,r) = C(n, n-r).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the counting concept:",
+        "type": "match",
+        "left": [
+            "Permutations",
+            "Combinations",
+            "With replacement",
+            "Without replacement"
+        ],
+        "right": [
+            "Order matters",
+            "Order doesn't matter",
+            "Can repeat",
+            "No repetition"
+        ]
+    },
+    {
+        "q": "What is the permutation formula?",
+        "type": "mcq",
+        "o": [
+            "P(n,r) = n! / (n-r)!",
+            "C(n,r) = n! / (r!(n-r)!)",
+            "n^r",
+            "r!"
+        ]
+    },
+    {
+        "q": "Permutations count ______ where order matters.",
+        "type": "fill_blank",
+        "answers": [
+            "arrangements"
+        ],
+        "other_options": [
+            "selections",
+            "combinations",
+            "subsets"
+        ]
+    },
+    {
+        "q": "P(n,n) = n! (permutations of n objects).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange counting principles:",
+        "type": "rearrange",
+        "words": [
+            "Fundamental counting",
+            "Permutations",
+            "Combinations",
+            "Multinomial"
+        ]
+    },
+    {
+        "q": "What is the fundamental counting principle?",
+        "type": "mcq",
+        "o": [
+            "If one event can occur m ways and another n ways, both can occur m*n ways",
+            "Addition rule",
+            "Subtraction rule",
+            "Division rule"
+        ]
+    },
+    {
+        "q": "For independent choices, multiply the number of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "options"
+        ],
+        "other_options": [
+            "sums",
+            "differences",
+            "ratios"
+        ]
+    },
+    {
+        "q": "The counting principle extends to any number of events.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the counting formula:",
+        "type": "match",
+        "left": [
+            "n!",
+            "P(n,r)",
+            "C(n,r)",
+            "n^r"
+        ],
+        "right": [
+            "Arrangements of n",
+            "r from n ordered",
+            "r from n unordered",
+            "r selections with replacement"
+        ]
+    },
+    {
+        "q": "What is the sampling distribution?",
+        "type": "mcq",
+        "o": [
+            "The distribution of a statistic from all possible samples",
+            "The population distribution",
+            "A single sample",
+            "The sample itself"
+        ]
+    },
+    {
+        "q": "The sampling distribution of x-bar has mean ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mu"
+        ],
+        "other_options": [
+            "sigma",
+            "0",
+            "n"
+        ]
+    },
+    {
+        "q": "Standard error is the standard deviation of the sampling distribution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange sampling concepts:",
+        "type": "rearrange",
+        "words": [
+            "Population",
+            "Sample",
+            "Statistic",
+            "Sampling distribution",
+            "Standard error"
+        ]
+    },
+    {
+        "q": "What is the Central Limit Theorem?",
+        "type": "mcq",
+        "o": [
+            "Sample means approach normal distribution as n increases",
+            "All distributions are normal",
+            "Variance always decreases",
+            "Mean always equals median"
+        ]
+    },
+    {
+        "q": "CLT applies when sample size is large (typically n >= ______).",
+        "type": "fill_blank",
+        "answers": [
+            "30"
+        ],
+        "other_options": [
+            "10",
+            "5",
+            "100"
+        ]
+    },
+    {
+        "q": "CLT allows normal-based inference even for non-normal populations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CLT implication:",
+        "type": "match",
+        "left": [
+            "x-bar distribution",
+            "Standard error",
+            "z-score",
+            "Confidence interval"
+        ],
+        "right": [
+            "Approximately normal",
+            "sigma/sqrt(n)",
+            "(x-bar - mu) / SE",
+            "Uses normal for large n"
+        ]
+    },
+    {
+        "q": "What is stratified sampling?",
+        "type": "mcq",
+        "o": [
+            "Dividing population into strata and sampling from each",
+            "Random sampling",
+            "Convenience sampling",
+            "Cluster sampling"
+        ]
+    },
+    {
+        "q": "Stratified sampling ensures representation of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "subgroups"
+        ],
+        "other_options": [
+            "clusters",
+            "means",
+            "variances"
+        ]
+    },
+    {
+        "q": "Stratified sampling typically reduces variance compared to SRS.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange sampling methods:",
+        "type": "rearrange",
+        "words": [
+            "Simple random",
+            "Stratified",
+            "Cluster",
+            "Systematic"
+        ]
+    },
+    {
+        "q": "What is cluster sampling?",
+        "type": "mcq",
+        "o": [
+            "Randomly selecting entire clusters and sampling all within",
+            "Stratified sampling",
+            "Simple random sampling",
+            "Convenience sampling"
+        ]
+    },
+    {
+        "q": "In cluster sampling, clusters should be ______ to the population.",
+        "type": "fill_blank",
+        "answers": [
+            "representative"
+        ],
+        "other_options": [
+            "similar",
+            "different",
+            "larger"
+        ]
+    },
+    {
+        "q": "Cluster sampling is often used for geographical convenience.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sampling type with its advantage:",
+        "type": "match",
+        "left": [
+            "SRS",
+            "Stratified",
+            "Cluster",
+            "Systematic"
+        ],
+        "right": [
+            "Unbiased",
+            "Precise subgroup estimates",
+            "Cost-effective",
+            "Easy to implement"
+        ]
+    },
+    {
+        "q": "What is the law of large numbers?",
+        "type": "mcq",
+        "o": [
+            "Sample mean converges to population mean as n increases",
+            "CLT",
+            "Bayes theorem",
+            "Regression"
+        ]
+    },
+    {
+        "q": "LLN ensures ______ of the sample mean.",
+        "type": "fill_blank",
+        "answers": [
+            "consistency"
+        ],
+        "other_options": [
+            "bias",
+            "variance",
+            "error"
+        ]
+    },
+    {
+        "q": "LLN is the theoretical justification for using sample means.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange limit theorems:",
+        "type": "rearrange",
+        "words": [
+            "Weak LLN",
+            "Strong LLN",
+            "CLT",
+            "Lindeberg-Levy"
+        ]
+    },
+    {
+        "q": "What is a point estimate?",
+        "type": "mcq",
+        "o": [
+            "A single value estimate of a population parameter",
+            "A range",
+            "A distribution",
+            "A hypothesis"
+        ]
+    },
+    {
+        "q": "The sample mean is a point estimate of the population ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mean"
+        ],
+        "other_options": [
+            "variance",
+            "mode",
+            "range"
+        ]
+    },
+    {
+        "q": "Point estimates are subject to sampling error.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the point estimator:",
+        "type": "match",
+        "left": [
+            "x-bar",
+            "s^2",
+            "p-hat",
+            "s"
+        ],
+        "right": [
+            "Estimates mu",
+            "Estimates sigma^2",
+            "Estimates p",
+            "Estimates sigma"
+        ]
+    },
+    {
+        "q": "What is an unbiased estimator?",
+        "type": "mcq",
+        "o": [
+            "An estimator whose expected value equals the parameter",
+            "A biased estimator",
+            "Any estimator",
+            "The MLE"
+        ]
+    },
+    {
+        "q": "E[x-bar] = mu, so x-bar is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "unbiased"
+        ],
+        "other_options": [
+            "biased",
+            "consistent",
+            "efficient"
+        ]
+    },
+    {
+        "q": "Sample variance with n-1 divisor is unbiased for population variance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange estimator properties:",
+        "type": "rearrange",
+        "words": [
+            "Unbiasedness",
+            "Consistency",
+            "Efficiency",
+            "Sufficiency"
+        ]
+    },
+    {
+        "q": "What is maximum likelihood estimation (MLE)?",
+        "type": "mcq",
+        "o": [
+            "Finding parameter values that maximize the likelihood function",
+            "Minimizing error",
+            "OLS",
+            "Matching moments"
+        ]
+    },
+    {
+        "q": "MLE finds the parameter that makes the data most ______.",
+        "type": "fill_blank",
+        "answers": [
+            "likely"
+        ],
+        "other_options": [
+            "average",
+            "symmetric",
+            "bounded"
+        ]
+    },
+    {
+        "q": "MLE estimators are asymptotically normal and efficient.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the estimation method:",
+        "type": "match",
+        "left": [
+            "MLE",
+            "Method of moments",
+            "OLS",
+            "Bayesian"
+        ],
+        "right": [
+            "Maximize likelihood",
+            "Match sample moments",
+            "Minimize squared errors",
+            "Update prior with data"
+        ]
+    },
+    {
+        "q": "What is a sufficient statistic?",
+        "type": "mcq",
+        "o": [
+            "A statistic that captures all information about a parameter",
+            "Any statistic",
+            "The mean only",
+            "An estimator"
+        ]
+    },
+    {
+        "q": "For normal distribution with known variance, x-bar is sufficient for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mu"
+        ],
+        "other_options": [
+            "sigma",
+            "n",
+            "all"
+        ]
+    },
+    {
+        "q": "Sufficient statistics allow data reduction without information loss.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange statistical inference concepts:",
+        "type": "rearrange",
+        "words": [
+            "Data",
+            "Sufficient statistic",
+            "Estimator",
+            "Inference"
+        ]
+    },
+    {
+        "q": "What is the geometric distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution of trials until first success",
+            "Distribution of successes",
+            "Continuous distribution",
+            "Normal distribution"
+        ]
+    },
+    {
+        "q": "Geometric distribution has parameter ______ (success probability).",
+        "type": "fill_blank",
+        "answers": [
+            "p"
+        ],
+        "other_options": [
+            "n",
+            "lambda",
+            "mu"
+        ]
+    },
+    {
+        "q": "The geometric distribution is memoryless.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the discrete distribution:",
+        "type": "match",
+        "left": [
+            "Bernoulli",
+            "Binomial",
+            "Geometric",
+            "Negative binomial"
+        ],
+        "right": [
+            "One trial",
+            "n trials, count successes",
+            "Trials until 1st success",
+            "Trials until r successes"
+        ]
+    },
+    {
+        "q": "What is the negative binomial distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution of trials until r successes",
+            "Same as binomial",
+            "Continuous",
+            "For failures only"
+        ]
+    },
+    {
+        "q": "When r = 1, negative binomial becomes ______.",
+        "type": "fill_blank",
+        "answers": [
+            "geometric"
+        ],
+        "other_options": [
+            "binomial",
+            "Poisson",
+            "normal"
+        ]
+    },
+    {
+        "q": "Negative binomial can model overdispersed count data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange discrete distributions by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Bernoulli",
+            "Binomial",
+            "Geometric",
+            "Negative binomial",
+            "Poisson"
+        ]
+    },
+    {
+        "q": "What is the hypergeometric distribution?",
+        "type": "mcq",
+        "o": [
+            "Sampling without replacement from a finite population",
+            "Binomial",
+            "Poisson",
+            "Normal"
+        ]
+    },
+    {
+        "q": "Hypergeometric differs from binomial in using sampling ______.",
+        "type": "fill_blank",
+        "answers": [
+            "without replacement"
+        ],
+        "other_options": [
+            "with replacement",
+            "with repetition",
+            "randomly"
+        ]
+    },
+    {
+        "q": "For large populations, hypergeometric approximates binomial.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sampling assumption:",
+        "type": "match",
+        "left": [
+            "Binomial",
+            "Hypergeometric",
+            "Poisson",
+            "Normal"
+        ],
+        "right": [
+            "With replacement",
+            "Without replacement",
+            "Rare events",
+            "Continuous"
+        ]
+    },
+    {
+        "q": "What is a contingency table?",
+        "type": "mcq",
+        "o": [
+            "A table showing frequency counts for two categorical variables",
+            "A histogram",
+            "A scatter plot",
+            "A regression output"
+        ]
+    },
+    {
+        "q": "Contingency tables are analyzed with ______ tests.",
+        "type": "fill_blank",
+        "answers": [
+            "chi-squared"
+        ],
+        "other_options": [
+            "t",
+            "z",
+            "F"
+        ]
+    },
+    {
+        "q": "The test of independence uses a contingency table.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange contingency analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Construct table",
+            "Calculate expected",
+            "Compute chi-squared",
+            "Compare to critical value"
+        ]
+    },
+    {
+        "q": "What is effect size?",
+        "type": "mcq",
+        "o": [
+            "A measure of the magnitude of a phenomenon",
+            "The p-value",
+            "The sample size",
+            "The test statistic"
+        ]
+    },
+    {
+        "q": "Cohen's d measures effect size in ______ units.",
+        "type": "fill_blank",
+        "answers": [
+            "standard deviation"
+        ],
+        "other_options": [
+            "mean",
+            "variance",
+            "percentage"
+        ]
+    },
+    {
+        "q": "Effect size is independent of sample size.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the effect size measure:",
+        "type": "match",
+        "left": [
+            "Cohen's d",
+            "Pearson's r",
+            "Eta-squared",
+            "Odds ratio"
+        ],
+        "right": [
+            "Standardized mean difference",
+            "Correlation",
+            "ANOVA effect size",
+            "Ratio of odds"
+        ]
+    },
+    {
+        "q": "What is a nonparametric test?",
+        "type": "mcq",
+        "o": [
+            "A test that doesn't assume a specific distribution",
+            "Parametric test",
+            "t-test",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Nonparametric tests use ______ or ranks instead of raw values.",
+        "type": "fill_blank",
+        "answers": [
+            "signs"
+        ],
+        "other_options": [
+            "means",
+            "variances",
+            "correlations"
+        ]
+    },
+    {
+        "q": "Nonparametric tests are often more robust but less powerful.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the test with its nonparametric alternative:",
+        "type": "match",
+        "left": [
+            "One-sample t",
+            "Two-sample t",
+            "Paired t",
+            "ANOVA"
+        ],
+        "right": [
+            "Sign test",
+            "Mann-Whitney U",
+            "Wilcoxon signed-rank",
+            "Kruskal-Wallis"
+        ]
+    },
+    {
+        "q": "What is the Mann-Whitney U test?",
+        "type": "mcq",
+        "o": [
+            "Nonparametric alternative to two-sample t-test",
+            "Paired comparison",
+            "One-sample test",
+            "Correlation test"
+        ]
+    },
+    {
+        "q": "Mann-Whitney uses ______ instead of raw values.",
+        "type": "fill_blank",
+        "answers": [
+            "ranks"
+        ],
+        "other_options": [
+            "means",
+            "variances",
+            "signs"
+        ]
+    },
+    {
+        "q": "Mann-Whitney tests if one distribution tends to have larger values.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange nonparametric tests:",
+        "type": "rearrange",
+        "words": [
+            "Sign test",
+            "Wilcoxon",
+            "Mann-Whitney",
+            "Kruskal-Wallis",
+            "Spearman correlation"
+        ]
+    },
+    {
+        "q": "What is the Wilcoxon signed-rank test?",
+        "type": "mcq",
+        "o": [
+            "Nonparametric alternative to paired t-test",
+            "Two independent groups",
+            "Correlation",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Wilcoxon signed-rank uses signed ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ranks"
+        ],
+        "other_options": [
+            "means",
+            "differences",
+            "sums"
+        ]
+    },
+    {
+        "q": "The Wilcoxon test assumes symmetric distribution of differences.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the nonparametric test with its use:",
+        "type": "match",
+        "left": [
+            "Sign test",
+            "Wilcoxon signed-rank",
+            "Mann-Whitney",
+            "Kruskal-Wallis"
+        ],
+        "right": [
+            "Median comparison",
+            "Paired comparison",
+            "Two groups",
+            "3+ groups"
+        ]
+    },
+    {
+        "q": "What is Spearman correlation?",
+        "type": "mcq",
+        "o": [
+            "Correlation based on ranks",
+            "Pearson correlation",
+            "Regression coefficient",
+            "Covariance"
+        ]
+    },
+    {
+        "q": "Spearman correlation measures ______ relationship.",
+        "type": "fill_blank",
+        "answers": [
+            "monotonic"
+        ],
+        "other_options": [
+            "linear",
+            "quadratic",
+            "exponential"
+        ]
+    },
+    {
+        "q": "Spearman correlation is robust to outliers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange correlation types:",
+        "type": "rearrange",
+        "words": [
+            "Pearson (linear)",
+            "Spearman (rank)",
+            "Kendall (concordance)",
+            "Point-biserial"
+        ]
+    },
+    {
+        "q": "What is the Kruskal-Wallis test?",
+        "type": "mcq",
+        "o": [
+            "Nonparametric alternative to one-way ANOVA",
+            "Two-sample test",
+            "Paired test",
+            "Correlation"
+        ]
+    },
+    {
+        "q": "Kruskal-Wallis tests if ______ distributions are the same.",
+        "type": "fill_blank",
+        "answers": [
+            "multiple group"
+        ],
+        "other_options": [
+            "two group",
+            "single",
+            "paired"
+        ]
+    },
+    {
+        "q": "Kruskal-Wallis uses ranks of all observations combined.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ANOVA type with its nonparametric version:",
+        "type": "match",
+        "left": [
+            "One-way ANOVA",
+            "Two-way ANOVA",
+            "Repeated measures",
+            "MANOVA"
+        ],
+        "right": [
+            "Kruskal-Wallis",
+            "Friedman or aligned ranks",
+            "Friedman",
+            "No direct equivalent"
+        ]
+    },
+    {
+        "q": "What is logistic regression?",
+        "type": "mcq",
+        "o": [
+            "Regression for binary outcomes",
+            "Linear regression",
+            "ANOVA",
+            "t-test"
+        ]
+    },
+    {
+        "q": "Logistic regression models the log ______ of success.",
+        "type": "fill_blank",
+        "answers": [
+            "odds"
+        ],
+        "other_options": [
+            "probability",
+            "mean",
+            "variance"
+        ]
+    },
+    {
+        "q": "Logistic regression uses maximum likelihood estimation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange regression types:",
+        "type": "rearrange",
+        "words": [
+            "Linear",
+            "Logistic",
+            "Poisson",
+            "Multinomial"
+        ]
+    },
+    {
+        "q": "What is the odds ratio?",
+        "type": "mcq",
+        "o": [
+            "Ratio of odds of an event in two groups",
+            "Probability ratio",
+            "Mean ratio",
+            "Variance ratio"
+        ]
+    },
+    {
+        "q": "OR = 1 means ______ between groups.",
+        "type": "fill_blank",
+        "answers": [
+            "no difference"
+        ],
+        "other_options": [
+            "double odds",
+            "half odds",
+            "triple odds"
+        ]
+    },
+    {
+        "q": "Odds ratio is commonly used in logistic regression interpretation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ratio measure:",
+        "type": "match",
+        "left": [
+            "Odds ratio",
+            "Risk ratio",
+            "Hazard ratio",
+            "Prevalence ratio"
+        ],
+        "right": [
+            "Odds comparison",
+            "Risk comparison",
+            "Time-to-event",
+            "Cross-sectional"
+        ]
+    },
+    {
+        "q": "What is survival analysis?",
+        "type": "mcq",
+        "o": [
+            "Analysis of time-to-event data",
+            "Logistic regression",
+            "ANOVA",
+            "t-test"
+        ]
+    },
+    {
+        "q": "Survival analysis handles ______ (incomplete observations).",
+        "type": "fill_blank",
+        "answers": [
+            "censoring"
+        ],
+        "other_options": [
+            "outliers",
+            "missing data",
+            "errors"
+        ]
+    },
+    {
+        "q": "The Kaplan-Meier curve estimates the survival function.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange survival analysis concepts:",
+        "type": "rearrange",
+        "words": [
+            "Survival function",
+            "Hazard function",
+            "Kaplan-Meier",
+            "Cox regression"
+        ]
+    },
+    {
+        "q": "What is the Cox proportional hazards model?",
+        "type": "mcq",
+        "o": [
+            "A semi-parametric model for survival data relating hazard to covariates",
+            "Kaplan-Meier",
+            "Logistic regression",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Cox regression assumes proportional ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hazards"
+        ],
+        "other_options": [
+            "variances",
+            "means",
+            "odds"
+        ]
+    },
+    {
+        "q": "Cox regression does not require specifying the baseline hazard.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the survival term:",
+        "type": "match",
+        "left": [
+            "S(t)",
+            "h(t)",
+            "H(t)",
+            "Lambda(t)"
+        ],
+        "right": [
+            "Survival function",
+            "Hazard rate",
+            "Cumulative hazard",
+            "Intensity function"
+        ]
+    },
+    {
+        "q": "What is the log-rank test?",
+        "type": "mcq",
+        "o": [
+            "A test comparing survival curves between groups",
+            "A t-test",
+            "Regression",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Log-rank test is nonparametric and uses ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ranks"
+        ],
+        "other_options": [
+            "means",
+            "variances",
+            "modes"
+        ]
+    },
+    {
+        "q": "Log-rank test gives more weight to later time points.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Rearrange survival tests:",
+        "type": "rearrange",
+        "words": [
+            "Log-rank",
+            "Wilcoxon (Gehan)",
+            "Tarone-Ware",
+            "Peto-Peto"
+        ]
+    },
+    {
+        "q": "What is Bayesian inference?",
+        "type": "mcq",
+        "o": [
+            "Updating prior beliefs with data to get posterior",
+            "Frequentist methods",
+            "Hypothesis testing only",
+            "Descriptive statistics"
+        ]
+    },
+    {
+        "q": "In Bayesian inference, posterior is proportional to prior times ______.",
+        "type": "fill_blank",
+        "answers": [
+            "likelihood"
+        ],
+        "other_options": [
+            "evidence",
+            "posterior",
+            "prior"
+        ]
+    },
+    {
+        "q": "Bayesian credible intervals have direct probability interpretation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Bayesian concept:",
+        "type": "match",
+        "left": [
+            "Prior",
+            "Likelihood",
+            "Posterior",
+            "Marginal"
+        ],
+        "right": [
+            "Initial belief",
+            "P(data|parameter)",
+            "Updated belief",
+            "P(data)"
+        ]
+    },
+    {
+        "q": "What is a conjugate prior?",
+        "type": "mcq",
+        "o": [
+            "A prior that results in posterior from the same family",
+            "Any prior",
+            "An improper prior",
+            "A flat prior"
+        ]
+    },
+    {
+        "q": "Beta is conjugate to ______ likelihood.",
+        "type": "fill_blank",
+        "answers": [
+            "binomial"
+        ],
+        "other_options": [
+            "normal",
+            "Poisson",
+            "exponential"
+        ]
+    },
+    {
+        "q": "Conjugate priors make Bayesian computation easier.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange conjugate pairs:",
+        "type": "rearrange",
+        "words": [
+            "Beta-Binomial",
+            "Gamma-Poisson",
+            "Normal-Normal",
+            "Dirichlet-Multinomial"
+        ]
+    },
+    {
+        "q": "What is MCMC?",
+        "type": "mcq",
+        "o": [
+            "Markov Chain Monte Carlo - sampling from complex distributions",
+            "Maximum likelihood",
+            "OLS",
+            "t-test"
+        ]
+    },
+    {
+        "q": "MCMC generates samples from the ______ distribution.",
+        "type": "fill_blank",
+        "answers": [
+            "posterior"
+        ],
+        "other_options": [
+            "prior",
+            "likelihood",
+            "data"
+        ]
+    },
+    {
+        "q": "Gibbs sampling is a type of MCMC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the MCMC algorithm:",
+        "type": "match",
+        "left": [
+            "Metropolis-Hastings",
+            "Gibbs",
+            "Slice sampling",
+            "Hamiltonian MC"
+        ],
+        "right": [
+            "Accept/reject proposals",
+            "Full conditionals",
+            "Auxiliary variable",
+            "Uses gradients"
+        ]
+    },
+    {
+        "q": "What is a prior distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution representing beliefs before seeing data",
+            "Posterior",
+            "Likelihood",
+            "Data distribution"
+        ]
+    },
+    {
+        "q": "An uninformative prior gives ______ weight to all values.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "unequal",
+            "zero",
+            "maximum"
+        ]
+    },
+    {
+        "q": "Informative priors incorporate domain knowledge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange prior types:",
+        "type": "rearrange",
+        "words": [
+            "Uninformative",
+            "Weakly informative",
+            "Informative",
+            "Conjugate"
+        ]
+    },
+    {
+        "q": "What is cross-validation?",
+        "type": "mcq",
+        "o": [
+            "Assessing model performance by training/testing on different subsets",
+            "Training on all data",
+            "Testing on training data",
+            "No validation"
+        ]
+    },
+    {
+        "q": "k-fold CV splits data into ______ parts.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "2",
+            "n",
+            "1"
+        ]
+    },
+    {
+        "q": "Leave-one-out CV uses n-1 observations for training.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CV type:",
+        "type": "match",
+        "left": [
+            "k-fold",
+            "LOOCV",
+            "Holdout",
+            "Stratified k-fold"
+        ],
+        "right": [
+            "k partitions",
+            "n partitions",
+            "Single split",
+            "Preserves class proportions"
+        ]
+    },
+    {
+        "q": "What is overfitting?",
+        "type": "mcq",
+        "o": [
+            "Model fits training data too closely but generalizes poorly",
+            "Underfitting",
+            "Good fit",
+            "No training"
+        ]
+    },
+    {
+        "q": "Overfitting is indicated by low training error and high ______ error.",
+        "type": "fill_blank",
+        "answers": [
+            "test"
+        ],
+        "other_options": [
+            "training",
+            "validation",
+            "bias"
+        ]
+    },
+    {
+        "q": "Regularization helps prevent overfitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange fitting issues:",
+        "type": "rearrange",
+        "words": [
+            "Underfitting",
+            "Good fit",
+            "Overfitting"
+        ]
+    },
+    {
+        "q": "What is regularization?",
+        "type": "mcq",
+        "o": [
+            "Adding penalty to model complexity to prevent overfitting",
+            "Removing variables",
+            "Adding more data",
+            "Feature scaling"
+        ]
+    },
+    {
+        "q": "L1 regularization (Lasso) can produce ______ solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "sparse"
+        ],
+        "other_options": [
+            "dense",
+            "complex",
+            "large"
+        ]
+    },
+    {
+        "q": "L2 regularization (Ridge) shrinks coefficients toward zero but doesn't set them exactly to zero.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the regularization type:",
+        "type": "match",
+        "left": [
+            "L1 (Lasso)",
+            "L2 (Ridge)",
+            "Elastic Net",
+            "Dropout"
+        ],
+        "right": [
+            "Sum of abs values",
+            "Sum of squares",
+            "L1 + L2",
+            "Neural networks"
+        ]
+    },
+    {
+        "q": "What is the AIC?",
+        "type": "mcq",
+        "o": [
+            "Akaike Information Criterion - balances fit and complexity",
+            "BIC",
+            "R-squared",
+            "F-statistic"
+        ]
+    },
+    {
+        "q": "AIC = 2k - 2ln(L) where k is number of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "parameters"
+        ],
+        "other_options": [
+            "observations",
+            "variables",
+            "residuals"
+        ]
+    },
+    {
+        "q": "Lower AIC indicates a better model.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the model selection criterion:",
+        "type": "match",
+        "left": [
+            "AIC",
+            "BIC",
+            "Adjusted R^2",
+            "Cp"
+        ],
+        "right": [
+            "2k - 2ln(L)",
+            "Heavier complexity penalty",
+            "Penalizes extra predictors",
+            "Mallows criterion"
+        ]
+    },
+    {
+        "q": "What is the BIC?",
+        "type": "mcq",
+        "o": [
+            "Bayesian Information Criterion - uses stronger penalty than AIC",
+            "Same as AIC",
+            "R-squared equivalent",
+            "Correlation"
+        ]
+    },
+    {
+        "q": "BIC penalizes complexity more heavily for ______ samples.",
+        "type": "fill_blank",
+        "answers": [
+            "larger"
+        ],
+        "other_options": [
+            "smaller",
+            "any",
+            "no"
+        ]
+    },
+    {
+        "q": "BIC tends to select simpler models than AIC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange information criteria by complexity penalty:",
+        "type": "rearrange",
+        "words": [
+            "AIC (2k)",
+            "AICc (corrected)",
+            "BIC (k*ln(n))"
+        ]
+    },
+    {
+        "q": "What is feature selection?",
+        "type": "mcq",
+        "o": [
+            "Choosing a subset of relevant features for modeling",
+            "Using all features",
+            "Creating new features",
+            "Scaling features"
+        ]
+    },
+    {
+        "q": "Forward selection adds features ______.",
+        "type": "fill_blank",
+        "answers": [
+            "one at a time"
+        ],
+        "other_options": [
+            "all at once",
+            "randomly",
+            "backward"
+        ]
+    },
+    {
+        "q": "Backward elimination starts with all features and removes them.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the feature selection method:",
+        "type": "match",
+        "left": [
+            "Forward",
+            "Backward",
+            "Stepwise",
+            "Lasso"
+        ],
+        "right": [
+            "Add one by one",
+            "Remove one by one",
+            "Add and remove",
+            "Regularization-based"
+        ]
+    },
+    {
+        "q": "What is principal component analysis (PCA)?",
+        "type": "mcq",
+        "o": [
+            "Dimensionality reduction finding orthogonal components",
+            "Feature selection",
+            "Clustering",
+            "Regression"
+        ]
+    },
+    {
+        "q": "PCA finds directions of maximum ______.",
+        "type": "fill_blank",
+        "answers": [
+            "variance"
+        ],
+        "other_options": [
+            "mean",
+            "correlation",
+            "covariance"
+        ]
+    },
+    {
+        "q": "PCA components are orthogonal to each other.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange PCA steps:",
+        "type": "rearrange",
+        "words": [
+            "Center data",
+            "Compute covariance",
+            "Eigenvalue decomposition",
+            "Select components"
+        ]
+    },
+    {
+        "q": "What is factor analysis?",
+        "type": "mcq",
+        "o": [
+            "Finding latent factors underlying observed variables",
+            "Same as PCA",
+            "Regression",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Factor analysis assumes observed variables are linear combinations of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "latent factors"
+        ],
+        "other_options": [
+            "observed variables",
+            "residuals",
+            "means"
+        ]
+    },
+    {
+        "q": "Factor loadings indicate the correlation between variables and factors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dimensionality reduction method:",
+        "type": "match",
+        "left": [
+            "PCA",
+            "Factor analysis",
+            "ICA",
+            "MDS"
+        ],
+        "right": [
+            "Variance maximization",
+            "Latent factors",
+            "Independent components",
+            "Distance preservation"
+        ]
+    },
+    {
+        "q": "What is clustering?",
+        "type": "mcq",
+        "o": [
+            "Grouping similar observations together",
+            "Classification",
+            "Regression",
+            "Dimensionality reduction"
+        ]
+    },
+    {
+        "q": "Clustering is an ______ learning technique.",
+        "type": "fill_blank",
+        "answers": [
+            "unsupervised"
+        ],
+        "other_options": [
+            "supervised",
+            "semi-supervised",
+            "reinforcement"
+        ]
+    },
+    {
+        "q": "K-means minimizes within-cluster sum of squares.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the clustering algorithm:",
+        "type": "match",
+        "left": [
+            "K-means",
+            "Hierarchical",
+            "DBSCAN",
+            "Gaussian mixture"
+        ],
+        "right": [
+            "Centroid-based",
+            "Dendrogram",
+            "Density-based",
+            "Probabilistic"
+        ]
+    },
+    {
+        "q": "What is k-means clustering?",
+        "type": "mcq",
+        "o": [
+            "Partitioning n observations into k clusters",
+            "Hierarchical clustering",
+            "Density clustering",
+            "Spectral clustering"
+        ]
+    },
+    {
+        "q": "K-means requires specifying ______ in advance.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "distance",
+            "variance",
+            "mean"
+        ]
+    },
+    {
+        "q": "K-means is sensitive to initial centroid placement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange k-means steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize centroids",
+            "Assign points",
+            "Update centroids",
+            "Repeat until convergence"
+        ]
+    },
+    {
+        "q": "What is hierarchical clustering?",
+        "type": "mcq",
+        "o": [
+            "Building a tree of clusters (dendrogram)",
+            "K-means",
+            "Density clustering",
+            "Spectral clustering"
+        ]
+    },
+    {
+        "q": "Agglomerative clustering starts with ______ observations as clusters.",
+        "type": "fill_blank",
+        "answers": [
+            "individual"
+        ],
+        "other_options": [
+            "grouped",
+            "random",
+            "no"
+        ]
+    },
+    {
+        "q": "Cutting a dendrogram at different heights gives different numbers of clusters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the linkage method:",
+        "type": "match",
+        "left": [
+            "Single",
+            "Complete",
+            "Average",
+            "Ward's"
+        ],
+        "right": [
+            "Minimum distance",
+            "Maximum distance",
+            "Mean distance",
+            "Minimize variance increase"
+        ]
+    },
+    {
+        "q": "What is the silhouette score?",
+        "type": "mcq",
+        "o": [
+            "A measure of how similar an object is to its cluster vs other clusters",
+            "Within-cluster variance",
+            "Between-cluster variance",
+            "Number of clusters"
+        ]
+    },
+    {
+        "q": "Silhouette scores range from -1 to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "100",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Higher silhouette score indicates better clustering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange cluster evaluation metrics:",
+        "type": "rearrange",
+        "words": [
+            "Silhouette",
+            "Elbow method",
+            "Gap statistic",
+            "Calinski-Harabasz"
+        ]
+    },
+    {
+        "q": "What is the bootstrap method?",
+        "type": "mcq",
+        "o": [
+            "Resampling with replacement to estimate sampling distribution",
+            "Cross-validation",
+            "Jackknife",
+            "Permutation test"
+        ]
+    },
+    {
+        "q": "Bootstrap creates ______ samples with replacement.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "1",
+            "n",
+            "2"
+        ]
+    },
+    {
+        "q": "Bootstrap can estimate standard errors and confidence intervals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the resampling method:",
+        "type": "match",
+        "left": [
+            "Bootstrap",
+            "Jackknife",
+            "Permutation",
+            "Cross-validation"
+        ],
+        "right": [
+            "With replacement",
+            "Leave-one-out",
+            "Shuffle labels",
+            "Train/test splits"
+        ]
+    },
+    {
+        "q": "What is the jackknife method?",
+        "type": "mcq",
+        "o": [
+            "Leave-one-out resampling to estimate bias and variance",
+            "Bootstrap",
+            "Permutation",
+            "k-fold CV"
+        ]
+    },
+    {
+        "q": "Jackknife creates n samples by leaving out ______ observation.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "two",
+            "half",
+            "all"
+        ]
+    },
+    {
+        "q": "Jackknife can estimate bias in estimators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange resampling by computation:",
+        "type": "rearrange",
+        "words": [
+            "Jackknife (n samples)",
+            "Bootstrap (B samples)",
+            "Permutation (many)",
+            "LOOCV"
+        ]
+    },
+    {
+        "q": "What is a permutation test?",
+        "type": "mcq",
+        "o": [
+            "Testing hypothesis by randomly shuffling data labels",
+            "Bootstrap",
+            "Jackknife",
+            "t-test"
+        ]
+    },
+    {
+        "q": "Permutation tests make ______ assumptions about distributions.",
+        "type": "fill_blank",
+        "answers": [
+            "minimal"
+        ],
+        "other_options": [
+            "many",
+            "normal",
+            "parametric"
+        ]
+    },
+    {
+        "q": "Permutation tests are exact tests under exchangeability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the nonparametric approach:",
+        "type": "match",
+        "left": [
+            "Permutation test",
+            "Bootstrap",
+            "Rank-based tests",
+            "Sign test"
+        ],
+        "right": [
+            "Shuffle labels",
+            "Resample with replacement",
+            "Use ranks",
+            "Use signs only"
+        ]
+    },
+    {
+        "q": "What is a multivariate distribution?",
+        "type": "mcq",
+        "o": [
+            "Joint distribution of multiple random variables",
+            "Univariate distribution",
+            "Marginal distribution",
+            "Conditional distribution"
+        ]
+    },
+    {
+        "q": "The multivariate normal is characterized by mean vector and ______ matrix.",
+        "type": "fill_blank",
+        "answers": [
+            "covariance"
+        ],
+        "other_options": [
+            "correlation",
+            "variance",
+            "identity"
+        ]
+    },
+    {
+        "q": "Independence implies zero covariance for multivariate normal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange multivariate concepts:",
+        "type": "rearrange",
+        "words": [
+            "Marginal",
+            "Conditional",
+            "Joint",
+            "Covariance matrix"
+        ]
+    },
+    {
+        "q": "What is covariance?",
+        "type": "mcq",
+        "o": [
+            "A measure of how two variables change together",
+            "Variance of one variable",
+            "Correlation",
+            "Standard deviation"
+        ]
+    },
+    {
+        "q": "Cov(X,Y) = E[XY] - E[X]E[Y].",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Covariance of independent variables is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "-1",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Match the relationship measure:",
+        "type": "match",
+        "left": [
+            "Covariance",
+            "Correlation",
+            "Partial correlation",
+            "Semi-partial"
+        ],
+        "right": [
+            "Unstandardized",
+            "Standardized (-1 to 1)",
+            "Controlling for others",
+            "Unique contribution"
+        ]
+    },
+    {
+        "q": "What is the covariance matrix?",
+        "type": "mcq",
+        "o": [
+            "A matrix of covariances between all pairs of variables",
+            "Correlation matrix",
+            "Identity matrix",
+            "Transition matrix"
+        ]
+    },
+    {
+        "q": "The covariance matrix is symmetric and positive ______.",
+        "type": "fill_blank",
+        "answers": [
+            "semi-definite"
+        ],
+        "other_options": [
+            "definite",
+            "indefinite",
+            "negative"
+        ]
+    },
+    {
+        "q": "Diagonal elements of the covariance matrix are variances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange matrix types:",
+        "type": "rearrange",
+        "words": [
+            "Covariance matrix",
+            "Correlation matrix",
+            "Precision matrix",
+            "Cholesky factor"
+        ]
+    },
+    {
+        "q": "What is MANOVA?",
+        "type": "mcq",
+        "o": [
+            "Multivariate ANOVA - comparing means on multiple DVs",
+            "Univariate ANOVA",
+            "t-test",
+            "Regression"
+        ]
+    },
+    {
+        "q": "MANOVA tests differences in ______ means simultaneously.",
+        "type": "fill_blank",
+        "answers": [
+            "multiple"
+        ],
+        "other_options": [
+            "single",
+            "categorical",
+            "ordinal"
+        ]
+    },
+    {
+        "q": "MANOVA controls Type I error when testing multiple dependent variables.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multivariate test:",
+        "type": "match",
+        "left": [
+            "Wilks' Lambda",
+            "Pillai's Trace",
+            "Hotelling's T^2",
+            "Roy's largest root"
+        ],
+        "right": [
+            "Likelihood ratio",
+            "Most robust",
+            "Two-group comparison",
+            "Most powerful when conditions met"
+        ]
+    },
+    {
+        "q": "What is discriminant analysis?",
+        "type": "mcq",
+        "o": [
+            "Finding linear combinations of features that separate groups",
+            "Clustering",
+            "Regression",
+            "Factor analysis"
+        ]
+    },
+    {
+        "q": "LDA finds discriminant functions that maximize ______ separation.",
+        "type": "fill_blank",
+        "answers": [
+            "between-group"
+        ],
+        "other_options": [
+            "within-group",
+            "total",
+            "mean"
+        ]
+    },
+    {
+        "q": "LDA can be used for classification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange discriminant analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute group means",
+            "Within/between matrices",
+            "Eigenvalue problem",
+            "Discriminant functions"
+        ]
+    },
+    {
+        "q": "What is canonical correlation?",
+        "type": "mcq",
+        "o": [
+            "Correlation between linear combinations of two sets of variables",
+            "Pearson correlation",
+            "Spearman correlation",
+            "Partial correlation"
+        ]
+    },
+    {
+        "q": "Canonical correlation finds pairs of ______ that maximize correlation.",
+        "type": "fill_blank",
+        "answers": [
+            "variates"
+        ],
+        "other_options": [
+            "variables",
+            "means",
+            "variances"
+        ]
+    },
+    {
+        "q": "Canonical correlation generalizes multiple regression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multivariate method:",
+        "type": "match",
+        "left": [
+            "PCA",
+            "Factor analysis",
+            "LDA",
+            "Canonical correlation"
+        ],
+        "right": [
+            "Variance maximization",
+            "Latent structure",
+            "Group separation",
+            "Set relationships"
+        ]
+    },
+    {
+        "q": "What is path analysis?",
+        "type": "mcq",
+        "o": [
+            "Testing hypothesized causal relationships using correlations",
+            "Regression only",
+            "ANOVA",
+            "Clustering"
+        ]
+    },
+    {
+        "q": "Path coefficients are ______ regression coefficients.",
+        "type": "fill_blank",
+        "answers": [
+            "standardized"
+        ],
+        "other_options": [
+            "unstandardized",
+            "partial",
+            "full"
+        ]
+    },
+    {
+        "q": "Path analysis can decompose correlations into direct and indirect effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange structural equation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Path analysis",
+            "Confirmatory factor analysis",
+            "Full SEM",
+            "Latent growth models"
+        ]
+    },
+    {
+        "q": "What is structural equation modeling (SEM)?",
+        "type": "mcq",
+        "o": [
+            "A framework combining path analysis and factor analysis",
+            "Regression only",
+            "ANOVA only",
+            "Correlation only"
+        ]
+    },
+    {
+        "q": "SEM can model ______ (unobserved) variables.",
+        "type": "fill_blank",
+        "answers": [
+            "latent"
+        ],
+        "other_options": [
+            "observed",
+            "missing",
+            "categorical"
+        ]
+    },
+    {
+        "q": "SEM provides fit indices to evaluate model-data correspondence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the SEM fit index:",
+        "type": "match",
+        "left": [
+            "Chi-squared",
+            "RMSEA",
+            "CFI",
+            "SRMR"
+        ],
+        "right": [
+            "Exact fit test",
+            "Approximate fit",
+            "Comparative fit",
+            "Standardized residuals"
+        ]
+    },
+    {
+        "q": "What is time series analysis?",
+        "type": "mcq",
+        "o": [
+            "Analysis of data points collected over time",
+            "Cross-sectional analysis",
+            "One-time measurement",
+            "Clustering"
+        ]
+    },
+    {
+        "q": "Time series data may exhibit trend, seasonality, and ______ fluctuations.",
+        "type": "fill_blank",
+        "answers": [
+            "random"
+        ],
+        "other_options": [
+            "constant",
+            "zero",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Stationarity means statistical properties don't change over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange time series components:",
+        "type": "rearrange",
+        "words": [
+            "Trend",
+            "Seasonality",
+            "Cyclical",
+            "Random"
+        ]
+    },
+    {
+        "q": "What is autocorrelation?",
+        "type": "mcq",
+        "o": [
+            "Correlation of a time series with lagged versions of itself",
+            "Cross-correlation",
+            "Partial correlation",
+            "No correlation"
+        ]
+    },
+    {
+        "q": "The ACF shows autocorrelation at different ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lags"
+        ],
+        "other_options": [
+            "times",
+            "values",
+            "means"
+        ]
+    },
+    {
+        "q": "White noise has zero autocorrelation at all non-zero lags.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the time series concept:",
+        "type": "match",
+        "left": [
+            "ACF",
+            "PACF",
+            "Lag",
+            "Differencing"
+        ],
+        "right": [
+            "Autocorrelation function",
+            "Partial ACF",
+            "Time delay",
+            "Remove trend"
+        ]
+    },
+    {
+        "q": "What is ARIMA?",
+        "type": "mcq",
+        "o": [
+            "AutoRegressive Integrated Moving Average model",
+            "ANOVA",
+            "Regression only",
+            "Clustering"
+        ]
+    },
+    {
+        "q": "ARIMA(p,d,q) has p AR terms, d differences, and q ______ terms.",
+        "type": "fill_blank",
+        "answers": [
+            "MA"
+        ],
+        "other_options": [
+            "AR",
+            "trend",
+            "seasonal"
+        ]
+    },
+    {
+        "q": "ARIMA requires stationary data after differencing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ARIMA model building:",
+        "type": "rearrange",
+        "words": [
+            "Check stationarity",
+            "Identify p,d,q",
+            "Estimate parameters",
+            "Check residuals",
+            "Forecast"
+        ]
+    },
+    {
+        "q": "What is exponential smoothing?",
+        "type": "mcq",
+        "o": [
+            "Forecasting method giving more weight to recent observations",
+            "Moving average",
+            "ARIMA",
+            "Regression"
+        ]
+    },
+    {
+        "q": "Simple exponential smoothing uses a ______ parameter alpha.",
+        "type": "fill_blank",
+        "answers": [
+            "smoothing"
+        ],
+        "other_options": [
+            "decay",
+            "growth",
+            "trend"
+        ]
+    },
+    {
+        "q": "Holt-Winters method handles trend and seasonality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the smoothing method:",
+        "type": "match",
+        "left": [
+            "Simple ES",
+            "Holt's",
+            "Holt-Winters",
+            "Moving average"
+        ],
+        "right": [
+            "Level only",
+            "Level + trend",
+            "Level + trend + season",
+            "Equal weights"
+        ]
+    },
+    {
+        "q": "What is missing data?",
+        "type": "mcq",
+        "o": [
+            "Data values that are not recorded",
+            "Outliers",
+            "Errors",
+            "Complete data"
+        ]
+    },
+    {
+        "q": "MCAR means missing ______ at random.",
+        "type": "fill_blank",
+        "answers": [
+            "completely"
+        ],
+        "other_options": [
+            "not",
+            "partially",
+            "always"
+        ]
+    },
+    {
+        "q": "Multiple imputation creates several plausible values for missing data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the missing data mechanism:",
+        "type": "match",
+        "left": [
+            "MCAR",
+            "MAR",
+            "MNAR",
+            "Listwise deletion"
+        ],
+        "right": [
+            "Completely random",
+            "Random given observed",
+            "Not random",
+            "Remove incomplete cases"
+        ]
+    },
+    {
+        "q": "What is multiple imputation?",
+        "type": "mcq",
+        "o": [
+            "Creating multiple plausible datasets and combining results",
+            "Single imputation",
+            "Listwise deletion",
+            "Mean imputation"
+        ]
+    },
+    {
+        "q": "Multiple imputation properly accounts for ______ in imputations.",
+        "type": "fill_blank",
+        "answers": [
+            "uncertainty"
+        ],
+        "other_options": [
+            "certainty",
+            "means",
+            "variances"
+        ]
+    },
+    {
+        "q": "Rubin's rules combine results from multiple imputations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange missing data handling:",
+        "type": "rearrange",
+        "words": [
+            "Deletion",
+            "Mean imputation",
+            "Single imputation",
+            "Multiple imputation",
+            "Maximum likelihood"
+        ]
+    },
+    {
+        "q": "What is meta-analysis?",
+        "type": "mcq",
+        "o": [
+            "Statistical combination of results from multiple studies",
+            "Single study",
+            "Qualitative review",
+            "Primary analysis"
+        ]
+    },
+    {
+        "q": "Meta-analysis weights studies by ______ of their estimates.",
+        "type": "fill_blank",
+        "answers": [
+            "precision"
+        ],
+        "other_options": [
+            "size",
+            "age",
+            "cost"
+        ]
+    },
+    {
+        "q": "Forest plots visualize meta-analysis results.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the meta-analysis concept:",
+        "type": "match",
+        "left": [
+            "Fixed effects",
+            "Random effects",
+            "Heterogeneity",
+            "Publication bias"
+        ],
+        "right": [
+            "Common effect assumed",
+            "Varying true effects",
+            "I^2 statistic",
+            "Funnel plot asymmetry"
+        ]
+    },
+    {
+        "q": "What is heterogeneity in meta-analysis?",
+        "type": "mcq",
+        "o": [
+            "Variation in true effects across studies",
+            "Sampling error only",
+            "Same effect everywhere",
+            "No variation"
+        ]
+    },
+    {
+        "q": "I^2 measures the ______ of variance due to heterogeneity.",
+        "type": "fill_blank",
+        "answers": [
+            "percentage"
+        ],
+        "other_options": [
+            "amount",
+            "total",
+            "mean"
+        ]
+    },
+    {
+        "q": "Q-statistic tests for heterogeneity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange meta-analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Define question",
+            "Search studies",
+            "Extract effects",
+            "Assess heterogeneity",
+            "Compute summary"
+        ]
+    },
+    {
+        "q": "What is propensity score matching?",
+        "type": "mcq",
+        "o": [
+            "Matching treated and control units on probability of treatment",
+            "Random assignment",
+            "Regression only",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Propensity score is P(treatment | ______).",
+        "type": "fill_blank",
+        "answers": [
+            "covariates"
+        ],
+        "other_options": [
+            "outcome",
+            "random",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Propensity score methods reduce selection bias in observational studies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the causal inference method:",
+        "type": "match",
+        "left": [
+            "PSM",
+            "IPW",
+            "Regression adjustment",
+            "IV"
+        ],
+        "right": [
+            "Match on propensity",
+            "Weight by inverse propensity",
+            "Control for confounders",
+            "Instrumental variable"
+        ]
+    },
+    {
+        "q": "What is an instrumental variable?",
+        "type": "mcq",
+        "o": [
+            "A variable correlated with treatment but not directly with outcome",
+            "A confounder",
+            "The outcome",
+            "The treatment"
+        ]
+    },
+    {
+        "q": "IV estimation addresses ______ in causal inference.",
+        "type": "fill_blank",
+        "answers": [
+            "endogeneity"
+        ],
+        "other_options": [
+            "randomness",
+            "sample size",
+            "heterogeneity"
+        ]
+    },
+    {
+        "q": "Valid instruments must satisfy relevance and exclusion restrictions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange IV assumptions:",
+        "type": "rearrange",
+        "words": [
+            "Relevance",
+            "Independence",
+            "Exclusion restriction",
+            "Monotonicity"
+        ]
+    },
+    {
+        "q": "What is the difference-in-differences method?",
+        "type": "mcq",
+        "o": [
+            "Comparing changes over time between treatment and control groups",
+            "Single difference",
+            "Regression discontinuity",
+            "Matching"
+        ]
+    },
+    {
+        "q": "DiD requires parallel ______ assumption.",
+        "type": "fill_blank",
+        "answers": [
+            "trends"
+        ],
+        "other_options": [
+            "means",
+            "variances",
+            "groups"
+        ]
+    },
+    {
+        "q": "DiD controls for time-invariant confounders.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the causal design:",
+        "type": "match",
+        "left": [
+            "RCT",
+            "DiD",
+            "RDD",
+            "Synthetic control"
+        ],
+        "right": [
+            "Random assignment",
+            "Pre/post comparison",
+            "Treatment at threshold",
+            "Constructed counterfactual"
+        ]
+    },
+    {
+        "q": "What is regression discontinuity design?",
+        "type": "mcq",
+        "o": [
+            "Exploiting a cutoff in treatment assignment",
+            "DiD",
+            "Matching",
+            "IV"
+        ]
+    },
+    {
+        "q": "RDD uses a ______ that determines treatment.",
+        "type": "fill_blank",
+        "answers": [
+            "running variable"
+        ],
+        "other_options": [
+            "random variable",
+            "outcome",
+            "confounder"
+        ]
+    },
+    {
+        "q": "Sharp RDD has treatment deterministically assigned at cutoff.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange RDD types:",
+        "type": "rearrange",
+        "words": [
+            "Sharp RDD",
+            "Fuzzy RDD",
+            "Local linear regression",
+            "Bandwidth selection"
+        ]
+    },
+    {
+        "q": "What is sample size determination?",
+        "type": "mcq",
+        "o": [
+            "Calculating the number of observations needed for desired power",
+            "Using any sample size",
+            "Post-hoc analysis",
+            "Descriptive statistics"
+        ]
+    },
+    {
+        "q": "Larger sample sizes increase statistical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "bias",
+            "Type I error",
+            "significance level"
+        ]
+    },
+    {
+        "q": "Sample size formulas depend on effect size, alpha, and power.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the power analysis component:",
+        "type": "match",
+        "left": [
+            "Alpha",
+            "Beta",
+            "Power",
+            "Effect size"
+        ],
+        "right": [
+            "Type I error",
+            "Type II error",
+            "1 - beta",
+            "Magnitude of difference"
+        ]
+    },
+    {
+        "q": "What is multiple testing correction?",
+        "type": "mcq",
+        "o": [
+            "Adjusting for inflated Type I error when performing many tests",
+            "Single test",
+            "No correction needed",
+            "Reducing sample size"
+        ]
+    },
+    {
+        "q": "Bonferroni correction divides alpha by the number of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tests"
+        ],
+        "other_options": [
+            "variables",
+            "groups",
+            "subjects"
+        ]
+    },
+    {
+        "q": "FDR (False Discovery Rate) is less conservative than Bonferroni.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multiple testing method:",
+        "type": "match",
+        "left": [
+            "Bonferroni",
+            "Holm",
+            "Benjamini-Hochberg",
+            "Tukey HSD"
+        ],
+        "right": [
+            "Most conservative",
+            "Step-down",
+            "FDR control",
+            "Post-hoc ANOVA"
+        ]
+    },
+    {
+        "q": "What is false discovery rate (FDR)?",
+        "type": "mcq",
+        "o": [
+            "Expected proportion of false positives among rejected hypotheses",
+            "Type I error rate",
+            "Type II error rate",
+            "Power"
+        ]
+    },
+    {
+        "q": "FDR control is especially useful in ______ testing.",
+        "type": "fill_blank",
+        "answers": [
+            "high-dimensional"
+        ],
+        "other_options": [
+            "single",
+            "simple",
+            "univariate"
+        ]
+    },
+    {
+        "q": "The Benjamini-Hochberg procedure controls FDR.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange error control approaches:",
+        "type": "rearrange",
+        "words": [
+            "FWER (Bonferroni)",
+            "FDR (BH)",
+            "pFDR (Storey)",
+            "Local FDR"
+        ]
+    },
+    {
+        "q": "What is a likelihood ratio test?",
+        "type": "mcq",
+        "o": [
+            "Comparing likelihoods of nested models",
+            "A t-test",
+            "ANOVA",
+            "Chi-squared goodness of fit"
+        ]
+    },
+    {
+        "q": "LRT statistic = -2 * ln(L0/L1) follows ______ distribution asymptotically.",
+        "type": "fill_blank",
+        "answers": [
+            "chi-squared"
+        ],
+        "other_options": [
+            "normal",
+            "t",
+            "F"
+        ]
+    },
+    {
+        "q": "Likelihood ratio tests compare nested models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the test with its use:",
+        "type": "match",
+        "left": [
+            "LRT",
+            "Wald test",
+            "Score test",
+            "F-test"
+        ],
+        "right": [
+            "Compare nested models",
+            "Single parameter",
+            "At null",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "What is the Wald test?",
+        "type": "mcq",
+        "o": [
+            "Testing a parameter using its estimate and SE",
+            "LRT",
+            "Score test",
+            "Chi-squared test"
+        ]
+    },
+    {
+        "q": "Wald statistic = (estimate - null value) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "SE"
+        ],
+        "other_options": [
+            "mean",
+            "variance",
+            "n"
+        ]
+    },
+    {
+        "q": "Wald, LRT, and Score tests are asymptotically equivalent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange inference approaches:",
+        "type": "rearrange",
+        "words": [
+            "Wald (estimate-based)",
+            "LRT (likelihood-based)",
+            "Score (null-based)",
+            "Bootstrap"
+        ]
+    },
+    {
+        "q": "What is the score test?",
+        "type": "mcq",
+        "o": [
+            "Testing based on the score function evaluated at null",
+            "Wald test",
+            "LRT",
+            "t-test"
+        ]
+    },
+    {
+        "q": "Score test only requires fitting the ______ model.",
+        "type": "fill_blank",
+        "answers": [
+            "null"
+        ],
+        "other_options": [
+            "alternative",
+            "full",
+            "saturated"
+        ]
+    },
+    {
+        "q": "Score test is also called Lagrange multiplier test.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the test property:",
+        "type": "match",
+        "left": [
+            "Wald",
+            "LRT",
+            "Score",
+            "All three"
+        ],
+        "right": [
+            "Uses MLE under Ha",
+            "Uses both MLEs",
+            "Uses MLE under H0",
+            "Asymptotically chi-squared"
+        ]
+    },
+    {
+        "q": "What is robust standard error?",
+        "type": "mcq",
+        "o": [
+            "SE that is valid even if model assumptions are violated",
+            "Regular SE",
+            "Bootstrap SE",
+            "Jackknife SE"
+        ]
+    },
+    {
+        "q": "Robust SEs are also called sandwich or ______ SEs.",
+        "type": "fill_blank",
+        "answers": [
+            "heteroskedasticity-consistent"
+        ],
+        "other_options": [
+            "homoscedastic",
+            "standard",
+            "normal"
+        ]
+    },
+    {
+        "q": "Robust standard errors adjust for heteroskedasticity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange SE types:",
+        "type": "rearrange",
+        "words": [
+            "Model-based SE",
+            "Robust SE",
+            "Clustered SE",
+            "Bootstrap SE"
+        ]
+    },
+    {
+        "q": "What is generalized linear model (GLM)?",
+        "type": "mcq",
+        "o": [
+            "Extension of linear model for non-normal distributions",
+            "Simple regression",
+            "ANOVA only",
+            "Clustering"
+        ]
+    },
+    {
+        "q": "GLM links the mean to predictors via a ______ function.",
+        "type": "fill_blank",
+        "answers": [
+            "link"
+        ],
+        "other_options": [
+            "linear",
+            "identity",
+            "log"
+        ]
+    },
+    {
+        "q": "Logistic and Poisson regression are GLMs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the GLM with its link function:",
+        "type": "match",
+        "left": [
+            "Linear",
+            "Logistic",
+            "Poisson",
+            "Gamma"
+        ],
+        "right": [
+            "Identity",
+            "Logit",
+            "Log",
+            "Inverse"
+        ]
+    },
+    {
+        "q": "What is Poisson regression?",
+        "type": "mcq",
+        "o": [
+            "Regression for count data",
+            "Logistic regression",
+            "Linear regression",
+            "Survival analysis"
+        ]
+    },
+    {
+        "q": "Poisson regression assumes mean equals ______.",
+        "type": "fill_blank",
+        "answers": [
+            "variance"
+        ],
+        "other_options": [
+            "standard deviation",
+            "mode",
+            "median"
+        ]
+    },
+    {
+        "q": "Poisson regression uses log link function.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange count models:",
+        "type": "rearrange",
+        "words": [
+            "Poisson",
+            "Negative binomial",
+            "Zero-inflated",
+            "Hurdle model"
+        ]
+    },
+    {
+        "q": "What is overdispersion?",
+        "type": "mcq",
+        "o": [
+            "Variance exceeds what the model expects",
+            "Underdispersion",
+            "Perfect fit",
+            "No dispersion"
+        ]
+    },
+    {
+        "q": "Overdispersion in Poisson can be handled by negative binomial or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "quasi-Poisson"
+        ],
+        "other_options": [
+            "linear",
+            "logistic",
+            "normal"
+        ]
+    },
+    {
+        "q": "Overdispersion leads to underestimated standard errors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dispersion issue:",
+        "type": "match",
+        "left": [
+            "Overdispersion",
+            "Underdispersion",
+            "Equidispersion",
+            "Zero-inflation"
+        ],
+        "right": [
+            "Var > mean",
+            "Var < mean",
+            "Var = mean",
+            "Excess zeros"
+        ]
+    },
+    {
+        "q": "What is mixed effects model?",
+        "type": "mcq",
+        "o": [
+            "Model with both fixed and random effects",
+            "Fixed effects only",
+            "Random effects only",
+            "OLS"
+        ]
+    },
+    {
+        "q": "Random effects account for ______ in clustered data.",
+        "type": "fill_blank",
+        "answers": [
+            "correlation"
+        ],
+        "other_options": [
+            "independence",
+            "heterogeneity",
+            "homogeneity"
+        ]
+    },
+    {
+        "q": "Mixed models are also called multilevel or hierarchical models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange model types:",
+        "type": "rearrange",
+        "words": [
+            "Fixed effects only",
+            "Random effects only",
+            "Mixed effects",
+            "Generalized linear mixed"
+        ]
+    },
+    {
+        "q": "What is random intercept model?",
+        "type": "mcq",
+        "o": [
+            "Mixed model where intercepts vary by group",
+            "Fixed intercept",
+            "Random slopes",
+            "No intercept"
+        ]
+    },
+    {
+        "q": "Random intercept allows ______ to differ by group.",
+        "type": "fill_blank",
+        "answers": [
+            "baseline level"
+        ],
+        "other_options": [
+            "slopes",
+            "variances",
+            "correlations"
+        ]
+    },
+    {
+        "q": "Random intercept models account for group-level differences.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mixed model component:",
+        "type": "match",
+        "left": [
+            "Random intercept",
+            "Random slope",
+            "Fixed effect",
+            "Residual"
+        ],
+        "right": [
+            "Group baseline varies",
+            "Effect varies by group",
+            "Same for all",
+            "Within-group error"
+        ]
+    },
+    {
+        "q": "What is intraclass correlation (ICC)?",
+        "type": "mcq",
+        "o": [
+            "Proportion of variance attributable to clusters",
+            "Pearson correlation",
+            "Spearman correlation",
+            "Partial correlation"
+        ]
+    },
+    {
+        "q": "ICC = between-group variance / ______ variance.",
+        "type": "fill_blank",
+        "answers": [
+            "total"
+        ],
+        "other_options": [
+            "within-group",
+            "residual",
+            "error"
+        ]
+    },
+    {
+        "q": "High ICC indicates strong clustering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ICC interpretation:",
+        "type": "rearrange",
+        "words": [
+            "ICC near 0 (no clustering)",
+            "ICC 0.1-0.2 (moderate)",
+            "ICC > 0.5 (strong)",
+            "ICC = 1 (perfect)"
+        ]
+    },
+    {
+        "q": "What is GEE (Generalized Estimating Equations)?",
+        "type": "mcq",
+        "o": [
+            "Method for correlated data using working correlation structure",
+            "OLS",
+            "MLE",
+            "Bayesian"
+        ]
+    },
+    {
+        "q": "GEE estimates population-average (______) effects.",
+        "type": "fill_blank",
+        "answers": [
+            "marginal"
+        ],
+        "other_options": [
+            "conditional",
+            "mixed",
+            "random"
+        ]
+    },
+    {
+        "q": "GEE provides robust standard errors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the correlation structure:",
+        "type": "match",
+        "left": [
+            "Independence",
+            "Exchangeable",
+            "AR(1)",
+            "Unstructured"
+        ],
+        "right": [
+            "No correlation",
+            "Equal correlation",
+            "Autoregressive",
+            "All unique"
+        ]
+    },
+    {
+        "q": "What is latent variable?",
+        "type": "mcq",
+        "o": [
+            "An unobserved variable inferred from observed data",
+            "Observed variable",
+            "Residual",
+            "Error term"
+        ]
+    },
+    {
+        "q": "Latent variables are common in ______ analysis and SEM.",
+        "type": "fill_blank",
+        "answers": [
+            "factor"
+        ],
+        "other_options": [
+            "regression",
+            "ANOVA",
+            "t-test"
+        ]
+    },
+    {
+        "q": "Latent variables represent constructs that cannot be directly measured.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange latent variable models:",
+        "type": "rearrange",
+        "words": [
+            "Factor analysis",
+            "Latent class",
+            "IRT",
+            "SEM"
+        ]
+    },
+    {
+        "q": "What is item response theory (IRT)?",
+        "type": "mcq",
+        "o": [
+            "Modeling relationship between latent trait and item responses",
+            "Classical test theory",
+            "Factor analysis",
+            "Regression"
+        ]
+    },
+    {
+        "q": "IRT models estimate item difficulty and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "discrimination"
+        ],
+        "other_options": [
+            "mean",
+            "variance",
+            "correlation"
+        ]
+    },
+    {
+        "q": "IRT is used in educational and psychological testing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the IRT model:",
+        "type": "match",
+        "left": [
+            "1PL (Rasch)",
+            "2PL",
+            "3PL",
+            "Graded response"
+        ],
+        "right": [
+            "Difficulty only",
+            "Difficulty + discrimination",
+            "Add guessing",
+            "Ordered categories"
+        ]
+    },
+    {
+        "q": "What is reliability?",
+        "type": "mcq",
+        "o": [
+            "Consistency of measurement",
+            "Validity",
+            "Accuracy",
+            "Precision"
+        ]
+    },
+    {
+        "q": "Cronbach's alpha measures internal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "consistency"
+        ],
+        "other_options": [
+            "validity",
+            "reliability",
+            "accuracy"
+        ]
+    },
+    {
+        "q": "Higher reliability means more consistent scores.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the reliability type:",
+        "type": "match",
+        "left": [
+            "Test-retest",
+            "Inter-rater",
+            "Internal consistency",
+            "Parallel forms"
+        ],
+        "right": [
+            "Over time",
+            "Between raters",
+            "Within test",
+            "Equivalent tests"
+        ]
+    },
+    {
+        "q": "What is validity?",
+        "type": "mcq",
+        "o": [
+            "Whether a test measures what it's supposed to measure",
+            "Reliability",
+            "Consistency",
+            "Precision"
+        ]
+    },
+    {
+        "q": "Content validity assesses if items cover the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "domain"
+        ],
+        "other_options": [
+            "mean",
+            "variance",
+            "reliability"
+        ]
+    },
+    {
+        "q": "A test can be reliable but not valid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange validity types:",
+        "type": "rearrange",
+        "words": [
+            "Content validity",
+            "Criterion validity",
+            "Construct validity",
+            "Face validity"
+        ]
+    },
+    {
+        "q": "What is measurement error?",
+        "type": "mcq",
+        "o": [
+            "Difference between measured and true value",
+            "Sampling error",
+            "Type I error",
+            "Type II error"
+        ]
+    },
+    {
+        "q": "Random measurement error reduces ______.",
+        "type": "fill_blank",
+        "answers": [
+            "precision"
+        ],
+        "other_options": [
+            "bias",
+            "validity",
+            "mean"
+        ]
+    },
+    {
+        "q": "Systematic measurement error leads to bias.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the error type:",
+        "type": "match",
+        "left": [
+            "Random error",
+            "Systematic error",
+            "Sampling error",
+            "Non-response error"
+        ],
+        "right": [
+            "Affects precision",
+            "Causes bias",
+            "From sampling",
+            "Missing responses"
+        ]
+    },
+    {
+        "q": "What is attenuation?",
+        "type": "mcq",
+        "o": [
+            "Reduction in correlation due to measurement error",
+            "Increase in correlation",
+            "No effect",
+            "Perfect correlation"
+        ]
+    },
+    {
+        "q": "Measurement error in X attenuates regression ______.",
+        "type": "fill_blank",
+        "answers": [
+            "coefficients"
+        ],
+        "other_options": [
+            "intercepts",
+            "residuals",
+            "means"
+        ]
+    },
+    {
+        "q": "Correction for attenuation can recover true correlations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange effects of measurement error:",
+        "type": "rearrange",
+        "words": [
+            "Attenuation of correlation",
+            "Bias toward null",
+            "Increased variance",
+            "Reduced power"
+        ]
+    },
+    {
+        "q": "What is ecological fallacy?",
+        "type": "mcq",
+        "o": [
+            "Inferring individual behavior from group-level data",
+            "Atomistic fallacy",
+            "Correct inference",
+            "No fallacy"
+        ]
+    },
+    {
+        "q": "Ecological correlations can differ from ______ correlations.",
+        "type": "fill_blank",
+        "answers": [
+            "individual"
+        ],
+        "other_options": [
+            "population",
+            "group",
+            "ecological"
+        ]
+    },
+    {
+        "q": "Ecological fallacy is a type of aggregation bias.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the inference fallacy:",
+        "type": "match",
+        "left": [
+            "Ecological fallacy",
+            "Atomistic fallacy",
+            "Simpson's paradox",
+            "Confounding"
+        ],
+        "right": [
+            "Group to individual",
+            "Individual to group",
+            "Trend reversal",
+            "Third variable"
+        ]
+    },
+    {
+        "q": "What is Simpson's paradox?",
+        "type": "mcq",
+        "o": [
+            "Trend reverses when data is aggregated or stratified",
+            "No trend change",
+            "Consistent trend",
+            "Linear relationship"
+        ]
+    },
+    {
+        "q": "Simpson's paradox is caused by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "confounding"
+        ],
+        "other_options": [
+            "randomness",
+            "measurement error",
+            "sampling"
+        ]
+    },
+    {
+        "q": "Simpson's paradox shows importance of considering lurking variables.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange paradoxes and biases:",
+        "type": "rearrange",
+        "words": [
+            "Simpson's paradox",
+            "Berkson's paradox",
+            "Survivorship bias",
+            "Selection bias"
+        ]
+    },
+    {
+        "q": "What is confounding?",
+        "type": "mcq",
+        "o": [
+            "A third variable that affects both exposure and outcome",
+            "Mediation",
+            "Moderation",
+            "Interaction"
+        ]
+    },
+    {
+        "q": "Confounders must be associated with both exposure and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "outcome"
+        ],
+        "other_options": [
+            "mediator",
+            "moderator",
+            "interaction"
+        ]
+    },
+    {
+        "q": "Randomization helps control for confounding.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the variable role:",
+        "type": "match",
+        "left": [
+            "Confounder",
+            "Mediator",
+            "Moderator",
+            "Collider"
+        ],
+        "right": [
+            "Biases effect",
+            "Explains mechanism",
+            "Changes effect size",
+            "Should not adjust"
+        ]
+    },
+    {
+        "q": "What is mediation analysis?",
+        "type": "mcq",
+        "o": [
+            "Testing if effect operates through an intermediate variable",
+            "Moderation",
+            "Confounding control",
+            "Regression only"
+        ]
+    },
+    {
+        "q": "Indirect effect = a * b where a is X to M and b is M to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Y"
+        ],
+        "other_options": [
+            "X",
+            "a",
+            "b"
+        ]
+    },
+    {
+        "q": "Sobel test and bootstrap are used to test mediation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange mediation components:",
+        "type": "rearrange",
+        "words": [
+            "Total effect c",
+            "Direct effect c'",
+            "Indirect effect ab",
+            "Mediator M"
+        ]
+    },
+    {
+        "q": "What is moderation?",
+        "type": "mcq",
+        "o": [
+            "Effect of X on Y depends on a third variable",
+            "Mediation",
+            "Confounding",
+            "Regression"
+        ]
+    },
+    {
+        "q": "Moderation is tested by including an ______ term.",
+        "type": "fill_blank",
+        "answers": [
+            "interaction"
+        ],
+        "other_options": [
+            "main effect",
+            "mediator",
+            "confounder"
+        ]
+    },
+    {
+        "q": "Moderators change the strength or direction of effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the analysis type:",
+        "type": "match",
+        "left": [
+            "Mediation",
+            "Moderation",
+            "Moderated mediation",
+            "Mediated moderation"
+        ],
+        "right": [
+            "Mechanism",
+            "Condition",
+            "Both combined",
+            "Both combined"
+        ]
+    },
+    {
+        "q": "What is sensitivity analysis?",
+        "type": "mcq",
+        "o": [
+            "Assessing how results change under different assumptions",
+            "Power analysis",
+            "Sample size calculation",
+            "Descriptive statistics"
+        ]
+    },
+    {
+        "q": "Sensitivity analysis tests ______ of conclusions.",
+        "type": "fill_blank",
+        "answers": [
+            "robustness"
+        ],
+        "other_options": [
+            "accuracy",
+            "precision",
+            "bias"
+        ]
+    },
+    {
+        "q": "Sensitivity analysis is important for unmeasured confounding.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange analysis types:",
+        "type": "rearrange",
+        "words": [
+            "Primary analysis",
+            "Sensitivity analysis",
+            "Subgroup analysis",
+            "Post-hoc analysis"
+        ]
+    },
+    {
+        "q": "What is intention-to-treat analysis?",
+        "type": "mcq",
+        "o": [
+            "Analyzing participants as randomized regardless of compliance",
+            "Per-protocol analysis",
+            "As-treated analysis",
+            "Subgroup analysis"
+        ]
+    },
+    {
+        "q": "ITT preserves the benefits of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "randomization"
+        ],
+        "other_options": [
+            "matching",
+            "adjustment",
+            "stratification"
+        ]
+    },
+    {
+        "q": "ITT analysis is conservative and may underestimate treatment effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the analysis approach:",
+        "type": "match",
+        "left": [
+            "ITT",
+            "Per-protocol",
+            "As-treated",
+            "CACE"
+        ],
+        "right": [
+            "As randomized",
+            "Completers only",
+            "Actual treatment",
+            "Complier average causal effect"
+        ]
+    },
+    {
+        "q": "What is publication bias?",
+        "type": "mcq",
+        "o": [
+            "Tendency to publish significant results more than null results",
+            "Random bias",
+            "Selection bias",
+            "No bias"
+        ]
+    },
+    {
+        "q": "Publication bias is detected using ______ plots.",
+        "type": "fill_blank",
+        "answers": [
+            "funnel"
+        ],
+        "other_options": [
+            "forest",
+            "scatter",
+            "box"
+        ]
+    },
+    {
+        "q": "Publication bias leads to overestimation of effects in meta-analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange bias types:",
+        "type": "rearrange",
+        "words": [
+            "Selection bias",
+            "Publication bias",
+            "Reporting bias",
+            "Attrition bias"
+        ]
+    },
+    {
+        "q": "What is survivorship bias?",
+        "type": "mcq",
+        "o": [
+            "Focusing on survivors while ignoring those who did not survive",
+            "Selection bias",
+            "Publication bias",
+            "Confounding"
+        ]
+    },
+    {
+        "q": "Survivorship bias can make success appear more ______ than it is.",
+        "type": "fill_blank",
+        "answers": [
+            "common"
+        ],
+        "other_options": [
+            "rare",
+            "random",
+            "unlikely"
+        ]
+    },
+    {
+        "q": "Survivorship bias is common in business and investment analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bias with example:",
+        "type": "match",
+        "left": [
+            "Survivorship",
+            "Confirmation",
+            "Hindsight",
+            "Anchoring"
+        ],
+        "right": [
+            "Only successful companies studied",
+            "Seeking confirming evidence",
+            "I knew it all along",
+            "First information overweighted"
+        ]
+    },
+    {
+        "q": "What is selection bias?",
+        "type": "mcq",
+        "o": [
+            "Systematic differences between groups being compared",
+            "Random error",
+            "Measurement error",
+            "No bias"
+        ]
+    },
+    {
+        "q": "Selection bias occurs when exposure affects ______.",
+        "type": "fill_blank",
+        "answers": [
+            "selection into study"
+        ],
+        "other_options": [
+            "outcome",
+            "measurement",
+            "analysis"
+        ]
+    },
+    {
+        "q": "Randomization helps prevent selection bias.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange study designs by bias control:",
+        "type": "rearrange",
+        "words": [
+            "RCT (best)",
+            "Cohort",
+            "Case-control",
+            "Cross-sectional"
+        ]
+    },
+    {
+        "q": "What is information bias?",
+        "type": "mcq",
+        "o": [
+            "Systematic errors in measuring exposure or outcome",
+            "Selection bias",
+            "Confounding",
+            "Random error"
+        ]
+    },
+    {
+        "q": "Recall bias is a type of ______ bias.",
+        "type": "fill_blank",
+        "answers": [
+            "information"
+        ],
+        "other_options": [
+            "selection",
+            "confounding",
+            "publication"
+        ]
+    },
+    {
+        "q": "Blinding helps reduce information bias.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bias with its source:",
+        "type": "match",
+        "left": [
+            "Recall bias",
+            "Observer bias",
+            "Response bias",
+            "Social desirability"
+        ],
+        "right": [
+            "Memory differences",
+            "Researcher expectations",
+            "Survey wording",
+            "Wanting to look good"
+        ]
+    },
+    {
+        "q": "What is external validity?",
+        "type": "mcq",
+        "o": [
+            "Generalizability of results to other populations/settings",
+            "Internal validity",
+            "Reliability",
+            "Precision"
+        ]
+    },
+    {
+        "q": "External validity concerns whether results ______ to other contexts.",
+        "type": "fill_blank",
+        "answers": [
+            "generalize"
+        ],
+        "other_options": [
+            "apply",
+            "change",
+            "fail"
+        ]
+    },
+    {
+        "q": "There is often a trade-off between internal and external validity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange validity types:",
+        "type": "rearrange",
+        "words": [
+            "Internal validity",
+            "External validity",
+            "Construct validity",
+            "Statistical conclusion validity"
+        ]
+    },
+    {
+        "q": "What is internal validity?",
+        "type": "mcq",
+        "o": [
+            "Confidence that the treatment caused the observed effect",
+            "External validity",
+            "Reliability",
+            "Generalizability"
+        ]
+    },
+    {
+        "q": "Threats to internal validity include confounding, selection, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "maturation"
+        ],
+        "other_options": [
+            "generalization",
+            "precision",
+            "accuracy"
+        ]
+    },
+    {
+        "q": "RCTs have high internal validity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the validity threat:",
+        "type": "match",
+        "left": [
+            "History",
+            "Maturation",
+            "Testing",
+            "Instrumentation"
+        ],
+        "right": [
+            "External events",
+            "Natural changes",
+            "Practice effects",
+            "Measurement changes"
+        ]
+    },
+    {
+        "q": "What is statistical significance?",
+        "type": "mcq",
+        "o": [
+            "Result unlikely to occur by chance if null is true",
+            "Practical significance",
+            "Clinical significance",
+            "Effect size"
+        ]
+    },
+    {
+        "q": "Statistical significance is typically declared when p < ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0.05"
+        ],
+        "other_options": [
+            "0.5",
+            "0.1",
+            "1"
+        ]
+    },
+    {
+        "q": "Statistical significance does not imply practical significance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange significance concepts:",
+        "type": "rearrange",
+        "words": [
+            "Statistical significance",
+            "Practical significance",
+            "Clinical significance",
+            "Effect size"
+        ]
+    },
+    {
+        "q": "What is practical significance?",
+        "type": "mcq",
+        "o": [
+            "Whether an effect is large enough to matter in practice",
+            "Statistical significance",
+            "p-value",
+            "Sample size"
+        ]
+    },
+    {
+        "q": "Practical significance depends on ______ size rather than p-value.",
+        "type": "fill_blank",
+        "answers": [
+            "effect"
+        ],
+        "other_options": [
+            "sample",
+            "test",
+            "error"
+        ]
+    },
+    {
+        "q": "Large samples can make tiny effects statistically significant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the significance type with focus:",
+        "type": "match",
+        "left": [
+            "Statistical",
+            "Practical",
+            "Clinical",
+            "Economic"
+        ],
+        "right": [
+            "p-value",
+            "Effect size",
+            "Health impact",
+            "Cost-benefit"
+        ]
+    },
+    {
+        "q": "What is the reproducibility crisis?",
+        "type": "mcq",
+        "o": [
+            "Many published findings fail to replicate",
+            "All findings replicate",
+            "No crisis",
+            "Publication success"
+        ]
+    },
+    {
+        "q": "Pre-registration of studies can improve ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reproducibility"
+        ],
+        "other_options": [
+            "publication",
+            "significance",
+            "sample size"
+        ]
+    },
+    {
+        "q": "Open data and code sharing support reproducibility.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange reproducibility practices:",
+        "type": "rearrange",
+        "words": [
+            "Pre-registration",
+            "Open data",
+            "Open code",
+            "Replication studies"
+        ]
+    },
+    {
+        "q": "What is p-hacking?",
+        "type": "mcq",
+        "o": [
+            "Manipulating analysis to achieve significant p-values",
+            "Proper analysis",
+            "Pre-registration",
+            "Replication"
+        ]
+    },
+    {
+        "q": "P-hacking includes selective reporting and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "optional stopping"
+        ],
+        "other_options": [
+            "random sampling",
+            "blinding",
+            "randomization"
+        ]
+    },
+    {
+        "q": "P-hacking inflates false positive rates.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the questionable research practice:",
+        "type": "match",
+        "left": [
+            "P-hacking",
+            "HARKing",
+            "Cherry-picking",
+            "Salami slicing"
+        ],
+        "right": [
+            "Fishing for significance",
+            "Hypothesizing after results",
+            "Selective reporting",
+            "Multiple publications"
+        ]
+    },
+    {
+        "q": "What is a prior distribution in Bayesian statistics?",
+        "type": "mcq",
+        "o": [
+            "Probability distribution representing beliefs before seeing data",
+            "Posterior",
+            "Likelihood",
+            "Sampling distribution"
+        ]
+    },
+    {
+        "q": "The prior is updated using data to form the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "posterior"
+        ],
+        "other_options": [
+            "prior",
+            "likelihood",
+            "evidence"
+        ]
+    },
+    {
+        "q": "Bayesian analysis requires specifying a prior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Bayesian workflow:",
+        "type": "rearrange",
+        "words": [
+            "Specify prior",
+            "Define likelihood",
+            "Compute posterior",
+            "Summarize results"
+        ]
+    },
+    {
+        "q": "What is credible interval?",
+        "type": "mcq",
+        "o": [
+            "Bayesian interval with specified probability of containing parameter",
+            "Confidence interval",
+            "Prediction interval",
+            "Tolerance interval"
+        ]
+    },
+    {
+        "q": "A 95% credible interval has 95% probability of containing the true ______.",
+        "type": "fill_blank",
+        "answers": [
+            "parameter"
+        ],
+        "other_options": [
+            "data",
+            "sample",
+            "prediction"
+        ]
+    },
+    {
+        "q": "Credible intervals have direct probability interpretation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the interval type:",
+        "type": "match",
+        "left": [
+            "Confidence interval",
+            "Credible interval",
+            "Prediction interval",
+            "Highest density interval"
+        ],
+        "right": [
+            "Frequentist",
+            "Bayesian",
+            "Future observations",
+            "Shortest Bayesian"
+        ]
+    },
+    {
+        "q": "What is Bayes factor?",
+        "type": "mcq",
+        "o": [
+            "Ratio of marginal likelihoods of two models",
+            "p-value",
+            "Effect size",
+            "Correlation"
+        ]
+    },
+    {
+        "q": "Bayes factor > 10 is considered ______ evidence for one model.",
+        "type": "fill_blank",
+        "answers": [
+            "strong"
+        ],
+        "other_options": [
+            "weak",
+            "no",
+            "moderate"
+        ]
+    },
+    {
+        "q": "Bayes factors can be used for model comparison.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Bayes factor interpretation:",
+        "type": "rearrange",
+        "words": [
+            "BF < 1 (favors H0)",
+            "BF 1-3 (anecdotal)",
+            "BF 3-10 (moderate)",
+            "BF > 10 (strong)"
+        ]
+    },
+    {
+        "q": "What is the Dirichlet distribution?",
+        "type": "mcq",
+        "o": [
+            "Multivariate generalization of the beta distribution",
+            "Univariate distribution",
+            "Normal distribution",
+            "Poisson distribution"
+        ]
+    },
+    {
+        "q": "Dirichlet is conjugate prior for ______ distribution.",
+        "type": "fill_blank",
+        "answers": [
+            "multinomial"
+        ],
+        "other_options": [
+            "normal",
+            "binomial",
+            "Poisson"
+        ]
+    },
+    {
+        "q": "Dirichlet parameters are concentration parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multivariate distribution:",
+        "type": "match",
+        "left": [
+            "Multivariate normal",
+            "Wishart",
+            "Dirichlet",
+            "Multinomial"
+        ],
+        "right": [
+            "Continuous vector",
+            "Covariance matrices",
+            "Probability simplex",
+            "Count vector"
+        ]
+    },
+    {
+        "q": "What is empirical Bayes?",
+        "type": "mcq",
+        "o": [
+            "Estimating prior from the data rather than specifying it",
+            "Full Bayesian",
+            "Frequentist only",
+            "No prior"
+        ]
+    },
+    {
+        "q": "Empirical Bayes is sometimes called ______ modeling.",
+        "type": "fill_blank",
+        "answers": [
+            "hierarchical"
+        ],
+        "other_options": [
+            "flat",
+            "simple",
+            "linear"
+        ]
+    },
+    {
+        "q": "Empirical Bayes can help with shrinkage estimation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Bayesian approaches:",
+        "type": "rearrange",
+        "words": [
+            "Objective Bayes",
+            "Subjective Bayes",
+            "Empirical Bayes",
+            "Hierarchical Bayes"
+        ]
+    },
+    {
+        "q": "What is the Weibull distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution used in reliability and survival analysis",
+            "Normal distribution",
+            "Poisson distribution",
+            "Binomial distribution"
+        ]
+    },
+    {
+        "q": "Weibull distribution has shape and ______ parameters.",
+        "type": "fill_blank",
+        "answers": [
+            "scale"
+        ],
+        "other_options": [
+            "location",
+            "mean",
+            "variance"
+        ]
+    },
+    {
+        "q": "When shape = 1, Weibull becomes exponential.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the reliability distribution:",
+        "type": "match",
+        "left": [
+            "Weibull",
+            "Exponential",
+            "Log-normal",
+            "Gamma"
+        ],
+        "right": [
+            "Flexible hazard",
+            "Constant hazard",
+            "Multiplicative errors",
+            "Waiting times"
+        ]
+    },
+    {
+        "q": "What is the log-normal distribution?",
+        "type": "mcq",
+        "o": [
+            "Distribution whose logarithm is normally distributed",
+            "Normal distribution",
+            "Exponential distribution",
+            "Uniform distribution"
+        ]
+    },
+    {
+        "q": "Log-normal is used when data is ______ skewed.",
+        "type": "fill_blank",
+        "answers": [
+            "positively"
+        ],
+        "other_options": [
+            "negatively",
+            "not",
+            "symmetrically"
+        ]
+    },
+    {
+        "q": "Incomes are often modeled as log-normal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by skewness:",
+        "type": "rearrange",
+        "words": [
+            "Normal (symmetric)",
+            "Log-normal (right-skewed)",
+            "Beta (flexible)",
+            "Exponential (right-skewed)"
+        ]
+    },
+    {
+        "q": "What is the delta method?",
+        "type": "mcq",
+        "o": [
+            "Approximating variance of a function of random variables",
+            "Exact variance",
+            "Bootstrap",
+            "Jackknife"
+        ]
+    },
+    {
+        "q": "Delta method uses ______ expansion.",
+        "type": "fill_blank",
+        "answers": [
+            "Taylor"
+        ],
+        "other_options": [
+            "Fourier",
+            "Laplace",
+            "numerical"
+        ]
+    },
+    {
+        "q": "Delta method is asymptotic approximation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the variance estimation method:",
+        "type": "match",
+        "left": [
+            "Delta method",
+            "Bootstrap",
+            "Jackknife",
+            "Sandwich"
+        ],
+        "right": [
+            "Taylor approximation",
+            "Resampling",
+            "Leave-one-out",
+            "Robust SE"
+        ]
+    },
+    {
+        "q": "What is mixture model?",
+        "type": "mcq",
+        "o": [
+            "Model where data comes from multiple subpopulations",
+            "Single population",
+            "Regression only",
+            "ANOVA"
+        ]
+    },
+    {
+        "q": "Gaussian mixture model combines multiple ______ distributions.",
+        "type": "fill_blank",
+        "answers": [
+            "normal"
+        ],
+        "other_options": [
+            "uniform",
+            "exponential",
+            "Poisson"
+        ]
+    },
+    {
+        "q": "EM algorithm is commonly used to fit mixture models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange mixture model steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize parameters",
+            "E-step (assign)",
+            "M-step (update)",
+            "Check convergence"
+        ]
+    },
+    {
+        "q": "What is the EM algorithm?",
+        "type": "mcq",
+        "o": [
+            "Expectation-Maximization for finding MLE with latent variables",
+            "Gradient descent",
+            "Newton-Raphson",
+            "OLS"
+        ]
+    },
+    {
+        "q": "E-step computes expected values of ______ variables.",
+        "type": "fill_blank",
+        "answers": [
+            "latent"
+        ],
+        "other_options": [
+            "observed",
+            "outcome",
+            "predictor"
+        ]
+    },
+    {
+        "q": "EM algorithm always converges to at least a local maximum.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the optimization algorithm:",
+        "type": "match",
+        "left": [
+            "EM",
+            "Newton-Raphson",
+            "Gradient descent",
+            "MCMC"
+        ],
+        "right": [
+            "Latent variable MLE",
+            "Second derivatives",
+            "First derivatives",
+            "Sampling-based"
+        ]
+    }
+]

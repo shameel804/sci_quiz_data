@@ -1,0 +1,59 @@
+{
+    "id": "learn_mech",
+    "topicId": "mech",
+    "topicTitle": "Mechanical Engineering",
+    "description": "Explore mechanics of materials, thermodynamics, kinematics, and fluid mechanics",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mech_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Mechanical Engineering ⚙️\n\n## Topics\n- Mechanics of materials\n- Thermodynamics in machines\n- Kinematics of machinery\n- Fluid mechanics"
+        },
+        {
+            "id": "mech_2",
+            "type": "content",
+            "title": "Materials",
+            "content": "# Mechanics of Materials 🔩\n\n## Stress & Strain\n| Term | Formula |\n|------|--------|\n| Stress (σ) | F/A |\n| Strain (ε) | ΔL/L |\n| Modulus (E) | σ/ε |\n\n## Types\n- Tension/Compression\n- Shear\n- Bending\n- Torsion"
+        },
+        {
+            "id": "mech_3",
+            "type": "content",
+            "title": "Machine Thermo",
+            "content": "# Thermodynamics ♨️\n\n## Heat Engines\n```\nEfficiency = Work output / Heat input\nη = W/Qh = 1 - Qc/Qh\n```\n\n## Applications\n- Internal combustion\n- Steam turbines\n- Refrigeration\n- Heat pumps"
+        },
+        {
+            "id": "mech_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Stress equals:",
+            "quizOptions": [
+                "Force × Area",
+                "Force / Area",
+                "Area / Force",
+                "Force + Area"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "mech_4",
+            "type": "content",
+            "title": "Kinematics",
+            "content": "# Kinematics of Machinery 🔧\n\n## Mechanisms\n| Type | Use |\n|------|-----|\n| Linkage | Convert motion |\n| Cam | Timed motion |\n| Gear | Power transmission |\n\n## DOF\nDegrees of freedom = mobility"
+        },
+        {
+            "id": "mech_5",
+            "type": "content",
+            "title": "Fluids",
+            "content": "# Fluid Mechanics 💧\n\n## Key Equations\n| Equation | Use |\n|----------|-----|\n| Bernoulli | Energy conservation |\n| Continuity | Mass conservation |\n| Navier-Stokes | Fluid flow |\n\n## Applications\n- Aerodynamics\n- Hydraulics\n- Pumps/turbines"
+        },
+        {
+            "id": "mech_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Stress = F/A\n- Heat engines: Efficiency η\n- Mechanisms: Linkages, cams, gears\n- Bernoulli for fluid flow"
+        }
+    ]
+}

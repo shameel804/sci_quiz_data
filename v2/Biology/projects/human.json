@@ -1,272 +1,56 @@
 [
-  {
-    "title": "Function of Enzymes in Digestion",
-    "ques": "Which enzyme is primarily responsible for breaking down proteins in the stomach?",
-    "answer": {
-      "type": "text",
-      "content": "Pepsin"
+    {
+        "title": "Digestive System 🍽️",
+        "ques": "Match organ with function:\n1. Stomach\n2. Liver\n3. Small intestine",
+        "answer": {
+            "type": "text",
+            "content": "**1. Stomach** → Protein digestion (pepsin + HCl)\n\n**2. Liver** → Produces bile (for fat digestion), detoxification\n\n**3. Small intestine** → Nutrient absorption (villi increase surface area)"
+        },
+        "explanation": "**Digestion** breaks down food mechanically and chemically. Most absorption occurs in the small intestine."
     },
-    "explanation": "***Pepsin*** is the main enzyme that breaks down proteins in the stomach.\nIt is secreted in an inactive form called ***pepsinogen***.\n```Pepsinogen``` is activated into pepsin by the acidic environment (low pH) of the stomach.\nOnce active, ***pepsin*** cleaves proteins into smaller peptides for further digestion in the small intestine."
-  },
-  {
-    "title": "Oxygen Transport in Blood",
-    "ques": "What is the main protein in red blood cells responsible for oxygen transport?",
-    "answer": {
-      "type": "text",
-      "content": "Hemoglobin"
+    {
+        "title": "Circulatory System ❤️",
+        "ques": "1. Trace blood flow through the heart\n2. Difference between arteries and veins\n3. What is blood pressure?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Blood flow:**\nBody → Right atrium → Right ventricle → Lungs → Left atrium → Left ventricle → Body\n\n**2. Comparison:**\n- Arteries: Away from heart, thick walls, high pressure\n- Veins: Toward heart, thin walls, valves\n\n**3. Blood pressure:** Force of blood on vessel walls (systolic/diastolic = 120/80 mmHg normal)"
+        },
+        "explanation": "**Double circulation:** Blood goes through heart twice per cycle (pulmonary + systemic)."
     },
-    "explanation": "***Hemoglobin*** is a protein found in red blood cells that binds to oxygen.\nIt contains ***four heme groups***, each capable of binding one oxygen molecule.\nWhen blood passes through the lungs, ```oxygen``` binds to hemoglobin.\nThis oxygen is then delivered to tissues throughout the body."
-  },
-  {
-    "title": "Role of Synapse in Nervous System",
-    "ques": "What occurs at the synapse between two neurons?",
-    "answer": {
-      "type": "text",
-      "content": "Neurotransmitters are released to transmit signals."
+    {
+        "title": "Respiratory System 🫁",
+        "ques": "1. Where does gas exchange occur?\n2. What is diffusion?\n3. Why do we breathe faster during exercise?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Gas exchange:** Alveoli (thin walls, large surface area)\n\n**2. Diffusion:** O₂ moves from high→low concentration (alveoli→blood), CO₂ moves opposite\n\n**3. Exercise:** Muscles need more O₂ → more CO₂ produced → brain signals faster breathing"
+        },
+        "explanation": "**Alveoli** maximize surface area (~70 m²) for efficient gas exchange."
     },
-    "explanation": "At the synapse, an electrical signal reaches the ***axon terminal*** of the presynaptic neuron.\nThis triggers the release of ***neurotransmitters*** (e.g., acetylcholine, dopamine).\nThe neurotransmitters cross the ```synaptic cleft``` and bind to receptors on the postsynaptic neuron.\nThis allows the signal to continue, either exciting or inhibiting the next neuron."
-  },
-  {
-    "title": "Hormones Secreted by Pancreas",
-    "ques": "Which hormone lowers blood glucose levels?",
-    "answer": {
-      "type": "text",
-      "content": "Insulin"
+    {
+        "title": "Nervous System 🧠",
+        "ques": "1. Parts of a neuron\n2. How does an action potential work?\n3. What are neurotransmitters?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Neuron parts:**\n- Dendrites (receive signals)\n- Cell body (contains nucleus)\n- Axon (transmits signals)\n\n**2. Action potential:** Na⁺ rushes in (depolarization) → K⁺ rushes out (repolarization) → signal travels down axon\n\n**3. Neurotransmitters:** Chemicals that cross synapse to transmit signal (dopamine, serotonin)"
+        },
+        "explanation": "**Neurons** communicate electrochemically. Signals are electrical within neurons, chemical between neurons."
     },
-    "explanation": "***Insulin*** is a hormone produced by the ***beta cells*** of the pancreas.\nIt helps cells absorb ```glucose``` from the blood.\nThis lowers the blood sugar level and stores glucose as ***glycogen*** in the liver.\nA lack of insulin or insulin resistance can lead to diabetes."
-  },
-  {
-    "title": "Function of Vaccines",
-    "ques": "How do vaccines help in building immunity?",
-    "answer": {
-      "type": "text",
-      "content": "By stimulating the production of memory cells."
+    {
+        "title": "Endocrine System 💉",
+        "ques": "Match hormone with gland:\n1. Insulin\n2. Adrenaline\n3. Thyroid hormone",
+        "answer": {
+            "type": "text",
+            "content": "**1. Insulin** → Pancreas (regulates blood sugar)\n\n**2. Adrenaline** → Adrenal glands (fight or flight response)\n\n**3. Thyroid hormone** → Thyroid gland (metabolism regulation)"
+        },
+        "explanation": "**Hormones** are chemical messengers. They travel in blood and affect target cells throughout body."
     },
-    "explanation": "Vaccines contain ***weakened or inactive pathogens*** or parts of them (like proteins).\nWhen injected, they stimulate the immune system to produce ***antibodies***.\nThis also leads to the creation of ```memory B and T cells```.\nThese memory cells remain in the body and provide faster, stronger protection if the actual pathogen infects the body in the future."
-  },
-  {
-    "title": "Structure Where Gas Exchange Occurs",
-    "ques": "In the human respiratory system, which structure is the primary site for gas exchange?",
-    "answer": {
-      "type": "text",
-      "content": "Alveoli"
-    },
-    "explanation": "The ***alveoli*** are tiny sac-like structures located at the end of the bronchioles in the lungs.\nThey are surrounded by a network of capillaries.\n```Oxygen``` from inhaled air diffuses across the alveolar membrane into the blood, while ```carbon dioxide``` diffuses out to be exhaled.\nThis thin barrier and large surface area make alveoli ideal for efficient gas exchange."
-  },
-  {
-    "title": "Blood Flow Direction in Circulatory System",
-    "ques": "Which chamber of the heart receives oxygen-poor blood from the body?",
-    "answer": {
-      "type": "text",
-      "content": "Right atrium"
-    },
-    "explanation": "The ***right atrium*** receives deoxygenated blood from the body through the ***superior*** and ***inferior vena cava***.\nThis blood is then pumped into the ***right ventricle***.\nFrom there, it is sent to the lungs via the ```pulmonary arteries``` for oxygenation."
-  },
-  {
-    "title": "Neurotransmitter for Muscle Contraction",
-    "ques": "Which neurotransmitter is primarily responsible for stimulating skeletal muscle contraction?",
-    "answer": {
-      "type": "text",
-      "content": "Acetylcholine"
-    },
-    "explanation": "***Acetylcholine*** (ACh) is released at the neuromuscular junction.\nWhen a nerve impulse reaches the axon terminal, it causes the release of ACh into the ```synaptic cleft```.\nACh binds to receptors on the muscle fiber membrane, triggering ***depolarization*** and leading to muscle contraction.\nAfter the action, ACh is broken down by the enzyme ***acetylcholinesterase***."
-  },
-  {
-    "title": "Hormonal Response to Stress",
-    "ques": "Which hormone is released by the adrenal glands in response to stress?",
-    "answer": {
-      "type": "text",
-      "content": "Cortisol"
-    },
-    "explanation": "***Cortisol*** is a steroid hormone produced by the ***adrenal cortex***.\nIt is released in response to signals from the ***hypothalamus*** and ***pituitary gland*** (HPA axis).\nCortisol increases ```blood glucose levels```, suppresses the immune response, and helps the body manage stress.\nIt is often called the ***stress hormone***."
-  },
-  {
-    "title": "Role of Antibodies",
-    "ques": "What is the function of antibodies in the immune system?",
-    "answer": {
-      "type": "text",
-      "content": "To identify and neutralize pathogens like bacteria and viruses."
-    },
-    "explanation": "***Antibodies***, or ***immunoglobulins***, are proteins produced by ***B cells***.\nThey recognize specific ```antigens``` on pathogens and bind to them.\nThis binding neutralizes the pathogen directly or tags it for destruction by other immune cells.\nAntibodies are a key component of the body's ***adaptive immune response***."
-  },
-  {
-    "title": "Primary Function of the Large Intestine",
-    "ques": "What is the main role of the large intestine in the digestive system?",
-    "answer": {
-      "type": "text",
-      "content": "Absorption of water and electrolytes"
-    },
-    "explanation": "The ***large intestine*** mainly absorbs ```water``` and ```electrolytes``` (like sodium and potassium) from the remaining indigestible food matter.\nThis process converts liquid chyme into solid ***feces***.\nIt also houses helpful bacteria that aid in the production of vitamins like ***vitamin K***."
-  },
-  {
-    "title": "Heart Valve Preventing Backflow",
-    "ques": "Which valve prevents the backflow of blood from the right ventricle to the right atrium?",
-    "answer": {
-      "type": "text",
-      "content": "Tricuspid valve"
-    },
-    "explanation": "The ***tricuspid valve*** is located between the ***right atrium*** and ***right ventricle***.\nDuring ventricular contraction, it ***closes*** to prevent blood from flowing back into the atrium.\nThis ensures ```one-way circulation``` of blood toward the lungs."
-  },
-  {
-    "title": "Brain Area Controlling Breathing",
-    "ques": "Which part of the brain regulates the rate and depth of breathing?",
-    "answer": {
-      "type": "text",
-      "content": "Medulla oblongata"
-    },
-    "explanation": "The ***medulla oblongata*** is part of the ***brainstem*** and controls involuntary functions like breathing.\nIt monitors ```CO2 levels``` in the blood via chemoreceptors.\nHigh CO2 levels trigger the medulla to increase the ***respiratory rate*** to expel more carbon dioxide."
-  },
-  {
-    "title": "Hormone Responsible for Milk Production",
-    "ques": "Which hormone stimulates milk production in mammary glands after childbirth?",
-    "answer": {
-      "type": "text",
-      "content": "Prolactin"
-    },
-    "explanation": "***Prolactin*** is secreted by the ***anterior pituitary gland***.\nAfter childbirth, it stimulates the ***mammary glands*** to produce milk.\nIts levels are regulated by the hormone ```dopamine```, which acts as an inhibitor.\nProlactin works together with ***oxytocin***, which controls milk ejection."
-  },
-  {
-    "title": "Vaccine Function in Adaptive Immunity",
-    "ques": "How do vaccines prepare the immune system to fight infections?",
-    "answer": {
-      "type": "text",
-      "content": "By creating memory cells that recognize specific pathogens"
-    },
-    "explanation": "Vaccines expose the body to a ***weakened or inactivated form*** of a pathogen.\nThis triggers the immune system to mount a response by producing ```antibodies``` and ***memory lymphocytes***.\nIf the real pathogen is encountered later, these memory cells recognize it quickly and initiate a ***faster and stronger immune response***."
-  },
-  {
-    "title": "Digestive Hormone Triggered by Fat",
-    "ques": "Which hormone is released in response to fatty acids in the small intestine and stimulates bile release?",
-    "answer": {
-      "type": "text",
-      "content": "Cholecystokinin (CCK)"
-    },
-    "explanation": "***Cholecystokinin (CCK)*** is secreted by cells in the ***duodenum*** when fats and proteins enter from the stomach.\nIt triggers the ***gallbladder*** to release ```bile```, which emulsifies fats for digestion.\nIt also stimulates the ***pancreas*** to release digestive enzymes and slows down gastric emptying."
-  },
-  {
-    "title": "Circulatory Vessel With Highest Pressure",
-    "ques": "Which blood vessel experiences the highest pressure in the circulatory system?",
-    "answer": {
-      "type": "text",
-      "content": "Aorta"
-    },
-    "explanation": "The ***aorta*** is the largest artery in the body and receives blood directly from the ***left ventricle***.\nDue to this close proximity, it experiences the ***highest blood pressure***.\nThis pressure is essential to propel blood through the ```systemic circulation```."
-  },
-  {
-    "title": "Neurotransmitter Involved in Mood",
-    "ques": "Which neurotransmitter is closely associated with mood regulation and is often targeted by antidepressants?",
-    "answer": {
-      "type": "text",
-      "content": "Serotonin"
-    },
-    "explanation": "***Serotonin*** is a neurotransmitter produced in the ***brainstem*** and gastrointestinal tract.\nIt plays a role in mood, sleep, and appetite.\nLow levels of serotonin are linked to ```depression and anxiety```.\nMany antidepressants work by increasing ***serotonin*** availability at synapses (e.g., ***SSRIs***)."
-  },
-  {
-    "title": "Hormone That Increases Heart Rate",
-    "ques": "Which hormone, released during stress, increases heart rate and prepares the body for 'fight or flight'?",
-    "answer": {
-      "type": "text",
-      "content": "Epinephrine"
-    },
-    "explanation": "***Epinephrine*** (also known as ***adrenaline***) is secreted by the ***adrenal medulla***.\nIt is part of the body's ***sympathetic nervous system*** response.\nIt increases ```heart rate```, dilates airways, and boosts glucose release for quick energy.\nThis prepares the body for rapid action in stressful situations."
-  },
-  {
-    "title": "Type of Immunity From Mother to Child",
-    "ques": "What type of immunity does a baby receive through breast milk?",
-    "answer": {
-      "type": "text",
-      "content": "Passive immunity"
-    },
-    "explanation": "***Passive immunity*** is when antibodies are passed from one individual to another.\nBreast milk contains ***IgA antibodies*** that help protect the newborn's digestive and respiratory tracts.\nThis form of immunity is ```temporary``` and does not involve memory cell production.\nIt gives the baby early protection while their own immune system develops."
-  },
-  {
-    "title": "Main Site of Nutrient Absorption",
-    "ques": "Which part of the digestive system is primarily responsible for absorbing nutrients into the bloodstream?",
-    "answer": {
-      "type": "text",
-      "content": "Small intestine"
-    },
-    "explanation": "The ***small intestine***, particularly the ***jejunum*** and ***ileum***, is the primary site of nutrient absorption.\nIt contains finger-like projections called ***villi*** and microvilli that increase surface area.\nThese structures help transport ```amino acids```, ```glucose```, and fatty acids into the bloodstream or lymphatic system."
-  },
-  {
-    "title": "Gas That Regulates Breathing Rate",
-    "ques": "Which gas primarily regulates the human breathing rate under normal conditions?",
-    "answer": {
-      "type": "text",
-      "content": "Carbon dioxide"
-    },
-    "explanation": "Breathing is primarily regulated by levels of ***carbon dioxide (CO₂)*** in the blood, not oxygen.\nElevated CO₂ lowers blood pH, which is detected by ```central chemoreceptors``` in the medulla.\nThis triggers an increase in the ***rate and depth of breathing*** to expel more CO₂ and restore pH balance."
-  },
-  {
-    "title": "Neurotransmitter That Inhibits Neurons",
-    "ques": "Which neurotransmitter is the main inhibitory neurotransmitter in the central nervous system?",
-    "answer": {
-      "type": "text",
-      "content": "GABA (Gamma-Aminobutyric Acid)"
-    },
-    "explanation": "***GABA*** is the major ***inhibitory neurotransmitter*** in the central nervous system.\nIt works by opening ```chloride channels``` in neurons, making them less likely to fire action potentials.\nThis calms neural activity and is important in preventing ***seizures, anxiety, and overexcitation***."
-  },
-  {
-    "title": "Hormone That Raises Blood Calcium",
-    "ques": "Which hormone increases blood calcium levels by promoting calcium release from bones?",
-    "answer": {
-      "type": "text",
-      "content": "Parathyroid hormone (PTH)"
-    },
-    "explanation": "***Parathyroid hormone (PTH)*** is secreted by the ***parathyroid glands*** in response to low blood calcium.\nIt increases ```bone resorption```, releases calcium into the blood, enhances calcium reabsorption in the kidneys, and activates ***vitamin D*** to improve calcium absorption in the intestine."
-  },
-  {
-    "title": "Immune Cells That Kill Infected Cells",
-    "ques": "Which type of immune cell directly destroys virus-infected cells?",
-    "answer": {
-      "type": "text",
-      "content": "Cytotoxic T cells"
-    },
-    "explanation": "***Cytotoxic T cells*** (also called ***CD8+ T cells***) identify and destroy cells infected with viruses.\nThey recognize antigens presented on the surface of infected cells via ```MHC class I molecules```.\nOnce activated, they release enzymes that induce ***apoptosis*** (programmed cell death) in the target cell."
-  },
-  {
-    "title": "Digestive Enzyme in Saliva",
-    "ques": "Which enzyme begins the chemical digestion of carbohydrates in the mouth?",
-    "answer": {
-      "type": "text",
-      "content": "Amylase"
-    },
-    "explanation": "***Amylase*** is produced by the ***salivary glands*** and secreted into the mouth.\nIt starts the breakdown of ```starch``` (a polysaccharide) into simpler sugars like ***maltose***.\nThis is the first step in carbohydrate digestion before the food reaches the stomach."
-  },
-  {
-    "title": "Valve Controlling Blood to Aorta",
-    "ques": "Which heart valve opens to allow oxygen-rich blood to flow from the left ventricle into the aorta?",
-    "answer": {
-      "type": "text",
-      "content": "Aortic valve"
-    },
-    "explanation": "The ***aortic valve*** is a ***semilunar valve*** located between the ***left ventricle*** and the ***aorta***.\nWhen the left ventricle contracts, the valve opens, allowing blood to flow into the ```systemic circulation```.\nIt then closes to prevent backflow into the heart."
-  },
-  {
-    "title": "Neurotransmitter for Reward and Motivation",
-    "ques": "Which neurotransmitter is primarily associated with the brain’s reward and pleasure system?",
-    "answer": {
-      "type": "text",
-      "content": "Dopamine"
-    },
-    "explanation": "***Dopamine*** is released in brain areas like the ***nucleus accumbens*** and ***prefrontal cortex***.\nIt plays a key role in motivation, reward, and reinforcement learning.\nHigh dopamine activity is linked to ```pleasure and euphoria```, while imbalances can contribute to disorders like ***addiction*** and ***Parkinson’s disease***."
-  },
-  {
-    "title": "Hormone That Promotes Uterine Contractions",
-    "ques": "Which hormone causes the uterus to contract during childbirth?",
-    "answer": {
-      "type": "text",
-      "content": "Oxytocin"
-    },
-    "explanation": "***Oxytocin*** is produced in the ***hypothalamus*** and released by the ***posterior pituitary gland***.\nIt stimulates strong, rhythmic contractions of the ```uterine muscles``` during labor.\nIt also plays a role in ***bonding*** and ***milk ejection*** during breastfeeding."
-  },
-  {
-    "title": "Type of Immunity Developed After Infection",
-    "ques": "What type of immunity is developed after recovering from an infection like measles?",
-    "answer": {
-      "type": "text",
-      "content": "Active natural immunity"
-    },
-    "explanation": "***Active natural immunity*** develops when the body is exposed to a pathogen and mounts its own immune response.\nThe immune system produces ```antibodies``` and creates ***memory cells*** specific to that pathogen.\nThis provides long-term protection and often prevents future reinfection."
-  }
+    {
+        "title": "Immune System 🛡️",
+        "ques": "1. What are antibodies?\n2. How do vaccines work?\n3. Difference between B cells and T cells",
+        "answer": {
+            "type": "text",
+            "content": "**1. Antibodies:** Y-shaped proteins that bind specific antigens, marking pathogens for destruction\n\n**2. Vaccines:** Introduce weakened/dead pathogen → immune response → memory cells → future immunity\n\n**3. Cells:**\n- B cells: Make antibodies (humoral immunity)\n- T cells: Kill infected cells directly (cell-mediated)"
+        },
+        "explanation": "**Adaptive immunity** is specific and has memory. That's why you don't get same disease twice."
+    }
 ]

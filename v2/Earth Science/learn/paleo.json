@@ -1,0 +1,59 @@
+{
+    "id": "learn_paleo",
+    "topicId": "paleo",
+    "topicTitle": "Paleontology",
+    "description": "Explore fossils, dating methods, extinction events, and dinosaurs",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "paleo_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Paleontology 🦴\n\n## What you'll learn:\n- Fossils and fossilization\n- Dating methods\n- Extinction events\n- Dinosaur classification"
+        },
+        {
+            "id": "paleo_2",
+            "type": "content",
+            "title": "Fossils",
+            "content": "# Fossils 🦕\n\n## Types\n| Type | Description |\n|------|-------------|\n| Body fossil | Remains of organism |\n| Trace fossil | Tracks, burrows |\n| Mold/Cast | Impression/fill |\n| Amber | Preserved in resin |\n| Frozen | Ice preservation |\n\n## Index Fossils\n- Widespread, short-lived\n- Used for dating"
+        },
+        {
+            "id": "paleo_3",
+            "type": "content",
+            "title": "Dating Methods",
+            "content": "# Dating Methods 📅\n\n## Relative Dating\n- Superposition: Older below\n- Cross-cutting: Intrusions younger\n\n## Absolute Dating\n| Method | Half-life | Use |\n|--------|-----------|-----|\n| C-14 | 5,730 yr | <50,000 yr |\n| K-Ar | 1.3 billion | Older rocks |\n| U-Pb | 4.5 billion | Very old |"
+        },
+        {
+            "id": "paleo_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "C-14 dating is best for materials:",
+            "quizOptions": [
+                "<50,000 years",
+                ">1 million years",
+                "Igneous rocks only",
+                "Metals"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "paleo_4",
+            "type": "content",
+            "title": "Mass Extinctions",
+            "content": "# Mass Extinctions 💥\n\n| Event | When | Cause |\n|-------|------|-------|\n| End Permian | 252 mya | Volcanism (96%) |\n| End Triassic | 201 mya | Volcanism |\n| End Cretaceous | 66 mya | Asteroid |\n\n## K-Pg Extinction\n- Killed dinosaurs\n- Asteroid evidence: Iridium layer"
+        },
+        {
+            "id": "paleo_5",
+            "type": "content",
+            "title": "Dinosaurs",
+            "content": "# Dinosaurs 🦖\n\n## Classification\n| Group | Hip type | Examples |\n|-------|----------|----------|\n| Saurischia | Lizard | T-rex, Velociraptor |\n| Ornithischia | Bird | Triceratops, Stegosaurus |\n\n## Eras\n- Triassic: First dinosaurs\n- Jurassic: Giants dominate\n- Cretaceous: Diversification, extinction"
+        },
+        {
+            "id": "paleo_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Fossils: Body, trace, mold/cast\n- Dating: Relative & absolute\n- 5 major extinctions\n- Dinosaurs: Saurischia/Ornithischia"
+        }
+    ]
+}

@@ -1,0 +1,6679 @@
+[
+    {
+        "q": "What is an exoplanet?",
+        "type": "mcq",
+        "o": [
+            "A planet that orbits a star outside our solar system",
+            "A moon of Jupiter",
+            "An asteroid in the Kuiper Belt",
+            "A comet from the Oort Cloud"
+        ]
+    },
+    {
+        "q": "Exoplanets orbit stars _____ our solar system.",
+        "type": "fill_blank",
+        "answers": [
+            "outside or beyond"
+        ],
+        "other_options": [
+            "inside",
+            "within",
+            "near"
+        ]
+    },
+    {
+        "q": "Match the exoplanet term with its meaning:",
+        "type": "match",
+        "left": [
+            "Exoplanet",
+            "Host star",
+            "Orbital period",
+            "Transit"
+        ],
+        "right": [
+            "Planet outside solar system",
+            "Star with planets",
+            "Time for one orbit",
+            "Planet crossing star"
+        ]
+    },
+    {
+        "q": "Arrange the history of exoplanet discovery:",
+        "type": "rearrange",
+        "words": [
+            "Speculation about exoplanets",
+            "First confirmed detection (1992)",
+            "51 Pegasi b (1995)",
+            "Thousands discovered"
+        ]
+    },
+    {
+        "q": "The first confirmed exoplanet around a Sun-like star was discovered in 1995.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the transit method of exoplanet detection?",
+        "type": "mcq",
+        "o": [
+            "Detecting the dimming of a star as a planet passes in front of it",
+            "Measuring stellar wobble",
+            "Direct imaging",
+            "Gravitational lensing"
+        ]
+    },
+    {
+        "q": "When a planet transits its star, the star's brightness _____ slightly.",
+        "type": "fill_blank",
+        "answers": [
+            "decreases or dims"
+        ],
+        "other_options": [
+            "increases",
+            "doubles",
+            "disappears"
+        ]
+    },
+    {
+        "q": "Match the detection method with its technique:",
+        "type": "match",
+        "left": [
+            "Transit",
+            "Radial velocity",
+            "Direct imaging",
+            "Microlensing"
+        ],
+        "right": [
+            "Brightness dip",
+            "Doppler shift",
+            "Picture of planet",
+            "Gravity bending light"
+        ]
+    },
+    {
+        "q": "Arrange exoplanet detection methods by number of discoveries:",
+        "type": "rearrange",
+        "words": [
+            "Transit (most)",
+            "Radial velocity",
+            "Direct imaging",
+            "Microlensing (few)"
+        ]
+    },
+    {
+        "q": "The transit method has discovered more exoplanets than any other technique.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the radial velocity method?",
+        "type": "mcq",
+        "o": [
+            "Detecting exoplanets by measuring the star's wobble using Doppler shifts",
+            "Photographing planets directly",
+            "Measuring transit depth",
+            "Using radar"
+        ]
+    },
+    {
+        "q": "The radial velocity method measures the _____ shift in starlight.",
+        "type": "fill_blank",
+        "answers": [
+            "Doppler"
+        ],
+        "other_options": [
+            "red only",
+            "blue only",
+            "no"
+        ]
+    },
+    {
+        "q": "Match the radial velocity concept with its meaning:",
+        "type": "match",
+        "left": [
+            "Blueshift",
+            "Redshift",
+            "Semi-amplitude",
+            "Period"
+        ],
+        "right": [
+            "Star approaching",
+            "Star receding",
+            "Wobble strength",
+            "Orbital time"
+        ]
+    },
+    {
+        "q": "Arrange radial velocity discoveries chronologically:",
+        "type": "rearrange",
+        "words": [
+            "Method developed",
+            "51 Pegasi b (1995)",
+            "Many hot Jupiters",
+            "Precision improvements"
+        ]
+    },
+    {
+        "q": "51 Pegasi b was discovered using the radial velocity method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a hot Jupiter?",
+        "type": "mcq",
+        "o": [
+            "A gas giant planet orbiting very close to its star",
+            "A cold gas giant",
+            "A rocky planet",
+            "A moon of Jupiter"
+        ]
+    },
+    {
+        "q": "Hot Jupiters have orbital periods of just a few _____.",
+        "type": "fill_blank",
+        "answers": [
+            "days"
+        ],
+        "other_options": [
+            "years",
+            "centuries",
+            "decades"
+        ]
+    },
+    {
+        "q": "Match the exoplanet type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Hot Jupiter",
+            "Super-Earth",
+            "Mini-Neptune",
+            "Earth-like"
+        ],
+        "right": [
+            "Giant, close orbit",
+            "Rocky, larger than Earth",
+            "Small, gaseous",
+            "Similar to Earth"
+        ]
+    },
+    {
+        "q": "Arrange exoplanet types by size:",
+        "type": "rearrange",
+        "words": [
+            "Earth-like (smallest)",
+            "Super-Earth",
+            "Mini-Neptune",
+            "Hot Jupiter (largest)"
+        ]
+    },
+    {
+        "q": "Hot Jupiters were among the first exoplanets discovered because they are easy to detect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the habitable zone?",
+        "type": "mcq",
+        "o": [
+            "The region around a star where liquid water could exist on a planet's surface",
+            "Any orbit around a star",
+            "The center of a galaxy",
+            "Earth's atmosphere"
+        ]
+    },
+    {
+        "q": "The habitable zone is sometimes called the _____ zone.",
+        "type": "fill_blank",
+        "answers": [
+            "Goldilocks"
+        ],
+        "other_options": [
+            "danger",
+            "frozen",
+            "hot"
+        ]
+    },
+    {
+        "q": "Match the habitable zone concept with its meaning:",
+        "type": "match",
+        "left": [
+            "Inner edge",
+            "Outer edge",
+            "Liquid water",
+            "Goldilocks"
+        ],
+        "right": [
+            "Too hot beyond",
+            "Too cold beyond",
+            "Key for life",
+            "Just right"
+        ]
+    },
+    {
+        "q": "Arrange planets by distance from habitable zone center:",
+        "type": "rearrange",
+        "words": [
+            "Venus (inner edge)",
+            "Earth (center)",
+            "Mars (outer edge)",
+            "Jupiter (beyond)"
+        ]
+    },
+    {
+        "q": "A planet in the habitable zone is guaranteed to have liquid water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the Kepler mission?",
+        "type": "mcq",
+        "o": [
+            "A NASA space telescope that discovered thousands of exoplanets using the transit method",
+            "A Mars rover",
+            "A lunar lander",
+            "A communication satellite"
+        ]
+    },
+    {
+        "q": "Kepler discovered over _____ confirmed exoplanets.",
+        "type": "fill_blank",
+        "answers": [
+            "2600 or 2700"
+        ],
+        "other_options": [
+            "10",
+            "100",
+            "50"
+        ]
+    },
+    {
+        "q": "Match the space telescope with its focus:",
+        "type": "match",
+        "left": [
+            "Kepler",
+            "TESS",
+            "James Webb",
+            "Hubble"
+        ],
+        "right": [
+            "Exoplanet survey",
+            "Bright nearby stars",
+            "Atmosphere characterization",
+            "General astronomy"
+        ]
+    },
+    {
+        "q": "Arrange exoplanet missions chronologically:",
+        "type": "rearrange",
+        "words": [
+            "CoRoT (2006)",
+            "Kepler (2009)",
+            "TESS (2018)",
+            "JWST (2021)"
+        ]
+    },
+    {
+        "q": "Kepler observed a single patch of sky for years to find transiting planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is TESS?",
+        "type": "mcq",
+        "o": [
+            "Transiting Exoplanet Survey Satellite, NASA's all-sky exoplanet hunter",
+            "A Mars mission",
+            "A lunar orbiter",
+            "A ground telescope"
+        ]
+    },
+    {
+        "q": "TESS surveys nearly the entire _____ for transiting exoplanets.",
+        "type": "fill_blank",
+        "answers": [
+            "sky"
+        ],
+        "other_options": [
+            "Moon",
+            "Mars",
+            "Sun"
+        ]
+    },
+    {
+        "q": "Match the TESS feature with its description:",
+        "type": "match",
+        "left": [
+            "All-sky survey",
+            "Bright stars",
+            "Short sectors",
+            "Follow-up"
+        ],
+        "right": [
+            "Covers most sky",
+            "Easier characterization",
+            "27-day observations",
+            "Ground telescopes confirm"
+        ]
+    },
+    {
+        "q": "Arrange TESS mission phases:",
+        "type": "rearrange",
+        "words": [
+            "Launch (2018)",
+            "Primary mission",
+            "Extended mission",
+            "Ongoing discoveries"
+        ]
+    },
+    {
+        "q": "TESS focuses on bright, nearby stars for easier follow-up observations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a super-Earth?",
+        "type": "mcq",
+        "o": [
+            "A rocky planet larger than Earth but smaller than Neptune",
+            "A gas giant",
+            "A planet exactly like Earth",
+            "A dwarf planet"
+        ]
+    },
+    {
+        "q": "Super-Earths have masses up to about _____ Earth masses.",
+        "type": "fill_blank",
+        "answers": [
+            "10"
+        ],
+        "other_options": [
+            "100",
+            "1000",
+            "1"
+        ]
+    },
+    {
+        "q": "Match the planet size category with its range:",
+        "type": "match",
+        "left": [
+            "Earth-sized",
+            "Super-Earth",
+            "Mini-Neptune",
+            "Neptune-sized"
+        ],
+        "right": [
+            "0.8-1.2 Earth radii",
+            "1.2-2 Earth radii",
+            "2-4 Earth radii",
+            "~4 Earth radii"
+        ]
+    },
+    {
+        "q": "Arrange planet types by increasing radius:",
+        "type": "rearrange",
+        "words": [
+            "Mars-sized",
+            "Earth-sized",
+            "Super-Earth",
+            "Mini-Neptune"
+        ]
+    },
+    {
+        "q": "Super-Earths are the most common type of planet in the galaxy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is direct imaging of exoplanets?",
+        "type": "mcq",
+        "o": [
+            "Taking actual pictures of exoplanets by blocking out starlight",
+            "The transit method",
+            "Measuring Doppler shifts",
+            "Using gravitational lensing"
+        ]
+    },
+    {
+        "q": "Direct imaging requires blocking the bright _____ to see faint planets.",
+        "type": "fill_blank",
+        "answers": [
+            "star or starlight"
+        ],
+        "other_options": [
+            "planet",
+            "moon",
+            "asteroid"
+        ]
+    },
+    {
+        "q": "Match the imaging technique with its purpose:",
+        "type": "match",
+        "left": [
+            "Coronagraph",
+            "Starshade",
+            "Adaptive optics",
+            "Infrared"
+        ],
+        "right": [
+            "Blocks central star",
+            "External blocker",
+            "Corrects atmosphere",
+            "Sees thermal emission"
+        ]
+    },
+    {
+        "q": "Arrange direct imaging challenges:",
+        "type": "rearrange",
+        "words": [
+            "Star is bright",
+            "Planet is faint",
+            "Close angular separation",
+            "Atmosphere distorts"
+        ]
+    },
+    {
+        "q": "Direct imaging works best for young, massive planets far from their stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is gravitational microlensing?",
+        "type": "mcq",
+        "o": [
+            "A method detecting planets when their gravity bends light from a background star",
+            "Direct imaging",
+            "Transit photometry",
+            "Radial velocity"
+        ]
+    },
+    {
+        "q": "Microlensing events are _____ and typically don't repeat.",
+        "type": "fill_blank",
+        "answers": [
+            "rare or transient"
+        ],
+        "other_options": [
+            "common",
+            "predictable",
+            "frequent"
+        ]
+    },
+    {
+        "q": "Match the microlensing concept with its role:",
+        "type": "match",
+        "left": [
+            "Lens star",
+            "Source star",
+            "Planet",
+            "Magnification"
+        ],
+        "right": [
+            "Foreground object",
+            "Background light",
+            "Causes blip",
+            "Brightness increase"
+        ]
+    },
+    {
+        "q": "Arrange microlensing detection:",
+        "type": "rearrange",
+        "words": [
+            "Background star monitored",
+            "Lens star passes",
+            "Magnification occurs",
+            "Planet causes anomaly"
+        ]
+    },
+    {
+        "q": "Microlensing can detect planets very far from their host stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an exoplanet atmosphere?",
+        "type": "mcq",
+        "o": [
+            "The layer of gases surrounding an exoplanet",
+            "The planet's surface",
+            "The host star's corona",
+            "Empty space"
+        ]
+    },
+    {
+        "q": "Exoplanet atmospheres can be studied using _____ spectroscopy.",
+        "type": "fill_blank",
+        "answers": [
+            "transmission or emission"
+        ],
+        "other_options": [
+            "radar",
+            "sonar",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the atmospheric component with its signature:",
+        "type": "match",
+        "left": [
+            "Water vapor",
+            "Carbon dioxide",
+            "Methane",
+            "Oxygen"
+        ],
+        "right": [
+            "H2O absorption",
+            "CO2 feature",
+            "CH4 bands",
+            "O2 lines"
+        ]
+    },
+    {
+        "q": "Arrange atmospheric study techniques:",
+        "type": "rearrange",
+        "words": [
+            "Transit observation",
+            "Light filtering",
+            "Spectral analysis",
+            "Molecule identification"
+        ]
+    },
+    {
+        "q": "JWST can study exoplanet atmospheres in unprecedented detail.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is transmission spectroscopy?",
+        "type": "mcq",
+        "o": [
+            "Studying starlight that passes through a planet's atmosphere during transit",
+            "Direct imaging",
+            "Radial velocity",
+            "Gravitational lensing"
+        ]
+    },
+    {
+        "q": "Transmission spectroscopy works when starlight passes through the planet's atmospheric _____.",
+        "type": "fill_blank",
+        "answers": [
+            "limb or edge"
+        ],
+        "other_options": [
+            "center",
+            "core",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the spectroscopy type with its geometry:",
+        "type": "match",
+        "left": [
+            "Transmission",
+            "Emission",
+            "Reflection",
+            "Phase curve"
+        ],
+        "right": [
+            "During transit",
+            "During eclipse",
+            "Planet dayside",
+            "Full orbit"
+        ]
+    },
+    {
+        "q": "Arrange transmission spectroscopy process:",
+        "type": "rearrange",
+        "words": [
+            "Planet transits star",
+            "Light passes atmosphere",
+            "Absorption occurs",
+            "Spectrum analyzed"
+        ]
+    },
+    {
+        "q": "Transmission spectroscopy reveals what molecules are in a planet's atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the TRAPPIST-1 system?",
+        "type": "mcq",
+        "o": [
+            "A system with seven Earth-sized planets orbiting an ultracool dwarf star",
+            "A single planet",
+            "Our solar system",
+            "A star cluster"
+        ]
+    },
+    {
+        "q": "TRAPPIST-1 is an _____ dwarf star much cooler than the Sun.",
+        "type": "fill_blank",
+        "answers": [
+            "ultracool or red"
+        ],
+        "other_options": [
+            "hot",
+            "blue",
+            "massive"
+        ]
+    },
+    {
+        "q": "Match the TRAPPIST-1 planet with its designation:",
+        "type": "match",
+        "left": [
+            "TRAPPIST-1b",
+            "TRAPPIST-1d",
+            "TRAPPIST-1e",
+            "TRAPPIST-1h"
+        ],
+        "right": [
+            "Innermost",
+            "Third planet",
+            "Habitable zone",
+            "Outermost"
+        ]
+    },
+    {
+        "q": "Arrange TRAPPIST-1 planets from closest to farthest from star:",
+        "type": "rearrange",
+        "words": [
+            "b (closest)",
+            "c",
+            "d",
+            "e, f, g, h (farthest)"
+        ]
+    },
+    {
+        "q": "Several TRAPPIST-1 planets are in the habitable zone.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Proxima Centauri b?",
+        "type": "mcq",
+        "o": [
+            "The closest known exoplanet to Earth, orbiting our nearest stellar neighbor",
+            "A moon of Saturn",
+            "A planet in the outer solar system",
+            "A distant galaxy"
+        ]
+    },
+    {
+        "q": "Proxima Centauri is about _____ light-years from Earth.",
+        "type": "fill_blank",
+        "answers": [
+            "4.2 or 4"
+        ],
+        "other_options": [
+            "100",
+            "1000",
+            "1"
+        ]
+    },
+    {
+        "q": "Match the nearby star with its known planet:",
+        "type": "match",
+        "left": [
+            "Proxima Centauri",
+            "Barnard's Star",
+            "Tau Ceti",
+            "Epsilon Eridani"
+        ],
+        "right": [
+            "Proxima b",
+            "Barnard's b (disputed)",
+            "Tau Ceti e,f",
+            "Epsilon Eridani b"
+        ]
+    },
+    {
+        "q": "Arrange stars by distance from Earth:",
+        "type": "rearrange",
+        "words": [
+            "Sun (closest)",
+            "Proxima Centauri",
+            "Alpha Centauri A/B",
+            "Barnard's Star"
+        ]
+    },
+    {
+        "q": "Proxima b is in the habitable zone of its star.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is planetary migration?",
+        "type": "mcq",
+        "o": [
+            "The movement of planets from their original formation locations",
+            "Planets staying in place",
+            "Star movement",
+            "Galaxy rotation"
+        ]
+    },
+    {
+        "q": "Hot Jupiters likely _____ inward from farther out in their systems.",
+        "type": "fill_blank",
+        "answers": [
+            "migrated or moved"
+        ],
+        "other_options": [
+            "formed",
+            "stayed",
+            "exploded"
+        ]
+    },
+    {
+        "q": "Match the migration type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Disk migration",
+            "High-eccentricity",
+            "Planet-planet scattering",
+            "Kozai-Lidov"
+        ],
+        "right": [
+            "Gas disk interaction",
+            "Tidal circularization",
+            "Gravitational kicks",
+            "Binary companion"
+        ]
+    },
+    {
+        "q": "Arrange planetary system evolution:",
+        "type": "rearrange",
+        "words": [
+            "Disk formation",
+            "Planet formation",
+            "Migration",
+            "Final configuration"
+        ]
+    },
+    {
+        "q": "Planetary migration explains why some giant planets orbit very close to their stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the radius valley?",
+        "type": "mcq",
+        "o": [
+            "A gap in the distribution of exoplanet sizes between super-Earths and mini-Neptunes",
+            "A feature on Mars",
+            "A canyon on the Moon",
+            "A stellar phenomenon"
+        ]
+    },
+    {
+        "q": "The radius valley occurs at about _____ Earth radii.",
+        "type": "fill_blank",
+        "answers": [
+            "1.5 to 2 or 1.7"
+        ],
+        "other_options": [
+            "10",
+            "0.5",
+            "100"
+        ]
+    },
+    {
+        "q": "Match the radius valley explanation with its process:",
+        "type": "match",
+        "left": [
+            "Photoevaporation",
+            "Core-powered mass loss",
+            "Formation gap",
+            "Atmospheric escape"
+        ],
+        "right": [
+            "Stellar radiation strips gas",
+            "Internal heat drives loss",
+            "Different formation",
+            "Gas leaves planet"
+        ]
+    },
+    {
+        "q": "Arrange planet evolution with atmospheric loss:",
+        "type": "rearrange",
+        "words": [
+            "Planet forms with atmosphere",
+            "Strong stellar radiation",
+            "Atmosphere escapes",
+            "Rocky core remains"
+        ]
+    },
+    {
+        "q": "Planets just above the radius valley may have thick atmospheres while those below may be rocky.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the stellar spectral type important for habitability?",
+        "type": "mcq",
+        "o": [
+            "The classification of stars by temperature, which affects habitable zone location",
+            "Only star color",
+            "Star size only",
+            "Not important"
+        ]
+    },
+    {
+        "q": "M dwarf stars are _____ and cooler than the Sun.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller or redder"
+        ],
+        "other_options": [
+            "larger",
+            "hotter",
+            "brighter"
+        ]
+    },
+    {
+        "q": "Match the stellar type with its characteristic:",
+        "type": "match",
+        "left": [
+            "O/B stars",
+            "Sun (G star)",
+            "K dwarfs",
+            "M dwarfs"
+        ],
+        "right": [
+            "Very hot, short-lived",
+            "Medium temperature",
+            "Slightly cooler than Sun",
+            "Cool, long-lived"
+        ]
+    },
+    {
+        "q": "Arrange stars by temperature from hottest to coolest:",
+        "type": "rearrange",
+        "words": [
+            "O (hottest)",
+            "B, A, F",
+            "G (Sun)",
+            "K, M (coolest)"
+        ]
+    },
+    {
+        "q": "M dwarf stars are the most common stars in the galaxy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tidal locking?",
+        "type": "mcq",
+        "o": [
+            "When one side of a planet always faces its star due to gravitational interaction",
+            "Free rotation",
+            "Retrograde motion",
+            "Orbital decay"
+        ]
+    },
+    {
+        "q": "A tidally locked planet has the same side always facing its _____.",
+        "type": "fill_blank",
+        "answers": [
+            "star or sun"
+        ],
+        "other_options": [
+            "moon",
+            "nothing",
+            "neighbor"
+        ]
+    },
+    {
+        "q": "Match the tidal locking concept with its effect:",
+        "type": "match",
+        "left": [
+            "Permanent day side",
+            "Permanent night side",
+            "Terminator",
+            "Heat redistribution"
+        ],
+        "right": [
+            "Always facing star",
+            "Always dark",
+            "Day-night boundary",
+            "Atmosphere circulates"
+        ]
+    },
+    {
+        "q": "Arrange tidal locking process:",
+        "type": "rearrange",
+        "words": [
+            "Close orbit",
+            "Tidal forces",
+            "Rotation slows",
+            "Synchronization"
+        ]
+    },
+    {
+        "q": "Many planets orbiting M dwarfs in the habitable zone are likely tidally locked.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a biosignature?",
+        "type": "mcq",
+        "o": [
+            "A chemical or physical sign that could indicate the presence of life",
+            "A planet's mass",
+            "A star's temperature",
+            "An orbit calculation"
+        ]
+    },
+    {
+        "q": "Oxygen and methane together could be a _____ in an exoplanet atmosphere.",
+        "type": "fill_blank",
+        "answers": [
+            "biosignature"
+        ],
+        "other_options": [
+            "normal feature",
+            "nothing special",
+            "error"
+        ]
+    },
+    {
+        "q": "Match the potential biosignature with its origin:",
+        "type": "match",
+        "left": [
+            "Oxygen",
+            "Methane",
+            "Ozone",
+            "Chlorophyll"
+        ],
+        "right": [
+            "Photosynthesis",
+            "Biological decay",
+            "Oxygen product",
+            "Plant pigment"
+        ]
+    },
+    {
+        "q": "Arrange biosignature detection difficulty:",
+        "type": "rearrange",
+        "words": [
+            "Detect planet",
+            "Characterize atmosphere",
+            "Find biosignatures",
+            "Confirm life (hardest)"
+        ]
+    },
+    {
+        "q": "Finding biosignatures would not definitively prove the existence of life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the alpha Centauri system?",
+        "type": "mcq",
+        "o": [
+            "A triple star system that is the closest stellar system to our Sun",
+            "A distant galaxy",
+            "A single star",
+            "A nebula"
+        ]
+    },
+    {
+        "q": "Alpha Centauri consists of two Sun-like stars and _____ Centauri, a red dwarf.",
+        "type": "fill_blank",
+        "answers": [
+            "Proxima"
+        ],
+        "other_options": [
+            "Beta",
+            "Gamma",
+            "Delta"
+        ]
+    },
+    {
+        "q": "Match the Alpha Centauri star with its type:",
+        "type": "match",
+        "left": [
+            "Alpha Centauri A",
+            "Alpha Centauri B",
+            "Proxima Centauri",
+            "Triple system"
+        ],
+        "right": [
+            "G-type (like Sun)",
+            "K-type (orange)",
+            "M-type (red dwarf)",
+            "3 stars total"
+        ]
+    },
+    {
+        "q": "Arrange Alpha Centauri components by mass:",
+        "type": "rearrange",
+        "words": [
+            "Alpha A (largest)",
+            "Alpha B",
+            "Proxima (smallest)"
+        ]
+    },
+    {
+        "q": "Alpha Centauri A and B orbit each other while Proxima orbits the pair.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the transit depth?",
+        "type": "mcq",
+        "o": [
+            "The fractional decrease in stellar brightness when a planet transits",
+            "The planet's size",
+            "The star's temperature",
+            "Orbital distance"
+        ]
+    },
+    {
+        "q": "Transit depth is proportional to the square of the planet-to-star _____ ratio.",
+        "type": "fill_blank",
+        "answers": [
+            "radius"
+        ],
+        "other_options": [
+            "mass",
+            "distance",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the transit parameter with its measurement:",
+        "type": "match",
+        "left": [
+            "Transit depth",
+            "Transit duration",
+            "Ingress/egress",
+            "Contact points"
+        ],
+        "right": [
+            "Planet radius",
+            "Orbital geometry",
+            "Limb crossing time",
+            "Orbit boundaries"
+        ]
+    },
+    {
+        "q": "Arrange transit light curve features:",
+        "type": "rearrange",
+        "words": [
+            "Out of transit (flat)",
+            "Ingress (dimming)",
+            "Full transit (minimum)",
+            "Egress (brightening)"
+        ]
+    },
+    {
+        "q": "A Jupiter-sized planet transiting a Sun-like star causes about 1% transit depth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is limb darkening?",
+        "type": "mcq",
+        "o": [
+            "The dimming of a star's disk toward its edges due to viewing angle effects",
+            "Planet shadow",
+            "Star rotation",
+            "Atmospheric absorption"
+        ]
+    },
+    {
+        "q": "Limb darkening affects the _____ of transit light curves.",
+        "type": "fill_blank",
+        "answers": [
+            "shape"
+        ],
+        "other_options": [
+            "depth only",
+            "period",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the limb darkening effect with its consequence:",
+        "type": "match",
+        "left": [
+            "Rounded ingress",
+            "Curved bottom",
+            "Wavelength dependent",
+            "Stellar atmosphere"
+        ],
+        "right": [
+            "Gradual dimming",
+            "Non-flat transit",
+            "Different at different colors",
+            "Causes the effect"
+        ]
+    },
+    {
+        "q": "Arrange limb darkening understanding:",
+        "type": "rearrange",
+        "words": [
+            "Observe transit shape",
+            "Model limb darkening",
+            "Correct light curve",
+            "Extract planet parameters"
+        ]
+    },
+    {
+        "q": "Limb darkening must be accounted for when fitting transit light curves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the orbital eccentricity?",
+        "type": "mcq",
+        "o": [
+            "A measure of how elliptical an orbit is, with 0 being circular",
+            "Orbit size",
+            "Orbital period",
+            "Planet mass"
+        ]
+    },
+    {
+        "q": "Eccentricity = 0 represents a perfectly _____ orbit.",
+        "type": "fill_blank",
+        "answers": [
+            "circular"
+        ],
+        "other_options": [
+            "elliptical",
+            "parabolic",
+            "hyperbolic"
+        ]
+    },
+    {
+        "q": "Match the eccentricity value with its orbit shape:",
+        "type": "match",
+        "left": [
+            "e = 0",
+            "e = 0.5",
+            "e = 0.9",
+            "e >= 1"
+        ],
+        "right": [
+            "Circle",
+            "Moderate ellipse",
+            "Very elongated",
+            "Unbound"
+        ]
+    },
+    {
+        "q": "Arrange orbits by eccentricity:",
+        "type": "rearrange",
+        "words": [
+            "Circular (e=0)",
+            "Earth orbit (e=0.017)",
+            "Mercury (e=0.2)",
+            "HD 80606b (e=0.93)"
+        ]
+    },
+    {
+        "q": "Hot Jupiters tend to have low eccentricities due to tidal circularization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the semi-major axis?",
+        "type": "mcq",
+        "o": [
+            "Half the longest diameter of an elliptical orbit",
+            "The shortest diameter",
+            "The focus distance",
+            "The orbital speed"
+        ]
+    },
+    {
+        "q": "The semi-major axis is commonly used to describe the _____ of an orbit.",
+        "type": "fill_blank",
+        "answers": [
+            "size"
+        ],
+        "other_options": [
+            "shape",
+            "speed",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the orbital element with its meaning:",
+        "type": "match",
+        "left": [
+            "Semi-major axis",
+            "Eccentricity",
+            "Inclination",
+            "Period"
+        ],
+        "right": [
+            "Orbit size",
+            "Orbit shape",
+            "Orbit tilt",
+            "Orbit time"
+        ]
+    },
+    {
+        "q": "Arrange semi-major axes:",
+        "type": "rearrange",
+        "words": [
+            "Hot Jupiter (0.05 AU)",
+            "Earth (1 AU)",
+            "Jupiter (5.2 AU)",
+            "Neptune (30 AU)"
+        ]
+    },
+    {
+        "q": "Kepler's third law relates period squared to semi-major axis cubed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the inclination in exoplanet systems?",
+        "type": "mcq",
+        "o": [
+            "The angle between the orbital plane and our line of sight",
+            "Orbital speed",
+            "Planet size",
+            "Star temperature"
+        ]
+    },
+    {
+        "q": "An inclination of 90 degrees means we view the orbit _____.",
+        "type": "fill_blank",
+        "answers": [
+            "edge-on"
+        ],
+        "other_options": [
+            "face-on",
+            "from above",
+            "obliquely"
+        ]
+    },
+    {
+        "q": "Match the inclination with its viewing geometry:",
+        "type": "match",
+        "left": [
+            "i = 90 deg",
+            "i = 0 deg",
+            "i = 45 deg",
+            "Near 90 deg"
+        ],
+        "right": [
+            "Edge-on",
+            "Face-on",
+            "Intermediate",
+            "Transits possible"
+        ]
+    },
+    {
+        "q": "Arrange inclination effects:",
+        "type": "rearrange",
+        "words": [
+            "Face-on (no transit)",
+            "Intermediate (no transit)",
+            "Near edge-on",
+            "Edge-on (transit)"
+        ]
+    },
+    {
+        "q": "Transiting planets require orbits aligned nearly edge-on to our line of sight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the minimum mass from radial velocity?",
+        "type": "mcq",
+        "o": [
+            "The planet mass times sin(i), since inclination is unknown",
+            "Exact mass",
+            "Maximum mass",
+            "Star mass"
+        ]
+    },
+    {
+        "q": "Radial velocity gives M sin(i) where i is the orbital _____.",
+        "type": "fill_blank",
+        "answers": [
+            "inclination"
+        ],
+        "other_options": [
+            "period",
+            "distance",
+            "eccentricity"
+        ]
+    },
+    {
+        "q": "Match the measurement with its degeneracy:",
+        "type": "match",
+        "left": [
+            "RV only",
+            "Transit only",
+            "RV + transit",
+            "Astrometry"
+        ],
+        "right": [
+            "M sin(i)",
+            "R only",
+            "M and R",
+            "True mass"
+        ]
+    },
+    {
+        "q": "Arrange mass determination methods:",
+        "type": "rearrange",
+        "words": [
+            "RV alone (minimum)",
+            "Transit + RV",
+            "Astrometry",
+            "Direct measurement (hard)"
+        ]
+    },
+    {
+        "q": "Combining transit and RV data gives the true planet mass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the transit timing variation (TTV)?",
+        "type": "mcq",
+        "o": [
+            "Changes in transit times due to gravitational interactions with other planets",
+            "Constant timing",
+            "Instrument error",
+            "Star variability"
+        ]
+    },
+    {
+        "q": "TTVs can reveal additional _____ planets in a system.",
+        "type": "fill_blank",
+        "answers": [
+            "non-transiting or hidden"
+        ],
+        "other_options": [
+            "none",
+            "visible",
+            "transiting only"
+        ]
+    },
+    {
+        "q": "Match the TTV with its cause:",
+        "type": "match",
+        "left": [
+            "Mean motion resonance",
+            "Non-resonant",
+            "Stellar activity",
+            "Light travel time"
+        ],
+        "right": [
+            "Strong TTV",
+            "Weaker TTV",
+            "False signal",
+            "Binary companion"
+        ]
+    },
+    {
+        "q": "Arrange TTV analysis:",
+        "type": "rearrange",
+        "words": [
+            "Measure transit times",
+            "Find deviations from linear",
+            "Model with N-body",
+            "Infer planet masses"
+        ]
+    },
+    {
+        "q": "Kepler discovered many planetary systems using TTV measurements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Rossiter-McLaughlin effect?",
+        "type": "mcq",
+        "o": [
+            "A radial velocity anomaly during transit due to selective blocking of rotating stellar surface",
+            "Normal RV signal",
+            "Atmospheric effect",
+            "Planetary rotation"
+        ]
+    },
+    {
+        "q": "The RM effect measures the _____ obliquity of the system.",
+        "type": "fill_blank",
+        "answers": [
+            "spin-orbit or sky-projected"
+        ],
+        "other_options": [
+            "mass",
+            "size",
+            "age"
+        ]
+    },
+    {
+        "q": "Match the RM effect with its indication:",
+        "type": "match",
+        "left": [
+            "Symmetric RM",
+            "Asymmetric RM",
+            "Aligned orbit",
+            "Misaligned orbit"
+        ],
+        "right": [
+            "Prograde/aligned",
+            "Oblique/retrograde",
+            "Planet and star rotate together",
+            "Planet at angle"
+        ]
+    },
+    {
+        "q": "Arrange spin-orbit alignment:",
+        "type": "rearrange",
+        "words": [
+            "Prograde aligned (0 deg)",
+            "Polar (90 deg)",
+            "Retrograde (180 deg)",
+            "Oblique (other)"
+        ]
+    },
+    {
+        "q": "Many hot Jupiters have misaligned orbits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planetary equilibrium temperature?",
+        "type": "mcq",
+        "o": [
+            "The temperature a planet would have if it radiated as much energy as it receives",
+            "Surface temperature exactly",
+            "Star temperature",
+            "Atmospheric temperature"
+        ]
+    },
+    {
+        "q": "Equilibrium temperature depends on stellar luminosity and orbital _____.",
+        "type": "fill_blank",
+        "answers": [
+            "distance"
+        ],
+        "other_options": [
+            "inclination",
+            "period only",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the equilibrium temperature factor with its effect:",
+        "type": "match",
+        "left": [
+            "Closer to star",
+            "Hotter star",
+            "Higher albedo",
+            "Greenhouse"
+        ],
+        "right": [
+            "Higher T_eq",
+            "Higher T_eq",
+            "Lower T_eq",
+            "Raises actual T"
+        ]
+    },
+    {
+        "q": "Arrange planets by equilibrium temperature:",
+        "type": "rearrange",
+        "words": [
+            "Hot Jupiter (~1500 K)",
+            "Venus (~230 K)",
+            "Earth (~255 K)",
+            "Mars (~210 K)"
+        ]
+    },
+    {
+        "q": "A planet's actual surface temperature can differ from equilibrium due to atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the secondary eclipse?",
+        "type": "mcq",
+        "o": [
+            "When a planet passes behind its star, blocking the planet's light",
+            "The primary transit",
+            "Two stars eclipsing",
+            "Moon eclipse"
+        ]
+    },
+    {
+        "q": "Secondary eclipse depth reveals the planet's _____ spectrum.",
+        "type": "fill_blank",
+        "answers": [
+            "emission or thermal"
+        ],
+        "other_options": [
+            "transmission",
+            "reflection only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the eclipse type with its information:",
+        "type": "match",
+        "left": [
+            "Primary transit",
+            "Secondary eclipse",
+            "Phase curve",
+            "Transit spectroscopy"
+        ],
+        "right": [
+            "Planet radius/atmosphere",
+            "Planet temperature",
+            "Global properties",
+            "Atmospheric composition"
+        ]
+    },
+    {
+        "q": "Arrange eclipse observations:",
+        "type": "rearrange",
+        "words": [
+            "Primary transit (planet in front)",
+            "Secondary eclipse (planet behind)",
+            "Phase variations",
+            "Full orbit"
+        ]
+    },
+    {
+        "q": "Secondary eclipses are best observed in infrared where planets emit more light.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a phase curve?",
+        "type": "mcq",
+        "o": [
+            "The variation in planetary brightness over a full orbit showing day-to-night differences",
+            "A transit curve",
+            "A stellar cycle",
+            "A static measurement"
+        ]
+    },
+    {
+        "q": "Phase curves reveal how heat is redistributed around the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "planet"
+        ],
+        "other_options": [
+            "star",
+            "moon",
+            "system"
+        ]
+    },
+    {
+        "q": "Match the phase curve feature with its meaning:",
+        "type": "match",
+        "left": [
+            "Hotspot offset",
+            "Day-night contrast",
+            "Peak before eclipse",
+            "Ellipsoidal variation"
+        ],
+        "right": [
+            "Winds shift hottest point",
+            "Temperature difference",
+            "Eastward winds",
+            "Tidal distortion"
+        ]
+    },
+    {
+        "q": "Arrange phase curve observations:",
+        "type": "rearrange",
+        "words": [
+            "Transit (start)",
+            "Dayside visible",
+            "Eclipse (minimum)",
+            "Nightside visible"
+        ]
+    },
+    {
+        "q": "Spitzer and JWST have measured detailed phase curves of hot Jupiters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the snow line in planet formation?",
+        "type": "mcq",
+        "o": [
+            "The distance from a star where water can exist as ice",
+            "A temperature on planets",
+            "A type of atmosphere",
+            "Stellar surface feature"
+        ]
+    },
+    {
+        "q": "Beyond the snow line, solid _____ increases available for core formation.",
+        "type": "fill_blank",
+        "answers": [
+            "material or mass"
+        ],
+        "other_options": [
+            "gas only",
+            "nothing",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the disk region with its characteristic:",
+        "type": "match",
+        "left": [
+            "Inside snow line",
+            "At snow line",
+            "Beyond snow line",
+            "Far outer disk"
+        ],
+        "right": [
+            "Rocky material only",
+            "Water ice condenses",
+            "Giant planet cores",
+            "Cometary material"
+        ]
+    },
+    {
+        "q": "Arrange solar system objects by snow line:",
+        "type": "rearrange",
+        "words": [
+            "Terrestrial planets (inside)",
+            "Asteroid belt (near)",
+            "Gas giants (beyond)",
+            "Kuiper belt (far)"
+        ]
+    },
+    {
+        "q": "The snow line explains why giant planets formed in the outer solar system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the core accretion model?",
+        "type": "mcq",
+        "o": [
+            "A theory of giant planet formation where a rocky core first forms, then accretes gas",
+            "Direct collapse",
+            "Star formation",
+            "No core needed"
+        ]
+    },
+    {
+        "q": "In core accretion, a planet must reach about _____ Earth masses to start rapid gas accretion.",
+        "type": "fill_blank",
+        "answers": [
+            "10"
+        ],
+        "other_options": [
+            "1",
+            "100",
+            "1000"
+        ]
+    },
+    {
+        "q": "Match the formation stage with its process:",
+        "type": "match",
+        "left": [
+            "Stage 1",
+            "Stage 2",
+            "Stage 3",
+            "Stage 4"
+        ],
+        "right": [
+            "Dust settles",
+            "Planetesimals form",
+            "Core grows",
+            "Gas accretion"
+        ]
+    },
+    {
+        "q": "Arrange core accretion:",
+        "type": "rearrange",
+        "words": [
+            "Dust grains",
+            "Planetesimals",
+            "Protoplanetary core",
+            "Gas giant"
+        ]
+    },
+    {
+        "q": "Core accretion is the leading theory for giant planet formation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the disk instability model?",
+        "type": "mcq",
+        "o": [
+            "A theory where giant planets form directly from gravitational collapse of the disk",
+            "Core accretion",
+            "Planetesimal theory",
+            "Stellar formation"
+        ]
+    },
+    {
+        "q": "Disk instability may form planets _____ than core accretion.",
+        "type": "fill_blank",
+        "answers": [
+            "faster"
+        ],
+        "other_options": [
+            "slower",
+            "not at all",
+            "impossibly"
+        ]
+    },
+    {
+        "q": "Match the formation model with its timescale:",
+        "type": "match",
+        "left": [
+            "Core accretion",
+            "Disk instability",
+            "Pebble accretion",
+            "Direct collapse"
+        ],
+        "right": [
+            "Millions of years",
+            "Thousands of years",
+            "Intermediate",
+            "Fast"
+        ]
+    },
+    {
+        "q": "Arrange planet formation timescales:",
+        "type": "rearrange",
+        "words": [
+            "Disk instability (fast)",
+            "Pebble accretion",
+            "Core accretion (slower)",
+            "Gas dispersal deadline"
+        ]
+    },
+    {
+        "q": "Disk instability may explain some very massive planets far from their stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pebble accretion?",
+        "type": "mcq",
+        "o": [
+            "A mechanism where planet cores grow by accreting small, drifting pebbles",
+            "Only large impacts",
+            "Gas accretion",
+            "No solid accretion"
+        ]
+    },
+    {
+        "q": "Pebble accretion can speed up _____ formation timescales.",
+        "type": "fill_blank",
+        "answers": [
+            "core or planet"
+        ],
+        "other_options": [
+            "star",
+            "galaxy",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the accretion type with its efficiency:",
+        "type": "match",
+        "left": [
+            "Planetesimal accretion",
+            "Pebble accretion",
+            "Gas accretion",
+            "Dust settling"
+        ],
+        "right": [
+            "Slower",
+            "Faster",
+            "After core forms",
+            "Initial step"
+        ]
+    },
+    {
+        "q": "Arrange accretion mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Dust growth",
+            "Pebble formation",
+            "Pebble accretion",
+            "Core growth"
+        ]
+    },
+    {
+        "q": "Pebble accretion helps explain how giant planet cores formed quickly enough.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a protoplanetary disk?",
+        "type": "mcq",
+        "o": [
+            "A rotating disk of gas and dust around a young star where planets form",
+            "A debris disk",
+            "A planetary ring",
+            "A stellar atmosphere"
+        ]
+    },
+    {
+        "q": "Protoplanetary disks last for about _____ million years.",
+        "type": "fill_blank",
+        "answers": [
+            "3 to 10 or a few"
+        ],
+        "other_options": [
+            "billions",
+            "seconds",
+            "trillion"
+        ]
+    },
+    {
+        "q": "Match the disk type with its stage:",
+        "type": "match",
+        "left": [
+            "Protoplanetary",
+            "Transitional",
+            "Debris",
+            "Rings"
+        ],
+        "right": [
+            "Planet formation active",
+            "Gap-clearing",
+            "Post-formation",
+            "Mature system"
+        ]
+    },
+    {
+        "q": "Arrange disk evolution:",
+        "type": "rearrange",
+        "words": [
+            "Protoplanetary (gas-rich)",
+            "Transitional (clearing)",
+            "Debris (gas-poor)",
+            "Ring-like structures"
+        ]
+    },
+    {
+        "q": "ALMA has revealed stunning structure in protoplanetary disks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a debris disk?",
+        "type": "mcq",
+        "o": [
+            "A disk of dust and rocky material left over after planet formation",
+            "A protoplanetary disk",
+            "A gas disk",
+            "A stellar wind"
+        ]
+    },
+    {
+        "q": "Debris disks are replenished by _____ between asteroids and comets.",
+        "type": "fill_blank",
+        "answers": [
+            "collisions"
+        ],
+        "other_options": [
+            "nothing",
+            "star light",
+            "magnetic fields"
+        ]
+    },
+    {
+        "q": "Match the debris disk feature with its indication:",
+        "type": "match",
+        "left": [
+            "Gap in disk",
+            "Asymmetry",
+            "Warm dust",
+            "Cold dust"
+        ],
+        "right": [
+            "Planet present",
+            "Gravitational sculpting",
+            "Close to star",
+            "Outer disk"
+        ]
+    },
+    {
+        "q": "Arrange disk evolution:",
+        "type": "rearrange",
+        "words": [
+            "Protoplanetary",
+            "Gas dissipates",
+            "Debris disk forms",
+            "Long-term evolution"
+        ]
+    },
+    {
+        "q": "Fomalhaut and Vega have famous debris disks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is atmospheric escape?",
+        "type": "mcq",
+        "o": [
+            "The loss of atmospheric gases from a planet to space",
+            "Adding atmosphere",
+            "Atmospheric rotation",
+            "No change"
+        ]
+    },
+    {
+        "q": "Atmospheric escape is enhanced for close-in planets due to high _____ radiation.",
+        "type": "fill_blank",
+        "answers": [
+            "stellar or XUV"
+        ],
+        "other_options": [
+            "no",
+            "low",
+            "zero"
+        ]
+    },
+    {
+        "q": "Match the escape mechanism with its driver:",
+        "type": "match",
+        "left": [
+            "Jeans escape",
+            "Hydrodynamic escape",
+            "Ion escape",
+            "Impact erosion"
+        ],
+        "right": [
+            "Thermal motion",
+            "Extreme heating",
+            "Stellar wind",
+            "Collisions"
+        ]
+    },
+    {
+        "q": "Arrange atmospheric escape effects:",
+        "type": "rearrange",
+        "words": [
+            "Close-in planet",
+            "Strong radiation",
+            "Atmosphere heats",
+            "Gas escapes to space"
+        ]
+    },
+    {
+        "q": "Mini-Neptunes may become super-Earths through atmospheric escape.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planetary mass-radius relationship?",
+        "type": "mcq",
+        "o": [
+            "The correlation between a planet's mass and radius depending on composition",
+            "No correlation",
+            "Only for stars",
+            "Random relationship"
+        ]
+    },
+    {
+        "q": "Knowing both mass and radius allows determination of bulk _____.",
+        "type": "fill_blank",
+        "answers": [
+            "density"
+        ],
+        "other_options": [
+            "temperature",
+            "age",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the composition with its density:",
+        "type": "match",
+        "left": [
+            "Iron planet",
+            "Rocky (Earth-like)",
+            "Ocean world",
+            "Gas giant"
+        ],
+        "right": [
+            "High density",
+            "Medium-high",
+            "Medium",
+            "Low density"
+        ]
+    },
+    {
+        "q": "Arrange planet types by density:",
+        "type": "rearrange",
+        "words": [
+            "Pure iron (densest)",
+            "Rocky",
+            "Water-rich",
+            "Gas-dominated (least dense)"
+        ]
+    },
+    {
+        "q": "A planet with the same mass as Earth but larger radius likely has more volatiles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is stellar activity affecting exoplanet detection?",
+        "type": "mcq",
+        "o": [
+            "Starspots and flares that can mimic or obscure planetary signals",
+            "No effect",
+            "Only helps detection",
+            "Planetary activity"
+        ]
+    },
+    {
+        "q": "Starspots can cause _____ signals that mimic radial velocity planets.",
+        "type": "fill_blank",
+        "answers": [
+            "false or spurious"
+        ],
+        "other_options": [
+            "true",
+            "amplified",
+            "perfect"
+        ]
+    },
+    {
+        "q": "Match the stellar activity with its effect:",
+        "type": "match",
+        "left": [
+            "Starspots",
+            "Flares",
+            "Rotation",
+            "Granulation"
+        ],
+        "right": [
+            "Transit anomalies",
+            "Brightness spikes",
+            "RV jitter",
+            "Noise floor"
+        ]
+    },
+    {
+        "q": "Arrange stellar activity mitigation:",
+        "type": "rearrange",
+        "words": [
+            "Identify activity indicators",
+            "Model stellar effects",
+            "Subtract activity",
+            "Extract planet signal"
+        ]
+    },
+    {
+        "q": "M dwarfs are more active than Sun-like stars, complicating planet detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the HARPS spectrograph?",
+        "type": "mcq",
+        "o": [
+            "A high-precision radial velocity instrument at ESO that has discovered many exoplanets",
+            "A camera",
+            "A telescope",
+            "A space mission"
+        ]
+    },
+    {
+        "q": "HARPS can measure velocities to better than _____ meter per second.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "100",
+            "1000",
+            "10"
+        ]
+    },
+    {
+        "q": "Match the RV instrument with its location:",
+        "type": "match",
+        "left": [
+            "HARPS",
+            "HIRES",
+            "ESPRESSO",
+            "NEID"
+        ],
+        "right": [
+            "La Silla, Chile",
+            "Keck, Hawaii",
+            "VLT, Chile",
+            "WIYN, Arizona"
+        ]
+    },
+    {
+        "q": "Arrange RV precision improvement:",
+        "type": "rearrange",
+        "words": [
+            "Early RV (100 m/s)",
+            "HARPS (1 m/s)",
+            "ESPRESSO (10 cm/s)",
+            "Future (cm/s)"
+        ]
+    },
+    {
+        "q": "HARPS discovered many low-mass planets including Proxima b.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ESPRESSO spectrograph?",
+        "type": "mcq",
+        "o": [
+            "An ultra-stable spectrograph on the VLT designed to find Earth-like planets",
+            "A coffee machine",
+            "A space telescope",
+            "A camera"
+        ]
+    },
+    {
+        "q": "ESPRESSO aims for _____ centimeter per second radial velocity precision.",
+        "type": "fill_blank",
+        "answers": [
+            "10 or sub-meter"
+        ],
+        "other_options": [
+            "kilometer",
+            "mile",
+            "none"
+        ]
+    },
+    {
+        "q": "Match the ESPRESSO capability with its purpose:",
+        "type": "match",
+        "left": [
+            "Ultra-precision RV",
+            "Laser frequency comb",
+            "VLT combination",
+            "Stability"
+        ],
+        "right": [
+            "Earth-mass planets",
+            "Wavelength calibration",
+            "Large aperture",
+            "Long-term measurements"
+        ]
+    },
+    {
+        "q": "Arrange spectrograph generations:",
+        "type": "rearrange",
+        "words": [
+            "First RV instruments",
+            "HARPS",
+            "ESPRESSO",
+            "Future ELT instruments"
+        ]
+    },
+    {
+        "q": "ESPRESSO can combine light from all four VLT unit telescopes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is astrometry for exoplanet detection?",
+        "type": "mcq",
+        "o": [
+            "Measuring precise stellar positions to detect wobble from orbiting planets",
+            "Transit detection",
+            "Direct imaging",
+            "Spectroscopy"
+        ]
+    },
+    {
+        "q": "Astrometry measures the _____ motion of a star due to planetary companions.",
+        "type": "fill_blank",
+        "answers": [
+            "positional or reflex"
+        ],
+        "other_options": [
+            "color",
+            "brightness",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the detection method with its measured quantity:",
+        "type": "match",
+        "left": [
+            "Astrometry",
+            "Radial velocity",
+            "Transit",
+            "Direct imaging"
+        ],
+        "right": [
+            "Position",
+            "Velocity",
+            "Brightness",
+            "Light"
+        ]
+    },
+    {
+        "q": "Arrange astrometric precision needs:",
+        "type": "rearrange",
+        "words": [
+            "Jupiter around Sun (0.5 mas)",
+            "Earth around Sun (0.3 uas)",
+            "Current precision",
+            "Future goals"
+        ]
+    },
+    {
+        "q": "Gaia has begun to detect massive planets through astrometry.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Roman Space Telescope's exoplanet mission?",
+        "type": "mcq",
+        "o": [
+            "A NASA mission that will conduct a microlensing survey and use coronagraph for direct imaging",
+            "A transit survey only",
+            "A radio telescope",
+            "Cancelled mission"
+        ]
+    },
+    {
+        "q": "Roman's microlensing survey will detect planets as small as _____ and at large separations.",
+        "type": "fill_blank",
+        "answers": [
+            "Mars or Earth"
+        ],
+        "other_options": [
+            "Jupiter only",
+            "none",
+            "stars"
+        ]
+    },
+    {
+        "q": "Match the Roman capability with its technique:",
+        "type": "match",
+        "left": [
+            "Microlensing survey",
+            "Coronagraph",
+            "Wide field",
+            "Infrared"
+        ],
+        "right": [
+            "Statistical planet census",
+            "Direct imaging demo",
+            "Many targets",
+            "Cool objects"
+        ]
+    },
+    {
+        "q": "Arrange space-based exoplanet missions:",
+        "type": "rearrange",
+        "words": [
+            "Kepler",
+            "TESS",
+            "JWST",
+            "Roman"
+        ]
+    },
+    {
+        "q": "Roman will provide the most complete census of exoplanet demographics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ARIEL mission?",
+        "type": "mcq",
+        "o": [
+            "An ESA mission dedicated to studying exoplanet atmospheres",
+            "A Mars mission",
+            "A transit detection mission",
+            "A ground telescope"
+        ]
+    },
+    {
+        "q": "ARIEL will observe approximately _____ exoplanets during its mission.",
+        "type": "fill_blank",
+        "answers": [
+            "1000"
+        ],
+        "other_options": [
+            "10",
+            "1",
+            "1 million"
+        ]
+    },
+    {
+        "q": "Match the ESA exoplanet mission with its goal:",
+        "type": "match",
+        "left": [
+            "CHEOPS",
+            "PLATO",
+            "ARIEL",
+            "Gaia"
+        ],
+        "right": [
+            "Known planet follow-up",
+            "Earth-like planet search",
+            "Atmosphere survey",
+            "Astrometry"
+        ]
+    },
+    {
+        "q": "Arrange ESA exoplanet missions by launch:",
+        "type": "rearrange",
+        "words": [
+            "CHEOPS (2019)",
+            "Gaia (ongoing)",
+            "ARIEL (~2029)",
+            "PLATO (~2026)"
+        ]
+    },
+    {
+        "q": "ARIEL will build the first large statistical sample of exoplanet atmospheres.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the PLATO mission?",
+        "type": "mcq",
+        "o": [
+            "An ESA mission to detect and characterize terrestrial planets in habitable zones",
+            "A Moon lander",
+            "A Mars orbiter",
+            "A radio telescope"
+        ]
+    },
+    {
+        "q": "PLATO will determine planetary _____ using asteroseismology of host stars.",
+        "type": "fill_blank",
+        "answers": [
+            "ages"
+        ],
+        "other_options": [
+            "colors",
+            "nothing",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the PLATO design with its purpose:",
+        "type": "match",
+        "left": [
+            "Multiple cameras",
+            "Large field",
+            "Bright stars",
+            "Long stare"
+        ],
+        "right": [
+            "Redundancy",
+            "Many targets",
+            "RV follow-up",
+            "Long-period planets"
+        ]
+    },
+    {
+        "q": "Arrange transit mission field strategies:",
+        "type": "rearrange",
+        "words": [
+            "Kepler (single field)",
+            "TESS (all-sky)",
+            "PLATO (long stare)",
+            "K2 (multiple fields)"
+        ]
+    },
+    {
+        "q": "PLATO aims to find Earth analogues around Sun-like stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Habitable Worlds Observatory (HWO)?",
+        "type": "mcq",
+        "o": [
+            "A proposed NASA flagship mission to directly image and characterize Earth-like exoplanets",
+            "A current telescope",
+            "A Mars mission",
+            "A radio observatory"
+        ]
+    },
+    {
+        "q": "HWO would use a _____ to block starlight and image planets.",
+        "type": "fill_blank",
+        "answers": [
+            "coronagraph or starshade"
+        ],
+        "other_options": [
+            "nothing",
+            "mirror",
+            "lens"
+        ]
+    },
+    {
+        "q": "Match the future mission with its goal:",
+        "type": "match",
+        "left": [
+            "HWO",
+            "LIFE",
+            "ELT",
+            "TMT"
+        ],
+        "right": [
+            "Earth imaging",
+            "IR interferometry",
+            "Ground-based AO",
+            "Ground-based AO"
+        ]
+    },
+    {
+        "q": "Arrange future telescope scales:",
+        "type": "rearrange",
+        "words": [
+            "JWST (6.5m)",
+            "HWO (~6m)",
+            "ELT (~39m)",
+            "TMT (~30m)"
+        ]
+    },
+    {
+        "q": "Direct imaging of Earth-like planets around Sun-like stars is a key goal of future astronomy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is atmospheric retrieval?",
+        "type": "mcq",
+        "o": [
+            "A technique to infer atmospheric properties from observed spectra using models",
+            "Direct sampling",
+            "Random guessing",
+            "Visual inspection"
+        ]
+    },
+    {
+        "q": "Retrieval methods use _____ algorithms to fit atmospheric models to data.",
+        "type": "fill_blank",
+        "answers": [
+            "Bayesian or statistical"
+        ],
+        "other_options": [
+            "random",
+            "no",
+            "simple"
+        ]
+    },
+    {
+        "q": "Match the retrieval parameter with its meaning:",
+        "type": "match",
+        "left": [
+            "Abundance",
+            "Temperature profile",
+            "Cloud deck",
+            "Reference pressure"
+        ],
+        "right": [
+            "Molecular fraction",
+            "T vs altitude",
+            "Opacity layer",
+            "Where radius defined"
+        ]
+    },
+    {
+        "q": "Arrange retrieval analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Obtain spectrum",
+            "Define model",
+            "Run retrieval",
+            "Interpret posteriors"
+        ]
+    },
+    {
+        "q": "Retrieval methods quantify uncertainties in atmospheric parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is high-resolution spectroscopy for exoplanets?",
+        "type": "mcq",
+        "o": [
+            "A technique using detailed spectral lines to detect molecular signatures and measure winds",
+            "Low resolution only",
+            "No spectroscopy",
+            "Direct imaging only"
+        ]
+    },
+    {
+        "q": "High-resolution spectroscopy can measure planetary _____ velocities.",
+        "type": "fill_blank",
+        "answers": [
+            "wind or rotation"
+        ],
+        "other_options": [
+            "mass",
+            "size",
+            "age"
+        ]
+    },
+    {
+        "q": "Match the HRS application with its detection:",
+        "type": "match",
+        "left": [
+            "Cross-correlation",
+            "Line broadening",
+            "Doppler shift",
+            "Emission lines"
+        ],
+        "right": [
+            "Template matching",
+            "Rotation rate",
+            "Wind speeds",
+            "Day-side spectrum"
+        ]
+    },
+    {
+        "q": "Arrange HRS analysis:",
+        "type": "rearrange",
+        "words": [
+            "Observe during transit",
+            "Remove stellar/telluric lines",
+            "Cross-correlate with template",
+            "Detect planetary signal"
+        ]
+    },
+    {
+        "q": "High-resolution spectroscopy complements low-resolution transit spectroscopy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the inner working angle?",
+        "type": "mcq",
+        "o": [
+            "The closest angular separation from a star where a coronagraph can detect planets",
+            "Outer limit",
+            "Field of view",
+            "Pixel size"
+        ]
+    },
+    {
+        "q": "Smaller inner working angles allow detection of planets _____ to their stars.",
+        "type": "fill_blank",
+        "answers": [
+            "closer"
+        ],
+        "other_options": [
+            "farther",
+            "nowhere",
+            "unrelated"
+        ]
+    },
+    {
+        "q": "Match the coronagraph parameter with its meaning:",
+        "type": "match",
+        "left": [
+            "IWA",
+            "Contrast",
+            "Throughput",
+            "OWA"
+        ],
+        "right": [
+            "Inner limit",
+            "Star/planet brightness ratio",
+            "Light collected",
+            "Outer limit"
+        ]
+    },
+    {
+        "q": "Arrange coronagraph design goals:",
+        "type": "rearrange",
+        "words": [
+            "Small IWA",
+            "High contrast",
+            "Good throughput",
+            "Wide OWA"
+        ]
+    },
+    {
+        "q": "Current coronagraphs have IWA of a few lambda/D.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the contrast ratio in direct imaging?",
+        "type": "mcq",
+        "o": [
+            "The brightness ratio between the star and planet, often 10^10 for Earth-Sun",
+            "Size ratio",
+            "Mass ratio",
+            "Distance ratio"
+        ]
+    },
+    {
+        "q": "Earth is about _____ billion times fainter than the Sun in visible light.",
+        "type": "fill_blank",
+        "answers": [
+            "10"
+        ],
+        "other_options": [
+            "1",
+            "100",
+            "million"
+        ]
+    },
+    {
+        "q": "Match the contrast challenge with its solution:",
+        "type": "match",
+        "left": [
+            "Extreme contrast",
+            "Residual speckles",
+            "Wavefront errors",
+            "Detector noise"
+        ],
+        "right": [
+            "Coronagraph",
+            "Speckle nulling",
+            "Deformable mirror",
+            "Long integration"
+        ]
+    },
+    {
+        "q": "Arrange contrast by system:",
+        "type": "rearrange",
+        "words": [
+            "Hot Jupiter (~10^4)",
+            "Warm giant (~10^7)",
+            "Super-Earth (~10^9)",
+            "Earth (~10^10)"
+        ]
+    },
+    {
+        "q": "Achieving 10^-10 contrast is the key challenge for imaging Earth-like planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a starshade?",
+        "type": "mcq",
+        "o": [
+            "A large external occulter that blocks starlight before it enters the telescope",
+            "Part of the telescope",
+            "A filter",
+            "A coronagraph"
+        ]
+    },
+    {
+        "q": "Starshades fly tens of thousands of _____ from the telescope.",
+        "type": "fill_blank",
+        "answers": [
+            "kilometers"
+        ],
+        "other_options": [
+            "meters",
+            "centimeters",
+            "light-years"
+        ]
+    },
+    {
+        "q": "Match the starshade feature with its advantage:",
+        "type": "match",
+        "left": [
+            "External to telescope",
+            "Petal shape",
+            "No wavefront control",
+            "Formation flying"
+        ],
+        "right": [
+            "No internal optics issues",
+            "Diffraction control",
+            "Simpler coronagraph",
+            "Precision alignment"
+        ]
+    },
+    {
+        "q": "Arrange starshade operation:",
+        "type": "rearrange",
+        "words": [
+            "Deploy starshade",
+            "Align with star",
+            "Block light",
+            "Image planets"
+        ]
+    },
+    {
+        "q": "Starshades can achieve very high contrast over a broad wavelength range.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is adaptive optics for exoplanet imaging?",
+        "type": "mcq",
+        "o": [
+            "Technology that corrects atmospheric distortion in real-time using deformable mirrors",
+            "Static optics",
+            "No correction",
+            "Space-only technology"
+        ]
+    },
+    {
+        "q": "Adaptive optics uses a _____ star or laser guide star as reference.",
+        "type": "fill_blank",
+        "answers": [
+            "natural or bright"
+        ],
+        "other_options": [
+            "fake",
+            "none",
+            "dim"
+        ]
+    },
+    {
+        "q": "Match the AO component with its function:",
+        "type": "match",
+        "left": [
+            "Wavefront sensor",
+            "Deformable mirror",
+            "Real-time computer",
+            "Guide star"
+        ],
+        "right": [
+            "Measures distortion",
+            "Corrects shape",
+            "Calculates correction",
+            "Reference source"
+        ]
+    },
+    {
+        "q": "Arrange AO correction loop:",
+        "type": "rearrange",
+        "words": [
+            "Sense wavefront",
+            "Calculate correction",
+            "Apply to DM",
+            "Repeat at kHz"
+        ]
+    },
+    {
+        "q": "Extreme adaptive optics systems enable ground-based direct imaging of exoplanets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the GPI (Gemini Planet Imager)?",
+        "type": "mcq",
+        "o": [
+            "An extreme AO coronagraph on Gemini South designed to image young giant planets",
+            "A space telescope",
+            "A radio antenna",
+            "A spectrograph only"
+        ]
+    },
+    {
+        "q": "GPI discovered the young planet _____ Pictoris c.",
+        "type": "fill_blank",
+        "answers": [
+            "Beta"
+        ],
+        "other_options": [
+            "Alpha",
+            "Gamma",
+            "Delta"
+        ]
+    },
+    {
+        "q": "Match the direct imaging instrument with its telescope:",
+        "type": "match",
+        "left": [
+            "GPI",
+            "SPHERE",
+            "SCExAO",
+            "NIRC2"
+        ],
+        "right": [
+            "Gemini",
+            "VLT",
+            "Subaru",
+            "Keck"
+        ]
+    },
+    {
+        "q": "Arrange direct imaging instrument generations:",
+        "type": "rearrange",
+        "words": [
+            "Early AO",
+            "NICI/NACO",
+            "GPI/SPHERE",
+            "Future ELT instruments"
+        ]
+    },
+    {
+        "q": "GPI and SPHERE have directly imaged dozens of young giant planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SPHERE?",
+        "type": "mcq",
+        "o": [
+            "An extreme AO instrument on the VLT for direct imaging and spectroscopy of exoplanets",
+            "A space mission",
+            "A radio telescope",
+            "A transit survey"
+        ]
+    },
+    {
+        "q": "SPHERE uses _____ imaging to enhance contrast through angular rotation.",
+        "type": "fill_blank",
+        "answers": [
+            "angular differential or ADI"
+        ],
+        "other_options": [
+            "no",
+            "static",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the SPHERE mode with its technique:",
+        "type": "match",
+        "left": [
+            "IRDIS",
+            "IFS",
+            "ZIMPOL",
+            "ADI"
+        ],
+        "right": [
+            "Dual-band imaging",
+            "Integral field spectroscopy",
+            "Polarimetry",
+            "Speckle subtraction"
+        ]
+    },
+    {
+        "q": "Arrange SPHERE discoveries:",
+        "type": "rearrange",
+        "words": [
+            "Known planets confirmed",
+            "New companions found",
+            "Disk structure revealed",
+            "Ongoing surveys"
+        ]
+    },
+    {
+        "q": "SPHERE has revealed detailed disk structure through polarimetric imaging.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is angular differential imaging (ADI)?",
+        "type": "mcq",
+        "o": [
+            "A technique where field rotation separates planets from static speckle pattern",
+            "Spectral differencing",
+            "No rotation",
+            "Space only"
+        ]
+    },
+    {
+        "q": "In ADI, the telescope rotator is _____ to allow sky rotation.",
+        "type": "fill_blank",
+        "answers": [
+            "off or disabled"
+        ],
+        "other_options": [
+            "on",
+            "tracking",
+            "fast"
+        ]
+    },
+    {
+        "q": "Match the imaging technique with its principle:",
+        "type": "match",
+        "left": [
+            "ADI",
+            "SDI",
+            "RDI",
+            "LOCI"
+        ],
+        "right": [
+            "Field rotation",
+            "Spectral difference",
+            "Reference star",
+            "Linear combination"
+        ]
+    },
+    {
+        "q": "Arrange speckle subtraction evolution:",
+        "type": "rearrange",
+        "words": [
+            "Classical PSF subtraction",
+            "ADI",
+            "SDI + ADI",
+            "KLIP/PCA methods"
+        ]
+    },
+    {
+        "q": "ADI is essential for ground-based high-contrast imaging.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the mean motion resonance?",
+        "type": "mcq",
+        "o": [
+            "When orbital periods of two bodies are in a simple integer ratio",
+            "Random orbits",
+            "Single body dynamics",
+            "No interaction"
+        ]
+    },
+    {
+        "q": "A 2:1 resonance means one planet orbits _____ for every one orbit of the other.",
+        "type": "fill_blank",
+        "answers": [
+            "twice"
+        ],
+        "other_options": [
+            "once",
+            "half",
+            "three times"
+        ]
+    },
+    {
+        "q": "Match the resonance with its example:",
+        "type": "match",
+        "left": [
+            "2:1",
+            "3:2",
+            "4:3",
+            "Laplace 1:2:4"
+        ],
+        "right": [
+            "Common in Kepler systems",
+            "Neptune-Pluto",
+            "Less common",
+            "Galilean moons"
+        ]
+    },
+    {
+        "q": "Arrange resonance strength:",
+        "type": "rearrange",
+        "words": [
+            "1:2 (strong)",
+            "2:3",
+            "3:4",
+            "Higher order (weaker)"
+        ]
+    },
+    {
+        "q": "Mean motion resonances can stabilize or destabilize planetary systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dynamical stability analysis?",
+        "type": "mcq",
+        "o": [
+            "Numerical simulations to determine if a planetary system remains stable over time",
+            "Simple calculation",
+            "No analysis",
+            "Observation only"
+        ]
+    },
+    {
+        "q": "Stability simulations typically run for _____ of orbits.",
+        "type": "fill_blank",
+        "answers": [
+            "millions or billions"
+        ],
+        "other_options": [
+            "one",
+            "ten",
+            "none"
+        ]
+    },
+    {
+        "q": "Match the stability criterion with its use:",
+        "type": "match",
+        "left": [
+            "Hill stability",
+            "Lagrange stability",
+            "AMD stability",
+            "Lyapunov time"
+        ],
+        "right": [
+            "No close encounters",
+            "No orbit crossing",
+            "Angular momentum deficit",
+            "Chaos timescale"
+        ]
+    },
+    {
+        "q": "Arrange stability analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Define initial conditions",
+            "Integrate N-body",
+            "Check for ejections",
+            "Assess long-term behavior"
+        ]
+    },
+    {
+        "q": "Proposed planetary systems must be dynamically stable to be considered real.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the water world hypothesis?",
+        "type": "mcq",
+        "o": [
+            "The idea that some exoplanets may be covered in deep global oceans",
+            "All planets are dry",
+            "Water is rare",
+            "Only Earth has water"
+        ]
+    },
+    {
+        "q": "Water worlds may have _____ percent of their mass as water.",
+        "type": "fill_blank",
+        "answers": [
+            "10 to 50 or significant"
+        ],
+        "other_options": [
+            "0",
+            "less than 0.1",
+            "100"
+        ]
+    },
+    {
+        "q": "Match the ocean world property with its effect:",
+        "type": "match",
+        "left": [
+            "Deep ocean",
+            "High-pressure ice",
+            "No land",
+            "Water outgassing"
+        ],
+        "right": [
+            "Large radius",
+            "Mantle barrier",
+            "Different habitability",
+            "Atmospheric contribution"
+        ]
+    },
+    {
+        "q": "Arrange water content by planet type:",
+        "type": "rearrange",
+        "words": [
+            "Rocky Earth (0.02%)",
+            "Sub-Neptune (some)",
+            "Water world (tens of %)",
+            "Icy moon (varies)"
+        ]
+    },
+    {
+        "q": "Some super-Earths may be water worlds with no exposed land.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the runaway greenhouse effect?",
+        "type": "mcq",
+        "o": [
+            "A positive feedback where water vapor heating leads to ocean evaporation",
+            "Cooling effect",
+            "Stable climate",
+            "No greenhouse"
+        ]
+    },
+    {
+        "q": "Venus may have experienced a runaway _____ in its past.",
+        "type": "fill_blank",
+        "answers": [
+            "greenhouse"
+        ],
+        "other_options": [
+            "cooling",
+            "freezing",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the climate state with its condition:",
+        "type": "match",
+        "left": [
+            "Runaway greenhouse",
+            "Moist greenhouse",
+            "Snowball",
+            "Temperate"
+        ],
+        "right": [
+            "Complete ocean loss",
+            "Upper atmosphere water loss",
+            "Global glaciation",
+            "Stable liquid water"
+        ]
+    },
+    {
+        "q": "Arrange climate states by temperature:",
+        "type": "rearrange",
+        "words": [
+            "Snowball (coldest)",
+            "Temperate",
+            "Moist greenhouse",
+            "Runaway greenhouse (hottest)"
+        ]
+    },
+    {
+        "q": "The inner edge of the habitable zone is defined by the runaway greenhouse threshold.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the carbonate-silicate cycle?",
+        "type": "mcq",
+        "o": [
+            "A geological feedback that regulates CO2 and climate over long timescales",
+            "Weather cycle",
+            "Ocean circulation",
+            "No connection to climate"
+        ]
+    },
+    {
+        "q": "The carbonate-silicate cycle acts as a planetary _____.",
+        "type": "fill_blank",
+        "answers": [
+            "thermostat"
+        ],
+        "other_options": [
+            "heater only",
+            "cooler only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the cycle component with its role:",
+        "type": "match",
+        "left": [
+            "Weathering",
+            "Volcanism",
+            "Subduction",
+            "Ocean chemistry"
+        ],
+        "right": [
+            "CO2 removal",
+            "CO2 release",
+            "Carbon recycling",
+            "Carbonate formation"
+        ]
+    },
+    {
+        "q": "Arrange carbonate-silicate cycle:",
+        "type": "rearrange",
+        "words": [
+            "CO2 in atmosphere",
+            "Weathering removes CO2",
+            "Carbonates form",
+            "Volcanism returns CO2"
+        ]
+    },
+    {
+        "q": "The carbonate-silicate cycle may be essential for long-term habitability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Earth Similarity Index (ESI)?",
+        "type": "mcq",
+        "o": [
+            "A metric comparing exoplanets to Earth based on radius, density, and temperature",
+            "Exact match only",
+            "Distance to Earth",
+            "Age comparison"
+        ]
+    },
+    {
+        "q": "ESI ranges from 0 (no similarity) to _____ (identical to Earth).",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "100",
+            "10",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Match the ESI factor with its weight:",
+        "type": "match",
+        "left": [
+            "Radius",
+            "Density",
+            "Escape velocity",
+            "Temperature"
+        ],
+        "right": [
+            "Size similarity",
+            "Composition",
+            "Atmosphere retention",
+            "Climate"
+        ]
+    },
+    {
+        "q": "Arrange exoplanets by ESI:",
+        "type": "rearrange",
+        "words": [
+            "Gas giants (low)",
+            "Mini-Neptunes",
+            "Super-Earths",
+            "TRAPPIST-1e (high)"
+        ]
+    },
+    {
+        "q": "A high ESI does not guarantee habitability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the occurrence rate in exoplanet statistics?",
+        "type": "mcq",
+        "o": [
+            "The average number of planets per star for a given type and orbital range",
+            "Detection rate",
+            "False positive rate",
+            "Observation frequency"
+        ]
+    },
+    {
+        "q": "Kepler found that there is approximately _____ Earth-sized planet per Sun-like star on average.",
+        "type": "fill_blank",
+        "answers": [
+            "one or more"
+        ],
+        "other_options": [
+            "none",
+            "ten",
+            "hundred"
+        ]
+    },
+    {
+        "q": "Match the occurrence rate with its planet type:",
+        "type": "match",
+        "left": [
+            "Hot Jupiters",
+            "Super-Earths",
+            "Earth-analogs",
+            "Cold Jupiters"
+        ],
+        "right": [
+            "~1%",
+            "Very common",
+            "~10% (uncertain)",
+            "~10%"
+        ]
+    },
+    {
+        "q": "Arrange planet types by occurrence:",
+        "type": "rearrange",
+        "words": [
+            "Hot Jupiters (rare)",
+            "Cold giants",
+            "Sub-Neptunes",
+            "Super-Earths (common)"
+        ]
+    },
+    {
+        "q": "Small planets are more common than giant planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is eta-Earth?",
+        "type": "mcq",
+        "o": [
+            "The fraction of Sun-like stars with Earth-sized planets in the habitable zone",
+            "A Greek letter",
+            "A telescope",
+            "A mission"
+        ]
+    },
+    {
+        "q": "Estimates of eta-Earth range from about _____ percent to over 20 percent.",
+        "type": "fill_blank",
+        "answers": [
+            "5 or 10"
+        ],
+        "other_options": [
+            "0",
+            "100",
+            "0.001"
+        ]
+    },
+    {
+        "q": "Match the eta value with its planet type:",
+        "type": "match",
+        "left": [
+            "eta-Earth",
+            "eta-Venus",
+            "eta-Jupiter",
+            "eta-Neptune"
+        ],
+        "right": [
+            "HZ terrestrial",
+            "Inner terrestrial",
+            "Giant planet",
+            "Ice giant"
+        ]
+    },
+    {
+        "q": "Arrange eta-Earth estimation challenges:",
+        "type": "rearrange",
+        "words": [
+            "Detection bias correction",
+            "HZ definition",
+            "Planet size uncertainty",
+            "Small number statistics"
+        ]
+    },
+    {
+        "q": "Eta-Earth tells us how many potential Earth-like targets exist for future missions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the false positive problem in transit surveys?",
+        "type": "mcq",
+        "o": [
+            "Non-planetary phenomena that mimic transit signals",
+            "Real planets",
+            "Instrument error only",
+            "No problem"
+        ]
+    },
+    {
+        "q": "Eclipsing _____ are a common source of false positives.",
+        "type": "fill_blank",
+        "answers": [
+            "binaries"
+        ],
+        "other_options": [
+            "planets",
+            "moons",
+            "asteroids"
+        ]
+    },
+    {
+        "q": "Match the false positive type with its scenario:",
+        "type": "match",
+        "left": [
+            "Background EB",
+            "Blended binary",
+            "Brown dwarf",
+            "Stellar variability"
+        ],
+        "right": [
+            "Chance alignment",
+            "Diluted eclipse",
+            "Large transit",
+            "Periodic dimming"
+        ]
+    },
+    {
+        "q": "Arrange false positive mitigation:",
+        "type": "rearrange",
+        "words": [
+            "Identify FP scenarios",
+            "Multi-wavelength check",
+            "High-resolution imaging",
+            "RV confirmation"
+        ]
+    },
+    {
+        "q": "Statistical validation can confirm planets without RV follow-up.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is statistical validation of exoplanets?",
+        "type": "mcq",
+        "o": [
+            "Confirming planets by showing the probability of false positive scenarios is very low",
+            "RV measurement",
+            "Direct imaging",
+            "Random acceptance"
+        ]
+    },
+    {
+        "q": "Validation software like VESPA and TRICERATOPS calculate false positive _____.",
+        "type": "fill_blank",
+        "answers": [
+            "probability"
+        ],
+        "other_options": [
+            "size",
+            "mass",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the validation tool with its developer:",
+        "type": "match",
+        "left": [
+            "VESPA",
+            "TRICERATOPS",
+            "BLENDER",
+            "Lightkurve"
+        ],
+        "right": [
+            "Morton et al.",
+            "Giacalone & Dressing",
+            "Torres et al.",
+            "Light curve analysis"
+        ]
+    },
+    {
+        "q": "Arrange confirmation certainty:",
+        "type": "rearrange",
+        "words": [
+            "Candidate (unconfirmed)",
+            "Validated (statistical)",
+            "Confirmed (RV)",
+            "Well-characterized"
+        ]
+    },
+    {
+        "q": "Most Kepler planets are validated rather than RV-confirmed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Doppler shadow?",
+        "type": "mcq",
+        "o": [
+            "The Rossiter-McLaughlin effect seen as distortion in stellar line profiles during transit",
+            "A planet shadow",
+            "Light absorption",
+            "Thermal emission"
+        ]
+    },
+    {
+        "q": "Doppler tomography resolves the RM effect across the stellar _____ profile.",
+        "type": "fill_blank",
+        "answers": [
+            "line"
+        ],
+        "other_options": [
+            "brightness",
+            "color",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the Doppler tomography application with its result:",
+        "type": "match",
+        "left": [
+            "Spin-orbit angle",
+            "Impact parameter",
+            "Stellar rotation",
+            "Planet size"
+        ],
+        "right": [
+            "Obliquity",
+            "Transit chord",
+            "V sin i",
+            "Blocking area"
+        ]
+    },
+    {
+        "q": "Arrange Doppler shadow analysis:",
+        "type": "rearrange",
+        "words": [
+            "Observe during transit",
+            "Track line profile distortion",
+            "Model stellar rotation",
+            "Derive obliquity"
+        ]
+    },
+    {
+        "q": "Doppler tomography is particularly useful for fast-rotating stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is K2, the extended Kepler mission?",
+        "type": "mcq",
+        "o": [
+            "The mission continuation after Kepler's reaction wheel failures using solar pressure for pointing",
+            "A new telescope",
+            "A cancelled mission",
+            "A ground telescope"
+        ]
+    },
+    {
+        "q": "K2 observed many different fields along the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "ecliptic"
+        ],
+        "other_options": [
+            "galactic center",
+            "poles",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Match the Kepler mission phase with its characteristic:",
+        "type": "match",
+        "left": [
+            "Original Kepler",
+            "K2",
+            "Kepler field",
+            "K2 fields"
+        ],
+        "right": [
+            "Single deep field",
+            "Multiple shallow fields",
+            "Cygnus-Lyra",
+            "Ecliptic plane"
+        ]
+    },
+    {
+        "q": "Arrange Kepler mission phases:",
+        "type": "rearrange",
+        "words": [
+            "Launch (2009)",
+            "Prime mission (2009-2013)",
+            "Reaction wheel failure (2013)",
+            "K2 (2014-2018)"
+        ]
+    },
+    {
+        "q": "K2 discovered planets around different stellar populations than the original mission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the circumstellar habitable zone (CHZ)?",
+        "type": "mcq",
+        "o": [
+            "The region around a star where surface liquid water can exist on a rocky planet",
+            "Any orbit",
+            "Only Earth's orbit",
+            "Past the snow line"
+        ]
+    },
+    {
+        "q": "The CHZ depends on stellar _____ and planetary properties.",
+        "type": "fill_blank",
+        "answers": [
+            "luminosity or temperature"
+        ],
+        "other_options": [
+            "size only",
+            "age only",
+            "name"
+        ]
+    },
+    {
+        "q": "Match the CHZ boundary with its definition:",
+        "type": "match",
+        "left": [
+            "Inner edge",
+            "Outer edge",
+            "Conservative HZ",
+            "Optimistic HZ"
+        ],
+        "right": [
+            "Runaway greenhouse",
+            "Maximum CO2 greenhouse",
+            "Narrower",
+            "Wider"
+        ]
+    },
+    {
+        "q": "Arrange CHZ development:",
+        "type": "rearrange",
+        "words": [
+            "Concept proposed",
+            "Kasting et al. (1993)",
+            "Modern refinements",
+            "3D climate models"
+        ]
+    },
+    {
+        "q": "The habitable zone moves outward as a star evolves and becomes more luminous.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is stellar flaring impact on habitability?",
+        "type": "mcq",
+        "o": [
+            "High-energy radiation events that can strip atmospheres and sterilize surfaces",
+            "Beneficial for life",
+            "No effect",
+            "Only affects temperature"
+        ]
+    },
+    {
+        "q": "M dwarf flares can be _____ times more energetic relative to stellar luminosity than solar flares.",
+        "type": "fill_blank",
+        "answers": [
+            "thousands or more"
+        ],
+        "other_options": [
+            "less",
+            "the same",
+            "never"
+        ]
+    },
+    {
+        "q": "Match the flare effect with its consequence:",
+        "type": "match",
+        "left": [
+            "UV radiation",
+            "X-rays",
+            "Proton events",
+            "CMEs"
+        ],
+        "right": [
+            "DNA damage",
+            "Atmospheric chemistry",
+            "Surface radiation",
+            "Atmospheric erosion"
+        ]
+    },
+    {
+        "q": "Arrange flare impacts:",
+        "type": "rearrange",
+        "words": [
+            "Flare occurs",
+            "UV/X-ray irradiation",
+            "Atmospheric chemistry change",
+            "Possible biosignature destruction"
+        ]
+    },
+    {
+        "q": "Active M dwarfs may pose challenges for surface habitability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the spectral photon rate for biosignature detection?",
+        "type": "mcq",
+        "o": [
+            "The rate of photons collected at specific wavelengths needed to detect atmospheric features",
+            "Random photon counting",
+            "Star brightness only",
+            "No relation to detection"
+        ]
+    },
+    {
+        "q": "Detecting oxygen in an Earth-twin at 10 pc requires collecting _____ photons.",
+        "type": "fill_blank",
+        "answers": [
+            "billions or many"
+        ],
+        "other_options": [
+            "one",
+            "ten",
+            "none"
+        ]
+    },
+    {
+        "q": "Match the biosignature gas with its spectral feature:",
+        "type": "match",
+        "left": [
+            "O2",
+            "O3",
+            "H2O",
+            "CO2"
+        ],
+        "right": [
+            "0.76 um A-band",
+            "9.6 um",
+            "6.3 um, 2.7 um",
+            "4.3 um, 15 um"
+        ]
+    },
+    {
+        "q": "Arrange biosignature detection difficulty:",
+        "type": "rearrange",
+        "words": [
+            "CO2 (easier)",
+            "H2O",
+            "O3",
+            "O2 (harder)"
+        ]
+    },
+    {
+        "q": "Large telescope apertures are needed to collect enough photons for biosignature detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a technosignature?",
+        "type": "mcq",
+        "o": [
+            "Evidence of technology that could indicate intelligent extraterrestrial life",
+            "Biosignature synonym",
+            "Natural phenomenon",
+            "Atmospheric feature"
+        ]
+    },
+    {
+        "q": "Radio transmissions from Earth are an example of a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "technosignature"
+        ],
+        "other_options": [
+            "biosignature",
+            "natural signal",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the technosignature with its detection method:",
+        "type": "match",
+        "left": [
+            "Radio signals",
+            "Megastructures",
+            "City lights",
+            "Pollution"
+        ],
+        "right": [
+            "Radio SETI",
+            "Transit photometry",
+            "Direct imaging nightside",
+            "Atmospheric spectroscopy"
+        ]
+    },
+    {
+        "q": "Arrange technosignature detectability:",
+        "type": "rearrange",
+        "words": [
+            "Powerful radio beacons",
+            "Large structures",
+            "Industrial pollution",
+            "City lights (hardest)"
+        ]
+    },
+    {
+        "q": "No confirmed technosignatures have been detected from exoplanets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the photometric noise floor?",
+        "type": "mcq",
+        "o": [
+            "The minimum achievable photometric precision due to stellar and instrumental variability",
+            "Maximum brightness",
+            "Infinite precision",
+            "No limit"
+        ]
+    },
+    {
+        "q": "Stellar granulation sets a noise floor of about _____ parts per million.",
+        "type": "fill_blank",
+        "answers": [
+            "10 to 20 or tens of"
+        ],
+        "other_options": [
+            "zero",
+            "millions",
+            "billions"
+        ]
+    },
+    {
+        "q": "Match the noise source with its timescale:",
+        "type": "match",
+        "left": [
+            "Photon noise",
+            "Granulation",
+            "Starspots",
+            "Instrumental"
+        ],
+        "right": [
+            "Statistical",
+            "Minutes",
+            "Days to weeks",
+            "Various"
+        ]
+    },
+    {
+        "q": "Arrange noise reduction strategies:",
+        "type": "rearrange",
+        "words": [
+            "Longer observations",
+            "Better instruments",
+            "Stellar noise modeling",
+            "Correlated noise subtraction"
+        ]
+    },
+    {
+        "q": "Detecting Earth-sized planets around Sun-like stars requires ppm photometric precision.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet multiplicity?",
+        "type": "mcq",
+        "o": [
+            "The number of planets in a planetary system",
+            "Single planets only",
+            "Star count",
+            "Moon count"
+        ]
+    },
+    {
+        "q": "Kepler showed that multi-planet systems are _____.",
+        "type": "fill_blank",
+        "answers": [
+            "common"
+        ],
+        "other_options": [
+            "rare",
+            "impossible",
+            "unknown"
+        ]
+    },
+    {
+        "q": "Match the system architecture with its characteristic:",
+        "type": "match",
+        "left": [
+            "Single transiter",
+            "Multi-planet",
+            "Compact multi",
+            "Solar System-like"
+        ],
+        "right": [
+            "Possibly misaligned",
+            "Flat/coplanar",
+            "Close-packed",
+            "Wide spacing"
+        ]
+    },
+    {
+        "q": "Arrange systems by number of known planets:",
+        "type": "rearrange",
+        "words": [
+            "Single planet",
+            "2-4 planets",
+            "5-6 planets",
+            "Kepler-90 (8 planets)"
+        ]
+    },
+    {
+        "q": "The Kepler dichotomy refers to the different architectures of single vs multi-planet systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the hot Jupiter radius anomaly?",
+        "type": "mcq",
+        "o": [
+            "The observation that some hot Jupiters are larger than expected from thermal models",
+            "Smaller than expected",
+            "Normal size",
+            "All hot Jupiters"
+        ]
+    },
+    {
+        "q": "Inflated hot Jupiters may retain _____ heat from formation or tidal dissipation.",
+        "type": "fill_blank",
+        "answers": [
+            "internal or extra"
+        ],
+        "other_options": [
+            "no",
+            "external only",
+            "surface"
+        ]
+    },
+    {
+        "q": "Match the inflation mechanism with its cause:",
+        "type": "match",
+        "left": [
+            "Tidal heating",
+            "Ohmic dissipation",
+            "Delayed cooling",
+            "Stellar irradiation"
+        ],
+        "right": [
+            "Orbital circularization",
+            "Magnetic induction",
+            "Insulating layer",
+            "Top-of-atmosphere heating"
+        ]
+    },
+    {
+        "q": "Arrange hot Jupiter radii:",
+        "type": "rearrange",
+        "words": [
+            "Normal Jupiter",
+            "Slightly inflated",
+            "Very inflated",
+            "WASP-17b (largest known)"
+        ]
+    },
+    {
+        "q": "The hot Jupiter radius anomaly remains an active area of research.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the thermal inversion in hot Jupiter atmospheres?",
+        "type": "mcq",
+        "o": [
+            "When temperature increases with altitude in the upper atmosphere",
+            "Temperature decreasing",
+            "Uniform temperature",
+            "No atmosphere"
+        ]
+    },
+    {
+        "q": "Thermal inversions are caused by absorbing species like TiO or _____ in the stratosphere.",
+        "type": "fill_blank",
+        "answers": [
+            "VO"
+        ],
+        "other_options": [
+            "H2O",
+            "nothing",
+            "CO2 only"
+        ]
+    },
+    {
+        "q": "Match the inversion indicator with its spectral signal:",
+        "type": "match",
+        "left": [
+            "Inversion present",
+            "No inversion",
+            "Strong TiO",
+            "Water absorption"
+        ],
+        "right": [
+            "Emission features",
+            "Absorption only",
+            "Optical absorber",
+            "Infrared signature"
+        ]
+    },
+    {
+        "q": "Arrange thermal profile types:",
+        "type": "rearrange",
+        "words": [
+            "Isothermal",
+            "Declining with altitude",
+            "Inversion (rising)",
+            "Complex structure"
+        ]
+    },
+    {
+        "q": "Not all hot Jupiters show thermal inversions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the cloud coverage on hot Jupiters?",
+        "type": "mcq",
+        "o": [
+            "The presence of condensate particles in hot Jupiter atmospheres affecting spectra",
+            "No clouds",
+            "Water clouds only",
+            "Identical to Earth"
+        ]
+    },
+    {
+        "q": "Clouds on hot Jupiters may be composed of _____ or metal oxides.",
+        "type": "fill_blank",
+        "answers": [
+            "silicates"
+        ],
+        "other_options": [
+            "water ice",
+            "CO2 ice",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the cloud effect with its spectral signature:",
+        "type": "match",
+        "left": [
+            "High clouds",
+            "Deep clouds",
+            "Clear atmosphere",
+            "Hazes"
+        ],
+        "right": [
+            "Muted features",
+            "Strong features",
+            "Deep absorption",
+            "Rayleigh slope"
+        ]
+    },
+    {
+        "q": "Arrange cloud impact on transmission spectra:",
+        "type": "rearrange",
+        "words": [
+            "Clear (strong features)",
+            "Thin haze",
+            "Moderate clouds",
+            "Thick clouds (flat spectrum)"
+        ]
+    },
+    {
+        "q": "Many hot Jupiters show evidence of clouds or hazes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CHEOPS?",
+        "type": "mcq",
+        "o": [
+            "An ESA satellite for precision photometry of known exoplanet transits",
+            "A discovery mission",
+            "A ground telescope",
+            "A Mars orbiter"
+        ]
+    },
+    {
+        "q": "CHEOPS can measure planet _____ with high precision for known transiting planets.",
+        "type": "fill_blank",
+        "answers": [
+            "radii or sizes"
+        ],
+        "other_options": [
+            "masses",
+            "atmospheres",
+            "ages"
+        ]
+    },
+    {
+        "q": "Match the CHEOPS capability with its application:",
+        "type": "match",
+        "left": [
+            "Radius refinement",
+            "Phase curve",
+            "TTVs",
+            "Long observations"
+        ],
+        "right": [
+            "Density determination",
+            "Thermal mapping",
+            "Mass constraints",
+            "Small signals"
+        ]
+    },
+    {
+        "q": "Arrange CHEOPS targets:",
+        "type": "rearrange",
+        "words": [
+            "Known hot Jupiters",
+            "Super-Earths from TESS",
+            "Multi-planet systems",
+            "Bright star targets"
+        ]
+    },
+    {
+        "q": "CHEOPS launched in 2019 as ESA's first small-class exoplanet mission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the sub-Neptune/super-Earth transition?",
+        "type": "mcq",
+        "o": [
+            "The boundary between rocky planets and those with significant volatile envelopes",
+            "Gas giant formation",
+            "Star formation",
+            "No transition"
+        ]
+    },
+    {
+        "q": "The transition occurs around _____ Earth radii, corresponding to the radius valley.",
+        "type": "fill_blank",
+        "answers": [
+            "1.5 to 2 or 1.7"
+        ],
+        "other_options": [
+            "10",
+            "0.5",
+            "100"
+        ]
+    },
+    {
+        "q": "Match the planet type with its interior:",
+        "type": "match",
+        "left": [
+            "Super-Earth",
+            "Sub-Neptune",
+            "Water world",
+            "Mini-Neptune"
+        ],
+        "right": [
+            "Rocky, thin atm",
+            "H/He envelope",
+            "Ice/ocean layer",
+            "Puffy gas"
+        ]
+    },
+    {
+        "q": "Arrange planet interior models:",
+        "type": "rearrange",
+        "words": [
+            "Iron core",
+            "Silicate mantle",
+            "Water layer",
+            "H/He envelope (outer)"
+        ]
+    },
+    {
+        "q": "Mass and radius alone cannot uniquely determine planetary composition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ice line in planet formation?",
+        "type": "mcq",
+        "o": [
+            "The distance where specific volatiles condense into ice in the protoplanetary disk",
+            "Only water ice",
+            "Planet surface",
+            "Star surface"
+        ]
+    },
+    {
+        "q": "Different volatiles condense at different _____ lines (water, CO, N2).",
+        "type": "fill_blank",
+        "answers": [
+            "ice or snow"
+        ],
+        "other_options": [
+            "temperature only",
+            "pressure only",
+            "none"
+        ]
+    },
+    {
+        "q": "Match the ice line with its condensate:",
+        "type": "match",
+        "left": [
+            "Water ice line",
+            "CO2 ice line",
+            "CO ice line",
+            "N2 ice line"
+        ],
+        "right": [
+            "~3 AU",
+            "~10 AU",
+            "~30 AU",
+            "~50 AU"
+        ]
+    },
+    {
+        "q": "Arrange volatile condensation by temperature:",
+        "type": "rearrange",
+        "words": [
+            "Water (warmest)",
+            "CO2",
+            "CO",
+            "N2 (coldest)"
+        ]
+    },
+    {
+        "q": "Beyond the water ice line, available solid mass increases significantly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the disk metallicity effect on planets?",
+        "type": "mcq",
+        "o": [
+            "Higher metallicity disks form giant planets more efficiently",
+            "No effect",
+            "Lower metallicity helps",
+            "Only affects small planets"
+        ]
+    },
+    {
+        "q": "The giant planet-metallicity correlation suggests core _____ is the dominant formation mechanism.",
+        "type": "fill_blank",
+        "answers": [
+            "accretion"
+        ],
+        "other_options": [
+            "collapse",
+            "nothing",
+            "destruction"
+        ]
+    },
+    {
+        "q": "Match the metallicity effect with its planet type:",
+        "type": "match",
+        "left": [
+            "Giant planets",
+            "Small planets",
+            "Hot Jupiters",
+            "Cold Jupiters"
+        ],
+        "right": [
+            "Strong correlation",
+            "Weaker correlation",
+            "Metallicity dependent",
+            "Metallicity dependent"
+        ]
+    },
+    {
+        "q": "Arrange metallicity dependence:",
+        "type": "rearrange",
+        "words": [
+            "Core accretion (strong)",
+            "Disk instability (weak)",
+            "Small planets",
+            "Disk mass also matters"
+        ]
+    },
+    {
+        "q": "Metal-rich stars are more likely to host giant planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ultra-short-period planet (USP)?",
+        "type": "mcq",
+        "o": [
+            "A planet with an orbital period less than about 1 day",
+            "Any short period",
+            "Long period",
+            "Outer planet"
+        ]
+    },
+    {
+        "q": "USPs orbit their host stars in less than _____ hours.",
+        "type": "fill_blank",
+        "answers": [
+            "24"
+        ],
+        "other_options": [
+            "1000",
+            "1",
+            "0.1"
+        ]
+    },
+    {
+        "q": "Match the USP property with its characteristic:",
+        "type": "match",
+        "left": [
+            "Very close orbit",
+            "Rocky",
+            "Hot surface",
+            "Small"
+        ],
+        "right": [
+            "Extreme irradiation",
+            "Atmosphere stripped",
+            ">1500 K",
+            "Earth-sized or smaller"
+        ]
+    },
+    {
+        "q": "Arrange USP discoveries:",
+        "type": "rearrange",
+        "words": [
+            "Kepler detections",
+            "TESS confirmations",
+            "Mass measurements",
+            "Interior modeling"
+        ]
+    },
+    {
+        "q": "USPs may be the cores of formerly larger planets that lost their atmospheres.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is lava world?",
+        "type": "mcq",
+        "o": [
+            "A rocky planet so hot that its surface is partially or fully molten",
+            "A cold planet",
+            "A gas giant",
+            "An ice giant"
+        ]
+    },
+    {
+        "q": "Lava worlds may have atmospheres of vaporized _____.",
+        "type": "fill_blank",
+        "answers": [
+            "rock or silicates"
+        ],
+        "other_options": [
+            "water",
+            "nitrogen",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the lava world feature with its observation:",
+        "type": "match",
+        "left": [
+            "Hot dayside",
+            "Cold nightside",
+            "Phase variation",
+            "Atmospheric metals"
+        ],
+        "right": [
+            "Molten surface",
+            "Solid crust",
+            "IR emission change",
+            "Na, K spectral lines"
+        ]
+    },
+    {
+        "q": "Arrange lava world temperatures:",
+        "type": "rearrange",
+        "words": [
+            "Surface solidification (~1400 K)",
+            "Partial melt",
+            "Global magma ocean",
+            "Silicate vaporization (~2500 K)"
+        ]
+    },
+    {
+        "q": "55 Cancri e is a potential lava world candidate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the evaporating atmosphere?",
+        "type": "mcq",
+        "o": [
+            "Atmospheric gas escaping from a planet at a rate detectable through observations",
+            "Stable atmosphere",
+            "Adding atmosphere",
+            "No change"
+        ]
+    },
+    {
+        "q": "Evaporating atmospheres produce absorption in the _____ and X-ray.",
+        "type": "fill_blank",
+        "answers": [
+            "UV or Lyman-alpha"
+        ],
+        "other_options": [
+            "infrared only",
+            "radio",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the evaporation signature with its wavelength:",
+        "type": "match",
+        "left": [
+            "Lyman-alpha",
+            "Helium triplet",
+            "Metal lines",
+            "X-ray"
+        ],
+        "right": [
+            "121.6 nm",
+            "1083 nm",
+            "UV",
+            "Coronal"
+        ]
+    },
+    {
+        "q": "Arrange evaporation detection methods:",
+        "type": "rearrange",
+        "words": [
+            "Lyman-alpha (HST)",
+            "Helium (ground)",
+            "Metal ions",
+            "Mass loss modeling"
+        ]
+    },
+    {
+        "q": "The 1083 nm helium triplet is a powerful ground-based probe of atmospheric escape.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is planet-planet scattering?",
+        "type": "mcq",
+        "o": [
+            "Gravitational interactions that eject or rearrange planets in systems",
+            "Stable orbits",
+            "Star-planet interaction",
+            "No interaction"
+        ]
+    },
+    {
+        "q": "Scattering can produce high _____ orbits and misaligned planets.",
+        "type": "fill_blank",
+        "answers": [
+            "eccentricity"
+        ],
+        "other_options": [
+            "circular",
+            "low",
+            "stable"
+        ]
+    },
+    {
+        "q": "Match the scattering outcome with its configuration:",
+        "type": "match",
+        "left": [
+            "Ejection",
+            "Orbit swap",
+            "High eccentricity",
+            "Tidal migration"
+        ],
+        "right": [
+            "Free-floating planet",
+            "Outer becomes inner",
+            "Elliptical orbit",
+            "Hot Jupiter formation"
+        ]
+    },
+    {
+        "q": "Arrange scattering evolution:",
+        "type": "rearrange",
+        "words": [
+            "Multiple giant planets",
+            "Gravitational instability",
+            "Close encounter",
+            "Ejection/reorganization"
+        ]
+    },
+    {
+        "q": "Planet-planet scattering may explain the eccentric orbits of some giant exoplanets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the free-floating planet?",
+        "type": "mcq",
+        "o": [
+            "A planet not gravitationally bound to any star",
+            "A planet with a star",
+            "A binary planet",
+            "A moon"
+        ]
+    },
+    {
+        "q": "Free-floating planets can be detected through _____ surveys.",
+        "type": "fill_blank",
+        "answers": [
+            "microlensing"
+        ],
+        "other_options": [
+            "transit",
+            "radial velocity",
+            "imaging only"
+        ]
+    },
+    {
+        "q": "Match the free-floater origin with its mechanism:",
+        "type": "match",
+        "left": [
+            "Ejected by scattering",
+            "Disk instability",
+            "Close stellar encounter",
+            "Proto-system disruption"
+        ],
+        "right": [
+            "Dynamical instability",
+            "Never bound",
+            "Star-star interaction",
+            "Early cluster"
+        ]
+    },
+    {
+        "q": "Arrange free-floating planet research:",
+        "type": "rearrange",
+        "words": [
+            "Theoretical prediction",
+            "Microlensing hints",
+            "Population estimates",
+            "Roman survey"
+        ]
+    },
+    {
+        "q": "Free-floating planets may outnumber stars in the galaxy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the directly imaged planet mass problem?",
+        "type": "mcq",
+        "o": [
+            "Difficulty determining masses of directly imaged planets without dynamical data",
+            "Masses are well known",
+            "No problem",
+            "Only for transiting planets"
+        ]
+    },
+    {
+        "q": "Directly imaged planet masses are usually estimated from _____ models.",
+        "type": "fill_blank",
+        "answers": [
+            "evolutionary or cooling"
+        ],
+        "other_options": [
+            "dynamical always",
+            "nothing",
+            "radial velocity"
+        ]
+    },
+    {
+        "q": "Match the mass estimation method with its uncertainty:",
+        "type": "match",
+        "left": [
+            "Evolutionary models",
+            "Dynamical mass",
+            "Astrometry",
+            "RV"
+        ],
+        "right": [
+            "Age-dependent",
+            "Direct measurement",
+            "Long baseline",
+            "Not for imaged planets"
+        ]
+    },
+    {
+        "q": "Arrange mass determination reliability:",
+        "type": "rearrange",
+        "words": [
+            "Dynamical (best)",
+            "Astrometric",
+            "TTV",
+            "Evolutionary models (uncertain)"
+        ]
+    },
+    {
+        "q": "Dynamical masses from astrometry are becoming available for some imaged planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the age-activity relation for stars?",
+        "type": "mcq",
+        "o": [
+            "The correlation between stellar age and activity level, with younger stars being more active",
+            "No correlation",
+            "Older stars more active",
+            "Random relation"
+        ]
+    },
+    {
+        "q": "Young stars emit more _____ radiation affecting planet atmospheres.",
+        "type": "fill_blank",
+        "answers": [
+            "UV or X-ray"
+        ],
+        "other_options": [
+            "no",
+            "less",
+            "thermal only"
+        ]
+    },
+    {
+        "q": "Match the stellar age with its activity level:",
+        "type": "match",
+        "left": [
+            "100 Myr",
+            "1 Gyr",
+            "5 Gyr (Sun)",
+            "10 Gyr"
+        ],
+        "right": [
+            "Very active",
+            "Active",
+            "Moderate",
+            "Quiet"
+        ]
+    },
+    {
+        "q": "Arrange stellar evolution effects on planets:",
+        "type": "rearrange",
+        "words": [
+            "High early activity",
+            "Atmospheric erosion",
+            "Activity decline",
+            "Stable environment"
+        ]
+    },
+    {
+        "q": "Early high stellar activity can strip atmospheres from young planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Gaia survey's contribution to exoplanets?",
+        "type": "mcq",
+        "o": [
+            "Astrometric detection of planets and precise stellar parameters",
+            "Transit detection",
+            "Spectroscopy only",
+            "Direct imaging"
+        ]
+    },
+    {
+        "q": "Gaia can detect _____ planets through tiny stellar position changes.",
+        "type": "fill_blank",
+        "answers": [
+            "massive or giant"
+        ],
+        "other_options": [
+            "no",
+            "Earth-sized",
+            "tiny"
+        ]
+    },
+    {
+        "q": "Match the Gaia data release with its advancement:",
+        "type": "match",
+        "left": [
+            "DR2",
+            "DR3",
+            "DR4",
+            "Future"
+        ],
+        "right": [
+            "Stellar parameters",
+            "First planet candidates",
+            "More orbits",
+            "Full astrometric orbits"
+        ]
+    },
+    {
+        "q": "Arrange Gaia contributions:",
+        "type": "rearrange",
+        "words": [
+            "Stellar distances",
+            "Stellar masses",
+            "Planet detection",
+            "Orbit determination"
+        ]
+    },
+    {
+        "q": "Gaia provides the most accurate distances to nearby stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the photometric redshift of exoplanet atmospheres?",
+        "type": "mcq",
+        "o": [
+            "Apparent changes in transit depth with wavelength due to atmospheric opacity",
+            "Cosmological redshift",
+            "Star velocity",
+            "No relationship"
+        ]
+    },
+    {
+        "q": "Atmospheric _____ causes wavelength-dependent transit depth variations.",
+        "type": "fill_blank",
+        "answers": [
+            "absorption or opacity"
+        ],
+        "other_options": [
+            "nothing",
+            "reflection only",
+            "emission only"
+        ]
+    },
+    {
+        "q": "Match the wavelength with its atmospheric probe:",
+        "type": "match",
+        "left": [
+            "Optical",
+            "Near-IR",
+            "Mid-IR",
+            "UV"
+        ],
+        "right": [
+            "Rayleigh scattering",
+            "Molecular bands",
+            "Emission",
+            "Atomic absorption"
+        ]
+    },
+    {
+        "q": "Arrange spectral features by wavelength:",
+        "type": "rearrange",
+        "words": [
+            "UV (short)",
+            "Optical",
+            "Near-IR",
+            "Mid-IR (long)"
+        ]
+    },
+    {
+        "q": "Multi-wavelength observations are essential for atmospheric characterization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the binary star exoplanet challenge?",
+        "type": "mcq",
+        "o": [
+            "The difficulty of detecting and confirming planets in binary star systems",
+            "Easier detection",
+            "No binaries host planets",
+            "Same as single stars"
+        ]
+    },
+    {
+        "q": "Binary companions dilute transit _____ making small planets harder to detect.",
+        "type": "fill_blank",
+        "answers": [
+            "signals or depths"
+        ],
+        "other_options": [
+            "nothing",
+            "help",
+            "increase"
+        ]
+    },
+    {
+        "q": "Match the binary planet type with its orbit:",
+        "type": "match",
+        "left": [
+            "S-type",
+            "P-type",
+            "Close binary",
+            "Wide binary"
+        ],
+        "right": [
+            "Around one star",
+            "Around both stars",
+            "Challenging dynamics",
+            "Like single star"
+        ]
+    },
+    {
+        "q": "Arrange binary planet discovery:",
+        "type": "rearrange",
+        "words": [
+            "Identify binary",
+            "Account for dilution",
+            "Search for planets",
+            "Confirm with follow-up"
+        ]
+    },
+    {
+        "q": "Circumbinary planets orbit both stars in a binary system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the exoplanet archive?",
+        "type": "mcq",
+        "o": [
+            "A comprehensive database of confirmed exoplanets and their properties",
+            "A telescope",
+            "A mission",
+            "A theory"
+        ]
+    },
+    {
+        "q": "The NASA Exoplanet _____ hosts the most comprehensive catalog of confirmed planets.",
+        "type": "fill_blank",
+        "answers": [
+            "Archive"
+        ],
+        "other_options": [
+            "Telescope",
+            "Mission",
+            "Agency"
+        ]
+    },
+    {
+        "q": "Match the archive with its host:",
+        "type": "match",
+        "left": [
+            "NASA Exoplanet Archive",
+            "Exoplanet.eu",
+            "Open Exoplanet Catalogue",
+            "ExoFOP"
+        ],
+        "right": [
+            "IPAC/NASA",
+            "Paris Observatory",
+            "Community",
+            "Follow-up coordination"
+        ]
+    },
+    {
+        "q": "Arrange catalog usage:",
+        "type": "rearrange",
+        "words": [
+            "Query parameters",
+            "Download data",
+            "Analyze statistics",
+            "Plan observations"
+        ]
+    },
+    {
+        "q": "The exoplanet archive contains thousands of confirmed planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planetary systems around evolved stars?",
+        "type": "mcq",
+        "o": [
+            "Planets orbiting stars that have left the main sequence (giants, subgiants)",
+            "Only main sequence",
+            "No planets around giants",
+            "White dwarf planets only"
+        ]
+    },
+    {
+        "q": "Giant _____ host planets detected primarily through radial velocity.",
+        "type": "fill_blank",
+        "answers": [
+            "stars"
+        ],
+        "other_options": [
+            "planets",
+            "moons",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the stellar evolution stage with its planet population:",
+        "type": "match",
+        "left": [
+            "Main sequence",
+            "Subgiant",
+            "Red giant",
+            "White dwarf"
+        ],
+        "right": [
+            "All types",
+            "Massive planets",
+            "Engulfment possible",
+            "Debris/fragments"
+        ]
+    },
+    {
+        "q": "Arrange stellar evolution effects:",
+        "type": "rearrange",
+        "words": [
+            "Main sequence (stable)",
+            "Subgiant expansion",
+            "Red giant engulfment",
+            "White dwarf remnant"
+        ]
+    },
+    {
+        "q": "Planets around evolved stars tend to be massive and at larger orbital distances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet engulfment?",
+        "type": "mcq",
+        "o": [
+            "When a planet is swallowed by its star as the star expands during evolution",
+            "Planet formation",
+            "Planet ejection",
+            "Stable orbit"
+        ]
+    },
+    {
+        "q": "Red giants can expand to _____ AU, engulfing inner planets.",
+        "type": "fill_blank",
+        "answers": [
+            "1 or more"
+        ],
+        "other_options": [
+            "0.001",
+            "1000",
+            "never"
+        ]
+    },
+    {
+        "q": "Match the engulfment outcome with its signature:",
+        "type": "match",
+        "left": [
+            "Planet engulfed",
+            "Spin-up",
+            "Lithium enhancement",
+            "Debris"
+        ],
+        "right": [
+            "Disappearance",
+            "Angular momentum transfer",
+            "Nuclear burning",
+            "Pollution"
+        ]
+    },
+    {
+        "q": "Arrange engulfment process:",
+        "type": "rearrange",
+        "words": [
+            "Star expands",
+            "Planet spirals in",
+            "Tidal disruption",
+            "Engulfment/merger"
+        ]
+    },
+    {
+        "q": "Evidence of past planet engulfment may be visible in stellar abundances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the white dwarf pollution?",
+        "type": "mcq",
+        "o": [
+            "Heavy elements in white dwarf atmospheres from accreted planetary debris",
+            "Clean atmospheres",
+            "Stellar pollution",
+            "No connection to planets"
+        ]
+    },
+    {
+        "q": "Polluted white dwarfs show heavy elements that should have _____ out.",
+        "type": "fill_blank",
+        "answers": [
+            "sunk or settled"
+        ],
+        "other_options": [
+            "risen",
+            "stayed",
+            "appeared"
+        ]
+    },
+    {
+        "q": "Match the WD pollution signature with its origin:",
+        "type": "match",
+        "left": [
+            "Calcium",
+            "Iron",
+            "Rock-forming elements",
+            "Infrared excess"
+        ],
+        "right": [
+            "Continental crust",
+            "Metallic core",
+            "Mantle",
+            "Debris disk"
+        ]
+    },
+    {
+        "q": "Arrange WD pollution interpretation:",
+        "type": "rearrange",
+        "words": [
+            "Detect metal lines",
+            "Rule out stellar origin",
+            "Infer debris disk",
+            "Model planetesimal composition"
+        ]
+    },
+    {
+        "q": "White dwarf pollution allows determination of extrasolar planetesimal composition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the benchmark brown dwarf?",
+        "type": "mcq",
+        "o": [
+            "A brown dwarf with well-determined properties serving as a calibration standard",
+            "Any brown dwarf",
+            "A massive planet",
+            "A low-mass star"
+        ]
+    },
+    {
+        "q": "Benchmark brown dwarfs have independently measured _____ and luminosities.",
+        "type": "fill_blank",
+        "answers": [
+            "ages or masses"
+        ],
+        "other_options": [
+            "nothing",
+            "only colors",
+            "only sizes"
+        ]
+    },
+    {
+        "q": "Match the benchmark source with its method:",
+        "type": "match",
+        "left": [
+            "Moving group member",
+            "Binary companion",
+            "Eclipsing BD",
+            "Transiting BD"
+        ],
+        "right": [
+            "Coeval age",
+            "Dynamical mass",
+            "Both parameters",
+            "Radius and mass"
+        ]
+    },
+    {
+        "q": "Arrange benchmark importance:",
+        "type": "rearrange",
+        "words": [
+            "Calibrate evolutionary models",
+            "Test atmosphere models",
+            "Constrain ages",
+            "Improve planet models"
+        ]
+    },
+    {
+        "q": "Brown dwarf evolutionary models have uncertainties similar to giant planet models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the deuterium burning limit?",
+        "type": "mcq",
+        "o": [
+            "The mass threshold (~13 Jupiter masses) above which deuterium fusion occurs",
+            "Hydrogen fusion",
+            "No fusion limit",
+            "Carbon burning"
+        ]
+    },
+    {
+        "q": "Objects above ~13 Jupiter masses burn _____ in their cores.",
+        "type": "fill_blank",
+        "answers": [
+            "deuterium"
+        ],
+        "other_options": [
+            "hydrogen",
+            "helium",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the mass regime with its classification:",
+        "type": "match",
+        "left": [
+            "<13 MJ",
+            "13-80 MJ",
+            ">80 MJ",
+            "Variable"
+        ],
+        "right": [
+            "Planet (usually)",
+            "Brown dwarf",
+            "Star",
+            "Formation-based"
+        ]
+    },
+    {
+        "q": "Arrange fusion thresholds by mass:",
+        "type": "rearrange",
+        "words": [
+            "Planets (no fusion)",
+            "D burning (~13 MJ)",
+            "Li burning (~65 MJ)",
+            "H burning (~80 MJ)"
+        ]
+    },
+    {
+        "q": "The deuterium burning limit is a common but imperfect planet/brown dwarf boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the L-T-Y spectral sequence?",
+        "type": "mcq",
+        "o": [
+            "The spectral classification of brown dwarfs and cool objects by decreasing temperature",
+            "Stellar types",
+            "Planet types",
+            "Random labels"
+        ]
+    },
+    {
+        "q": "Y dwarfs are the _____ brown dwarfs known.",
+        "type": "fill_blank",
+        "answers": [
+            "coolest"
+        ],
+        "other_options": [
+            "hottest",
+            "brightest",
+            "largest"
+        ]
+    },
+    {
+        "q": "Match the spectral type with its characteristic:",
+        "type": "match",
+        "left": [
+            "L dwarf",
+            "T dwarf",
+            "Y dwarf",
+            "M dwarf"
+        ],
+        "right": [
+            "Dust clouds",
+            "Methane absorption",
+            "Ammonia",
+            "Stellar"
+        ]
+    },
+    {
+        "q": "Arrange spectral types by temperature:",
+        "type": "rearrange",
+        "words": [
+            "M (warmest)",
+            "L",
+            "T",
+            "Y (coolest)"
+        ]
+    },
+    {
+        "q": "The coolest Y dwarfs have temperatures comparable to room temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the exomoon detection challenge?",
+        "type": "mcq",
+        "o": [
+            "The difficulty of detecting moons around exoplanets due to small signals",
+            "Already discovered many",
+            "Easy to detect",
+            "Impossible"
+        ]
+    },
+    {
+        "q": "Exomoons would cause additional _____ and transit timing variations.",
+        "type": "fill_blank",
+        "answers": [
+            "transit dips or photometric"
+        ],
+        "other_options": [
+            "nothing",
+            "only RV",
+            "only imaging"
+        ]
+    },
+    {
+        "q": "Match the exomoon signature with its method:",
+        "type": "match",
+        "left": [
+            "Transit duration variation",
+            "Transit timing variation",
+            "Mutual event",
+            "Direct imaging"
+        ],
+        "right": [
+            "TDV",
+            "TTV",
+            "Moon transit",
+            "Future technology"
+        ]
+    },
+    {
+        "q": "Arrange exomoon detection challenges:",
+        "type": "rearrange",
+        "words": [
+            "Small signal",
+            "Planet variability",
+            "Instrumental noise",
+            "Confusion with other effects"
+        ]
+    },
+    {
+        "q": "No confirmed exomoons have been definitively detected yet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the habitable exomoon hypothesis?",
+        "type": "mcq",
+        "o": [
+            "The idea that moons of giant planets could be habitable if in the star's habitable zone",
+            "Only planets habitable",
+            "Moons too small",
+            "No liquid water on moons"
+        ]
+    },
+    {
+        "q": "A habitable exomoon would orbit a giant planet in the _____ zone.",
+        "type": "fill_blank",
+        "answers": [
+            "habitable"
+        ],
+        "other_options": [
+            "inner",
+            "outer",
+            "any"
+        ]
+    },
+    {
+        "q": "Match the exomoon habitability factor with its effect:",
+        "type": "match",
+        "left": [
+            "Tidal heating",
+            "Magnetosphere protection",
+            "Illumination",
+            "Orbital stability"
+        ],
+        "right": [
+            "Internal heat",
+            "Radiation shielding",
+            "Both star and planet",
+            "Long-term survival"
+        ]
+    },
+    {
+        "q": "Arrange exomoon habitability considerations:",
+        "type": "rearrange",
+        "words": [
+            "In HZ of star",
+            "Massive enough",
+            "Tidal heating",
+            "Atmosphere retention"
+        ]
+    },
+    {
+        "q": "Giant planet moons in habitable zones could potentially support life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the compact multi-planet system?",
+        "type": "mcq",
+        "o": [
+            "A system with multiple planets orbiting very close together, often in resonance",
+            "A wide system",
+            "Single planet",
+            "Solar System-like"
+        ]
+    },
+    {
+        "q": "Compact systems often have planets within _____ AU of their star.",
+        "type": "fill_blank",
+        "answers": [
+            "0.5 or 1"
+        ],
+        "other_options": [
+            "100",
+            "10",
+            "50"
+        ]
+    },
+    {
+        "q": "Match the compact system with its number of planets:",
+        "type": "match",
+        "left": [
+            "TRAPPIST-1",
+            "Kepler-90",
+            "Kepler-11",
+            "TOI-178"
+        ],
+        "right": [
+            "7 planets",
+            "8 planets",
+            "6 planets",
+            "6 planets"
+        ]
+    },
+    {
+        "q": "Arrange compact system properties:",
+        "type": "rearrange",
+        "words": [
+            "Close-in orbits",
+            "Resonance chains",
+            "Coplanar",
+            "Similar sizes"
+        ]
+    },
+    {
+        "q": "Compact systems may have formed differently from our solar system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the warm Jupiter?",
+        "type": "mcq",
+        "o": [
+            "A Jupiter-mass planet with orbital period between ~10-100 days",
+            "Hot Jupiter",
+            "Cold Jupiter",
+            "Super-Earth"
+        ]
+    },
+    {
+        "q": "Warm Jupiters orbit _____ their host stars than hot Jupiters.",
+        "type": "fill_blank",
+        "answers": [
+            "farther from"
+        ],
+        "other_options": [
+            "closer to",
+            "at the same distance as",
+            "much farther than"
+        ]
+    },
+    {
+        "q": "Match the Jupiter type with its orbital period:",
+        "type": "match",
+        "left": [
+            "Hot Jupiter",
+            "Warm Jupiter",
+            "Cold Jupiter",
+            "Our Jupiter"
+        ],
+        "right": [
+            "<10 days",
+            "10-100 days",
+            ">100 days",
+            "~12 years"
+        ]
+    },
+    {
+        "q": "Arrange Jupiter types by distance:",
+        "type": "rearrange",
+        "words": [
+            "Hot (closest)",
+            "Warm",
+            "Cold",
+            "Very cold (farthest)"
+        ]
+    },
+    {
+        "q": "Warm Jupiters often have eccentric orbits and outer companions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the temperate terrestrial planet?",
+        "type": "mcq",
+        "o": [
+            "A rocky planet receiving moderate stellar flux, potentially habitable",
+            "Any terrestrial",
+            "Only Earth",
+            "Hot planet"
+        ]
+    },
+    {
+        "q": "Temperate terrestrials receive stellar flux comparable to _____ orbit.",
+        "type": "fill_blank",
+        "answers": [
+            "Earth's or Venus-Mars"
+        ],
+        "other_options": [
+            "Mercury's",
+            "none",
+            "Jupiter's"
+        ]
+    },
+    {
+        "q": "Match the temperate planet with its discovery method:",
+        "type": "match",
+        "left": [
+            "Proxima b",
+            "TRAPPIST-1e",
+            "LHS 1140b",
+            "TOI-700d"
+        ],
+        "right": [
+            "RV",
+            "Transit",
+            "Transit + RV",
+            "TESS transit"
+        ]
+    },
+    {
+        "q": "Arrange temperate planet characterization:",
+        "type": "rearrange",
+        "words": [
+            "Detection",
+            "Mass/radius",
+            "Atmosphere search",
+            "Biosignature hunt"
+        ]
+    },
+    {
+        "q": "JWST is beginning to probe atmospheres of temperate rocky planets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the high-eccentricity migration?",
+        "type": "mcq",
+        "o": [
+            "A mechanism where orbits become eccentric, then circularized by tides to form hot Jupiters",
+            "Disk migration",
+            "No migration",
+            "Direct formation"
+        ]
+    },
+    {
+        "q": "High-e migration involves gravitational perturbation followed by tidal _____.",
+        "type": "fill_blank",
+        "answers": [
+            "circularization or dissipation"
+        ],
+        "other_options": [
+            "nothing",
+            "expansion",
+            "cooling"
+        ]
+    },
+    {
+        "q": "Match the migration mechanism with its perturber:",
+        "type": "match",
+        "left": [
+            "Planet-planet scattering",
+            "Kozai-Lidov",
+            "Secular chaos",
+            "Disk migration"
+        ],
+        "right": [
+            "Other planet",
+            "Binary companion",
+            "Multiple planets",
+            "Gas disk"
+        ]
+    },
+    {
+        "q": "Arrange high-e migration:",
+        "type": "rearrange",
+        "words": [
+            "Perturbation increases e",
+            "Perihelion shrinks",
+            "Tidal heating",
+            "Orbit circularizes"
+        ]
+    },
+    {
+        "q": "High-e migration can explain misaligned hot Jupiter orbits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the asteroseismology for exoplanet science?",
+        "type": "mcq",
+        "o": [
+            "Using stellar oscillations to precisely determine stellar properties including age and mass",
+            "Planet oscillations",
+            "No connection",
+            "Only for Sun"
+        ]
+    },
+    {
+        "q": "Asteroseismology provides stellar _____ with ~2% precision.",
+        "type": "fill_blank",
+        "answers": [
+            "radii or densities"
+        ],
+        "other_options": [
+            "colors only",
+            "nothing",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the asteroseismic quantity with its derivation:",
+        "type": "match",
+        "left": [
+            "Delta nu",
+            "Nu max",
+            "Stellar density",
+            "Stellar age"
+        ],
+        "right": [
+            "Large frequency separation",
+            "Frequency of max power",
+            "Scaling relations",
+            "Model fitting"
+        ]
+    },
+    {
+        "q": "Arrange asteroseismic impact:",
+        "type": "rearrange",
+        "words": [
+            "Precise stellar parameters",
+            "Better planet radii",
+            "Accurate planet masses",
+            "System ages"
+        ]
+    },
+    {
+        "q": "PLATO will combine transit detection with asteroseismology.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet-metallicity-period correlation?",
+        "type": "mcq",
+        "o": [
+            "The relationship between host star metallicity, planet type, and orbital period",
+            "No correlation",
+            "Simple relationship",
+            "Only for small planets"
+        ]
+    },
+    {
+        "q": "Short-period giant planets preferentially orbit _____ stars.",
+        "type": "fill_blank",
+        "answers": [
+            "metal-rich"
+        ],
+        "other_options": [
+            "metal-poor",
+            "any",
+            "young only"
+        ]
+    },
+    {
+        "q": "Match the correlation with its interpretation:",
+        "type": "match",
+        "left": [
+            "Giant+metal-rich",
+            "Small planets",
+            "Period dependence",
+            "Disk properties"
+        ],
+        "right": [
+            "Core accretion",
+            "Weaker correlation",
+            "Migration history",
+            "Initial conditions"
+        ]
+    },
+    {
+        "q": "Arrange metallicity studies:",
+        "type": "rearrange",
+        "words": [
+            "Measure stellar [Fe/H]",
+            "Correlate with planets",
+            "Test formation models",
+            "Refine predictions"
+        ]
+    },
+    {
+        "q": "The planet-metallicity correlation supports core accretion theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet obliquity measurement?",
+        "type": "mcq",
+        "o": [
+            "Determining the angle between a planet's rotation axis and orbital axis",
+            "Spin-orbit of star",
+            "Orbital eccentricity",
+            "Stellar rotation"
+        ]
+    },
+    {
+        "q": "Planetary obliquity affects _____ distribution and climate.",
+        "type": "fill_blank",
+        "answers": [
+            "seasonal or heat"
+        ],
+        "other_options": [
+            "mass",
+            "size",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the obliquity effect with its climate impact:",
+        "type": "match",
+        "left": [
+            "Zero obliquity",
+            "Moderate (Earth-like)",
+            "High obliquity",
+            "90-degree obliquity"
+        ],
+        "right": [
+            "No seasons",
+            "Normal seasons",
+            "Extreme seasons",
+            "Poles face star"
+        ]
+    },
+    {
+        "q": "Arrange obliquity constraints:",
+        "type": "rearrange",
+        "words": [
+            "Earth (~23.5 deg)",
+            "Mars (~25 deg)",
+            "Uranus (~98 deg)",
+            "Jupiter (~3 deg)"
+        ]
+    },
+    {
+        "q": "Planetary obliquity is very difficult to measure for exoplanets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the atmospheric carbon-to-oxygen ratio?",
+        "type": "mcq",
+        "o": [
+            "The relative abundance of carbon to oxygen affecting atmospheric chemistry and clouds",
+            "Surface composition",
+            "Stellar ratio only",
+            "No importance"
+        ]
+    },
+    {
+        "q": "A C/O ratio greater than 1 produces _____ instead of oxygen-rich chemistry.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon-rich"
+        ],
+        "other_options": [
+            "the same",
+            "oxygen-rich",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the C/O ratio with its chemistry:",
+        "type": "match",
+        "left": [
+            "C/O < 0.8",
+            "C/O ~ 1",
+            "C/O > 1",
+            "Solar C/O"
+        ],
+        "right": [
+            "H2O, CO2 dominant",
+            "Transition",
+            "CH4, HCN dominant",
+            "~0.55"
+        ]
+    },
+    {
+        "q": "Arrange C/O effects:",
+        "type": "rearrange",
+        "words": [
+            "Stellar inheritance",
+            "Disk processing",
+            "Planet formation zone",
+            "Final atmospheric C/O"
+        ]
+    },
+    {
+        "q": "The C/O ratio can constrain where in the disk a planet formed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a General Circulation Model (GCM) for exoplanets?",
+        "type": "mcq",
+        "o": [
+            "A computer simulation that models the atmospheric flow, temperature, and climate of a planet",
+            "A rock cycle model",
+            "A stellar evolution model",
+            "A simple 1D calculation"
+        ]
+    },
+    {
+        "q": "GCMs are often adapted from models originally developed for _____ and Mars.",
+        "type": "fill_blank",
+        "answers": [
+            "Earth"
+        ],
+        "other_options": [
+            "Jupiter",
+            "Sun",
+            "Titan"
+        ]
+    },
+    {
+        "q": "Match the GCM component with its function:",
+        "type": "match",
+        "left": [
+            "Dynamics",
+            "Radiative transfer",
+            "Chemistry",
+            "Cloud physics"
+        ],
+        "right": [
+            "Fluid motion",
+            "Energy transport",
+            "Molecular reactions",
+            "Condensate formation"
+        ]
+    },
+    {
+        "q": "Arrange GCM simulation steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize atmosphere",
+            "Solve equations of motion",
+            "Calculate heating/cooling",
+            "Evolve to steady state"
+        ]
+    },
+    {
+        "q": "Exoplanet GCMs help predict observational signatures like phase curves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a biosignature false positive?",
+        "type": "mcq",
+        "o": [
+            "A signal that mimics a sign of life but is produced by abiotic (non-living) processes",
+            "A true sign of life",
+            "Instrument error",
+            "Data corruption"
+        ]
+    },
+    {
+        "q": "Abiotic oxygen can be produced by the _____ of water vapor by UV radiation.",
+        "type": "fill_blank",
+        "answers": [
+            "photolysis or breakup"
+        ],
+        "other_options": [
+            "freezing",
+            "condensation",
+            "burning"
+        ]
+    },
+    {
+        "q": "Match the molecule with its abiotic source:",
+        "type": "match",
+        "left": [
+            "Oxygen",
+            "Methane",
+            "Ozone",
+            "Nitrous oxide"
+        ],
+        "right": [
+            "Water photolysis",
+            "Volcanism/serpentinization",
+            "CO2 photolysis",
+            "Lightning/volcanism"
+        ]
+    },
+    {
+        "q": "Arrange biosignature verification:",
+        "type": "rearrange",
+        "words": [
+            "Detect candidate signal",
+            "Identify false positive mechanisms",
+            "Model abiotic scenarios",
+            "Rule out false positives"
+        ]
+    },
+    {
+        "q": "The detection of oxygen alone is a definitive proof of life.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What were the LUVOIR and HabEx mission concepts?",
+        "type": "mcq",
+        "o": [
+            "Large space telescope concepts designed to image Earth-like planets and study cosmic origins",
+            "Mars rovers",
+            "Lunar bases",
+            "Small satellites"
+        ]
+    },
+    {
+        "q": "These concepts have merged into the future _____ Worlds Observatory.",
+        "type": "fill_blank",
+        "answers": [
+            "Habitable"
+        ],
+        "other_options": [
+            "Alien",
+            "Distant",
+            "Living"
+        ]
+    },
+    {
+        "q": "Match the mission concept with its key feature:",
+        "type": "match",
+        "left": [
+            "LUVOIR-A",
+            "LUVOIR-B",
+            "HabEx",
+            "OST"
+        ],
+        "right": [
+            "15m mirror",
+            "8m mirror",
+            "4m with starshade",
+            "Far-infrared"
+        ]
+    },
+    {
+        "q": "Arrange mission lifecycle:",
+        "type": "rearrange",
+        "words": [
+            "Decadal survey recommendation",
+            "Concept development",
+            "Construction",
+            "Launch and operations"
+        ]
+    },
+    {
+        "q": "Hydrogen-rich atmospheres on super-Earths could theoretically support life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Dyson sphere?",
+        "type": "mcq",
+        "o": [
+            "A hypothetical megastructure built by an advanced civilization to harvest a star's energy",
+            "A type of planet",
+            "A natural dust shell",
+            "A star type"
+        ]
+    },
+    {
+        "q": "A Dyson sphere would be detected by its excess _____ radiation (waste heat).",
+        "type": "fill_blank",
+        "answers": [
+            "infrared or thermal"
+        ],
+        "other_options": [
+            "UV",
+            "X-ray",
+            "gamma"
+        ]
+    },
+    {
+        "q": "Match the SETI signal type with its description:",
+        "type": "match",
+        "left": [
+            "Narrowband radio",
+            "Optical pulse",
+            "Megastructure",
+            "Atmospheric pollution"
+        ],
+        "right": [
+            "Artificial frequency",
+            "Laser signal",
+            "Transit anomaly",
+            "CFCs/industrial gas"
+        ]
+    },
+    {
+        "q": "Arrange SETI detection protocol:",
+        "type": "rearrange",
+        "words": [
+            "Signal detection",
+            "Eliminate interference",
+            "Confirm from other observatory",
+            "Announce discovery"
+        ]
+    },
+    {
+        "q": "Industrial pollutants in an exoplanet atmosphere would be a strong technosignature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet radius gap (Fulton gap)?",
+        "type": "mcq",
+        "o": [
+            "A paucity of planets with radii between 1.5-2 Earth radii discovered by Kepler",
+            "All planets",
+            "Large planet deficit",
+            "Random fluctuation"
+        ]
+    },
+    {
+        "q": "The Fulton gap is centered around _____ Earth radii.",
+        "type": "fill_blank",
+        "answers": [
+            "1.8 or 1.5-2"
+        ],
+        "other_options": [
+            "10",
+            "0.5",
+            "100"
+        ]
+    },
+    {
+        "q": "Match the gap explanation with its mechanism:",
+        "type": "match",
+        "left": [
+            "Photoevaporation",
+            "Core-powered mass loss",
+            "Formation gap",
+            "Atmospheric loss"
+        ],
+        "right": [
+            "XUV stripping",
+            "Internal heat driven",
+            "Primordial",
+            "General term"
+        ]
+    },
+    {
+        "q": "Arrange planet radius populations:",
+        "type": "rearrange",
+        "words": [
+            "Super-Earths (below gap)",
+            "Radius gap",
+            "Sub-Neptunes (above gap)",
+            "Gas giants"
+        ]
+    },
+    {
+        "q": "The radius gap provides evidence for atmospheric mass loss shaping planet populations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the M dwarf opportunity for habitability?",
+        "type": "mcq",
+        "o": [
+            "M dwarfs are abundant and have close-in habitable zones that are easier to observe",
+            "M dwarfs are rare",
+            "No planets around M dwarfs",
+            "Only hot planets"
+        ]
+    },
+    {
+        "q": "M dwarfs constitute about _____ percent of all stars.",
+        "type": "fill_blank",
+        "answers": [
+            "70 or 75"
+        ],
+        "other_options": [
+            "1",
+            "10",
+            "0.1"
+        ]
+    },
+    {
+        "q": "Match the M dwarf advantage with its benefit:",
+        "type": "match",
+        "left": [
+            "Close HZ",
+            "Deep transits",
+            "Short periods",
+            "RV amplitude"
+        ],
+        "right": [
+            "Easy transit detection",
+            "Large signal",
+            "Many transits quickly",
+            "Larger for given mass"
+        ]
+    },
+    {
+        "q": "Arrange M dwarf characterization:",
+        "type": "rearrange",
+        "words": [
+            "Easier detection",
+            "Higher transit probability",
+            "Shorter observation time",
+            "Better atmosphere characterization"
+        ]
+    },
+    {
+        "q": "TRAPPIST-1 around an M dwarf is a prime target for habitability studies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the transmission spectrum?",
+        "type": "mcq",
+        "o": [
+            "The wavelength-dependent transit depth showing atmospheric absorption features",
+            "Emission spectrum",
+            "Reflection spectrum",
+            "Surface spectrum"
+        ]
+    },
+    {
+        "q": "Transmission spectra probe the planetary _____ at the day-night terminator.",
+        "type": "fill_blank",
+        "answers": [
+            "atmosphere or limb"
+        ],
+        "other_options": [
+            "surface",
+            "core",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the spectral feature with its molecule:",
+        "type": "match",
+        "left": [
+            "1.4 um",
+            "4.3 um",
+            "2.3 um",
+            "1.1 um"
+        ],
+        "right": [
+            "H2O",
+            "CO2",
+            "CO",
+            "H2O"
+        ]
+    },
+    {
+        "q": "Arrange transmission spectroscopy analysis:",
+        "type": "rearrange",
+        "words": [
+            "Measure multi-wavelength transits",
+            "Extract spectrum",
+            "Compare to models",
+            "Identify molecules"
+        ]
+    },
+    {
+        "q": "JWST has revolutionized exoplanet transmission spectroscopy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the emission spectrum in exoplanet science?",
+        "type": "mcq",
+        "o": [
+            "The thermal radiation from a planet's dayside measured during secondary eclipse",
+            "Transmission only",
+            "Star light",
+            "Reflected light only"
+        ]
+    },
+    {
+        "q": "Emission spectra probe the _____ temperature-pressure structure.",
+        "type": "fill_blank",
+        "answers": [
+            "dayside or atmospheric"
+        ],
+        "other_options": [
+            "surface only",
+            "core",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the emission observation with its technique:",
+        "type": "match",
+        "left": [
+            "Secondary eclipse",
+            "Phase curve peak",
+            "Dayside spectrum",
+            "Thermal map"
+        ],
+        "right": [
+            "Planet behind star",
+            "Maximum planet flux",
+            "JWST observation",
+            "Full orbit"
+        ]
+    },
+    {
+        "q": "Arrange emission spectroscopy:",
+        "type": "rearrange",
+        "words": [
+            "Observe secondary eclipse",
+            "Subtract star flux",
+            "Extract planet emission",
+            "Model temperature structure"
+        ]
+    },
+    {
+        "q": "Emission spectra can show molecular emission features if thermal inversions exist.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the exoplanet interior structure modeling?",
+        "type": "mcq",
+        "o": [
+            "Using mass and radius to infer planetary composition through interior models",
+            "Direct imaging of interiors",
+            "Random assignment",
+            "Only for Earth"
+        ]
+    },
+    {
+        "q": "Interior models solve for _____ given mass, radius, and equations of state.",
+        "type": "fill_blank",
+        "answers": [
+            "composition or structure"
+        ],
+        "other_options": [
+            "age only",
+            "color",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the interior component with its signature:",
+        "type": "match",
+        "left": [
+            "Iron core",
+            "Silicate mantle",
+            "Water layer",
+            "H/He envelope"
+        ],
+        "right": [
+            "High density",
+            "Medium density",
+            "Low density",
+            "Very low density"
+        ]
+    },
+    {
+        "q": "Arrange interior modeling constraints:",
+        "type": "rearrange",
+        "words": [
+            "Measure mass",
+            "Measure radius",
+            "Calculate density",
+            "Model interior"
+        ]
+    },
+    {
+        "q": "Interior models have degeneracies: different compositions can produce the same mass-radius.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the love number for exoplanets?",
+        "type": "mcq",
+        "o": [
+            "A parameter describing the rigidity response to tides, constraining interior structure",
+            "Romantic measure",
+            "Orbital element",
+            "Star property"
+        ]
+    },
+    {
+        "q": "The Love number k2 can be inferred from _____ signal in transits.",
+        "type": "fill_blank",
+        "answers": [
+            "tidal or ellipsoidal"
+        ],
+        "other_options": [
+            "color",
+            "mass only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the Love number with its indication:",
+        "type": "match",
+        "left": [
+            "High k2",
+            "Low k2",
+            "Fluid interior",
+            "Solid interior"
+        ],
+        "right": [
+            "Centrally concentrated",
+            "Uniform",
+            "Easy to distort",
+            "Rigid"
+        ]
+    },
+    {
+        "q": "Arrange Love number determination:",
+        "type": "rearrange",
+        "words": [
+            "Measure tidal effects",
+            "Model response",
+            "Constrain k2",
+            "Infer interior"
+        ]
+    },
+    {
+        "q": "Love numbers could help distinguish rocky from gaseous planet interiors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet magnetic field detection?",
+        "type": "mcq",
+        "o": [
+            "Searching for signatures of planetary magnetospheres through various techniques",
+            "Direct measurement",
+            "Impossible",
+            "Only for Earth"
+        ]
+    },
+    {
+        "q": "Exoplanet magnetic fields may be detected through radio _____ emission.",
+        "type": "fill_blank",
+        "answers": [
+            "aurora or cyclotron"
+        ],
+        "other_options": [
+            "optical",
+            "X-ray only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the magnetic detection method with its signature:",
+        "type": "match",
+        "left": [
+            "Radio emission",
+            "Transit asymmetry",
+            "Bow shock",
+            "Star-planet interaction"
+        ],
+        "right": [
+            "Electron cyclotron",
+            "Magnetopause transit",
+            "Ionosphere",
+            "Chromospheric activity"
+        ]
+    },
+    {
+        "q": "Arrange magnetic field importance:",
+        "type": "rearrange",
+        "words": [
+            "Atmospheric retention",
+            "Radiation shielding",
+            "Habitability",
+            "Interior dynamics indicator"
+        ]
+    },
+    {
+        "q": "No definitive detection of an exoplanet magnetic field has been made yet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet formation gap in disks?",
+        "type": "mcq",
+        "o": [
+            "Gaps and rings in protoplanetary disks possibly carved by forming planets",
+            "No gaps",
+            "Random structures",
+            "Star features"
+        ]
+    },
+    {
+        "q": "ALMA has revealed spectacular _____ structures in protoplanetary disks.",
+        "type": "fill_blank",
+        "answers": [
+            "ring and gap or concentric"
+        ],
+        "other_options": [
+            "no",
+            "stellar",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the disk structure with its possible cause:",
+        "type": "match",
+        "left": [
+            "Gap",
+            "Spiral arm",
+            "Asymmetry",
+            "Ring"
+        ],
+        "right": [
+            "Planet clearing",
+            "Planet wake",
+            "Vortex/planet",
+            "Pressure maximum"
+        ]
+    },
+    {
+        "q": "Arrange disk-planet connection:",
+        "type": "rearrange",
+        "words": [
+            "Disk imaged",
+            "Gaps detected",
+            "Planet inferred",
+            "Confirmed by other methods"
+        ]
+    },
+    {
+        "q": "PDS 70 shows directly imaged planets within disk gaps.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the period ratio distribution?",
+        "type": "mcq",
+        "o": [
+            "The distribution of orbital period ratios in multi-planet systems showing resonance patterns",
+            "Random ratios",
+            "No pattern",
+            "Single planets only"
+        ]
+    },
+    {
+        "q": "Period ratios cluster near but slightly wide of _____ values.",
+        "type": "fill_blank",
+        "answers": [
+            "resonance or integer"
+        ],
+        "other_options": [
+            "random",
+            "large",
+            "zero"
+        ]
+    },
+    {
+        "q": "Match the period ratio with its resonance:",
+        "type": "match",
+        "left": [
+            "2.0",
+            "1.5",
+            "1.33",
+            "2.5"
+        ],
+        "right": [
+            "2:1",
+            "3:2",
+            "4:3",
+            "5:2"
+        ]
+    },
+    {
+        "q": "Arrange period ratio analysis:",
+        "type": "rearrange",
+        "words": [
+            "Measure periods",
+            "Calculate ratios",
+            "Compare to resonances",
+            "Infer dynamics"
+        ]
+    },
+    {
+        "q": "Many Kepler systems show period ratios just wide of mean motion resonances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the mutual Hill radius?",
+        "type": "mcq",
+        "o": [
+            "The combined gravitational influence regions of adjacent planets determining stability",
+            "Single planet Hill",
+            "Stellar radius",
+            "No gravity"
+        ]
+    },
+    {
+        "q": "Planets separated by at least _____ mutual Hill radii are typically stable.",
+        "type": "fill_blank",
+        "answers": [
+            "10 or 3.5"
+        ],
+        "other_options": [
+            "0",
+            "1000",
+            "0.1"
+        ]
+    },
+    {
+        "q": "Match the separation with its stability:",
+        "type": "match",
+        "left": [
+            "<3.5 RH",
+            "3.5-10 RH",
+            ">10 RH",
+            "MMR"
+        ],
+        "right": [
+            "Often unstable",
+            "Marginal",
+            "Stable",
+            "Resonance protected"
+        ]
+    },
+    {
+        "q": "Arrange stability analysis:",
+        "type": "rearrange",
+        "words": [
+            "Calculate Hill radii",
+            "Measure separation",
+            "Apply criterion",
+            "Assess stability"
+        ]
+    },
+    {
+        "q": "Compact multi-planet systems often have planets separated by just a few mutual Hill radii.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the reflected light detection?",
+        "type": "mcq",
+        "o": [
+            "Detecting starlight reflected by a planet's atmosphere or surface",
+            "Thermal emission only",
+            "Transmission only",
+            "No detection"
+        ]
+    },
+    {
+        "q": "Reflected light reveals the planetary _____ and cloud properties.",
+        "type": "fill_blank",
+        "answers": [
+            "albedo"
+        ],
+        "other_options": [
+            "mass",
+            "age",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the reflection property with its constraint:",
+        "type": "match",
+        "left": [
+            "Geometric albedo",
+            "Phase function",
+            "Polarization",
+            "Colors"
+        ],
+        "right": [
+            "Overall reflectivity",
+            "Scattering angle",
+            "Cloud particles",
+            "Composition"
+        ]
+    },
+    {
+        "q": "Arrange reflected light analysis:",
+        "type": "rearrange",
+        "words": [
+            "Detect optical variation",
+            "Measure phase curve",
+            "Model reflection",
+            "Constrain atmosphere"
+        ]
+    },
+    {
+        "q": "Some hot Jupiters reflect very little light due to absorbing atmospheres.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the brown dwarf desert?",
+        "type": "mcq",
+        "o": [
+            "A paucity of close-in brown dwarf companions to solar-type stars",
+            "Many brown dwarfs",
+            "Random distribution",
+            "No brown dwarfs"
+        ]
+    },
+    {
+        "q": "The brown dwarf desert exists at orbital periods _____ than about 5 years.",
+        "type": "fill_blank",
+        "answers": [
+            "shorter or less"
+        ],
+        "other_options": [
+            "longer",
+            "equal",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Match the companion type with its frequency:",
+        "type": "match",
+        "left": [
+            "Hot Jupiters",
+            "Brown dwarfs <5 yr",
+            "Long-period BDs",
+            "Stellar binaries"
+        ],
+        "right": [
+            "~1%",
+            "Very rare",
+            "More common",
+            "~50%"
+        ]
+    },
+    {
+        "q": "Arrange companion detection:",
+        "type": "rearrange",
+        "words": [
+            "RV survey",
+            "Identify companions",
+            "Measure masses",
+            "Notice BD desert"
+        ]
+    },
+    {
+        "q": "The brown dwarf desert suggests different formation channels for planets and binary stars.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the planet-planet eclipse (syzygy)?",
+        "type": "mcq",
+        "o": [
+            "When one planet blocks another planet's light as seen from Earth",
+            "Star-planet eclipse",
+            "Lunar eclipse",
+            "Solar eclipse"
+        ]
+    },
+    {
+        "q": "Planet-planet eclipses provide unique _____ of both planets.",
+        "type": "fill_blank",
+        "answers": [
+            "constraints or observations"
+        ],
+        "other_options": [
+            "nothing",
+            "only one",
+            "confusion"
+        ]
+    },
+    {
+        "q": "Match the syzygy type with its geometry:",
+        "type": "match",
+        "left": [
+            "Mutual transit",
+            "Mutual eclipse",
+            "Near miss",
+            "Alignment"
+        ],
+        "right": [
+            "Same transit",
+            "One blocks other",
+            "Close but no eclipse",
+            "Line of sight"
+        ]
+    },
+    {
+        "q": "Arrange mutual event detection:",
+        "type": "rearrange",
+        "words": [
+            "Compact coplanar system",
+            "Calculate alignment",
+            "Observe event",
+            "Extract information"
+        ]
+    },
+    {
+        "q": "Planet-planet transits are rare but have been observed in a few systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the spectral retrieval atmospheric model?",
+        "type": "mcq",
+        "o": [
+            "A computational framework fitting observed spectra to infer atmospheric properties",
+            "Simple fitting",
+            "No model",
+            "Random assignment"
+        ]
+    },
+    {
+        "q": "Retrieval codes sample parameter space using _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "MCMC or Bayesian"
+        ],
+        "other_options": [
+            "random",
+            "no",
+            "simple"
+        ]
+    },
+    {
+        "q": "Match the retrieval code with its approach:",
+        "type": "match",
+        "left": [
+            "NEMESIS",
+            "CHIMERA",
+            "petitRADTRANS",
+            "ATMO"
+        ],
+        "right": [
+            "Optimal estimation",
+            "Nested sampling",
+            "Forward model",
+            "Grid modeling"
+        ]
+    },
+    {
+        "q": "Arrange retrieval workflow:",
+        "type": "rearrange",
+        "words": [
+            "Define prior space",
+            "Generate models",
+            "Compare to data",
+            "Derive posteriors"
+        ]
+    },
+    {
+        "q": "Different retrieval codes can give different results for the same data.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

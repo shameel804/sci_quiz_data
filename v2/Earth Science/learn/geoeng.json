@@ -1,0 +1,59 @@
+{
+    "id": "learn_geoeng",
+    "topicId": "geoeng",
+    "topicTitle": "Geological Engineering",
+    "description": "Explore geothermal energy, mining, seismic surveying, and groundwater",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "geoeng_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Geological Engineering ⚙️\n\n## Topics\n- Geothermal energy\n- Mining techniques\n- Seismic surveying\n- Groundwater management"
+        },
+        {
+            "id": "geoeng_2",
+            "type": "content",
+            "title": "Geothermal Energy",
+            "content": "# Geothermal Energy 🌋\n\n## Types\n| Type | Use |\n|------|-----|\n| Hydrothermal | Power plants |\n| Ground source | Heat pumps |\n| Hot dry rock | Future tech |\n\n## Benefits\n- Renewable\n- Low emissions\n- Reliable baseload"
+        },
+        {
+            "id": "geoeng_3",
+            "type": "content",
+            "title": "Mining",
+            "content": "# Mining Techniques ⛏️\n\n| Method | Use |\n|--------|-----|\n| Open pit | Surface deposits |\n| Underground | Deep deposits |\n| Placer | Stream beds |\n| Solution | Dissolve ore |\n\n## Environmental Concerns\n- Habitat destruction\n- Water pollution\n- Tailings management"
+        },
+        {
+            "id": "geoeng_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "What type of mining is used for surface deposits?",
+            "quizOptions": [
+                "Underground",
+                "Open pit",
+                "Solution",
+                "Placer"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geoeng_4",
+            "type": "content",
+            "title": "Seismic Surveying",
+            "content": "# Seismic Surveying 📊\n\n## Method\n```\nSource → Waves → Reflection → Receivers\n```\n\n## Applications\n- Oil/gas exploration\n- Earthquake research\n- Underground mapping\n\n## Types\n- Reflection seismology\n- Refraction seismology"
+        },
+        {
+            "id": "geoeng_5",
+            "type": "content",
+            "title": "Groundwater",
+            "content": "# Groundwater 💧\n\n## Terms\n| Term | Definition |\n|------|------------|\n| Aquifer | Water-bearing rock |\n| Water table | Top of saturated zone |\n| Well | Drilled for water |\n| Recharge | Water entering aquifer |\n\n## Management\n- Sustainable extraction\n- Pollution prevention\n- Artificial recharge"
+        },
+        {
+            "id": "geoeng_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Geothermal: Clean, renewable\n- Mining: Open pit vs underground\n- Seismic: Subsurface imaging\n- Groundwater: Aquifer management"
+        }
+    ]
+}

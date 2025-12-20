@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Encryption Basics 🔐",
+        "ques": "1. Symmetric vs asymmetric encryption\n2. What is AES?\n3. What is RSA?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Types:**\n- Symmetric: Same key encrypts/decrypts (faster)\n- Asymmetric: Public/private key pair (more secure)\n\n**2. AES (Advanced Encryption Standard):**\n- Symmetric encryption\n- 128, 192, or 256-bit keys\n- Used for data at rest\n\n**3. RSA:**\n- Asymmetric encryption\n- Based on factoring large primes\n- Public key encrypts, private key decrypts"
+        },
+        "explanation": "**HTTPS** uses both: RSA to exchange keys, then AES for speed."
+    },
+    {
+        "title": "Network Security 🌐",
+        "ques": "1. What is a firewall?\n2. What is VPN?\n3. Common ports to know",
+        "answer": {
+            "type": "text",
+            "content": "**1. Firewall:** Monitors and filters network traffic based on rules\n\n**2. VPN (Virtual Private Network):**\n- Encrypts internet connection\n- Hides IP address\n- Secures public WiFi\n\n**3. Common ports:**\n- 80: HTTP\n- 443: HTTPS\n- 22: SSH\n- 25: SMTP (email)\n- 3306: MySQL"
+        },
+        "explanation": "**Defense in depth:** Multiple security layers. Never rely on single protection."
+    },
+    {
+        "title": "Malware Types 🦠",
+        "ques": "1. What is malware?\n2. Types of malware\n3. How to protect against",
+        "answer": {
+            "type": "text",
+            "content": "**1. Malware:** Malicious software designed to harm\n\n**2. Types:**\n- Virus: Attaches to files, spreads\n- Worm: Self-replicates across networks\n- Trojan: Disguised as legitimate software\n- Ransomware: Encrypts files, demands payment\n- Spyware: Secretly monitors user\n\n**3. Protection:**\n- Antivirus software\n- Keep systems updated\n- Don't open suspicious links\n- Backup data regularly"
+        },
+        "explanation": "**Social engineering** often delivers malware. User awareness is critical!"
+    },
+    {
+        "title": "Ethical Hacking 🎭",
+        "ques": "1. What is ethical hacking?\n2. Penetration testing phases\n3. Bug bounty programs",
+        "answer": {
+            "type": "text",
+            "content": "**1. Ethical hacking:** Authorized testing to find vulnerabilities before attackers do\n\n**2. Phases:**\n1. Reconnaissance (gather info)\n2. Scanning (find vulnerabilities)\n3. Exploitation (test vulnerabilities)\n4. Reporting (document findings)\n\n**3. Bug bounty:** Companies pay for finding bugs (Google, Microsoft, etc.)"
+        },
+        "explanation": "**White hat hackers** help improve security. Always get authorization first!"
+    },
+    {
+        "title": "Password Security 🔑",
+        "ques": "1. What makes a strong password?\n2. What is hashing?\n3. Two-factor authentication",
+        "answer": {
+            "type": "text",
+            "content": "**1. Strong password:**\n- 12+ characters\n- Mix upper/lower/numbers/symbols\n- No dictionary words\n- Unique per site\n\n**2. Hashing:** One-way function to store passwords\n- Password → hash (cannot reverse)\n- Sites store hash, not password\n\n**3. 2FA:** \"Something you know\" + \"Something you have\"\n- Password + phone code\n- Much harder to compromise"
+        },
+        "explanation": "**Password managers** help use unique strong passwords. Enable 2FA everywhere!"
+    },
+    {
+        "title": "Common Attacks 💥",
+        "ques": "1. What is SQL injection?\n2. What is phishing?\n3. What is DDoS?",
+        "answer": {
+            "type": "text",
+            "content": "**1. SQL injection:** Inserting malicious SQL through user input\n```sql\n' OR '1'='1' --\n```\nBypasses login if not sanitized\n\n**2. Phishing:** Fake emails/sites to steal credentials\n- Look for suspicious URLs\n- Never click unknown links\n\n**3. DDoS (Distributed Denial of Service):**\n- Overwhelm server with traffic\n- Makes service unavailable\n- Uses botnets (infected computers)"
+        },
+        "explanation": "**Input validation** prevents SQL injection. Stay vigilant against phishing!"
+    }
+]

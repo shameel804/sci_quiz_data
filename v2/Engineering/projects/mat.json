@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Material Properties 🧱",
+        "ques": "1. What is yield strength?\n2. Difference between elastic and plastic deformation\n3. What is hardness?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Yield strength:** Stress at which material begins to deform permanently\n\n**2. Deformation types:**\n- Elastic: Returns to original shape when stress removed\n- Plastic: Permanent deformation remains\n\n**3. Hardness:** Resistance to indentation/scratching\n- Measured by Brinell, Rockwell, Vickers tests"
+        },
+        "explanation": "**Stress-strain curve** shows material behavior. Area under curve = toughness (energy to fracture)."
+    },
+    {
+        "title": "Corrosion 🔩",
+        "ques": "1. What is corrosion?\n2. Types of corrosion\n3. Prevention methods",
+        "answer": {
+            "type": "text",
+            "content": "**1. Corrosion:** Degradation of metal by chemical/electrochemical reaction with environment\n\n**2. Types:**\n- Uniform (rust)\n- Galvanic (dissimilar metals)\n- Pitting (localized)\n- Crevice (in gaps)\n- Stress corrosion cracking\n\n**3. Prevention:**\n- Protective coatings (paint, plating)\n- Cathodic protection\n- Corrosion-resistant alloys\n- Control environment"
+        },
+        "explanation": "**Galvanic series** predicts which metal corrodes when two contact. More active = more corrosion."
+    },
+    {
+        "title": "Heat Treatment 🔥",
+        "ques": "1. What is annealing?\n2. What is quenching?\n3. What is tempering?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Annealing:** Heat to high temp, cool slowly\n- Effect: Softens metal, relieves stress, increases ductility\n\n**2. Quenching:** Heat then rapid cool (water/oil)\n- Effect: Hardens metal (martensite formation in steel)\n\n**3. Tempering:** Reheat quenched steel to moderate temp\n- Effect: Reduces brittleness while maintaining hardness"
+        },
+        "explanation": "**Heat treatment** alters microstructure. Quench hardening + tempering is common for tools."
+    },
+    {
+        "title": "Composites 🧬",
+        "ques": "1. What is a composite material?\n2. Examples of composites\n3. Why use composites?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Composite:** Two or more materials combined for improved properties\n- Matrix + Reinforcement\n\n**2. Examples:**\n- Fiberglass (glass fibers + polymer)\n- Carbon fiber (carbon + epoxy)\n- Concrete (cement + aggregate)\n- Plywood (wood layers)\n\n**3. Advantages:**\n- High strength-to-weight ratio\n- Corrosion resistance\n- Tailored properties\n- Design flexibility"
+        },
+        "explanation": "**Boeing 787** is 50% composite by weight. Stronger than aluminum, much lighter."
+    },
+    {
+        "title": "Polymers 🔗",
+        "ques": "1. What is a polymer?\n2. Thermoplastic vs thermoset\n3. Common polymers",
+        "answer": {
+            "type": "text",
+            "content": "**1. Polymer:** Large molecules made of repeating units (monomers)\n\n**2. Types:**\n- Thermoplastic: Soften when heated, can remold (recyclable)\n- Thermoset: Permanent shape after curing (not recyclable)\n\n**3. Common polymers:**\n- PE (polyethylene): Bags, bottles\n- PP (polypropylene): Containers, fibers\n- PVC: Pipes, cables\n- HDPE/LDPE: Varying densities"
+        },
+        "explanation": "**Recycling codes** (1-7) identify polymer type. #1 and #2 are most commonly recycled."
+    },
+    {
+        "title": "Material Selection 📋",
+        "ques": "1. Factors in material selection\n2. What is Ashby chart?\n3. Trade-offs example",
+        "answer": {
+            "type": "text",
+            "content": "**1. Selection factors:**\n- Mechanical properties (strength, stiffness)\n- Cost\n- Weight\n- Corrosion resistance\n- Manufacturability\n- Environmental impact\n\n**2. Ashby chart:** Plot of two properties (e.g., strength vs density) showing material families\n\n**3. Trade-off example:**\nAircraft: Need high strength, low weight\n- Steel: Strong but heavy\n- Aluminum: Lighter, adequate strength\n- Carbon fiber: Best ratio, most expensive"
+        },
+        "explanation": "**Ashby selection method** systematically narrows choices. No perfect material - always trade-offs."
+    }
+]

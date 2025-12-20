@@ -1,0 +1,59 @@
+{
+    "id": "learn_pollut",
+    "topicId": "pollut",
+    "topicTitle": "Pollution Control",
+    "description": "Explore air, water, soil pollution, waste management, and remediation",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "pollut_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Pollution Control 🏭\n\n## Types\n- Air pollution\n- Water pollution\n- Soil contamination\n- Waste management"
+        },
+        {
+            "id": "pollut_2",
+            "type": "content",
+            "title": "Air Pollution",
+            "content": "# Air Pollution 💨\n\n## Pollutants\n| Type | Source |\n|------|--------|\n| CO | Combustion |\n| NOx | Vehicles |\n| SO₂ | Power plants |\n| PM | Various |\n| O₃ | Secondary |\n\n## Control\n- Catalytic converters\n- Scrubbers\n- Filters"
+        },
+        {
+            "id": "pollut_3",
+            "type": "content",
+            "title": "Water Pollution",
+            "content": "# Water Pollution 💧\n\n## Sources\n| Type | Example |\n|------|--------|\n| Point | Factory discharge |\n| Non-point | Agricultural runoff |\n\n## Treatment\n- Primary: Physical\n- Secondary: Biological\n- Tertiary: Advanced"
+        },
+        {
+            "id": "pollut_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Non-point source pollution comes from:",
+            "quizOptions": [
+                "Factory pipes",
+                "Diffuse runoff",
+                "Sewage plants",
+                "Oil spills"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "pollut_4",
+            "type": "content",
+            "title": "Soil",
+            "content": "# Soil Contamination 🌍\n\n## Contaminants\n- Heavy metals\n- Pesticides\n- Oil\n- Industrial chemicals\n\n## Remediation\n| Method | How |\n|--------|-----|\n| Bioremediation | Microbes |\n| Phytoremediation | Plants |\n| Excavation | Remove soil |"
+        },
+        {
+            "id": "pollut_5",
+            "type": "content",
+            "title": "Waste",
+            "content": "# Waste Management ♻️\n\n## Hierarchy\n1. Prevent\n2. Reduce\n3. Reuse\n4. Recycle\n5. Recover\n6. Dispose\n\n## Types\n- Municipal solid\n- Hazardous\n- E-waste"
+        },
+        {
+            "id": "pollut_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Air: NOx, SO₂, PM, O₃\n- Water: Point vs non-point\n- Soil: Bioremediation\n- Waste: Reduce before dispose"
+        }
+    ]
+}

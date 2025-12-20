@@ -1,0 +1,97 @@
+{
+    "id": "learn_analy",
+    "topicId": "analy",
+    "topicTitle": "Analytical Chemistry",
+    "description": "Master stoichiometry, titrations, pH calculations, chromatography, and spectroscopy techniques",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "analy_1",
+            "type": "content",
+            "title": "Welcome to Analytical Chemistry",
+            "content": "# Introduction to Analytical Chemistry 🔬\n\nWelcome to **Analytical Chemistry** - the science of measuring and identifying chemical substances!\n\n## What you'll learn:\n- **Stoichiometry** - Quantitative relationships in chemistry\n- **Mole Concept** - Counting particles\n- **Titration** - Determining concentrations\n- **pH Calculations** - Acid-base quantification\n- **Chromatography & Spectroscopy** - Separation and identification\n\n> 💡 **Fun Fact:** Analytical chemistry can detect substances at parts per trillion - finding a single drop in an Olympic swimming pool!\n\n## Why Analytical Chemistry?\n- 🏥 **Medical testing** - Blood tests, drug levels\n- 🌊 **Environmental** - Water and air quality\n- 🍔 **Food safety** - Contaminant detection\n- ⚖️ **Forensics** - Crime scene analysis\n\n## Two Main Branches\n\n| Qualitative Analysis | Quantitative Analysis |\n|---------------------|----------------------|\n| WHAT is present? | HOW MUCH is present? |\n| Identify substances | Measure amounts |\n| Yes/No answers | Numerical answers |\n\nLet's become measurement experts!"
+        },
+        {
+            "id": "analy_2",
+            "type": "content",
+            "title": "The Mole Concept",
+            "content": "# The Mole Concept ⚗️\n\n## What is a Mole?\n\nThe mole is the chemist's counting unit.\n\n```\n1 mole = 6.022 × 10²³ particles\n        (Avogadro's number, Nₐ)\n```\n\n## Why Use Moles?\n\n| Measuring by | Problem |\n|--------------|--------|\n| Particles | Too many (10²³)! |\n| Mass | Different atoms weigh differently |\n| Moles | Allows equal particle comparison |\n\n## Molar Mass\n\nMass of 1 mole of substance (g/mol)\n\n= Sum of atomic masses from periodic table\n\n### Examples\n\n| Substance | Molar Mass |\n|-----------|------------|\n| H₂ | 2 g/mol |\n| H₂O | 18 g/mol |\n| NaCl | 58.5 g/mol |\n| CaCO₃ | 100 g/mol |\n\n## Mole Calculations\n\n### The Mole Triangle\n\n```\n        Mass (g)\n      ─────────────\n      Mole × Molar Mass\n\n    n = m/M\n    m = n × M\n```\n\n### Number of Particles\n\n```\nN = n × Nₐ\n\nn = N/Nₐ\n```\n\n## Example\n\n**How many molecules in 9 g of water?**\n\n1. Find moles: n = 9g ÷ 18 g/mol = 0.5 mol\n2. Find molecules: N = 0.5 × 6.022×10²³ = **3.01 × 10²³ molecules**\n\n> 🎯 **Key Point:** The mole bridges the atomic and macroscopic worlds!"
+        },
+        {
+            "id": "analy_3",
+            "type": "content",
+            "title": "Stoichiometry",
+            "content": "# Stoichiometry 📊\n\n## What is Stoichiometry?\n\nUsing balanced equations to calculate quantities in reactions.\n\n## Coefficients = Mole Ratios\n\n```\n2H₂ + O₂ → 2H₂O\n\nMeans:\n2 mol H₂ : 1 mol O₂ : 2 mol H₂O\n```\n\n## Problem-Solving Steps\n\n1. **Write** balanced equation\n2. **Convert** given quantity to moles\n3. **Use** mole ratio\n4. **Convert** to required units\n\n## Mass-Mass Calculations\n\n**Example: How much H₂O forms from 4 g of H₂?**\n\n```\n2H₂ + O₂ → 2H₂O\n```\n\n1. Moles H₂: n = 4g ÷ 2 g/mol = 2 mol\n2. Mole ratio: 2 mol H₂ → 2 mol H₂O (1:1)\n3. Moles H₂O: 2 mol\n4. Mass H₂O: m = 2 mol × 18 g/mol = **36 g**\n\n## Limiting Reactant\n\nThe reactant that runs out first limits the product.\n\n```\n      Excess reactant\n           ↓\n    ●●●●●● + ●●●    →    ●●● Product\n              ↑           ↑\n         Limiting      Limited by\n         reactant      this amount\n```\n\n## Percent Yield\n\n```\n% Yield = (Actual yield / Theoretical yield) × 100%\n```\n\n| Yield | Meaning |\n|-------|---------|\n| < 100% | Typical (losses occur) |\n| = 100% | Perfect (rarely achieved) |\n| > 100% | Impure product or error |\n\n> 💡 **Key Insight:** Stoichiometry connects equations to real measurements!"
+        },
+        {
+            "id": "analy_quiz_1",
+            "type": "quiz",
+            "title": "Stoichiometry Quiz",
+            "content": "Test your stoichiometry skills!",
+            "quizQuestion": "In the reaction 2H₂ + O₂ → 2H₂O, how many moles of O₂ are needed to react with 6 moles of H₂?",
+            "quizOptions": [
+                "2 moles",
+                "3 moles",
+                "6 moles",
+                "12 moles"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "analy_4",
+            "type": "content",
+            "title": "Titration",
+            "content": "# Titration 🧪\n\n## What is Titration?\n\nA technique to find unknown concentration by reacting with known solution.\n\n## Key Terms\n\n| Term | Definition |\n|------|------------|\n| **Titrant** | Solution of known concentration (in burette) |\n| **Analyte** | Solution of unknown concentration |\n| **Equivalence point** | When reaction is complete |\n| **End point** | When indicator changes color |\n| **Indicator** | Substance that shows pH change |\n\n## Titration Setup\n\n```\n    Burette (titrant)\n         │\n         ▼ Add slowly\n    ┌─────────┐\n    │ Analyte │\n    │   +     │\n    │Indicator│\n    └─────────┘\n      Flask\n```\n\n## Titration Calculations\n\nAt equivalence point:\n\n```\nM₁V₁/n₁ = M₂V₂/n₂\n\nFor 1:1 reactions:\nM₁V₁ = M₂V₂\n```\n\n## Common Indicators\n\n| Indicator | Color change | pH range |\n|-----------|--------------|----------|\n| Phenolphthalein | Colorless → Pink | 8.2-10 |\n| Methyl orange | Red → Yellow | 3.1-4.4 |\n| Litmus | Red → Blue | 5-8 |\n| Bromothymol blue | Yellow → Blue | 6-7.6 |\n\n## Example\n\n**25 mL of NaOH is titrated with 20 mL of 0.1 M HCl. Find [NaOH].**\n\nHCl + NaOH → NaCl + H₂O (1:1)\n\nM₁V₁ = M₂V₂\n0.1 × 20 = M₂ × 25\nM₂ = 2/25 = **0.08 M**\n\n> 🎯 **Tip:** Read the burette at eye level for accuracy!"
+        },
+        {
+            "id": "analy_5",
+            "type": "content",
+            "title": "pH Calculations",
+            "content": "# pH Calculations 📊\n\n## Strong Acids and Bases\n\n### Strong Acid\n```\n[H⁺] = [Acid]\npH = -log[H⁺]\n```\n\n**Example: 0.01 M HCl**\n[H⁺] = 0.01 M\npH = -log(0.01) = **2**\n\n### Strong Base\n```\n[OH⁻] = [Base]\npOH = -log[OH⁻]\npH = 14 - pOH\n```\n\n**Example: 0.1 M NaOH**\n[OH⁻] = 0.1 M\npOH = -log(0.1) = 1\npH = 14 - 1 = **13**\n\n## Weak Acids and Bases\n\nNeed equilibrium calculations!\n\n### Weak Acid\n```\nHA ⇌ H⁺ + A⁻\n\nKa = [H⁺][A⁻]/[HA]\n```\n\n**Simplified (if Ka << [HA]):**\n```\n[H⁺] = √(Ka × [HA])\n```\n\n### Weak Base\n```\nB + H₂O ⇌ BH⁺ + OH⁻\n\nKb = [BH⁺][OH⁻]/[B]\n\n[OH⁻] = √(Kb × [B])\n```\n\n## Ka and Kb Relationship\n\n```\nKa × Kb = Kw = 10⁻¹⁴\n\npKa + pKb = 14\n```\n\n## Buffer Solutions\n\nResist pH changes:\n```\nWeak acid + Its conjugate base\n\nHenderson-Hasselbalch:\npH = pKa + log([A⁻]/[HA])\n```\n\n> 💡 **Application:** Blood is buffered at pH 7.4 by carbonic acid/bicarbonate!"
+        },
+        {
+            "id": "analy_6",
+            "type": "content",
+            "title": "Chromatography",
+            "content": "# Chromatography 🌈\n\n## What is Chromatography?\n\nSeparation technique based on differential distribution between a **stationary phase** and **mobile phase**.\n\n## Key Concepts\n\n| Term | Definition |\n|------|------------|\n| **Stationary phase** | Fixed phase (paper, column) |\n| **Mobile phase** | Moving phase (solvent) |\n| **Retention** | How long substance stays |\n| **Rf value** | Distance ratio |\n\n## Types of Chromatography\n\n### Paper Chromatography\n\n```\n    Solvent front ─────────\n    \n    Component 2    ●\n    \n    Component 1    ●\n    \n    Origin ────────────────\n    \n    Rf = Distance by substance\n         ─────────────────────\n         Distance by solvent\n```\n\n### Thin Layer Chromatography (TLC)\n- Faster than paper\n- Silica gel on glass plate\n- Better resolution\n\n### Column Chromatography\n- Larger scale separation\n- Gravity-driven\n- Collect fractions\n\n### Gas Chromatography (GC)\n- For volatile compounds\n- Mobile phase: Gas (He, N₂)\n- Very sensitive\n\n### HPLC\n- High-pressure liquid\n- Very precise\n- Used in pharmaceuticals\n\n## Applications\n\n| Field | Use |\n|-------|-----|\n| Forensics | Drug testing |\n| Food science | Additive detection |\n| Pharmaceuticals | Purity testing |\n| Environmental | Pollutant analysis |\n\n> 🎯 **Key Point:** Different compounds have different affinities for stationary vs. mobile phases!"
+        },
+        {
+            "id": "analy_7",
+            "type": "content",
+            "title": "Spectroscopy Introduction",
+            "content": "# Spectroscopy 📡\n\n## What is Spectroscopy?\n\nStudying how matter interacts with electromagnetic radiation.\n\n```\n    Light in → [Sample] → Light out (changed)\n                   ↓\n            Analysis of change\n            reveals structure!\n```\n\n## Types of Spectroscopy\n\n| Type | Region | What it reveals |\n|------|--------|----------------|\n| UV-Vis | Ultraviolet/Visible | Electronic transitions |\n| IR | Infrared | Bond vibrations |\n| NMR | Radio waves | Atomic environments |\n| Mass Spec | (Not EM) | Molecular mass/fragments |\n\n## Beer-Lambert Law (UV-Vis)\n\n```\nA = εbc\n\nA = Absorbance\nε = Molar absorptivity\nb = Path length\nc = Concentration\n```\n\n## UV-Vis Spectroscopy\n\n- Measures absorption at specific wavelengths\n- Colored compounds absorb visible light\n- Used for concentration measurements\n\n## Applications\n\n| Application | Spectroscopy used |\n|-------------|-------------------|\n| Identify functional groups | IR |\n| Measure concentration | UV-Vis |\n| Determine structure | NMR, Mass Spec |\n| Study metals | Atomic Absorption |\n| Environmental analysis | Multiple |\n\n## Basic Principle\n\nMolecules absorb specific wavelengths → Characteristic \"fingerprint\"\n\n> 💡 **Key Insight:** Every compound has a unique spectroscopic signature!"
+        },
+        {
+            "id": "analy_quiz_2",
+            "type": "quiz",
+            "title": "Analytical Techniques Quiz",
+            "content": "Test your knowledge of analytical techniques!",
+            "quizQuestion": "In paper chromatography, a higher Rf value indicates:",
+            "quizOptions": [
+                "Stronger attraction to stationary phase",
+                "Stronger attraction to mobile phase",
+                "Larger molecule size",
+                "Higher concentration"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "analy_8",
+            "type": "content",
+            "title": "Infrared Spectroscopy",
+            "content": "# Infrared (IR) Spectroscopy 🌡️\n\n## How IR Works\n\n1. IR light absorbed by molecular bonds\n2. Bonds vibrate (stretch, bend)\n3. Each bond type absorbs specific frequencies\n4. Creates characteristic absorption pattern\n\n## IR Spectrum\n\n```\n% Transmittance\n   100│──────╲  ╱────╲────────\n      │       ╲╱      ╲_____\n      │       Peaks indicate\n      │       bond absorptions\n    0 │\n      └─────────────────────────→\n       4000                    400\n            Wavenumber (cm⁻¹)\n```\n\n## Key Absorption Bands\n\n| Functional Group | Wavenumber (cm⁻¹) | Appearance |\n|-----------------|-------------------|------------|\n| O─H (alcohol) | 3200-3600 | Broad |\n| O─H (acid) | 2500-3300 | Very broad |\n| N─H | 3300-3500 | Medium |\n| C─H | 2850-3000 | Strong |\n| C≡N | 2100-2260 | Sharp |\n| C≡C | 2100-2260 | Weak |\n| C═O | 1650-1750 | Strong! |\n| C═C | 1600-1680 | Variable |\n| C─O | 1000-1300 | Strong |\n\n## Reading an IR Spectrum\n\n### \"Fingerprint region\" (< 1500 cm⁻¹)\n- Complex pattern\n- Unique to each compound\n\n### \"Functional group region\" (> 1500 cm⁻¹)\n- Identify specific groups\n\n## Example Analysis\n\n**Peaks at:**\n- 3400 cm⁻¹ (broad) → O─H present\n- 1700 cm⁻¹ (strong) → C═O present\n\n**Conclusion:** Likely a carboxylic acid!\n\n> 🎯 **Key Tip:** Always look for the carbonyl (C═O) peak around 1700 cm⁻¹ - it's distinctive!"
+        },
+        {
+            "id": "analy_9",
+            "type": "content",
+            "title": "Mass Spectrometry",
+            "content": "# Mass Spectrometry 📊\n\n## How Mass Spec Works\n\n```\n1. Ionization: Molecules → Ions (M⁺)\n2. Acceleration: Electric field\n3. Separation: By mass-to-charge (m/z)\n4. Detection: Record abundance\n```\n\n## Mass Spectrum\n\n```\nRelative\nabundance\n   │  ●   Base peak (100%)\n   │  │\n   │  │      ● M⁺ (molecular ion)\n   │  │      │\n   │  │  ●   │\n   │  │  │   │\n   └──┴──┴───┴──→ m/z\n```\n\n## Key Features\n\n| Peak | Meaning |\n|------|--------|\n| **Molecular ion (M⁺)** | Molecular mass |\n| **Base peak** | Most abundant fragment (= 100%) |\n| **M+1, M+2** | Isotope peaks |\n| **Fragmentation** | Smaller ions from breaking bonds |\n\n## Fragmentation Patterns\n\nCommon fragments:\n\n| Mass loss | Fragment lost |\n|-----------|---------------|\n| 15 | CH₃ (methyl) |\n| 17 | OH |\n| 18 | H₂O |\n| 28 | CO or C₂H₄ |\n| 29 | CHO |\n| 45 | OC₂H₅ or CHO₂ |\n\n## Example\n\n**M⁺ at m/z = 46, base peak at 31**\n\n- Molecular mass = 46 → Could be C₂H₆O (ethanol)\n- Loss of 15 (46-31) → Lost CH₃\n- Remaining fragment: CHO⁺\n\n## Applications\n\n| Field | Use |\n|-------|-----|\n| Drug testing | Identify compounds |\n| Forensics | Trace evidence |\n| Proteomics | Protein identification |\n| Environmental | Pollutant detection |\n\n> 💡 **Power:** Mass spec can identify unknown compounds from a few molecules!"
+        },
+        {
+            "id": "analy_10",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Analytical Chemistry! Here's what you've mastered:\n\n## Mole Concept & Stoichiometry\n- ✅ Avogadro's number: 6.022 × 10²³\n- ✅ Moles: n = m/M\n- ✅ Using mole ratios from balanced equations\n- ✅ Limiting reactant and percent yield\n\n## Titration\n- ✅ M₁V₁ = M₂V₂ (for 1:1 reactions)\n- ✅ Indicators show endpoint\n- ✅ Burette technique\n\n## pH Calculations\n- ✅ pH = -log[H⁺]\n- ✅ Strong acids: [H⁺] = [Acid]\n- ✅ Weak acids: [H⁺] = √(Ka × [HA])\n- ✅ Buffer: pH = pKa + log([A⁻]/[HA])\n\n## Chromatography\n- ✅ Separation by stationary/mobile phase affinity\n- ✅ Rf = distance substance/distance solvent\n- ✅ Types: Paper, TLC, Column, GC, HPLC\n\n## Spectroscopy\n- ✅ UV-Vis: Electronic transitions, Beer's Law\n- ✅ IR: Bond vibrations, functional groups\n- ✅ Mass Spec: Molecular mass, fragmentation\n\n## The Analytical Mindset\n\n> *\"Measure what is measurable, and make measurable what is not so.\"* - Galileo\n\n> 🚀 **Next Steps:** Explore Environmental Chemistry to apply these techniques to real-world problems!\n\nYou now have the tools to identify and quantify chemical substances!"
+        }
+    ]
+}

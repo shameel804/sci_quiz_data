@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Solving Linear Equations 🔢",
+        "ques": "Solve for x:\n1. 3x + 7 = 22\n2. 2(x - 3) = 4x + 8",
+        "answer": {
+            "type": "text",
+            "content": "**1.**\n```\n3x + 7 = 22\n3x = 15\nx = 5\n```\n\n**2.**\n```\n2(x - 3) = 4x + 8\n2x - 6 = 4x + 8\n-14 = 2x\nx = -7\n```"
+        },
+        "explanation": "**Linear equations** balance equal signs. Whatever you do to one side, do to the other."
+    },
+    {
+        "title": "Quadratic Equations 📈",
+        "ques": "Solve x² - 5x + 6 = 0 using:\n1. Factoring\n2. Quadratic formula",
+        "answer": {
+            "type": "text",
+            "content": "**1. Factoring:**\n```\n(x - 2)(x - 3) = 0\nx = 2 or x = 3\n```\n\n**2. Quadratic formula:**\n```\nx = (-b ± √(b²-4ac))/2a\nx = (5 ± √(25-24))/2\nx = (5 ± 1)/2\nx = 3 or x = 2\n```"
+        },
+        "explanation": "**Quadratic formula** always works: x = (-b ± √(b²-4ac))/2a. Discriminant determines number of solutions."
+    },
+    {
+        "title": "Matrix Operations 📊",
+        "ques": "For A = [[1,2],[3,4]] and B = [[5,6],[7,8]]:\n1. Calculate A + B\n2. Calculate A × B",
+        "answer": {
+            "type": "text",
+            "content": "**1. A + B:**\n```\n[[1+5, 2+6], [3+7, 4+8]]\n= [[6, 8], [10, 12]]\n```\n\n**2. A × B:**\n```\n[[1×5+2×7, 1×6+2×8], [3×5+4×7, 3×6+4×8]]\n= [[19, 22], [43, 50]]\n```"
+        },
+        "explanation": "**Matrix multiplication** is row × column. Order matters: A×B ≠ B×A generally."
+    },
+    {
+        "title": "Functions and Graphs 📉",
+        "ques": "For f(x) = 2x² - 4x + 1:\n1. Find vertex\n2. Find y-intercept\n3. Is parabola opening up or down?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Vertex:** x = -b/2a = 4/4 = 1\nf(1) = 2(1) - 4(1) + 1 = -1\nVertex: **(1, -1)**\n\n**2. Y-intercept:** f(0) = 1, so **(0, 1)**\n\n**3. Opens up** (coefficient of x² is positive)"
+        },
+        "explanation": "**Parabola properties:** a > 0 opens up; vertex formula x = -b/2a; y-intercept is c when f(x) = ax² + bx + c."
+    },
+    {
+        "title": "Linear Inequalities 📏",
+        "ques": "Solve and graph:\n1. 2x - 5 < 7\n2. -3x + 6 ≥ 0",
+        "answer": {
+            "type": "text",
+            "content": "**1.**\n```\n2x - 5 < 7\n2x < 12\nx < 6\n```\nGraph: Open circle at 6, shade left\n\n**2.**\n```\n-3x + 6 ≥ 0\n-3x ≥ -6\nx ≤ 2 (flip inequality when dividing by negative!)\n```\nGraph: Closed circle at 2, shade left"
+        },
+        "explanation": "**Key rule:** Flip inequality sign when multiplying/dividing by negative number."
+    },
+    {
+        "title": "Systems of Equations 🔗",
+        "ques": "Solve:\n- 2x + y = 7\n- x - y = 2",
+        "answer": {
+            "type": "text",
+            "content": "**Method: Addition**\n```\n  2x + y = 7\n+ x - y = 2\n-----------\n  3x = 9\n  x = 3\n\nSubstitute: 3 - y = 2\ny = 1\n```\n**Solution: (3, 1)**"
+        },
+        "explanation": "**Systems** can be solved by substitution, elimination (addition), or graphing."
+    }
+]

@@ -1,0 +1,6376 @@
+[
+    {
+        "q": "What is a limit in calculus?",
+        "type": "mcq",
+        "o": [
+            "The value a function approaches as input approaches a point",
+            "The maximum value of a function",
+            "The derivative of a function",
+            "The integral of a function"
+        ]
+    },
+    {
+        "q": "The limit of f(x) as x approaches a is written as lim(x->a) f(x).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is lim(x->2) (3x + 1)?",
+        "type": "mcq",
+        "o": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ]
+    },
+    {
+        "q": "A limit exists only if left and right limits are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "different",
+            "positive",
+            "negative"
+        ]
+    },
+    {
+        "q": "What is the left-hand limit?",
+        "type": "mcq",
+        "o": [
+            "The limit as x approaches from values less than a",
+            "The limit as x approaches from values greater than a",
+            "The maximum value",
+            "The minimum value"
+        ]
+    },
+    {
+        "q": "Match the limit notation:",
+        "type": "match",
+        "left": [
+            "lim(x->a-)",
+            "lim(x->a+)",
+            "lim(x->infinity)",
+            "lim(x->a)"
+        ],
+        "right": [
+            "Left limit",
+            "Right limit",
+            "Limit at infinity",
+            "Two-sided limit"
+        ]
+    },
+    {
+        "q": "What is lim(x->0) (sin(x)/x)?",
+        "type": "mcq",
+        "o": [
+            "1",
+            "0",
+            "infinity",
+            "undefined"
+        ]
+    },
+    {
+        "q": "The limit sin(x)/x as x approaches 0 is a famous ______ limit.",
+        "type": "fill_blank",
+        "answers": [
+            "standard"
+        ],
+        "other_options": [
+            "unknown",
+            "impossible",
+            "basic"
+        ]
+    },
+    {
+        "q": "If lim f(x) = L as x->a, f is continuous at a if f(a) = L.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange limit concepts from basic to advanced:",
+        "type": "rearrange",
+        "words": [
+            "Limit definition",
+            "Left/right limits",
+            "Limit laws",
+            "L'Hopital's rule",
+            "Epsilon-delta"
+        ]
+    },
+    {
+        "q": "What is L'Hopital's rule used for?",
+        "type": "mcq",
+        "o": [
+            "Evaluating limits of indeterminate forms",
+            "Finding derivatives",
+            "Computing integrals",
+            "Solving equations"
+        ]
+    },
+    {
+        "q": "L'Hopital's rule applies to 0/0 and ______/______ forms.",
+        "type": "fill_blank",
+        "answers": [
+            "infinity"
+        ],
+        "other_options": [
+            "1",
+            "0",
+            "2"
+        ]
+    },
+    {
+        "q": "What is a continuous function?",
+        "type": "mcq",
+        "o": [
+            "A function with no breaks, jumps, or holes",
+            "Any function",
+            "Only linear functions",
+            "Only polynomial functions"
+        ]
+    },
+    {
+        "q": "A polynomial function is continuous ______.",
+        "type": "fill_blank",
+        "answers": [
+            "everywhere"
+        ],
+        "other_options": [
+            "nowhere",
+            "at one point",
+            "sometimes"
+        ]
+    },
+    {
+        "q": "Match the function type with continuity:",
+        "type": "match",
+        "left": [
+            "Polynomial",
+            "Rational",
+            "sin(x)",
+            "|x|"
+        ],
+        "right": [
+            "Continuous everywhere",
+            "Continuous except at zeros of denominator",
+            "Continuous everywhere",
+            "Continuous everywhere"
+        ]
+    },
+    {
+        "q": "What is a derivative?",
+        "type": "mcq",
+        "o": [
+            "The instantaneous rate of change of a function",
+            "The area under a curve",
+            "The maximum value",
+            "The average value"
+        ]
+    },
+    {
+        "q": "The derivative of f at x is defined as lim(h->0) [f(x+h) - f(x)] / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "h"
+        ],
+        "other_options": [
+            "x",
+            "2",
+            "f"
+        ]
+    },
+    {
+        "q": "f'(x) is the notation for the derivative of f.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is d/dx (x^2)?",
+        "type": "mcq",
+        "o": [
+            "2x",
+            "x^2",
+            "2",
+            "x"
+        ]
+    },
+    {
+        "q": "The power rule states d/dx (x^n) = n * x^(n-1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange derivative rules by importance:",
+        "type": "rearrange",
+        "words": [
+            "Power rule",
+            "Product rule",
+            "Quotient rule",
+            "Chain rule",
+            "Implicit differentiation"
+        ]
+    },
+    {
+        "q": "What is d/dx (x^3)?",
+        "type": "mcq",
+        "o": [
+            "3x^2",
+            "x^3",
+            "3x",
+            "x^2"
+        ]
+    },
+    {
+        "q": "The derivative of a constant is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "the constant",
+            "undefined"
+        ]
+    },
+    {
+        "q": "What is d/dx (5)?",
+        "type": "mcq",
+        "o": [
+            "0",
+            "5",
+            "1",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Match the function with its derivative:",
+        "type": "match",
+        "left": [
+            "x^2",
+            "x^3",
+            "x",
+            "constant"
+        ],
+        "right": [
+            "2x",
+            "3x^2",
+            "1",
+            "0"
+        ]
+    },
+    {
+        "q": "What is the sum rule for derivatives?",
+        "type": "mcq",
+        "o": [
+            "d/dx (f + g) = f' + g'",
+            "d/dx (f + g) = f * g",
+            "d/dx (f + g) = f' * g'",
+            "d/dx (f + g) = f/g"
+        ]
+    },
+    {
+        "q": "The derivative of 3x^2 + 2x is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6x + 2"
+        ],
+        "other_options": [
+            "3x + 2",
+            "6x^2 + 2",
+            "6x"
+        ]
+    },
+    {
+        "q": "What is the product rule?",
+        "type": "mcq",
+        "o": [
+            "d/dx (f*g) = f'*g + f*g'",
+            "d/dx (f*g) = f' * g'",
+            "d/dx (f*g) = f + g",
+            "d/dx (f*g) = f - g"
+        ]
+    },
+    {
+        "q": "The product rule is also known as the ______ rule.",
+        "type": "fill_blank",
+        "answers": [
+            "Leibniz"
+        ],
+        "other_options": [
+            "Newton",
+            "Euler",
+            "Gauss"
+        ]
+    },
+    {
+        "q": "Rearrange differentiation steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify the function",
+            "Choose appropriate rule",
+            "Apply the rule",
+            "Simplify",
+            "Check the answer"
+        ]
+    },
+    {
+        "q": "What is the quotient rule?",
+        "type": "mcq",
+        "o": [
+            "d/dx (f/g) = (f'*g - f*g') / g^2",
+            "d/dx (f/g) = f'/g'",
+            "d/dx (f/g) = f' + g'",
+            "d/dx (f/g) = f' - g'"
+        ]
+    },
+    {
+        "q": "The quotient rule requires g(x) is not equal to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "infinity",
+            "x"
+        ]
+    },
+    {
+        "q": "What is the chain rule?",
+        "type": "mcq",
+        "o": [
+            "d/dx f(g(x)) = f'(g(x)) * g'(x)",
+            "d/dx f(g(x)) = f'(x) * g'(x)",
+            "d/dx f(g(x)) = f(g'(x))",
+            "d/dx f(g(x)) = f + g"
+        ]
+    },
+    {
+        "q": "The chain rule is used for ______ functions.",
+        "type": "fill_blank",
+        "answers": [
+            "composite"
+        ],
+        "other_options": [
+            "simple",
+            "linear",
+            "constant"
+        ]
+    },
+    {
+        "q": "What is d/dx sin(x)?",
+        "type": "mcq",
+        "o": [
+            "cos(x)",
+            "-sin(x)",
+            "-cos(x)",
+            "tan(x)"
+        ]
+    },
+    {
+        "q": "Match the trig function with its derivative:",
+        "type": "match",
+        "left": [
+            "sin(x)",
+            "cos(x)",
+            "tan(x)",
+            "sec(x)"
+        ],
+        "right": [
+            "cos(x)",
+            "-sin(x)",
+            "sec^2(x)",
+            "sec(x)tan(x)"
+        ]
+    },
+    {
+        "q": "What is d/dx cos(x)?",
+        "type": "mcq",
+        "o": [
+            "-sin(x)",
+            "sin(x)",
+            "cos(x)",
+            "-cos(x)"
+        ]
+    },
+    {
+        "q": "The derivative of tan(x) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sec^2(x)"
+        ],
+        "other_options": [
+            "cos^2(x)",
+            "sin^2(x)",
+            "cot(x)"
+        ]
+    },
+    {
+        "q": "What is d/dx e^x?",
+        "type": "mcq",
+        "o": [
+            "e^x",
+            "x*e^(x-1)",
+            "e",
+            "1"
+        ]
+    },
+    {
+        "q": "The exponential function e^x is its own ______.",
+        "type": "fill_blank",
+        "answers": [
+            "derivative"
+        ],
+        "other_options": [
+            "integral",
+            "inverse",
+            "limit"
+        ]
+    },
+    {
+        "q": "Rearrange exponential and log derivatives:",
+        "type": "rearrange",
+        "words": [
+            "e^x -> e^x",
+            "a^x -> a^x * ln(a)",
+            "ln(x) -> 1/x",
+            "log_a(x) -> 1/(x*ln(a))"
+        ]
+    },
+    {
+        "q": "What is d/dx ln(x)?",
+        "type": "mcq",
+        "o": [
+            "1/x",
+            "x",
+            "ln(x)",
+            "e^x"
+        ]
+    },
+    {
+        "q": "The derivative of ln(x) is defined for x > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "-1",
+            "infinity"
+        ]
+    },
+    {
+        "q": "What is implicit differentiation?",
+        "type": "mcq",
+        "o": [
+            "Differentiating equations not solved for y",
+            "Explicit differentiation",
+            "Integration",
+            "Simplification"
+        ]
+    },
+    {
+        "q": "For x^2 + y^2 = 25, implicit differentiation gives 2x + 2y*y' = 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match differentiation technique with use case:",
+        "type": "match",
+        "left": [
+            "Power rule",
+            "Chain rule",
+            "Implicit",
+            "Logarithmic"
+        ],
+        "right": [
+            "Simple polynomials",
+            "Composite functions",
+            "Implicit equations",
+            "Complex products/quotients"
+        ]
+    },
+    {
+        "q": "What is a critical point?",
+        "type": "mcq",
+        "o": [
+            "A point where f'(x) = 0 or f'(x) is undefined",
+            "Any point on the curve",
+            "Only maximum points",
+            "Only minimum points"
+        ]
+    },
+    {
+        "q": "At a local maximum, f'(x) changes from positive to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "negative"
+        ],
+        "other_options": [
+            "positive",
+            "zero",
+            "undefined"
+        ]
+    },
+    {
+        "q": "At a local minimum, f'(x) changes from negative to positive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the second derivative test?",
+        "type": "mcq",
+        "o": [
+            "Uses f''(x) to determine if critical point is max or min",
+            "Uses f'(x) only",
+            "Uses the original function",
+            "Uses integration"
+        ]
+    },
+    {
+        "q": "Rearrange optimization steps:",
+        "type": "rearrange",
+        "words": [
+            "Find f'(x)",
+            "Set f'(x) = 0",
+            "Find critical points",
+            "Test with second derivative",
+            "Determine max/min"
+        ]
+    },
+    {
+        "q": "If f''(x) > 0 at a critical point, the point is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "minimum"
+        ],
+        "other_options": [
+            "maximum",
+            "inflection",
+            "saddle"
+        ]
+    },
+    {
+        "q": "If f''(x) < 0 at a critical point, the point is a maximum.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an inflection point?",
+        "type": "mcq",
+        "o": [
+            "A point where concavity changes",
+            "A maximum point",
+            "A minimum point",
+            "An endpoint"
+        ]
+    },
+    {
+        "q": "At an inflection point, f''(x) = ______ or changes sign.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "-1",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Match the concavity with the second derivative:",
+        "type": "match",
+        "left": [
+            "Concave up",
+            "Concave down",
+            "Inflection point",
+            "Linear"
+        ],
+        "right": [
+            "f'' > 0",
+            "f'' < 0",
+            "f'' = 0 or changes sign",
+            "f'' = 0"
+        ]
+    },
+    {
+        "q": "What is an integral?",
+        "type": "mcq",
+        "o": [
+            "The reverse of differentiation or area under curve",
+            "The same as a derivative",
+            "A limit",
+            "A maximum value"
+        ]
+    },
+    {
+        "q": "The integral of f(x) is denoted by the symbol ______.",
+        "type": "fill_blank",
+        "answers": [
+            "∫"
+        ],
+        "other_options": [
+            "d/dx",
+            "lim",
+            "Σ"
+        ]
+    },
+    {
+        "q": "What is ∫ x^2 dx?",
+        "type": "mcq",
+        "o": [
+            "x^3/3 + C",
+            "2x + C",
+            "x^2 + C",
+            "x^3 + C"
+        ]
+    },
+    {
+        "q": "The power rule for integration states ∫ x^n dx = x^(n+1)/(n+1) + C for n ≠ ______.",
+        "type": "fill_blank",
+        "answers": [
+            "-1"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "2"
+        ]
+    },
+    {
+        "q": "Rearrange integration concepts:",
+        "type": "rearrange",
+        "words": [
+            "Antiderivative",
+            "Indefinite integral",
+            "Definite integral",
+            "Fundamental theorem",
+            "Techniques"
+        ]
+    },
+    {
+        "q": "What is ∫ 1/x dx?",
+        "type": "mcq",
+        "o": [
+            "ln|x| + C",
+            "1/x^2 + C",
+            "x + C",
+            "-1/x + C"
+        ]
+    },
+    {
+        "q": "The constant of integration is denoted by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "C"
+        ],
+        "other_options": [
+            "K",
+            "A",
+            "I"
+        ]
+    },
+    {
+        "q": "What is ∫ e^x dx?",
+        "type": "mcq",
+        "o": [
+            "e^x + C",
+            "x*e^x + C",
+            "e^(x+1) + C",
+            "ln(x) + C"
+        ]
+    },
+    {
+        "q": "Match the function with its integral:",
+        "type": "match",
+        "left": [
+            "x^2",
+            "1/x",
+            "e^x",
+            "cos(x)"
+        ],
+        "right": [
+            "x^3/3 + C",
+            "ln|x| + C",
+            "e^x + C",
+            "sin(x) + C"
+        ]
+    },
+    {
+        "q": "What is ∫ cos(x) dx?",
+        "type": "mcq",
+        "o": [
+            "sin(x) + C",
+            "-sin(x) + C",
+            "cos(x) + C",
+            "-cos(x) + C"
+        ]
+    },
+    {
+        "q": "The integral of sin(x) is -cos(x) + C.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a definite integral?",
+        "type": "mcq",
+        "o": [
+            "An integral with upper and lower bounds",
+            "An integral without bounds",
+            "A derivative",
+            "A limit"
+        ]
+    },
+    {
+        "q": "The definite integral ∫[a to b] f(x) dx represents the ______ under f from a to b.",
+        "type": "fill_blank",
+        "answers": [
+            "area"
+        ],
+        "other_options": [
+            "slope",
+            "derivative",
+            "limit"
+        ]
+    },
+    {
+        "q": "Rearrange integration steps for definite integrals:",
+        "type": "rearrange",
+        "words": [
+            "Find antiderivative",
+            "Evaluate at upper bound",
+            "Evaluate at lower bound",
+            "Subtract",
+            "Simplify"
+        ]
+    },
+    {
+        "q": "What is the Fundamental Theorem of Calculus?",
+        "type": "mcq",
+        "o": [
+            "Connects differentiation and integration",
+            "Only about derivatives",
+            "Only about integrals",
+            "About limits only"
+        ]
+    },
+    {
+        "q": "The FTC Part 1 states d/dx ∫[a to x] f(t) dt = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "f(x)"
+        ],
+        "other_options": [
+            "f(a)",
+            "f'(x)",
+            "∫f(x)"
+        ]
+    },
+    {
+        "q": "∫[a to b] f(x) dx = F(b) - F(a) where F is an antiderivative of f.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ∫[0 to 1] x^2 dx?",
+        "type": "mcq",
+        "o": [
+            "1/3",
+            "1",
+            "1/2",
+            "2/3"
+        ]
+    },
+    {
+        "q": "Match the integration technique with its use:",
+        "type": "match",
+        "left": [
+            "Substitution",
+            "By parts",
+            "Partial fractions",
+            "Trig substitution"
+        ],
+        "right": [
+            "Chain rule reverse",
+            "Product rule reverse",
+            "Rational functions",
+            "sqrt terms"
+        ]
+    },
+    {
+        "q": "What is u-substitution?",
+        "type": "mcq",
+        "o": [
+            "A technique using substitution to simplify integrals",
+            "A derivative technique",
+            "A limit technique",
+            "A graphing method"
+        ]
+    },
+    {
+        "q": "U-substitution is the reverse of the ______ rule.",
+        "type": "fill_blank",
+        "answers": [
+            "chain"
+        ],
+        "other_options": [
+            "product",
+            "quotient",
+            "power"
+        ]
+    },
+    {
+        "q": "What is integration by parts?",
+        "type": "mcq",
+        "o": [
+            "∫ u dv = uv - ∫ v du",
+            "∫ u dv = u + v",
+            "∫ u dv = uv",
+            "∫ u dv = u - v"
+        ]
+    },
+    {
+        "q": "Integration by parts is the reverse of the ______ rule.",
+        "type": "fill_blank",
+        "answers": [
+            "product"
+        ],
+        "other_options": [
+            "chain",
+            "quotient",
+            "power"
+        ]
+    },
+    {
+        "q": "Rearrange LIATE priority for choosing u:",
+        "type": "rearrange",
+        "words": [
+            "Logarithmic",
+            "Inverse trig",
+            "Algebraic",
+            "Trigonometric",
+            "Exponential"
+        ]
+    },
+    {
+        "q": "What is a differential equation?",
+        "type": "mcq",
+        "o": [
+            "An equation involving derivatives",
+            "An equation with numbers only",
+            "An integral equation",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "The order of a differential equation is the ______ derivative present.",
+        "type": "fill_blank",
+        "answers": [
+            "highest"
+        ],
+        "other_options": [
+            "lowest",
+            "first",
+            "average"
+        ]
+    },
+    {
+        "q": "dy/dx = y is a first-order differential equation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the solution to dy/dx = y?",
+        "type": "mcq",
+        "o": [
+            "y = Ce^x",
+            "y = x",
+            "y = x^2",
+            "y = ln(x)"
+        ]
+    },
+    {
+        "q": "Match the DE type with solution method:",
+        "type": "match",
+        "left": [
+            "Separable",
+            "First-order linear",
+            "Homogeneous",
+            "Exact"
+        ],
+        "right": [
+            "Separate and integrate",
+            "Integrating factor",
+            "Substitution",
+            "Check exactness condition"
+        ]
+    },
+    {
+        "q": "A separable equation can be written as f(y)dy = g(x)dx.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the equation of exponential growth?",
+        "type": "mcq",
+        "o": [
+            "dy/dt = ky where k > 0",
+            "dy/dt = -ky",
+            "dy/dt = k",
+            "dy/dt = y^2"
+        ]
+    },
+    {
+        "q": "The solution to dy/dt = ky is y = y_0 * e^(kt).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange differential equation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Order and degree",
+            "Solution types",
+            "Initial conditions",
+            "Existence and uniqueness",
+            "Stability"
+        ]
+    },
+    {
+        "q": "An initial value problem specifies the value of y at a specific point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the integrating factor for dy/dx + P(x)y = Q(x)?",
+        "type": "mcq",
+        "o": [
+            "e^(∫P(x)dx)",
+            "P(x)",
+            "Q(x)",
+            "e^x"
+        ]
+    },
+    {
+        "q": "For dy/dx + 2y = e^x, the integrating factor is e^(2x).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The general solution to a first-order linear DE has ______ arbitrary constant(s).",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "zero",
+            "two",
+            "three"
+        ]
+    },
+    {
+        "q": "Match the physical application with DE type:",
+        "type": "match",
+        "left": [
+            "Population growth",
+            "Cooling",
+            "Spring motion",
+            "Circuits"
+        ],
+        "right": [
+            "Exponential",
+            "Newton's law",
+            "Second-order",
+            "First-order linear"
+        ]
+    },
+    {
+        "q": "What is the mean value theorem?",
+        "type": "mcq",
+        "o": [
+            "There exists c in (a,b) where f'(c) = (f(b)-f(a))/(b-a)",
+            "f has a maximum on [a,b]",
+            "f is continuous everywhere",
+            "f'(x) is always positive"
+        ]
+    },
+    {
+        "q": "The Mean Value Theorem requires f to be continuous on ______ and differentiable on (a,b).",
+        "type": "fill_blank",
+        "answers": [
+            "[a,b]"
+        ],
+        "other_options": [
+            "(a,b)",
+            "{a,b}",
+            "all reals"
+        ]
+    },
+    {
+        "q": "Rolle's theorem is a special case of the Mean Value Theorem where f(a) = f(b).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Rolle's theorem?",
+        "type": "mcq",
+        "o": [
+            "If f(a) = f(b), there exists c where f'(c) = 0",
+            "f always has a maximum",
+            "f is always increasing",
+            "f'(x) > 0"
+        ]
+    },
+    {
+        "q": "Rearrange calculus theorems by importance:",
+        "type": "rearrange",
+        "words": [
+            "Fundamental Theorem",
+            "Mean Value Theorem",
+            "Rolle's Theorem",
+            "Extreme Value Theorem",
+            "Intermediate Value Theorem"
+        ]
+    },
+    {
+        "q": "What is the Extreme Value Theorem?",
+        "type": "mcq",
+        "o": [
+            "A continuous function on [a,b] attains its max and min",
+            "f is always positive",
+            "f has no extrema",
+            "f is differentiable"
+        ]
+    },
+    {
+        "q": "The Intermediate Value Theorem says if f is continuous on [a,b] and k is between f(a) and f(b), then f(c) = k for some c.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem with its conclusion:",
+        "type": "match",
+        "left": [
+            "Mean Value",
+            "Rolle's",
+            "Extreme Value",
+            "Intermediate Value"
+        ],
+        "right": [
+            "Slope equals average",
+            "f'(c) = 0",
+            "Max and min exist",
+            "f takes all intermediate values"
+        ]
+    },
+    {
+        "q": "What is related rates?",
+        "type": "mcq",
+        "o": [
+            "Finding rates of change of related quantities",
+            "Finding derivatives only",
+            "Integration technique",
+            "Limit technique"
+        ]
+    },
+    {
+        "q": "In related rates, we use ______ differentiation.",
+        "type": "fill_blank",
+        "answers": [
+            "implicit"
+        ],
+        "other_options": [
+            "explicit",
+            "partial",
+            "total"
+        ]
+    },
+    {
+        "q": "Rearrange related rates problem solving steps:",
+        "type": "rearrange",
+        "words": [
+            "Draw diagram",
+            "Identify variables",
+            "Write equation",
+            "Differentiate with respect to t",
+            "Substitute and solve"
+        ]
+    },
+    {
+        "q": "What is linear approximation?",
+        "type": "mcq",
+        "o": [
+            "Approximating f(x) near a using f(a) + f'(a)(x-a)",
+            "Finding exact values",
+            "Integration",
+            "Finding limits"
+        ]
+    },
+    {
+        "q": "The linearization of f at a is L(x) = f(a) + ______(x-a).",
+        "type": "fill_blank",
+        "answers": [
+            "f'(a)"
+        ],
+        "other_options": [
+            "f(a)",
+            "f''(a)",
+            "x"
+        ]
+    },
+    {
+        "q": "What is a differential?",
+        "type": "mcq",
+        "o": [
+            "dy = f'(x)dx",
+            "The same as derivative",
+            "An integral",
+            "A limit"
+        ]
+    },
+    {
+        "q": "Differentials are used to approximate ______ in f.",
+        "type": "fill_blank",
+        "answers": [
+            "changes"
+        ],
+        "other_options": [
+            "maxima",
+            "minima",
+            "limits"
+        ]
+    },
+    {
+        "q": "Match the approximation technique:",
+        "type": "match",
+        "left": [
+            "Linearization",
+            "Differential",
+            "Taylor polynomial",
+            "Newton's method"
+        ],
+        "right": [
+            "First-order approximation",
+            "Small change approximation",
+            "Higher-order approximation",
+            "Root finding"
+        ]
+    },
+    {
+        "q": "What is Newton's method?",
+        "type": "mcq",
+        "o": [
+            "An iterative method to find roots: x_{n+1} = x_n - f(x_n)/f'(x_n)",
+            "A direct formula for roots",
+            "An integration method",
+            "A differentiation method"
+        ]
+    },
+    {
+        "q": "Newton's method converges ______ near simple roots.",
+        "type": "fill_blank",
+        "answers": [
+            "quadratically"
+        ],
+        "other_options": [
+            "linearly",
+            "slowly",
+            "never"
+        ]
+    },
+    {
+        "q": "Rearrange numerical methods for equations:",
+        "type": "rearrange",
+        "words": [
+            "Bisection",
+            "Newton's method",
+            "Secant method",
+            "Fixed point iteration"
+        ]
+    },
+    {
+        "q": "What is a Taylor series?",
+        "type": "mcq",
+        "o": [
+            "An infinite series representation of f(x) around a point",
+            "A finite sum",
+            "An integral",
+            "A derivative"
+        ]
+    },
+    {
+        "q": "The Taylor series of f at a is sum of f^(n)(a)(x-a)^n / ______!",
+        "type": "fill_blank",
+        "answers": [
+            "n"
+        ],
+        "other_options": [
+            "2",
+            "x",
+            "a"
+        ]
+    },
+    {
+        "q": "A Maclaurin series is a Taylor series centered at a = 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Maclaurin series for e^x?",
+        "type": "mcq",
+        "o": [
+            "1 + x + x^2/2! + x^3/3! + ...",
+            "1 - x + x^2 - x^3 + ...",
+            "x - x^3/3! + x^5/5! - ...",
+            "1 - x^2/2! + x^4/4! - ..."
+        ]
+    },
+    {
+        "q": "Match the function with its Maclaurin series:",
+        "type": "match",
+        "left": [
+            "e^x",
+            "sin(x)",
+            "cos(x)",
+            "1/(1-x)"
+        ],
+        "right": [
+            "sum x^n/n!",
+            "x - x^3/3! + ...",
+            "1 - x^2/2! + ...",
+            "1 + x + x^2 + ..."
+        ]
+    },
+    {
+        "q": "The radius of convergence determines where the series ______.",
+        "type": "fill_blank",
+        "answers": [
+            "converges"
+        ],
+        "other_options": [
+            "diverges",
+            "equals zero",
+            "is undefined"
+        ]
+    },
+    {
+        "q": "What is the ratio test?",
+        "type": "mcq",
+        "o": [
+            "If |a_{n+1}/a_n| -> L < 1, the series converges absolutely",
+            "All series converge",
+            "A test for derivatives",
+            "An integration test"
+        ]
+    },
+    {
+        "q": "Rearrange convergence tests:",
+        "type": "rearrange",
+        "words": [
+            "Divergence test",
+            "Ratio test",
+            "Root test",
+            "Integral test",
+            "Comparison test"
+        ]
+    },
+    {
+        "q": "What is an improper integral?",
+        "type": "mcq",
+        "o": [
+            "An integral with infinite limits or discontinuous integrand",
+            "Any definite integral",
+            "An indefinite integral",
+            "A derivative"
+        ]
+    },
+    {
+        "q": "∫[1 to infinity] 1/x^2 dx = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "infinity",
+            "0",
+            "undefined"
+        ]
+    },
+    {
+        "q": "∫[1 to infinity] 1/x dx diverges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "For ∫[1 to infinity] 1/x^p dx, the integral converges if p > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "-1"
+        ]
+    },
+    {
+        "q": "Match the improper integral with its value:",
+        "type": "match",
+        "left": [
+            "∫[1,inf] 1/x^2",
+            "∫[0,1] 1/sqrt(x)",
+            "∫[1,inf] 1/x",
+            "∫[0,inf] e^(-x)"
+        ],
+        "right": [
+            "1",
+            "2",
+            "diverges",
+            "1"
+        ]
+    },
+    {
+        "q": "What is partial fraction decomposition?",
+        "type": "mcq",
+        "o": [
+            "Breaking a rational function into simpler fractions",
+            "Finding derivatives",
+            "Taylor expansion",
+            "Limit evaluation"
+        ]
+    },
+    {
+        "q": "Partial fractions is used for integrating ______ functions.",
+        "type": "fill_blank",
+        "answers": [
+            "rational"
+        ],
+        "other_options": [
+            "polynomial",
+            "exponential",
+            "trigonometric"
+        ]
+    },
+    {
+        "q": "For distinct linear factors, use A/(x-a) + B/(x-b) + ...",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange partial fraction cases:",
+        "type": "rearrange",
+        "words": [
+            "Distinct linear",
+            "Repeated linear",
+            "Distinct quadratic",
+            "Repeated quadratic"
+        ]
+    },
+    {
+        "q": "What is trigonometric substitution?",
+        "type": "mcq",
+        "o": [
+            "Substituting x = a*sin(t), a*tan(t), or a*sec(t) for sqrt expressions",
+            "Any substitution",
+            "u-substitution only",
+            "Integration by parts"
+        ]
+    },
+    {
+        "q": "For sqrt(a^2 - x^2), use x = a*______(t).",
+        "type": "fill_blank",
+        "answers": [
+            "sin"
+        ],
+        "other_options": [
+            "tan",
+            "sec",
+            "cos"
+        ]
+    },
+    {
+        "q": "For sqrt(x^2 - a^2), use x = a*sec(t).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sqrt form with the substitution:",
+        "type": "match",
+        "left": [
+            "sqrt(a^2 - x^2)",
+            "sqrt(a^2 + x^2)",
+            "sqrt(x^2 - a^2)",
+            "sqrt(1 - x^2)"
+        ],
+        "right": [
+            "x = a*sin(t)",
+            "x = a*tan(t)",
+            "x = a*sec(t)",
+            "x = sin(t)"
+        ]
+    },
+    {
+        "q": "What is arc length?",
+        "type": "mcq",
+        "o": [
+            "The length of a curve from a to b",
+            "The area under a curve",
+            "The derivative",
+            "The maximum value"
+        ]
+    },
+    {
+        "q": "Arc length formula is ∫[a to b] sqrt(1 + (f'(x))^2) dx.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The arc length of y = x from 0 to 1 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sqrt(2)"
+        ],
+        "other_options": [
+            "1",
+            "2",
+            "pi"
+        ]
+    },
+    {
+        "q": "Rearrange curve applications:",
+        "type": "rearrange",
+        "words": [
+            "Arc length",
+            "Surface area",
+            "Volume of revolution",
+            "Center of mass"
+        ]
+    },
+    {
+        "q": "What is a surface of revolution?",
+        "type": "mcq",
+        "o": [
+            "A surface obtained by rotating a curve around an axis",
+            "Any surface",
+            "A flat surface",
+            "A sphere only"
+        ]
+    },
+    {
+        "q": "The surface area of revolution around x-axis is ∫ 2*pi*f(x)*sqrt(1+(f'(x))^2) dx.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the solid of revolution with its volume formula:",
+        "type": "match",
+        "left": [
+            "Disk method",
+            "Washer method",
+            "Shell method",
+            "Cross-section"
+        ],
+        "right": [
+            "pi*r^2*dx",
+            "pi*(R^2-r^2)*dx",
+            "2*pi*r*h*dx",
+            "A(x)*dx"
+        ]
+    },
+    {
+        "q": "What is the disk method?",
+        "type": "mcq",
+        "o": [
+            "Volume by integrating pi*r^2 where r = f(x)",
+            "Area calculation",
+            "Arc length",
+            "Surface area"
+        ]
+    },
+    {
+        "q": "The disk method is used when revolving around the ______ of the region.",
+        "type": "fill_blank",
+        "answers": [
+            "boundary"
+        ],
+        "other_options": [
+            "center",
+            "middle",
+            "edge"
+        ]
+    },
+    {
+        "q": "What is the shell method?",
+        "type": "mcq",
+        "o": [
+            "Volume by integrating 2*pi*r*h",
+            "Same as disk method",
+            "Arc length method",
+            "Surface area method"
+        ]
+    },
+    {
+        "q": "Shell method uses cylindrical shells ______ to the axis.",
+        "type": "fill_blank",
+        "answers": [
+            "parallel"
+        ],
+        "other_options": [
+            "perpendicular",
+            "tangent",
+            "adjacent"
+        ]
+    },
+    {
+        "q": "Rearrange volume methods by axis orientation:",
+        "type": "rearrange",
+        "words": [
+            "Disk (perpendicular)",
+            "Washer (perpendicular)",
+            "Shell (parallel)",
+            "Cross-section"
+        ]
+    },
+    {
+        "q": "What is work in calculus?",
+        "type": "mcq",
+        "o": [
+            "W = ∫ F(x) dx",
+            "W = F * d only",
+            "W = mass * velocity",
+            "W = area"
+        ]
+    },
+    {
+        "q": "Work done by a variable force is computed using ______.",
+        "type": "fill_blank",
+        "answers": [
+            "integration"
+        ],
+        "other_options": [
+            "differentiation",
+            "limits",
+            "summation only"
+        ]
+    },
+    {
+        "q": "Hooke's law states F = kx for springs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The work to stretch a spring from x=0 to x=a is (1/2)ka^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the physics application with integral:",
+        "type": "match",
+        "left": [
+            "Work",
+            "Fluid pressure",
+            "Center of mass",
+            "Moments"
+        ],
+        "right": [
+            "∫F dx",
+            "∫rho*g*depth*A dA",
+            "∫x*rho dA / ∫rho dA",
+            "∫x*f(x) dx"
+        ]
+    },
+    {
+        "q": "What is a parametric curve?",
+        "type": "mcq",
+        "o": [
+            "A curve defined by x(t) and y(t) as functions of parameter t",
+            "A curve y = f(x) only",
+            "A circle only",
+            "A line only"
+        ]
+    },
+    {
+        "q": "For parametric curves, dy/dx = (dy/dt) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(dx/dt)"
+        ],
+        "other_options": [
+            "dt",
+            "dx",
+            "dy"
+        ]
+    },
+    {
+        "q": "The arc length of a parametric curve is ∫ sqrt((dx/dt)^2 + (dy/dt)^2) dt.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange parametric curve concepts:",
+        "type": "rearrange",
+        "words": [
+            "Parametric equations",
+            "Derivatives",
+            "Arc length",
+            "Surface area",
+            "Eliminating parameter"
+        ]
+    },
+    {
+        "q": "What is a polar curve?",
+        "type": "mcq",
+        "o": [
+            "A curve defined by r = f(theta)",
+            "A Cartesian curve only",
+            "A parametric curve only",
+            "A line"
+        ]
+    },
+    {
+        "q": "In polar coordinates, x = r*cos(theta) and y = r*______.",
+        "type": "fill_blank",
+        "answers": [
+            "sin(theta)"
+        ],
+        "other_options": [
+            "cos(theta)",
+            "tan(theta)",
+            "sec(theta)"
+        ]
+    },
+    {
+        "q": "The area in polar coordinates is (1/2) ∫ r^2 d(theta).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the polar curve with its shape:",
+        "type": "match",
+        "left": [
+            "r = a",
+            "r = a*cos(theta)",
+            "r = a*(1 + cos(theta))",
+            "r = a*sin(2*theta)"
+        ],
+        "right": [
+            "Circle centered at origin",
+            "Circle through origin",
+            "Cardioid",
+            "Four-petal rose"
+        ]
+    },
+    {
+        "q": "What is a cardioid?",
+        "type": "mcq",
+        "o": [
+            "A heart-shaped curve r = a(1 + cos(theta))",
+            "A circle",
+            "A line",
+            "An ellipse"
+        ]
+    },
+    {
+        "q": "A rose curve r = a*sin(n*theta) has ______ petals when n is odd.",
+        "type": "fill_blank",
+        "answers": [
+            "n"
+        ],
+        "other_options": [
+            "2n",
+            "n/2",
+            "n+1"
+        ]
+    },
+    {
+        "q": "Rearrange polar curve types:",
+        "type": "rearrange",
+        "words": [
+            "Circle",
+            "Cardioid",
+            "Limacon",
+            "Rose",
+            "Spiral"
+        ]
+    },
+    {
+        "q": "What is a sequence?",
+        "type": "mcq",
+        "o": [
+            "An ordered list of numbers following a pattern",
+            "An unordered set",
+            "A function only",
+            "An integral"
+        ]
+    },
+    {
+        "q": "A sequence {a_n} converges if lim(n->infinity) a_n ______.",
+        "type": "fill_blank",
+        "answers": [
+            "exists"
+        ],
+        "other_options": [
+            "is infinite",
+            "is undefined",
+            "oscillates"
+        ]
+    },
+    {
+        "q": "The sequence a_n = 1/n converges to 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a series?",
+        "type": "mcq",
+        "o": [
+            "The sum of terms of a sequence",
+            "A sequence itself",
+            "A product of terms",
+            "A difference of terms"
+        ]
+    },
+    {
+        "q": "Match the sequence with its limit:",
+        "type": "match",
+        "left": [
+            "1/n",
+            "(1+1/n)^n",
+            "(-1)^n",
+            "n/(n+1)"
+        ],
+        "right": [
+            "0",
+            "e",
+            "does not exist",
+            "1"
+        ]
+    },
+    {
+        "q": "A geometric series sum r^n from n=0 to infinity converges if |r| < ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "infinity"
+        ]
+    },
+    {
+        "q": "The sum of geometric series a/(1-r) for |r| < 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a harmonic series?",
+        "type": "mcq",
+        "o": [
+            "The series sum 1/n from n=1 to infinity",
+            "Any convergent series",
+            "A geometric series",
+            "An alternating series"
+        ]
+    },
+    {
+        "q": "The harmonic series ______ (converges/diverges).",
+        "type": "fill_blank",
+        "answers": [
+            "diverges"
+        ],
+        "other_options": [
+            "converges",
+            "equals 1",
+            "equals e"
+        ]
+    },
+    {
+        "q": "Rearrange series types by convergence behavior:",
+        "type": "rearrange",
+        "words": [
+            "Geometric (depends on r)",
+            "p-series (p>1 converges)",
+            "Harmonic (diverges)",
+            "Alternating harmonic (converges)"
+        ]
+    },
+    {
+        "q": "What is the p-series?",
+        "type": "mcq",
+        "o": [
+            "sum 1/n^p from n=1 to infinity",
+            "sum p^n",
+            "sum n^p",
+            "sum p/n"
+        ]
+    },
+    {
+        "q": "The p-series converges if p > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "-1"
+        ]
+    },
+    {
+        "q": "What is the alternating series test?",
+        "type": "mcq",
+        "o": [
+            "sum (-1)^n * b_n converges if b_n decreases to 0",
+            "All alternating series converge",
+            "No alternating series converges",
+            "Same as ratio test"
+        ]
+    },
+    {
+        "q": "Match the convergence test with its condition:",
+        "type": "match",
+        "left": [
+            "Ratio test",
+            "Root test",
+            "Integral test",
+            "Alternating series"
+        ],
+        "right": [
+            "|a_{n+1}/a_n| < 1",
+            "|a_n|^(1/n) < 1",
+            "∫f(x)dx converges",
+            "b_n decreasing to 0"
+        ]
+    },
+    {
+        "q": "What is absolute convergence?",
+        "type": "mcq",
+        "o": [
+            "sum |a_n| converges",
+            "sum a_n converges",
+            "a_n -> 0",
+            "The series is geometric"
+        ]
+    },
+    {
+        "q": "Absolute convergence implies ______ convergence.",
+        "type": "fill_blank",
+        "answers": [
+            "conditional"
+        ],
+        "other_options": [
+            "absolute",
+            "no",
+            "divergent"
+        ]
+    },
+    {
+        "q": "A conditionally convergent series converges but not absolutely.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The alternating harmonic series is conditionally convergent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange convergence concepts:",
+        "type": "rearrange",
+        "words": [
+            "Divergence",
+            "Conditional convergence",
+            "Absolute convergence",
+            "Uniform convergence"
+        ]
+    },
+    {
+        "q": "What is a power series?",
+        "type": "mcq",
+        "o": [
+            "sum c_n * (x-a)^n",
+            "sum c_n only",
+            "A polynomial",
+            "An exponential"
+        ]
+    },
+    {
+        "q": "The radius of convergence R is found using the ______ test.",
+        "type": "fill_blank",
+        "answers": [
+            "ratio"
+        ],
+        "other_options": [
+            "divergence",
+            "comparison",
+            "alternating"
+        ]
+    },
+    {
+        "q": "A power series converges absolutely for |x-a| < R.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the power series operation:",
+        "type": "match",
+        "left": [
+            "Differentiation",
+            "Integration",
+            "Multiplication",
+            "Substitution"
+        ],
+        "right": [
+            "Term by term valid in interval",
+            "Term by term valid in interval",
+            "Cauchy product",
+            "Replace x by g(x)"
+        ]
+    },
+    {
+        "q": "What is a second-order differential equation?",
+        "type": "mcq",
+        "o": [
+            "An equation involving y, y', and y''",
+            "An equation with only y",
+            "A first-order equation",
+            "An integral equation"
+        ]
+    },
+    {
+        "q": "The general solution to y'' + y = 0 is y = A*cos(x) + B*______.",
+        "type": "fill_blank",
+        "answers": [
+            "sin(x)"
+        ],
+        "other_options": [
+            "cos(x)",
+            "e^x",
+            "x"
+        ]
+    },
+    {
+        "q": "y'' - y = 0 has solution y = Ae^x + Be^(-x).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange DE solution methods:",
+        "type": "rearrange",
+        "words": [
+            "Characteristic equation",
+            "Undetermined coefficients",
+            "Variation of parameters",
+            "Reduction of order"
+        ]
+    },
+    {
+        "q": "What is the characteristic equation?",
+        "type": "mcq",
+        "o": [
+            "The algebraic equation obtained by substituting y = e^(rx)",
+            "The original DE",
+            "Always r^2 = 0",
+            "A polynomial in y"
+        ]
+    },
+    {
+        "q": "For y'' + ay' + by = 0, the characteristic equation is r^2 + ar + b = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "r",
+            "y"
+        ]
+    },
+    {
+        "q": "If the characteristic equation has complex roots a +/- bi, the solution involves sin and cos.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the root type with the solution form:",
+        "type": "match",
+        "left": [
+            "Distinct real roots",
+            "Repeated real roots",
+            "Complex conjugate",
+            "Zero roots"
+        ],
+        "right": [
+            "Ae^(r1*x) + Be^(r2*x)",
+            "(A + Bx)e^(rx)",
+            "e^(ax)(A*cos(bx) + B*sin(bx))",
+            "A + Bx"
+        ]
+    },
+    {
+        "q": "What is the method of undetermined coefficients?",
+        "type": "mcq",
+        "o": [
+            "Guessing the particular solution form based on the forcing function",
+            "An exact method",
+            "Always uses integration",
+            "Only for homogeneous equations"
+        ]
+    },
+    {
+        "q": "For y'' + y = sin(x), we guess y_p = x*______ due to resonance.",
+        "type": "fill_blank",
+        "answers": [
+            "(A*cos(x) + B*sin(x))"
+        ],
+        "other_options": [
+            "sin(x)",
+            "cos(x)",
+            "e^x"
+        ]
+    },
+    {
+        "q": "Variation of parameters works for any continuous forcing function.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange forcing function types:",
+        "type": "rearrange",
+        "words": [
+            "Polynomial",
+            "Exponential",
+            "Trigonometric",
+            "Polynomial * Exponential",
+            "Resonance cases"
+        ]
+    },
+    {
+        "q": "What is a Laplace transform?",
+        "type": "mcq",
+        "o": [
+            "An integral transform L{f} = ∫[0 to inf] f(t)e^(-st) dt",
+            "A derivative",
+            "An indefinite integral",
+            "A Taylor series"
+        ]
+    },
+    {
+        "q": "L{e^(at)} = 1/(s-a) for s > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "a"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "-a"
+        ]
+    },
+    {
+        "q": "L{1} = 1/s.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Laplace transform:",
+        "type": "match",
+        "left": [
+            "L{1}",
+            "L{t}",
+            "L{e^(at)}",
+            "L{sin(bt)}"
+        ],
+        "right": [
+            "1/s",
+            "1/s^2",
+            "1/(s-a)",
+            "b/(s^2+b^2)"
+        ]
+    },
+    {
+        "q": "What is L{f'(t)}?",
+        "type": "mcq",
+        "o": [
+            "s*L{f} - f(0)",
+            "L{f}/s",
+            "s*L{f}",
+            "L{f} - 1"
+        ]
+    },
+    {
+        "q": "The Laplace transform converts DEs to ______ equations.",
+        "type": "fill_blank",
+        "answers": [
+            "algebraic"
+        ],
+        "other_options": [
+            "differential",
+            "integral",
+            "partial"
+        ]
+    },
+    {
+        "q": "Rearrange Laplace transform properties:",
+        "type": "rearrange",
+        "words": [
+            "Linearity",
+            "First derivative",
+            "Second derivative",
+            "Shifting",
+            "Convolution"
+        ]
+    },
+    {
+        "q": "What is the convolution theorem?",
+        "type": "mcq",
+        "o": [
+            "L{f * g} = L{f} * L{g} where * is convolution",
+            "L{f + g} = L{f} + L{g}",
+            "L{fg} = L{f}L{g}",
+            "No such theorem"
+        ]
+    },
+    {
+        "q": "The inverse Laplace transform of 1/(s^2+1) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sin(t)"
+        ],
+        "other_options": [
+            "cos(t)",
+            "e^t",
+            "t"
+        ]
+    },
+    {
+        "q": "What is partial differentiation?",
+        "type": "mcq",
+        "o": [
+            "Differentiating a function with respect to one variable holding others constant",
+            "Total differentiation",
+            "Single variable differentiation",
+            "Integration"
+        ]
+    },
+    {
+        "q": "For f(x,y) = x^2*y, the partial f_x = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2xy"
+        ],
+        "other_options": [
+            "x^2",
+            "y",
+            "2x"
+        ]
+    },
+    {
+        "q": "Mixed partial derivatives f_xy = f_yx if they are continuous.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "This is called Clairaut's theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multivariable concept:",
+        "type": "match",
+        "left": [
+            "Partial derivative",
+            "Gradient",
+            "Directional derivative",
+            "Divergence"
+        ],
+        "right": [
+            "df/dx holding y constant",
+            "Vector of partials",
+            "Rate in direction u",
+            "div F = f_x + g_y + h_z"
+        ]
+    },
+    {
+        "q": "What is the gradient of f(x,y)?",
+        "type": "mcq",
+        "o": [
+            "The vector (f_x, f_y)",
+            "The scalar f_x + f_y",
+            "f_x * f_y",
+            "f_x - f_y"
+        ]
+    },
+    {
+        "q": "The gradient points in the direction of ______ increase.",
+        "type": "fill_blank",
+        "answers": [
+            "steepest"
+        ],
+        "other_options": [
+            "slowest",
+            "zero",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange gradient applications:",
+        "type": "rearrange",
+        "words": [
+            "Direction of steepest ascent",
+            "Perpendicular to level curves",
+            "Finding tangent plane",
+            "Optimization"
+        ]
+    },
+    {
+        "q": "What is the directional derivative?",
+        "type": "mcq",
+        "o": [
+            "The rate of change in direction u: D_u f = grad f dot u",
+            "Only partial derivatives",
+            "The gradient itself",
+            "An integral"
+        ]
+    },
+    {
+        "q": "For unit vector u, D_u f = grad f dot ______.",
+        "type": "fill_blank",
+        "answers": [
+            "u"
+        ],
+        "other_options": [
+            "grad f",
+            "x",
+            "y"
+        ]
+    },
+    {
+        "q": "What is a double integral?",
+        "type": "mcq",
+        "o": [
+            "An integral over a 2D region",
+            "Two single integrals multiplied",
+            "An integral squared",
+            "A derivative"
+        ]
+    },
+    {
+        "q": "∫∫_R dA gives the ______ of region R.",
+        "type": "fill_blank",
+        "answers": [
+            "area"
+        ],
+        "other_options": [
+            "volume",
+            "perimeter",
+            "derivative"
+        ]
+    },
+    {
+        "q": "Fubini's theorem allows changing order of integration for continuous functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multiple integral with its application:",
+        "type": "match",
+        "left": [
+            "Double integral",
+            "Triple integral",
+            "Line integral",
+            "Surface integral"
+        ],
+        "right": [
+            "Area, mass of 2D region",
+            "Volume, mass of 3D region",
+            "Work along curve",
+            "Flux through surface"
+        ]
+    },
+    {
+        "q": "What is a triple integral?",
+        "type": "mcq",
+        "o": [
+            "An integral over a 3D region",
+            "Three single integrals",
+            "A 2D integral cubed",
+            "A derivative"
+        ]
+    },
+    {
+        "q": "∫∫∫_E dV gives the ______ of region E.",
+        "type": "fill_blank",
+        "answers": [
+            "volume"
+        ],
+        "other_options": [
+            "area",
+            "surface area",
+            "perimeter"
+        ]
+    },
+    {
+        "q": "Rearrange coordinate systems for integration:",
+        "type": "rearrange",
+        "words": [
+            "Cartesian",
+            "Polar",
+            "Cylindrical",
+            "Spherical"
+        ]
+    },
+    {
+        "q": "In polar coordinates, dA = r dr d(theta).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In cylindrical coordinates, dV = r dr d(theta) ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dz"
+        ],
+        "other_options": [
+            "dr",
+            "d(theta)",
+            "r"
+        ]
+    },
+    {
+        "q": "In spherical coordinates, dV = rho^2 sin(phi) d(rho) d(phi) d(theta).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a line integral?",
+        "type": "mcq",
+        "o": [
+            "An integral along a curve",
+            "A straight line",
+            "A derivative",
+            "A surface integral"
+        ]
+    },
+    {
+        "q": "Match the coordinate system with its Jacobian:",
+        "type": "match",
+        "left": [
+            "Polar",
+            "Cylindrical",
+            "Spherical",
+            "General"
+        ],
+        "right": [
+            "r",
+            "r",
+            "rho^2 sin(phi)",
+            "det(Jacobian matrix)"
+        ]
+    },
+    {
+        "q": "What is Green's theorem?",
+        "type": "mcq",
+        "o": [
+            "Relates line integral around curve to double integral over region",
+            "About derivatives only",
+            "Only for 3D",
+            "Same as FTC"
+        ]
+    },
+    {
+        "q": "Green's theorem: ∮_C (P dx + Q dy) = ∫∫_R (Q_x - ______) dA.",
+        "type": "fill_blank",
+        "answers": [
+            "P_y"
+        ],
+        "other_options": [
+            "Q_y",
+            "P_x",
+            "Q"
+        ]
+    },
+    {
+        "q": "Rearrange vector calculus theorems:",
+        "type": "rearrange",
+        "words": [
+            "Green's theorem",
+            "Stokes' theorem",
+            "Divergence theorem",
+            "FTC for line integrals"
+        ]
+    },
+    {
+        "q": "What is Stokes' theorem?",
+        "type": "mcq",
+        "o": [
+            "∮_C F dot dr = ∫∫_S curl F dot dS",
+            "Same as Green's",
+            "Only about divergence",
+            "About derivatives"
+        ]
+    },
+    {
+        "q": "Stokes' theorem generalizes ______ theorem to 3D.",
+        "type": "fill_blank",
+        "answers": [
+            "Green's"
+        ],
+        "other_options": [
+            "Euler's",
+            "Newton's",
+            "Taylor's"
+        ]
+    },
+    {
+        "q": "What is the divergence theorem?",
+        "type": "mcq",
+        "o": [
+            "∫∫_S F dot dS = ∫∫∫_E div F dV",
+            "Same as Stokes'",
+            "Only for 2D",
+            "About curl"
+        ]
+    },
+    {
+        "q": "The divergence theorem is also called ______ theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "Gauss's"
+        ],
+        "other_options": [
+            "Green's",
+            "Stokes'",
+            "Newton's"
+        ]
+    },
+    {
+        "q": "Match the theorem with its regions:",
+        "type": "match",
+        "left": [
+            "FTC",
+            "Green's",
+            "Stokes'",
+            "Divergence"
+        ],
+        "right": [
+            "Interval [a,b]",
+            "2D region with curve",
+            "Surface with boundary curve",
+            "3D region with boundary surface"
+        ]
+    },
+    {
+        "q": "What is curl F for F = (P, Q, R)?",
+        "type": "mcq",
+        "o": [
+            "(R_y - Q_z, P_z - R_x, Q_x - P_y)",
+            "P_x + Q_y + R_z",
+            "(P, Q, R)",
+            "P + Q + R"
+        ]
+    },
+    {
+        "q": "Curl F = 0 implies F is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conservative"
+        ],
+        "other_options": [
+            "constant",
+            "zero",
+            "divergent"
+        ]
+    },
+    {
+        "q": "A conservative vector field has a potential function f where F = grad f.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is div F for F = (P, Q, R)?",
+        "type": "mcq",
+        "o": [
+            "P_x + Q_y + R_z",
+            "(R_y - Q_z, P_z - R_x, Q_x - P_y)",
+            "(P, Q, R)",
+            "P * Q * R"
+        ]
+    },
+    {
+        "q": "Rearrange vector calculus operators:",
+        "type": "rearrange",
+        "words": [
+            "Gradient (scalar to vector)",
+            "Divergence (vector to scalar)",
+            "Curl (vector to vector)",
+            "Laplacian (scalar to scalar)"
+        ]
+    },
+    {
+        "q": "The Laplacian is defined as div(grad f) = f_xx + f_yy + f_zz.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Laplace's equation is Laplacian f = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "f",
+            "delta"
+        ]
+    },
+    {
+        "q": "What is a partial differential equation?",
+        "type": "mcq",
+        "o": [
+            "An equation involving partial derivatives",
+            "An ordinary DE",
+            "An integral equation",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "Match the PDE with its name:",
+        "type": "match",
+        "left": [
+            "u_xx + u_yy = 0",
+            "u_t = k*u_xx",
+            "u_tt = c^2*u_xx",
+            "u_t + u*u_x = 0"
+        ],
+        "right": [
+            "Laplace's equation",
+            "Heat equation",
+            "Wave equation",
+            "Burgers' equation"
+        ]
+    },
+    {
+        "q": "The heat equation models ______ diffusion.",
+        "type": "fill_blank",
+        "answers": [
+            "heat"
+        ],
+        "other_options": [
+            "wave",
+            "fluid",
+            "particle"
+        ]
+    },
+    {
+        "q": "The wave equation has solutions of the form f(x - ct) + g(x + ct).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange PDEs by order of complexity:",
+        "type": "rearrange",
+        "words": [
+            "Laplace",
+            "Heat",
+            "Wave",
+            "Schrodinger",
+            "Navier-Stokes"
+        ]
+    },
+    {
+        "q": "What is Fourier series?",
+        "type": "mcq",
+        "o": [
+            "Representation of a periodic function as sum of sines and cosines",
+            "A Taylor series",
+            "A power series",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "The Fourier series of f has coefficients a_n and b_n computed by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "integration"
+        ],
+        "other_options": [
+            "differentiation",
+            "limits",
+            "summation"
+        ]
+    },
+    {
+        "q": "A function has a convergent Fourier series if it satisfies Dirichlet conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Fourier concept:",
+        "type": "match",
+        "left": [
+            "a_0",
+            "a_n",
+            "b_n",
+            "Complex form"
+        ],
+        "right": [
+            "Constant term",
+            "Cosine coefficients",
+            "Sine coefficients",
+            "c_n e^(inx)"
+        ]
+    },
+    {
+        "q": "What is the Fourier transform?",
+        "type": "mcq",
+        "o": [
+            "An integral transform from time to frequency domain",
+            "Same as Laplace",
+            "A discrete transform",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "F{f}(w) = ∫ f(t) e^(-i*w*t) dt from -infinity to infinity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The inverse Fourier transform recovers f from F{f}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange transform types:",
+        "type": "rearrange",
+        "words": [
+            "Fourier transform",
+            "Laplace transform",
+            "Z-transform",
+            "Wavelet transform"
+        ]
+    },
+    {
+        "q": "What is separation of variables?",
+        "type": "mcq",
+        "o": [
+            "A technique assuming solution is product of single-variable functions",
+            "Integration by parts",
+            "Substitution",
+            "Series solution"
+        ]
+    },
+    {
+        "q": "Separation of variables is commonly used for ______ PDEs.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "nonlinear",
+            "all",
+            "first-order"
+        ]
+    },
+    {
+        "q": "For the heat equation u_t = k*u_xx, we assume u = X(x)*T(t).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PDE method with its application:",
+        "type": "match",
+        "left": [
+            "Separation of variables",
+            "Fourier series",
+            "Laplace transform",
+            "Green's function"
+        ],
+        "right": [
+            "Product solutions",
+            "Periodic boundary",
+            "t-domain to s-domain",
+            "Point source response"
+        ]
+    },
+    {
+        "q": "What is a boundary value problem?",
+        "type": "mcq",
+        "o": [
+            "A DE with conditions specified at boundaries",
+            "An initial value problem",
+            "No conditions",
+            "Integration problem"
+        ]
+    },
+    {
+        "q": "Dirichlet boundary conditions specify the ______ on the boundary.",
+        "type": "fill_blank",
+        "answers": [
+            "function value"
+        ],
+        "other_options": [
+            "derivative",
+            "integral",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Neumann boundary conditions specify the derivative on the boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange boundary condition types:",
+        "type": "rearrange",
+        "words": [
+            "Dirichlet (value)",
+            "Neumann (derivative)",
+            "Robin (mixed)",
+            "Cauchy (both)"
+        ]
+    },
+    {
+        "q": "What is an eigenvalue problem?",
+        "type": "mcq",
+        "o": [
+            "Finding values lambda where Ax = lambda*x has non-trivial solutions",
+            "Solving any equation",
+            "Integration",
+            "Differentiation"
+        ]
+    },
+    {
+        "q": "Eigenfunctions in Sturm-Liouville problems are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "orthogonal"
+        ],
+        "other_options": [
+            "parallel",
+            "equal",
+            "zero"
+        ]
+    },
+    {
+        "q": "sin(n*pi*x/L) are eigenfunctions for the heat equation on [0,L] with Dirichlet BCs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the equation with its eigenfunctions:",
+        "type": "match",
+        "left": [
+            "Heat equation (Dirichlet)",
+            "Wave equation (Dirichlet)",
+            "Bessel's equation",
+            "Legendre's equation"
+        ],
+        "right": [
+            "sin(n*pi*x/L)",
+            "sin(n*pi*x/L)",
+            "Bessel functions",
+            "Legendre polynomials"
+        ]
+    },
+    {
+        "q": "What is the method of characteristics?",
+        "type": "mcq",
+        "o": [
+            "Solving PDEs by following characteristic curves",
+            "Separation of variables",
+            "Fourier method",
+            "Laplace method"
+        ]
+    },
+    {
+        "q": "The method of characteristics is especially useful for ______ PDEs.",
+        "type": "fill_blank",
+        "answers": [
+            "first-order"
+        ],
+        "other_options": [
+            "second-order",
+            "elliptic",
+            "parabolic"
+        ]
+    },
+    {
+        "q": "Along characteristics, a first-order PDE reduces to an ODE.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange PDE types by geometry:",
+        "type": "rearrange",
+        "words": [
+            "Elliptic (Laplace)",
+            "Parabolic (Heat)",
+            "Hyperbolic (Wave)",
+            "Mixed type"
+        ]
+    },
+    {
+        "q": "What is a Green's function?",
+        "type": "mcq",
+        "o": [
+            "The response to a unit impulse (delta function)",
+            "Any function",
+            "A polynomial",
+            "An exponential"
+        ]
+    },
+    {
+        "q": "Green's function G satisfies L[G] = delta(x - x_0).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The solution to Lu = f is u = ∫ G(x, x_0) f(x_0) dx_0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Green's function application:",
+        "type": "match",
+        "left": [
+            "Poisson equation",
+            "Heat equation",
+            "Wave equation",
+            "Helmholtz"
+        ],
+        "right": [
+            "Electrostatics",
+            "Heat conduction",
+            "Acoustics",
+            "Scattering"
+        ]
+    },
+    {
+        "q": "What is the variational formulation?",
+        "type": "mcq",
+        "o": [
+            "Expressing a PDE as minimization of a functional",
+            "Just integration",
+            "Differentiation only",
+            "No connection to PDEs"
+        ]
+    },
+    {
+        "q": "The Euler-Lagrange equation arises from minimizing ∫ L(x, y, y') dx.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Euler-Lagrange equation is d/dx (dL/dy') - dL/dy = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "L",
+            "y"
+        ]
+    },
+    {
+        "q": "Rearrange variational concepts:",
+        "type": "rearrange",
+        "words": [
+            "Functional",
+            "Variation",
+            "Euler-Lagrange",
+            "Hamilton's principle",
+            "Finite elements"
+        ]
+    },
+    {
+        "q": "What is the calculus of variations?",
+        "type": "mcq",
+        "o": [
+            "Finding functions that optimize functionals",
+            "Regular calculus",
+            "Numerical methods only",
+            "Algebra"
+        ]
+    },
+    {
+        "q": "The brachistochrone problem finds the curve of ______ descent.",
+        "type": "fill_blank",
+        "answers": [
+            "fastest"
+        ],
+        "other_options": [
+            "slowest",
+            "steepest",
+            "gentlest"
+        ]
+    },
+    {
+        "q": "The solution to the brachistochrone is a cycloid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the variational problem with its solution:",
+        "type": "match",
+        "left": [
+            "Brachistochrone",
+            "Geodesic on sphere",
+            "Minimal surface",
+            "Catenary"
+        ],
+        "right": [
+            "Cycloid",
+            "Great circle",
+            "Soap film",
+            "Hyperbolic cosine"
+        ]
+    },
+    {
+        "q": "What is Hamilton's principle?",
+        "type": "mcq",
+        "o": [
+            "The path taken minimizes the action integral",
+            "Force equals mass times acceleration only",
+            "Energy is constant",
+            "Momentum is conserved"
+        ]
+    },
+    {
+        "q": "The action is S = ∫ L dt where L = T - V.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "L = T - V where T is ______ energy and V is potential energy.",
+        "type": "fill_blank",
+        "answers": [
+            "kinetic"
+        ],
+        "other_options": [
+            "total",
+            "thermal",
+            "elastic"
+        ]
+    },
+    {
+        "q": "Rearrange mechanics formulations:",
+        "type": "rearrange",
+        "words": [
+            "Newtonian",
+            "Lagrangian",
+            "Hamiltonian",
+            "Hamilton-Jacobi"
+        ]
+    },
+    {
+        "q": "What is a vector field?",
+        "type": "mcq",
+        "o": [
+            "An assignment of a vector to each point in space",
+            "A scalar function",
+            "A single vector",
+            "A matrix"
+        ]
+    },
+    {
+        "q": "F(x,y) = (P(x,y), Q(x,y)) is a 2D ______ field.",
+        "type": "fill_blank",
+        "answers": [
+            "vector"
+        ],
+        "other_options": [
+            "scalar",
+            "tensor",
+            "matrix"
+        ]
+    },
+    {
+        "q": "Wind velocity over a region is an example of a vector field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the field with its type:",
+        "type": "match",
+        "left": [
+            "Temperature",
+            "Velocity",
+            "Pressure",
+            "Electric field"
+        ],
+        "right": [
+            "Scalar",
+            "Vector",
+            "Scalar",
+            "Vector"
+        ]
+    },
+    {
+        "q": "What is a flow line?",
+        "type": "mcq",
+        "o": [
+            "A curve tangent to the vector field at every point",
+            "Any curve",
+            "A straight line",
+            "A circle"
+        ]
+    },
+    {
+        "q": "Flow lines are found by solving dr/dt = F(r).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The flow lines of F = (y, -x) are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "circles"
+        ],
+        "other_options": [
+            "lines",
+            "spirals",
+            "hyperbolas"
+        ]
+    },
+    {
+        "q": "Rearrange vector field concepts:",
+        "type": "rearrange",
+        "words": [
+            "Vector field",
+            "Flow lines",
+            "Line integrals",
+            "Conservative fields",
+            "Potential functions"
+        ]
+    },
+    {
+        "q": "A field F is conservative if there exists f such that F = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grad f"
+        ],
+        "other_options": [
+            "curl f",
+            "div f",
+            "f"
+        ]
+    },
+    {
+        "q": "If F is conservative, ∮_C F dot dr = 0 for any closed curve C.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The line integral of a conservative field is path-independent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the conservative field property:",
+        "type": "match",
+        "left": [
+            "F = grad f",
+            "curl F = 0",
+            "Path independence",
+            "Closed loop integral = 0"
+        ],
+        "right": [
+            "Definition",
+            "Necessary condition",
+            "Consequence",
+            "Consequence"
+        ]
+    },
+    {
+        "q": "What is the fundamental theorem for line integrals?",
+        "type": "mcq",
+        "o": [
+            "∫_C grad f dot dr = f(b) - f(a)",
+            "Same as FTC",
+            "Only for closed curves",
+            "Involves curl"
+        ]
+    },
+    {
+        "q": "For F = grad f, ∫_C F dot dr = f(end) - f(start).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The fundamental theorem says line integrals of conservative fields depend only on ______.",
+        "type": "fill_blank",
+        "answers": [
+            "endpoints"
+        ],
+        "other_options": [
+            "curve shape",
+            "parametrization",
+            "speed"
+        ]
+    },
+    {
+        "q": "Rearrange line integral theorems:",
+        "type": "rearrange",
+        "words": [
+            "FT for line integrals",
+            "Green's theorem",
+            "Stokes' theorem",
+            "Divergence theorem"
+        ]
+    },
+    {
+        "q": "What is flux?",
+        "type": "mcq",
+        "o": [
+            "The rate of flow through a surface",
+            "The circulation",
+            "The area",
+            "The volume"
+        ]
+    },
+    {
+        "q": "Flux through S is ∫∫_S F dot n dS where n is the ______ normal.",
+        "type": "fill_blank",
+        "answers": [
+            "unit"
+        ],
+        "other_options": [
+            "tangent",
+            "parallel",
+            "radial"
+        ]
+    },
+    {
+        "q": "Positive flux means flow out of the surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the integral with its physical interpretation:",
+        "type": "match",
+        "left": [
+            "∫_C F dot dr",
+            "∫∫_S F dot dS",
+            "∫∫_R f dA",
+            "∫∫∫_E f dV"
+        ],
+        "right": [
+            "Work/Circulation",
+            "Flux",
+            "Mass of 2D region",
+            "Mass of 3D region"
+        ]
+    },
+    {
+        "q": "What is circulation?",
+        "type": "mcq",
+        "o": [
+            "The line integral of F around a closed curve",
+            "The flux",
+            "The area",
+            "The volume"
+        ]
+    },
+    {
+        "q": "Circulation = ∮_C F dot dr.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Circulation measures the ______ of the field around the curve.",
+        "type": "fill_blank",
+        "answers": [
+            "rotation"
+        ],
+        "other_options": [
+            "expansion",
+            "contraction",
+            "translation"
+        ]
+    },
+    {
+        "q": "Rearrange vector analysis concepts:",
+        "type": "rearrange",
+        "words": [
+            "Scalar field",
+            "Vector field",
+            "Line integral",
+            "Surface integral",
+            "Volume integral"
+        ]
+    },
+    {
+        "q": "What is the Jacobian determinant?",
+        "type": "mcq",
+        "o": [
+            "The determinant of the matrix of partial derivatives",
+            "Any determinant",
+            "A scalar",
+            "A vector"
+        ]
+    },
+    {
+        "q": "The Jacobian for polar coordinates is |J| = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "r"
+        ],
+        "other_options": [
+            "1",
+            "theta",
+            "r^2"
+        ]
+    },
+    {
+        "q": "When changing variables in multiple integrals, multiply by |J|.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the coordinate system with its Jacobian:",
+        "type": "match",
+        "left": [
+            "Polar (2D)",
+            "Cylindrical (3D)",
+            "Spherical (3D)",
+            "Linear (2D)"
+        ],
+        "right": [
+            "r",
+            "r",
+            "rho^2 sin(phi)",
+            "ad - bc"
+        ]
+    },
+    {
+        "q": "What is epsilon-delta definition of limit?",
+        "type": "mcq",
+        "o": [
+            "For all epsilon > 0, there exists delta > 0 such that |x-a| < delta implies |f(x)-L| < epsilon",
+            "A numerical method",
+            "An approximation",
+            "A graphical method"
+        ]
+    },
+    {
+        "q": "The epsilon-delta definition makes limits ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rigorous"
+        ],
+        "other_options": [
+            "approximate",
+            "numerical",
+            "graphical"
+        ]
+    },
+    {
+        "q": "Epsilon-delta proofs are used in real analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange rigor levels in calculus:",
+        "type": "rearrange",
+        "words": [
+            "Intuitive",
+            "Computational",
+            "Epsilon-delta",
+            "Measure-theoretic"
+        ]
+    },
+    {
+        "q": "What is uniform continuity?",
+        "type": "mcq",
+        "o": [
+            "Delta depends only on epsilon, not on the point",
+            "Same as continuity",
+            "Only for bounded functions",
+            "Only for linear functions"
+        ]
+    },
+    {
+        "q": "A continuous function on a ______ interval is uniformly continuous.",
+        "type": "fill_blank",
+        "answers": [
+            "closed"
+        ],
+        "other_options": [
+            "open",
+            "half-open",
+            "unbounded"
+        ]
+    },
+    {
+        "q": "f(x) = 1/x is not uniformly continuous on (0,1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the continuity concept:",
+        "type": "match",
+        "left": [
+            "Pointwise continuity",
+            "Uniform continuity",
+            "Lipschitz continuity",
+            "Holder continuity"
+        ],
+        "right": [
+            "Delta depends on point",
+            "Delta independent of point",
+            "Linear growth bound",
+            "Power growth bound"
+        ]
+    },
+    {
+        "q": "What is the Riemann integral?",
+        "type": "mcq",
+        "o": [
+            "Limit of Riemann sums as partition gets finer",
+            "Any integral",
+            "Lebesgue integral",
+            "Improper integral"
+        ]
+    },
+    {
+        "q": "A Riemann sum is sum f(x_i*) * Delta_x_i.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Riemann integral exists if f is ______ on [a,b].",
+        "type": "fill_blank",
+        "answers": [
+            "continuous"
+        ],
+        "other_options": [
+            "any function",
+            "discontinuous",
+            "unbounded"
+        ]
+    },
+    {
+        "q": "Rearrange integration theories:",
+        "type": "rearrange",
+        "words": [
+            "Riemann integral",
+            "Darboux integral",
+            "Lebesgue integral",
+            "Henstock-Kurzweil"
+        ]
+    },
+    {
+        "q": "What is the Lebesgue integral?",
+        "type": "mcq",
+        "o": [
+            "An integral based on measuring the range rather than domain",
+            "Same as Riemann",
+            "Only for continuous functions",
+            "A discrete sum"
+        ]
+    },
+    {
+        "q": "Lebesgue integration uses ______ theory.",
+        "type": "fill_blank",
+        "answers": [
+            "measure"
+        ],
+        "other_options": [
+            "set",
+            "number",
+            "function"
+        ]
+    },
+    {
+        "q": "The Lebesgue integral can integrate more functions than Riemann.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the integral with its description:",
+        "type": "match",
+        "left": [
+            "Riemann",
+            "Lebesgue",
+            "Improper",
+            "Contour"
+        ],
+        "right": [
+            "Partition domain",
+            "Partition range",
+            "Infinite or discontinuous",
+            "Complex plane"
+        ]
+    },
+    {
+        "q": "What is Fubini's theorem?",
+        "type": "mcq",
+        "o": [
+            "For integrable functions, the order of integration can be changed",
+            "All integrals are equal",
+            "Integration always fails",
+            "Only for 1D"
+        ]
+    },
+    {
+        "q": "Fubini's theorem requires f to be ______.",
+        "type": "fill_blank",
+        "answers": [
+            "integrable"
+        ],
+        "other_options": [
+            "continuous",
+            "differentiable",
+            "bounded"
+        ]
+    },
+    {
+        "q": "For f >= 0, Fubini's theorem always applies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange multivariable integration theorems:",
+        "type": "rearrange",
+        "words": [
+            "Fubini's",
+            "Tonelli's",
+            "Change of variables",
+            "Stokes'"
+        ]
+    },
+    {
+        "q": "What is the dominated convergence theorem?",
+        "type": "mcq",
+        "o": [
+            "If f_n -> f and |f_n| <= g with ∫g < inf, then ∫f_n -> ∫f",
+            "All integrals converge",
+            "Only for bounded functions",
+            "A Riemann integral property"
+        ]
+    },
+    {
+        "q": "The dominating function g must be ______.",
+        "type": "fill_blank",
+        "answers": [
+            "integrable"
+        ],
+        "other_options": [
+            "bounded",
+            "continuous",
+            "smooth"
+        ]
+    },
+    {
+        "q": "DCT allows interchanging limit and integral under appropriate conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the convergence theorem:",
+        "type": "match",
+        "left": [
+            "Monotone convergence",
+            "Dominated convergence",
+            "Fatou's lemma",
+            "Bounded convergence"
+        ],
+        "right": [
+            "Increasing sequence",
+            "Dominated by integrable g",
+            "Lower bound for liminf",
+            "Bounded functions on finite measure"
+        ]
+    },
+    {
+        "q": "What is a metric space?",
+        "type": "mcq",
+        "o": [
+            "A set with a distance function satisfying certain axioms",
+            "Any set",
+            "Euclidean space only",
+            "Integers only"
+        ]
+    },
+    {
+        "q": "A metric d(x,y) must be non-negative, symmetric, and satisfy the ______ inequality.",
+        "type": "fill_blank",
+        "answers": [
+            "triangle"
+        ],
+        "other_options": [
+            "square",
+            "Cauchy",
+            "Schwarz"
+        ]
+    },
+    {
+        "q": "R^n with Euclidean distance is a metric space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange generality of spaces:",
+        "type": "rearrange",
+        "words": [
+            "Metric space",
+            "Normed space",
+            "Inner product space",
+            "Hilbert space"
+        ]
+    },
+    {
+        "q": "What is a Banach space?",
+        "type": "mcq",
+        "o": [
+            "A complete normed vector space",
+            "Any vector space",
+            "A finite-dimensional space",
+            "An incomplete space"
+        ]
+    },
+    {
+        "q": "Complete means every Cauchy sequence ______.",
+        "type": "fill_blank",
+        "answers": [
+            "converges"
+        ],
+        "other_options": [
+            "diverges",
+            "oscillates",
+            "is bounded"
+        ]
+    },
+    {
+        "q": "R^n is a Banach space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the space with its property:",
+        "type": "match",
+        "left": [
+            "Banach",
+            "Hilbert",
+            "L^p",
+            "C[a,b]"
+        ],
+        "right": [
+            "Complete normed",
+            "Complete inner product",
+            "Integrable functions",
+            "Continuous functions"
+        ]
+    },
+    {
+        "q": "What is a Hilbert space?",
+        "type": "mcq",
+        "o": [
+            "A complete inner product space",
+            "Any vector space",
+            "A finite-dimensional space",
+            "A Banach space without inner product"
+        ]
+    },
+    {
+        "q": "L^2 is the most important ______ space.",
+        "type": "fill_blank",
+        "answers": [
+            "Hilbert"
+        ],
+        "other_options": [
+            "Banach",
+            "Sobolev",
+            "topological"
+        ]
+    },
+    {
+        "q": "In a Hilbert space, we have the Parseval identity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange functional analysis concepts:",
+        "type": "rearrange",
+        "words": [
+            "Normed space",
+            "Banach space",
+            "Inner product",
+            "Hilbert space",
+            "Orthonormal basis"
+        ]
+    },
+    {
+        "q": "What is uniform convergence?",
+        "type": "mcq",
+        "o": [
+            "Convergence where the rate is independent of x",
+            "Pointwise convergence",
+            "Convergence at one point",
+            "Divergence"
+        ]
+    },
+    {
+        "q": "f_n -> f uniformly iff sup_x |f_n(x) - f(x)| -> ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "infinity",
+            "f"
+        ]
+    },
+    {
+        "q": "Uniform convergence preserves continuity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the convergence type with its property:",
+        "type": "match",
+        "left": [
+            "Pointwise",
+            "Uniform",
+            "L^p",
+            "Almost everywhere"
+        ],
+        "right": [
+            "At each point",
+            "Sup norm",
+            "Integral norm",
+            "Except on measure zero set"
+        ]
+    },
+    {
+        "q": "What is the Weierstrass M-test?",
+        "type": "mcq",
+        "o": [
+            "If |f_n(x)| <= M_n and sum M_n converges, sum f_n converges uniformly",
+            "All series converge",
+            "A divergence test",
+            "A limit test"
+        ]
+    },
+    {
+        "q": "The M-test is used for ______ convergence.",
+        "type": "fill_blank",
+        "answers": [
+            "uniform"
+        ],
+        "other_options": [
+            "pointwise",
+            "absolute",
+            "conditional"
+        ]
+    },
+    {
+        "q": "Uniform convergence allows term-by-term differentiation and integration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange series convergence concepts:",
+        "type": "rearrange",
+        "words": [
+            "Pointwise convergence",
+            "Uniform convergence",
+            "M-test",
+            "Term-by-term ops"
+        ]
+    },
+    {
+        "q": "What is the implicit function theorem?",
+        "type": "mcq",
+        "o": [
+            "Conditions under which F(x,y) = 0 defines y as a function of x",
+            "All equations have solutions",
+            "Integration theorem",
+            "Differentiation rule"
+        ]
+    },
+    {
+        "q": "The IFT requires dF/dy != ______ at the point.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "infinity",
+            "F"
+        ]
+    },
+    {
+        "q": "The implicit function theorem is a local existence result.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem with its conclusion:",
+        "type": "match",
+        "left": [
+            "Implicit function",
+            "Inverse function",
+            "Contraction mapping",
+            "Picard-Lindelof"
+        ],
+        "right": [
+            "y = f(x) exists locally",
+            "Local inverse exists",
+            "Fixed point exists",
+            "DE has unique solution"
+        ]
+    },
+    {
+        "q": "What is the inverse function theorem?",
+        "type": "mcq",
+        "o": [
+            "If Df is invertible at a, f has a local inverse near a",
+            "All functions have inverses",
+            "Integration theorem",
+            "Limit theorem"
+        ]
+    },
+    {
+        "q": "The IFT requires det(Df) != ______ at the point.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "infinity",
+            "2"
+        ]
+    },
+    {
+        "q": "The inverse function theorem is a consequence of the implicit function theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange multivariable analysis theorems:",
+        "type": "rearrange",
+        "words": [
+            "Chain rule",
+            "Implicit function",
+            "Inverse function",
+            "Lagrange multipliers"
+        ]
+    },
+    {
+        "q": "What is Lagrange multipliers method?",
+        "type": "mcq",
+        "o": [
+            "Finding extrema of f subject to constraints g = 0",
+            "Unconstrained optimization",
+            "Integration method",
+            "Differentiation rule"
+        ]
+    },
+    {
+        "q": "At a constrained extremum, grad f = lambda * ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grad g"
+        ],
+        "other_options": [
+            "g",
+            "f",
+            "0"
+        ]
+    },
+    {
+        "q": "Lambda is called the Lagrange multiplier.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the optimization method:",
+        "type": "match",
+        "left": [
+            "Unconstrained",
+            "Lagrange multipliers",
+            "KKT conditions",
+            "Linear programming"
+        ],
+        "right": [
+            "Set grad f = 0",
+            "Equality constraints",
+            "Inequality constraints",
+            "Linear objective and constraints"
+        ]
+    },
+    {
+        "q": "What is Hessian matrix?",
+        "type": "mcq",
+        "o": [
+            "Matrix of second partial derivatives",
+            "First derivatives",
+            "Jacobian",
+            "Gradient"
+        ]
+    },
+    {
+        "q": "H_ij = d^2f / dx_i dx_j.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "If the Hessian is positive definite at a critical point, it's a local ______.",
+        "type": "fill_blank",
+        "answers": [
+            "minimum"
+        ],
+        "other_options": [
+            "maximum",
+            "saddle",
+            "inflection"
+        ]
+    },
+    {
+        "q": "Rearrange optimization concepts:",
+        "type": "rearrange",
+        "words": [
+            "Critical points",
+            "First-order conditions",
+            "Second-order conditions",
+            "Hessian test"
+        ]
+    },
+    {
+        "q": "What is the second derivative test in multiple variables?",
+        "type": "mcq",
+        "o": [
+            "Uses eigenvalues of Hessian to classify critical points",
+            "Same as single variable",
+            "Uses only f''",
+            "Integration"
+        ]
+    },
+    {
+        "q": "If all eigenvalues of H are positive, the point is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "minimum"
+        ],
+        "other_options": [
+            "maximum",
+            "saddle",
+            "inflection"
+        ]
+    },
+    {
+        "q": "If eigenvalues have mixed signs, it's a saddle point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Hessian condition with the classification:",
+        "type": "match",
+        "left": [
+            "All positive eigenvalues",
+            "All negative eigenvalues",
+            "Mixed eigenvalues",
+            "Zero eigenvalue"
+        ],
+        "right": [
+            "Local min",
+            "Local max",
+            "Saddle",
+            "Test inconclusive"
+        ]
+    },
+    {
+        "q": "What is the contraction mapping principle?",
+        "type": "mcq",
+        "o": [
+            "A contraction on a complete metric space has a unique fixed point",
+            "All maps have fixed points",
+            "Fixed points are never unique",
+            "Only for linear maps"
+        ]
+    },
+    {
+        "q": "T is a contraction if d(Tx, Ty) <= k * d(x,y) for k < ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Picard iteration uses the contraction mapping principle to solve DEs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange fixed point concepts:",
+        "type": "rearrange",
+        "words": [
+            "Fixed point",
+            "Contraction",
+            "Iteration",
+            "Convergence",
+            "Banach fixed point theorem"
+        ]
+    },
+    {
+        "q": "What is Picard's theorem for ODEs?",
+        "type": "mcq",
+        "o": [
+            "If f is Lipschitz continuous, the IVP has a unique solution",
+            "All IVPs have solutions",
+            "Solutions are never unique",
+            "Only for linear DEs"
+        ]
+    },
+    {
+        "q": "Picard's theorem guarantees ______ and uniqueness.",
+        "type": "fill_blank",
+        "answers": [
+            "existence"
+        ],
+        "other_options": [
+            "continuity",
+            "differentiability",
+            "boundedness"
+        ]
+    },
+    {
+        "q": "The Lipschitz condition is |f(x,y1) - f(x,y2)| <= L|y1 - y2|.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the existence theorem with its domain:",
+        "type": "match",
+        "left": [
+            "Picard-Lindelof",
+            "Peano",
+            "Cauchy-Lipschitz",
+            "Global"
+        ],
+        "right": [
+            "Local, Lipschitz f",
+            "Local, continuous f",
+            "Same as Picard",
+            "Entire domain"
+        ]
+    },
+    {
+        "q": "What is Gronwall's inequality?",
+        "type": "mcq",
+        "o": [
+            "An inequality bounding growth of functions satisfying certain integral conditions",
+            "A derivative formula",
+            "An integral formula",
+            "A limit"
+        ]
+    },
+    {
+        "q": "Gronwall's inequality is used to prove ______ of DE solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "uniqueness"
+        ],
+        "other_options": [
+            "existence",
+            "continuity",
+            "differentiability"
+        ]
+    },
+    {
+        "q": "Gronwall's inequality has both differential and integral forms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ODE theory concepts:",
+        "type": "rearrange",
+        "words": [
+            "Existence",
+            "Uniqueness",
+            "Continuous dependence",
+            "Stability",
+            "Qualitative behavior"
+        ]
+    },
+    {
+        "q": "What is a phase portrait?",
+        "type": "mcq",
+        "o": [
+            "Graphical representation of trajectories in phase space",
+            "A derivative graph",
+            "A single solution curve",
+            "A numerical table"
+        ]
+    },
+    {
+        "q": "Phase portraits are especially useful for ______ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "autonomous"
+        ],
+        "other_options": [
+            "non-autonomous",
+            "linear",
+            "all"
+        ]
+    },
+    {
+        "q": "Fixed points appear as dots in a phase portrait.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the fixed point type with its phase portrait behavior:",
+        "type": "match",
+        "left": [
+            "Stable node",
+            "Unstable node",
+            "Saddle",
+            "Center"
+        ],
+        "right": [
+            "Trajectories approach",
+            "Trajectories leave",
+            "Hyperbolic curves",
+            "Closed orbits"
+        ]
+    },
+    {
+        "q": "What is a bifurcation?",
+        "type": "mcq",
+        "o": [
+            "A qualitative change in behavior as a parameter varies",
+            "A type of solution",
+            "A numerical method",
+            "An approximation"
+        ]
+    },
+    {
+        "q": "At a bifurcation, the number or stability of fixed points ______.",
+        "type": "fill_blank",
+        "answers": [
+            "changes"
+        ],
+        "other_options": [
+            "stays same",
+            "increases only",
+            "decreases only"
+        ]
+    },
+    {
+        "q": "Saddle-node bifurcation involves creation or destruction of fixed points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange bifurcation types:",
+        "type": "rearrange",
+        "words": [
+            "Saddle-node",
+            "Transcritical",
+            "Pitchfork",
+            "Hopf"
+        ]
+    },
+    {
+        "q": "What is Lyapunov stability?",
+        "type": "mcq",
+        "o": [
+            "Small perturbations from equilibrium stay small",
+            "All solutions converge",
+            "Solutions diverge",
+            "No fixed points exist"
+        ]
+    },
+    {
+        "q": "Asymptotic stability means small perturbations ______ to equilibrium.",
+        "type": "fill_blank",
+        "answers": [
+            "return"
+        ],
+        "other_options": [
+            "diverge from",
+            "oscillate around",
+            "stay away from"
+        ]
+    },
+    {
+        "q": "A Lyapunov function is used to prove stability without solving the DE.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stability concept:",
+        "type": "match",
+        "left": [
+            "Lyapunov stable",
+            "Asymptotically stable",
+            "Unstable",
+            "Marginally stable"
+        ],
+        "right": [
+            "Perturbations stay small",
+            "Perturbations decay",
+            "Perturbations grow",
+            "Borderline case"
+        ]
+    },
+    {
+        "q": "What is numerical integration?",
+        "type": "mcq",
+        "o": [
+            "Approximating definite integrals using computational methods",
+            "Exact integration",
+            "Differentiation",
+            "Limit evaluation"
+        ]
+    },
+    {
+        "q": "The trapezoidal rule approximates areas using ______.",
+        "type": "fill_blank",
+        "answers": [
+            "trapezoids"
+        ],
+        "other_options": [
+            "rectangles only",
+            "parabolas",
+            "circles"
+        ]
+    },
+    {
+        "q": "Simpson's rule uses parabolic approximation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange numerical integration methods by accuracy:",
+        "type": "rearrange",
+        "words": [
+            "Left Riemann",
+            "Trapezoidal",
+            "Simpson's",
+            "Gaussian quadrature"
+        ]
+    },
+    {
+        "q": "What is Euler's method?",
+        "type": "mcq",
+        "o": [
+            "First-order numerical method for ODEs: y_{n+1} = y_n + h*f(t_n, y_n)",
+            "Exact solution method",
+            "An integration technique",
+            "A differentiation formula"
+        ]
+    },
+    {
+        "q": "Euler's method has error of order O(h) for one step.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Euler's method is ______ order.",
+        "type": "fill_blank",
+        "answers": [
+            "first"
+        ],
+        "other_options": [
+            "second",
+            "third",
+            "fourth"
+        ]
+    },
+    {
+        "q": "Match the numerical ODE method with its order:",
+        "type": "match",
+        "left": [
+            "Euler",
+            "Improved Euler",
+            "RK4",
+            "Adams-Bashforth 4"
+        ],
+        "right": [
+            "1st order",
+            "2nd order",
+            "4th order",
+            "4th order"
+        ]
+    },
+    {
+        "q": "What is Runge-Kutta method?",
+        "type": "mcq",
+        "o": [
+            "A family of higher-order methods for ODEs",
+            "Same as Euler",
+            "Only for linear DEs",
+            "An analytical method"
+        ]
+    },
+    {
+        "q": "RK4 uses ______ function evaluations per step.",
+        "type": "fill_blank",
+        "answers": [
+            "four"
+        ],
+        "other_options": [
+            "one",
+            "two",
+            "three"
+        ]
+    },
+    {
+        "q": "RK4 is the most commonly used Runge-Kutta method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ODE methods by implicit vs explicit:",
+        "type": "rearrange",
+        "words": [
+            "Euler (explicit)",
+            "RK4 (explicit)",
+            "Backward Euler (implicit)",
+            "Crank-Nicolson (implicit)"
+        ]
+    },
+    {
+        "q": "What is a stiff ODE?",
+        "type": "mcq",
+        "o": [
+            "An ODE where explicit methods require very small step sizes",
+            "Any difficult ODE",
+            "A linear ODE",
+            "A nonlinear ODE"
+        ]
+    },
+    {
+        "q": "Stiff problems are better solved with ______ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "implicit"
+        ],
+        "other_options": [
+            "explicit",
+            "Euler",
+            "analytical"
+        ]
+    },
+    {
+        "q": "The backward Euler method is A-stable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stability concept with its meaning:",
+        "type": "match",
+        "left": [
+            "A-stable",
+            "L-stable",
+            "Stiff decay",
+            "Order star"
+        ],
+        "right": [
+            "Stable for all Re(lambda) < 0",
+            "A-stable + no oscillations",
+            "Rapid decay",
+            "Stability region analysis"
+        ]
+    },
+    {
+        "q": "What is finite difference method for PDEs?",
+        "type": "mcq",
+        "o": [
+            "Approximating derivatives using difference quotients on a grid",
+            "An analytical method",
+            "Only for ODEs",
+            "A variational method"
+        ]
+    },
+    {
+        "q": "The central difference for f''(x) is (f(x+h) - 2f(x) + f(x-h)) / h^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The forward difference approximation is f'(x) ≈ (f(x+h) - f(x)) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "h"
+        ],
+        "other_options": [
+            "2h",
+            "h^2",
+            "x"
+        ]
+    },
+    {
+        "q": "Rearrange PDE numerical methods:",
+        "type": "rearrange",
+        "words": [
+            "Finite difference",
+            "Finite element",
+            "Finite volume",
+            "Spectral methods"
+        ]
+    },
+    {
+        "q": "What is the CFL condition?",
+        "type": "mcq",
+        "o": [
+            "A necessary stability condition for explicit schemes: c*dt/dx <= constant",
+            "A sufficient condition",
+            "Only for implicit schemes",
+            "About accuracy"
+        ]
+    },
+    {
+        "q": "CFL stands for Courant-Friedrichs-______.",
+        "type": "fill_blank",
+        "answers": [
+            "Lewy"
+        ],
+        "other_options": [
+            "Leibniz",
+            "Lagrange",
+            "Laplace"
+        ]
+    },
+    {
+        "q": "Violating CFL leads to numerical instability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the numerical analysis concept:",
+        "type": "match",
+        "left": [
+            "Consistency",
+            "Stability",
+            "Convergence",
+            "CFL"
+        ],
+        "right": [
+            "Truncation error -> 0",
+            "Errors don't grow unboundedly",
+            "Numerical -> exact",
+            "Step size constraint"
+        ]
+    },
+    {
+        "q": "What is the Lax equivalence theorem?",
+        "type": "mcq",
+        "o": [
+            "For a consistent scheme, stability is equivalent to convergence",
+            "All schemes converge",
+            "No scheme is stable",
+            "About accuracy only"
+        ]
+    },
+    {
+        "q": "Lax's theorem states consistency + stability = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "convergence"
+        ],
+        "other_options": [
+            "accuracy",
+            "efficiency",
+            "stability"
+        ]
+    },
+    {
+        "q": "The Lax-Wendroff method is second-order for the advection equation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange numerical scheme properties:",
+        "type": "rearrange",
+        "words": [
+            "Consistency",
+            "Stability",
+            "Convergence",
+            "Order of accuracy"
+        ]
+    },
+    {
+        "q": "What is a compact difference scheme?",
+        "type": "mcq",
+        "o": [
+            "A finite difference scheme using implicit derivatives at neighboring points",
+            "Same as explicit",
+            "Uses only boundary points",
+            "No derivatives"
+        ]
+    },
+    {
+        "q": "Compact schemes achieve higher accuracy with ______ stencil width.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller"
+        ],
+        "other_options": [
+            "larger",
+            "infinite",
+            "zero"
+        ]
+    },
+    {
+        "q": "Spectral methods have exponential convergence for smooth problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the numerical method with its accuracy characteristic:",
+        "type": "match",
+        "left": [
+            "Finite difference",
+            "Finite element",
+            "Spectral",
+            "Monte Carlo"
+        ],
+        "right": [
+            "Algebraic order",
+            "Algebraic order",
+            "Exponential",
+            "Probabilistic"
+        ]
+    },
+    {
+        "q": "What is weak formulation in FEM?",
+        "type": "mcq",
+        "o": [
+            "Multiplying the PDE by test functions and integrating",
+            "Strong form",
+            "No integration",
+            "Point collocation"
+        ]
+    },
+    {
+        "q": "Finite elements use ______ functions to approximate solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "basis"
+        ],
+        "other_options": [
+            "random",
+            "constant",
+            "analytical"
+        ]
+    },
+    {
+        "q": "The Galerkin method uses the same space for test and trial functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange FEM concepts:",
+        "type": "rearrange",
+        "words": [
+            "Strong form",
+            "Weak form",
+            "Discretization",
+            "Assembly",
+            "Solution"
+        ]
+    },
+    {
+        "q": "What is the Sobolev space H^1?",
+        "type": "mcq",
+        "o": [
+            "Functions with square-integrable first derivatives",
+            "Continuous functions only",
+            "Smooth functions only",
+            "Polynomials"
+        ]
+    },
+    {
+        "q": "H^1 is important for ______ PDEs.",
+        "type": "fill_blank",
+        "answers": [
+            "second-order"
+        ],
+        "other_options": [
+            "first-order",
+            "algebraic",
+            "integral"
+        ]
+    },
+    {
+        "q": "Sobolev embedding theorems relate function smoothness to integrability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the function space with its norm:",
+        "type": "match",
+        "left": [
+            "L^2",
+            "H^1",
+            "C^0",
+            "L^infinity"
+        ],
+        "right": [
+            "||f||_2",
+            "||f||_2 + ||f'||_2",
+            "max|f|",
+            "ess sup|f|"
+        ]
+    },
+    {
+        "q": "What is the residual in numerical methods?",
+        "type": "mcq",
+        "o": [
+            "The error when approximate solution is substituted into the equation",
+            "The exact solution",
+            "The boundary condition",
+            "The initial condition"
+        ]
+    },
+    {
+        "q": "Minimizing the residual is the goal of ______ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "weighted residual"
+        ],
+        "other_options": [
+            "exact",
+            "analytical",
+            "graphical"
+        ]
+    },
+    {
+        "q": "Collocation sets the residual to zero at specific points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange weighted residual methods:",
+        "type": "rearrange",
+        "words": [
+            "Collocation",
+            "Subdomain",
+            "Galerkin",
+            "Least squares"
+        ]
+    },
+    {
+        "q": "What is the condition number?",
+        "type": "mcq",
+        "o": [
+            "A measure of how errors amplify in a computation",
+            "Always 1",
+            "Never important",
+            "Only for scalars"
+        ]
+    },
+    {
+        "q": "A high condition number indicates an ______-conditioned problem.",
+        "type": "fill_blank",
+        "answers": [
+            "ill"
+        ],
+        "other_options": [
+            "well",
+            "perfectly",
+            "under"
+        ]
+    },
+    {
+        "q": "The condition number of a matrix A is ||A|| * ||A^(-1)||.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the condition number with its meaning:",
+        "type": "match",
+        "left": [
+            "kappa = 1",
+            "kappa ~ 10",
+            "kappa ~ 10^6",
+            "kappa ~ infinity"
+        ],
+        "right": [
+            "Perfect conditioning",
+            "Well-conditioned",
+            "Ill-conditioned",
+            "Singular"
+        ]
+    },
+    {
+        "q": "What is Richardson extrapolation?",
+        "type": "mcq",
+        "o": [
+            "Using solutions at different step sizes to get higher accuracy",
+            "A single computation",
+            "No extrapolation",
+            "Only for integrals"
+        ]
+    },
+    {
+        "q": "Richardson extrapolation increases the ______ of the method.",
+        "type": "fill_blank",
+        "answers": [
+            "order"
+        ],
+        "other_options": [
+            "stability",
+            "speed",
+            "memory"
+        ]
+    },
+    {
+        "q": "Romberg integration uses Richardson extrapolation on the trapezoidal rule.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Richardson extrapolation steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute with h",
+            "Compute with h/2",
+            "Extrapolate",
+            "Repeat if needed"
+        ]
+    },
+    {
+        "q": "What is adaptive quadrature?",
+        "type": "mcq",
+        "o": [
+            "Adjusting step size based on estimated error",
+            "Fixed step size",
+            "No error estimation",
+            "Random sampling"
+        ]
+    },
+    {
+        "q": "Adaptive methods concentrate effort where the integrand is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "difficult"
+        ],
+        "other_options": [
+            "smooth",
+            "constant",
+            "zero"
+        ]
+    },
+    {
+        "q": "Gaussian quadrature is optimal for polynomial integrands.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quadrature method with its characteristics:",
+        "type": "match",
+        "left": [
+            "Trapezoidal",
+            "Simpson's",
+            "Gaussian",
+            "Monte Carlo"
+        ],
+        "right": [
+            "Linear interpolation",
+            "Quadratic interpolation",
+            "Optimal nodes and weights",
+            "Random sampling"
+        ]
+    },
+    {
+        "q": "What is the trapezoidal rule for numerical integration?",
+        "type": "mcq",
+        "o": [
+            "Approximating the integral using trapezoids under the curve",
+            "Using rectangles only",
+            "Exact integration",
+            "Differentiation"
+        ]
+    },
+    {
+        "q": "The trapezoidal rule has error O(h^2) per interval.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Simpson's rule has error O(h^____) per interval.",
+        "type": "fill_blank",
+        "answers": [
+            "4"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "q": "Rearrange integration rules by order of accuracy:",
+        "type": "rearrange",
+        "words": [
+            "Midpoint (O(h^2))",
+            "Trapezoidal (O(h^2))",
+            "Simpson's (O(h^4))",
+            "Boole's (O(h^6))"
+        ]
+    },
+    {
+        "q": "What is the shooting method for BVPs?",
+        "type": "mcq",
+        "o": [
+            "Converting a BVP to an IVP and iterating on initial conditions",
+            "Direct solution",
+            "Only for PDEs",
+            "No iteration"
+        ]
+    },
+    {
+        "q": "The shooting method 'shoots' from one boundary and adjusts to hit the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "other boundary"
+        ],
+        "other_options": [
+            "same boundary",
+            "middle",
+            "exterior"
+        ]
+    },
+    {
+        "q": "Multiple shooting divides the interval into subintervals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the BVP method with its approach:",
+        "type": "match",
+        "left": [
+            "Shooting",
+            "Finite difference",
+            "Collocation",
+            "Galerkin"
+        ],
+        "right": [
+            "IVP iteration",
+            "Replace derivatives",
+            "Match at nodes",
+            "Weak form"
+        ]
+    },
+    {
+        "q": "What is a predictor-corrector method?",
+        "type": "mcq",
+        "o": [
+            "Using an explicit step to predict and an implicit step to correct",
+            "Only prediction",
+            "Only correction",
+            "Random guessing"
+        ]
+    },
+    {
+        "q": "Adams-Bashforth-Moulton is a ______ method.",
+        "type": "fill_blank",
+        "answers": [
+            "predictor-corrector"
+        ],
+        "other_options": [
+            "purely explicit",
+            "purely implicit",
+            "random"
+        ]
+    },
+    {
+        "q": "Multistep methods use information from previous steps.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange ODE solver categories:",
+        "type": "rearrange",
+        "words": [
+            "Single-step (Runge-Kutta)",
+            "Multistep (Adams)",
+            "Predictor-corrector",
+            "Implicit (BDF)"
+        ]
+    },
+    {
+        "q": "What is the BDF method?",
+        "type": "mcq",
+        "o": [
+            "Backward Differentiation Formulas - implicit multistep methods for stiff ODEs",
+            "Forward difference",
+            "Explicit method",
+            "For PDEs only"
+        ]
+    },
+    {
+        "q": "BDF methods are especially useful for ______ problems.",
+        "type": "fill_blank",
+        "answers": [
+            "stiff"
+        ],
+        "other_options": [
+            "smooth",
+            "oscillatory",
+            "simple"
+        ]
+    },
+    {
+        "q": "Higher-order BDF methods may lose A-stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stiff solver with its property:",
+        "type": "match",
+        "left": [
+            "Backward Euler",
+            "BDF2",
+            "Implicit midpoint",
+            "Radau IIA"
+        ],
+        "right": [
+            "A-stable, L-stable",
+            "A-stable",
+            "A-stable (symplectic)",
+            "L-stable, high order"
+        ]
+    },
+    {
+        "q": "What are symplectic integrators?",
+        "type": "mcq",
+        "o": [
+            "Methods that preserve the symplectic structure of Hamiltonian systems",
+            "Any integrator",
+            "Only for linear systems",
+            "Dissipative methods"
+        ]
+    },
+    {
+        "q": "Symplectic methods preserve ______ in Hamiltonian systems.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "mass",
+            "nothing",
+            "speed"
+        ]
+    },
+    {
+        "q": "The Stormer-Verlet method is symplectic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange geometric integrators:",
+        "type": "rearrange",
+        "words": [
+            "Symplectic",
+            "Volume-preserving",
+            "Reversible",
+            "Energy-preserving"
+        ]
+    },
+    {
+        "q": "What is the variational integrator?",
+        "type": "mcq",
+        "o": [
+            "An integrator derived from discretizing the action principle",
+            "Any numerical method",
+            "Only for PDEs",
+            "A random method"
+        ]
+    },
+    {
+        "q": "Variational integrators automatically preserve ______ structure.",
+        "type": "fill_blank",
+        "answers": [
+            "symplectic"
+        ],
+        "other_options": [
+            "no",
+            "linear",
+            "random"
+        ]
+    },
+    {
+        "q": "Noether's theorem relates symmetries to conservation laws.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the conservation law with symmetry:",
+        "type": "match",
+        "left": [
+            "Energy",
+            "Momentum",
+            "Angular momentum",
+            "Charge"
+        ],
+        "right": [
+            "Time translation",
+            "Space translation",
+            "Rotation",
+            "Gauge symmetry"
+        ]
+    },
+    {
+        "q": "What is a splitting method?",
+        "type": "mcq",
+        "o": [
+            "Decomposing an operator into simpler parts that are solved separately",
+            "No decomposition",
+            "Only for linear problems",
+            "Exact solution"
+        ]
+    },
+    {
+        "q": "The Strang splitting is ______ order accurate.",
+        "type": "fill_blank",
+        "answers": [
+            "second"
+        ],
+        "other_options": [
+            "first",
+            "third",
+            "fourth"
+        ]
+    },
+    {
+        "q": "Operator splitting is useful when different parts of the equation have different character.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange splitting methods:",
+        "type": "rearrange",
+        "words": [
+            "Lie splitting (1st order)",
+            "Strang splitting (2nd order)",
+            "Higher-order splitting",
+            "Adaptive splitting"
+        ]
+    },
+    {
+        "q": "What is multigrid method?",
+        "type": "mcq",
+        "o": [
+            "Using multiple grid levels to accelerate convergence",
+            "Single grid only",
+            "No acceleration",
+            "Random grids"
+        ]
+    },
+    {
+        "q": "Multigrid achieves ______ complexity for elliptic PDEs.",
+        "type": "fill_blank",
+        "answers": [
+            "O(N)"
+        ],
+        "other_options": [
+            "O(N^2)",
+            "O(N^3)",
+            "O(N log N)"
+        ]
+    },
+    {
+        "q": "V-cycle and W-cycle are common multigrid cycling strategies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the iterative solver with its application:",
+        "type": "match",
+        "left": [
+            "Jacobi",
+            "Gauss-Seidel",
+            "SOR",
+            "Multigrid"
+        ],
+        "right": [
+            "Simple iteration",
+            "Improved Jacobi",
+            "Accelerated G-S",
+            "Optimal for elliptic"
+        ]
+    },
+    {
+        "q": "What is Krylov subspace method?",
+        "type": "mcq",
+        "o": [
+            "An iterative method based on Krylov subspaces K_n(A,b) = span{b, Ab, ..., A^(n-1)b}",
+            "Direct method",
+            "No subspace",
+            "Only for small systems"
+        ]
+    },
+    {
+        "q": "GMRES and CG are ______ subspace methods.",
+        "type": "fill_blank",
+        "answers": [
+            "Krylov"
+        ],
+        "other_options": [
+            "random",
+            "polynomial",
+            "direct"
+        ]
+    },
+    {
+        "q": "Conjugate Gradient (CG) is optimal for symmetric positive definite systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Krylov methods:",
+        "type": "rearrange",
+        "words": [
+            "CG (SPD)",
+            "GMRES (nonsymmetric)",
+            "BiCGSTAB (nonsymmetric)",
+            "MINRES (symmetric)"
+        ]
+    },
+    {
+        "q": "What is preconditioning?",
+        "type": "mcq",
+        "o": [
+            "Transforming a system to improve the condition number",
+            "Solving directly",
+            "No transformation",
+            "Increasing condition number"
+        ]
+    },
+    {
+        "q": "A good preconditioner M approximates A^(-1) cheaply.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Incomplete LU (ILU) is a common ______.",
+        "type": "fill_blank",
+        "answers": [
+            "preconditioner"
+        ],
+        "other_options": [
+            "direct solver",
+            "exact method",
+            "random technique"
+        ]
+    },
+    {
+        "q": "Match the preconditioner with its type:",
+        "type": "match",
+        "left": [
+            "Jacobi",
+            "ILU",
+            "Multigrid",
+            "Domain decomposition"
+        ],
+        "right": [
+            "Diagonal",
+            "Sparse approximate inverse",
+            "Hierarchical",
+            "Parallel"
+        ]
+    },
+    {
+        "q": "What is the Fast Fourier Transform (FFT)?",
+        "type": "mcq",
+        "o": [
+            "An O(N log N) algorithm for computing the DFT",
+            "O(N^2) algorithm",
+            "An analytical method",
+            "Slower than DFT"
+        ]
+    },
+    {
+        "q": "FFT reduces DFT complexity from O(N^2) to O(N log N).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Cooley-Tukey algorithm is the most common ______ algorithm.",
+        "type": "fill_blank",
+        "answers": [
+            "FFT"
+        ],
+        "other_options": [
+            "DFT",
+            "DCT",
+            "wavelet"
+        ]
+    },
+    {
+        "q": "Rearrange transform algorithms:",
+        "type": "rearrange",
+        "words": [
+            "DFT O(N^2)",
+            "FFT O(N log N)",
+            "DCT",
+            "Wavelet transform"
+        ]
+    },
+    {
+        "q": "What is the DCT (Discrete Cosine Transform)?",
+        "type": "mcq",
+        "o": [
+            "A transform using only cosine functions, widely used in compression",
+            "Same as DFT",
+            "Uses sine only",
+            "Not used in JPEG"
+        ]
+    },
+    {
+        "q": "DCT is used in ______ image compression.",
+        "type": "fill_blank",
+        "answers": [
+            "JPEG"
+        ],
+        "other_options": [
+            "GIF",
+            "BMP",
+            "RAW"
+        ]
+    },
+    {
+        "q": "DCT has better energy compaction than DFT for many real signals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the transform with its application:",
+        "type": "match",
+        "left": [
+            "DFT/FFT",
+            "DCT",
+            "Wavelet",
+            "Radon"
+        ],
+        "right": [
+            "Signal processing",
+            "Image compression",
+            "Multiresolution",
+            "CT scans"
+        ]
+    },
+    {
+        "q": "What is a wavelet?",
+        "type": "mcq",
+        "o": [
+            "A wave-like oscillation with finite duration",
+            "Infinite sine wave",
+            "A constant",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "Wavelets provide ______ resolution analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "multiresolution"
+        ],
+        "other_options": [
+            "single",
+            "no",
+            "random"
+        ]
+    },
+    {
+        "q": "The Haar wavelet is the simplest wavelet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange wavelet families:",
+        "type": "rearrange",
+        "words": [
+            "Haar",
+            "Daubechies",
+            "Coiflets",
+            "Symlets"
+        ]
+    },
+    {
+        "q": "What is a sparse matrix?",
+        "type": "mcq",
+        "o": [
+            "A matrix with mostly zero entries",
+            "A dense matrix",
+            "All entries non-zero",
+            "A small matrix"
+        ]
+    },
+    {
+        "q": "Sparse matrix storage formats include CSR, CSC, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "COO"
+        ],
+        "other_options": [
+            "FULL",
+            "DENSE",
+            "COMPLETE"
+        ]
+    },
+    {
+        "q": "Sparse direct solvers exploit the sparsity pattern.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sparse format with its full name:",
+        "type": "match",
+        "left": [
+            "CSR",
+            "CSC",
+            "COO",
+            "DIA"
+        ],
+        "right": [
+            "Compressed Sparse Row",
+            "Compressed Sparse Column",
+            "Coordinate",
+            "Diagonal"
+        ]
+    },
+    {
+        "q": "What is fill-in in sparse matrix factorization?",
+        "type": "mcq",
+        "o": [
+            "Non-zero entries appearing where the original matrix had zeros",
+            "Zeros appearing",
+            "No change",
+            "Matrix becoming smaller"
+        ]
+    },
+    {
+        "q": "Reordering algorithms like AMD minimize ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fill-in"
+        ],
+        "other_options": [
+            "accuracy",
+            "speed",
+            "memory only"
+        ]
+    },
+    {
+        "q": "Nested dissection is an optimal ordering for 2D grids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange sparse matrix operations:",
+        "type": "rearrange",
+        "words": [
+            "Symbolic analysis",
+            "Reordering",
+            "Numerical factorization",
+            "Triangular solve"
+        ]
+    },
+    {
+        "q": "What is parallel computing in numerical methods?",
+        "type": "mcq",
+        "o": [
+            "Using multiple processors to solve problems faster",
+            "Sequential computation",
+            "Slower computation",
+            "No speedup"
+        ]
+    },
+    {
+        "q": "Amdahl's law limits parallel ______.",
+        "type": "fill_blank",
+        "answers": [
+            "speedup"
+        ],
+        "other_options": [
+            "accuracy",
+            "memory",
+            "simplicity"
+        ]
+    },
+    {
+        "q": "Domain decomposition is a key parallel strategy for PDEs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the parallel paradigm with its model:",
+        "type": "match",
+        "left": [
+            "MPI",
+            "OpenMP",
+            "CUDA",
+            "MapReduce"
+        ],
+        "right": [
+            "Distributed memory",
+            "Shared memory",
+            "GPU computing",
+            "Big data"
+        ]
+    },
+    {
+        "q": "What is Monte Carlo integration?",
+        "type": "mcq",
+        "o": [
+            "Using random sampling to estimate integrals",
+            "Deterministic method",
+            "Same as trapezoidal",
+            "Exact integration"
+        ]
+    },
+    {
+        "q": "Monte Carlo error decreases as O(1/sqrt(N)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Monte Carlo is especially useful for ______-dimensional integrals.",
+        "type": "fill_blank",
+        "answers": [
+            "high"
+        ],
+        "other_options": [
+            "one",
+            "two",
+            "zero"
+        ]
+    },
+    {
+        "q": "Rearrange Monte Carlo techniques:",
+        "type": "rearrange",
+        "words": [
+            "Simple sampling",
+            "Importance sampling",
+            "Stratified sampling",
+            "MCMC"
+        ]
+    },
+    {
+        "q": "What is Markov Chain Monte Carlo (MCMC)?",
+        "type": "mcq",
+        "o": [
+            "Sampling from a distribution using Markov chains",
+            "Direct sampling",
+            "Deterministic method",
+            "Not used in Bayesian inference"
+        ]
+    },
+    {
+        "q": "The Metropolis-Hastings algorithm is a fundamental ______ method.",
+        "type": "fill_blank",
+        "answers": [
+            "MCMC"
+        ],
+        "other_options": [
+            "deterministic",
+            "analytical",
+            "exact"
+        ]
+    },
+    {
+        "q": "Gibbs sampling is a special case of Metropolis-Hastings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the MCMC method with its characteristic:",
+        "type": "match",
+        "left": [
+            "Metropolis-Hastings",
+            "Gibbs sampling",
+            "Hamiltonian MC",
+            "No-U-Turn"
+        ],
+        "right": [
+            "General purpose",
+            "Conditional sampling",
+            "Uses gradient",
+            "Adaptive HMC"
+        ]
+    },
+    {
+        "q": "What is automatic differentiation?",
+        "type": "mcq",
+        "o": [
+            "Computing derivatives exactly by applying the chain rule to code",
+            "Numerical differentiation",
+            "Symbolic differentiation",
+            "Approximation"
+        ]
+    },
+    {
+        "q": "AD computes derivatives to ______ precision.",
+        "type": "fill_blank",
+        "answers": [
+            "machine"
+        ],
+        "other_options": [
+            "approximate",
+            "low",
+            "random"
+        ]
+    },
+    {
+        "q": "Forward mode AD is efficient when there are few inputs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange differentiation methods:",
+        "type": "rearrange",
+        "words": [
+            "Symbolic",
+            "Numerical (finite diff)",
+            "Forward mode AD",
+            "Reverse mode AD"
+        ]
+    },
+    {
+        "q": "What is reverse mode AD?",
+        "type": "mcq",
+        "o": [
+            "Computing gradients by propagating adjoints backward",
+            "Forward computation",
+            "Same as numerical diff",
+            "Symbolic only"
+        ]
+    },
+    {
+        "q": "Reverse mode is the basis for ______ in deep learning.",
+        "type": "fill_blank",
+        "answers": [
+            "backpropagation"
+        ],
+        "other_options": [
+            "forward propagation",
+            "random search",
+            "grid search"
+        ]
+    },
+    {
+        "q": "Reverse mode is efficient for functions with many inputs and few outputs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the AD mode with its best use case:",
+        "type": "match",
+        "left": [
+            "Forward mode",
+            "Reverse mode",
+            "Mixed mode",
+            "Checkpointing"
+        ],
+        "right": [
+            "Few inputs",
+            "Few outputs",
+            "Intermediate",
+            "Memory-limited"
+        ]
+    },
+    {
+        "q": "What is interval arithmetic?",
+        "type": "mcq",
+        "o": [
+            "Computing with intervals to track numerical error bounds",
+            "Point arithmetic",
+            "No error tracking",
+            "Symbolic only"
+        ]
+    },
+    {
+        "q": "Interval arithmetic provides guaranteed ______ on results.",
+        "type": "fill_blank",
+        "answers": [
+            "bounds"
+        ],
+        "other_options": [
+            "approximations",
+            "guesses",
+            "estimates only"
+        ]
+    },
+    {
+        "q": "Interval methods can prove the existence of roots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange verified computing concepts:",
+        "type": "rearrange",
+        "words": [
+            "Interval arithmetic",
+            "Affine arithmetic",
+            "Taylor models",
+            "Verified integration"
+        ]
+    },
+    {
+        "q": "What is floating-point arithmetic?",
+        "type": "mcq",
+        "o": [
+            "Representing real numbers with finite precision in scientific notation",
+            "Exact arithmetic",
+            "Integer arithmetic",
+            "Symbolic arithmetic"
+        ]
+    },
+    {
+        "q": "IEEE 754 is the standard for ______ arithmetic.",
+        "type": "fill_blank",
+        "answers": [
+            "floating-point"
+        ],
+        "other_options": [
+            "integer",
+            "exact",
+            "interval"
+        ]
+    },
+    {
+        "q": "Machine epsilon is the smallest number such that 1 + eps != 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the floating-point concept:",
+        "type": "match",
+        "left": [
+            "Machine epsilon",
+            "Overflow",
+            "Underflow",
+            "NaN"
+        ],
+        "right": [
+            "Relative precision",
+            "Number too large",
+            "Number too small",
+            "Not a Number"
+        ]
+    },
+    {
+        "q": "What is the rounding error?",
+        "type": "mcq",
+        "o": [
+            "The difference between the exact result and the floating-point result",
+            "No error",
+            "Always zero",
+            "Truncation error"
+        ]
+    },
+    {
+        "q": "Catastrophic cancellation occurs when subtracting ______ numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "nearly equal"
+        ],
+        "other_options": [
+            "very different",
+            "small",
+            "large"
+        ]
+    },
+    {
+        "q": "Kahan summation reduces rounding error in sums.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange sources of numerical error:",
+        "type": "rearrange",
+        "words": [
+            "Truncation",
+            "Rounding",
+            "Cancellation",
+            "Accumulation"
+        ]
+    },
+    {
+        "q": "What is backward stability?",
+        "type": "mcq",
+        "o": [
+            "The computed result is the exact result of a slightly perturbed problem",
+            "Forward stability",
+            "No stability",
+            "Always unstable"
+        ]
+    },
+    {
+        "q": "Backward stability is the most useful ______ analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "numerical stability"
+        ],
+        "other_options": [
+            "physical",
+            "chemical",
+            "random"
+        ]
+    },
+    {
+        "q": "Gaussian elimination with partial pivoting is backward stable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stability concept with its definition:",
+        "type": "match",
+        "left": [
+            "Forward stable",
+            "Backward stable",
+            "Well-posed",
+            "Well-conditioned"
+        ],
+        "right": [
+            "Small forward error",
+            "Exact for perturbed input",
+            "Solution exists, unique, continuous",
+            "Low condition number"
+        ]
+    },
+    {
+        "q": "What is a perturbation analysis?",
+        "type": "mcq",
+        "o": [
+            "Analyzing how small changes in input affect the output",
+            "No changes",
+            "Large changes only",
+            "Random analysis"
+        ]
+    },
+    {
+        "q": "First-order perturbation uses ______ approximation.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "quadratic",
+            "cubic",
+            "random"
+        ]
+    },
+    {
+        "q": "Sensitivity analysis is a form of perturbation analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange perturbation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Small parameter",
+            "Expansion",
+            "First-order correction",
+            "Higher-order terms"
+        ]
+    },
+    {
+        "q": "What is asymptotic analysis?",
+        "type": "mcq",
+        "o": [
+            "Studying behavior as a parameter approaches a limit",
+            "Exact analysis",
+            "Finite analysis only",
+            "Random analysis"
+        ]
+    },
+    {
+        "q": "f(x) ~ g(x) as x -> a means f/g -> ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "infinity",
+            "-1"
+        ]
+    },
+    {
+        "q": "Big-O notation describes upper bounds on growth rates.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the asymptotic notation:",
+        "type": "match",
+        "left": [
+            "O(g)",
+            "o(g)",
+            "Theta(g)",
+            "Omega(g)"
+        ],
+        "right": [
+            "Upper bound",
+            "Strictly smaller",
+            "Exact order",
+            "Lower bound"
+        ]
+    },
+    {
+        "q": "What is the Stirling approximation?",
+        "type": "mcq",
+        "o": [
+            "n! ~ sqrt(2*pi*n) * (n/e)^n",
+            "n! = n",
+            "n! = e^n",
+            "n! = 2^n"
+        ]
+    },
+    {
+        "q": "Stirling's formula is useful for approximating ______ for large n.",
+        "type": "fill_blank",
+        "answers": [
+            "factorials"
+        ],
+        "other_options": [
+            "primes",
+            "squares",
+            "cubes"
+        ]
+    },
+    {
+        "q": "ln(n!) ~ n*ln(n) - n for large n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange approximations by accuracy:",
+        "type": "rearrange",
+        "words": [
+            "Leading term",
+            "First correction",
+            "Full Stirling",
+            "Exact"
+        ]
+    },
+    {
+        "q": "What is the saddle point method?",
+        "type": "mcq",
+        "o": [
+            "Approximating integrals by deforming contours through saddle points",
+            "Finding minima only",
+            "Numerical integration",
+            "Exact integration"
+        ]
+    },
+    {
+        "q": "Saddle point approximation is also called the method of ______ descent.",
+        "type": "fill_blank",
+        "answers": [
+            "steepest"
+        ],
+        "other_options": [
+            "slowest",
+            "gentle",
+            "random"
+        ]
+    },
+    {
+        "q": "The saddle point method is used for integrals with large parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the asymptotic method:",
+        "type": "match",
+        "left": [
+            "Stirling",
+            "Laplace",
+            "Saddle point",
+            "WKB"
+        ],
+        "right": [
+            "Factorial approximation",
+            "Laplace integrals",
+            "Complex contours",
+            "Differential equations"
+        ]
+    },
+    {
+        "q": "What is WKB approximation?",
+        "type": "mcq",
+        "o": [
+            "An asymptotic method for differential equations with large parameters",
+            "An exact method",
+            "Only for linear equations",
+            "Numerical only"
+        ]
+    },
+    {
+        "q": "WKB stands for Wentzel-Kramers-______.",
+        "type": "fill_blank",
+        "answers": [
+            "Brillouin"
+        ],
+        "other_options": [
+            "Born",
+            "Bohr",
+            "Boltzmann"
+        ]
+    },
+    {
+        "q": "WKB is widely used in quantum mechanics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange perturbation methods:",
+        "type": "rearrange",
+        "words": [
+            "Regular perturbation",
+            "Singular perturbation",
+            "Multiple scales",
+            "WKB"
+        ]
+    },
+    {
+        "q": "What is singular perturbation?",
+        "type": "mcq",
+        "o": [
+            "Perturbation where the small parameter multiplies the highest derivative",
+            "Regular perturbation",
+            "No small parameter",
+            "Always smooth"
+        ]
+    },
+    {
+        "q": "Boundary layers often arise in ______ perturbation problems.",
+        "type": "fill_blank",
+        "answers": [
+            "singular"
+        ],
+        "other_options": [
+            "regular",
+            "smooth",
+            "linear"
+        ]
+    },
+    {
+        "q": "Matched asymptotic expansions combine inner and outer solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the perturbation concept:",
+        "type": "match",
+        "left": [
+            "Outer solution",
+            "Inner solution",
+            "Boundary layer",
+            "Matching"
+        ],
+        "right": [
+            "Away from layer",
+            "In the layer",
+            "Rapid transition region",
+            "Connecting inner and outer"
+        ]
+    },
+    {
+        "q": "What is the method of multiple scales?",
+        "type": "mcq",
+        "o": [
+            "Using different time/space scales to capture different behaviors",
+            "Single scale only",
+            "No scales",
+            "Random scales"
+        ]
+    },
+    {
+        "q": "Multiple scales introduce slow time T = epsilon * ______.",
+        "type": "fill_blank",
+        "answers": [
+            "t"
+        ],
+        "other_options": [
+            "x",
+            "y",
+            "z"
+        ]
+    },
+    {
+        "q": "Multiple scales avoid secular terms in perturbation expansions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange oscillator perturbation methods:",
+        "type": "rearrange",
+        "words": [
+            "Naive expansion",
+            "Multiple scales",
+            "Lindstedt-Poincare",
+            "Averaging"
+        ]
+    },
+    {
+        "q": "What is the averaging method?",
+        "type": "mcq",
+        "o": [
+            "Averaging over fast oscillations to get slow dynamics",
+            "No averaging",
+            "Random sampling",
+            "Exact solution"
+        ]
+    },
+    {
+        "q": "Averaging is valid when oscillations are ______ compared to slow changes.",
+        "type": "fill_blank",
+        "answers": [
+            "fast"
+        ],
+        "other_options": [
+            "slow",
+            "same speed",
+            "random"
+        ]
+    },
+    {
+        "q": "The Krylov-Bogoliubov method is an averaging technique.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the slow-fast method:",
+        "type": "match",
+        "left": [
+            "Averaging",
+            "Homogenization",
+            "Adiabatic",
+            "Center manifold"
+        ],
+        "right": [
+            "Fast oscillations",
+            "Periodic media",
+            "Slow parameter variation",
+            "Near equilibrium"
+        ]
+    },
+    {
+        "q": "What is a distribution (generalized function)?",
+        "type": "mcq",
+        "o": [
+            "A linear functional on test functions",
+            "A regular function",
+            "A probability distribution only",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "The Dirac delta function is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "distribution"
+        ],
+        "other_options": [
+            "regular function",
+            "polynomial",
+            "constant"
+        ]
+    },
+    {
+        "q": "The delta function satisfies ∫ delta(x) f(x) dx = f(0).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange generalized function concepts:",
+        "type": "rearrange",
+        "words": [
+            "Test functions",
+            "Distributions",
+            "Delta function",
+            "Derivatives of distributions"
+        ]
+    },
+    {
+        "q": "What is the Heaviside step function?",
+        "type": "mcq",
+        "o": [
+            "H(x) = 0 for x < 0, H(x) = 1 for x > 0",
+            "A continuous function",
+            "A polynomial",
+            "An exponential"
+        ]
+    },
+    {
+        "q": "The derivative of the Heaviside function is the ______ function.",
+        "type": "fill_blank",
+        "answers": [
+            "delta"
+        ],
+        "other_options": [
+            "step",
+            "ramp",
+            "impulse"
+        ]
+    },
+    {
+        "q": "H'(x) = delta(x) in the sense of distributions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the special function:",
+        "type": "match",
+        "left": [
+            "Delta",
+            "Heaviside",
+            "Sign function",
+            "Ramp"
+        ],
+        "right": [
+            "Unit impulse",
+            "Unit step",
+            "sgn(x)",
+            "x * H(x)"
+        ]
+    },
+    {
+        "q": "What is a fundamental solution?",
+        "type": "mcq",
+        "o": [
+            "A solution to L[u] = delta",
+            "Any solution",
+            "The zero solution",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "The fundamental solution is also called the ______ function.",
+        "type": "fill_blank",
+        "answers": [
+            "Green's"
+        ],
+        "other_options": [
+            "basis",
+            "test",
+            "simple"
+        ]
+    },
+    {
+        "q": "For the Laplacian in 3D, the fundamental solution is 1/(4*pi*r).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Green's function concepts:",
+        "type": "rearrange",
+        "words": [
+            "Point source",
+            "Response",
+            "Superposition",
+            "Solution formula"
+        ]
+    },
+    {
+        "q": "What is convolution?",
+        "type": "mcq",
+        "o": [
+            "(f * g)(x) = ∫ f(t) g(x-t) dt",
+            "f + g",
+            "f * g (pointwise)",
+            "f / g"
+        ]
+    },
+    {
+        "q": "Convolution with the delta function gives f * delta = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "f"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "delta"
+        ]
+    },
+    {
+        "q": "The Fourier transform of a convolution is the product of transforms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the convolution property:",
+        "type": "match",
+        "left": [
+            "f * delta = f",
+            "f * g = g * f",
+            "F{f * g} = F{f} * F{g}",
+            "(f * g) * h = f * (g * h)"
+        ],
+        "right": [
+            "Identity",
+            "Commutativity",
+            "Convolution theorem",
+            "Associativity"
+        ]
+    },
+    {
+        "q": "What is a test function?",
+        "type": "mcq",
+        "o": [
+            "An infinitely differentiable function with compact support",
+            "Any function",
+            "A polynomial",
+            "A step function"
+        ]
+    },
+    {
+        "q": "Test functions are denoted by the space D or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "C^infinity_0"
+        ],
+        "other_options": [
+            "L^2",
+            "H^1",
+            "C^0"
+        ]
+    },
+    {
+        "q": "Distributions are continuous linear functionals on test functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange function spaces by regularity:",
+        "type": "rearrange",
+        "words": [
+            "C^0 (continuous)",
+            "C^k (k derivatives)",
+            "C^infinity (smooth)",
+            "Analytic"
+        ]
+    },
+    {
+        "q": "What is the Laplace equation?",
+        "type": "mcq",
+        "o": [
+            "Laplacian u = 0",
+            "u_t = u_xx",
+            "u_tt = u_xx",
+            "u_t + u_x = 0"
+        ]
+    },
+    {
+        "q": "Solutions to Laplace's equation are called ______ functions.",
+        "type": "fill_blank",
+        "answers": [
+            "harmonic"
+        ],
+        "other_options": [
+            "periodic",
+            "exponential",
+            "linear"
+        ]
+    },
+    {
+        "q": "Harmonic functions satisfy the mean value property.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the elliptic PDE property:",
+        "type": "match",
+        "left": [
+            "Maximum principle",
+            "Mean value",
+            "Analyticity",
+            "Unique continuation"
+        ],
+        "right": [
+            "Max/min on boundary",
+            "Average over sphere",
+            "Harmonic implies analytic",
+            "Zero set is nowhere dense"
+        ]
+    },
+    {
+        "q": "What is the maximum principle for harmonic functions?",
+        "type": "mcq",
+        "o": [
+            "A harmonic function attains its maximum on the boundary",
+            "Maximum is in the interior",
+            "No maximum exists",
+            "Only for 1D"
+        ]
+    },
+    {
+        "q": "The maximum principle implies ______ of solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "uniqueness"
+        ],
+        "other_options": [
+            "existence",
+            "non-existence",
+            "multiplicity"
+        ]
+    },
+    {
+        "q": "The strong maximum principle says the maximum is strictly on the boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange elliptic theory concepts:",
+        "type": "rearrange",
+        "words": [
+            "Maximum principle",
+            "Existence",
+            "Uniqueness",
+            "Regularity"
+        ]
+    },
+    {
+        "q": "What is the Poisson equation?",
+        "type": "mcq",
+        "o": [
+            "Laplacian u = f for given f",
+            "Laplacian u = 0",
+            "u_t = u_xx",
+            "u = f"
+        ]
+    },
+    {
+        "q": "The Poisson equation models ______ charge distributions.",
+        "type": "fill_blank",
+        "answers": [
+            "electrostatic"
+        ],
+        "other_options": [
+            "magnetic",
+            "gravitational only",
+            "acoustic"
+        ]
+    },
+    {
+        "q": "The Poisson equation generalizes the Laplace equation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PDE with its physical application:",
+        "type": "match",
+        "left": [
+            "Laplace",
+            "Poisson",
+            "Heat",
+            "Wave"
+        ],
+        "right": [
+            "Steady state, no sources",
+            "Steady state with sources",
+            "Diffusion",
+            "Propagation"
+        ]
+    },
+    {
+        "q": "What is the heat kernel?",
+        "type": "mcq",
+        "o": [
+            "The fundamental solution of the heat equation",
+            "Any solution",
+            "The steady state",
+            "A boundary condition"
+        ]
+    },
+    {
+        "q": "The heat kernel in 1D is exp(-x^2/(4kt)) / sqrt(4*pi*k*t).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The heat kernel is a ______ distribution.",
+        "type": "fill_blank",
+        "answers": [
+            "Gaussian"
+        ],
+        "other_options": [
+            "uniform",
+            "exponential",
+            "delta"
+        ]
+    },
+    {
+        "q": "Rearrange heat equation properties:",
+        "type": "rearrange",
+        "words": [
+            "Smoothing",
+            "Maximum principle",
+            "Irreversibility",
+            "Long-time behavior"
+        ]
+    },
+    {
+        "q": "What is d'Alembert's solution?",
+        "type": "mcq",
+        "o": [
+            "u(x,t) = f(x-ct) + g(x+ct) for the wave equation",
+            "A Fourier series",
+            "A numerical solution",
+            "An approximation"
+        ]
+    },
+    {
+        "q": "D'Alembert's solution represents two waves traveling in ______ directions.",
+        "type": "fill_blank",
+        "answers": [
+            "opposite"
+        ],
+        "other_options": [
+            "same",
+            "random",
+            "no"
+        ]
+    },
+    {
+        "q": "The wave equation preserves sharp wavefronts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the wave equation property:",
+        "type": "match",
+        "left": [
+            "Finite speed",
+            "Superposition",
+            "Reflection",
+            "Standing waves"
+        ],
+        "right": [
+            "Information travels at c",
+            "Linear equation",
+            "At boundaries",
+            "Fixed endpoints"
+        ]
+    }
+]

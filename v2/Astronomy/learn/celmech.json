@@ -1,0 +1,59 @@
+{
+    "id": "learn_celmech",
+    "topicId": "celmech",
+    "topicTitle": "Celestial Mechanics",
+    "description": "Explore orbital dynamics, tides, gravitational interactions, and Lagrange points",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "celmech_1",
+            "type": "content",
+            "title": "Welcome to Celestial Mechanics",
+            "content": "# Introduction to Celestial Mechanics 🌙\n\nWelcome to **Celestial Mechanics** - the physics of orbits!\n\n## What you'll learn:\n- **Orbital Dynamics** - How objects move in space\n- **Tides** - Gravitational effects\n- **N-body Problem** - Multiple gravitating objects\n- **Lagrange Points** - Gravitational balance points\n\n> 💡 **Fun Fact:** Newton's laws can predict planetary positions centuries in advance!\n\n## What is Celestial Mechanics?\n\nThe study of motions of celestial bodies under gravity.\n\n## Historical Development\n\n| Scientist | Contribution |\n|-----------|-------------|\n| Ptolemy | Earth-centered model |\n| Copernicus | Sun-centered model |\n| Kepler | Laws of planetary motion |\n| Newton | Universal gravitation |\n| Lagrange | Stability and L-points |\n| Einstein | General relativity corrections |\n\n## Newton's Law of Gravitation\n\n```\nF = G(m₁m₂)/r²\n\nG = 6.674 × 10⁻¹¹ N⋅m²/kg²\n```\n\n## Applications\n\n- Satellite deployment\n- Space missions\n- Planetary ephemerides\n- Space debris tracking\n- Exoplanet detection\n\nLet's explore the dance of the planets!"
+        },
+        {
+            "id": "celmech_2",
+            "type": "content",
+            "title": "Orbital Elements",
+            "content": "# Orbital Dynamics 🛰️\n\n## Kepler's Laws (Review)\n\n1. **Elliptical orbits** - Sun at one focus\n2. **Equal areas** in equal times\n3. **P² = a³** (for solar system)\n\n## Orbital Elements\n\nSix numbers completely describe an orbit:\n\n| Element | Symbol | Description |\n|---------|--------|-------------|\n| Semi-major axis | a | Size of orbit |\n| Eccentricity | e | Shape (0=circle) |\n| Inclination | i | Tilt from reference |\n| Longitude of ascending node | Ω | Orientation |\n| Argument of periapsis | ω | Where periapsis is |\n| True anomaly | ν | Position along orbit |\n\n## Orbit Types by Eccentricity\n\n| e value | Shape | Example |\n|---------|-------|--------|\n| 0 | Circle | Circular orbit |\n| 0 < e < 1 | Ellipse | Planets |\n| 1 | Parabola | Just barely escapes |\n| > 1 | Hyperbola | Unbound trajectory |\n\n## Orbital Velocities\n\n### Circular orbit:\n```\nv = √(GM/r)\n```\n\n### Escape velocity:\n```\nv_esc = √(2GM/r)\n```\n\n## Orbital Energy\n\n```\nE = -GMm/(2a)\n\nNegative = bound (ellipse)\nZero = parabolic\nPositive = hyperbolic\n```\n\n## Vis-Viva Equation\n\n```\nv² = GM(2/r - 1/a)\n```\n\n> 🎯 **Key Point:** Lower orbits = faster motion; higher orbits = slower!"
+        },
+        {
+            "id": "celmech_3",
+            "type": "content",
+            "title": "Tides",
+            "content": "# Tides 🌊\n\nGravitational effects from the Moon and Sun.\n\n## How Tides Form\n\n```\n              Near side:\n              Pulled toward Moon\n                    │\n    ┌───────────────●───────────────┐\n    │               │               │\n    │       🌍      │               │ 🌙 Moon\n    │               │               │\n    └───────────────●───────────────┘\n                    │\n              Far side:\n              Left behind (bulge)\n```\n\n## Two Bulges!\n\n- Near side: Water pulled toward Moon\n- Far side: Earth pulled away, water \"left behind\"\n- Result: Two high tides per day\n\n## Tidal Patterns\n\n| Type | Description |\n|------|-------------|\n| Spring tides | Sun + Moon aligned → Extra high/low |\n| Neap tides | Sun + Moon at 90° → Moderate tides |\n\n```\nSpring Tide:     Neap Tide:\n🌑☀️ → 🌍        🌓\n                  ↓\nAligned          ☀️ → 🌍\nStronger         Perpendicular\n                 Weaker\n```\n\n## Tidal Locking\n\n```\nTidal forces slow rotation until:\n\nRotation period = Orbital period\n\nMoon always shows same face to Earth!\n```\n\n## Tidal Effects on Bodies\n\n| Effect | Example |\n|--------|--------|\n| Tidal heating | Io's volcanism |\n| Tidal locking | Moon, Pluto-Charon |\n| Orbital decay | Moon moving away ~3.8 cm/yr |\n| Spin down | Earth's day getting longer |\n\n> 💡 **Key Point:** Tides transfer angular momentum between bodies!"
+        },
+        {
+            "id": "celmech_quiz_1",
+            "type": "quiz",
+            "title": "Celestial Mechanics Quiz",
+            "content": "Test your understanding!",
+            "quizQuestion": "What happens during a spring tide?",
+            "quizOptions": [
+                "The Moon is farthest from Earth",
+                "Sun and Moon are at right angles",
+                "Sun and Moon are aligned",
+                "No tides occur"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "celmech_4",
+            "type": "content",
+            "title": "The N-Body Problem",
+            "content": "# The N-Body Problem 🌐\n\n## The Challenge\n\n- Two bodies: Solved exactly (Kepler, Newton)\n- Three bodies: Generally NOT solvable analytically!\n- N bodies: Requires numerical integration\n\n## Why It's Hard\n\n```\nEach body affects every other body:\n\n  ●₁ ← → ●₂\n   \\   ╱\n    ╲ ╱\n     ●₃\n     \nWith N bodies: N(N-1)/2 interactions\n```\n\n## Restricted Three-Body Problem\n\nSimplification: Third body has negligible mass.\n\n- Used for spacecraft trajectories\n- Leads to Lagrange points\n\n## Chaos in Celestial Mechanics\n\nSmall changes → Big effects over time.\n\n### Example: Solar System\n\n- Stable for ~5 billion years (probably)\n- Mercury's orbit is chaotic\n- Precise prediction: ~10 million years max\n\n## Numerical Methods\n\n| Method | Use |\n|--------|-----|\n| Euler | Simple but inaccurate |\n| Runge-Kutta | Good general purpose |\n| Symplectic | Preserves energy long-term |\n| Tree codes | Large N problems |\n\n## Resonances\n\nWhen orbital periods form simple ratios:\n\n| Resonance | Example |\n|-----------|--------|\n| 2:1 | Jupiter-Saturn (near) |\n| 3:2 | Pluto-Neptune |\n| 1:1 | Trojan asteroids |\n\nResonances can stabilize OR destabilize orbits.\n\n> 🎯 **Key Point:** Beyond 2 bodies, we must use computers!"
+        },
+        {
+            "id": "celmech_5",
+            "type": "content",
+            "title": "Lagrange Points",
+            "content": "# Lagrange Points ⚓\n\nFive special equilibrium points in a two-body system.\n\n## The Five Points\n\n```\n             L4\n            ╱\n           ╱  60°\n          ╱\n    L3   ★     🌍  L1    L2\n    ●──────●──────●─────●─────●\n          Sun    Earth\n          ╲\n           ╲ 60°\n            ╲\n             L5\n```\n\n## Point Descriptions\n\n| Point | Location | Stability |\n|-------|----------|----------|\n| L1 | Between bodies | Unstable |\n| L2 | Beyond smaller body | Unstable |\n| L3 | Opposite side of larger | Unstable |\n| L4 | 60° ahead (triangle) | Stable |\n| L5 | 60° behind (triangle) | Stable |\n\n## L1 Applications\n\n```\nSun-Earth L1 (1.5 million km toward Sun)\n\nUsed for: Solar observation satellites\nExample: SOHO, DSCOVR\n```\n\n## L2 Applications\n\n```\nSun-Earth L2 (1.5 million km away from Sun)\n\nUsed for: Space telescopes\nExample: JWST, Planck, Gaia\n\nAdvantages:\n- Always away from Sun\n- Stable thermal environment\n- Earth blocks some solar radiation\n```\n\n## L4 and L5: Trojan Asteroids\n\n```\n           Trojans (L4)\n          ╱\n         ╱\n    ★───◐───────────→ Orbit\n         ╲\n          ╲\n           Greeks (L5)\n```\n\nJupiter has ~10,000 known Trojans!\n\n## Halo Orbits\n\nSatellites don't sit at L-points exactly - they orbit around them.\n\n> 💡 **Key Point:** JWST orbits around L2, not at it exactly!"
+        },
+        {
+            "id": "celmech_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Celestial Mechanics! Here's what you've mastered:\n\n## Orbital Dynamics\n\n- ✅ Six orbital elements define an orbit\n- ✅ Eccentricity: Circle to hyperbola\n- ✅ Vis-viva: v² = GM(2/r - 1/a)\n- ✅ Lower orbit = faster motion\n\n## Kepler's Laws\n\n| Law | Statement |\n|-----|----------|\n| 1st | Ellipses with Sun at focus |\n| 2nd | Equal areas in equal times |\n| 3rd | P² = a³ |\n\n## Tides\n\n- ✅ Two bulges (near and far)\n- ✅ Spring/neap tides\n- ✅ Tidal locking (Moon)\n- ✅ Tidal heating (Io)\n\n## N-Body Problem\n\n- ✅ No general analytical solution for 3+ bodies\n- ✅ Numerical integration required\n- ✅ Long-term chaos\n- ✅ Resonances stabilize/destabilize\n\n## Lagrange Points\n\n| Point | Use |\n|-------|-----|\n| L1 | Solar observatories |\n| L2 | Space telescopes (JWST) |\n| L4, L5 | Trojan asteroids |\n\n> 🎓 **You've completed Astronomy!**\n\nCongratulations on mastering the universe from planets to the cosmos!"
+        }
+    ]
+}

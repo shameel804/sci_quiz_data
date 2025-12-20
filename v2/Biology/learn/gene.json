@@ -1,0 +1,117 @@
+{
+    "id": "learn_gene",
+    "topicId": "gene",
+    "topicTitle": "Genetics",
+    "description": "Explore DNA, genes, inheritance patterns, genetic engineering, and evolutionary theory",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "genetics_1",
+            "type": "content",
+            "title": "Welcome to Genetics & Evolution",
+            "content": "# Introduction to Genetics & Evolution 🧬\n\nWelcome to **Genetics** - the study of heredity and variation!\n\n## What you'll learn:\n- **DNA Structure** - The molecule of life\n- **Gene Expression** - DNA → RNA → Protein\n- **Inheritance** - Mendelian genetics\n- **Biotechnology** - Genetic engineering\n- **Evolution** - Change over time\n\n> 💡 **Fun Fact:** You share 50% of your DNA with bananas, and 98.8% with chimpanzees!\n\n## Key Terms\n\n| Term | Definition |\n|------|------------|\n| Gene | Section of DNA coding for a trait |\n| Allele | Different versions of a gene |\n| Genotype | Genetic makeup (Bb) |\n| Phenotype | Physical appearance (brown eyes) |\n| Chromosome | DNA + protein package |\n| Genome | Complete set of genetic information |\n\n## History of Genetics\n\n| Year | Discovery |\n|------|----------|\n| 1866 | Mendel's laws of inheritance |\n| 1953 | Watson & Crick - DNA structure |\n| 1977 | DNA sequencing developed |\n| 2003 | Human Genome Project completed |\n| 2012 | CRISPR gene editing |\n\nLet's unlock the code of life!"
+        },
+        {
+            "id": "genetics_2",
+            "type": "content",
+            "title": "DNA Structure",
+            "content": "# DNA Structure 🔗\n\n## The Double Helix\n\nDNA = **D**eoxyribo**N**ucleic **A**cid\n\n```\n         Sugar-phosphate backbone\n              5' │ │ 3'\n                 │A═T│\n                 │T═A│\n                 │G≡C│\n                 │C≡G│\n              3' │ │ 5'\n          Base pairs in center\n```\n\n## Nucleotide Structure\n\nEach nucleotide has 3 parts:\n1. **Phosphate group** - Links nucleotides\n2. **Deoxyribose sugar** - 5-carbon sugar\n3. **Nitrogenous base** - Carries information\n\n## The Four Bases\n\n| Purines | Pyrimidines |\n|---------|-------------|\n| **A**denine | **T**hymine |\n| **G**uanine | **C**ytosine |\n| (2 rings) | (1 ring) |\n\n## Base Pairing Rules\n\n```\nA ══ T  (2 hydrogen bonds)\nG ≡≡≡ C  (3 hydrogen bonds)\n```\n\n**Chargaff's Rule:** %A = %T, %G = %C\n\n## DNA Characteristics\n\n| Feature | Description |\n|---------|-------------|\n| Length | Human: 3 billion base pairs |\n| Width | 2 nm |\n| Strands | Antiparallel (5'→3' opposite) |\n| Storage | Highly compressed in chromosomes |\n\n## Human Chromosomes\n\n- 23 pairs = 46 total\n- 22 autosomal pairs\n- 1 sex chromosome pair (XX or XY)\n\n> 🎯 **Key Point:** Base pairing makes DNA replication possible!"
+        },
+        {
+            "id": "genetics_3",
+            "type": "content",
+            "title": "DNA Replication",
+            "content": "# DNA Replication 📋\n\nMaking an exact copy of DNA before cell division.\n\n## The Central Idea\n\n> **Semiconservative replication** - Each new DNA has one old strand and one new strand.\n\n## Steps of Replication\n\n### 1. Initiation\n- **Helicase** unwinds the double helix\n- Creates replication fork\n- Forms \"replication bubble\"\n\n### 2. Elongation\n\n```\n     3'─────────────────5'  ← Leading strand (continuous)\n        ←               \n     5'─────────────────3'  ← Lagging strand (Okazaki fragments)\n           ↖  ↖  ↖\n```\n\n**DNA Polymerase:**\n- Reads template 3' → 5'\n- Builds new strand 5' → 3'\n- Adds complementary nucleotides\n\n### 3. Termination\n- **Ligase** joins Okazaki fragments\n- Two complete DNA molecules\n\n## Key Enzymes\n\n| Enzyme | Function |\n|--------|----------|\n| Helicase | Unwinds DNA |\n| Primase | Makes RNA primer |\n| DNA Polymerase | Adds nucleotides |\n| Ligase | Joins fragments |\n| Topoisomerase | Relieves tension |\n\n## Proofreading\n\n- DNA polymerase checks for errors\n- Error rate: ~1 in 10⁹ bases\n- Mismatch repair fixes remaining errors\n\n## Result\n\n```\n1 DNA → 2 identical DNAs\n```\n\n> 💡 **Key Point:** Each cell division requires complete DNA replication!"
+        },
+        {
+            "id": "genetics_quiz_1",
+            "type": "quiz",
+            "title": "DNA Quiz",
+            "content": "Test your understanding of DNA!",
+            "quizQuestion": "If a DNA strand has the sequence 5'-ATGC-3', what is the complementary strand?",
+            "quizOptions": [
+                "5'-ATGC-3'",
+                "5'-TACG-3'",
+                "3'-TACG-5'",
+                "3'-GCAT-5'"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "genetics_4",
+            "type": "content",
+            "title": "Gene Expression - Transcription",
+            "content": "# Transcription 📝\n\nCopying DNA information into RNA.\n\n## The Central Dogma\n\n```\nDNA → RNA → Protein\n     Transcription  Translation\n```\n\n## RNA vs DNA\n\n| Feature | DNA | RNA |\n|---------|-----|-----|\n| Sugar | Deoxyribose | Ribose |\n| Bases | A, T, G, C | A, **U**, G, C |\n| Strands | Double | Single |\n| Location | Nucleus | Nucleus + cytoplasm |\n| Stability | Very stable | Less stable |\n\n## Types of RNA\n\n| Type | Function |\n|------|----------|\n| mRNA | Carries message from DNA |\n| tRNA | Brings amino acids to ribosome |\n| rRNA | Makes up ribosomes |\n\n## Transcription Process\n\n### 1. Initiation\n- **RNA polymerase** binds to **promoter**\n- DNA strands separate\n\n### 2. Elongation\n- RNA polymerase reads DNA 3' → 5'\n- Builds mRNA 5' → 3'\n- Uses complementary bases (except U for T)\n\n### 3. Termination\n- Reaches **terminator** sequence\n- RNA polymerase releases\n- mRNA released\n\n## In Eukaryotes: RNA Processing\n\n```\nPre-mRNA → mRNA\n\n1. 5' cap added\n2. 3' poly-A tail added\n3. Introns spliced out\n```\n\n| Component | Fate |\n|-----------|------|\n| Exons | Expressed (kept) |\n| Introns | Spliced out (removed) |\n\n> 🎯 **Memory Tip:** \"EXons are EXpressed, INtrons are IN the trash!\""
+        },
+        {
+            "id": "genetics_5",
+            "type": "content",
+            "title": "Gene Expression - Translation",
+            "content": "# Translation 🔤\n\nConverting mRNA message into protein.\n\n## Location: Ribosome\n\n```\n    mRNA: 5'─AUG─GCA─UUU─UAA─3'\n              ↓   ↓   ↓   ↓\n    Amino:  Met─Ala─Phe─STOP\n```\n\n## The Genetic Code\n\n- 64 codons (triplets of nucleotides)\n- Code for 20 amino acids + STOP\n- **Degenerate** - Multiple codons per amino acid\n- **Universal** - Same in all organisms\n\n### Important Codons\n\n| Codon | Meaning |\n|-------|--------|\n| AUG | Start (Methionine) |\n| UAA | Stop (Ochre) |\n| UAG | Stop (Amber) |\n| UGA | Stop (Opal) |\n\n## tRNA Structure\n\n```\n        Amino acid\n             │\n    ───┐    │\n       │    │\n    ───┴────┘\n       │\n    Anticodon (matches mRNA codon)\n```\n\n## Translation Process\n\n### 1. Initiation\n- Ribosome assembles on mRNA\n- Start codon (AUG) positioned\n- First tRNA arrives (Met)\n\n### 2. Elongation\n- tRNA brings amino acid\n- Anticodon matches codon\n- Peptide bond forms\n- Ribosome moves along mRNA\n\n### 3. Termination\n- Stop codon reached\n- Release factor enters\n- Polypeptide released\n- Ribosome disassembles\n\n## Summary: Gene Expression\n\n```\nDNA → mRNA → Protein\n      ↑         ↑\n  Transcription  Translation\n    (Nucleus)    (Ribosome)\n```\n\n> 💡 **Key Point:** The genetic code is nearly universal across all life!"
+        },
+        {
+            "id": "genetics_6",
+            "type": "content",
+            "title": "Mendelian Genetics",
+            "content": "# Mendelian Genetics 🌱\n\nGregor Mendel's principles of inheritance.\n\n## Key Terms\n\n| Term | Meaning |\n|------|--------|\n| Dominant | Expressed when one copy present (A) |\n| Recessive | Only expressed with two copies (aa) |\n| Homozygous | Same alleles (AA or aa) |\n| Heterozygous | Different alleles (Aa) |\n\n## Mendel's Laws\n\n### Law of Segregation\nAlleles separate during gamete formation.\n\n### Law of Independent Assortment\nGenes for different traits sort independently.\n\n## The Punnett Square\n\n**Cross: Aa × Aa**\n\n```\n        A       a\n    ┌───────┬───────┐\n  A │  AA   │  Aa   │\n    ├───────┼───────┤\n  a │  Aa   │  aa   │\n    └───────┴───────┘\n```\n\n**Genotype ratio:** 1 AA : 2 Aa : 1 aa\n**Phenotype ratio:** 3 dominant : 1 recessive\n\n## Test Cross\n\nCrossing unknown (A_) with recessive (aa) to determine genotype.\n\n```\nIf any recessive offspring → Parent is Aa\nIf all dominant offspring → Parent likely AA\n```\n\n## Dihybrid Cross (AaBb × AaBb)\n\nPhenotype ratio: 9:3:3:1\n\n| Phenotype | Ratio |\n|-----------|-------|\n| A_B_ | 9 |\n| A_bb | 3 |\n| aaB_ | 3 |\n| aabb | 1 |\n\n## Pedigree Symbols\n\n```\n□ = Male\n○ = Female\n■/● = Affected\n□─○ = Mating\n├── = Offspring\n```\n\n> 🎯 **Key Point:** Mendel's laws explain basic inheritance patterns!"
+        },
+        {
+            "id": "genetics_quiz_2",
+            "type": "quiz",
+            "title": "Inheritance Quiz",
+            "content": "Test your understanding of genetics!",
+            "quizQuestion": "What is the expected phenotype ratio from a monohybrid cross Aa × Aa?",
+            "quizOptions": [
+                "1:1",
+                "1:2:1",
+                "3:1",
+                "9:3:3:1"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "genetics_7",
+            "type": "content",
+            "title": "Beyond Mendel",
+            "content": "# Beyond Mendel 🔄\n\nNot all inheritance follows simple dominant/recessive patterns.\n\n## Incomplete Dominance\n\nHeterozygote shows intermediate phenotype.\n\n```\nRR (Red) × WW (White) = RW (Pink)\n\nRatio: 1 Red : 2 Pink : 1 White\n```\n\n## Codominance\n\nBoth alleles fully expressed in heterozygote.\n\n```\nRoan cattle: Red + White = Red AND White hairs\nBlood type: Iᴬ + Iᴮ = AB (both antigens present)\n```\n\n## Multiple Alleles\n\nMore than two allele options in the population.\n\n### Blood Type\n\n| Alleles | Blood Type | Antigens |\n|---------|------------|----------|\n| Iᴬ Iᴬ or Iᴬ i | A | A |\n| Iᴮ Iᴮ or Iᴮ i | B | B |\n| Iᴬ Iᴮ | AB | A and B |\n| ii | O | None |\n\n## Polygenic Traits\n\nMultiple genes contribute to one trait.\n\n- Skin color\n- Height\n- Eye color\n- Intelligence\n\nResults in continuous variation (bell curve).\n\n## Sex-Linked Traits\n\nGenes on X chromosome (X-linked).\n\n```\nMales: X^A Y or X^a Y (only one allele!)\nFemales: X^A X^A, X^A X^a, or X^a X^a\n```\n\n**Examples:** Color blindness, hemophilia\n\n| Cross | Daughters | Sons |\n|-------|-----------|------|\n| X^A X^a × X^A Y | Carrier/Normal | Affected/Normal |\n\n## Epistasis\n\nOne gene affects expression of another gene.\n\n> 💡 **Key Point:** Most traits are influenced by multiple genes and the environment!"
+        },
+        {
+            "id": "genetics_8",
+            "type": "content",
+            "title": "Mutations",
+            "content": "# Mutations 🧬\n\nChanges in the DNA sequence.\n\n## Types of Point Mutations\n\n| Type | Definition | Example |\n|------|------------|--------|\n| **Substitution** | One base replaced | AGT → ACT |\n| **Insertion** | Base(s) added | AGT → AGGT |\n| **Deletion** | Base(s) removed | AGT → AT |\n\n## Effects of Substitutions\n\n| Mutation Type | Effect |\n|--------------|---------|\n| **Silent** | Same amino acid (degeneracy) |\n| **Missense** | Different amino acid |\n| **Nonsense** | Creates stop codon → Truncated protein |\n\n## Frameshift Mutations\n\nInsertions/deletions that shift reading frame.\n\n```\nNormal:    THE CAT ATE THE RAT\nInsert T:  THE TCA TAT ETH ERA T\n           (Completely different!)\n```\n\n## Chromosomal Mutations\n\n| Type | Description |\n|------|-------------|\n| Deletion | Segment lost |\n| Duplication | Segment repeated |\n| Inversion | Segment flipped |\n| Translocation | Segment moves to another chromosome |\n\n## Causes of Mutations\n\n### Spontaneous\n- DNA replication errors\n- Tautomeric shifts\n\n### Induced\n- Radiation (UV, X-rays)\n- Chemicals (mutagens)\n- Viruses\n\n## Mutation Outcomes\n\n| Location | Consequence |\n|----------|-------------|\n| Somatic cells | Not inherited, may cause cancer |\n| Germ cells | Can be inherited |\n| Neutral | No effect |\n| Beneficial | Rare, drives evolution |\n| Harmful | Most mutations |\n\n> 🎯 **Key Point:** Mutations are the raw material for evolution!"
+        },
+        {
+            "id": "genetics_9",
+            "type": "content",
+            "title": "Biotechnology",
+            "content": "# Biotechnology 🔧\n\nUsing living systems to develop products.\n\n## Genetic Engineering\n\n### Recombinant DNA Technology\n\n```\n1. Cut DNA with restriction enzymes\n2. Insert gene into vector (plasmid)\n3. Transform host (bacteria)\n4. Express protein\n```\n\n### Applications\n\n| Application | Example |\n|-------------|--------|\n| Medicine | Insulin production |\n| Agriculture | Bt crops (insect resistant) |\n| Industry | Enzymes for detergents |\n| Research | Knockout mice |\n\n## PCR - Polymerase Chain Reaction\n\nAmplifying (copying) DNA millions of times.\n\n```\nCycle: Denature → Anneal → Extend → Repeat\n       95°C      55°C     72°C\n\n30 cycles = 2³⁰ = 1 billion copies!\n```\n\n## Gel Electrophoresis\n\nSeparating DNA by size.\n\n```\n    (-)  Wells\n         │ │ │ │\n    ════════════════\n         ─ ─ ─ ─    Small (travels far)\n         ▬ ▬ ▬ ▬    Medium\n         █ █ █ █    Large (stays near top)\n    ════════════════\n    (+)\n```\n\n## CRISPR-Cas9\n\nPrecise gene editing \"molecular scissors.\"\n\n```\nCRISPR: Guide RNA finds target\nCas9: Cuts DNA at specific site\nResult: Gene deleted, replaced, or modified\n```\n\n## Ethical Considerations\n\n| Benefit | Concern |\n|---------|--------|\n| Cure disease | Designer babies |\n| Feed more people | Environmental impact |\n| Scientific advancement | Unintended consequences |\n\n> 💡 **Future:** CRISPR may cure genetic diseases like sickle cell anemia!"
+        },
+        {
+            "id": "genetics_10",
+            "type": "content",
+            "title": "Evolution",
+            "content": "# Evolution 🌍\n\nChange in populations over time.\n\n## Evidence for Evolution\n\n| Type | Example |\n|------|---------|\n| **Fossils** | Transitional forms |\n| **Anatomy** | Homologous structures |\n| **Embryology** | Similar development |\n| **Molecular** | DNA/protein similarities |\n| **Biogeography** | Species distribution |\n\n## Natural Selection\n\nDarwin's mechanism for evolution:\n\n1. **Variation** exists in populations\n2. **Overproduction** of offspring\n3. **Struggle** for limited resources\n4. **Survival** of fittest (differential reproduction)\n5. **Adaptation** accumulates over generations\n\n## Types of Selection\n\n```\nStabilizing:      Directional:      Disruptive:\n    ▲                 ▲                ▲   ▲\n   /|\\               /                /     \\\n  / | \\             /                /       \\\n────┴────         ───────→        ←───     ───→\n(Middle            (One extreme    (Both extremes\nfavored)           favored)        favored)\n```\n\n## Other Evolutionary Mechanisms\n\n| Mechanism | Description |\n|-----------|-------------|\n| Mutation | Creates new alleles |\n| Gene flow | Migration between populations |\n| Genetic drift | Random changes (small populations) |\n| Sexual selection | Mate choice drives evolution |\n\n## Speciation\n\n| Type | Mechanism |\n|------|----------|\n| Allopatric | Geographic isolation |\n| Sympatric | Same area, different niches |\n\n## Hardy-Weinberg Equilibrium\n\n```\np² + 2pq + q² = 1\n\np = frequency of dominant allele\nq = frequency of recessive allele\n```\n\n> 🎯 **Key Point:** Evolution is the unifying theory of biology!"
+        },
+        {
+            "id": "genetics_quiz_3",
+            "type": "quiz",
+            "title": "Evolution Quiz",
+            "content": "Test your understanding of evolution!",
+            "quizQuestion": "Which mechanism creates new alleles in a population?",
+            "quizOptions": [
+                "Natural selection",
+                "Mutation",
+                "Genetic drift",
+                "Gene flow"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "genetics_11",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Genetics & Evolution! Here's what you've mastered:\n\n## DNA & Gene Expression\n- ✅ DNA structure: Double helix, A-T/G-C pairing\n- ✅ Replication: Semiconservative\n- ✅ Transcription: DNA → mRNA\n- ✅ Translation: mRNA → Protein\n\n## Inheritance\n\n| Pattern | Ratio |\n|---------|-------|\n| Monohybrid | 3:1 |\n| Dihybrid | 9:3:3:1 |\n| Incomplete dominance | 1:2:1 |\n\n## Beyond Mendel\n- ✅ Codominance, Multiple alleles\n- ✅ Polygenic traits\n- ✅ Sex-linked inheritance\n\n## Mutations\n- ✅ Point mutations (substitution, insertion, deletion)\n- ✅ Frameshift mutations\n- ✅ Chromosomal mutations\n\n## Biotechnology\n- ✅ Recombinant DNA\n- ✅ PCR amplification\n- ✅ CRISPR gene editing\n\n## Evolution\n- ✅ Natural selection\n- ✅ Evidence for evolution\n- ✅ Speciation and Hardy-Weinberg\n\n## Key Equation\n```\nDNA → RNA → Protein\n```\n\n> 🚀 **Next Steps:** Explore Ecology to see how organisms interact in their environments!\n\nYou now understand the molecular basis of heredity and evolution!"
+        }
+    ]
+}

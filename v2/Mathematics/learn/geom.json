@@ -1,0 +1,65 @@
+{
+    "id": "learn_geom",
+    "topicId": "geom",
+    "topicTitle": "Geometry",
+    "description": "Explore Euclidean geometry, coordinate geometry, theorems, and 3D geometry",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "geom_1",
+            "type": "content",
+            "title": "Welcome to Geometry",
+            "content": "# Introduction to Geometry 📐\n\nWelcome to **Geometry** - the study of shapes and space!\n\n## What you'll learn:\n- **Euclidean Geometry** - Points, lines, angles, shapes\n- **Coordinate Geometry** - Shapes on the plane\n- **Theorems** - Pythagoras, Thales, and more\n- **3D Geometry** - Solids and volumes\n\n> 💡 **Fun Fact:** \"Geometry\" means \"earth measurement\" in Greek!\n\n## Basic Building Blocks\n\n| Element | Definition | Symbol |\n|---------|------------|--------|\n| Point | Location, no size | A, B |\n| Line | Infinite length | ↔ |\n| Ray | One endpoint | → |\n| Segment | Two endpoints | - |\n| Plane | Flat surface | |\n\n## Types of Angles\n\n| Type | Measure |\n|------|--------|\n| Acute | < 90° |\n| Right | = 90° |\n| Obtuse | 90° < θ < 180° |\n| Straight | = 180° |\n| Reflex | > 180° |\n\n## Angle Relationships\n\n| Relationship | Sum |\n|--------------|-----|\n| Complementary | 90° |\n| Supplementary | 180° |\n| Vertical | Equal |\n\nLet's explore the world of shapes!"
+        },
+        {
+            "id": "geom_2",
+            "type": "content",
+            "title": "Triangles",
+            "content": "# Triangles 🔺\n\n## Types by Sides\n\n| Type | Sides |\n|------|-------|\n| Equilateral | All equal |\n| Isosceles | Two equal |\n| Scalene | None equal |\n\n## Types by Angles\n\n| Type | Largest Angle |\n|------|---------------|\n| Acute | All < 90° |\n| Right | One = 90° |\n| Obtuse | One > 90° |\n\n## Triangle Properties\n\n### Angle Sum\n```\n∠A + ∠B + ∠C = 180°\n```\n\n### Exterior Angle\n```\nExterior angle = Sum of remote interior angles\n```\n\n### Triangle Inequality\n```\na + b > c (any two sides > third)\n```\n\n## Area Formulas\n\n### Base × Height\n```\nA = ½ × b × h\n```\n\n### Heron's Formula\n```\ns = (a + b + c)/2\nA = √[s(s-a)(s-b)(s-c)]\n```\n\n## Special Points\n\n| Point | Definition |\n|-------|------------|\n| Centroid | Medians intersect |\n| Incenter | Angle bisectors |\n| Circumcenter | Perpendicular bisectors |\n| Orthocenter | Altitudes intersect |\n\n## Congruence Tests\n\n| Test | Sides/Angles |\n|------|-------------|\n| SSS | Three sides |\n| SAS | Two sides + included angle |\n| ASA | Two angles + included side |\n| AAS | Two angles + any side |\n| RHS | Right angle + hypotenuse + side |\n\n> 🎯 **Key Point:** All triangle angles sum to 180°!"
+        },
+        {
+            "id": "geom_3",
+            "type": "content",
+            "title": "Circles",
+            "content": "# Circles ⭕\n\n## Key Terms\n\n```\n         Diameter (d)\n    ←─────────●─────────→\n         r│    \n          │  ○ Arc\n    ●─────●───────●\n    Chord      Tangent\n```\n\n| Term | Definition |\n|------|------------|\n| Radius (r) | Center to edge |\n| Diameter (d) | 2r |\n| Chord | Line between two points |\n| Secant | Line through circle |\n| Tangent | Touches at one point |\n| Arc | Part of circumference |\n| Sector | \"Pizza slice\" |\n| Segment | Chord + arc |\n\n## Key Formulas\n\n| Measure | Formula |\n|---------|--------|\n| Circumference | C = 2πr = πd |\n| Area | A = πr² |\n| Arc length | L = (θ/360°) × 2πr |\n| Sector area | A = (θ/360°) × πr² |\n\n## Circle Theorems\n\n### Central Angle\n```\nCentral angle = Arc angle\n```\n\n### Inscribed Angle\n```\nInscribed angle = ½ × Central angle\n```\n\n### Angle in Semicircle\n```\nAngle in semicircle = 90°\n```\n\n### Tangent Properties\n```\nTangent ⊥ Radius at point of contact\n```\n\n## Cyclic Quadrilaterals\n\n```\nOpposite angles sum to 180°\n∠A + ∠C = 180°\n∠B + ∠D = 180°\n```\n\n> 💡 **Key Point:** π ≈ 3.14159... is the ratio of every circle's circumference to diameter!"
+        },
+        {
+            "id": "geom_quiz_1",
+            "type": "quiz",
+            "title": "Geometry Quiz",
+            "content": "Test your geometry knowledge!",
+            "quizQuestion": "What is the area of a circle with radius 5?",
+            "quizOptions": [
+                "10π",
+                "25π",
+                "50π",
+                "5π"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geom_4",
+            "type": "content",
+            "title": "Coordinate Geometry",
+            "content": "# Coordinate Geometry 📊\n\n## The Cartesian Plane\n\n```\n        y\n        ↑\n   II   │   I\n        │\n ───────●───────→ x\n        │\n  III   │   IV\n```\n\n## Key Formulas\n\n### Distance\n```\nd = √[(x₂-x₁)² + (y₂-y₁)²]\n```\n\n### Midpoint\n```\nM = ((x₁+x₂)/2, (y₁+y₂)/2)\n```\n\n### Slope\n```\nm = (y₂-y₁)/(x₂-x₁)\n```\n\n## Line Equations\n\n| Form | Equation |\n|------|----------|\n| Slope-intercept | y = mx + b |\n| Point-slope | y - y₁ = m(x - x₁) |\n| Standard | Ax + By = C |\n| Two-point | (y-y₁)/(y₂-y₁) = (x-x₁)/(x₂-x₁) |\n\n## Parallel and Perpendicular\n\n| Relationship | Slopes |\n|--------------|--------|\n| Parallel | m₁ = m₂ |\n| Perpendicular | m₁ × m₂ = -1 |\n\n## Conic Sections\n\n### Circle\n```\n(x - h)² + (y - k)² = r²\nCenter: (h, k), Radius: r\n```\n\n### Parabola\n```\ny = a(x - h)² + k\nVertex: (h, k)\n```\n\n### Ellipse\n```\n(x-h)²/a² + (y-k)²/b² = 1\n```\n\n### Hyperbola\n```\n(x-h)²/a² - (y-k)²/b² = 1\n```\n\n> 🎯 **Key Point:** Coordinate geometry unifies algebra and geometry!"
+        },
+        {
+            "id": "geom_5",
+            "type": "content",
+            "title": "Important Theorems",
+            "content": "# Important Theorems 📜\n\n## Pythagorean Theorem\n\n```\na² + b² = c²\n\n     /|\n   c/ |\n   /  | a\n  /___|\n    b\n\n(Right triangle only!)\n```\n\n### Converse\nIf a² + b² = c², then it's a right triangle.\n\n### Pythagorean Triples\n\n| Triple | Example |\n|--------|--------|\n| 3-4-5 | Basic |\n| 5-12-13 | Common |\n| 8-15-17 | Common |\n| 7-24-25 | Less common |\n\n## Thales' Theorem\n\n```\nAngle inscribed in semicircle = 90°\n\n     ___\n    /   \\\n   /  ●  \\  ← Right angle\n  ●───────●\n   Diameter\n```\n\n## Basic Proportionality (BPT)\n\n```\nIf DE ∥ BC in triangle ABC:\n\nAD/DB = AE/EC\n```\n\n## Angle Bisector Theorem\n\n```\nAngle bisector divides opposite side\nin ratio of adjacent sides:\n\nBD/DC = AB/AC\n```\n\n## Similar Triangles (AA)\n\n```\nIf two angles equal:\n• Triangles are similar\n• Corresponding sides proportional\n```\n\n## Area Ratio\n\n```\nSimilar triangles with scale k:\n\nArea ratio = k²\n```\n\n> 💡 **Key Point:** Pythagoras is the most used theorem in mathematics!"
+        },
+        {
+            "id": "geom_6",
+            "type": "content",
+            "title": "3D Geometry",
+            "content": "# 3D Geometry 🧊\n\n## Common Solids\n\n### Prisms and Cylinders\n\n| Solid | Volume | Surface Area |\n|-------|--------|-------------|\n| Cube | a³ | 6a² |\n| Cuboid | l×w×h | 2(lw+wh+lh) |\n| Cylinder | πr²h | 2πr² + 2πrh |\n| Prism | Base × h | 2B + Ph |\n\n### Pyramids and Cones\n\n| Solid | Volume | Curved SA |\n|-------|--------|----------|\n| Pyramid | ⅓Bh | ½P×l |\n| Cone | ⅓πr²h | πrl |\n\n### Sphere\n\n| Measure | Formula |\n|---------|--------|\n| Volume | (4/3)πr³ |\n| Surface Area | 4πr² |\n\n## 3D Distance\n\n```\nd = √[(x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²]\n```\n\n## Euler's Formula\n\nFor convex polyhedra:\n\n```\nV - E + F = 2\n\nV = Vertices\nE = Edges\nF = Faces\n```\n\n### Example: Cube\n```\n8 - 12 + 6 = 2 ✓\n```\n\n## Platonic Solids\n\n| Solid | Faces | Shape |\n|-------|-------|-------|\n| Tetrahedron | 4 | Triangle |\n| Cube | 6 | Square |\n| Octahedron | 8 | Triangle |\n| Dodecahedron | 12 | Pentagon |\n| Icosahedron | 20 | Triangle |\n\n> 🎯 **Key Point:** Scaling by k → Volume scales by k³!"
+        },
+        {
+            "id": "geom_7",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Geometry! Here's what you've mastered:\n\n## Triangles\n- ✅ Angle sum = 180°\n- ✅ Area = ½bh\n- ✅ Congruence: SSS, SAS, ASA, AAS, RHS\n\n## Circles\n- ✅ C = 2πr, A = πr²\n- ✅ Inscribed angle = ½ central angle\n- ✅ Tangent ⊥ radius\n\n## Coordinate Geometry\n\n| Formula | Expression |\n|---------|------------|\n| Distance | √[(x₂-x₁)² + (y₂-y₁)²] |\n| Midpoint | ((x₁+x₂)/2, (y₁+y₂)/2) |\n| Slope | (y₂-y₁)/(x₂-x₁) |\n\n## Theorems\n- ✅ Pythagoras: a² + b² = c²\n- ✅ Thales: Semicircle angle = 90°\n\n## 3D Geometry\n\n| Solid | Volume |\n|-------|--------|\n| Cube | a³ |\n| Cylinder | πr²h |\n| Sphere | (4/3)πr³ |\n| Cone | ⅓πr²h |\n\n## Key Relationship\n\n```\nV - E + F = 2 (Euler's formula)\n```\n\n> 🚀 **Next Steps:** Explore Calculus for the mathematics of change!\n\nYou now understand the geometry of 2D and 3D space!"
+        }
+    ]
+}

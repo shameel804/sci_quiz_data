@@ -1,227 +1,74 @@
 [
-  {
-    "title": "Calculating Average Velocity",
-    "ques": "A car travels 60 km in 1 hour and then another 90 km in 1.5 hours. What is the average velocity of the car for the entire journey?",
-    "answer": {
-      "type": "text",
-      "content": "Average velocity = Total displacement / Total time\n= (60 km + 90 km) / (1 h + 1.5 h)\n= 150 km / 2.5 h\n= 60 km/h"
+    {
+        "title": "Understanding Motion Basics 🚗",
+        "ques": "Define the following terms in your own words and provide **one real-world example** for each:\n\n1. **Displacement**\n2. **Velocity**\n3. **Acceleration**\n\nHow do these differ from distance, speed, and change in speed respectively?",
+        "answer": {
+            "type": "text",
+            "content": "### Definitions:\n\n1. **Displacement** - The shortest straight-line distance between the starting and ending positions, with direction. Unlike *distance*, it can be zero even if you moved.\n   - *Example:* Walking around a track and returning to the start = 0 displacement, but distance traveled = track length.\n\n2. **Velocity** - The rate of change of displacement with respect to time, including direction. Unlike *speed*, velocity can be negative.\n   - *Example:* A car moving east at 60 km/h has a velocity of 60 km/h east.\n\n3. **Acceleration** - The rate of change of velocity with respect to time. Unlike just \"change in speed,\" acceleration includes directional changes.\n   - *Example:* A car slowing down from 60 to 40 km/h in 2 seconds has acceleration = -10 km/h/s."
+        },
+        "explanation": "This exercise establishes the fundamental difference between **scalar quantities** (distance, speed) and **vector quantities** (displacement, velocity, acceleration). Understanding this distinction is crucial for all mechanics problems."
     },
-    "explanation": "***Average velocity*** is the total displacement divided by the total time taken.\n```Total displacement = 60 km + 90 km = 150 km```\n```Total time = 1 h + 1.5 h = 2.5 h```\nSo, ```Average velocity = 150 km / 2.5 h = 60 km/h```"
-  },
-  {
-    "title": "Newton’s Second Law",
-    "ques": "A 10 kg object is acted upon by a net force of 50 N. What is its acceleration?",
-    "answer": {
-      "type": "text",
-      "content": "Using F = ma:\na = F/m = 50 N / 10 kg = 5 m/s²"
+    {
+        "title": "Equations of Motion Practice 📐",
+        "ques": "A car starts from rest and accelerates uniformly at **3 m/s²** for **8 seconds**.\n\nCalculate:\n1. The final velocity of the car\n2. The distance traveled during this time\n3. The distance covered in the 8th second only\n\n*Show all work using kinematic equations.*",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- Initial velocity (u) = 0 m/s (starts from rest)\n- Acceleration (a) = 3 m/s²\n- Time (t) = 8 s\n\n### Solutions:\n\n**1. Final Velocity:**\n```\nv = u + at\nv = 0 + (3)(8)\nv = 24 m/s\n```\n\n**2. Distance Traveled:**\n```\ns = ut + ½at²\ns = 0(8) + ½(3)(8)²\ns = ½ × 3 × 64\ns = 96 m\n```\n\n**3. Distance in 8th second:**\n```\nDistance in nth second = u + a(n - ½)\nDistance in 8th second = 0 + 3(8 - 0.5)\n= 3 × 7.5\n= 22.5 m\n```\n\nAlternatively: Distance in 7s = ½(3)(49) = 73.5 m\nDistance in 8th second = 96 - 73.5 = **22.5 m**"
+        },
+        "explanation": "This problem applies the three fundamental **kinematic equations** for uniformly accelerated motion. The formula for distance in the nth second is particularly useful for competition problems."
     },
-    "explanation": "***Newton’s Second Law*** states that ***Force = mass × acceleration (F = ma)***.\nWe are given:\n```F = 50 N```, ```m = 10 kg```\nRearranging: ```a = F/m = 50/10 = 5 m/s²```"
-  },
-  {
-    "title": "Work Done by a Force",
-    "ques": "A person pushes a box with a force of 100 N across a distance of 5 m. The angle between the force and the direction of motion is 0°. Calculate the work done.",
-    "answer": {
-      "type": "text",
-      "content": "Work = Force × Distance × cos(θ)\n= 100 N × 5 m × cos(0°)\n= 500 J"
+    {
+        "title": "Newton's Laws in Action 🎯",
+        "ques": "A **50 kg** box is placed on a frictionless surface. Two forces act on it:\n- **Force 1:** 200 N to the right\n- **Force 2:** 80 N to the left\n\n1. Draw a free-body diagram of the box\n2. Calculate the net force on the box\n3. Find the acceleration of the box\n4. If the box starts from rest, what is its velocity after 3 seconds?",
+        "answer": {
+            "type": "text",
+            "content": "### 1. Free-Body Diagram:\n```\n        ↑ N (Normal force)\n        |\n   80N ←[BOX]→ 200N\n        |\n        ↓ W (Weight = mg)\n```\n\n### 2. Net Force:\n```\nF_net = 200N - 80N = 120N (to the right)\n```\n\n### 3. Acceleration:\nUsing Newton's Second Law: **F = ma**\n```\na = F_net / m\na = 120 / 50\na = 2.4 m/s²\n```\n\n### 4. Velocity after 3 seconds:\n```\nv = u + at\nv = 0 + (2.4)(3)\nv = 7.2 m/s (to the right)\n```"
+        },
+        "explanation": "This problem combines **Newton's Second Law** (F = ma) with kinematics. Free-body diagrams are essential tools for visualizing all forces acting on an object before applying Newton's laws."
     },
-    "explanation": "***Work done*** is given by:\n```W = F × d × cos(θ)```\nHere,\n```F = 100 N```, ```d = 5 m```, ```θ = 0°``` so ```cos(0°) = 1```\nTherefore, ```W = 100 × 5 × 1 = 500 J```"
-  },
-  {
-    "title": "Projectile Motion - Maximum Height",
-    "ques": "A ball is projected vertically upward with a speed of 20 m/s. Calculate the maximum height it reaches. (Take g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "Using v² = u² - 2gh:\n0 = 20² - 2 × 9.8 × h\nh = 400 / (2 × 9.8) = 20.41 m"
+    {
+        "title": "Friction Force Calculation 🛞",
+        "ques": "A **10 kg** wooden block rests on a horizontal concrete surface. The coefficient of static friction is **μs = 0.6** and kinetic friction is **μk = 0.4**.\n\n1. What is the maximum force you can apply horizontally before the block starts moving?\n2. Once the block is moving, what force is needed to keep it moving at constant velocity?\n3. If you apply **80 N** of horizontal force, what is the acceleration of the block?\n\n*Take g = 10 m/s²*",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- Mass (m) = 10 kg\n- μs = 0.6, μk = 0.4\n- g = 10 m/s²\n\n### Calculations:\n\n**Normal Force:**\n```\nN = mg = 10 × 10 = 100 N\n```\n\n**1. Maximum Static Friction:**\n```\nfs(max) = μs × N\nfs(max) = 0.6 × 100\nfs(max) = 60 N\n```\n*You can push up to **60 N** before the block moves.*\n\n**2. Kinetic Friction Force:**\n```\nfk = μk × N\nfk = 0.4 × 100\nfk = 40 N\n```\n*To maintain constant velocity, apply exactly **40 N**.*\n\n**3. Acceleration with 80 N applied:**\nSince 80 N > 60 N, the block moves.\n```\nNet Force = Applied Force - Kinetic Friction\nF_net = 80 - 40 = 40 N\n\na = F_net / m = 40 / 10 = 4 m/s²\n```"
+        },
+        "explanation": "This problem illustrates the key difference between **static friction** (prevents motion, can vary up to a maximum) and **kinetic friction** (constant value once moving). Notice that kinetic friction is always less than maximum static friction."
     },
-    "explanation": "At maximum height, ***final velocity v = 0***.\nUsing the kinematic equation:\n```v² = u² - 2gh```\n```0 = 20² - 2 × 9.8 × h```\nSolving:\n```400 = 19.6h``` ⇒ ```h = 20.41 m```"
-  },
-  {
-    "title": "Conservation of Momentum",
-    "ques": "Two objects collide: one of mass 2 kg moving at 3 m/s, and another of mass 1 kg at rest. If they stick together after the collision, what is their common velocity?",
-    "answer": {
-      "type": "text",
-      "content": "Initial momentum = (2 kg × 3 m/s) + (1 kg × 0 m/s) = 6 kg·m/s\nFinal momentum = (2 + 1) kg × v\n6 = 3v ⇒ v = 2 m/s"
+    {
+        "title": "Work-Energy Theorem Application ⚡",
+        "ques": "A **2 kg** ball is dropped from a height of **45 meters**.\n\nUsing energy conservation (take g = 10 m/s²):\n\n1. What is the ball's potential energy at the top?\n2. What is its kinetic energy just before hitting the ground?\n3. What is the velocity just before impact?\n4. At what height does the ball have equal kinetic and potential energy?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- Mass (m) = 2 kg\n- Height (h) = 45 m\n- g = 10 m/s²\n\n### Solutions:\n\n**1. Potential Energy at Top:**\n```\nPE = mgh\nPE = 2 × 10 × 45\nPE = 900 J\n```\n\n**2. Kinetic Energy at Bottom:**\nBy conservation of energy:\n```\nKE(bottom) = PE(top) = 900 J\n```\n\n**3. Velocity at Impact:**\n```\nKE = ½mv²\n900 = ½ × 2 × v²\nv² = 900\nv = 30 m/s\n```\n\n**4. Height for Equal KE and PE:**\nAt any point: Total Energy = 900 J\nIf KE = PE, then each = 450 J\n```\nPE = mgh\n450 = 2 × 10 × h\nh = 22.5 m (from ground)\n```\n*Or 22.5 m below the starting point.*"
+        },
+        "explanation": "The **conservation of mechanical energy** (PE + KE = constant) is a powerful tool that often simplifies problems that would be complex using forces alone. At any point, energy transforms between potential and kinetic forms."
     },
-    "explanation": "***Conservation of momentum***: Total momentum before = Total momentum after.\n```Initial momentum = 2 × 3 + 1 × 0 = 6 kg·m/s```\nAfter sticking together:\n```Total mass = 3 kg```, ```Velocity = v```\n```6 = 3v ⇒ v = 2 m/s```"
-  },
-  {
-    "title": "Acceleration from Velocity Change",
-    "ques": "A cyclist increases her velocity from 5 m/s to 15 m/s in 4 seconds. What is her acceleration?",
-    "answer": {
-      "type": "text",
-      "content": "Acceleration = (Final velocity - Initial velocity) / Time\n= (15 - 5) / 4\n= 10 / 4 = 2.5 m/s²"
+    {
+        "title": "Projectile Motion Analysis 🎯",
+        "ques": "A ball is thrown horizontally from the top of a **80 m** tall building with an initial speed of **15 m/s**.\n\n*Take g = 10 m/s²*\n\n1. How long does the ball take to hit the ground?\n2. How far from the building does it land (horizontal range)?\n3. What is the ball's velocity (magnitude and direction) just before hitting the ground?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- Height (h) = 80 m\n- Initial horizontal velocity (vx) = 15 m/s\n- Initial vertical velocity (vy₀) = 0 (thrown horizontally)\n- g = 10 m/s²\n\n### Solutions:\n\n**1. Time of Flight:**\nVertical motion: h = ½gt²\n```\n80 = ½ × 10 × t²\n80 = 5t²\nt² = 16\nt = 4 seconds\n```\n\n**2. Horizontal Range:**\n```\nR = vx × t\nR = 15 × 4\nR = 60 m\n```\n\n**3. Final Velocity:**\n\n*Horizontal component:* vx = 15 m/s (unchanged)\n\n*Vertical component:*\n```\nvy = vy₀ + gt = 0 + 10(4) = 40 m/s\n```\n\n*Magnitude:*\n```\nv = √(vx² + vy²)\nv = √(15² + 40²)\nv = √(225 + 1600)\nv = √1825\nv ≈ 42.7 m/s\n```\n\n*Direction:*\n```\nθ = tan⁻¹(vy/vx)\nθ = tan⁻¹(40/15)\nθ ≈ 69.4° below horizontal\n```"
+        },
+        "explanation": "In **projectile motion**, horizontal and vertical components are independent. The horizontal velocity stays constant (no horizontal force), while vertical velocity increases due to gravity. The final velocity is the vector sum of both components."
     },
-    "explanation": "***Acceleration*** is the rate of change of velocity:\n```a = (v - u) / t```\nHere,\n```v = 15 m/s```, ```u = 5 m/s```, ```t = 4 s```\nSo:\n```a = (15 - 5) / 4 = 2.5 m/s²```"
-  },
-  {
-    "title": "Force with Friction",
-    "ques": "A 20 kg crate is pulled with a horizontal force of 100 N on a surface with a coefficient of kinetic friction μ = 0.2. What is the net force acting on the crate?",
-    "answer": {
-      "type": "text",
-      "content": "Friction = μ × m × g = 0.2 × 20 × 9.8 = 39.2 N\nNet Force = Applied Force - Friction\n= 100 - 39.2 = 60.8 N"
+    {
+        "title": "Momentum and Collision Problem 💥",
+        "ques": "A **3 kg** cart moving at **4 m/s** collides with a **2 kg** stationary cart on a frictionless track.\n\n**Scenario A:** They stick together (perfectly inelastic collision)\n**Scenario B:** The collision is perfectly elastic\n\nFor each scenario, find:\n1. The final velocity/velocities\n2. The kinetic energy before and after collision\n3. Is kinetic energy conserved?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- m₁ = 3 kg, v₁ = 4 m/s\n- m₂ = 2 kg, v₂ = 0 m/s\n\n### Initial Momentum & KE:\n```\np_initial = m₁v₁ + m₂v₂ = 3(4) + 2(0) = 12 kg⋅m/s\nKE_initial = ½m₁v₁² = ½(3)(16) = 24 J\n```\n\n---\n\n### Scenario A: Perfectly Inelastic\n\n**1. Final Velocity:**\n```\nm₁v₁ + m₂v₂ = (m₁ + m₂)v_f\n12 = (3 + 2)v_f\nv_f = 2.4 m/s\n```\n\n**2. Final KE:**\n```\nKE_final = ½(5)(2.4)² = ½(5)(5.76) = 14.4 J\n```\n\n**3. KE Lost:** 24 - 14.4 = **9.6 J** (converted to heat/sound)\n\n---\n\n### Scenario B: Perfectly Elastic\n\n**1. Final Velocities:**\nUsing elastic collision formulas:\n```\nv₁' = [(m₁-m₂)/(m₁+m₂)]v₁ = [(3-2)/5](4) = 0.8 m/s\nv₂' = [2m₁/(m₁+m₂)]v₁ = [6/5](4) = 4.8 m/s\n```\n\n**2. Final KE:**\n```\nKE_final = ½(3)(0.8)² + ½(2)(4.8)²\n= 0.96 + 23.04 = 24 J\n```\n\n**3. KE Conserved?** ✅ Yes! 24 J = 24 J"
+        },
+        "explanation": "**Momentum is ALWAYS conserved** in collisions (isolated systems). **Kinetic energy is only conserved in elastic collisions**. Inelastic collisions lose KE to deformation, heat, and sound. This is why car crashes are designed to be inelastic - energy goes into crumpling the car, not the passengers."
     },
-    "explanation": "Frictional force is calculated using:\n```f_friction = μ × m × g```\n```= 0.2 × 20 × 9.8 = 39.2 N```\nThen subtract it from the applied force:\n```Net force = 100 - 39.2 = 60.8 N```"
-  },
-  {
-    "title": "Power from Work and Time",
-    "ques": "A motor does 3000 J of work in 15 seconds. What is its power output?",
-    "answer": {
-      "type": "text",
-      "content": "Power = Work / Time = 3000 J / 15 s = 200 W"
-    },
-    "explanation": "***Power*** is the rate of doing work:\n```P = W / t```\n```W = 3000 J```, ```t = 15 s```\n```P = 3000 / 15 = 200 W```"
-  },
-  {
-    "title": "Gravitational Force Between Two Masses",
-    "ques": "Calculate the gravitational force between two 10 kg masses that are 2 meters apart. (Use G = 6.674 × 10⁻¹¹ N·m²/kg²)",
-    "answer": {
-      "type": "text",
-      "content": "F = G × (m1 × m2) / r² = 6.674×10⁻¹¹ × (10×10) / 4\n= 6.674×10⁻¹¹ × 100 / 4 = 1.6685×10⁻⁹ N"
-    },
-    "explanation": "***Newton's Law of Universal Gravitation***:\n```F = G × (m1 × m2) / r²```\n```m1 = m2 = 10 kg```, ```r = 2 m```\nSo,\n```F = (6.674×10⁻¹¹ × 100) / 4 = 1.6685×10⁻⁹ N```"
-  },
-  {
-    "title": "Elastic Collision in One Dimension",
-    "ques": "A 1 kg ball moving at 4 m/s collides elastically with a stationary 1 kg ball. What are their velocities after the collision?",
-    "answer": {
-      "type": "text",
-      "content": "In an elastic collision with equal masses:\nFirst ball comes to rest, second ball moves with initial velocity of the first.\nSo, v₁' = 0, v₂' = 4 m/s"
-    },
-    "explanation": "In a 1D ***elastic collision*** between two objects of ***equal mass***:\nThe moving object stops, and the stationary one takes its velocity.\n```Before: v₁ = 4 m/s, v₂ = 0```\n```After: v₁' = 0, v₂' = 4 m/s```"
-  },
-  {
-    "title": "Displacement from Velocity-Time Graph",
-    "ques": "A body moves with a constant velocity of 10 m/s for 6 seconds. What is the displacement during this time?",
-    "answer": {
-      "type": "text",
-      "content": "Displacement = Velocity × Time\n= 10 m/s × 6 s = 60 m"
-    },
-    "explanation": "***Displacement*** is the area under the velocity-time graph.\nHere the velocity is constant:\n```Displacement = 10 × 6 = 60 m```"
-  },
-  {
-    "title": "Force from Mass and Acceleration",
-    "ques": "A vehicle of mass 1500 kg accelerates at a rate of 2 m/s². What is the net force acting on the vehicle?",
-    "answer": {
-      "type": "text",
-      "content": "Force = Mass × Acceleration\n= 1500 × 2 = 3000 N"
-    },
-    "explanation": "***Newton's Second Law***:\n```F = m × a```\n```m = 1500 kg```, ```a = 2 m/s²```\n```F = 1500 × 2 = 3000 N```"
-  },
-  {
-    "title": "Work Done at an Angle",
-    "ques": "A person pulls a suitcase with a force of 60 N at an angle of 30° to the horizontal. The suitcase moves 10 m. Find the work done.",
-    "answer": {
-      "type": "text",
-      "content": "Work = F × d × cos(θ)\n= 60 × 10 × cos(30°)\n= 600 × 0.866 ≈ 519.6 J"
-    },
-    "explanation": "***Work done*** when force is at an angle:\n```W = F × d × cos(θ)```\n```F = 60 N```, ```d = 10 m```, ```θ = 30°```\n```cos(30°) = 0.866```\nSo:\n```W = 60 × 10 × 0.866 = 519.6 J```"
-  },
-  {
-    "title": "Time of Flight in Projectile Motion",
-    "ques": "A ball is projected upward at an angle, with vertical velocity component of 15 m/s. How long will it stay in the air? (g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "Time to reach max height = v/g = 15 / 9.8 ≈ 1.53 s\nTotal time of flight = 2 × 1.53 = 3.06 s"
-    },
-    "explanation": "Time to reach maximum height:\n```t = v / g = 15 / 9.8 ≈ 1.53 s```\n***Total time of flight*** is double that:\n```T = 2 × 1.53 = 3.06 s```"
-  },
-  {
-    "title": "Impulse-Momentum Theorem",
-    "ques": "A 0.2 kg ball hits a wall with a velocity of 8 m/s and rebounds with 6 m/s in the opposite direction. What is the impulse imparted by the wall?",
-    "answer": {
-      "type": "text",
-      "content": "Impulse = Change in momentum = m(v₂ - v₁)\n= 0.2 × (-6 - 8) = 0.2 × (-14) = -2.8 Ns"
-    },
-    "explanation": "***Impulse*** is change in momentum:\n```Impulse = m(v₂ - v₁)```\nTake rebound direction as negative:\n```v₁ = 8 m/s```, ```v₂ = -6 m/s```\n```Impulse = 0.2 × (-6 - 8) = -2.8 Ns```"
-  },
-  {
-    "title": "Deceleration and Final Velocity",
-    "ques": "A train moving at 40 m/s applies brakes and decelerates uniformly at 2 m/s². How long will it take to come to a complete stop?",
-    "answer": {
-      "type": "text",
-      "content": "Using v = u + at:\n0 = 40 + (-2)t ⇒ t = 20 s"
-    },
-    "explanation": "***Final velocity v = 0 (since it stops)***\n```v = u + at``` → ```0 = 40 - 2t```\nSolve for t:\n```t = 40 / 2 = 20 s```"
-  },
-  {
-    "title": "Force Required to Overcome Friction",
-    "ques": "A 5 kg block is on a horizontal surface with μ = 0.4. What minimum force is needed to just start moving the block? (Take g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "F_friction = μ × m × g = 0.4 × 5 × 9.8 = 19.6 N"
-    },
-    "explanation": "***Static friction*** is the force that must be overcome to start motion:\n```F = μ × m × g```\n```μ = 0.4```, ```m = 5 kg```, ```g = 9.8 m/s²```\n```F = 0.4 × 5 × 9.8 = 19.6 N```"
-  },
-  {
-    "title": "Kinetic Energy of a Moving Object",
-    "ques": "What is the kinetic energy of a 3 kg object moving at 12 m/s?",
-    "answer": {
-      "type": "text",
-      "content": "KE = 0.5 × m × v² = 0.5 × 3 × 144 = 216 J"
-    },
-    "explanation": "***Kinetic energy*** is given by:\n```KE = 0.5 × m × v²```\n```m = 3 kg```, ```v = 12 m/s```\n```KE = 0.5 × 3 × 12² = 0.5 × 3 × 144 = 216 J```"
-  },
-  {
-    "title": "Height from Potential Energy",
-    "ques": "A 2 kg object has 98 J of gravitational potential energy. How high is it above the ground? (g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "PE = m × g × h ⇒ h = PE / (m × g)\n= 98 / (2 × 9.8) = 5 m"
-    },
-    "explanation": "***Gravitational potential energy***:\n```PE = m × g × h```\nRearranging:\n```h = PE / (m × g) = 98 / (2 × 9.8) = 5 m```"
-  },
-  {
-    "title": "Perfectly Inelastic Collision",
-    "ques": "A 4 kg cart moving at 2 m/s collides and sticks to a stationary 6 kg cart. What is their final velocity?",
-    "answer": {
-      "type": "text",
-      "content": "Initial momentum = 4 × 2 = 8 kg·m/s\nFinal mass = 4 + 6 = 10 kg\nFinal velocity = 8 / 10 = 0.8 m/s"
-    },
-    "explanation": "***Perfectly inelastic collisions*** conserve momentum:\n```Total initial momentum = 4 × 2 = 8 kg·m/s```\nFinal mass after sticking:\n```m = 4 + 6 = 10 kg```\n```v = 8 / 10 = 0.8 m/s```"
-  },
-  {
-    "title": "Uniform Acceleration: Final Velocity",
-    "ques": "A car starts from rest and accelerates uniformly at 3 m/s² for 10 seconds. What is its final velocity?",
-    "answer": {
-      "type": "text",
-      "content": "v = u + at = 0 + 3 × 10 = 30 m/s"
-    },
-    "explanation": "***Uniform acceleration formula***:\n```v = u + at```\nInitial velocity ```u = 0```, acceleration ```a = 3 m/s²```, time ```t = 10 s```\n```v = 0 + 3 × 10 = 30 m/s```"
-  },
-  {
-    "title": "Horizontal Force on Inclined Plane",
-    "ques": "A 10 kg block is on a 30° incline. What is the component of gravitational force pulling it down the slope? (g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "F = m × g × sin(θ) = 10 × 9.8 × sin(30°) = 98 × 0.5 = 49 N"
-    },
-    "explanation": "***Gravitational force along an incline***:\n```F = mg sin(θ)```\n```m = 10 kg```, ```g = 9.8```, ```sin(30°) = 0.5```\n```F = 10 × 9.8 × 0.5 = 49 N```"
-  },
-  {
-    "title": "Energy Conversion: Pendulum Swing",
-    "ques": "A pendulum bob has 2 J of potential energy at its highest point. Assuming no energy loss, what is its kinetic energy at the lowest point?",
-    "answer": {
-      "type": "text",
-      "content": "Kinetic energy at the bottom = Initial potential energy = 2 J"
-    },
-    "explanation": "***Conservation of mechanical energy***:\nPotential energy at the top converts entirely to kinetic energy at the bottom.\n```PE = KE ⇒ KE = 2 J```"
-  },
-  {
-    "title": "Free Fall: Distance Travelled",
-    "ques": "How far will an object fall in 3 seconds if dropped from rest? (g = 9.8 m/s²)",
-    "answer": {
-      "type": "text",
-      "content": "s = 0.5 × g × t² = 0.5 × 9.8 × 9 = 44.1 m"
-    },
-    "explanation": "***Free fall equation***:\n```s = 0.5 × g × t²```\n```t = 3 s```, so ```s = 0.5 × 9.8 × 3² = 0.5 × 9.8 × 9 = 44.1 m```"
-  },
-  {
-    "title": "Recoil Velocity (Momentum Conservation)",
-    "ques": "A 0.5 kg gun fires a 0.05 kg bullet at 200 m/s. What is the recoil velocity of the gun?",
-    "answer": {
-      "type": "text",
-      "content": "Initial momentum = 0\nFinal: 0.05 × 200 + 0.5 × v = 0\n10 + 0.5v = 0 ⇒ v = -20 m/s"
-    },
-    "explanation": "***Conservation of momentum***:\nInitial momentum = 0 (both at rest)\nFinal momentum:\n```Bullet: 0.05 × 200 = 10 kg·m/s```\n```Gun: 0.5 × v``` (opposite direction)\nSet total to 0:\n```10 + 0.5v = 0 ⇒ v = -20 m/s```"
-  }
+    {
+        "title": "Gravitational Force Challenge 🌍",
+        "ques": "Two identical spheres, each of mass **1000 kg**, are placed **10 meters** apart (center to center).\n\n*G = 6.67 × 10⁻¹¹ N⋅m²/kg²*\n\n1. Calculate the gravitational force between them\n2. If the distance is halved to 5 m, what is the new force?\n3. Compare Earth's gravitational pull on a 70 kg person at sea level (Earth's radius ≈ 6.37 × 10⁶ m, Earth's mass ≈ 5.97 × 10²⁴ kg) with the force calculated in part 1.",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- m₁ = m₂ = 1000 kg\n- r = 10 m\n- G = 6.67 × 10⁻¹¹ N⋅m²/kg²\n\n### Solutions:\n\n**1. Gravitational Force at 10 m:**\n```\nF = G(m₁m₂)/r²\nF = (6.67 × 10⁻¹¹)(1000)(1000)/(10)²\nF = (6.67 × 10⁻¹¹)(10⁶)/(100)\nF = 6.67 × 10⁻⁷ N\n```\n*This is an incredibly tiny force!*\n\n**2. Force at 5 m (half distance):**\nSince F ∝ 1/r², halving distance → 4× force\n```\nF' = 4 × 6.67 × 10⁻⁷\nF' = 2.67 × 10⁻⁶ N\n```\n\n**3. Earth's Pull on 70 kg Person:**\n```\nF = G(M_Earth × m)/R²\nF = (6.67 × 10⁻¹¹)(5.97 × 10²⁴)(70)/(6.37 × 10⁶)²\nF ≈ 687 N\n```\n\n*This is approximately **1 billion times stronger** than the force between the two 1000 kg spheres!*\n\nAlternatively: F = mg = 70 × 9.8 ≈ 686 N ✓"
+        },
+        "explanation": "This problem demonstrates why we don't feel gravitational attraction to everyday objects - the force is negligible. Earth's enormous mass (10²⁴ kg) is needed to produce the gravitational force we call **weight**. The **inverse square law** (F ∝ 1/r²) is fundamental to understanding gravity."
+    }
 ]

@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Propositional Logic 💭",
+        "ques": "For p = \"It rains\", q = \"Ground is wet\"\n1. Write \"If it rains, ground is wet\"\n2. Write the contrapositive\n3. Truth table for p → q",
+        "answer": {
+            "type": "text",
+            "content": "**1. Conditional:** p → q\n\n**2. Contrapositive:** ¬q → ¬p\n\"If ground is not wet, it didn't rain\"\n\n**3. Truth table:**\n| p | q | p→q |\n|---|---|-----|\n| T | T | T |\n| T | F | F |\n| F | T | T |\n| F | F | T |"
+        },
+        "explanation": "**Contrapositive** is logically equivalent to original. Only \"T→F\" is false."
+    },
+    {
+        "title": "Set Operations 📦",
+        "ques": "A = {1,2,3,4,5}, B = {4,5,6,7}\n1. A ∪ B\n2. A ∩ B\n3. A - B",
+        "answer": {
+            "type": "text",
+            "content": "**1. Union:** A ∪ B = {1,2,3,4,5,6,7}\n\n**2. Intersection:** A ∩ B = {4,5}\n\n**3. Difference:** A - B = {1,2,3}"
+        },
+        "explanation": "**Union** combines all elements; **intersection** finds common elements; **difference** removes elements."
+    },
+    {
+        "title": "Proof by Induction 📐",
+        "ques": "Prove: 1 + 2 + 3 + ... + n = n(n+1)/2\n1. Base case\n2. Inductive step",
+        "answer": {
+            "type": "text",
+            "content": "**1. Base case (n=1):**\nLHS = 1\nRHS = 1(2)/2 = 1 ✓\n\n**2. Inductive step:**\nAssume true for n=k:\n1+2+...+k = k(k+1)/2\n\nProve for n=k+1:\n```\n1+2+...+k+(k+1)\n= k(k+1)/2 + (k+1)\n= (k+1)(k/2 + 1)\n= (k+1)(k+2)/2 ✓\n```"
+        },
+        "explanation": "**Induction:** Prove base case, assume for k, prove for k+1. Works like falling dominos."
+    },
+    {
+        "title": "Proof by Contradiction 🔄",
+        "ques": "Prove √2 is irrational.\n1. What do we assume?\n2. What contradiction arises?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Assume:** √2 = a/b where a,b are integers with no common factors\n\n**2. Contradiction:**\n```\n2 = a²/b²\na² = 2b²\n```\n→ a² is even → a is even → a = 2k\n→ (2k)² = 2b² → 4k² = 2b² → b² = 2k²\n→ b² is even → b is even\n\nBut a and b can't both be even (no common factors)!\n**Contradiction** → √2 is irrational"
+        },
+        "explanation": "**Proof by contradiction:** Assume opposite is true, derive contradiction, conclude original is true."
+    },
+    {
+        "title": "Cardinality 🔢",
+        "ques": "1. Are natural numbers countable?\n2. Are real numbers countable?\n3. What is Cantor's diagonal argument?",
+        "answer": {
+            "type": "text",
+            "content": "**1.** Yes, natural numbers are countable (can list: 1,2,3,...)\n\n**2.** No, reals are uncountable (|ℝ| > |ℕ|)\n\n**3. Cantor's diagonal:**\nAssume reals 0-1 are listable. Create number differing from nth entry in nth decimal place → this number isn't in list → contradiction → reals are uncountable"
+        },
+        "explanation": "**Different sizes of infinity:** Countable (ℕ, ℤ, ℚ) vs uncountable (ℝ). Proved by Cantor (1891)."
+    },
+    {
+        "title": "De Morgan's Laws ⚖️",
+        "ques": "State and verify De Morgan's Laws:\n1. For logic\n2. For sets",
+        "answer": {
+            "type": "text",
+            "content": "**1. Logic:**\n- ¬(p ∧ q) ≡ ¬p ∨ ¬q\n- ¬(p ∨ q) ≡ ¬p ∧ ¬q\n\n\"Not (both) = not one or not other\"\n\n**2. Sets:**\n- (A ∩ B)' = A' ∪ B'\n- (A ∪ B)' = A' ∩ B'\n\n\"Not in both = not in A or not in B\""
+        },
+        "explanation": "**De Morgan's Laws** show how negation distributes over AND/OR. Useful for simplifying expressions."
+    }
+]

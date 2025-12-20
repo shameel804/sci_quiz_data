@@ -1,0 +1,59 @@
+{
+    "id": "learn_hard",
+    "topicId": "hard",
+    "topicTitle": "Computer Hardware",
+    "description": "Explore CPU, memory, logic gates, storage, and I/O systems",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "hard_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Computer Hardware ⚙️\n\n## Main Components\n| Component | Function |\n|-----------|----------|\n| CPU | Processing |\n| RAM | Temporary memory |\n| Storage | Permanent memory |\n| Motherboard | Connects all |"
+        },
+        {
+            "id": "hard_2",
+            "type": "content",
+            "title": "CPU",
+            "content": "# CPU & Memory 🧠\n\n## CPU Components\n- ALU: Arithmetic/logic\n- Control Unit: Instructions\n- Registers: Fast storage\n- Cache: Quick access\n\n## Memory Hierarchy\n```\nRegisters → Cache → RAM → SSD → HDD\n(Fastest)                  (Largest)\n```"
+        },
+        {
+            "id": "hard_3",
+            "type": "content",
+            "title": "Logic Gates",
+            "content": "# Logic Gates 🔌\n\n| Gate | Symbol | Output |\n|------|--------|--------|\n| AND | ∧ | Both 1 |\n| OR | ∨ | Either 1 |\n| NOT | ¬ | Inverted |\n| XOR | ⊕ | One 1 |\n| NAND | ⊼ | NOT AND |\n| NOR | ⊽ | NOT OR |"
+        },
+        {
+            "id": "hard_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Which gate outputs 1 only when both inputs are 1?",
+            "quizOptions": [
+                "OR",
+                "AND",
+                "XOR",
+                "NOT"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "hard_4",
+            "type": "content",
+            "title": "Storage",
+            "content": "# Storage Devices 💾\n\n| Type | Speed | Durability |\n|------|-------|------------|\n| HDD | Slow | Moving parts |\n| SSD | Fast | No moving parts |\n| NVMe | Very fast | Direct PCIe |\n\n## Units\n8 bits = 1 byte\n1 KB = 1024 bytes"
+        },
+        {
+            "id": "hard_5",
+            "type": "content",
+            "title": "I/O Systems",
+            "content": "# Input/Output Systems 🖱️\n\n## Input\n- Keyboard, mouse\n- Microphone, camera\n- Touchscreen\n\n## Output\n- Monitor, printer\n- Speakers\n\n## Ports\n- USB, HDMI\n- Ethernet, Audio"
+        },
+        {
+            "id": "hard_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- CPU: Brain of computer\n- RAM: Fast, temporary\n- Logic gates: AND, OR, NOT\n- Storage: HDD → SSD → NVMe"
+        }
+    ]
+}

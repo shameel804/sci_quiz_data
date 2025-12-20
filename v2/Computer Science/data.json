@@ -1,0 +1,6461 @@
+[
+    {
+        "q": "What is a data structure?",
+        "type": "mcq",
+        "o": [
+            "A way to organize and store data",
+            "A programming language",
+            "A type of hardware",
+            "A database system"
+        ]
+    },
+    {
+        "q": "Data structures help organize _____ efficiently.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "files",
+            "programs",
+            "hardware"
+        ]
+    },
+    {
+        "q": "Choosing the right data structure affects program performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an array?",
+        "type": "mcq",
+        "o": [
+            "Collection of elements stored in contiguous memory",
+            "A linked list",
+            "A tree structure",
+            "A network graph"
+        ]
+    },
+    {
+        "q": "Array elements are accessed by their _____.",
+        "type": "fill_blank",
+        "answers": [
+            "index"
+        ],
+        "other_options": [
+            "name",
+            "type",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the data structure with its characteristic:",
+        "type": "match",
+        "left": [
+            "Array",
+            "Linked List",
+            "Stack",
+            "Queue"
+        ],
+        "right": [
+            "Fixed size",
+            "Dynamic size",
+            "LIFO",
+            "FIFO"
+        ]
+    },
+    {
+        "q": "Arrays have fixed size in most languages.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the first index of an array in most languages?",
+        "type": "mcq",
+        "o": [
+            "0",
+            "1",
+            "-1",
+            "10"
+        ]
+    },
+    {
+        "q": "Rearrange array operations by time complexity:",
+        "type": "rearrange",
+        "words": [
+            "Access by index",
+            "Search unsorted",
+            "Insert at end",
+            "Insert at beginning"
+        ]
+    },
+    {
+        "q": "Accessing an array element by index takes O(1) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a dynamic array?",
+        "type": "mcq",
+        "o": [
+            "Array that can grow in size",
+            "Fixed-size array",
+            "Array of pointers",
+            "Multi-dimensional array"
+        ]
+    },
+    {
+        "q": "Dynamic arrays resize when they reach _____.",
+        "type": "fill_blank",
+        "answers": [
+            "capacity"
+        ],
+        "other_options": [
+            "zero",
+            "one",
+            "minimum"
+        ]
+    },
+    {
+        "q": "Match the array type with its description:",
+        "type": "match",
+        "left": [
+            "1D array",
+            "2D array",
+            "Dynamic array",
+            "Circular array"
+        ],
+        "right": [
+            "Single row",
+            "Matrix/grid",
+            "Resizable",
+            "Wraps around"
+        ]
+    },
+    {
+        "q": "What is a linked list?",
+        "type": "mcq",
+        "o": [
+            "Nodes connected by pointers",
+            "Array of elements",
+            "Binary tree",
+            "Hash table"
+        ]
+    },
+    {
+        "q": "Each node in a linked list contains data and a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "pointer"
+        ],
+        "other_options": [
+            "index",
+            "key",
+            "value"
+        ]
+    },
+    {
+        "q": "Linked lists use contiguous memory locations.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the head of a linked list?",
+        "type": "mcq",
+        "o": [
+            "First node in the list",
+            "Last node in the list",
+            "Middle node",
+            "Null pointer"
+        ]
+    },
+    {
+        "q": "The last node in a singly linked list points to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "null"
+        ],
+        "other_options": [
+            "head",
+            "tail",
+            "itself"
+        ]
+    },
+    {
+        "q": "Rearrange linked list operations by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Insert at head",
+            "Insert at tail",
+            "Search",
+            "Delete by value"
+        ]
+    },
+    {
+        "q": "What is a doubly linked list?",
+        "type": "mcq",
+        "o": [
+            "Nodes with next and previous pointers",
+            "Two separate linked lists",
+            "List with double data",
+            "Circular list"
+        ]
+    },
+    {
+        "q": "Doubly linked lists allow traversal in _____ directions.",
+        "type": "fill_blank",
+        "answers": [
+            "both"
+        ],
+        "other_options": [
+            "one",
+            "no",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the linked list type with its feature:",
+        "type": "match",
+        "left": [
+            "Singly",
+            "Doubly",
+            "Circular",
+            "Skip list"
+        ],
+        "right": [
+            "One direction",
+            "Two directions",
+            "No null end",
+            "Multiple levels"
+        ]
+    },
+    {
+        "q": "What is a circular linked list?",
+        "type": "mcq",
+        "o": [
+            "Last node points to head",
+            "Nodes form a tree",
+            "Random connections",
+            "No pointers"
+        ]
+    },
+    {
+        "q": "Circular lists have no _____ pointer.",
+        "type": "fill_blank",
+        "answers": [
+            "null"
+        ],
+        "other_options": [
+            "head",
+            "tail",
+            "next"
+        ]
+    },
+    {
+        "q": "Inserting at the head of a linked list is O(1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a stack?",
+        "type": "mcq",
+        "o": [
+            "LIFO data structure",
+            "FIFO data structure",
+            "Random access structure",
+            "Hierarchical structure"
+        ]
+    },
+    {
+        "q": "LIFO stands for Last In _____ Out.",
+        "type": "fill_blank",
+        "answers": [
+            "First"
+        ],
+        "other_options": [
+            "Last",
+            "Random",
+            "Second"
+        ]
+    },
+    {
+        "q": "Stacks support push and pop operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does push do on a stack?",
+        "type": "mcq",
+        "o": [
+            "Adds element to top",
+            "Removes element from top",
+            "Returns top element",
+            "Clears the stack"
+        ]
+    },
+    {
+        "q": "Pop removes the _____ element from a stack.",
+        "type": "fill_blank",
+        "answers": [
+            "top"
+        ],
+        "other_options": [
+            "bottom",
+            "middle",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange stack operations:",
+        "type": "rearrange",
+        "words": [
+            "Push A",
+            "Push B",
+            "Pop",
+            "Push C",
+            "Pop"
+        ]
+    },
+    {
+        "q": "Match the stack operation with its function:",
+        "type": "match",
+        "left": [
+            "push",
+            "pop",
+            "peek",
+            "isEmpty"
+        ],
+        "right": [
+            "Add element",
+            "Remove top",
+            "View top",
+            "Check empty"
+        ]
+    },
+    {
+        "q": "Which uses a stack?",
+        "type": "mcq",
+        "o": [
+            "Function call tracking",
+            "Print queue",
+            "BFS traversal",
+            "Round-robin scheduling"
+        ]
+    },
+    {
+        "q": "Stack overflow occurs when pushing to a _____ stack.",
+        "type": "fill_blank",
+        "answers": [
+            "full"
+        ],
+        "other_options": [
+            "empty",
+            "new",
+            "half"
+        ]
+    },
+    {
+        "q": "Undo operations typically use a stack.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a queue?",
+        "type": "mcq",
+        "o": [
+            "FIFO data structure",
+            "LIFO data structure",
+            "Random access structure",
+            "Sorted structure"
+        ]
+    },
+    {
+        "q": "FIFO stands for First In _____ Out.",
+        "type": "fill_blank",
+        "answers": [
+            "First"
+        ],
+        "other_options": [
+            "Last",
+            "Random",
+            "Second"
+        ]
+    },
+    {
+        "q": "Queues add at rear and remove from front.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does enqueue do?",
+        "type": "mcq",
+        "o": [
+            "Adds element to rear",
+            "Removes element from front",
+            "Returns front element",
+            "Clears the queue"
+        ]
+    },
+    {
+        "q": "Dequeue removes from the _____ of the queue.",
+        "type": "fill_blank",
+        "answers": [
+            "front"
+        ],
+        "other_options": [
+            "rear",
+            "middle",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the queue operation with its function:",
+        "type": "match",
+        "left": [
+            "enqueue",
+            "dequeue",
+            "front",
+            "rear"
+        ],
+        "right": [
+            "Add to back",
+            "Remove front",
+            "View first",
+            "View last"
+        ]
+    },
+    {
+        "q": "Which uses a queue?",
+        "type": "mcq",
+        "o": [
+            "Print job scheduling",
+            "Undo operation",
+            "Function calls",
+            "Expression parsing"
+        ]
+    },
+    {
+        "q": "BFS traversal uses a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "queue"
+        ],
+        "other_options": [
+            "stack",
+            "array",
+            "tree"
+        ]
+    },
+    {
+        "q": "Rearrange queue operations:",
+        "type": "rearrange",
+        "words": [
+            "Enqueue A",
+            "Enqueue B",
+            "Dequeue",
+            "Enqueue C"
+        ]
+    },
+    {
+        "q": "What is a circular queue?",
+        "type": "mcq",
+        "o": [
+            "Queue where rear connects to front",
+            "Double-ended queue",
+            "Priority queue",
+            "Stack-based queue"
+        ]
+    },
+    {
+        "q": "Circular queues efficiently use _____ space.",
+        "type": "fill_blank",
+        "answers": [
+            "memory"
+        ],
+        "other_options": [
+            "time",
+            "disk",
+            "network"
+        ]
+    },
+    {
+        "q": "Circular queues avoid wasted space in array implementation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a deque?",
+        "type": "mcq",
+        "o": [
+            "Double-ended queue",
+            "Deleted queue",
+            "Duplicate queue",
+            "Deep queue"
+        ]
+    },
+    {
+        "q": "Deque allows insertion and deletion at _____ ends.",
+        "type": "fill_blank",
+        "answers": [
+            "both"
+        ],
+        "other_options": [
+            "one",
+            "no",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the queue type with its feature:",
+        "type": "match",
+        "left": [
+            "Simple queue",
+            "Circular queue",
+            "Deque",
+            "Priority queue"
+        ],
+        "right": [
+            "Basic FIFO",
+            "Wraps around",
+            "Two-ended",
+            "By priority"
+        ]
+    },
+    {
+        "q": "What is a priority queue?",
+        "type": "mcq",
+        "o": [
+            "Queue where elements have priorities",
+            "Simple FIFO queue",
+            "Stack-based structure",
+            "Linked list"
+        ]
+    },
+    {
+        "q": "Priority queues serve _____ priority elements first.",
+        "type": "fill_blank",
+        "answers": [
+            "highest"
+        ],
+        "other_options": [
+            "lowest",
+            "random",
+            "newest"
+        ]
+    },
+    {
+        "q": "Heaps are commonly used to implement priority queues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a tree?",
+        "type": "mcq",
+        "o": [
+            "Hierarchical data structure with nodes",
+            "Linear data structure",
+            "Circular structure",
+            "Flat structure"
+        ]
+    },
+    {
+        "q": "The topmost node of a tree is called the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "root"
+        ],
+        "other_options": [
+            "leaf",
+            "branch",
+            "trunk"
+        ]
+    },
+    {
+        "q": "Rearrange tree terminology:",
+        "type": "rearrange",
+        "words": [
+            "Root",
+            "Parent",
+            "Child",
+            "Leaf"
+        ]
+    },
+    {
+        "q": "What is a leaf node?",
+        "type": "mcq",
+        "o": [
+            "Node with no children",
+            "Root node",
+            "Node with many children",
+            "Middle node"
+        ]
+    },
+    {
+        "q": "Parent nodes have one or more _____.",
+        "type": "fill_blank",
+        "answers": [
+            "children"
+        ],
+        "other_options": [
+            "parents",
+            "roots",
+            "leaves"
+        ]
+    },
+    {
+        "q": "Match the tree term with its meaning:",
+        "type": "match",
+        "left": [
+            "Root",
+            "Leaf",
+            "Height",
+            "Depth"
+        ],
+        "right": [
+            "Top node",
+            "No children",
+            "Longest path",
+            "Distance from root"
+        ]
+    },
+    {
+        "q": "Trees can have cycles.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a binary tree?",
+        "type": "mcq",
+        "o": [
+            "Tree with at most two children per node",
+            "Tree with exactly two nodes",
+            "Tree with binary data",
+            "Two separate trees"
+        ]
+    },
+    {
+        "q": "Binary tree nodes have left and _____ children.",
+        "type": "fill_blank",
+        "answers": [
+            "right"
+        ],
+        "other_options": [
+            "top",
+            "bottom",
+            "middle"
+        ]
+    },
+    {
+        "q": "A binary tree with n nodes has n-1 edges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a binary search tree (BST)?",
+        "type": "mcq",
+        "o": [
+            "Binary tree with ordered nodes",
+            "Unordered binary tree",
+            "Complete binary tree",
+            "Balanced tree only"
+        ]
+    },
+    {
+        "q": "In a BST, left child is _____ than parent.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller"
+        ],
+        "other_options": [
+            "larger",
+            "equal",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange BST operations by average complexity:",
+        "type": "rearrange",
+        "words": [
+            "Search",
+            "Insert",
+            "Delete",
+            "FindMin"
+        ]
+    },
+    {
+        "q": "Match the tree type with its property:",
+        "type": "match",
+        "left": [
+            "BST",
+            "Complete",
+            "Full",
+            "Perfect"
+        ],
+        "right": [
+            "Ordered nodes",
+            "All levels full except last",
+            "0 or 2 children",
+            "All leaves same level"
+        ]
+    },
+    {
+        "q": "BST search is O(log n) on average.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tree traversal?",
+        "type": "mcq",
+        "o": [
+            "Visiting all nodes in a tree",
+            "Adding nodes to a tree",
+            "Deleting nodes",
+            "Balancing the tree"
+        ]
+    },
+    {
+        "q": "Inorder traversal visits nodes in _____ order for BST.",
+        "type": "fill_blank",
+        "answers": [
+            "sorted"
+        ],
+        "other_options": [
+            "random",
+            "reverse",
+            "level"
+        ]
+    },
+    {
+        "q": "Match the traversal with its order:",
+        "type": "match",
+        "left": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level order"
+        ],
+        "right": [
+            "Root-Left-Right",
+            "Left-Root-Right",
+            "Left-Right-Root",
+            "By level"
+        ]
+    },
+    {
+        "q": "What is preorder traversal?",
+        "type": "mcq",
+        "o": [
+            "Root, then left, then right",
+            "Left, then root, then right",
+            "Left, then right, then root",
+            "By level from top"
+        ]
+    },
+    {
+        "q": "Postorder visits the root _____.",
+        "type": "fill_blank",
+        "answers": [
+            "last"
+        ],
+        "other_options": [
+            "first",
+            "middle",
+            "never"
+        ]
+    },
+    {
+        "q": "Level order traversal uses a queue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a balanced tree?",
+        "type": "mcq",
+        "o": [
+            "Tree where heights of subtrees differ by at most 1",
+            "Tree with equal nodes on each side",
+            "Tree with no leaves",
+            "Empty tree"
+        ]
+    },
+    {
+        "q": "AVL trees maintain _____ after every operation.",
+        "type": "fill_blank",
+        "answers": [
+            "balance"
+        ],
+        "other_options": [
+            "order",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange self-balancing trees by complexity:",
+        "type": "rearrange",
+        "words": [
+            "AVL tree",
+            "Red-Black tree",
+            "Splay tree",
+            "B-tree"
+        ]
+    },
+    {
+        "q": "What is an AVL tree?",
+        "type": "mcq",
+        "o": [
+            "Self-balancing BST",
+            "Unbalanced tree",
+            "Non-binary tree",
+            "Graph structure"
+        ]
+    },
+    {
+        "q": "AVL trees use _____ to maintain balance.",
+        "type": "fill_blank",
+        "answers": [
+            "rotations"
+        ],
+        "other_options": [
+            "deletions",
+            "insertions",
+            "copies"
+        ]
+    },
+    {
+        "q": "Match the balanced tree with its property:",
+        "type": "match",
+        "left": [
+            "AVL",
+            "Red-Black",
+            "B-tree",
+            "Splay"
+        ],
+        "right": [
+            "Height balanced",
+            "Color property",
+            "Disk-optimized",
+            "Recently accessed top"
+        ]
+    },
+    {
+        "q": "What is a heap?",
+        "type": "mcq",
+        "o": [
+            "Complete binary tree with heap property",
+            "Unordered tree",
+            "Linear structure",
+            "Graph with cycles"
+        ]
+    },
+    {
+        "q": "In a max-heap, parent is _____ than children.",
+        "type": "fill_blank",
+        "answers": [
+            "greater"
+        ],
+        "other_options": [
+            "smaller",
+            "equal",
+            "random"
+        ]
+    },
+    {
+        "q": "Heaps are used for heap sort.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a min-heap?",
+        "type": "mcq",
+        "o": [
+            "Root is the smallest element",
+            "Root is the largest element",
+            "Random root value",
+            "No specific order"
+        ]
+    },
+    {
+        "q": "Heap insert and delete are O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "1",
+            "n",
+            "n squared"
+        ]
+    },
+    {
+        "q": "Match the heap operation with its complexity:",
+        "type": "match",
+        "left": [
+            "Get min/max",
+            "Insert",
+            "Delete min/max",
+            "Build heap"
+        ],
+        "right": [
+            "O(1)",
+            "O(log n)",
+            "O(log n)",
+            "O(n)"
+        ]
+    },
+    {
+        "q": "What is a graph?",
+        "type": "mcq",
+        "o": [
+            "Nodes connected by edges",
+            "Linear sequence",
+            "Hierarchical tree",
+            "Array of elements"
+        ]
+    },
+    {
+        "q": "Graph nodes are also called _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vertices"
+        ],
+        "other_options": [
+            "edges",
+            "paths",
+            "cycles"
+        ]
+    },
+    {
+        "q": "Rearrange graph concepts:",
+        "type": "rearrange",
+        "words": [
+            "Vertex",
+            "Edge",
+            "Path",
+            "Cycle"
+        ]
+    },
+    {
+        "q": "Graphs can have cycles unlike trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a directed graph?",
+        "type": "mcq",
+        "o": [
+            "Graph with edges having direction",
+            "Graph without edges",
+            "Graph with only one node",
+            "Undirected graph"
+        ]
+    },
+    {
+        "q": "Undirected graphs have _____ edges.",
+        "type": "fill_blank",
+        "answers": [
+            "bidirectional"
+        ],
+        "other_options": [
+            "one-way",
+            "no",
+            "colored"
+        ]
+    },
+    {
+        "q": "Match the graph type with its description:",
+        "type": "match",
+        "left": [
+            "Directed",
+            "Undirected",
+            "Weighted",
+            "Unweighted"
+        ],
+        "right": [
+            "One-way edges",
+            "Two-way edges",
+            "Edges have values",
+            "No edge values"
+        ]
+    },
+    {
+        "q": "What is a weighted graph?",
+        "type": "mcq",
+        "o": [
+            "Graph where edges have values",
+            "Graph with heavy nodes",
+            "Balanced graph",
+            "Complete graph"
+        ]
+    },
+    {
+        "q": "Edge weights often represent _____ or cost.",
+        "type": "fill_blank",
+        "answers": [
+            "distance"
+        ],
+        "other_options": [
+            "color",
+            "name",
+            "type"
+        ]
+    },
+    {
+        "q": "Social networks can be modeled as graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an adjacency matrix?",
+        "type": "mcq",
+        "o": [
+            "2D array representing graph edges",
+            "List of adjacent nodes",
+            "Tree structure",
+            "Hash table"
+        ]
+    },
+    {
+        "q": "Adjacency matrix uses O(V^2) _____.",
+        "type": "fill_blank",
+        "answers": [
+            "space"
+        ],
+        "other_options": [
+            "time",
+            "nodes",
+            "edges"
+        ]
+    },
+    {
+        "q": "Rearrange graph representations by space efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Edge list",
+            "Adjacency list",
+            "Adjacency matrix"
+        ]
+    },
+    {
+        "q": "What is an adjacency list?",
+        "type": "mcq",
+        "o": [
+            "List of neighbors for each vertex",
+            "Matrix of edges",
+            "Single list of all edges",
+            "Tree of connections"
+        ]
+    },
+    {
+        "q": "Adjacency lists are more efficient for _____ graphs.",
+        "type": "fill_blank",
+        "answers": [
+            "sparse"
+        ],
+        "other_options": [
+            "dense",
+            "complete",
+            "small"
+        ]
+    },
+    {
+        "q": "Match the representation with its best use:",
+        "type": "match",
+        "left": [
+            "Adjacency matrix",
+            "Adjacency list",
+            "Edge list",
+            "Incidence matrix"
+        ],
+        "right": [
+            "Dense graphs",
+            "Sparse graphs",
+            "Simple storage",
+            "Edge analysis"
+        ]
+    },
+    {
+        "q": "What is a hash table?",
+        "type": "mcq",
+        "o": [
+            "Key-value storage with hash function",
+            "Sorted array",
+            "Linked list",
+            "Binary tree"
+        ]
+    },
+    {
+        "q": "Hash tables use a _____ function to compute index.",
+        "type": "fill_blank",
+        "answers": [
+            "hash"
+        ],
+        "other_options": [
+            "sort",
+            "search",
+            "random"
+        ]
+    },
+    {
+        "q": "Hash table lookup is O(1) on average.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a hash collision?",
+        "type": "mcq",
+        "o": [
+            "Two keys mapping to the same index",
+            "Hash function failure",
+            "Empty table",
+            "Key deletion"
+        ]
+    },
+    {
+        "q": "Collisions occur when different keys have same _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hash"
+        ],
+        "other_options": [
+            "value",
+            "type",
+            "name"
+        ]
+    },
+    {
+        "q": "Match the collision resolution with its approach:",
+        "type": "match",
+        "left": [
+            "Chaining",
+            "Open addressing",
+            "Linear probing",
+            "Quadratic probing"
+        ],
+        "right": [
+            "Linked lists",
+            "Find new slot",
+            "Next slot",
+            "Squared jumps"
+        ]
+    },
+    {
+        "q": "What is chaining?",
+        "type": "mcq",
+        "o": [
+            "Using linked lists at each bucket",
+            "Linking hash tables",
+            "Chain of keys",
+            "Sequential storage"
+        ]
+    },
+    {
+        "q": "Chaining handles collisions with _____ at each index.",
+        "type": "fill_blank",
+        "answers": [
+            "lists"
+        ],
+        "other_options": [
+            "arrays",
+            "trees",
+            "stacks"
+        ]
+    },
+    {
+        "q": "Rearrange collision resolution methods:",
+        "type": "rearrange",
+        "words": [
+            "Chaining",
+            "Linear probing",
+            "Quadratic probing",
+            "Double hashing"
+        ]
+    },
+    {
+        "q": "What is open addressing?",
+        "type": "mcq",
+        "o": [
+            "Finding alternative slots for collisions",
+            "Opening new tables",
+            "Address allocation",
+            "Memory management"
+        ]
+    },
+    {
+        "q": "Linear probing checks the _____ available slot.",
+        "type": "fill_blank",
+        "answers": [
+            "next"
+        ],
+        "other_options": [
+            "random",
+            "previous",
+            "first"
+        ]
+    },
+    {
+        "q": "Open addressing keeps all elements in the table.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the load factor?",
+        "type": "mcq",
+        "o": [
+            "Ratio of elements to table size",
+            "Table weight",
+            "Key count",
+            "Hash complexity"
+        ]
+    },
+    {
+        "q": "High load factor increases _____.",
+        "type": "fill_blank",
+        "answers": [
+            "collisions"
+        ],
+        "other_options": [
+            "speed",
+            "memory",
+            "keys"
+        ]
+    },
+    {
+        "q": "Match the hash table term with its meaning:",
+        "type": "match",
+        "left": [
+            "Load factor",
+            "Bucket",
+            "Rehashing",
+            "Perfect hash"
+        ],
+        "right": [
+            "Fullness ratio",
+            "Table slot",
+            "Resize table",
+            "No collisions"
+        ]
+    },
+    {
+        "q": "What is rehashing?",
+        "type": "mcq",
+        "o": [
+            "Resizing hash table and reinserting elements",
+            "Deleting all keys",
+            "Changing hash function only",
+            "Collision resolution"
+        ]
+    },
+    {
+        "q": "Rehashing typically _____ the table size.",
+        "type": "fill_blank",
+        "answers": [
+            "doubles"
+        ],
+        "other_options": [
+            "halves",
+            "triples",
+            "fixes"
+        ]
+    },
+    {
+        "q": "Good hash functions distribute keys uniformly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DFS?",
+        "type": "mcq",
+        "o": [
+            "Depth-First Search",
+            "Data File System",
+            "Direct File Storage",
+            "Distributed File Search"
+        ]
+    },
+    {
+        "q": "DFS uses a _____ data structure.",
+        "type": "fill_blank",
+        "answers": [
+            "stack"
+        ],
+        "other_options": [
+            "queue",
+            "array",
+            "heap"
+        ]
+    },
+    {
+        "q": "Rearrange graph traversal steps for DFS:",
+        "type": "rearrange",
+        "words": [
+            "Visit node",
+            "Push neighbors",
+            "Pop next",
+            "Mark visited"
+        ]
+    },
+    {
+        "q": "DFS explores as deep as possible before backtracking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is BFS?",
+        "type": "mcq",
+        "o": [
+            "Breadth-First Search",
+            "Binary File System",
+            "Basic File Search",
+            "Best First Search"
+        ]
+    },
+    {
+        "q": "BFS uses a _____ data structure.",
+        "type": "fill_blank",
+        "answers": [
+            "queue"
+        ],
+        "other_options": [
+            "stack",
+            "array",
+            "heap"
+        ]
+    },
+    {
+        "q": "Match the search algorithm with its property:",
+        "type": "match",
+        "left": [
+            "DFS",
+            "BFS",
+            "Dijkstra",
+            "A*"
+        ],
+        "right": [
+            "Uses stack",
+            "Uses queue",
+            "Shortest path",
+            "Heuristic search"
+        ]
+    },
+    {
+        "q": "BFS finds shortest path in unweighted graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Dijkstra's algorithm?",
+        "type": "mcq",
+        "o": [
+            "Shortest path algorithm for weighted graphs",
+            "Sorting algorithm",
+            "Tree traversal",
+            "String matching"
+        ]
+    },
+    {
+        "q": "Dijkstra's uses a _____ queue for efficiency.",
+        "type": "fill_blank",
+        "answers": [
+            "priority"
+        ],
+        "other_options": [
+            "simple",
+            "circular",
+            "double"
+        ]
+    },
+    {
+        "q": "Rearrange shortest path algorithms by capability:",
+        "type": "rearrange",
+        "words": [
+            "BFS (unweighted)",
+            "Dijkstra (positive)",
+            "Bellman-Ford (negative)",
+            "Floyd-Warshall (all pairs)"
+        ]
+    },
+    {
+        "q": "Dijkstra's algorithm works with negative edge weights.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a spanning tree?",
+        "type": "mcq",
+        "o": [
+            "Tree connecting all vertices with minimum edges",
+            "Any subgraph",
+            "Complete graph",
+            "Disconnected graph"
+        ]
+    },
+    {
+        "q": "A spanning tree has V-1 _____ for V vertices.",
+        "type": "fill_blank",
+        "answers": [
+            "edges"
+        ],
+        "other_options": [
+            "nodes",
+            "paths",
+            "cycles"
+        ]
+    },
+    {
+        "q": "Match the MST algorithm with its approach:",
+        "type": "match",
+        "left": [
+            "Prim's",
+            "Kruskal's",
+            "Boruvka's",
+            "Reverse-delete"
+        ],
+        "right": [
+            "Grow from vertex",
+            "Sort edges",
+            "Parallel edges",
+            "Remove edges"
+        ]
+    },
+    {
+        "q": "What is a minimum spanning tree?",
+        "type": "mcq",
+        "o": [
+            "Spanning tree with minimum total weight",
+            "Tree with fewest nodes",
+            "Shortest path tree",
+            "Complete binary tree"
+        ]
+    },
+    {
+        "q": "Prim's algorithm grows the MST from a single _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vertex"
+        ],
+        "other_options": [
+            "edge",
+            "forest",
+            "cycle"
+        ]
+    },
+    {
+        "q": "Kruskal's algorithm sorts edges by weight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is topological sorting?",
+        "type": "mcq",
+        "o": [
+            "Linear ordering of DAG vertices",
+            "Sorting by value",
+            "Geographic sorting",
+            "Random ordering"
+        ]
+    },
+    {
+        "q": "Topological sort works only on _____ graphs.",
+        "type": "fill_blank",
+        "answers": [
+            "acyclic"
+        ],
+        "other_options": [
+            "cyclic",
+            "complete",
+            "sparse"
+        ]
+    },
+    {
+        "q": "Rearrange graph algorithm applications:",
+        "type": "rearrange",
+        "words": [
+            "Task scheduling",
+            "Dependency resolution",
+            "Course prerequisites",
+            "Build systems"
+        ]
+    },
+    {
+        "q": "DAG stands for Directed _____ Graph.",
+        "type": "fill_blank",
+        "answers": [
+            "Acyclic"
+        ],
+        "other_options": [
+            "Adjacent",
+            "Algorithmic",
+            "Automatic"
+        ]
+    },
+    {
+        "q": "What is a strongly connected component?",
+        "type": "mcq",
+        "o": [
+            "Maximal set of vertices all reachable from each other",
+            "Weakly connected graph",
+            "Single vertex",
+            "Edge collection"
+        ]
+    },
+    {
+        "q": "Match the graph property with its meaning:",
+        "type": "match",
+        "left": [
+            "Connected",
+            "Strongly connected",
+            "Bipartite",
+            "Complete"
+        ],
+        "right": [
+            "Path between all pairs",
+            "Directed path both ways",
+            "Two groups no internal edges",
+            "All pairs connected"
+        ]
+    },
+    {
+        "q": "What is a bipartite graph?",
+        "type": "mcq",
+        "o": [
+            "Graph with two disjoint vertex sets",
+            "Graph with two edges",
+            "Binary tree graph",
+            "Directed graph"
+        ]
+    },
+    {
+        "q": "Bipartite graphs can be _____ colored.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "three",
+            "one",
+            "many"
+        ]
+    },
+    {
+        "q": "A graph is bipartite if it has no odd-length cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AVL rotation?",
+        "type": "mcq",
+        "o": [
+            "Rebalancing operation for AVL trees",
+            "Tree deletion",
+            "Node insertion only",
+            "Root change"
+        ]
+    },
+    {
+        "q": "Single rotation fixes _____ imbalance cases.",
+        "type": "fill_blank",
+        "answers": [
+            "LL and RR"
+        ],
+        "other_options": [
+            "LR and RL",
+            "all",
+            "none"
+        ]
+    },
+    {
+        "q": "Rearrange AVL imbalance cases:",
+        "type": "rearrange",
+        "words": [
+            "LL case",
+            "RR case",
+            "LR case",
+            "RL case"
+        ]
+    },
+    {
+        "q": "Match the rotation type with its fix:",
+        "type": "match",
+        "left": [
+            "Left rotation",
+            "Right rotation",
+            "Left-Right",
+            "Right-Left"
+        ],
+        "right": [
+            "RR imbalance",
+            "LL imbalance",
+            "LR imbalance",
+            "RL imbalance"
+        ]
+    },
+    {
+        "q": "Double rotation is needed for LR and RL cases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Red-Black tree?",
+        "type": "mcq",
+        "o": [
+            "Self-balancing BST with color properties",
+            "Tree with colored nodes",
+            "Painted tree",
+            "AVL variant"
+        ]
+    },
+    {
+        "q": "Red-Black trees ensure paths have equal _____ depth.",
+        "type": "fill_blank",
+        "answers": [
+            "black"
+        ],
+        "other_options": [
+            "red",
+            "total",
+            "average"
+        ]
+    },
+    {
+        "q": "Red-Black trees are less strictly balanced than AVL.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a B-tree?",
+        "type": "mcq",
+        "o": [
+            "Self-balancing tree optimized for disk",
+            "Binary tree only",
+            "Unbalanced tree",
+            "Memory-only tree"
+        ]
+    },
+    {
+        "q": "B-trees are commonly used in _____ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "database"
+        ],
+        "other_options": [
+            "gaming",
+            "graphics",
+            "audio"
+        ]
+    },
+    {
+        "q": "Match the tree type with its use case:",
+        "type": "match",
+        "left": [
+            "AVL",
+            "Red-Black",
+            "B-tree",
+            "Trie"
+        ],
+        "right": [
+            "Lookup heavy",
+            "Insertion heavy",
+            "Disk storage",
+            "String search"
+        ]
+    },
+    {
+        "q": "What is a trie?",
+        "type": "mcq",
+        "o": [
+            "Tree for storing strings by prefix",
+            "Try-catch structure",
+            "Triple linked list",
+            "Three-way tree"
+        ]
+    },
+    {
+        "q": "Trie lookup is O(m) where m is _____ length.",
+        "type": "fill_blank",
+        "answers": [
+            "key"
+        ],
+        "other_options": [
+            "tree",
+            "node",
+            "branch"
+        ]
+    },
+    {
+        "q": "Rearrange string data structures by efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Array of strings",
+            "Hash set",
+            "Trie",
+            "Suffix tree"
+        ]
+    },
+    {
+        "q": "Tries are also called prefix trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a suffix tree?",
+        "type": "mcq",
+        "o": [
+            "Trie of all suffixes of a string",
+            "Tree of word endings",
+            "Simple trie",
+            "Binary suffix"
+        ]
+    },
+    {
+        "q": "Suffix trees enable O(m) _____ search.",
+        "type": "fill_blank",
+        "answers": [
+            "pattern"
+        ],
+        "other_options": [
+            "node",
+            "tree",
+            "key"
+        ]
+    },
+    {
+        "q": "Match the string structure with its application:",
+        "type": "match",
+        "left": [
+            "Trie",
+            "Suffix tree",
+            "Suffix array",
+            "Rope"
+        ],
+        "right": [
+            "Autocomplete",
+            "Substring search",
+            "Space efficient",
+            "Text editing"
+        ]
+    },
+    {
+        "q": "What is a segment tree?",
+        "type": "mcq",
+        "o": [
+            "Tree for range queries",
+            "Tree segments",
+            "Linked segments",
+            "Array partition"
+        ]
+    },
+    {
+        "q": "Segment trees answer range queries in O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "1",
+            "n",
+            "n^2"
+        ]
+    },
+    {
+        "q": "Segment trees support both queries and updates efficiently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Fenwick tree?",
+        "type": "mcq",
+        "o": [
+            "Binary Indexed Tree for prefix sums",
+            "Fenwick's binary tree",
+            "Index tree",
+            "Sum array"
+        ]
+    },
+    {
+        "q": "Fenwick trees use _____ space than segment trees.",
+        "type": "fill_blank",
+        "answers": [
+            "less"
+        ],
+        "other_options": [
+            "more",
+            "same",
+            "double"
+        ]
+    },
+    {
+        "q": "Rearrange range query structures by space:",
+        "type": "rearrange",
+        "words": [
+            "Prefix sum array",
+            "Fenwick tree",
+            "Segment tree",
+            "Sparse table"
+        ]
+    },
+    {
+        "q": "Match the range structure with its specialty:",
+        "type": "match",
+        "left": [
+            "Segment tree",
+            "Fenwick tree",
+            "Sparse table",
+            "Square root decomposition"
+        ],
+        "right": [
+            "Flexible operations",
+            "Prefix sums",
+            "Static RMQ",
+            "Simple implementation"
+        ]
+    },
+    {
+        "q": "What is a disjoint set?",
+        "type": "mcq",
+        "o": [
+            "Union-Find data structure",
+            "Non-overlapping arrays",
+            "Separate trees",
+            "Distinct elements"
+        ]
+    },
+    {
+        "q": "Union-Find uses _____ compression for efficiency.",
+        "type": "fill_blank",
+        "answers": [
+            "path"
+        ],
+        "other_options": [
+            "data",
+            "tree",
+            "node"
+        ]
+    },
+    {
+        "q": "Union-Find is used in Kruskal's algorithm.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is path compression?",
+        "type": "mcq",
+        "o": [
+            "Making nodes point directly to root",
+            "Shortening paths",
+            "Compressing data",
+            "Deleting paths"
+        ]
+    },
+    {
+        "q": "Union by rank keeps trees _____.",
+        "type": "fill_blank",
+        "answers": [
+            "balanced"
+        ],
+        "other_options": [
+            "deep",
+            "wide",
+            "empty"
+        ]
+    },
+    {
+        "q": "Match the Union-Find optimization with its benefit:",
+        "type": "match",
+        "left": [
+            "Path compression",
+            "Union by rank",
+            "Union by size",
+            "Both combined"
+        ],
+        "right": [
+            "Flatten trees",
+            "Limit height",
+            "Balance by count",
+            "Near O(1)"
+        ]
+    },
+    {
+        "q": "What is a skip list?",
+        "type": "mcq",
+        "o": [
+            "Probabilistic alternative to balanced trees",
+            "List that skips elements",
+            "Gap list",
+            "Sparse array"
+        ]
+    },
+    {
+        "q": "Skip lists have multiple _____ of linked lists.",
+        "type": "fill_blank",
+        "answers": [
+            "levels"
+        ],
+        "other_options": [
+            "types",
+            "nodes",
+            "keys"
+        ]
+    },
+    {
+        "q": "Rearrange skip list operations by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Search",
+            "Insert",
+            "Delete",
+            "Build"
+        ]
+    },
+    {
+        "q": "Skip lists use randomization for balancing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an LRU cache?",
+        "type": "mcq",
+        "o": [
+            "Least Recently Used eviction cache",
+            "Last Read Update cache",
+            "Large Resource Unit cache",
+            "Linear Random Use cache"
+        ]
+    },
+    {
+        "q": "LRU cache evicts the _____ used item.",
+        "type": "fill_blank",
+        "answers": [
+            "least recently"
+        ],
+        "other_options": [
+            "most recently",
+            "randomly",
+            "first"
+        ]
+    },
+    {
+        "q": "Match the cache policy with its eviction strategy:",
+        "type": "match",
+        "left": [
+            "LRU",
+            "LFU",
+            "FIFO",
+            "Random"
+        ],
+        "right": [
+            "Least recent",
+            "Least frequent",
+            "First in",
+            "Any item"
+        ]
+    },
+    {
+        "q": "LRU cache uses hash map and doubly linked list.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a bloom filter?",
+        "type": "mcq",
+        "o": [
+            "Probabilistic set membership test",
+            "Flower pattern data",
+            "Bloom tree",
+            "Color filter"
+        ]
+    },
+    {
+        "q": "Bloom filters may have false _____ but no false negatives.",
+        "type": "fill_blank",
+        "answers": [
+            "positives"
+        ],
+        "other_options": [
+            "negatives",
+            "zeros",
+            "ones"
+        ]
+    },
+    {
+        "q": "Rearrange probabilistic structures by use case:",
+        "type": "rearrange",
+        "words": [
+            "Bloom filter",
+            "Count-Min sketch",
+            "HyperLogLog",
+            "Min-hash"
+        ]
+    },
+    {
+        "q": "Bloom filters are space-efficient for membership tests.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a treap?",
+        "type": "mcq",
+        "o": [
+            "Tree with random heap priorities",
+            "Trap tree",
+            "Triple heap",
+            "Tree stack"
+        ]
+    },
+    {
+        "q": "Treaps combine BST and _____ properties.",
+        "type": "fill_blank",
+        "answers": [
+            "heap"
+        ],
+        "other_options": [
+            "stack",
+            "queue",
+            "array"
+        ]
+    },
+    {
+        "q": "Match the hybrid structure with its combination:",
+        "type": "match",
+        "left": [
+            "Treap",
+            "Skip list",
+            "B+ tree",
+            "Rope"
+        ],
+        "right": [
+            "BST + heap",
+            "List + probability",
+            "B-tree + linked leaves",
+            "Binary tree + strings"
+        ]
+    },
+    {
+        "q": "What is amortized analysis?",
+        "type": "mcq",
+        "o": [
+            "Average time over sequence of operations",
+            "Worst case analysis",
+            "Best case analysis",
+            "Space analysis"
+        ]
+    },
+    {
+        "q": "Dynamic array append is O(1) _____.",
+        "type": "fill_blank",
+        "answers": [
+            "amortized"
+        ],
+        "other_options": [
+            "worst case",
+            "best case",
+            "always"
+        ]
+    },
+    {
+        "q": "Amortized O(1) means some operations may be slower.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a self-organizing list?",
+        "type": "mcq",
+        "o": [
+            "List that reorders based on access patterns",
+            "Sorted list",
+            "Auto-sizing list",
+            "Random list"
+        ]
+    },
+    {
+        "q": "Move-to-front moves accessed items to the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "front"
+        ],
+        "other_options": [
+            "back",
+            "middle",
+            "random position"
+        ]
+    },
+    {
+        "q": "Rearrange self-organizing strategies:",
+        "type": "rearrange",
+        "words": [
+            "Move to front",
+            "Transpose",
+            "Count",
+            "Frequency"
+        ]
+    },
+    {
+        "q": "What is space complexity?",
+        "type": "mcq",
+        "o": [
+            "Memory used by algorithm",
+            "Physical space",
+            "Code length",
+            "Time measurement"
+        ]
+    },
+    {
+        "q": "Auxiliary space is _____ space used by algorithm.",
+        "type": "fill_blank",
+        "answers": [
+            "extra"
+        ],
+        "other_options": [
+            "total",
+            "input",
+            "output"
+        ]
+    },
+    {
+        "q": "Match the structure with its space complexity:",
+        "type": "match",
+        "left": [
+            "Array",
+            "Linked list",
+            "Binary tree",
+            "Hash table"
+        ],
+        "right": [
+            "O(n)",
+            "O(n)",
+            "O(n)",
+            "O(n)"
+        ]
+    },
+    {
+        "q": "In-place algorithms use O(1) auxiliary space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a degenerate tree?",
+        "type": "mcq",
+        "o": [
+            "Tree where each node has only one child",
+            "Empty tree",
+            "Perfect tree",
+            "Complete tree"
+        ]
+    },
+    {
+        "q": "Degenerate BST has O(n) _____ time.",
+        "type": "fill_blank",
+        "answers": [
+            "search"
+        ],
+        "other_options": [
+            "space",
+            "memory",
+            "build"
+        ]
+    },
+    {
+        "q": "Rearrange tree shapes by balance:",
+        "type": "rearrange",
+        "words": [
+            "Perfect",
+            "Complete",
+            "Full",
+            "Degenerate"
+        ]
+    },
+    {
+        "q": "What is the height of a perfect binary tree with n nodes?",
+        "type": "mcq",
+        "o": [
+            "O(log n)",
+            "O(n)",
+            "O(1)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "A complete binary tree has all levels full except possibly the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "last"
+        ],
+        "other_options": [
+            "first",
+            "middle",
+            "root"
+        ]
+    },
+    {
+        "q": "Match the tree property with its node count:",
+        "type": "match",
+        "left": [
+            "Full binary",
+            "Complete binary",
+            "Perfect binary",
+            "BST"
+        ],
+        "right": [
+            "Odd number",
+            "Varies",
+            "2^h - 1",
+            "Any number"
+        ]
+    },
+    {
+        "q": "What is a threaded binary tree?",
+        "type": "mcq",
+        "o": [
+            "Tree with pointers to inorder successor/predecessor",
+            "Multi-threaded tree",
+            "String tree",
+            "Linked tree"
+        ]
+    },
+    {
+        "q": "Threaded trees allow traversal without _____.",
+        "type": "fill_blank",
+        "answers": [
+            "stack"
+        ],
+        "other_options": [
+            "queue",
+            "array",
+            "heap"
+        ]
+    },
+    {
+        "q": "Threaded binary trees use null pointers efficiently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an expression tree?",
+        "type": "mcq",
+        "o": [
+            "Binary tree representing expressions",
+            "Tree of statements",
+            "Code tree",
+            "Syntax tree only"
+        ]
+    },
+    {
+        "q": "Expression tree leaves contain _____.",
+        "type": "fill_blank",
+        "answers": [
+            "operands"
+        ],
+        "other_options": [
+            "operators",
+            "brackets",
+            "functions"
+        ]
+    },
+    {
+        "q": "Match the tree type with its use:",
+        "type": "match",
+        "left": [
+            "Expression tree",
+            "Parse tree",
+            "AST",
+            "Decision tree"
+        ],
+        "right": [
+            "Math expressions",
+            "Grammar parsing",
+            "Code structure",
+            "ML classification"
+        ]
+    },
+    {
+        "q": "What is an n-ary tree?",
+        "type": "mcq",
+        "o": [
+            "Tree where nodes can have up to n children",
+            "Tree with n nodes",
+            "Binary tree only",
+            "Tree with n levels"
+        ]
+    },
+    {
+        "q": "File systems are often modeled as _____ trees.",
+        "type": "fill_blank",
+        "answers": [
+            "n-ary"
+        ],
+        "other_options": [
+            "binary",
+            "perfect",
+            "complete"
+        ]
+    },
+    {
+        "q": "N-ary trees can be converted to binary trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a k-d tree?",
+        "type": "mcq",
+        "o": [
+            "Tree for k-dimensional data",
+            "K-ary decision tree",
+            "K-deep tree",
+            "K-dimensional array"
+        ]
+    },
+    {
+        "q": "K-d trees are used for nearest _____ search.",
+        "type": "fill_blank",
+        "answers": [
+            "neighbor"
+        ],
+        "other_options": [
+            "node",
+            "leaf",
+            "root"
+        ]
+    },
+    {
+        "q": "Rearrange spatial data structures:",
+        "type": "rearrange",
+        "words": [
+            "K-d tree",
+            "R-tree",
+            "Quadtree",
+            "Octree"
+        ]
+    },
+    {
+        "q": "What is a quadtree?",
+        "type": "mcq",
+        "o": [
+            "Tree subdividing 2D space into quadrants",
+            "Four-way tree",
+            "Quad linked list",
+            "Four arrays"
+        ]
+    },
+    {
+        "q": "Quadtrees have _____ children per node.",
+        "type": "fill_blank",
+        "answers": [
+            "four"
+        ],
+        "other_options": [
+            "two",
+            "eight",
+            "any"
+        ]
+    },
+    {
+        "q": "Match the spatial structure with its dimension:",
+        "type": "match",
+        "left": [
+            "Quadtree",
+            "Octree",
+            "K-d tree",
+            "R-tree"
+        ],
+        "right": [
+            "2D",
+            "3D",
+            "K dimensions",
+            "Any dimension"
+        ]
+    },
+    {
+        "q": "Quadtrees are used in image compression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an interval tree?",
+        "type": "mcq",
+        "o": [
+            "Tree for storing intervals",
+            "Time tree",
+            "Range array",
+            "Period list"
+        ]
+    },
+    {
+        "q": "Interval trees efficiently find _____ intervals.",
+        "type": "fill_blank",
+        "answers": [
+            "overlapping"
+        ],
+        "other_options": [
+            "disjoint",
+            "equal",
+            "empty"
+        ]
+    },
+    {
+        "q": "Rearrange range data structures:",
+        "type": "rearrange",
+        "words": [
+            "Segment tree",
+            "Interval tree",
+            "Range tree",
+            "Fenwick tree"
+        ]
+    },
+    {
+        "q": "What is a persistent data structure?",
+        "type": "mcq",
+        "o": [
+            "Structure preserving previous versions",
+            "Database-backed structure",
+            "Disk storage",
+            "Cached structure"
+        ]
+    },
+    {
+        "q": "Persistent structures allow access to _____ states.",
+        "type": "fill_blank",
+        "answers": [
+            "previous"
+        ],
+        "other_options": [
+            "future",
+            "random",
+            "deleted"
+        ]
+    },
+    {
+        "q": "Match the structure property with its meaning:",
+        "type": "match",
+        "left": [
+            "Persistent",
+            "Immutable",
+            "Ephemeral",
+            "Retroactive"
+        ],
+        "right": [
+            "Keeps history",
+            "Cannot change",
+            "No history",
+            "Modify past"
+        ]
+    },
+    {
+        "q": "Git uses persistent data structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a circular buffer?",
+        "type": "mcq",
+        "o": [
+            "Fixed-size buffer that wraps around",
+            "Circular linked list",
+            "Infinite buffer",
+            "Dynamic array"
+        ]
+    },
+    {
+        "q": "Circular buffers are used in _____ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "streaming"
+        ],
+        "other_options": [
+            "sorting",
+            "searching",
+            "hashing"
+        ]
+    },
+    {
+        "q": "Rearrange buffer types by flexibility:",
+        "type": "rearrange",
+        "words": [
+            "Fixed array",
+            "Circular buffer",
+            "Dynamic array",
+            "Linked list"
+        ]
+    },
+    {
+        "q": "Circular buffers efficiently implement queues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a sparse matrix?",
+        "type": "mcq",
+        "o": [
+            "Matrix with mostly zero elements",
+            "Small matrix",
+            "Dense matrix",
+            "Square matrix"
+        ]
+    },
+    {
+        "q": "Sparse matrices save space by storing only _____ values.",
+        "type": "fill_blank",
+        "answers": [
+            "non-zero"
+        ],
+        "other_options": [
+            "zero",
+            "positive",
+            "negative"
+        ]
+    },
+    {
+        "q": "Match the sparse representation with its approach:",
+        "type": "match",
+        "left": [
+            "COO",
+            "CSR",
+            "CSC",
+            "Dictionary"
+        ],
+        "right": [
+            "Coordinate list",
+            "Compressed rows",
+            "Compressed columns",
+            "Key-value pairs"
+        ]
+    },
+    {
+        "q": "What is a multiset?",
+        "type": "mcq",
+        "o": [
+            "Set allowing duplicate elements",
+            "Multiple sets",
+            "Set of sets",
+            "Ordered set"
+        ]
+    },
+    {
+        "q": "Multisets track element _____.",
+        "type": "fill_blank",
+        "answers": [
+            "counts"
+        ],
+        "other_options": [
+            "types",
+            "indices",
+            "names"
+        ]
+    },
+    {
+        "q": "Multiset is also called a bag.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a multimap?",
+        "type": "mcq",
+        "o": [
+            "Map allowing multiple values per key",
+            "Multiple maps",
+            "Map of maps",
+            "Sorted map"
+        ]
+    },
+    {
+        "q": "Multimaps store _____ values for each key.",
+        "type": "fill_blank",
+        "answers": [
+            "multiple"
+        ],
+        "other_options": [
+            "single",
+            "zero",
+            "unique"
+        ]
+    },
+    {
+        "q": "Rearrange associative containers:",
+        "type": "rearrange",
+        "words": [
+            "Set",
+            "Multiset",
+            "Map",
+            "Multimap"
+        ]
+    },
+    {
+        "q": "What is a monotonic stack?",
+        "type": "mcq",
+        "o": [
+            "Stack maintaining increasing or decreasing order",
+            "Single-value stack",
+            "Constant stack",
+            "Sorted stack"
+        ]
+    },
+    {
+        "q": "Monotonic stacks solve _____ greater/smaller element problems.",
+        "type": "fill_blank",
+        "answers": [
+            "next"
+        ],
+        "other_options": [
+            "previous",
+            "all",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the stack variant with its use:",
+        "type": "match",
+        "left": [
+            "Monotonic stack",
+            "Min stack",
+            "Max stack",
+            "Two stacks as queue"
+        ],
+        "right": [
+            "Next greater",
+            "Track minimum",
+            "Track maximum",
+            "FIFO from LIFO"
+        ]
+    },
+    {
+        "q": "What is a monotonic queue?",
+        "type": "mcq",
+        "o": [
+            "Deque maintaining sorted elements",
+            "Single-value queue",
+            "Constant queue",
+            "Priority queue"
+        ]
+    },
+    {
+        "q": "Monotonic queues solve sliding window _____ problems.",
+        "type": "fill_blank",
+        "answers": [
+            "maximum"
+        ],
+        "other_options": [
+            "sum",
+            "average",
+            "count"
+        ]
+    },
+    {
+        "q": "Sliding window maximum can be solved in O(n) with monotonic queue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a splay tree?",
+        "type": "mcq",
+        "o": [
+            "Self-adjusting BST moving accessed nodes to root",
+            "Spread tree",
+            "Display tree",
+            "Spray tree"
+        ]
+    },
+    {
+        "q": "Splay trees bring frequently accessed nodes _____.",
+        "type": "fill_blank",
+        "answers": [
+            "up"
+        ],
+        "other_options": [
+            "down",
+            "left",
+            "right"
+        ]
+    },
+    {
+        "q": "Rearrange self-balancing trees by strictness:",
+        "type": "rearrange",
+        "words": [
+            "AVL (strict)",
+            "Red-Black (relaxed)",
+            "Splay (amortized)",
+            "Treap (random)"
+        ]
+    },
+    {
+        "q": "Splay trees have O(log n) amortized operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a van Emde Boas tree?",
+        "type": "mcq",
+        "o": [
+            "Tree with O(log log u) operations",
+            "Dutch tree",
+            "Named tree",
+            "Simple BST"
+        ]
+    },
+    {
+        "q": "Van Emde Boas trees work on _____ keys.",
+        "type": "fill_blank",
+        "answers": [
+            "integer"
+        ],
+        "other_options": [
+            "string",
+            "float",
+            "any"
+        ]
+    },
+    {
+        "q": "Match the advanced tree with its specialty:",
+        "type": "match",
+        "left": [
+            "Van Emde Boas",
+            "Fusion tree",
+            "Y-fast trie",
+            "X-fast trie"
+        ],
+        "right": [
+            "O(log log u)",
+            "Word operations",
+            "Practical vEB",
+            "Predecessor queries"
+        ]
+    },
+    {
+        "q": "What is a link-cut tree?",
+        "type": "mcq",
+        "o": [
+            "Data structure for dynamic tree operations",
+            "Cut tree links",
+            "Linked list variant",
+            "Simple tree"
+        ]
+    },
+    {
+        "q": "Link-cut trees support dynamic _____ queries.",
+        "type": "fill_blank",
+        "answers": [
+            "path"
+        ],
+        "other_options": [
+            "node",
+            "leaf",
+            "root"
+        ]
+    },
+    {
+        "q": "Link-cut trees are used for dynamic connectivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Cartesian tree?",
+        "type": "mcq",
+        "o": [
+            "Binary tree derived from sequence with heap property",
+            "Coordinate tree",
+            "Graph tree",
+            "Map tree"
+        ]
+    },
+    {
+        "q": "Cartesian trees combine sequence order with _____ property.",
+        "type": "fill_blank",
+        "answers": [
+            "heap"
+        ],
+        "other_options": [
+            "BST",
+            "balance",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange tree construction complexities:",
+        "type": "rearrange",
+        "words": [
+            "Cartesian O(n)",
+            "BST O(n log n)",
+            "Heap O(n)",
+            "Segment O(n)"
+        ]
+    },
+    {
+        "q": "What is a wavelet tree?",
+        "type": "mcq",
+        "o": [
+            "Tree for rank and select queries on sequences",
+            "Wave pattern tree",
+            "Audio tree",
+            "Signal tree"
+        ]
+    },
+    {
+        "q": "Wavelet trees support _____ queries efficiently.",
+        "type": "fill_blank",
+        "answers": [
+            "rank"
+        ],
+        "other_options": [
+            "sort",
+            "search",
+            "hash"
+        ]
+    },
+    {
+        "q": "Match the advanced structure with its query type:",
+        "type": "match",
+        "left": [
+            "Wavelet tree",
+            "Suffix array",
+            "LCP array",
+            "FM-index"
+        ],
+        "right": [
+            "Rank/select",
+            "Suffix order",
+            "Common prefixes",
+            "Pattern count"
+        ]
+    },
+    {
+        "q": "Wavelet trees use O(n log sigma) space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a finger tree?",
+        "type": "mcq",
+        "o": [
+            "Functional sequence with efficient ends access",
+            "Branching tree",
+            "Hand-drawn tree",
+            "Touch tree"
+        ]
+    },
+    {
+        "q": "Finger trees allow O(1) access to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "ends"
+        ],
+        "other_options": [
+            "middle",
+            "random",
+            "all"
+        ]
+    },
+    {
+        "q": "Finger trees support efficient concatenation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a 2-3 tree?",
+        "type": "mcq",
+        "o": [
+            "Balanced tree with 2 or 3 children per node",
+            "Tree with 23 nodes",
+            "Binary tree",
+            "Ternary only tree"
+        ]
+    },
+    {
+        "q": "2-3 trees maintain _____ at all leaves.",
+        "type": "fill_blank",
+        "answers": [
+            "same depth"
+        ],
+        "other_options": [
+            "same value",
+            "same count",
+            "same parent"
+        ]
+    },
+    {
+        "q": "Match the B-tree variant with its branching:",
+        "type": "match",
+        "left": [
+            "2-3 tree",
+            "2-3-4 tree",
+            "B-tree",
+            "B+ tree"
+        ],
+        "right": [
+            "2-3 children",
+            "2-4 children",
+            "Many children",
+            "Data in leaves"
+        ]
+    },
+    {
+        "q": "2-3-4 trees are isomorphic to Red-Black trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an adjacency set?",
+        "type": "mcq",
+        "o": [
+            "Graph representation using sets for neighbors",
+            "Adjacent arrays",
+            "Nearby nodes",
+            "Close vertices"
+        ]
+    },
+    {
+        "q": "Adjacency sets allow O(1) _____ checks.",
+        "type": "fill_blank",
+        "answers": [
+            "edge"
+        ],
+        "other_options": [
+            "node",
+            "path",
+            "cycle"
+        ]
+    },
+    {
+        "q": "Rearrange graph representations by edge check speed:",
+        "type": "rearrange",
+        "words": [
+            "Edge list",
+            "Adjacency list",
+            "Adjacency set",
+            "Adjacency matrix"
+        ]
+    },
+    {
+        "q": "What is a graph coloring?",
+        "type": "mcq",
+        "o": [
+            "Assigning colors so adjacent nodes differ",
+            "Painting graphs",
+            "Colored edges",
+            "Visual display"
+        ]
+    },
+    {
+        "q": "Chromatic number is minimum colors for valid _____.",
+        "type": "fill_blank",
+        "answers": [
+            "coloring"
+        ],
+        "other_options": [
+            "painting",
+            "shading",
+            "tinting"
+        ]
+    },
+    {
+        "q": "Match the graph problem with its type:",
+        "type": "match",
+        "left": [
+            "Coloring",
+            "Matching",
+            "Flow",
+            "Cut"
+        ],
+        "right": [
+            "Assign colors",
+            "Pair vertices",
+            "Capacity",
+            "Partition"
+        ]
+    },
+    {
+        "q": "Graph coloring is NP-complete for k >= 3.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is maximum flow?",
+        "type": "mcq",
+        "o": [
+            "Maximum amount from source to sink",
+            "Fastest path",
+            "Most edges",
+            "Shortest route"
+        ]
+    },
+    {
+        "q": "Ford-Fulkerson finds maximum _____ in network.",
+        "type": "fill_blank",
+        "answers": [
+            "flow"
+        ],
+        "other_options": [
+            "path",
+            "cost",
+            "edge"
+        ]
+    },
+    {
+        "q": "Rearrange network flow algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Ford-Fulkerson",
+            "Edmonds-Karp",
+            "Dinic",
+            "Push-relabel"
+        ]
+    },
+    {
+        "q": "Max-flow equals min-cut in any network.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bipartite matching?",
+        "type": "mcq",
+        "o": [
+            "Pairing vertices from two disjoint sets",
+            "Binary matching",
+            "Two matches",
+            "Double pairing"
+        ]
+    },
+    {
+        "q": "Hungarian algorithm solves weighted _____ matching.",
+        "type": "fill_blank",
+        "answers": [
+            "bipartite"
+        ],
+        "other_options": [
+            "random",
+            "complete",
+            "sparse"
+        ]
+    },
+    {
+        "q": "Match the matching problem with its solution:",
+        "type": "match",
+        "left": [
+            "Bipartite matching",
+            "Weighted matching",
+            "Stable matching",
+            "General matching"
+        ],
+        "right": [
+            "Hopcroft-Karp",
+            "Hungarian",
+            "Gale-Shapley",
+            "Blossom"
+        ]
+    },
+    {
+        "q": "What is an Euler path?",
+        "type": "mcq",
+        "o": [
+            "Path visiting every edge exactly once",
+            "Path to Euler",
+            "Shortest path",
+            "Circular path"
+        ]
+    },
+    {
+        "q": "Euler path exists if graph has at most _____ odd degree vertices.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "zero",
+            "one",
+            "three"
+        ]
+    },
+    {
+        "q": "Euler circuit visits every edge and returns to start.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Hamiltonian path?",
+        "type": "mcq",
+        "o": [
+            "Path visiting every vertex exactly once",
+            "Hamilton's route",
+            "Named path",
+            "Shortest path"
+        ]
+    },
+    {
+        "q": "Finding Hamiltonian path is _____.",
+        "type": "fill_blank",
+        "answers": [
+            "NP-complete"
+        ],
+        "other_options": [
+            "polynomial",
+            "linear",
+            "easy"
+        ]
+    },
+    {
+        "q": "Match the path type with its requirement:",
+        "type": "match",
+        "left": [
+            "Euler path",
+            "Euler circuit",
+            "Hamiltonian path",
+            "Hamiltonian cycle"
+        ],
+        "right": [
+            "Every edge once",
+            "Every edge + return",
+            "Every vertex once",
+            "Every vertex + return"
+        ]
+    },
+    {
+        "q": "What is an articulation point?",
+        "type": "mcq",
+        "o": [
+            "Vertex whose removal disconnects graph",
+            "Connection point",
+            "Central vertex",
+            "Important node"
+        ]
+    },
+    {
+        "q": "Articulation points are also called cut _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vertices"
+        ],
+        "other_options": [
+            "edges",
+            "paths",
+            "cycles"
+        ]
+    },
+    {
+        "q": "Rearrange graph connectivity concepts:",
+        "type": "rearrange",
+        "words": [
+            "Connected",
+            "Biconnected",
+            "Triconnected",
+            "Strongly connected"
+        ]
+    },
+    {
+        "q": "Bridges are edges whose removal disconnects graph.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a centroid decomposition?",
+        "type": "mcq",
+        "o": [
+            "Recursive tree decomposition by centroid",
+            "Center finding",
+            "Middle split",
+            "Average node"
+        ]
+    },
+    {
+        "q": "Centroid decomposition creates a tree of height O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Match the tree decomposition with its use:",
+        "type": "match",
+        "left": [
+            "Centroid",
+            "Heavy-light",
+            "Euler tour",
+            "DFS tree"
+        ],
+        "right": [
+            "Path queries",
+            "Path updates",
+            "Subtree queries",
+            "Connectivity"
+        ]
+    },
+    {
+        "q": "What is heavy-light decomposition?",
+        "type": "mcq",
+        "o": [
+            "Decomposing tree into heavy and light paths",
+            "Weight-based split",
+            "Size ordering",
+            "Depth grouping"
+        ]
+    },
+    {
+        "q": "Heavy-light allows O(log^2 n) _____ queries.",
+        "type": "fill_blank",
+        "answers": [
+            "path"
+        ],
+        "other_options": [
+            "node",
+            "leaf",
+            "subtree"
+        ]
+    },
+    {
+        "q": "Heavy-light decomposition partitions tree into O(log n) chains.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Euler tour technique?",
+        "type": "mcq",
+        "o": [
+            "Linearizing tree using DFS entry/exit times",
+            "Euler path in tree",
+            "Tour algorithm",
+            "Visit pattern"
+        ]
+    },
+    {
+        "q": "Euler tour converts subtree queries to _____ queries.",
+        "type": "fill_blank",
+        "answers": [
+            "range"
+        ],
+        "other_options": [
+            "point",
+            "tree",
+            "graph"
+        ]
+    },
+    {
+        "q": "Rearrange tree query techniques:",
+        "type": "rearrange",
+        "words": [
+            "DFS traversal",
+            "Euler tour",
+            "LCA queries",
+            "Path queries"
+        ]
+    },
+    {
+        "q": "What is LCA?",
+        "type": "mcq",
+        "o": [
+            "Lowest Common Ancestor",
+            "Largest Common Ancestor",
+            "Last Common Ancestor",
+            "Linked Common Ancestor"
+        ]
+    },
+    {
+        "q": "Binary lifting finds LCA in O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Match the LCA method with its preprocessing:",
+        "type": "match",
+        "left": [
+            "Binary lifting",
+            "Euler + RMQ",
+            "Tarjan's offline",
+            "Heavy-light"
+        ],
+        "right": [
+            "O(n log n)",
+            "O(n)",
+            "O(n alpha(n))",
+            "O(n)"
+        ]
+    },
+    {
+        "q": "LCA of a node with itself is the node.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RMQ?",
+        "type": "mcq",
+        "o": [
+            "Range Minimum Query",
+            "Random Minimum Query",
+            "Recursive Min Query",
+            "Regular Min Question"
+        ]
+    },
+    {
+        "q": "Sparse table answers RMQ in O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "log n",
+            "n",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Sparse table requires O(n log n) preprocessing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Fibonacci heap?",
+        "type": "mcq",
+        "o": [
+            "Heap with O(1) amortized decrease-key",
+            "Fibonacci sequence heap",
+            "Number heap",
+            "Golden heap"
+        ]
+    },
+    {
+        "q": "Fibonacci heaps improve Dijkstra to O(E + V log V).",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "false",
+            "sometimes",
+            "never"
+        ]
+    },
+    {
+        "q": "Match the heap variant with its specialty:",
+        "type": "match",
+        "left": [
+            "Binary heap",
+            "Binomial heap",
+            "Fibonacci heap",
+            "Pairing heap"
+        ],
+        "right": [
+            "Simple",
+            "Merge O(log n)",
+            "Decrease O(1)",
+            "Practical amortized"
+        ]
+    },
+    {
+        "q": "Fibonacci heaps are rarely used in practice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a pairing heap?",
+        "type": "mcq",
+        "o": [
+            "Simple heap with good amortized performance",
+            "Paired elements heap",
+            "Two heaps",
+            "Couple heap"
+        ]
+    },
+    {
+        "q": "Pairing heaps are simpler than _____ heaps.",
+        "type": "fill_blank",
+        "answers": [
+            "Fibonacci"
+        ],
+        "other_options": [
+            "binary",
+            "binomial",
+            "all"
+        ]
+    },
+    {
+        "q": "Rearrange heaps by practical performance:",
+        "type": "rearrange",
+        "words": [
+            "Binary heap",
+            "Pairing heap",
+            "Binomial heap",
+            "Fibonacci heap"
+        ]
+    },
+    {
+        "q": "What is external sorting?",
+        "type": "mcq",
+        "o": [
+            "Sorting data that doesn't fit in memory",
+            "Outside sorting",
+            "External file sort",
+            "Network sorting"
+        ]
+    },
+    {
+        "q": "External merge sort uses _____ as intermediate storage.",
+        "type": "fill_blank",
+        "answers": [
+            "disk"
+        ],
+        "other_options": [
+            "memory",
+            "network",
+            "cache"
+        ]
+    },
+    {
+        "q": "Match the memory level with its speed:",
+        "type": "match",
+        "left": [
+            "Register",
+            "L1 cache",
+            "RAM",
+            "SSD"
+        ],
+        "right": [
+            "Fastest",
+            "Very fast",
+            "Fast",
+            "Slow"
+        ]
+    },
+    {
+        "q": "B-trees are designed for external memory access.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cache-oblivious algorithm?",
+        "type": "mcq",
+        "o": [
+            "Algorithm efficient regardless of cache size",
+            "Ignoring cache",
+            "Cache-free algorithm",
+            "No memory algorithm"
+        ]
+    },
+    {
+        "q": "Cache-oblivious algorithms don't need cache _____ parameters.",
+        "type": "fill_blank",
+        "answers": [
+            "size"
+        ],
+        "other_options": [
+            "type",
+            "color",
+            "name"
+        ]
+    },
+    {
+        "q": "Van Emde Boas layout is cache-oblivious.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a succinct data structure?",
+        "type": "mcq",
+        "o": [
+            "Structure using close to information-theoretic minimum space",
+            "Small structure",
+            "Simple structure",
+            "Short structure"
+        ]
+    },
+    {
+        "q": "Succinct structures use n + o(n) _____.",
+        "type": "fill_blank",
+        "answers": [
+            "bits"
+        ],
+        "other_options": [
+            "bytes",
+            "nodes",
+            "edges"
+        ]
+    },
+    {
+        "q": "Match the space category with its definition:",
+        "type": "match",
+        "left": [
+            "Implicit",
+            "Succinct",
+            "Compact",
+            "Standard"
+        ],
+        "right": [
+            "O(1) extra",
+            "n + o(n)",
+            "O(n) bits",
+            "O(n) words"
+        ]
+    },
+    {
+        "q": "Rank and select are fundamental succinct operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is time-space tradeoff?",
+        "type": "mcq",
+        "o": [
+            "Trading memory for speed or vice versa",
+            "Time management",
+            "Space planning",
+            "Algorithm timing"
+        ]
+    },
+    {
+        "q": "Hash tables trade _____ for faster access.",
+        "type": "fill_blank",
+        "answers": [
+            "space"
+        ],
+        "other_options": [
+            "time",
+            "accuracy",
+            "simplicity"
+        ]
+    },
+    {
+        "q": "Precomputation often trades space for time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a suffix array?",
+        "type": "mcq",
+        "o": [
+            "Sorted array of all suffixes",
+            "Array of suffix lengths",
+            "Suffix linked list",
+            "Pattern array"
+        ]
+    },
+    {
+        "q": "Suffix arrays use _____ space than suffix trees.",
+        "type": "fill_blank",
+        "answers": [
+            "less"
+        ],
+        "other_options": [
+            "more",
+            "same",
+            "double"
+        ]
+    },
+    {
+        "q": "Match the string structure with its space:",
+        "type": "match",
+        "left": [
+            "Suffix tree",
+            "Suffix array",
+            "LCP array",
+            "FM-index"
+        ],
+        "right": [
+            "O(n)",
+            "O(n)",
+            "O(n)",
+            "O(n)"
+        ]
+    },
+    {
+        "q": "What is an LCP array?",
+        "type": "mcq",
+        "o": [
+            "Longest Common Prefix between adjacent suffixes",
+            "Large Common Prefix",
+            "Linear Common Pattern",
+            "Last Common Point"
+        ]
+    },
+    {
+        "q": "LCP arrays are used with _____ arrays.",
+        "type": "fill_blank",
+        "answers": [
+            "suffix"
+        ],
+        "other_options": [
+            "prefix",
+            "pattern",
+            "length"
+        ]
+    },
+    {
+        "q": "Rearrange suffix structure components:",
+        "type": "rearrange",
+        "words": [
+            "Suffix array",
+            "LCP array",
+            "Rank array",
+            "Inverse suffix array"
+        ]
+    },
+    {
+        "q": "Suffix arrays can be built in O(n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a compressed trie?",
+        "type": "mcq",
+        "o": [
+            "Trie with merged single-child paths",
+            "Small trie",
+            "Compressed file tree",
+            "Binary trie"
+        ]
+    },
+    {
+        "q": "Compressed tries are also called _____ trees.",
+        "type": "fill_blank",
+        "answers": [
+            "radix"
+        ],
+        "other_options": [
+            "prefix",
+            "suffix",
+            "pattern"
+        ]
+    },
+    {
+        "q": "Match the trie variant with its optimization:",
+        "type": "match",
+        "left": [
+            "Standard trie",
+            "Compressed trie",
+            "Ternary trie",
+            "PATRICIA trie"
+        ],
+        "right": [
+            "No optimization",
+            "Path compression",
+            "Three-way",
+            "Binary compact"
+        ]
+    },
+    {
+        "q": "What is a ternary search tree?",
+        "type": "mcq",
+        "o": [
+            "Trie with three children per character",
+            "Three-level tree",
+            "Third search tree",
+            "Triple BST"
+        ]
+    },
+    {
+        "q": "Ternary search trees combine tries and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "BSTs"
+        ],
+        "other_options": [
+            "heaps",
+            "graphs",
+            "arrays"
+        ]
+    },
+    {
+        "q": "Ternary search trees are more space-efficient than standard tries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an inverted index?",
+        "type": "mcq",
+        "o": [
+            "Mapping words to documents containing them",
+            "Reversed array",
+            "Backwards tree",
+            "Inverse table"
+        ]
+    },
+    {
+        "q": "Search engines use inverted _____ for fast lookups.",
+        "type": "fill_blank",
+        "answers": [
+            "indices"
+        ],
+        "other_options": [
+            "trees",
+            "graphs",
+            "arrays"
+        ]
+    },
+    {
+        "q": "Rearrange text search structures:",
+        "type": "rearrange",
+        "words": [
+            "Inverted index",
+            "Suffix tree",
+            "FM-index",
+            "N-gram index"
+        ]
+    },
+    {
+        "q": "What is an FM-index?",
+        "type": "mcq",
+        "o": [
+            "Compressed full-text index",
+            "Frequency map",
+            "Fast match index",
+            "File manager index"
+        ]
+    },
+    {
+        "q": "FM-index enables searches in _____ space.",
+        "type": "fill_blank",
+        "answers": [
+            "compressed"
+        ],
+        "other_options": [
+            "original",
+            "double",
+            "expanded"
+        ]
+    },
+    {
+        "q": "Match the text index with its feature:",
+        "type": "match",
+        "left": [
+            "Inverted index",
+            "Suffix array",
+            "FM-index",
+            "N-gram"
+        ],
+        "right": [
+            "Word-based",
+            "Suffix-based",
+            "Compressed",
+            "Substring-based"
+        ]
+    },
+    {
+        "q": "FM-index is based on Burrows-Wheeler Transform.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is BWT?",
+        "type": "mcq",
+        "o": [
+            "Burrows-Wheeler Transform",
+            "Binary Weighted Tree",
+            "Basic Word Table",
+            "Backward Walk Tree"
+        ]
+    },
+    {
+        "q": "BWT is used in _____ compression.",
+        "type": "fill_blank",
+        "answers": [
+            "bzip2"
+        ],
+        "other_options": [
+            "gzip",
+            "zip",
+            "tar"
+        ]
+    },
+    {
+        "q": "BWT is a reversible text transformation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Range Tree?",
+        "type": "mcq",
+        "o": [
+            "Tree for multi-dimensional range queries",
+            "Tree with ranges",
+            "Interval storage",
+            "Distance tree"
+        ]
+    },
+    {
+        "q": "Range trees answer d-dimensional queries in O(log^d n).",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "false",
+            "sometimes",
+            "never"
+        ]
+    },
+    {
+        "q": "Rearrange multi-dimensional structures:",
+        "type": "rearrange",
+        "words": [
+            "Range tree",
+            "K-d tree",
+            "R-tree",
+            "Grid"
+        ]
+    },
+    {
+        "q": "What is fractional cascading?",
+        "type": "mcq",
+        "o": [
+            "Technique to speed up multi-level searches",
+            "Fraction storage",
+            "Cascading fractions",
+            "Partial searches"
+        ]
+    },
+    {
+        "q": "Fractional cascading reduces range tree query to O(log n + ___).",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "log n"
+        ]
+    },
+    {
+        "q": "Match the optimization with its benefit:",
+        "type": "match",
+        "left": [
+            "Fractional cascading",
+            "Path compression",
+            "Union by rank",
+            "Lazy propagation"
+        ],
+        "right": [
+            "Multi-level speedup",
+            "Flatten trees",
+            "Balance trees",
+            "Delayed updates"
+        ]
+    },
+    {
+        "q": "Fractional cascading is used in computational geometry.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is lazy propagation?",
+        "type": "mcq",
+        "o": [
+            "Delaying updates until needed",
+            "Slow updates",
+            "Lazy evaluation",
+            "Postponed queries"
+        ]
+    },
+    {
+        "q": "Lazy propagation in segment trees enables range _____.",
+        "type": "fill_blank",
+        "answers": [
+            "updates"
+        ],
+        "other_options": [
+            "queries",
+            "deletes",
+            "inserts"
+        ]
+    },
+    {
+        "q": "Lazy propagation maintains O(log n) updates.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is persistent segment tree?",
+        "type": "mcq",
+        "o": [
+            "Segment tree keeping all versions",
+            "Long-lasting tree",
+            "Saved tree",
+            "Backup tree"
+        ]
+    },
+    {
+        "q": "Persistent segment trees create new _____ on updates.",
+        "type": "fill_blank",
+        "answers": [
+            "nodes"
+        ],
+        "other_options": [
+            "trees",
+            "arrays",
+            "values"
+        ]
+    },
+    {
+        "q": "Rearrange persistent structures:",
+        "type": "rearrange",
+        "words": [
+            "Partial persistence",
+            "Full persistence",
+            "Path copying",
+            "Fat nodes"
+        ]
+    },
+    {
+        "q": "What is coordinate compression?",
+        "type": "mcq",
+        "o": [
+            "Mapping large values to smaller range",
+            "Reducing coordinates",
+            "Spatial compression",
+            "Point reduction"
+        ]
+    },
+    {
+        "q": "Coordinate compression maps values to their _____.",
+        "type": "fill_blank",
+        "answers": [
+            "ranks"
+        ],
+        "other_options": [
+            "sums",
+            "products",
+            "differences"
+        ]
+    },
+    {
+        "q": "Match the preprocessing with its use:",
+        "type": "match",
+        "left": [
+            "Coordinate compression",
+            "Discretization",
+            "Normalization",
+            "Scaling"
+        ],
+        "right": [
+            "Rank mapping",
+            "Value grouping",
+            "Range fixing",
+            "Size adjustment"
+        ]
+    },
+    {
+        "q": "Coordinate compression enables using arrays for large values.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an implicit treap?",
+        "type": "mcq",
+        "o": [
+            "Treap using array indices as keys",
+            "Hidden treap",
+            "Small treap",
+            "Simple treap"
+        ]
+    },
+    {
+        "q": "Implicit treaps support O(log n) array _____.",
+        "type": "fill_blank",
+        "answers": [
+            "splits"
+        ],
+        "other_options": [
+            "sorts",
+            "copies",
+            "clears"
+        ]
+    },
+    {
+        "q": "Implicit treaps can implement rope operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is order statistic tree?",
+        "type": "mcq",
+        "o": [
+            "BST supporting rank queries",
+            "Ordered tree",
+            "Statistical tree",
+            "Numbered tree"
+        ]
+    },
+    {
+        "q": "Order statistic trees find k-th _____ efficiently.",
+        "type": "fill_blank",
+        "answers": [
+            "smallest"
+        ],
+        "other_options": [
+            "largest",
+            "sum",
+            "product"
+        ]
+    },
+    {
+        "q": "Match the augmented tree with its extra data:",
+        "type": "match",
+        "left": [
+            "Order statistic",
+            "Interval tree",
+            "Segment tree",
+            "Fenwick tree"
+        ],
+        "right": [
+            "Subtree size",
+            "Max endpoint",
+            "Range aggregate",
+            "Prefix sums"
+        ]
+    },
+    {
+        "q": "What is a merge-sort tree?",
+        "type": "mcq",
+        "o": [
+            "Segment tree with sorted arrays at nodes",
+            "Tree for merging",
+            "Sorted tree",
+            "Merge tree"
+        ]
+    },
+    {
+        "q": "Merge-sort trees answer range queries with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "binary search"
+        ],
+        "other_options": [
+            "linear scan",
+            "hash lookup",
+            "recursion"
+        ]
+    },
+    {
+        "q": "Merge-sort trees use O(n log n) space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Mo's algorithm?",
+        "type": "mcq",
+        "o": [
+            "Query reordering for efficient processing",
+            "Mo's sorting",
+            "Movement algorithm",
+            "Modified algorithm"
+        ]
+    },
+    {
+        "q": "Mo's algorithm sorts queries by _____.",
+        "type": "fill_blank",
+        "answers": [
+            "blocks"
+        ],
+        "other_options": [
+            "values",
+            "indices",
+            "sizes"
+        ]
+    },
+    {
+        "q": "Rearrange offline algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Mo's algorithm",
+            "Tarjan's LCA",
+            "Heavy-light",
+            "Euler tour"
+        ]
+    },
+    {
+        "q": "Mo's algorithm works best for O(sqrt n) block size.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is square root decomposition?",
+        "type": "mcq",
+        "o": [
+            "Dividing array into sqrt(n) blocks",
+            "Square root calculation",
+            "Root finding",
+            "Decomposition by squares"
+        ]
+    },
+    {
+        "q": "Sqrt decomposition achieves O(sqrt n) query _____.",
+        "type": "fill_blank",
+        "answers": [
+            "time"
+        ],
+        "other_options": [
+            "space",
+            "count",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the query technique with its complexity:",
+        "type": "match",
+        "left": [
+            "Naive",
+            "Sqrt decomposition",
+            "Segment tree",
+            "Sparse table"
+        ],
+        "right": [
+            "O(n)",
+            "O(sqrt n)",
+            "O(log n)",
+            "O(1)"
+        ]
+    },
+    {
+        "q": "Sqrt decomposition is simpler to implement than segment trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a sparse segment tree?",
+        "type": "mcq",
+        "o": [
+            "Segment tree without pre-allocating all nodes",
+            "Small segment tree",
+            "Empty segment tree",
+            "Partial tree"
+        ]
+    },
+    {
+        "q": "Sparse segment trees create nodes on _____.",
+        "type": "fill_blank",
+        "answers": [
+            "demand"
+        ],
+        "other_options": [
+            "startup",
+            "query",
+            "deletion"
+        ]
+    },
+    {
+        "q": "Sparse segment trees handle large coordinate ranges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a 2D segment tree?",
+        "type": "mcq",
+        "o": [
+            "Segment tree for 2D range queries",
+            "Tree with 2 dimensions",
+            "Double segment tree",
+            "Two trees"
+        ]
+    },
+    {
+        "q": "2D segment trees nest trees inside _____.",
+        "type": "fill_blank",
+        "answers": [
+            "nodes"
+        ],
+        "other_options": [
+            "arrays",
+            "leaves",
+            "roots"
+        ]
+    },
+    {
+        "q": "Rearrange 2D data structures:",
+        "type": "rearrange",
+        "words": [
+            "2D array",
+            "2D Fenwick",
+            "2D segment tree",
+            "Quadtree"
+        ]
+    },
+    {
+        "q": "What is a Li Chao tree?",
+        "type": "mcq",
+        "o": [
+            "Segment tree for line minimum queries",
+            "Named tree",
+            "Chinese tree",
+            "Special BST"
+        ]
+    },
+    {
+        "q": "Li Chao trees support convex hull _____.",
+        "type": "fill_blank",
+        "answers": [
+            "trick"
+        ],
+        "other_options": [
+            "sort",
+            "search",
+            "build"
+        ]
+    },
+    {
+        "q": "Match the optimization technique with its structure:",
+        "type": "match",
+        "left": [
+            "Li Chao tree",
+            "Convex hull trick",
+            "Divide and conquer",
+            "Aliens trick"
+        ],
+        "right": [
+            "Line minimum",
+            "DP optimization",
+            "Merge-based",
+            "Penalty binary search"
+        ]
+    },
+    {
+        "q": "Li Chao trees handle dynamic line insertions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a DP optimization?",
+        "type": "mcq",
+        "o": [
+            "Reducing DP time complexity",
+            "Dynamic program",
+            "Design pattern",
+            "Data processing"
+        ]
+    },
+    {
+        "q": "Convex hull trick optimizes DPs with _____ recurrences.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "quadratic",
+            "cubic",
+            "exponential"
+        ]
+    },
+    {
+        "q": "Rearrange DP optimizations by complexity reduction:",
+        "type": "rearrange",
+        "words": [
+            "Memoization",
+            "Knuth optimization",
+            "Divide and conquer",
+            "Convex hull trick"
+        ]
+    },
+    {
+        "q": "Knuth optimization applies when the quadrangle inequality holds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a DP on tree?",
+        "type": "mcq",
+        "o": [
+            "Dynamic programming using tree structure",
+            "Tree with DP values",
+            "Decision tree",
+            "Pattern tree"
+        ]
+    },
+    {
+        "q": "Tree DP typically uses _____ recursion.",
+        "type": "fill_blank",
+        "answers": [
+            "DFS"
+        ],
+        "other_options": [
+            "BFS",
+            "iterative",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the tree DP type with its typical problem:",
+        "type": "match",
+        "left": [
+            "Subtree DP",
+            "Path DP",
+            "Rerooting",
+            "Matching DP"
+        ],
+        "right": [
+            "Subtree sum",
+            "Longest path",
+            "Answer from all roots",
+            "Independent set"
+        ]
+    },
+    {
+        "q": "Rerooting technique answers tree queries from all nodes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is small-to-large merging?",
+        "type": "mcq",
+        "o": [
+            "Merging smaller sets into larger ones",
+            "Size sorting",
+            "Small tree merge",
+            "Large first merge"
+        ]
+    },
+    {
+        "q": "Small-to-large achieves O(n log n) total _____.",
+        "type": "fill_blank",
+        "answers": [
+            "operations"
+        ],
+        "other_options": [
+            "space",
+            "queries",
+            "nodes"
+        ]
+    },
+    {
+        "q": "Rearrange merging techniques:",
+        "type": "rearrange",
+        "words": [
+            "Union-Find",
+            "Small-to-large",
+            "DSU on tree",
+            "Heavy-light"
+        ]
+    },
+    {
+        "q": "What is DSU on tree?",
+        "type": "mcq",
+        "o": [
+            "Technique for tree vertex queries using set merging",
+            "Disjoint set on tree",
+            "Data structure union",
+            "Dynamic segment update"
+        ]
+    },
+    {
+        "q": "DSU on tree uses _____ and light edge separation.",
+        "type": "fill_blank",
+        "answers": [
+            "heavy"
+        ],
+        "other_options": [
+            "fast",
+            "slow",
+            "medium"
+        ]
+    },
+    {
+        "q": "DSU on tree solves subtree queries in O(n log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a virtual tree?",
+        "type": "mcq",
+        "o": [
+            "Tree containing only marked nodes and LCAs",
+            "Virtual reality tree",
+            "Simulated tree",
+            "Fake tree"
+        ]
+    },
+    {
+        "q": "Virtual trees compress the original tree to _____ nodes.",
+        "type": "fill_blank",
+        "answers": [
+            "relevant"
+        ],
+        "other_options": [
+            "all",
+            "half",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the tree technique with its purpose:",
+        "type": "match",
+        "left": [
+            "Virtual tree",
+            "Auxiliary tree",
+            "Compressed tree",
+            "Spanning tree"
+        ],
+        "right": [
+            "Keep marked nodes",
+            "Link-cut helper",
+            "Reduce size",
+            "Connect all"
+        ]
+    },
+    {
+        "q": "Virtual trees preserve ancestor relationships.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a block cut tree?",
+        "type": "mcq",
+        "o": [
+            "Tree of biconnected components",
+            "Tree of blocks",
+            "Cut tree",
+            "Block diagram"
+        ]
+    },
+    {
+        "q": "Block cut tree nodes represent blocks and cut _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vertices"
+        ],
+        "other_options": [
+            "edges",
+            "paths",
+            "cycles"
+        ]
+    },
+    {
+        "q": "Rearrange graph decomposition structures:",
+        "type": "rearrange",
+        "words": [
+            "Block cut tree",
+            "Bridge tree",
+            "SCC graph",
+            "Clique tree"
+        ]
+    },
+    {
+        "q": "What is a Gomory-Hu tree?",
+        "type": "mcq",
+        "o": [
+            "Tree representing all pairwise minimum cuts",
+            "Named tree",
+            "Cut tree",
+            "Flow tree"
+        ]
+    },
+    {
+        "q": "Gomory-Hu tree has _____ edges for n nodes.",
+        "type": "fill_blank",
+        "answers": [
+            "n-1"
+        ],
+        "other_options": [
+            "n",
+            "2n",
+            "n^2"
+        ]
+    },
+    {
+        "q": "Match the flow structure with its query:",
+        "type": "match",
+        "left": [
+            "Gomory-Hu tree",
+            "Residual graph",
+            "Level graph",
+            "Push-relabel"
+        ],
+        "right": [
+            "Min cuts",
+            "Remaining capacity",
+            "BFS layers",
+            "Local operations"
+        ]
+    },
+    {
+        "q": "Gomory-Hu tree answers min s-t cut in O(1) after construction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a suffix automaton?",
+        "type": "mcq",
+        "o": [
+            "DFA accepting all suffixes of a string",
+            "Automatic suffix",
+            "Pattern matcher",
+            "String state"
+        ]
+    },
+    {
+        "q": "Suffix automaton has O(n) _____ and edges.",
+        "type": "fill_blank",
+        "answers": [
+            "states"
+        ],
+        "other_options": [
+            "suffixes",
+            "prefixes",
+            "patterns"
+        ]
+    },
+    {
+        "q": "Rearrange string automata:",
+        "type": "rearrange",
+        "words": [
+            "Suffix automaton",
+            "Aho-Corasick",
+            "KMP automaton",
+            "Trie"
+        ]
+    },
+    {
+        "q": "Suffix automaton is the smallest DFA for all substrings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Aho-Corasick automaton?",
+        "type": "mcq",
+        "o": [
+            "Multi-pattern matching automaton",
+            "Single pattern matcher",
+            "Named algorithm",
+            "Corasick's tree"
+        ]
+    },
+    {
+        "q": "Aho-Corasick builds failure _____ for pattern matching.",
+        "type": "fill_blank",
+        "answers": [
+            "links"
+        ],
+        "other_options": [
+            "nodes",
+            "edges",
+            "paths"
+        ]
+    },
+    {
+        "q": "Match the string algorithm with its use:",
+        "type": "match",
+        "left": [
+            "KMP",
+            "Aho-Corasick",
+            "Z-algorithm",
+            "Rabin-Karp"
+        ],
+        "right": [
+            "Single pattern",
+            "Multiple patterns",
+            "Z-array",
+            "Hash-based"
+        ]
+    },
+    {
+        "q": "Aho-Corasick runs in O(n + m + z) for n text, m patterns, z matches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Z-array?",
+        "type": "mcq",
+        "o": [
+            "Array of longest prefix matches at each position",
+            "Zero array",
+            "Last array",
+            "Zone array"
+        ]
+    },
+    {
+        "q": "Z[i] is length of longest _____ starting at i.",
+        "type": "fill_blank",
+        "answers": [
+            "prefix match"
+        ],
+        "other_options": [
+            "suffix",
+            "substring",
+            "pattern"
+        ]
+    },
+    {
+        "q": "Z-algorithm runs in O(n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a failure function?",
+        "type": "mcq",
+        "o": [
+            "Longest proper prefix-suffix at each position",
+            "Error handling",
+            "Exception function",
+            "Backup function"
+        ]
+    },
+    {
+        "q": "KMP uses failure function to skip _____.",
+        "type": "fill_blank",
+        "answers": [
+            "comparisons"
+        ],
+        "other_options": [
+            "characters",
+            "patterns",
+            "strings"
+        ]
+    },
+    {
+        "q": "Match the string preprocessing with its algorithm:",
+        "type": "match",
+        "left": [
+            "Failure function",
+            "Z-array",
+            "Suffix array",
+            "BWT"
+        ],
+        "right": [
+            "KMP",
+            "Z-algorithm",
+            "Binary search",
+            "Compression"
+        ]
+    },
+    {
+        "q": "What is polynomial hashing?",
+        "type": "mcq",
+        "o": [
+            "Hash treating string as polynomial",
+            "Complex hashing",
+            "Math hashing",
+            "Poly hash"
+        ]
+    },
+    {
+        "q": "Polynomial hash uses base and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "modulo"
+        ],
+        "other_options": [
+            "exponent",
+            "factor",
+            "constant"
+        ]
+    },
+    {
+        "q": "Rearrange string hashing techniques:",
+        "type": "rearrange",
+        "words": [
+            "Single hash",
+            "Double hash",
+            "Rolling hash",
+            "Prefix hash"
+        ]
+    },
+    {
+        "q": "Rolling hash enables O(1) hash updates.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is double hashing for strings?",
+        "type": "mcq",
+        "o": [
+            "Using two hash functions to reduce collisions",
+            "Hashing twice",
+            "Double encryption",
+            "Two-way hash"
+        ]
+    },
+    {
+        "q": "Double hashing reduces collision probability to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "negligible"
+        ],
+        "other_options": [
+            "zero",
+            "half",
+            "same"
+        ]
+    },
+    {
+        "q": "Match the hash technique with its benefit:",
+        "type": "match",
+        "left": [
+            "Single hash",
+            "Double hash",
+            "Rolling hash",
+            "Perfect hash"
+        ],
+        "right": [
+            "Simple",
+            "Fewer collisions",
+            "Fast updates",
+            "No collisions"
+        ]
+    },
+    {
+        "q": "What is a palindrome tree?",
+        "type": "mcq",
+        "o": [
+            "Structure storing all distinct palindromic substrings",
+            "Mirror tree",
+            "Symmetric tree",
+            "Reverse tree"
+        ]
+    },
+    {
+        "q": "Palindrome tree has O(n) _____.",
+        "type": "fill_blank",
+        "answers": [
+            "nodes"
+        ],
+        "other_options": [
+            "edges",
+            "levels",
+            "roots"
+        ]
+    },
+    {
+        "q": "Palindrome trees can count palindromes in O(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Manacher's algorithm?",
+        "type": "mcq",
+        "o": [
+            "Linear algorithm for all palindromic substrings",
+            "Named sorting",
+            "Pattern matching",
+            "String compression"
+        ]
+    },
+    {
+        "q": "Manacher's finds longest palindrome at each _____ in O(n).",
+        "type": "fill_blank",
+        "answers": [
+            "center"
+        ],
+        "other_options": [
+            "end",
+            "start",
+            "position"
+        ]
+    },
+    {
+        "q": "Rearrange palindrome algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Brute force",
+            "DP",
+            "Hashing",
+            "Manacher's"
+        ]
+    },
+    {
+        "q": "What is bit manipulation in data structures?",
+        "type": "mcq",
+        "o": [
+            "Using binary operations for efficiency",
+            "Binary tree",
+            "Bit storage",
+            "Binary data"
+        ]
+    },
+    {
+        "q": "Bitwise operations are often O(___).",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "n",
+            "log n",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Match the bit operation with its use:",
+        "type": "match",
+        "left": [
+            "AND",
+            "OR",
+            "XOR",
+            "NOT"
+        ],
+        "right": [
+            "Clear bits",
+            "Set bits",
+            "Toggle bits",
+            "Invert bits"
+        ]
+    },
+    {
+        "q": "What is a bitset?",
+        "type": "mcq",
+        "o": [
+            "Compact Boolean array using bits",
+            "Set of bits",
+            "Binary set",
+            "Bit collection"
+        ]
+    },
+    {
+        "q": "Bitset operations are O(n/___) with word parallelism.",
+        "type": "fill_blank",
+        "answers": [
+            "64"
+        ],
+        "other_options": [
+            "1",
+            "n",
+            "log n"
+        ]
+    },
+    {
+        "q": "Rearrange compact data representations:",
+        "type": "rearrange",
+        "words": [
+            "Boolean array",
+            "Bitset",
+            "Succinct bitvector",
+            "Compressed bitvector"
+        ]
+    },
+    {
+        "q": "Bitsets support constant-time single bit operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is popcount?",
+        "type": "mcq",
+        "o": [
+            "Counting number of set bits",
+            "Popular count",
+            "Population count",
+            "Pop operation count"
+        ]
+    },
+    {
+        "q": "Modern CPUs have hardware _____ instruction.",
+        "type": "fill_blank",
+        "answers": [
+            "popcount"
+        ],
+        "other_options": [
+            "sort",
+            "hash",
+            "search"
+        ]
+    },
+    {
+        "q": "Match the bit operation with its function:",
+        "type": "match",
+        "left": [
+            "popcount",
+            "ctz",
+            "clz",
+            "ffs"
+        ],
+        "right": [
+            "Count ones",
+            "Trailing zeros",
+            "Leading zeros",
+            "Find first set"
+        ]
+    },
+    {
+        "q": "Popcount can be computed in O(1) on modern hardware.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a bitmask DP?",
+        "type": "mcq",
+        "o": [
+            "DP using subsets as states",
+            "Masked dynamic programming",
+            "Binary DP",
+            "Bit-wise DP"
+        ]
+    },
+    {
+        "q": "Bitmask DP has O(2^n * n) states for n _____.",
+        "type": "fill_blank",
+        "answers": [
+            "elements"
+        ],
+        "other_options": [
+            "bits",
+            "bytes",
+            "words"
+        ]
+    },
+    {
+        "q": "Rearrange DP state representations:",
+        "type": "rearrange",
+        "words": [
+            "Single value",
+            "Pair",
+            "Tuple",
+            "Bitmask"
+        ]
+    },
+    {
+        "q": "Bitmask DP is used for subset problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is subset sum over subsets?",
+        "type": "mcq",
+        "o": [
+            "Computing function over all subsets using SOS DP",
+            "Subset addition",
+            "Sum of subsets",
+            "Partial sums"
+        ]
+    },
+    {
+        "q": "SOS DP runs in O(2^n * _____).",
+        "type": "fill_blank",
+        "answers": [
+            "n"
+        ],
+        "other_options": [
+            "1",
+            "log n",
+            "2^n"
+        ]
+    },
+    {
+        "q": "Match the subset technique with its complexity:",
+        "type": "match",
+        "left": [
+            "Brute subset",
+            "SOS DP",
+            "Meet in middle",
+            "Bitmask DP"
+        ],
+        "right": [
+            "O(3^n)",
+            "O(2^n * n)",
+            "O(2^(n/2))",
+            "O(2^n * n)"
+        ]
+    },
+    {
+        "q": "SOS DP is also called subset convolution.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is meet in the middle?",
+        "type": "mcq",
+        "o": [
+            "Splitting problem into two halves",
+            "Middle search",
+            "Center finding",
+            "Average case"
+        ]
+    },
+    {
+        "q": "Meet in the middle reduces 2^n to 2^(n/___).",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "3",
+            "4",
+            "log n"
+        ]
+    },
+    {
+        "q": "Meet in the middle often uses sorting or binary search.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is FFT in algorithms?",
+        "type": "mcq",
+        "o": [
+            "Fast Fourier Transform for polynomial multiplication",
+            "Fast File Transfer",
+            "First Found Tree",
+            "Frequency Filter Tool"
+        ]
+    },
+    {
+        "q": "FFT computes polynomial multiplication in O(n _____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Rearrange multiplication algorithms by time:",
+        "type": "rearrange",
+        "words": [
+            "Naive O(n^2)",
+            "Karatsuba O(n^1.58)",
+            "FFT O(n log n)",
+            "Matrix exp"
+        ]
+    },
+    {
+        "q": "What is NTT?",
+        "type": "mcq",
+        "o": [
+            "Number Theoretic Transform",
+            "Next Token Tree",
+            "Numbered Transform Tree",
+            "Numeric Table Transform"
+        ]
+    },
+    {
+        "q": "NTT works modulo _____ primes.",
+        "type": "fill_blank",
+        "answers": [
+            "special"
+        ],
+        "other_options": [
+            "any",
+            "small",
+            "large"
+        ]
+    },
+    {
+        "q": "Match the transform with its use:",
+        "type": "match",
+        "left": [
+            "FFT",
+            "NTT",
+            "XOR convolution",
+            "AND convolution"
+        ],
+        "right": [
+            "Complex roots",
+            "Modular arithmetic",
+            "XOR combine",
+            "AND combine"
+        ]
+    },
+    {
+        "q": "NTT avoids floating-point precision issues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is matrix exponentiation?",
+        "type": "mcq",
+        "o": [
+            "Computing matrix powers efficiently",
+            "Exponential matrix",
+            "Matrix exp function",
+            "Power matrix"
+        ]
+    },
+    {
+        "q": "Matrix exponentiation uses binary _____ for O(log n) powers.",
+        "type": "fill_blank",
+        "answers": [
+            "exponentiation"
+        ],
+        "other_options": [
+            "search",
+            "sort",
+            "split"
+        ]
+    },
+    {
+        "q": "Matrix exponentiation solves linear recurrence DPs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Gaussian elimination?",
+        "type": "mcq",
+        "o": [
+            "Solving systems of linear equations",
+            "Removing Gaussians",
+            "Normal distribution",
+            "Named elimination"
+        ]
+    },
+    {
+        "q": "Gaussian elimination runs in O(n^_____).",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "log n",
+            "n"
+        ]
+    },
+    {
+        "q": "Rearrange linear algebra algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Gaussian elimination",
+            "LU decomposition",
+            "Matrix inversion",
+            "Determinant"
+        ]
+    },
+    {
+        "q": "Gaussian elimination can be used for XOR basis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an XOR basis?",
+        "type": "mcq",
+        "o": [
+            "Set of linearly independent numbers under XOR",
+            "XOR operation",
+            "Binary base",
+            "XOR foundation"
+        ]
+    },
+    {
+        "q": "XOR basis has at most _____ elements for 64-bit numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "64"
+        ],
+        "other_options": [
+            "32",
+            "128",
+            "256"
+        ]
+    },
+    {
+        "q": "Match the linear algebra concept with its application:",
+        "type": "match",
+        "left": [
+            "XOR basis",
+            "Matrix power",
+            "Rank",
+            "Determinant"
+        ],
+        "right": [
+            "Maximum XOR",
+            "Recurrence",
+            "Independence",
+            "Invertibility"
+        ]
+    },
+    {
+        "q": "XOR basis can find maximum XOR of any subset.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is centroid in competitive programming?",
+        "type": "mcq",
+        "o": [
+            "Node whose removal leaves subtrees of size at most n/2",
+            "Center of gravity",
+            "Middle node",
+            "Average position"
+        ]
+    },
+    {
+        "q": "Every tree has at most _____ centroids.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "many"
+        ]
+    },
+    {
+        "q": "Centroid finding runs in O(n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the principle of divide and conquer on trees?",
+        "type": "mcq",
+        "o": [
+            "Recursively solving problems on subtrees",
+            "Splitting trees",
+            "Tree division",
+            "Partition technique"
+        ]
+    },
+    {
+        "q": "Centroid decomposition depth is O(_____).",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "n",
+            "sqrt n",
+            "1"
+        ]
+    },
+    {
+        "q": "Rearrange tree algorithms by power:",
+        "type": "rearrange",
+        "words": [
+            "DFS",
+            "BFS",
+            "LCA",
+            "Centroid decomposition"
+        ]
+    },
+    {
+        "q": "What is binary lifting?",
+        "type": "mcq",
+        "o": [
+            "Precomputing 2^k ancestors for fast LCA",
+            "Binary search on tree",
+            "Lifting binary",
+            "Tree doubling"
+        ]
+    },
+    {
+        "q": "Binary lifting uses O(n _____) space.",
+        "type": "fill_blank",
+        "answers": [
+            "log n"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "sqrt n"
+        ]
+    },
+    {
+        "q": "Match the LCA technique with its query time:",
+        "type": "match",
+        "left": [
+            "Naive",
+            "Binary lifting",
+            "Euler + RMQ",
+            "Farach-Colton"
+        ],
+        "right": [
+            "O(n)",
+            "O(log n)",
+            "O(1)",
+            "O(1)"
+        ]
+    },
+    {
+        "q": "Binary lifting can answer k-th ancestor queries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Tarjan's SCC algorithm?",
+        "type": "mcq",
+        "o": [
+            "Linear algorithm for strongly connected components",
+            "Tarjan's sort",
+            "Named algorithm",
+            "SCC counting"
+        ]
+    },
+    {
+        "q": "Tarjan's SCC uses _____ numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "low-link"
+        ],
+        "other_options": [
+            "high",
+            "order",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange graph connectivity algorithms:",
+        "type": "rearrange",
+        "words": [
+            "DFS",
+            "Tarjan's SCC",
+            "Kosaraju's",
+            "2-SAT"
+        ]
+    },
+    {
+        "q": "2-SAT can be solved using SCC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 2-SAT?",
+        "type": "mcq",
+        "o": [
+            "Boolean satisfiability with 2 literals per clause",
+            "Two satisfaction",
+            "Double SAT",
+            "Second SAT"
+        ]
+    },
+    {
+        "q": "2-SAT is solvable in _____ time.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "quadratic",
+            "exponential",
+            "cubic"
+        ]
+    },
+    {
+        "q": "Match the SAT variant with its complexity:",
+        "type": "match",
+        "left": [
+            "2-SAT",
+            "3-SAT",
+            "Horn-SAT",
+            "XOR-SAT"
+        ],
+        "right": [
+            "Polynomial",
+            "NP-complete",
+            "Polynomial",
+            "Polynomial"
+        ]
+    },
+    {
+        "q": "What is a minimum cut?",
+        "type": "mcq",
+        "o": [
+            "Smallest set of edges to disconnect s from t",
+            "Small edge",
+            "Minimum edge weight",
+            "Shortest path"
+        ]
+    },
+    {
+        "q": "Minimum cut equals maximum _____ in any network.",
+        "type": "fill_blank",
+        "answers": [
+            "flow"
+        ],
+        "other_options": [
+            "path",
+            "edge",
+            "cost"
+        ]
+    },
+    {
+        "q": "Min-cut max-flow theorem is fundamental in network theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a flow with demands?",
+        "type": "mcq",
+        "o": [
+            "Flow with lower and upper bounds on edges",
+            "Demanded flow",
+            "Required path",
+            "Forced edges"
+        ]
+    },
+    {
+        "q": "Flow with demands uses an auxiliary _____ network.",
+        "type": "fill_blank",
+        "answers": [
+            "transformed"
+        ],
+        "other_options": [
+            "original",
+            "same",
+            "simple"
+        ]
+    },
+    {
+        "q": "Rearrange flow problem variants:",
+        "type": "rearrange",
+        "words": [
+            "Max flow",
+            "Min cost flow",
+            "Flow with demands",
+            "Circulation"
+        ]
+    },
+    {
+        "q": "What is min-cost max-flow?",
+        "type": "mcq",
+        "o": [
+            "Maximum flow with minimum total cost",
+            "Cheapest path",
+            "Minimum flow",
+            "Cost reduction"
+        ]
+    },
+    {
+        "q": "Min-cost flow uses _____ path augmentation.",
+        "type": "fill_blank",
+        "answers": [
+            "shortest"
+        ],
+        "other_options": [
+            "longest",
+            "random",
+            "any"
+        ]
+    },
+    {
+        "q": "Match the flow algorithm with its approach:",
+        "type": "match",
+        "left": [
+            "Ford-Fulkerson",
+            "Edmonds-Karp",
+            "Dinic",
+            "Cost scaling"
+        ],
+        "right": [
+            "Any path",
+            "BFS path",
+            "Blocking flow",
+            "Approximation"
+        ]
+    },
+    {
+        "q": "Min-cost flow can solve assignment problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a blocking flow?",
+        "type": "mcq",
+        "o": [
+            "Flow where every path is saturated",
+            "Blocked edges",
+            "No flow possible",
+            "Full capacity"
+        ]
+    },
+    {
+        "q": "Dinic's finds blocking flow in O(_____) time.",
+        "type": "fill_blank",
+        "answers": [
+            "VE"
+        ],
+        "other_options": [
+            "V^2",
+            "E^2",
+            "V+E"
+        ]
+    },
+    {
+        "q": "Dinic's runs in O(V^2 * E) for general graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What makes Dinic efficient for unit capacity graphs?",
+        "type": "mcq",
+        "o": [
+            "O(E * sqrt(V)) complexity",
+            "Constant time",
+            "Linear complexity",
+            "No improvement"
+        ]
+    },
+    {
+        "q": "Bipartite matching uses Dinic with O(E * _____) complexity.",
+        "type": "fill_blank",
+        "answers": [
+            "sqrt V"
+        ],
+        "other_options": [
+            "V",
+            "log V",
+            "E"
+        ]
+    },
+    {
+        "q": "Rearrange network flow complexities:",
+        "type": "rearrange",
+        "words": [
+            "Ford-Fulkerson",
+            "Edmonds-Karp",
+            "Dinic general",
+            "Dinic unit"
+        ]
+    },
+    {
+        "q": "Data structures form the foundation of efficient algorithms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Bellman-Ford algorithm?",
+        "type": "mcq",
+        "o": [
+            "Shortest path with negative edges",
+            "Only positive weights",
+            "Unweighted graphs",
+            "MST algorithm"
+        ]
+    },
+    {
+        "q": "Bellman-Ford detects negative _____.",
+        "type": "fill_blank",
+        "answers": [
+            "cycles"
+        ],
+        "other_options": [
+            "nodes",
+            "edges",
+            "paths"
+        ]
+    },
+    {
+        "q": "Match the shortest path with its limitation:",
+        "type": "match",
+        "left": [
+            "BFS",
+            "Dijkstra",
+            "Bellman-Ford",
+            "Floyd-Warshall"
+        ],
+        "right": [
+            "Unweighted only",
+            "No negative",
+            "Single source",
+            "All pairs"
+        ]
+    },
+    {
+        "q": "Bellman-Ford runs in O(VE) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Floyd-Warshall algorithm?",
+        "type": "mcq",
+        "o": [
+            "All-pairs shortest path",
+            "Single source",
+            "MST algorithm",
+            "Cycle detection"
+        ]
+    },
+    {
+        "q": "Floyd-Warshall uses _____ programming.",
+        "type": "fill_blank",
+        "answers": [
+            "dynamic"
+        ],
+        "other_options": [
+            "greedy",
+            "divide",
+            "random"
+        ]
+    },
+    {
+        "q": "Rearrange all-pairs algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Floyd-Warshall",
+            "Johnson's",
+            "n x Dijkstra",
+            "n x Bellman-Ford"
+        ]
+    },
+    {
+        "q": "Floyd-Warshall runs in O(V^3) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Johnson's algorithm?",
+        "type": "mcq",
+        "o": [
+            "All-pairs with reweighting",
+            "Single source only",
+            "MST algorithm",
+            "Cycle detection"
+        ]
+    },
+    {
+        "q": "Johnson's reweights to remove _____ edges.",
+        "type": "fill_blank",
+        "answers": [
+            "negative"
+        ],
+        "other_options": [
+            "positive",
+            "zero",
+            "all"
+        ]
+    },
+    {
+        "q": "Match the algorithm with its graph requirement:",
+        "type": "match",
+        "left": [
+            "Dijkstra",
+            "Bellman-Ford",
+            "Johnson's",
+            "A*"
+        ],
+        "right": [
+            "Non-negative",
+            "Any weights",
+            "No negative cycles",
+            "Admissible heuristic"
+        ]
+    },
+    {
+        "q": "Johnson's is faster than Floyd-Warshall for sparse graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is A* algorithm?",
+        "type": "mcq",
+        "o": [
+            "Heuristic-guided shortest path",
+            "Unguided search",
+            "Random search",
+            "DFS variant"
+        ]
+    },
+    {
+        "q": "A* uses f(n) = g(n) + _____.",
+        "type": "fill_blank",
+        "answers": [
+            "h(n)"
+        ],
+        "other_options": [
+            "f(n)",
+            "n",
+            "0"
+        ]
+    },
+    {
+        "q": "Rearrange search algorithms by optimality:",
+        "type": "rearrange",
+        "words": [
+            "DFS",
+            "BFS",
+            "Dijkstra",
+            "A*"
+        ]
+    },
+    {
+        "q": "A* is optimal with admissible heuristic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an admissible heuristic?",
+        "type": "mcq",
+        "o": [
+            "Never overestimates actual cost",
+            "Always overestimates",
+            "Random value",
+            "Zero always"
+        ]
+    },
+    {
+        "q": "Manhattan distance is admissible for _____ movement.",
+        "type": "fill_blank",
+        "answers": [
+            "grid"
+        ],
+        "other_options": [
+            "free",
+            "diagonal",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the heuristic with its property:",
+        "type": "match",
+        "left": [
+            "Admissible",
+            "Consistent",
+            "Optimistic",
+            "Informed"
+        ],
+        "right": [
+            "Never overestimate",
+            "Triangle inequality",
+            "Underestimate",
+            "Uses domain knowledge"
+        ]
+    },
+    {
+        "q": "IDA* is memory-efficient A* using iterative deepening.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is path compression in practice?",
+        "type": "mcq",
+        "o": [
+            "Making node point directly to root",
+            "Shrinking paths",
+            "Removing edges",
+            "Data compression"
+        ]
+    },
+    {
+        "q": "Path compression flattens the Union-Find _____.",
+        "type": "fill_blank",
+        "answers": [
+            "tree"
+        ],
+        "other_options": [
+            "array",
+            "list",
+            "graph"
+        ]
+    },
+    {
+        "q": "Rearrange Union-Find optimizations:",
+        "type": "rearrange",
+        "words": [
+            "None",
+            "Path compression",
+            "Rank",
+            "Both"
+        ]
+    },
+    {
+        "q": "Union-Find with both optimizations is nearly O(1).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the inverse Ackermann function?",
+        "type": "mcq",
+        "o": [
+            "Very slow growing function",
+            "Fast growing",
+            "Constant function",
+            "Linear function"
+        ]
+    },
+    {
+        "q": "alpha(n) is less than 5 for all practical _____.",
+        "type": "fill_blank",
+        "answers": [
+            "inputs"
+        ],
+        "other_options": [
+            "outputs",
+            "functions",
+            "algorithms"
+        ]
+    },
+    {
+        "q": "Match the amortized complexity with its structure:",
+        "type": "match",
+        "left": [
+            "Union-Find",
+            "Splay tree",
+            "Dynamic array",
+            "Fibonacci heap"
+        ],
+        "right": [
+            "O(alpha)",
+            "O(log n)",
+            "O(1)",
+            "O(1) decrease"
+        ]
+    },
+    {
+        "q": "The Ackermann function grows faster than any polynomial.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SPFA algorithm?",
+        "type": "mcq",
+        "o": [
+            "Shortest Path Faster Algorithm",
+            "Simple Path Finding",
+            "Special Priority Find",
+            "Single Path First"
+        ]
+    },
+    {
+        "q": "SPFA is an optimization of _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Bellman-Ford"
+        ],
+        "other_options": [
+            "Dijkstra",
+            "BFS",
+            "DFS"
+        ]
+    },
+    {
+        "q": "SPFA can be slower than Bellman-Ford in worst case.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is difference constraints?",
+        "type": "mcq",
+        "o": [
+            "System of inequalities solved as shortest path",
+            "Matrix differences",
+            "Constraint programming",
+            "Inequality sorting"
+        ]
+    },
+    {
+        "q": "Difference constraints use _____ path algorithms.",
+        "type": "fill_blank",
+        "answers": [
+            "shortest"
+        ],
+        "other_options": [
+            "longest",
+            "random",
+            "any"
+        ]
+    },
+    {
+        "q": "Rearrange graph-based constraint solutions:",
+        "type": "rearrange",
+        "words": [
+            "Build graph",
+            "Add edges",
+            "Run SSSP",
+            "Read solution"
+        ]
+    },
+    {
+        "q": "Difference constraints detect infeasibility via negative cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is topological sort used for?",
+        "type": "mcq",
+        "o": [
+            "Ordering tasks with dependencies",
+            "Sorting numbers",
+            "Cycle detection only",
+            "Random ordering"
+        ]
+    },
+    {
+        "q": "Topological sort exists only for _____ graphs.",
+        "type": "fill_blank",
+        "answers": [
+            "acyclic"
+        ],
+        "other_options": [
+            "cyclic",
+            "connected",
+            "complete"
+        ]
+    },
+    {
+        "q": "Match the algorithm type with its graph requirement:",
+        "type": "match",
+        "left": [
+            "Topological sort",
+            "MST",
+            "SCC",
+            "Euler path"
+        ],
+        "right": [
+            "DAG",
+            "Connected",
+            "Directed",
+            "At most 2 odd"
+        ]
+    },
+    {
+        "q": "Kahn's algorithm uses zero in-degree queue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Kosaraju's algorithm?",
+        "type": "mcq",
+        "o": [
+            "Two DFS for SCC",
+            "Single DFS SCC",
+            "BFS SCC",
+            "Random SCC"
+        ]
+    },
+    {
+        "q": "Kosaraju's reverses _____ between DFS passes.",
+        "type": "fill_blank",
+        "answers": [
+            "edges"
+        ],
+        "other_options": [
+            "nodes",
+            "order",
+            "values"
+        ]
+    },
+    {
+        "q": "Rearrange SCC algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Kosaraju",
+            "Tarjan",
+            "Gabow",
+            "Path-based"
+        ]
+    },
+    {
+        "q": "Kosaraju's and Tarjan's both run in O(V+E).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a biconnected graph?",
+        "type": "mcq",
+        "o": [
+            "Connected graph with no articulation points",
+            "Connected twice",
+            "Double edges",
+            "Two components"
+        ]
+    },
+    {
+        "q": "Removing any vertex from biconnected keeps it _____.",
+        "type": "fill_blank",
+        "answers": [
+            "connected"
+        ],
+        "other_options": [
+            "biconnected",
+            "complete",
+            "empty"
+        ]
+    },
+    {
+        "q": "Match the connectivity with removal tolerance:",
+        "type": "match",
+        "left": [
+            "Connected",
+            "Biconnected",
+            "Triconnected",
+            "K-connected"
+        ],
+        "right": [
+            "0 vertices",
+            "1 vertex",
+            "2 vertices",
+            "K-1 vertices"
+        ]
+    },
+    {
+        "q": "Edge connectivity is minimum edges to disconnect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a bridge in a graph?",
+        "type": "mcq",
+        "o": [
+            "Edge whose removal disconnects graph",
+            "Connecting edge",
+            "Strong edge",
+            "Central edge"
+        ]
+    },
+    {
+        "q": "Bridge finding uses _____ traversal.",
+        "type": "fill_blank",
+        "answers": [
+            "DFS"
+        ],
+        "other_options": [
+            "BFS",
+            "random",
+            "level"
+        ]
+    },
+    {
+        "q": "Rearrange edge concepts:",
+        "type": "rearrange",
+        "words": [
+            "Normal edge",
+            "Tree edge",
+            "Back edge",
+            "Bridge"
+        ]
+    },
+    {
+        "q": "A tree has n-1 bridges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is edge disjoint path?",
+        "type": "mcq",
+        "o": [
+            "Paths sharing no edges",
+            "No nodes shared",
+            "All edges shared",
+            "Disjoint graphs"
+        ]
+    },
+    {
+        "q": "Max edge-disjoint paths equals max _____.",
+        "type": "fill_blank",
+        "answers": [
+            "flow"
+        ],
+        "other_options": [
+            "cut",
+            "path",
+            "edge"
+        ]
+    },
+    {
+        "q": "Match the disjoint property with its count:",
+        "type": "match",
+        "left": [
+            "Edge-disjoint",
+            "Vertex-disjoint",
+            "Independent",
+            "Max matching"
+        ],
+        "right": [
+            "Max flow",
+            "Special flow",
+            "No adjacency",
+            "Paired vertices"
+        ]
+    },
+    {
+        "q": "Menger's theorem relates paths to cuts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is modular arithmetic in CS?",
+        "type": "mcq",
+        "o": [
+            "Arithmetic with remainders",
+            "Module operations",
+            "Division only",
+            "Exact arithmetic"
+        ]
+    },
+    {
+        "q": "Modular inverse exists when gcd(a, m) = _____.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "a",
+            "m"
+        ]
+    },
+    {
+        "q": "Rearrange modular operations:",
+        "type": "rearrange",
+        "words": [
+            "Addition",
+            "Multiplication",
+            "Power",
+            "Inverse"
+        ]
+    },
+    {
+        "q": "Fermat's little theorem gives modular inverse for prime m.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is extended Euclidean algorithm?",
+        "type": "mcq",
+        "o": [
+            "Finding gcd with coefficients",
+            "Simple gcd",
+            "LCM finder",
+            "Division algorithm"
+        ]
+    },
+    {
+        "q": "Extended Euclidean finds x, y such that ax + by = _____.",
+        "type": "fill_blank",
+        "answers": [
+            "gcd(a,b)"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "ab"
+        ]
+    },
+    {
+        "q": "Match the number theory algorithm with its use:",
+        "type": "match",
+        "left": [
+            "Euclidean",
+            "Extended Euclidean",
+            "Sieve",
+            "Miller-Rabin"
+        ],
+        "right": [
+            "GCD",
+            "Modular inverse",
+            "Prime list",
+            "Primality test"
+        ]
+    },
+    {
+        "q": "Extended Euclidean can compute modular inverse.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Sieve of Eratosthenes?",
+        "type": "mcq",
+        "o": [
+            "Algorithm for finding primes",
+            "Sorting algorithm",
+            "Filtering data",
+            "Graph algorithm"
+        ]
+    },
+    {
+        "q": "Sieve marks multiples of each _____ as composite.",
+        "type": "fill_blank",
+        "answers": [
+            "prime"
+        ],
+        "other_options": [
+            "number",
+            "odd",
+            "even"
+        ]
+    },
+    {
+        "q": "Rearrange prime algorithms:",
+        "type": "rearrange",
+        "words": [
+            "Trial division",
+            "Sieve",
+            "Linear sieve",
+            "Miller-Rabin"
+        ]
+    },
+    {
+        "q": "Linear sieve runs in O(n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is segment sieve?",
+        "type": "mcq",
+        "o": [
+            "Sieve for range not starting at 0",
+            "Segment tree sieve",
+            "Random sieve",
+            "Partial sieve"
+        ]
+    },
+    {
+        "q": "Segment sieve uses primes up to _____ of upper bound.",
+        "type": "fill_blank",
+        "answers": [
+            "sqrt"
+        ],
+        "other_options": [
+            "log",
+            "half",
+            "quarter"
+        ]
+    },
+    {
+        "q": "Match the sieve variant with its purpose:",
+        "type": "match",
+        "left": [
+            "Basic",
+            "Linear",
+            "Segment",
+            "Bitwise"
+        ],
+        "right": [
+            "Simple primes",
+            "Smallest factor",
+            "Range sieve",
+            "Space efficient"
+        ]
+    },
+    {
+        "q": "Segment sieve finds primes in [L, R] using O(sqrt(R)) primes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Chinese Remainder Theorem?",
+        "type": "mcq",
+        "o": [
+            "Solving system of modular equations",
+            "Chinese mathematics",
+            "Remainder calculation",
+            "Division theorem"
+        ]
+    },
+    {
+        "q": "CRT requires _____ coprime moduli.",
+        "type": "fill_blank",
+        "answers": [
+            "pairwise"
+        ],
+        "other_options": [
+            "all",
+            "some",
+            "no"
+        ]
+    },
+    {
+        "q": "CRT solution is unique modulo product of moduli.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is binomial coefficient?",
+        "type": "mcq",
+        "o": [
+            "Number of ways to choose k from n",
+            "Binary operation",
+            "Coefficient of x",
+            "Power calculation"
+        ]
+    },
+    {
+        "q": "C(n,k) equals n! / (k! * (n-k)!)",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "false",
+            "sometimes",
+            "never"
+        ]
+    },
+    {
+        "q": "Rearrange combinatorics concepts:",
+        "type": "rearrange",
+        "words": [
+            "Factorial",
+            "Permutation",
+            "Combination",
+            "Derangement"
+        ]
+    },
+    {
+        "q": "Lucas theorem computes C(n,k) mod p for prime p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is inclusion-exclusion?",
+        "type": "mcq",
+        "o": [
+            "Counting by adding and subtracting overlaps",
+            "Including elements",
+            "Excluding duplicates",
+            "Set operations"
+        ]
+    },
+    {
+        "q": "Inclusion-exclusion alternates _____ and minus signs.",
+        "type": "fill_blank",
+        "answers": [
+            "plus"
+        ],
+        "other_options": [
+            "times",
+            "divide",
+            "power"
+        ]
+    },
+    {
+        "q": "Match the counting technique with its formula:",
+        "type": "match",
+        "left": [
+            "PIE",
+            "Stars and bars",
+            "Burnside",
+            "Polya"
+        ],
+        "right": [
+            "Overlaps",
+            "Non-negative solutions",
+            "Symmetry counting",
+            "Cycle index"
+        ]
+    },
+    {
+        "q": "Inclusion-exclusion has 2^n terms for n sets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Catalan number?",
+        "type": "mcq",
+        "o": [
+            "Count of valid bracket sequences",
+            "Fibonacci variant",
+            "Prime count",
+            "Power of 2"
+        ]
+    },
+    {
+        "q": "n-th Catalan is C(2n,n) / (n+1)",
+        "type": "fill_blank",
+        "answers": [
+            "true"
+        ],
+        "other_options": [
+            "false",
+            "sometimes",
+            "for n>1"
+        ]
+    },
+    {
+        "q": "Rearrange special sequences:",
+        "type": "rearrange",
+        "words": [
+            "Fibonacci",
+            "Catalan",
+            "Stirling",
+            "Bell"
+        ]
+    },
+    {
+        "q": "Catalan numbers count binary trees with n nodes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Stirling number?",
+        "type": "mcq",
+        "o": [
+            "Count of partitions or permutation cycles",
+            "Named number",
+            "Prime count",
+            "Sum of digits"
+        ]
+    },
+    {
+        "q": "S(n,k) first kind counts permutations with k _____.",
+        "type": "fill_blank",
+        "answers": [
+            "cycles"
+        ],
+        "other_options": [
+            "elements",
+            "pairs",
+            "values"
+        ]
+    },
+    {
+        "q": "Match the number with its meaning:",
+        "type": "match",
+        "left": [
+            "Fibonacci",
+            "Catalan",
+            "Stirling 1st",
+            "Stirling 2nd"
+        ],
+        "right": [
+            "Sum recurrence",
+            "Brackets",
+            "Cycles",
+            "Partitions"
+        ]
+    },
+    {
+        "q": "Bell numbers sum Stirling numbers of second kind.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Understanding data structures is essential for efficient programming.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a derangement?",
+        "type": "mcq",
+        "o": [
+            "Permutation with no fixed points",
+            "Random arrangement",
+            "Sorted order",
+            "Reversed order"
+        ]
+    },
+    {
+        "q": "D(n) is approximately n! / _____.",
+        "type": "fill_blank",
+        "answers": [
+            "e"
+        ],
+        "other_options": [
+            "2",
+            "n",
+            "pi"
+        ]
+    },
+    {
+        "q": "Match the counting formula with its problem:",
+        "type": "match",
+        "left": [
+            "n!",
+            "C(n,k)",
+            "D(n)",
+            "P(n,k)"
+        ],
+        "right": [
+            "Permutations",
+            "Combinations",
+            "Derangements",
+            "k-permutations"
+        ]
+    },
+    {
+        "q": "What is generating function?",
+        "type": "mcq",
+        "o": [
+            "Power series encoding sequence",
+            "Random generator",
+            "Function generator",
+            "Power generator"
+        ]
+    },
+    {
+        "q": "Choosing the right data structure is key to algorithm efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

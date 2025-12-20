@@ -1,0 +1,6583 @@
+[
+    {
+        "q": "What is chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Application of chemistry and physics to transform materials",
+            "Only studying chemical reactions",
+            "Building chemicals",
+            "Testing materials"
+        ]
+    },
+    {
+        "q": "The main goal of chemical engineering is to ______ raw materials into useful products.",
+        "type": "fill_blank",
+        "answers": [
+            "transform"
+        ],
+        "other_options": [
+            "store",
+            "collect",
+            "display"
+        ]
+    },
+    {
+        "q": "Chemical engineers design processes for manufacturing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a unit operation?",
+        "type": "mcq",
+        "o": [
+            "Basic step in a chemical process",
+            "Complete factory",
+            "Product packaging",
+            "Safety inspection"
+        ]
+    },
+    {
+        "q": "Match the unit operation with its function:",
+        "type": "match",
+        "left": [
+            "Distillation",
+            "Filtration",
+            "Mixing",
+            "Drying"
+        ],
+        "right": [
+            "Separation by boiling point",
+            "Solid-liquid separation",
+            "Combining materials",
+            "Removing moisture"
+        ]
+    },
+    {
+        "q": "Rearrange the chemical process development stages:",
+        "type": "rearrange",
+        "words": [
+            "Research",
+            "Pilot plant",
+            "Scale-up",
+            "Production"
+        ]
+    },
+    {
+        "q": "What is mass balance?",
+        "type": "mcq",
+        "o": [
+            "Conservation of mass in a system",
+            "Weight of equipment",
+            "Density measurement",
+            "Volume calculation"
+        ]
+    },
+    {
+        "q": "Mass in equals mass ______ plus accumulation.",
+        "type": "fill_blank",
+        "answers": [
+            "out"
+        ],
+        "other_options": [
+            "stored",
+            "lost",
+            "converted"
+        ]
+    },
+    {
+        "q": "Match the balance type with what it tracks:",
+        "type": "match",
+        "left": [
+            "Mass balance",
+            "Energy balance",
+            "Momentum balance",
+            "Component balance"
+        ],
+        "right": [
+            "Total material",
+            "Heat and work",
+            "Force and motion",
+            "Individual species"
+        ]
+    },
+    {
+        "q": "Steady state means no accumulation over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is energy balance?",
+        "type": "mcq",
+        "o": [
+            "Conservation of energy in a system",
+            "Electricity usage",
+            "Fuel consumption",
+            "Power generation"
+        ]
+    },
+    {
+        "q": "Rearrange the forms of energy:",
+        "type": "rearrange",
+        "words": [
+            "Kinetic",
+            "Potential",
+            "Internal",
+            "Work"
+        ]
+    },
+    {
+        "q": "Heat transfer occurs from ______ to cold.",
+        "type": "fill_blank",
+        "answers": [
+            "hot"
+        ],
+        "other_options": [
+            "fast",
+            "large",
+            "dense"
+        ]
+    },
+    {
+        "q": "What is enthalpy?",
+        "type": "mcq",
+        "o": [
+            "Heat content at constant pressure",
+            "Volume of gas",
+            "Density of liquid",
+            "Temperature change"
+        ]
+    },
+    {
+        "q": "Exothermic reactions ______ heat.",
+        "type": "fill_blank",
+        "answers": [
+            "release"
+        ],
+        "other_options": [
+            "absorb",
+            "store",
+            "reflect"
+        ]
+    },
+    {
+        "q": "Endothermic reactions absorb heat from surroundings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a heat exchanger?",
+        "type": "mcq",
+        "o": [
+            "Device to transfer heat between fluids",
+            "Heating element",
+            "Cooling fan",
+            "Temperature sensor"
+        ]
+    },
+    {
+        "q": "Match the heat exchanger type with its configuration:",
+        "type": "match",
+        "left": [
+            "Shell and tube",
+            "Plate",
+            "Double pipe",
+            "Air cooled"
+        ],
+        "right": [
+            "Tubes in shell",
+            "Stacked plates",
+            "Pipe within pipe",
+            "Ambient cooling"
+        ]
+    },
+    {
+        "q": "Rearrange heat transfer mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Combined"
+        ]
+    },
+    {
+        "q": "What is thermal conductivity?",
+        "type": "mcq",
+        "o": [
+            "Material ability to conduct heat",
+            "Heat capacity",
+            "Temperature limit",
+            "Expansion rate"
+        ]
+    },
+    {
+        "q": "Convection involves heat transfer by ______ movement.",
+        "type": "fill_blank",
+        "answers": [
+            "fluid"
+        ],
+        "other_options": [
+            "solid",
+            "vacuum",
+            "radiation"
+        ]
+    },
+    {
+        "q": "Metals are generally good thermal conductors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Fourier's law?",
+        "type": "mcq",
+        "o": [
+            "Heat conduction rate equation",
+            "Gas law",
+            "Chemical kinetics",
+            "Fluid flow"
+        ]
+    },
+    {
+        "q": "Match the insulation material with its application:",
+        "type": "match",
+        "left": [
+            "Fiberglass",
+            "Mineral wool",
+            "Foam",
+            "Ceramic"
+        ],
+        "right": [
+            "Pipe insulation",
+            "High temperature",
+            "Refrigeration",
+            "Furnaces"
+        ]
+    },
+    {
+        "q": "Rearrange distillation column components from bottom:",
+        "type": "rearrange",
+        "words": [
+            "Reboiler",
+            "Trays",
+            "Condenser",
+            "Reflux drum"
+        ]
+    },
+    {
+        "q": "What is distillation?",
+        "type": "mcq",
+        "o": [
+            "Separation based on boiling point differences",
+            "Mixing liquids",
+            "Dissolving solids",
+            "Filtering particles"
+        ]
+    },
+    {
+        "q": "The more volatile component goes to the ______ of the column.",
+        "type": "fill_blank",
+        "answers": [
+            "top"
+        ],
+        "other_options": [
+            "bottom",
+            "middle",
+            "side"
+        ]
+    },
+    {
+        "q": "Match the distillation term with its meaning:",
+        "type": "match",
+        "left": [
+            "Reflux",
+            "Distillate",
+            "Bottoms",
+            "Feed"
+        ],
+        "right": [
+            "Returned liquid",
+            "Top product",
+            "Bottom product",
+            "Input stream"
+        ]
+    },
+    {
+        "q": "Reflux ratio affects separation efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of trays in distillation?",
+        "type": "mcq",
+        "o": [
+            "Provide contact between vapor and liquid",
+            "Store liquid",
+            "Cool vapor",
+            "Heat liquid"
+        ]
+    },
+    {
+        "q": "Rearrange the absorption process steps:",
+        "type": "rearrange",
+        "words": [
+            "Gas contact",
+            "Solvent absorption",
+            "Loaded solvent",
+            "Regeneration"
+        ]
+    },
+    {
+        "q": "What is absorption in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Gas dissolving into liquid",
+            "Liquid evaporating",
+            "Solid melting",
+            "Gas expanding"
+        ]
+    },
+    {
+        "q": "Stripping is the ______ of absorption.",
+        "type": "fill_blank",
+        "answers": [
+            "reverse"
+        ],
+        "other_options": [
+            "same",
+            "half",
+            "double"
+        ]
+    },
+    {
+        "q": "Match the separation process with its driving force:",
+        "type": "match",
+        "left": [
+            "Distillation",
+            "Absorption",
+            "Extraction",
+            "Crystallization"
+        ],
+        "right": [
+            "Vapor pressure",
+            "Solubility in liquid",
+            "Solvent selectivity",
+            "Supersaturation"
+        ]
+    },
+    {
+        "q": "Henry's law relates gas solubility to partial pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is extraction?",
+        "type": "mcq",
+        "o": [
+            "Separation using selective solvents",
+            "Heating mixture",
+            "Cooling mixture",
+            "Compressing gas"
+        ]
+    },
+    {
+        "q": "Rearrange the liquid-liquid extraction steps:",
+        "type": "rearrange",
+        "words": [
+            "Mixing",
+            "Settling",
+            "Separation",
+            "Solvent recovery"
+        ]
+    },
+    {
+        "q": "What is the distribution coefficient?",
+        "type": "mcq",
+        "o": [
+            "Ratio of solute concentration in two phases",
+            "Temperature ratio",
+            "Pressure ratio",
+            "Volume ratio"
+        ]
+    },
+    {
+        "q": "Countercurrent extraction is more ______ than cocurrent.",
+        "type": "fill_blank",
+        "answers": [
+            "efficient"
+        ],
+        "other_options": [
+            "expensive",
+            "complex",
+            "faster"
+        ]
+    },
+    {
+        "q": "Match the extraction equipment with its type:",
+        "type": "match",
+        "left": [
+            "Mixer-settler",
+            "Spray column",
+            "Pulsed column",
+            "Centrifugal extractor"
+        ],
+        "right": [
+            "Staged mixing",
+            "Simple contact",
+            "Enhanced mixing",
+            "High-speed separation"
+        ]
+    },
+    {
+        "q": "Supercritical extraction uses CO2 above its critical point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is crystallization?",
+        "type": "mcq",
+        "o": [
+            "Forming solid crystals from solution",
+            "Dissolving solids",
+            "Melting crystals",
+            "Evaporating liquid"
+        ]
+    },
+    {
+        "q": "Rearrange crystallization steps:",
+        "type": "rearrange",
+        "words": [
+            "Supersaturation",
+            "Nucleation",
+            "Crystal growth",
+            "Harvesting"
+        ]
+    },
+    {
+        "q": "What is supersaturation?",
+        "type": "mcq",
+        "o": [
+            "Solution containing more solute than equilibrium",
+            "Dilute solution",
+            "Saturated solution",
+            "Undersaturated solution"
+        ]
+    },
+    {
+        "q": "Seeding introduces ______ to start crystallization.",
+        "type": "fill_blank",
+        "answers": [
+            "nuclei"
+        ],
+        "other_options": [
+            "liquid",
+            "heat",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Match the crystallizer type with its method:",
+        "type": "match",
+        "left": [
+            "Cooling",
+            "Evaporating",
+            "Vacuum",
+            "Reaction"
+        ],
+        "right": [
+            "Temperature reduction",
+            "Solvent removal",
+            "Pressure reduction",
+            "Chemical precipitation"
+        ]
+    },
+    {
+        "q": "Crystal size distribution affects product quality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is filtration?",
+        "type": "mcq",
+        "o": [
+            "Separation of solids from fluids using a barrier",
+            "Mixing materials",
+            "Heating liquids",
+            "Compressing gases"
+        ]
+    },
+    {
+        "q": "Rearrange filter types by particle size:",
+        "type": "rearrange",
+        "words": [
+            "Microfiltration",
+            "Ultrafiltration",
+            "Nanofiltration",
+            "Reverse osmosis"
+        ]
+    },
+    {
+        "q": "What is a filter cake?",
+        "type": "mcq",
+        "o": [
+            "Accumulated solids on filter medium",
+            "Clean product",
+            "Filtered liquid",
+            "Filter housing"
+        ]
+    },
+    {
+        "q": "Pressure drop across filter ______ as cake builds.",
+        "type": "fill_blank",
+        "answers": [
+            "increases"
+        ],
+        "other_options": [
+            "decreases",
+            "stays same",
+            "fluctuates"
+        ]
+    },
+    {
+        "q": "Match the filter type with its application:",
+        "type": "match",
+        "left": [
+            "Plate and frame",
+            "Rotary drum",
+            "Belt filter",
+            "Bag filter"
+        ],
+        "right": [
+            "Batch operation",
+            "Continuous wet",
+            "Continuous dewatering",
+            "Gas cleaning"
+        ]
+    },
+    {
+        "q": "Vacuum filtration uses pressure difference to drive flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is centrifugation?",
+        "type": "mcq",
+        "o": [
+            "Separation using centrifugal force",
+            "Gravity settling",
+            "Magnetic separation",
+            "Electrical separation"
+        ]
+    },
+    {
+        "q": "Rearrange centrifuge components:",
+        "type": "rearrange",
+        "words": [
+            "Bowl",
+            "Rotor",
+            "Motor",
+            "Housing"
+        ]
+    },
+    {
+        "q": "What is the purpose of a decanter centrifuge?",
+        "type": "mcq",
+        "o": [
+            "Continuous solid-liquid separation",
+            "Batch mixing",
+            "Gas compression",
+            "Heat exchange"
+        ]
+    },
+    {
+        "q": "Higher speed increases ______ force in centrifuge.",
+        "type": "fill_blank",
+        "answers": [
+            "centrifugal"
+        ],
+        "other_options": [
+            "gravitational",
+            "magnetic",
+            "electrical"
+        ]
+    },
+    {
+        "q": "Match the centrifuge type with its use:",
+        "type": "match",
+        "left": [
+            "Disk stack",
+            "Tubular bowl",
+            "Peeler",
+            "Pusher"
+        ],
+        "right": [
+            "Liquid-liquid separation",
+            "High-speed clarification",
+            "Batch crystals",
+            "Continuous crystals"
+        ]
+    },
+    {
+        "q": "Centrifuge separation is faster than gravity settling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is drying in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Removing moisture from materials",
+            "Adding water",
+            "Cooling materials",
+            "Compressing materials"
+        ]
+    },
+    {
+        "q": "Rearrange drying periods:",
+        "type": "rearrange",
+        "words": [
+            "Initial adjustment",
+            "Constant rate",
+            "Falling rate",
+            "Equilibrium"
+        ]
+    },
+    {
+        "q": "What is the critical moisture content?",
+        "type": "mcq",
+        "o": [
+            "Point where drying rate begins to decrease",
+            "Zero moisture",
+            "Maximum moisture",
+            "Average moisture"
+        ]
+    },
+    {
+        "q": "Hot air drying uses ______ to evaporate moisture.",
+        "type": "fill_blank",
+        "answers": [
+            "heat"
+        ],
+        "other_options": [
+            "cold",
+            "pressure",
+            "vacuum"
+        ]
+    },
+    {
+        "q": "Match the dryer type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Tray dryer",
+            "Rotary dryer",
+            "Spray dryer",
+            "Freeze dryer"
+        ],
+        "right": [
+            "Batch trays",
+            "Rotating cylinder",
+            "Atomized droplets",
+            "Sublimation"
+        ]
+    },
+    {
+        "q": "Freeze drying preserves heat-sensitive materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is evaporation?",
+        "type": "mcq",
+        "o": [
+            "Concentrating solution by removing solvent",
+            "Diluting solution",
+            "Mixing solutions",
+            "Freezing solution"
+        ]
+    },
+    {
+        "q": "Rearrange evaporator types by efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Single effect",
+            "Multiple effect",
+            "MVR",
+            "TVR"
+        ]
+    },
+    {
+        "q": "What is multiple effect evaporation?",
+        "type": "mcq",
+        "o": [
+            "Using vapor from one effect to heat another",
+            "Single stage evaporation",
+            "Direct heating",
+            "Cooling evaporation"
+        ]
+    },
+    {
+        "q": "Steam economy improves with more ______.",
+        "type": "fill_blank",
+        "answers": [
+            "effects"
+        ],
+        "other_options": [
+            "heat",
+            "pressure",
+            "flow"
+        ]
+    },
+    {
+        "q": "Match the evaporator type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Rising film",
+            "Falling film",
+            "Forced circulation",
+            "Wiped film"
+        ],
+        "right": [
+            "Natural circulation up",
+            "Thin film down",
+            "Pump circulation",
+            "Scraped surface"
+        ]
+    },
+    {
+        "q": "Vacuum evaporation operates at lower temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a reactor in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Vessel where chemical reactions occur",
+            "Storage tank",
+            "Pump",
+            "Heat exchanger"
+        ]
+    },
+    {
+        "q": "Rearrange reactor types by flow pattern:",
+        "type": "rearrange",
+        "words": [
+            "Batch",
+            "CSTR",
+            "PFR",
+            "Packed bed"
+        ]
+    },
+    {
+        "q": "What is a batch reactor?",
+        "type": "mcq",
+        "o": [
+            "Reactor with no flow during reaction",
+            "Continuous flow reactor",
+            "Partially filled reactor",
+            "Open reactor"
+        ]
+    },
+    {
+        "q": "CSTR stands for Continuous Stirred Tank ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Reactor"
+        ],
+        "other_options": [
+            "Reservoir",
+            "Regulator",
+            "Rotator"
+        ]
+    },
+    {
+        "q": "Match the reactor type with its mixing:",
+        "type": "match",
+        "left": [
+            "CSTR",
+            "PFR",
+            "Batch",
+            "Fluidized bed"
+        ],
+        "right": [
+            "Well mixed",
+            "Plug flow",
+            "Time dependent",
+            "Solid suspension"
+        ]
+    },
+    {
+        "q": "Plug flow reactor has no mixing in flow direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is residence time?",
+        "type": "mcq",
+        "o": [
+            "Average time material spends in reactor",
+            "Reaction time",
+            "Startup time",
+            "Shutdown time"
+        ]
+    },
+    {
+        "q": "Rearrange reaction kinetics terms:",
+        "type": "rearrange",
+        "words": [
+            "Rate constant",
+            "Concentration",
+            "Order",
+            "Rate"
+        ]
+    },
+    {
+        "q": "What is reaction order?",
+        "type": "mcq",
+        "o": [
+            "Power to which concentration is raised in rate equation",
+            "Sequence of reactions",
+            "Number of products",
+            "Reaction speed"
+        ]
+    },
+    {
+        "q": "First order reaction rate is proportional to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "concentration"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "volume"
+        ]
+    },
+    {
+        "q": "Match the reaction order with its half-life dependency:",
+        "type": "match",
+        "left": [
+            "Zero order",
+            "First order",
+            "Second order"
+        ],
+        "right": [
+            "Depends on initial concentration",
+            "Independent of concentration",
+            "Inversely proportional to concentration"
+        ]
+    },
+    {
+        "q": "Catalyst increases reaction rate without being consumed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is activation energy?",
+        "type": "mcq",
+        "o": [
+            "Minimum energy needed for reaction to occur",
+            "Heat of reaction",
+            "Energy released",
+            "Kinetic energy"
+        ]
+    },
+    {
+        "q": "Rearrange Arrhenius equation components:",
+        "type": "rearrange",
+        "words": [
+            "Pre-exponential factor",
+            "Activation energy",
+            "Temperature",
+            "Gas constant"
+        ]
+    },
+    {
+        "q": "What does the Arrhenius equation describe?",
+        "type": "mcq",
+        "o": [
+            "Temperature dependence of rate constant",
+            "Pressure effect on reaction",
+            "Concentration changes",
+            "Volume changes"
+        ]
+    },
+    {
+        "q": "Higher temperature generally ______ reaction rate.",
+        "type": "fill_blank",
+        "answers": [
+            "increases"
+        ],
+        "other_options": [
+            "decreases",
+            "maintains",
+            "stops"
+        ]
+    },
+    {
+        "q": "Match the catalyst type with its phase:",
+        "type": "match",
+        "left": [
+            "Homogeneous",
+            "Heterogeneous",
+            "Enzyme",
+            "Photo"
+        ],
+        "right": [
+            "Same phase",
+            "Different phase",
+            "Biological",
+            "Light activated"
+        ]
+    },
+    {
+        "q": "Enzymes are highly selective biological catalysts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a packed bed reactor?",
+        "type": "mcq",
+        "o": [
+            "Tube filled with catalyst particles",
+            "Empty tube",
+            "Stirred tank",
+            "Spray column"
+        ]
+    },
+    {
+        "q": "Rearrange fluid mechanics concepts:",
+        "type": "rearrange",
+        "words": [
+            "Viscosity",
+            "Density",
+            "Flow rate",
+            "Pressure drop"
+        ]
+    },
+    {
+        "q": "What is viscosity?",
+        "type": "mcq",
+        "o": [
+            "Resistance to flow",
+            "Fluid density",
+            "Flow speed",
+            "Pressure"
+        ]
+    },
+    {
+        "q": "Reynolds number indicates flow ______.",
+        "type": "fill_blank",
+        "answers": [
+            "regime"
+        ],
+        "other_options": [
+            "speed",
+            "pressure",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the flow regime with Reynolds number:",
+        "type": "match",
+        "left": [
+            "Laminar",
+            "Transition",
+            "Turbulent"
+        ],
+        "right": [
+            "Re less than 2100",
+            "Re 2100 to 4000",
+            "Re greater than 4000"
+        ]
+    },
+    {
+        "q": "Turbulent flow has random fluctuating eddies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Bernoulli's equation used for?",
+        "type": "mcq",
+        "o": [
+            "Relating pressure, velocity, and elevation in fluid flow",
+            "Calculating viscosity",
+            "Measuring density",
+            "Determining temperature"
+        ]
+    },
+    {
+        "q": "Rearrange pump types:",
+        "type": "rearrange",
+        "words": [
+            "Centrifugal",
+            "Positive displacement",
+            "Axial",
+            "Mixed flow"
+        ]
+    },
+    {
+        "q": "What is a centrifugal pump?",
+        "type": "mcq",
+        "o": [
+            "Pump using rotating impeller to move fluid",
+            "Reciprocating pump",
+            "Gear pump",
+            "Screw pump"
+        ]
+    },
+    {
+        "q": "Pump head is energy transferred to ______ per unit weight.",
+        "type": "fill_blank",
+        "answers": [
+            "fluid"
+        ],
+        "other_options": [
+            "shaft",
+            "motor",
+            "pipe"
+        ]
+    },
+    {
+        "q": "Match the pump characteristic with its meaning:",
+        "type": "match",
+        "left": [
+            "Flow rate",
+            "Head",
+            "Efficiency",
+            "NPSH"
+        ],
+        "right": [
+            "Volume per time",
+            "Pressure capability",
+            "Power ratio",
+            "Suction requirement"
+        ]
+    },
+    {
+        "q": "NPSH prevents pump cavitation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cavitation?",
+        "type": "mcq",
+        "o": [
+            "Vapor bubble formation and collapse in pump",
+            "Normal operation",
+            "High pressure",
+            "Good suction"
+        ]
+    },
+    {
+        "q": "Rearrange compressor types by pressure ratio:",
+        "type": "rearrange",
+        "words": [
+            "Fan",
+            "Blower",
+            "Compressor",
+            "Vacuum pump"
+        ]
+    },
+    {
+        "q": "What is the purpose of a compressor?",
+        "type": "mcq",
+        "o": [
+            "Increase gas pressure",
+            "Decrease pressure",
+            "Move liquid",
+            "Heat gas"
+        ]
+    },
+    {
+        "q": "Reciprocating compressors use ______ motion.",
+        "type": "fill_blank",
+        "answers": [
+            "piston"
+        ],
+        "other_options": [
+            "rotary",
+            "screw",
+            "scroll"
+        ]
+    },
+    {
+        "q": "Match the compressor type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Centrifugal",
+            "Reciprocating",
+            "Screw",
+            "Scroll"
+        ],
+        "right": [
+            "Impeller",
+            "Piston",
+            "Twin rotors",
+            "Spiral elements"
+        ]
+    },
+    {
+        "q": "Intercooling reduces work in multi-stage compression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a valve in process equipment?",
+        "type": "mcq",
+        "o": [
+            "Device to control flow",
+            "Storage vessel",
+            "Heat exchanger",
+            "Reactor"
+        ]
+    },
+    {
+        "q": "Rearrange valve types by function:",
+        "type": "rearrange",
+        "words": [
+            "Isolation",
+            "Throttling",
+            "Check",
+            "Relief"
+        ]
+    },
+    {
+        "q": "What is a control valve?",
+        "type": "mcq",
+        "o": [
+            "Valve that regulates flow based on signal",
+            "Manual valve only",
+            "Check valve",
+            "Safety valve"
+        ]
+    },
+    {
+        "q": "Globe valves are good for ______ service.",
+        "type": "fill_blank",
+        "answers": [
+            "throttling"
+        ],
+        "other_options": [
+            "isolation",
+            "check",
+            "relief"
+        ]
+    },
+    {
+        "q": "Match the valve type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Gate",
+            "Globe",
+            "Ball",
+            "Butterfly"
+        ],
+        "right": [
+            "Full open or closed",
+            "Good throttling",
+            "Quick acting",
+            "Light duty"
+        ]
+    },
+    {
+        "q": "Check valves prevent reverse flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process instrumentation?",
+        "type": "mcq",
+        "o": [
+            "Devices for measuring and controlling process variables",
+            "Chemical analysis",
+            "Product testing",
+            "Equipment maintenance"
+        ]
+    },
+    {
+        "q": "Rearrange control system components:",
+        "type": "rearrange",
+        "words": [
+            "Sensor",
+            "Controller",
+            "Final element",
+            "Process"
+        ]
+    },
+    {
+        "q": "What is PID control?",
+        "type": "mcq",
+        "o": [
+            "Proportional-Integral-Derivative control algorithm",
+            "Pressure indicator device",
+            "Process input detector",
+            "Pipe inspection device"
+        ]
+    },
+    {
+        "q": "The setpoint is the ______ value for control.",
+        "type": "fill_blank",
+        "answers": [
+            "desired"
+        ],
+        "other_options": [
+            "actual",
+            "maximum",
+            "minimum"
+        ]
+    },
+    {
+        "q": "Match the control action with its effect:",
+        "type": "match",
+        "left": [
+            "Proportional",
+            "Integral",
+            "Derivative"
+        ],
+        "right": [
+            "Responds to error magnitude",
+            "Eliminates offset",
+            "Responds to rate of change"
+        ]
+    },
+    {
+        "q": "Feedback control uses measured output to adjust input.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a thermocouple?",
+        "type": "mcq",
+        "o": [
+            "Temperature sensor using two different metals",
+            "Pressure sensor",
+            "Flow meter",
+            "Level sensor"
+        ]
+    },
+    {
+        "q": "Rearrange flowmeter types by principle:",
+        "type": "rearrange",
+        "words": [
+            "Orifice",
+            "Turbine",
+            "Magnetic",
+            "Coriolis"
+        ]
+    },
+    {
+        "q": "What is an orifice plate?",
+        "type": "mcq",
+        "o": [
+            "Flow restriction creating pressure drop for measurement",
+            "Valve type",
+            "Filter element",
+            "Pump component"
+        ]
+    },
+    {
+        "q": "Coriolis meters measure both flow and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "density"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "viscosity"
+        ]
+    },
+    {
+        "q": "Match the sensor with what it measures:",
+        "type": "match",
+        "left": [
+            "RTD",
+            "Pressure transducer",
+            "Level transmitter",
+            "pH probe"
+        ],
+        "right": [
+            "Temperature",
+            "Pressure",
+            "Liquid level",
+            "Acidity"
+        ]
+    },
+    {
+        "q": "DCS stands for Distributed Control System.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SCADA?",
+        "type": "mcq",
+        "o": [
+            "Supervisory Control and Data Acquisition",
+            "Standard Control and Data Analysis",
+            "System Configuration and Data Access",
+            "Safety Control and Device Automation"
+        ]
+    },
+    {
+        "q": "Rearrange safety system hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Process design",
+            "Basic process control",
+            "Safety instrumented system",
+            "Physical protection"
+        ]
+    },
+    {
+        "q": "What is a safety instrumented system?",
+        "type": "mcq",
+        "o": [
+            "System designed to bring process to safe state",
+            "Normal control system",
+            "Data logging system",
+            "Communication system"
+        ]
+    },
+    {
+        "q": "SIL stands for Safety Integrity ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Level"
+        ],
+        "other_options": [
+            "Limit",
+            "Layer",
+            "Logic"
+        ]
+    },
+    {
+        "q": "Match the SIL level with its risk reduction:",
+        "type": "match",
+        "left": [
+            "SIL 1",
+            "SIL 2",
+            "SIL 3",
+            "SIL 4"
+        ],
+        "right": [
+            "10 to 100",
+            "100 to 1000",
+            "1000 to 10000",
+            "10000 to 100000"
+        ]
+    },
+    {
+        "q": "Relief valves protect equipment from overpressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is HAZOP?",
+        "type": "mcq",
+        "o": [
+            "Hazard and Operability study",
+            "High Alarm Zone Operation",
+            "Heat And Zero Operating Pressure",
+            "Hazardous Air Zone Optimization"
+        ]
+    },
+    {
+        "q": "Rearrange HAZOP study steps:",
+        "type": "rearrange",
+        "words": [
+            "Define scope",
+            "Apply guide words",
+            "Identify consequences",
+            "Recommend actions"
+        ]
+    },
+    {
+        "q": "What are guide words in HAZOP?",
+        "type": "mcq",
+        "o": [
+            "Words like NO, MORE, LESS to explore deviations",
+            "Safety procedures",
+            "Equipment names",
+            "Chemical formulas"
+        ]
+    },
+    {
+        "q": "LOPA stands for Layer of Protection ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Analysis"
+        ],
+        "other_options": [
+            "Assessment",
+            "Audit",
+            "Application"
+        ]
+    },
+    {
+        "q": "Match the hazard study with its stage:",
+        "type": "match",
+        "left": [
+            "HAZID",
+            "HAZOP",
+            "SIL assessment",
+            "Bow-tie"
+        ],
+        "right": [
+            "Early design",
+            "Detailed design",
+            "Safety system",
+            "Barrier analysis"
+        ]
+    },
+    {
+        "q": "Inherently safer design eliminates hazards rather than controlling them.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is material balance in process design?",
+        "type": "mcq",
+        "o": [
+            "Accounting for all mass entering and leaving system",
+            "Equipment weight",
+            "Structural load",
+            "Chemical formula"
+        ]
+    },
+    {
+        "q": "Rearrange process design stages:",
+        "type": "rearrange",
+        "words": [
+            "Conceptual",
+            "Basic engineering",
+            "Detailed engineering",
+            "Construction"
+        ]
+    },
+    {
+        "q": "What is a P and ID?",
+        "type": "mcq",
+        "o": [
+            "Piping and Instrumentation Diagram",
+            "Process and Input Document",
+            "Pressure and Indicator Data",
+            "Plant and Installation Description"
+        ]
+    },
+    {
+        "q": "PFD shows process ______ and major equipment.",
+        "type": "fill_blank",
+        "answers": [
+            "flow"
+        ],
+        "other_options": [
+            "details",
+            "controls",
+            "safety"
+        ]
+    },
+    {
+        "q": "Match the engineering document with its content:",
+        "type": "match",
+        "left": [
+            "PFD",
+            "P&ID",
+            "Equipment datasheet",
+            "Isometric"
+        ],
+        "right": [
+            "Process overview",
+            "Detailed piping and instruments",
+            "Equipment specifications",
+            "3D pipe routing"
+        ]
+    },
+    {
+        "q": "Equipment sizing determines vessel dimensions and capacity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process simulation?",
+        "type": "mcq",
+        "o": [
+            "Computer modeling of chemical processes",
+            "Physical testing",
+            "Manual calculation",
+            "Laboratory experiment"
+        ]
+    },
+    {
+        "q": "Rearrange thermodynamic property methods:",
+        "type": "rearrange",
+        "words": [
+            "Ideal gas",
+            "Cubic EOS",
+            "Activity coefficient",
+            "Molecular simulation"
+        ]
+    },
+    {
+        "q": "What is an equation of state?",
+        "type": "mcq",
+        "o": [
+            "Mathematical relation between P, V, T and composition",
+            "Material balance",
+            "Energy balance",
+            "Rate equation"
+        ]
+    },
+    {
+        "q": "NRTL is an activity coefficient ______.",
+        "type": "fill_blank",
+        "answers": [
+            "model"
+        ],
+        "other_options": [
+            "number",
+            "constant",
+            "variable"
+        ]
+    },
+    {
+        "q": "Match the property method with its application:",
+        "type": "match",
+        "left": [
+            "Ideal",
+            "Peng-Robinson",
+            "NRTL",
+            "UNIFAC"
+        ],
+        "right": [
+            "Low pressure gas",
+            "Hydrocarbon systems",
+            "Non-ideal liquids",
+            "Group contribution"
+        ]
+    },
+    {
+        "q": "Process simulators calculate mass and energy balances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process optimization?",
+        "type": "mcq",
+        "o": [
+            "Finding best operating conditions",
+            "Starting process",
+            "Stopping process",
+            "Basic operation"
+        ]
+    },
+    {
+        "q": "Rearrange chemical plant sections:",
+        "type": "rearrange",
+        "words": [
+            "Feed preparation",
+            "Reaction",
+            "Separation",
+            "Product handling"
+        ]
+    },
+    {
+        "q": "What is yield in chemical processes?",
+        "type": "mcq",
+        "o": [
+            "Amount of desired product formed from reactants",
+            "Total production",
+            "Plant capacity",
+            "Equipment size"
+        ]
+    },
+    {
+        "q": "Selectivity is ratio of desired to ______ products.",
+        "type": "fill_blank",
+        "answers": [
+            "undesired"
+        ],
+        "other_options": [
+            "total",
+            "input",
+            "feed"
+        ]
+    },
+    {
+        "q": "Match the process parameter with its optimization goal:",
+        "type": "match",
+        "left": [
+            "Conversion",
+            "Yield",
+            "Selectivity",
+            "Purity"
+        ],
+        "right": [
+            "Maximize reactant usage",
+            "Maximize product formation",
+            "Minimize byproducts",
+            "Meet specifications"
+        ]
+    },
+    {
+        "q": "Energy integration reduces utility costs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pinch analysis?",
+        "type": "mcq",
+        "o": [
+            "Method to optimize heat recovery in process",
+            "Pipe sizing method",
+            "Control tuning",
+            "Safety analysis"
+        ]
+    },
+    {
+        "q": "Rearrange environmental treatment methods:",
+        "type": "rearrange",
+        "words": [
+            "Source reduction",
+            "Treatment",
+            "Recycling",
+            "Disposal"
+        ]
+    },
+    {
+        "q": "What is waste minimization?",
+        "type": "mcq",
+        "o": [
+            "Reducing waste generation at source",
+            "End of pipe treatment",
+            "Waste storage",
+            "Waste transportation"
+        ]
+    },
+    {
+        "q": "Green chemistry aims to reduce ______ impact of processes.",
+        "type": "fill_blank",
+        "answers": [
+            "environmental"
+        ],
+        "other_options": [
+            "economic",
+            "social",
+            "political"
+        ]
+    },
+    {
+        "q": "Match the emission type with its treatment:",
+        "type": "match",
+        "left": [
+            "VOC",
+            "Particulate",
+            "SO2",
+            "NOx"
+        ],
+        "right": [
+            "Oxidation",
+            "Filtration",
+            "Scrubbing",
+            "SCR"
+        ]
+    },
+    {
+        "q": "Life cycle assessment evaluates environmental impact from cradle to grave.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a bioprocess?",
+        "type": "mcq",
+        "o": [
+            "Process using biological systems",
+            "Only chemical reactions",
+            "Physical separation",
+            "Mechanical processing"
+        ]
+    },
+    {
+        "q": "Rearrange fermentation stages:",
+        "type": "rearrange",
+        "words": [
+            "Inoculum preparation",
+            "Fermentation",
+            "Harvesting",
+            "Purification"
+        ]
+    },
+    {
+        "q": "What is a bioreactor?",
+        "type": "mcq",
+        "o": [
+            "Vessel for biological reactions",
+            "Chemical reactor only",
+            "Storage tank",
+            "Heat exchanger"
+        ]
+    },
+    {
+        "q": "Sterilization is critical to prevent ______.",
+        "type": "fill_blank",
+        "answers": [
+            "contamination"
+        ],
+        "other_options": [
+            "heating",
+            "cooling",
+            "mixing"
+        ]
+    },
+    {
+        "q": "Match the bioprocess product with its source:",
+        "type": "match",
+        "left": [
+            "Ethanol",
+            "Antibiotics",
+            "Enzymes",
+            "Proteins"
+        ],
+        "right": [
+            "Yeast fermentation",
+            "Fungal fermentation",
+            "Microbial production",
+            "Recombinant expression"
+        ]
+    },
+    {
+        "q": "Downstream processing purifies bioproducts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is polymer processing?",
+        "type": "mcq",
+        "o": [
+            "Converting raw polymers into products",
+            "Making monomers",
+            "Oil refining",
+            "Chemical synthesis"
+        ]
+    },
+    {
+        "q": "Rearrange polymer processing steps:",
+        "type": "rearrange",
+        "words": [
+            "Melting",
+            "Shaping",
+            "Cooling",
+            "Finishing"
+        ]
+    },
+    {
+        "q": "What is extrusion in polymer processing?",
+        "type": "mcq",
+        "o": [
+            "Continuous forcing through die",
+            "Batch molding",
+            "Spray coating",
+            "Cutting"
+        ]
+    },
+    {
+        "q": "Injection molding produces complex ______ shapes.",
+        "type": "fill_blank",
+        "answers": [
+            "three-dimensional"
+        ],
+        "other_options": [
+            "simple",
+            "flat",
+            "linear"
+        ]
+    },
+    {
+        "q": "Match the polymer process with its product:",
+        "type": "match",
+        "left": [
+            "Film blowing",
+            "Injection molding",
+            "Blow molding",
+            "Thermoforming"
+        ],
+        "right": [
+            "Plastic film",
+            "Complex parts",
+            "Bottles",
+            "Packaging trays"
+        ]
+    },
+    {
+        "q": "Polymer viscosity decreases with temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is petroleum refining?",
+        "type": "mcq",
+        "o": [
+            "Processing crude oil into useful products",
+            "Finding oil",
+            "Transporting oil",
+            "Storing oil"
+        ]
+    },
+    {
+        "q": "Rearrange refinery processes:",
+        "type": "rearrange",
+        "words": [
+            "Desalting",
+            "Distillation",
+            "Cracking",
+            "Reforming"
+        ]
+    },
+    {
+        "q": "What is catalytic cracking?",
+        "type": "mcq",
+        "o": [
+            "Breaking large molecules into smaller ones with catalyst",
+            "Combining molecules",
+            "Distillation",
+            "Desalting"
+        ]
+    },
+    {
+        "q": "Reforming increases ______ number of gasoline.",
+        "type": "fill_blank",
+        "answers": [
+            "octane"
+        ],
+        "other_options": [
+            "cetane",
+            "volume",
+            "density"
+        ]
+    },
+    {
+        "q": "Match the refinery product with its use:",
+        "type": "match",
+        "left": [
+            "LPG",
+            "Gasoline",
+            "Diesel",
+            "Fuel oil"
+        ],
+        "right": [
+            "Cooking",
+            "Cars",
+            "Trucks",
+            "Ships and power plants"
+        ]
+    },
+    {
+        "q": "Crude oil distillation separates by boiling point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process economics?",
+        "type": "mcq",
+        "o": [
+            "Financial analysis of chemical processes",
+            "Only technical analysis",
+            "Marketing strategy",
+            "Sales planning"
+        ]
+    },
+    {
+        "q": "Rearrange capital cost components:",
+        "type": "rearrange",
+        "words": [
+            "Equipment",
+            "Installation",
+            "Engineering",
+            "Contingency"
+        ]
+    },
+    {
+        "q": "What is operating cost?",
+        "type": "mcq",
+        "o": [
+            "Cost to run the plant",
+            "Initial investment",
+            "Equipment cost",
+            "Land cost"
+        ]
+    },
+    {
+        "q": "Depreciation accounts for equipment value loss over ______.",
+        "type": "fill_blank",
+        "answers": [
+            "time"
+        ],
+        "other_options": [
+            "space",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the cost type with its example:",
+        "type": "match",
+        "left": [
+            "Fixed capital",
+            "Working capital",
+            "Variable operating",
+            "Fixed operating"
+        ],
+        "right": [
+            "Equipment",
+            "Inventory",
+            "Raw materials",
+            "Labor"
+        ]
+    },
+    {
+        "q": "Payback period is time to recover investment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the internal rate of return?",
+        "type": "mcq",
+        "o": [
+            "Discount rate making NPV equal zero",
+            "Interest rate",
+            "Inflation rate",
+            "Tax rate"
+        ]
+    },
+    {
+        "q": "NPV stands for Net Present ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Value"
+        ],
+        "other_options": [
+            "Variation",
+            "Volume",
+            "Velocity"
+        ]
+    },
+    {
+        "q": "Match the economic indicator with its use:",
+        "type": "match",
+        "left": [
+            "IRR",
+            "NPV",
+            "ROI",
+            "Payback"
+        ],
+        "right": [
+            "Compare to hurdle rate",
+            "Project value",
+            "Return percentage",
+            "Investment recovery time"
+        ]
+    },
+    {
+        "q": "Higher NPV indicates more attractive investment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is sensitivity analysis in process economics?",
+        "type": "mcq",
+        "o": [
+            "Evaluating how changes in parameters affect economics",
+            "Exact cost calculation",
+            "Fixed cost estimation",
+            "Equipment sizing"
+        ]
+    },
+    {
+        "q": "Rearrange thermodynamic laws:",
+        "type": "rearrange",
+        "words": [
+            "Zeroth law",
+            "First law",
+            "Second law",
+            "Third law"
+        ]
+    },
+    {
+        "q": "What is the first law of thermodynamics?",
+        "type": "mcq",
+        "o": [
+            "Energy cannot be created or destroyed",
+            "Entropy always increases",
+            "Absolute zero is unattainable",
+            "Temperature equilibrium"
+        ]
+    },
+    {
+        "q": "Entropy measures ______ of a system.",
+        "type": "fill_blank",
+        "answers": [
+            "disorder"
+        ],
+        "other_options": [
+            "energy",
+            "mass",
+            "volume"
+        ]
+    },
+    {
+        "q": "Match the thermodynamic property with its symbol:",
+        "type": "match",
+        "left": [
+            "Enthalpy",
+            "Entropy",
+            "Gibbs free energy",
+            "Helmholtz free energy"
+        ],
+        "right": [
+            "H",
+            "S",
+            "G",
+            "A"
+        ]
+    },
+    {
+        "q": "Second law states entropy of isolated system increases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Gibbs free energy?",
+        "type": "mcq",
+        "o": [
+            "Maximum useful work at constant T and P",
+            "Total energy",
+            "Heat content",
+            "Work input"
+        ]
+    },
+    {
+        "q": "Rearrange phase equilibrium concepts:",
+        "type": "rearrange",
+        "words": [
+            "Fugacity",
+            "Activity",
+            "Chemical potential",
+            "Equilibrium constant"
+        ]
+    },
+    {
+        "q": "What is fugacity?",
+        "type": "mcq",
+        "o": [
+            "Effective pressure accounting for non-ideality",
+            "True pressure",
+            "Temperature",
+            "Volume"
+        ]
+    },
+    {
+        "q": "Activity is ratio of fugacity to ______ fugacity.",
+        "type": "fill_blank",
+        "answers": [
+            "standard state"
+        ],
+        "other_options": [
+            "actual",
+            "ideal",
+            "maximum"
+        ]
+    },
+    {
+        "q": "Match the phase rule variable with its definition:",
+        "type": "match",
+        "left": [
+            "F",
+            "C",
+            "P",
+            "N"
+        ],
+        "right": [
+            "Degrees of freedom",
+            "Components",
+            "Phases",
+            "Variables"
+        ]
+    },
+    {
+        "q": "Gibbs phase rule is F = C - P + 2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Raoult's law?",
+        "type": "mcq",
+        "o": [
+            "Partial pressure equals mole fraction times vapor pressure",
+            "Ideal gas law",
+            "Dalton's law",
+            "Boyle's law"
+        ]
+    },
+    {
+        "q": "Rearrange VLE calculation methods:",
+        "type": "rearrange",
+        "words": [
+            "Bubble point",
+            "Dew point",
+            "Flash",
+            "Distillation"
+        ]
+    },
+    {
+        "q": "What is bubble point?",
+        "type": "mcq",
+        "o": [
+            "Temperature where first vapor forms from liquid",
+            "Total vaporization",
+            "First condensation",
+            "Maximum pressure"
+        ]
+    },
+    {
+        "q": "Dew point is where first ______ forms from vapor.",
+        "type": "fill_blank",
+        "answers": [
+            "liquid"
+        ],
+        "other_options": [
+            "solid",
+            "gas",
+            "plasma"
+        ]
+    },
+    {
+        "q": "Match the VLE term with its definition:",
+        "type": "match",
+        "left": [
+            "K-value",
+            "Relative volatility",
+            "x",
+            "y"
+        ],
+        "right": [
+            "Equilibrium ratio y/x",
+            "Ratio of K-values",
+            "Liquid mole fraction",
+            "Vapor mole fraction"
+        ]
+    },
+    {
+        "q": "Azeotrope cannot be separated by simple distillation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an azeotrope?",
+        "type": "mcq",
+        "o": [
+            "Mixture with same liquid and vapor composition",
+            "Pure component",
+            "Immiscible mixture",
+            "Solid solution"
+        ]
+    },
+    {
+        "q": "Rearrange transport phenomena:",
+        "type": "rearrange",
+        "words": [
+            "Momentum",
+            "Heat",
+            "Mass"
+        ]
+    },
+    {
+        "q": "What is the analogy between heat and mass transfer?",
+        "type": "mcq",
+        "o": [
+            "Similar governing equations and dimensionless numbers",
+            "Same physical process",
+            "Identical equipment",
+            "No relation"
+        ]
+    },
+    {
+        "q": "Nusselt number is to heat transfer as ______ is to mass transfer.",
+        "type": "fill_blank",
+        "answers": [
+            "Sherwood number"
+        ],
+        "other_options": [
+            "Reynolds number",
+            "Prandtl number",
+            "Schmidt number"
+        ]
+    },
+    {
+        "q": "Match the dimensionless number with its definition:",
+        "type": "match",
+        "left": [
+            "Reynolds",
+            "Prandtl",
+            "Schmidt",
+            "Nusselt"
+        ],
+        "right": [
+            "Inertia to viscous",
+            "Momentum to thermal diffusivity",
+            "Momentum to mass diffusivity",
+            "Convective to conductive heat"
+        ]
+    },
+    {
+        "q": "Fick's law describes molecular diffusion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Newton's law of viscosity?",
+        "type": "mcq",
+        "o": [
+            "Shear stress proportional to velocity gradient",
+            "Force equals mass times acceleration",
+            "Heat flow equation",
+            "Mass balance"
+        ]
+    },
+    {
+        "q": "Rearrange flow regimes in pipe:",
+        "type": "rearrange",
+        "words": [
+            "Laminar",
+            "Transition",
+            "Turbulent",
+            "Plug"
+        ]
+    },
+    {
+        "q": "What is the Darcy-Weisbach equation used for?",
+        "type": "mcq",
+        "o": [
+            "Calculating pressure drop in pipe flow",
+            "Heat transfer",
+            "Mass transfer",
+            "Reaction rate"
+        ]
+    },
+    {
+        "q": "Friction factor depends on Reynolds number and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "roughness"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "density"
+        ]
+    },
+    {
+        "q": "Match the pipe fitting with its equivalent length:",
+        "type": "match",
+        "left": [
+            "90 degree elbow",
+            "Gate valve",
+            "Globe valve",
+            "Tee"
+        ],
+        "right": [
+            "30 diameters",
+            "8 diameters",
+            "340 diameters",
+            "60 diameters"
+        ]
+    },
+    {
+        "q": "Moody chart relates friction factor to Reynolds number.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a non-Newtonian fluid?",
+        "type": "mcq",
+        "o": [
+            "Fluid where viscosity depends on shear rate",
+            "Ideal gas",
+            "Water at room temperature",
+            "Low viscosity liquid"
+        ]
+    },
+    {
+        "q": "Rearrange non-Newtonian fluid types:",
+        "type": "rearrange",
+        "words": [
+            "Pseudoplastic",
+            "Dilatant",
+            "Bingham plastic",
+            "Thixotropic"
+        ]
+    },
+    {
+        "q": "What is a pseudoplastic fluid?",
+        "type": "mcq",
+        "o": [
+            "Shear-thinning fluid",
+            "Shear-thickening fluid",
+            "Time-dependent fluid",
+            "Ideal fluid"
+        ]
+    },
+    {
+        "q": "Dilatant fluids become more viscous as shear ______.",
+        "type": "fill_blank",
+        "answers": [
+            "increases"
+        ],
+        "other_options": [
+            "decreases",
+            "stops",
+            "reverses"
+        ]
+    },
+    {
+        "q": "Match the fluid type with its example:",
+        "type": "match",
+        "left": [
+            "Pseudoplastic",
+            "Dilatant",
+            "Bingham plastic",
+            "Thixotropic"
+        ],
+        "right": [
+            "Paint",
+            "Cornstarch suspension",
+            "Toothpaste",
+            "Ketchup"
+        ]
+    },
+    {
+        "q": "Power law model describes many non-Newtonian fluids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the overall heat transfer coefficient?",
+        "type": "mcq",
+        "o": [
+            "Combined resistance from conduction and convection",
+            "Convection only",
+            "Conduction only",
+            "Radiation only"
+        ]
+    },
+    {
+        "q": "Rearrange resistances in series:",
+        "type": "rearrange",
+        "words": [
+            "Hot side film",
+            "Wall",
+            "Fouling",
+            "Cold side film"
+        ]
+    },
+    {
+        "q": "What is fouling in heat exchangers?",
+        "type": "mcq",
+        "o": [
+            "Deposit buildup reducing heat transfer",
+            "Clean surface",
+            "High efficiency",
+            "Normal operation"
+        ]
+    },
+    {
+        "q": "LMTD stands for Log Mean Temperature ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Difference"
+        ],
+        "other_options": [
+            "Distribution",
+            "Deviation",
+            "Delta"
+        ]
+    },
+    {
+        "q": "Match the heat exchanger arrangement with its LMTD correction:",
+        "type": "match",
+        "left": [
+            "True countercurrent",
+            "1-2 shell and tube",
+            "Cross flow",
+            "Parallel flow"
+        ],
+        "right": [
+            "F = 1",
+            "F < 1",
+            "F < 1",
+            "F = 1"
+        ]
+    },
+    {
+        "q": "Countercurrent flow gives higher temperature driving force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the NTU method?",
+        "type": "mcq",
+        "o": [
+            "Heat exchanger design using effectiveness",
+            "Distillation calculation",
+            "Reactor design",
+            "Control system"
+        ]
+    },
+    {
+        "q": "Rearrange heat exchanger selection factors:",
+        "type": "rearrange",
+        "words": [
+            "Duty",
+            "Temperature",
+            "Pressure",
+            "Fouling"
+        ]
+    },
+    {
+        "q": "What is boiling heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Heat transfer with phase change from liquid to vapor",
+            "Single phase heating",
+            "Cooling only",
+            "Condensation"
+        ]
+    },
+    {
+        "q": "Pool boiling occurs in stationary ______ liquid.",
+        "type": "fill_blank",
+        "answers": [
+            "bulk"
+        ],
+        "other_options": [
+            "flowing",
+            "moving",
+            "circulating"
+        ]
+    },
+    {
+        "q": "Match the boiling regime with its heat flux:",
+        "type": "match",
+        "left": [
+            "Natural convection",
+            "Nucleate",
+            "Transition",
+            "Film"
+        ],
+        "right": [
+            "Low",
+            "High",
+            "Decreasing",
+            "Low to moderate"
+        ]
+    },
+    {
+        "q": "Critical heat flux is maximum in nucleate boiling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is condensation heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Heat transfer with phase change from vapor to liquid",
+            "Single phase cooling",
+            "Boiling",
+            "Evaporation"
+        ]
+    },
+    {
+        "q": "Rearrange mass transfer equipment:",
+        "type": "rearrange",
+        "words": [
+            "Tray column",
+            "Packed column",
+            "Spray tower",
+            "Membrane"
+        ]
+    },
+    {
+        "q": "What determines separation in distillation?",
+        "type": "mcq",
+        "o": [
+            "Relative volatility and number of stages",
+            "Temperature only",
+            "Pressure only",
+            "Column height only"
+        ]
+    },
+    {
+        "q": "McCabe-Thiele method uses operating ______ for graphical design.",
+        "type": "fill_blank",
+        "answers": [
+            "lines"
+        ],
+        "other_options": [
+            "curves",
+            "points",
+            "areas"
+        ]
+    },
+    {
+        "q": "Match the column internal with its function:",
+        "type": "match",
+        "left": [
+            "Sieve tray",
+            "Bubble cap",
+            "Packing",
+            "Distributor"
+        ],
+        "right": [
+            "Simple vapor-liquid contact",
+            "Wide operating range",
+            "Low pressure drop",
+            "Liquid spreading"
+        ]
+    },
+    {
+        "q": "HETP is Height Equivalent to a Theoretical Plate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is flooding in distillation columns?",
+        "type": "mcq",
+        "o": [
+            "Excessive vapor velocity preventing liquid flow",
+            "Normal operation",
+            "Low capacity",
+            "Good separation"
+        ]
+    },
+    {
+        "q": "Rearrange absorption design parameters:",
+        "type": "rearrange",
+        "words": [
+            "Henry's law constant",
+            "Mass transfer coefficient",
+            "Interfacial area",
+            "Driving force"
+        ]
+    },
+    {
+        "q": "What is the difference between physical and chemical absorption?",
+        "type": "mcq",
+        "o": [
+            "Chemical absorption involves reaction with solvent",
+            "Both are identical",
+            "Physical is always faster",
+            "Chemical uses inert solvent"
+        ]
+    },
+    {
+        "q": "Amine scrubbing is used for ______ capture.",
+        "type": "fill_blank",
+        "answers": [
+            "CO2"
+        ],
+        "other_options": [
+            "O2",
+            "N2",
+            "H2"
+        ]
+    },
+    {
+        "q": "Match the solvent with its application:",
+        "type": "match",
+        "left": [
+            "MEA",
+            "MDEA",
+            "Physical solvent",
+            "Ionic liquid"
+        ],
+        "right": [
+            "CO2 removal",
+            "Selective H2S removal",
+            "High pressure absorption",
+            "Novel separation"
+        ]
+    },
+    {
+        "q": "Regeneration recovers solvent for reuse.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is adsorption?",
+        "type": "mcq",
+        "o": [
+            "Surface phenomenon where molecules attach to solid",
+            "Absorption into liquid",
+            "Chemical reaction",
+            "Evaporation"
+        ]
+    },
+    {
+        "q": "Rearrange adsorption isotherm types:",
+        "type": "rearrange",
+        "words": [
+            "Langmuir",
+            "Freundlich",
+            "BET",
+            "Dubinin"
+        ]
+    },
+    {
+        "q": "What is pressure swing adsorption?",
+        "type": "mcq",
+        "o": [
+            "Separation by cycling pressure to adsorb and desorb",
+            "Constant pressure operation",
+            "Temperature cycling",
+            "Continuous flow"
+        ]
+    },
+    {
+        "q": "TSA uses ______ change for regeneration.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "pressure",
+            "flow",
+            "concentration"
+        ]
+    },
+    {
+        "q": "Match the adsorbent with its application:",
+        "type": "match",
+        "left": [
+            "Activated carbon",
+            "Zeolite",
+            "Silica gel",
+            "Alumina"
+        ],
+        "right": [
+            "VOC removal",
+            "Gas separation",
+            "Drying",
+            "Drying and purification"
+        ]
+    },
+    {
+        "q": "Molecular sieves are selective adsorbents.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is membrane separation?",
+        "type": "mcq",
+        "o": [
+            "Separation using selective barrier",
+            "Distillation",
+            "Absorption",
+            "Adsorption"
+        ]
+    },
+    {
+        "q": "Rearrange membrane processes by driving force:",
+        "type": "rearrange",
+        "words": [
+            "Pressure",
+            "Concentration",
+            "Electrical",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "What is the difference between microfiltration and ultrafiltration?",
+        "type": "mcq",
+        "o": [
+            "UF has smaller pore size for larger molecules",
+            "Both are identical",
+            "MF has smaller pores",
+            "UF is for particles"
+        ]
+    },
+    {
+        "q": "Pervaporation separates by selective ______.",
+        "type": "fill_blank",
+        "answers": [
+            "permeation"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "absorption"
+        ]
+    },
+    {
+        "q": "Match the membrane with its application:",
+        "type": "match",
+        "left": [
+            "RO",
+            "NF",
+            "UF",
+            "MF"
+        ],
+        "right": [
+            "Desalination",
+            "Hardness removal",
+            "Protein concentration",
+            "Bacteria removal"
+        ]
+    },
+    {
+        "q": "Gas separation membranes exploit permeability differences.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is reaction engineering?",
+        "type": "mcq",
+        "o": [
+            "Study of chemical reactions in industrial reactors",
+            "Separation design",
+            "Heat exchanger design",
+            "Pipe sizing"
+        ]
+    },
+    {
+        "q": "Rearrange reactor design steps:",
+        "type": "rearrange",
+        "words": [
+            "Kinetics",
+            "Reactor selection",
+            "Design equations",
+            "Optimization"
+        ]
+    },
+    {
+        "q": "What is the design equation for a batch reactor?",
+        "type": "mcq",
+        "o": [
+            "Relates conversion to reaction time",
+            "Steady state equation",
+            "Flow equation",
+            "Heat balance"
+        ]
+    },
+    {
+        "q": "Space time is reactor volume divided by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "volumetric flow rate"
+        ],
+        "other_options": [
+            "mass flow",
+            "molar flow",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Match the reactor with its residence time distribution:",
+        "type": "match",
+        "left": [
+            "CSTR",
+            "PFR",
+            "Batch",
+            "Real reactor"
+        ],
+        "right": [
+            "Exponential",
+            "Delta function",
+            "Fixed time",
+            "Between ideal cases"
+        ]
+    },
+    {
+        "q": "PFR gives higher conversion than CSTR for same volume in positive order reactions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is selectivity in reactions with multiple products?",
+        "type": "mcq",
+        "o": [
+            "Ratio of desired to undesired product formation",
+            "Total conversion",
+            "Reaction rate",
+            "Catalyst activity"
+        ]
+    },
+    {
+        "q": "Rearrange catalytic reaction steps:",
+        "type": "rearrange",
+        "words": [
+            "External diffusion",
+            "Internal diffusion",
+            "Adsorption",
+            "Surface reaction"
+        ]
+    },
+    {
+        "q": "What is the rate limiting step?",
+        "type": "mcq",
+        "o": [
+            "Slowest step controlling overall rate",
+            "Fastest step",
+            "First step",
+            "Last step"
+        ]
+    },
+    {
+        "q": "Thiele modulus indicates relative importance of diffusion and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reaction"
+        ],
+        "other_options": [
+            "adsorption",
+            "desorption",
+            "heat transfer"
+        ]
+    },
+    {
+        "q": "Match the effectiveness factor with its interpretation:",
+        "type": "match",
+        "left": [
+            "eta = 1",
+            "eta < 1",
+            "eta << 1"
+        ],
+        "right": [
+            "No diffusion limitation",
+            "Some limitation",
+            "Strong diffusion control"
+        ]
+    },
+    {
+        "q": "Catalyst deactivation reduces activity over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is catalyst poisoning?",
+        "type": "mcq",
+        "o": [
+            "Strong adsorption of impurities blocking active sites",
+            "Normal operation",
+            "Regeneration",
+            "Activation"
+        ]
+    },
+    {
+        "q": "Rearrange reactor non-idealities:",
+        "type": "rearrange",
+        "words": [
+            "Dead zones",
+            "Bypass",
+            "Channeling",
+            "Short-circuiting"
+        ]
+    },
+    {
+        "q": "What is residence time distribution?",
+        "type": "mcq",
+        "o": [
+            "Probability distribution of time spent in reactor",
+            "Average time",
+            "Minimum time",
+            "Maximum time"
+        ]
+    },
+    {
+        "q": "Tracer test measures ______ in real reactors.",
+        "type": "fill_blank",
+        "answers": [
+            "RTD"
+        ],
+        "other_options": [
+            "conversion",
+            "temperature",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Match the RTD parameter with its meaning:",
+        "type": "match",
+        "left": [
+            "Mean residence time",
+            "Variance",
+            "Skewness",
+            "Pe"
+        ],
+        "right": [
+            "Average time",
+            "Spread",
+            "Asymmetry",
+            "Dispersion number"
+        ]
+    },
+    {
+        "q": "Tanks in series model uses multiple CSTRs to approximate non-ideal flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a fluidized bed reactor?",
+        "type": "mcq",
+        "o": [
+            "Reactor with particles suspended by upflowing gas",
+            "Packed bed reactor",
+            "Empty tube reactor",
+            "Stirred tank"
+        ]
+    },
+    {
+        "q": "Rearrange fluidization regimes:",
+        "type": "rearrange",
+        "words": [
+            "Fixed bed",
+            "Bubbling",
+            "Turbulent",
+            "Pneumatic conveying"
+        ]
+    },
+    {
+        "q": "What is minimum fluidization velocity?",
+        "type": "mcq",
+        "o": [
+            "Velocity at which bed starts to fluidize",
+            "Maximum velocity",
+            "Average velocity",
+            "Terminal velocity"
+        ]
+    },
+    {
+        "q": "Geldart classification groups particles by ______ behavior.",
+        "type": "fill_blank",
+        "answers": [
+            "fluidization"
+        ],
+        "other_options": [
+            "settling",
+            "mixing",
+            "heating"
+        ]
+    },
+    {
+        "q": "Match the fluidized bed advantage with its application:",
+        "type": "match",
+        "left": [
+            "Good heat transfer",
+            "Catalyst circulation",
+            "Continuous solids handling",
+            "Uniform temperature"
+        ],
+        "right": [
+            "Exothermic reactions",
+            "Regeneration",
+            "Coal combustion",
+            "Polymerization"
+        ]
+    },
+    {
+        "q": "FCC uses fluidized bed for catalytic cracking.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a trickle bed reactor?",
+        "type": "mcq",
+        "o": [
+            "Fixed bed with downward liquid and gas flow",
+            "Upflow reactor",
+            "Stirred reactor",
+            "Empty tube"
+        ]
+    },
+    {
+        "q": "Rearrange multiphase reactor types:",
+        "type": "rearrange",
+        "words": [
+            "Bubble column",
+            "Slurry reactor",
+            "Trickle bed",
+            "Spray tower"
+        ]
+    },
+    {
+        "q": "What is a slurry reactor?",
+        "type": "mcq",
+        "o": [
+            "Reactor with suspended catalyst in liquid",
+            "Gas phase reactor",
+            "Fixed catalyst",
+            "Empty reactor"
+        ]
+    },
+    {
+        "q": "Three-phase reactors involve gas, liquid, and ______ phases.",
+        "type": "fill_blank",
+        "answers": [
+            "solid"
+        ],
+        "other_options": [
+            "vapor",
+            "fluid",
+            "plasma"
+        ]
+    },
+    {
+        "q": "Match the reactor with its gas-liquid contact:",
+        "type": "match",
+        "left": [
+            "Bubble column",
+            "Packed column",
+            "Spray tower",
+            "Stirred tank"
+        ],
+        "right": [
+            "Bubbles in liquid",
+            "Film flow over packing",
+            "Droplets in gas",
+            "Agitated dispersion"
+        ]
+    },
+    {
+        "q": "Fischer-Tropsch synthesis uses slurry or fixed bed reactors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process intensification?",
+        "type": "mcq",
+        "o": [
+            "Making processes smaller, safer, and more efficient",
+            "Increasing plant size",
+            "Adding equipment",
+            "Reducing efficiency"
+        ]
+    },
+    {
+        "q": "Rearrange intensification strategies:",
+        "type": "rearrange",
+        "words": [
+            "Microreactors",
+            "Rotating equipment",
+            "Membrane reactors",
+            "Reactive distillation"
+        ]
+    },
+    {
+        "q": "What is reactive distillation?",
+        "type": "mcq",
+        "o": [
+            "Combining reaction and separation in single unit",
+            "Separate units",
+            "Batch operation",
+            "Cooling only"
+        ]
+    },
+    {
+        "q": "Microreactors have channels with dimensions in ______ range.",
+        "type": "fill_blank",
+        "answers": [
+            "micrometer"
+        ],
+        "other_options": [
+            "meter",
+            "centimeter",
+            "millimeter"
+        ]
+    },
+    {
+        "q": "Match the intensification with its benefit:",
+        "type": "match",
+        "left": [
+            "Microreactor",
+            "Membrane reactor",
+            "Spinning disk",
+            "Static mixer"
+        ],
+        "right": [
+            "Enhanced heat transfer",
+            "Equilibrium shift",
+            "Thin film processing",
+            "No moving parts"
+        ]
+    },
+    {
+        "q": "Dividing wall column reduces capital and energy costs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is heat integration?",
+        "type": "mcq",
+        "o": [
+            "Recovering heat between process streams",
+            "Adding heaters",
+            "Removing coolers",
+            "Increasing energy use"
+        ]
+    },
+    {
+        "q": "Rearrange pinch technology concepts:",
+        "type": "rearrange",
+        "words": [
+            "Hot composite curve",
+            "Cold composite curve",
+            "Pinch temperature",
+            "Grand composite"
+        ]
+    },
+    {
+        "q": "What is the pinch temperature?",
+        "type": "mcq",
+        "o": [
+            "Temperature where maximum heat recovery is limited",
+            "Maximum temperature",
+            "Minimum temperature",
+            "Average temperature"
+        ]
+    },
+    {
+        "q": "Above pinch only ______ utility is needed.",
+        "type": "fill_blank",
+        "answers": [
+            "heating"
+        ],
+        "other_options": [
+            "cooling",
+            "both",
+            "neither"
+        ]
+    },
+    {
+        "q": "Match the heat integration rule with its principle:",
+        "type": "match",
+        "left": [
+            "No cooling above pinch",
+            "No heating below pinch",
+            "No heat across pinch",
+            "Minimum approach"
+        ],
+        "right": [
+            "Use hot utility",
+            "Use cold utility",
+            "Energy penalty",
+            "Practical constraint"
+        ]
+    },
+    {
+        "q": "Combined heat and power increases overall efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process synthesis?",
+        "type": "mcq",
+        "o": [
+            "Creating process flowsheet from reactions and separations",
+            "Only simulation",
+            "Equipment sizing",
+            "Cost estimation"
+        ]
+    },
+    {
+        "q": "Rearrange synthesis hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Reactor",
+            "Separation",
+            "Heat exchange",
+            "Utilities"
+        ]
+    },
+    {
+        "q": "What is superstructure optimization?",
+        "type": "mcq",
+        "o": [
+            "Selecting best configuration from all possibilities",
+            "Fixed design",
+            "Manual selection",
+            "Random choice"
+        ]
+    },
+    {
+        "q": "Heuristics provide ______ for initial design decisions.",
+        "type": "fill_blank",
+        "answers": [
+            "guidelines"
+        ],
+        "other_options": [
+            "exact answers",
+            "mistakes",
+            "delays"
+        ]
+    },
+    {
+        "q": "Match the synthesis level with its decisions:",
+        "type": "match",
+        "left": [
+            "Batch vs continuous",
+            "Reactor type",
+            "Separation sequence",
+            "Energy recovery"
+        ],
+        "right": [
+            "Operation mode",
+            "Conversion and selectivity",
+            "Product purity",
+            "Utility costs"
+        ]
+    },
+    {
+        "q": "Short-cut methods enable quick preliminary design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process control strategy?",
+        "type": "mcq",
+        "o": [
+            "Plan for maintaining process at desired conditions",
+            "Equipment purchase",
+            "Plant construction",
+            "Safety review"
+        ]
+    },
+    {
+        "q": "Rearrange control loop tuning methods:",
+        "type": "rearrange",
+        "words": [
+            "Ultimate gain",
+            "Cohen-Coon",
+            "IMC",
+            "Model predictive"
+        ]
+    },
+    {
+        "q": "What is cascade control?",
+        "type": "mcq",
+        "o": [
+            "Secondary loop improving primary loop performance",
+            "Single loop",
+            "On-off control",
+            "Manual control"
+        ]
+    },
+    {
+        "q": "Feedforward control acts before ______ affects output.",
+        "type": "fill_blank",
+        "answers": [
+            "disturbance"
+        ],
+        "other_options": [
+            "setpoint",
+            "output",
+            "controller"
+        ]
+    },
+    {
+        "q": "Match the control strategy with its application:",
+        "type": "match",
+        "left": [
+            "Feedback",
+            "Feedforward",
+            "Cascade",
+            "Ratio"
+        ],
+        "right": [
+            "Reject disturbances",
+            "Anticipate disturbances",
+            "Fast secondary variable",
+            "Maintain proportion"
+        ]
+    },
+    {
+        "q": "Model predictive control optimizes future control moves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dynamic simulation?",
+        "type": "mcq",
+        "o": [
+            "Time-dependent process modeling",
+            "Steady state only",
+            "Equipment sizing",
+            "Cost estimation"
+        ]
+    },
+    {
+        "q": "Rearrange startup sequence:",
+        "type": "rearrange",
+        "words": [
+            "Utilities",
+            "Venting",
+            "Feed introduction",
+            "Normal operation"
+        ]
+    },
+    {
+        "q": "What is considered in operability analysis?",
+        "type": "mcq",
+        "o": [
+            "Startup, shutdown, and upset conditions",
+            "Normal operation only",
+            "Equipment cost",
+            "Plot plan"
+        ]
+    },
+    {
+        "q": "Transition from one steady state to another involves ______ behavior.",
+        "type": "fill_blank",
+        "answers": [
+            "dynamic"
+        ],
+        "other_options": [
+            "static",
+            "constant",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Match the operation with its control challenge:",
+        "type": "match",
+        "left": [
+            "Startup",
+            "Shutdown",
+            "Grade change",
+            "Upset"
+        ],
+        "right": [
+            "Sequence control",
+            "Safe depressuring",
+            "Smooth transition",
+            "Fast recovery"
+        ]
+    },
+    {
+        "q": "Batch process requires recipe-based control.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process safety management?",
+        "type": "mcq",
+        "o": [
+            "Systematic approach to prevent catastrophic incidents",
+            "Product quality",
+            "Cost control",
+            "Schedule management"
+        ]
+    },
+    {
+        "q": "Rearrange inherent safety principles:",
+        "type": "rearrange",
+        "words": [
+            "Minimize",
+            "Substitute",
+            "Moderate",
+            "Simplify"
+        ]
+    },
+    {
+        "q": "What is the difference between inherent and added safety?",
+        "type": "mcq",
+        "o": [
+            "Inherent eliminates hazard while added controls it",
+            "Both are same",
+            "Added is better",
+            "Inherent uses equipment"
+        ]
+    },
+    {
+        "q": "Layers of protection include design, control, and ______ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "safety"
+        ],
+        "other_options": [
+            "quality",
+            "maintenance",
+            "training"
+        ]
+    },
+    {
+        "q": "Match the safety barrier with its type:",
+        "type": "match",
+        "left": [
+            "BPCS",
+            "SIS",
+            "Relief device",
+            "Dike"
+        ],
+        "right": [
+            "Control layer",
+            "Safety system",
+            "Physical protection",
+            "Containment"
+        ]
+    },
+    {
+        "q": "Root cause analysis investigates underlying causes of incidents.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a runaway reaction?",
+        "type": "mcq",
+        "o": [
+            "Uncontrolled reaction with rapid temperature rise",
+            "Slow reaction",
+            "Complete conversion",
+            "Normal operation"
+        ]
+    },
+    {
+        "q": "Rearrange emergency response priorities:",
+        "type": "rearrange",
+        "words": [
+            "Life safety",
+            "Incident stabilization",
+            "Property protection",
+            "Environmental protection"
+        ]
+    },
+    {
+        "q": "What is thermal runaway?",
+        "type": "mcq",
+        "o": [
+            "Heat generation exceeding removal capability",
+            "Normal heat balance",
+            "Cooling only",
+            "Slow heating"
+        ]
+    },
+    {
+        "q": "Adiabatic temperature rise measures worst-case temperature ______.",
+        "type": "fill_blank",
+        "answers": [
+            "increase"
+        ],
+        "other_options": [
+            "decrease",
+            "stability",
+            "control"
+        ]
+    },
+    {
+        "q": "Match the safety device with its function:",
+        "type": "match",
+        "left": [
+            "PSV",
+            "Bursting disc",
+            "Emergency shutdown",
+            "Deluge"
+        ],
+        "right": [
+            "Pressure relief",
+            "Rapid pressure relief",
+            "Process isolation",
+            "Fire suppression"
+        ]
+    },
+    {
+        "q": "Fail-safe design minimizes hazard on equipment failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pharmaceutical manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Production of drug substances and products",
+            "Food processing",
+            "Chemical production",
+            "Oil refining"
+        ]
+    },
+    {
+        "q": "Rearrange drug development stages:",
+        "type": "rearrange",
+        "words": [
+            "Discovery",
+            "Preclinical",
+            "Clinical trials",
+            "Manufacturing"
+        ]
+    },
+    {
+        "q": "What is GMP in pharmaceutical manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Good Manufacturing Practice regulations",
+            "General Manufacturing Process",
+            "Global Market Planning",
+            "Growth Management Protocol"
+        ]
+    },
+    {
+        "q": "Validation ensures process consistently produces ______ product.",
+        "type": "fill_blank",
+        "answers": [
+            "quality"
+        ],
+        "other_options": [
+            "cheap",
+            "fast",
+            "large"
+        ]
+    },
+    {
+        "q": "Match the pharmaceutical operation with its purpose:",
+        "type": "match",
+        "left": [
+            "API synthesis",
+            "Formulation",
+            "Coating",
+            "Packaging"
+        ],
+        "right": [
+            "Active ingredient",
+            "Drug product",
+            "Protection and release",
+            "Product containment"
+        ]
+    },
+    {
+        "q": "Cleanroom classification indicates particle count limits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is continuous manufacturing in pharma?",
+        "type": "mcq",
+        "o": [
+            "Non-stop production with real-time quality control",
+            "Batch only",
+            "Manual processing",
+            "Intermittent operation"
+        ]
+    },
+    {
+        "q": "Rearrange water purification steps for pharma:",
+        "type": "rearrange",
+        "words": [
+            "Pretreatment",
+            "RO",
+            "EDI",
+            "UV"
+        ]
+    },
+    {
+        "q": "What is WFI?",
+        "type": "mcq",
+        "o": [
+            "Water for Injection - highest purity pharmaceutical water",
+            "General purpose water",
+            "Cooling water",
+            "Wastewater"
+        ]
+    },
+    {
+        "q": "PAT stands for Process Analytical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Technology"
+        ],
+        "other_options": [
+            "Testing",
+            "Training",
+            "Tools"
+        ]
+    },
+    {
+        "q": "Match the pharma equipment with its use:",
+        "type": "match",
+        "left": [
+            "Granulator",
+            "Tablet press",
+            "Lyophilizer",
+            "Autoclave"
+        ],
+        "right": [
+            "Particle size increase",
+            "Tablet forming",
+            "Freeze drying",
+            "Sterilization"
+        ]
+    },
+    {
+        "q": "Quality by Design builds quality into process from development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is electrochemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Using electricity for chemical transformations",
+            "Electricity generation only",
+            "Mechanical processing",
+            "Heat treatment"
+        ]
+    },
+    {
+        "q": "Rearrange electrochemical reactor components:",
+        "type": "rearrange",
+        "words": [
+            "Anode",
+            "Cathode",
+            "Electrolyte",
+            "Separator"
+        ]
+    },
+    {
+        "q": "What is electrolysis?",
+        "type": "mcq",
+        "o": [
+            "Using electricity to drive non-spontaneous reactions",
+            "Spontaneous reaction",
+            "Battery discharge",
+            "Heat exchange"
+        ]
+    },
+    {
+        "q": "Faraday's law relates current to ______ of reaction.",
+        "type": "fill_blank",
+        "answers": [
+            "rate"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "volume"
+        ]
+    },
+    {
+        "q": "Match the electrochemical process with its product:",
+        "type": "match",
+        "left": [
+            "Chlor-alkali",
+            "Aluminum smelting",
+            "Copper electrorefining",
+            "Water electrolysis"
+        ],
+        "right": [
+            "Chlorine and NaOH",
+            "Aluminum metal",
+            "Pure copper",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Fuel cells convert chemical energy directly to electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is corrosion in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Deterioration of materials by chemical reaction",
+            "Normal operation",
+            "Material strengthening",
+            "Coating application"
+        ]
+    },
+    {
+        "q": "Rearrange corrosion prevention methods:",
+        "type": "rearrange",
+        "words": [
+            "Material selection",
+            "Coatings",
+            "Inhibitors",
+            "Cathodic protection"
+        ]
+    },
+    {
+        "q": "What causes galvanic corrosion?",
+        "type": "mcq",
+        "o": [
+            "Contact between dissimilar metals",
+            "Same metal contact",
+            "Plastic contact",
+            "No contact"
+        ]
+    },
+    {
+        "q": "Stainless steel resists corrosion through ______ oxide layer.",
+        "type": "fill_blank",
+        "answers": [
+            "passive"
+        ],
+        "other_options": [
+            "active",
+            "thick",
+            "porous"
+        ]
+    },
+    {
+        "q": "Match the corrosion type with its cause:",
+        "type": "match",
+        "left": [
+            "Uniform",
+            "Pitting",
+            "Crevice",
+            "Stress corrosion"
+        ],
+        "right": [
+            "Even attack",
+            "Localized holes",
+            "Restricted geometry",
+            "Tensile stress"
+        ]
+    },
+    {
+        "q": "Corrosion allowance adds extra thickness for material loss.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is nanotechnology in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Engineering at nanometer scale",
+            "Large scale processing",
+            "Conventional chemistry",
+            "Mechanical engineering"
+        ]
+    },
+    {
+        "q": "Rearrange nanomaterial synthesis methods:",
+        "type": "rearrange",
+        "words": [
+            "Top-down",
+            "Bottom-up",
+            "Self-assembly",
+            "Template"
+        ]
+    },
+    {
+        "q": "What are nanoparticles?",
+        "type": "mcq",
+        "o": [
+            "Particles with dimensions between 1-100 nm",
+            "Large particles",
+            "Molecules",
+            "Atoms"
+        ]
+    },
+    {
+        "q": "Surface area to volume ratio ______ as size decreases.",
+        "type": "fill_blank",
+        "answers": [
+            "increases"
+        ],
+        "other_options": [
+            "decreases",
+            "stays same",
+            "fluctuates"
+        ]
+    },
+    {
+        "q": "Match the nanomaterial with its application:",
+        "type": "match",
+        "left": [
+            "Carbon nanotubes",
+            "Quantum dots",
+            "Nanozeolites",
+            "Silver nanoparticles"
+        ],
+        "right": [
+            "Composites",
+            "Displays",
+            "Catalysis",
+            "Antimicrobial"
+        ]
+    },
+    {
+        "q": "Nanoparticles exhibit unique properties due to size effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hydrogen production from water electrolysis?",
+        "type": "mcq",
+        "o": [
+            "Splitting water into hydrogen and oxygen using electricity",
+            "Steam reforming",
+            "Gasification",
+            "Fermentation"
+        ]
+    },
+    {
+        "q": "PEM electrolyzer uses proton exchange ______.",
+        "type": "fill_blank",
+        "answers": [
+            "membrane"
+        ],
+        "other_options": [
+            "catalyst",
+            "electrode",
+            "container"
+        ]
+    },
+    {
+        "q": "Match the hydrogen production method with its feedstock:",
+        "type": "match",
+        "left": [
+            "Steam reforming",
+            "Water electrolysis",
+            "Gasification",
+            "Biomass"
+        ],
+        "right": [
+            "Natural gas",
+            "Water",
+            "Coal",
+            "Organic matter"
+        ]
+    },
+    {
+        "q": "Green hydrogen uses renewable electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is carbon capture and storage?",
+        "type": "mcq",
+        "o": [
+            "Capturing CO2 and storing underground",
+            "Releasing CO2",
+            "Burning carbon",
+            "Carbon formation"
+        ]
+    },
+    {
+        "q": "Rearrange CCS process steps:",
+        "type": "rearrange",
+        "words": [
+            "Capture",
+            "Compression",
+            "Transport",
+            "Storage"
+        ]
+    },
+    {
+        "q": "What is post-combustion capture?",
+        "type": "mcq",
+        "o": [
+            "Capturing CO2 from flue gas after combustion",
+            "Before combustion",
+            "During combustion",
+            "No combustion"
+        ]
+    },
+    {
+        "q": "Oxy-fuel combustion uses pure ______ for burning.",
+        "type": "fill_blank",
+        "answers": [
+            "oxygen"
+        ],
+        "other_options": [
+            "air",
+            "nitrogen",
+            "carbon dioxide"
+        ]
+    },
+    {
+        "q": "Match the capture technology with its mechanism:",
+        "type": "match",
+        "left": [
+            "Amine absorption",
+            "Membrane",
+            "Cryogenic",
+            "Adsorption"
+        ],
+        "right": [
+            "Chemical reaction",
+            "Permeability difference",
+            "Low temperature",
+            "Surface attachment"
+        ]
+    },
+    {
+        "q": "Geological storage injects CO2 into underground formations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is biofuel production?",
+        "type": "mcq",
+        "o": [
+            "Making fuels from biological materials",
+            "Fossil fuel extraction",
+            "Nuclear energy",
+            "Solar conversion"
+        ]
+    },
+    {
+        "q": "Rearrange biofuel generations:",
+        "type": "rearrange",
+        "words": [
+            "First generation",
+            "Second generation",
+            "Third generation",
+            "Fourth generation"
+        ]
+    },
+    {
+        "q": "What is transesterification?",
+        "type": "mcq",
+        "o": [
+            "Converting oils to biodiesel using alcohol and catalyst",
+            "Fermentation",
+            "Gasification",
+            "Pyrolysis"
+        ]
+    },
+    {
+        "q": "Cellulosic ethanol is made from ______ biomass.",
+        "type": "fill_blank",
+        "answers": [
+            "lignocellulosic"
+        ],
+        "other_options": [
+            "sugar",
+            "starch",
+            "oil"
+        ]
+    },
+    {
+        "q": "Match the biofuel with its source:",
+        "type": "match",
+        "left": [
+            "Corn ethanol",
+            "Biodiesel",
+            "Cellulosic ethanol",
+            "Algae oil"
+        ],
+        "right": [
+            "Grain",
+            "Vegetable oil",
+            "Agricultural residue",
+            "Microorganisms"
+        ]
+    },
+    {
+        "q": "Sustainable aviation fuel is a drop-in replacement for jet fuel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ammonia synthesis?",
+        "type": "mcq",
+        "o": [
+            "Combining nitrogen and hydrogen to make ammonia",
+            "Ammonia decomposition",
+            "Nitric acid production",
+            "Urea formation"
+        ]
+    },
+    {
+        "q": "Rearrange Haber process conditions:",
+        "type": "rearrange",
+        "words": [
+            "High pressure",
+            "Moderate temperature",
+            "Iron catalyst",
+            "Recycle unreacted gases"
+        ]
+    },
+    {
+        "q": "What is the role of iron catalyst in ammonia synthesis?",
+        "type": "mcq",
+        "o": [
+            "Lower activation energy for nitrogen dissociation",
+            "Increase equilibrium",
+            "Provide nitrogen",
+            "Remove ammonia"
+        ]
+    },
+    {
+        "q": "Ammonia is a key fertilizer ______.",
+        "type": "fill_blank",
+        "answers": [
+            "feedstock"
+        ],
+        "other_options": [
+            "product",
+            "waste",
+            "catalyst"
+        ]
+    },
+    {
+        "q": "Match the nitrogen product with its use:",
+        "type": "match",
+        "left": [
+            "Ammonia",
+            "Nitric acid",
+            "Urea",
+            "Ammonium nitrate"
+        ],
+        "right": [
+            "Fertilizer and chemical",
+            "Explosives and fertilizer",
+            "Slow release fertilizer",
+            "Fertilizer and explosive"
+        ]
+    },
+    {
+        "q": "Green ammonia uses renewable hydrogen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is sulfuric acid production?",
+        "type": "mcq",
+        "o": [
+            "Contact process oxidizing sulfur dioxide",
+            "Ammonia process",
+            "Chlor-alkali process",
+            "Reforming"
+        ]
+    },
+    {
+        "q": "Rearrange contact process steps:",
+        "type": "rearrange",
+        "words": [
+            "Sulfur burning",
+            "SO2 oxidation",
+            "SO3 absorption",
+            "Acid dilution"
+        ]
+    },
+    {
+        "q": "What catalyst is used in sulfuric acid production?",
+        "type": "mcq",
+        "o": [
+            "Vanadium pentoxide",
+            "Iron",
+            "Platinum",
+            "Nickel"
+        ]
+    },
+    {
+        "q": "Sulfuric acid is made through double ______ process.",
+        "type": "fill_blank",
+        "answers": [
+            "absorption"
+        ],
+        "other_options": [
+            "contact",
+            "catalyst",
+            "reaction"
+        ]
+    },
+    {
+        "q": "Match the industrial chemical with its main use:",
+        "type": "match",
+        "left": [
+            "Sulfuric acid",
+            "Sodium hydroxide",
+            "Chlorine",
+            "Ethylene"
+        ],
+        "right": [
+            "Fertilizer production",
+            "Paper and soap",
+            "PVC and disinfection",
+            "Plastics"
+        ]
+    },
+    {
+        "q": "Sulfuric acid is the largest volume industrial chemical.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is polymerization?",
+        "type": "mcq",
+        "o": [
+            "Joining monomers into long chain molecules",
+            "Breaking polymers",
+            "Dissolving plastics",
+            "Heating monomers"
+        ]
+    },
+    {
+        "q": "Rearrange polymerization types:",
+        "type": "rearrange",
+        "words": [
+            "Addition",
+            "Condensation",
+            "Ring-opening",
+            "Coordination"
+        ]
+    },
+    {
+        "q": "What is the difference between addition and condensation polymerization?",
+        "type": "mcq",
+        "o": [
+            "Condensation releases small molecule like water",
+            "Both are identical",
+            "Addition releases water",
+            "Condensation is faster"
+        ]
+    },
+    {
+        "q": "Ziegler-Natta catalyst produces stereoregular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "polymers"
+        ],
+        "other_options": [
+            "monomers",
+            "solvents",
+            "catalysts"
+        ]
+    },
+    {
+        "q": "Match the polymer with its monomer:",
+        "type": "match",
+        "left": [
+            "Polyethylene",
+            "Polypropylene",
+            "PVC",
+            "Polystyrene"
+        ],
+        "right": [
+            "Ethylene",
+            "Propylene",
+            "Vinyl chloride",
+            "Styrene"
+        ]
+    },
+    {
+        "q": "Molecular weight distribution affects polymer properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is polymer recycling?",
+        "type": "mcq",
+        "o": [
+            "Reprocessing waste plastics into new products",
+            "Burning plastics",
+            "Landfilling",
+            "Composting"
+        ]
+    },
+    {
+        "q": "Rearrange recycling types:",
+        "type": "rearrange",
+        "words": [
+            "Mechanical",
+            "Chemical",
+            "Energy recovery",
+            "Feedstock"
+        ]
+    },
+    {
+        "q": "What is chemical recycling?",
+        "type": "mcq",
+        "o": [
+            "Breaking polymers back to monomers",
+            "Melting and reshaping",
+            "Burning for energy",
+            "Composting"
+        ]
+    },
+    {
+        "q": "Pyrolysis converts plastics to ______ and fuels.",
+        "type": "fill_blank",
+        "answers": [
+            "chemicals"
+        ],
+        "other_options": [
+            "water",
+            "air",
+            "soil"
+        ]
+    },
+    {
+        "q": "Match the recycling method with its output:",
+        "type": "match",
+        "left": [
+            "Mechanical",
+            "Pyrolysis",
+            "Glycolysis",
+            "Gasification"
+        ],
+        "right": [
+            "Lower grade plastic",
+            "Oils and waxes",
+            "Monomers",
+            "Syngas"
+        ]
+    },
+    {
+        "q": "Biodegradable polymers decompose in environment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is battery manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing electrochemical energy storage devices",
+            "Electricity generation",
+            "Fuel production",
+            "Solar panel making"
+        ]
+    },
+    {
+        "q": "Rearrange lithium-ion battery components:",
+        "type": "rearrange",
+        "words": [
+            "Cathode",
+            "Anode",
+            "Separator",
+            "Electrolyte"
+        ]
+    },
+    {
+        "q": "What is the role of separator in batteries?",
+        "type": "mcq",
+        "o": [
+            "Prevent electrode contact while allowing ion transport",
+            "Store energy",
+            "Conduct electrons",
+            "Provide structure"
+        ]
+    },
+    {
+        "q": "NMC stands for nickel manganese ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cobalt"
+        ],
+        "other_options": [
+            "copper",
+            "chromium",
+            "calcium"
+        ]
+    },
+    {
+        "q": "Match the battery type with its application:",
+        "type": "match",
+        "left": [
+            "Lead-acid",
+            "Lithium-ion",
+            "Sodium-sulfur",
+            "Flow battery"
+        ],
+        "right": [
+            "Automotive starting",
+            "Portable electronics",
+            "Grid storage",
+            "Long duration storage"
+        ]
+    },
+    {
+        "q": "Solid-state batteries replace liquid electrolyte with solid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is semiconductor manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Making electronic chips from silicon wafers",
+            "Metal fabrication",
+            "Polymer processing",
+            "Chemical synthesis"
+        ]
+    },
+    {
+        "q": "Rearrange chip fabrication steps:",
+        "type": "rearrange",
+        "words": [
+            "Wafer preparation",
+            "Deposition",
+            "Lithography",
+            "Etching"
+        ]
+    },
+    {
+        "q": "What is photolithography?",
+        "type": "mcq",
+        "o": [
+            "Using light to pattern circuits on wafer",
+            "Mechanical cutting",
+            "Chemical etching only",
+            "Electrical forming"
+        ]
+    },
+    {
+        "q": "CVD stands for Chemical Vapor ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Deposition"
+        ],
+        "other_options": [
+            "Diffusion",
+            "Detection",
+            "Dissolution"
+        ]
+    },
+    {
+        "q": "Match the semiconductor process with its purpose:",
+        "type": "match",
+        "left": [
+            "Oxidation",
+            "Doping",
+            "Metallization",
+            "CMP"
+        ],
+        "right": [
+            "Insulating layer",
+            "Conductivity control",
+            "Electrical connections",
+            "Surface planarization"
+        ]
+    },
+    {
+        "q": "Cleanroom contamination control is critical in chip making.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is food processing engineering?",
+        "type": "mcq",
+        "o": [
+            "Transforming raw ingredients into food products",
+            "Farming only",
+            "Restaurant cooking",
+            "Nutrition research"
+        ]
+    },
+    {
+        "q": "Rearrange food preservation methods:",
+        "type": "rearrange",
+        "words": [
+            "Thermal",
+            "Drying",
+            "Freezing",
+            "Chemical"
+        ]
+    },
+    {
+        "q": "What is pasteurization?",
+        "type": "mcq",
+        "o": [
+            "Heat treatment to kill pathogens",
+            "Sterilization",
+            "Freezing",
+            "Drying"
+        ]
+    },
+    {
+        "q": "UHT stands for Ultra High ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Temperature"
+        ],
+        "other_options": [
+            "Treatment",
+            "Time",
+            "Texture"
+        ]
+    },
+    {
+        "q": "Match the food process with its effect:",
+        "type": "match",
+        "left": [
+            "Pasteurization",
+            "Sterilization",
+            "Freezing",
+            "MAP"
+        ],
+        "right": [
+            "Pathogen kill",
+            "Commercial sterility",
+            "Slow reactions",
+            "Extended shelf life"
+        ]
+    },
+    {
+        "q": "Water activity affects food spoilage rate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is wastewater treatment?",
+        "type": "mcq",
+        "o": [
+            "Removing contaminants from used water",
+            "Adding contaminants",
+            "Water distribution",
+            "Water storage"
+        ]
+    },
+    {
+        "q": "Rearrange wastewater treatment stages:",
+        "type": "rearrange",
+        "words": [
+            "Preliminary",
+            "Primary",
+            "Secondary",
+            "Tertiary"
+        ]
+    },
+    {
+        "q": "What is activated sludge?",
+        "type": "mcq",
+        "o": [
+            "Biological treatment using suspended microorganisms",
+            "Chemical treatment",
+            "Physical settling",
+            "Filtration"
+        ]
+    },
+    {
+        "q": "Anaerobic digestion produces ______ gas.",
+        "type": "fill_blank",
+        "answers": [
+            "bio"
+        ],
+        "other_options": [
+            "natural",
+            "inert",
+            "toxic"
+        ]
+    },
+    {
+        "q": "Match the treatment process with its removed contaminant:",
+        "type": "match",
+        "left": [
+            "Primary",
+            "Secondary",
+            "Nutrient removal",
+            "Disinfection"
+        ],
+        "right": [
+            "Solids",
+            "BOD",
+            "Nitrogen and phosphorus",
+            "Pathogens"
+        ]
+    },
+    {
+        "q": "Membrane bioreactor combines biological treatment with filtration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is air pollution control?",
+        "type": "mcq",
+        "o": [
+            "Removing contaminants from exhaust gases",
+            "Adding pollutants",
+            "Measuring air quality",
+            "Weather monitoring"
+        ]
+    },
+    {
+        "q": "Rearrange pollution control devices by particle size:",
+        "type": "rearrange",
+        "words": [
+            "Cyclone",
+            "Baghouse",
+            "Electrostatic precipitator",
+            "Wet scrubber"
+        ]
+    },
+    {
+        "q": "What is SCR in NOx control?",
+        "type": "mcq",
+        "o": [
+            "Selective Catalytic Reduction using ammonia",
+            "Selective Carbon Removal",
+            "Standard Control Regulation",
+            "System Control Routine"
+        ]
+    },
+    {
+        "q": "Thermal oxidizer destroys ______ compounds.",
+        "type": "fill_blank",
+        "answers": [
+            "organic"
+        ],
+        "other_options": [
+            "inorganic",
+            "metal",
+            "solid"
+        ]
+    },
+    {
+        "q": "Match the pollutant with its control technology:",
+        "type": "match",
+        "left": [
+            "Particulate",
+            "SO2",
+            "NOx",
+            "VOC"
+        ],
+        "right": [
+            "Baghouse",
+            "FGD",
+            "SCR",
+            "RTO"
+        ]
+    },
+    {
+        "q": "Catalytic converters reduce automotive emissions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is desalination?",
+        "type": "mcq",
+        "o": [
+            "Removing salt from seawater to produce freshwater",
+            "Adding salt",
+            "Water filtration",
+            "Water storage"
+        ]
+    },
+    {
+        "q": "Rearrange desalination technologies:",
+        "type": "rearrange",
+        "words": [
+            "RO",
+            "MED",
+            "MSF",
+            "ED"
+        ]
+    },
+    {
+        "q": "What drives reverse osmosis desalination?",
+        "type": "mcq",
+        "o": [
+            "High pressure to overcome osmotic pressure",
+            "Heat",
+            "Electricity directly",
+            "Chemical reaction"
+        ]
+    },
+    {
+        "q": "Energy recovery devices reduce RO ______ consumption.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "water",
+            "chemical",
+            "membrane"
+        ]
+    },
+    {
+        "q": "Match the desalination method with its energy source:",
+        "type": "match",
+        "left": [
+            "RO",
+            "MSF",
+            "MED",
+            "ED"
+        ],
+        "right": [
+            "Electricity",
+            "Steam",
+            "Low-grade heat",
+            "Electricity"
+        ]
+    },
+    {
+        "q": "Brine disposal is an environmental concern in desalination.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is natural gas processing?",
+        "type": "mcq",
+        "o": [
+            "Removing impurities and separating components from raw gas",
+            "Gas production",
+            "Gas transportation",
+            "Gas combustion"
+        ]
+    },
+    {
+        "q": "Rearrange gas processing units:",
+        "type": "rearrange",
+        "words": [
+            "Sweetening",
+            "Dehydration",
+            "NGL recovery",
+            "Fractionation"
+        ]
+    },
+    {
+        "q": "What is gas sweetening?",
+        "type": "mcq",
+        "o": [
+            "Removing H2S and CO2 from natural gas",
+            "Adding chemicals",
+            "Compressing gas",
+            "Heating gas"
+        ]
+    },
+    {
+        "q": "Glycol dehydration removes ______ from gas.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "CO2",
+            "H2S",
+            "methane"
+        ]
+    },
+    {
+        "q": "Match the gas component with its separation method:",
+        "type": "match",
+        "left": [
+            "H2S",
+            "Water",
+            "NGL",
+            "CO2"
+        ],
+        "right": [
+            "Amine",
+            "Glycol",
+            "Cryogenic",
+            "Membrane"
+        ]
+    },
+    {
+        "q": "LNG is liquefied natural gas for transport.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cryogenic separation?",
+        "type": "mcq",
+        "o": [
+            "Separation at very low temperatures",
+            "High temperature",
+            "Room temperature",
+            "Ambient conditions"
+        ]
+    },
+    {
+        "q": "Rearrange air separation products:",
+        "type": "rearrange",
+        "words": [
+            "Nitrogen",
+            "Oxygen",
+            "Argon",
+            "Rare gases"
+        ]
+    },
+    {
+        "q": "What is the main application of industrial oxygen?",
+        "type": "mcq",
+        "o": [
+            "Steel making and combustion",
+            "Breathing only",
+            "Cooling",
+            "Insulation"
+        ]
+    },
+    {
+        "q": "Air separation exploits different ______ points of gases.",
+        "type": "fill_blank",
+        "answers": [
+            "boiling"
+        ],
+        "other_options": [
+            "melting",
+            "freezing",
+            "critical"
+        ]
+    },
+    {
+        "q": "Match the air gas with its industrial use:",
+        "type": "match",
+        "left": [
+            "N2",
+            "O2",
+            "Ar",
+            "CO2"
+        ],
+        "right": [
+            "Inerting",
+            "Oxidation",
+            "Welding",
+            "Beverage"
+        ]
+    },
+    {
+        "q": "Pressure swing adsorption produces oxygen and nitrogen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is specialty chemicals?",
+        "type": "mcq",
+        "o": [
+            "High-value chemicals for specific applications",
+            "Commodity chemicals",
+            "Basic chemicals",
+            "Bulk chemicals"
+        ]
+    },
+    {
+        "q": "Rearrange specialty chemical categories:",
+        "type": "rearrange",
+        "words": [
+            "Agrochemicals",
+            "Flavors and fragrances",
+            "Electronic chemicals",
+            "Pharmaceutical intermediates"
+        ]
+    },
+    {
+        "q": "What distinguishes specialty from commodity chemicals?",
+        "type": "mcq",
+        "o": [
+            "Performance-based value rather than composition",
+            "Only price",
+            "Only volume",
+            "Only purity"
+        ]
+    },
+    {
+        "q": "Fine chemicals have ______ specifications than bulk chemicals.",
+        "type": "fill_blank",
+        "answers": [
+            "higher purity"
+        ],
+        "other_options": [
+            "lower",
+            "same",
+            "variable"
+        ]
+    },
+    {
+        "q": "Match the specialty chemical with its market:",
+        "type": "match",
+        "left": [
+            "Surfactants",
+            "Catalysts",
+            "Adhesives",
+            "Coatings"
+        ],
+        "right": [
+            "Personal care",
+            "Chemical production",
+            "Construction",
+            "Automotive"
+        ]
+    },
+    {
+        "q": "Custom manufacturing produces chemicals for specific customers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cosmetics manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing personal care and beauty products",
+            "Food processing",
+            "Pharmaceutical",
+            "Chemical synthesis"
+        ]
+    },
+    {
+        "q": "Rearrange cosmetic formulation components:",
+        "type": "rearrange",
+        "words": [
+            "Active ingredients",
+            "Carriers",
+            "Preservatives",
+            "Fragrances"
+        ]
+    },
+    {
+        "q": "What is emulsification in cosmetics?",
+        "type": "mcq",
+        "o": [
+            "Mixing oil and water with surfactants",
+            "Heating",
+            "Cooling",
+            "Drying"
+        ]
+    },
+    {
+        "q": "Cosmetic stability testing ensures product ______.",
+        "type": "fill_blank",
+        "answers": [
+            "shelf life"
+        ],
+        "other_options": [
+            "color",
+            "smell",
+            "texture"
+        ]
+    },
+    {
+        "q": "Match the cosmetic type with its form:",
+        "type": "match",
+        "left": [
+            "Lotion",
+            "Gel",
+            "Powder",
+            "Aerosol"
+        ],
+        "right": [
+            "O/W emulsion",
+            "Hydrogel",
+            "Solid particles",
+            "Spray"
+        ]
+    },
+    {
+        "q": "GMP applies to cosmetic manufacturing for quality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is textile chemical processing?",
+        "type": "mcq",
+        "o": [
+            "Treating fabrics with chemicals for properties",
+            "Weaving",
+            "Sewing",
+            "Designing"
+        ]
+    },
+    {
+        "q": "Rearrange textile finishing steps:",
+        "type": "rearrange",
+        "words": [
+            "Scouring",
+            "Bleaching",
+            "Dyeing",
+            "Finishing"
+        ]
+    },
+    {
+        "q": "What is mercerization?",
+        "type": "mcq",
+        "o": [
+            "Treating cotton with NaOH for luster and strength",
+            "Dyeing",
+            "Bleaching",
+            "Drying"
+        ]
+    },
+    {
+        "q": "Reactive dyes form ______ bonds with fibers.",
+        "type": "fill_blank",
+        "answers": [
+            "covalent"
+        ],
+        "other_options": [
+            "ionic",
+            "hydrogen",
+            "weak"
+        ]
+    },
+    {
+        "q": "Match the textile finish with its effect:",
+        "type": "match",
+        "left": [
+            "Water repellent",
+            "Flame retardant",
+            "Wrinkle resistant",
+            "Antimicrobial"
+        ],
+        "right": [
+            "Hydrophobic surface",
+            "Fire resistance",
+            "Easy care",
+            "Odor control"
+        ]
+    },
+    {
+        "q": "Textile wastewater requires special treatment due to dyes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is paper manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Converting wood pulp into paper products",
+            "Logging only",
+            "Printing",
+            "Binding"
+        ]
+    },
+    {
+        "q": "Rearrange papermaking steps:",
+        "type": "rearrange",
+        "words": [
+            "Pulping",
+            "Bleaching",
+            "Stock preparation",
+            "Paper forming"
+        ]
+    },
+    {
+        "q": "What is kraft pulping?",
+        "type": "mcq",
+        "o": [
+            "Chemical pulping using NaOH and Na2S",
+            "Mechanical pulping",
+            "Recycled paper",
+            "Cotton pulping"
+        ]
+    },
+    {
+        "q": "Black liquor recovery provides ______ and regenerates chemicals.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "pulp",
+            "paper",
+            "water"
+        ]
+    },
+    {
+        "q": "Match the paper grade with its application:",
+        "type": "match",
+        "left": [
+            "Newsprint",
+            "Packaging",
+            "Fine paper",
+            "Tissue"
+        ],
+        "right": [
+            "Newspapers",
+            "Boxes",
+            "Writing",
+            "Hygiene products"
+        ]
+    },
+    {
+        "q": "Paper recycling reduces virgin fiber demand.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cement manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing hydraulic binder from limestone and clay",
+            "Mixing concrete",
+            "Laying foundations",
+            "Building construction"
+        ]
+    },
+    {
+        "q": "Rearrange cement production steps:",
+        "type": "rearrange",
+        "words": [
+            "Raw meal preparation",
+            "Calcination",
+            "Clinker formation",
+            "Grinding"
+        ]
+    },
+    {
+        "q": "What is the kiln temperature for clinker formation?",
+        "type": "mcq",
+        "o": [
+            "About 1450 deg C",
+            "100 deg C",
+            "500 deg C",
+            "2000 deg C"
+        ]
+    },
+    {
+        "q": "Gypsum controls ______ time of cement.",
+        "type": "fill_blank",
+        "answers": [
+            "setting"
+        ],
+        "other_options": [
+            "strength",
+            "color",
+            "density"
+        ]
+    },
+    {
+        "q": "Match the cement type with its use:",
+        "type": "match",
+        "left": [
+            "OPC",
+            "Sulfate resistant",
+            "White cement",
+            "Oil well cement"
+        ],
+        "right": [
+            "General construction",
+            "Marine structures",
+            "Decorative",
+            "Well casing"
+        ]
+    },
+    {
+        "q": "Cement production is a major CO2 source.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is glass manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Melting silica with modifiers to form amorphous solid",
+            "Metal casting",
+            "Ceramic firing",
+            "Polymer forming"
+        ]
+    },
+    {
+        "q": "Rearrange glass production steps:",
+        "type": "rearrange",
+        "words": [
+            "Batch mixing",
+            "Melting",
+            "Forming",
+            "Annealing"
+        ]
+    },
+    {
+        "q": "What is the float process?",
+        "type": "mcq",
+        "o": [
+            "Making flat glass on molten tin",
+            "Blowing glass",
+            "Pressing glass",
+            "Drawing glass"
+        ]
+    },
+    {
+        "q": "Soda reduces the ______ temperature of silica.",
+        "type": "fill_blank",
+        "answers": [
+            "melting"
+        ],
+        "other_options": [
+            "boiling",
+            "freezing",
+            "transition"
+        ]
+    },
+    {
+        "q": "Match the glass type with its modifier:",
+        "type": "match",
+        "left": [
+            "Soda-lime",
+            "Borosilicate",
+            "Lead crystal",
+            "Aluminosilicate"
+        ],
+        "right": [
+            "Na2O and CaO",
+            "B2O3",
+            "PbO",
+            "Al2O3"
+        ]
+    },
+    {
+        "q": "Tempered glass is stronger than annealed glass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is paint manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing coatings from pigments, binders, and solvents",
+            "Wall covering",
+            "Printing",
+            "Dyeing"
+        ]
+    },
+    {
+        "q": "Rearrange paint components:",
+        "type": "rearrange",
+        "words": [
+            "Pigment",
+            "Binder",
+            "Solvent",
+            "Additives"
+        ]
+    },
+    {
+        "q": "What is the role of binder in paint?",
+        "type": "mcq",
+        "o": [
+            "Hold pigment particles and form film",
+            "Provide color",
+            "Reduce viscosity",
+            "Add gloss"
+        ]
+    },
+    {
+        "q": "VOC reduction drives water-based paint ______.",
+        "type": "fill_blank",
+        "answers": [
+            "development"
+        ],
+        "other_options": [
+            "removal",
+            "increase",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the paint type with its binder:",
+        "type": "match",
+        "left": [
+            "Latex",
+            "Alkyd",
+            "Epoxy",
+            "Polyurethane"
+        ],
+        "right": [
+            "Acrylic emulsion",
+            "Modified oil",
+            "Two component",
+            "Isocyanate crosslink"
+        ]
+    },
+    {
+        "q": "Powder coatings contain no solvent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is adhesive manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing materials that bond surfaces together",
+            "Cutting materials",
+            "Welding metals",
+            "Fastening mechanically"
+        ]
+    },
+    {
+        "q": "Rearrange adhesive types by mechanism:",
+        "type": "rearrange",
+        "words": [
+            "Solvent evaporation",
+            "Hot melt",
+            "Reactive",
+            "Pressure sensitive"
+        ]
+    },
+    {
+        "q": "What is a structural adhesive?",
+        "type": "mcq",
+        "o": [
+            "High strength adhesive for load-bearing joints",
+            "Temporary bonding",
+            "Paper glue",
+            "Tape"
+        ]
+    },
+    {
+        "q": "Epoxy adhesives are typically ______ component systems.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "four"
+        ]
+    },
+    {
+        "q": "Match the adhesive with its application:",
+        "type": "match",
+        "left": [
+            "Cyanoacrylate",
+            "Epoxy",
+            "PVA",
+            "Hot melt"
+        ],
+        "right": [
+            "Instant bonding",
+            "Structural",
+            "Wood",
+            "Packaging"
+        ]
+    },
+    {
+        "q": "Surface preparation affects adhesive bond strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is rubber processing?",
+        "type": "mcq",
+        "o": [
+            "Converting raw rubber into finished products",
+            "Plastic processing",
+            "Metal forming",
+            "Glass making"
+        ]
+    },
+    {
+        "q": "Rearrange rubber processing steps:",
+        "type": "rearrange",
+        "words": [
+            "Mastication",
+            "Compounding",
+            "Shaping",
+            "Vulcanization"
+        ]
+    },
+    {
+        "q": "What is vulcanization?",
+        "type": "mcq",
+        "o": [
+            "Crosslinking rubber with sulfur for elasticity",
+            "Melting rubber",
+            "Cutting rubber",
+            "Dissolving rubber"
+        ]
+    },
+    {
+        "q": "Carbon black is added to rubber for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reinforcement"
+        ],
+        "other_options": [
+            "color only",
+            "softening",
+            "dissolving"
+        ]
+    },
+    {
+        "q": "Match the rubber type with its source:",
+        "type": "match",
+        "left": [
+            "Natural rubber",
+            "SBR",
+            "EPDM",
+            "Silicone"
+        ],
+        "right": [
+            "Latex tree",
+            "Styrene and butadiene",
+            "Ethylene and propylene",
+            "Silicon polymer"
+        ]
+    },
+    {
+        "q": "Tire manufacturing is the largest rubber application.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is explosives manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Producing materials that release energy rapidly",
+            "Fuel production",
+            "Metal fabrication",
+            "Chemical synthesis"
+        ]
+    },
+    {
+        "q": "Rearrange explosive sensitivity:",
+        "type": "rearrange",
+        "words": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "Blasting agent"
+        ]
+    },
+    {
+        "q": "What is oxygen balance in explosives?",
+        "type": "mcq",
+        "o": [
+            "Ratio of oxygen to fuel for complete combustion",
+            "Weight ratio",
+            "Volume ratio",
+            "Temperature ratio"
+        ]
+    },
+    {
+        "q": "Detonation velocity indicates explosive ______.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "stability",
+            "cost",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the explosive with its use:",
+        "type": "match",
+        "left": [
+            "ANFO",
+            "TNT",
+            "RDX",
+            "Black powder"
+        ],
+        "right": [
+            "Mining",
+            "Military",
+            "Detonators",
+            "Pyrotechnics"
+        ]
+    },
+    {
+        "q": "Explosive manufacturing requires strict safety protocols.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is green chemistry principles?",
+        "type": "mcq",
+        "o": [
+            "Designing chemicals and processes to minimize hazards",
+            "Using green chemicals only",
+            "Organic chemistry",
+            "Biological chemistry"
+        ]
+    },
+    {
+        "q": "Rearrange green chemistry goals:",
+        "type": "rearrange",
+        "words": [
+            "Prevention",
+            "Atom economy",
+            "Less hazardous synthesis",
+            "Safer solvents"
+        ]
+    },
+    {
+        "q": "What is atom economy?",
+        "type": "mcq",
+        "o": [
+            "Maximizing incorporation of reactant atoms into product",
+            "Minimizing atoms",
+            "Counting atoms",
+            "Weighing atoms"
+        ]
+    },
+    {
+        "q": "E-factor measures ______ per kg of product.",
+        "type": "fill_blank",
+        "answers": [
+            "waste"
+        ],
+        "other_options": [
+            "energy",
+            "money",
+            "time"
+        ]
+    },
+    {
+        "q": "Match the green principle with its implementation:",
+        "type": "match",
+        "left": [
+            "Catalysis",
+            "Renewable feedstocks",
+            "Design for degradation",
+            "Real-time analysis"
+        ],
+        "right": [
+            "Reduce energy",
+            "Sustainable materials",
+            "Environmental fate",
+            "Process monitoring"
+        ]
+    },
+    {
+        "q": "Biocatalysis is often greener than chemical catalysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is circular economy in chemical industry?",
+        "type": "mcq",
+        "o": [
+            "Designing out waste and keeping materials in use",
+            "Linear production",
+            "Disposal focus",
+            "Single use"
+        ]
+    },
+    {
+        "q": "Rearrange circular economy strategies:",
+        "type": "rearrange",
+        "words": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Recover"
+        ]
+    },
+    {
+        "q": "What is industrial symbiosis?",
+        "type": "mcq",
+        "o": [
+            "Waste from one process becomes feedstock for another",
+            "Competition",
+            "Isolation",
+            "Duplication"
+        ]
+    },
+    {
+        "q": "Product life cycle considers ______ to grave impacts.",
+        "type": "fill_blank",
+        "answers": [
+            "cradle"
+        ],
+        "other_options": [
+            "factory",
+            "store",
+            "consumer"
+        ]
+    },
+    {
+        "q": "Match the sustainability metric with its focus:",
+        "type": "match",
+        "left": [
+            "Carbon footprint",
+            "Water footprint",
+            "Material intensity",
+            "Energy intensity"
+        ],
+        "right": [
+            "GHG emissions",
+            "Water use",
+            "Resource use",
+            "Energy consumption"
+        ]
+    },
+    {
+        "q": "Design for disassembly facilitates recycling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is computational fluid dynamics in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Numerical simulation of fluid flow and heat transfer",
+            "Manual calculations",
+            "Laboratory testing",
+            "Field measurements"
+        ]
+    },
+    {
+        "q": "CFD solves Navier-Stokes equations ______.",
+        "type": "fill_blank",
+        "answers": [
+            "numerically"
+        ],
+        "other_options": [
+            "analytically",
+            "manually",
+            "graphically"
+        ]
+    },
+    {
+        "q": "Match the CFD application with its use:",
+        "type": "match",
+        "left": [
+            "Mixing simulation",
+            "Combustion modeling",
+            "Multiphase flow",
+            "Heat exchanger design"
+        ],
+        "right": [
+            "Reactor optimization",
+            "Burner design",
+            "Separation equipment",
+            "Thermal performance"
+        ]
+    },
+    {
+        "q": "Mesh quality affects CFD accuracy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process data analytics?",
+        "type": "mcq",
+        "o": [
+            "Extracting insights from process data using statistics and ML",
+            "Manual data recording",
+            "Equipment maintenance",
+            "Process design"
+        ]
+    },
+    {
+        "q": "Rearrange data analytics steps:",
+        "type": "rearrange",
+        "words": [
+            "Data collection",
+            "Preprocessing",
+            "Analysis",
+            "Visualization"
+        ]
+    },
+    {
+        "q": "What is soft sensor?",
+        "type": "mcq",
+        "o": [
+            "Inferential model estimating hard-to-measure variables",
+            "Physical sensor",
+            "Control valve",
+            "Display panel"
+        ]
+    },
+    {
+        "q": "Machine learning enables ______ maintenance.",
+        "type": "fill_blank",
+        "answers": [
+            "predictive"
+        ],
+        "other_options": [
+            "reactive",
+            "corrective",
+            "breakdown"
+        ]
+    },
+    {
+        "q": "Match the analytics technique with its application:",
+        "type": "match",
+        "left": [
+            "PCA",
+            "Regression",
+            "Classification",
+            "Clustering"
+        ],
+        "right": [
+            "Dimensionality reduction",
+            "Prediction",
+            "Fault detection",
+            "Grouping similar data"
+        ]
+    },
+    {
+        "q": "Digital twin mirrors physical process for optimization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process scale-up?",
+        "type": "mcq",
+        "o": [
+            "Increasing process from lab to production scale",
+            "Reducing scale",
+            "Maintaining scale",
+            "Eliminating scale"
+        ]
+    },
+    {
+        "q": "Rearrange scale-up stages:",
+        "type": "rearrange",
+        "words": [
+            "Lab scale",
+            "Pilot scale",
+            "Demo scale",
+            "Commercial scale"
+        ]
+    },
+    {
+        "q": "What is geometric similarity in scale-up?",
+        "type": "mcq",
+        "o": [
+            "Same shape at different sizes",
+            "Same temperature",
+            "Same pressure",
+            "Same time"
+        ]
+    },
+    {
+        "q": "Dimensionless numbers help maintain ______ similarity.",
+        "type": "fill_blank",
+        "answers": [
+            "dynamic"
+        ],
+        "other_options": [
+            "static",
+            "thermal",
+            "geometric"
+        ]
+    },
+    {
+        "q": "Match the scale-up challenge with its solution:",
+        "type": "match",
+        "left": [
+            "Heat transfer",
+            "Mixing",
+            "Mass transfer",
+            "Reaction time"
+        ],
+        "right": [
+            "Surface area scaling",
+            "Power per volume",
+            "Interfacial area",
+            "Residence time scaling"
+        ]
+    },
+    {
+        "q": "Scale-up often requires pilot plant validation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is project management in chemical engineering?",
+        "type": "mcq",
+        "o": [
+            "Planning and executing capital projects",
+            "Only design",
+            "Only construction",
+            "Only startup"
+        ]
+    },
+    {
+        "q": "Rearrange project phases:",
+        "type": "rearrange",
+        "words": [
+            "FEL",
+            "FEED",
+            "Detailed design",
+            "Construction"
+        ]
+    },
+    {
+        "q": "What is FEED?",
+        "type": "mcq",
+        "o": [
+            "Front End Engineering Design",
+            "Final Engineering Evaluation Document",
+            "Feasibility Engineering Estimate Data",
+            "First Equipment Evaluation Design"
+        ]
+    },
+    {
+        "q": "EPC stands for Engineering Procurement ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Construction"
+        ],
+        "other_options": [
+            "Commissioning",
+            "Completion",
+            "Control"
+        ]
+    },
+    {
+        "q": "Match the project phase with its deliverable:",
+        "type": "match",
+        "left": [
+            "Conceptual",
+            "FEED",
+            "Detailed",
+            "Construction"
+        ],
+        "right": [
+            "Order of magnitude estimate",
+            "Process design package",
+            "Equipment drawings",
+            "Installed plant"
+        ]
+    },
+    {
+        "q": "Commissioning prepares plant for safe startup.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is equipment specification?",
+        "type": "mcq",
+        "o": [
+            "Detailed requirements for process equipment",
+            "General description",
+            "Cost only",
+            "Size only"
+        ]
+    },
+    {
+        "q": "Rearrange specification contents:",
+        "type": "rearrange",
+        "words": [
+            "Process conditions",
+            "Materials",
+            "Mechanical requirements",
+            "Instrumentation"
+        ]
+    },
+    {
+        "q": "What is a datasheet?",
+        "type": "mcq",
+        "o": [
+            "Standard form with equipment specifications",
+            "Drawing",
+            "Report",
+            "Manual"
+        ]
+    },
+    {
+        "q": "Design margin accounts for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "uncertainty"
+        ],
+        "other_options": [
+            "precision",
+            "accuracy",
+            "exact values"
+        ]
+    },
+    {
+        "q": "Match the specification item with its importance:",
+        "type": "match",
+        "left": [
+            "Materials of construction",
+            "Design pressure",
+            "Insulation",
+            "Nozzle sizes"
+        ],
+        "right": [
+            "Corrosion resistance",
+            "Safety factor",
+            "Heat loss",
+            "Piping connection"
+        ]
+    },
+    {
+        "q": "Vendor selection includes technical and commercial evaluation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is piping design?",
+        "type": "mcq",
+        "o": [
+            "Engineering of pipe systems for fluid transport",
+            "Equipment design",
+            "Building design",
+            "Road design"
+        ]
+    },
+    {
+        "q": "Rearrange piping design considerations:",
+        "type": "rearrange",
+        "words": [
+            "Routing",
+            "Sizing",
+            "Support",
+            "Stress analysis"
+        ]
+    },
+    {
+        "q": "What is pipe stress analysis?",
+        "type": "mcq",
+        "o": [
+            "Evaluating stresses from pressure, temperature, and loads",
+            "Flow calculation",
+            "Material selection",
+            "Cost estimation"
+        ]
+    },
+    {
+        "q": "Thermal expansion causes pipe ______.",
+        "type": "fill_blank",
+        "answers": [
+            "movement"
+        ],
+        "other_options": [
+            "shrinkage",
+            "hardening",
+            "cooling"
+        ]
+    },
+    {
+        "q": "Match the piping component with its function:",
+        "type": "match",
+        "left": [
+            "Expansion loop",
+            "Anchor",
+            "Guide",
+            "Spring hanger"
+        ],
+        "right": [
+            "Absorb thermal expansion",
+            "Fixed point",
+            "Allow axial movement",
+            "Support with flexibility"
+        ]
+    },
+    {
+        "q": "ASME B31 covers process piping codes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pressure vessel design?",
+        "type": "mcq",
+        "o": [
+            "Engineering containers for pressure service",
+            "Pipeline design",
+            "Building design",
+            "Pump design"
+        ]
+    },
+    {
+        "q": "Rearrange pressure vessel design steps:",
+        "type": "rearrange",
+        "words": [
+            "Material selection",
+            "Wall thickness",
+            "Nozzle reinforcement",
+            "Support design"
+        ]
+    },
+    {
+        "q": "What is MAWP?",
+        "type": "mcq",
+        "o": [
+            "Maximum Allowable Working Pressure",
+            "Minimum Allowable Working Pressure",
+            "Maximum Average Working Pressure",
+            "Minimum Average Working Pressure"
+        ]
+    },
+    {
+        "q": "Corrosion allowance adds extra ______ to vessel wall.",
+        "type": "fill_blank",
+        "answers": [
+            "thickness"
+        ],
+        "other_options": [
+            "length",
+            "diameter",
+            "volume"
+        ]
+    },
+    {
+        "q": "Match the vessel code with its region:",
+        "type": "match",
+        "left": [
+            "ASME VIII",
+            "PED",
+            "AS 1210",
+            "GB 150"
+        ],
+        "right": [
+            "USA",
+            "Europe",
+            "Australia",
+            "China"
+        ]
+    },
+    {
+        "q": "Hydrostatic testing verifies vessel integrity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is heat exchanger design?",
+        "type": "mcq",
+        "o": [
+            "Engineering equipment for heat transfer between fluids",
+            "Reactor design",
+            "Column design",
+            "Tank design"
+        ]
+    },
+    {
+        "q": "Rearrange heat exchanger design parameters:",
+        "type": "rearrange",
+        "words": [
+            "Heat duty",
+            "LMTD",
+            "Overall U",
+            "Area"
+        ]
+    },
+    {
+        "q": "What is TEMA classification?",
+        "type": "mcq",
+        "o": [
+            "Standard for shell and tube heat exchanger design",
+            "Pump classification",
+            "Valve classification",
+            "Piping classification"
+        ]
+    },
+    {
+        "q": "Baffles increase shell side ______.",
+        "type": "fill_blank",
+        "answers": [
+            "turbulence"
+        ],
+        "other_options": [
+            "volume",
+            "pressure",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Match the exchanger type with its advantage:",
+        "type": "match",
+        "left": [
+            "Fixed tubesheet",
+            "U-tube",
+            "Floating head",
+            "Plate"
+        ],
+        "right": [
+            "Simple and cheap",
+            "Thermal expansion",
+            "Easy cleaning both sides",
+            "High area compact"
+        ]
+    },
+    {
+        "q": "Tube bundle vibration can cause failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is distillation column design?",
+        "type": "mcq",
+        "o": [
+            "Engineering separation columns for VLE",
+            "Reactor design",
+            "Tank design",
+            "Pump design"
+        ]
+    },
+    {
+        "q": "Rearrange column design sequence:",
+        "type": "rearrange",
+        "words": [
+            "Separation requirements",
+            "Minimum stages",
+            "Actual stages",
+            "Column sizing"
+        ]
+    },
+    {
+        "q": "What determines minimum number of stages?",
+        "type": "mcq",
+        "o": [
+            "Total reflux calculation",
+            "Feed condition",
+            "Column diameter",
+            "Tray spacing"
+        ]
+    },
+    {
+        "q": "Flooding velocity limits column ______.",
+        "type": "fill_blank",
+        "answers": [
+            "capacity"
+        ],
+        "other_options": [
+            "height",
+            "thickness",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the column internal with its characteristic:",
+        "type": "match",
+        "left": [
+            "Valve tray",
+            "Random packing",
+            "Structured packing",
+            "Dual flow tray"
+        ],
+        "right": [
+            "Wide turndown",
+            "High capacity old design",
+            "Lowest pressure drop",
+            "High liquid rate"
+        ]
+    },
+    {
+        "q": "Weir height controls tray liquid level.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is reactor design?",
+        "type": "mcq",
+        "o": [
+            "Engineering vessels for chemical reactions",
+            "Separation design",
+            "Piping design",
+            "Building design"
+        ]
+    },
+    {
+        "q": "Rearrange reactor design factors:",
+        "type": "rearrange",
+        "words": [
+            "Kinetics",
+            "Thermodynamics",
+            "Transport",
+            "Mechanical"
+        ]
+    },
+    {
+        "q": "What determines reactor volume?",
+        "type": "mcq",
+        "o": [
+            "Residence time for required conversion",
+            "Building size",
+            "Cost only",
+            "Random selection"
+        ]
+    },
+    {
+        "q": "Heat removal is critical in ______ reactions.",
+        "type": "fill_blank",
+        "answers": [
+            "exothermic"
+        ],
+        "other_options": [
+            "endothermic",
+            "isothermal",
+            "slow"
+        ]
+    },
+    {
+        "q": "Match the reactor feature with its purpose:",
+        "type": "match",
+        "left": [
+            "Agitator",
+            "Jacket",
+            "Coil",
+            "Baffles"
+        ],
+        "right": [
+            "Mixing",
+            "Heating or cooling",
+            "Heat transfer",
+            "Prevent vortex"
+        ]
+    },
+    {
+        "q": "Reactor metallurgy must resist process conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is storage tank design?",
+        "type": "mcq",
+        "o": [
+            "Engineering containers for bulk liquid storage",
+            "Pressure vessel design",
+            "Reactor design",
+            "Column design"
+        ]
+    },
+    {
+        "q": "Rearrange tank design considerations:",
+        "type": "rearrange",
+        "words": [
+            "Capacity",
+            "Material",
+            "Roof type",
+            "Foundation"
+        ]
+    },
+    {
+        "q": "What is floating roof tank?",
+        "type": "mcq",
+        "o": [
+            "Tank with roof that floats on liquid surface",
+            "Fixed roof tank",
+            "Underground tank",
+            "Spherical tank"
+        ]
+    },
+    {
+        "q": "Floating roof reduces vapor ______.",
+        "type": "fill_blank",
+        "answers": [
+            "losses"
+        ],
+        "other_options": [
+            "pressure",
+            "temperature",
+            "density"
+        ]
+    },
+    {
+        "q": "Match the tank type with its application:",
+        "type": "match",
+        "left": [
+            "Cone roof",
+            "Floating roof",
+            "Spherical",
+            "Horizontal"
+        ],
+        "right": [
+            "Non-volatile liquids",
+            "Volatile liquids",
+            "LPG",
+            "Small capacity"
+        ]
+    },
+    {
+        "q": "API 650 covers atmospheric storage tank design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pump selection?",
+        "type": "mcq",
+        "o": [
+            "Choosing appropriate pump for service conditions",
+            "Random selection",
+            "Cost only",
+            "Size only"
+        ]
+    },
+    {
+        "q": "Rearrange pump selection criteria:",
+        "type": "rearrange",
+        "words": [
+            "Flow rate",
+            "Head",
+            "NPSH",
+            "Fluid properties"
+        ]
+    },
+    {
+        "q": "What is pump curve?",
+        "type": "mcq",
+        "o": [
+            "Graph showing head versus flow rate",
+            "Efficiency curve",
+            "Power curve",
+            "Cost curve"
+        ]
+    },
+    {
+        "q": "System curve shows required ______ at each flow rate.",
+        "type": "fill_blank",
+        "answers": [
+            "head"
+        ],
+        "other_options": [
+            "power",
+            "efficiency",
+            "speed"
+        ]
+    },
+    {
+        "q": "Match the pump type with its application:",
+        "type": "match",
+        "left": [
+            "Centrifugal",
+            "Positive displacement",
+            "Submersible",
+            "Metering"
+        ],
+        "right": [
+            "General service",
+            "High viscosity",
+            "Well pumping",
+            "Precise dosing"
+        ]
+    },
+    {
+        "q": "VFD allows pump speed adjustment for energy saving.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is compressor selection?",
+        "type": "mcq",
+        "o": [
+            "Choosing appropriate compressor for gas service",
+            "Pump selection",
+            "Valve selection",
+            "Tank selection"
+        ]
+    },
+    {
+        "q": "Rearrange compressor selection factors:",
+        "type": "rearrange",
+        "words": [
+            "Flow rate",
+            "Pressure ratio",
+            "Gas properties",
+            "Driver type"
+        ]
+    },
+    {
+        "q": "What is surge in centrifugal compressors?",
+        "type": "mcq",
+        "o": [
+            "Flow reversal at low flow causing damage",
+            "Normal operation",
+            "High efficiency",
+            "Maximum capacity"
+        ]
+    },
+    {
+        "q": "Anti-surge control protects compressor from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "damage"
+        ],
+        "other_options": [
+            "efficiency",
+            "capacity",
+            "power"
+        ]
+    },
+    {
+        "q": "Match the compressor with its typical application:",
+        "type": "match",
+        "left": [
+            "Reciprocating",
+            "Centrifugal",
+            "Screw",
+            "Axial"
+        ],
+        "right": [
+            "High pressure process",
+            "Large continuous flow",
+            "Air compression",
+            "Very high flow"
+        ]
+    },
+    {
+        "q": "Compressor efficiency affects operating cost significantly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is agitator design?",
+        "type": "mcq",
+        "o": [
+            "Engineering mixing equipment for process vessels",
+            "Pump design",
+            "Valve design",
+            "Tank design"
+        ]
+    },
+    {
+        "q": "Rearrange agitator design parameters:",
+        "type": "rearrange",
+        "words": [
+            "Impeller type",
+            "Diameter",
+            "Speed",
+            "Power"
+        ]
+    },
+    {
+        "q": "What is power number in agitation?",
+        "type": "mcq",
+        "o": [
+            "Dimensionless number relating power to impeller parameters",
+            "Actual power",
+            "Motor size",
+            "Speed ratio"
+        ]
+    },
+    {
+        "q": "Turbulent mixing occurs at high ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "Reynolds"
+        ],
+        "other_options": [
+            "Power",
+            "Froude",
+            "Blend"
+        ]
+    },
+    {
+        "q": "Match the impeller with its application:",
+        "type": "match",
+        "left": [
+            "Rushton turbine",
+            "Pitched blade",
+            "Hydrofoil",
+            "Anchor"
+        ],
+        "right": [
+            "Gas dispersion",
+            "Solid suspension",
+            "Low shear mixing",
+            "High viscosity"
+        ]
+    },
+    {
+        "q": "Baffles prevent solid body rotation in tanks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is material handling in chemical plants?",
+        "type": "mcq",
+        "o": [
+            "Moving and storing materials through process",
+            "Material testing",
+            "Material synthesis",
+            "Material analysis"
+        ]
+    },
+    {
+        "q": "Rearrange material handling equipment:",
+        "type": "rearrange",
+        "words": [
+            "Conveyors",
+            "Feeders",
+            "Elevators",
+            "Bins"
+        ]
+    },
+    {
+        "q": "What is pneumatic conveying?",
+        "type": "mcq",
+        "o": [
+            "Transporting solids using gas flow",
+            "Liquid pumping",
+            "Gravity flow",
+            "Mechanical conveying"
+        ]
+    },
+    {
+        "q": "Screw conveyors transport solids through ______ action.",
+        "type": "fill_blank",
+        "answers": [
+            "helical"
+        ],
+        "other_options": [
+            "rotary",
+            "linear",
+            "oscillating"
+        ]
+    },
+    {
+        "q": "Match the conveyor with its application:",
+        "type": "match",
+        "left": [
+            "Belt",
+            "Screw",
+            "Bucket elevator",
+            "Pneumatic"
+        ],
+        "right": [
+            "Bulk horizontal",
+            "Enclosed horizontal",
+            "Vertical lift",
+            "Long distance powder"
+        ]
+    },
+    {
+        "q": "Dust control is important in solids handling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is utility system design?",
+        "type": "mcq",
+        "o": [
+            "Engineering support systems for process plant",
+            "Process design only",
+            "Building design",
+            "Road design"
+        ]
+    },
+    {
+        "q": "Rearrange utility systems:",
+        "type": "rearrange",
+        "words": [
+            "Steam",
+            "Cooling water",
+            "Compressed air",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "What is steam header?",
+        "type": "mcq",
+        "o": [
+            "Main pipe distributing steam to users",
+            "Steam generator",
+            "Condensate tank",
+            "Boiler feedwater"
+        ]
+    },
+    {
+        "q": "Cooling tower rejects heat to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "atmosphere"
+        ],
+        "other_options": [
+            "ground",
+            "water body",
+            "process"
+        ]
+    },
+    {
+        "q": "Match the utility with its pressure level:",
+        "type": "match",
+        "left": [
+            "HP steam",
+            "MP steam",
+            "LP steam",
+            "Vacuum"
+        ],
+        "right": [
+            "40 bar",
+            "10 bar",
+            "3 bar",
+            "Below atmospheric"
+        ]
+    },
+    {
+        "q": "Instrument air must be dry and oil-free.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is flare system?",
+        "type": "mcq",
+        "o": [
+            "Safety system to burn excess gases",
+            "Lighting system",
+            "Heating system",
+            "Cooling system"
+        ]
+    },
+    {
+        "q": "Rearrange flare system components:",
+        "type": "rearrange",
+        "words": [
+            "Knockout drum",
+            "Seal drum",
+            "Flare stack",
+            "Pilot burner"
+        ]
+    },
+    {
+        "q": "What is the purpose of knockout drum?",
+        "type": "mcq",
+        "o": [
+            "Remove liquids before flare",
+            "Generate flame",
+            "Store gas",
+            "Cool gases"
+        ]
+    },
+    {
+        "q": "Smokeless flare uses steam or air ______.",
+        "type": "fill_blank",
+        "answers": [
+            "injection"
+        ],
+        "other_options": [
+            "cooling",
+            "heating",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the relief device with its application:",
+        "type": "match",
+        "left": [
+            "PSV",
+            "Rupture disk",
+            "PVRV",
+            "Emergency vent"
+        ],
+        "right": [
+            "Pressure relief",
+            "Rapid depressure",
+            "Tank breathing",
+            "Fire case"
+        ]
+    },
+    {
+        "q": "Flare tip design affects combustion efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is plant layout design?",
+        "type": "mcq",
+        "o": [
+            "Arranging equipment and buildings on site",
+            "Equipment design",
+            "Process design",
+            "Control design"
+        ]
+    },
+    {
+        "q": "Spacing requirements ensure ______ between equipment.",
+        "type": "fill_blank",
+        "answers": [
+            "safety"
+        ],
+        "other_options": [
+            "access",
+            "appearance",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the layout consideration with its purpose:",
+        "type": "match",
+        "left": [
+            "Fire separation",
+            "Access roads",
+            "Pipe racks",
+            "Control room"
+        ],
+        "right": [
+            "Safety",
+            "Maintenance",
+            "Piping support",
+            "Operations"
+        ]
+    },
+    {
+        "q": "Plot plan shows equipment positions on site.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

@@ -1,434 +1,56 @@
 [
-  {
-    "title": "Electron Configuration of Oxygen",
-    "ques": "Write the electron configuration of an oxygen atom and explain the arrangement.",
-    "answer": {
-      "type": "text",
-      "content": "1s²\n2s²\n2p⁴"
+    {
+        "title": "Electron Configuration 🔵",
+        "ques": "Write the electron configuration for:\n1. Carbon (Z=6)\n2. Iron (Z=26)\n3. Explain the aufbau principle",
+        "answer": {
+            "type": "text",
+            "content": "**1. Carbon:** 1s² 2s² 2p²\n\n**2. Iron:** 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶\n\n**3. Aufbau Principle:** Electrons fill orbitals in order of increasing energy (1s→2s→2p→3s→3p→4s→3d...)"
+        },
+        "explanation": "**Electron configuration** follows the aufbau principle. Note that 4s fills before 3d due to energy levels."
     },
-    "explanation": "***1s²***: The first shell has one orbital (1s) that holds two electrons.\n***2s²***: The second shell starts with the 2s orbital, also filled with two electrons.\n***2p⁴***: The remaining four electrons occupy the 2p orbital. The p orbital can hold up to six electrons, but oxygen only has four left for this shell.\n```Total electrons: 8```, as oxygen has an atomic number of 8."
-  },
-  {
-    "title": "Ionic Bond Formation",
-    "ques": "Describe the ionic bond formation between sodium (Na) and chlorine (Cl).",
-    "answer": {
-      "type": "text",
-      "content": "Sodium loses 1 electron to become Na⁺.\nChlorine gains 1 electron to become Cl⁻.\nThe oppositely charged ions attract each other forming NaCl."
+    {
+        "title": "Chemical Bonding Types 🔗",
+        "ques": "Compare ionic, covalent, and metallic bonding:\n1. How electrons are shared/transferred\n2. Example compound for each\n3. Typical properties",
+        "answer": {
+            "type": "text",
+            "content": "| Type | Electrons | Example | Properties |\n|------|-----------|---------|------------|\n| **Ionic** | Transferred | NaCl | High mp, conducts when molten |\n| **Covalent** | Shared | H₂O | Low mp, poor conductor |\n| **Metallic** | Delocalized | Cu | Conducts, malleable, lustrous |"
+        },
+        "explanation": "**Bonding type** determines properties. Metals share electrons freely; ionic compounds form crystal lattices."
     },
-    "explanation": "***Sodium (Na)*** has 1 valence electron which it easily loses to attain a noble gas configuration, forming ***Na⁺***.\n***Chlorine (Cl)*** has 7 valence electrons and needs 1 more to complete its octet. It gains one electron to become ***Cl⁻***.\n```Electrostatic force``` between Na⁺ and Cl⁻ results in the formation of an ***ionic bond***.\nThe compound formed is ***sodium chloride (NaCl)***."
-  },
-  {
-    "title": "Boyle's Law Calculation",
-    "ques": "A gas has a volume of 2.0 L at a pressure of 1.0 atm. What will be its volume if the pressure is increased to 2.0 atm, keeping temperature constant?",
-    "answer": {
-      "type": "text",
-      "content": "According to Boyle's Law:\nP₁V₁ = P₂V₂\n(1.0 atm)(2.0 L) = (2.0 atm)(V₂)\nV₂ = 1.0 L"
+    {
+        "title": "Gas Laws Calculation 🎈",
+        "ques": "2.0 mol of gas at 300 K and 1 atm. Find:\n1. Volume (R = 0.0821 L·atm/mol·K)\n2. Volume at 600 K (constant P)\n3. Pressure at half the volume (constant T)",
+        "answer": {
+            "type": "text",
+            "content": "**1. Ideal Gas Law:**\n```\nV = nRT/P = 2 × 0.0821 × 300/1 = 49.3 L\n```\n\n**2. Charles's Law:**\n```\nV₂ = V₁(T₂/T₁) = 49.3(600/300) = 98.6 L\n```\n\n**3. Boyle's Law:**\n```\nP₂ = P₁(V₁/V₂) = 1(2) = 2 atm\n```"
+        },
+        "explanation": "**PV = nRT** combines all gas laws. Temperature must always be in Kelvin!"
     },
-    "explanation": "***Boyle's Law*** states that ***pressure and volume are inversely proportional*** when temperature is constant.\n```P₁ = 1.0 atm```, ```V₁ = 2.0 L```, ```P₂ = 2.0 atm```\nSubstitute into the formula: ***P₁V₁ = P₂V₂***\n(1.0)(2.0) = (2.0)(V₂) => V₂ = 1.0 L\nSo, the volume decreases as pressure increases."
-  },
-  {
-    "title": "Phase Change from Liquid to Gas",
-    "ques": "What happens to the energy of particles during the transition from liquid to gas?",
-    "answer": {
-      "type": "text",
-      "content": "Particles gain kinetic energy.\nIntermolecular forces break.\nParticles escape into the gas phase."
+    {
+        "title": "Reaction Equilibrium ⚖️",
+        "ques": "For the reaction: N₂ + 3H₂ ⇌ 2NH₃\n\nAt equilibrium: [N₂]=0.5M, [H₂]=1.5M, [NH₃]=2.0M\n\n1. Write the Kc expression\n2. Calculate Kc\n3. Predict shift if [H₂] is increased",
+        "answer": {
+            "type": "text",
+            "content": "**1. Kc expression:**\n```\nKc = [NH₃]²/([N₂][H₂]³)\n```\n\n**2. Calculate Kc:**\n```\nKc = (2.0)²/(0.5 × 1.5³)\n   = 4/(0.5 × 3.375) = 2.37\n```\n\n**3. Le Chatelier:** Adding H₂ → shifts **right** → more NH₃"
+        },
+        "explanation": "**Le Chatelier's Principle:** Systems at equilibrium shift to counteract changes. Adding reactant favors products."
     },
-    "explanation": "During ***liquid to gas transition (boiling or evaporation)***, particles absorb heat energy.\nThis increases their ***kinetic energy***, allowing them to overcome ***intermolecular attractions***.\nOnce these forces are broken, the particles move freely, forming a ***gaseous state***.\n```This is an endothermic process.```"
-  },
-  {
-    "title": "Effect of Temperature on Reaction Rate",
-    "ques": "How does increasing temperature affect the rate of a chemical reaction?",
-    "answer": {
-      "type": "text",
-      "content": "It increases the kinetic energy of particles.\nMore collisions occur per unit time.\nMore collisions have sufficient energy to overcome activation energy."
+    {
+        "title": "Phase Changes 🌡️",
+        "ques": "Draw and label a phase diagram for water showing:\n1. Three phases and critical point\n2. Why ice floats\n3. What happens at the triple point",
+        "answer": {
+            "type": "text",
+            "content": "**1. Phase Diagram:**\n```\n   P |\n     |     LIQUID\n     |  ___/\n     | /   \\ Critical point\n     |/SOLID\\ \n     |-------\\GAS\n     |___Triple point___\n     ---------------------- T\n```\n\n**2. Ice floats:** Water's solid-liquid boundary slopes LEFT (unusual) - ice less dense than water\n\n**3. Triple point:** All three phases coexist (0.01°C, 611 Pa)"
+        },
+        "explanation": "**Water is unusual** - most substances have solid denser than liquid. This is why ice floats and lakes freeze top-down."
     },
-    "explanation": "***Higher temperature*** means particles move faster due to ***increased kinetic energy***.\nThis leads to ***more frequent collisions*** between reactant molecules.\nAdditionally, more particles possess energy equal to or greater than the ***activation energy***.\n```Result: Increased reaction rate.```"
-  },
-  {
-    "title": "Equilibrium Shift with Concentration Change",
-    "ques": "In the reaction N₂ + 3H₂ ⇌ 2NH₃, what happens to the equilibrium if more N₂ is added?",
-    "answer": {
-      "type": "text",
-      "content": "The equilibrium shifts to the right to produce more NH₃."
-    },
-    "explanation": "***Le Chatelier’s Principle*** states that the system will adjust to counteract the change.\nAdding more ***N₂*** increases the concentration of a reactant.\nThe system shifts to the ***right*** to consume added N₂ and produce more ***NH₃***.\n```This results in the formation of more ammonia.```"
-  },
-  {
-    "title": "Electron Configuration of Iron (Fe)",
-    "ques": "Write the electron configuration for the element iron (Fe, atomic number 26).",
-    "answer": {
-      "type": "text",
-      "content": "1s²\n2s²\n2p⁶\n3s²\n3p⁶\n4s²\n3d⁶"
-    },
-    "explanation": "***Iron (Fe)*** has an atomic number of ***26***, meaning it has ***26 electrons***.\nElectrons fill orbitals in order of increasing energy:\n```1s² → 2s² → 2p⁶ → 3s² → 3p⁶ → 4s² → 3d⁶```\n***4s orbital*** is filled before 3d due to its lower energy, even though 3d is in the third shell.\nThis configuration reflects the ***ground state*** of iron."
-  },
-  {
-    "title": "Covalent Bond in Water Molecule",
-    "ques": "Explain how covalent bonding occurs in a water (H₂O) molecule.",
-    "answer": {
-      "type": "text",
-      "content": "Each hydrogen shares one electron with oxygen.\nOxygen shares one electron with each hydrogen.\nTwo O–H covalent bonds are formed."
-    },
-    "explanation": "***Covalent bonding*** involves ***sharing of electron pairs*** between atoms.\nIn water:\n- Each ***H atom*** has 1 electron and needs 1 more to achieve a stable configuration.\n- ***Oxygen*** has 6 valence electrons and needs 2 more.\nOxygen shares ***1 electron with each hydrogen***, completing its octet.\n```Two O–H single covalent bonds``` are formed in the H₂O molecule."
-  },
-  {
-    "title": "Charles's Law - Volume and Temperature",
-    "ques": "A gas has a volume of 500 mL at 300 K. What will be its volume at 600 K, assuming constant pressure?",
-    "answer": {
-      "type": "text",
-      "content": "Using Charles’s Law:\nV₁/T₁ = V₂/T₂\n500/300 = V₂/600\nV₂ = 1000 mL"
-    },
-    "explanation": "***Charles’s Law*** states that ***volume is directly proportional to temperature*** at constant pressure.\nGiven:\n```V₁ = 500 mL, T₁ = 300 K, T₂ = 600 K```\nUsing the formula ***V₁/T₁ = V₂/T₂***:\n500/300 = V₂/600 → V₂ = 1000 mL\nSo, volume ***doubles*** as temperature doubles."
-  },
-  {
-    "title": "Metallic Bonding in Copper",
-    "ques": "Describe the bonding in metallic copper and how it accounts for its properties.",
-    "answer": {
-      "type": "text",
-      "content": "Metal atoms release electrons into a 'sea of electrons'.\nPositive metal ions are held together by attraction to this electron sea.\nThis allows conductivity and malleability."
-    },
-    "explanation": "In ***metallic bonding***, metal atoms lose their valence electrons to form a ***'sea of delocalized electrons'***.\n***Copper atoms*** become ***positive ions*** surrounded by this electron cloud.\nThese mobile electrons allow ***electrical conductivity***.\nThe structure is flexible, allowing metal layers to slide, which leads to ***malleability***.\n```The electrostatic attraction between ions and electrons holds the metal together.```"
-  },
-  {
-    "title": "Effect of Pressure on Equilibrium",
-    "ques": "In the reaction: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), what will happen if pressure is increased?",
-    "answer": {
-      "type": "text",
-      "content": "The equilibrium shifts to the right to form more SO₃."
-    },
-    "explanation": "***Le Chatelier’s Principle*** states that increasing pressure favors the side with ***fewer gas molecules***.\nOn the left side: ***2 + 1 = 3 moles of gas***\nOn the right side: ***2 moles of SO₃***\nSince the right side has fewer gas particles, the system shifts ***to the right*** to reduce pressure.\n```Result: More SO₃ is produced.```"
-  },
-  {
-    "title": "Activation Energy and Reaction Rate",
-    "ques": "Why does a catalyst increase the rate of a chemical reaction?",
-    "answer": {
-      "type": "text",
-      "content": "A catalyst lowers the activation energy.\nThis allows more particles to react.\nReaction occurs faster."
-    },
-    "explanation": "***Activation energy*** is the minimum energy needed for a reaction to occur.\nA ***catalyst provides an alternative pathway*** with a ***lower activation energy***.\nThis increases the number of particles that have sufficient energy to react.\n```Thus, the reaction rate increases without the catalyst being consumed.```"
-  },
-  {
-    "title": "Aufbau Principle and Electron Filling",
-    "ques": "Using the Aufbau principle, determine the last subshell occupied in the electron configuration of phosphorus (P, atomic number 15).",
-    "answer": {
-      "type": "text",
-      "content": "The last subshell occupied is 3p.\nConfiguration: 1s²\n2s²\n2p⁶\n3s²\n3p³"
-    },
-    "explanation": "The ***Aufbau principle*** states electrons fill orbitals starting from ***lowest to highest energy***.\nPhosphorus has ***15 electrons***:\n```1s² → 2s² → 2p⁶ → 3s² → 3p³```\nThe ***3p subshell*** is the last to be filled with ***3 electrons***.\nThis configuration ensures the atom is in its ***ground state***."
-  },
-  {
-    "title": "Ionic vs Covalent Bonds",
-    "ques": "Differentiate between ionic and covalent bonding using NaCl and CH₄ as examples.",
-    "answer": {
-      "type": "text",
-      "content": "NaCl: Ionic bond formed by electron transfer.\nCH₄: Covalent bonds formed by electron sharing."
-    },
-    "explanation": "***NaCl*** is formed when ***sodium donates*** an electron to ***chlorine*** → ***Ionic bond*** (Na⁺ and Cl⁻).\nIn ***CH₄ (methane)***, ***carbon shares*** one electron each with ***four hydrogen atoms*** → ***Covalent bonds***.\n```Ionic: Metal + Nonmetal, electron transfer```\n```Covalent: Nonmetals, electron sharing```"
-  },
-  {
-    "title": "Ideal Gas Law Application",
-    "ques": "Calculate the volume occupied by 2 moles of an ideal gas at 300 K and 1 atm pressure. (R = 0.0821 L·atm/mol·K)",
-    "answer": {
-      "type": "text",
-      "content": "Use PV = nRT:\nV = nRT / P\nV = (2)(0.0821)(300)/1 = 49.26 L"
-    },
-    "explanation": "The ***ideal gas law*** is given by ***PV = nRT***.\n```n = 2 mol, T = 300 K, P = 1 atm, R = 0.0821```.\nSubstitute into the equation:\nV = (2)(0.0821)(300)/1 = ***49.26 L***\nThis is the ***volume of the gas*** under stated conditions."
-  },
-  {
-    "title": "Phase Diagram Interpretation",
-    "ques": "What phase change occurs at the point where solid, liquid, and gas coexist in a phase diagram?",
-    "answer": {
-      "type": "text",
-      "content": "The substance is at the triple point.\nAll three phases coexist in equilibrium."
-    },
-    "explanation": "In a ***phase diagram***, the ***triple point*** is where ***solid, liquid, and gas*** phases meet.\nAt this unique set of ***temperature and pressure***, the substance can ***exist in all three phases simultaneously***.\n```Any change in conditions will shift the substance to a single phase.```"
-  },
-  {
-    "title": "Collision Theory and Temperature",
-    "ques": "Using collision theory, explain how temperature affects the frequency and success of particle collisions.",
-    "answer": {
-      "type": "text",
-      "content": "Higher temperature increases particle speed.\nMore collisions occur with enough energy.\nSuccessful collisions increase reaction rate."
-    },
-    "explanation": "***Collision theory*** states that ***chemical reactions occur when particles collide with proper orientation and energy***.\nIncreasing ***temperature*** raises particle ***kinetic energy***.\nThis leads to ***more frequent collisions*** and a higher fraction of collisions with energy ≥ ***activation energy***.\n```Overall, the rate of reaction increases.```"
-  },
-  {
-    "title": "Equilibrium and Temperature Change",
-    "ques": "For the endothermic reaction: N₂O₄ ⇌ 2NO₂, what happens to equilibrium when temperature increases?",
-    "answer": {
-      "type": "text",
-      "content": "Equilibrium shifts to the right.\nMore NO₂ is formed."
-    },
-    "explanation": "In ***endothermic reactions***, ***heat is absorbed***.\nAccording to ***Le Chatelier’s Principle***, increasing temperature adds heat.\nThe system responds by ***shifting toward the products*** to absorb the extra heat.\n```This increases NO₂ concentration.```"
-  },
-  {
-    "title": "Electron Configuration of a Cation",
-    "ques": "Write the electron configuration for Mg²⁺ and explain how it differs from neutral magnesium.",
-    "answer": {
-      "type": "text",
-      "content": "Neutral Mg: 1s²\n2s²\n2p⁶\n3s²\nMg²⁺: 1s²\n2s²\n2p⁶"
-    },
-    "explanation": "Magnesium (Mg) has ***12 electrons***:\n```1s² 2s² 2p⁶ 3s²```\nWhen it becomes ***Mg²⁺***, it ***loses 2 electrons*** from the ***outermost shell (3s²)***.\nSo Mg²⁺ configuration is:\n```1s² 2s² 2p⁶```\nThis gives it a ***stable noble gas configuration*** like neon."
-  },
-  {
-    "title": "Bond Polarity in HF",
-    "ques": "Explain why the bond in hydrogen fluoride (HF) is polar covalent.",
-    "answer": {
-      "type": "text",
-      "content": "Fluorine is more electronegative than hydrogen.\nIt pulls the shared electrons closer.\nThis causes a partial negative charge on F and a partial positive on H."
-    },
-    "explanation": "***HF*** involves ***covalent bonding*** (electron sharing), but the sharing is ***unequal*** due to ***electronegativity difference***.\n***Fluorine*** is much more electronegative than ***hydrogen***.\nElectrons are pulled closer to F, creating a ***dipole***:\n```δ⁻ on F and δ⁺ on H```\nThis makes the bond ***polar covalent***."
-  },
-  {
-    "title": "Combined Gas Law Application",
-    "ques": "A gas occupies 3.0 L at 1 atm and 300 K. What volume will it occupy at 2 atm and 400 K?",
-    "answer": {
-      "type": "text",
-      "content": "Use (P₁V₁)/T₁ = (P₂V₂)/T₂\n(1×3.0)/300 = (2×V₂)/400\nV₂ = 2.0 L"
-    },
-    "explanation": "***Combined Gas Law*** accounts for ***pressure, volume, and temperature***:\n```(P₁V₁)/T₁ = (P₂V₂)/T₂```\nSubstitute:\n(1×3.0)/300 = (2×V₂)/400\nSolve for V₂:\nV₂ = 2.0 L\nThe volume decreases due to increased pressure but increases slightly due to higher temperature."
-  },
-  {
-    "title": "Sublimation Process",
-    "ques": "What happens to molecular motion and energy during sublimation of solid CO₂ (dry ice)?",
-    "answer": {
-      "type": "text",
-      "content": "Particles gain enough energy to break free from solid structure.\nThey directly enter the gas phase.\nNo liquid phase is involved."
-    },
-    "explanation": "***Sublimation*** is a phase change from ***solid directly to gas***.\nDry ice (solid CO₂) absorbs energy.\nThis energy increases ***molecular vibration*** until particles ***escape into the gas phase***.\n```No intermediate liquid phase occurs.```"
-  },
-  {
-    "title": "Concentration Effect on Reaction Rate",
-    "ques": "How does increasing the concentration of a reactant affect the reaction rate?",
-    "answer": {
-      "type": "text",
-      "content": "Higher concentration means more particles per unit volume.\nThis increases collision frequency.\nReaction rate increases."
-    },
-    "explanation": "***Reaction rate*** depends on how often and how effectively particles collide.\nHigher concentration = ***more reactant particles in a given volume***.\nThis leads to ***more frequent collisions***.\n```More collisions = faster reaction.```"
-  },
-  {
-    "title": "Equilibrium Shift Due to Removal of Product",
-    "ques": "In the equilibrium: H₂ + I₂ ⇌ 2HI, what happens if HI is removed continuously from the system?",
-    "answer": {
-      "type": "text",
-      "content": "The equilibrium shifts to the right to produce more HI."
-    },
-    "explanation": "***Le Chatelier’s Principle***: if a product is ***removed***, the system shifts to ***produce more of it***.\nRemoving ***HI*** decreases its concentration.\nThe system compensates by shifting equilibrium to the ***right*** to form more HI.\n```Result: More H₂ and I₂ are consumed.```"
-  },
-  {
-    "title": "Noble Gas Configuration of Chlorine",
-    "ques": "Write the noble gas electron configuration for chlorine (Cl), atomic number 17.",
-    "answer": {
-      "type": "text",
-      "content": "[Ne] 3s²\n3p⁵"
-    },
-    "explanation": "Chlorine has ***17 electrons***.\nThe noble gas ***neon (Ne)*** represents the configuration for the first 10 electrons:\n```[Ne] = 1s² 2s² 2p⁶```\nAfter that, electrons go to:\n```3s² 3p⁵```\nSo, full configuration: ```1s² 2s² 2p⁶ 3s² 3p⁵```\nNoble gas shorthand: ```[Ne] 3s² 3p⁵```"
-  },
-  {
-    "title": "Bonding in Diamond vs Graphite",
-    "ques": "Explain the difference in bonding and properties between diamond and graphite.",
-    "answer": {
-      "type": "text",
-      "content": "Diamond: Each carbon forms 4 covalent bonds → hard.\nGraphite: Each carbon forms 3 bonds, with delocalized electrons → soft and conducts electricity."
-    },
-    "explanation": "In ***diamond***, each carbon is ***tetrahedrally bonded*** to four others via ***strong covalent bonds***:\n```This forms a 3D rigid lattice → extremely hard and non-conductive.```\nIn ***graphite***, each carbon is bonded to ***three others***:\n- Layers held by ***weak van der Waals forces***.\n- One delocalized electron per carbon → ***electrical conductivity***.\n```Result: Soft, slippery, and good conductor.```"
-  },
-  {
-    "title": "Dalton's Law of Partial Pressures",
-    "ques": "A mixture contains oxygen (0.4 atm), nitrogen (0.3 atm), and carbon dioxide (0.2 atm). What is the total pressure?",
-    "answer": {
-      "type": "text",
-      "content": "Total pressure = 0.4 + 0.3 + 0.2 = 0.9 atm"
-    },
-    "explanation": "***Dalton’s Law***: Total pressure = ***sum of partial pressures*** of all gases.\n```P_total = P_O₂ + P_N₂ + P_CO₂```\n= 0.4 + 0.3 + 0.2 = ***0.9 atm***\nThis is because all gases occupy the ***same volume*** and exert pressure ***independently***."
-  },
-  {
-    "title": "Condensation Energy Change",
-    "ques": "Describe the energy change during the condensation of water vapor to liquid.",
-    "answer": {
-      "type": "text",
-      "content": "Energy is released to surroundings.\nGas particles lose kinetic energy and move closer.\nAn exothermic phase change occurs."
-    },
-    "explanation": "***Condensation*** is the phase change from ***gas to liquid***.\nDuring this process, ***water vapor loses energy***.\nParticles slow down and form ***intermolecular attractions***.\n```Since energy is released, this is an exothermic change.```"
-  },
-  {
-    "title": "Effect of Surface Area on Reaction Rate",
-    "ques": "Why does powdered magnesium react faster with acid than a solid strip of magnesium?",
-    "answer": {
-      "type": "text",
-      "content": "Powdered magnesium has a greater surface area.\nMore collisions occur with acid particles.\nReaction rate increases."
-    },
-    "explanation": "The rate of a chemical reaction increases when ***surface area increases***.\n***Powdered magnesium*** exposes ***more particles*** to react with acid.\nThis leads to ***more frequent and effective collisions***.\n```Result: Faster production of hydrogen gas.```"
-  },
-  {
-    "title": "Equilibrium and Inert Gas Addition",
-    "ques": "What happens to the equilibrium of a gas-phase reaction if an inert gas is added at constant volume?",
-    "answer": {
-      "type": "text",
-      "content": "No effect on equilibrium position.\nPartial pressures of reactants/products remain unchanged."
-    },
-    "explanation": "Adding an ***inert gas*** (e.g., helium) at ***constant volume*** increases total pressure but ***does not affect the concentrations*** or ***partial pressures*** of reacting gases.\nSince ***no change in reactant/product ratios*** occurs, equilibrium position remains ***unchanged***.\n```Equilibrium constant (K) is also unaffected.```"
-  },
-  {
-    "title": "Identifying the Valence Electrons",
-    "ques": "How many valence electrons are present in an atom of sulfur (S), and which orbitals do they occupy?",
-    "answer": {
-      "type": "text",
-      "content": "Sulfur has 6 valence electrons.\nThey occupy the 3s and 3p orbitals."
-    },
-    "explanation": "Sulfur (atomic number 16) has the electron configuration:\n```1s² 2s² 2p⁶ 3s² 3p⁴```\nValence electrons are those in the ***outermost shell (n = 3)***.\nSo: ***3s² 3p⁴ = 6 valence electrons***\nThese determine chemical reactivity and bonding."
-  },
-  {
-    "title": "Type of Bond in Aluminium",
-    "ques": "What type of bonding is present in a piece of pure aluminium metal, and what are the key characteristics of this bond?",
-    "answer": {
-      "type": "text",
-      "content": "Metallic bonding is present.\nDelocalized electrons allow conductivity and malleability."
-    },
-    "explanation": "***Metallic bonding*** involves ***positive metal ions*** in a 'sea' of ***delocalized electrons***.\nIn aluminium:\n- Electrons move freely → ***good conductor***\n- Layers of atoms can slide → ***malleable and ductile***\n```This explains many physical properties of metals.```"
-  },
-  {
-    "title": "Boyle’s Law Experiment",
-    "ques": "If a gas has a volume of 5.0 L at 1.2 atm, what will its volume be at 2.0 atm? (Temperature constant)",
-    "answer": {
-      "type": "text",
-      "content": "Use Boyle’s Law: P₁V₁ = P₂V₂\n(1.2)(5.0) = (2.0)(V₂)\nV₂ = 3.0 L"
-    },
-    "explanation": "***Boyle’s Law***: ***P₁V₁ = P₂V₂*** (for constant temperature)\nGiven: ```P₁ = 1.2 atm, V₁ = 5.0 L, P₂ = 2.0 atm```\nSolve:\n1.2 × 5.0 = 6.0\n6.0 = 2.0 × V₂ → V₂ = 3.0 L\n```Volume decreases as pressure increases.```"
-  },
-  {
-    "title": "Freezing Point on a Cooling Curve",
-    "ques": "In a cooling curve for water, what does the flat region at 0°C represent?",
-    "answer": {
-      "type": "text",
-      "content": "It represents the freezing process.\nTemperature remains constant as liquid turns to solid."
-    },
-    "explanation": "On a cooling curve, a ***flat region*** indicates a ***phase change***.\nAt ***0°C***, ***liquid water is freezing***.\nDuring this process:\n- ***Heat is released***\n- ***Temperature remains constant*** until all water becomes ice\n```This is a characteristic of phase changes.```"
-  },
-  {
-    "title": "Catalyst Effect on Activation Energy",
-    "ques": "How does a catalyst affect the activation energy of a chemical reaction?",
-    "answer": {
-      "type": "text",
-      "content": "A catalyst lowers the activation energy.\nThis increases the rate of reaction."
-    },
-    "explanation": "***Catalysts*** provide an ***alternative reaction pathway*** with ***lower activation energy***.\nThis means ***more particles*** have enough energy to react on collision.\n```Result: Faster reaction, without being consumed.```"
-  },
-  {
-    "title": "Effect of Pressure on Gas Equilibrium",
-    "ques": "For the reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), what happens if pressure is increased?",
-    "answer": {
-      "type": "text",
-      "content": "Equilibrium shifts to the right.\nFewer gas molecules are produced."
-    },
-    "explanation": "According to ***Le Chatelier’s Principle***, increasing pressure favors the side with ***fewer moles of gas***.\nReactants: 1 N₂ + 3 H₂ = ***4 moles***\nProducts: 2 NH₃ = ***2 moles***\nSo the system shifts ***right*** to reduce pressure.\n```More NH₃ is formed.```"
-  },
-  {
-    "title": "Quantum Numbers of the Last Electron",
-    "ques": "Determine the four quantum numbers (n, l, mₗ, mₛ) for the last electron added to phosphorus (atomic number 15).",
-    "answer": {
-      "type": "text",
-      "content": "n = 3\nl = 1\nmₗ = -1\nmₛ = +½"
-    },
-    "explanation": "Phosphorus has 15 electrons.\nIts configuration: ```1s² 2s² 2p⁶ 3s² 3p³```\nThe last electron enters the 3p orbital:\n- ***n = 3*** (third shell)\n- ***l = 1*** (p orbital)\n- ***mₗ = -1*** (one of the p orbitals)\n- ***mₛ = +½*** (first electron in that orbital, spin up)\n```Each quantum number describes one property of the electron’s orbital.```"
-  },
-  {
-    "title": "Identifying Ionic vs Covalent Compounds",
-    "ques": "Classify the following compounds as ionic or covalent: NaCl, CO₂, NH₃, MgO.",
-    "answer": {
-      "type": "text",
-      "content": "NaCl - Ionic\nCO₂ - Covalent\nNH₃ - Covalent\nMgO - Ionic"
-    },
-    "explanation": "***Ionic bonds*** form between ***metals and nonmetals***:\n- ***NaCl*** (metal + nonmetal) → Ionic\n- ***MgO*** (metal + nonmetal) → Ionic\n***Covalent bonds*** form between ***nonmetals***:\n- ***CO₂*** → Covalent (C and O are nonmetals)\n- ***NH₃*** → Covalent (N and H are nonmetals)\n```Type of elements determines bond type.```"
-  },
-  {
-    "title": "Effect of Temperature on Gas Volume",
-    "ques": "If the temperature of a gas is doubled (in Kelvin) at constant pressure, what happens to its volume?",
-    "answer": {
-      "type": "text",
-      "content": "The volume also doubles."
-    },
-    "explanation": "This is explained by ***Charles’s Law***:\n```V ∝ T (at constant pressure)```\nIf T increases from, say, 300 K to 600 K, volume must also increase proportionally.\n```Doubling temperature → Doubling volume```\nImportant: temperature must be in ***Kelvin***, not Celsius."
-  },
-  {
-    "title": "Phase Diagram Interpretation",
-    "ques": "What does the triple point on a phase diagram represent?",
-    "answer": {
-      "type": "text",
-      "content": "It is the unique temperature and pressure where solid, liquid, and gas coexist in equilibrium."
-    },
-    "explanation": "On a ***phase diagram***, the ***triple point*** is where ***all three phases meet***.\nAt this point:\n- Solid, liquid, and gas are in ***equilibrium***\n- No net change in phase occurs\n```It’s a fixed point for every substance, used in calibrating thermometers.```"
-  },
-  {
-    "title": "Effect of Catalyst on Equilibrium Constant",
-    "ques": "Does a catalyst affect the equilibrium constant (K) of a reversible reaction?",
-    "answer": {
-      "type": "text",
-      "content": "No, it does not affect the equilibrium constant."
-    },
-    "explanation": "***Catalysts*** lower the ***activation energy*** for both forward and reverse reactions ***equally***.\nThis speeds up the rate of reaching equilibrium ***but does not change concentrations at equilibrium***.\n```So, the value of K remains unchanged.```"
-  },
-  {
-    "title": "Electron Configuration of a Transition Metal Ion",
-    "ques": "Write the electron configuration of Fe³⁺ (iron (III) ion).",
-    "answer": {
-      "type": "text",
-      "content": "[Ar] 3d⁵"
-    },
-    "explanation": "Neutral Fe (atomic number 26):\n```[Ar] 4s² 3d⁶```\nFor ***Fe³⁺***, remove ***3 electrons***:\n- 2 from 4s\n- 1 from 3d\nResulting configuration:\n```[Ar] 3d⁵```\n***4s electrons are removed before 3d*** in transition metals."
-  },
-  {
-    "title": "Electron Configuration of an Anion",
-    "ques": "Write the electron configuration for the sulfide ion (S²⁻).",
-    "answer": {
-      "type": "text",
-      "content": "1s² 2s² 2p⁶ 3s² 3p⁶"
-    },
-    "explanation": "Neutral sulfur (S) has 16 electrons:\n```1s² 2s² 2p⁶ 3s² 3p⁴```\nThe ***S²⁻ ion*** gains 2 electrons → total of ***18 electrons***.\nAdding these to the 3p orbital:\n```3p⁴ → 3p⁶```\nFinal configuration:\n```1s² 2s² 2p⁶ 3s² 3p⁶``` (same as argon)"
-  },
-  {
-    "title": "Predicting Molecular Polarity",
-    "ques": "Is carbon tetrachloride (CCl₄) a polar or non-polar molecule? Explain.",
-    "answer": {
-      "type": "text",
-      "content": "CCl₄ is non-polar.\nSymmetrical tetrahedral shape cancels dipoles."
-    },
-    "explanation": "Each C–Cl bond is ***polar*** due to difference in electronegativity.\nHowever, the ***tetrahedral geometry*** of CCl₄ means that the bond dipoles ***cancel out***.\n```Net dipole = 0 → Non-polar molecule```"
-  },
-  {
-    "title": "Using the Ideal Gas Law",
-    "ques": "Calculate the pressure exerted by 2.0 moles of an ideal gas in a 5.0 L container at 300 K. (R = 0.0821 L·atm/mol·K)",
-    "answer": {
-      "type": "text",
-      "content": "P = nRT/V = (2.0)(0.0821)(300) / 5.0 = 9.85 atm"
-    },
-    "explanation": "***Ideal Gas Law***: ```PV = nRT```\nRearranged: ```P = nRT / V```\nPlug in values:\n- n = 2.0 mol\n- R = 0.0821\n- T = 300 K\n- V = 5.0 L\n```P = (2.0 × 0.0821 × 300) / 5.0 = 9.852 atm ≈ 9.85 atm```"
-  },
-  {
-    "title": "Heating Curve of a Substance",
-    "ques": "At which point on a heating curve does temperature remain constant while heat is still added?",
-    "answer": {
-      "type": "text",
-      "content": "During phase changes (melting or boiling)."
-    },
-    "explanation": "In a ***heating curve***, temperature increases with heat ***except during phase changes***.\nAt melting/freezing and boiling/condensing points:\n- Heat is used to ***break intermolecular forces***\n- No temperature change occurs\n```This plateau represents a phase change.```"
-  },
-  {
-    "title": "Effect of Concentration on Reaction Rate",
-    "ques": "How does increasing the concentration of hydrochloric acid affect the rate of reaction with magnesium?",
-    "answer": {
-      "type": "text",
-      "content": "Increased concentration leads to more frequent collisions, increasing reaction rate."
-    },
-    "explanation": "More concentrated acid → ***more H⁺ particles per unit volume***.\nThis causes ***more frequent collisions*** with magnesium atoms.\n```Higher frequency of successful collisions → Faster reaction.```"
-  },
-  {
-    "title": "Effect of Temperature on Equilibrium Constant",
-    "ques": "For an exothermic reaction, what happens to the equilibrium constant if temperature is increased?",
-    "answer": {
-      "type": "text",
-      "content": "Equilibrium constant decreases."
-    },
-    "explanation": "In an ***exothermic reaction***, heat is a ***product***.\nIncreasing temperature shifts equilibrium to the ***left*** (favoring reactants).\nThis results in a ***lower concentration of products*** at equilibrium.\n```Therefore, K decreases.```"
-  }
+    {
+        "title": "Reaction Rates ⏱️",
+        "ques": "For reaction A → B, rate = k[A]². If [A]=0.1M and rate=0.005 M/s:\n\n1. Calculate rate constant k\n2. New rate if [A] is doubled\n3. List 3 factors affecting reaction rate",
+        "answer": {
+            "type": "text",
+            "content": "**1. Rate constant:**\n```\nk = rate/[A]² = 0.005/0.01 = 0.5 M⁻¹s⁻¹\n```\n\n**2. Doubled [A]:**\n```\nrate = k(0.2)² = 0.5 × 0.04 = 0.02 M/s\n```\n(Rate quadruples for second-order!)\n\n**3. Factors:**\n- Temperature (higher = faster)\n- Concentration\n- Surface area\n- Catalyst"
+        },
+        "explanation": "**Reaction order** determines how concentration affects rate. Second-order means doubling [A] quadruples rate."
+    }
 ]

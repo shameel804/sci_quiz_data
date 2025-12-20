@@ -1,506 +1,65 @@
 [
-  {
-    "title": "Ohm’s Law Application",
-    "ques": "A resistor of 10 ohms has a current of 2 A flowing through it. What is the voltage across the resistor?",
-    "answer": {
-      "type": "text",
-      "content": "V = IR = 2 A * 10 ohms = 20 V"
+    {
+        "title": "Electric Field Fundamentals ⚡",
+        "ques": "Two point charges are placed 1 meter apart:\n- Charge A: **+4 μC** (microcoulombs)\n- Charge B: **-2 μC**\n\n*Given: k = 9 × 10⁹ N⋅m²/C²*\n\n1. Calculate the electric force between them. Is it attractive or repulsive?\n2. What is the electric field at the midpoint between the charges?\n3. Where along the line joining the charges is the electric field zero?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- q₁ = +4 μC = 4 × 10⁻⁶ C\n- q₂ = -2 μC = -2 × 10⁻⁶ C\n- r = 1 m\n- k = 9 × 10⁹ N⋅m²/C²\n\n### Solutions:\n\n**1. Electric Force (Coulomb's Law):**\n```\nF = k|q₁||q₂|/r²\nF = (9 × 10⁹)(4 × 10⁻⁶)(2 × 10⁻⁶)/(1)²\nF = (9 × 10⁹)(8 × 10⁻¹²)\nF = 0.072 N = 72 mN\n```\n**Attractive** (opposite signs)\n\n**2. Electric Field at Midpoint (x = 0.5 m):**\n```\nE_A = kq₁/r² = (9 × 10⁹)(4 × 10⁻⁶)/(0.5)²\n    = 144,000 N/C (pointing away from A)\n\nE_B = k|q₂|/r² = (9 × 10⁹)(2 × 10⁻⁶)/(0.5)²\n    = 72,000 N/C (pointing toward B)\n```\nBoth fields point in the **same direction** (A→B)\n```\nE_total = 144,000 + 72,000 = 216,000 N/C\n```\n*Toward the negative charge B*\n\n**3. Zero Electric Field Location:**\nField is zero outside the charges, beyond A (the larger charge).\nLet distance from A be x:\n```\nkq₁/x² = k|q₂|/(x+1)²\n4/x² = 2/(x+1)²\n2(x+1)² = x²\n√2(x+1) = x\n1.414x + 1.414 = x\n0.414x = -1.414\nx = -3.41 m (3.41 m to the left of A)\n```"
+        },
+        "explanation": "Electric field **superposition** means we add fields as vectors. The field is zero where fields from both charges are equal and opposite - this occurs outside the charges, beyond the larger one."
     },
-    "explanation": "***Ohm's Law*** is given by the formula: ```V = IR```\nHere, ***I*** is the current in amperes and ***R*** is the resistance in ohms.\nSubstituting the given values:\n```V = 2 A * 10 ohms = 20 V```\nSo, ***the voltage across the resistor is 20 volts.***"
-  },
-  {
-    "title": "Capacitor Charging",
-    "ques": "What is the charge stored in a 5 μF capacitor connected to a 12 V battery?",
-    "answer": {
-      "type": "text",
-      "content": "Q = CV = 5×10^-6 F * 12 V = 60×10^-6 C = 60 μC"
+    {
+        "title": "Ohm's Law and Circuits 🔌",
+        "ques": "Consider a circuit with a **12 V** battery connected to three resistors:\n- R₁ = 4 Ω\n- R₂ = 6 Ω  \n- R₃ = 12 Ω\n\n**Part A:** All resistors in series\n**Part B:** All resistors in parallel\n\nFor each configuration, find:\n1. Total resistance\n2. Total current from the battery\n3. Power dissipated by the circuit",
+        "answer": {
+            "type": "text",
+            "content": "### Part A: Series Configuration\n\n**1. Total Resistance:**\n```\nR_total = R₁ + R₂ + R₃\nR_total = 4 + 6 + 12 = 22 Ω\n```\n\n**2. Total Current:**\n```\nI = V/R = 12/22 = 0.545 A\n```\n\n**3. Power Dissipated:**\n```\nP = V²/R = 144/22 = 6.55 W\n```\nor P = I²R = (0.545)² × 22 = 6.55 W ✓\n\n---\n\n### Part B: Parallel Configuration\n\n**1. Total Resistance:**\n```\n1/R_total = 1/R₁ + 1/R₂ + 1/R₃\n1/R_total = 1/4 + 1/6 + 1/12\n1/R_total = 3/12 + 2/12 + 1/12 = 6/12 = 1/2\nR_total = 2 Ω\n```\n\n**2. Total Current:**\n```\nI = V/R = 12/2 = 6 A\n```\n\n**3. Power Dissipated:**\n```\nP = V²/R = 144/2 = 72 W\n```\n\n---\n\n### Comparison:\n| Property | Series | Parallel |\n|----------|--------|----------|\n| R_total | 22 Ω | 2 Ω |\n| Current | 0.545 A | 6 A |\n| Power | 6.55 W | 72 W |\n\n*Parallel draws **11× more power** from the same battery!*"
+        },
+        "explanation": "In **series**, resistances add up directly (more resistance, less current). In **parallel**, the reciprocals add, so total resistance is always less than the smallest individual resistor. This is why household appliances are wired in parallel - each gets full voltage."
     },
-    "explanation": "***Capacitance formula***: ```Q = CV```\nWhere ***Q*** is the charge, ***C*** is the capacitance, and ***V*** is the voltage.\nSubstitute: ```C = 5 μF = 5×10^-6 F```, ```V = 12 V```\n```Q = 5×10^-6 F * 12 V = 60×10^-6 C = 60 μC```\n***Thus, the capacitor stores 60 microcoulombs of charge.***"
-  },
-  {
-    "title": "Magnetic Force on a Wire",
-    "ques": "A wire of length 0.5 m carries a current of 4 A perpendicular to a magnetic field of 0.2 T. What is the magnetic force on the wire?",
-    "answer": {
-      "type": "text",
-      "content": "F = ILB = 4 A * 0.5 m * 0.2 T = 0.4 N"
+    {
+        "title": "Kirchhoff's Laws Application 🔋",
+        "ques": "Analyze the following circuit using Kirchhoff's Laws:\n\n```\n    ─── R₁=3Ω ───┬─── R₂=6Ω ───\n   │             │              │\n(+)│             R₃=4Ω         │(-)\n 12V             │           6V\n   │             │              │\n    ─────────────┴──────────────\n```\n\nTwo batteries (12V and 6V) with three resistors.\n\n1. State Kirchhoff's Current Law (KCL) and Voltage Law (KVL)\n2. Set up equations to find current through each resistor\n3. Calculate the current through R₃",
+        "answer": {
+            "type": "text",
+            "content": "### 1. Kirchhoff's Laws:\n\n**KCL (Current Law):**\n> At any junction, the sum of currents entering equals the sum leaving.\n> ΣI_in = ΣI_out\n\n**KVL (Voltage Law):**\n> Around any closed loop, the sum of all voltage changes equals zero.\n> ΣV = 0\n\n### 2. Setting Up Equations:\n\nLet I₁ flow through R₁, I₂ through R₂, I₃ through R₃.\n\n**At Junction (KCL):**\n```\nI₁ = I₂ + I₃  ... (1)\n```\n\n**Left Loop (KVL, clockwise):**\n```\n12 - 3I₁ - 4I₃ = 0\n12 = 3I₁ + 4I₃  ... (2)\n```\n\n**Right Loop (KVL, clockwise):**\n```\n4I₃ - 6I₂ - 6 = 0\n4I₃ = 6I₂ + 6  ... (3)\n```\n\n### 3. Solving:\n\nFrom (3): I₂ = (4I₃ - 6)/6 = (2I₃ - 3)/3\n\nSubstitute into (1):\nI₁ = (2I₃ - 3)/3 + I₃ = (2I₃ - 3 + 3I₃)/3 = (5I₃ - 3)/3\n\nSubstitute into (2):\n12 = 3 × (5I₃ - 3)/3 + 4I₃\n12 = 5I₃ - 3 + 4I₃\n15 = 9I₃\n\n**I₃ = 15/9 = 5/3 ≈ 1.67 A**\n\nVerification:\n- I₁ = (5 × 5/3 - 3)/3 = (16/3)/3 = 16/9 ≈ 1.78 A\n- I₂ = (2 × 5/3 - 3)/3 = (1/3)/3 = 1/9 ≈ 0.11 A\n- Check KCL: 1.78 ≈ 0.11 + 1.67 ✓"
+        },
+        "explanation": "**Kirchhoff's Laws** are essential for analyzing complex circuits with multiple batteries or loops. KCL ensures charge conservation at junctions, while KVL ensures energy conservation around loops. These principles are the foundation of circuit analysis."
     },
-    "explanation": "***Magnetic force on a current-carrying wire***: ```F = ILB sin(θ)```\nHere, the angle θ = 90°, so sin(θ) = 1.\nSubstitute: ```I = 4 A```, ```L = 0.5 m```, ```B = 0.2 T```\n```F = 4 * 0.5 * 0.2 = 0.4 N```\n***Hence, the force on the wire is 0.4 newtons.***"
-  },
-  {
-    "title": "Faraday’s Law and Induced EMF",
-    "ques": "A coil with 200 turns is placed in a magnetic field that changes from 0.3 T to 0 T in 0.1 s. The area of each loop is 0.01 m². What is the magnitude of the induced emf?",
-    "answer": {
-      "type": "text",
-      "content": "emf = -N * ΔΦ/Δt = -200 * (0 - 0.3 * 0.01)/0.1 = 0.6 V"
+    {
+        "title": "Magnetic Force on Moving Charges 🧲",
+        "ques": "A proton (q = 1.6 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg) moves at **2 × 10⁶ m/s** perpendicular to a magnetic field of **0.5 T**.\n\n1. Calculate the magnetic force on the proton\n2. Describe the path of the proton in this field\n3. Calculate the radius of the circular path\n4. How would the path change if an electron replaced the proton?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- q = 1.6 × 10⁻¹⁹ C\n- m = 1.67 × 10⁻²⁷ kg\n- v = 2 × 10⁶ m/s\n- B = 0.5 T\n- θ = 90° (perpendicular)\n\n### Solutions:\n\n**1. Magnetic Force:**\n```\nF = qvB sin(θ)\nF = (1.6 × 10⁻¹⁹)(2 × 10⁶)(0.5)(1)\nF = 1.6 × 10⁻¹³ N\n```\n\n**2. Path Description:**\n- The magnetic force is always **perpendicular** to velocity\n- This provides **centripetal acceleration**\n- The proton moves in a **circular path**\n- Speed remains constant (magnetic force does no work)\n- Direction changes continuously\n\n**3. Radius of Circular Path:**\nMagnetic force = Centripetal force:\n```\nqvB = mv²/r\nr = mv/(qB)\nr = (1.67 × 10⁻²⁷)(2 × 10⁶)/[(1.6 × 10⁻¹⁹)(0.5)]\nr = (3.34 × 10⁻²¹)/(8 × 10⁻²⁰)\nr = 0.042 m = 4.2 cm\n```\n\n**4. Electron vs. Proton:**\n\n| Property | Proton | Electron |\n|----------|--------|----------|\n| Charge | +e | -e |\n| Mass | 1.67 × 10⁻²⁷ kg | 9.11 × 10⁻³¹ kg |\n| Radius | 4.2 cm | **0.023 mm** |\n| Direction | Clockwise | **Counter-clockwise** |\n\nElectron radius: r = mv/(qB) = (9.11 × 10⁻³¹)(2 × 10⁶)/[(1.6 × 10⁻¹⁹)(0.5)] = 2.3 × 10⁻⁵ m\n\n*The electron curves ~1800× tighter and in the opposite direction!*"
+        },
+        "explanation": "The **Lorentz force** (F = qv × B) is always perpendicular to velocity, so magnetic fields cannot change particle speed, only direction. This principle is used in **cyclotrons**, **mass spectrometers**, and the **Large Hadron Collider**."
     },
-    "explanation": "***Faraday’s Law***: ```emf = -N * ΔΦ/Δt```, where Φ is the magnetic flux.\nFlux change: ```ΔΦ = B_final * A - B_initial * A = 0 - 0.3 * 0.01 = -0.003 Wb```\nNumber of turns ***N = 200***, Time interval ***Δt = 0.1 s***\n```emf = -200 * (-0.003)/0.1 = 0.6 V```\n***The negative sign indicates direction, so magnitude is 0.6 V.***"
-  },
-  {
-    "title": "AC Voltage Peak Value",
-    "ques": "An alternating voltage has an RMS value of 100 V. What is its peak value?",
-    "answer": {
-      "type": "text",
-      "content": "V_peak = √2 * V_rms = √2 * 100 V ≈ 141.4 V"
+    {
+        "title": "Electromagnetic Induction 🔄",
+        "ques": "A rectangular coil with **100 turns**, dimensions **20 cm × 10 cm**, is placed in a magnetic field that changes uniformly from **0 T to 0.5 T** in **0.2 seconds**.\n\n1. Calculate the magnetic flux through the coil at B = 0.5 T\n2. Calculate the induced EMF using Faraday's Law\n3. If the coil has resistance 5 Ω, what current flows?\n4. According to Lenz's Law, what direction does this current flow?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- N = 100 turns\n- Area = 0.20 × 0.10 = 0.02 m²\n- ΔB = 0.5 - 0 = 0.5 T\n- Δt = 0.2 s\n- R = 5 Ω\n\n### Solutions:\n\n**1. Magnetic Flux at B = 0.5 T:**\n```\nΦ = BA cos(θ)\nAssuming θ = 0° (field perpendicular to coil):\nΦ = (0.5)(0.02)(1)\nΦ = 0.01 Wb (Weber)\n```\n\n**2. Induced EMF (Faraday's Law):**\n```\nε = -N × dΦ/dt\nε = -N × (ΔΦ/Δt)\nε = -100 × (0.01 - 0)/0.2\nε = -100 × 0.05\n|ε| = 5 V\n```\n\n**3. Induced Current:**\n```\nI = ε/R = 5/5 = 1 A\n```\n\n**4. Current Direction (Lenz's Law):**\n\n- Original field: Increasing (0 → 0.5 T), let's say pointing **into the page**\n- Lenz's Law: Induced current **opposes** the change\n- To oppose increasing inward field, induced field must point **out of page**\n- Using right-hand rule: Current flows **counter-clockwise** when viewed from the direction the original field points\n\n```\n    × × × × (B increasing into page)\n  ┌─────────┐\n  │  ↺ I    │  (Current counter-clockwise)\n  │         │  (Creates B out of page to oppose)\n  └─────────┘\n```"
+        },
+        "explanation": "**Faraday's Law** (ε = -NdΦ/dt) shows that changing magnetic flux induces an EMF. **Lenz's Law** (the negative sign) ensures the induced current opposes the change - this is a consequence of energy conservation. This is how generators and transformers work!"
     },
-    "explanation": "***RMS to Peak voltage conversion***: ```V_peak = √2 * V_rms```\nGiven: ```V_rms = 100 V```\n```V_peak = 1.414 * 100 = 141.4 V```\n***So, the peak voltage is approximately 141.4 volts.***"
-  },
-  {
-    "title": "Power in a DC Circuit",
-    "ques": "A 9 V battery is connected to a 3 ohm resistor. What is the power dissipated in the resistor?",
-    "answer": {
-      "type": "text",
-      "content": "P = V^2 / R = 9^2 / 3 = 81 / 3 = 27 W"
+    {
+        "title": "AC Circuit Analysis 📊",
+        "ques": "An AC circuit contains a **100 Ω resistor**, **0.5 H inductor**, and **20 μF capacitor** in series with a **220 V, 50 Hz** AC source.\n\n1. Calculate the reactance of the inductor and capacitor\n2. Calculate the total impedance of the circuit\n3. Find the current in the circuit\n4. At what frequency would resonance occur?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- R = 100 Ω\n- L = 0.5 H\n- C = 20 μF = 20 × 10⁻⁶ F\n- V = 220 V\n- f = 50 Hz\n- ω = 2πf = 100π rad/s\n\n### Solutions:\n\n**1. Reactances:**\n\n*Inductive Reactance:*\n```\nXL = ωL = 2πfL\nXL = (100π)(0.5)\nXL = 50π ≈ 157.1 Ω\n```\n\n*Capacitive Reactance:*\n```\nXC = 1/(ωC) = 1/(2πfC)\nXC = 1/[(100π)(20 × 10⁻⁶)]\nXC = 1/(0.00628)\nXC ≈ 159.2 Ω\n```\n\n**2. Total Impedance:**\n```\nZ = √[R² + (XL - XC)²]\nZ = √[100² + (157.1 - 159.2)²]\nZ = √[10000 + 4.4]\nZ ≈ 100.02 Ω\n```\n*Almost purely resistive since XL ≈ XC!*\n\n**3. Current:**\n```\nI = V/Z = 220/100.02 ≈ 2.2 A\n```\n\n**4. Resonance Frequency:**\nAt resonance: XL = XC\n```\n2πf₀L = 1/(2πf₀C)\nf₀² = 1/(4π²LC)\nf₀ = 1/(2π√LC)\nf₀ = 1/(2π√(0.5 × 20 × 10⁻⁶))\nf₀ = 1/(2π × 0.00316)\nf₀ ≈ 50.3 Hz\n```\n\n*We're already very close to resonance!*"
+        },
+        "explanation": "At **resonance**, XL = XC, impedance is minimum (Z = R), and current is maximum. This circuit is nearly at resonance, which is why impedance ≈ R. Resonance is crucial in radio tuning, filters, and power transmission."
     },
-    "explanation": "***Power in a resistor***: ```P = V^2 / R```\nSubstitute: ```V = 9 V```, ```R = 3 ohms```\n```P = 81 / 3 = 27 W```\n***The resistor dissipates 27 watts of power.***"
-  },
-  {
-    "title": "Speed of Electromagnetic Waves",
-    "ques": "What is the speed of electromagnetic waves in a vacuum?",
-    "answer": {
-      "type": "text",
-      "content": "c = 3 × 10^8 m/s"
-    },
-    "explanation": "***Electromagnetic waves*** travel at a constant speed in vacuum:\n```c = 3 × 10^8 m/s```\nThis is ***the speed of light in vacuum***, applicable to all electromagnetic waves like radio, light, X-rays, etc."
-  },
-  {
-    "title": "Resistors in Series",
-    "ques": "Three resistors of 2 Ω, 4 Ω, and 6 Ω are connected in series. What is the total resistance?",
-    "answer": {
-      "type": "text",
-      "content": "R_total = 2 + 4 + 6 = 12 Ω"
-    },
-    "explanation": "***Resistors in series*** simply add up:\n```R_total = R1 + R2 + R3 = 2 + 4 + 6 = 12 Ω```\n***So, the total resistance is 12 ohms.***"
-  },
-  {
-    "title": "Voltage Divider Rule",
-    "ques": "Two resistors of 3 Ω and 6 Ω are connected in series across a 9 V battery. What is the voltage across the 6 Ω resistor?",
-    "answer": {
-      "type": "text",
-      "content": "V = (R / R_total) * V_total = (6 / (3 + 6)) * 9 = (6 / 9) * 9 = 6 V"
-    },
-    "explanation": "To find voltage across a resistor in series, use the ***voltage divider rule***:\n```V = (R / R_total) * V_total```\nTotal resistance: ```R_total = 3 + 6 = 9 Ω```\nVoltage across 6 Ω: ```V = (6 / 9) * 9 = 6 V```\n***So, the 6 Ω resistor has 6 V across it.***"
-  },
-  {
-    "title": "Capacitor in a DC Circuit",
-    "ques": "A capacitor is connected in series with a resistor and a DC battery. What is the final voltage across the capacitor after a long time?",
-    "answer": {
-      "type": "text",
-      "content": "V_capacitor = V_battery"
-    },
-    "explanation": "In a DC circuit, after a long time (steady state), ***the capacitor acts like an open circuit***.\nNo current flows, so ***voltage across the capacitor equals the battery voltage***.\nHence, ```V_capacitor = V_battery```."
-  },
-  {
-    "title": "Magnetic Field Around a Straight Wire",
-    "ques": "What happens to the magnetic field around a straight current-carrying wire if the current is doubled?",
-    "answer": {
-      "type": "text",
-      "content": "The magnetic field also doubles."
-    },
-    "explanation": "The magnetic field ***B*** around a straight wire is directly proportional to the current:\n```B ∝ I```\nSo, if the current doubles, the magnetic field strength also doubles.\n***This is a consequence of Ampère’s Law.***"
-  },
-  {
-    "title": "Lenz’s Law Direction",
-    "ques": "A magnet is moved toward a coil. What is the direction of the induced current in the coil?",
-    "answer": {
-      "type": "text",
-      "content": "The induced current flows in a direction that opposes the motion of the magnet."
-    },
-    "explanation": "***Lenz’s Law*** states that the induced current will oppose the change that caused it.\nWhen a magnet is moved toward a coil, its magnetic flux increases.\nTo oppose this, the coil generates a magnetic field in the opposite direction.\n***Thus, the induced current flows in a direction that creates a repelling magnetic field.***"
-  },
-  {
-    "title": "Frequency in AC Circuit",
-    "ques": "An AC source has a period of 0.02 seconds. What is its frequency?",
-    "answer": {
-      "type": "text",
-      "content": "f = 1 / T = 1 / 0.02 = 50 Hz"
-    },
-    "explanation": "Frequency and period are inversely related:\n```f = 1 / T```\nGiven: ```T = 0.02 s```\n```f = 1 / 0.02 = 50 Hz```\n***So, the AC supply has a frequency of 50 hertz.***"
-  },
-  {
-    "title": "Current in a Parallel Circuit",
-    "ques": "In a parallel circuit, one branch has a 4 Ω resistor with 2 A current. What is the voltage across that resistor?",
-    "answer": {
-      "type": "text",
-      "content": "V = IR = 2 A * 4 Ω = 8 V"
-    },
-    "explanation": "Each branch in a parallel circuit has the ***same voltage across it***.\nUse ***Ohm’s Law***: ```V = IR```\n```V = 2 A * 4 Ω = 8 V```\n***The voltage across that branch is 8 volts.***"
-  },
-  {
-    "title": "Electromagnetic Wave Components",
-    "ques": "What are the two components of an electromagnetic wave and how are they oriented?",
-    "answer": {
-      "type": "text",
-      "content": "Electric and magnetic fields, perpendicular to each other and to the direction of wave propagation."
-    },
-    "explanation": "***Electromagnetic waves*** consist of:\n1. An ***electric field***\n2. A ***magnetic field***\nThese fields are ***perpendicular to each other*** and also ***perpendicular to the direction the wave travels***.\nThis is a defining characteristic of ***transverse waves***."
-  },
-  {
-    "title": "Power Factor in AC Circuits",
-    "ques": "What is the power factor of a purely resistive AC circuit?",
-    "answer": {
-      "type": "text",
-      "content": "Power factor = cos(θ) = cos(0°) = 1"
-    },
-    "explanation": "In a purely resistive circuit, voltage and current are ***in phase***, so:\n```θ = 0°```\nPower factor: ```cos(0°) = 1```\n***A power factor of 1 means all power is effectively used with no reactive losses.***"
-  },
-  {
-    "title": "Electric Field Between Parallel Plates",
-    "ques": "Two parallel plates are separated by 0.02 m and connected to a 100 V battery. What is the electric field between the plates?",
-    "answer": {
-      "type": "text",
-      "content": "E = V / d = 100 V / 0.02 m = 5000 N/C"
-    },
-    "explanation": "***Electric field between parallel plates*** is uniform and given by:\n```E = V / d```\nWhere ***V = 100 V*** and ***d = 0.02 m***\n```E = 100 / 0.02 = 5000 N/C```\n***Thus, the electric field strength is 5000 newtons per coulomb.***"
-  },
-  {
-    "title": "Energy Stored in a Capacitor",
-    "ques": "Calculate the energy stored in a 10 μF capacitor charged to 15 V.",
-    "answer": {
-      "type": "text",
-      "content": "E = 0.5 * C * V^2 = 0.5 * 10×10^-6 * 15^2 = 1.125×10^-3 J"
-    },
-    "explanation": "***Energy in a capacitor*** is given by:\n```E = 0.5 * C * V^2```\nWhere ***C = 10 μF = 10×10^-6 F*** and ***V = 15 V***\n```E = 0.5 * 10×10^-6 * 225 = 1.125×10^-3 J```\n***So, the capacitor stores 1.125 millijoules of energy.***"
-  },
-  {
-    "title": "Induced Current in a Moving Loop",
-    "ques": "A rectangular loop moves into a magnetic field of 0.4 T at a speed of 2 m/s. If the width of the loop is 0.1 m, what is the induced emf?",
-    "answer": {
-      "type": "text",
-      "content": "emf = B * l * v = 0.4 * 0.1 * 2 = 0.08 V"
-    },
-    "explanation": "When a conductor moves through a magnetic field, ***emf is induced***:\n```emf = B * l * v```\nWhere ***B = 0.4 T***, ***l = 0.1 m***, ***v = 2 m/s***\n```emf = 0.4 * 0.1 * 2 = 0.08 V```\n***So, 0.08 volts is induced in the loop.***"
-  },
-  {
-    "title": "Back EMF in a Motor",
-    "ques": "A motor with a resistance of 5 Ω is connected to a 24 V battery and draws a current of 2 A. What is the back emf produced by the motor?",
-    "answer": {
-      "type": "text",
-      "content": "V_back = V_supply - IR = 24 - (2 * 5) = 14 V"
-    },
-    "explanation": "***Back emf*** opposes the supply voltage in a motor:\n```V_back = V_supply - IR```\nHere, ***V_supply = 24 V***, ***I = 2 A***, ***R = 5 Ω***\n```V_back = 24 - 10 = 14 V```\n***So, the motor produces a back emf of 14 volts.***"
-  },
-  {
-    "title": "Resonant Frequency in LC Circuit",
-    "ques": "Find the resonant frequency of an LC circuit with L = 2 mH and C = 50 μF.",
-    "answer": {
-      "type": "text",
-      "content": "f = 1 / (2π√(LC)) ≈ 1 / (2π√(2×10^-3 * 50×10^-6)) ≈ 503.3 Hz"
-    },
-    "explanation": "***Resonant frequency*** of an LC circuit:\n```f = 1 / (2π√(LC))```\nSubstitute: ```L = 2×10^-3 H```, ```C = 50×10^-6 F```\n```f = 1 / (2π√(2×10^-3 * 50×10^-6)) ≈ 503.3 Hz```\n***So, the circuit resonates at approximately 503.3 Hz.***"
-  },
-  {
-    "title": "Transformer Voltage Change",
-    "ques": "A step-down transformer has 500 turns on the primary and 100 turns on the secondary coil. If the input voltage is 220 V, what is the output voltage?",
-    "answer": {
-      "type": "text",
-      "content": "V_secondary = V_primary * (N_secondary / N_primary) = 220 * (100 / 500) = 44 V"
-    },
-    "explanation": "Transformer voltage ratio:\n```V_secondary / V_primary = N_secondary / N_primary```\nSubstitute: ```V_primary = 220 V```, ```N_p = 500```, ```N_s = 100```\n```V_s = 220 * (100 / 500) = 44 V```\n***So, the output voltage is 44 volts.***"
-  },
-  {
-    "title": "Impedance of a Series RLC Circuit",
-    "ques": "A 10 Ω resistor, 0.1 H inductor, and 100 μF capacitor are connected in series to a 50 Hz AC source. What is the total impedance?",
-    "answer": {
-      "type": "text",
-      "content": "Z = √(R² + (X_L - X_C)²) ≈ √(10² + (31.4 - 31.8)²) ≈ √(10² + 0.16) ≈ 10.008 Ω"
-    },
-    "explanation": "Impedance in RLC circuit:\n```X_L = 2πfL = 2π * 50 * 0.1 ≈ 31.4 Ω```\n```X_C = 1 / (2πfC) = 1 / (2π * 50 * 100×10^-6) ≈ 31.8 Ω```\n```Z = √(R² + (X_L - X_C)²) = √(10² + (−0.4)²) ≈ √(100 + 0.16) ≈ 10.008 Ω```\n***So, the total impedance is approximately 10.008 ohms.***"
-  },
-  {
-    "title": "Polarization of EM Waves",
-    "ques": "What happens during polarization of electromagnetic waves?",
-    "answer": {
-      "type": "text",
-      "content": "The orientation of the electric field vector is restricted to one direction."
-    },
-    "explanation": "***Polarization*** is a property of ***transverse waves*** like electromagnetic waves.\nIt restricts the oscillation of the ***electric field vector*** to a single plane.\n***This helps reduce glare and is used in sunglasses, photography, and LCD screens.***"
-  },
-  {
-    "title": "Ohm’s Law with Variable Resistance",
-    "ques": "A wire has a resistance of 10 Ω at room temperature. If its resistance increases to 15 Ω due to heating and the voltage remains at 10 V, what happens to the current?",
-    "answer": {
-      "type": "text",
-      "content": "Initial current = 10 V / 10 Ω = 1 A\nFinal current = 10 V / 15 Ω ≈ 0.67 A"
-    },
-    "explanation": "***Ohm’s Law***: ```I = V / R```\nInitial: ```I = 10 / 10 = 1 A```\nFinal (after resistance increases): ```I = 10 / 15 ≈ 0.67 A```\n***As resistance increases, current decreases when voltage is constant.***"
-  },
-  {
-    "title": "Charge Stored in a Capacitor",
-    "ques": "A capacitor of 20 μF is charged to a potential difference of 12 V. What is the charge stored?",
-    "answer": {
-      "type": "text",
-      "content": "Q = C × V = 20×10^-6 × 12 = 2.4×10^-4 C"
-    },
-    "explanation": "***Capacitor charge formula***: ```Q = C × V```\nGiven: ```C = 20 μF = 20×10^-6 F```, ```V = 12 V```\n```Q = 20×10^-6 × 12 = 2.4×10^-4 C```\n***So, 0.24 millicoulombs of charge is stored.***"
-  },
-  {
-    "title": "Current in a Magnetic Field",
-    "ques": "A straight conductor 0.5 m long carries a current of 4 A and is placed perpendicular to a magnetic field of 0.2 T. What is the magnetic force on it?",
-    "answer": {
-      "type": "text",
-      "content": "F = BIL = 0.2 × 4 × 0.5 = 0.4 N"
-    },
-    "explanation": "***Magnetic force on current-carrying wire***: ```F = BIL sin(θ)```\nSince the wire is perpendicular: ```sin(90°) = 1```\n```F = 0.2 × 4 × 0.5 = 0.4 N```\n***So, the force on the wire is 0.4 newtons.***"
-  },
-  {
-    "title": "Magnetic Flux Through a Loop",
-    "ques": "A loop of area 0.01 m² is placed in a magnetic field of 0.5 T perpendicular to the plane. What is the magnetic flux through the loop?",
-    "answer": {
-      "type": "text",
-      "content": "Φ = B × A = 0.5 × 0.01 = 0.005 Wb"
-    },
-    "explanation": "***Magnetic flux*** is given by: ```Φ = B × A × cos(θ)```\nHere, field is perpendicular ⇒ ```θ = 0°``` ⇒ ```cos(0°) = 1```\n```Φ = 0.5 × 0.01 = 0.005 Wb```\n***So, the magnetic flux through the loop is 0.005 weber.***"
-  },
-  {
-    "title": "Time Constant of an RC Circuit",
-    "ques": "What is the time constant of an RC circuit with R = 1 kΩ and C = 100 μF?",
-    "answer": {
-      "type": "text",
-      "content": "τ = R × C = 1000 × 100×10^-6 = 0.1 s"
-    },
-    "explanation": "***Time constant (τ)*** in an RC circuit: ```τ = R × C```\nGiven: ```R = 1000 Ω```, ```C = 100 μF = 100×10^-6 F```\n```τ = 1000 × 100×10^-6 = 0.1 s```\n***So, the capacitor charges significantly over about 0.1 seconds.***"
-  },
-  {
-    "title": "AC Voltage in RMS",
-    "ques": "What is the RMS value of an AC voltage with a peak value of 170 V?",
-    "answer": {
-      "type": "text",
-      "content": "Vrms = Vpeak / √2 = 170 / 1.414 ≈ 120 V"
-    },
-    "explanation": "***RMS value of AC voltage***: ```Vrms = Vpeak / √2```\n```Vrms = 170 / 1.414 ≈ 120 V```\n***This is why standard household AC in many countries is 120 V RMS.***"
-  },
-  {
-    "title": "Direction of Induced EMF",
-    "ques": "A loop rotates clockwise in a magnetic field. What rule determines the direction of the induced current?",
-    "answer": {
-      "type": "text",
-      "content": "Lenz's Law and the Right-Hand Rule"
-    },
-    "explanation": "***Lenz’s Law*** tells us the direction of induced current opposes the change in magnetic flux.\nThe ***Right-Hand Rule*** helps visualize the magnetic field, motion, and current direction.\n***Together, they determine how the current flows during rotation in a magnetic field.***"
-  },
-  {
-    "title": "Speed of Electromagnetic Wave in Vacuum",
-    "ques": "What is the speed of all electromagnetic waves in a vacuum?",
-    "answer": {
-      "type": "text",
-      "content": "c = 3 × 10^8 m/s"
-    },
-    "explanation": "All electromagnetic waves — radio, light, X-rays — travel at the ***speed of light in vacuum***:\n```c = 3 × 10^8 m/s```\n***This value is constant and fundamental to all electromagnetic wave propagation in space.***"
-  },
-  {
-    "title": "Series and Parallel Resistors",
-    "ques": "Three resistors of 4 Ω, 6 Ω, and 12 Ω are connected in parallel. What is the equivalent resistance of the circuit?",
-    "answer": {
-      "type": "text",
-      "content": "1/R_eq = 1/4 + 1/6 + 1/12 = (3 + 2 + 1)/12 = 6/12 → R_eq = 2 Ω"
-    },
-    "explanation": "***Parallel resistance formula***: ```1/R_eq = 1/R1 + 1/R2 + 1/R3```\n```1/R_eq = 1/4 + 1/6 + 1/12 = (3 + 2 + 1)/12 = 6/12```\n```R_eq = 2 Ω```\n***So, the equivalent resistance is 2 ohms.***"
-  },
-  {
-    "title": "Electric Field at a Point Charge",
-    "ques": "Calculate the electric field 0.2 m away from a point charge of 5 μC in vacuum.",
-    "answer": {
-      "type": "text",
-      "content": "E = k*q/r² = (9×10^9)*(5×10^-6)/(0.2)^2 = 1.125×10^6 N/C"
-    },
-    "explanation": "***Electric field of a point charge***: ```E = k*q/r²```\nWhere ```k = 9×10^9 Nm²/C²```, ```q = 5×10^-6 C```, ```r = 0.2 m```\n```E = 9×10^9 * 5×10^-6 / 0.04 = 1.125×10^6 N/C```\n***So, the electric field strength is 1.125 million newtons per coulomb.***"
-  },
-  {
-    "title": "Mutual Induction in Coils",
-    "ques": "When the current in a coil is changed at a rate of 2 A/s and it induces 0.1 V in a nearby coil, what is the mutual inductance?",
-    "answer": {
-      "type": "text",
-      "content": "M = emf / (ΔI/Δt) = 0.1 / 2 = 0.05 H"
-    },
-    "explanation": "***Mutual inductance*** is defined as:\n```M = emf / (ΔI/Δt)```\nGiven: ```emf = 0.1 V```, ```ΔI/Δt = 2 A/s```\n```M = 0.1 / 2 = 0.05 H```\n***So, the mutual inductance between the coils is 0.05 henrys.***"
-  },
-  {
-    "title": "Average Power in AC Circuit",
-    "ques": "An AC circuit has Vrms = 100 V and Irms = 5 A with a phase angle of 60°. What is the average power consumed?",
-    "answer": {
-      "type": "text",
-      "content": "P = Vrms * Irms * cos(ϕ) = 100 * 5 * cos(60°) = 250 W"
-    },
-    "explanation": "***Average power in AC***: ```P = Vrms * Irms * cos(ϕ)```\nGiven: ```Vrms = 100 V```, ```Irms = 5 A```, ```cos(60°) = 0.5```\n```P = 100 * 5 * 0.5 = 250 W```\n***So, the circuit consumes 250 watts of average power.***"
-  },
-  {
-    "title": "Frequency of Electromagnetic Waves",
-    "ques": "What is the frequency of an electromagnetic wave with a wavelength of 3 m in vacuum?",
-    "answer": {
-      "type": "text",
-      "content": "f = c / λ = 3×10^8 / 3 = 1×10^8 Hz"
-    },
-    "explanation": "***Wave speed relation***: ```f = c / λ```\nGiven: ```c = 3×10^8 m/s```, ```λ = 3 m```\n```f = 3×10^8 / 3 = 1×10^8 Hz```\n***So, the frequency of the wave is 100 MHz.***"
-  },
-  {
-    "title": "Charging a Capacitor Over Time",
-    "ques": "In an RC charging circuit with R = 2 kΩ and C = 50 μF, how long does it take to reach 63% of the final voltage?",
-    "answer": {
-      "type": "text",
-      "content": "Time = RC = 2000 * 50×10^-6 = 0.1 s"
-    },
-    "explanation": "At time ```t = RC```, a capacitor charges to about ***63%*** of its final voltage.\nGiven: ```R = 2000 Ω```, ```C = 50×10^-6 F```\n```t = RC = 2000 * 50×10^-6 = 0.1 s```\n***So, it takes 0.1 seconds to charge to 63%.***"
-  },
-  {
-    "title": "Self-Induced EMF in a Coil",
-    "ques": "A coil with inductance 0.3 H experiences a decrease in current at 4 A/s. What is the induced emf?",
-    "answer": {
-      "type": "text",
-      "content": "emf = -L * (ΔI/Δt) = -0.3 * 4 = -1.2 V"
-    },
-    "explanation": "***Self-induced emf*** is given by:\n```emf = -L * (ΔI/Δt)```\nWhere ```L = 0.3 H```, ```ΔI/Δt = 4 A/s```\n```emf = -0.3 * 4 = -1.2 V```\n***Negative sign shows the emf opposes the change (Lenz’s Law).***"
-  },
-  {
-    "title": "Power Dissipation in a Resistor",
-    "ques": "How much power is dissipated in a 20 Ω resistor carrying 3 A of current?",
-    "answer": {
-      "type": "text",
-      "content": "P = I²R = 3² * 20 = 180 W"
-    },
-    "explanation": "***Power dissipation*** in resistors: ```P = I²R```\nGiven: ```I = 3 A```, ```R = 20 Ω```\n```P = 9 * 20 = 180 W```\n***So, 180 watts of power is dissipated as heat.***"
-  },
-  {
-    "title": "Capacitor Energy Storage",
-    "ques": "A 10 μF capacitor is charged to a potential difference of 30 V. How much energy is stored in the capacitor?",
-    "answer": {
-      "type": "text",
-      "content": "U = 0.5 × C × V² = 0.5 × 10×10^-6 × 30² = 4.5×10^-3 J"
-    },
-    "explanation": "***Energy stored in a capacitor***: ```U = 0.5 × C × V²```\n```C = 10 μF = 10×10^-6 F```, ```V = 30 V```\n```U = 0.5 × 10×10^-6 × 900 = 4.5×10^-3 J```\n***So, 4.5 millijoules of energy is stored in the capacitor.***"
-  },
-  {
-    "title": "Resistor Voltage Drop in Series",
-    "ques": "In a series circuit with a 12 V battery and two resistors (3 Ω and 9 Ω), what is the voltage drop across the 9 Ω resistor?",
-    "answer": {
-      "type": "text",
-      "content": "V = IR = (12 / (3+9)) × 9 = 9 V"
-    },
-    "explanation": "***Total resistance***: ```R_total = 3 + 9 = 12 Ω```\n***Total current***: ```I = V / R_total = 12 / 12 = 1 A```\n***Voltage drop across 9 Ω***: ```V = IR = 1 × 9 = 9 V```\n***So, 9 volts drops across the 9 Ω resistor.***"
-  },
-  {
-    "title": "Faraday's Law of Induction",
-    "ques": "A coil of 50 turns experiences a magnetic flux change of 0.02 Wb in 0.1 s. What is the induced emf?",
-    "answer": {
-      "type": "text",
-      "content": "emf = -N × ΔΦ / Δt = -50 × 0.02 / 0.1 = -10 V"
-    },
-    "explanation": "***Faraday’s Law***: ```emf = -N × (ΔΦ / Δt)```\nGiven: ```N = 50```, ```ΔΦ = 0.02 Wb```, ```Δt = 0.1 s```\n```emf = -50 × (0.02 / 0.1) = -10 V```\n***So, the induced emf is -10 volts. The negative sign indicates opposition (Lenz’s Law).***"
-  },
-  {
-    "title": "Current Through a Capacitor in AC",
-    "ques": "An AC source of 100 V and 50 Hz is connected to a 100 μF capacitor. What is the current?",
-    "answer": {
-      "type": "text",
-      "content": "I = V / Xc = 100 / (1 / (2π × 50 × 100×10^-6)) ≈ 3.14 A"
-    },
-    "explanation": "***Capacitive reactance***: ```Xc = 1 / (2πfC)```\n```f = 50 Hz```, ```C = 100 μF = 100×10^-6 F```\n```Xc = 1 / (2π × 50 × 100×10^-6) ≈ 31.8 Ω```\n```I = V / Xc = 100 / 31.8 ≈ 3.14 A```\n***So, current in the circuit is about 3.14 amperes.***"
-  },
-  {
-    "title": "Induced Current Direction",
-    "ques": "If a magnet is moved toward a loop of wire, in which direction is the induced current?",
-    "answer": {
-      "type": "text",
-      "content": "Opposite to the magnetic field increase (Lenz’s Law)"
-    },
-    "explanation": "***Lenz’s Law***: The induced current opposes the change causing it.\nAs the magnet approaches, magnetic flux increases.\nTo oppose this, the loop induces current in a direction that creates an opposing magnetic field.\n***So, the induced current flows opposite to the field’s increase.***"
-  },
-  {
-    "title": "Root Mean Square Current",
-    "ques": "If the peak current in an AC circuit is 7 A, what is the RMS current?",
-    "answer": {
-      "type": "text",
-      "content": "Irms = Ipeak / √2 = 7 / 1.414 ≈ 4.95 A"
-    },
-    "explanation": "***RMS current***: ```Irms = Ipeak / √2```\nGiven: ```Ipeak = 7 A```\n```Irms = 7 / 1.414 ≈ 4.95 A```\n***So, the RMS current is approximately 4.95 amperes.***"
-  },
-  {
-    "title": "Polarization of EM Waves",
-    "ques": "Which direction does the electric field oscillate in a vertically polarized electromagnetic wave?",
-    "answer": {
-      "type": "text",
-      "content": "It oscillates vertically, perpendicular to the direction of wave propagation."
-    },
-    "explanation": "In ***electromagnetic waves***, the electric and magnetic fields are perpendicular to each other and to the direction of wave propagation.\nIn a ***vertically polarized*** wave, the ***electric field oscillates vertically***.\n***This means it's perpendicular to the wave’s travel direction and lies in a vertical plane.***"
-  },
-  {
-    "title": "DC Motor Working Principle",
-    "ques": "Which principle allows a DC motor to rotate when current flows through its coil?",
-    "answer": {
-      "type": "text",
-      "content": "Lorentz Force and Magnetic Torque"
-    },
-    "explanation": "When current flows through a coil in a magnetic field, it experiences a ***Lorentz Force***.\nThis force acts differently on each side of the loop, creating a ***torque***.\nThe torque causes the motor coil to rotate — this is the basic principle behind ***DC motors***.\n***So, Lorentz force and resulting torque drive the motor's rotation.***"
-  },
-  {
-    "title": "Electric Field Between Parallel Plates",
-    "ques": "Two parallel plates are 5 mm apart and have a potential difference of 500 V. What is the electric field between the plates?",
-    "answer": {
-      "type": "text",
-      "content": "E = V/d = 500 / 0.005 = 1×10^5 N/C"
-    },
-    "explanation": "***Electric field between plates***: ```E = V / d```\nGiven: ```V = 500 V```, ```d = 5 mm = 0.005 m```\n```E = 500 / 0.005 = 1×10^5 N/C```\n***So, the electric field between the plates is 100,000 N/C.***"
-  },
-  {
-    "title": "Resistor Power Rating",
-    "ques": "A 10 Ω resistor is connected to a 12 V battery. What is the power dissipated by the resistor?",
-    "answer": {
-      "type": "text",
-      "content": "P = V²/R = 144 / 10 = 14.4 W"
-    },
-    "explanation": "***Power in resistor using voltage and resistance***: ```P = V² / R```\nGiven: ```V = 12 V```, ```R = 10 Ω```\n```P = 144 / 10 = 14.4 W```\n***So, 14.4 watts of power is dissipated by the resistor.***"
-  },
-  {
-    "title": "Flux Through a Coil",
-    "ques": "A 20-turn coil lies in a magnetic field of 0.3 T. The area of each loop is 0.01 m². What is the total magnetic flux through the coil?",
-    "answer": {
-      "type": "text",
-      "content": "Φ = NBA = 20 × 0.3 × 0.01 = 0.06 Wb"
-    },
-    "explanation": "***Magnetic flux through a coil***: ```Φ = N × B × A```\nGiven: ```N = 20```, ```B = 0.3 T```, ```A = 0.01 m²```\n```Φ = 20 × 0.3 × 0.01 = 0.06 Wb```\n***So, total magnetic flux through the coil is 0.06 weber.***"
-  },
-  {
-    "title": "Reactance of an Inductor",
-    "ques": "What is the inductive reactance of a 0.1 H coil connected to a 60 Hz AC supply?",
-    "answer": {
-      "type": "text",
-      "content": "X_L = 2πfL = 2π × 60 × 0.1 ≈ 37.7 Ω"
-    },
-    "explanation": "***Inductive reactance***: ```X_L = 2πfL```\nGiven: ```f = 60 Hz```, ```L = 0.1 H```\n```X_L = 2π × 60 × 0.1 = 37.7 Ω```\n***So, the inductor presents about 37.7 ohms of reactance.***"
-  },
-  {
-    "title": "AC Voltage Equation",
-    "ques": "An AC source produces a peak voltage of 170 V. Write the expression for the instantaneous voltage if frequency is 50 Hz.",
-    "answer": {
-      "type": "text",
-      "content": "V(t) = 170 sin(2π × 50 × t)"
-    },
-    "explanation": "***Instantaneous voltage for AC***: ```V(t) = V_peak × sin(2πft)```\nGiven: ```V_peak = 170 V```, ```f = 50 Hz```\n```V(t) = 170 sin(2π × 50 × t)```\n***This expression describes the voltage as a sine wave in time.***"
-  },
-  {
-    "title": "Capacitor Discharge Time",
-    "ques": "In an RC circuit with R = 5 kΩ and C = 200 μF, how long does it take for the capacitor to discharge to 37% of its initial voltage?",
-    "answer": {
-      "type": "text",
-      "content": "Time = RC = 5000 × 200×10^-6 = 1 s"
-    },
-    "explanation": "***Discharge time constant***: ```τ = RC```\nGiven: ```R = 5000 Ω```, ```C = 200 μF = 200×10^-6 F```\n```τ = 5000 × 200×10^-6 = 1 s```\n***At t = RC, voltage drops to about 37% of its initial value.***"
-  },
-  {
-    "title": "Direction of Magnetic Field",
-    "ques": "A current flows upward through a vertical wire. What is the direction of the magnetic field around the wire?",
-    "answer": {
-      "type": "text",
-      "content": "The field circles the wire in a counterclockwise direction when viewed from above."
-    },
-    "explanation": "***Right-hand rule***: Point the thumb in the direction of current (upward).\nFingers curl in the direction of the magnetic field.\n***So, the magnetic field is circular and counterclockwise when viewed from the top.***"
-  },
-  {
-    "title": "Speed of EM Waves in Glass",
-    "ques": "The refractive index of glass is 1.5. What is the speed of light through glass?",
-    "answer": {
-      "type": "text",
-      "content": "v = c / n = 3×10^8 / 1.5 = 2×10^8 m/s"
-    },
-    "explanation": "***Speed of light in a medium***: ```v = c / n```\nGiven: ```c = 3×10^8 m/s```, ```n = 1.5```\n```v = 3×10^8 / 1.5 = 2×10^8 m/s```\n***So, light travels at 200 million meters per second in glass.***"
-  }
+    {
+        "title": "Electromagnetic Waves Challenge 🌊",
+        "ques": "An electromagnetic wave travels through vacuum with electric field amplitude **E₀ = 300 V/m**.\n\n*Given: c = 3 × 10⁸ m/s, μ₀ = 4π × 10⁻⁷ T⋅m/A, ε₀ = 8.85 × 10⁻¹² F/m*\n\n1. Calculate the magnetic field amplitude B₀\n2. Calculate the intensity of the wave\n3. If this wave has wavelength 500 nm, what is its frequency?\n4. What type of electromagnetic radiation is this?",
+        "answer": {
+            "type": "text",
+            "content": "### Given:\n- E₀ = 300 V/m\n- c = 3 × 10⁸ m/s\n- μ₀ = 4π × 10⁻⁷ T⋅m/A\n- ε₀ = 8.85 × 10⁻¹² F/m\n- λ = 500 nm = 500 × 10⁻⁹ m\n\n### Solutions:\n\n**1. Magnetic Field Amplitude:**\n```\nE₀/B₀ = c\nB₀ = E₀/c\nB₀ = 300/(3 × 10⁸)\nB₀ = 1 × 10⁻⁶ T = 1 μT\n```\n\n**2. Intensity:**\n```\nI = (1/2)ε₀cE₀²\nI = (1/2)(8.85 × 10⁻¹²)(3 × 10⁸)(300)²\nI = (1/2)(8.85 × 10⁻¹²)(3 × 10⁸)(90000)\nI = (1/2)(2.39 × 10⁵)\nI ≈ 119.5 W/m²\n```\n\nAlternatively:\n```\nI = E₀B₀/(2μ₀) = (300)(10⁻⁶)/(2 × 4π × 10⁻⁷)\n  = 3 × 10⁻⁴/(8π × 10⁻⁷)\n  ≈ 119.4 W/m² ✓\n```\n\n**3. Frequency:**\n```\nc = fλ\nf = c/λ\nf = (3 × 10⁸)/(500 × 10⁻⁹)\nf = 6 × 10¹⁴ Hz = 600 THz\n```\n\n**4. Type of Radiation:**\n\n| Wavelength | Type |\n|------------|------|\n| 500 nm | **Visible Light (Green-Cyan)** |\n\nThe visible spectrum spans ~380-700 nm, and 500 nm falls in the **cyan-green** region."
+        },
+        "explanation": "In EM waves, electric and magnetic fields oscillate **perpendicular** to each other and to the direction of propagation. The ratio E/B always equals c in vacuum. EM waves carry energy (~120 W/m² here, similar to indoor lighting)."
+    }
 ]

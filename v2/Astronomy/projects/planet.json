@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Planet Types 🪐",
+        "ques": "Compare terrestrial and gas giant planets:\n1. List examples of each\n2. Key differences\n3. Why are they different?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Examples:**\n- Terrestrial: Mercury, Venus, Earth, Mars\n- Gas giants: Jupiter, Saturn, Uranus, Neptune\n\n**2. Differences:**\n| Feature | Terrestrial | Gas Giant |\n|---------|-------------|----------|\n| Size | Small | Large |\n| Composition | Rock/metal | H/He gas |\n| Density | High | Low |\n| Moons | Few | Many |\n\n**3. Why:** Distance from Sun - close planets lost light gases"
+        },
+        "explanation": "**Frost line** separates inner rocky planets from outer gas giants. Beyond this line, ices could condense."
+    },
+    {
+        "title": "Asteroids, Comets, Meteors ☄️",
+        "ques": "Define and differentiate:\n1. Asteroid\n2. Comet\n3. Meteoroid/Meteor/Meteorite",
+        "answer": {
+            "type": "text",
+            "content": "**1. Asteroid:** Rocky/metallic body, mainly in asteroid belt between Mars and Jupiter\n\n**2. Comet:** Ice and dust, develops tail when near Sun\n\n**3. Meteor sequence:**\n- Meteoroid: Small rock in space\n- Meteor: \"Shooting star\" burning in atmosphere\n- Meteorite: Reaches Earth's surface"
+        },
+        "explanation": "**Comets** come from the Kuiper Belt or Oort Cloud. Their tails always point away from the Sun."
+    },
+    {
+        "title": "Kepler's Laws 🌓",
+        "ques": "State Kepler's three laws and explain each:\n1. Law of Orbits\n2. Law of Areas\n3. Law of Periods",
+        "answer": {
+            "type": "text",
+            "content": "**1. Law of Orbits:** Planets orbit in ellipses with Sun at one focus\n\n**2. Law of Areas:** Line from Sun to planet sweeps equal areas in equal times (faster when closer)\n\n**3. Law of Periods:** T² ∝ a³\n```\nT² = (4π²/GM) × a³\n```\n(T = orbital period, a = semi-major axis)"
+        },
+        "explanation": "**Kepler's laws** describe planetary motion empirically. Newton later explained them with gravity."
+    },
+    {
+        "title": "Solar System Formation 🌌",
+        "ques": "Explain the nebular hypothesis:\n1. Starting conditions\n2. Main steps\n3. Why planets have same orbital plane",
+        "answer": {
+            "type": "text",
+            "content": "**1. Starting:** Cloud of gas and dust (nebula)\n\n**2. Steps:**\n- Cloud collapses (gravity)\n- Spins faster (conservation of angular momentum)\n- Flattens into disk\n- Central mass becomes Sun\n- Planets form from disk material\n\n**3. Same plane:** All formed from same rotating disk"
+        },
+        "explanation": "**Nebular hypothesis** explains solar system structure. Exceptions (tilted Uranus) come from later collisions."
+    },
+    {
+        "title": "Moon Phases 🌙",
+        "ques": "1. Why do we see moon phases?\n2. Order from New Moon to New Moon\n3. Why always see same side of Moon?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Why phases:** We see different amounts of illuminated side as Moon orbits Earth\n\n**2. Order:** New → Waxing Crescent → First Quarter → Waxing Gibbous → Full → Waning Gibbous → Third Quarter → Waning Crescent → New\n\n**3. Same side:** Tidal locking - Moon's rotation period = orbital period (synchronous rotation)"
+        },
+        "explanation": "**Lunar phases** cycle every 29.5 days. The \"dark side\" gets sunlight, just not when we can see it."
+    },
+    {
+        "title": "Eclipses ☀️🌑",
+        "ques": "1. Solar vs lunar eclipse\n2. Why don't eclipses happen every month?\n3. Why is total solar eclipse rare?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Types:**\n- Solar: Moon between Sun and Earth (Moon blocks Sun)\n- Lunar: Earth between Sun and Moon (Earth's shadow on Moon)\n\n**2. Not monthly:** Moon's orbit tilted 5° to Earth's orbit → alignment rare\n\n**3. Total solar rare:** Moon's shadow is small (~100 km); must be in path of totality"
+        },
+        "explanation": "**Eclipses** require alignment on same plane. Solar eclipses visible from small area; lunar visible from half of Earth."
+    }
+]

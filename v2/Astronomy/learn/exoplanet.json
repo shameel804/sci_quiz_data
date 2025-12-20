@@ -1,0 +1,59 @@
+{
+    "id": "learn_exoplanet",
+    "topicId": "exoplanet",
+    "topicTitle": "Exoplanets",
+    "description": "Explore exoplanet detection methods, habitable zones, and exoplanet atmospheres",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "exoplanet_1",
+            "type": "content",
+            "title": "Welcome to Exoplanets",
+            "content": "# Introduction to Exoplanets 🌍\n\nWelcome to **Exoplanets** - worlds beyond our solar system!\n\n## What you'll learn:\n- **Detection Methods** - How we find exoplanets\n- **Habitable Zones** - Where life might exist\n- **Exoplanet Atmospheres** - What they're made of\n- **Notable Exoplanets** - Key discoveries\n\n> 💡 **Fun Fact:** As of 2023, we've discovered over 5,500 confirmed exoplanets!\n\n## Definition\n\nExoplanet = Planet orbiting a star other than our Sun\n\n## Brief History\n\n| Year | Milestone |\n|------|----------|\n| 1992 | First exoplanets (pulsar planets) |\n| 1995 | First around Sun-like star (51 Peg b) |\n| 2009 | Kepler mission launches |\n| 2016 | Proxima Centauri b discovered |\n| 2017 | TRAPPIST-1 system (7 planets!) |\n| 2018 | TESS mission launches |\n| 2021 | JWST for atmospheres |\n\n## Types of Known Exoplanets\n\n| Type | Size | Examples |\n|------|------|----------|\n| Hot Jupiters | Jupiter-sized | 51 Peg b |\n| Super-Earths | 1.25-2× Earth | Kepler-442b |\n| Mini-Neptunes | 2-4× Earth | Many common |\n| Earth-sized | ~Earth | TRAPPIST-1e |\n\nLet's discover distant worlds!"
+        },
+        {
+            "id": "exoplanet_2",
+            "type": "content",
+            "title": "Detection Methods",
+            "content": "# Exoplanet Detection Methods 🔭\n\n## 1. Transit Method\n\nPlanet passes in front of star → Star dims slightly.\n\n```\n    Brightness\n         │ ─────╲   ╱─────\n         │       ╲ ╱\n         │        ╲─ Transit dip\n         └────────────────→ Time\n```\n\n### What we learn:\n- Planet size (from dip depth)\n- Orbital period\n- Atmospheric composition (transmission spectroscopy)\n\n### Limitations:\n- Requires edge-on orbit\n- Only ~1% of systems aligned\n- Used by: Kepler, TESS\n\n## 2. Radial Velocity (Doppler)\n\nPlanet's gravity tugs star → Star wobbles → Light shifts.\n\n```\n       ★ → Blueshift (approaching)\n       │\n   ⭐ ←┼→ Planet\n       │\n       ★ → Redshift (receding)\n```\n\n### What we learn:\n- Minimum planet mass\n- Orbital period\n- Orbital eccentricity\n\n## 3. Direct Imaging\n\nActually photograph the planet!\n\n- Very difficult (star is ~1 billion × brighter)\n- Works for young, hot, distant planets\n- Coronagraphs block starlight\n\n## 4. Gravitational Microlensing\n\nPlanet+star bend light from background star.\n\n## Detection Summary\n\n| Method | Detections | Strength |\n|--------|------------|----------|\n| Transit | ~4,000 | Size, atmospheres |\n| Radial velocity | ~1,000 | Mass |\n| Direct imaging | ~50 | Physical properties |\n| Microlensing | ~200 | Distant planets |\n\n> 🎯 **Key Point:** Transit + radial velocity → Mass AND radius → Density → Composition!"
+        },
+        {
+            "id": "exoplanet_3",
+            "type": "content",
+            "title": "The Habitable Zone",
+            "content": "# The Habitable Zone 🌡️\n\nThe \"Goldilocks Zone\" - not too hot, not too cold.\n\n## Definition\n\nRegion around a star where liquid water could exist on a planet's surface.\n\n```\n    TOO HOT │ HABITABLE │ TOO COLD\n            │   ZONE    │\n      ★─────│───────────│──────────→\n            │   🌍      │\n            │           │\n```\n\n## HZ Boundaries\n\n| Star Type | Inner Edge | Outer Edge |\n|-----------|------------|------------|\n| M dwarf | 0.1-0.2 AU | 0.2-0.4 AU |\n| K star | 0.5 AU | 0.9 AU |\n| G (Sun) | 0.95 AU | 1.4 AU |\n| F star | 1.5 AU | 2.5 AU |\n\n## Factors Affecting Habitability\n\n### Stellar Factors\n- Star type and temperature\n- Stellar activity (flares)\n- Stellar age\n\n### Planetary Factors\n- Atmosphere composition\n- Greenhouse effect\n- Plate tectonics\n- Magnetic field\n- Water availability\n\n## Beyond the \"Simple\" HZ\n\n| Concept | Description |\n|---------|-------------|\n| Conservative HZ | Strict limits |\n| Optimistic HZ | Extended limits |\n| Subsurface habitability | Europa, Enceladus |\n| Atmospheric effects | Venus vs Mars |\n\n## M Dwarfs: Pros and Cons\n\n| Pros | Cons |\n|------|------|\n| Most common stars | Tidal locking |\n| Long-lived | Stellar flares |\n| HZ closer (easier detection) | Close-in planets |\n\n> 💡 **Key Point:** Habitability is more complex than just distance from star!"
+        },
+        {
+            "id": "exoplanet_quiz_1",
+            "type": "quiz",
+            "title": "Exoplanets Quiz",
+            "content": "Test your knowledge of exoplanets!",
+            "quizQuestion": "Which detection method reveals an exoplanet's radius directly?",
+            "quizOptions": [
+                "Radial velocity",
+                "Transit method",
+                "Direct imaging",
+                "Microlensing"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "exoplanet_4",
+            "type": "content",
+            "title": "Exoplanet Atmospheres",
+            "content": "# Exoplanet Atmospheres 🌈\n\n## Why Study Atmospheres?\n\n- Composition clues\n- Temperature structure\n- Biosignatures?\n- Habitability assessment\n\n## Transmission Spectroscopy\n\n```\n             Star\n              │\n    Light passes through\n    planet's atmosphere\n              ↓\n    ┌─────────────────┐\n    │   ○ Atmosphere  │ ← Some wavelengths absorbed\n    │     Planet      │\n    └─────────────────┘\n              │\n              ▼\n         Telescope\n```\n\n## Detected Molecules\n\n| Molecule | Significance |\n|----------|-------------|\n| H₂O | Water! |\n| CO₂ | Greenhouse gas |\n| CH₄ | Possibly biological |\n| Na, K | Alkali metals (hot Jupiters) |\n| He | Atmospheric escape |\n\n## JWST Capabilities\n\n- Unprecedented infrared sensitivity\n- Can study small planet atmospheres\n- Already detected CO₂ on WASP-39b (2022)\n\n## Atmospheric Escape\n\n```\nHot, close-in planets lose atmosphere:\n\n    ★ UV radiation → Atmosphere escapes\n    ↓\n    ╭───────╮\n    │       │───→ Gas streaming away\n    ╰───────╯\n```\n\n## Biosignatures\n\nPotential signs of life:\n\n| Biosignature | What it indicates |\n|--------------|-------------------|\n| Oxygen (O₂) | Photosynthesis? |\n| Ozone (O₃) | O₂ byproduct |\n| Methane (CH₄) | Biological production |\n| N₂O | Biological production |\n| \"Red edge\" | Vegetation reflection |\n\n## The Challenge\n\n- False positives (abiotic processes)\n- Need multiple lines of evidence\n- Context matters (host star, planet history)\n\n> 🎯 **Key Point:** JWST is revolutionizing exoplanet atmosphere studies!"
+        },
+        {
+            "id": "exoplanet_5",
+            "type": "content",
+            "title": "Notable Exoplanets",
+            "content": "# Notable Exoplanets 🌟\n\n## Proxima Centauri b\n\n- Closest known exoplanet (4.2 ly)\n- Earth-mass, in habitable zone\n- Orbits red dwarf\n- Concerns: Stellar flares\n\n## TRAPPIST-1 System\n\n```\n    TRAPPIST-1 (M dwarf)\n        │\n      b │ c │ d │ e │ f │ g │ h\n      ▲───▲───▲───▲───▲───▲───▲\n              HZ\n              \n    7 Earth-sized planets!\n    3 potentially in HZ\n```\n\n## Kepler-186f\n\n- First Earth-sized planet in HZ\n- Rocky composition likely\n- 500 light-years away\n\n## Kepler-452b\n\n- \"Earth's cousin\"\n- G-star (Sun-like)\n- 385-day orbit\n- 60% larger than Earth\n\n## Hot Jupiters\n\n| Planet | Star | Temperature |\n|--------|------|-------------|\n| 51 Peg b | 51 Pegasi | ~1,200 K |\n| HD 209458b | HD 209458 | ~1,200 K |\n| WASP-12b | WASP-12 | ~2,500 K |\n\n## Extremes\n\n| Record | Planet |\n|--------|--------|\n| Hottest | KELT-9b (~4,600 K) |\n| Coldest | OGLE-2016-BLG-1195Lb (~50 K) |\n| Densest | K2-229b (like Mercury) |\n| Least dense | Kepler-51 planets (cotton candy) |\n| Oldest system | Kepler-444 (11 billion years) |\n\n> 💡 **Key Point:** Exoplanets show incredible diversity - unlike our solar system!"
+        },
+        {
+            "id": "exoplanet_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Exoplanets! Here's what you've mastered:\n\n## Detection Methods\n\n| Method | Reveals |\n|--------|--------|\n| Transit | Size, atmosphere |\n| Radial velocity | Minimum mass |\n| Direct imaging | Physical properties |\n| Microlensing | Distant planets |\n\n## Habitable Zone\n\n- ✅ Region where liquid water possible\n- ✅ Depends on star type\n- ✅ Many factors beyond just distance\n- ✅ M dwarfs: Common but challenging\n\n## Atmospheres\n\n- ✅ Transmission spectroscopy\n- ✅ JWST revolutionizing field\n- ✅ Molecules: H₂O, CO₂, CH₄\n- ✅ Biosignatures: O₂, O₃, CH₄\n\n## Notable Discoveries\n\n| Planet | Significance |\n|--------|-------------|\n| Proxima Cen b | Nearest exoplanet |\n| TRAPPIST-1 | 7 Earth-sized planets |\n| Kepler-186f | First Earth-sized in HZ |\n\n## The Big Picture\n\n> 5,500+ exoplanets confirmed...\n> Billions estimated in our galaxy...\n> Are we alone? The search continues!\n\n> 🚀 **Next Steps:** Explore Celestial Mechanics for orbital dynamics!\n\nYou now understand how we discover and study distant worlds!"
+        }
+    ]
+}

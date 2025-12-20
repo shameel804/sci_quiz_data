@@ -1,0 +1,6274 @@
+[
+    {
+        "q": "What is cybersecurity?",
+        "type": "mcq",
+        "o": [
+            "Protecting systems from digital attacks",
+            "Physical security only",
+            "Software development",
+            "Hardware manufacturing"
+        ]
+    },
+    {
+        "q": "Cybersecurity protects data from unauthorized _____.",
+        "type": "fill_blank",
+        "answers": [
+            "access"
+        ],
+        "other_options": [
+            "creation",
+            "viewing",
+            "printing"
+        ]
+    },
+    {
+        "q": "Cybersecurity is only important for large companies.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a password?",
+        "type": "mcq",
+        "o": [
+            "Secret string for authentication",
+            "Username only",
+            "Email address",
+            "Phone number"
+        ]
+    },
+    {
+        "q": "Strong passwords should include letters, numbers, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "symbols"
+        ],
+        "other_options": [
+            "spaces",
+            "words",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the security term with its meaning:",
+        "type": "match",
+        "left": [
+            "Password",
+            "Username",
+            "PIN",
+            "Passphrase"
+        ],
+        "right": [
+            "Secret key",
+            "Identity",
+            "Numeric code",
+            "Long password"
+        ]
+    },
+    {
+        "q": "Using the same password everywhere is safe.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is encryption?",
+        "type": "mcq",
+        "o": [
+            "Converting data to unreadable format",
+            "Deleting data",
+            "Copying data",
+            "Printing data"
+        ]
+    },
+    {
+        "q": "Encryption scrambles data using a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "key"
+        ],
+        "other_options": [
+            "file",
+            "folder",
+            "drive"
+        ]
+    },
+    {
+        "q": "Rearrange encryption process:",
+        "type": "rearrange",
+        "words": [
+            "Plain text",
+            "Encryption key",
+            "Cipher text",
+            "Decryption"
+        ]
+    },
+    {
+        "q": "Decryption reverses encryption to reveal original data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a firewall?",
+        "type": "mcq",
+        "o": [
+            "Network security barrier",
+            "Physical wall",
+            "Fire protection",
+            "Wall decoration"
+        ]
+    },
+    {
+        "q": "Firewalls filter incoming and _____ traffic.",
+        "type": "fill_blank",
+        "answers": [
+            "outgoing"
+        ],
+        "other_options": [
+            "deleted",
+            "copied",
+            "printed"
+        ]
+    },
+    {
+        "q": "Match the security tool with its function:",
+        "type": "match",
+        "left": [
+            "Firewall",
+            "Antivirus",
+            "VPN",
+            "Password manager"
+        ],
+        "right": [
+            "Traffic filter",
+            "Malware detection",
+            "Encrypted tunnel",
+            "Store passwords"
+        ]
+    },
+    {
+        "q": "What is malware?",
+        "type": "mcq",
+        "o": [
+            "Malicious software",
+            "Good software",
+            "System update",
+            "Hardware component"
+        ]
+    },
+    {
+        "q": "Malware is designed to _____ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "harm"
+        ],
+        "other_options": [
+            "help",
+            "improve",
+            "speed up"
+        ]
+    },
+    {
+        "q": "All downloaded files are safe.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a virus?",
+        "type": "mcq",
+        "o": [
+            "Self-replicating malware",
+            "Helpful program",
+            "System file",
+            "Update package"
+        ]
+    },
+    {
+        "q": "Viruses spread by attaching to _____ files.",
+        "type": "fill_blank",
+        "answers": [
+            "other"
+        ],
+        "other_options": [
+            "no",
+            "system",
+            "hidden"
+        ]
+    },
+    {
+        "q": "Rearrange malware types by severity:",
+        "type": "rearrange",
+        "words": [
+            "Adware",
+            "Spyware",
+            "Virus",
+            "Ransomware"
+        ]
+    },
+    {
+        "q": "Match the malware type with its behavior:",
+        "type": "match",
+        "left": [
+            "Virus",
+            "Worm",
+            "Trojan",
+            "Ransomware"
+        ],
+        "right": [
+            "Attaches to files",
+            "Self-replicates alone",
+            "Disguised program",
+            "Encrypts for ransom"
+        ]
+    },
+    {
+        "q": "What is a worm?",
+        "type": "mcq",
+        "o": [
+            "Self-spreading malware without host",
+            "Type of virus",
+            "Helpful program",
+            "System utility"
+        ]
+    },
+    {
+        "q": "Worms spread through _____ without user action.",
+        "type": "fill_blank",
+        "answers": [
+            "networks"
+        ],
+        "other_options": [
+            "files",
+            "emails only",
+            "USB only"
+        ]
+    },
+    {
+        "q": "Worms require a host file to spread.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a Trojan?",
+        "type": "mcq",
+        "o": [
+            "Malware disguised as legitimate software",
+            "Ancient horse",
+            "Security tool",
+            "System file"
+        ]
+    },
+    {
+        "q": "Trojans trick users by appearing _____.",
+        "type": "fill_blank",
+        "answers": [
+            "legitimate"
+        ],
+        "other_options": [
+            "dangerous",
+            "obvious",
+            "broken"
+        ]
+    },
+    {
+        "q": "Trojans can create backdoors for attackers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ransomware?",
+        "type": "mcq",
+        "o": [
+            "Malware that encrypts files for payment",
+            "Free software",
+            "Backup tool",
+            "Security update"
+        ]
+    },
+    {
+        "q": "Ransomware demands _____ to restore access.",
+        "type": "fill_blank",
+        "answers": [
+            "payment"
+        ],
+        "other_options": [
+            "updates",
+            "installation",
+            "restart"
+        ]
+    },
+    {
+        "q": "Rearrange ransomware attack stages:",
+        "type": "rearrange",
+        "words": [
+            "Infection",
+            "Encryption",
+            "Ransom note",
+            "Payment demand"
+        ]
+    },
+    {
+        "q": "Paying ransomware guarantees data recovery.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is spyware?",
+        "type": "mcq",
+        "o": [
+            "Software that secretly monitors activity",
+            "Anti-spy tool",
+            "System monitor",
+            "Helpful tracker"
+        ]
+    },
+    {
+        "q": "Spyware collects _____ without consent.",
+        "type": "fill_blank",
+        "answers": [
+            "information"
+        ],
+        "other_options": [
+            "updates",
+            "files",
+            "programs"
+        ]
+    },
+    {
+        "q": "Match the spyware type with its target:",
+        "type": "match",
+        "left": [
+            "Keylogger",
+            "Screen capture",
+            "Browser hijacker",
+            "Adware"
+        ],
+        "right": [
+            "Keystrokes",
+            "Screen activity",
+            "Web traffic",
+            "Advertisements"
+        ]
+    },
+    {
+        "q": "What is phishing?",
+        "type": "mcq",
+        "o": [
+            "Fraudulent attempt to steal information",
+            "Fishing online",
+            "Network scanning",
+            "System update"
+        ]
+    },
+    {
+        "q": "Phishing often uses fake _____ to trick victims.",
+        "type": "fill_blank",
+        "answers": [
+            "emails"
+        ],
+        "other_options": [
+            "updates",
+            "files",
+            "programs"
+        ]
+    },
+    {
+        "q": "Phishing emails always look suspicious.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is social engineering?",
+        "type": "mcq",
+        "o": [
+            "Manipulating people to reveal information",
+            "Building social networks",
+            "Engineering software",
+            "Technical hacking"
+        ]
+    },
+    {
+        "q": "Social engineering exploits human _____.",
+        "type": "fill_blank",
+        "answers": [
+            "psychology"
+        ],
+        "other_options": [
+            "technology",
+            "hardware",
+            "software"
+        ]
+    },
+    {
+        "q": "Rearrange social engineering attack steps:",
+        "type": "rearrange",
+        "words": [
+            "Research target",
+            "Build trust",
+            "Exploit relationship",
+            "Execute attack"
+        ]
+    },
+    {
+        "q": "Match the attack with its method:",
+        "type": "match",
+        "left": [
+            "Phishing",
+            "Pretexting",
+            "Baiting",
+            "Tailgating"
+        ],
+        "right": [
+            "Fake emails",
+            "False identity",
+            "Free items",
+            "Physical following"
+        ]
+    },
+    {
+        "q": "What is antivirus software?",
+        "type": "mcq",
+        "o": [
+            "Program that detects and removes malware",
+            "Virus creation tool",
+            "System update",
+            "Network tool"
+        ]
+    },
+    {
+        "q": "Antivirus software scans files for known _____.",
+        "type": "fill_blank",
+        "answers": [
+            "signatures"
+        ],
+        "other_options": [
+            "names",
+            "sizes",
+            "dates"
+        ]
+    },
+    {
+        "q": "Antivirus software should be kept updated.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a VPN?",
+        "type": "mcq",
+        "o": [
+            "Virtual Private Network",
+            "Very Private Network",
+            "Virtual Public Network",
+            "Virus Protection Network"
+        ]
+    },
+    {
+        "q": "VPN creates an encrypted _____ for internet traffic.",
+        "type": "fill_blank",
+        "answers": [
+            "tunnel"
+        ],
+        "other_options": [
+            "file",
+            "folder",
+            "drive"
+        ]
+    },
+    {
+        "q": "Match the privacy tool with its function:",
+        "type": "match",
+        "left": [
+            "VPN",
+            "Tor",
+            "Proxy",
+            "HTTPS"
+        ],
+        "right": [
+            "Encrypted tunnel",
+            "Anonymity network",
+            "IP masking",
+            "Secure web"
+        ]
+    },
+    {
+        "q": "VPNs hide your IP address from websites.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is two-factor authentication (2FA)?",
+        "type": "mcq",
+        "o": [
+            "Using two methods to verify identity",
+            "Two passwords",
+            "Two usernames",
+            "Double encryption"
+        ]
+    },
+    {
+        "q": "2FA adds an extra _____ of security.",
+        "type": "fill_blank",
+        "answers": [
+            "layer"
+        ],
+        "other_options": [
+            "file",
+            "password",
+            "username"
+        ]
+    },
+    {
+        "q": "Rearrange authentication factors:",
+        "type": "rearrange",
+        "words": [
+            "Something you know",
+            "Something you have",
+            "Something you are"
+        ]
+    },
+    {
+        "q": "2FA is less secure than password alone.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is HTTPS?",
+        "type": "mcq",
+        "o": [
+            "Secure version of HTTP",
+            "Hacker Transfer Protocol",
+            "Hidden Text Protocol",
+            "High Transfer Speed"
+        ]
+    },
+    {
+        "q": "HTTPS encrypts data between browser and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "server"
+        ],
+        "other_options": [
+            "user",
+            "file",
+            "folder"
+        ]
+    },
+    {
+        "q": "Match the protocol with its security level:",
+        "type": "match",
+        "left": [
+            "HTTP",
+            "HTTPS",
+            "FTP",
+            "SFTP"
+        ],
+        "right": [
+            "Unencrypted",
+            "Encrypted",
+            "Unencrypted file",
+            "Encrypted file"
+        ]
+    },
+    {
+        "q": "HTTPS websites show a padlock icon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a data breach?",
+        "type": "mcq",
+        "o": [
+            "Unauthorized access to sensitive data",
+            "Data backup",
+            "System update",
+            "Network upgrade"
+        ]
+    },
+    {
+        "q": "Data breaches expose personal _____.",
+        "type": "fill_blank",
+        "answers": [
+            "information"
+        ],
+        "other_options": [
+            "files",
+            "folders",
+            "drives"
+        ]
+    },
+    {
+        "q": "Data breaches only affect large companies.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a hacker?",
+        "type": "mcq",
+        "o": [
+            "Person who exploits system vulnerabilities",
+            "System administrator only",
+            "Software developer",
+            "Hardware engineer"
+        ]
+    },
+    {
+        "q": "Ethical hackers help find _____ before attackers.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "files",
+            "folders",
+            "users"
+        ]
+    },
+    {
+        "q": "Rearrange hacker types by ethics:",
+        "type": "rearrange",
+        "words": [
+            "White hat",
+            "Grey hat",
+            "Black hat"
+        ]
+    },
+    {
+        "q": "Match the hacker type with their intent:",
+        "type": "match",
+        "left": [
+            "White hat",
+            "Black hat",
+            "Grey hat",
+            "Script kiddie"
+        ],
+        "right": [
+            "Ethical",
+            "Malicious",
+            "Mixed",
+            "Unskilled"
+        ]
+    },
+    {
+        "q": "White hat hackers work with permission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is penetration testing?",
+        "type": "mcq",
+        "o": [
+            "Authorized simulated attack on systems",
+            "Real hacking",
+            "System installation",
+            "Network setup"
+        ]
+    },
+    {
+        "q": "Penetration testing identifies security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "weaknesses"
+        ],
+        "other_options": [
+            "strengths",
+            "features",
+            "users"
+        ]
+    },
+    {
+        "q": "Penetration testing requires written permission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a vulnerability?",
+        "type": "mcq",
+        "o": [
+            "Weakness that can be exploited",
+            "System strength",
+            "Security feature",
+            "Update package"
+        ]
+    },
+    {
+        "q": "Vulnerabilities can exist in software or _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hardware"
+        ],
+        "other_options": [
+            "air",
+            "water",
+            "light"
+        ]
+    },
+    {
+        "q": "Match the vulnerability type with its location:",
+        "type": "match",
+        "left": [
+            "Buffer overflow",
+            "SQL injection",
+            "XSS",
+            "CSRF"
+        ],
+        "right": [
+            "Memory",
+            "Database",
+            "Browser",
+            "Session"
+        ]
+    },
+    {
+        "q": "What is a zero-day vulnerability?",
+        "type": "mcq",
+        "o": [
+            "Unknown flaw with no patch",
+            "Day one flaw",
+            "Fixed vulnerability",
+            "Minor bug"
+        ]
+    },
+    {
+        "q": "Zero-day attacks exploit vulnerabilities before _____ are available.",
+        "type": "fill_blank",
+        "answers": [
+            "patches"
+        ],
+        "other_options": [
+            "users",
+            "files",
+            "networks"
+        ]
+    },
+    {
+        "q": "Rearrange vulnerability lifecycle:",
+        "type": "rearrange",
+        "words": [
+            "Discovery",
+            "Disclosure",
+            "Patch",
+            "Update deployment"
+        ]
+    },
+    {
+        "q": "Zero-day vulnerabilities are the most dangerous.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a security patch?",
+        "type": "mcq",
+        "o": [
+            "Software update fixing vulnerabilities",
+            "Physical repair",
+            "Hardware upgrade",
+            "New feature"
+        ]
+    },
+    {
+        "q": "Patches should be applied _____.",
+        "type": "fill_blank",
+        "answers": [
+            "promptly"
+        ],
+        "other_options": [
+            "never",
+            "yearly",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Ignoring security patches is safe.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is symmetric encryption?",
+        "type": "mcq",
+        "o": [
+            "Same key for encryption and decryption",
+            "Different keys",
+            "No key needed",
+            "Multiple keys"
+        ]
+    },
+    {
+        "q": "Symmetric encryption uses a _____ key.",
+        "type": "fill_blank",
+        "answers": [
+            "shared"
+        ],
+        "other_options": [
+            "public",
+            "private",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the encryption type with its key usage:",
+        "type": "match",
+        "left": [
+            "Symmetric",
+            "Asymmetric",
+            "Hybrid",
+            "Hashing"
+        ],
+        "right": [
+            "Same key",
+            "Key pair",
+            "Both types",
+            "One-way"
+        ]
+    },
+    {
+        "q": "Symmetric encryption is faster than asymmetric.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is asymmetric encryption?",
+        "type": "mcq",
+        "o": [
+            "Different keys for encryption and decryption",
+            "Same key",
+            "No encryption",
+            "Single key"
+        ]
+    },
+    {
+        "q": "Asymmetric encryption uses public and _____ keys.",
+        "type": "fill_blank",
+        "answers": [
+            "private"
+        ],
+        "other_options": [
+            "shared",
+            "common",
+            "secret"
+        ]
+    },
+    {
+        "q": "Rearrange key sizes by security:",
+        "type": "rearrange",
+        "words": [
+            "128-bit",
+            "256-bit",
+            "512-bit",
+            "1024-bit"
+        ]
+    },
+    {
+        "q": "Public keys can be shared openly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AES?",
+        "type": "mcq",
+        "o": [
+            "Advanced Encryption Standard",
+            "Automatic Encryption System",
+            "Anti-Encryption Software",
+            "Advanced Email Security"
+        ]
+    },
+    {
+        "q": "AES is a _____ encryption algorithm.",
+        "type": "fill_blank",
+        "answers": [
+            "symmetric"
+        ],
+        "other_options": [
+            "asymmetric",
+            "hybrid",
+            "weak"
+        ]
+    },
+    {
+        "q": "Match the algorithm with its type:",
+        "type": "match",
+        "left": [
+            "AES",
+            "RSA",
+            "SHA-256",
+            "MD5"
+        ],
+        "right": [
+            "Symmetric",
+            "Asymmetric",
+            "Hash",
+            "Weak hash"
+        ]
+    },
+    {
+        "q": "AES-256 uses a 256-bit key.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RSA?",
+        "type": "mcq",
+        "o": [
+            "Asymmetric encryption algorithm",
+            "Symmetric encryption",
+            "Hash function",
+            "Compression algorithm"
+        ]
+    },
+    {
+        "q": "RSA is named after its _____ inventors.",
+        "type": "fill_blank",
+        "answers": [
+            "three"
+        ],
+        "other_options": [
+            "two",
+            "four",
+            "single"
+        ]
+    },
+    {
+        "q": "RSA security relies on difficulty of factoring large numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a hash function?",
+        "type": "mcq",
+        "o": [
+            "One-way function producing fixed output",
+            "Encryption with key",
+            "Decryption method",
+            "Compression tool"
+        ]
+    },
+    {
+        "q": "Hash functions produce a fixed-length _____.",
+        "type": "fill_blank",
+        "answers": [
+            "digest"
+        ],
+        "other_options": [
+            "key",
+            "file",
+            "folder"
+        ]
+    },
+    {
+        "q": "Rearrange hash algorithms by strength:",
+        "type": "rearrange",
+        "words": [
+            "MD5 (weak)",
+            "SHA-1 (deprecated)",
+            "SHA-256",
+            "SHA-3"
+        ]
+    },
+    {
+        "q": "Match the hash property with its meaning:",
+        "type": "match",
+        "left": [
+            "Deterministic",
+            "One-way",
+            "Collision-resistant",
+            "Avalanche effect"
+        ],
+        "right": [
+            "Same input same output",
+            "Cannot reverse",
+            "Hard to find duplicates",
+            "Small change big difference"
+        ]
+    },
+    {
+        "q": "Hashes can be reversed to get original data.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is SSL/TLS?",
+        "type": "mcq",
+        "o": [
+            "Protocols for secure communication",
+            "Malware types",
+            "Hacking tools",
+            "System files"
+        ]
+    },
+    {
+        "q": "TLS is the successor to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "SSL"
+        ],
+        "other_options": [
+            "HTTP",
+            "FTP",
+            "SSH"
+        ]
+    },
+    {
+        "q": "SSL/TLS secures web, email, and other communications.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a digital certificate?",
+        "type": "mcq",
+        "o": [
+            "Electronic document proving identity",
+            "Physical ID card",
+            "Password storage",
+            "Encryption key"
+        ]
+    },
+    {
+        "q": "Certificates are issued by Certificate _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Authorities"
+        ],
+        "other_options": [
+            "Managers",
+            "Servers",
+            "Users"
+        ]
+    },
+    {
+        "q": "Match the certificate term with its meaning:",
+        "type": "match",
+        "left": [
+            "CA",
+            "Root cert",
+            "Chain of trust",
+            "Certificate revocation"
+        ],
+        "right": [
+            "Issuing authority",
+            "Top-level cert",
+            "Verification path",
+            "Invalidating cert"
+        ]
+    },
+    {
+        "q": "Digital certificates verify website authenticity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a DDoS attack?",
+        "type": "mcq",
+        "o": [
+            "Distributed Denial of Service",
+            "Direct Data Operation",
+            "Digital Database System",
+            "Dynamic Domain Service"
+        ]
+    },
+    {
+        "q": "DDoS overwhelms servers with _____ traffic.",
+        "type": "fill_blank",
+        "answers": [
+            "massive"
+        ],
+        "other_options": [
+            "normal",
+            "slow",
+            "encrypted"
+        ]
+    },
+    {
+        "q": "Rearrange DDoS attack components:",
+        "type": "rearrange",
+        "words": [
+            "Attacker",
+            "Botnet",
+            "Target server",
+            "Service disruption"
+        ]
+    },
+    {
+        "q": "DDoS attacks make services unavailable to users.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a botnet?",
+        "type": "mcq",
+        "o": [
+            "Network of infected computers",
+            "Robot network",
+            "Security tool",
+            "Antivirus system"
+        ]
+    },
+    {
+        "q": "Botnets are controlled by a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "botmaster"
+        ],
+        "other_options": [
+            "user",
+            "admin",
+            "victim"
+        ]
+    },
+    {
+        "q": "Match the attack type with its goal:",
+        "type": "match",
+        "left": [
+            "DDoS",
+            "Phishing",
+            "Ransomware",
+            "Keylogging"
+        ],
+        "right": [
+            "Disrupt service",
+            "Steal credentials",
+            "Extort money",
+            "Capture typing"
+        ]
+    },
+    {
+        "q": "Infected computers in botnets are called zombies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SQL injection?",
+        "type": "mcq",
+        "o": [
+            "Inserting malicious SQL into queries",
+            "Database backup",
+            "SQL programming",
+            "Query optimization"
+        ]
+    },
+    {
+        "q": "SQL injection exploits improper input _____.",
+        "type": "fill_blank",
+        "answers": [
+            "validation"
+        ],
+        "other_options": [
+            "encryption",
+            "compression",
+            "formatting"
+        ]
+    },
+    {
+        "q": "Rearrange SQL injection attack steps:",
+        "type": "rearrange",
+        "words": [
+            "Find vulnerable input",
+            "Craft malicious query",
+            "Execute attack",
+            "Extract data"
+        ]
+    },
+    {
+        "q": "Match the injection type with its target:",
+        "type": "match",
+        "left": [
+            "SQL injection",
+            "XSS",
+            "Command injection",
+            "LDAP injection"
+        ],
+        "right": [
+            "Database",
+            "Browser",
+            "OS shell",
+            "Directory"
+        ]
+    },
+    {
+        "q": "Parameterized queries prevent SQL injection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is XSS (Cross-Site Scripting)?",
+        "type": "mcq",
+        "o": [
+            "Injecting scripts into web pages",
+            "Cross-site coding",
+            "Script copying",
+            "Website scripting"
+        ]
+    },
+    {
+        "q": "XSS attacks execute malicious code in victim's _____.",
+        "type": "fill_blank",
+        "answers": [
+            "browser"
+        ],
+        "other_options": [
+            "server",
+            "database",
+            "network"
+        ]
+    },
+    {
+        "q": "Match the XSS type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Reflected XSS",
+            "Stored XSS",
+            "DOM-based XSS",
+            "Self-XSS"
+        ],
+        "right": [
+            "URL parameter",
+            "Database stored",
+            "Client-side",
+            "User trick"
+        ]
+    },
+    {
+        "q": "XSS can steal session cookies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CSRF?",
+        "type": "mcq",
+        "o": [
+            "Cross-Site Request Forgery",
+            "Cross-Site Reference Failure",
+            "Client-Side Request Failure",
+            "Certificate Security Request"
+        ]
+    },
+    {
+        "q": "CSRF tricks users into performing unwanted _____.",
+        "type": "fill_blank",
+        "answers": [
+            "actions"
+        ],
+        "other_options": [
+            "logins",
+            "downloads",
+            "uploads"
+        ]
+    },
+    {
+        "q": "Rearrange CSRF attack flow:",
+        "type": "rearrange",
+        "words": [
+            "User authenticated",
+            "Malicious link clicked",
+            "Forged request sent",
+            "Action executed"
+        ]
+    },
+    {
+        "q": "CSRF tokens help prevent CSRF attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a man-in-the-middle attack?",
+        "type": "mcq",
+        "o": [
+            "Intercepting communication between parties",
+            "Physical attack",
+            "Direct server attack",
+            "Password guessing"
+        ]
+    },
+    {
+        "q": "MITM attacks intercept and possibly _____ data.",
+        "type": "fill_blank",
+        "answers": [
+            "modify"
+        ],
+        "other_options": [
+            "delete",
+            "backup",
+            "compress"
+        ]
+    },
+    {
+        "q": "Match the MITM technique with its method:",
+        "type": "match",
+        "left": [
+            "ARP spoofing",
+            "DNS spoofing",
+            "SSL stripping",
+            "Wi-Fi eavesdropping"
+        ],
+        "right": [
+            "MAC address",
+            "Domain resolution",
+            "Downgrade HTTPS",
+            "Wireless sniffing"
+        ]
+    },
+    {
+        "q": "HTTPS helps prevent MITM attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is session hijacking?",
+        "type": "mcq",
+        "o": [
+            "Taking over an active user session",
+            "Session creation",
+            "Login process",
+            "Session termination"
+        ]
+    },
+    {
+        "q": "Session hijacking steals session _____ or tokens.",
+        "type": "fill_blank",
+        "answers": [
+            "cookies"
+        ],
+        "other_options": [
+            "passwords",
+            "usernames",
+            "emails"
+        ]
+    },
+    {
+        "q": "Rearrange session security measures:",
+        "type": "rearrange",
+        "words": [
+            "HTTPS",
+            "Secure cookies",
+            "Session timeout",
+            "Token rotation"
+        ]
+    },
+    {
+        "q": "Session fixation forces victim to use attacker's session ID.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a brute force attack?",
+        "type": "mcq",
+        "o": [
+            "Trying all possible combinations",
+            "Smart guessing",
+            "Social engineering",
+            "Phishing"
+        ]
+    },
+    {
+        "q": "Brute force attacks try every possible _____ combination.",
+        "type": "fill_blank",
+        "answers": [
+            "password"
+        ],
+        "other_options": [
+            "username",
+            "email",
+            "file"
+        ]
+    },
+    {
+        "q": "Match the attack with its defense:",
+        "type": "match",
+        "left": [
+            "Brute force",
+            "Dictionary",
+            "Rainbow table",
+            "Credential stuffing"
+        ],
+        "right": [
+            "Account lockout",
+            "Complex passwords",
+            "Salted hashes",
+            "Unique passwords"
+        ]
+    },
+    {
+        "q": "Rate limiting helps prevent brute force attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a dictionary attack?",
+        "type": "mcq",
+        "o": [
+            "Using common words as password guesses",
+            "Reading dictionaries",
+            "Language attacks",
+            "Text analysis"
+        ]
+    },
+    {
+        "q": "Dictionary attacks use lists of common _____.",
+        "type": "fill_blank",
+        "answers": [
+            "passwords"
+        ],
+        "other_options": [
+            "usernames",
+            "emails",
+            "addresses"
+        ]
+    },
+    {
+        "q": "Complex passwords resist dictionary attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a rainbow table?",
+        "type": "mcq",
+        "o": [
+            "Precomputed hash lookup table",
+            "Color chart",
+            "Network diagram",
+            "Password list"
+        ]
+    },
+    {
+        "q": "Rainbow tables speed up cracking _____ passwords.",
+        "type": "fill_blank",
+        "answers": [
+            "hashed"
+        ],
+        "other_options": [
+            "encrypted",
+            "plain",
+            "long"
+        ]
+    },
+    {
+        "q": "Rearrange password cracking evolution:",
+        "type": "rearrange",
+        "words": [
+            "Plain text",
+            "Hash",
+            "Salt + hash",
+            "Key derivation function"
+        ]
+    },
+    {
+        "q": "Salting passwords defeats rainbow table attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is password salting?",
+        "type": "mcq",
+        "o": [
+            "Adding random data before hashing",
+            "Password encryption",
+            "Adding salt to food",
+            "Password complexity"
+        ]
+    },
+    {
+        "q": "Salts should be unique per _____.",
+        "type": "fill_blank",
+        "answers": [
+            "user"
+        ],
+        "other_options": [
+            "application",
+            "system",
+            "day"
+        ]
+    },
+    {
+        "q": "Match the password storage with security:",
+        "type": "match",
+        "left": [
+            "Plain text",
+            "MD5",
+            "SHA-256",
+            "bcrypt"
+        ],
+        "right": [
+            "Worst",
+            "Weak",
+            "Better",
+            "Best"
+        ]
+    },
+    {
+        "q": "What is network sniffing?",
+        "type": "mcq",
+        "o": [
+            "Capturing network packets",
+            "Network speed test",
+            "Network installation",
+            "Network design"
+        ]
+    },
+    {
+        "q": "Packet sniffers capture data in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "transit"
+        ],
+        "other_options": [
+            "storage",
+            "memory",
+            "cache"
+        ]
+    },
+    {
+        "q": "Rearrange network analysis tools:",
+        "type": "rearrange",
+        "words": [
+            "tcpdump",
+            "Wireshark",
+            "Nmap",
+            "Nessus"
+        ]
+    },
+    {
+        "q": "Encrypted traffic is harder to analyze when sniffed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is port scanning?",
+        "type": "mcq",
+        "o": [
+            "Checking which ports are open",
+            "Port closing",
+            "Port numbering",
+            "Port creation"
+        ]
+    },
+    {
+        "q": "Nmap is a popular port _____ tool.",
+        "type": "fill_blank",
+        "answers": [
+            "scanning"
+        ],
+        "other_options": [
+            "closing",
+            "opening",
+            "blocking"
+        ]
+    },
+    {
+        "q": "Match the port with its service:",
+        "type": "match",
+        "left": [
+            "Port 22",
+            "Port 80",
+            "Port 443",
+            "Port 3306"
+        ],
+        "right": [
+            "SSH",
+            "HTTP",
+            "HTTPS",
+            "MySQL"
+        ]
+    },
+    {
+        "q": "Port scanning is always malicious.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is vulnerability scanning?",
+        "type": "mcq",
+        "o": [
+            "Automated checking for security weaknesses",
+            "Manual review",
+            "Code writing",
+            "System installation"
+        ]
+    },
+    {
+        "q": "Vulnerability scanners identify potential security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "risks"
+        ],
+        "other_options": [
+            "features",
+            "updates",
+            "users"
+        ]
+    },
+    {
+        "q": "Rearrange security assessment types:",
+        "type": "rearrange",
+        "words": [
+            "Vulnerability scan",
+            "Penetration test",
+            "Red team",
+            "Bug bounty"
+        ]
+    },
+    {
+        "q": "What is network segmentation?",
+        "type": "mcq",
+        "o": [
+            "Dividing network into isolated sections",
+            "Network merging",
+            "Network expansion",
+            "Network deletion"
+        ]
+    },
+    {
+        "q": "Segmentation limits lateral _____ of attackers.",
+        "type": "fill_blank",
+        "answers": [
+            "movement"
+        ],
+        "other_options": [
+            "access",
+            "login",
+            "creation"
+        ]
+    },
+    {
+        "q": "Match the security layer with its protection:",
+        "type": "match",
+        "left": [
+            "DMZ",
+            "VLAN",
+            "Subnet",
+            "Firewall zone"
+        ],
+        "right": [
+            "Public servers",
+            "Logical separation",
+            "IP grouping",
+            "Traffic rules"
+        ]
+    },
+    {
+        "q": "A DMZ separates public servers from internal network.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an IDS?",
+        "type": "mcq",
+        "o": [
+            "Intrusion Detection System",
+            "Internet Data System",
+            "Internal Defense System",
+            "Integrated Device System"
+        ]
+    },
+    {
+        "q": "IDS monitors network for suspicious _____.",
+        "type": "fill_blank",
+        "answers": [
+            "activity"
+        ],
+        "other_options": [
+            "users",
+            "files",
+            "updates"
+        ]
+    },
+    {
+        "q": "Rearrange intrusion systems by capability:",
+        "type": "rearrange",
+        "words": [
+            "IDS (detect)",
+            "IPS (prevent)",
+            "SIEM (analyze)",
+            "SOAR (respond)"
+        ]
+    },
+    {
+        "q": "IPS can automatically block detected threats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SIEM?",
+        "type": "mcq",
+        "o": [
+            "Security Information and Event Management",
+            "System Integration Management",
+            "Secure Internet Management",
+            "Server Infrastructure Management"
+        ]
+    },
+    {
+        "q": "SIEM aggregates logs from multiple _____.",
+        "type": "fill_blank",
+        "answers": [
+            "sources"
+        ],
+        "other_options": [
+            "files",
+            "users",
+            "networks"
+        ]
+    },
+    {
+        "q": "Match the security tool with its function:",
+        "type": "match",
+        "left": [
+            "SIEM",
+            "WAF",
+            "EDR",
+            "DLP"
+        ],
+        "right": [
+            "Log analysis",
+            "Web protection",
+            "Endpoint detection",
+            "Data loss prevention"
+        ]
+    },
+    {
+        "q": "SIEM provides centralized security monitoring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a WAF?",
+        "type": "mcq",
+        "o": [
+            "Web Application Firewall",
+            "Wide Area Firewall",
+            "Wireless Access Firewall",
+            "Web Access Filter"
+        ]
+    },
+    {
+        "q": "WAF protects against web _____ attacks.",
+        "type": "fill_blank",
+        "answers": [
+            "application"
+        ],
+        "other_options": [
+            "network",
+            "physical",
+            "social"
+        ]
+    },
+    {
+        "q": "WAF can block SQL injection and XSS attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is endpoint security?",
+        "type": "mcq",
+        "o": [
+            "Protecting individual devices",
+            "Network-only protection",
+            "Server security",
+            "Cloud security"
+        ]
+    },
+    {
+        "q": "Endpoints include laptops, phones, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "tablets"
+        ],
+        "other_options": [
+            "routers",
+            "switches",
+            "servers"
+        ]
+    },
+    {
+        "q": "Rearrange endpoint security components:",
+        "type": "rearrange",
+        "words": [
+            "Antivirus",
+            "Firewall",
+            "EDR",
+            "MDM"
+        ]
+    },
+    {
+        "q": "Match the endpoint control with its purpose:",
+        "type": "match",
+        "left": [
+            "Antivirus",
+            "Disk encryption",
+            "MDM",
+            "DLP"
+        ],
+        "right": [
+            "Malware detection",
+            "Data protection",
+            "Mobile management",
+            "Data leakage"
+        ]
+    },
+    {
+        "q": "EDR provides advanced endpoint threat detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is access control?",
+        "type": "mcq",
+        "o": [
+            "Regulating who can access resources",
+            "Speed control",
+            "Volume control",
+            "Display control"
+        ]
+    },
+    {
+        "q": "Access control follows the principle of least _____.",
+        "type": "fill_blank",
+        "answers": [
+            "privilege"
+        ],
+        "other_options": [
+            "access",
+            "control",
+            "power"
+        ]
+    },
+    {
+        "q": "Match the access control model with its type:",
+        "type": "match",
+        "left": [
+            "DAC",
+            "MAC",
+            "RBAC",
+            "ABAC"
+        ],
+        "right": [
+            "Owner decides",
+            "Labels/clearances",
+            "Roles",
+            "Attributes"
+        ]
+    },
+    {
+        "q": "RBAC assigns permissions based on user roles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is privilege escalation?",
+        "type": "mcq",
+        "o": [
+            "Gaining higher access than authorized",
+            "Losing privileges",
+            "Normal login",
+            "Password reset"
+        ]
+    },
+    {
+        "q": "Vertical escalation gains _____ level access.",
+        "type": "fill_blank",
+        "answers": [
+            "higher"
+        ],
+        "other_options": [
+            "lower",
+            "same",
+            "partial"
+        ]
+    },
+    {
+        "q": "Rearrange privilege levels:",
+        "type": "rearrange",
+        "words": [
+            "Guest",
+            "User",
+            "Administrator",
+            "Root/System"
+        ]
+    },
+    {
+        "q": "Horizontal escalation accesses another user's resources.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is defense in depth?",
+        "type": "mcq",
+        "o": [
+            "Multiple layers of security",
+            "Single strong defense",
+            "Deep network",
+            "Underground defense"
+        ]
+    },
+    {
+        "q": "Defense in depth uses multiple _____ of protection.",
+        "type": "fill_blank",
+        "answers": [
+            "layers"
+        ],
+        "other_options": [
+            "files",
+            "users",
+            "systems"
+        ]
+    },
+    {
+        "q": "Match the security layer with its example:",
+        "type": "match",
+        "left": [
+            "Physical",
+            "Network",
+            "Application",
+            "Data"
+        ],
+        "right": [
+            "Guards/locks",
+            "Firewall",
+            "Input validation",
+            "Encryption"
+        ]
+    },
+    {
+        "q": "One security control is sufficient if strong enough.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the CIA triad?",
+        "type": "mcq",
+        "o": [
+            "Confidentiality, Integrity, Availability",
+            "Central Intelligence Agency",
+            "Computer Information Access",
+            "Critical Infrastructure Assessment"
+        ]
+    },
+    {
+        "q": "Confidentiality ensures data is accessible only to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "authorized users"
+        ],
+        "other_options": [
+            "everyone",
+            "admins only",
+            "no one"
+        ]
+    },
+    {
+        "q": "Rearrange CIA triad priorities:",
+        "type": "rearrange",
+        "words": [
+            "Confidentiality",
+            "Integrity",
+            "Availability"
+        ]
+    },
+    {
+        "q": "Integrity ensures data is accurate and unmodified.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is non-repudiation?",
+        "type": "mcq",
+        "o": [
+            "Proof of action that cannot be denied",
+            "Data hiding",
+            "Access control",
+            "Encryption"
+        ]
+    },
+    {
+        "q": "Digital signatures provide _____.",
+        "type": "fill_blank",
+        "answers": [
+            "non-repudiation"
+        ],
+        "other_options": [
+            "encryption",
+            "anonymity",
+            "speed"
+        ]
+    },
+    {
+        "q": "Match the security property with its assurance:",
+        "type": "match",
+        "left": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Non-repudiation"
+        ],
+        "right": [
+            "Data secrecy",
+            "Data accuracy",
+            "System uptime",
+            "Action proof"
+        ]
+    },
+    {
+        "q": "What is a security policy?",
+        "type": "mcq",
+        "o": [
+            "Document defining security rules",
+            "Software tool",
+            "Hardware device",
+            "Network protocol"
+        ]
+    },
+    {
+        "q": "Security policies define acceptable _____ of systems.",
+        "type": "fill_blank",
+        "answers": [
+            "use"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange security document hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Policy",
+            "Standard",
+            "Procedure",
+            "Guideline"
+        ]
+    },
+    {
+        "q": "All employees should understand security policies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is risk assessment?",
+        "type": "mcq",
+        "o": [
+            "Identifying and evaluating security risks",
+            "Risk taking",
+            "Risk ignoring",
+            "Risk creation"
+        ]
+    },
+    {
+        "q": "Risk equals likelihood times _____.",
+        "type": "fill_blank",
+        "answers": [
+            "impact"
+        ],
+        "other_options": [
+            "time",
+            "cost",
+            "users"
+        ]
+    },
+    {
+        "q": "Match the risk response with its action:",
+        "type": "match",
+        "left": [
+            "Accept",
+            "Mitigate",
+            "Transfer",
+            "Avoid"
+        ],
+        "right": [
+            "Live with it",
+            "Reduce it",
+            "Insure it",
+            "Eliminate it"
+        ]
+    },
+    {
+        "q": "All risks must be eliminated completely.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is threat modeling?",
+        "type": "mcq",
+        "o": [
+            "Identifying potential security threats",
+            "Building threats",
+            "Ignoring threats",
+            "Threat creation"
+        ]
+    },
+    {
+        "q": "STRIDE is a threat modeling _____.",
+        "type": "fill_blank",
+        "answers": [
+            "framework"
+        ],
+        "other_options": [
+            "tool",
+            "attack",
+            "defense"
+        ]
+    },
+    {
+        "q": "Rearrange STRIDE threat categories:",
+        "type": "rearrange",
+        "words": [
+            "Spoofing",
+            "Tampering",
+            "Repudiation",
+            "Denial of Service"
+        ]
+    },
+    {
+        "q": "Match the STRIDE threat with its target:",
+        "type": "match",
+        "left": [
+            "Spoofing",
+            "Tampering",
+            "Information disclosure",
+            "Elevation of privilege"
+        ],
+        "right": [
+            "Authentication",
+            "Integrity",
+            "Confidentiality",
+            "Authorization"
+        ]
+    },
+    {
+        "q": "Threat modeling should be done during design phase.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security awareness training?",
+        "type": "mcq",
+        "o": [
+            "Educating users about security threats",
+            "Technical training only",
+            "Hardware installation",
+            "Software development"
+        ]
+    },
+    {
+        "q": "Users are often the _____ link in security.",
+        "type": "fill_blank",
+        "answers": [
+            "weakest"
+        ],
+        "other_options": [
+            "strongest",
+            "fastest",
+            "newest"
+        ]
+    },
+    {
+        "q": "Security training should be ongoing, not one-time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is incident response?",
+        "type": "mcq",
+        "o": [
+            "Handling security breaches",
+            "Preventing all incidents",
+            "Ignoring incidents",
+            "Creating incidents"
+        ]
+    },
+    {
+        "q": "The first step in incident response is _____.",
+        "type": "fill_blank",
+        "answers": [
+            "identification"
+        ],
+        "other_options": [
+            "deletion",
+            "investigation",
+            "notification"
+        ]
+    },
+    {
+        "q": "Rearrange incident response phases:",
+        "type": "rearrange",
+        "words": [
+            "Preparation",
+            "Identification",
+            "Containment",
+            "Recovery"
+        ]
+    },
+    {
+        "q": "Match the IR phase with its action:",
+        "type": "match",
+        "left": [
+            "Preparation",
+            "Containment",
+            "Eradication",
+            "Lessons learned"
+        ],
+        "right": [
+            "Plan creation",
+            "Limit damage",
+            "Remove threat",
+            "Post-incident review"
+        ]
+    },
+    {
+        "q": "Incident response plans should be tested regularly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a honeypot?",
+        "type": "mcq",
+        "o": [
+            "Decoy system to attract attackers",
+            "Sweet trap",
+            "Honey container",
+            "Bee house"
+        ]
+    },
+    {
+        "q": "Honeypots help analyze attacker _____.",
+        "type": "fill_blank",
+        "answers": [
+            "behavior"
+        ],
+        "other_options": [
+            "passwords",
+            "identities",
+            "locations"
+        ]
+    },
+    {
+        "q": "Match the deception technology with its purpose:",
+        "type": "match",
+        "left": [
+            "Honeypot",
+            "Honeynet",
+            "Honey token",
+            "Canary"
+        ],
+        "right": [
+            "Single decoy",
+            "Network of decoys",
+            "Fake data",
+            "Detection alert"
+        ]
+    },
+    {
+        "q": "Honeypots provide early warning of attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is OWASP?",
+        "type": "mcq",
+        "o": [
+            "Open Web Application Security Project",
+            "Online Web Access Security Protocol",
+            "Open Wireless Application Standards",
+            "Official Web Application Standards"
+        ]
+    },
+    {
+        "q": "OWASP Top 10 lists common web _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "features",
+            "updates",
+            "frameworks"
+        ]
+    },
+    {
+        "q": "OWASP provides free security resources.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a buffer overflow?",
+        "type": "mcq",
+        "o": [
+            "Writing data beyond allocated memory",
+            "Buffer cleaning",
+            "Buffer creation",
+            "Buffer sizing"
+        ]
+    },
+    {
+        "q": "Buffer overflows can allow code _____.",
+        "type": "fill_blank",
+        "answers": [
+            "execution"
+        ],
+        "other_options": [
+            "reading",
+            "saving",
+            "viewing"
+        ]
+    },
+    {
+        "q": "Rearrange memory protections:",
+        "type": "rearrange",
+        "words": [
+            "Stack canaries",
+            "ASLR",
+            "DEP/NX",
+            "Safe coding"
+        ]
+    },
+    {
+        "q": "Match the memory attack with its target:",
+        "type": "match",
+        "left": [
+            "Buffer overflow",
+            "Heap overflow",
+            "Stack smashing",
+            "Use-after-free"
+        ],
+        "right": [
+            "General memory",
+            "Dynamic memory",
+            "Stack memory",
+            "Freed memory"
+        ]
+    },
+    {
+        "q": "ASLR randomizes memory addresses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cryptographic key management?",
+        "type": "mcq",
+        "o": [
+            "Secure handling of encryption keys",
+            "Key creation only",
+            "Key deletion",
+            "Key copying"
+        ]
+    },
+    {
+        "q": "Keys should be rotated _____.",
+        "type": "fill_blank",
+        "answers": [
+            "periodically"
+        ],
+        "other_options": [
+            "never",
+            "once",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Match the key operation with its purpose:",
+        "type": "match",
+        "left": [
+            "Generation",
+            "Storage",
+            "Rotation",
+            "Revocation"
+        ],
+        "right": [
+            "Create keys",
+            "Protect keys",
+            "Replace keys",
+            "Invalidate keys"
+        ]
+    },
+    {
+        "q": "What is PKI?",
+        "type": "mcq",
+        "o": [
+            "Public Key Infrastructure",
+            "Private Key Installation",
+            "Public Key Identification",
+            "Protected Key Interface"
+        ]
+    },
+    {
+        "q": "PKI manages digital _____ and keys.",
+        "type": "fill_blank",
+        "answers": [
+            "certificates"
+        ],
+        "other_options": [
+            "documents",
+            "files",
+            "users"
+        ]
+    },
+    {
+        "q": "Rearrange PKI components:",
+        "type": "rearrange",
+        "words": [
+            "Certificate Authority",
+            "Registration Authority",
+            "Certificate",
+            "Key pair"
+        ]
+    },
+    {
+        "q": "PKI enables secure communication over insecure networks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is code signing?",
+        "type": "mcq",
+        "o": [
+            "Digitally signing software",
+            "Writing code",
+            "Code naming",
+            "Code review"
+        ]
+    },
+    {
+        "q": "Code signing verifies software _____ and integrity.",
+        "type": "fill_blank",
+        "answers": [
+            "authenticity"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "age"
+        ]
+    },
+    {
+        "q": "Code signing prevents tampered software from running.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure boot?",
+        "type": "mcq",
+        "o": [
+            "Verifying software before loading",
+            "Fast boot",
+            "Boot animation",
+            "Boot menu"
+        ]
+    },
+    {
+        "q": "Secure boot checks cryptographic _____ of bootloader.",
+        "type": "fill_blank",
+        "answers": [
+            "signatures"
+        ],
+        "other_options": [
+            "size",
+            "name",
+            "date"
+        ]
+    },
+    {
+        "q": "Match the boot security with its function:",
+        "type": "match",
+        "left": [
+            "UEFI",
+            "Secure Boot",
+            "TPM",
+            "Measured Boot"
+        ],
+        "right": [
+            "Modern BIOS",
+            "Signature check",
+            "Key storage",
+            "Integrity log"
+        ]
+    },
+    {
+        "q": "TPM stores cryptographic keys securely.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is data backup?",
+        "type": "mcq",
+        "o": [
+            "Creating copies of data",
+            "Data deletion",
+            "Data encryption",
+            "Data compression"
+        ]
+    },
+    {
+        "q": "The 3-2-1 rule keeps 3 copies on 2 media with 1 _____.",
+        "type": "fill_blank",
+        "answers": [
+            "offsite"
+        ],
+        "other_options": [
+            "encrypted",
+            "local",
+            "daily"
+        ]
+    },
+    {
+        "q": "Rearrange backup types by data stored:",
+        "type": "rearrange",
+        "words": [
+            "Full",
+            "Differential",
+            "Incremental",
+            "Mirror"
+        ]
+    },
+    {
+        "q": "Backups should be tested for restoration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is disaster recovery?",
+        "type": "mcq",
+        "o": [
+            "Restoring systems after major incident",
+            "Preventing disasters",
+            "Disaster planning only",
+            "Insurance claims"
+        ]
+    },
+    {
+        "q": "RTO is the maximum acceptable _____.",
+        "type": "fill_blank",
+        "answers": [
+            "downtime"
+        ],
+        "other_options": [
+            "cost",
+            "users",
+            "files"
+        ]
+    },
+    {
+        "q": "Match the DR term with its meaning:",
+        "type": "match",
+        "left": [
+            "RTO",
+            "RPO",
+            "Hot site",
+            "Cold site"
+        ],
+        "right": [
+            "Recovery time",
+            "Data loss tolerance",
+            "Ready standby",
+            "Empty facility"
+        ]
+    },
+    {
+        "q": "RPO defines acceptable data loss amount.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is multi-factor authentication?",
+        "type": "mcq",
+        "o": [
+            "Using multiple verification methods",
+            "Multiple passwords",
+            "Multiple usernames",
+            "Multiple logins"
+        ]
+    },
+    {
+        "q": "MFA combines knowledge, possession, and _____ factors.",
+        "type": "fill_blank",
+        "answers": [
+            "inherence"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "location"
+        ]
+    },
+    {
+        "q": "Rearrange authentication factors by type:",
+        "type": "rearrange",
+        "words": [
+            "Password (know)",
+            "Token (have)",
+            "Fingerprint (are)",
+            "Location (where)"
+        ]
+    },
+    {
+        "q": "SMS-based 2FA is the most secure option.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is OAuth?",
+        "type": "mcq",
+        "o": [
+            "Open Authorization standard",
+            "Online Authentication",
+            "Open Access Token",
+            "Official Authentication"
+        ]
+    },
+    {
+        "q": "OAuth allows third-party access without sharing _____.",
+        "type": "fill_blank",
+        "answers": [
+            "passwords"
+        ],
+        "other_options": [
+            "emails",
+            "names",
+            "addresses"
+        ]
+    },
+    {
+        "q": "Match the auth standard with its purpose:",
+        "type": "match",
+        "left": [
+            "OAuth",
+            "OpenID Connect",
+            "SAML",
+            "LDAP"
+        ],
+        "right": [
+            "Authorization",
+            "Authentication",
+            "SSO enterprise",
+            "Directory"
+        ]
+    },
+    {
+        "q": "OAuth 2.0 is the current major version.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Single Sign-On (SSO)?",
+        "type": "mcq",
+        "o": [
+            "One login for multiple applications",
+            "Single application access",
+            "One-time password",
+            "Simple sign-up"
+        ]
+    },
+    {
+        "q": "SSO improves user _____ and security.",
+        "type": "fill_blank",
+        "answers": [
+            "experience"
+        ],
+        "other_options": [
+            "passwords",
+            "logins",
+            "accounts"
+        ]
+    },
+    {
+        "q": "SSO reduces password fatigue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is zero trust security?",
+        "type": "mcq",
+        "o": [
+            "Never trust, always verify",
+            "Trust everyone",
+            "Trust internal only",
+            "Zero security"
+        ]
+    },
+    {
+        "q": "Zero trust assumes breach and verifies _____.",
+        "type": "fill_blank",
+        "answers": [
+            "continuously"
+        ],
+        "other_options": [
+            "once",
+            "never",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Rearrange security models:",
+        "type": "rearrange",
+        "words": [
+            "Perimeter",
+            "Defense in depth",
+            "Zero trust",
+            "SASE"
+        ]
+    },
+    {
+        "q": "Match the zero trust principle with its control:",
+        "type": "match",
+        "left": [
+            "Verify explicitly",
+            "Least privilege",
+            "Assume breach",
+            "Microsegmentation"
+        ],
+        "right": [
+            "Always authenticate",
+            "Minimal access",
+            "Limit blast radius",
+            "Small zones"
+        ]
+    },
+    {
+        "q": "Zero trust replaces perimeter-based security.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cloud security?",
+        "type": "mcq",
+        "o": [
+            "Protecting cloud-based resources",
+            "Weather protection",
+            "Sky security",
+            "Air defense"
+        ]
+    },
+    {
+        "q": "The shared responsibility model divides security between provider and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "customer"
+        ],
+        "other_options": [
+            "server",
+            "network",
+            "admin"
+        ]
+    },
+    {
+        "q": "Match the cloud model with customer responsibility:",
+        "type": "match",
+        "left": [
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "On-premise"
+        ],
+        "right": [
+            "Most responsibility",
+            "Medium",
+            "Least",
+            "Full responsibility"
+        ]
+    },
+    {
+        "q": "Cloud providers handle all security in SaaS.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is CASB?",
+        "type": "mcq",
+        "o": [
+            "Cloud Access Security Broker",
+            "Cloud Application Security",
+            "Computer Access System",
+            "Certificate Access Broker"
+        ]
+    },
+    {
+        "q": "CASB monitors traffic between users and cloud _____.",
+        "type": "fill_blank",
+        "answers": [
+            "services"
+        ],
+        "other_options": [
+            "storage",
+            "servers",
+            "networks"
+        ]
+    },
+    {
+        "q": "Rearrange cloud security tools:",
+        "type": "rearrange",
+        "words": [
+            "CASB",
+            "CWPP",
+            "CSPM",
+            "CNAPP"
+        ]
+    },
+    {
+        "q": "CSPM checks cloud configuration against best practices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is container security?",
+        "type": "mcq",
+        "o": [
+            "Protecting containerized applications",
+            "Shipping container safety",
+            "Storage security",
+            "Physical containers"
+        ]
+    },
+    {
+        "q": "Container images should be scanned for _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "size",
+            "speed",
+            "age"
+        ]
+    },
+    {
+        "q": "Match the container term with its security concern:",
+        "type": "match",
+        "left": [
+            "Base image",
+            "Runtime",
+            "Orchestration",
+            "Registry"
+        ],
+        "right": [
+            "Vulnerable dependencies",
+            "Escape attacks",
+            "Misconfigurations",
+            "Image tampering"
+        ]
+    },
+    {
+        "q": "Containers share the host OS kernel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Kubernetes security?",
+        "type": "mcq",
+        "o": [
+            "Securing container orchestration",
+            "Ship steering",
+            "Navigate security",
+            "Helm protection"
+        ]
+    },
+    {
+        "q": "RBAC in Kubernetes controls _____ to resources.",
+        "type": "fill_blank",
+        "answers": [
+            "access"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "location"
+        ]
+    },
+    {
+        "q": "Rearrange Kubernetes security layers:",
+        "type": "rearrange",
+        "words": [
+            "Cluster",
+            "Node",
+            "Pod",
+            "Container"
+        ]
+    },
+    {
+        "q": "Pod security policies restrict container permissions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DevSecOps?",
+        "type": "mcq",
+        "o": [
+            "Integrating security into DevOps",
+            "Development security operations",
+            "Security development",
+            "Operations security"
+        ]
+    },
+    {
+        "q": "DevSecOps shifts security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "left"
+        ],
+        "other_options": [
+            "right",
+            "up",
+            "down"
+        ]
+    },
+    {
+        "q": "Match the DevSecOps practice with its stage:",
+        "type": "match",
+        "left": [
+            "SAST",
+            "DAST",
+            "SCA",
+            "Pen testing"
+        ],
+        "right": [
+            "Code analysis",
+            "Running app",
+            "Dependencies",
+            "Pre-release"
+        ]
+    },
+    {
+        "q": "Shift left means addressing security earlier in development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SAST?",
+        "type": "mcq",
+        "o": [
+            "Static Application Security Testing",
+            "System Application Testing",
+            "Security Application Scanning",
+            "Static Access Testing"
+        ]
+    },
+    {
+        "q": "SAST analyzes source _____ without running it.",
+        "type": "fill_blank",
+        "answers": [
+            "code"
+        ],
+        "other_options": [
+            "data",
+            "files",
+            "logs"
+        ]
+    },
+    {
+        "q": "SAST can find all runtime vulnerabilities.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is DAST?",
+        "type": "mcq",
+        "o": [
+            "Dynamic Application Security Testing",
+            "Database Application Test",
+            "Dynamic Access Test",
+            "Data Application Security"
+        ]
+    },
+    {
+        "q": "DAST tests applications in _____ state.",
+        "type": "fill_blank",
+        "answers": [
+            "running"
+        ],
+        "other_options": [
+            "stopped",
+            "paused",
+            "development"
+        ]
+    },
+    {
+        "q": "Rearrange security testing types:",
+        "type": "rearrange",
+        "words": [
+            "SAST",
+            "DAST",
+            "IAST",
+            "RASP"
+        ]
+    },
+    {
+        "q": "Match the testing type with its approach:",
+        "type": "match",
+        "left": [
+            "SAST",
+            "DAST",
+            "IAST",
+            "Pen test"
+        ],
+        "right": [
+            "White box",
+            "Black box",
+            "Gray box",
+            "Manual"
+        ]
+    },
+    {
+        "q": "IAST combines SAST and DAST approaches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SCA?",
+        "type": "mcq",
+        "o": [
+            "Software Composition Analysis",
+            "Security Code Analysis",
+            "System Component Audit",
+            "Software Control Assessment"
+        ]
+    },
+    {
+        "q": "SCA identifies vulnerabilities in third-party _____.",
+        "type": "fill_blank",
+        "answers": [
+            "libraries"
+        ],
+        "other_options": [
+            "code",
+            "data",
+            "users"
+        ]
+    },
+    {
+        "q": "Open source components can contain vulnerabilities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mobile security?",
+        "type": "mcq",
+        "o": [
+            "Protecting mobile devices and apps",
+            "Moving security",
+            "Vehicle security",
+            "Portable defense"
+        ]
+    },
+    {
+        "q": "Mobile apps should validate input and use secure _____.",
+        "type": "fill_blank",
+        "answers": [
+            "storage"
+        ],
+        "other_options": [
+            "display",
+            "speed",
+            "colors"
+        ]
+    },
+    {
+        "q": "Rearrange mobile security layers:",
+        "type": "rearrange",
+        "words": [
+            "Device",
+            "OS",
+            "App",
+            "Data"
+        ]
+    },
+    {
+        "q": "Match the mobile threat with its target:",
+        "type": "match",
+        "left": [
+            "Jailbreaking",
+            "SMS phishing",
+            "Rogue app",
+            "Network MITM"
+        ],
+        "right": [
+            "OS bypass",
+            "Social engineering",
+            "Malicious software",
+            "Communication"
+        ]
+    },
+    {
+        "q": "MDM helps manage mobile device security.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is IoT security?",
+        "type": "mcq",
+        "o": [
+            "Securing Internet of Things devices",
+            "Internet security",
+            "Thing protection",
+            "Object security"
+        ]
+    },
+    {
+        "q": "IoT devices often have limited _____ for security.",
+        "type": "fill_blank",
+        "answers": [
+            "resources"
+        ],
+        "other_options": [
+            "users",
+            "networks",
+            "screens"
+        ]
+    },
+    {
+        "q": "Match the IoT challenge with its concern:",
+        "type": "match",
+        "left": [
+            "Weak defaults",
+            "No updates",
+            "Physical access",
+            "Protocol issues"
+        ],
+        "right": [
+            "Default passwords",
+            "Unpatched",
+            "Tampering",
+            "Insecure communication"
+        ]
+    },
+    {
+        "q": "Many IoT devices ship with default passwords.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is OT security?",
+        "type": "mcq",
+        "o": [
+            "Operational Technology security",
+            "Operations Team security",
+            "Other Technology security",
+            "Optional Technology"
+        ]
+    },
+    {
+        "q": "OT systems control physical _____ and infrastructure.",
+        "type": "fill_blank",
+        "answers": [
+            "processes"
+        ],
+        "other_options": [
+            "files",
+            "emails",
+            "websites"
+        ]
+    },
+    {
+        "q": "Rearrange industrial control systems:",
+        "type": "rearrange",
+        "words": [
+            "SCADA",
+            "PLC",
+            "RTU",
+            "HMI"
+        ]
+    },
+    {
+        "q": "OT and IT convergence creates new security challenges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is API security?",
+        "type": "mcq",
+        "o": [
+            "Protecting application programming interfaces",
+            "Application protection",
+            "Interface security",
+            "Programming defense"
+        ]
+    },
+    {
+        "q": "APIs should use authentication and rate _____.",
+        "type": "fill_blank",
+        "answers": [
+            "limiting"
+        ],
+        "other_options": [
+            "counting",
+            "blocking",
+            "forwarding"
+        ]
+    },
+    {
+        "q": "Match the API threat with its attack:",
+        "type": "match",
+        "left": [
+            "Broken auth",
+            "Excessive data",
+            "Injection",
+            "BOLA"
+        ],
+        "right": [
+            "Weak tokens",
+            "Sensitive info leak",
+            "Input attacks",
+            "Object access"
+        ]
+    },
+    {
+        "q": "OWASP API Security Top 10 covers API vulnerabilities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is digital forensics?",
+        "type": "mcq",
+        "o": [
+            "Investigating digital evidence",
+            "Digital science",
+            "Computer repair",
+            "Data recovery"
+        ]
+    },
+    {
+        "q": "Forensic evidence must maintain chain of _____.",
+        "type": "fill_blank",
+        "answers": [
+            "custody"
+        ],
+        "other_options": [
+            "command",
+            "control",
+            "access"
+        ]
+    },
+    {
+        "q": "Rearrange forensic investigation phases:",
+        "type": "rearrange",
+        "words": [
+            "Identification",
+            "Preservation",
+            "Analysis",
+            "Reporting"
+        ]
+    },
+    {
+        "q": "Match the forensic type with its focus:",
+        "type": "match",
+        "left": [
+            "Computer forensics",
+            "Network forensics",
+            "Memory forensics",
+            "Mobile forensics"
+        ],
+        "right": [
+            "Disk analysis",
+            "Traffic analysis",
+            "RAM analysis",
+            "Phone analysis"
+        ]
+    },
+    {
+        "q": "Write blockers prevent evidence modification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is malware analysis?",
+        "type": "mcq",
+        "o": [
+            "Studying malicious software behavior",
+            "Creating malware",
+            "Removing malware",
+            "Spreading malware"
+        ]
+    },
+    {
+        "q": "Static analysis examines malware without _____.",
+        "type": "fill_blank",
+        "answers": [
+            "executing"
+        ],
+        "other_options": [
+            "downloading",
+            "copying",
+            "viewing"
+        ]
+    },
+    {
+        "q": "Rearrange malware analysis techniques:",
+        "type": "rearrange",
+        "words": [
+            "Static analysis",
+            "Dynamic analysis",
+            "Reverse engineering",
+            "Behavioral analysis"
+        ]
+    },
+    {
+        "q": "Sandbox environments safely execute malware for analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is threat intelligence?",
+        "type": "mcq",
+        "o": [
+            "Information about threats and actors",
+            "Threat creation",
+            "Intelligence testing",
+            "Smart threats"
+        ]
+    },
+    {
+        "q": "IOCs are Indicators of _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Compromise"
+        ],
+        "other_options": [
+            "Control",
+            "Computer",
+            "Communication"
+        ]
+    },
+    {
+        "q": "Match the intelligence type with its focus:",
+        "type": "match",
+        "left": [
+            "Strategic",
+            "Tactical",
+            "Operational",
+            "Technical"
+        ],
+        "right": [
+            "High-level trends",
+            "TTPs",
+            "Campaigns",
+            "IOCs"
+        ]
+    },
+    {
+        "q": "Threat intelligence feeds provide real-time threat data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the MITRE ATT&CK framework?",
+        "type": "mcq",
+        "o": [
+            "Knowledge base of adversary tactics",
+            "Attack tool",
+            "Defense system",
+            "Malware database"
+        ]
+    },
+    {
+        "q": "ATT&CK documents adversary _____ and techniques.",
+        "type": "fill_blank",
+        "answers": [
+            "tactics"
+        ],
+        "other_options": [
+            "files",
+            "names",
+            "locations"
+        ]
+    },
+    {
+        "q": "Rearrange ATT&CK matrix categories:",
+        "type": "rearrange",
+        "words": [
+            "Reconnaissance",
+            "Initial Access",
+            "Execution",
+            "Persistence"
+        ]
+    },
+    {
+        "q": "ATT&CK helps detect and respond to attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Cyber Kill Chain?",
+        "type": "mcq",
+        "o": [
+            "Attack stages framework",
+            "Defense chain",
+            "Security product",
+            "Attack tool"
+        ]
+    },
+    {
+        "q": "The Kill Chain starts with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "reconnaissance"
+        ],
+        "other_options": [
+            "exploitation",
+            "delivery",
+            "installation"
+        ]
+    },
+    {
+        "q": "Match the Kill Chain stage with its action:",
+        "type": "match",
+        "left": [
+            "Weaponization",
+            "Delivery",
+            "Exploitation",
+            "Command & Control"
+        ],
+        "right": [
+            "Create payload",
+            "Send payload",
+            "Execute payload",
+            "Remote access"
+        ]
+    },
+    {
+        "q": "Breaking any Kill Chain stage can stop the attack.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Advanced Persistent Threat (APT)?",
+        "type": "mcq",
+        "o": [
+            "Sophisticated long-term attack",
+            "Simple quick attack",
+            "Automatic attack",
+            "Public threat"
+        ]
+    },
+    {
+        "q": "APTs are typically sponsored by nation _____.",
+        "type": "fill_blank",
+        "answers": [
+            "states"
+        ],
+        "other_options": [
+            "companies",
+            "groups",
+            "individuals"
+        ]
+    },
+    {
+        "q": "Rearrange threat actor types by sophistication:",
+        "type": "rearrange",
+        "words": [
+            "Script kiddie",
+            "Hacktivists",
+            "Criminals",
+            "APT"
+        ]
+    },
+    {
+        "q": "APTs often remain undetected for months or years.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is compliance in cybersecurity?",
+        "type": "mcq",
+        "o": [
+            "Meeting regulatory requirements",
+            "Ignoring rules",
+            "Creating regulations",
+            "Following suggestions"
+        ]
+    },
+    {
+        "q": "GDPR protects personal data in the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "EU"
+        ],
+        "other_options": [
+            "US",
+            "UK",
+            "Asia"
+        ]
+    },
+    {
+        "q": "Match the regulation with its focus:",
+        "type": "match",
+        "left": [
+            "GDPR",
+            "HIPAA",
+            "PCI-DSS",
+            "SOX"
+        ],
+        "right": [
+            "Privacy",
+            "Healthcare",
+            "Payment cards",
+            "Financial reporting"
+        ]
+    },
+    {
+        "q": "Compliance equals security.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is PCI-DSS?",
+        "type": "mcq",
+        "o": [
+            "Payment Card Industry Data Security Standard",
+            "Personal Computer Industry Standard",
+            "Public Cloud Infrastructure Standard",
+            "Private Card Identity Standard"
+        ]
+    },
+    {
+        "q": "PCI-DSS protects _____ card data.",
+        "type": "fill_blank",
+        "answers": [
+            "payment"
+        ],
+        "other_options": [
+            "identity",
+            "business",
+            "credit"
+        ]
+    },
+    {
+        "q": "Rearrange compliance frameworks:",
+        "type": "rearrange",
+        "words": [
+            "ISO 27001",
+            "NIST CSF",
+            "SOC 2",
+            "CIS Controls"
+        ]
+    },
+    {
+        "q": "PCI-DSS has 12 main requirements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ISO 27001?",
+        "type": "mcq",
+        "o": [
+            "Information security management standard",
+            "Network standard",
+            "Hardware standard",
+            "Software standard"
+        ]
+    },
+    {
+        "q": "ISO 27001 requires an Information Security Management _____.",
+        "type": "fill_blank",
+        "answers": [
+            "System"
+        ],
+        "other_options": [
+            "Team",
+            "Tool",
+            "Plan"
+        ]
+    },
+    {
+        "q": "Match the framework with its type:",
+        "type": "match",
+        "left": [
+            "ISO 27001",
+            "NIST CSF",
+            "CIS Controls",
+            "COBIT"
+        ],
+        "right": [
+            "Certification",
+            "Voluntary",
+            "Prioritized",
+            "Governance"
+        ]
+    },
+    {
+        "q": "ISO 27001 certification requires third-party audit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SOC 2?",
+        "type": "mcq",
+        "o": [
+            "Service Organization Control report",
+            "Security Operations Center",
+            "System On Chip",
+            "Security Oversight Committee"
+        ]
+    },
+    {
+        "q": "SOC 2 evaluates controls based on Trust Service _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Criteria"
+        ],
+        "other_options": [
+            "Rules",
+            "Laws",
+            "Standards"
+        ]
+    },
+    {
+        "q": "Rearrange SOC 2 Trust Service Criteria:",
+        "type": "rearrange",
+        "words": [
+            "Security",
+            "Availability",
+            "Processing Integrity",
+            "Confidentiality"
+        ]
+    },
+    {
+        "q": "What is cryptanalysis?",
+        "type": "mcq",
+        "o": [
+            "Study of breaking cryptographic systems",
+            "Creating encryption",
+            "Crypto mining",
+            "Currency analysis"
+        ]
+    },
+    {
+        "q": "Cryptanalysis attempts to find _____ in ciphers.",
+        "type": "fill_blank",
+        "answers": [
+            "weaknesses"
+        ],
+        "other_options": [
+            "strengths",
+            "features",
+            "updates"
+        ]
+    },
+    {
+        "q": "Match the attack with its target:",
+        "type": "match",
+        "left": [
+            "Brute force",
+            "Known plaintext",
+            "Chosen plaintext",
+            "Side channel"
+        ],
+        "right": [
+            "Try all keys",
+            "Have sample data",
+            "Create sample data",
+            "Physical leakage"
+        ]
+    },
+    {
+        "q": "Side-channel attacks exploit implementation flaws.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a timing attack?",
+        "type": "mcq",
+        "o": [
+            "Exploiting time variations in operations",
+            "Attack timing",
+            "Time-based block",
+            "Clock attack"
+        ]
+    },
+    {
+        "q": "Constant-time algorithms prevent timing _____.",
+        "type": "fill_blank",
+        "answers": [
+            "attacks"
+        ],
+        "other_options": [
+            "errors",
+            "issues",
+            "bugs"
+        ]
+    },
+    {
+        "q": "Rearrange side-channel attack types:",
+        "type": "rearrange",
+        "words": [
+            "Timing",
+            "Power",
+            "Electromagnetic",
+            "Acoustic"
+        ]
+    },
+    {
+        "q": "Power analysis can reveal secret keys.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is elliptic curve cryptography?",
+        "type": "mcq",
+        "o": [
+            "Public-key crypto using elliptic curves",
+            "Circular encryption",
+            "Curved security",
+            "Oval cryptography"
+        ]
+    },
+    {
+        "q": "ECC provides same security as RSA with _____ keys.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller"
+        ],
+        "other_options": [
+            "larger",
+            "same",
+            "equal"
+        ]
+    },
+    {
+        "q": "Match the crypto type with its key size:",
+        "type": "match",
+        "left": [
+            "RSA-2048",
+            "ECC-256",
+            "AES-128",
+            "SHA-256"
+        ],
+        "right": [
+            "2048-bit",
+            "256-bit",
+            "128-bit",
+            "256-bit output"
+        ]
+    },
+    {
+        "q": "ECC is more efficient than RSA for mobile devices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is post-quantum cryptography?",
+        "type": "mcq",
+        "o": [
+            "Crypto resistant to quantum computers",
+            "After quantum",
+            "Quantum encryption",
+            "Post-modern crypto"
+        ]
+    },
+    {
+        "q": "Quantum computers threaten current _____ crypto.",
+        "type": "fill_blank",
+        "answers": [
+            "asymmetric"
+        ],
+        "other_options": [
+            "symmetric",
+            "hash",
+            "all"
+        ]
+    },
+    {
+        "q": "Rearrange crypto evolution:",
+        "type": "rearrange",
+        "words": [
+            "Classical",
+            "Modern",
+            "Post-quantum",
+            "Quantum"
+        ]
+    },
+    {
+        "q": "Shor's algorithm can break RSA on quantum computers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is homomorphic encryption?",
+        "type": "mcq",
+        "o": [
+            "Computing on encrypted data",
+            "Same encryption",
+            "Home encryption",
+            "Morphing encryption"
+        ]
+    },
+    {
+        "q": "Homomorphic encryption allows computation without _____.",
+        "type": "fill_blank",
+        "answers": [
+            "decryption"
+        ],
+        "other_options": [
+            "encryption",
+            "access",
+            "keys"
+        ]
+    },
+    {
+        "q": "Match advanced crypto with its feature:",
+        "type": "match",
+        "left": [
+            "Homomorphic",
+            "Zero-knowledge",
+            "Secret sharing",
+            "MPC"
+        ],
+        "right": [
+            "Compute encrypted",
+            "Prove without reveal",
+            "Split secrets",
+            "Joint computation"
+        ]
+    },
+    {
+        "q": "Homomorphic encryption enables private cloud computing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is zero-knowledge proof?",
+        "type": "mcq",
+        "o": [
+            "Proving knowledge without revealing it",
+            "No knowledge required",
+            "Zero security",
+            "Empty proof"
+        ]
+    },
+    {
+        "q": "ZKP proves statement is true without revealing _____.",
+        "type": "fill_blank",
+        "answers": [
+            "details"
+        ],
+        "other_options": [
+            "proof",
+            "question",
+            "statement"
+        ]
+    },
+    {
+        "q": "Zero-knowledge proofs are used in privacy coins.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure multi-party computation?",
+        "type": "mcq",
+        "o": [
+            "Computing on private data from multiple parties",
+            "Multi-computer security",
+            "Party security",
+            "Multiple encryption"
+        ]
+    },
+    {
+        "q": "MPC allows joint computation without sharing raw _____.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "results",
+            "keys",
+            "users"
+        ]
+    },
+    {
+        "q": "Rearrange privacy-preserving techniques:",
+        "type": "rearrange",
+        "words": [
+            "Anonymization",
+            "Encryption",
+            "Differential privacy",
+            "MPC"
+        ]
+    },
+    {
+        "q": "MPC can perform secure auctions without revealing bids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is blockchain security?",
+        "type": "mcq",
+        "o": [
+            "Securing distributed ledger technology",
+            "Chain protection",
+            "Block defense",
+            "Link security"
+        ]
+    },
+    {
+        "q": "51% attack requires controlling majority of network _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hashrate"
+        ],
+        "other_options": [
+            "users",
+            "nodes",
+            "data"
+        ]
+    },
+    {
+        "q": "Match the blockchain attack with its target:",
+        "type": "match",
+        "left": [
+            "51% attack",
+            "Smart contract bug",
+            "Reentrancy",
+            "Front-running"
+        ],
+        "right": [
+            "Consensus",
+            "Code flaw",
+            "Call order",
+            "Transaction order"
+        ]
+    },
+    {
+        "q": "Smart contracts can have security vulnerabilities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is red teaming?",
+        "type": "mcq",
+        "o": [
+            "Simulating real-world attacks",
+            "Color coding",
+            "Team management",
+            "Sports simulation"
+        ]
+    },
+    {
+        "q": "Red teams test defenses by emulating _____.",
+        "type": "fill_blank",
+        "answers": [
+            "adversaries"
+        ],
+        "other_options": [
+            "users",
+            "admins",
+            "developers"
+        ]
+    },
+    {
+        "q": "Rearrange security team colors:",
+        "type": "rearrange",
+        "words": [
+            "Red (attack)",
+            "Blue (defend)",
+            "Purple (both)",
+            "White (rules)"
+        ]
+    },
+    {
+        "q": "Match the team with its role:",
+        "type": "match",
+        "left": [
+            "Red team",
+            "Blue team",
+            "Purple team",
+            "White team"
+        ],
+        "right": [
+            "Offense",
+            "Defense",
+            "Collaboration",
+            "Oversight"
+        ]
+    },
+    {
+        "q": "Purple teams improve red and blue collaboration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bug bounty?",
+        "type": "mcq",
+        "o": [
+            "Paying for vulnerability reports",
+            "Bug hunting",
+            "Feature requests",
+            "Support tickets"
+        ]
+    },
+    {
+        "q": "Bug bounty programs reward security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "researchers"
+        ],
+        "other_options": [
+            "developers",
+            "users",
+            "managers"
+        ]
+    },
+    {
+        "q": "Bug bounty scope defines what can be tested.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is responsible disclosure?",
+        "type": "mcq",
+        "o": [
+            "Reporting vulnerabilities privately first",
+            "Public disclosure",
+            "No disclosure",
+            "Anonymous disclosure"
+        ]
+    },
+    {
+        "q": "Responsible disclosure gives vendors time to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "patch"
+        ],
+        "other_options": [
+            "ignore",
+            "delete",
+            "review"
+        ]
+    },
+    {
+        "q": "Match the disclosure type with its approach:",
+        "type": "match",
+        "left": [
+            "Full disclosure",
+            "Responsible",
+            "Coordinated",
+            "No disclosure"
+        ],
+        "right": [
+            "Immediate public",
+            "Private first",
+            "Agreed timeline",
+            "Keep secret"
+        ]
+    },
+    {
+        "q": "90 days is a common responsible disclosure timeline.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CVE?",
+        "type": "mcq",
+        "o": [
+            "Common Vulnerabilities and Exposures",
+            "Computer Virus Encyclopedia",
+            "Cybersecurity Vulnerability Expert",
+            "Critical Vulnerability Entry"
+        ]
+    },
+    {
+        "q": "CVE provides unique _____ for vulnerabilities.",
+        "type": "fill_blank",
+        "answers": [
+            "identifiers"
+        ],
+        "other_options": [
+            "names",
+            "fixes",
+            "tools"
+        ]
+    },
+    {
+        "q": "Rearrange vulnerability databases:",
+        "type": "rearrange",
+        "words": [
+            "CVE",
+            "NVD",
+            "Exploit-DB",
+            "Vendor advisories"
+        ]
+    },
+    {
+        "q": "CVSS scores indicate vulnerability severity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CVSS?",
+        "type": "mcq",
+        "o": [
+            "Common Vulnerability Scoring System",
+            "Computer Virus Scanning System",
+            "Cybersecurity Verification Standard",
+            "Critical Vulnerability Security Score"
+        ]
+    },
+    {
+        "q": "CVSS scores range from _____ to 10.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "5",
+            "3"
+        ]
+    },
+    {
+        "q": "Match the CVSS score with severity:",
+        "type": "match",
+        "left": [
+            "0.1-3.9",
+            "4.0-6.9",
+            "7.0-8.9",
+            "9.0-10.0"
+        ],
+        "right": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+        ]
+    },
+    {
+        "q": "CVSS 10.0 indicates maximum severity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security automation?",
+        "type": "mcq",
+        "o": [
+            "Automating security tasks and responses",
+            "Automatic hacking",
+            "Self-defense",
+            "Robot security"
+        ]
+    },
+    {
+        "q": "SOAR stands for Security Orchestration, Automation, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Response"
+        ],
+        "other_options": [
+            "Reporting",
+            "Review",
+            "Remediation"
+        ]
+    },
+    {
+        "q": "Rearrange security maturity levels:",
+        "type": "rearrange",
+        "words": [
+            "Manual",
+            "Scripted",
+            "Automated",
+            "AI-driven"
+        ]
+    },
+    {
+        "q": "Automation reduces response time to threats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is behavioral analysis in security?",
+        "type": "mcq",
+        "o": [
+            "Detecting anomalies from normal behavior",
+            "Behavior modification",
+            "User training",
+            "Psychology study"
+        ]
+    },
+    {
+        "q": "UEBA monitors user and _____ behavior.",
+        "type": "fill_blank",
+        "answers": [
+            "entity"
+        ],
+        "other_options": [
+            "system",
+            "network",
+            "file"
+        ]
+    },
+    {
+        "q": "Match the detection type with its method:",
+        "type": "match",
+        "left": [
+            "Signature",
+            "Anomaly",
+            "Heuristic",
+            "Machine learning"
+        ],
+        "right": [
+            "Known patterns",
+            "Unusual behavior",
+            "Rules-based",
+            "Model-based"
+        ]
+    },
+    {
+        "q": "Behavioral analysis can detect zero-day threats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is supply chain security?",
+        "type": "mcq",
+        "o": [
+            "Securing software and hardware suppliers",
+            "Delivery security",
+            "Warehouse security",
+            "Shipping protection"
+        ]
+    },
+    {
+        "q": "SolarWinds attack compromised the software _____.",
+        "type": "fill_blank",
+        "answers": [
+            "supply chain"
+        ],
+        "other_options": [
+            "interface",
+            "users",
+            "network"
+        ]
+    },
+    {
+        "q": "Rearrange supply chain security layers:",
+        "type": "rearrange",
+        "words": [
+            "Vendor assessment",
+            "Code review",
+            "Integrity verification",
+            "Runtime monitoring"
+        ]
+    },
+    {
+        "q": "SBOM lists software components in a product.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Cybersecurity requires continuous learning and adaptation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is data privacy?",
+        "type": "mcq",
+        "o": [
+            "Right to control personal information",
+            "Data hiding",
+            "Data deletion",
+            "Data sharing"
+        ]
+    },
+    {
+        "q": "Privacy by design builds protection into systems from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "start"
+        ],
+        "other_options": [
+            "end",
+            "middle",
+            "later"
+        ]
+    },
+    {
+        "q": "Match the privacy principle with its meaning:",
+        "type": "match",
+        "left": [
+            "Data minimization",
+            "Purpose limitation",
+            "Consent",
+            "Right to erasure"
+        ],
+        "right": [
+            "Collect only needed",
+            "Use for stated purpose",
+            "User agreement",
+            "Delete on request"
+        ]
+    },
+    {
+        "q": "GDPR grants right to data portability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is data anonymization?",
+        "type": "mcq",
+        "o": [
+            "Removing identifying information",
+            "Adding names",
+            "Data encryption",
+            "Data backup"
+        ]
+    },
+    {
+        "q": "Pseudonymization replaces identifiers with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "pseudonyms"
+        ],
+        "other_options": [
+            "numbers",
+            "letters",
+            "codes"
+        ]
+    },
+    {
+        "q": "Rearrange privacy techniques by strength:",
+        "type": "rearrange",
+        "words": [
+            "Pseudonymization",
+            "Anonymization",
+            "K-anonymity",
+            "Differential privacy"
+        ]
+    },
+    {
+        "q": "Anonymization can always be reversed.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is differential privacy?",
+        "type": "mcq",
+        "o": [
+            "Adding noise to protect individual data",
+            "Different privacy levels",
+            "Varying encryption",
+            "Multiple passwords"
+        ]
+    },
+    {
+        "q": "Differential privacy adds controlled _____ to data.",
+        "type": "fill_blank",
+        "answers": [
+            "noise"
+        ],
+        "other_options": [
+            "values",
+            "records",
+            "fields"
+        ]
+    },
+    {
+        "q": "Differential privacy enables useful analytics on sensitive data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the OSI model?",
+        "type": "mcq",
+        "o": [
+            "Seven-layer network reference model",
+            "Open System Integration",
+            "Operating System Interface",
+            "Online Security Infrastructure"
+        ]
+    },
+    {
+        "q": "OSI model has _____ layers.",
+        "type": "fill_blank",
+        "answers": [
+            "seven"
+        ],
+        "other_options": [
+            "five",
+            "six",
+            "four"
+        ]
+    },
+    {
+        "q": "Rearrange OSI layers from bottom to top:",
+        "type": "rearrange",
+        "words": [
+            "Physical",
+            "Data Link",
+            "Network",
+            "Application"
+        ]
+    },
+    {
+        "q": "Match the OSI layer with its function:",
+        "type": "match",
+        "left": [
+            "Layer 1",
+            "Layer 3",
+            "Layer 4",
+            "Layer 7"
+        ],
+        "right": [
+            "Physical",
+            "Network (IP)",
+            "Transport (TCP)",
+            "Application"
+        ]
+    },
+    {
+        "q": "Firewalls often operate at layers 3 and 4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is TCP/IP?",
+        "type": "mcq",
+        "o": [
+            "Internet protocol suite",
+            "Transfer Control Protocol",
+            "Transmission Control Port",
+            "Total Computer Protocol"
+        ]
+    },
+    {
+        "q": "TCP provides _____ communication.",
+        "type": "fill_blank",
+        "answers": [
+            "reliable"
+        ],
+        "other_options": [
+            "fast",
+            "simple",
+            "basic"
+        ]
+    },
+    {
+        "q": "Match the protocol with its function:",
+        "type": "match",
+        "left": [
+            "TCP",
+            "UDP",
+            "IP",
+            "ICMP"
+        ],
+        "right": [
+            "Reliable transport",
+            "Fast transport",
+            "Addressing",
+            "Diagnostics"
+        ]
+    },
+    {
+        "q": "UDP is faster but less reliable than TCP.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DNS security?",
+        "type": "mcq",
+        "o": [
+            "Protecting domain name system",
+            "Domain name storage",
+            "DNS creation",
+            "Name registration"
+        ]
+    },
+    {
+        "q": "DNSSEC adds cryptographic _____ to DNS.",
+        "type": "fill_blank",
+        "answers": [
+            "signatures"
+        ],
+        "other_options": [
+            "names",
+            "records",
+            "values"
+        ]
+    },
+    {
+        "q": "Rearrange DNS attack types:",
+        "type": "rearrange",
+        "words": [
+            "DNS spoofing",
+            "DNS amplification",
+            "DNS tunneling",
+            "DNS hijacking"
+        ]
+    },
+    {
+        "q": "DNS over HTTPS encrypts DNS queries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is email security?",
+        "type": "mcq",
+        "o": [
+            "Protecting email communications",
+            "Email creation",
+            "Email storage",
+            "Email forwarding"
+        ]
+    },
+    {
+        "q": "SPF, DKIM, and DMARC protect against email _____.",
+        "type": "fill_blank",
+        "answers": [
+            "spoofing"
+        ],
+        "other_options": [
+            "reading",
+            "sending",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the email security with its purpose:",
+        "type": "match",
+        "left": [
+            "SPF",
+            "DKIM",
+            "DMARC",
+            "S/MIME"
+        ],
+        "right": [
+            "Sender IP",
+            "Message signing",
+            "Policy enforcement",
+            "Encryption"
+        ]
+    },
+    {
+        "q": "DKIM uses digital signatures to verify email.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is wireless security?",
+        "type": "mcq",
+        "o": [
+            "Protecting wireless networks",
+            "Wire protection",
+            "Cable security",
+            "Physical security"
+        ]
+    },
+    {
+        "q": "WPA3 is more secure than WPA2 because of _____ key exchange.",
+        "type": "fill_blank",
+        "answers": [
+            "SAE"
+        ],
+        "other_options": [
+            "PSK",
+            "EAP",
+            "AES"
+        ]
+    },
+    {
+        "q": "Rearrange Wi-Fi security protocols:",
+        "type": "rearrange",
+        "words": [
+            "WEP (broken)",
+            "WPA",
+            "WPA2",
+            "WPA3"
+        ]
+    },
+    {
+        "q": "Match the wireless attack with its technique:",
+        "type": "match",
+        "left": [
+            "Evil twin",
+            "Deauth",
+            "KRACK",
+            "Rogue AP"
+        ],
+        "right": [
+            "Fake hotspot",
+            "Disconnect users",
+            "WPA2 weakness",
+            "Unauthorized AP"
+        ]
+    },
+    {
+        "q": "WEP encryption should not be used.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Bluetooth security?",
+        "type": "mcq",
+        "o": [
+            "Protecting Bluetooth connections",
+            "Blue color security",
+            "Tooth protection",
+            "Dental security"
+        ]
+    },
+    {
+        "q": "Bluejacking sends unsolicited _____ via Bluetooth.",
+        "type": "fill_blank",
+        "answers": [
+            "messages"
+        ],
+        "other_options": [
+            "files",
+            "viruses",
+            "apps"
+        ]
+    },
+    {
+        "q": "Bluesnarfing steals data from Bluetooth devices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is input validation?",
+        "type": "mcq",
+        "o": [
+            "Checking user input for validity",
+            "Input creation",
+            "Input display",
+            "Input storage"
+        ]
+    },
+    {
+        "q": "Whitelisting allows only _____ input patterns.",
+        "type": "fill_blank",
+        "answers": [
+            "approved"
+        ],
+        "other_options": [
+            "all",
+            "blocked",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the validation type with its approach:",
+        "type": "match",
+        "left": [
+            "Whitelist",
+            "Blacklist",
+            "Sanitization",
+            "Type checking"
+        ],
+        "right": [
+            "Allow list",
+            "Block list",
+            "Clean input",
+            "Format check"
+        ]
+    },
+    {
+        "q": "Input validation happens on client side only.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is output encoding?",
+        "type": "mcq",
+        "o": [
+            "Sanitizing output for context",
+            "Output compression",
+            "Output encryption",
+            "Output display"
+        ]
+    },
+    {
+        "q": "HTML encoding prevents _____ injection.",
+        "type": "fill_blank",
+        "answers": [
+            "XSS"
+        ],
+        "other_options": [
+            "SQL",
+            "CSRF",
+            "LDAP"
+        ]
+    },
+    {
+        "q": "Rearrange encoding contexts:",
+        "type": "rearrange",
+        "words": [
+            "HTML body",
+            "HTML attribute",
+            "JavaScript",
+            "URL"
+        ]
+    },
+    {
+        "q": "Different contexts require different encoding strategies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure session management?",
+        "type": "mcq",
+        "o": [
+            "Properly handling user sessions",
+            "Session creation only",
+            "Session display",
+            "Session deletion"
+        ]
+    },
+    {
+        "q": "Session tokens should be cryptographically _____.",
+        "type": "fill_blank",
+        "answers": [
+            "random"
+        ],
+        "other_options": [
+            "sequential",
+            "predictable",
+            "short"
+        ]
+    },
+    {
+        "q": "Match the session fix with its protection:",
+        "type": "match",
+        "left": [
+            "Regenerate ID",
+            "Secure flag",
+            "HttpOnly",
+            "SameSite"
+        ],
+        "right": [
+            "Prevent fixation",
+            "HTTPS only",
+            "No JavaScript",
+            "CSRF protection"
+        ]
+    },
+    {
+        "q": "Session IDs should regenerate after login.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is error handling?",
+        "type": "mcq",
+        "o": [
+            "Managing application errors securely",
+            "Creating errors",
+            "Ignoring errors",
+            "Displaying all errors"
+        ]
+    },
+    {
+        "q": "Verbose error messages can leak security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "information"
+        ],
+        "other_options": [
+            "features",
+            "updates",
+            "patches"
+        ]
+    },
+    {
+        "q": "Detailed errors should only appear in development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is logging and monitoring?",
+        "type": "mcq",
+        "o": [
+            "Recording and watching system events",
+            "Log creation only",
+            "Monitor display",
+            "Event deletion"
+        ]
+    },
+    {
+        "q": "Security logs should record login attempts and access _____.",
+        "type": "fill_blank",
+        "answers": [
+            "failures"
+        ],
+        "other_options": [
+            "successes only",
+            "times only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Rearrange log management steps:",
+        "type": "rearrange",
+        "words": [
+            "Collect",
+            "Store",
+            "Analyze",
+            "Alert"
+        ]
+    },
+    {
+        "q": "Match the log type with its content:",
+        "type": "match",
+        "left": [
+            "Access log",
+            "Error log",
+            "Audit log",
+            "Security log"
+        ],
+        "right": [
+            "Requests",
+            "Failures",
+            "Changes",
+            "Threats"
+        ]
+    },
+    {
+        "q": "Logs should be protected from tampering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security configuration?",
+        "type": "mcq",
+        "o": [
+            "Setting up systems securely",
+            "Default configuration",
+            "Random settings",
+            "No configuration"
+        ]
+    },
+    {
+        "q": "Default configurations are often _____.",
+        "type": "fill_blank",
+        "answers": [
+            "insecure"
+        ],
+        "other_options": [
+            "secure",
+            "optimal",
+            "perfect"
+        ]
+    },
+    {
+        "q": "Hardening reduces the attack surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is server hardening?",
+        "type": "mcq",
+        "o": [
+            "Securing server configuration",
+            "Making servers physical",
+            "Adding hardware",
+            "Server decoration"
+        ]
+    },
+    {
+        "q": "Hardening includes removing unnecessary _____ and ports.",
+        "type": "fill_blank",
+        "answers": [
+            "services"
+        ],
+        "other_options": [
+            "files",
+            "users",
+            "logs"
+        ]
+    },
+    {
+        "q": "Match the hardening step with its action:",
+        "type": "match",
+        "left": [
+            "Patch management",
+            "Account security",
+            "Network config",
+            "Logging"
+        ],
+        "right": [
+            "Update software",
+            "Strong passwords",
+            "Firewall rules",
+            "Audit trail"
+        ]
+    },
+    {
+        "q": "CIS Benchmarks provide hardening guidelines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is network hardening?",
+        "type": "mcq",
+        "o": [
+            "Securing network configuration",
+            "Physical cables",
+            "Network speed",
+            "Adding switches"
+        ]
+    },
+    {
+        "q": "Unused ports should be _____.",
+        "type": "fill_blank",
+        "answers": [
+            "closed"
+        ],
+        "other_options": [
+            "opened",
+            "monitored",
+            "ignored"
+        ]
+    },
+    {
+        "q": "Rearrange network security layers:",
+        "type": "rearrange",
+        "words": [
+            "Perimeter",
+            "Network",
+            "Host",
+            "Application"
+        ]
+    },
+    {
+        "q": "Default SNMP community strings should be changed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is application hardening?",
+        "type": "mcq",
+        "o": [
+            "Securing application configuration",
+            "Making apps difficult",
+            "App development",
+            "App testing"
+        ]
+    },
+    {
+        "q": "Debug mode should be _____ in production.",
+        "type": "fill_blank",
+        "answers": [
+            "disabled"
+        ],
+        "other_options": [
+            "enabled",
+            "monitored",
+            "logged"
+        ]
+    },
+    {
+        "q": "Match the app security with its control:",
+        "type": "match",
+        "left": [
+            "Debug off",
+            "Error pages",
+            "Headers",
+            "Dependencies"
+        ],
+        "right": [
+            "Hide internals",
+            "Generic messages",
+            "Security headers",
+            "Patched versions"
+        ]
+    },
+    {
+        "q": "Security headers like CSP and HSTS improve web security.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Content Security Policy?",
+        "type": "mcq",
+        "o": [
+            "HTTP header controlling resource loading",
+            "Content creation policy",
+            "Security content",
+            "Policy document"
+        ]
+    },
+    {
+        "q": "CSP can prevent inline _____ execution.",
+        "type": "fill_blank",
+        "answers": [
+            "scripts"
+        ],
+        "other_options": [
+            "styles",
+            "images",
+            "links"
+        ]
+    },
+    {
+        "q": "CSP helps mitigate XSS attacks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is HSTS?",
+        "type": "mcq",
+        "o": [
+            "HTTP Strict Transport Security",
+            "Hypertext Security Transfer",
+            "High Security Transfer System",
+            "HTTPS Simple Transport"
+        ]
+    },
+    {
+        "q": "HSTS forces browsers to use _____ only.",
+        "type": "fill_blank",
+        "answers": [
+            "HTTPS"
+        ],
+        "other_options": [
+            "HTTP",
+            "FTP",
+            "SSH"
+        ]
+    },
+    {
+        "q": "Rearrange security headers by importance:",
+        "type": "rearrange",
+        "words": [
+            "HSTS",
+            "CSP",
+            "X-Frame-Options",
+            "X-Content-Type-Options"
+        ]
+    },
+    {
+        "q": "HSTS preloading submits domains to browser lists.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security career path?",
+        "type": "mcq",
+        "o": [
+            "Progression in cybersecurity roles",
+            "Single job",
+            "One certification",
+            "Entry only"
+        ]
+    },
+    {
+        "q": "SOC analyst is often an entry-level security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "role"
+        ],
+        "other_options": [
+            "tool",
+            "certification",
+            "policy"
+        ]
+    },
+    {
+        "q": "Match the role with its focus:",
+        "type": "match",
+        "left": [
+            "SOC analyst",
+            "Pen tester",
+            "Security architect",
+            "CISO"
+        ],
+        "right": [
+            "Monitoring",
+            "Offensive testing",
+            "Design",
+            "Leadership"
+        ]
+    },
+    {
+        "q": "CISSP is a common security certification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security certification?",
+        "type": "mcq",
+        "o": [
+            "Credential proving security knowledge",
+            "Certificate authority",
+            "Digital certificate",
+            "Security guarantee"
+        ]
+    },
+    {
+        "q": "CEH stands for Certified Ethical _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Hacker"
+        ],
+        "other_options": [
+            "Hacking",
+            "Helper",
+            "Handler"
+        ]
+    },
+    {
+        "q": "Rearrange certifications by difficulty:",
+        "type": "rearrange",
+        "words": [
+            "Security+",
+            "CEH",
+            "OSCP",
+            "CISSP"
+        ]
+    },
+    {
+        "q": "OSCP requires hands-on penetration testing exam.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security operations center (SOC)?",
+        "type": "mcq",
+        "o": [
+            "Team monitoring security events",
+            "Single computer",
+            "Security software",
+            "Operations building"
+        ]
+    },
+    {
+        "q": "SOCs operate _____ hours a day.",
+        "type": "fill_blank",
+        "answers": [
+            "24"
+        ],
+        "other_options": [
+            "8",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "q": "Match the SOC level with response:",
+        "type": "match",
+        "left": [
+            "Tier 1",
+            "Tier 2",
+            "Tier 3",
+            "Management"
+        ],
+        "right": [
+            "Triage",
+            "Investigation",
+            "Advanced analysis",
+            "Strategy"
+        ]
+    },
+    {
+        "q": "SOCs use SIEM for centralized monitoring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ransomware defense?",
+        "type": "mcq",
+        "o": [
+            "Protecting against encryption attacks",
+            "Paying ransom",
+            "Creating ransomware",
+            "Ignoring threats"
+        ]
+    },
+    {
+        "q": "Regular _____ are critical for ransomware recovery.",
+        "type": "fill_blank",
+        "answers": [
+            "backups"
+        ],
+        "other_options": [
+            "updates",
+            "scans",
+            "reports"
+        ]
+    },
+    {
+        "q": "Rearrange ransomware defense layers:",
+        "type": "rearrange",
+        "words": [
+            "Prevention",
+            "Detection",
+            "Response",
+            "Recovery"
+        ]
+    },
+    {
+        "q": "Paying ransom guarantees data recovery.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is business continuity?",
+        "type": "mcq",
+        "o": [
+            "Maintaining operations during disruption",
+            "Business closure",
+            "Daily operations only",
+            "Planning meetings"
+        ]
+    },
+    {
+        "q": "BCP stands for Business Continuity _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Plan"
+        ],
+        "other_options": [
+            "Policy",
+            "Procedure",
+            "Program"
+        ]
+    },
+    {
+        "q": "Match the continuity term with its meaning:",
+        "type": "match",
+        "left": [
+            "BCP",
+            "DRP",
+            "BIA",
+            "COOP"
+        ],
+        "right": [
+            "Business continuity",
+            "Disaster recovery",
+            "Business impact",
+            "Continuity of operations"
+        ]
+    },
+    {
+        "q": "BIA identifies critical business functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is physical security?",
+        "type": "mcq",
+        "o": [
+            "Protecting physical assets and facilities",
+            "Digital security only",
+            "Software protection",
+            "Network security"
+        ]
+    },
+    {
+        "q": "Physical security includes locks, guards, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "cameras"
+        ],
+        "other_options": [
+            "passwords",
+            "firewalls",
+            "encryption"
+        ]
+    },
+    {
+        "q": "Rearrange physical security layers:",
+        "type": "rearrange",
+        "words": [
+            "Perimeter",
+            "Building",
+            "Room",
+            "Device"
+        ]
+    },
+    {
+        "q": "Tailgating bypasses physical access controls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is insider threat?",
+        "type": "mcq",
+        "o": [
+            "Threat from within organization",
+            "External hacker",
+            "Random threat",
+            "Weather threat"
+        ]
+    },
+    {
+        "q": "Insider threats can be malicious or _____.",
+        "type": "fill_blank",
+        "answers": [
+            "negligent"
+        ],
+        "other_options": [
+            "external",
+            "random",
+            "planned"
+        ]
+    },
+    {
+        "q": "Match the insider type with behavior:",
+        "type": "match",
+        "left": [
+            "Malicious",
+            "Negligent",
+            "Compromised",
+            "Third-party"
+        ],
+        "right": [
+            "Intentional harm",
+            "Accidental risk",
+            "Account taken over",
+            "Contractor risk"
+        ]
+    },
+    {
+        "q": "User behavior analytics can detect insider threats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security culture?",
+        "type": "mcq",
+        "o": [
+            "Organization's security mindset",
+            "Security software",
+            "Security team only",
+            "Policy document"
+        ]
+    },
+    {
+        "q": "Security culture requires leadership _____.",
+        "type": "fill_blank",
+        "answers": [
+            "support"
+        ],
+        "other_options": [
+            "absence",
+            "ignoring",
+            "blocking"
+        ]
+    },
+    {
+        "q": "Security is everyone's responsibility in an organization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is vendor risk management?",
+        "type": "mcq",
+        "o": [
+            "Assessing third-party security",
+            "Vendor selection only",
+            "Price negotiation",
+            "Contract signing"
+        ]
+    },
+    {
+        "q": "Third-party vendors can introduce security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "risks"
+        ],
+        "other_options": [
+            "features",
+            "benefits",
+            "updates"
+        ]
+    },
+    {
+        "q": "Rearrange vendor management phases:",
+        "type": "rearrange",
+        "words": [
+            "Selection",
+            "Assessment",
+            "Monitoring",
+            "Offboarding"
+        ]
+    },
+    {
+        "q": "Match the assessment with its focus:",
+        "type": "match",
+        "left": [
+            "Security questionnaire",
+            "Audit",
+            "Pen test",
+            "Certification"
+        ],
+        "right": [
+            "Self-reported",
+            "Third-party review",
+            "Technical testing",
+            "Standard compliance"
+        ]
+    },
+    {
+        "q": "SOC 2 reports help assess vendor security.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security metrics?",
+        "type": "mcq",
+        "o": [
+            "Measuring security performance",
+            "Metric system",
+            "Security counting",
+            "Number display"
+        ]
+    },
+    {
+        "q": "MTTD measures mean time to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "detect"
+        ],
+        "other_options": [
+            "deploy",
+            "delete",
+            "develop"
+        ]
+    },
+    {
+        "q": "Match the metric with its measurement:",
+        "type": "match",
+        "left": [
+            "MTTD",
+            "MTTR",
+            "Dwell time",
+            "False positive rate"
+        ],
+        "right": [
+            "Time to detect",
+            "Time to respond",
+            "Attacker presence",
+            "Wrong alerts"
+        ]
+    },
+    {
+        "q": "Metrics help improve security programs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI in cybersecurity?",
+        "type": "mcq",
+        "o": [
+            "Using AI for threat detection",
+            "AI creating threats",
+            "Removing AI",
+            "AI replacement"
+        ]
+    },
+    {
+        "q": "Machine learning can detect _____ attacks.",
+        "type": "fill_blank",
+        "answers": [
+            "novel"
+        ],
+        "other_options": [
+            "old",
+            "known",
+            "blocked"
+        ]
+    },
+    {
+        "q": "Rearrange AI security applications:",
+        "type": "rearrange",
+        "words": [
+            "Threat detection",
+            "Malware analysis",
+            "User behavior",
+            "Automated response"
+        ]
+    },
+    {
+        "q": "AI can both help defenders and attackers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is adversarial AI?",
+        "type": "mcq",
+        "o": [
+            "Attacks against AI systems",
+            "Friendly AI",
+            "AI helpers",
+            "AI training"
+        ]
+    },
+    {
+        "q": "Adversarial examples can fool AI _____.",
+        "type": "fill_blank",
+        "answers": [
+            "models"
+        ],
+        "other_options": [
+            "users",
+            "admins",
+            "developers"
+        ]
+    },
+    {
+        "q": "Match the AI attack with its target:",
+        "type": "match",
+        "left": [
+            "Adversarial examples",
+            "Data poisoning",
+            "Model stealing",
+            "Inference attacks"
+        ],
+        "right": [
+            "Input manipulation",
+            "Training data",
+            "Copy model",
+            "Extract training data"
+        ]
+    },
+    {
+        "q": "AI security is an emerging field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is deepfake?",
+        "type": "mcq",
+        "o": [
+            "AI-generated fake media",
+            "Deep learning",
+            "Fake news",
+            "Photo editing"
+        ]
+    },
+    {
+        "q": "Deepfakes can be used for social _____.",
+        "type": "fill_blank",
+        "answers": [
+            "engineering"
+        ],
+        "other_options": [
+            "media",
+            "networking",
+            "learning"
+        ]
+    },
+    {
+        "q": "Deepfake detection is a growing security challenge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cyber insurance?",
+        "type": "mcq",
+        "o": [
+            "Insurance against cyber incidents",
+            "Online insurance buying",
+            "Insurance software",
+            "Digital insurance cards"
+        ]
+    },
+    {
+        "q": "Cyber insurance helps cover breach _____.",
+        "type": "fill_blank",
+        "answers": [
+            "costs"
+        ],
+        "other_options": [
+            "prevention",
+            "detection",
+            "response"
+        ]
+    },
+    {
+        "q": "Rearrange incident cost types:",
+        "type": "rearrange",
+        "words": [
+            "Detection",
+            "Response",
+            "Notification",
+            "Legal"
+        ]
+    },
+    {
+        "q": "Cyber insurance replaces security controls.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Staying current with cybersecurity threats is essential.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security architecture?",
+        "type": "mcq",
+        "o": [
+            "Designing secure systems",
+            "Building security",
+            "Architecture software",
+            "Physical buildings"
+        ]
+    },
+    {
+        "q": "Security architecture considers confidentiality, integrity, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "availability"
+        ],
+        "other_options": [
+            "speed",
+            "cost",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the framework with its scope:",
+        "type": "match",
+        "left": [
+            "TOGAF",
+            "SABSA",
+            "NIST",
+            "ISO 27001"
+        ],
+        "right": [
+            "Enterprise",
+            "Security-focused",
+            "Cybersecurity",
+            "ISMS"
+        ]
+    },
+    {
+        "q": "Security should be designed into systems from the start.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is threat hunting?",
+        "type": "mcq",
+        "o": [
+            "Proactively searching for threats",
+            "Waiting for alerts",
+            "Ignoring threats",
+            "Creating threats"
+        ]
+    },
+    {
+        "q": "Threat hunters look for adversary _____ not caught by tools.",
+        "type": "fill_blank",
+        "answers": [
+            "activity"
+        ],
+        "other_options": [
+            "software",
+            "files",
+            "updates"
+        ]
+    },
+    {
+        "q": "Rearrange threat hunting maturity:",
+        "type": "rearrange",
+        "words": [
+            "Initial",
+            "Minimal",
+            "Procedural",
+            "Innovative"
+        ]
+    },
+    {
+        "q": "Threat hunting is reactive security.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is security orchestration?",
+        "type": "mcq",
+        "o": [
+            "Coordinating security tools and processes",
+            "Music for security",
+            "Single tool management",
+            "Manual processes"
+        ]
+    },
+    {
+        "q": "Orchestration connects multiple security _____ together.",
+        "type": "fill_blank",
+        "answers": [
+            "tools"
+        ],
+        "other_options": [
+            "users",
+            "policies",
+            "buildings"
+        ]
+    },
+    {
+        "q": "SOAR platforms automate incident response workflows.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is data loss prevention?",
+        "type": "mcq",
+        "o": [
+            "Preventing unauthorized data transfer",
+            "Data backup",
+            "Data encryption",
+            "Data creation"
+        ]
+    },
+    {
+        "q": "DLP monitors data at rest, in motion, and in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "use"
+        ],
+        "other_options": [
+            "storage",
+            "transit",
+            "memory"
+        ]
+    },
+    {
+        "q": "Match the DLP state with its location:",
+        "type": "match",
+        "left": [
+            "At rest",
+            "In motion",
+            "In use",
+            "Endpoint"
+        ],
+        "right": [
+            "Storage",
+            "Network",
+            "Applications",
+            "Device"
+        ]
+    },
+    {
+        "q": "DLP can prevent sensitive data from leaving the organization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is identity management?",
+        "type": "mcq",
+        "o": [
+            "Managing user identities and access",
+            "ID card creation",
+            "Photo identification",
+            "Name management"
+        ]
+    },
+    {
+        "q": "IAM stands for Identity and Access _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Management"
+        ],
+        "other_options": [
+            "Module",
+            "Monitoring",
+            "Metrics"
+        ]
+    },
+    {
+        "q": "Rearrange identity lifecycle:",
+        "type": "rearrange",
+        "words": [
+            "Provisioning",
+            "Authentication",
+            "Authorization",
+            "Deprovisioning"
+        ]
+    },
+    {
+        "q": "Match the IAM component with its function:",
+        "type": "match",
+        "left": [
+            "Identity provider",
+            "Access control",
+            "Governance",
+            "PAM"
+        ],
+        "right": [
+            "User store",
+            "Permissions",
+            "Policy",
+            "Privileged accounts"
+        ]
+    },
+    {
+        "q": "PAM protects privileged accounts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is privileged access management?",
+        "type": "mcq",
+        "o": [
+            "Securing privileged accounts",
+            "Access creation",
+            "General access",
+            "Guest access"
+        ]
+    },
+    {
+        "q": "PAM vaults store and rotate privileged _____.",
+        "type": "fill_blank",
+        "answers": [
+            "credentials"
+        ],
+        "other_options": [
+            "users",
+            "systems",
+            "networks"
+        ]
+    },
+    {
+        "q": "PAM provides just-in-time privileged access.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secrets management?",
+        "type": "mcq",
+        "o": [
+            "Managing API keys and credentials",
+            "Secret keeping",
+            "Hidden files",
+            "Mystery management"
+        ]
+    },
+    {
+        "q": "Secrets should not be stored in source _____.",
+        "type": "fill_blank",
+        "answers": [
+            "code"
+        ],
+        "other_options": [
+            "files",
+            "folders",
+            "systems"
+        ]
+    },
+    {
+        "q": "Match the secret type with its example:",
+        "type": "match",
+        "left": [
+            "API key",
+            "Certificate",
+            "Password",
+            "Token"
+        ],
+        "right": [
+            "Service auth",
+            "TLS identity",
+            "User auth",
+            "Session auth"
+        ]
+    },
+    {
+        "q": "HashiCorp Vault is a secrets management tool.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is network access control?",
+        "type": "mcq",
+        "o": [
+            "Controlling device network access",
+            "Network creation",
+            "Access point",
+            "Network speed"
+        ]
+    },
+    {
+        "q": "NAC checks device _____ before granting network access.",
+        "type": "fill_blank",
+        "answers": [
+            "compliance"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "802.1X is a port-based access control standard.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is microsegmentation?",
+        "type": "mcq",
+        "o": [
+            "Fine-grained network segmentation",
+            "Small networks",
+            "Micro computers",
+            "Segment reports"
+        ]
+    },
+    {
+        "q": "Microsegmentation limits _____ movement within networks.",
+        "type": "fill_blank",
+        "answers": [
+            "lateral"
+        ],
+        "other_options": [
+            "vertical",
+            "forward",
+            "backward"
+        ]
+    },
+    {
+        "q": "Rearrange segmentation granularity:",
+        "type": "rearrange",
+        "words": [
+            "Network",
+            "Subnet",
+            "VLAN",
+            "Workload"
+        ]
+    },
+    {
+        "q": "Microsegmentation is key to zero trust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security information sharing?",
+        "type": "mcq",
+        "o": [
+            "Exchanging threat data between organizations",
+            "Secret keeping",
+            "Information hiding",
+            "Data deletion"
+        ]
+    },
+    {
+        "q": "STIX and TAXII are standards for threat intelligence _____.",
+        "type": "fill_blank",
+        "answers": [
+            "sharing"
+        ],
+        "other_options": [
+            "hiding",
+            "deleting",
+            "creating"
+        ]
+    },
+    {
+        "q": "Match the sharing standard with its purpose:",
+        "type": "match",
+        "left": [
+            "STIX",
+            "TAXII",
+            "ISAC",
+            "TLP"
+        ],
+        "right": [
+            "Threat format",
+            "Transport protocol",
+            "Industry group",
+            "Sharing levels"
+        ]
+    },
+    {
+        "q": "ISACs facilitate sector-specific threat sharing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security governance?",
+        "type": "mcq",
+        "o": [
+            "Oversight of security programs",
+            "Government security",
+            "Governance software",
+            "Security rules"
+        ]
+    },
+    {
+        "q": "Governance ensures security aligns with business _____.",
+        "type": "fill_blank",
+        "answers": [
+            "objectives"
+        ],
+        "other_options": [
+            "software",
+            "hardware",
+            "networks"
+        ]
+    },
+    {
+        "q": "Security governance involves policies, procedures, and accountability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is privacy impact assessment?",
+        "type": "mcq",
+        "o": [
+            "Evaluating privacy risks of projects",
+            "Privacy creation",
+            "Impact report",
+            "Assessment tool"
+        ]
+    },
+    {
+        "q": "PIA identifies privacy _____ before implementation.",
+        "type": "fill_blank",
+        "answers": [
+            "risks"
+        ],
+        "other_options": [
+            "features",
+            "benefits",
+            "costs"
+        ]
+    },
+    {
+        "q": "GDPR requires data protection impact assessments for high-risk processing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security by design?",
+        "type": "mcq",
+        "o": [
+            "Building security into systems from start",
+            "Designing after security",
+            "Security graphics",
+            "Design software"
+        ]
+    },
+    {
+        "q": "Security by design reduces the cost of fixing _____ later.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "features",
+            "updates",
+            "designs"
+        ]
+    },
+    {
+        "q": "Rearrange development lifecycle phases:",
+        "type": "rearrange",
+        "words": [
+            "Requirements",
+            "Design",
+            "Implementation",
+            "Testing"
+        ]
+    },
+    {
+        "q": "Shifting left reduces security defects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure coding?",
+        "type": "mcq",
+        "o": [
+            "Writing code without vulnerabilities",
+            "Encrypted code",
+            "Complex code",
+            "Fast code"
+        ]
+    },
+    {
+        "q": "OWASP Secure Coding Practices provides _____ for developers.",
+        "type": "fill_blank",
+        "answers": [
+            "guidelines"
+        ],
+        "other_options": [
+            "tools",
+            "software",
+            "certifications"
+        ]
+    },
+    {
+        "q": "Match the coding practice with its protection:",
+        "type": "match",
+        "left": [
+            "Input validation",
+            "Output encoding",
+            "Error handling",
+            "Cryptography"
+        ],
+        "right": [
+            "Injection",
+            "XSS",
+            "Information leak",
+            "Data protection"
+        ]
+    },
+    {
+        "q": "Code review helps identify security issues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security testing?",
+        "type": "mcq",
+        "o": [
+            "Testing for security vulnerabilities",
+            "Testing security guards",
+            "Physical security tests",
+            "General testing"
+        ]
+    },
+    {
+        "q": "Security testing should be part of the _____ pipeline.",
+        "type": "fill_blank",
+        "answers": [
+            "CI/CD"
+        ],
+        "other_options": [
+            "marketing",
+            "sales",
+            "support"
+        ]
+    },
+    {
+        "q": "Rearrange security testing types:",
+        "type": "rearrange",
+        "words": [
+            "Unit tests",
+            "Integration tests",
+            "Security scans",
+            "Penetration tests"
+        ]
+    },
+    {
+        "q": "Automated security testing catches issues early.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is chaos engineering?",
+        "type": "mcq",
+        "o": [
+            "Testing system resilience through failures",
+            "Creating chaos",
+            "Random testing",
+            "Disaster creation"
+        ]
+    },
+    {
+        "q": "Security chaos engineering tests response to _____ attacks.",
+        "type": "fill_blank",
+        "answers": [
+            "simulated"
+        ],
+        "other_options": [
+            "real",
+            "random",
+            "fake"
+        ]
+    },
+    {
+        "q": "Chaos engineering improves system resilience.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tabletop exercise?",
+        "type": "mcq",
+        "o": [
+            "Discussion-based incident simulation",
+            "Table games",
+            "Physical exercise",
+            "Desktop software"
+        ]
+    },
+    {
+        "q": "Tabletop exercises test incident response _____.",
+        "type": "fill_blank",
+        "answers": [
+            "plans"
+        ],
+        "other_options": [
+            "tools",
+            "systems",
+            "networks"
+        ]
+    },
+    {
+        "q": "Tabletop exercises identify gaps in response procedures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cyber range?",
+        "type": "mcq",
+        "o": [
+            "Simulated environment for security training",
+            "Cyber weapon",
+            "Network range",
+            "IP range"
+        ]
+    },
+    {
+        "q": "Cyber ranges provide hands-on _____ for security skills.",
+        "type": "fill_blank",
+        "answers": [
+            "practice"
+        ],
+        "other_options": [
+            "theory",
+            "reading",
+            "watching"
+        ]
+    },
+    {
+        "q": "Cyber ranges allow safe practice of offensive techniques.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is capture the flag?",
+        "type": "mcq",
+        "o": [
+            "Security competition to solve challenges",
+            "Flag capturing",
+            "Sports game",
+            "Flag design"
+        ]
+    },
+    {
+        "q": "CTF challenges test _____ skills in competitive format.",
+        "type": "fill_blank",
+        "answers": [
+            "security"
+        ],
+        "other_options": [
+            "design",
+            "marketing",
+            "sales"
+        ]
+    },
+    {
+        "q": "CTFs help develop practical security skills.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Cybersecurity is essential in our connected world.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is security posture?",
+        "type": "mcq",
+        "o": [
+            "Organization's overall security status",
+            "Body position",
+            "Standing guard",
+            "Physical stance"
+        ]
+    },
+    {
+        "q": "Strong security posture requires people, process, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "technology"
+        ],
+        "other_options": [
+            "money",
+            "time",
+            "space"
+        ]
+    }
+]

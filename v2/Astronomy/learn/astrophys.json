@@ -1,0 +1,59 @@
+{
+    "id": "learn_astrophys",
+    "topicId": "astrophys",
+    "topicTitle": "Astrophysics",
+    "description": "Explore gravitational waves, black hole physics, relativity in astrophysics, and cosmic rays",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "astrophys_1",
+            "type": "content",
+            "title": "Welcome to Astrophysics",
+            "content": "# Introduction to Astrophysics ⚫\n\nWelcome to **Astrophysics** - physics of the most extreme objects!\n\n## What you'll learn:\n- **Gravitational Waves** - Ripples in spacetime\n- **Black Hole Physics** - Nature's ultimate extremes\n- **Relativity in Astronomy** - Einstein's universe\n- **Cosmic Rays** - High-energy particles\n\n> 💡 **Fun Fact:** Gravitational waves from merging black holes can briefly outshine all stars in the universe!\n\n## What is Astrophysics?\n\nApplying physics to understand celestial phenomena.\n\n## Key Concepts\n\n| Concept | Description |\n|---------|-------------|\n| Gravity | Shapes large-scale structure |\n| Nuclear physics | Powers stars |\n| Quantum mechanics | Degeneracy pressure |\n| Electromagnetism | How we observe |\n| Relativity | Extreme objects |\n\n## Extreme Environments\n\n| Object | Extreme Property |\n|--------|------------------|\n| Neutron stars | 10¹⁷ kg/m³ density |\n| Black holes | Infinite curvature |\n| Gamma-ray bursts | 10⁵⁴ ergs |\n| Pulsars | 700 rotations/sec |\n| Magnetars | 10¹⁵ Gauss |\n\nLet's explore the physics of extreme cosmic objects!"
+        },
+        {
+            "id": "astrophys_2",
+            "type": "content",
+            "title": "Gravitational Waves",
+            "content": "# Gravitational Waves 🌊\n\nRipples in the fabric of spacetime.\n\n## What are Gravitational Waves?\n\nAccelerating masses → Distortions that propagate at speed of light.\n\n```\n                 ★\n                ╱│╲\n               ╱ │ ╲\n             ╱   │   ╲   Ripples\n    ≋≋≋≋≋≋≋≋≋≋≋≋│≋≋≋≋≋≋≋≋≋≋≋≋≋\n             ╲   │   ╱\n              ╲  │  ╱\n               ╲ │ ╱\n                ╲│╱\n                 ★\n    (Binary system radiating GW)\n```\n\n## What They Do\n\n```\nWave passes through:\n\n     ○ → ◯ → ● → ◯ → ○\n     Normal  Stretched  Squeezed\n     \n     Stretches one direction,\n     compresses perpendicular\n```\n\n## Detection: LIGO/Virgo\n\n```\n        Mirror\n          |\n   Laser─▼─┼───4 km───► Mirror\n          |\n          |\n         4 km\n          |\n          ▼\n        Mirror\n        \n    Interferometer detects\n    tiny length changes\n    (< proton width!)\n```\n\n## First Detection (2015)\n\n- GW150914: Two black holes merging\n- 36 + 29 M☉ → 62 M☉ + 3 M☉ as GW!\n- Nobel Prize 2017\n\n## Sources\n\n| Source | GW Type |\n|--------|--------|\n| Binary black holes | Merger |\n| Binary neutron stars | Merger |\n| Core-collapse supernovae | Burst |\n| Rotating neutron stars | Continuous |\n\n> 🎯 **Key Point:** GW are a new way to observe the universe!"
+        },
+        {
+            "id": "astrophys_3",
+            "type": "content",
+            "title": "Black Hole Physics",
+            "content": "# Black Hole Physics ⚫\n\n## What is a Black Hole?\n\nRegion where gravity is so strong that nothing, not even light, can escape.\n\n## Anatomy\n\n```\n\n        Event Horizon (point of no return)\n              ╭───────────╮\n             ╱             ╲\n            │   ● Singularity │\n             ╲             ╱\n              ╰───────────╯\n                    │\n              Schwarzschild radius\n```\n\n## Schwarzschild Radius\n\n```\nrs = 2GM/c²\n\nFor Earth: 9 mm\nFor Sun: 3 km\nFor 10 M☉: 30 km\n```\n\n## Types of Black Holes\n\n| Type | Mass | Formation |\n|------|------|----------|\n| Stellar | 3-100 M☉ | Supernovae |\n| Intermediate | 100-10⁵ M☉ | Mergers? |\n| Supermassive | 10⁶-10¹⁰ M☉ | Galaxy centers |\n\n## Effects Near Black Holes\n\n### Time Dilation\n\n```\nFar away: Time passes normally\nNear horizon: Time slows dramatically\nAt horizon: Time stops (from outside view)\n```\n\n### Spaghettification\n\nTidal forces stretch objects into long strands.\n\n### Accretion Disk\n\n```\n        Hot gas spiraling in\n        ╭──────★──────╮\n       ╱      BH      ╲\n      │       ●        │\n       ╲              ╱\n        ╰─────────────╯\n              │\n         Very bright!\n```\n\n## First Image (2019)\n\nEvent Horizon Telescope imaged M87* supermassive black hole.\n\n> 💡 **Key Point:** Black holes are described by only mass, spin, and charge!"
+        },
+        {
+            "id": "astrophys_quiz_1",
+            "type": "quiz",
+            "title": "Astrophysics Quiz",
+            "content": "Test your understanding!",
+            "quizQuestion": "What is the Schwarzschild radius of a 10 solar mass black hole?",
+            "quizOptions": [
+                "3 km",
+                "30 km",
+                "300 km",
+                "3,000 km"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "astrophys_4",
+            "type": "content",
+            "title": "Relativity in Astrophysics",
+            "content": "# Relativity in Astrophysics 🌐\n\n## Special Relativity Effects\n\n### Time Dilation\n\n```\nt = t₀ / √(1 - v²/c²)\n\nMoving clocks run slower\n```\n\n### Length Contraction\n\n```\nL = L₀ × √(1 - v²/c²)\n\nMoving objects shrink in direction of motion\n```\n\n### Mass-Energy Equivalence\n\n```\nE = mc²\n\nPowers stars via nuclear fusion\n```\n\n## General Relativity\n\n> Mass tells spacetime how to curve.\n> Spacetime tells mass how to move.\n\n### Gravitational Lensing\n\n```\n    Distant star\n         ★\n         ╲\n          ╲─→ Massive object bends light\n           ╲\n            ★ Apparent position\n             ╲\n              👁️ Observer\n```\n\n### Geodetic Precession\n\nGyroscopes in orbit slowly change direction.\n\n### Frame Dragging\n\nSpinning masses drag spacetime with them.\n\n## Astrophysical Applications\n\n| Effect | Application |\n|--------|------------|\n| Gravitational lensing | Find dark matter |\n| Time dilation | GPS corrections |\n| Frame dragging | Accretion disks |\n| Gravitational redshift | Neutron star observations |\n\n## Tests of GR\n\n- Mercury's orbital precession\n- Light bending by Sun (1919 eclipse)\n- Gravitational redshift\n- Gravitational waves\n\n> 🎯 **Key Point:** GR is essential for understanding extreme gravity!"
+        },
+        {
+            "id": "astrophys_5",
+            "type": "content",
+            "title": "Cosmic Rays",
+            "content": "# Cosmic Rays ⚡\n\nHigh-energy particles from space.\n\n## What are Cosmic Rays?\n\n```\n~90% Protons\n~9% Alpha particles (He nuclei)\n~1% Electrons and heavier nuclei\n```\n\nEnergies: Up to 10²⁰ eV (1 joule in one particle!)\n\n## Sources\n\n| Energy | Likely Source |\n|--------|---------------|\n| Low (GeV) | Sun |\n| Medium (TeV) | Supernovae remnants |\n| High (PeV) | Galactic accelerators |\n| Ultra-high (EeV) | Extragalactic (AGN, GRBs) |\n\n## Acceleration Mechanisms\n\n### Fermi Acceleration\n\n```\nParticle bounces between magnetic \"mirrors\"\n\n    ←──●──►\n     ╱     ╲\n   Shock    Shock\n     ╲     ╱\n    ◄──●──►\n     \n   Gains energy each bounce\n```\n\n## Air Showers\n\n```\n    Primary cosmic ray\n           │\n           ▼\n    ────Atmosphere────\n           │\n        ╱  │  ╲\n      ╱    │    ╲\n    ╱      │      ╲\n   ◦    ◦  ◦  ◦    ◦   Secondary particles\n```\n\n## Detection Methods\n\n| Method | Example |\n|--------|--------|\n| Cherenkov | MAGIC, HESS |\n| Fluorescence | Pierre Auger |\n| Ground arrays | Telescope Array |\n| Space detectors | AMS-02 |\n\n## The GZK Cutoff\n\nAbove ~6×10¹⁹ eV, protons interact with CMB photons.\n\n→ Limited distance for ultra-high energy cosmic rays\n\n> 💡 **Key Point:** Cosmic rays sample materials from distant accelerators!"
+        },
+        {
+            "id": "astrophys_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Congratulations! 🎉\n\nYou've completed Astrophysics! Here's what you've mastered:\n\n## Gravitational Waves\n\n- ✅ Ripples in spacetime from accelerating masses\n- ✅ Detected by LIGO (2015)\n- ✅ Sources: Merging black holes, neutron stars\n\n## Black Hole Physics\n\n| Property | Description |\n|----------|-------------|\n| Event horizon | Point of no return |\n| Schwarzschild radius | rs = 2GM/c² |\n| Types | Stellar, intermediate, supermassive |\n| Effects | Time dilation, spaghettification |\n\n## Relativity in Astrophysics\n\n### Special Relativity\n- ✅ Time dilation, length contraction\n- ✅ E = mc² (stellar energy)\n\n### General Relativity\n- ✅ Gravitational lensing\n- ✅ Frame dragging\n- ✅ Essential for extreme gravity\n\n## Cosmic Rays\n\n- ✅ High-energy particles (mostly protons)\n- ✅ Sources: Supernovae, AGN, GRBs\n- ✅ Fermi acceleration mechanism\n- ✅ Air showers in atmosphere\n\n> 🚀 **Next Steps:** Explore Exoplanets to discover worlds beyond our solar system!\n\nYou now understand the physics of the most extreme cosmic objects!"
+        }
+    ]
+}

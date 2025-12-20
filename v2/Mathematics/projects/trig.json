@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Trig Functions 📐",
+        "ques": "For a right triangle with angle θ where opposite = 3, adjacent = 4:\n1. Find sin θ, cos θ, tan θ\n2. Find the hypotenuse",
+        "answer": {
+            "type": "text",
+            "content": "**1. Find hypotenuse first:**\n√(3² + 4²) = 5\n\n**Trig ratios:**\n- sin θ = opp/hyp = 3/5\n- cos θ = adj/hyp = 4/5\n- tan θ = opp/adj = 3/4"
+        },
+        "explanation": "**SOH-CAH-TOA:** Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent."
+    },
+    {
+        "title": "Unit Circle 🔵",
+        "ques": "Find exact values:\n1. sin 30°\n2. cos 45°\n3. tan 60°",
+        "answer": {
+            "type": "text",
+            "content": "**1.** sin 30° = **1/2**\n\n**2.** cos 45° = **√2/2**\n\n**3.** tan 60° = **√3**\n\n| Angle | sin | cos | tan |\n|-------|-----|-----|-----|\n| 30° | 1/2 | √3/2 | 1/√3 |\n| 45° | √2/2 | √2/2 | 1 |\n| 60° | √3/2 | 1/2 | √3 |"
+        },
+        "explanation": "**Unit circle values** should be memorized. 30-60-90 and 45-45-90 triangles are key."
+    },
+    {
+        "title": "Trig Identities 🔄",
+        "ques": "Prove:\n1. sin²θ + cos²θ = 1\n2. sec²θ - tan²θ = 1",
+        "answer": {
+            "type": "text",
+            "content": "**1. Pythagorean identity:**\nIn unit circle, x² + y² = 1\ncos²θ + sin²θ = 1 ✓\n\n**2. Derived from (1):**\n```\nDivide (1) by cos²θ:\ntan²θ + 1 = sec²θ\nsec²θ - tan²θ = 1 ✓\n```"
+        },
+        "explanation": "**Pythagorean identities** are fundamental. All others can be derived from sin²θ + cos²θ = 1."
+    },
+    {
+        "title": "Solving Trig Equations 🎯",
+        "ques": "Solve for θ in [0°, 360°):\n1. sin θ = 1/2\n2. cos θ = -1",
+        "answer": {
+            "type": "text",
+            "content": "**1. sin θ = 1/2:**\nReference angle = 30°\nSin positive in Q1, Q2\nθ = **30° or 150°**\n\n**2. cos θ = -1:**\nθ = **180°**\n(Only solution in given range)"
+        },
+        "explanation": "**ASTC rule:** All positive in Q1, Sin in Q2, Tan in Q3, Cos in Q4."
+    },
+    {
+        "title": "Triangle Applications 🔺",
+        "ques": "In triangle ABC: a = 7, b = 5, C = 60°\n1. Find side c (Law of Cosines)\n2. Find area",
+        "answer": {
+            "type": "text",
+            "content": "**1. Law of Cosines:**\n```\nc² = a² + b² - 2ab·cos C\nc² = 49 + 25 - 2(7)(5)(0.5)\nc² = 74 - 35 = 39\nc = √39 ≈ 6.24\n```\n\n**2. Area:**\n```\nArea = (1/2)ab·sin C\n     = (1/2)(7)(5)(√3/2)\n     = 35√3/4 ≈ 15.16\n```"
+        },
+        "explanation": "**Law of Cosines** generalizes Pythagorean theorem. Area = (1/2)ab·sin C works for any triangle."
+    },
+    {
+        "title": "Polar Coordinates 🌀",
+        "ques": "Convert:\n1. (3, 4) to polar\n2. (5, 60°) to Cartesian",
+        "answer": {
+            "type": "text",
+            "content": "**1. (3,4) to polar:**\n```\nr = √(9+16) = 5\nθ = tan⁻¹(4/3) ≈ 53.13°\n```\nPolar: **(5, 53.13°)**\n\n**2. (5, 60°) to Cartesian:**\n```\nx = r·cos θ = 5·(1/2) = 2.5\ny = r·sin θ = 5·(√3/2) ≈ 4.33\n```\nCartesian: **(2.5, 4.33)**"
+        },
+        "explanation": "**Polar coordinates** (r, θ) specify point by distance and angle. Convert using x = r·cos θ, y = r·sin θ."
+    }
+]

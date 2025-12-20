@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Arrays and Lists 📋",
+        "ques": "1. What is an array?\n2. Array vs List differences\n3. Access and modify elements",
+        "answer": {
+            "type": "code",
+            "lang": "python",
+            "content": "# 1. Array: Ordered, indexed collection\n\n# Python uses lists (dynamic arrays)\nfruits = [\"apple\", \"banana\", \"cherry\"]\n\n# 2. Array vs List:\n# Arrays: Fixed size, same type (in most languages)\n# Python lists: Dynamic size, any types\n\n# 3. Access (0-indexed)\nprint(fruits[0])   # apple\nprint(fruits[-1])  # cherry (last)\n\n# Modify\nfruits[1] = \"mango\"\nfruits.append(\"orange\")"
+        },
+        "explanation": "**Arrays** have O(1) access by index. Lists in Python are dynamic arrays."
+    },
+    {
+        "title": "Stacks and Queues 📚",
+        "ques": "1. Stack operations\n2. Queue operations\n3. Real-world examples",
+        "answer": {
+            "type": "code",
+            "lang": "python",
+            "content": "# 1. Stack: LIFO (Last In First Out)\nstack = []\nstack.append(1)  # push\nstack.append(2)\nstack.pop()      # returns 2\n\n# 2. Queue: FIFO (First In First Out)\nfrom collections import deque\nqueue = deque()\nqueue.append(1)   # enqueue\nqueue.append(2)\nqueue.popleft()   # dequeue, returns 1\n\n# 3. Examples:\n# Stack: Undo feature, browser back\n# Queue: Print queue, task scheduling"
+        },
+        "explanation": "**Stack** = plates. **Queue** = line at store. Both are fundamental data structures."
+    },
+    {
+        "title": "Trees 🌳",
+        "ques": "1. What is a binary tree?\n2. Common traversals\n3. What is BST?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Binary tree:** Each node has at most 2 children (left, right)\n\n**2. Traversals:**\n- Inorder: Left → Root → Right (BST gives sorted)\n- Preorder: Root → Left → Right\n- Postorder: Left → Right → Root\n\n**3. BST (Binary Search Tree):**\n- Left child < parent < right child\n- O(log n) search, insert, delete (balanced)"
+        },
+        "explanation": "**Trees** represent hierarchical data. File systems, HTML DOM are tree structures."
+    },
+    {
+        "title": "Graphs 🕸️",
+        "ques": "1. What is a graph?\n2. Directed vs undirected\n3. Representation methods",
+        "answer": {
+            "type": "text",
+            "content": "**1. Graph:** Nodes (vertices) connected by edges\n\n**2. Types:**\n- Directed: Edges have direction (Twitter follows)\n- Undirected: Edges go both ways (Facebook friends)\n\n**3. Representations:**\n- Adjacency matrix: 2D array (O(V²) space)\n- Adjacency list: Array of lists (O(V+E) space)"
+        },
+        "explanation": "**Graphs** model relationships. Social networks, maps, dependencies are graphs."
+    },
+    {
+        "title": "Hash Tables 🔑",
+        "ques": "1. What is a hash table?\n2. What is a hash function?\n3. Handle collisions",
+        "answer": {
+            "type": "code",
+            "lang": "python",
+            "content": "# 1. Hash table: Key-value store with O(1) average access\nphonebook = {\n    \"Alice\": \"555-1234\",\n    \"Bob\": \"555-5678\"\n}\n\n# 2. Hash function: Converts key to index\n# hash(\"Alice\") → 42 (example)\n\n# 3. Collisions (same hash):\n# - Chaining: Store in list at index\n# - Open addressing: Find next empty slot\n\nprint(phonebook[\"Alice\"])  # O(1) access"
+        },
+        "explanation": "**Hash tables** (Python dicts) are extremely useful. O(1) average case lookup!"
+    },
+    {
+        "title": "Linked Lists 🔗",
+        "ques": "1. What is a linked list?\n2. Array vs linked list\n3. Types of linked lists",
+        "answer": {
+            "type": "text",
+            "content": "**1. Linked list:** Nodes containing data + pointer to next node\n\n**2. Comparison:**\n| Operation | Array | Linked List |\n|-----------|-------|-------------|\n| Access | O(1) | O(n) |\n| Insert/Delete at front | O(n) | O(1) |\n| Memory | Contiguous | Non-contiguous |\n\n**3. Types:**\n- Singly linked (next pointer)\n- Doubly linked (next + prev)\n- Circular (last points to first)"
+        },
+        "explanation": "**Linked lists** excel at frequent insertions/deletions. Arrays better for random access."
+    }
+]

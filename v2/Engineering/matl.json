@@ -1,0 +1,6597 @@
+[
+    {
+        "q": "What is materials science?",
+        "type": "mcq",
+        "o": [
+            "Study of material properties, structure, and applications",
+            "Only chemistry",
+            "Only physics",
+            "Only biology"
+        ]
+    },
+    {
+        "q": "Materials science combines chemistry, physics, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "engineering"
+        ],
+        "other_options": [
+            "art",
+            "music",
+            "literature"
+        ]
+    },
+    {
+        "q": "Materials properties depend on their structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are the main classes of materials?",
+        "type": "mcq",
+        "o": [
+            "Metals, ceramics, polymers, and composites",
+            "Only metals",
+            "Only plastics",
+            "Only ceramics"
+        ]
+    },
+    {
+        "q": "Match the material class with its characteristic:",
+        "type": "match",
+        "left": [
+            "Metals",
+            "Ceramics",
+            "Polymers",
+            "Composites"
+        ],
+        "right": [
+            "Electrically conductive",
+            "Hard and brittle",
+            "Flexible",
+            "Combined properties"
+        ]
+    },
+    {
+        "q": "Rearrange material processing steps:",
+        "type": "rearrange",
+        "words": [
+            "Raw material",
+            "Processing",
+            "Final product",
+            "Testing"
+        ]
+    },
+    {
+        "q": "What is crystal structure?",
+        "type": "mcq",
+        "o": [
+            "Regular arrangement of atoms in a material",
+            "Random arrangement",
+            "No arrangement",
+            "Liquid state"
+        ]
+    },
+    {
+        "q": "Unit cell is the smallest repeating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "unit"
+        ],
+        "other_options": [
+            "atom",
+            "molecule",
+            "particle"
+        ]
+    },
+    {
+        "q": "Match the crystal system with its shape:",
+        "type": "match",
+        "left": [
+            "Cubic",
+            "Hexagonal",
+            "Tetragonal",
+            "Orthorhombic"
+        ],
+        "right": [
+            "Equal sides",
+            "6-fold symmetry",
+            "Square prism",
+            "Rectangular"
+        ]
+    },
+    {
+        "q": "FCC stands for Face-Centered Cubic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is BCC structure?",
+        "type": "mcq",
+        "o": [
+            "Body-Centered Cubic crystal structure",
+            "Basic Crystal Configuration",
+            "Bonded Carbon Crystal",
+            "Bottom-Corner Crystal"
+        ]
+    },
+    {
+        "q": "Rearrange crystal structures by packing efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Simple cubic",
+            "BCC",
+            "FCC",
+            "HCP"
+        ]
+    },
+    {
+        "q": "What is HCP structure?",
+        "type": "mcq",
+        "o": [
+            "Hexagonal Close-Packed structure",
+            "High Carbon Packing",
+            "Hot Cooling Process",
+            "Hard Crystal Phase"
+        ]
+    },
+    {
+        "q": "FCC has the highest packing ______.",
+        "type": "fill_blank",
+        "answers": [
+            "efficiency"
+        ],
+        "other_options": [
+            "cost",
+            "weight",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the crystal structure with its example:",
+        "type": "match",
+        "left": [
+            "FCC",
+            "BCC",
+            "HCP",
+            "Diamond cubic"
+        ],
+        "right": [
+            "Aluminum",
+            "Iron",
+            "Titanium",
+            "Silicon"
+        ]
+    },
+    {
+        "q": "Crystal defects affect material properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a point defect?",
+        "type": "mcq",
+        "o": [
+            "Defect at a single atomic site",
+            "Line defect",
+            "Surface defect",
+            "No defect"
+        ]
+    },
+    {
+        "q": "Rearrange defect types by dimension:",
+        "type": "rearrange",
+        "words": [
+            "Point (0D)",
+            "Line (1D)",
+            "Planar (2D)",
+            "Volume (3D)"
+        ]
+    },
+    {
+        "q": "What is a vacancy?",
+        "type": "mcq",
+        "o": [
+            "Missing atom in crystal lattice",
+            "Extra atom",
+            "Wrong atom",
+            "No defect"
+        ]
+    },
+    {
+        "q": "Interstitial defects are atoms in ______ sites.",
+        "type": "fill_blank",
+        "answers": [
+            "wrong"
+        ],
+        "other_options": [
+            "correct",
+            "normal",
+            "regular"
+        ]
+    },
+    {
+        "q": "Match the defect with its description:",
+        "type": "match",
+        "left": [
+            "Vacancy",
+            "Interstitial",
+            "Substitutional",
+            "Frenkel"
+        ],
+        "right": [
+            "Missing atom",
+            "Extra atom",
+            "Wrong atom",
+            "Vacancy plus interstitial"
+        ]
+    },
+    {
+        "q": "Schottky defects occur in ionic crystals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a dislocation?",
+        "type": "mcq",
+        "o": [
+            "Linear defect in crystal structure",
+            "Point defect",
+            "Surface defect",
+            "No defect"
+        ]
+    },
+    {
+        "q": "Rearrange dislocation types:",
+        "type": "rearrange",
+        "words": [
+            "Edge",
+            "Screw",
+            "Mixed",
+            "Partial"
+        ]
+    },
+    {
+        "q": "What is an edge dislocation?",
+        "type": "mcq",
+        "o": [
+            "Extra half-plane of atoms",
+            "Spiral arrangement",
+            "No arrangement",
+            "Random atoms"
+        ]
+    },
+    {
+        "q": "Burgers vector describes dislocation ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magnitude and direction"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the dislocation with its characteristic:",
+        "type": "match",
+        "left": [
+            "Edge",
+            "Screw",
+            "Mixed",
+            "Partial"
+        ],
+        "right": [
+            "Extra plane",
+            "Spiral ramp",
+            "Both types",
+            "Incomplete"
+        ]
+    },
+    {
+        "q": "Dislocations enable plastic deformation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is grain boundary?",
+        "type": "mcq",
+        "o": [
+            "Interface between crystals of different orientations",
+            "Crystal interior",
+            "Point defect",
+            "Single crystal"
+        ]
+    },
+    {
+        "q": "Rearrange grain boundary types:",
+        "type": "rearrange",
+        "words": [
+            "Low angle",
+            "High angle",
+            "Tilt",
+            "Twist"
+        ]
+    },
+    {
+        "q": "What are polycrystalline materials?",
+        "type": "mcq",
+        "o": [
+            "Materials made of many small crystals",
+            "Single crystal",
+            "Amorphous",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "Smaller grain size increases ______.",
+        "type": "fill_blank",
+        "answers": [
+            "strength"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the grain feature with its effect:",
+        "type": "match",
+        "left": [
+            "Fine grains",
+            "Coarse grains",
+            "Grain boundary",
+            "Texture"
+        ],
+        "right": [
+            "Higher strength",
+            "Lower strength",
+            "Diffusion path",
+            "Directional properties"
+        ]
+    },
+    {
+        "q": "Hall-Petch equation relates grain size to strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is atomic bonding?",
+        "type": "mcq",
+        "o": [
+            "Forces holding atoms together",
+            "Atom separation",
+            "No interaction",
+            "Random movement"
+        ]
+    },
+    {
+        "q": "Rearrange bond types by strength:",
+        "type": "rearrange",
+        "words": [
+            "Van der Waals",
+            "Hydrogen",
+            "Ionic",
+            "Covalent"
+        ]
+    },
+    {
+        "q": "What is metallic bonding?",
+        "type": "mcq",
+        "o": [
+            "Sharing electrons among metal atoms",
+            "Electron transfer",
+            "Electron sharing pairs",
+            "No electrons"
+        ]
+    },
+    {
+        "q": "Ionic bonds involve electron ______.",
+        "type": "fill_blank",
+        "answers": [
+            "transfer"
+        ],
+        "other_options": [
+            "sharing",
+            "creation",
+            "destruction"
+        ]
+    },
+    {
+        "q": "Match the bond type with its material:",
+        "type": "match",
+        "left": [
+            "Metallic",
+            "Ionic",
+            "Covalent",
+            "Van der Waals"
+        ],
+        "right": [
+            "Copper",
+            "Salt",
+            "Diamond",
+            "Polymers"
+        ]
+    },
+    {
+        "q": "Covalent bonds share electrons between atoms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mechanical property?",
+        "type": "mcq",
+        "o": [
+            "Response of material to applied forces",
+            "Color",
+            "Cost",
+            "Availability"
+        ]
+    },
+    {
+        "q": "Rearrange mechanical properties:",
+        "type": "rearrange",
+        "words": [
+            "Strength",
+            "Stiffness",
+            "Ductility",
+            "Toughness"
+        ]
+    },
+    {
+        "q": "What is tensile strength?",
+        "type": "mcq",
+        "o": [
+            "Maximum stress before fracture in tension",
+            "Minimum stress",
+            "No stress",
+            "Compression strength"
+        ]
+    },
+    {
+        "q": "Young's modulus measures material ______.",
+        "type": "fill_blank",
+        "answers": [
+            "stiffness"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the property with its definition:",
+        "type": "match",
+        "left": [
+            "Strength",
+            "Stiffness",
+            "Ductility",
+            "Hardness"
+        ],
+        "right": [
+            "Load capacity",
+            "Resistance to deformation",
+            "Ability to stretch",
+            "Resistance to indentation"
+        ]
+    },
+    {
+        "q": "Ductile materials deform before fracture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is stress?",
+        "type": "mcq",
+        "o": [
+            "Force per unit area",
+            "Total force",
+            "Weight",
+            "Volume"
+        ]
+    },
+    {
+        "q": "Rearrange stress types:",
+        "type": "rearrange",
+        "words": [
+            "Tensile",
+            "Compressive",
+            "Shear",
+            "Torsion"
+        ]
+    },
+    {
+        "q": "What is strain?",
+        "type": "mcq",
+        "o": [
+            "Change in dimension per original dimension",
+            "Absolute change",
+            "No change",
+            "Random value"
+        ]
+    },
+    {
+        "q": "Stress-strain curve shows material ______.",
+        "type": "fill_blank",
+        "answers": [
+            "behavior"
+        ],
+        "other_options": [
+            "color",
+            "name",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the stress-strain region with its behavior:",
+        "type": "match",
+        "left": [
+            "Elastic",
+            "Plastic",
+            "Yield point",
+            "Fracture"
+        ],
+        "right": [
+            "Recoverable",
+            "Permanent",
+            "Start of plastic",
+            "Failure"
+        ]
+    },
+    {
+        "q": "Elastic deformation is reversible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is yield strength?",
+        "type": "mcq",
+        "o": [
+            "Stress at which plastic deformation begins",
+            "Maximum stress",
+            "Minimum stress",
+            "No stress"
+        ]
+    },
+    {
+        "q": "Rearrange material response:",
+        "type": "rearrange",
+        "words": [
+            "Load application",
+            "Elastic deformation",
+            "Plastic deformation",
+            "Fracture"
+        ]
+    },
+    {
+        "q": "What is toughness?",
+        "type": "mcq",
+        "o": [
+            "Energy absorbed before fracture",
+            "Hardness",
+            "Stiffness",
+            "Color"
+        ]
+    },
+    {
+        "q": "Area under stress-strain curve represents ______.",
+        "type": "fill_blank",
+        "answers": [
+            "toughness"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the test with its measurement:",
+        "type": "match",
+        "left": [
+            "Tensile test",
+            "Hardness test",
+            "Impact test",
+            "Fatigue test"
+        ],
+        "right": [
+            "Strength and ductility",
+            "Indentation resistance",
+            "Toughness",
+            "Cyclic loading life"
+        ]
+    },
+    {
+        "q": "Brittle materials have low toughness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hardness?",
+        "type": "mcq",
+        "o": [
+            "Resistance to localized plastic deformation",
+            "Overall strength",
+            "Color",
+            "Weight"
+        ]
+    },
+    {
+        "q": "Rearrange hardness test methods:",
+        "type": "rearrange",
+        "words": [
+            "Brinell",
+            "Rockwell",
+            "Vickers",
+            "Knoop"
+        ]
+    },
+    {
+        "q": "What is Brinell hardness test?",
+        "type": "mcq",
+        "o": [
+            "Using steel ball to create indentation",
+            "Using diamond point",
+            "Using scratch",
+            "No indentation"
+        ]
+    },
+    {
+        "q": "Rockwell test measures indentation ______.",
+        "type": "fill_blank",
+        "answers": [
+            "depth"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the hardness test with its indenter:",
+        "type": "match",
+        "left": [
+            "Brinell",
+            "Rockwell B",
+            "Vickers",
+            "Knoop"
+        ],
+        "right": [
+            "Steel ball",
+            "Ball",
+            "Diamond pyramid",
+            "Diamond elongated"
+        ]
+    },
+    {
+        "q": "Harder materials resist wear better.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is fatigue?",
+        "type": "mcq",
+        "o": [
+            "Failure under repeated cyclic loading",
+            "Static failure",
+            "Instant failure",
+            "No failure"
+        ]
+    },
+    {
+        "q": "Rearrange fatigue stages:",
+        "type": "rearrange",
+        "words": [
+            "Crack initiation",
+            "Crack propagation",
+            "Fast fracture",
+            "Failure"
+        ]
+    },
+    {
+        "q": "What is fatigue limit?",
+        "type": "mcq",
+        "o": [
+            "Stress below which fatigue failure does not occur",
+            "Maximum stress",
+            "Minimum stress",
+            "No limit"
+        ]
+    },
+    {
+        "q": "S-N curve plots stress versus number of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cycles"
+        ],
+        "other_options": [
+            "days",
+            "months",
+            "years"
+        ]
+    },
+    {
+        "q": "Match the fatigue term with its meaning:",
+        "type": "match",
+        "left": [
+            "Endurance limit",
+            "Mean stress",
+            "Stress amplitude",
+            "R ratio"
+        ],
+        "right": [
+            "Infinite life stress",
+            "Average stress",
+            "Stress variation",
+            "Min/max ratio"
+        ]
+    },
+    {
+        "q": "Surface defects promote fatigue crack initiation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is creep?",
+        "type": "mcq",
+        "o": [
+            "Time-dependent deformation under constant stress",
+            "Instant deformation",
+            "No deformation",
+            "Elastic deformation"
+        ]
+    },
+    {
+        "q": "Rearrange creep stages:",
+        "type": "rearrange",
+        "words": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "Rupture"
+        ]
+    },
+    {
+        "q": "When does creep become significant?",
+        "type": "mcq",
+        "o": [
+            "At high temperatures near melting point",
+            "At room temperature",
+            "At freezing",
+            "Never"
+        ]
+    },
+    {
+        "q": "Creep rate is constant during ______ stage.",
+        "type": "fill_blank",
+        "answers": [
+            "secondary"
+        ],
+        "other_options": [
+            "primary",
+            "tertiary",
+            "initial"
+        ]
+    },
+    {
+        "q": "Match the creep stage with its characteristic:",
+        "type": "match",
+        "left": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "Rupture"
+        ],
+        "right": [
+            "Decreasing rate",
+            "Steady rate",
+            "Accelerating rate",
+            "Failure"
+        ]
+    },
+    {
+        "q": "Creep affects turbine blades at high temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is fracture mechanics?",
+        "type": "mcq",
+        "o": [
+            "Study of crack propagation in materials",
+            "Material synthesis",
+            "Material processing",
+            "Material color"
+        ]
+    },
+    {
+        "q": "Rearrange fracture types:",
+        "type": "rearrange",
+        "words": [
+            "Ductile",
+            "Brittle",
+            "Fatigue",
+            "Creep"
+        ]
+    },
+    {
+        "q": "What is stress intensity factor?",
+        "type": "mcq",
+        "o": [
+            "Parameter describing stress near crack tip",
+            "Total stress",
+            "Average stress",
+            "No stress"
+        ]
+    },
+    {
+        "q": "Fracture toughness is critical stress intensity ______.",
+        "type": "fill_blank",
+        "answers": [
+            "factor"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the fracture with its appearance:",
+        "type": "match",
+        "left": [
+            "Ductile",
+            "Brittle",
+            "Fatigue",
+            "Cleavage"
+        ],
+        "right": [
+            "Cup and cone",
+            "Flat surface",
+            "Beach marks",
+            "Crystal planes"
+        ]
+    },
+    {
+        "q": "Ductile fracture shows plastic deformation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a phase diagram?",
+        "type": "mcq",
+        "o": [
+            "Map showing stable phases at different conditions",
+            "Process flow",
+            "Assembly drawing",
+            "Cost chart"
+        ]
+    },
+    {
+        "q": "Rearrange phase diagram components:",
+        "type": "rearrange",
+        "words": [
+            "Temperature axis",
+            "Composition axis",
+            "Phase regions",
+            "Phase boundaries"
+        ]
+    },
+    {
+        "q": "What is a binary phase diagram?",
+        "type": "mcq",
+        "o": [
+            "Phase diagram for two-component system",
+            "Single component",
+            "Three components",
+            "Four components"
+        ]
+    },
+    {
+        "q": "Liquidus line separates liquid from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solid plus liquid"
+        ],
+        "other_options": [
+            "gas",
+            "vacuum",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the phase diagram feature with its meaning:",
+        "type": "match",
+        "left": [
+            "Liquidus",
+            "Solidus",
+            "Solvus",
+            "Eutectic"
+        ],
+        "right": [
+            "Start of freezing",
+            "End of freezing",
+            "Solubility limit",
+            "Lowest melting point"
+        ]
+    },
+    {
+        "q": "Iron-carbon diagram is important for steel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is heat treatment?",
+        "type": "mcq",
+        "o": [
+            "Controlled heating and cooling to change properties",
+            "Only heating",
+            "Only cooling",
+            "No treatment"
+        ]
+    },
+    {
+        "q": "Rearrange heat treatment steps:",
+        "type": "rearrange",
+        "words": [
+            "Heating",
+            "Holding",
+            "Cooling",
+            "Tempering"
+        ]
+    },
+    {
+        "q": "What is annealing?",
+        "type": "mcq",
+        "o": [
+            "Heating and slow cooling to soften material",
+            "Fast cooling",
+            "No cooling",
+            "Only heating"
+        ]
+    },
+    {
+        "q": "Quenching involves rapid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cooling"
+        ],
+        "other_options": [
+            "heating",
+            "waiting",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the heat treatment with its purpose:",
+        "type": "match",
+        "left": [
+            "Annealing",
+            "Quenching",
+            "Tempering",
+            "Normalizing"
+        ],
+        "right": [
+            "Soften",
+            "Harden",
+            "Reduce brittleness",
+            "Refine grain"
+        ]
+    },
+    {
+        "q": "Tempering reduces hardness but increases toughness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is steel?",
+        "type": "mcq",
+        "o": [
+            "Iron-carbon alloy with less than 2% carbon",
+            "Pure iron",
+            "Pure carbon",
+            "Aluminum alloy"
+        ]
+    },
+    {
+        "q": "Rearrange steel types by carbon content:",
+        "type": "rearrange",
+        "words": [
+            "Low carbon",
+            "Medium carbon",
+            "High carbon",
+            "Tool steel"
+        ]
+    },
+    {
+        "q": "What is stainless steel?",
+        "type": "mcq",
+        "o": [
+            "Steel with chromium for corrosion resistance",
+            "Pure steel",
+            "Rusty steel",
+            "Weak steel"
+        ]
+    },
+    {
+        "q": "Chromium forms protective oxide ______.",
+        "type": "fill_blank",
+        "answers": [
+            "layer"
+        ],
+        "other_options": [
+            "crack",
+            "hole",
+            "weakness"
+        ]
+    },
+    {
+        "q": "Match the steel type with its application:",
+        "type": "match",
+        "left": [
+            "Low carbon",
+            "Medium carbon",
+            "High carbon",
+            "Stainless"
+        ],
+        "right": [
+            "Sheet metal",
+            "Machinery",
+            "Tools",
+            "Medical devices"
+        ]
+    },
+    {
+        "q": "Alloy steels contain additional elements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is aluminum alloy?",
+        "type": "mcq",
+        "o": [
+            "Aluminum with added elements for properties",
+            "Pure aluminum",
+            "Iron alloy",
+            "Copper alloy"
+        ]
+    },
+    {
+        "q": "Rearrange aluminum characteristics:",
+        "type": "rearrange",
+        "words": [
+            "Lightweight",
+            "Corrosion resistant",
+            "Conductive",
+            "Recyclable"
+        ]
+    },
+    {
+        "q": "What is the advantage of aluminum?",
+        "type": "mcq",
+        "o": [
+            "High strength-to-weight ratio",
+            "Heavy weight",
+            "Poor conductivity",
+            "Rusts easily"
+        ]
+    },
+    {
+        "q": "Aluminum naturally forms protective oxide ______.",
+        "type": "fill_blank",
+        "answers": [
+            "film"
+        ],
+        "other_options": [
+            "crack",
+            "hole",
+            "weakness"
+        ]
+    },
+    {
+        "q": "Match the aluminum alloy with its series:",
+        "type": "match",
+        "left": [
+            "2xxx",
+            "6xxx",
+            "7xxx",
+            "5xxx"
+        ],
+        "right": [
+            "Copper",
+            "Magnesium-silicon",
+            "Zinc",
+            "Magnesium"
+        ]
+    },
+    {
+        "q": "Aluminum is used extensively in aerospace.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is titanium alloy?",
+        "type": "mcq",
+        "o": [
+            "Titanium with added elements for properties",
+            "Pure titanium",
+            "Iron alloy",
+            "Copper alloy"
+        ]
+    },
+    {
+        "q": "Rearrange titanium properties:",
+        "type": "rearrange",
+        "words": [
+            "High strength",
+            "Lightweight",
+            "Corrosion resistant",
+            "Biocompatible"
+        ]
+    },
+    {
+        "q": "What is the main disadvantage of titanium?",
+        "type": "mcq",
+        "o": [
+            "High cost and difficult processing",
+            "Low strength",
+            "Heavy weight",
+            "Rusts easily"
+        ]
+    },
+    {
+        "q": "Ti-6Al-4V is the most common titanium ______.",
+        "type": "fill_blank",
+        "answers": [
+            "alloy"
+        ],
+        "other_options": [
+            "element",
+            "compound",
+            "mixture"
+        ]
+    },
+    {
+        "q": "Match the titanium application with its reason:",
+        "type": "match",
+        "left": [
+            "Aerospace",
+            "Medical implants",
+            "Marine",
+            "Sports"
+        ],
+        "right": [
+            "Strength-to-weight",
+            "Biocompatibility",
+            "Corrosion resistance",
+            "Performance"
+        ]
+    },
+    {
+        "q": "Titanium is used for medical implants.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a ceramic material?",
+        "type": "mcq",
+        "o": [
+            "Inorganic non-metallic solid material",
+            "Metal",
+            "Polymer",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "Rearrange ceramic properties:",
+        "type": "rearrange",
+        "words": [
+            "Hard",
+            "Brittle",
+            "High melting point",
+            "Chemical resistant"
+        ]
+    },
+    {
+        "q": "What is the main disadvantage of ceramics?",
+        "type": "mcq",
+        "o": [
+            "Brittleness and low tensile strength",
+            "Softness",
+            "Low melting point",
+            "Conductivity"
+        ]
+    },
+    {
+        "q": "Silicon carbide is an advanced ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ceramic"
+        ],
+        "other_options": [
+            "metal",
+            "polymer",
+            "composite"
+        ]
+    },
+    {
+        "q": "Match the ceramic with its application:",
+        "type": "match",
+        "left": [
+            "Alumina",
+            "Zirconia",
+            "Silicon carbide",
+            "Silicon nitride"
+        ],
+        "right": [
+            "Electrical insulation",
+            "Cutting tools",
+            "Abrasives",
+            "Engine parts"
+        ]
+    },
+    {
+        "q": "Ceramics can withstand high temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a polymer?",
+        "type": "mcq",
+        "o": [
+            "Large molecule made of repeating units",
+            "Single atom",
+            "Metal",
+            "Ceramic"
+        ]
+    },
+    {
+        "q": "Rearrange polymer types:",
+        "type": "rearrange",
+        "words": [
+            "Thermoplastic",
+            "Thermoset",
+            "Elastomer",
+            "Biopolymer"
+        ]
+    },
+    {
+        "q": "What is thermoplastic?",
+        "type": "mcq",
+        "o": [
+            "Polymer that softens when heated",
+            "Cannot be heated",
+            "Permanently rigid",
+            "Not polymer"
+        ]
+    },
+    {
+        "q": "Thermosets cannot be ______ after curing.",
+        "type": "fill_blank",
+        "answers": [
+            "remelted"
+        ],
+        "other_options": [
+            "colored",
+            "named",
+            "sold"
+        ]
+    },
+    {
+        "q": "Match the polymer with its type:",
+        "type": "match",
+        "left": [
+            "Polyethylene",
+            "Epoxy",
+            "Rubber",
+            "PET"
+        ],
+        "right": [
+            "Thermoplastic",
+            "Thermoset",
+            "Elastomer",
+            "Recyclable"
+        ]
+    },
+    {
+        "q": "Polymers are widely used in packaging.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a composite material?",
+        "type": "mcq",
+        "o": [
+            "Material made from two or more constituents",
+            "Pure element",
+            "Single material",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "Rearrange composite components:",
+        "type": "rearrange",
+        "words": [
+            "Matrix",
+            "Reinforcement",
+            "Interface",
+            "Composite"
+        ]
+    },
+    {
+        "q": "What is the role of matrix?",
+        "type": "mcq",
+        "o": [
+            "Bind reinforcement and transfer loads",
+            "Provide all strength",
+            "Decoration only",
+            "No role"
+        ]
+    },
+    {
+        "q": "Carbon fiber provides high ______.",
+        "type": "fill_blank",
+        "answers": [
+            "strength and stiffness"
+        ],
+        "other_options": [
+            "weight",
+            "cost",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the composite with its application:",
+        "type": "match",
+        "left": [
+            "Carbon fiber",
+            "Glass fiber",
+            "Kevlar",
+            "Metal matrix"
+        ],
+        "right": [
+            "Aerospace",
+            "Boats",
+            "Armor",
+            "Engine parts"
+        ]
+    },
+    {
+        "q": "Composites have high strength-to-weight ratio.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is corrosion?",
+        "type": "mcq",
+        "o": [
+            "Degradation of material by chemical reaction",
+            "Physical damage",
+            "Heating",
+            "Cooling"
+        ]
+    },
+    {
+        "q": "Rearrange corrosion types:",
+        "type": "rearrange",
+        "words": [
+            "Uniform",
+            "Pitting",
+            "Galvanic",
+            "Stress corrosion"
+        ]
+    },
+    {
+        "q": "What causes galvanic corrosion?",
+        "type": "mcq",
+        "o": [
+            "Contact between dissimilar metals",
+            "Same metals",
+            "No contact",
+            "Random"
+        ]
+    },
+    {
+        "q": "Corrosion protection includes coatings and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cathodic protection"
+        ],
+        "other_options": [
+            "nothing",
+            "ignoring",
+            "waiting"
+        ]
+    },
+    {
+        "q": "Match the corrosion with its characteristic:",
+        "type": "match",
+        "left": [
+            "Uniform",
+            "Pitting",
+            "Crevice",
+            "Intergranular"
+        ],
+        "right": [
+            "Even attack",
+            "Local holes",
+            "Hidden areas",
+            "Grain boundaries"
+        ]
+    },
+    {
+        "q": "Stainless steel resists corrosion due to chromium.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is surface treatment?",
+        "type": "mcq",
+        "o": [
+            "Modifying surface properties of material",
+            "Bulk treatment",
+            "No treatment",
+            "Ignoring surface"
+        ]
+    },
+    {
+        "q": "Rearrange surface treatment methods:",
+        "type": "rearrange",
+        "words": [
+            "Coating",
+            "Plating",
+            "Heat treatment",
+            "Shot peening"
+        ]
+    },
+    {
+        "q": "What is shot peening?",
+        "type": "mcq",
+        "o": [
+            "Bombarding surface with small particles",
+            "Heating surface",
+            "Coating surface",
+            "Removing surface"
+        ]
+    },
+    {
+        "q": "Shot peening introduces compressive ______.",
+        "type": "fill_blank",
+        "answers": [
+            "stress"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the surface treatment with its purpose:",
+        "type": "match",
+        "left": [
+            "Carburizing",
+            "Nitriding",
+            "Shot peening",
+            "Chrome plating"
+        ],
+        "right": [
+            "Carbon diffusion",
+            "Nitrogen diffusion",
+            "Fatigue resistance",
+            "Wear resistance"
+        ]
+    },
+    {
+        "q": "Surface treatments improve wear resistance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is nanomaterial?",
+        "type": "mcq",
+        "o": [
+            "Material with features at nanometer scale",
+            "Large material",
+            "Bulk material",
+            "No scale"
+        ]
+    },
+    {
+        "q": "Rearrange nanomaterial dimensions:",
+        "type": "rearrange",
+        "words": [
+            "0D nanoparticles",
+            "1D nanowires",
+            "2D nanosheets",
+            "3D nanostructures"
+        ]
+    },
+    {
+        "q": "What makes nanomaterials special?",
+        "type": "mcq",
+        "o": [
+            "High surface area to volume ratio",
+            "Low surface area",
+            "Same as bulk",
+            "No difference"
+        ]
+    },
+    {
+        "q": "Quantum dots are ______ dimensional nanomaterials.",
+        "type": "fill_blank",
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "one",
+            "two",
+            "three"
+        ]
+    },
+    {
+        "q": "Match the nanomaterial with its dimension:",
+        "type": "match",
+        "left": [
+            "Nanoparticle",
+            "Nanotube",
+            "Graphene",
+            "Nanocomposite"
+        ],
+        "right": [
+            "0D",
+            "1D",
+            "2D",
+            "3D"
+        ]
+    },
+    {
+        "q": "Nanomaterials have unique quantum properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is carbon nanotube?",
+        "type": "mcq",
+        "o": [
+            "Cylindrical carbon nanostructure",
+            "Carbon sphere",
+            "Carbon sheet",
+            "Carbon particle"
+        ]
+    },
+    {
+        "q": "Rearrange carbon nanotube types:",
+        "type": "rearrange",
+        "words": [
+            "Single-wall",
+            "Double-wall",
+            "Multi-wall",
+            "Functionalized"
+        ]
+    },
+    {
+        "q": "What is graphene?",
+        "type": "mcq",
+        "o": [
+            "Single layer of carbon atoms in hexagonal lattice",
+            "Multiple layers",
+            "3D structure",
+            "Random atoms"
+        ]
+    },
+    {
+        "q": "Graphene has exceptional electrical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conductivity"
+        ],
+        "other_options": [
+            "resistance",
+            "insulation",
+            "opacity"
+        ]
+    },
+    {
+        "q": "Match the carbon nanomaterial with its property:",
+        "type": "match",
+        "left": [
+            "CNT",
+            "Graphene",
+            "Fullerene",
+            "Carbon black"
+        ],
+        "right": [
+            "Mechanical strength",
+            "Electrical conductivity",
+            "Molecular cage",
+            "Pigment"
+        ]
+    },
+    {
+        "q": "Carbon nanotubes are stronger than steel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is biomaterial?",
+        "type": "mcq",
+        "o": [
+            "Material designed for biological applications",
+            "Only metals",
+            "Only plastics",
+            "No medical use"
+        ]
+    },
+    {
+        "q": "Rearrange biomaterial categories:",
+        "type": "rearrange",
+        "words": [
+            "Metals",
+            "Ceramics",
+            "Polymers",
+            "Composites"
+        ]
+    },
+    {
+        "q": "What is biocompatibility?",
+        "type": "mcq",
+        "o": [
+            "Ability to function in body without adverse reaction",
+            "Toxicity",
+            "Rejection",
+            "Failure"
+        ]
+    },
+    {
+        "q": "Biodegradable implants ______ over time.",
+        "type": "fill_blank",
+        "answers": [
+            "dissolve"
+        ],
+        "other_options": [
+            "harden",
+            "grow",
+            "expand"
+        ]
+    },
+    {
+        "q": "Match the biomaterial with its application:",
+        "type": "match",
+        "left": [
+            "Titanium",
+            "Hydroxyapatite",
+            "PEEK",
+            "Silicone"
+        ],
+        "right": [
+            "Hip implant",
+            "Bone graft",
+            "Spinal implant",
+            "Soft tissue"
+        ]
+    },
+    {
+        "q": "Biomaterials must not cause inflammation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is semiconductor?",
+        "type": "mcq",
+        "o": [
+            "Material with electrical conductivity between conductor and insulator",
+            "Perfect conductor",
+            "Perfect insulator",
+            "No conductivity"
+        ]
+    },
+    {
+        "q": "Rearrange semiconductor types:",
+        "type": "rearrange",
+        "words": [
+            "Intrinsic",
+            "N-type",
+            "P-type",
+            "Compound"
+        ]
+    },
+    {
+        "q": "What is doping in semiconductors?",
+        "type": "mcq",
+        "o": [
+            "Adding impurities to change conductivity",
+            "Purifying",
+            "Melting",
+            "Cooling"
+        ]
+    },
+    {
+        "q": "Silicon is the most common semiconductor ______.",
+        "type": "fill_blank",
+        "answers": [
+            "material"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the semiconductor with its use:",
+        "type": "match",
+        "left": [
+            "Silicon",
+            "GaAs",
+            "GaN",
+            "SiC"
+        ],
+        "right": [
+            "Chips",
+            "LEDs",
+            "Power devices",
+            "High temperature"
+        ]
+    },
+    {
+        "q": "Semiconductors enable modern electronics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is superconductor?",
+        "type": "mcq",
+        "o": [
+            "Material with zero electrical resistance below critical temperature",
+            "Normal conductor",
+            "Insulator",
+            "Semiconductor"
+        ]
+    },
+    {
+        "q": "Rearrange superconductor properties:",
+        "type": "rearrange",
+        "words": [
+            "Zero resistance",
+            "Critical temperature",
+            "Meissner effect",
+            "Persistent current"
+        ]
+    },
+    {
+        "q": "What is critical temperature?",
+        "type": "mcq",
+        "o": [
+            "Temperature below which superconductivity occurs",
+            "Melting point",
+            "Boiling point",
+            "Room temperature"
+        ]
+    },
+    {
+        "q": "High-temperature superconductors use ______ cooling.",
+        "type": "fill_blank",
+        "answers": [
+            "liquid nitrogen"
+        ],
+        "other_options": [
+            "water",
+            "air",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the superconductor with its type:",
+        "type": "match",
+        "left": [
+            "Nb-Ti",
+            "YBCO",
+            "MgB2",
+            "Cuprate"
+        ],
+        "right": [
+            "Low temp",
+            "High temp ceramic",
+            "Intermediate",
+            "Copper oxide"
+        ]
+    },
+    {
+        "q": "Superconductors are used in MRI machines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Material that responds to magnetic fields",
+            "Non-magnetic",
+            "Only iron",
+            "No response"
+        ]
+    },
+    {
+        "q": "Rearrange magnetic behavior types:",
+        "type": "rearrange",
+        "words": [
+            "Diamagnetic",
+            "Paramagnetic",
+            "Ferromagnetic",
+            "Antiferromagnetic"
+        ]
+    },
+    {
+        "q": "What is ferromagnetism?",
+        "type": "mcq",
+        "o": [
+            "Strong magnetic behavior with domains",
+            "Weak magnetism",
+            "No magnetism",
+            "Opposite magnetism"
+        ]
+    },
+    {
+        "q": "Hard magnets are used for permanent ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magnets"
+        ],
+        "other_options": [
+            "wires",
+            "sheets",
+            "pipes"
+        ]
+    },
+    {
+        "q": "Match the magnetic material with its use:",
+        "type": "match",
+        "left": [
+            "Iron",
+            "Neodymium",
+            "Ferrite",
+            "Alnico"
+        ],
+        "right": [
+            "Soft magnet",
+            "Strong permanent",
+            "High frequency",
+            "Temperature stable"
+        ]
+    },
+    {
+        "q": "Curie temperature is where ferromagnetism disappears.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is optical material?",
+        "type": "mcq",
+        "o": [
+            "Material that interacts with light",
+            "Opaque only",
+            "No light interaction",
+            "Dark material"
+        ]
+    },
+    {
+        "q": "Rearrange optical properties:",
+        "type": "rearrange",
+        "words": [
+            "Transparency",
+            "Reflection",
+            "Refraction",
+            "Absorption"
+        ]
+    },
+    {
+        "q": "What is refractive index?",
+        "type": "mcq",
+        "o": [
+            "Ratio of light speed in vacuum to material",
+            "Light color",
+            "Light weight",
+            "Light size"
+        ]
+    },
+    {
+        "q": "Optical fibers use total internal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reflection"
+        ],
+        "other_options": [
+            "absorption",
+            "transmission",
+            "scattering"
+        ]
+    },
+    {
+        "q": "Match the optical material with its use:",
+        "type": "match",
+        "left": [
+            "Silica glass",
+            "Sapphire",
+            "Germanium",
+            "ZnSe"
+        ],
+        "right": [
+            "Fiber optics",
+            "Watch crystal",
+            "IR optics",
+            "CO2 laser window"
+        ]
+    },
+    {
+        "q": "LEDs use semiconductor optical materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is smart material?",
+        "type": "mcq",
+        "o": [
+            "Material that responds to external stimuli",
+            "Static material",
+            "No response",
+            "Passive material"
+        ]
+    },
+    {
+        "q": "Rearrange smart material types:",
+        "type": "rearrange",
+        "words": [
+            "Shape memory",
+            "Piezoelectric",
+            "Magnetostrictive",
+            "Electrochromic"
+        ]
+    },
+    {
+        "q": "What is shape memory alloy?",
+        "type": "mcq",
+        "o": [
+            "Alloy that returns to original shape when heated",
+            "Fixed shape",
+            "No memory",
+            "Random shape"
+        ]
+    },
+    {
+        "q": "Piezoelectric materials convert stress to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "electricity"
+        ],
+        "other_options": [
+            "heat",
+            "light",
+            "sound"
+        ]
+    },
+    {
+        "q": "Match the smart material with its response:",
+        "type": "match",
+        "left": [
+            "SMA",
+            "Piezoelectric",
+            "Photochromic",
+            "Thermochromic"
+        ],
+        "right": [
+            "Temperature to shape",
+            "Stress to voltage",
+            "Light to color",
+            "Heat to color"
+        ]
+    },
+    {
+        "q": "Nitinol is a common shape memory alloy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is casting?",
+        "type": "mcq",
+        "o": [
+            "Pouring liquid material into mold",
+            "Machining",
+            "Welding",
+            "Bending"
+        ]
+    },
+    {
+        "q": "Rearrange casting process steps:",
+        "type": "rearrange",
+        "words": [
+            "Melt material",
+            "Pour into mold",
+            "Solidify",
+            "Remove part"
+        ]
+    },
+    {
+        "q": "What is die casting?",
+        "type": "mcq",
+        "o": [
+            "Forcing molten metal into metal mold under pressure",
+            "Sand casting",
+            "No pressure",
+            "Slow filling"
+        ]
+    },
+    {
+        "q": "Sand casting uses expendable ______.",
+        "type": "fill_blank",
+        "answers": [
+            "molds"
+        ],
+        "other_options": [
+            "tools",
+            "parts",
+            "machines"
+        ]
+    },
+    {
+        "q": "Match the casting with its characteristic:",
+        "type": "match",
+        "left": [
+            "Sand casting",
+            "Die casting",
+            "Investment",
+            "Continuous"
+        ],
+        "right": [
+            "Low cost mold",
+            "High production",
+            "Complex shapes",
+            "Long products"
+        ]
+    },
+    {
+        "q": "Casting produces near-net-shape parts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is forging?",
+        "type": "mcq",
+        "o": [
+            "Shaping metal by compressive force",
+            "Melting",
+            "Cutting",
+            "Joining"
+        ]
+    },
+    {
+        "q": "Rearrange forging temperatures:",
+        "type": "rearrange",
+        "words": [
+            "Cold",
+            "Warm",
+            "Hot",
+            "Isothermal"
+        ]
+    },
+    {
+        "q": "What is hot forging?",
+        "type": "mcq",
+        "o": [
+            "Forging above recrystallization temperature",
+            "Cold process",
+            "No heating",
+            "Room temperature"
+        ]
+    },
+    {
+        "q": "Forged parts have better ______ than cast parts.",
+        "type": "fill_blank",
+        "answers": [
+            "strength"
+        ],
+        "other_options": [
+            "color",
+            "cost",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the forging with its process:",
+        "type": "match",
+        "left": [
+            "Open die",
+            "Closed die",
+            "Roll forging",
+            "Upset forging"
+        ],
+        "right": [
+            "Simple shapes",
+            "Complex shapes",
+            "Elongated parts",
+            "Increased diameter"
+        ]
+    },
+    {
+        "q": "Forging improves grain structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is rolling?",
+        "type": "mcq",
+        "o": [
+            "Reducing thickness by passing between rollers",
+            "Cutting",
+            "Melting",
+            "Welding"
+        ]
+    },
+    {
+        "q": "Rearrange rolling products:",
+        "type": "rearrange",
+        "words": [
+            "Slab",
+            "Plate",
+            "Sheet",
+            "Foil"
+        ]
+    },
+    {
+        "q": "What is hot rolling?",
+        "type": "mcq",
+        "o": [
+            "Rolling above recrystallization temperature",
+            "Cold process",
+            "No heating",
+            "Room temperature"
+        ]
+    },
+    {
+        "q": "Cold rolling produces better surface ______.",
+        "type": "fill_blank",
+        "answers": [
+            "finish"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the rolling with its product:",
+        "type": "match",
+        "left": [
+            "Flat rolling",
+            "Shape rolling",
+            "Ring rolling",
+            "Thread rolling"
+        ],
+        "right": [
+            "Sheet/plate",
+            "I-beams",
+            "Bearings",
+            "Fasteners"
+        ]
+    },
+    {
+        "q": "Rolling is a high-volume manufacturing process.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is extrusion?",
+        "type": "mcq",
+        "o": [
+            "Forcing material through die to create shape",
+            "Casting",
+            "Machining",
+            "Welding"
+        ]
+    },
+    {
+        "q": "Rearrange extrusion types:",
+        "type": "rearrange",
+        "words": [
+            "Direct",
+            "Indirect",
+            "Hydrostatic",
+            "Impact"
+        ]
+    },
+    {
+        "q": "What products come from extrusion?",
+        "type": "mcq",
+        "o": [
+            "Tubes, bars, and profiles",
+            "Spheres",
+            "Random shapes",
+            "No shapes"
+        ]
+    },
+    {
+        "q": "Aluminum extrusion is used for window ______.",
+        "type": "fill_blank",
+        "answers": [
+            "frames"
+        ],
+        "other_options": [
+            "glass",
+            "paint",
+            "screws"
+        ]
+    },
+    {
+        "q": "Match the extrusion with its characteristic:",
+        "type": "match",
+        "left": [
+            "Hot extrusion",
+            "Cold extrusion",
+            "Direct",
+            "Indirect"
+        ],
+        "right": [
+            "Easier flow",
+            "Better finish",
+            "Ram pushes billet",
+            "Die moves"
+        ]
+    },
+    {
+        "q": "Extrusion produces constant cross-section shapes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is powder metallurgy?",
+        "type": "mcq",
+        "o": [
+            "Making parts from metal powder",
+            "Melting metal",
+            "Casting",
+            "Forging"
+        ]
+    },
+    {
+        "q": "Rearrange powder metallurgy steps:",
+        "type": "rearrange",
+        "words": [
+            "Powder production",
+            "Blending",
+            "Compaction",
+            "Sintering"
+        ]
+    },
+    {
+        "q": "What is sintering?",
+        "type": "mcq",
+        "o": [
+            "Heating compacted powder below melting point",
+            "Melting completely",
+            "Cooling",
+            "No heating"
+        ]
+    },
+    {
+        "q": "PM produces near-net-shape parts with minimal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "waste"
+        ],
+        "other_options": [
+            "strength",
+            "quality",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the PM product with its application:",
+        "type": "match",
+        "left": [
+            "Gears",
+            "Filters",
+            "Bearings",
+            "Cutting tools"
+        ],
+        "right": [
+            "Automotive",
+            "Liquid filtration",
+            "Self-lubricating",
+            "Cemented carbide"
+        ]
+    },
+    {
+        "q": "Powder metallurgy is suitable for complex shapes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is additive manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Building parts layer by layer from 3D model",
+            "Removing material",
+            "Casting",
+            "Forging"
+        ]
+    },
+    {
+        "q": "Rearrange AM technologies:",
+        "type": "rearrange",
+        "words": [
+            "SLA",
+            "SLS",
+            "FDM",
+            "DMLS"
+        ]
+    },
+    {
+        "q": "What is selective laser melting?",
+        "type": "mcq",
+        "o": [
+            "Melting metal powder with laser to build parts",
+            "Cutting with laser",
+            "No melting",
+            "Welding only"
+        ]
+    },
+    {
+        "q": "AM enables rapid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "prototyping"
+        ],
+        "other_options": [
+            "destruction",
+            "rejection",
+            "failure"
+        ]
+    },
+    {
+        "q": "Match the AM process with its material:",
+        "type": "match",
+        "left": [
+            "SLA",
+            "FDM",
+            "SLS",
+            "DMLS"
+        ],
+        "right": [
+            "Photopolymer",
+            "Thermoplastic filament",
+            "Powder polymer",
+            "Metal powder"
+        ]
+    },
+    {
+        "q": "3D printing allows customized production.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is welding?",
+        "type": "mcq",
+        "o": [
+            "Joining materials by fusion",
+            "Cutting",
+            "Bending",
+            "Separating"
+        ]
+    },
+    {
+        "q": "Rearrange welding processes:",
+        "type": "rearrange",
+        "words": [
+            "Arc welding",
+            "Gas welding",
+            "Resistance welding",
+            "Laser welding"
+        ]
+    },
+    {
+        "q": "What is MIG welding?",
+        "type": "mcq",
+        "o": [
+            "Metal Inert Gas welding with consumable wire",
+            "No gas",
+            "No wire",
+            "Manual only"
+        ]
+    },
+    {
+        "q": "TIG welding uses non-consumable ______ electrode.",
+        "type": "fill_blank",
+        "answers": [
+            "tungsten"
+        ],
+        "other_options": [
+            "copper",
+            "steel",
+            "aluminum"
+        ]
+    },
+    {
+        "q": "Match the welding with its characteristic:",
+        "type": "match",
+        "left": [
+            "MIG",
+            "TIG",
+            "Spot",
+            "Friction"
+        ],
+        "right": [
+            "High speed",
+            "High quality",
+            "Sheet metal",
+            "Solid state"
+        ]
+    },
+    {
+        "q": "Welding creates metallurgical bond.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is brazing?",
+        "type": "mcq",
+        "o": [
+            "Joining with filler metal above 450C but below base metal melting",
+            "Welding",
+            "Soldering",
+            "Gluing"
+        ]
+    },
+    {
+        "q": "Rearrange joining temperatures:",
+        "type": "rearrange",
+        "words": [
+            "Adhesive bonding",
+            "Soldering",
+            "Brazing",
+            "Welding"
+        ]
+    },
+    {
+        "q": "What is soldering?",
+        "type": "mcq",
+        "o": [
+            "Joining with filler metal below 450C",
+            "Welding",
+            "Brazing",
+            "No filler"
+        ]
+    },
+    {
+        "q": "Brazing provides stronger joints than ______.",
+        "type": "fill_blank",
+        "answers": [
+            "soldering"
+        ],
+        "other_options": [
+            "welding",
+            "forging",
+            "casting"
+        ]
+    },
+    {
+        "q": "Match the joining with its application:",
+        "type": "match",
+        "left": [
+            "Welding",
+            "Brazing",
+            "Soldering",
+            "Adhesive"
+        ],
+        "right": [
+            "Structural steel",
+            "Carbide tools",
+            "Electronics",
+            "Composites"
+        ]
+    },
+    {
+        "q": "Brazing can join dissimilar metals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is machining?",
+        "type": "mcq",
+        "o": [
+            "Removing material to create shape",
+            "Adding material",
+            "No removal",
+            "Melting"
+        ]
+    },
+    {
+        "q": "Rearrange machining operations:",
+        "type": "rearrange",
+        "words": [
+            "Turning",
+            "Milling",
+            "Drilling",
+            "Grinding"
+        ]
+    },
+    {
+        "q": "What is CNC machining?",
+        "type": "mcq",
+        "o": [
+            "Computer Numerical Control automated machining",
+            "Manual only",
+            "No control",
+            "Random cutting"
+        ]
+    },
+    {
+        "q": "Turning creates ______ parts on lathe.",
+        "type": "fill_blank",
+        "answers": [
+            "cylindrical"
+        ],
+        "other_options": [
+            "flat",
+            "square",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the machining with its tool motion:",
+        "type": "match",
+        "left": [
+            "Turning",
+            "Milling",
+            "Drilling",
+            "Grinding"
+        ],
+        "right": [
+            "Workpiece rotates",
+            "Tool rotates",
+            "Hole making",
+            "Abrasive finishing"
+        ]
+    },
+    {
+        "q": "Machining provides excellent dimensional accuracy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is non-destructive testing?",
+        "type": "mcq",
+        "o": [
+            "Testing without damaging the part",
+            "Breaking part",
+            "Destructive test",
+            "No testing"
+        ]
+    },
+    {
+        "q": "Rearrange NDT methods:",
+        "type": "rearrange",
+        "words": [
+            "Visual",
+            "Ultrasonic",
+            "Radiographic",
+            "Magnetic particle"
+        ]
+    },
+    {
+        "q": "What is ultrasonic testing?",
+        "type": "mcq",
+        "o": [
+            "Using high-frequency sound to detect flaws",
+            "X-ray",
+            "Visual only",
+            "No sound"
+        ]
+    },
+    {
+        "q": "Radiographic testing uses X-rays or gamma ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rays"
+        ],
+        "other_options": [
+            "colors",
+            "sounds",
+            "weights"
+        ]
+    },
+    {
+        "q": "Match the NDT method with its detection:",
+        "type": "match",
+        "left": [
+            "Visual",
+            "Dye penetrant",
+            "Magnetic particle",
+            "Eddy current"
+        ],
+        "right": [
+            "Surface defects",
+            "Surface cracks",
+            "Ferromagnetic cracks",
+            "Conductivity changes"
+        ]
+    },
+    {
+        "q": "NDT is essential for safety-critical components.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is microstructure?",
+        "type": "mcq",
+        "o": [
+            "Structure visible under microscope",
+            "Bulk structure",
+            "No structure",
+            "Random arrangement"
+        ]
+    },
+    {
+        "q": "Rearrange microscopy magnification:",
+        "type": "rearrange",
+        "words": [
+            "Optical",
+            "SEM",
+            "TEM",
+            "AFM"
+        ]
+    },
+    {
+        "q": "What is metallography?",
+        "type": "mcq",
+        "o": [
+            "Study of metal microstructure",
+            "Metal weight",
+            "Metal color",
+            "Metal cost"
+        ]
+    },
+    {
+        "q": "SEM uses electrons to create ______.",
+        "type": "fill_blank",
+        "answers": [
+            "images"
+        ],
+        "other_options": [
+            "sounds",
+            "smells",
+            "tastes"
+        ]
+    },
+    {
+        "q": "Match the microscopy with its resolution:",
+        "type": "match",
+        "left": [
+            "Optical",
+            "SEM",
+            "TEM",
+            "AFM"
+        ],
+        "right": [
+            "Micrometer",
+            "Nanometer surface",
+            "Atomic",
+            "Nanometer height"
+        ]
+    },
+    {
+        "q": "Microstructure determines material properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is X-ray diffraction?",
+        "type": "mcq",
+        "o": [
+            "Technique to determine crystal structure",
+            "X-ray imaging",
+            "Medical scan",
+            "No diffraction"
+        ]
+    },
+    {
+        "q": "Rearrange XRD applications:",
+        "type": "rearrange",
+        "words": [
+            "Phase identification",
+            "Crystal structure",
+            "Strain measurement",
+            "Texture analysis"
+        ]
+    },
+    {
+        "q": "What does Bragg's law describe?",
+        "type": "mcq",
+        "o": [
+            "Condition for X-ray diffraction",
+            "Refraction",
+            "Reflection only",
+            "No law"
+        ]
+    },
+    {
+        "q": "XRD provides information about crystal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "planes"
+        ],
+        "other_options": [
+            "colors",
+            "weights",
+            "costs"
+        ]
+    },
+    {
+        "q": "Match the XRD feature with its information:",
+        "type": "match",
+        "left": [
+            "Peak position",
+            "Peak intensity",
+            "Peak width",
+            "Peak shift"
+        ],
+        "right": [
+            "Crystal structure",
+            "Phase amount",
+            "Crystallite size",
+            "Strain/stress"
+        ]
+    },
+    {
+        "q": "XRD is non-destructive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is spectroscopy?",
+        "type": "mcq",
+        "o": [
+            "Study of interaction between matter and radiation",
+            "Only visual",
+            "No interaction",
+            "Random measurement"
+        ]
+    },
+    {
+        "q": "Rearrange spectroscopy types:",
+        "type": "rearrange",
+        "words": [
+            "UV-Vis",
+            "IR",
+            "Raman",
+            "NMR"
+        ]
+    },
+    {
+        "q": "What is energy dispersive spectroscopy?",
+        "type": "mcq",
+        "o": [
+            "Elemental analysis using X-rays",
+            "IR analysis",
+            "UV analysis",
+            "No analysis"
+        ]
+    },
+    {
+        "q": "XPS provides surface ______ information.",
+        "type": "fill_blank",
+        "answers": [
+            "chemistry"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the spectroscopy with its detection:",
+        "type": "match",
+        "left": [
+            "EDS",
+            "XPS",
+            "AES",
+            "SIMS"
+        ],
+        "right": [
+            "Bulk composition",
+            "Surface binding",
+            "Surface composition",
+            "Trace elements"
+        ]
+    },
+    {
+        "q": "Spectroscopy identifies material composition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thermal analysis?",
+        "type": "mcq",
+        "o": [
+            "Measuring property changes with temperature",
+            "No heating",
+            "Constant temperature",
+            "Random measurement"
+        ]
+    },
+    {
+        "q": "Rearrange thermal analysis techniques:",
+        "type": "rearrange",
+        "words": [
+            "DSC",
+            "TGA",
+            "DTA",
+            "TMA"
+        ]
+    },
+    {
+        "q": "What is DSC?",
+        "type": "mcq",
+        "o": [
+            "Differential Scanning Calorimetry - measures heat flow",
+            "Direct Scanning",
+            "Digital Scanning",
+            "No scanning"
+        ]
+    },
+    {
+        "q": "TGA measures mass change with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "color",
+            "pressure",
+            "time only"
+        ]
+    },
+    {
+        "q": "Match the thermal analysis with its measurement:",
+        "type": "match",
+        "left": [
+            "DSC",
+            "TGA",
+            "DTA",
+            "TMA"
+        ],
+        "right": [
+            "Heat flow",
+            "Mass change",
+            "Temperature difference",
+            "Dimension change"
+        ]
+    },
+    {
+        "q": "DSC detects phase transitions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is electrochemistry?",
+        "type": "mcq",
+        "o": [
+            "Study of chemical reactions involving electricity",
+            "Only chemistry",
+            "Only electricity",
+            "No reaction"
+        ]
+    },
+    {
+        "q": "Rearrange electrochemical processes:",
+        "type": "rearrange",
+        "words": [
+            "Oxidation",
+            "Reduction",
+            "Electrolysis",
+            "Electroplating"
+        ]
+    },
+    {
+        "q": "What is corrosion potential?",
+        "type": "mcq",
+        "o": [
+            "Voltage at which corrosion occurs",
+            "No voltage",
+            "Maximum voltage",
+            "Random value"
+        ]
+    },
+    {
+        "q": "Potentiostat controls electrode ______.",
+        "type": "fill_blank",
+        "answers": [
+            "potential"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the electrochemical term with its meaning:",
+        "type": "match",
+        "left": [
+            "Anode",
+            "Cathode",
+            "Electrolyte",
+            "Reference electrode"
+        ],
+        "right": [
+            "Oxidation site",
+            "Reduction site",
+            "Ionic conductor",
+            "Stable potential"
+        ]
+    },
+    {
+        "q": "Electrochemistry is key to battery technology.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is battery material?",
+        "type": "mcq",
+        "o": [
+            "Materials for electrochemical energy storage",
+            "Only metal",
+            "Only plastic",
+            "No storage"
+        ]
+    },
+    {
+        "q": "Rearrange battery components:",
+        "type": "rearrange",
+        "words": [
+            "Anode",
+            "Cathode",
+            "Electrolyte",
+            "Separator"
+        ]
+    },
+    {
+        "q": "What is lithium-ion battery cathode material?",
+        "type": "mcq",
+        "o": [
+            "Lithium metal oxide like LiCoO2",
+            "Pure lithium",
+            "Carbon only",
+            "Iron only"
+        ]
+    },
+    {
+        "q": "Graphite is common anode material in Li-ion ______.",
+        "type": "fill_blank",
+        "answers": [
+            "batteries"
+        ],
+        "other_options": [
+            "wires",
+            "cables",
+            "pipes"
+        ]
+    },
+    {
+        "q": "Match the battery chemistry with its application:",
+        "type": "match",
+        "left": [
+            "Lead-acid",
+            "NiMH",
+            "Li-ion",
+            "Solid state"
+        ],
+        "right": [
+            "Automotive starter",
+            "Hybrid vehicles",
+            "Smartphones",
+            "Future EVs"
+        ]
+    },
+    {
+        "q": "Battery materials research is advancing rapidly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is fuel cell material?",
+        "type": "mcq",
+        "o": [
+            "Materials for converting fuel to electricity",
+            "Burning fuel",
+            "No conversion",
+            "Random material"
+        ]
+    },
+    {
+        "q": "Rearrange fuel cell types:",
+        "type": "rearrange",
+        "words": [
+            "PEM",
+            "SOFC",
+            "AFC",
+            "MCFC"
+        ]
+    },
+    {
+        "q": "What is proton exchange membrane?",
+        "type": "mcq",
+        "o": [
+            "Polymer membrane conducting protons",
+            "Metal membrane",
+            "Ceramic only",
+            "No membrane"
+        ]
+    },
+    {
+        "q": "Platinum is used as ______ in PEM fuel cells.",
+        "type": "fill_blank",
+        "answers": [
+            "catalyst"
+        ],
+        "other_options": [
+            "insulator",
+            "separator",
+            "case"
+        ]
+    },
+    {
+        "q": "Match the fuel cell with its electrolyte:",
+        "type": "match",
+        "left": [
+            "PEM",
+            "SOFC",
+            "AFC",
+            "PAFC"
+        ],
+        "right": [
+            "Polymer",
+            "Ceramic",
+            "Potassium hydroxide",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "Fuel cells produce electricity with low emissions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thermoelectric material?",
+        "type": "mcq",
+        "o": [
+            "Material converting heat to electricity or vice versa",
+            "Only heat",
+            "Only electricity",
+            "No conversion"
+        ]
+    },
+    {
+        "q": "Rearrange thermoelectric effects:",
+        "type": "rearrange",
+        "words": [
+            "Seebeck",
+            "Peltier",
+            "Thomson",
+            "Joule"
+        ]
+    },
+    {
+        "q": "What is Seebeck effect?",
+        "type": "mcq",
+        "o": [
+            "Temperature difference creates voltage",
+            "Voltage creates temperature",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "ZT is thermoelectric figure of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "merit"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the thermoelectric with its use:",
+        "type": "match",
+        "left": [
+            "Bi2Te3",
+            "PbTe",
+            "SiGe",
+            "Skutterudite"
+        ],
+        "right": [
+            "Near room temp",
+            "Medium temp",
+            "High temp",
+            "Moderate temp"
+        ]
+    },
+    {
+        "q": "Thermoelectrics enable waste heat recovery.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is photovoltaic material?",
+        "type": "mcq",
+        "o": [
+            "Material converting light to electricity",
+            "Only heat",
+            "No conversion",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange solar cell generations:",
+        "type": "rearrange",
+        "words": [
+            "Silicon wafer",
+            "Thin film",
+            "Organic/perovskite",
+            "Tandem"
+        ]
+    },
+    {
+        "q": "What is perovskite solar cell?",
+        "type": "mcq",
+        "o": [
+            "Solar cell using perovskite crystal structure",
+            "Silicon only",
+            "Metal only",
+            "No crystal"
+        ]
+    },
+    {
+        "q": "Crystalline silicon dominates solar ______.",
+        "type": "fill_blank",
+        "answers": [
+            "market"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the PV material with its efficiency:",
+        "type": "match",
+        "left": [
+            "Crystalline Si",
+            "CdTe",
+            "CIGS",
+            "Perovskite"
+        ],
+        "right": [
+            "~26%",
+            "~22%",
+            "~23%",
+            "~25% and rising"
+        ]
+    },
+    {
+        "q": "Solar materials are critical for renewable energy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is high-entropy alloy?",
+        "type": "mcq",
+        "o": [
+            "Alloy with multiple principal elements in near-equal proportions",
+            "Single element",
+            "Two elements",
+            "Binary alloy"
+        ]
+    },
+    {
+        "q": "Rearrange HEA characteristics:",
+        "type": "rearrange",
+        "words": [
+            "High entropy",
+            "Sluggish diffusion",
+            "Cocktail effect",
+            "Severe lattice distortion"
+        ]
+    },
+    {
+        "q": "What makes HEAs special?",
+        "type": "mcq",
+        "o": [
+            "Unique combination of properties",
+            "Only strength",
+            "Only softness",
+            "No advantage"
+        ]
+    },
+    {
+        "q": "HEAs typically have 5 or more ______ elements.",
+        "type": "fill_blank",
+        "answers": [
+            "principal"
+        ],
+        "other_options": [
+            "trace",
+            "minor",
+            "zero"
+        ]
+    },
+    {
+        "q": "Match the HEA property with its application:",
+        "type": "match",
+        "left": [
+            "High strength",
+            "Corrosion resistance",
+            "High temperature",
+            "Cryogenic"
+        ],
+        "right": [
+            "Structural",
+            "Marine",
+            "Turbines",
+            "Space"
+        ]
+    },
+    {
+        "q": "High-entropy alloys are an emerging material class.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tribology?",
+        "type": "mcq",
+        "o": [
+            "Study of friction, wear, and lubrication",
+            "Heat study",
+            "Light study",
+            "Sound study"
+        ]
+    },
+    {
+        "q": "Rearrange tribological concepts:",
+        "type": "rearrange",
+        "words": [
+            "Friction",
+            "Wear",
+            "Lubrication",
+            "Surface engineering"
+        ]
+    },
+    {
+        "q": "What is coefficient of friction?",
+        "type": "mcq",
+        "o": [
+            "Ratio of friction force to normal force",
+            "Absolute friction",
+            "No friction",
+            "Random value"
+        ]
+    },
+    {
+        "q": "Lubricants reduce ______ between surfaces.",
+        "type": "fill_blank",
+        "answers": [
+            "friction"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the wear type with its mechanism:",
+        "type": "match",
+        "left": [
+            "Adhesive",
+            "Abrasive",
+            "Erosive",
+            "Corrosive"
+        ],
+        "right": [
+            "Material transfer",
+            "Hard particles",
+            "Fluid impact",
+            "Chemical attack"
+        ]
+    },
+    {
+        "q": "Tribology is important for machine efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is adhesive wear?",
+        "type": "mcq",
+        "o": [
+            "Material transfer between contacting surfaces",
+            "Particle removal",
+            "Chemical attack",
+            "No wear"
+        ]
+    },
+    {
+        "q": "Rearrange wear severity:",
+        "type": "rearrange",
+        "words": [
+            "Mild",
+            "Moderate",
+            "Severe",
+            "Catastrophic"
+        ]
+    },
+    {
+        "q": "What causes abrasive wear?",
+        "type": "mcq",
+        "o": [
+            "Hard particles scratching surface",
+            "Material transfer",
+            "Chemical reaction",
+            "No cause"
+        ]
+    },
+    {
+        "q": "Wear debris indicates ______ type.",
+        "type": "fill_blank",
+        "answers": [
+            "wear"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the wear with its prevention:",
+        "type": "match",
+        "left": [
+            "Adhesive",
+            "Abrasive",
+            "Fatigue",
+            "Fretting"
+        ],
+        "right": [
+            "Lubrication",
+            "Hard coating",
+            "Surface treatment",
+            "Reduce vibration"
+        ]
+    },
+    {
+        "q": "Wear-resistant materials extend component life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thin film?",
+        "type": "mcq",
+        "o": [
+            "Layer of material nanometers to micrometers thick",
+            "Bulk material",
+            "No layer",
+            "Random thickness"
+        ]
+    },
+    {
+        "q": "Rearrange thin film deposition methods:",
+        "type": "rearrange",
+        "words": [
+            "PVD",
+            "CVD",
+            "ALD",
+            "Electroplating"
+        ]
+    },
+    {
+        "q": "What is PVD?",
+        "type": "mcq",
+        "o": [
+            "Physical Vapor Deposition",
+            "Powder Vapor Deposition",
+            "Plasma Vacuum Deposition",
+            "Pressure Vapor Deposition"
+        ]
+    },
+    {
+        "q": "CVD uses chemical reactions to deposit ______.",
+        "type": "fill_blank",
+        "answers": [
+            "films"
+        ],
+        "other_options": [
+            "bulk",
+            "nothing",
+            "liquid"
+        ]
+    },
+    {
+        "q": "Match the deposition with its characteristic:",
+        "type": "match",
+        "left": [
+            "Sputtering",
+            "Evaporation",
+            "PECVD",
+            "ALD"
+        ],
+        "right": [
+            "Target bombardment",
+            "Thermal",
+            "Plasma enhanced",
+            "Atomic layer"
+        ]
+    },
+    {
+        "q": "Thin films are used in semiconductors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is coating failure?",
+        "type": "mcq",
+        "o": [
+            "Loss of coating function or adhesion",
+            "Perfect coating",
+            "No coating",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange coating failure modes:",
+        "type": "rearrange",
+        "words": [
+            "Delamination",
+            "Cracking",
+            "Blistering",
+            "Spallation"
+        ]
+    },
+    {
+        "q": "What causes coating delamination?",
+        "type": "mcq",
+        "o": [
+            "Poor adhesion between coating and substrate",
+            "Good adhesion",
+            "No stress",
+            "Random"
+        ]
+    },
+    {
+        "q": "Residual stress causes coating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "failure"
+        ],
+        "other_options": [
+            "success",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the coating issue with its cause:",
+        "type": "match",
+        "left": [
+            "Delamination",
+            "Cracking",
+            "Pinholes",
+            "Oxidation"
+        ],
+        "right": [
+            "Poor adhesion",
+            "Stress",
+            "Porosity",
+            "High temperature"
+        ]
+    },
+    {
+        "q": "Proper surface preparation improves coating adhesion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is failure analysis?",
+        "type": "mcq",
+        "o": [
+            "Determining cause of material or component failure",
+            "Success analysis",
+            "No analysis",
+            "Random study"
+        ]
+    },
+    {
+        "q": "Rearrange failure analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Collection",
+            "Examination",
+            "Testing",
+            "Conclusion"
+        ]
+    },
+    {
+        "q": "What is fracture surface analysis?",
+        "type": "mcq",
+        "o": [
+            "Examining broken surfaces for failure clues",
+            "Ignoring surface",
+            "No examination",
+            "Random"
+        ]
+    },
+    {
+        "q": "Beach marks indicate ______ fracture.",
+        "type": "fill_blank",
+        "answers": [
+            "fatigue"
+        ],
+        "other_options": [
+            "ductile",
+            "brittle",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the failure with its indicator:",
+        "type": "match",
+        "left": [
+            "Fatigue",
+            "Overload",
+            "Corrosion",
+            "Creep"
+        ],
+        "right": [
+            "Striations",
+            "Necking",
+            "Pitting",
+            "Voids"
+        ]
+    },
+    {
+        "q": "Root cause analysis prevents future failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is metallurgical failure?",
+        "type": "mcq",
+        "o": [
+            "Failure due to material or processing issues",
+            "Design failure",
+            "No failure",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange failure causes:",
+        "type": "rearrange",
+        "words": [
+            "Design",
+            "Material",
+            "Processing",
+            "Service"
+        ]
+    },
+    {
+        "q": "What is hydrogen embrittlement?",
+        "type": "mcq",
+        "o": [
+            "Loss of ductility due to hydrogen absorption",
+            "Increased ductility",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "Sensitization makes stainless steel prone to ______ corrosion.",
+        "type": "fill_blank",
+        "answers": [
+            "intergranular"
+        ],
+        "other_options": [
+            "uniform",
+            "galvanic",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the metallurgical issue with its effect:",
+        "type": "match",
+        "left": [
+            "Hydrogen",
+            "Sensitization",
+            "Segregation",
+            "Inclusion"
+        ],
+        "right": [
+            "Embrittlement",
+            "Corrosion",
+            "Weak regions",
+            "Stress concentration"
+        ]
+    },
+    {
+        "q": "Proper heat treatment prevents many metallurgical failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ASTM?",
+        "type": "mcq",
+        "o": [
+            "American Society for Testing and Materials - standards organization",
+            "Advanced System Testing",
+            "Automated Standard Testing",
+            "No standard"
+        ]
+    },
+    {
+        "q": "Rearrange materials standards organizations:",
+        "type": "rearrange",
+        "words": [
+            "ASTM",
+            "ISO",
+            "JIS",
+            "DIN"
+        ]
+    },
+    {
+        "q": "What do material standards specify?",
+        "type": "mcq",
+        "o": [
+            "Material properties, testing, and quality requirements",
+            "Only names",
+            "Only colors",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "ASTM A36 is a standard for structural ______.",
+        "type": "fill_blank",
+        "answers": [
+            "steel"
+        ],
+        "other_options": [
+            "aluminum",
+            "copper",
+            "plastic"
+        ]
+    },
+    {
+        "q": "Match the standard with its focus:",
+        "type": "match",
+        "left": [
+            "ASTM A36",
+            "ASTM E8",
+            "ASTM B209",
+            "ASTM D638"
+        ],
+        "right": [
+            "Carbon steel",
+            "Tensile testing",
+            "Aluminum sheet",
+            "Plastic testing"
+        ]
+    },
+    {
+        "q": "Standards ensure material quality and consistency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is sustainable materials?",
+        "type": "mcq",
+        "o": [
+            "Materials with low environmental impact",
+            "Harmful materials",
+            "Unlimited materials",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange sustainability concepts:",
+        "type": "rearrange",
+        "words": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Recover"
+        ]
+    },
+    {
+        "q": "What is life cycle assessment?",
+        "type": "mcq",
+        "o": [
+            "Evaluating environmental impact from cradle to grave",
+            "Only production",
+            "Only disposal",
+            "No assessment"
+        ]
+    },
+    {
+        "q": "Recycling reduces raw material ______.",
+        "type": "fill_blank",
+        "answers": [
+            "consumption"
+        ],
+        "other_options": [
+            "production",
+            "testing",
+            "naming"
+        ]
+    },
+    {
+        "q": "Match the sustainable approach with its benefit:",
+        "type": "match",
+        "left": [
+            "Recycling",
+            "Bio-based",
+            "Light-weighting",
+            "Durability"
+        ],
+        "right": [
+            "Resource saving",
+            "Renewable source",
+            "Fuel efficiency",
+            "Longer life"
+        ]
+    },
+    {
+        "q": "Sustainable materials reduce carbon footprint.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is materials informatics?",
+        "type": "mcq",
+        "o": [
+            "Using data science for materials discovery",
+            "Traditional experimentation only",
+            "No computers",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange computational materials stages:",
+        "type": "rearrange",
+        "words": [
+            "Data collection",
+            "Machine learning",
+            "Prediction",
+            "Validation"
+        ]
+    },
+    {
+        "q": "What is materials genome initiative?",
+        "type": "mcq",
+        "o": [
+            "Program to accelerate materials discovery",
+            "Biology project",
+            "No initiative",
+            "Random"
+        ]
+    },
+    {
+        "q": "Machine learning accelerates materials ______.",
+        "type": "fill_blank",
+        "answers": [
+            "discovery"
+        ],
+        "other_options": [
+            "destruction",
+            "testing",
+            "naming"
+        ]
+    },
+    {
+        "q": "Match the computational method with its scale:",
+        "type": "match",
+        "left": [
+            "DFT",
+            "Molecular dynamics",
+            "Phase field",
+            "FEA"
+        ],
+        "right": [
+            "Electronic",
+            "Atomic",
+            "Microstructure",
+            "Component"
+        ]
+    },
+    {
+        "q": "AI is transforming materials research.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is electronic packaging material?",
+        "type": "mcq",
+        "o": [
+            "Materials for protecting and connecting electronic devices",
+            "Only plastic",
+            "Only metal",
+            "No packaging"
+        ]
+    },
+    {
+        "q": "Rearrange packaging requirements:",
+        "type": "rearrange",
+        "words": [
+            "Protection",
+            "Heat dissipation",
+            "Electrical connection",
+            "Reliability"
+        ]
+    },
+    {
+        "q": "What is thermal interface material?",
+        "type": "mcq",
+        "o": [
+            "Material for heat transfer between components",
+            "Insulator",
+            "No transfer",
+            "Random"
+        ]
+    },
+    {
+        "q": "Lead-free solder uses tin-silver-copper ______.",
+        "type": "fill_blank",
+        "answers": [
+            "alloy"
+        ],
+        "other_options": [
+            "compound",
+            "element",
+            "mixture"
+        ]
+    },
+    {
+        "q": "Match the package material with its function:",
+        "type": "match",
+        "left": [
+            "Solder",
+            "Underfill",
+            "Thermal paste",
+            "Mold compound"
+        ],
+        "right": [
+            "Connection",
+            "Stress relief",
+            "Heat transfer",
+            "Encapsulation"
+        ]
+    },
+    {
+        "q": "Electronic materials must be RoHS compliant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is nickel-based superalloy?",
+        "type": "mcq",
+        "o": [
+            "High-temperature alloy based on nickel",
+            "Room temperature alloy",
+            "Pure nickel",
+            "Low temperature"
+        ]
+    },
+    {
+        "q": "Rearrange superalloy strengthening mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Solid solution",
+            "Precipitation",
+            "Grain boundary",
+            "Carbides"
+        ]
+    },
+    {
+        "q": "What is gamma prime phase?",
+        "type": "mcq",
+        "o": [
+            "Ordered precipitate providing high-temperature strength",
+            "Matrix phase",
+            "No phase",
+            "Random"
+        ]
+    },
+    {
+        "q": "Turbine blades use single crystal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "superalloys"
+        ],
+        "other_options": [
+            "steel",
+            "aluminum",
+            "plastic"
+        ]
+    },
+    {
+        "q": "Match the superalloy with its application:",
+        "type": "match",
+        "left": [
+            "Inconel 718",
+            "Waspaloy",
+            "René 80",
+            "CMSX-4"
+        ],
+        "right": [
+            "General high temp",
+            "Turbine disk",
+            "Blade coating",
+            "Single crystal blade"
+        ]
+    },
+    {
+        "q": "Superalloys operate at temperatures above 1000C.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is refractory metal?",
+        "type": "mcq",
+        "o": [
+            "Metal with very high melting point",
+            "Low melting metal",
+            "Room temperature metal",
+            "No melting"
+        ]
+    },
+    {
+        "q": "Rearrange refractory metals by melting point:",
+        "type": "rearrange",
+        "words": [
+            "Niobium",
+            "Molybdenum",
+            "Tantalum",
+            "Tungsten"
+        ]
+    },
+    {
+        "q": "Which metal has highest melting point?",
+        "type": "mcq",
+        "o": [
+            "Tungsten at 3422C",
+            "Iron",
+            "Aluminum",
+            "Copper"
+        ]
+    },
+    {
+        "q": "Refractory metals resist high temperature ______.",
+        "type": "fill_blank",
+        "answers": [
+            "oxidation"
+        ],
+        "other_options": [
+            "cooling",
+            "freezing",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the refractory metal with its use:",
+        "type": "match",
+        "left": [
+            "Tungsten",
+            "Molybdenum",
+            "Tantalum",
+            "Niobium"
+        ],
+        "right": [
+            "Light bulb filament",
+            "Furnace elements",
+            "Capacitors",
+            "Superconducting wire"
+        ]
+    },
+    {
+        "q": "Refractory metals are dense and expensive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is precious metal?",
+        "type": "mcq",
+        "o": [
+            "Rare metal with high economic value",
+            "Common metal",
+            "Cheap metal",
+            "Abundant metal"
+        ]
+    },
+    {
+        "q": "Rearrange precious metals:",
+        "type": "rearrange",
+        "words": [
+            "Gold",
+            "Silver",
+            "Platinum",
+            "Palladium"
+        ]
+    },
+    {
+        "q": "What makes gold precious?",
+        "type": "mcq",
+        "o": [
+            "Rarity, corrosion resistance, and beauty",
+            "Common",
+            "Rusts easily",
+            "Ugly"
+        ]
+    },
+    {
+        "q": "Platinum is used in catalytic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "converters"
+        ],
+        "other_options": [
+            "insulators",
+            "resistors",
+            "capacitors"
+        ]
+    },
+    {
+        "q": "Match the precious metal with its property:",
+        "type": "match",
+        "left": [
+            "Gold",
+            "Silver",
+            "Platinum",
+            "Palladium"
+        ],
+        "right": [
+            "Inert",
+            "Highest conductivity",
+            "Catalytic",
+            "Hydrogen absorption"
+        ]
+    },
+    {
+        "q": "Precious metals are used in electronics and jewelry.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is copper alloy?",
+        "type": "mcq",
+        "o": [
+            "Copper with added elements for properties",
+            "Pure copper",
+            "Iron alloy",
+            "Aluminum alloy"
+        ]
+    },
+    {
+        "q": "Rearrange copper alloys:",
+        "type": "rearrange",
+        "words": [
+            "Bronze",
+            "Brass",
+            "Cupronickel",
+            "Beryllium copper"
+        ]
+    },
+    {
+        "q": "What is bronze?",
+        "type": "mcq",
+        "o": [
+            "Copper-tin alloy",
+            "Copper-zinc",
+            "Pure copper",
+            "Iron alloy"
+        ]
+    },
+    {
+        "q": "Brass is copper alloyed with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "zinc"
+        ],
+        "other_options": [
+            "tin",
+            "iron",
+            "aluminum"
+        ]
+    },
+    {
+        "q": "Match the copper alloy with its use:",
+        "type": "match",
+        "left": [
+            "Bronze",
+            "Brass",
+            "Cupronickel",
+            "Phosphor bronze"
+        ],
+        "right": [
+            "Bearings",
+            "Fittings",
+            "Marine",
+            "Springs"
+        ]
+    },
+    {
+        "q": "Copper alloys have excellent electrical conductivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is magnesium alloy?",
+        "type": "mcq",
+        "o": [
+            "Lightest structural metal alloy",
+            "Heavy alloy",
+            "Iron alloy",
+            "Copper alloy"
+        ]
+    },
+    {
+        "q": "Rearrange magnesium benefits:",
+        "type": "rearrange",
+        "words": [
+            "Lightweight",
+            "Good damping",
+            "Castable",
+            "Machinable"
+        ]
+    },
+    {
+        "q": "What is the main challenge with magnesium?",
+        "type": "mcq",
+        "o": [
+            "Flammability and corrosion susceptibility",
+            "Weight",
+            "Cost",
+            "Availability"
+        ]
+    },
+    {
+        "q": "Magnesium density is about ______ of aluminum.",
+        "type": "fill_blank",
+        "answers": [
+            "2/3"
+        ],
+        "other_options": [
+            "double",
+            "triple",
+            "same"
+        ]
+    },
+    {
+        "q": "Match the magnesium application with its benefit:",
+        "type": "match",
+        "left": [
+            "Laptop cases",
+            "Auto parts",
+            "Aircraft",
+            "Sports equipment"
+        ],
+        "right": [
+            "Light weight",
+            "Fuel saving",
+            "Weight reduction",
+            "Performance"
+        ]
+    },
+    {
+        "q": "Magnesium is increasingly used in automotive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is zinc alloy?",
+        "type": "mcq",
+        "o": [
+            "Zinc with added elements for casting",
+            "Pure zinc",
+            "Iron alloy",
+            "Copper alloy"
+        ]
+    },
+    {
+        "q": "Rearrange zinc applications:",
+        "type": "rearrange",
+        "words": [
+            "Galvanizing",
+            "Die casting",
+            "Batteries",
+            "Brass"
+        ]
+    },
+    {
+        "q": "What is galvanizing?",
+        "type": "mcq",
+        "o": [
+            "Coating steel with zinc for corrosion protection",
+            "Removing zinc",
+            "Adding iron",
+            "No coating"
+        ]
+    },
+    {
+        "q": "Zamak is zinc-aluminum casting ______.",
+        "type": "fill_blank",
+        "answers": [
+            "alloy"
+        ],
+        "other_options": [
+            "compound",
+            "element",
+            "mixture"
+        ]
+    },
+    {
+        "q": "Match the zinc use with its industry:",
+        "type": "match",
+        "left": [
+            "Galvanizing",
+            "Die casting",
+            "Brass",
+            "Anodes"
+        ],
+        "right": [
+            "Construction",
+            "Automotive",
+            "Plumbing",
+            "Cathodic protection"
+        ]
+    },
+    {
+        "q": "Zinc provides sacrificial corrosion protection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is glass ceramic?",
+        "type": "mcq",
+        "o": [
+            "Crystallized glass with ceramic properties",
+            "Pure glass",
+            "Pure ceramic",
+            "Metal"
+        ]
+    },
+    {
+        "q": "Rearrange glass ceramic processing:",
+        "type": "rearrange",
+        "words": [
+            "Melting",
+            "Forming",
+            "Nucleation",
+            "Crystallization"
+        ]
+    },
+    {
+        "q": "What makes glass ceramic special?",
+        "type": "mcq",
+        "o": [
+            "Zero thermal expansion and high strength",
+            "High expansion",
+            "Low strength",
+            "Random properties"
+        ]
+    },
+    {
+        "q": "Cooktop uses glass ceramic due to thermal shock ______.",
+        "type": "fill_blank",
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "susceptibility",
+            "weakness",
+            "failure"
+        ]
+    },
+    {
+        "q": "Match the glass ceramic with its use:",
+        "type": "match",
+        "left": [
+            "Zerodur",
+            "Pyroceram",
+            "Macor",
+            "Dicor"
+        ],
+        "right": [
+            "Telescope mirrors",
+            "Cookware",
+            "Machinable ceramic",
+            "Dental restoration"
+        ]
+    },
+    {
+        "q": "Glass ceramics combine benefits of glass and ceramics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is technical ceramic?",
+        "type": "mcq",
+        "o": [
+            "Ceramic for engineering applications",
+            "Decorative only",
+            "Traditional pottery",
+            "No application"
+        ]
+    },
+    {
+        "q": "Rearrange technical ceramic properties:",
+        "type": "rearrange",
+        "words": [
+            "Hardness",
+            "Wear resistance",
+            "High temperature",
+            "Chemical inertness"
+        ]
+    },
+    {
+        "q": "What is alumina used for?",
+        "type": "mcq",
+        "o": [
+            "Electrical insulation and wear parts",
+            "Decoration only",
+            "No application",
+            "Random"
+        ]
+    },
+    {
+        "q": "Silicon nitride is used in engine ______.",
+        "type": "fill_blank",
+        "answers": [
+            "components"
+        ],
+        "other_options": [
+            "paint",
+            "fuel",
+            "oil"
+        ]
+    },
+    {
+        "q": "Match the technical ceramic with its advantage:",
+        "type": "match",
+        "left": [
+            "Alumina",
+            "Zirconia",
+            "Silicon carbide",
+            "Boron carbide"
+        ],
+        "right": [
+            "Electrical insulation",
+            "Toughness",
+            "Hardness at temp",
+            "Lightest hardest"
+        ]
+    },
+    {
+        "q": "Technical ceramics are used in demanding applications.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bioceramic?",
+        "type": "mcq",
+        "o": [
+            "Ceramic for biological applications",
+            "Industrial only",
+            "Decorative",
+            "No medical use"
+        ]
+    },
+    {
+        "q": "Rearrange bioceramic types:",
+        "type": "rearrange",
+        "words": [
+            "Bioinert",
+            "Bioactive",
+            "Bioresorbable",
+            "Composite"
+        ]
+    },
+    {
+        "q": "What is hydroxyapatite?",
+        "type": "mcq",
+        "o": [
+            "Calcium phosphate similar to bone mineral",
+            "Metal",
+            "Polymer",
+            "Random"
+        ]
+    },
+    {
+        "q": "Bioactive ceramics bond to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bone"
+        ],
+        "other_options": [
+            "air",
+            "water",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the bioceramic with its use:",
+        "type": "match",
+        "left": [
+            "Alumina",
+            "HA",
+            "TCP",
+            "Bioglass"
+        ],
+        "right": [
+            "Joint replacement",
+            "Bone coating",
+            "Bone graft",
+            "Soft tissue bonding"
+        ]
+    },
+    {
+        "q": "Bioceramics must be biocompatible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is engineering plastic?",
+        "type": "mcq",
+        "o": [
+            "Plastic with enhanced mechanical properties",
+            "Commodity plastic",
+            "No engineering use",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange plastics by performance:",
+        "type": "rearrange",
+        "words": [
+            "Commodity",
+            "Engineering",
+            "High performance",
+            "Specialty"
+        ]
+    },
+    {
+        "q": "What is PEEK?",
+        "type": "mcq",
+        "o": [
+            "Polyether ether ketone - high performance thermoplastic",
+            "Simple plastic",
+            "Rubber",
+            "Metal"
+        ]
+    },
+    {
+        "q": "Nylon is used for gears due to wear ______.",
+        "type": "fill_blank",
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "susceptibility",
+            "weakness",
+            "failure"
+        ]
+    },
+    {
+        "q": "Match the engineering plastic with its property:",
+        "type": "match",
+        "left": [
+            "Nylon",
+            "POM",
+            "PC",
+            "PBT"
+        ],
+        "right": [
+            "Toughness",
+            "Low friction",
+            "Transparency",
+            "Chemical resistance"
+        ]
+    },
+    {
+        "q": "Engineering plastics replace metals in many applications.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is fiber reinforced polymer?",
+        "type": "mcq",
+        "o": [
+            "Composite with fiber reinforcement in polymer matrix",
+            "Pure polymer",
+            "Pure fiber",
+            "Metal"
+        ]
+    },
+    {
+        "q": "Rearrange composite manufacturing methods:",
+        "type": "rearrange",
+        "words": [
+            "Hand layup",
+            "Resin transfer",
+            "Pultrusion",
+            "Autoclave"
+        ]
+    },
+    {
+        "q": "What is prepreg?",
+        "type": "mcq",
+        "o": [
+            "Pre-impregnated fiber with uncured resin",
+            "Cured material",
+            "Pure fiber",
+            "Pure resin"
+        ]
+    },
+    {
+        "q": "Autoclave curing uses heat and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pressure"
+        ],
+        "other_options": [
+            "cold",
+            "vacuum only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the composite process with its product:",
+        "type": "match",
+        "left": [
+            "Hand layup",
+            "Filament winding",
+            "Pultrusion",
+            "RTM"
+        ],
+        "right": [
+            "Boats",
+            "Pressure vessels",
+            "Profiles",
+            "Complex shapes"
+        ]
+    },
+    {
+        "q": "CFRP is used extensively in aerospace.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is metal matrix composite?",
+        "type": "mcq",
+        "o": [
+            "Composite with metal matrix and reinforcement",
+            "Pure metal",
+            "Polymer composite",
+            "Ceramic only"
+        ]
+    },
+    {
+        "q": "Rearrange MMC reinforcements:",
+        "type": "rearrange",
+        "words": [
+            "Particles",
+            "Whiskers",
+            "Short fibers",
+            "Continuous fibers"
+        ]
+    },
+    {
+        "q": "What does MMC provide?",
+        "type": "mcq",
+        "o": [
+            "Improved stiffness and strength over base metal",
+            "Lower properties",
+            "Same as base",
+            "Random"
+        ]
+    },
+    {
+        "q": "Aluminum-SiC MMC is used in automotive brake ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rotors"
+        ],
+        "other_options": [
+            "fluids",
+            "pads only",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the MMC with its application:",
+        "type": "match",
+        "left": [
+            "Al-SiC",
+            "Ti-SiC",
+            "Cu-carbon",
+            "Mg-C"
+        ],
+        "right": [
+            "Automotive",
+            "Aerospace",
+            "Electrical",
+            "Lightweight"
+        ]
+    },
+    {
+        "q": "MMCs offer tailored properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ceramic matrix composite?",
+        "type": "mcq",
+        "o": [
+            "Ceramic reinforced with fibers for toughness",
+            "Pure ceramic",
+            "Metal composite",
+            "Polymer composite"
+        ]
+    },
+    {
+        "q": "Rearrange CMC benefits:",
+        "type": "rearrange",
+        "words": [
+            "High temperature",
+            "Low density",
+            "Damage tolerance",
+            "Oxidation resistance"
+        ]
+    },
+    {
+        "q": "What does CMC solve?",
+        "type": "mcq",
+        "o": [
+            "Brittleness of monolithic ceramics",
+            "Low temperature use",
+            "Heavy weight",
+            "Random"
+        ]
+    },
+    {
+        "q": "SiC/SiC CMC is used in turbine engine ______.",
+        "type": "fill_blank",
+        "answers": [
+            "components"
+        ],
+        "other_options": [
+            "fuel",
+            "oil",
+            "coolant"
+        ]
+    },
+    {
+        "q": "Match the CMC with its application:",
+        "type": "match",
+        "left": [
+            "C/C",
+            "SiC/SiC",
+            "Oxide/oxide",
+            "C/SiC"
+        ],
+        "right": [
+            "Brakes",
+            "Turbines",
+            "Industrial",
+            "Aerospace thermal"
+        ]
+    },
+    {
+        "q": "CMCs enable higher engine operating temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is functional gradient material?",
+        "type": "mcq",
+        "o": [
+            "Material with gradual composition change",
+            "Uniform composition",
+            "Sharp interface",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange FGM benefits:",
+        "type": "rearrange",
+        "words": [
+            "Reduced stress",
+            "Bonding dissimilar",
+            "Tailored properties",
+            "Thermal management"
+        ]
+    },
+    {
+        "q": "What is the advantage of gradient?",
+        "type": "mcq",
+        "o": [
+            "Eliminates sharp interface stress",
+            "Creates stress",
+            "No advantage",
+            "Random"
+        ]
+    },
+    {
+        "q": "FGMs transition smoothly between ______.",
+        "type": "fill_blank",
+        "answers": [
+            "materials"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the FGM with its application:",
+        "type": "match",
+        "left": [
+            "Metal-ceramic",
+            "Polymer gradient",
+            "Dental implant",
+            "Thermal barrier"
+        ],
+        "right": [
+            "Thermal protection",
+            "Shock absorption",
+            "Bone interface",
+            "Turbine coating"
+        ]
+    },
+    {
+        "q": "FGMs are manufactured by additive methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is metamaterial?",
+        "type": "mcq",
+        "o": [
+            "Engineered material with properties not found in nature",
+            "Natural material",
+            "Common material",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange metamaterial properties:",
+        "type": "rearrange",
+        "words": [
+            "Negative refraction",
+            "Cloaking",
+            "Perfect absorption",
+            "Super lens"
+        ]
+    },
+    {
+        "q": "What gives metamaterials their properties?",
+        "type": "mcq",
+        "o": [
+            "Engineered structure rather than composition",
+            "Only composition",
+            "Random structure",
+            "No structure"
+        ]
+    },
+    {
+        "q": "Metamaterials manipulate electromagnetic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "waves"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the metamaterial with its effect:",
+        "type": "match",
+        "left": [
+            "Negative index",
+            "Absorber",
+            "Acoustic",
+            "Mechanical"
+        ],
+        "right": [
+            "Bends light backwards",
+            "Stealth",
+            "Sound control",
+            "Unusual deformation"
+        ]
+    },
+    {
+        "q": "Metamaterials enable novel applications.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is auxetic material?",
+        "type": "mcq",
+        "o": [
+            "Material with negative Poisson's ratio",
+            "Normal material",
+            "Positive ratio",
+            "No ratio"
+        ]
+    },
+    {
+        "q": "Rearrange Poisson's ratio range:",
+        "type": "rearrange",
+        "words": [
+            "Negative",
+            "Zero",
+            "Low positive",
+            "High positive"
+        ]
+    },
+    {
+        "q": "What happens when auxetic is stretched?",
+        "type": "mcq",
+        "o": [
+            "It expands laterally instead of contracting",
+            "Contracts normally",
+            "No change",
+            "Shrinks all directions"
+        ]
+    },
+    {
+        "q": "Auxetics improve impact ______.",
+        "type": "fill_blank",
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "susceptibility",
+            "weakness",
+            "failure"
+        ]
+    },
+    {
+        "q": "Match the auxetic with its use:",
+        "type": "match",
+        "left": [
+            "Foam",
+            "Fiber",
+            "Composite",
+            "Structure"
+        ],
+        "right": [
+            "Cushioning",
+            "Textiles",
+            "Aerospace",
+            "Architecture"
+        ]
+    },
+    {
+        "q": "Auxetic behavior comes from internal structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is self-healing material?",
+        "type": "mcq",
+        "o": [
+            "Material that repairs damage automatically",
+            "No repair",
+            "Manual repair only",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange self-healing mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Microcapsules",
+            "Vascular networks",
+            "Intrinsic",
+            "External trigger"
+        ]
+    },
+    {
+        "q": "How do microcapsules heal?",
+        "type": "mcq",
+        "o": [
+            "Release healing agent when broken",
+            "Absorb damage",
+            "No release",
+            "Random"
+        ]
+    },
+    {
+        "q": "Self-healing extends material ______.",
+        "type": "fill_blank",
+        "answers": [
+            "life"
+        ],
+        "other_options": [
+            "cost",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the self-healing with its material:",
+        "type": "match",
+        "left": [
+            "Microcapsule",
+            "Vascular",
+            "Intrinsic",
+            "Bacterial"
+        ],
+        "right": [
+            "Polymer coating",
+            "Repeated healing",
+            "Reversible bonds",
+            "Concrete"
+        ]
+    },
+    {
+        "q": "Self-healing materials reduce maintenance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is materials selection?",
+        "type": "mcq",
+        "o": [
+            "Choosing optimal material for application",
+            "Random choice",
+            "No selection",
+            "Same material always"
+        ]
+    },
+    {
+        "q": "Rearrange selection criteria:",
+        "type": "rearrange",
+        "words": [
+            "Requirements",
+            "Candidates",
+            "Evaluation",
+            "Decision"
+        ]
+    },
+    {
+        "q": "What is Ashby chart?",
+        "type": "mcq",
+        "o": [
+            "Plot comparing material properties for selection",
+            "Map",
+            "Photo",
+            "Random chart"
+        ]
+    },
+    {
+        "q": "Material indices help optimize ______.",
+        "type": "fill_blank",
+        "answers": [
+            "selection"
+        ],
+        "other_options": [
+            "color",
+            "name",
+            "cost only"
+        ]
+    },
+    {
+        "q": "Match the selection factor with its consideration:",
+        "type": "match",
+        "left": [
+            "Performance",
+            "Cost",
+            "Manufacturing",
+            "Environmental"
+        ],
+        "right": [
+            "Properties needed",
+            "Total cost",
+            "Processability",
+            "Sustainability"
+        ]
+    },
+    {
+        "q": "Systematic selection prevents material failures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thermal barrier coating?",
+        "type": "mcq",
+        "o": [
+            "Ceramic coating that insulates metal from high temperatures",
+            "Metal coating",
+            "Polymer coating",
+            "No insulation"
+        ]
+    },
+    {
+        "q": "Rearrange TBC layers:",
+        "type": "rearrange",
+        "words": [
+            "Metal substrate",
+            "Bond coat",
+            "TGO",
+            "Ceramic top coat"
+        ]
+    },
+    {
+        "q": "What is YSZ?",
+        "type": "mcq",
+        "o": [
+            "Yttria-stabilized zirconia - common TBC material",
+            "Pure zirconia",
+            "Metal alloy",
+            "Polymer"
+        ]
+    },
+    {
+        "q": "TBCs allow higher turbine operating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperatures"
+        ],
+        "other_options": [
+            "costs",
+            "weights",
+            "colors"
+        ]
+    },
+    {
+        "q": "Match the TBC component with its role:",
+        "type": "match",
+        "left": [
+            "YSZ",
+            "Bond coat",
+            "TGO",
+            "Substrate"
+        ],
+        "right": [
+            "Thermal insulation",
+            "Adhesion",
+            "Oxidation barrier",
+            "Structural support"
+        ]
+    },
+    {
+        "q": "Thermal barrier coatings improve engine efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is intermetallic compound?",
+        "type": "mcq",
+        "o": [
+            "Compound between metals with ordered crystal structure",
+            "Random alloy",
+            "Pure metal",
+            "Polymer"
+        ]
+    },
+    {
+        "q": "Rearrange intermetallic properties:",
+        "type": "rearrange",
+        "words": [
+            "High melting point",
+            "Ordered structure",
+            "Brittle",
+            "Oxidation resistant"
+        ]
+    },
+    {
+        "q": "What is titanium aluminide?",
+        "type": "mcq",
+        "o": [
+            "Lightweight intermetallic for aerospace",
+            "Heavy alloy",
+            "Room temperature use",
+            "Low strength"
+        ]
+    },
+    {
+        "q": "Nickel aluminide is used in ______ blade coatings.",
+        "type": "fill_blank",
+        "answers": [
+            "turbine"
+        ],
+        "other_options": [
+            "helicopter",
+            "fan",
+            "propeller"
+        ]
+    },
+    {
+        "q": "Match the intermetallic with its property:",
+        "type": "match",
+        "left": [
+            "TiAl",
+            "NiAl",
+            "FeAl",
+            "Ni3Al"
+        ],
+        "right": [
+            "Low density",
+            "Oxidation resistance",
+            "Corrosion resistance",
+            "High strength"
+        ]
+    },
+    {
+        "q": "Intermetallics are more brittle than conventional alloys.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is shape memory polymer?",
+        "type": "mcq",
+        "o": [
+            "Polymer that remembers and returns to original shape",
+            "No memory",
+            "Fixed shape only",
+            "Metal"
+        ]
+    },
+    {
+        "q": "Rearrange SMP activation triggers:",
+        "type": "rearrange",
+        "words": [
+            "Heat",
+            "Light",
+            "Moisture",
+            "Electric field"
+        ]
+    },
+    {
+        "q": "How do SMPs recover shape?",
+        "type": "mcq",
+        "o": [
+            "Entropy-driven chain relaxation above transition temperature",
+            "Random",
+            "Never recover",
+            "Melting"
+        ]
+    },
+    {
+        "q": "SMPs are used in medical ______ devices.",
+        "type": "fill_blank",
+        "answers": [
+            "stent"
+        ],
+        "other_options": [
+            "kitchen",
+            "construction",
+            "mining"
+        ]
+    },
+    {
+        "q": "Match the SMP with its trigger:",
+        "type": "match",
+        "left": [
+            "Thermal SMP",
+            "Light-responsive",
+            "Moisture SMP",
+            "Electro-active"
+        ],
+        "right": [
+            "Heat",
+            "UV/visible",
+            "Water",
+            "Voltage"
+        ]
+    },
+    {
+        "q": "Shape memory polymers have higher recovery strain than SMAs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is amorphous metal?",
+        "type": "mcq",
+        "o": [
+            "Metal with no long-range crystalline order",
+            "Crystalline metal",
+            "Normal metal",
+            "Polymer"
+        ]
+    },
+    {
+        "q": "Rearrange metallic glass properties:",
+        "type": "rearrange",
+        "words": [
+            "High strength",
+            "Elastic",
+            "Corrosion resistant",
+            "Hard"
+        ]
+    },
+    {
+        "q": "How are bulk metallic glasses made?",
+        "type": "mcq",
+        "o": [
+            "Rapid cooling to prevent crystallization",
+            "Slow cooling",
+            "Normal casting",
+            "No cooling"
+        ]
+    },
+    {
+        "q": "Metallic glasses have no grain ______.",
+        "type": "fill_blank",
+        "answers": [
+            "boundaries"
+        ],
+        "other_options": [
+            "atoms",
+            "electrons",
+            "protons"
+        ]
+    },
+    {
+        "q": "Match the metallic glass with its application:",
+        "type": "match",
+        "left": [
+            "Zr-based",
+            "Fe-based",
+            "Pd-based",
+            "Mg-based"
+        ],
+        "right": [
+            "Sports equipment",
+            "Transformers",
+            "Jewelry",
+            "Biomedical"
+        ]
+    },
+    {
+        "q": "Bulk metallic glasses are stronger than steel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is phononic crystal?",
+        "type": "mcq",
+        "o": [
+            "Material with periodic structure affecting phonon propagation",
+            "Normal crystal",
+            "No structure",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange phononic applications:",
+        "type": "rearrange",
+        "words": [
+            "Sound insulation",
+            "Vibration control",
+            "Thermal management",
+            "Wave guiding"
+        ]
+    },
+    {
+        "q": "What is phonon band gap?",
+        "type": "mcq",
+        "o": [
+            "Frequency range where phonons cannot propagate",
+            "All frequencies pass",
+            "No gap",
+            "Random"
+        ]
+    },
+    {
+        "q": "Phononic crystals block specific ______ frequencies.",
+        "type": "fill_blank",
+        "answers": [
+            "acoustic"
+        ],
+        "other_options": [
+            "light",
+            "radio",
+            "electric"
+        ]
+    },
+    {
+        "q": "Match the phononic effect with its use:",
+        "type": "match",
+        "left": [
+            "Band gap",
+            "Wave guiding",
+            "Focusing",
+            "Filtering"
+        ],
+        "right": [
+            "Noise control",
+            "Acoustic circuits",
+            "Ultrasound",
+            "Selective blocking"
+        ]
+    },
+    {
+        "q": "Phononic crystals can control heat conduction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is piezoelectric ceramic?",
+        "type": "mcq",
+        "o": [
+            "Ceramic that generates electricity under stress",
+            "Only insulator",
+            "No electricity",
+            "Conductor"
+        ]
+    },
+    {
+        "q": "Rearrange piezoelectric applications:",
+        "type": "rearrange",
+        "words": [
+            "Sensors",
+            "Actuators",
+            "Energy harvesting",
+            "Ultrasound transducers"
+        ]
+    },
+    {
+        "q": "What is PZT?",
+        "type": "mcq",
+        "o": [
+            "Lead zirconate titanate - common piezoelectric",
+            "Pure titanium",
+            "Pure zirconia",
+            "Polymer"
+        ]
+    },
+    {
+        "q": "Piezoelectric effect converts mechanical energy to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical"
+        ],
+        "other_options": [
+            "thermal",
+            "chemical",
+            "nuclear"
+        ]
+    },
+    {
+        "q": "Match the piezoelectric with its property:",
+        "type": "match",
+        "left": [
+            "PZT",
+            "BaTiO3",
+            "PVDF",
+            "AlN"
+        ],
+        "right": [
+            "High d33",
+            "Lead-free",
+            "Flexible",
+            "Thin films"
+        ]
+    },
+    {
+        "q": "Piezoelectric ceramics require poling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CFRP composite?",
+        "type": "mcq",
+        "o": [
+            "Carbon fiber reinforced polymer",
+            "Pure carbon",
+            "Pure polymer",
+            "Metal"
+        ]
+    },
+    {
+        "q": "Rearrange CFRP properties:",
+        "type": "rearrange",
+        "words": [
+            "High strength",
+            "Low weight",
+            "High stiffness",
+            "Fatigue resistant"
+        ]
+    },
+    {
+        "q": "Why is CFRP used in aircraft?",
+        "type": "mcq",
+        "o": [
+            "High strength-to-weight ratio reduces fuel consumption",
+            "Low cost",
+            "Easy repair",
+            "Heavy"
+        ]
+    },
+    {
+        "q": "Boeing 787 uses over 50% composite ______.",
+        "type": "fill_blank",
+        "answers": [
+            "materials"
+        ],
+        "other_options": [
+            "colors",
+            "costs",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the CFRP property with its benefit:",
+        "type": "match",
+        "left": [
+            "Light weight",
+            "High stiffness",
+            "Corrosion resistance",
+            "Fatigue resistance"
+        ],
+        "right": [
+            "Fuel efficiency",
+            "Structural rigidity",
+            "No rust",
+            "Long life"
+        ]
+    },
+    {
+        "q": "CFRP is recyclable with some methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are aerospace materials?",
+        "type": "mcq",
+        "o": [
+            "Materials meeting demanding aerospace requirements",
+            "Any material",
+            "Only metals",
+            "Only plastics"
+        ]
+    },
+    {
+        "q": "Rearrange aerospace material classes:",
+        "type": "rearrange",
+        "words": [
+            "Aluminum alloys",
+            "Titanium alloys",
+            "Superalloys",
+            "Composites"
+        ]
+    },
+    {
+        "q": "What drives aerospace material selection?",
+        "type": "mcq",
+        "o": [
+            "Strength-to-weight ratio and reliability",
+            "Only cost",
+            "Only appearance",
+            "Random"
+        ]
+    },
+    {
+        "q": "Aircraft use aluminum 7xxx series for high ______.",
+        "type": "fill_blank",
+        "answers": [
+            "strength"
+        ],
+        "other_options": [
+            "cost",
+            "weight",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the aerospace alloy with its use:",
+        "type": "match",
+        "left": [
+            "Al 2024",
+            "Al 7075",
+            "Ti-6Al-4V",
+            "Inconel 718"
+        ],
+        "right": [
+            "Fuselage",
+            "Wings",
+            "Landing gear",
+            "Engine parts"
+        ]
+    },
+    {
+        "q": "Aerospace materials undergo rigorous certification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are automotive materials?",
+        "type": "mcq",
+        "o": [
+            "Materials used in vehicle construction",
+            "Only steel",
+            "Only plastic",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange automotive material trends:",
+        "type": "rearrange",
+        "words": [
+            "Steel dominance",
+            "Aluminum growth",
+            "Composites emerging",
+            "Multi-material"
+        ]
+    },
+    {
+        "q": "Why is lightweighting important?",
+        "type": "mcq",
+        "o": [
+            "Reduces fuel consumption and emissions",
+            "Increases cost",
+            "Reduces safety",
+            "No benefit"
+        ]
+    },
+    {
+        "q": "Advanced high-strength steel provides better crash ______.",
+        "type": "fill_blank",
+        "answers": [
+            "protection"
+        ],
+        "other_options": [
+            "color",
+            "sound",
+            "smell"
+        ]
+    },
+    {
+        "q": "Match the automotive material with its part:",
+        "type": "match",
+        "left": [
+            "Steel",
+            "Aluminum",
+            "Magnesium",
+            "CFRP"
+        ],
+        "right": [
+            "Body structure",
+            "Hood",
+            "Steering wheel",
+            "Luxury panels"
+        ]
+    },
+    {
+        "q": "Electric vehicles use more aluminum for range.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are orthopedic implant materials?",
+        "type": "mcq",
+        "o": [
+            "Materials for bone and joint replacements",
+            "Only metal",
+            "Only plastic",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange implant requirements:",
+        "type": "rearrange",
+        "words": [
+            "Biocompatibility",
+            "Mechanical strength",
+            "Corrosion resistance",
+            "Osseointegration"
+        ]
+    },
+    {
+        "q": "What is osseointegration?",
+        "type": "mcq",
+        "o": [
+            "Direct bonding of bone to implant surface",
+            "No bonding",
+            "Rejection",
+            "Random"
+        ]
+    },
+    {
+        "q": "CoCrMo alloy is used for hip ______.",
+        "type": "fill_blank",
+        "answers": [
+            "implants"
+        ],
+        "other_options": [
+            "bracelets",
+            "necklaces",
+            "rings"
+        ]
+    },
+    {
+        "q": "Match the implant material with its application:",
+        "type": "match",
+        "left": [
+            "Ti-6Al-4V",
+            "CoCrMo",
+            "UHMWPE",
+            "Ceramic-on-ceramic"
+        ],
+        "right": [
+            "Bone fixation",
+            "Joint bearing",
+            "Liner",
+            "Low wear joint"
+        ]
+    },
+    {
+        "q": "Metal ion release concerns some implant alloys.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are dental materials?",
+        "type": "mcq",
+        "o": [
+            "Materials for teeth restoration and prosthetics",
+            "Only metal",
+            "Only plastic",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange dental material types:",
+        "type": "rearrange",
+        "words": [
+            "Amalgam",
+            "Composite",
+            "Ceramic",
+            "Metal alloy"
+        ]
+    },
+    {
+        "q": "What is dental zirconia?",
+        "type": "mcq",
+        "o": [
+            "High-strength ceramic for crowns and bridges",
+            "Metal crown",
+            "Plastic filling",
+            "Random"
+        ]
+    },
+    {
+        "q": "Dental composites use tooth-colored ______.",
+        "type": "fill_blank",
+        "answers": [
+            "resin"
+        ],
+        "other_options": [
+            "metal",
+            "wood",
+            "stone"
+        ]
+    },
+    {
+        "q": "Match the dental material with its use:",
+        "type": "match",
+        "left": [
+            "Amalgam",
+            "Composite",
+            "Zirconia",
+            "Gold alloy"
+        ],
+        "right": [
+            "Posterior filling",
+            "Anterior filling",
+            "Crown",
+            "Inlay"
+        ]
+    },
+    {
+        "q": "Dental materials must be biocompatible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are nuclear materials?",
+        "type": "mcq",
+        "o": [
+            "Materials for nuclear energy applications",
+            "Only uranium",
+            "Only steel",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange nuclear material requirements:",
+        "type": "rearrange",
+        "words": [
+            "Radiation resistance",
+            "High temperature",
+            "Corrosion resistance",
+            "Low neutron absorption"
+        ]
+    },
+    {
+        "q": "What is irradiation damage?",
+        "type": "mcq",
+        "o": [
+            "Material degradation from neutron bombardment",
+            "No damage",
+            "Improvement",
+            "Random"
+        ]
+    },
+    {
+        "q": "Zircaloy is used for fuel rod ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cladding"
+        ],
+        "other_options": [
+            "fuel",
+            "coolant",
+            "moderator"
+        ]
+    },
+    {
+        "q": "Match the nuclear material with its function:",
+        "type": "match",
+        "left": [
+            "UO2",
+            "Zircaloy",
+            "Boron carbide",
+            "Graphite"
+        ],
+        "right": [
+            "Fuel",
+            "Cladding",
+            "Control rod",
+            "Moderator"
+        ]
+    },
+    {
+        "q": "Nuclear materials require strict quality control.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is radiation damage in metals?",
+        "type": "mcq",
+        "o": [
+            "Displacement of atoms causing property changes",
+            "No effect",
+            "Repair",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange radiation damage effects:",
+        "type": "rearrange",
+        "words": [
+            "Hardening",
+            "Embrittlement",
+            "Swelling",
+            "Creep acceleration"
+        ]
+    },
+    {
+        "q": "What is displacement per atom (dpa)?",
+        "type": "mcq",
+        "o": [
+            "Measure of radiation damage in materials",
+            "No measure",
+            "Weight unit",
+            "Random"
+        ]
+    },
+    {
+        "q": "Radiation damage creates point defects and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "defect clusters"
+        ],
+        "other_options": [
+            "colors",
+            "sounds",
+            "smells"
+        ]
+    },
+    {
+        "q": "Match the radiation effect with its mechanism:",
+        "type": "match",
+        "left": [
+            "Hardening",
+            "Swelling",
+            "Helium embrittlement",
+            "Creep"
+        ],
+        "right": [
+            "Defect pinning",
+            "Void formation",
+            "Bubble formation",
+            "Diffusion-assisted"
+        ]
+    },
+    {
+        "q": "Radiation-tolerant materials enable reactor longevity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is EBSD?",
+        "type": "mcq",
+        "o": [
+            "Electron backscatter diffraction - crystallographic mapping",
+            "X-ray technique",
+            "Optical method",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange EBSD capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Orientation mapping",
+            "Phase identification",
+            "Grain analysis",
+            "Texture measurement"
+        ]
+    },
+    {
+        "q": "What does EBSD measure?",
+        "type": "mcq",
+        "o": [
+            "Crystal orientation at each point",
+            "Chemical composition",
+            "Density",
+            "Random"
+        ]
+    },
+    {
+        "q": "EBSD is performed in scanning electron ______.",
+        "type": "fill_blank",
+        "answers": [
+            "microscope"
+        ],
+        "other_options": [
+            "telescope",
+            "camera",
+            "phone"
+        ]
+    },
+    {
+        "q": "Match the EBSD output with its information:",
+        "type": "match",
+        "left": [
+            "IPF map",
+            "Phase map",
+            "Kernel average",
+            "Pole figure"
+        ],
+        "right": [
+            "Orientation",
+            "Crystal structure",
+            "Strain",
+            "Texture"
+        ]
+    },
+    {
+        "q": "EBSD requires polished sample surfaces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is atom probe tomography?",
+        "type": "mcq",
+        "o": [
+            "3D imaging with atomic-scale composition",
+            "2D imaging only",
+            "No imaging",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange APT steps:",
+        "type": "rearrange",
+        "words": [
+            "Sample preparation",
+            "Field evaporation",
+            "Detection",
+            "3D reconstruction"
+        ]
+    },
+    {
+        "q": "What can APT detect?",
+        "type": "mcq",
+        "o": [
+            "Individual atoms and their positions",
+            "Only bulk",
+            "Only surface",
+            "Random"
+        ]
+    },
+    {
+        "q": "APT provides quantitative ______ analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "compositional"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the APT feature with its capability:",
+        "type": "match",
+        "left": [
+            "3D reconstruction",
+            "Mass spectrum",
+            "Cluster analysis",
+            "Interface analysis"
+        ],
+        "right": [
+            "Spatial distribution",
+            "Element ID",
+            "Precipitate composition",
+            "Segregation"
+        ]
+    },
+    {
+        "q": "APT requires needle-shaped specimens.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is nanoindentation?",
+        "type": "mcq",
+        "o": [
+            "Local mechanical property measurement at nanoscale",
+            "Bulk testing",
+            "No measurement",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange nanoindentation outputs:",
+        "type": "rearrange",
+        "words": [
+            "Hardness",
+            "Modulus",
+            "Creep",
+            "Fracture toughness"
+        ]
+    },
+    {
+        "q": "What does load-displacement curve show?",
+        "type": "mcq",
+        "o": [
+            "Material response during indentation",
+            "Color change",
+            "No response",
+            "Random"
+        ]
+    },
+    {
+        "q": "Oliver-Pharr method extracts ______ from curves.",
+        "type": "fill_blank",
+        "answers": [
+            "modulus and hardness"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the indentation with its application:",
+        "type": "match",
+        "left": [
+            "Hardness mapping",
+            "Modulus gradient",
+            "Pop-in analysis",
+            "Creep test"
+        ],
+        "right": [
+            "Phase identification",
+            "Coating analysis",
+            "Dislocation",
+            "Time-dependent"
+        ]
+    },
+    {
+        "q": "Nanoindentation tests thin films and small volumes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is in-situ characterization?",
+        "type": "mcq",
+        "o": [
+            "Measuring properties during processing or loading",
+            "Post-test only",
+            "No measurement",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange in-situ techniques:",
+        "type": "rearrange",
+        "words": [
+            "In-situ TEM",
+            "Synchrotron XRD",
+            "Neutron diffraction",
+            "Environmental SEM"
+        ]
+    },
+    {
+        "q": "What can in-situ TEM observe?",
+        "type": "mcq",
+        "o": [
+            "Real-time deformation and phase transformations",
+            "Static images only",
+            "No observation",
+            "Random"
+        ]
+    },
+    {
+        "q": "Synchrotron provides high-intensity X-ray ______.",
+        "type": "fill_blank",
+        "answers": [
+            "beams"
+        ],
+        "other_options": [
+            "colors",
+            "sounds",
+            "smells"
+        ]
+    },
+    {
+        "q": "Match the in-situ method with its application:",
+        "type": "match",
+        "left": [
+            "In-situ TEM",
+            "In-situ XRD",
+            "In-situ EBSD",
+            "Environmental SEM"
+        ],
+        "right": [
+            "Dislocation motion",
+            "Phase transformation",
+            "Recrystallization",
+            "Corrosion"
+        ]
+    },
+    {
+        "q": "In-situ methods reveal dynamic material behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is digital image correlation?",
+        "type": "mcq",
+        "o": [
+            "Full-field strain measurement using images",
+            "Point measurement only",
+            "No measurement",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange DIC steps:",
+        "type": "rearrange",
+        "words": [
+            "Pattern application",
+            "Image capture",
+            "Correlation",
+            "Strain calculation"
+        ]
+    },
+    {
+        "q": "What does DIC measure?",
+        "type": "mcq",
+        "o": [
+            "Surface displacement and strain fields",
+            "Only load",
+            "Only temperature",
+            "Random"
+        ]
+    },
+    {
+        "q": "DIC tracks speckle pattern ______.",
+        "type": "fill_blank",
+        "answers": [
+            "movement"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the DIC application with its use:",
+        "type": "match",
+        "left": [
+            "Tensile testing",
+            "Crack analysis",
+            "Impact testing",
+            "Thermal strain"
+        ],
+        "right": [
+            "Uniform strain",
+            "Crack tip strain",
+            "High-speed DIC",
+            "Combined with IR"
+        ]
+    },
+    {
+        "q": "DIC is non-contact strain measurement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is crystallographic texture?",
+        "type": "mcq",
+        "o": [
+            "Preferred orientation of crystal grains",
+            "Random orientation",
+            "Surface roughness",
+            "No orientation"
+        ]
+    },
+    {
+        "q": "Rearrange texture effects:",
+        "type": "rearrange",
+        "words": [
+            "Anisotropy",
+            "Formability",
+            "Strength variation",
+            "Property direction"
+        ]
+    },
+    {
+        "q": "What causes rolling texture?",
+        "type": "mcq",
+        "o": [
+            "Plastic deformation aligning grains",
+            "Random process",
+            "No deformation",
+            "Melting"
+        ]
+    },
+    {
+        "q": "Pole figures display orientation ______.",
+        "type": "fill_blank",
+        "answers": [
+            "distribution"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the texture with its process:",
+        "type": "match",
+        "left": [
+            "Rolling texture",
+            "Recrystallization texture",
+            "Casting texture",
+            "Deposition texture"
+        ],
+        "right": [
+            "Mechanical",
+            "Annealing",
+            "Solidification",
+            "Film growth"
+        ]
+    },
+    {
+        "q": "Texture control improves formability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is residual stress?",
+        "type": "mcq",
+        "o": [
+            "Stress remaining after processing",
+            "Applied stress",
+            "No stress",
+            "External force"
+        ]
+    },
+    {
+        "q": "Rearrange residual stress sources:",
+        "type": "rearrange",
+        "words": [
+            "Thermal gradient",
+            "Plastic deformation",
+            "Phase transformation",
+            "Machining"
+        ]
+    },
+    {
+        "q": "What is stress relief annealing?",
+        "type": "mcq",
+        "o": [
+            "Heat treatment to reduce residual stress",
+            "Increase stress",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "Compressive surface stress improves fatigue ______.",
+        "type": "fill_blank",
+        "answers": [
+            "life"
+        ],
+        "other_options": [
+            "cost",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the stress measurement with its technique:",
+        "type": "match",
+        "left": [
+            "XRD",
+            "Hole drilling",
+            "Contour method",
+            "Ultrasonic"
+        ],
+        "right": [
+            "Surface lattice strain",
+            "Strain release",
+            "Full map",
+            "Non-destructive"
+        ]
+    },
+    {
+        "q": "Residual stress affects component performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is grain refinement?",
+        "type": "mcq",
+        "o": [
+            "Reducing grain size to improve properties",
+            "Increasing grain size",
+            "No change",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange refinement methods:",
+        "type": "rearrange",
+        "words": [
+            "Severe deformation",
+            "Rapid solidification",
+            "Inoculants",
+            "Thermomechanical"
+        ]
+    },
+    {
+        "q": "What is severe plastic deformation?",
+        "type": "mcq",
+        "o": [
+            "Extreme deformation for ultrafine grains",
+            "Small deformation",
+            "No deformation",
+            "Random"
+        ]
+    },
+    {
+        "q": "ECAP stands for Equal Channel Angular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Pressing"
+        ],
+        "other_options": [
+            "Punching",
+            "Pulling",
+            "Pushing"
+        ]
+    },
+    {
+        "q": "Match the SPD method with its characteristic:",
+        "type": "match",
+        "left": [
+            "ECAP",
+            "HPT",
+            "ARB",
+            "FSP"
+        ],
+        "right": [
+            "Channel extrusion",
+            "Torsion",
+            "Rolling",
+            "Friction"
+        ]
+    },
+    {
+        "q": "Nanocrystalline materials have ultrahigh strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is precipitation hardening?",
+        "type": "mcq",
+        "o": [
+            "Strengthening by fine precipitates",
+            "Softening",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange precipitation steps:",
+        "type": "rearrange",
+        "words": [
+            "Solution treatment",
+            "Quenching",
+            "Aging",
+            "Peak hardness"
+        ]
+    },
+    {
+        "q": "What is overaging?",
+        "type": "mcq",
+        "o": [
+            "Precipitate coarsening reducing strength",
+            "Maximum strength",
+            "No change",
+            "Random"
+        ]
+    },
+    {
+        "q": "Al-Cu alloys are precipitation hardened by ______ phase.",
+        "type": "fill_blank",
+        "answers": [
+            "theta"
+        ],
+        "other_options": [
+            "alpha",
+            "beta",
+            "gamma"
+        ]
+    },
+    {
+        "q": "Match the precipitate state with its strength:",
+        "type": "match",
+        "left": [
+            "Underaged",
+            "Peak aged",
+            "Overaged",
+            "Solution treated"
+        ],
+        "right": [
+            "Low",
+            "Maximum",
+            "Decreasing",
+            "Soft"
+        ]
+    },
+    {
+        "q": "Precipitation hardening is widely used for aluminum alloys.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is work hardening?",
+        "type": "mcq",
+        "o": [
+            "Strengthening by plastic deformation",
+            "Softening",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange strain hardening stages:",
+        "type": "rearrange",
+        "words": [
+            "Dislocation generation",
+            "Accumulation",
+            "Cell formation",
+            "Saturation"
+        ]
+    },
+    {
+        "q": "What increases with work hardening?",
+        "type": "mcq",
+        "o": [
+            "Strength and dislocation density",
+            "Ductility",
+            "Softness",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Work hardening exponent n is typically ______ for metals.",
+        "type": "fill_blank",
+        "answers": [
+            "0.1-0.5"
+        ],
+        "other_options": [
+            "zero",
+            "10",
+            "100"
+        ]
+    },
+    {
+        "q": "Match the metal with its work hardening behavior:",
+        "type": "match",
+        "left": [
+            "Copper",
+            "Aluminum",
+            "Steel",
+            "Stainless"
+        ],
+        "right": [
+            "High n",
+            "Moderate n",
+            "Low n",
+            "High n and TRIP"
+        ]
+    },
+    {
+        "q": "Cold working increases strength but decreases ductility.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is solid solution strengthening?",
+        "type": "mcq",
+        "o": [
+            "Strengthening by dissolved solute atoms",
+            "Precipitation",
+            "No effect",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange solid solution effects:",
+        "type": "rearrange",
+        "words": [
+            "Lattice distortion",
+            "Dislocation pinning",
+            "Increased strength",
+            "Reduced mobility"
+        ]
+    },
+    {
+        "q": "What causes solution strengthening?",
+        "type": "mcq",
+        "o": [
+            "Size and modulus mismatch with solvent atoms",
+            "Same size atoms",
+            "No distortion",
+            "Random"
+        ]
+    },
+    {
+        "q": "Zinc in copper provides solid solution ______.",
+        "type": "fill_blank",
+        "answers": [
+            "strengthening"
+        ],
+        "other_options": [
+            "weakening",
+            "coloring",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Match the solute with its effect:",
+        "type": "match",
+        "left": [
+            "Interstitial C in Fe",
+            "Substitutional Zn in Cu",
+            "Mg in Al",
+            "Ni in Cu"
+        ],
+        "right": [
+            "Strong effect",
+            "Moderate",
+            "Moderate",
+            "Weak"
+        ]
+    },
+    {
+        "q": "Larger solute atoms typically cause more strengthening.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dispersion strengthening?",
+        "type": "mcq",
+        "o": [
+            "Strengthening by stable dispersed particles",
+            "Only precipitation",
+            "No particles",
+            "Random"
+        ]
+    },
+    {
+        "q": "Rearrange ODS alloy processing:",
+        "type": "rearrange",
+        "words": [
+            "Mechanical alloying",
+            "Ball milling",
+            "Consolidation",
+            "Hot working"
+        ]
+    },
+    {
+        "q": "What is ODS steel?",
+        "type": "mcq",
+        "o": [
+            "Oxide dispersion strengthened steel for high temperature",
+            "Normal steel",
+            "Weak steel",
+            "Random"
+        ]
+    },
+    {
+        "q": "Oxides remain stable at high ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperatures"
+        ],
+        "other_options": [
+            "costs",
+            "colors",
+            "weights"
+        ]
+    },
+    {
+        "q": "Match the dispersion with its oxide:",
+        "type": "match",
+        "left": [
+            "ODS steel",
+            "ODS nickel",
+            "SAP aluminum",
+            "ThO2 tungsten"
+        ],
+        "right": [
+            "Y2O3",
+            "Y2O3",
+            "Al2O3",
+            "ThO2"
+        ]
+    },
+    {
+        "q": "Dispersion strengthening is stable at high temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

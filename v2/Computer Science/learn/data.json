@@ -1,0 +1,59 @@
+{
+    "id": "learn_data",
+    "topicId": "data",
+    "topicTitle": "Data Structures",
+    "description": "Explore arrays, linked lists, stacks, queues, trees, and hash tables",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "data_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Data Structures 📊\n\n## Why Important?\n- Organize data efficiently\n- Optimize operations\n- Foundation of algorithms\n\n## Categories\n| Type | Examples |\n|------|----------|\n| Linear | Array, List, Stack, Queue |\n| Non-linear | Tree, Graph, Hash |"
+        },
+        {
+            "id": "data_2",
+            "type": "content",
+            "title": "Arrays & Lists",
+            "content": "# Arrays & Linked Lists 📦\n\n## Array\n- Fixed size\n- O(1) access by index\n- O(n) insert/delete\n\n## Linked List\n- Dynamic size\n- O(n) access\n- O(1) insert/delete at ends"
+        },
+        {
+            "id": "data_3",
+            "type": "content",
+            "title": "Stacks & Queues",
+            "content": "# Stacks & Queues 📚\n\n## Stack (LIFO)\n- Push: Add to top\n- Pop: Remove from top\n- Uses: Undo, function calls\n\n## Queue (FIFO)\n- Enqueue: Add to back\n- Dequeue: Remove from front\n- Uses: Task scheduling"
+        },
+        {
+            "id": "data_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Stack follows which principle?",
+            "quizOptions": [
+                "FIFO",
+                "LIFO",
+                "Random",
+                "Priority"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "data_4",
+            "type": "content",
+            "title": "Trees",
+            "content": "# Trees 🌳\n\n## Binary Tree\n- Max 2 children per node\n- Root, parent, child, leaf\n\n## BST Operations\n| Op | Average | Worst |\n|----|---------|-------|\n| Search | O(log n) | O(n) |\n| Insert | O(log n) | O(n) |\n| Delete | O(log n) | O(n) |"
+        },
+        {
+            "id": "data_5",
+            "type": "content",
+            "title": "Hash Tables",
+            "content": "# Hash Tables 🔑\n\n## Concept\n```\nKey → Hash function → Index → Value\n```\n\n## Performance\n| Op | Average |\n|----|---------|\n| Insert | O(1) |\n| Search | O(1) |\n| Delete | O(1) |\n\n## Collisions\n- Chaining\n- Open addressing"
+        },
+        {
+            "id": "data_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Array: O(1) access, O(n) insert\n- Stack: LIFO\n- Queue: FIFO\n- BST: O(log n) operations\n- Hash: O(1) average"
+        }
+    ]
+}

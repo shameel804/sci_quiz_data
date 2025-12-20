@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Circuit Analysis 🔌",
+        "ques": "Series circuit: 12V source, resistors 2Ω, 4Ω, 6Ω.\n1. Total resistance\n2. Total current\n3. Voltage across each resistor",
+        "answer": {
+            "type": "text",
+            "content": "**1. Total resistance (series):**\nR_total = 2 + 4 + 6 = **12Ω**\n\n**2. Current (Ohm's Law):**\nI = V/R = 12/12 = **1A**\n\n**3. Voltages:**\n- V₁ = IR₁ = 1×2 = 2V\n- V₂ = IR₂ = 1×4 = 4V\n- V₃ = IR₃ = 1×6 = 6V\nCheck: 2+4+6 = 12V ✓"
+        },
+        "explanation": "**Series circuit:** Same current through all; voltages add up to source."
+    },
+    {
+        "title": "Transformers ⚡",
+        "ques": "Transformer: 500 turns primary, 50 turns secondary, 220V input.\n1. Find output voltage\n2. Is this step-up or step-down?\n3. If 2A output, what's input current?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Output voltage:**\n```\nV₂/V₁ = N₂/N₁\nV₂ = 220 × (50/500) = 22V\n```\n\n**2. Step-down** (voltage decreased)\n\n**3. Input current (conservation of power):**\n```\nP₁ = P₂ (ideal)\nV₁I₁ = V₂I₂\n220 × I₁ = 22 × 2\nI₁ = 0.2A\n```"
+        },
+        "explanation": "**Transformers** change voltage levels. Power in ≈ power out (minus losses)."
+    },
+    {
+        "title": "Motors and Generators 🔄",
+        "ques": "1. Motor vs generator operation\n2. What is back-EMF?\n3. DC motor speed control",
+        "answer": {
+            "type": "text",
+            "content": "**1. Difference:**\n- Motor: Electrical → Mechanical energy\n- Generator: Mechanical → Electrical energy\n(Same machine, different operation!)\n\n**2. Back-EMF:** Voltage generated in motor that opposes applied voltage. Increases with speed.\n\n**3. DC motor speed control:**\n- Vary armature voltage\n- Vary field current\n- PWM (Pulse Width Modulation)"
+        },
+        "explanation": "**Back-EMF** limits motor current. When motor stalls, no back-EMF → high current."
+    },
+    {
+        "title": "Power Factor 📊",
+        "ques": "Load: 1000W real power, 500VAR reactive power.\n1. Apparent power\n2. Power factor\n3. Why improve power factor?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Apparent power:**\n```\nS = √(P² + Q²) = √(1000² + 500²) = 1118 VA\n```\n\n**2. Power factor:**\n```\nPF = P/S = 1000/1118 = 0.894 (lagging)\n```\n\n**3. Benefits of high PF:**\n- Reduced current for same power\n- Lower losses\n- Avoid utility penalties\n- Smaller cable sizes"
+        },
+        "explanation": "**Add capacitors** to improve PF. Brings reactive power closer to zero."
+    },
+    {
+        "title": "Digital Logic 🖥️",
+        "ques": "Design a circuit where LED lights if A AND B are pressed, OR if C is pressed.\n1. Boolean expression\n2. What gates needed?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Boolean expression:**\n```\nOutput = (A·B) + C\n```\n\n**2. Gates needed:**\n- 1 AND gate (for A·B)\n- 1 OR gate (to combine with C)\n\n**Circuit:**\n```\nA ──┐\n    AND──┐\nB ──┘    OR── LED\n         │\nC ───────┘\n```"
+        },
+        "explanation": "**Boolean algebra** describes digital circuits. AND = series switches; OR = parallel switches."
+    },
+    {
+        "title": "Semiconductor Basics 💡",
+        "ques": "1. What is a diode?\n2. LED operation\n3. What is a transistor?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Diode:** One-way valve for current (p-n junction)\n- Forward bias: Current flows\n- Reverse bias: Blocks current\n\n**2. LED:** Light-Emitting Diode\n- Forward bias → electrons recombine → emit light\n- Different materials → different colors\n\n**3. Transistor:** Current-controlled switch/amplifier\n- BJT: Small base current controls larger collector current\n- MOSFET: Voltage-controlled"
+        },
+        "explanation": "**Transistors** are building blocks of all electronics. ~50 billion in modern CPUs!"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "id": "learn_elec",
+    "topicId": "elec",
+    "topicTitle": "Electrical Engineering",
+    "description": "Explore circuit analysis, semiconductors, power systems, and signal processing",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "elec_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Electrical Engineering ⚡\n\n## Topics\n- Circuit analysis\n- Semiconductors\n- Power systems\n- Signal processing"
+        },
+        {
+            "id": "elec_2",
+            "type": "content",
+            "title": "Circuits",
+            "content": "# Circuit Analysis 🔌\n\n## Kirchhoff's Laws\n| Law | Statement |\n|-----|----------|\n| KCL | ΣI = 0 (node) |\n| KVL | ΣV = 0 (loop) |\n\n## Ohm's Law\n```\nV = IR\nP = IV = I²R\n```"
+        },
+        {
+            "id": "elec_3",
+            "type": "content",
+            "title": "Semiconductors",
+            "content": "# Semiconductors 🔲\n\n## Types\n| Type | Dopant | Carriers |\n|------|--------|----------|\n| n-type | Phosphorus | Electrons |\n| p-type | Boron | Holes |\n\n## Devices\n- Diodes\n- Transistors (BJT, MOSFET)\n- Integrated circuits"
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "KCL states that at any node:",
+            "quizOptions": [
+                "ΣV = 0",
+                "ΣI = 0",
+                "V = IR",
+                "P = IV"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Power",
+            "content": "# Power Systems ⚡\n\n## AC vs DC\n| Type | Use |\n|------|-----|\n| AC | Transmission |\n| DC | Electronics |\n\n## Components\n- Generators\n- Transformers\n- Transmission lines\n- Distribution"
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Signals",
+            "content": "# Signal Processing 📊\n\n## Concepts\n- Fourier transform\n- Sampling\n- Filtering\n- Modulation\n\n## Digital vs Analog\n| Analog | Digital |\n|--------|--------|\n| Continuous | Discrete |\n| Noise-prone | Robust |"
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Kirchhoff: KCL, KVL\n- Ohm's Law: V = IR\n- Semiconductors: n-type, p-type\n- Power: AC transmission, DC devices"
+        }
+    ]
+}

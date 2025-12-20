@@ -1,0 +1,59 @@
+{
+    "id": "learn_renew",
+    "topicId": "renew",
+    "topicTitle": "Renewable Energy",
+    "description": "Explore solar, wind, hydro, and bioenergy systems",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "renew_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Renewable Energy ⚡\n\n## Why Renewable?\n- Infinite supply\n- Low emissions\n- Energy security\n\n## Types\n- Solar, Wind, Hydro\n- Geothermal, Biomass"
+        },
+        {
+            "id": "renew_2",
+            "type": "content",
+            "title": "Solar",
+            "content": "# Solar Energy ☀️\n\n## Technologies\n| Type | How |\n|------|-----|\n| Photovoltaic | Light → electricity |\n| Thermal | Heat water |\n| Concentrated | Focus sunlight |\n\n## Pros/Cons\n+ Abundant, clean\n- Intermittent, space"
+        },
+        {
+            "id": "renew_3",
+            "type": "content",
+            "title": "Wind",
+            "content": "# Wind Energy 💨\n\n## How It Works\n```\nWind → Turbine rotation → Generator → Electricity\n```\n\n## Types\n| Type | Location |\n|------|----------|\n| Onshore | Land |\n| Offshore | Sea |\n\n## Capacity Factor: ~25-45%"
+        },
+        {
+            "id": "renew_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Photovoltaic cells convert:",
+            "quizOptions": [
+                "Heat to electricity",
+                "Light to electricity",
+                "Wind to electricity",
+                "Water to electricity"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "renew_4",
+            "type": "content",
+            "title": "Hydro",
+            "content": "# Hydropower 💧\n\n## Types\n| Type | Description |\n|------|-------------|\n| Conventional | Dam |\n| Run-of-river | Flow |\n| Pumped storage | Energy storage |\n\n## Largest Power Source\n~16% of global electricity"
+        },
+        {
+            "id": "renew_5",
+            "type": "content",
+            "title": "Biomass",
+            "content": "# Bioenergy 🌾\n\n## Sources\n- Wood, crops\n- Agricultural waste\n- Algae\n\n## Products\n| Product | Use |\n|---------|-----|\n| Bioethanol | Transport |\n| Biodiesel | Transport |\n| Biogas | Heat/power |"
+        },
+        {
+            "id": "renew_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Solar: PV, thermal, CSP\n- Wind: Onshore/offshore\n- Hydro: Dams, run-of-river\n- Biomass: Biofuels, biogas"
+        }
+    ]
+}

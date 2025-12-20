@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Triangle Properties 📐",
+        "ques": "For a triangle with sides 3, 4, 5:\n1. Is it a right triangle? Prove it.\n2. Calculate the area\n3. Calculate the perimeter",
+        "answer": {
+            "type": "text",
+            "content": "**1. Right triangle proof:**\n```\n3² + 4² = 9 + 16 = 25 = 5²\n```\nYes! Satisfies Pythagorean theorem ✓\n\n**2. Area:** (1/2) × base × height = (1/2) × 3 × 4 = **6 square units**\n\n**3. Perimeter:** 3 + 4 + 5 = **12 units**"
+        },
+        "explanation": "**3-4-5** is the most famous Pythagorean triple. Others include 5-12-13 and 8-15-17."
+    },
+    {
+        "title": "Circle Calculations ⭕",
+        "ques": "For a circle with radius 7:\n1. Calculate circumference\n2. Calculate area\n3. What is a central angle of 90°'s arc length?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Circumference:**\n```\nC = 2πr = 2π(7) = 14π ≈ 43.98 units\n```\n\n**2. Area:**\n```\nA = πr² = π(49) = 49π ≈ 153.94 sq units\n```\n\n**3. 90° arc length:**\n```\n90°/360° × 14π = (1/4) × 14π = 3.5π ≈ 11 units\n```"
+        },
+        "explanation": "**Circle formulas:** C = 2πr, A = πr². Arc length = (angle/360°) × circumference."
+    },
+    {
+        "title": "Pythagorean Theorem 🔺",
+        "ques": "A ladder 10 m long leans against a wall. Base is 6 m from wall.\n1. How high up the wall does it reach?\n2. If ladder slides 2 m down, how far is base now from wall?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Height:**\n```\n10² = 6² + h²\n100 = 36 + h²\nh² = 64\nh = 8 m\n```\n\n**2. New base distance:**\nNew height = 8 - 2 = 6 m\n```\n10² = b² + 6²\n100 = b² + 36\nb² = 64\nb = 8 m from wall\n```"
+        },
+        "explanation": "**Pythagorean theorem** a² + b² = c² applies to right triangles. Ladder problems are classic applications."
+    },
+    {
+        "title": "Coordinate Geometry 📍",
+        "ques": "For points A(1, 2) and B(4, 6):\n1. Find distance AB\n2. Find midpoint\n3. Find slope of line AB",
+        "answer": {
+            "type": "text",
+            "content": "**1. Distance:**\n```\nd = √[(4-1)² + (6-2)²]\n  = √[9 + 16] = √25 = 5\n```\n\n**2. Midpoint:**\n```\nM = ((1+4)/2, (2+6)/2) = (2.5, 4)\n```\n\n**3. Slope:**\n```\nm = (6-2)/(4-1) = 4/3\n```"
+        },
+        "explanation": "**Coordinate geometry** connects algebra and geometry. Distance, midpoint, and slope formulas are essential."
+    },
+    {
+        "title": "3D Geometry 📦",
+        "ques": "For a cube with side 5:\n1. Surface area\n2. Volume\n3. Space diagonal length",
+        "answer": {
+            "type": "text",
+            "content": "**1. Surface area:**\n```\n6 × s² = 6 × 25 = 150 sq units\n```\n\n**2. Volume:**\n```\ns³ = 125 cubic units\n```\n\n**3. Space diagonal:**\n```\nd = s√3 = 5√3 ≈ 8.66 units\n```"
+        },
+        "explanation": "**3D formulas:** Cube diagonal = s√3. For rectangular box: d = √(l² + w² + h²)."
+    },
+    {
+        "title": "Thales' Theorem 📐",
+        "ques": "1. State Thales' theorem\n2. A semicircle has diameter AB = 10. Point C is on semicircle. If AC = 6, find BC.\n3. Application example",
+        "answer": {
+            "type": "text",
+            "content": "**1. Theorem:** Any angle inscribed in a semicircle (with diameter as one side) is 90°\n\n**2. Using Pythagorean theorem:**\n```\nAC² + BC² = AB² (since ∠C = 90°)\n36 + BC² = 100\nBC = 8\n```\n\n**3. Application:** Constructing right angles with just compass and straightedge"
+        },
+        "explanation": "**Thales' theorem** is one of earliest proofs in geometry (c. 600 BCE). Inscribed angle is half central angle."
+    }
+]

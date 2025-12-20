@@ -1,380 +1,65 @@
 [
-  {
-    "title": "Types of Levers",
-    "ques": "Identify the type of lever used in a wheelbarrow. Explain your reasoning.",
-    "answer": {
-      "type": "text",
-      "content": "A wheelbarrow is an example of a second-class lever."
+    {
+        "title": "Simple Machines: Levers 🔧",
+        "ques": "A lever has the fulcrum **0.5 m** from the load and **2.0 m** from the effort.\n\n1. What is the mechanical advantage?\n2. If you apply 100 N of force, what load can you lift?\n3. Identify the class of this lever and give an example",
+        "answer": {
+            "type": "text",
+            "content": "**1. Mechanical Advantage:**\n```\nMA = Effort arm / Load arm\nMA = 2.0 / 0.5 = 4\n```\n\n**2. Load lifted:**\n```\nLoad = Effort × MA = 100 × 4 = 400 N\n```\n\n**3. Class:** First-class lever (fulcrum between load and effort)\n*Examples:* Seesaw, crowbar, scissors"
+        },
+        "explanation": "**Levers** multiply force at the expense of distance. The mechanical advantage depends on the ratio of arm lengths."
     },
-    "explanation": "***Second-class levers*** have the ***load*** positioned between the ***fulcrum*** and the ***effort***.\nIn a wheelbarrow:\n```Fulcrum``` = the wheel,\n```Load``` = contents of the wheelbarrow,\n```Effort``` = applied at the handles.\nThis setup fits the second-class lever characteristics."
-  },
-  {
-    "title": "Pulley Mechanical Advantage",
-    "ques": "If a block and tackle pulley system has 4 supporting ropes, what is its mechanical advantage?",
-    "answer": {
-      "type": "text",
-      "content": "The mechanical advantage is 4."
+    {
+        "title": "Pulley Systems 🏗️",
+        "ques": "A block-and-tackle system uses 4 pulleys to lift a 200 kg load.\n\n1. What is the ideal mechanical advantage?\n2. What force is needed to lift the load?\n3. If you pull 8 m of rope, how high does the load rise?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Mechanical Advantage = 4** (number of rope segments supporting load)\n\n**2. Force needed:**\n```\nF = mg/MA = (200 × 10)/4 = 500 N\n```\n\n**3. Height:**\n```\nDistance in = MA × Distance out\n8 = 4 × h → h = 2 m\n```"
+        },
+        "explanation": "**Pulleys** trade distance for force. More pulleys = less effort needed but more rope to pull."
     },
-    "explanation": "In an ideal pulley system, ***mechanical advantage (MA)*** is equal to the number of supporting ropes.\nHere, 4 ropes support the load.\nSo, MA = ***4***.\nThis means the force needed to lift the object is ***one-fourth*** of the weight of the load."
-  },
-  {
-    "title": "Bernoulli’s Principle in Airplane Wings",
-    "ques": "How does Bernoulli's principle help in the lift force on airplane wings?",
-    "answer": {
-      "type": "text",
-      "content": "Airplane wings are designed so that air flows faster over the top surface, creating lower pressure above the wing and higher pressure below, resulting in lift."
+    {
+        "title": "Bernoulli's Principle ✈️",
+        "ques": "Water flows through a pipe that narrows from 4 cm to 2 cm diameter. Velocity at wide section is 2 m/s.\n\n1. Calculate velocity at narrow section\n2. If pressure at wide section is 200 kPa, find pressure at narrow section\n3. Explain how this relates to airplane lift",
+        "answer": {
+            "type": "text",
+            "content": "**1. Velocity (Continuity):**\n```\nA₁v₁ = A₂v₂\nπ(2)²(2) = π(1)²v₂\nv₂ = 8 m/s\n```\n\n**2. Pressure (Bernoulli):**\n```\nP₁ + ½ρv₁² = P₂ + ½ρv₂²\n200000 + ½(1000)(4) = P₂ + ½(1000)(64)\nP₂ = 200000 + 2000 - 32000 = 170 kPa\n```\n\n**3. Airplane Lift:** Air moves faster over curved top surface → lower pressure above wing → net upward force"
+        },
+        "explanation": "**Bernoulli's Principle:** faster flow = lower pressure. This explains lift, carburetors, and the curve of a spinning ball."
     },
-    "explanation": "***Bernoulli's principle*** states that an ***increase in fluid speed*** results in a ***decrease in pressure***.\nAirplane wings are curved on top:\n- Air moves faster over the curved top\n- Slower under the flat bottom\nAccording to Bernoulli:\n```Higher speed = lower pressure```\nSo, pressure is ***lower above*** and ***higher below***, creating an upward ***lift force***."
-  },
-  {
-    "title": "Fluid Flow Through a Pipe",
-    "ques": "Water flows through a horizontal pipe that narrows from one end to the other. What happens to its pressure and speed as it moves through the narrow part?",
-    "answer": {
-      "type": "text",
-      "content": "The speed increases and the pressure decreases in the narrower section."
+    {
+        "title": "Fluid Pressure 💧",
+        "ques": "A dam holds water 30 m deep.\n\n*ρ_water = 1000 kg/m³, g = 10 m/s²*\n\n1. Calculate pressure at the bottom\n2. Why are dams thicker at the bottom?\n3. Calculate force on a 2 m × 1 m gate at the bottom",
+        "answer": {
+            "type": "text",
+            "content": "**1. Pressure:**\n```\nP = ρgh = 1000 × 10 × 30 = 300,000 Pa = 300 kPa\n```\n\n**2. Dams are thicker at bottom because pressure increases with depth - more force to resist\n\n**3. Force:**\n```\nF = PA = 300000 × 2 = 600,000 N = 600 kN\n```"
+        },
+        "explanation": "**Hydrostatic pressure** P = ρgh increases linearly with depth, which is why submarines and dams must withstand enormous forces."
     },
-    "explanation": "According to ***Bernoulli’s principle***:\nIf fluid flows through a constricted section:\n- ***Speed increases*** (due to conservation of mass)\n- ***Pressure decreases***\nSo, as water enters the narrower part:\n```Velocity↑``` → ```Pressure↓```"
-  },
-  {
-    "title": "Black Hole Escape Velocity",
-    "ques": "Why can nothing, not even light, escape a black hole?",
-    "answer": {
-      "type": "text",
-      "content": "Because the escape velocity of a black hole exceeds the speed of light."
+    {
+        "title": "Black Holes 🌌",
+        "ques": "A star of mass 10 M☉ (solar masses) collapses to a black hole.\n*M☉ = 2×10³⁰ kg, G = 6.67×10⁻¹¹, c = 3×10⁸ m/s*\n\n1. Calculate the Schwarzschild radius\n2. What is the event horizon?\n3. Can anything escape from inside?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Schwarzschild radius:**\n```\nrs = 2GM/c²\nrs = 2(6.67×10⁻¹¹)(2×10³¹)/(3×10⁸)²\nrs = 29.6 km ≈ 30 km\n```\n\n**2. Event horizon:** The boundary at rs where escape velocity = c\n\n**3. No!** Nothing (not even light) can escape once inside the event horizon."
+        },
+        "explanation": "**Black holes** form when matter compresses within the Schwarzschild radius. The event horizon marks the point of no return."
     },
-    "explanation": "***Escape velocity*** is the speed needed to break free from a gravitational field.\nFor black holes, gravity is so strong that:\n```Escape velocity > speed of light (c)```\nSince nothing can move faster than light, ***nothing can escape***, not even light itself.\nThis defines the ***event horizon*** of a black hole."
-  },
-  {
-    "title": "Cosmic Rays Origin",
-    "ques": "What are cosmic rays and where do they originate from?",
-    "answer": {
-      "type": "text",
-      "content": "Cosmic rays are high-energy particles that originate from the Sun, distant stars, and supernovae."
+    {
+        "title": "Cosmic Rays 🌠",
+        "ques": "A cosmic ray proton travels at 0.99c and collides with Earth's atmosphere.\n\n1. Calculate its Lorentz factor\n2. What happens in the collision?\n3. Why are cosmic rays important for research?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Lorentz factor:**\n```\nγ = 1/√(1-0.99²) = 1/√0.0199 ≈ 7.1\n```\n\n**2. Collision produces:** Air showers - cascades of secondary particles (pions, muons, electrons) detectable on Earth's surface\n\n**3. Importance:**\n- Natural particle accelerators\n- Energies exceeding manmade accelerators\n- Discovered positron, muon, pion\n- Probe extreme astrophysical environments"
+        },
+        "explanation": "**Cosmic rays** are high-energy particles from space reaching energies impossible in labs. They helped discover antimatter!"
     },
-    "explanation": "***Cosmic rays*** are mostly ***protons and atomic nuclei*** that travel near light speed.\nThey come from:\n- The ***Sun*** (low-energy cosmic rays)\n- ***Supernovae*** and exploding stars (high-energy cosmic rays)\n- Possibly from ***black hole jets*** or other distant energetic sources.\nThey bombard Earth’s atmosphere and can create ***secondary particles***."
-  },
-  {
-    "title": "Lever Force Calculation",
-    "ques": "A 2-meter long lever has its fulcrum at the center. If a 100 N load is placed 0.5 m from the fulcrum on one side, how much force is needed on the opposite side at 1.5 m to balance it?",
-    "answer": {
-      "type": "text",
-      "content": "A force of 33.33 N is required to balance the lever."
-    },
-    "explanation": "***Lever principle***: torque on both sides must be equal to balance.\n```Torque = Force × Distance from fulcrum```\nLeft side: 100 N × 0.5 m = 50 Nm\nRight side: Let force be F, distance = 1.5 m → F × 1.5 m = 50 Nm\nSo, F = 50 / 1.5 = ***33.33 N***"
-  },
-  {
-    "title": "Pulley Work Efficiency",
-    "ques": "In an ideal single fixed pulley system, if you lift a 200 N object by pulling down with 200 N force, what is the mechanical advantage and work done?",
-    "answer": {
-      "type": "text",
-      "content": "Mechanical advantage is 1. Work done is equal to the force times the height lifted."
-    },
-    "explanation": "In a ***fixed pulley***:\n- ***MA = 1*** → force equals the weight\n- If the object is lifted 2 meters:\n```Work = Force × Distance = 200 N × 2 m = 400 J```\nThis system ***changes direction*** of force but not the magnitude."
-  },
-  {
-    "title": "Bernoulli Application: Chimney Effect",
-    "ques": "Why does smoke rise faster through a chimney when wind blows across the top of it?",
-    "answer": {
-      "type": "text",
-      "content": "Wind increases speed at the top of the chimney, lowering pressure and helping draw the smoke upward."
-    },
-    "explanation": "***Bernoulli's principle*** applies here:\n- Wind blows over the chimney top → ***higher airspeed***\n- Higher speed → ***lower pressure*** at the top\n- Creates a pressure difference: ```lower at top, higher inside chimney```\n- This pressure difference ***pulls the smoke upward***"
-  },
-  {
-    "title": "Venturi Effect in Fluid Pipes",
-    "ques": "Water flows through a horizontal pipe that narrows in the middle. What happens to the water pressure at the narrow point and why?",
-    "answer": {
-      "type": "text",
-      "content": "The pressure decreases at the narrow point due to increased velocity."
-    },
-    "explanation": "***Continuity equation***: Flow rate must remain constant.\nNarrow section → smaller area → velocity increases\nBy ***Bernoulli's principle***:\n```Higher velocity = Lower pressure```\nSo, ***pressure drops*** in the narrow region, known as the ***Venturi effect***"
-  },
-  {
-    "title": "Event Horizon Definition",
-    "ques": "What is the event horizon of a black hole, and what happens if an object crosses it?",
-    "answer": {
-      "type": "text",
-      "content": "The event horizon is the boundary beyond which nothing can escape a black hole. If an object crosses it, it cannot return."
-    },
-    "explanation": "The ***event horizon*** is a theoretical surface around a black hole where:\n```Escape velocity = speed of light (c)```\nAnything inside this boundary — even light — ***cannot escape***\nCrossing it means being trapped forever within the black hole’s gravity"
-  },
-  {
-    "title": "Cosmic Ray Detection",
-    "ques": "How are cosmic rays detected on Earth if they cannot be seen directly?",
-    "answer": {
-      "type": "text",
-      "content": "Cosmic rays are detected by observing the secondary particles they create when colliding with Earth's atmosphere."
-    },
-    "explanation": "***Primary cosmic rays*** hit the ***upper atmosphere***, creating ***secondary particles*** such as muons and electrons.\nThese particles can be detected using:\n- ***Cloud chambers***\n- ***Scintillation counters***\n- ***Underground detectors***\nSo, cosmic rays are observed ***indirectly*** through their interaction products"
-  },
-  {
-    "title": "Real-World Lever Example",
-    "ques": "A person uses a crowbar to lift a rock. The effort arm is 90 cm and the load arm is 30 cm. What is the mechanical advantage of the lever?",
-    "answer": {
-      "type": "text",
-      "content": "The mechanical advantage is 3."
-    },
-    "explanation": "***Mechanical advantage (MA)*** of a lever is given by:\n```MA = Effort arm / Load arm```\nHere, effort arm = 90 cm, load arm = 30 cm:\nMA = 90 / 30 = ***3***\nThis means the person applies one-third the force needed to lift the rock."
-  },
-  {
-    "title": "Compound Pulley System",
-    "ques": "In a compound pulley system with 2 fixed and 2 movable pulleys, how does the system reduce the effort needed to lift a 400 N load?",
-    "answer": {
-      "type": "text",
-      "content": "The load is distributed across 4 rope segments, giving a mechanical advantage of 4, so only 100 N of effort is needed."
-    },
-    "explanation": "In a ***compound pulley*** system:\n```MA = number of supporting rope segments```\nHere, 2 fixed + 2 movable = 4 segments supporting the load → MA = 4\nEffort = Load / MA = 400 N / 4 = ***100 N***\nSo, the system multiplies the applied force by 4."
-  },
-  {
-    "title": "Bernoulli and Curveballs",
-    "ques": "Why does a baseball curve when a pitcher throws a curveball?",
-    "answer": {
-      "type": "text",
-      "content": "The spinning ball creates different air speeds on each side, causing a pressure difference that curves the ball's path."
-    },
-    "explanation": "***Bernoulli’s principle*** explains this:\n- Spinning ball → one side moves with airflow (faster), other side against it (slower)\n```Faster air = lower pressure, Slower air = higher pressure```\nThis pressure difference creates a ***side force*** → the ball curves.\nThis is called the ***Magnus effect***."
-  },
-  {
-    "title": "Bernoulli and Car Spoilers",
-    "ques": "How do spoilers on sports cars use Bernoulli’s principle to increase traction?",
-    "answer": {
-      "type": "text",
-      "content": "Spoilers create high-speed airflow above them, reducing pressure and pushing the car downward for better grip."
-    },
-    "explanation": "***Bernoulli’s principle***: faster airflow = lower pressure\nSpoilers are shaped to increase airflow speed on top → ***low pressure above spoiler***\nUnderneath the car: higher pressure\nThis pressure difference pushes the car ***downward*** (downforce), improving ***traction and stability***."
-  },
-  {
-    "title": "Time Dilation Near a Black Hole",
-    "ques": "What happens to time for an astronaut approaching the event horizon of a black hole as seen by a distant observer?",
-    "answer": {
-      "type": "text",
-      "content": "Time appears to slow down and nearly stop as the astronaut approaches the event horizon."
-    },
-    "explanation": "***General relativity*** predicts time slows in strong gravitational fields.\nNear the ***event horizon***, gravity is extremely intense → time for the astronaut ***slows down*** relative to an outside observer.\nFrom far away, it looks like:\n```The astronaut freezes in time near the horizon```\nBut the astronaut experiences time normally."
-  },
-  {
-    "title": "Cosmic Rays and Earth’s Magnetic Field",
-    "ques": "How does Earth's magnetic field protect us from cosmic rays?",
-    "answer": {
-      "type": "text",
-      "content": "The magnetic field deflects many incoming cosmic rays, preventing them from directly hitting Earth's surface."
-    },
-    "explanation": "***Cosmic rays*** are charged particles.\nEarth’s magnetic field acts as a ***shield***:\n- It deflects low-energy cosmic rays using ***Lorentz force***\n- The particles spiral along magnetic field lines and are redirected\nResult:\n```Fewer cosmic rays reach populated areas on Earth's surface```, especially near the equator."
-  },
-  {
-    "title": "Classify the Lever",
-    "ques": "In a nutcracker, the fulcrum is at one end, the effort is applied at the other, and the nut is placed in the middle. What class of lever is it?",
-    "answer": {
-      "type": "text",
-      "content": "The nutcracker is a second-class lever."
-    },
-    "explanation": "***Second-class levers*** have the ***load*** between the ***fulcrum*** and the ***effort***.\nIn the nutcracker:\n```Fulcrum``` = end hinge\n```Load``` = nut\n```Effort``` = hands squeezing the ends\nThis layout matches the ***second-class*** lever model."
-  },
-  {
-    "title": "Ideal Pulley and Direction of Force",
-    "ques": "In a fixed pulley, why does the direction of force change but not the magnitude?",
-    "answer": {
-      "type": "text",
-      "content": "A fixed pulley changes the direction of the applied force but not its magnitude because it only redirects the force."
-    },
-    "explanation": "A ***fixed pulley*** has its wheel anchored in place.\nIt redirects the force:\n```Pulling down → load goes up```\nBut the rope tension is the same on both sides → no mechanical advantage.\nSo, ***force magnitude remains the same***.\nOnly the ***direction of the applied force*** is altered."
-  },
-  {
-    "title": "Bernoulli Effect in Spray Bottles",
-    "ques": "How does Bernoulli’s principle help a spray bottle atomize liquid into a fine mist?",
-    "answer": {
-      "type": "text",
-      "content": "Fast-moving air from the nozzle lowers the pressure, drawing liquid up and dispersing it as mist."
-    },
-    "explanation": "***Bernoulli's principle*** states that faster air has ***lower pressure***.\nIn a spray bottle:\n- Squeezing creates a ***high-speed airflow*** over a liquid tube opening\n- This creates a ***pressure drop*** at the top\n- The higher pressure at the bottom pushes liquid upward\n- The air breaks the liquid into a ***fine mist***"
-  },
-  {
-    "title": "Bernoulli and Roof Lifting in Storms",
-    "ques": "During strong winds, roofs of houses can lift off. How does Bernoulli’s principle explain this phenomenon?",
-    "answer": {
-      "type": "text",
-      "content": "Wind increases air speed above the roof, lowering pressure, while pressure inside stays higher, pushing the roof upward."
-    },
-    "explanation": "When wind blows over a roof:\n- Air above moves faster → ***lower pressure above roof***\n- Inside the house, pressure remains normal → ***higher pressure below***\nThis pressure difference creates an ***upward force***:\n```High pressure below - Low pressure above = Roof lift-off```\nThis is a real-world example of ***Bernoulli’s principle.***"
-  },
-  {
-    "title": "Spaghettification Near a Black Hole",
-    "ques": "What happens to an object falling into a black hole due to tidal forces?",
-    "answer": {
-      "type": "text",
-      "content": "The object would be stretched vertically and compressed horizontally in a process called spaghettification."
-    },
-    "explanation": "***Tidal forces*** near a black hole vary dramatically over small distances.\n- Gravity at your feet is much stronger than at your head\n- This causes the object to ***stretch vertically*** and ***squeeze sideways***\nThis extreme distortion is known as ***spaghettification*** — a real effect predicted by general relativity."
-  },
-  {
-    "title": "Cosmic Ray Interaction with Atmosphere",
-    "ques": "What happens when a high-energy cosmic ray strikes Earth's atmosphere?",
-    "answer": {
-      "type": "text",
-      "content": "It creates a shower of secondary particles that cascade down to the surface."
-    },
-    "explanation": "When a ***primary cosmic ray*** (like a proton) enters Earth’s atmosphere:\n- It collides with nuclei in the air\n- This creates ***secondary particles*** like pions, muons, and electrons\nThese form a ***particle shower*** that can reach ground level.\nThis process is essential for ***cosmic ray detection*** on Earth."
-  },
-  {
-    "title": "Human Arm as a Lever",
-    "ques": "When lifting a book with your hand by bending your elbow, which class of lever does your arm represent?",
-    "answer": {
-      "type": "text",
-      "content": "The human arm functions as a third-class lever in this case."
-    },
-    "explanation": "***Third-class levers*** have the ***effort*** applied between the ***load*** and the ***fulcrum***.\nIn the human arm:\n```Fulcrum``` = elbow joint\n```Effort``` = biceps pulling near the elbow\n```Load``` = book in hand\nSince the effort is between the fulcrum and the load, it is a ***third-class lever***."
-  },
-  {
-    "title": "Pulley in Elevators",
-    "ques": "Why do modern elevators use counterweights along with pulley systems?",
-    "answer": {
-      "type": "text",
-      "content": "Counterweights balance the load, reducing motor effort and increasing energy efficiency."
-    },
-    "explanation": "Elevator systems use a ***pulley*** with a ***counterweight***:\n- The counterweight equals the mass of an empty or half-full elevator\n- This creates a balanced system\n```Balanced system = reduced force needed from the motor```\nThis increases ***efficiency*** and reduces ***wear and tear*** on components."
-  },
-  {
-    "title": "Bernoulli’s Principle in Carburetors",
-    "ques": "How does Bernoulli's principle help mix air and fuel in a carburetor?",
-    "answer": {
-      "type": "text",
-      "content": "Fast airflow over a narrow jet lowers pressure, drawing fuel into the airstream."
-    },
-    "explanation": "In a carburetor:\n- Air moves quickly through a ***narrow throat*** (Venturi tube)\n- According to ***Bernoulli’s principle***:\n```High velocity → Low pressure```\n- The low pressure at the jet draws fuel into the airflow\nThis mixture is then ignited in the engine for combustion."
-  },
-  {
-    "title": "Airplane Flaps and Bernoulli",
-    "ques": "Why are flaps lowered during airplane takeoff and landing in terms of Bernoulli’s principle?",
-    "answer": {
-      "type": "text",
-      "content": "Lowering flaps increases surface area and airflow speed over the wing, enhancing lift at low speeds."
-    },
-    "explanation": "Lowering flaps:\n- Increases wing curvature\n- Increases airflow speed over the top surface\nBy ***Bernoulli’s principle***:\n```Faster airflow → Lower pressure above the wing```\nThis creates a larger pressure difference, resulting in ***greater lift***, which helps during ***takeoff and landing***."
-  },
-  {
-    "title": "Black Hole Formation",
-    "ques": "What stellar condition leads to the formation of a black hole?",
-    "answer": {
-      "type": "text",
-      "content": "A black hole forms when a massive star undergoes gravitational collapse after a supernova."
-    },
-    "explanation": "After a ***massive star*** (typically > 20 solar masses) exhausts its nuclear fuel:\n- It explodes in a ***supernova***\n- The core collapses under gravity\nIf the core's mass exceeds the ***Tolman–Oppenheimer–Volkoff limit***:\n```Gravity overwhelms all forces → collapse into a black hole```\nSpace-time becomes infinitely curved at the ***singularity***."
-  },
-  {
-    "title": "Cosmic Ray Daily Exposure",
-    "ques": "Do humans receive cosmic ray exposure daily, and is it harmful?",
-    "answer": {
-      "type": "text",
-      "content": "Yes, we are exposed to low levels of cosmic rays daily, but Earth's atmosphere and magnetic field protect us from harmful effects."
-    },
-    "explanation": "Cosmic rays constantly hit Earth, especially ***primary rays*** from space.\nMost of them interact with the upper atmosphere, forming ***secondary rays***.\nEarth’s ***atmosphere*** and ***magnetic field*** block or deflect most rays:\n```Only low-level exposure reaches the surface```\nThis exposure is not dangerous under normal conditions."
-  },
-  {
-    "title": "Balance a Seesaw",
-    "ques": "Two children are playing on a seesaw. Child A weighs 30 kg and sits 2 m from the fulcrum. Where should Child B, who weighs 40 kg, sit to balance the seesaw?",
-    "answer": {
-      "type": "text",
-      "content": "Child B should sit 1.5 m from the fulcrum."
-    },
-    "explanation": "To balance a lever:\n```Torque_A = Torque_B```\nChild A: 30 kg × 9.8 m/s² × 2 m = 588 Nm\nLet distance for Child B be x:\n40 kg × 9.8 m/s² × x = 588 Nm\n392x = 588 → x = ***1.5 m***\nSo, Child B should sit ***1.5 meters*** from the fulcrum."
-  },
-  {
-    "title": "Movable Pulley Advantage",
-    "ques": "In a movable pulley setup, a person lifts a 300 N load with only 150 N of effort. What is the mechanical advantage, and how does it work?",
-    "answer": {
-      "type": "text",
-      "content": "The mechanical advantage is 2, because the pulley shares the load equally between two rope segments."
-    },
-    "explanation": "***Movable pulleys*** reduce effort by distributing the load.\nHere:\n```MA = Load / Effort = 300 N / 150 N = 2```\nThe load is supported by ***2 rope segments***, so each segment carries half the weight.\nThis means the user exerts ***only half the force*** required without the pulley."
-  },
-  {
-    "title": "Bernoulli in a Water Hose Nozzle",
-    "ques": "Why does narrowing the nozzle of a garden hose increase the speed of the water stream?",
-    "answer": {
-      "type": "text",
-      "content": "Narrowing the nozzle increases water speed due to conservation of energy and Bernoulli’s principle."
-    },
-    "explanation": "As the nozzle narrows:\n- Cross-sectional area decreases\n- Continuity equation: ```A₁v₁ = A₂v₂```\nSo, speed must ***increase*** in the narrow section\nBernoulli’s principle: higher speed → ***lower pressure***\nThis accelerates water into a ***faster, more focused stream***."
-  },
-  {
-    "title": "Bernoulli and Airplane Wings",
-    "ques": "How does Bernoulli’s principle help an airplane wing generate lift?",
-    "answer": {
-      "type": "text",
-      "content": "The curved top of the wing causes faster airflow and lower pressure, generating lift due to pressure difference."
-    },
-    "explanation": "***Airfoil shape*** causes air to travel faster over the curved top\nAccording to ***Bernoulli’s principle***:\n```Faster air = Lower pressure```\nSo:\n- Top of wing = ***low pressure***\n- Bottom of wing = ***high pressure***\nThis pressure difference creates an ***upward force*** → called ***lift***."
-  },
-  {
-    "title": "Light Bending Near Black Holes",
-    "ques": "Why does light appear to bend near a black hole, even though it has no mass?",
-    "answer": {
-      "type": "text",
-      "content": "Light follows the curved space-time near a black hole, which makes it appear to bend."
-    },
-    "explanation": "General relativity explains that ***massive objects*** like black holes curve ***space-time***.\nLight travels in straight lines, but in curved space-time, those lines appear bent.\nThis effect is called ***gravitational lensing***.\n```Mass bends space → light follows curved path```\nSo, light appears to ***bend around*** the black hole."
-  },
-  {
-    "title": "Altitude and Cosmic Ray Intensity",
-    "ques": "Why is cosmic ray exposure higher on airplanes than on the ground?",
-    "answer": {
-      "type": "text",
-      "content": "At high altitudes, the atmosphere is thinner, providing less shielding from cosmic rays."
-    },
-    "explanation": "Earth’s atmosphere blocks many ***high-energy particles*** from space.\nAt cruising altitude (≈10 km):\n- Less atmospheric shielding\n- More ***secondary cosmic rays*** reach the cabin\nSo, airline passengers and crew receive ***more exposure*** than people at sea level.\nThis is monitored in ***aviation safety*** systems."
-  },
-  {
-    "title": "Lever Efficiency in a Crowbar",
-    "ques": "A worker uses a crowbar to lift a heavy rock. The fulcrum is placed close to the rock, and the effort is applied at the far end. Why is this setup effective?",
-    "answer": {
-      "type": "text",
-      "content": "Placing the fulcrum near the load increases the mechanical advantage, requiring less effort to lift the rock."
-    },
-    "explanation": "This is a ***first-class lever***, where:\n```Effort - Fulcrum - Load```\nBy placing the fulcrum close to the load:\n- The ***effort arm is long***\n- The ***load arm is short***\nMechanical advantage = ```Effort arm / Load arm```\nThis increases the ***output force***, making it easier to lift the rock."
-  },
-  {
-    "title": "Compound Pulley Force Calculation",
-    "ques": "A compound pulley system has 4 supporting ropes. How much effort is needed to lift a 400 N load, ignoring friction?",
-    "answer": {
-      "type": "text",
-      "content": "100 N of effort is needed."
-    },
-    "explanation": "In an ideal system:\n```Mechanical Advantage = Number of rope segments = 4```\nEffort = ```Load / MA = 400 N / 4 = 100 N```\nSo only ***100 N of effort*** is needed to lift a ***400 N load*** using this compound pulley."
-  },
-  {
-    "title": "Venturi Effect in Atomizers",
-    "ques": "How does the Venturi effect, based on Bernoulli’s principle, help perfume atomizers function?",
-    "answer": {
-      "type": "text",
-      "content": "Fast-moving air lowers pressure at the tube opening, drawing liquid upward and dispersing it into mist."
-    },
-    "explanation": "Bernoulli’s principle: ***Higher fluid speed = Lower pressure***\nIn an atomizer:\n- Air moves quickly across a small tube opening\n- Pressure drops at the opening\n- Atmospheric pressure pushes perfume upward into the stream\n- The fast air disperses it as a ***fine mist***\nThis is called the ***Venturi effect***."
-  },
-  {
-    "title": "Water Flow in Pipes",
-    "ques": "Water flows through a horizontal pipe that narrows midway. What happens to the pressure and speed in the narrower section?",
-    "answer": {
-      "type": "text",
-      "content": "The water speeds up and pressure decreases in the narrower section."
-    },
-    "explanation": "According to ***Bernoulli’s principle***:\n```As cross-sectional area decreases, speed increases```\nFrom continuity: ```A₁v₁ = A₂v₂```\nFrom Bernoulli:\n```High speed = Low pressure```\nSo, in the narrow section:\n- Speed ↑\n- Pressure ↓\nThis explains ***fluid acceleration*** in tapered pipes."
-  },
-  {
-    "title": "Escape Velocity of a Black Hole",
-    "ques": "Why can’t anything escape from a black hole once it crosses the event horizon?",
-    "answer": {
-      "type": "text",
-      "content": "The escape velocity inside the event horizon exceeds the speed of light, which nothing can surpass."
-    },
-    "explanation": "Escape velocity = ```√(2GM/R)```\nFor a black hole:\n- At the ***event horizon***, this velocity = ***speed of light (c)***\n- Inside the event horizon: escape velocity > c\nSince ***nothing travels faster than light***, not even light can escape\nThis is why black holes appear ***completely black***."
-  },
-  {
-    "title": "Solar Flares and Cosmic Rays",
-    "ques": "How do solar flares influence cosmic ray levels near Earth?",
-    "answer": {
-      "type": "text",
-      "content": "Solar flares can increase cosmic ray flux temporarily, affecting satellites and communication systems."
-    },
-    "explanation": "Solar flares eject high-energy particles into space.\nThese include ***protons and electrons*** that travel at near-light speeds.\nWhen directed at Earth:\n- They temporarily ***raise cosmic ray levels***\n- Can damage satellite electronics\n- May disrupt ***radio signals and GPS systems***\nThese events are monitored by ***space weather agencies***."
-  }
+    {
+        "title": "Inclined Plane Analysis 📐",
+        "ques": "A 50 kg box slides down a 30° incline with μk = 0.2.\n\n1. Calculate normal force\n2. Calculate friction force\n3. Calculate acceleration down the slope",
+        "answer": {
+            "type": "text",
+            "content": "**1. Normal force:**\n```\nN = mg cos(30°) = 50 × 10 × 0.866 = 433 N\n```\n\n**2. Friction:**\n```\nf = μN = 0.2 × 433 = 86.6 N\n```\n\n**3. Acceleration:**\n```\nF_net = mg sin(30°) - f\n      = 500 × 0.5 - 86.6 = 163.4 N\na = F/m = 163.4/50 = 3.27 m/s²\n```"
+        },
+        "explanation": "**Inclined planes** demonstrate force components. Parallel component (mg sin θ) drives motion; normal force (mg cos θ) determines friction."
+    }
 ]

@@ -1,380 +1,56 @@
 [
-  {
-    "title": "Natural Selection in Action",
-    "ques": "How does natural selection lead to the development of antibiotic-resistant bacteria?",
-    "answer": {
-      "type": "text",
-      "content": "Natural selection favors bacteria that survive antibiotic treatment.\nThese bacteria reproduce and pass on resistance genes.\nOver time, the population becomes predominantly resistant."
+    {
+        "title": "Natural Selection 🦒",
+        "ques": "Explain Darwin's natural selection in 4 steps:\n1. What are the conditions needed?\n2. Give an example (peppered moths)",
+        "answer": {
+            "type": "text",
+            "content": "**4 Steps:**\n1. Variation exists in population\n2. Some variations are heritable\n3. More offspring than can survive\n4. Favorable traits increase in frequency\n\n**Peppered moths:** Before industrial revolution, light moths common. Pollution darkened trees → dark moths survived better → dark moths became common"
+        },
+        "explanation": "**Natural selection** is the mechanism of evolution. Environment 'selects' individuals with advantageous traits."
     },
-    "explanation": "***Natural selection*** is the process by which organisms better adapted to their environment survive and reproduce more successfully.\nWhen antibiotics are used, they kill most of the bacteria, but ***some may have genetic mutations*** that allow them to survive.\nThese ***surviving bacteria*** reproduce and pass on the resistance trait.\nOver generations, the entire population may become resistant due to ***selection pressure***.\n```Antibiotic resistance``` is a real-world example of natural selection."
-  },
-  {
-    "title": "Fossils as Evidence for Evolution",
-    "ques": "What can the fossil record tell us about the evolution of life on Earth?",
-    "answer": {
-      "type": "text",
-      "content": "Fossils show changes in species over time.\nThey provide evidence of extinct species.\nThey help trace the evolutionary history of modern organisms."
+    {
+        "title": "Evidence for Evolution 🦴",
+        "ques": "Explain these types of evidence:\n1. Fossil evidence\n2. Homologous structures\n3. Vestigial structures",
+        "answer": {
+            "type": "text",
+            "content": "**1. Fossils:** Show transitional forms (e.g., Archaeopteryx - dinosaur→bird)\n\n**2. Homologous structures:** Same bone structure, different function (arm, wing, flipper) → common ancestor\n\n**3. Vestigial structures:** Reduced organs with no function (human appendix, whale hip bones) → had function in ancestors"
+        },
+        "explanation": "**Multiple lines of evidence** support evolution: fossils, anatomy, embryology, molecular biology."
     },
-    "explanation": "Fossils are ***preserved remains or traces*** of ancient organisms.\nBy studying layers of rock, scientists can ***date fossils chronologically*** and observe the appearance and disappearance of species.\nFossils show ***transitional forms*** that indicate gradual changes, supporting ***descent with modification***.\n```Archaeopteryx```, for example, shows features of both reptiles and birds, linking the two groups."
-  },
-  {
-    "title": "Homologous Structures and Common Ancestry",
-    "ques": "How do homologous structures support the theory of evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Homologous structures have similar anatomy but different functions.\nThey suggest a common ancestor.\nThey show how species diverged over time."
+    {
+        "title": "Speciation 🌿",
+        "ques": "1. What is speciation?\n2. Explain allopatric vs sympatric\n3. What is reproductive isolation?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Speciation:** Formation of new species\n\n**2. Types:**\n- Allopatric: Geographic barrier separates populations\n- Sympatric: Speciation in same area (polyploidy, habitat specialization)\n\n**3. Reproductive isolation:** Cannot interbreed and produce fertile offspring (defines species)"
+        },
+        "explanation": "**Speciation** requires reproductive isolation. Geographic barriers often start the process by preventing gene flow."
     },
-    "explanation": "***Homologous structures*** are body parts that are structurally similar in related species but may serve different functions.\nFor example, the ***forelimbs of humans, whales, and bats*** have similar bone structures.\nDespite differences in function (grasping, swimming, flying), the similarity in structure suggests ***descent from a common ancestor***.\nThis supports the idea of ***divergent evolution***, where related species evolve different traits."
-  },
-  {
-    "title": "Genetic Drift in Small Populations",
-    "ques": "What is genetic drift and how does it affect small populations?",
-    "answer": {
-      "type": "text",
-      "content": "Genetic drift is a random change in allele frequencies.\nIt affects small populations more strongly.\nIt can lead to the loss of genetic variation."
+    {
+        "title": "Genetic Drift 🎴",
+        "ques": "1. What is genetic drift?\n2. Explain bottleneck effect\n3. Explain founder effect",
+        "answer": {
+            "type": "text",
+            "content": "**1. Genetic drift:** Random changes in allele frequency, especially in small populations\n\n**2. Bottleneck:** Population crash reduces genetic diversity (cheetahs)\n\n**3. Founder effect:** Small group colonizes new area → limited genetic diversity (Amish communities)"
+        },
+        "explanation": "**Genetic drift** is evolution by chance, not selection. It's stronger in small populations."
     },
-    "explanation": "***Genetic drift*** refers to ***random changes*** in allele frequencies from one generation to the next.\nIn small populations, chance events like natural disasters can ***greatly reduce genetic diversity***.\nThis can lead to the ***fixation or loss of alleles*** unrelated to their usefulness.\nExamples include the ***bottleneck effect*** and the ***founder effect***, both of which can drastically change a population’s genetic makeup."
-  },
-  {
-    "title": "Speciation and Isolation Mechanisms",
-    "ques": "How can geographic isolation lead to the formation of new species?",
-    "answer": {
-      "type": "text",
-      "content": "Geographic isolation separates populations.\nEach group evolves independently.\nOver time, reproductive barriers form, leading to speciation."
+    {
+        "title": "Human Evolution 🧍",
+        "ques": "Put in order (oldest first):\n1. Homo sapiens\n2. Australopithecus\n3. Homo erectus",
+        "answer": {
+            "type": "text",
+            "content": "**Correct order:**\n1. Australopithecus (~4 mya) - bipedal, small brain\n2. Homo erectus (~1.9 mya) - larger brain, used fire\n3. Homo sapiens (~300 kya) - modern humans\n\n**Key traits:** Bipedalism → tool use → larger brain → language"
+        },
+        "explanation": "**Human evolution** shows gradual development of key traits. We share 98% of DNA with chimpanzees."
     },
-    "explanation": "***Speciation*** is the formation of new species from existing ones.\n***Geographic isolation*** occurs when physical barriers (mountains, rivers, etc.) separate a population.\nEach group faces different environmental pressures, leading to ***different adaptations***.\nEventually, genetic differences accumulate, and even if they come into contact again, ***they can no longer interbreed***.\nThis is called ***reproductive isolation*** and marks the formation of a new species."
-  },
-  {
-    "title": "Human Evolutionary Traits",
-    "ques": "What are some key features that distinguish modern humans from their ancestors?",
-    "answer": {
-      "type": "text",
-      "content": "Modern humans have larger brains.\nThey show advanced tool use and culture.\nThey walk fully upright and have a flatter face."
-    },
-    "explanation": "Modern humans, ***Homo sapiens***, have several traits that distinguish them from earlier hominins.\nOne key feature is a ***larger and more complex brain***, supporting language and abstract thought.\nHumans also developed ***sophisticated tools, art, and social structures***.\nCompared to ancestors like ***Australopithecus***, humans walk fully upright, have ***shorter arms, longer legs***, and a ***flatter face with a pronounced chin***.\nThese traits reflect adaptations to changing environments and lifestyles."
-  },
-  {
-    "title": "Camouflage and Adaptation",
-    "ques": "How does camouflage provide an evolutionary advantage to certain organisms?",
-    "answer": {
-      "type": "text",
-      "content": "Camouflage helps organisms avoid predators.\nThis increases their chances of survival and reproduction.\nOver time, camouflaged traits become more common in the population."
-    },
-    "explanation": "***Camouflage*** is a form of ***adaptation*** that allows organisms to blend in with their surroundings.\nThis trait helps them avoid being seen by predators, giving them a higher chance of surviving.\nSurvivors are more likely to reproduce and pass on the trait.\nAs a result, camouflage becomes more widespread in the species due to ***natural selection***."
-  },
-  {
-    "title": "Transitional Fossils",
-    "ques": "Why are transitional fossils important in understanding evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Transitional fossils show traits from both ancestral and modern species.\nThey provide a snapshot of evolutionary change.\nThey support the idea of gradual evolution over time."
-    },
-    "explanation": "***Transitional fossils*** are fossils that exhibit characteristics of both ancient and more recent species.\nThey demonstrate ***intermediate stages*** in evolution, bridging gaps between groups.\nFor example, ```Tiktaalik``` has features of both fish and early amphibians.\nThese fossils support the idea of ***gradual evolutionary change*** and help trace ***lineages over millions of years***."
-  },
-  {
-    "title": "Vestigial Structures",
-    "ques": "What are vestigial structures and how do they support evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Vestigial structures are reduced or unused body parts.\nThey are remnants of features from ancestors.\nTheir presence shows how species have changed over time."
-    },
-    "explanation": "***Vestigial structures*** are body parts that have lost their original function through evolution.\nExamples include the ***human appendix*** and ***pelvic bones in whales***.\nThese structures are ***evolutionary leftovers***, suggesting that species have adapted over time and no longer need certain traits.\nTheir existence supports the idea of ***descent with modification***."
-  },
-  {
-    "title": "Founder Effect and Genetic Drift",
-    "ques": "How does the founder effect influence genetic variation in a new population?",
-    "answer": {
-      "type": "text",
-      "content": "The founder effect occurs when a small group starts a new population.\nThis group carries only a fraction of the original gene pool.\nGenetic variation is reduced and certain traits become more common."
-    },
-    "explanation": "The ***founder effect*** is a type of ***genetic drift*** that happens when a small number of individuals colonize a new area.\nBecause this group represents only a small sample of the original population, ***allele frequencies*** may differ.\nOver time, ***rare traits*** can become more common or ***diverse traits can be lost***, reducing overall genetic diversity.\nThis effect highlights the role of chance in evolution."
-  },
-  {
-    "title": "Sympatric Speciation",
-    "ques": "Can new species form without geographic isolation? Explain with an example.",
-    "answer": {
-      "type": "text",
-      "content": "Yes, through sympatric speciation.\nIt occurs when species evolve in the same area but are reproductively isolated.\nAn example is cichlid fish in African lakes developing different mating preferences."
-    },
-    "explanation": "***Sympatric speciation*** occurs when new species evolve from a single population in the ***same geographic area***.\nThis can happen due to ***behavioral changes, mating preferences, or ecological specialization***.\nIn African lakes, ***cichlid fish*** evolved into many species in the same environment, driven by ***differences in diet, color preference, and habitat use***.\nThis shows speciation can occur even without physical separation."
-  },
-  {
-    "title": "Bipedalism in Human Evolution",
-    "ques": "Why was the development of bipedalism important in human evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Bipedalism freed the hands for tool use and carrying objects.\nIt allowed early humans to see over tall grass and travel long distances efficiently.\nIt marked a major shift in human evolution."
-    },
-    "explanation": "***Bipedalism*** is the ability to walk on two legs.\nThis adaptation allowed early hominins to ***use their hands for tools and tasks***, increasing survival.\nStanding upright also helped with ***thermoregulation*** and improved ***field of vision*** in open environments.\nFossils like ```Australopithecus afarensis``` show early signs of bipedal traits.\nThis change was ***crucial for later developments in brain size and culture***."
-  },
-  {
-    "title": "Natural Selection and Environmental Change",
-    "ques": "How can a sudden change in environment drive natural selection in a population?",
-    "answer": {
-      "type": "text",
-      "content": "Sudden changes can favor individuals with specific traits.\nThese individuals survive and reproduce more.\nOver generations, the population evolves to adapt to the new conditions."
-    },
-    "explanation": "A ***sudden environmental change***, like a drought or climate shift, creates ***new selection pressures***.\nOrganisms with traits that provide an advantage in the new environment are ***more likely to survive and pass on those traits***.\nOthers may die out.\nThis leads to ***a shift in the gene pool***, and the population evolves to become better suited to the new environment.\nThis is a direct example of ***natural selection in response to environmental stress***."
-  },
-  {
-    "title": "Comparative Embryology",
-    "ques": "How does the study of embryos support the theory of evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Embryos of different species show similar developmental stages.\nThis suggests they share a common ancestor.\nSimilarities in early development support evolutionary relationships."
-    },
-    "explanation": "***Comparative embryology*** reveals that many animals, including humans, fish, and birds, share ***similar embryonic stages***.\nFor example, ***gill slits and tail structures*** appear in early development in all vertebrates.\nThese similarities suggest a ***shared evolutionary origin***.\nAs development continues, species diverge, reflecting ***evolutionary branching*** from common ancestors."
-  },
-  {
-    "title": "Analogous vs Homologous Structures",
-    "ques": "Why are homologous structures more significant for studying evolution than analogous structures?",
-    "answer": {
-      "type": "text",
-      "content": "Homologous structures indicate common ancestry.\nAnalogous structures result from convergent evolution.\nOnly homologous structures reflect shared evolutionary history."
-    },
-    "explanation": "***Homologous structures*** have ***similar internal anatomy*** but may have different functions, such as the wing of a bat and the hand of a human.\nThey indicate ***divergent evolution*** from a ***common ancestor***.\nIn contrast, ***analogous structures***, like a bird's wing and an insect’s wing, perform the same function but evolved ***independently***.\nThis is ***convergent evolution*** and does not imply close relatedness.\nThus, homologous traits are more reliable for tracing ***evolutionary relationships***."
-  },
-  {
-    "title": "Bottleneck Effect and Survival",
-    "ques": "How does the bottleneck effect influence the future of a population's evolution?",
-    "answer": {
-      "type": "text",
-      "content": "The bottleneck effect drastically reduces genetic diversity.\nSurviving traits may not represent the original population.\nThis can limit adaptability and influence future evolution."
-    },
-    "explanation": "The ***bottleneck effect*** occurs when a large population is suddenly reduced due to a disaster or human activity.\nThe ***few survivors*** carry only a small fraction of the original genetic variation.\nThis ***loss of diversity*** can make the population more vulnerable to disease or environmental changes.\nIt may also lead to ***increased inbreeding*** and fixation of ***harmful alleles***.\nAs a result, the population's ***evolutionary path is shaped by chance*** more than by selection."
-  },
-  {
-    "title": "Behavioral Isolation and Speciation",
-    "ques": "What role does behavioral isolation play in the formation of new species?",
-    "answer": {
-      "type": "text",
-      "content": "Behavioral isolation prevents mating between groups.\nDifferent mating rituals or signals cause this barrier.\nOver time, it can lead to speciation."
-    },
-    "explanation": "***Behavioral isolation*** occurs when populations develop ***different courtship behaviors or mating calls***.\nEven if they live in the same area, these differences prevent interbreeding.\nFor example, ***frog species*** may call at different pitches or times, preventing mating between them.\nWith continued isolation, ***genetic differences accumulate***, leading to the formation of ***new species (speciation)***."
-  },
-  {
-    "title": "Cranial Capacity in Human Evolution",
-    "ques": "How did changes in cranial capacity impact the evolution of Homo species?",
-    "answer": {
-      "type": "text",
-      "content": "Increased cranial capacity allowed for more complex thinking.\nIt supported language, planning, and social behavior.\nThis gave Homo species evolutionary advantages."
-    },
-    "explanation": "Over time, ***cranial capacity*** increased in the human lineage, from ***Australopithecus*** to ***Homo habilis*** and ***Homo sapiens***.\nA larger brain enabled ***advanced cognitive functions*** like ***problem solving, language, memory, and abstract thinking***.\nThese traits improved survival through ***tool-making, group cooperation, and communication***.\nBrain development was key in ***differentiating humans from other primates*** and enhancing their adaptability."
-  },
-  {
-    "title": "Directional Selection in Action",
-    "ques": "How does directional selection shift the traits of a population over time?",
-    "answer": {
-      "type": "text",
-      "content": "Directional selection favors one extreme trait.\nIt shifts the average trait in one direction.\nOver time, the population evolves toward that trait."
-    },
-    "explanation": "***Directional selection*** occurs when individuals at ***one end of the phenotypic spectrum*** have higher fitness.\nThis leads to a ***gradual shift*** in the average value of the trait.\nFor example, if larger beak size helps birds crack tougher seeds, ***birds with bigger beaks are more likely to survive and reproduce***.\nOver generations, ***the average beak size increases*** in the population."
-  },
-  {
-    "title": "Molecular Evidence of Evolution",
-    "ques": "How does DNA comparison provide evidence for evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Similar DNA sequences suggest shared ancestry.\nMore differences indicate greater evolutionary distance.\nThis helps construct evolutionary trees."
-    },
-    "explanation": "By comparing ***DNA sequences*** across species, scientists can measure ***genetic similarity***.\nClosely related species, like humans and chimpanzees, share ***more than 98% of their DNA***.\nGreater genetic differences suggest ***a longer time since divergence***.\nThis molecular evidence helps build ***phylogenetic trees***, showing relationships among species and supporting ***common descent***."
-  },
-  {
-    "title": "Convergent Evolution and Analogous Traits",
-    "ques": "What is convergent evolution and how does it differ from common ancestry?",
-    "answer": {
-      "type": "text",
-      "content": "Convergent evolution leads to similar traits in unrelated species.\nThese traits arise due to similar environments, not shared ancestry.\nExamples include wings in birds and insects."
-    },
-    "explanation": "***Convergent evolution*** occurs when ***unrelated species evolve similar traits*** due to facing similar environmental pressures.\nThis results in ***analogous structures*** that perform the same function but have ***different origins***.\nFor instance, the wings of ***birds and insects*** are structurally different but serve the same purpose: flight.\nThese similarities are due to ***natural selection acting in similar ways***, not shared ancestry."
-  },
-  {
-    "title": "Temporal Isolation and Speciation",
-    "ques": "How does temporal isolation lead to the development of new species?",
-    "answer": {
-      "type": "text",
-      "content": "Temporal isolation occurs when species reproduce at different times.\nThis prevents interbreeding even if they live in the same area.\nIt can lead to reproductive isolation and speciation."
-    },
-    "explanation": "***Temporal isolation*** is a form of reproductive barrier where ***two populations breed at different times***—different seasons, times of day, or years.\nEven if they live in the same habitat, ***they can't interbreed*** due to this timing difference.\nOver time, this isolation can result in ***genetic divergence*** and the formation of ***distinct species***.\nAn example is ***different frog species calling at different times of night***."
-  },
-  {
-    "title": "Role of Mutations in Evolution",
-    "ques": "Why are genetic mutations important for natural selection to occur?",
-    "answer": {
-      "type": "text",
-      "content": "Mutations introduce new genetic variation.\nThey create traits that may offer survival advantages.\nNatural selection acts on these traits over time."
-    },
-    "explanation": "***Mutations*** are changes in DNA that occur randomly.\nThey are the ***ultimate source of genetic variation*** in a population.\nSome mutations are neutral or harmful, but ***others can offer advantages*** in certain environments.\nNatural selection favors these beneficial mutations, leading to ***evolution of the population***.\nWithout mutations, ***natural selection would have no raw material to work on***."
-  },
-  {
-    "title": "Fossil Dating Methods",
-    "ques": "How do scientists determine the age of fossils, and why is this important for studying evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Scientists use radiometric and relative dating to estimate fossil ages.\nAccurate dating helps place fossils in evolutionary order.\nIt reveals patterns of gradual change over time."
-    },
-    "explanation": "***Radiometric dating*** measures the decay of isotopes like ***carbon-14 or uranium-238*** to determine absolute age.\n***Relative dating*** compares a fossil’s position in rock layers to estimate age.\nCombining these methods allows scientists to ***construct a timeline of life***.\nThis helps identify ***when species appeared, evolved, or went extinct***, supporting the theory of evolution with ***temporal context***."
-  },
-  {
-    "title": "Artificial vs Natural Selection",
-    "ques": "How does artificial selection differ from natural selection, and what does it tell us about evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Artificial selection is driven by humans.\nNatural selection is driven by environmental pressures.\nBoth lead to changes in traits over generations."
-    },
-    "explanation": "***Artificial selection*** involves ***human choice***, where humans breed plants or animals for specific traits (e.g., larger fruits or docile behavior).\nIn ***natural selection***, traits evolve because they provide ***a survival or reproductive advantage*** in nature.\nThe fact that traits can change over generations in both cases ***demonstrates the power of selection*** in shaping species.\nArtificial selection serves as a ***model for understanding natural evolutionary processes***."
-  },
-  {
-    "title": "Adaptive Radiation",
-    "ques": "What is adaptive radiation and how does it lead to biodiversity?",
-    "answer": {
-      "type": "text",
-      "content": "Adaptive radiation is rapid evolution from a common ancestor.\nSpecies adapt to different niches.\nIt increases biodiversity through speciation."
-    },
-    "explanation": "***Adaptive radiation*** happens when a single ancestral species gives rise to ***many new species***, each adapted to different ecological niches.\nA famous example is ***Darwin’s finches*** in the Galápagos Islands, where finches evolved different beak shapes to feed on different food sources.\nThis process leads to ***rapid diversification*** and helps explain the origin of ***many related species in a short period***."
-  },
-  {
-    "title": "Fossil Gaps and Evolution",
-    "ques": "Do gaps in the fossil record weaken the theory of evolution? Why or why not?",
-    "answer": {
-      "type": "text",
-      "content": "Gaps exist due to rare fossilization conditions.\nBut enough fossils exist to show gradual change.\nOverall, fossil evidence supports evolution strongly."
-    },
-    "explanation": "Fossils only form under ***specific conditions***, so it’s normal for the record to be ***incomplete***.\nDespite this, scientists have discovered ***numerous transitional fossils*** that clearly show evolutionary links, like ***Archaeopteryx*** between dinosaurs and birds.\nGaps don’t weaken evolution; instead, the ***consistency and direction of fossil evidence*** strongly support evolutionary theory."
-  },
-  {
-    "title": "Genetic Drift in Small Populations",
-    "ques": "Why is genetic drift more impactful in small populations?",
-    "answer": {
-      "type": "text",
-      "content": "In small populations, random changes in allele frequencies are more noticeable.\nChance events can fix or eliminate traits quickly.\nThis can lead to rapid evolution without natural selection."
-    },
-    "explanation": "***Genetic drift*** is the ***random change in allele frequencies*** from one generation to the next.\nIn large populations, these changes tend to even out.\nBut in ***small populations***, a few births or deaths can have a ***large impact***.\nTraits can disappear or become fixed by chance, leading to ***evolution independent of natural selection***.\nThis is especially important in isolated populations or after bottleneck events."
-  },
-  {
-    "title": "Cultural Evolution in Humans",
-    "ques": "How does cultural evolution interact with biological evolution in humans?",
-    "answer": {
-      "type": "text",
-      "content": "Cultural evolution involves passing knowledge and behavior.\nIt can influence survival and reproduction.\nOver time, it interacts with biological evolution in complex ways."
-    },
-    "explanation": "***Cultural evolution*** is the transmission of behaviors, tools, languages, and knowledge through ***learning and communication***.\nUnlike biological evolution, it can happen ***much faster***.\nFor example, the development of ***agriculture*** changed human diets, which in turn influenced ***biological traits like lactose tolerance***.\nThus, ***culture can create new selective pressures***, blending with biological evolution in human history."
-  },
-  {
-    "title": "Homologous Structures in Vertebrates",
-    "ques": "Why do forelimbs of different vertebrates show similar bone patterns despite different functions?",
-    "answer": {
-      "type": "text",
-      "content": "They share a common ancestor.\nThe basic bone structure was inherited and modified.\nThis supports the concept of descent with modification."
-    },
-    "explanation": "***Homologous structures*** have ***similar underlying anatomy*** but may serve different purposes.\nFor example, the forelimbs of ***humans (grasping), whales (swimming), and bats (flying)*** have the same bone arrangement.\nThis indicates they all ***inherited the structure from a common ancestor***.\nOver time, ***natural selection modified the limbs*** for different functions, illustrating ***descent with modification***."
-  },
-  {
-    "title": "Camouflage and Predator Pressure",
-    "ques": "How can camouflage traits evolve in prey species under high predation pressure?",
-    "answer": {
-      "type": "text",
-      "content": "Camouflaged individuals are harder to spot.\nThey survive more often and pass on their traits.\nOver generations, camouflage becomes more common."
-    },
-    "explanation": "When predators are common, prey animals with ***coloration that blends into their environment*** are ***less likely to be detected***.\nThese individuals survive and reproduce more successfully.\nAs a result, ***camouflage traits are selected for***.\nOver generations, the frequency of ***camouflaged individuals increases*** in the population.\nThis is a clear example of ***natural selection acting on survival advantage***."
-  },
-  {
-    "title": "Vestigial Structures and Common Ancestry",
-    "ques": "What do vestigial structures like the human appendix suggest about our evolutionary past?",
-    "answer": {
-      "type": "text",
-      "content": "They are remnants of once-useful traits.\nThey show we share ancestry with organisms that needed them.\nThis supports evolutionary theory."
-    },
-    "explanation": "***Vestigial structures*** are ***reduced or non-functional remnants*** of features that were useful in ancestral organisms.\nFor example, the ***human appendix*** may be a leftover from herbivorous ancestors who needed it for digesting cellulose.\nTheir presence suggests ***organisms have evolved over time*** and share ***common ancestry with species that relied on these structures***.\nThey provide strong ***evidence for evolutionary change***."
-  },
-  {
-    "title": "Founder Effect on Island Populations",
-    "ques": "How can the founder effect lead to the rapid evolution of island species?",
-    "answer": {
-      "type": "text",
-      "content": "A small founding group brings limited genetic diversity.\nTraits may become common by chance.\nOver time, the population can evolve in unique ways."
-    },
-    "explanation": "When a ***small group of individuals colonizes a new area***, such as an island, they carry only a ***subset of the genetic variation*** from the original population.\nThis is known as the ***founder effect***.\nBecause of ***random allele frequencies*** in the small group, certain traits may become ***fixed or lost***.\nOver time, ***genetic drift and selection*** can cause the island population to evolve ***distinct traits*** from the mainland group."
-  },
-  {
-    "title": "Fossils and Transitional Forms",
-    "ques": "How do transitional fossils like Tiktaalik support the theory of evolution?",
-    "answer": {
-      "type": "text",
-      "content": "They show traits from two different groups.\nThis demonstrates evolutionary links.\nTransitional forms confirm gradual change over time."
-    },
-    "explanation": "Transitional fossils bridge ***gaps between major groups***.\n***Tiktaalik***, for instance, displays both ***fish features*** (scales, fins) and ***early tetrapod traits*** (flat head, limb-like fins).\nIt helps us understand ***how fish evolved into amphibians***.\nThese fossils provide ***visual and anatomical evidence*** for ***gradual evolutionary transitions*** over millions of years."
-  },
-  {
-    "title": "Parallel Evolution vs Convergent Evolution",
-    "ques": "What’s the difference between parallel and convergent evolution, and what do both reveal about adaptation?",
-    "answer": {
-      "type": "text",
-      "content": "Parallel evolution occurs in related species.\nConvergent evolution occurs in unrelated species.\nBoth show how similar environments drive similar adaptations."
-    },
-    "explanation": "***Parallel evolution*** happens when ***closely related species*** independently evolve similar traits (e.g., marsupial and placental mammals developing similar forms).\n***Convergent evolution*** involves ***unrelated species*** evolving similar features due to ***similar environmental pressures*** (e.g., sharks and dolphins both have streamlined bodies).\nBoth processes highlight how ***adaptation is shaped by environment***, not necessarily ancestry."
-  },
-  {
-    "title": "Brain Development in Hominins",
-    "ques": "Why is brain size considered an important trait in the evolution of early humans?",
-    "answer": {
-      "type": "text",
-      "content": "Larger brains supported complex behavior.\nThey enabled tool use, language, and social structure.\nThis gave early humans an evolutionary advantage."
-    },
-    "explanation": "In early hominins, ***increased brain volume*** is linked to ***enhanced cognitive abilities***.\nSpecies like ***Homo erectus*** showed ***significant increases in brain size*** compared to earlier forms.\nThis allowed for ***more complex tool-making, communication, and group cooperation***.\nSuch traits boosted survival and reproduction, making ***brain size a selected trait*** in human evolution."
-  },
-  {
-    "title": "Selective Pressure from Climate Change",
-    "ques": "How might a rapid climate change event affect natural selection in a population of mammals?",
-    "answer": {
-      "type": "text",
-      "content": "Traits that help individuals survive the new climate will be favored.\nFor example, shorter fur might be selected in warmer environments.\nOver time, the population will evolve to match the new conditions."
-    },
-    "explanation": "Rapid climate change introduces ***new environmental pressures***.\nSome individuals may have ***traits that offer a survival edge*** under the new conditions—like ***shorter fur in warming climates***.\nThose individuals are more likely to ***survive and reproduce***.\nOver generations, ***natural selection will increase the frequency of those advantageous traits***, adapting the population to the changed environment."
-  },
-  {
-    "title": "Biogeography as Evolutionary Evidence",
-    "ques": "How does the geographic distribution of species support the theory of evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Species on islands often resemble nearby mainland species.\nThis suggests they share a common ancestor.\nIt supports evolution through geographic isolation and divergence."
-    },
-    "explanation": "***Biogeography*** examines how species are distributed across Earth.\nIsland species often resemble those from the ***nearest continent***, not from similar climates elsewhere.\nThis implies they ***descended from common ancestors*** that migrated and then ***evolved separately***.\nIt provides strong support for ***evolution by isolation, adaptation, and speciation***."
-  },
-  {
-    "title": "Bottleneck Effect and Genetic Diversity",
-    "ques": "What is the bottleneck effect and how can it impact the evolution of a species?",
-    "answer": {
-      "type": "text",
-      "content": "A bottleneck drastically reduces population size.\nThis lowers genetic variation.\nIt may cause rare alleles to become common or disappear entirely."
-    },
-    "explanation": "The ***bottleneck effect*** occurs when a population experiences a ***sudden and drastic reduction*** in numbers due to events like natural disasters.\nThe remaining population has ***less genetic diversity***.\nThis can result in ***increased genetic drift*** and **strong changes in allele frequencies***.\nSome traits may become ***fixed or lost by chance***, not selection, which alters evolutionary paths."
-  },
-  {
-    "title": "Comparative Embryology as Evidence",
-    "ques": "How does comparative embryology provide evidence for evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Embryos of different animals show similar stages.\nThis suggests they share common developmental pathways.\nIt supports the idea of common ancestry."
-    },
-    "explanation": "Embryos of ***vertebrates share many features in early development***, such as ***pharyngeal slits and tails***.\nEven if these features are lost in later stages, their presence in embryos suggests ***a shared evolutionary origin***.\nThis is because ***similar genes and developmental patterns*** have been inherited from ***a common ancestor***.\nComparative embryology offers ***visible developmental evidence*** for evolutionary relationships."
-  },
-  {
-    "title": "Allopatric Speciation Scenario",
-    "ques": "A river splits a population of rodents. After thousands of years, they can no longer interbreed. What type of speciation has occurred?",
-    "answer": {
-      "type": "text",
-      "content": "This is allopatric speciation.\nGeographic isolation prevented gene flow.\nEach population evolved separately into a new species."
-    },
-    "explanation": "When a ***physical barrier like a river*** separates a population, it causes ***geographic isolation***.\nThis leads to ***allopatric speciation***.\nWith no gene flow between the two groups, they undergo ***independent evolutionary changes*** due to mutation, selection, and drift.\nOver time, these differences become ***so significant*** that interbreeding is no longer possible.\nAt this point, ***two distinct species have formed***."
-  },
-  {
-    "title": "Tool Use and Evolutionary Advantage",
-    "ques": "How did tool use influence human evolution?",
-    "answer": {
-      "type": "text",
-      "content": "Tool use improved hunting and survival.\nIt led to selection for greater intelligence and coordination.\nThis influenced brain development and social behavior."
-    },
-    "explanation": "Early hominins who used tools had ***increased access to food and defense***, improving survival chances.\nThis advantage likely favored ***individuals with better cognitive and motor skills***.\nOver time, ***natural selection favored larger brains and complex thinking***.\nTool use also promoted ***social cooperation*** and ***cultural transmission***, accelerating ***both biological and cultural evolution*** in humans."
-  }
+    {
+        "title": "Adaptation Types 🦎",
+        "ques": "Classify these adaptations:\n1. Camouflage\n2. Migration\n3. Thick fur",
+        "answer": {
+            "type": "text",
+            "content": "**1. Camouflage** → Structural adaptation (body structure)\n\n**2. Migration** → Behavioral adaptation (actions)\n\n**3. Thick fur** → Structural adaptation (insulation)"
+        },
+        "explanation": "**Adaptations** help organisms survive. They can be structural, behavioral, or physiological (internal processes)."
+    }
 ]

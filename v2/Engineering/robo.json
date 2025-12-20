@@ -1,0 +1,6577 @@
+[
+    {
+        "q": "What is robotics?",
+        "type": "mcq",
+        "o": [
+            "Study of robots including design, construction, and operation",
+            "Only programming",
+            "Only mechanical design",
+            "Only electronics"
+        ]
+    },
+    {
+        "q": "A robot is a programmable machine that can execute ______ autonomously.",
+        "type": "fill_blank",
+        "answers": [
+            "tasks"
+        ],
+        "other_options": [
+            "dreams",
+            "wishes",
+            "thoughts"
+        ]
+    },
+    {
+        "q": "Robots can only work in factories.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What are the main components of a robot?",
+        "type": "mcq",
+        "o": [
+            "Sensors, actuators, controller, and structure",
+            "Only motors",
+            "Only sensors",
+            "Only software"
+        ]
+    },
+    {
+        "q": "Match the robot component with its function:",
+        "type": "match",
+        "left": [
+            "Sensor",
+            "Actuator",
+            "Controller",
+            "End effector"
+        ],
+        "right": [
+            "Perceive environment",
+            "Produce motion",
+            "Process information",
+            "Interact with objects"
+        ]
+    },
+    {
+        "q": "Rearrange the robot development history:",
+        "type": "rearrange",
+        "words": [
+            "Industrial robots",
+            "Mobile robots",
+            "Collaborative robots",
+            "Humanoid robots"
+        ]
+    },
+    {
+        "q": "What is an industrial robot?",
+        "type": "mcq",
+        "o": [
+            "Programmable manipulator for manufacturing tasks",
+            "Home assistant",
+            "Medical robot only",
+            "Toy robot"
+        ]
+    },
+    {
+        "q": "The first industrial robot was called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Unimate"
+        ],
+        "other_options": [
+            "Optimus",
+            "Atlas",
+            "Pepper"
+        ]
+    },
+    {
+        "q": "Match the robot type with its application:",
+        "type": "match",
+        "left": [
+            "SCARA",
+            "Articulated",
+            "Cartesian",
+            "Delta"
+        ],
+        "right": [
+            "Assembly",
+            "Welding",
+            "Pick and place",
+            "High-speed packaging"
+        ]
+    },
+    {
+        "q": "Industrial robots increase productivity and quality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is degrees of freedom in robotics?",
+        "type": "mcq",
+        "o": [
+            "Number of independent motions a robot can make",
+            "Speed of robot",
+            "Weight capacity",
+            "Power consumption"
+        ]
+    },
+    {
+        "q": "Rearrange robot joints by type:",
+        "type": "rearrange",
+        "words": [
+            "Revolute",
+            "Prismatic",
+            "Spherical",
+            "Screw"
+        ]
+    },
+    {
+        "q": "What is a revolute joint?",
+        "type": "mcq",
+        "o": [
+            "Joint that provides rotational motion",
+            "Linear motion joint",
+            "Fixed joint",
+            "Flexible joint"
+        ]
+    },
+    {
+        "q": "A 6-DOF robot can reach any position and ______ in its workspace.",
+        "type": "fill_blank",
+        "answers": [
+            "orientation"
+        ],
+        "other_options": [
+            "color",
+            "temperature",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the joint type with its motion:",
+        "type": "match",
+        "left": [
+            "Revolute",
+            "Prismatic",
+            "Cylindrical",
+            "Spherical"
+        ],
+        "right": [
+            "Rotation",
+            "Translation",
+            "Rotation and translation",
+            "3D rotation"
+        ]
+    },
+    {
+        "q": "The workspace is the volume a robot can reach.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is forward kinematics?",
+        "type": "mcq",
+        "o": [
+            "Calculating end effector position from joint angles",
+            "Finding joint angles from position",
+            "Speed calculation",
+            "Force analysis"
+        ]
+    },
+    {
+        "q": "Rearrange kinematic chain from base:",
+        "type": "rearrange",
+        "words": [
+            "Base",
+            "Link 1",
+            "Link 2",
+            "End effector"
+        ]
+    },
+    {
+        "q": "What is inverse kinematics?",
+        "type": "mcq",
+        "o": [
+            "Finding joint angles to achieve desired end effector position",
+            "Forward position calculation",
+            "Velocity analysis",
+            "Dynamics calculation"
+        ]
+    },
+    {
+        "q": "DH parameters describe robot ______ mathematically.",
+        "type": "fill_blank",
+        "answers": [
+            "geometry"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the kinematic term with its definition:",
+        "type": "match",
+        "left": [
+            "Link length",
+            "Link twist",
+            "Joint offset",
+            "Joint angle"
+        ],
+        "right": [
+            "Distance along x-axis",
+            "Angle about x-axis",
+            "Distance along z-axis",
+            "Angle about z-axis"
+        ]
+    },
+    {
+        "q": "Inverse kinematics may have multiple solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot dynamics?",
+        "type": "mcq",
+        "o": [
+            "Study of forces and torques affecting robot motion",
+            "Geometry study",
+            "Appearance design",
+            "Color selection"
+        ]
+    },
+    {
+        "q": "Rearrange dynamic effects:",
+        "type": "rearrange",
+        "words": [
+            "Inertia",
+            "Coriolis",
+            "Centrifugal",
+            "Gravity"
+        ]
+    },
+    {
+        "q": "What is payload in robotics?",
+        "type": "mcq",
+        "o": [
+            "Maximum weight robot can carry",
+            "Robot's own weight",
+            "Speed limit",
+            "Power requirement"
+        ]
+    },
+    {
+        "q": "Torque required increases with payload ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mass"
+        ],
+        "other_options": [
+            "color",
+            "shape",
+            "name"
+        ]
+    },
+    {
+        "q": "Match the dynamic term with its effect:",
+        "type": "match",
+        "left": [
+            "Inertia",
+            "Friction",
+            "Gravity",
+            "Backlash"
+        ],
+        "right": [
+            "Resistance to acceleration",
+            "Energy loss",
+            "Load dependent",
+            "Positioning error"
+        ]
+    },
+    {
+        "q": "Lightweight robot designs reduce energy consumption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a servo motor?",
+        "type": "mcq",
+        "o": [
+            "Motor with position feedback for precise control",
+            "Open loop motor",
+            "Hydraulic actuator",
+            "Pneumatic cylinder"
+        ]
+    },
+    {
+        "q": "Rearrange motor types by precision:",
+        "type": "rearrange",
+        "words": [
+            "DC motor",
+            "Stepper motor",
+            "Servo motor",
+            "Direct drive"
+        ]
+    },
+    {
+        "q": "What is the advantage of stepper motors?",
+        "type": "mcq",
+        "o": [
+            "Precise positioning without feedback",
+            "High speed",
+            "High power",
+            "Low cost"
+        ]
+    },
+    {
+        "q": "Brushless DC motors have longer ______ than brushed motors.",
+        "type": "fill_blank",
+        "answers": [
+            "life"
+        ],
+        "other_options": [
+            "cables",
+            "size",
+            "noise"
+        ]
+    },
+    {
+        "q": "Match the actuator with its application:",
+        "type": "match",
+        "left": [
+            "Servo motor",
+            "Stepper motor",
+            "Hydraulic",
+            "Pneumatic"
+        ],
+        "right": [
+            "Precise manipulation",
+            "CNC positioning",
+            "Heavy loads",
+            "Simple gripping"
+        ]
+    },
+    {
+        "q": "Direct drive motors eliminate gear backlash.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a harmonic drive?",
+        "type": "mcq",
+        "o": [
+            "High ratio gear reducer with zero backlash",
+            "Type of motor",
+            "Sensor type",
+            "Control algorithm"
+        ]
+    },
+    {
+        "q": "Rearrange gear types by ratio:",
+        "type": "rearrange",
+        "words": [
+            "Spur gear",
+            "Planetary gear",
+            "Harmonic drive",
+            "Cycloidal"
+        ]
+    },
+    {
+        "q": "What is gear ratio?",
+        "type": "mcq",
+        "o": [
+            "Relationship between input and output speeds",
+            "Gear efficiency",
+            "Gear size",
+            "Gear material"
+        ]
+    },
+    {
+        "q": "Higher gear ratio increases ______ at output.",
+        "type": "fill_blank",
+        "answers": [
+            "torque"
+        ],
+        "other_options": [
+            "speed",
+            "noise",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the transmission with its characteristic:",
+        "type": "match",
+        "left": [
+            "Belt",
+            "Chain",
+            "Gear",
+            "Direct"
+        ],
+        "right": [
+            "Flexible connection",
+            "High load",
+            "Precise",
+            "No transmission error"
+        ]
+    },
+    {
+        "q": "Backlash causes positioning errors in geared systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an encoder?",
+        "type": "mcq",
+        "o": [
+            "Sensor that measures position or velocity",
+            "Motor type",
+            "Controller",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "Rearrange encoder types by precision:",
+        "type": "rearrange",
+        "words": [
+            "Potentiometer",
+            "Incremental encoder",
+            "Absolute encoder",
+            "Resolver"
+        ]
+    },
+    {
+        "q": "What is the difference between incremental and absolute encoders?",
+        "type": "mcq",
+        "o": [
+            "Absolute gives position without homing",
+            "Incremental is more accurate",
+            "Absolute is cheaper",
+            "They are identical"
+        ]
+    },
+    {
+        "q": "Encoder resolution is measured in pulses per ______.",
+        "type": "fill_blank",
+        "answers": [
+            "revolution"
+        ],
+        "other_options": [
+            "second",
+            "meter",
+            "kilogram"
+        ]
+    },
+    {
+        "q": "Match the sensor with what it measures:",
+        "type": "match",
+        "left": [
+            "Encoder",
+            "Potentiometer",
+            "Tachometer",
+            "Gyroscope"
+        ],
+        "right": [
+            "Position",
+            "Angle",
+            "Velocity",
+            "Angular rate"
+        ]
+    },
+    {
+        "q": "Quadrature encoding provides direction information.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a force sensor?",
+        "type": "mcq",
+        "o": [
+            "Device that measures applied force",
+            "Motor controller",
+            "Position sensor",
+            "Temperature sensor"
+        ]
+    },
+    {
+        "q": "Rearrange force sensing methods:",
+        "type": "rearrange",
+        "words": [
+            "Strain gauge",
+            "Piezoelectric",
+            "Capacitive",
+            "Optical"
+        ]
+    },
+    {
+        "q": "What is a force-torque sensor?",
+        "type": "mcq",
+        "o": [
+            "Sensor measuring forces and torques in 6 axes",
+            "Single axis sensor",
+            "Temperature sensor",
+            "Proximity sensor"
+        ]
+    },
+    {
+        "q": "Load cells use strain gauges to measure ______.",
+        "type": "fill_blank",
+        "answers": [
+            "force"
+        ],
+        "other_options": [
+            "color",
+            "temperature",
+            "sound"
+        ]
+    },
+    {
+        "q": "Match the force sensor with its application:",
+        "type": "match",
+        "left": [
+            "Wrist sensor",
+            "Tactile sensor",
+            "Load cell",
+            "Pressure sensor"
+        ],
+        "right": [
+            "Assembly",
+            "Gripping",
+            "Weighing",
+            "Touch sensing"
+        ]
+    },
+    {
+        "q": "Force control enables compliant robot motion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a proximity sensor?",
+        "type": "mcq",
+        "o": [
+            "Sensor detecting objects without contact",
+            "Contact sensor",
+            "Temperature sensor",
+            "Pressure sensor"
+        ]
+    },
+    {
+        "q": "Rearrange proximity sensor types:",
+        "type": "rearrange",
+        "words": [
+            "Inductive",
+            "Capacitive",
+            "Ultrasonic",
+            "Optical"
+        ]
+    },
+    {
+        "q": "What materials can inductive sensors detect?",
+        "type": "mcq",
+        "o": [
+            "Metals",
+            "Plastics only",
+            "Wood only",
+            "All materials"
+        ]
+    },
+    {
+        "q": "Ultrasonic sensors measure distance using ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sound waves"
+        ],
+        "other_options": [
+            "light",
+            "magnetism",
+            "heat"
+        ]
+    },
+    {
+        "q": "Match the sensor with its sensing principle:",
+        "type": "match",
+        "left": [
+            "Inductive",
+            "Capacitive",
+            "Photoelectric",
+            "Ultrasonic"
+        ],
+        "right": [
+            "Electromagnetic field",
+            "Electric field",
+            "Light beam",
+            "Sound echo"
+        ]
+    },
+    {
+        "q": "Limit switches provide simple position feedback.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is machine vision?",
+        "type": "mcq",
+        "o": [
+            "Using cameras and algorithms to see and understand",
+            "Human vision",
+            "Microscope",
+            "Telescope"
+        ]
+    },
+    {
+        "q": "Rearrange vision system components:",
+        "type": "rearrange",
+        "words": [
+            "Camera",
+            "Lighting",
+            "Image processing",
+            "Decision making"
+        ]
+    },
+    {
+        "q": "What is resolution in machine vision?",
+        "type": "mcq",
+        "o": [
+            "Number of pixels in image",
+            "Image brightness",
+            "Color depth",
+            "Frame rate"
+        ]
+    },
+    {
+        "q": "2D vision measures position in ______ plane.",
+        "type": "fill_blank",
+        "answers": [
+            "image"
+        ],
+        "other_options": [
+            "time",
+            "frequency",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the vision application with its use:",
+        "type": "match",
+        "left": [
+            "Inspection",
+            "Guidance",
+            "Identification",
+            "Measurement"
+        ],
+        "right": [
+            "Quality control",
+            "Robot positioning",
+            "Barcode reading",
+            "Dimension checking"
+        ]
+    },
+    {
+        "q": "Proper lighting is critical for vision success.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 3D vision?",
+        "type": "mcq",
+        "o": [
+            "Capturing depth information about objects",
+            "2D imaging",
+            "Color imaging",
+            "Thermal imaging"
+        ]
+    },
+    {
+        "q": "Rearrange 3D sensing methods:",
+        "type": "rearrange",
+        "words": [
+            "Stereo vision",
+            "Structured light",
+            "Time of flight",
+            "LIDAR"
+        ]
+    },
+    {
+        "q": "What is structured light 3D scanning?",
+        "type": "mcq",
+        "o": [
+            "Projecting patterns and analyzing distortion",
+            "Using two cameras",
+            "Measuring time delay",
+            "Using lasers only"
+        ]
+    },
+    {
+        "q": "Point cloud is collection of ______ points.",
+        "type": "fill_blank",
+        "answers": [
+            "3D"
+        ],
+        "other_options": [
+            "2D",
+            "colored",
+            "weighted"
+        ]
+    },
+    {
+        "q": "Match the 3D method with its advantage:",
+        "type": "match",
+        "left": [
+            "Stereo",
+            "Structured light",
+            "ToF",
+            "LIDAR"
+        ],
+        "right": [
+            "Passive sensing",
+            "High accuracy",
+            "Fast",
+            "Long range"
+        ]
+    },
+    {
+        "q": "Depth cameras enable bin picking applications.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot control?",
+        "type": "mcq",
+        "o": [
+            "Algorithms governing robot motion and behavior",
+            "Manual operation only",
+            "Remote control only",
+            "No control"
+        ]
+    },
+    {
+        "q": "Rearrange control hierarchy:",
+        "type": "rearrange",
+        "words": [
+            "Task planning",
+            "Path planning",
+            "Motion control",
+            "Servo control"
+        ]
+    },
+    {
+        "q": "What is PID control in robotics?",
+        "type": "mcq",
+        "o": [
+            "Proportional-Integral-Derivative control algorithm",
+            "Path Input Device",
+            "Position Indicator Display",
+            "Power Input Driver"
+        ]
+    },
+    {
+        "q": "Closed-loop control uses ______ for correction.",
+        "type": "fill_blank",
+        "answers": [
+            "feedback"
+        ],
+        "other_options": [
+            "guessing",
+            "hoping",
+            "wishing"
+        ]
+    },
+    {
+        "q": "Match the control term with its function:",
+        "type": "match",
+        "left": [
+            "Proportional",
+            "Integral",
+            "Derivative",
+            "Feedforward"
+        ],
+        "right": [
+            "Reduce error",
+            "Eliminate offset",
+            "Reduce overshoot",
+            "Anticipate changes"
+        ]
+    },
+    {
+        "q": "Trajectory tracking follows desired path over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is motion planning?",
+        "type": "mcq",
+        "o": [
+            "Generating collision-free paths for robot",
+            "Motor control",
+            "Power planning",
+            "Cost planning"
+        ]
+    },
+    {
+        "q": "Rearrange motion planning steps:",
+        "type": "rearrange",
+        "words": [
+            "Configuration space",
+            "Path search",
+            "Path smoothing",
+            "Trajectory generation"
+        ]
+    },
+    {
+        "q": "What is configuration space?",
+        "type": "mcq",
+        "o": [
+            "Space of all possible robot configurations",
+            "Physical workspace",
+            "Control room",
+            "Storage space"
+        ]
+    },
+    {
+        "q": "Obstacles in workspace appear as regions in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "C-space"
+        ],
+        "other_options": [
+            "A-space",
+            "B-space",
+            "D-space"
+        ]
+    },
+    {
+        "q": "Match the planning algorithm with its approach:",
+        "type": "match",
+        "left": [
+            "RRT",
+            "PRM",
+            "A*",
+            "Potential field"
+        ],
+        "right": [
+            "Random tree",
+            "Roadmap",
+            "Graph search",
+            "Gradient descent"
+        ]
+    },
+    {
+        "q": "Path planning must avoid obstacles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot programming?",
+        "type": "mcq",
+        "o": [
+            "Creating instructions for robot operation",
+            "Physical construction",
+            "Mechanical design",
+            "Electronics assembly"
+        ]
+    },
+    {
+        "q": "Rearrange programming methods:",
+        "type": "rearrange",
+        "words": [
+            "Teach pendant",
+            "Offline programming",
+            "Simulation",
+            "AI programming"
+        ]
+    },
+    {
+        "q": "What is teach pendant programming?",
+        "type": "mcq",
+        "o": [
+            "Moving robot manually and recording positions",
+            "Writing code only",
+            "Using simulation",
+            "Using AI"
+        ]
+    },
+    {
+        "q": "Offline programming reduces production ______.",
+        "type": "fill_blank",
+        "answers": [
+            "downtime"
+        ],
+        "other_options": [
+            "speed",
+            "quality",
+            "quantity"
+        ]
+    },
+    {
+        "q": "Match the programming type with its advantage:",
+        "type": "match",
+        "left": [
+            "Teach",
+            "Offline",
+            "Simulation",
+            "Lead-through"
+        ],
+        "right": [
+            "Simple points",
+            "No downtime",
+            "Testing",
+            "Complex paths"
+        ]
+    },
+    {
+        "q": "ROS is Robot Operating System for development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an end effector?",
+        "type": "mcq",
+        "o": [
+            "Tool at the end of robot arm",
+            "Base of robot",
+            "Controller",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "Rearrange gripper types:",
+        "type": "rearrange",
+        "words": [
+            "Parallel jaw",
+            "Angular",
+            "Vacuum",
+            "Magnetic"
+        ]
+    },
+    {
+        "q": "What is a vacuum gripper?",
+        "type": "mcq",
+        "o": [
+            "Gripper using suction to hold objects",
+            "Mechanical fingers",
+            "Magnetic holder",
+            "Adhesive gripper"
+        ]
+    },
+    {
+        "q": "Grippers must match the ______ being handled.",
+        "type": "fill_blank",
+        "answers": [
+            "workpiece"
+        ],
+        "other_options": [
+            "color",
+            "name",
+            "brand"
+        ]
+    },
+    {
+        "q": "Match the gripper with its best application:",
+        "type": "match",
+        "left": [
+            "Parallel jaw",
+            "Vacuum",
+            "Magnetic",
+            "Soft gripper"
+        ],
+        "right": [
+            "Rigid parts",
+            "Flat surfaces",
+            "Ferrous metals",
+            "Delicate items"
+        ]
+    },
+    {
+        "q": "Tool changers allow multiple end effectors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a collaborative robot?",
+        "type": "mcq",
+        "o": [
+            "Robot designed to work safely alongside humans",
+            "Only industrial robot",
+            "Only toy robot",
+            "Only research robot"
+        ]
+    },
+    {
+        "q": "Rearrange cobot safety features:",
+        "type": "rearrange",
+        "words": [
+            "Force limiting",
+            "Speed monitoring",
+            "Collision detection",
+            "Safe stop"
+        ]
+    },
+    {
+        "q": "What is the main advantage of cobots?",
+        "type": "mcq",
+        "o": [
+            "Work without safety cages",
+            "Higher speed",
+            "Larger payload",
+            "Lower cost"
+        ]
+    },
+    {
+        "q": "Cobots are ideal for ______ volume production.",
+        "type": "fill_blank",
+        "answers": [
+            "high-mix low"
+        ],
+        "other_options": [
+            "mass",
+            "zero",
+            "negative"
+        ]
+    },
+    {
+        "q": "Match the cobot feature with its benefit:",
+        "type": "match",
+        "left": [
+            "Force limiting",
+            "Easy programming",
+            "Flexible deployment",
+            "Hand guiding"
+        ],
+        "right": [
+            "Human safety",
+            "Quick setup",
+            "Multiple tasks",
+            "Intuitive teaching"
+        ]
+    },
+    {
+        "q": "ISO TS 15066 covers collaborative robot safety.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mobile robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots that can move through their environment",
+            "Fixed manipulators",
+            "Only wheeled vehicles",
+            "Only drones"
+        ]
+    },
+    {
+        "q": "Rearrange mobile robot types:",
+        "type": "rearrange",
+        "words": [
+            "Wheeled",
+            "Legged",
+            "Tracked",
+            "Aerial"
+        ]
+    },
+    {
+        "q": "What is differential drive?",
+        "type": "mcq",
+        "o": [
+            "Two independently controlled wheels for steering",
+            "Four wheel steering",
+            "No wheels",
+            "Single wheel"
+        ]
+    },
+    {
+        "q": "AMR stands for Autonomous Mobile ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Robot"
+        ],
+        "other_options": [
+            "Receiver",
+            "Recorder",
+            "Reducer"
+        ]
+    },
+    {
+        "q": "Match the mobile platform with its terrain:",
+        "type": "match",
+        "left": [
+            "Wheels",
+            "Tracks",
+            "Legs",
+            "Propellers"
+        ],
+        "right": [
+            "Flat surfaces",
+            "Rough terrain",
+            "Stairs",
+            "Air"
+        ]
+    },
+    {
+        "q": "AGVs follow fixed paths while AMRs navigate dynamically.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SLAM?",
+        "type": "mcq",
+        "o": [
+            "Simultaneous Localization and Mapping",
+            "Standard Light and Motor",
+            "Sensor Linked Automated Movement",
+            "Simple Linear Actuation Method"
+        ]
+    },
+    {
+        "q": "Rearrange SLAM components:",
+        "type": "rearrange",
+        "words": [
+            "Sensing",
+            "Feature extraction",
+            "Map building",
+            "Localization"
+        ]
+    },
+    {
+        "q": "What is localization in robotics?",
+        "type": "mcq",
+        "o": [
+            "Determining robot's position in environment",
+            "Finding objects",
+            "Mapping only",
+            "Speed measurement"
+        ]
+    },
+    {
+        "q": "Odometry estimates position from wheel ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rotation"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the localization method with its sensor:",
+        "type": "match",
+        "left": [
+            "Odometry",
+            "LIDAR SLAM",
+            "Visual SLAM",
+            "GPS"
+        ],
+        "right": [
+            "Wheel encoders",
+            "Laser scanner",
+            "Camera",
+            "Satellite"
+        ]
+    },
+    {
+        "q": "Sensor fusion combines multiple sensor data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a LIDAR sensor?",
+        "type": "mcq",
+        "o": [
+            "Laser-based distance measurement sensor",
+            "Camera",
+            "Microphone",
+            "Thermometer"
+        ]
+    },
+    {
+        "q": "Rearrange navigation steps:",
+        "type": "rearrange",
+        "words": [
+            "Perception",
+            "Localization",
+            "Planning",
+            "Execution"
+        ]
+    },
+    {
+        "q": "What is obstacle avoidance?",
+        "type": "mcq",
+        "o": [
+            "Navigating around detected obstacles",
+            "Hitting obstacles",
+            "Ignoring obstacles",
+            "Removing obstacles"
+        ]
+    },
+    {
+        "q": "Safety sensors ensure robot ______ in presence of obstacles.",
+        "type": "fill_blank",
+        "answers": [
+            "stops"
+        ],
+        "other_options": [
+            "accelerates",
+            "ignores",
+            "crashes"
+        ]
+    },
+    {
+        "q": "Match the sensor with its range:",
+        "type": "match",
+        "left": [
+            "Ultrasonic",
+            "IR proximity",
+            "2D LIDAR",
+            "3D LIDAR"
+        ],
+        "right": [
+            "Short range",
+            "Very short",
+            "Medium 2D",
+            "Long range 3D"
+        ]
+    },
+    {
+        "q": "Path following executes planned trajectory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot safety?",
+        "type": "mcq",
+        "o": [
+            "Ensuring robots operate without harming people",
+            "Robot protection only",
+            "Speed optimization",
+            "Cost reduction"
+        ]
+    },
+    {
+        "q": "Rearrange safety measures:",
+        "type": "rearrange",
+        "words": [
+            "Risk assessment",
+            "Safety design",
+            "Guarding",
+            "Training"
+        ]
+    },
+    {
+        "q": "What is a safety-rated function?",
+        "type": "mcq",
+        "o": [
+            "Function meeting safety standards",
+            "Any function",
+            "Speed function",
+            "Cost function"
+        ]
+    },
+    {
+        "q": "E-stop provides immediate ______ shutdown.",
+        "type": "fill_blank",
+        "answers": [
+            "emergency"
+        ],
+        "other_options": [
+            "slow",
+            "partial",
+            "delayed"
+        ]
+    },
+    {
+        "q": "Match the safety device with its function:",
+        "type": "match",
+        "left": [
+            "Light curtain",
+            "Safety mat",
+            "Scanner",
+            "E-stop"
+        ],
+        "right": [
+            "Area protection",
+            "Floor detection",
+            "Zone monitoring",
+            "Manual stop"
+        ]
+    },
+    {
+        "q": "ISO 10218 covers industrial robot safety.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot simulation?",
+        "type": "mcq",
+        "o": [
+            "Virtual testing of robot systems",
+            "Physical testing only",
+            "Manual calculation",
+            "Paper design"
+        ]
+    },
+    {
+        "q": "Rearrange simulation benefits:",
+        "type": "rearrange",
+        "words": [
+            "Concept testing",
+            "Collision checking",
+            "Cycle time",
+            "Program validation"
+        ]
+    },
+    {
+        "q": "What can be tested in robot simulation?",
+        "type": "mcq",
+        "o": [
+            "Reachability, cycle time, and collisions",
+            "Only appearance",
+            "Only color",
+            "Only cost"
+        ]
+    },
+    {
+        "q": "Digital twin connects physical and ______ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "virtual"
+        ],
+        "other_options": [
+            "paper",
+            "mental",
+            "imaginary"
+        ]
+    },
+    {
+        "q": "Match the simulation type with its use:",
+        "type": "match",
+        "left": [
+            "Kinematic",
+            "Dynamic",
+            "Process",
+            "Factory"
+        ],
+        "right": [
+            "Motion study",
+            "Force analysis",
+            "Welding simulation",
+            "Layout planning"
+        ]
+    },
+    {
+        "q": "Offline programming uses simulation environments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot integration?",
+        "type": "mcq",
+        "o": [
+            "Combining robot with other equipment into system",
+            "Only robot installation",
+            "Only programming",
+            "Only testing"
+        ]
+    },
+    {
+        "q": "Rearrange integration steps:",
+        "type": "rearrange",
+        "words": [
+            "Design",
+            "Assembly",
+            "Programming",
+            "Commissioning"
+        ]
+    },
+    {
+        "q": "What is a robot cell?",
+        "type": "mcq",
+        "o": [
+            "Complete robot work station with peripherals",
+            "Robot alone",
+            "Controller only",
+            "Sensor only"
+        ]
+    },
+    {
+        "q": "Integration requires coordination of mechanical, electrical, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "software"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "brands"
+        ]
+    },
+    {
+        "q": "Match the integration component with its role:",
+        "type": "match",
+        "left": [
+            "PLC",
+            "HMI",
+            "Safety system",
+            "Fieldbus"
+        ],
+        "right": [
+            "Logic control",
+            "Operator interface",
+            "Protection",
+            "Communication"
+        ]
+    },
+    {
+        "q": "System integration ensures all components work together.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot welding?",
+        "type": "mcq",
+        "o": [
+            "Using robots for automated welding processes",
+            "Manual welding",
+            "Painting",
+            "Cutting"
+        ]
+    },
+    {
+        "q": "Rearrange welding process steps:",
+        "type": "rearrange",
+        "words": [
+            "Part positioning",
+            "Torch approach",
+            "Welding",
+            "Inspection"
+        ]
+    },
+    {
+        "q": "What is arc welding?",
+        "type": "mcq",
+        "o": [
+            "Welding using electric arc to melt metals",
+            "Laser welding",
+            "Ultrasonic welding",
+            "Friction welding"
+        ]
+    },
+    {
+        "q": "MIG welding uses consumable wire ______.",
+        "type": "fill_blank",
+        "answers": [
+            "electrode"
+        ],
+        "other_options": [
+            "shield",
+            "gas",
+            "flux"
+        ]
+    },
+    {
+        "q": "Match the welding type with its process:",
+        "type": "match",
+        "left": [
+            "MIG",
+            "TIG",
+            "Spot",
+            "Laser"
+        ],
+        "right": [
+            "Wire fed",
+            "Non-consumable electrode",
+            "Resistance",
+            "Beam"
+        ]
+    },
+    {
+        "q": "Seam tracking adjusts weld path automatically.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot painting?",
+        "type": "mcq",
+        "o": [
+            "Automated application of paint coatings",
+            "Manual painting",
+            "Welding",
+            "Assembly"
+        ]
+    },
+    {
+        "q": "Rearrange painting process:",
+        "type": "rearrange",
+        "words": [
+            "Surface preparation",
+            "Primer",
+            "Base coat",
+            "Clear coat"
+        ]
+    },
+    {
+        "q": "What is electrostatic painting?",
+        "type": "mcq",
+        "o": [
+            "Using charge to attract paint to surface",
+            "Manual brush",
+            "Dipping",
+            "Roller application"
+        ]
+    },
+    {
+        "q": "Paint robots operate in spray ______.",
+        "type": "fill_blank",
+        "answers": [
+            "booths"
+        ],
+        "other_options": [
+            "rooms",
+            "offices",
+            "outdoors"
+        ]
+    },
+    {
+        "q": "Match the coating with its application:",
+        "type": "match",
+        "left": [
+            "Primer",
+            "Base coat",
+            "Clear coat",
+            "Powder"
+        ],
+        "right": [
+            "Adhesion",
+            "Color",
+            "Protection",
+            "Durability"
+        ]
+    },
+    {
+        "q": "Paint robots improve finish quality and consistency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot assembly?",
+        "type": "mcq",
+        "o": [
+            "Using robots to join parts into products",
+            "Welding only",
+            "Painting only",
+            "Cutting only"
+        ]
+    },
+    {
+        "q": "Rearrange assembly operations:",
+        "type": "rearrange",
+        "words": [
+            "Part feeding",
+            "Picking",
+            "Insertion",
+            "Fastening"
+        ]
+    },
+    {
+        "q": "What is press-fit assembly?",
+        "type": "mcq",
+        "o": [
+            "Joining parts using interference fit",
+            "Welding",
+            "Gluing",
+            "Screwing"
+        ]
+    },
+    {
+        "q": "Force-controlled insertion prevents part ______.",
+        "type": "fill_blank",
+        "answers": [
+            "damage"
+        ],
+        "other_options": [
+            "coloring",
+            "naming",
+            "counting"
+        ]
+    },
+    {
+        "q": "Match the assembly method with its application:",
+        "type": "match",
+        "left": [
+            "Screw driving",
+            "Snap fit",
+            "Press fit",
+            "Adhesive"
+        ],
+        "right": [
+            "Threaded fastening",
+            "Plastic assembly",
+            "Interference join",
+            "Bonding"
+        ]
+    },
+    {
+        "q": "Compliant assembly handles part variations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is machine tending?",
+        "type": "mcq",
+        "o": [
+            "Robot loading and unloading machines",
+            "Machine repair",
+            "Machine design",
+            "Machine sale"
+        ]
+    },
+    {
+        "q": "Rearrange machine tending cycle:",
+        "type": "rearrange",
+        "words": [
+            "Approach",
+            "Door open",
+            "Part exchange",
+            "Door close"
+        ]
+    },
+    {
+        "q": "What machines do robots commonly tend?",
+        "type": "mcq",
+        "o": [
+            "CNC, injection molding, and press",
+            "Only office machines",
+            "Only printers",
+            "Only computers"
+        ]
+    },
+    {
+        "q": "Machine tending increases machine ______.",
+        "type": "fill_blank",
+        "answers": [
+            "utilization"
+        ],
+        "other_options": [
+            "cost",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the machine with its tending requirement:",
+        "type": "match",
+        "left": [
+            "CNC lathe",
+            "Injection molder",
+            "Press brake",
+            "Die cast"
+        ],
+        "right": [
+            "Part rotation",
+            "Hot parts",
+            "Sheet handling",
+            "High temperature"
+        ]
+    },
+    {
+        "q": "Dual gripper designs reduce cycle time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is material handling?",
+        "type": "mcq",
+        "o": [
+            "Moving materials using robots",
+            "Material processing",
+            "Material design",
+            "Material testing"
+        ]
+    },
+    {
+        "q": "Rearrange material handling tasks:",
+        "type": "rearrange",
+        "words": [
+            "Picking",
+            "Transporting",
+            "Placing",
+            "Sorting"
+        ]
+    },
+    {
+        "q": "What is palletizing?",
+        "type": "mcq",
+        "o": [
+            "Stacking products onto pallets",
+            "Welding",
+            "Painting",
+            "Assembly"
+        ]
+    },
+    {
+        "q": "Depalletizing removes products from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pallets"
+        ],
+        "other_options": [
+            "boxes",
+            "bags",
+            "bottles"
+        ]
+    },
+    {
+        "q": "Match the handling task with its industry:",
+        "type": "match",
+        "left": [
+            "Palletizing",
+            "Bin picking",
+            "Case packing",
+            "Sorting"
+        ],
+        "right": [
+            "End of line",
+            "Random parts",
+            "Packaging",
+            "Logistics"
+        ]
+    },
+    {
+        "q": "Layer patterns optimize pallet stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bin picking?",
+        "type": "mcq",
+        "o": [
+            "Picking randomly placed parts from bins",
+            "Organized picking",
+            "Palletizing",
+            "Stacking"
+        ]
+    },
+    {
+        "q": "Rearrange bin picking steps:",
+        "type": "rearrange",
+        "words": [
+            "3D scanning",
+            "Part recognition",
+            "Grasp planning",
+            "Picking"
+        ]
+    },
+    {
+        "q": "What makes bin picking challenging?",
+        "type": "mcq",
+        "o": [
+            "Random part positions and occlusions",
+            "Simple task",
+            "No challenges",
+            "Easy programming"
+        ]
+    },
+    {
+        "q": "Deep learning improves bin picking ______.",
+        "type": "fill_blank",
+        "answers": [
+            "accuracy"
+        ],
+        "other_options": [
+            "cost",
+            "weight",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the bin picking challenge with its solution:",
+        "type": "match",
+        "left": [
+            "Occlusion",
+            "Part variety",
+            "Tangling",
+            "Speed"
+        ],
+        "right": [
+            "Multiple views",
+            "AI recognition",
+            "Smart grasping",
+            "Parallel planning"
+        ]
+    },
+    {
+        "q": "Vision-guided picking handles part variations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot cutting?",
+        "type": "mcq",
+        "o": [
+            "Using robots for cutting operations",
+            "Painting",
+            "Welding",
+            "Assembly"
+        ]
+    },
+    {
+        "q": "Rearrange cutting methods:",
+        "type": "rearrange",
+        "words": [
+            "Plasma",
+            "Laser",
+            "Waterjet",
+            "Mechanical"
+        ]
+    },
+    {
+        "q": "What is laser cutting?",
+        "type": "mcq",
+        "o": [
+            "Cutting using focused laser beam",
+            "Mechanical cutting",
+            "Water cutting",
+            "Flame cutting"
+        ]
+    },
+    {
+        "q": "Path accuracy is critical for cutting ______.",
+        "type": "fill_blank",
+        "answers": [
+            "quality"
+        ],
+        "other_options": [
+            "speed",
+            "cost",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the cutting method with its material:",
+        "type": "match",
+        "left": [
+            "Plasma",
+            "Laser",
+            "Waterjet",
+            "Routing"
+        ],
+        "right": [
+            "Thick metal",
+            "Sheet metal",
+            "Composites",
+            "Wood and plastic"
+        ]
+    },
+    {
+        "q": "5-axis cutting enables complex shapes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot polishing?",
+        "type": "mcq",
+        "o": [
+            "Using robots for surface finishing",
+            "Cutting",
+            "Welding",
+            "Assembly"
+        ]
+    },
+    {
+        "q": "Rearrange finishing operations:",
+        "type": "rearrange",
+        "words": [
+            "Grinding",
+            "Sanding",
+            "Buffing",
+            "Polishing"
+        ]
+    },
+    {
+        "q": "What is force-controlled grinding?",
+        "type": "mcq",
+        "o": [
+            "Maintaining constant force during grinding",
+            "Position-only control",
+            "Manual grinding",
+            "No control"
+        ]
+    },
+    {
+        "q": "Surface finishing requires ______ force feedback.",
+        "type": "fill_blank",
+        "answers": [
+            "active"
+        ],
+        "other_options": [
+            "passive",
+            "zero",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the finishing with its result:",
+        "type": "match",
+        "left": [
+            "Deburring",
+            "Grinding",
+            "Polishing",
+            "Buffing"
+        ],
+        "right": [
+            "Remove edges",
+            "Material removal",
+            "Mirror finish",
+            "High gloss"
+        ]
+    },
+    {
+        "q": "Compliant tools adapt to surface irregularities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot inspection?",
+        "type": "mcq",
+        "o": [
+            "Using robots for quality inspection tasks",
+            "Robot maintenance",
+            "Robot programming",
+            "Robot design"
+        ]
+    },
+    {
+        "q": "Rearrange inspection methods:",
+        "type": "rearrange",
+        "words": [
+            "Visual",
+            "Dimensional",
+            "Surface",
+            "Functional"
+        ]
+    },
+    {
+        "q": "What is automated optical inspection?",
+        "type": "mcq",
+        "o": [
+            "Camera-based quality inspection",
+            "Manual inspection",
+            "Touch inspection",
+            "Sound inspection"
+        ]
+    },
+    {
+        "q": "Robots can move inspection sensors to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "multiple locations"
+        ],
+        "other_options": [
+            "one spot",
+            "nowhere",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the inspection with its technology:",
+        "type": "match",
+        "left": [
+            "Surface defects",
+            "Dimensions",
+            "Assembly check",
+            "Leak test"
+        ],
+        "right": [
+            "Vision AI",
+            "Laser scanner",
+            "Vision verification",
+            "Pressure sensor"
+        ]
+    },
+    {
+        "q": "Inline inspection catches defects early.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dispensing robot?",
+        "type": "mcq",
+        "o": [
+            "Robot applying adhesives, sealants, or coatings",
+            "Welding robot",
+            "Painting robot",
+            "Assembly robot"
+        ]
+    },
+    {
+        "q": "Rearrange dispensing applications:",
+        "type": "rearrange",
+        "words": [
+            "Adhesive",
+            "Sealant",
+            "Potting",
+            "Coating"
+        ]
+    },
+    {
+        "q": "What is bead consistency in dispensing?",
+        "type": "mcq",
+        "o": [
+            "Uniform material application",
+            "Random application",
+            "Variable thickness",
+            "No control"
+        ]
+    },
+    {
+        "q": "Flow rate control ensures proper ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deposition"
+        ],
+        "other_options": [
+            "removal",
+            "heating",
+            "cooling"
+        ]
+    },
+    {
+        "q": "Match the dispensing with its application:",
+        "type": "match",
+        "left": [
+            "Structural adhesive",
+            "Gasket",
+            "Potting",
+            "Conformal coating"
+        ],
+        "right": [
+            "Bonding",
+            "Sealing",
+            "Electronics protection",
+            "PCB protection"
+        ]
+    },
+    {
+        "q": "Vision guidance ensures accurate bead placement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are drones?",
+        "type": "mcq",
+        "o": [
+            "Unmanned aerial vehicles for various applications",
+            "Ground robots only",
+            "Water robots",
+            "Fixed machines"
+        ]
+    },
+    {
+        "q": "Rearrange drone types:",
+        "type": "rearrange",
+        "words": [
+            "Multirotor",
+            "Fixed wing",
+            "Hybrid",
+            "Single rotor"
+        ]
+    },
+    {
+        "q": "What is a quadcopter?",
+        "type": "mcq",
+        "o": [
+            "Drone with four rotors",
+            "Drone with two rotors",
+            "Fixed wing",
+            "Ground robot"
+        ]
+    },
+    {
+        "q": "Multirotors provide stable ______ flight.",
+        "type": "fill_blank",
+        "answers": [
+            "hover"
+        ],
+        "other_options": [
+            "forward",
+            "backward",
+            "side"
+        ]
+    },
+    {
+        "q": "Match the drone type with its advantage:",
+        "type": "match",
+        "left": [
+            "Multirotor",
+            "Fixed wing",
+            "VTOL",
+            "Helicopter"
+        ],
+        "right": [
+            "Hover ability",
+            "Long range",
+            "Vertical takeoff and range",
+            "Heavy lift"
+        ]
+    },
+    {
+        "q": "Drones require flight controller for stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is waypoint navigation for drones?",
+        "type": "mcq",
+        "o": [
+            "Flying through predefined coordinates",
+            "Manual control only",
+            "Random flight",
+            "No navigation"
+        ]
+    },
+    {
+        "q": "Rearrange drone flight modes:",
+        "type": "rearrange",
+        "words": [
+            "Manual",
+            "Stabilized",
+            "Position hold",
+            "Autonomous"
+        ]
+    },
+    {
+        "q": "What is geofencing?",
+        "type": "mcq",
+        "o": [
+            "Virtual boundaries limiting drone flight area",
+            "Physical fence",
+            "Landing pad",
+            "Take-off zone"
+        ]
+    },
+    {
+        "q": "Return to launch triggers automatic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "return home"
+        ],
+        "other_options": [
+            "landing",
+            "crash",
+            "spin"
+        ]
+    },
+    {
+        "q": "Match the drone feature with its purpose:",
+        "type": "match",
+        "left": [
+            "GPS",
+            "IMU",
+            "Barometer",
+            "Compass"
+        ],
+        "right": [
+            "Position",
+            "Orientation",
+            "Altitude",
+            "Heading"
+        ]
+    },
+    {
+        "q": "Obstacle avoidance improves flight safety.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is drone photogrammetry?",
+        "type": "mcq",
+        "o": [
+            "Creating 3D models from drone images",
+            "Simple photography",
+            "Video recording",
+            "Live streaming"
+        ]
+    },
+    {
+        "q": "Rearrange photogrammetry workflow:",
+        "type": "rearrange",
+        "words": [
+            "Flight planning",
+            "Image capture",
+            "Processing",
+            "3D model"
+        ]
+    },
+    {
+        "q": "What is GSD in drone mapping?",
+        "type": "mcq",
+        "o": [
+            "Ground Sample Distance - resolution per pixel",
+            "Ground Speed Distance",
+            "General Survey Data",
+            "Global System Data"
+        ]
+    },
+    {
+        "q": "Overlap between images enables ______ matching.",
+        "type": "fill_blank",
+        "answers": [
+            "feature"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the drone survey with its output:",
+        "type": "match",
+        "left": [
+            "Photogrammetry",
+            "LIDAR",
+            "Thermal",
+            "Multispectral"
+        ],
+        "right": [
+            "3D model",
+            "Point cloud",
+            "Heat map",
+            "Vegetation index"
+        ]
+    },
+    {
+        "q": "Drones reduce surveying time and cost.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are humanoid robots?",
+        "type": "mcq",
+        "o": [
+            "Robots with human-like form and motion",
+            "Industrial arms only",
+            "Wheeled robots only",
+            "Flying robots only"
+        ]
+    },
+    {
+        "q": "Rearrange humanoid robot capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Walking",
+            "Grasping",
+            "Speaking",
+            "Face recognition"
+        ]
+    },
+    {
+        "q": "What is bipedal locomotion?",
+        "type": "mcq",
+        "o": [
+            "Walking on two legs",
+            "Wheeled movement",
+            "Flying",
+            "Crawling"
+        ]
+    },
+    {
+        "q": "Balance control keeps humanoid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "stable"
+        ],
+        "other_options": [
+            "falling",
+            "spinning",
+            "jumping"
+        ]
+    },
+    {
+        "q": "Match the humanoid robot with its creator:",
+        "type": "match",
+        "left": [
+            "Atlas",
+            "ASIMO",
+            "Pepper",
+            "Sophia"
+        ],
+        "right": [
+            "Boston Dynamics",
+            "Honda",
+            "SoftBank",
+            "Hanson"
+        ]
+    },
+    {
+        "q": "Humanoid robots can navigate human environments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is legged locomotion?",
+        "type": "mcq",
+        "o": [
+            "Movement using legs instead of wheels",
+            "Wheeled only",
+            "Flying",
+            "Swimming"
+        ]
+    },
+    {
+        "q": "Rearrange legged robot types by leg count:",
+        "type": "rearrange",
+        "words": [
+            "Biped",
+            "Quadruped",
+            "Hexapod",
+            "Octopod"
+        ]
+    },
+    {
+        "q": "What is gait in legged robots?",
+        "type": "mcq",
+        "o": [
+            "Pattern of leg movements for locomotion",
+            "Speed only",
+            "Direction only",
+            "Acceleration only"
+        ]
+    },
+    {
+        "q": "Quadrupeds have four ______.",
+        "type": "fill_blank",
+        "answers": [
+            "legs"
+        ],
+        "other_options": [
+            "wheels",
+            "wings",
+            "arms"
+        ]
+    },
+    {
+        "q": "Match the legged robot with its terrain:",
+        "type": "match",
+        "left": [
+            "Biped",
+            "Quadruped",
+            "Hexapod",
+            "Snake"
+        ],
+        "right": [
+            "Stairs",
+            "Rough ground",
+            "Unstable surfaces",
+            "Confined spaces"
+        ]
+    },
+    {
+        "q": "Legged robots excel on uneven terrain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is underwater robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots operating in underwater environments",
+            "Ground robots",
+            "Aerial robots",
+            "Space robots"
+        ]
+    },
+    {
+        "q": "Rearrange underwater robot types:",
+        "type": "rearrange",
+        "words": [
+            "ROV",
+            "AUV",
+            "Glider",
+            "Crawler"
+        ]
+    },
+    {
+        "q": "What is ROV?",
+        "type": "mcq",
+        "o": [
+            "Remotely Operated Vehicle",
+            "Robot Operating Vehicle",
+            "Remote Optical Vision",
+            "Radio Operated Vessel"
+        ]
+    },
+    {
+        "q": "AUVs operate ______ without tether.",
+        "type": "fill_blank",
+        "answers": [
+            "autonomously"
+        ],
+        "other_options": [
+            "manually",
+            "remotely",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Match the underwater robot with its application:",
+        "type": "match",
+        "left": [
+            "ROV",
+            "AUV",
+            "Glider",
+            "Crawler"
+        ],
+        "right": [
+            "Inspection",
+            "Mapping",
+            "Ocean monitoring",
+            "Seabed work"
+        ]
+    },
+    {
+        "q": "Underwater robots work in hazardous environments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is space robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for space exploration and operations",
+            "Ground robots",
+            "Underwater robots",
+            "Aerial robots"
+        ]
+    },
+    {
+        "q": "Rearrange space robot types:",
+        "type": "rearrange",
+        "words": [
+            "Rover",
+            "Lander",
+            "Orbital manipulator",
+            "Free-flying"
+        ]
+    },
+    {
+        "q": "What are space rovers?",
+        "type": "mcq",
+        "o": [
+            "Wheeled robots for planetary exploration",
+            "Flying spacecraft",
+            "Orbital stations",
+            "Satellites"
+        ]
+    },
+    {
+        "q": "Mars rovers have significant communication ______.",
+        "type": "fill_blank",
+        "answers": [
+            "delay"
+        ],
+        "other_options": [
+            "speed",
+            "power",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the space robot with its mission:",
+        "type": "match",
+        "left": [
+            "Curiosity",
+            "Canadarm",
+            "Ingenuity",
+            "Perseverance"
+        ],
+        "right": [
+            "Mars exploration",
+            "ISS operations",
+            "Mars flight",
+            "Sample collection"
+        ]
+    },
+    {
+        "q": "Space robots require high reliability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is surgical robotics?",
+        "type": "mcq",
+        "o": [
+            "Using robots for medical procedures",
+            "Robot manufacturing",
+            "Industrial automation",
+            "Warehouse operations"
+        ]
+    },
+    {
+        "q": "Rearrange surgical robot benefits:",
+        "type": "rearrange",
+        "words": [
+            "Precision",
+            "Smaller incisions",
+            "Faster recovery",
+            "Less blood loss"
+        ]
+    },
+    {
+        "q": "What is da Vinci surgical system?",
+        "type": "mcq",
+        "o": [
+            "Robotic surgical platform for minimally invasive surgery",
+            "Industrial robot",
+            "Mobile robot",
+            "Flying robot"
+        ]
+    },
+    {
+        "q": "Surgical robots enhance surgeon's ______.",
+        "type": "fill_blank",
+        "answers": [
+            "capabilities"
+        ],
+        "other_options": [
+            "entertainment",
+            "vacation",
+            "rest"
+        ]
+    },
+    {
+        "q": "Match the surgical robot with its specialty:",
+        "type": "match",
+        "left": [
+            "da Vinci",
+            "ROSA",
+            "Mako",
+            "CyberKnife"
+        ],
+        "right": [
+            "General surgery",
+            "Neurosurgery",
+            "Orthopedics",
+            "Radiosurgery"
+        ]
+    },
+    {
+        "q": "Haptic feedback provides force sensing to surgeons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is rehabilitation robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots assisting physical therapy and recovery",
+            "Surgery robots",
+            "Industrial robots",
+            "Military robots"
+        ]
+    },
+    {
+        "q": "Rearrange rehabilitation robot types:",
+        "type": "rearrange",
+        "words": [
+            "Exoskeleton",
+            "End-effector",
+            "Wearable",
+            "Stationary"
+        ]
+    },
+    {
+        "q": "What is an exoskeleton?",
+        "type": "mcq",
+        "o": [
+            "Wearable powered structure supporting movement",
+            "Fixed robot",
+            "Mobile platform",
+            "Flying device"
+        ]
+    },
+    {
+        "q": "Therapy robots provide repetitive ______.",
+        "type": "fill_blank",
+        "answers": [
+            "exercises"
+        ],
+        "other_options": [
+            "entertainment",
+            "cooking",
+            "cleaning"
+        ]
+    },
+    {
+        "q": "Match the rehab robot with its function:",
+        "type": "match",
+        "left": [
+            "Upper limb",
+            "Lower limb",
+            "Hand",
+            "Gait training"
+        ],
+        "right": [
+            "Arm therapy",
+            "Leg therapy",
+            "Finger function",
+            "Walking assistance"
+        ]
+    },
+    {
+        "q": "Assistive robots improve quality of life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is agricultural robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for farming and agriculture tasks",
+            "Factory robots",
+            "Office robots",
+            "Entertainment robots"
+        ]
+    },
+    {
+        "q": "Rearrange agricultural robot tasks:",
+        "type": "rearrange",
+        "words": [
+            "Planting",
+            "Monitoring",
+            "Spraying",
+            "Harvesting"
+        ]
+    },
+    {
+        "q": "What is precision agriculture?",
+        "type": "mcq",
+        "o": [
+            "Using technology for optimized farming",
+            "Traditional farming",
+            "Manual labor only",
+            "Random farming"
+        ]
+    },
+    {
+        "q": "Crop monitoring robots use ______ for analysis.",
+        "type": "fill_blank",
+        "answers": [
+            "sensors"
+        ],
+        "other_options": [
+            "guessing",
+            "hoping",
+            "wishing"
+        ]
+    },
+    {
+        "q": "Match the agri-robot with its task:",
+        "type": "match",
+        "left": [
+            "Drone",
+            "Weeding robot",
+            "Harvester",
+            "Milking robot"
+        ],
+        "right": [
+            "Crop monitoring",
+            "Weed removal",
+            "Fruit picking",
+            "Dairy farming"
+        ]
+    },
+    {
+        "q": "Agricultural robots address labor shortages.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is warehouse robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for logistics and fulfillment operations",
+            "Manufacturing robots",
+            "Surgical robots",
+            "Entertainment robots"
+        ]
+    },
+    {
+        "q": "Rearrange warehouse robot types:",
+        "type": "rearrange",
+        "words": [
+            "AGV",
+            "AMR",
+            "AS/RS",
+            "Picking robot"
+        ]
+    },
+    {
+        "q": "What is goods-to-person picking?",
+        "type": "mcq",
+        "o": [
+            "Robots bring items to workers",
+            "Workers walk to items",
+            "Random selection",
+            "No picking"
+        ]
+    },
+    {
+        "q": "Warehouse robots increase order ______ speed.",
+        "type": "fill_blank",
+        "answers": [
+            "fulfillment"
+        ],
+        "other_options": [
+            "cancellation",
+            "delay",
+            "return"
+        ]
+    },
+    {
+        "q": "Match the warehouse system with its function:",
+        "type": "match",
+        "left": [
+            "AMR",
+            "Shuttle",
+            "Arm",
+            "Sorter"
+        ],
+        "right": [
+            "Transport",
+            "Storage/retrieval",
+            "Picking",
+            "Sorting"
+        ]
+    },
+    {
+        "q": "E-commerce growth drives warehouse automation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI in robotics?",
+        "type": "mcq",
+        "o": [
+            "Using artificial intelligence for robot decision making",
+            "Manual control only",
+            "Fixed programming",
+            "No intelligence"
+        ]
+    },
+    {
+        "q": "Rearrange AI capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Perception",
+            "Learning",
+            "Planning",
+            "Decision"
+        ]
+    },
+    {
+        "q": "What is machine learning in robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots learning from data and experience",
+            "Fixed programming only",
+            "Manual teaching only",
+            "No learning"
+        ]
+    },
+    {
+        "q": "Deep learning processes ______ data effectively.",
+        "type": "fill_blank",
+        "answers": [
+            "sensory"
+        ],
+        "other_options": [
+            "random",
+            "no",
+            "useless"
+        ]
+    },
+    {
+        "q": "Match the AI technique with its use:",
+        "type": "match",
+        "left": [
+            "CNN",
+            "RNN",
+            "Reinforcement learning",
+            "Imitation learning"
+        ],
+        "right": [
+            "Vision",
+            "Sequence prediction",
+            "Trial and error",
+            "Learning from demos"
+        ]
+    },
+    {
+        "q": "AI enables robots to handle uncertainty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is computer vision in robotics?",
+        "type": "mcq",
+        "o": [
+            "Processing images for robot perception",
+            "Human vision",
+            "Night vision goggles",
+            "Microscope"
+        ]
+    },
+    {
+        "q": "Rearrange vision processing pipeline:",
+        "type": "rearrange",
+        "words": [
+            "Image acquisition",
+            "Preprocessing",
+            "Feature extraction",
+            "Recognition"
+        ]
+    },
+    {
+        "q": "What is object detection?",
+        "type": "mcq",
+        "o": [
+            "Locating and classifying objects in images",
+            "Creating objects",
+            "Destroying objects",
+            "Hiding objects"
+        ]
+    },
+    {
+        "q": "Semantic segmentation labels each ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pixel"
+        ],
+        "other_options": [
+            "image",
+            "camera",
+            "screen"
+        ]
+    },
+    {
+        "q": "Match the vision task with its output:",
+        "type": "match",
+        "left": [
+            "Classification",
+            "Detection",
+            "Segmentation",
+            "Pose estimation"
+        ],
+        "right": [
+            "Class label",
+            "Bounding box",
+            "Pixel mask",
+            "Position and orientation"
+        ]
+    },
+    {
+        "q": "Real-time vision is critical for robot operation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is natural language processing for robots?",
+        "type": "mcq",
+        "o": [
+            "Enabling robots to understand human language",
+            "Robot-to-robot code",
+            "Machine code",
+            "Binary communication"
+        ]
+    },
+    {
+        "q": "Rearrange NLP components:",
+        "type": "rearrange",
+        "words": [
+            "Speech recognition",
+            "Text understanding",
+            "Intent detection",
+            "Response generation"
+        ]
+    },
+    {
+        "q": "What is speech recognition?",
+        "type": "mcq",
+        "o": [
+            "Converting spoken words to text",
+            "Text to speech",
+            "Language translation",
+            "Grammar checking"
+        ]
+    },
+    {
+        "q": "Voice assistants enable ______ interaction.",
+        "type": "fill_blank",
+        "answers": [
+            "hands-free"
+        ],
+        "other_options": [
+            "difficult",
+            "impossible",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the NLP task with its function:",
+        "type": "match",
+        "left": [
+            "ASR",
+            "NLU",
+            "Dialog",
+            "TTS"
+        ],
+        "right": [
+            "Audio to text",
+            "Understanding meaning",
+            "Conversation management",
+            "Text to audio"
+        ]
+    },
+    {
+        "q": "Conversational robots improve human-robot interaction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is reinforcement learning in robotics?",
+        "type": "mcq",
+        "o": [
+            "Learning optimal actions through rewards",
+            "Supervised learning",
+            "Unsupervised learning",
+            "No learning"
+        ]
+    },
+    {
+        "q": "Rearrange RL concepts:",
+        "type": "rearrange",
+        "words": [
+            "State",
+            "Action",
+            "Reward",
+            "Policy"
+        ]
+    },
+    {
+        "q": "What is a policy in RL?",
+        "type": "mcq",
+        "o": [
+            "Mapping from states to actions",
+            "Company rules",
+            "Insurance",
+            "Government law"
+        ]
+    },
+    {
+        "q": "Sim-to-real transfers learning from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "simulation"
+        ],
+        "other_options": [
+            "reality",
+            "dreams",
+            "imagination"
+        ]
+    },
+    {
+        "q": "Match the RL term with its meaning:",
+        "type": "match",
+        "left": [
+            "Agent",
+            "Environment",
+            "Reward",
+            "Episode"
+        ],
+        "right": [
+            "Learner/actor",
+            "World",
+            "Feedback signal",
+            "Trial run"
+        ]
+    },
+    {
+        "q": "RL enables robots to learn complex skills.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is human-robot interaction?",
+        "type": "mcq",
+        "o": [
+            "Study of communication between humans and robots",
+            "Robot-robot interaction",
+            "Human-human interaction",
+            "Machine-machine interface"
+        ]
+    },
+    {
+        "q": "Rearrange HRI modalities:",
+        "type": "rearrange",
+        "words": [
+            "Visual",
+            "Auditory",
+            "Haptic",
+            "Gesture"
+        ]
+    },
+    {
+        "q": "What is intuitive robot interface?",
+        "type": "mcq",
+        "o": [
+            "Easy to use without extensive training",
+            "Complex interface",
+            "Programming required",
+            "Expert only"
+        ]
+    },
+    {
+        "q": "Social robots use facial ______ for expression.",
+        "type": "fill_blank",
+        "answers": [
+            "expressions"
+        ],
+        "other_options": [
+            "recognition",
+            "surgery",
+            "makeup"
+        ]
+    },
+    {
+        "q": "Match the interaction type with its example:",
+        "type": "match",
+        "left": [
+            "Voice command",
+            "Gesture",
+            "Touch",
+            "Gaze"
+        ],
+        "right": [
+            "Alexa",
+            "Hand wave",
+            "Touchscreen",
+            "Eye tracking"
+        ]
+    },
+    {
+        "q": "Good HRI increases robot acceptance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot ethics?",
+        "type": "mcq",
+        "o": [
+            "Moral considerations in robot design and use",
+            "Robot programming",
+            "Robot maintenance",
+            "Robot cost"
+        ]
+    },
+    {
+        "q": "Rearrange ethical considerations:",
+        "type": "rearrange",
+        "words": [
+            "Safety",
+            "Privacy",
+            "Transparency",
+            "Accountability"
+        ]
+    },
+    {
+        "q": "What is the trolley problem in robotics?",
+        "type": "mcq",
+        "o": [
+            "Ethical dilemma about autonomous decision making",
+            "Trolley maintenance",
+            "Transportation problem",
+            "Manufacturing issue"
+        ]
+    },
+    {
+        "q": "Autonomous systems raise ______ questions.",
+        "type": "fill_blank",
+        "answers": [
+            "ethical"
+        ],
+        "other_options": [
+            "simple",
+            "easy",
+            "trivial"
+        ]
+    },
+    {
+        "q": "Match the ethical issue with its concern:",
+        "type": "match",
+        "left": [
+            "Bias",
+            "Privacy",
+            "Job displacement",
+            "Autonomy"
+        ],
+        "right": [
+            "Discrimination",
+            "Data collection",
+            "Employment",
+            "Human control"
+        ]
+    },
+    {
+        "q": "Robot regulations are evolving globally.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is modular robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots made from reconfigurable modules",
+            "Fixed robots",
+            "Single-piece robots",
+            "Non-modular design"
+        ]
+    },
+    {
+        "q": "Rearrange modular robot benefits:",
+        "type": "rearrange",
+        "words": [
+            "Flexibility",
+            "Reconfigurability",
+            "Scalability",
+            "Maintenance"
+        ]
+    },
+    {
+        "q": "What is self-reconfiguring robot?",
+        "type": "mcq",
+        "o": [
+            "Robot that can change its shape",
+            "Fixed shape",
+            "Manual reconfiguration",
+            "No change possible"
+        ]
+    },
+    {
+        "q": "Modular design reduces ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cost"
+        ],
+        "other_options": [
+            "quality",
+            "functionality",
+            "capability"
+        ]
+    },
+    {
+        "q": "Match the modular type with its feature:",
+        "type": "match",
+        "left": [
+            "Chain",
+            "Lattice",
+            "Hybrid",
+            "Truss"
+        ],
+        "right": [
+            "Serial connection",
+            "Grid structure",
+            "Combined",
+            "Triangular"
+        ]
+    },
+    {
+        "q": "Swarm robots are a form of modular robotics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is soft robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots made from flexible materials",
+            "Hard metal robots",
+            "Rigid structures only",
+            "Traditional robots"
+        ]
+    },
+    {
+        "q": "Rearrange soft robot materials:",
+        "type": "rearrange",
+        "words": [
+            "Silicone",
+            "Elastomer",
+            "Hydrogel",
+            "Fabric"
+        ]
+    },
+    {
+        "q": "What is pneumatic actuation in soft robots?",
+        "type": "mcq",
+        "o": [
+            "Using air pressure for movement",
+            "Electric motors",
+            "Hydraulics",
+            "Magnetic"
+        ]
+    },
+    {
+        "q": "Soft grippers safely handle ______.",
+        "type": "fill_blank",
+        "answers": [
+            "delicate objects"
+        ],
+        "other_options": [
+            "heavy metals",
+            "nothing",
+            "large machines"
+        ]
+    },
+    {
+        "q": "Match the soft robot with its application:",
+        "type": "match",
+        "left": [
+            "Gripper",
+            "Crawler",
+            "Muscle",
+            "Tentacle"
+        ],
+        "right": [
+            "Gentle handling",
+            "Locomotion",
+            "Actuation",
+            "Manipulation"
+        ]
+    },
+    {
+        "q": "Soft robots are safe for human interaction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is swarm robotics?",
+        "type": "mcq",
+        "o": [
+            "Coordinating many simple robots for complex tasks",
+            "Single robot",
+            "Large robot",
+            "No coordination"
+        ]
+    },
+    {
+        "q": "Rearrange swarm properties:",
+        "type": "rearrange",
+        "words": [
+            "Decentralized",
+            "Scalable",
+            "Robust",
+            "Flexible"
+        ]
+    },
+    {
+        "q": "What is emergent behavior?",
+        "type": "mcq",
+        "o": [
+            "Complex behavior from simple local rules",
+            "Programmed behavior",
+            "Random behavior",
+            "No behavior"
+        ]
+    },
+    {
+        "q": "Swarms are inspired by ______ colonies.",
+        "type": "fill_blank",
+        "answers": [
+            "insect"
+        ],
+        "other_options": [
+            "human",
+            "robot",
+            "machine"
+        ]
+    },
+    {
+        "q": "Match the swarm behavior with its inspiration:",
+        "type": "match",
+        "left": [
+            "Foraging",
+            "Flocking",
+            "Construction",
+            "Transport"
+        ],
+        "right": [
+            "Ants",
+            "Birds",
+            "Termites",
+            "Bees"
+        ]
+    },
+    {
+        "q": "Swarm systems are fault tolerant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is micro-robotics?",
+        "type": "mcq",
+        "o": [
+            "Very small robots for precision tasks",
+            "Large robots",
+            "Standard robots",
+            "No robots"
+        ]
+    },
+    {
+        "q": "Rearrange micro-robot applications:",
+        "type": "rearrange",
+        "words": [
+            "Medical",
+            "Manufacturing",
+            "Inspection",
+            "Research"
+        ]
+    },
+    {
+        "q": "What are MEMS in robotics?",
+        "type": "mcq",
+        "o": [
+            "Micro-electromechanical systems",
+            "Main Electronic Motor System",
+            "Machine Electronic Memory Storage",
+            "Motor Enabled Movement System"
+        ]
+    },
+    {
+        "q": "Micro-robots can work inside ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bodies"
+        ],
+        "other_options": [
+            "factories",
+            "warehouses",
+            "offices"
+        ]
+    },
+    {
+        "q": "Match the micro-robot with its actuation:",
+        "type": "match",
+        "left": [
+            "Magnetic",
+            "Chemical",
+            "Thermal",
+            "Light-driven"
+        ],
+        "right": [
+            "External field",
+            "Fuel-powered",
+            "Shape memory",
+            "Optical control"
+        ]
+    },
+    {
+        "q": "Nano-robots are at research stage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cloud robotics?",
+        "type": "mcq",
+        "o": [
+            "Using cloud computing for robot capabilities",
+            "Robots in clouds",
+            "Weather robots",
+            "Flying robots only"
+        ]
+    },
+    {
+        "q": "Rearrange cloud robotics benefits:",
+        "type": "rearrange",
+        "words": [
+            "Shared knowledge",
+            "Reduced onboard processing",
+            "Scalability",
+            "Updates"
+        ]
+    },
+    {
+        "q": "What can robots share via cloud?",
+        "type": "mcq",
+        "o": [
+            "Maps, models, and learned skills",
+            "Physical parts",
+            "Motors",
+            "Batteries"
+        ]
+    },
+    {
+        "q": "Cloud robotics requires reliable ______.",
+        "type": "fill_blank",
+        "answers": [
+            "connectivity"
+        ],
+        "other_options": [
+            "hardware",
+            "cables",
+            "wires"
+        ]
+    },
+    {
+        "q": "Match the cloud service with its robot use:",
+        "type": "match",
+        "left": [
+            "Storage",
+            "Computing",
+            "Learning",
+            "Communication"
+        ],
+        "right": [
+            "Data saving",
+            "AI processing",
+            "Shared training",
+            "Multi-robot coordination"
+        ]
+    },
+    {
+        "q": "Edge computing reduces latency in robotics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 5G for robotics?",
+        "type": "mcq",
+        "o": [
+            "High-speed low-latency wireless communication",
+            "Slow connection",
+            "Wired only",
+            "No connection"
+        ]
+    },
+    {
+        "q": "Rearrange 5G benefits:",
+        "type": "rearrange",
+        "words": [
+            "Low latency",
+            "High bandwidth",
+            "Reliability",
+            "Device density"
+        ]
+    },
+    {
+        "q": "What enables teleoperation with 5G?",
+        "type": "mcq",
+        "o": [
+            "Low latency for real-time control",
+            "High cost",
+            "Old technology",
+            "Slow speed"
+        ]
+    },
+    {
+        "q": "Network slicing provides dedicated ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bandwidth"
+        ],
+        "other_options": [
+            "cables",
+            "wires",
+            "hardware"
+        ]
+    },
+    {
+        "q": "Match the 5G feature with its robot application:",
+        "type": "match",
+        "left": [
+            "URLLC",
+            "eMBB",
+            "mMTC",
+            "Network slicing"
+        ],
+        "right": [
+            "Remote surgery",
+            "Video streaming",
+            "IoT sensors",
+            "Guaranteed QoS"
+        ]
+    },
+    {
+        "q": "Private 5G networks enable factory automation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot maintenance?",
+        "type": "mcq",
+        "o": [
+            "Keeping robots in optimal working condition",
+            "Robot programming",
+            "Robot design",
+            "Robot sales"
+        ]
+    },
+    {
+        "q": "Rearrange maintenance types:",
+        "type": "rearrange",
+        "words": [
+            "Preventive",
+            "Predictive",
+            "Corrective",
+            "Condition-based"
+        ]
+    },
+    {
+        "q": "What is predictive maintenance?",
+        "type": "mcq",
+        "o": [
+            "Using data to predict failures before they occur",
+            "Fixing after breakdown",
+            "Scheduled maintenance",
+            "No maintenance"
+        ]
+    },
+    {
+        "q": "Vibration analysis detects mechanical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "problems"
+        ],
+        "other_options": [
+            "colors",
+            "sizes",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the maintenance indicator with its failure:",
+        "type": "match",
+        "left": [
+            "Vibration",
+            "Temperature",
+            "Current",
+            "Position error"
+        ],
+        "right": [
+            "Bearing wear",
+            "Motor overload",
+            "Drive issues",
+            "Encoder problems"
+        ]
+    },
+    {
+        "q": "Regular maintenance extends robot life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot calibration?",
+        "type": "mcq",
+        "o": [
+            "Adjusting robot to match ideal kinematics",
+            "Programming",
+            "Painting",
+            "Welding"
+        ]
+    },
+    {
+        "q": "Rearrange calibration methods:",
+        "type": "rearrange",
+        "words": [
+            "Touch-up",
+            "Absolute",
+            "Level 1",
+            "Level 2"
+        ]
+    },
+    {
+        "q": "What causes robot inaccuracy?",
+        "type": "mcq",
+        "o": [
+            "Manufacturing tolerances and wear",
+            "Perfect parts",
+            "No movement",
+            "Static position"
+        ]
+    },
+    {
+        "q": "Laser trackers provide high-accuracy ______.",
+        "type": "fill_blank",
+        "answers": [
+            "measurement"
+        ],
+        "other_options": [
+            "cutting",
+            "welding",
+            "painting"
+        ]
+    },
+    {
+        "q": "Match the calibration type with its purpose:",
+        "type": "match",
+        "left": [
+            "Mastering",
+            "Tool calibration",
+            "Base calibration",
+            "Full calibration"
+        ],
+        "right": [
+            "Zero position",
+            "Tool dimensions",
+            "Base frame",
+            "All parameters"
+        ]
+    },
+    {
+        "q": "Calibration improves robot accuracy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot troubleshooting?",
+        "type": "mcq",
+        "o": [
+            "Identifying and resolving robot problems",
+            "Normal operation",
+            "Programming",
+            "Design"
+        ]
+    },
+    {
+        "q": "Rearrange troubleshooting steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify symptom",
+            "Check basics",
+            "Isolate cause",
+            "Fix problem"
+        ]
+    },
+    {
+        "q": "What is fault code?",
+        "type": "mcq",
+        "o": [
+            "Error message indicating problem type",
+            "Programming code",
+            "Machine code",
+            "Control code"
+        ]
+    },
+    {
+        "q": "Error logs help diagnose ______.",
+        "type": "fill_blank",
+        "answers": [
+            "failures"
+        ],
+        "other_options": [
+            "successes",
+            "colors",
+            "sizes"
+        ]
+    },
+    {
+        "q": "Match the symptom with its likely cause:",
+        "type": "match",
+        "left": [
+            "No motion",
+            "Position error",
+            "Jerky motion",
+            "Overload"
+        ],
+        "right": [
+            "Power issue",
+            "Encoder fault",
+            "Servo problem",
+            "Collision or excess load"
+        ]
+    },
+    {
+        "q": "Remote diagnostics enable quick troubleshooting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is OEE in robotics?",
+        "type": "mcq",
+        "o": [
+            "Overall Equipment Effectiveness - productivity metric",
+            "Only Electronic Equipment",
+            "Optimal Energy Efficiency",
+            "Operational Error Estimate"
+        ]
+    },
+    {
+        "q": "Rearrange OEE components:",
+        "type": "rearrange",
+        "words": [
+            "Availability",
+            "Performance",
+            "Quality",
+            "OEE calculation"
+        ]
+    },
+    {
+        "q": "What affects robot availability?",
+        "type": "mcq",
+        "o": [
+            "Downtime for maintenance and faults",
+            "Color",
+            "Name",
+            "Brand"
+        ]
+    },
+    {
+        "q": "Cycle time optimization improves ______.",
+        "type": "fill_blank",
+        "answers": [
+            "performance"
+        ],
+        "other_options": [
+            "appearance",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "Match the OEE factor with its improvement:",
+        "type": "match",
+        "left": [
+            "Availability",
+            "Performance",
+            "Quality",
+            "Overall"
+        ],
+        "right": [
+            "Reduce downtime",
+            "Faster cycles",
+            "Fewer defects",
+            "All factors"
+        ]
+    },
+    {
+        "q": "High OEE indicates efficient robot utilization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot TCO?",
+        "type": "mcq",
+        "o": [
+            "Total Cost of Ownership over robot lifetime",
+            "Temporary Control Operation",
+            "Technical Configuration Option",
+            "Total Controller Output"
+        ]
+    },
+    {
+        "q": "Rearrange TCO components:",
+        "type": "rearrange",
+        "words": [
+            "Acquisition",
+            "Installation",
+            "Operation",
+            "Disposal"
+        ]
+    },
+    {
+        "q": "What costs are included in robot operation?",
+        "type": "mcq",
+        "o": [
+            "Energy, maintenance, and consumables",
+            "Only purchase price",
+            "Only installation",
+            "Only training"
+        ]
+    },
+    {
+        "q": "Energy-efficient robots reduce operating ______.",
+        "type": "fill_blank",
+        "answers": [
+            "costs"
+        ],
+        "other_options": [
+            "colors",
+            "sizes",
+            "shapes"
+        ]
+    },
+    {
+        "q": "Match the cost with its phase:",
+        "type": "match",
+        "left": [
+            "Robot purchase",
+            "Integration",
+            "Spare parts",
+            "Decommissioning"
+        ],
+        "right": [
+            "Acquisition",
+            "Installation",
+            "Operation",
+            "Disposal"
+        ]
+    },
+    {
+        "q": "TCO analysis supports robot investment decisions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ROI for robots?",
+        "type": "mcq",
+        "o": [
+            "Return on Investment from robot deployment",
+            "Robot Operating Instructions",
+            "Remote Operation Interface",
+            "Robotic Output Indicator"
+        ]
+    },
+    {
+        "q": "Rearrange ROI benefits:",
+        "type": "rearrange",
+        "words": [
+            "Labor savings",
+            "Quality improvement",
+            "Throughput increase",
+            "Safety benefits"
+        ]
+    },
+    {
+        "q": "What is payback period?",
+        "type": "mcq",
+        "o": [
+            "Time to recover robot investment",
+            "Robot warranty",
+            "Training time",
+            "Programming time"
+        ]
+    },
+    {
+        "q": "Shorter payback indicates better ______.",
+        "type": "fill_blank",
+        "answers": [
+            "investment"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the benefit with its calculation:",
+        "type": "match",
+        "left": [
+            "Labor saving",
+            "Quality",
+            "Throughput",
+            "Safety"
+        ],
+        "right": [
+            "Hours saved",
+            "Defect reduction value",
+            "Additional revenue",
+            "Avoided costs"
+        ]
+    },
+    {
+        "q": "Robot projects often have less than 2-year payback.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot standardization?",
+        "type": "mcq",
+        "o": [
+            "Using common specifications and interfaces",
+            "Unique designs",
+            "Custom everything",
+            "No standards"
+        ]
+    },
+    {
+        "q": "Rearrange standardization benefits:",
+        "type": "rearrange",
+        "words": [
+            "Interoperability",
+            "Simplified training",
+            "Spare parts",
+            "Maintenance efficiency"
+        ]
+    },
+    {
+        "q": "What is OPC UA in automation?",
+        "type": "mcq",
+        "o": [
+            "Open communication standard for industrial automation",
+            "Operator Personal Computer",
+            "Optional Programming Code",
+            "Output Power Control"
+        ]
+    },
+    {
+        "q": "ISO standards ensure global ______.",
+        "type": "fill_blank",
+        "answers": [
+            "compatibility"
+        ],
+        "other_options": [
+            "variation",
+            "differences",
+            "conflicts"
+        ]
+    },
+    {
+        "q": "Match the standard with its focus:",
+        "type": "match",
+        "left": [
+            "ISO 10218",
+            "ISO TS 15066",
+            "IEC 61508",
+            "ISO 8373"
+        ],
+        "right": [
+            "Industrial robot safety",
+            "Collaborative robots",
+            "Functional safety",
+            "Robot vocabulary"
+        ]
+    },
+    {
+        "q": "Standards facilitate global robot deployment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RaaS?",
+        "type": "mcq",
+        "o": [
+            "Robotics as a Service - subscription model",
+            "Robot and Sensor",
+            "Remote Automation System",
+            "Rapid Assembly Service"
+        ]
+    },
+    {
+        "q": "Rearrange RaaS benefits:",
+        "type": "rearrange",
+        "words": [
+            "Lower capital",
+            "Flexibility",
+            "Updates included",
+            "Scalability"
+        ]
+    },
+    {
+        "q": "What is included in RaaS?",
+        "type": "mcq",
+        "o": [
+            "Robot, maintenance, and support for monthly fee",
+            "Only robot purchase",
+            "Only maintenance",
+            "Only programming"
+        ]
+    },
+    {
+        "q": "RaaS converts capex to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "opex"
+        ],
+        "other_options": [
+            "capex",
+            "tax",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the RaaS model with its feature:",
+        "type": "match",
+        "left": [
+            "Per unit",
+            "Per hour",
+            "Fixed fee",
+            "Outcome based"
+        ],
+        "right": [
+            "Production based",
+            "Usage based",
+            "Predictable cost",
+            "Performance tied"
+        ]
+    },
+    {
+        "q": "RaaS reduces barriers to robot adoption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Industry 4.0?",
+        "type": "mcq",
+        "o": [
+            "Smart manufacturing with connected systems",
+            "Old manufacturing",
+            "Manual production",
+            "Simple automation"
+        ]
+    },
+    {
+        "q": "Rearrange Industry 4.0 technologies:",
+        "type": "rearrange",
+        "words": [
+            "IoT",
+            "AI",
+            "Big data",
+            "Cloud"
+        ]
+    },
+    {
+        "q": "What is IIoT?",
+        "type": "mcq",
+        "o": [
+            "Industrial Internet of Things - connected machines",
+            "Internet of Things only",
+            "Industrial IT",
+            "Internal I/O"
+        ]
+    },
+    {
+        "q": "Smart factory connects robots with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "data systems"
+        ],
+        "other_options": [
+            "nothing",
+            "walls",
+            "floors"
+        ]
+    },
+    {
+        "q": "Match the I4.0 technology with its role:",
+        "type": "match",
+        "left": [
+            "IoT",
+            "AI",
+            "Digital twin",
+            "Cloud"
+        ],
+        "right": [
+            "Connectivity",
+            "Intelligence",
+            "Simulation",
+            "Computing power"
+        ]
+    },
+    {
+        "q": "Industry 4.0 enables flexible manufacturing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is digital twin in robotics?",
+        "type": "mcq",
+        "o": [
+            "Virtual replica of physical robot system",
+            "Two robots",
+            "Robot clone",
+            "Second controller"
+        ]
+    },
+    {
+        "q": "Rearrange digital twin uses:",
+        "type": "rearrange",
+        "words": [
+            "Design",
+            "Commissioning",
+            "Operation",
+            "Optimization"
+        ]
+    },
+    {
+        "q": "What can digital twins simulate?",
+        "type": "mcq",
+        "o": [
+            "Robot behavior and performance",
+            "Only appearance",
+            "Only cost",
+            "Only weight"
+        ]
+    },
+    {
+        "q": "Digital twins enable virtual ______.",
+        "type": "fill_blank",
+        "answers": [
+            "commissioning"
+        ],
+        "other_options": [
+            "welding",
+            "painting",
+            "cutting"
+        ]
+    },
+    {
+        "q": "Match the digital twin type with its scope:",
+        "type": "match",
+        "left": [
+            "Component",
+            "Machine",
+            "Process",
+            "System"
+        ],
+        "right": [
+            "Single part",
+            "Robot cell",
+            "Production line",
+            "Factory"
+        ]
+    },
+    {
+        "q": "Digital twins reduce real-world testing needs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cybersecurity in robotics?",
+        "type": "mcq",
+        "o": [
+            "Protecting robot systems from cyber threats",
+            "Physical security only",
+            "Robot programming",
+            "Robot design"
+        ]
+    },
+    {
+        "q": "Rearrange cybersecurity measures:",
+        "type": "rearrange",
+        "words": [
+            "Network security",
+            "Access control",
+            "Encryption",
+            "Monitoring"
+        ]
+    },
+    {
+        "q": "What risks do connected robots face?",
+        "type": "mcq",
+        "o": [
+            "Hacking, data theft, and manipulation",
+            "No risks",
+            "Only physical risks",
+            "Only cost risks"
+        ]
+    },
+    {
+        "q": "Secure communication uses ______.",
+        "type": "fill_blank",
+        "answers": [
+            "encryption"
+        ],
+        "other_options": [
+            "plain text",
+            "open channels",
+            "public access"
+        ]
+    },
+    {
+        "q": "Match the security measure with its protection:",
+        "type": "match",
+        "left": [
+            "Firewall",
+            "VPN",
+            "Authentication",
+            "Patches"
+        ],
+        "right": [
+            "Network barrier",
+            "Secure connection",
+            "Identity verification",
+            "Vulnerability fixes"
+        ]
+    },
+    {
+        "q": "Cybersecurity is essential for connected robots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot workforce planning?",
+        "type": "mcq",
+        "o": [
+            "Integrating robots with human workers",
+            "Robot purchase only",
+            "Robot design",
+            "Robot maintenance"
+        ]
+    },
+    {
+        "q": "Rearrange workforce transformation:",
+        "type": "rearrange",
+        "words": [
+            "Assessment",
+            "Training",
+            "Deployment",
+            "Optimization"
+        ]
+    },
+    {
+        "q": "What skills do workers need with robots?",
+        "type": "mcq",
+        "o": [
+            "Programming, operation, and maintenance",
+            "No new skills",
+            "Only manual skills",
+            "Only physical strength"
+        ]
+    },
+    {
+        "q": "Upskilling prepares workers for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "automation"
+        ],
+        "other_options": [
+            "unemployment",
+            "vacation",
+            "retirement"
+        ]
+    },
+    {
+        "q": "Match the role with its robot interaction:",
+        "type": "match",
+        "left": [
+            "Operator",
+            "Programmer",
+            "Maintenance tech",
+            "System integrator"
+        ],
+        "right": [
+            "Daily operation",
+            "Creating programs",
+            "Repairs",
+            "Design and install"
+        ]
+    },
+    {
+        "q": "Robots create new job categories.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is service robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots performing useful tasks for humans",
+            "Industrial robots only",
+            "Manufacturing only",
+            "No service"
+        ]
+    },
+    {
+        "q": "Rearrange service robot categories:",
+        "type": "rearrange",
+        "words": [
+            "Personal",
+            "Professional",
+            "Commercial",
+            "Military"
+        ]
+    },
+    {
+        "q": "What is a professional service robot?",
+        "type": "mcq",
+        "o": [
+            "Robot used for commercial service",
+            "Home robot",
+            "Toy robot",
+            "Entertainment only"
+        ]
+    },
+    {
+        "q": "Service robots operate in ______ environments.",
+        "type": "fill_blank",
+        "answers": [
+            "unstructured"
+        ],
+        "other_options": [
+            "factory",
+            "controlled",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Match the service robot with its domain:",
+        "type": "match",
+        "left": [
+            "Vacuum cleaner",
+            "Delivery robot",
+            "Security robot",
+            "Medical robot"
+        ],
+        "right": [
+            "Home",
+            "Logistics",
+            "Safety",
+            "Healthcare"
+        ]
+    },
+    {
+        "q": "Service robots market is growing rapidly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is telepresence robot?",
+        "type": "mcq",
+        "o": [
+            "Robot enabling remote presence and communication",
+            "Fixed display",
+            "Video conference",
+            "Phone call"
+        ]
+    },
+    {
+        "q": "Rearrange telepresence components:",
+        "type": "rearrange",
+        "words": [
+            "Mobile base",
+            "Display",
+            "Camera",
+            "Audio"
+        ]
+    },
+    {
+        "q": "What enables telepresence navigation?",
+        "type": "mcq",
+        "o": [
+            "Remote control and autonomous features",
+            "Fixed position",
+            "No movement",
+            "Manual push"
+        ]
+    },
+    {
+        "q": "Telepresence allows remote ______.",
+        "type": "fill_blank",
+        "answers": [
+            "participation"
+        ],
+        "other_options": [
+            "absence",
+            "vacation",
+            "sleep"
+        ]
+    },
+    {
+        "q": "Match the telepresence use with its sector:",
+        "type": "match",
+        "left": [
+            "Remote work",
+            "Remote care",
+            "Remote education",
+            "Remote inspection"
+        ],
+        "right": [
+            "Office",
+            "Healthcare",
+            "School",
+            "Industry"
+        ]
+    },
+    {
+        "q": "Telepresence robots increased during pandemic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is social robot?",
+        "type": "mcq",
+        "o": [
+            "Robot designed for human interaction",
+            "Industrial robot",
+            "Manufacturing robot",
+            "Processing robot"
+        ]
+    },
+    {
+        "q": "Rearrange social robot capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Speech",
+            "Emotion recognition",
+            "Gesture",
+            "Social behavior"
+        ]
+    },
+    {
+        "q": "What is emotional intelligence in robots?",
+        "type": "mcq",
+        "o": [
+            "Ability to recognize and respond to emotions",
+            "Cold interaction",
+            "No response",
+            "Random response"
+        ]
+    },
+    {
+        "q": "Social robots are used in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "education and care"
+        ],
+        "other_options": [
+            "manufacturing",
+            "welding",
+            "cutting"
+        ]
+    },
+    {
+        "q": "Match the social robot with its purpose:",
+        "type": "match",
+        "left": [
+            "Pepper",
+            "NAO",
+            "Aibo",
+            "Paro"
+        ],
+        "right": [
+            "Reception",
+            "Education",
+            "Pet companion",
+            "Therapy"
+        ]
+    },
+    {
+        "q": "Social robots help elderly and children.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is entertainment robot?",
+        "type": "mcq",
+        "o": [
+            "Robot designed for amusement and fun",
+            "Industrial robot",
+            "Medical robot",
+            "Service robot"
+        ]
+    },
+    {
+        "q": "Rearrange entertainment robot types:",
+        "type": "rearrange",
+        "words": [
+            "Toy robot",
+            "Theme park",
+            "Sports",
+            "Show robot"
+        ]
+    },
+    {
+        "q": "What makes robots entertaining?",
+        "type": "mcq",
+        "o": [
+            "Interactive behavior and movement",
+            "Static display",
+            "No interaction",
+            "Simple functions"
+        ]
+    },
+    {
+        "q": "Animatronics are used in theme ______.",
+        "type": "fill_blank",
+        "answers": [
+            "parks"
+        ],
+        "other_options": [
+            "factories",
+            "offices",
+            "hospitals"
+        ]
+    },
+    {
+        "q": "Match the entertainment robot with its setting:",
+        "type": "match",
+        "left": [
+            "Sphero",
+            "Animatronic",
+            "Robot show",
+            "Robot sports"
+        ],
+        "right": [
+            "Home toy",
+            "Theme park",
+            "Exhibition",
+            "Competition"
+        ]
+    },
+    {
+        "q": "Entertainment robots drive consumer interest in robotics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is construction robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for building and construction tasks",
+            "Manufacturing only",
+            "Office robots",
+            "Home robots"
+        ]
+    },
+    {
+        "q": "Rearrange construction robot applications:",
+        "type": "rearrange",
+        "words": [
+            "Bricklaying",
+            "3D printing buildings",
+            "Demolition",
+            "Inspection"
+        ]
+    },
+    {
+        "q": "What is robotic 3D printing in construction?",
+        "type": "mcq",
+        "o": [
+            "Additive manufacturing of building structures",
+            "Paper printing",
+            "Photo printing",
+            "Document printing"
+        ]
+    },
+    {
+        "q": "Construction robots address labor ______.",
+        "type": "fill_blank",
+        "answers": [
+            "shortages"
+        ],
+        "other_options": [
+            "abundance",
+            "excess",
+            "surplus"
+        ]
+    },
+    {
+        "q": "Match the construction robot with its task:",
+        "type": "match",
+        "left": [
+            "Hadrian X",
+            "SAM100",
+            "Tybot",
+            "Spot"
+        ],
+        "right": [
+            "Bricklaying",
+            "Masonry",
+            "Rebar tying",
+            "Site inspection"
+        ]
+    },
+    {
+        "q": "Construction robots improve safety and speed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mining robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for mining operations",
+            "Office robots",
+            "Home robots",
+            "Entertainment"
+        ]
+    },
+    {
+        "q": "Rearrange mining robot applications:",
+        "type": "rearrange",
+        "words": [
+            "Drilling",
+            "Hauling",
+            "Exploration",
+            "Inspection"
+        ]
+    },
+    {
+        "q": "Why use robots in mining?",
+        "type": "mcq",
+        "o": [
+            "Improve safety in hazardous environments",
+            "For fun",
+            "Entertainment",
+            "No reason"
+        ]
+    },
+    {
+        "q": "Autonomous haul trucks operate without ______.",
+        "type": "fill_blank",
+        "answers": [
+            "drivers"
+        ],
+        "other_options": [
+            "engines",
+            "wheels",
+            "loads"
+        ]
+    },
+    {
+        "q": "Match the mining robot with its function:",
+        "type": "match",
+        "left": [
+            "Autonomous truck",
+            "Drill rig",
+            "Underground loader",
+            "Survey drone"
+        ],
+        "right": [
+            "Material transport",
+            "Rock drilling",
+            "Ore loading",
+            "Mapping"
+        ]
+    },
+    {
+        "q": "Mining automation increases productivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is nuclear robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for nuclear facility operations",
+            "Office robots",
+            "Home robots",
+            "Toy robots"
+        ]
+    },
+    {
+        "q": "Rearrange nuclear robot applications:",
+        "type": "rearrange",
+        "words": [
+            "Inspection",
+            "Maintenance",
+            "Decommissioning",
+            "Emergency response"
+        ]
+    },
+    {
+        "q": "Why are robots used in nuclear facilities?",
+        "type": "mcq",
+        "o": [
+            "Protect humans from radiation exposure",
+            "For entertainment",
+            "Cost saving only",
+            "No reason"
+        ]
+    },
+    {
+        "q": "Radiation-hardened electronics withstand ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "heat",
+            "cold",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Match the nuclear robot with its task:",
+        "type": "match",
+        "left": [
+            "PackBot",
+            "BROKK",
+            "Pipe crawler",
+            "Manipulator arm"
+        ],
+        "right": [
+            "Reconnaissance",
+            "Demolition",
+            "Pipe inspection",
+            "Remote handling"
+        ]
+    },
+    {
+        "q": "Nuclear robots enable safe facility operation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is disaster response robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for emergency and disaster situations",
+            "Normal operations",
+            "Manufacturing",
+            "Entertainment"
+        ]
+    },
+    {
+        "q": "Rearrange disaster robot types:",
+        "type": "rearrange",
+        "words": [
+            "Search robot",
+            "Rescue robot",
+            "Inspection robot",
+            "Supply robot"
+        ]
+    },
+    {
+        "q": "What is a search and rescue robot?",
+        "type": "mcq",
+        "o": [
+            "Robot finding and helping disaster victims",
+            "Manufacturing robot",
+            "Office robot",
+            "Entertainment robot"
+        ]
+    },
+    {
+        "q": "Disaster robots work in ______ environments.",
+        "type": "fill_blank",
+        "answers": [
+            "hazardous"
+        ],
+        "other_options": [
+            "safe",
+            "clean",
+            "comfortable"
+        ]
+    },
+    {
+        "q": "Match the disaster robot with its environment:",
+        "type": "match",
+        "left": [
+            "Snake robot",
+            "Aerial drone",
+            "Underwater robot",
+            "Wheeled robot"
+        ],
+        "right": [
+            "Collapsed buildings",
+            "Aerial survey",
+            "Flood areas",
+            "Ground search"
+        ]
+    },
+    {
+        "q": "Disaster robots save lives.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is defense robotics?",
+        "type": "mcq",
+        "o": [
+            "Robots for military and defense applications",
+            "Office robots",
+            "Entertainment",
+            "Home use"
+        ]
+    },
+    {
+        "q": "Rearrange defense robot roles:",
+        "type": "rearrange",
+        "words": [
+            "Reconnaissance",
+            "EOD",
+            "Logistics",
+            "Combat support"
+        ]
+    },
+    {
+        "q": "What is EOD robot?",
+        "type": "mcq",
+        "o": [
+            "Explosive Ordnance Disposal robot",
+            "Emergency Operation Device",
+            "External Output Driver",
+            "Engine Operating Device"
+        ]
+    },
+    {
+        "q": "UGVs are Unmanned Ground ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Vehicles"
+        ],
+        "other_options": [
+            "Vessels",
+            "Vaults",
+            "Visions"
+        ]
+    },
+    {
+        "q": "Match the defense robot with its task:",
+        "type": "match",
+        "left": [
+            "PackBot",
+            "BigDog",
+            "MQ-9",
+            "Talon"
+        ],
+        "right": [
+            "Bomb disposal",
+            "Cargo carrying",
+            "Surveillance",
+            "EOD inspection"
+        ]
+    },
+    {
+        "q": "Defense robots reduce soldier risk.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot localization accuracy?",
+        "type": "mcq",
+        "o": [
+            "How precisely robot knows its position",
+            "Robot speed",
+            "Robot power",
+            "Robot weight"
+        ]
+    },
+    {
+        "q": "Rearrange localization accuracy levels:",
+        "type": "rearrange",
+        "words": [
+            "Meter level",
+            "Decimeter",
+            "Centimeter",
+            "Millimeter"
+        ]
+    },
+    {
+        "q": "What is RTK GPS?",
+        "type": "mcq",
+        "o": [
+            "Real-Time Kinematic GPS for centimeter accuracy",
+            "Robot Tracking Kit",
+            "Remote Task Key",
+            "Rapid Transport Kit"
+        ]
+    },
+    {
+        "q": "Multi-sensor fusion improves localization ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reliability"
+        ],
+        "other_options": [
+            "cost",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the sensor with its localization accuracy:",
+        "type": "match",
+        "left": [
+            "GPS",
+            "RTK GPS",
+            "LIDAR SLAM",
+            "Visual odometry"
+        ],
+        "right": [
+            "Meter",
+            "Centimeter",
+            "Sub-decimeter",
+            "Varies with features"
+        ]
+    },
+    {
+        "q": "Higher localization accuracy enables precise navigation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is semantic mapping?",
+        "type": "mcq",
+        "o": [
+            "Creating maps with object meaning",
+            "Simple grid maps",
+            "No understanding",
+            "Random mapping"
+        ]
+    },
+    {
+        "q": "Rearrange mapping complexity:",
+        "type": "rearrange",
+        "words": [
+            "Metric",
+            "Topological",
+            "Semantic",
+            "3D reconstruction"
+        ]
+    },
+    {
+        "q": "What does semantic map contain?",
+        "type": "mcq",
+        "o": [
+            "Object identities and relationships",
+            "Only coordinates",
+            "Only distances",
+            "Only time"
+        ]
+    },
+    {
+        "q": "Semantic understanding enables intelligent ______.",
+        "type": "fill_blank",
+        "answers": [
+            "navigation"
+        ],
+        "other_options": [
+            "stopping",
+            "waiting",
+            "sleeping"
+        ]
+    },
+    {
+        "q": "Match the map type with its content:",
+        "type": "match",
+        "left": [
+            "Occupancy grid",
+            "Topological",
+            "Semantic",
+            "Point cloud"
+        ],
+        "right": [
+            "Free/occupied cells",
+            "Nodes and edges",
+            "Objects with labels",
+            "3D points"
+        ]
+    },
+    {
+        "q": "Semantic maps improve robot task understanding.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is behavioral robotics?",
+        "type": "mcq",
+        "o": [
+            "Building robots using behavior-based control",
+            "Traditional control",
+            "No control",
+            "Random behavior"
+        ]
+    },
+    {
+        "q": "Rearrange behavior-based concepts:",
+        "type": "rearrange",
+        "words": [
+            "Simple behaviors",
+            "Behavior arbitration",
+            "Emergent behavior",
+            "Complex behavior"
+        ]
+    },
+    {
+        "q": "What is subsumption architecture?",
+        "type": "mcq",
+        "o": [
+            "Layered behavior control where higher suppresses lower",
+            "Single layer",
+            "No hierarchy",
+            "Random control"
+        ]
+    },
+    {
+        "q": "Reactive robots respond to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sensor input"
+        ],
+        "other_options": [
+            "nothing",
+            "plans only",
+            "schedules only"
+        ]
+    },
+    {
+        "q": "Match the behavior with its purpose:",
+        "type": "match",
+        "left": [
+            "Avoid",
+            "Wander",
+            "Follow",
+            "Explore"
+        ],
+        "right": [
+            "Obstacle avoidance",
+            "Random motion",
+            "Track target",
+            "Map building"
+        ]
+    },
+    {
+        "q": "Behavior-based robots are reactive and robust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hybrid robot architecture?",
+        "type": "mcq",
+        "o": [
+            "Combining deliberative and reactive control",
+            "Only reactive",
+            "Only deliberative",
+            "No architecture"
+        ]
+    },
+    {
+        "q": "Rearrange hybrid architecture layers:",
+        "type": "rearrange",
+        "words": [
+            "Reactive",
+            "Executive",
+            "Deliberative",
+            "Task planning"
+        ]
+    },
+    {
+        "q": "What is deliberative planning?",
+        "type": "mcq",
+        "o": [
+            "Planning with world model before acting",
+            "Immediate reaction",
+            "No planning",
+            "Random action"
+        ]
+    },
+    {
+        "q": "Hybrid architectures balance planning and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reaction"
+        ],
+        "other_options": [
+            "waiting",
+            "sleeping",
+            "stopping"
+        ]
+    },
+    {
+        "q": "Match the layer with its function:",
+        "type": "match",
+        "left": [
+            "Reactive",
+            "Sequencer",
+            "Deliberator",
+            "User interface"
+        ],
+        "right": [
+            "Immediate response",
+            "Task execution",
+            "Planning",
+            "Human interaction"
+        ]
+    },
+    {
+        "q": "Most modern robots use hybrid architectures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is embedded systems in robotics?",
+        "type": "mcq",
+        "o": [
+            "Dedicated computing for robot control",
+            "General computers",
+            "Mainframes",
+            "Servers"
+        ]
+    },
+    {
+        "q": "Rearrange embedded system components:",
+        "type": "rearrange",
+        "words": [
+            "Processor",
+            "Memory",
+            "I/O",
+            "Software"
+        ]
+    },
+    {
+        "q": "What is real-time operating system?",
+        "type": "mcq",
+        "o": [
+            "OS guaranteeing timing response",
+            "Regular OS",
+            "Slow OS",
+            "No OS"
+        ]
+    },
+    {
+        "q": "Microcontrollers handle low-level ______.",
+        "type": "fill_blank",
+        "answers": [
+            "control"
+        ],
+        "other_options": [
+            "planning",
+            "thinking",
+            "dreaming"
+        ]
+    },
+    {
+        "q": "Match the processor with its use:",
+        "type": "match",
+        "left": [
+            "MCU",
+            "DSP",
+            "FPGA",
+            "GPU"
+        ],
+        "right": [
+            "Basic control",
+            "Signal processing",
+            "Custom hardware",
+            "AI acceleration"
+        ]
+    },
+    {
+        "q": "Embedded systems enable compact robot design.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot power management?",
+        "type": "mcq",
+        "o": [
+            "Efficient use and distribution of power",
+            "Power waste",
+            "No management",
+            "Random power use"
+        ]
+    },
+    {
+        "q": "Rearrange power components:",
+        "type": "rearrange",
+        "words": [
+            "Battery",
+            "Power distribution",
+            "Voltage regulation",
+            "Energy recovery"
+        ]
+    },
+    {
+        "q": "What limits mobile robot operation time?",
+        "type": "mcq",
+        "o": [
+            "Battery capacity",
+            "Color",
+            "Name",
+            "Brand"
+        ]
+    },
+    {
+        "q": "Regenerative braking recovers ______.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "weight",
+            "color",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the battery with its characteristic:",
+        "type": "match",
+        "left": [
+            "Lead acid",
+            "NiMH",
+            "Li-ion",
+            "LiFePO4"
+        ],
+        "right": [
+            "Heavy and cheap",
+            "Moderate",
+            "High energy density",
+            "Safety and cycle life"
+        ]
+    },
+    {
+        "q": "Efficient power management extends robot operation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot communication protocol?",
+        "type": "mcq",
+        "o": [
+            "Standard for robot data exchange",
+            "Random signals",
+            "No standard",
+            "Human speech"
+        ]
+    },
+    {
+        "q": "Rearrange communication levels:",
+        "type": "rearrange",
+        "words": [
+            "Physical",
+            "Data link",
+            "Network",
+            "Application"
+        ]
+    },
+    {
+        "q": "What is EtherCAT?",
+        "type": "mcq",
+        "o": [
+            "Real-time industrial Ethernet protocol",
+            "Regular Ethernet",
+            "WiFi",
+            "Bluetooth"
+        ]
+    },
+    {
+        "q": "Fieldbus connects robot to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "peripherals"
+        ],
+        "other_options": [
+            "internet",
+            "clouds",
+            "space"
+        ]
+    },
+    {
+        "q": "Match the protocol with its use:",
+        "type": "match",
+        "left": [
+            "EtherCAT",
+            "Profinet",
+            "CAN",
+            "Modbus"
+        ],
+        "right": [
+            "High-speed servo",
+            "Factory automation",
+            "Automotive",
+            "Legacy systems"
+        ]
+    },
+    {
+        "q": "Real-time communication is critical for motion control.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot testing and validation?",
+        "type": "mcq",
+        "o": [
+            "Verifying robot meets specifications",
+            "Robot operation",
+            "Robot design",
+            "Robot sales"
+        ]
+    },
+    {
+        "q": "Rearrange testing stages:",
+        "type": "rearrange",
+        "words": [
+            "Unit test",
+            "Integration test",
+            "System test",
+            "Acceptance test"
+        ]
+    },
+    {
+        "q": "What is FAT?",
+        "type": "mcq",
+        "o": [
+            "Factory Acceptance Test",
+            "Fast Automatic Test",
+            "Final Assembly Trial",
+            "First Action Trial"
+        ]
+    },
+    {
+        "q": "SAT is Site Acceptance ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Test"
+        ],
+        "other_options": [
+            "Trial",
+            "Transfer",
+            "Task"
+        ]
+    },
+    {
+        "q": "Match the test with its location:",
+        "type": "match",
+        "left": [
+            "Unit test",
+            "FAT",
+            "SAT",
+            "Production test"
+        ],
+        "right": [
+            "Development",
+            "Factory",
+            "Customer site",
+            "Manufacturing"
+        ]
+    },
+    {
+        "q": "Thorough testing ensures robot reliability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the future of robotics?",
+        "type": "mcq",
+        "o": [
+            "More intelligent, connected, and collaborative",
+            "Simpler robots",
+            "No change",
+            "Less robots"
+        ]
+    },
+    {
+        "q": "Rearrange future trends:",
+        "type": "rearrange",
+        "words": [
+            "AI integration",
+            "Human collaboration",
+            "Service expansion",
+            "Autonomous systems"
+        ]
+    },
+    {
+        "q": "What is general purpose robot?",
+        "type": "mcq",
+        "o": [
+            "Robot capable of multiple tasks",
+            "Single task robot",
+            "Fixed purpose",
+            "No capability"
+        ]
+    },
+    {
+        "q": "Humanoid robots may become household ______.",
+        "type": "fill_blank",
+        "answers": [
+            "assistants"
+        ],
+        "other_options": [
+            "decorations",
+            "obstacles",
+            "furniture"
+        ]
+    },
+    {
+        "q": "Match the trend with its impact:",
+        "type": "match",
+        "left": [
+            "AI",
+            "Cobots",
+            "AMR",
+            "Cloud"
+        ],
+        "right": [
+            "Smart decision",
+            "Human collaboration",
+            "Flexible transport",
+            "Shared learning"
+        ]
+    },
+    {
+        "q": "Robotics will transform many industries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot arm singularity?",
+        "type": "mcq",
+        "o": [
+            "Configuration where robot loses degree of freedom",
+            "Normal operation",
+            "Maximum speed",
+            "Best position"
+        ]
+    },
+    {
+        "q": "Rearrange singularity types:",
+        "type": "rearrange",
+        "words": [
+            "Wrist",
+            "Shoulder",
+            "Elbow",
+            "Boundary"
+        ]
+    },
+    {
+        "q": "What happens at singularity?",
+        "type": "mcq",
+        "o": [
+            "Infinite joint velocities required",
+            "Normal motion",
+            "Faster movement",
+            "Better accuracy"
+        ]
+    },
+    {
+        "q": "Singularity avoidance prevents ______ velocities.",
+        "type": "fill_blank",
+        "answers": [
+            "excessive"
+        ],
+        "other_options": [
+            "normal",
+            "slow",
+            "zero"
+        ]
+    },
+    {
+        "q": "Match the singularity with its cause:",
+        "type": "match",
+        "left": [
+            "Wrist singularity",
+            "Shoulder singularity",
+            "Elbow singularity",
+            "Boundary"
+        ],
+        "right": [
+            "Aligned wrist axes",
+            "Reach limit",
+            "Extended arm",
+            "Workspace edge"
+        ]
+    },
+    {
+        "q": "Path planning must avoid singular configurations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ROS?",
+        "type": "mcq",
+        "o": [
+            "Robot Operating System - middleware for robotics",
+            "Regular Operating System",
+            "Remote Operation Service",
+            "Robotic Output System"
+        ]
+    },
+    {
+        "q": "Rearrange ROS concepts:",
+        "type": "rearrange",
+        "words": [
+            "Nodes",
+            "Topics",
+            "Services",
+            "Actions"
+        ]
+    },
+    {
+        "q": "What is ROS node?",
+        "type": "mcq",
+        "o": [
+            "Executable that performs computation",
+            "Hardware component",
+            "Mechanical part",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "ROS topics use publish-subscribe ______.",
+        "type": "fill_blank",
+        "answers": [
+            "communication"
+        ],
+        "other_options": [
+            "hardware",
+            "motors",
+            "sensors"
+        ]
+    },
+    {
+        "q": "Match the ROS concept with its use:",
+        "type": "match",
+        "left": [
+            "Publisher",
+            "Subscriber",
+            "Service",
+            "Action"
+        ],
+        "right": [
+            "Send messages",
+            "Receive messages",
+            "Request-response",
+            "Long-running tasks"
+        ]
+    },
+    {
+        "q": "ROS enables code reuse across robots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Gazebo?",
+        "type": "mcq",
+        "o": [
+            "Robot simulator commonly used with ROS",
+            "Robot arm",
+            "Controller",
+            "Motor"
+        ]
+    },
+    {
+        "q": "Rearrange simulation requirements:",
+        "type": "rearrange",
+        "words": [
+            "Robot model",
+            "Environment",
+            "Physics engine",
+            "Sensors"
+        ]
+    },
+    {
+        "q": "What is URDF?",
+        "type": "mcq",
+        "o": [
+            "Unified Robot Description Format",
+            "Universal Remote Device Format",
+            "Unified Robotic Device File",
+            "Universal Robot Data File"
+        ]
+    },
+    {
+        "q": "Simulation enables safe ______.",
+        "type": "fill_blank",
+        "answers": [
+            "testing"
+        ],
+        "other_options": [
+            "deployment",
+            "selling",
+            "buying"
+        ]
+    },
+    {
+        "q": "Match the simulator with its feature:",
+        "type": "match",
+        "left": [
+            "Gazebo",
+            "RVIZ",
+            "MoveIt",
+            "Webots"
+        ],
+        "right": [
+            "Physics simulation",
+            "Visualization",
+            "Motion planning",
+            "Cross-platform"
+        ]
+    },
+    {
+        "q": "Simulation accelerates robot development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is MoveIt?",
+        "type": "mcq",
+        "o": [
+            "Motion planning framework for ROS",
+            "Motor controller",
+            "Sensor driver",
+            "Power system"
+        ]
+    },
+    {
+        "q": "Rearrange MoveIt capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Kinematics",
+            "Motion planning",
+            "Collision checking",
+            "Grasping"
+        ]
+    },
+    {
+        "q": "What is collision detection?",
+        "type": "mcq",
+        "o": [
+            "Checking if robot collides with objects",
+            "Ignoring obstacles",
+            "No checking",
+            "Random motion"
+        ]
+    },
+    {
+        "q": "Motion planning finds collision-free ______.",
+        "type": "fill_blank",
+        "answers": [
+            "paths"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "weights"
+        ]
+    },
+    {
+        "q": "Match the MoveIt component with its function:",
+        "type": "match",
+        "left": [
+            "OMPL",
+            "IKFast",
+            "Octomap",
+            "Robot model"
+        ],
+        "right": [
+            "Motion planning",
+            "Fast IK",
+            "3D collision map",
+            "Kinematics"
+        ]
+    },
+    {
+        "q": "MoveIt simplifies robot arm programming.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is navigation stack?",
+        "type": "mcq",
+        "o": [
+            "Software for mobile robot navigation",
+            "Hardware stack",
+            "Power supply",
+            "Motor driver"
+        ]
+    },
+    {
+        "q": "Rearrange navigation components:",
+        "type": "rearrange",
+        "words": [
+            "Localization",
+            "Mapping",
+            "Path planning",
+            "Control"
+        ]
+    },
+    {
+        "q": "What is costmap?",
+        "type": "mcq",
+        "o": [
+            "Grid representing navigation costs",
+            "Price list",
+            "Invoice",
+            "Budget"
+        ]
+    },
+    {
+        "q": "Global planner creates ______ path.",
+        "type": "fill_blank",
+        "answers": [
+            "overall"
+        ],
+        "other_options": [
+            "local",
+            "random",
+            "no"
+        ]
+    },
+    {
+        "q": "Match the planner with its scope:",
+        "type": "match",
+        "left": [
+            "Global planner",
+            "Local planner",
+            "Recovery behavior",
+            "Costmap"
+        ],
+        "right": [
+            "Long distance",
+            "Obstacle avoidance",
+            "Stuck handling",
+            "Navigation grid"
+        ]
+    },
+    {
+        "q": "Navigation stack enables autonomous mobile robots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is TF in ROS?",
+        "type": "mcq",
+        "o": [
+            "Transform library for coordinate frames",
+            "Text file",
+            "Task file",
+            "Time function"
+        ]
+    },
+    {
+        "q": "Rearrange coordinate frames:",
+        "type": "rearrange",
+        "words": [
+            "World",
+            "Robot base",
+            "Sensor",
+            "End effector"
+        ]
+    },
+    {
+        "q": "What does TF track?",
+        "type": "mcq",
+        "o": [
+            "Relationships between coordinate frames",
+            "Motor speeds",
+            "Power consumption",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "Transform tree represents frame ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hierarchy"
+        ],
+        "other_options": [
+            "color",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Match the frame with its purpose:",
+        "type": "match",
+        "left": [
+            "World",
+            "Odom",
+            "Base link",
+            "Camera"
+        ],
+        "right": [
+            "Fixed reference",
+            "Odometry origin",
+            "Robot center",
+            "Vision sensor"
+        ]
+    },
+    {
+        "q": "TF enables sensor data fusion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is perception pipeline?",
+        "type": "mcq",
+        "o": [
+            "Processing sensor data for robot understanding",
+            "Mechanical pipe",
+            "Power cable",
+            "No processing"
+        ]
+    },
+    {
+        "q": "Rearrange perception stages:",
+        "type": "rearrange",
+        "words": [
+            "Sensing",
+            "Processing",
+            "Recognition",
+            "Decision"
+        ]
+    },
+    {
+        "q": "What is point cloud processing?",
+        "type": "mcq",
+        "o": [
+            "Analyzing 3D point data from sensors",
+            "2D image processing",
+            "Text processing",
+            "Audio processing"
+        ]
+    },
+    {
+        "q": "Object recognition identifies ______.",
+        "type": "fill_blank",
+        "answers": [
+            "objects"
+        ],
+        "other_options": [
+            "sounds",
+            "smells",
+            "tastes"
+        ]
+    },
+    {
+        "q": "Match the perception task with its output:",
+        "type": "match",
+        "left": [
+            "Segmentation",
+            "Classification",
+            "Detection",
+            "Tracking"
+        ],
+        "right": [
+            "Regions",
+            "Categories",
+            "Locations",
+            "Trajectories"
+        ]
+    },
+    {
+        "q": "Perception enables intelligent robot behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is grasp planning?",
+        "type": "mcq",
+        "o": [
+            "Planning how to grip objects",
+            "Motion planning",
+            "Path planning",
+            "Task planning"
+        ]
+    },
+    {
+        "q": "Rearrange grasp planning steps:",
+        "type": "rearrange",
+        "words": [
+            "Object detection",
+            "Grasp generation",
+            "Grasp evaluation",
+            "Execution"
+        ]
+    },
+    {
+        "q": "What is grasp pose?",
+        "type": "mcq",
+        "o": [
+            "Position and orientation for grasping",
+            "Object color",
+            "Object weight",
+            "Object name"
+        ]
+    },
+    {
+        "q": "Force closure ensures stable ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grasps"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "weights"
+        ]
+    },
+    {
+        "q": "Match the grasp type with its application:",
+        "type": "match",
+        "left": [
+            "Power grasp",
+            "Precision grasp",
+            "Parallel",
+            "Suction"
+        ],
+        "right": [
+            "Heavy objects",
+            "Small parts",
+            "Regular shapes",
+            "Flat surfaces"
+        ]
+    },
+    {
+        "q": "Deep learning improves grasp planning.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is task and motion planning?",
+        "type": "mcq",
+        "o": [
+            "Integrating high-level tasks with motion",
+            "Motion only",
+            "Task only",
+            "No planning"
+        ]
+    },
+    {
+        "q": "Rearrange planning levels:",
+        "type": "rearrange",
+        "words": [
+            "Task",
+            "Action",
+            "Motion",
+            "Trajectory"
+        ]
+    },
+    {
+        "q": "What is symbolic planning?",
+        "type": "mcq",
+        "o": [
+            "Planning using logical symbols and rules",
+            "Numeric planning",
+            "Random planning",
+            "No planning"
+        ]
+    },
+    {
+        "q": "TAMP combines symbolic and geometric ______.",
+        "type": "fill_blank",
+        "answers": [
+            "planning"
+        ],
+        "other_options": [
+            "coloring",
+            "naming",
+            "weighing"
+        ]
+    },
+    {
+        "q": "Match the planning level with its concern:",
+        "type": "match",
+        "left": [
+            "Task",
+            "Action",
+            "Motion",
+            "Control"
+        ],
+        "right": [
+            "What to do",
+            "How to do",
+            "Where to move",
+            "Execute motion"
+        ]
+    },
+    {
+        "q": "TAMP enables complex manipulation tasks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is learning from demonstration?",
+        "type": "mcq",
+        "o": [
+            "Robot learning by observing humans",
+            "Programming only",
+            "No learning",
+            "Random behavior"
+        ]
+    },
+    {
+        "q": "Rearrange LfD process:",
+        "type": "rearrange",
+        "words": [
+            "Demonstration",
+            "Recording",
+            "Learning",
+            "Reproduction"
+        ]
+    },
+    {
+        "q": "What is kinesthetic teaching?",
+        "type": "mcq",
+        "o": [
+            "Physically guiding robot through motion",
+            "Remote control",
+            "Programming",
+            "Simulation"
+        ]
+    },
+    {
+        "q": "LfD reduces programming ______.",
+        "type": "fill_blank",
+        "answers": [
+            "complexity"
+        ],
+        "other_options": [
+            "cost",
+            "time",
+            "effort"
+        ]
+    },
+    {
+        "q": "Match the LfD method with its input:",
+        "type": "match",
+        "left": [
+            "Kinesthetic",
+            "Teleoperation",
+            "Video",
+            "Virtual reality"
+        ],
+        "right": [
+            "Physical guidance",
+            "Remote control",
+            "Camera recording",
+            "VR tracking"
+        ]
+    },
+    {
+        "q": "LfD makes robot programming accessible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is skill transfer?",
+        "type": "mcq",
+        "o": [
+            "Applying learned skills to new situations",
+            "No transfer",
+            "Fixed skills",
+            "Random behavior"
+        ]
+    },
+    {
+        "q": "Rearrange skill learning stages:",
+        "type": "rearrange",
+        "words": [
+            "Demonstration",
+            "Segmentation",
+            "Learning",
+            "Generalization"
+        ]
+    },
+    {
+        "q": "What is skill primitive?",
+        "type": "mcq",
+        "o": [
+            "Basic reusable motion element",
+            "Complex task",
+            "Full program",
+            "No skill"
+        ]
+    },
+    {
+        "q": "Dynamic Movement Primitives learn ______.",
+        "type": "fill_blank",
+        "answers": [
+            "movements"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "weights"
+        ]
+    },
+    {
+        "q": "Match the skill type with its example:",
+        "type": "match",
+        "left": [
+            "Pick",
+            "Place",
+            "Insert",
+            "Push"
+        ],
+        "right": [
+            "Grasping",
+            "Releasing",
+            "Fitting",
+            "Moving objects"
+        ]
+    },
+    {
+        "q": "Skill libraries enable task reuse.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is active compliance?",
+        "type": "mcq",
+        "o": [
+            "Using sensors and control for compliant behavior",
+            "Passive springs",
+            "No compliance",
+            "Fixed motion"
+        ]
+    },
+    {
+        "q": "Rearrange compliance control types:",
+        "type": "rearrange",
+        "words": [
+            "Impedance",
+            "Admittance",
+            "Hybrid",
+            "Force"
+        ]
+    },
+    {
+        "q": "What is impedance control?",
+        "type": "mcq",
+        "o": [
+            "Controlling robot dynamic response to forces",
+            "Position control",
+            "Velocity control",
+            "No control"
+        ]
+    },
+    {
+        "q": "Compliance enables safe ______.",
+        "type": "fill_blank",
+        "answers": [
+            "interaction"
+        ],
+        "other_options": [
+            "collision",
+            "damage",
+            "failure"
+        ]
+    },
+    {
+        "q": "Match the control with its application:",
+        "type": "match",
+        "left": [
+            "Impedance",
+            "Admittance",
+            "Force",
+            "Position"
+        ],
+        "right": [
+            "Interaction",
+            "Heavy robot",
+            "Assembly",
+            "Accurate placement"
+        ]
+    },
+    {
+        "q": "Active compliance improves assembly tasks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is visual servoing?",
+        "type": "mcq",
+        "o": [
+            "Using vision feedback for robot control",
+            "Motor servoing",
+            "No vision",
+            "Blind motion"
+        ]
+    },
+    {
+        "q": "Rearrange visual servoing types:",
+        "type": "rearrange",
+        "words": [
+            "Image-based",
+            "Position-based",
+            "Hybrid",
+            "Direct"
+        ]
+    },
+    {
+        "q": "What is eye-in-hand configuration?",
+        "type": "mcq",
+        "o": [
+            "Camera mounted on robot end effector",
+            "Fixed camera",
+            "No camera",
+            "Human eye"
+        ]
+    },
+    {
+        "q": "Visual servoing enables real-time ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tracking"
+        ],
+        "other_options": [
+            "stopping",
+            "waiting",
+            "sleeping"
+        ]
+    },
+    {
+        "q": "Match the visual servoing with its feedback:",
+        "type": "match",
+        "left": [
+            "IBVS",
+            "PBVS",
+            "Eye-in-hand",
+            "Eye-to-hand"
+        ],
+        "right": [
+            "Image features",
+            "3D position",
+            "Moving camera",
+            "Fixed camera"
+        ]
+    },
+    {
+        "q": "Visual servoing handles object motion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tactile sensing?",
+        "type": "mcq",
+        "o": [
+            "Sensing through touch",
+            "Vision sensing",
+            "Audio sensing",
+            "No sensing"
+        ]
+    },
+    {
+        "q": "Rearrange tactile sensor types:",
+        "type": "rearrange",
+        "words": [
+            "Resistive",
+            "Capacitive",
+            "Piezoelectric",
+            "Optical"
+        ]
+    },
+    {
+        "q": "What does tactile sensing provide?",
+        "type": "mcq",
+        "o": [
+            "Contact force and location",
+            "Distance only",
+            "Color only",
+            "Temperature only"
+        ]
+    },
+    {
+        "q": "Tactile feedback enables secure ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grasping"
+        ],
+        "other_options": [
+            "releasing",
+            "dropping",
+            "throwing"
+        ]
+    },
+    {
+        "q": "Match the tactile sensor with its principle:",
+        "type": "match",
+        "left": [
+            "Resistive",
+            "Capacitive",
+            "Piezoelectric",
+            "Optical"
+        ],
+        "right": [
+            "Resistance change",
+            "Capacitance change",
+            "Charge generation",
+            "Light modulation"
+        ]
+    },
+    {
+        "q": "Tactile sensors enable dexterous manipulation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot skin?",
+        "type": "mcq",
+        "o": [
+            "Distributed tactile sensing over robot surface",
+            "Robot paint",
+            "Robot cover",
+            "Robot decoration"
+        ]
+    },
+    {
+        "q": "Rearrange robot skin capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Touch detection",
+            "Pressure sensing",
+            "Proximity",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "What does robot skin enable?",
+        "type": "mcq",
+        "o": [
+            "Safe human-robot interaction",
+            "Better appearance",
+            "Faster speed",
+            "Lower cost"
+        ]
+    },
+    {
+        "q": "Whole-body sensing protects ______.",
+        "type": "fill_blank",
+        "answers": [
+            "humans"
+        ],
+        "other_options": [
+            "robots",
+            "walls",
+            "floors"
+        ]
+    },
+    {
+        "q": "Match the skin feature with its use:",
+        "type": "match",
+        "left": [
+            "Touch",
+            "Proximity",
+            "Temperature",
+            "Slip"
+        ],
+        "right": [
+            "Contact detection",
+            "Pre-collision",
+            "Safety",
+            "Grasp adjustment"
+        ]
+    },
+    {
+        "q": "Robot skin improves cobot safety.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot hand dexterity?",
+        "type": "mcq",
+        "o": [
+            "Ability to manipulate objects with skill",
+            "Only gripping",
+            "Only releasing",
+            "No manipulation"
+        ]
+    },
+    {
+        "q": "Rearrange hand complexity:",
+        "type": "rearrange",
+        "words": [
+            "Parallel gripper",
+            "3-finger",
+            "5-finger",
+            "Anthropomorphic"
+        ]
+    },
+    {
+        "q": "What is underactuated hand?",
+        "type": "mcq",
+        "o": [
+            "Hand with fewer motors than joints",
+            "Fully actuated",
+            "No motors",
+            "Fixed hand"
+        ]
+    },
+    {
+        "q": "Anthropomorphic hands mimic human ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hands"
+        ],
+        "other_options": [
+            "feet",
+            "eyes",
+            "ears"
+        ]
+    },
+    {
+        "q": "Match the hand type with its capability:",
+        "type": "match",
+        "left": [
+            "Parallel",
+            "Adaptive",
+            "Dexterous",
+            "Soft"
+        ],
+        "right": [
+            "Simple grasp",
+            "Shape conforming",
+            "Fine manipulation",
+            "Gentle handling"
+        ]
+    },
+    {
+        "q": "Dexterous hands enable complex manipulation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is in-hand manipulation?",
+        "type": "mcq",
+        "o": [
+            "Moving objects within gripper without regrasping",
+            "Simple gripping",
+            "Releasing",
+            "No manipulation"
+        ]
+    },
+    {
+        "q": "Rearrange in-hand manipulation types:",
+        "type": "rearrange",
+        "words": [
+            "Translation",
+            "Rotation",
+            "Finger gaiting",
+            "Pivoting"
+        ]
+    },
+    {
+        "q": "What enables finger gaiting?",
+        "type": "mcq",
+        "o": [
+            "Alternating finger contacts while manipulating",
+            "Fixed grip",
+            "No movement",
+            "Simple release"
+        ]
+    },
+    {
+        "q": "In-hand manipulation increases task ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flexibility"
+        ],
+        "other_options": [
+            "cost",
+            "weight",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the manipulation with its motion:",
+        "type": "match",
+        "left": [
+            "Translation",
+            "Rotation",
+            "Pivoting",
+            "Rolling"
+        ],
+        "right": [
+            "Linear motion",
+            "Angular motion",
+            "About contact",
+            "Surface rolling"
+        ]
+    },
+    {
+        "q": "In-hand manipulation reduces pick-place cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is multi-robot coordination?",
+        "type": "mcq",
+        "o": [
+            "Multiple robots working together on tasks",
+            "Single robot",
+            "No coordination",
+            "Random movement"
+        ]
+    },
+    {
+        "q": "Rearrange coordination challenges:",
+        "type": "rearrange",
+        "words": [
+            "Task allocation",
+            "Path coordination",
+            "Communication",
+            "Conflict resolution"
+        ]
+    },
+    {
+        "q": "What is fleet management?",
+        "type": "mcq",
+        "o": [
+            "Coordinating multiple mobile robots",
+            "Single robot control",
+            "No management",
+            "Random dispatch"
+        ]
+    },
+    {
+        "q": "Multi-robot systems provide redundancy and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flexibility"
+        ],
+        "other_options": [
+            "rigidity",
+            "limitation",
+            "constraint"
+        ]
+    },
+    {
+        "q": "Match the coordination with its approach:",
+        "type": "match",
+        "left": [
+            "Centralized",
+            "Distributed",
+            "Hybrid",
+            "Market-based"
+        ],
+        "right": [
+            "Single controller",
+            "Local decisions",
+            "Combined",
+            "Auction allocation"
+        ]
+    },
+    {
+        "q": "Multi-robot systems scale to large operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot fleet optimization?",
+        "type": "mcq",
+        "o": [
+            "Maximizing efficiency of multiple robots",
+            "Single robot operation",
+            "No optimization",
+            "Random movement"
+        ]
+    },
+    {
+        "q": "Traffic management prevents robot ______.",
+        "type": "fill_blank",
+        "answers": [
+            "collisions"
+        ],
+        "other_options": [
+            "success",
+            "completion",
+            "operation"
+        ]
+    },
+    {
+        "q": "Match the fleet metric with its measure:",
+        "type": "match",
+        "left": [
+            "Throughput",
+            "Utilization",
+            "Deadlock",
+            "Queue time"
+        ],
+        "right": [
+            "Tasks per hour",
+            "Active time",
+            "Stuck robots",
+            "Waiting duration"
+        ]
+    },
+    {
+        "q": "Fleet optimization improves warehouse productivity.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

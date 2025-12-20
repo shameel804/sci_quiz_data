@@ -1,0 +1,6408 @@
+[
+    {
+        "q": "What is a prime number?",
+        "type": "mcq",
+        "o": [
+            "A natural number greater than 1 with no positive divisors other than 1 and itself",
+            "Any odd number",
+            "Any even number",
+            "A number divisible by 2"
+        ]
+    },
+    {
+        "q": "The number 2 is the only ______ prime number.",
+        "type": "fill_blank",
+        "answers": [
+            "even"
+        ],
+        "other_options": [
+            "odd",
+            "negative",
+            "composite"
+        ]
+    },
+    {
+        "q": "1 is a prime number.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Rearrange the first prime numbers:",
+        "type": "rearrange",
+        "words": [
+            "2",
+            "3",
+            "5",
+            "7",
+            "11"
+        ]
+    },
+    {
+        "q": "What is a composite number?",
+        "type": "mcq",
+        "o": [
+            "A positive integer that has at least one divisor other than 1 and itself",
+            "A prime number",
+            "An odd number",
+            "A negative number"
+        ]
+    },
+    {
+        "q": "The smallest composite number is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "4"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "6"
+        ]
+    },
+    {
+        "q": "Every composite number can be written as a product of primes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number type:",
+        "type": "match",
+        "left": [
+            "Prime",
+            "Composite",
+            "1",
+            "0"
+        ],
+        "right": [
+            "Only two divisors",
+            "More than two divisors",
+            "Neither prime nor composite",
+            "Neither prime nor composite"
+        ]
+    },
+    {
+        "q": "What is the Fundamental Theorem of Arithmetic?",
+        "type": "mcq",
+        "o": [
+            "Every integer greater than 1 can be uniquely factored into primes",
+            "All numbers are prime",
+            "Primes are infinite",
+            "Addition is commutative"
+        ]
+    },
+    {
+        "q": "Prime factorization is ______ (up to order of factors).",
+        "type": "fill_blank",
+        "answers": [
+            "unique"
+        ],
+        "other_options": [
+            "multiple",
+            "random",
+            "approximate"
+        ]
+    },
+    {
+        "q": "12 = 2^2 * 3 is the prime factorization of 12.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange prime factorization steps:",
+        "type": "rearrange",
+        "words": [
+            "Divide by smallest prime",
+            "Continue dividing",
+            "Record all prime factors",
+            "Express as product"
+        ]
+    },
+    {
+        "q": "What is the GCD (Greatest Common Divisor)?",
+        "type": "mcq",
+        "o": [
+            "The largest positive integer that divides both numbers",
+            "The smallest common multiple",
+            "The sum of two numbers",
+            "The product of two numbers"
+        ]
+    },
+    {
+        "q": "GCD is also called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "HCF"
+        ],
+        "other_options": [
+            "LCM",
+            "LCD",
+            "MCM"
+        ]
+    },
+    {
+        "q": "GCD(12, 18) = 6.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the GCD property:",
+        "type": "match",
+        "left": [
+            "GCD(a, 0)",
+            "GCD(a, a)",
+            "GCD(a, 1)",
+            "GCD(a, b)"
+        ],
+        "right": [
+            "a",
+            "a",
+            "1",
+            "GCD(b, a mod b)"
+        ]
+    },
+    {
+        "q": "What is the LCM (Least Common Multiple)?",
+        "type": "mcq",
+        "o": [
+            "The smallest positive integer divisible by both numbers",
+            "The largest common divisor",
+            "The sum of two numbers",
+            "The difference of two numbers"
+        ]
+    },
+    {
+        "q": "LCM(4, 6) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "12"
+        ],
+        "other_options": [
+            "2",
+            "24",
+            "10"
+        ]
+    },
+    {
+        "q": "LCM(a, b) * GCD(a, b) = a * b.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange steps to find LCM using GCD:",
+        "type": "rearrange",
+        "words": [
+            "Find GCD(a, b)",
+            "Compute a * b",
+            "Divide by GCD",
+            "Result is LCM"
+        ]
+    },
+    {
+        "q": "What is the Euclidean algorithm?",
+        "type": "mcq",
+        "o": [
+            "An efficient method for computing GCD using repeated division",
+            "A factorization method",
+            "A primality test",
+            "A sorting algorithm"
+        ]
+    },
+    {
+        "q": "The Euclidean algorithm uses the property GCD(a, b) = GCD(b, a mod ______).",
+        "type": "fill_blank",
+        "answers": [
+            "b"
+        ],
+        "other_options": [
+            "a",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "The Euclidean algorithm terminates when the remainder is 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm step:",
+        "type": "match",
+        "left": [
+            "GCD(48, 18)",
+            "GCD(18, 12)",
+            "GCD(12, 6)",
+            "GCD(6, 0)"
+        ],
+        "right": [
+            "48 mod 18 = 12",
+            "18 mod 12 = 6",
+            "12 mod 6 = 0",
+            "Answer is 6"
+        ]
+    },
+    {
+        "q": "What is modular arithmetic?",
+        "type": "mcq",
+        "o": [
+            "Arithmetic where numbers wrap around after reaching a modulus",
+            "Regular arithmetic",
+            "Complex number arithmetic",
+            "Matrix arithmetic"
+        ]
+    },
+    {
+        "q": "In modular arithmetic, a ≡ b (mod n) means n divides ______.",
+        "type": "fill_blank",
+        "answers": [
+            "a - b"
+        ],
+        "other_options": [
+            "a + b",
+            "a * b",
+            "a / b"
+        ]
+    },
+    {
+        "q": "17 ≡ 5 (mod 12).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange modular arithmetic concepts:",
+        "type": "rearrange",
+        "words": [
+            "Modulus",
+            "Congruence",
+            "Residue",
+            "Equivalence class"
+        ]
+    },
+    {
+        "q": "What is the modulo operation?",
+        "type": "mcq",
+        "o": [
+            "The remainder when dividing a by n",
+            "The quotient",
+            "The divisor",
+            "The dividend"
+        ]
+    },
+    {
+        "q": "23 mod 5 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "4",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "a mod n is always between 0 and n-1 inclusive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the modulo result:",
+        "type": "match",
+        "left": [
+            "10 mod 3",
+            "15 mod 4",
+            "20 mod 7",
+            "100 mod 10"
+        ],
+        "right": [
+            "1",
+            "3",
+            "6",
+            "0"
+        ]
+    },
+    {
+        "q": "What is a congruence relation?",
+        "type": "mcq",
+        "o": [
+            "An equivalence relation where a ≡ b (mod n) if n divides (a-b)",
+            "Equality",
+            "Inequality",
+            "Division"
+        ]
+    },
+    {
+        "q": "Congruence is reflexive, symmetric, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "transitive"
+        ],
+        "other_options": [
+            "commutative",
+            "associative",
+            "distributive"
+        ]
+    },
+    {
+        "q": "If a ≡ b (mod n) and b ≡ c (mod n), then a ≡ c (mod n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange equivalence relation properties:",
+        "type": "rearrange",
+        "words": [
+            "Reflexive (a ≡ a)",
+            "Symmetric (a ≡ b implies b ≡ a)",
+            "Transitive"
+        ]
+    },
+    {
+        "q": "What is modular addition?",
+        "type": "mcq",
+        "o": [
+            "(a + b) mod n = ((a mod n) + (b mod n)) mod n",
+            "a + b = a * b",
+            "a + b = a - b",
+            "a + b = a / b"
+        ]
+    },
+    {
+        "q": "(7 + 8) mod 10 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "5"
+        ],
+        "other_options": [
+            "15",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "q": "Modular arithmetic preserves addition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the modular operation:",
+        "type": "match",
+        "left": [
+            "(a + b) mod n",
+            "(a - b) mod n",
+            "(a * b) mod n",
+            "a^k mod n"
+        ],
+        "right": [
+            "Sum mod n",
+            "Difference mod n",
+            "Product mod n",
+            "Power mod n"
+        ]
+    },
+    {
+        "q": "What is modular multiplication?",
+        "type": "mcq",
+        "o": [
+            "(a * b) mod n = ((a mod n) * (b mod n)) mod n",
+            "a * b = a + b",
+            "a * b = a - b",
+            "a * b = a / b"
+        ]
+    },
+    {
+        "q": "(7 * 8) mod 10 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "56",
+            "5",
+            "4"
+        ]
+    },
+    {
+        "q": "Modular arithmetic preserves multiplication.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange modular exponentiation:",
+        "type": "rearrange",
+        "words": [
+            "Start with base",
+            "Square and reduce mod n",
+            "Multiply if bit is 1",
+            "Repeat for all bits"
+        ]
+    },
+    {
+        "q": "What is modular inverse?",
+        "type": "mcq",
+        "o": [
+            "A number b such that a * b ≡ 1 (mod n)",
+            "1/a",
+            "a - 1",
+            "-a"
+        ]
+    },
+    {
+        "q": "The modular inverse of a exists if and only if GCD(a, n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "a",
+            "n"
+        ]
+    },
+    {
+        "q": "3 * 7 ≡ 1 (mod 10), so 7 is the inverse of 3 mod 10.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the modular inverse:",
+        "type": "match",
+        "left": [
+            "2 mod 7",
+            "3 mod 7",
+            "4 mod 7",
+            "5 mod 7"
+        ],
+        "right": [
+            "4 (2*4=8≡1)",
+            "5 (3*5=15≡1)",
+            "2 (4*2=8≡1)",
+            "3 (5*3=15≡1)"
+        ]
+    },
+    {
+        "q": "What is Fermat's Little Theorem?",
+        "type": "mcq",
+        "o": [
+            "If p is prime and gcd(a, p) = 1, then a^(p-1) ≡ 1 (mod p)",
+            "a^n = a * n",
+            "All primes are odd",
+            "1 + 1 = 2"
+        ]
+    },
+    {
+        "q": "By Fermat's Little Theorem, a^p ≡ ______ (mod p) for prime p.",
+        "type": "fill_blank",
+        "answers": [
+            "a"
+        ],
+        "other_options": [
+            "1",
+            "0",
+            "p"
+        ]
+    },
+    {
+        "q": "Fermat's Little Theorem only works for prime moduli.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Fermat's Little Theorem applications:",
+        "type": "rearrange",
+        "words": [
+            "Primality testing",
+            "Modular inverse",
+            "Cryptography",
+            "Exponentiation"
+        ]
+    },
+    {
+        "q": "What is Euler's theorem?",
+        "type": "mcq",
+        "o": [
+            "If gcd(a, n) = 1, then a^phi(n) ≡ 1 (mod n)",
+            "Same as Fermat's theorem",
+            "a + b = b + a",
+            "n! = n * (n-1)!"
+        ]
+    },
+    {
+        "q": "Euler's theorem generalizes Fermat's Little Theorem to any modulus n where gcd(a, n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "a"
+        ]
+    },
+    {
+        "q": "Euler's theorem requires a and n to be coprime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem with its statement:",
+        "type": "match",
+        "left": [
+            "Fermat's Little",
+            "Euler's",
+            "Wilson's",
+            "Chinese Remainder"
+        ],
+        "right": [
+            "a^(p-1) ≡ 1 mod p",
+            "a^phi(n) ≡ 1 mod n",
+            "(p-1)! ≡ -1 mod p",
+            "System of congruences"
+        ]
+    },
+    {
+        "q": "What is Euler's totient function phi(n)?",
+        "type": "mcq",
+        "o": [
+            "Count of integers from 1 to n that are coprime to n",
+            "Count of all divisors",
+            "Sum of divisors",
+            "Product of divisors"
+        ]
+    },
+    {
+        "q": "phi(p) = ______ for prime p.",
+        "type": "fill_blank",
+        "answers": [
+            "p - 1"
+        ],
+        "other_options": [
+            "p",
+            "p + 1",
+            "2p"
+        ]
+    },
+    {
+        "q": "phi(1) = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange phi values:",
+        "type": "rearrange",
+        "words": [
+            "phi(2) = 1",
+            "phi(3) = 2",
+            "phi(4) = 2",
+            "phi(5) = 4",
+            "phi(6) = 2"
+        ]
+    },
+    {
+        "q": "What is phi(p^k) for prime p?",
+        "type": "mcq",
+        "o": [
+            "p^(k-1) * (p - 1)",
+            "p^k - 1",
+            "p * k",
+            "(p-1)^k"
+        ]
+    },
+    {
+        "q": "phi(p * q) = (p - 1) * (q - 1) for distinct primes p and q.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "phi(12) = phi(4) * phi(3) because GCD(4, 3) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "12"
+        ]
+    },
+    {
+        "q": "Match the phi calculation:",
+        "type": "match",
+        "left": [
+            "phi(7)",
+            "phi(8)",
+            "phi(9)",
+            "phi(10)"
+        ],
+        "right": [
+            "6",
+            "4",
+            "6",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the Chinese Remainder Theorem (CRT)?",
+        "type": "mcq",
+        "o": [
+            "A system of congruences with coprime moduli has a unique solution mod the product",
+            "A primality test",
+            "A factorization method",
+            "Euclid's algorithm"
+        ]
+    },
+    {
+        "q": "CRT requires the moduli to be pairwise ______.",
+        "type": "fill_blank",
+        "answers": [
+            "coprime"
+        ],
+        "other_options": [
+            "equal",
+            "prime",
+            "composite"
+        ]
+    },
+    {
+        "q": "The solution to CRT is unique modulo the product of all moduli.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange CRT solution steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute product M",
+            "Find partial products Mi",
+            "Find inverses",
+            "Combine solutions"
+        ]
+    },
+    {
+        "q": "What is Wilson's Theorem?",
+        "type": "mcq",
+        "o": [
+            "(p-1)! ≡ -1 (mod p) if and only if p is prime",
+            "All factorials are even",
+            "p! = p * (p-1)!",
+            "Fermat's theorem"
+        ]
+    },
+    {
+        "q": "(4-1)! = 6 ≡ ______ (mod 4), so 4 is not prime.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "-1",
+            "1",
+            "0"
+        ]
+    },
+    {
+        "q": "Wilson's Theorem provides a primality test but is not practical for large numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem with application:",
+        "type": "match",
+        "left": [
+            "Fermat's Little",
+            "Euler's",
+            "Wilson's",
+            "CRT"
+        ],
+        "right": [
+            "RSA cryptography",
+            "General modular inverse",
+            "Primality characterization",
+            "Solving systems"
+        ]
+    },
+    {
+        "q": "What is a Diophantine equation?",
+        "type": "mcq",
+        "o": [
+            "An equation seeking integer solutions only",
+            "An equation with real solutions",
+            "A differential equation",
+            "A polynomial equation"
+        ]
+    },
+    {
+        "q": "The linear Diophantine equation ax + by = c has solutions if and only if GCD(a, b) divides ______.",
+        "type": "fill_blank",
+        "answers": [
+            "c"
+        ],
+        "other_options": [
+            "a",
+            "b",
+            "1"
+        ]
+    },
+    {
+        "q": "The equation 2x + 4y = 5 has no integer solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Diophantine equation types:",
+        "type": "rearrange",
+        "words": [
+            "Linear (ax + by = c)",
+            "Quadratic",
+            "Pell's equation",
+            "Fermat's equation"
+        ]
+    },
+    {
+        "q": "What is Bezout's identity?",
+        "type": "mcq",
+        "o": [
+            "For any integers a, b, there exist integers x, y such that ax + by = GCD(a, b)",
+            "a + b = b + a",
+            "GCD(a, b) = LCM(a, b)",
+            "a * b = 0"
+        ]
+    },
+    {
+        "q": "Bezout's identity can be found using the extended ______ algorithm.",
+        "type": "fill_blank",
+        "answers": [
+            "Euclidean"
+        ],
+        "other_options": [
+            "Newton",
+            "binary",
+            "division"
+        ]
+    },
+    {
+        "q": "Bezout coefficients x, y are unique.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the identity:",
+        "type": "match",
+        "left": [
+            "Bezout's",
+            "Lagrange's",
+            "Euler's",
+            "Fermat's"
+        ],
+        "right": [
+            "ax + by = gcd",
+            "Polynomial interpolation",
+            "phi function",
+            "a^(p-1) ≡ 1"
+        ]
+    },
+    {
+        "q": "What is the extended Euclidean algorithm?",
+        "type": "mcq",
+        "o": [
+            "Finds GCD and Bezout coefficients simultaneously",
+            "Only finds GCD",
+            "Finds LCM",
+            "Factors numbers"
+        ]
+    },
+    {
+        "q": "Extended Euclidean algorithm finds x, y such that ax + by = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "GCD(a, b)"
+        ],
+        "other_options": [
+            "LCM(a, b)",
+            "0",
+            "1"
+        ]
+    },
+    {
+        "q": "Extended Euclidean algorithm is used to find modular inverses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange extended Euclidean steps:",
+        "type": "rearrange",
+        "words": [
+            "Apply Euclidean algorithm",
+            "Track quotients",
+            "Back-substitute",
+            "Find x and y"
+        ]
+    },
+    {
+        "q": "What is a perfect number?",
+        "type": "mcq",
+        "o": [
+            "A number equal to the sum of its proper divisors",
+            "A prime number",
+            "A power of 2",
+            "An odd number"
+        ]
+    },
+    {
+        "q": "The first perfect number is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "1",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "q": "6 = 1 + 2 + 3 is a perfect number.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the perfect number:",
+        "type": "match",
+        "left": [
+            "6",
+            "28",
+            "496",
+            "8128"
+        ],
+        "right": [
+            "1+2+3",
+            "1+2+4+7+14",
+            "Third perfect",
+            "Fourth perfect"
+        ]
+    },
+    {
+        "q": "What is an abundant number?",
+        "type": "mcq",
+        "o": [
+            "Sum of proper divisors exceeds the number",
+            "Sum equals the number",
+            "Sum is less than the number",
+            "Has no divisors"
+        ]
+    },
+    {
+        "q": "12 is abundant because 1+2+3+4+6 = 16 > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "12"
+        ],
+        "other_options": [
+            "16",
+            "6",
+            "24"
+        ]
+    },
+    {
+        "q": "All even numbers greater than 46 can be written as sum of two abundant numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange number types by divisor sum:",
+        "type": "rearrange",
+        "words": [
+            "Deficient (sum < n)",
+            "Perfect (sum = n)",
+            "Abundant (sum > n)"
+        ]
+    },
+    {
+        "q": "What is a deficient number?",
+        "type": "mcq",
+        "o": [
+            "Sum of proper divisors is less than the number",
+            "Sum equals the number",
+            "Sum exceeds the number",
+            "Has no divisors"
+        ]
+    },
+    {
+        "q": "All prime numbers are ______ numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "deficient"
+        ],
+        "other_options": [
+            "perfect",
+            "abundant",
+            "composite"
+        ]
+    },
+    {
+        "q": "8 is deficient because 1+2+4 = 7 < 8.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number classification:",
+        "type": "match",
+        "left": [
+            "6",
+            "8",
+            "12",
+            "28"
+        ],
+        "right": [
+            "Perfect",
+            "Deficient",
+            "Abundant",
+            "Perfect"
+        ]
+    },
+    {
+        "q": "What is a Mersenne prime?",
+        "type": "mcq",
+        "o": [
+            "A prime of the form 2^p - 1 where p is prime",
+            "Any large prime",
+            "A prime of form 2^n + 1",
+            "A twin prime"
+        ]
+    },
+    {
+        "q": "The first Mersenne prime is 2^2 - 1 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "5",
+            "7"
+        ]
+    },
+    {
+        "q": "If 2^p - 1 is prime, then p must be prime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Mersenne primes:",
+        "type": "rearrange",
+        "words": [
+            "M2 = 3",
+            "M3 = 7",
+            "M5 = 31",
+            "M7 = 127"
+        ]
+    },
+    {
+        "q": "What is a Fermat prime?",
+        "type": "mcq",
+        "o": [
+            "A prime of the form 2^(2^n) + 1",
+            "A Mersenne prime",
+            "Any odd prime",
+            "A twin prime"
+        ]
+    },
+    {
+        "q": "The first Fermat prime F0 = 2^1 + 1 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "5",
+            "7"
+        ]
+    },
+    {
+        "q": "Only five Fermat primes are known.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Fermat number:",
+        "type": "match",
+        "left": [
+            "F0",
+            "F1",
+            "F2",
+            "F3"
+        ],
+        "right": [
+            "3",
+            "5",
+            "17",
+            "257"
+        ]
+    },
+    {
+        "q": "What are twin primes?",
+        "type": "mcq",
+        "o": [
+            "Pairs of primes that differ by 2",
+            "Consecutive primes",
+            "Equal primes",
+            "Mersenne primes"
+        ]
+    },
+    {
+        "q": "The twin primes 11 and ______ are an example.",
+        "type": "fill_blank",
+        "answers": [
+            "13"
+        ],
+        "other_options": [
+            "12",
+            "15",
+            "17"
+        ]
+    },
+    {
+        "q": "The Twin Prime Conjecture states there are infinitely many twin prime pairs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange twin prime pairs:",
+        "type": "rearrange",
+        "words": [
+            "(3, 5)",
+            "(5, 7)",
+            "(11, 13)",
+            "(17, 19)",
+            "(29, 31)"
+        ]
+    },
+    {
+        "q": "What is a Sophie Germain prime?",
+        "type": "mcq",
+        "o": [
+            "A prime p where 2p + 1 is also prime",
+            "A Mersenne prime",
+            "A Fermat prime",
+            "A twin prime"
+        ]
+    },
+    {
+        "q": "If p = 11 is Sophie Germain, then 2(11) + 1 = ______ is also prime.",
+        "type": "fill_blank",
+        "answers": [
+            "23"
+        ],
+        "other_options": [
+            "22",
+            "21",
+            "25"
+        ]
+    },
+    {
+        "q": "Sophie Germain primes are used in cryptography.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the prime type:",
+        "type": "match",
+        "left": [
+            "Mersenne",
+            "Fermat",
+            "Twin",
+            "Sophie Germain"
+        ],
+        "right": [
+            "2^p - 1",
+            "2^(2^n) + 1",
+            "Differ by 2",
+            "2p + 1 also prime"
+        ]
+    },
+    {
+        "q": "What is a quadratic residue?",
+        "type": "mcq",
+        "o": [
+            "An integer a is a QR mod n if x^2 ≡ a (mod n) has a solution",
+            "A perfect square",
+            "Any integer",
+            "A prime number"
+        ]
+    },
+    {
+        "q": "The number of quadratic residues mod p (odd prime) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(p-1)/2"
+        ],
+        "other_options": [
+            "p-1",
+            "p",
+            "(p+1)/2"
+        ]
+    },
+    {
+        "q": "1 is always a quadratic residue mod any n > 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange QR concepts:",
+        "type": "rearrange",
+        "words": [
+            "Quadratic residue",
+            "Quadratic non-residue",
+            "Legendre symbol",
+            "Jacobi symbol"
+        ]
+    },
+    {
+        "q": "What is the Legendre symbol (a/p)?",
+        "type": "mcq",
+        "o": [
+            "1 if a is QR, -1 if non-QR, 0 if p divides a",
+            "a divided by p",
+            "GCD(a, p)",
+            "a mod p"
+        ]
+    },
+    {
+        "q": "(a/p) = a^((p-1)/2) mod p is Euler's ______ criterion.",
+        "type": "fill_blank",
+        "answers": [
+            "criterion"
+        ],
+        "other_options": [
+            "theorem",
+            "formula",
+            "identity"
+        ]
+    },
+    {
+        "q": "The Legendre symbol is multiplicative: (ab/p) = (a/p)(b/p).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Legendre symbol value:",
+        "type": "match",
+        "left": [
+            "(1/p)",
+            "(p-1/p)",
+            "(a/p) where p|a",
+            "(2/p)"
+        ],
+        "right": [
+            "1",
+            "(-1)^((p-1)/2)",
+            "0",
+            "(-1)^((p^2-1)/8)"
+        ]
+    },
+    {
+        "q": "What is the Law of Quadratic Reciprocity?",
+        "type": "mcq",
+        "o": [
+            "(p/q)(q/p) = (-1)^((p-1)/2 * (q-1)/2) for odd primes p, q",
+            "p * q = q * p",
+            "GCD(p, q) = 1",
+            "p + q is even"
+        ]
+    },
+    {
+        "q": "Quadratic reciprocity relates (p/q) and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "(q/p)"
+        ],
+        "other_options": [
+            "(p+q)",
+            "(p*q)",
+            "(p-q)"
+        ]
+    },
+    {
+        "q": "Gauss called Quadratic Reciprocity the 'golden theorem'.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange reciprocity laws:",
+        "type": "rearrange",
+        "words": [
+            "Quadratic reciprocity",
+            "First supplement (-1/p)",
+            "Second supplement (2/p)",
+            "Higher reciprocity"
+        ]
+    },
+    {
+        "q": "What is a primitive root modulo n?",
+        "type": "mcq",
+        "o": [
+            "An integer g whose powers generate all units mod n",
+            "The smallest prime factor",
+            "GCD(g, n)",
+            "Any divisor of n"
+        ]
+    },
+    {
+        "q": "A primitive root exists mod n if and only if n = 1, 2, 4, p^k, or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2p^k"
+        ],
+        "other_options": [
+            "3p^k",
+            "p",
+            "2^k"
+        ]
+    },
+    {
+        "q": "2 is a primitive root modulo 5.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the primitive root property:",
+        "type": "match",
+        "left": [
+            "ord_n(g) = phi(n)",
+            "g generates Z_n^*",
+            "Number of primitive roots",
+            "Index/discrete log"
+        ],
+        "right": [
+            "Definition",
+            "Equivalent statement",
+            "phi(phi(n))",
+            "Inverse of primitive root"
+        ]
+    },
+    {
+        "q": "What is the order of a modulo n?",
+        "type": "mcq",
+        "o": [
+            "Smallest positive k such that a^k ≡ 1 (mod n)",
+            "GCD(a, n)",
+            "a mod n",
+            "n / a"
+        ]
+    },
+    {
+        "q": "The order of a mod n divides ______.",
+        "type": "fill_blank",
+        "answers": [
+            "phi(n)"
+        ],
+        "other_options": [
+            "n",
+            "a",
+            "n-1"
+        ]
+    },
+    {
+        "q": "If ord_n(a) = phi(n), then a is a primitive root mod n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by order:",
+        "type": "rearrange",
+        "words": [
+            "ord_7(1) = 1",
+            "ord_7(2) = 3",
+            "ord_7(3) = 6",
+            "ord_7(6) = 2"
+        ]
+    },
+    {
+        "q": "What is the discrete logarithm?",
+        "type": "mcq",
+        "o": [
+            "Given g^x ≡ h (mod n), find x",
+            "log base e",
+            "log base 10",
+            "Natural logarithm"
+        ]
+    },
+    {
+        "q": "The discrete logarithm problem is believed to be computationally ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hard"
+        ],
+        "other_options": [
+            "easy",
+            "trivial",
+            "impossible"
+        ]
+    },
+    {
+        "q": "Discrete logarithm is the basis for Diffie-Hellman key exchange.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cryptographic primitive:",
+        "type": "match",
+        "left": [
+            "RSA",
+            "Diffie-Hellman",
+            "ElGamal",
+            "DSA"
+        ],
+        "right": [
+            "Factoring",
+            "Discrete log",
+            "Discrete log",
+            "Discrete log"
+        ]
+    },
+    {
+        "q": "What is the divisor function d(n)?",
+        "type": "mcq",
+        "o": [
+            "The number of positive divisors of n",
+            "The sum of divisors",
+            "The largest divisor",
+            "The smallest divisor"
+        ]
+    },
+    {
+        "q": "For prime p, d(p) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "p",
+            "p-1"
+        ]
+    },
+    {
+        "q": "d(n) is multiplicative: d(ab) = d(a)d(b) when GCD(a,b) = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange divisor counts:",
+        "type": "rearrange",
+        "words": [
+            "d(1) = 1",
+            "d(2) = 2",
+            "d(6) = 4",
+            "d(12) = 6"
+        ]
+    },
+    {
+        "q": "What is the sum of divisors function sigma(n)?",
+        "type": "mcq",
+        "o": [
+            "The sum of all positive divisors of n",
+            "The count of divisors",
+            "The largest divisor",
+            "n itself"
+        ]
+    },
+    {
+        "q": "sigma(6) = 1 + 2 + 3 + 6 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "12"
+        ],
+        "other_options": [
+            "6",
+            "10",
+            "14"
+        ]
+    },
+    {
+        "q": "A perfect number n satisfies sigma(n) = 2n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the arithmetic function:",
+        "type": "match",
+        "left": [
+            "phi(n)",
+            "d(n)",
+            "sigma(n)",
+            "mu(n)"
+        ],
+        "right": [
+            "Euler totient",
+            "Divisor count",
+            "Divisor sum",
+            "Mobius function"
+        ]
+    },
+    {
+        "q": "What is the Mobius function mu(n)?",
+        "type": "mcq",
+        "o": [
+            "1 if n=1, 0 if n has squared prime factor, (-1)^k if n is product of k distinct primes",
+            "Always 1",
+            "Always 0",
+            "Same as phi(n)"
+        ]
+    },
+    {
+        "q": "mu(6) = mu(2)mu(3) = (-1)(-1) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "-1",
+            "0",
+            "2"
+        ]
+    },
+    {
+        "q": "mu(4) = 0 because 4 = 2^2 has a squared prime factor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Mobius values:",
+        "type": "rearrange",
+        "words": [
+            "mu(1) = 1",
+            "mu(2) = -1",
+            "mu(4) = 0",
+            "mu(6) = 1",
+            "mu(30) = -1"
+        ]
+    },
+    {
+        "q": "What is Mobius inversion?",
+        "type": "mcq",
+        "o": [
+            "If g(n) = sum of f(d) over d|n, then f(n) = sum of mu(n/d)g(d)",
+            "mu(n) = 1/n",
+            "f(n) = g(n)",
+            "No relationship"
+        ]
+    },
+    {
+        "q": "Mobius inversion relates sums over ______.",
+        "type": "fill_blank",
+        "answers": [
+            "divisors"
+        ],
+        "other_options": [
+            "primes",
+            "multiples",
+            "integers"
+        ]
+    },
+    {
+        "q": "Mobius inversion is fundamental in analytic number theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the inversion formula:",
+        "type": "match",
+        "left": [
+            "Mobius inversion",
+            "Euler product",
+            "Dirichlet convolution",
+            "Generating function"
+        ],
+        "right": [
+            "Sum to function",
+            "Product over primes",
+            "Arithmetic functions",
+            "Power series"
+        ]
+    },
+    {
+        "q": "What is the Sieve of Eratosthenes?",
+        "type": "mcq",
+        "o": [
+            "An ancient algorithm to find all primes up to n",
+            "A primality test",
+            "A factorization method",
+            "Finding GCD"
+        ]
+    },
+    {
+        "q": "Sieve of Eratosthenes marks multiples of each prime starting from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "The Sieve only needs to check primes up to sqrt(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange sieve steps:",
+        "type": "rearrange",
+        "words": [
+            "List 2 to n",
+            "Mark multiples of 2",
+            "Find next unmarked",
+            "Repeat",
+            "Remaining are primes"
+        ]
+    },
+    {
+        "q": "What is the Prime Number Theorem?",
+        "type": "mcq",
+        "o": [
+            "The number of primes up to n is approximately n / ln(n)",
+            "All primes are odd",
+            "Primes are finite",
+            "There are exactly n primes"
+        ]
+    },
+    {
+        "q": "pi(n) ~ n / ______(n) describes prime distribution.",
+        "type": "fill_blank",
+        "answers": [
+            "ln"
+        ],
+        "other_options": [
+            "log",
+            "sqrt",
+            "n"
+        ]
+    },
+    {
+        "q": "The Prime Number Theorem was proven in 1896.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the prime counting:",
+        "type": "match",
+        "left": [
+            "pi(10)",
+            "pi(100)",
+            "pi(1000)",
+            "pi(10000)"
+        ],
+        "right": [
+            "4",
+            "25",
+            "168",
+            "1229"
+        ]
+    },
+    {
+        "q": "What is Goldbach's Conjecture?",
+        "type": "mcq",
+        "o": [
+            "Every even integer > 2 is the sum of two primes",
+            "All integers are prime",
+            "Primes are infinite",
+            "Twin primes exist"
+        ]
+    },
+    {
+        "q": "Goldbach: 10 = 3 + ______ = 5 + 5.",
+        "type": "fill_blank",
+        "answers": [
+            "7"
+        ],
+        "other_options": [
+            "6",
+            "8",
+            "4"
+        ]
+    },
+    {
+        "q": "Goldbach's Conjecture remains unproven.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange famous conjectures:",
+        "type": "rearrange",
+        "words": [
+            "Goldbach (1742)",
+            "Twin Prime",
+            "Riemann Hypothesis (1859)",
+            "Collatz (1937)"
+        ]
+    },
+    {
+        "q": "What is the Riemann Hypothesis?",
+        "type": "mcq",
+        "o": [
+            "All non-trivial zeros of zeta function have real part 1/2",
+            "Primes are finite",
+            "pi(n) = n",
+            "All integers are prime"
+        ]
+    },
+    {
+        "q": "The Riemann zeta function is defined as sum of 1/n^s for s with Re(s) > ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "-1"
+        ]
+    },
+    {
+        "q": "The Riemann Hypothesis is one of the Millennium Prize Problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mathematician:",
+        "type": "match",
+        "left": [
+            "Euclid",
+            "Fermat",
+            "Euler",
+            "Riemann"
+        ],
+        "right": [
+            "Infinitude of primes",
+            "Little theorem",
+            "Totient function",
+            "Zeta function"
+        ]
+    },
+    {
+        "q": "What is Pell's equation?",
+        "type": "mcq",
+        "o": [
+            "x^2 - Dy^2 = 1 where D is a non-square positive integer",
+            "ax + by = c",
+            "x^n + y^n = z^n",
+            "x^2 + y^2 = z^2"
+        ]
+    },
+    {
+        "q": "Pell's equation x^2 - 2y^2 = 1 has infinitely many solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The fundamental solution generates all solutions via ______.",
+        "type": "fill_blank",
+        "answers": [
+            "recurrence"
+        ],
+        "other_options": [
+            "addition",
+            "subtraction",
+            "division"
+        ]
+    },
+    {
+        "q": "Match the Diophantine equation:",
+        "type": "match",
+        "left": [
+            "Linear",
+            "Pell's",
+            "Pythagorean",
+            "Fermat's Last"
+        ],
+        "right": [
+            "ax + by = c",
+            "x^2 - Dy^2 = 1",
+            "x^2 + y^2 = z^2",
+            "No solutions for n > 2"
+        ]
+    },
+    {
+        "q": "What is a Pythagorean triple?",
+        "type": "mcq",
+        "o": [
+            "(a, b, c) satisfying a^2 + b^2 = c^2",
+            "(a, b, c) summing to 0",
+            "Three consecutive integers",
+            "Three primes"
+        ]
+    },
+    {
+        "q": "The triple (3, 4, 5) satisfies 9 + 16 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "25"
+        ],
+        "other_options": [
+            "20",
+            "24",
+            "30"
+        ]
+    },
+    {
+        "q": "Primitive Pythagorean triples have GCD(a, b, c) = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Pythagorean triples:",
+        "type": "rearrange",
+        "words": [
+            "(3, 4, 5)",
+            "(5, 12, 13)",
+            "(8, 15, 17)",
+            "(7, 24, 25)"
+        ]
+    },
+    {
+        "q": "What is Fermat's Last Theorem?",
+        "type": "mcq",
+        "o": [
+            "x^n + y^n = z^n has no positive integer solutions for n > 2",
+            "a^(p-1) ≡ 1 mod p",
+            "Primes are infinite",
+            "Pythagorean theorem"
+        ]
+    },
+    {
+        "q": "Fermat's Last Theorem was proven by Andrew ______ in 1995.",
+        "type": "fill_blank",
+        "answers": [
+            "Wiles"
+        ],
+        "other_options": [
+            "Fermat",
+            "Euler",
+            "Gauss"
+        ]
+    },
+    {
+        "q": "Fermat claimed to have a proof but never wrote it down.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the theorem prover:",
+        "type": "match",
+        "left": [
+            "Infinitude of primes",
+            "Fermat's Little",
+            "Quadratic reciprocity",
+            "Fermat's Last"
+        ],
+        "right": [
+            "Euclid",
+            "Fermat/Euler",
+            "Gauss",
+            "Wiles"
+        ]
+    },
+    {
+        "q": "What is the sum of two squares theorem?",
+        "type": "mcq",
+        "o": [
+            "A prime p = x^2 + y^2 iff p = 2 or p ≡ 1 (mod 4)",
+            "All primes are sums of two squares",
+            "No prime is sum of two squares",
+            "Only 2 is sum of two squares"
+        ]
+    },
+    {
+        "q": "5 = 1^2 + ______^2 is a sum of two squares.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "3 cannot be written as a sum of two squares.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by representability as sum of two squares:",
+        "type": "rearrange",
+        "words": [
+            "2 = 1+1",
+            "5 = 1+4",
+            "13 = 4+9",
+            "17 = 1+16"
+        ]
+    },
+    {
+        "q": "What are four squares?",
+        "type": "mcq",
+        "o": [
+            "Lagrange's theorem: every positive integer is sum of four squares",
+            "Every integer needs exactly 4 squares",
+            "Only primes need 4 squares",
+            "No integer needs 4 squares"
+        ]
+    },
+    {
+        "q": "7 = 4 + 1 + 1 + 1 = 2^2 + 1^2 + 1^2 + ______^2.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "Some integers require exactly four squares.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the squares theorem:",
+        "type": "match",
+        "left": [
+            "Two squares",
+            "Three squares",
+            "Four squares",
+            "Waring's problem"
+        ],
+        "right": [
+            "p ≡ 1 mod 4",
+            "Not 4^a(8b+7)",
+            "All integers",
+            "k-th powers"
+        ]
+    },
+    {
+        "q": "What is a multiplicative function?",
+        "type": "mcq",
+        "o": [
+            "f(mn) = f(m)f(n) when GCD(m, n) = 1",
+            "f(m + n) = f(m) + f(n)",
+            "f(n) = n",
+            "Always constant"
+        ]
+    },
+    {
+        "q": "phi(mn) = phi(m)phi(n) when GCD(m, n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "m"
+        ]
+    },
+    {
+        "q": "The divisor function d(n) is multiplicative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange multiplicative functions:",
+        "type": "rearrange",
+        "words": [
+            "phi (Euler)",
+            "d (divisor count)",
+            "sigma (divisor sum)",
+            "mu (Mobius)"
+        ]
+    },
+    {
+        "q": "What is the Carmichael function lambda(n)?",
+        "type": "mcq",
+        "o": [
+            "The smallest positive m such that a^m ≡ 1 mod n for all a coprime to n",
+            "Same as phi(n)",
+            "Always 1",
+            "n - 1"
+        ]
+    },
+    {
+        "q": "lambda(n) divides ______.",
+        "type": "fill_blank",
+        "answers": [
+            "phi(n)"
+        ],
+        "other_options": [
+            "n",
+            "n-1",
+            "2n"
+        ]
+    },
+    {
+        "q": "For prime p, lambda(p) = phi(p) = p - 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the function:",
+        "type": "match",
+        "left": [
+            "phi(n)",
+            "lambda(n)",
+            "ord_n(a)",
+            "exp(G)"
+        ],
+        "right": [
+            "Euler totient",
+            "Carmichael",
+            "Element order",
+            "Group exponent"
+        ]
+    },
+    {
+        "q": "What is a Carmichael number?",
+        "type": "mcq",
+        "o": [
+            "A composite n that satisfies a^(n-1) ≡ 1 mod n for all a coprime to n",
+            "A prime number",
+            "A Mersenne number",
+            "A Fermat number"
+        ]
+    },
+    {
+        "q": "The smallest Carmichael number is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "561"
+        ],
+        "other_options": [
+            "341",
+            "1105",
+            "1729"
+        ]
+    },
+    {
+        "q": "Carmichael numbers are pseudoprimes to all bases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Carmichael numbers:",
+        "type": "rearrange",
+        "words": [
+            "561 (first)",
+            "1105",
+            "1729",
+            "2465"
+        ]
+    },
+    {
+        "q": "What is a pseudoprime?",
+        "type": "mcq",
+        "o": [
+            "A composite that passes a primality test for some base",
+            "A prime number",
+            "A perfect number",
+            "An abundant number"
+        ]
+    },
+    {
+        "q": "341 = 11 * 31 is a pseudoprime base ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "3",
+            "5",
+            "7"
+        ]
+    },
+    {
+        "q": "Pseudoprimes can fool simple primality tests.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the pseudoprime type:",
+        "type": "match",
+        "left": [
+            "Fermat pseudoprime",
+            "Euler pseudoprime",
+            "Strong pseudoprime",
+            "Carmichael"
+        ],
+        "right": [
+            "a^(n-1) ≡ 1",
+            "a^((n-1)/2) ≡ (a/n)",
+            "Miller-Rabin test",
+            "All base pseudoprime"
+        ]
+    },
+    {
+        "q": "What is the Miller-Rabin primality test?",
+        "type": "mcq",
+        "o": [
+            "A probabilistic test using strong pseudoprime property",
+            "A deterministic test",
+            "Sieve of Eratosthenes",
+            "Trial division"
+        ]
+    },
+    {
+        "q": "Miller-Rabin writes n-1 = 2^s * d with d ______.",
+        "type": "fill_blank",
+        "answers": [
+            "odd"
+        ],
+        "other_options": [
+            "even",
+            "prime",
+            "1"
+        ]
+    },
+    {
+        "q": "Miller-Rabin test can be made deterministic for bounded n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange primality tests by type:",
+        "type": "rearrange",
+        "words": [
+            "Trial division (deterministic)",
+            "Fermat (probabilistic)",
+            "Miller-Rabin (probabilistic)",
+            "AKS (deterministic polynomial)"
+        ]
+    },
+    {
+        "q": "What is the AKS primality test?",
+        "type": "mcq",
+        "o": [
+            "First deterministic polynomial-time primality test (2002)",
+            "A probabilistic test",
+            "Sieve method",
+            "Factorization method"
+        ]
+    },
+    {
+        "q": "AKS proved PRIMES is in complexity class ______.",
+        "type": "fill_blank",
+        "answers": [
+            "P"
+        ],
+        "other_options": [
+            "NP",
+            "EXPTIME",
+            "PSPACE"
+        ]
+    },
+    {
+        "q": "AKS is practical for most applications despite its theoretical importance.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the test property:",
+        "type": "match",
+        "left": [
+            "Trial division",
+            "Fermat",
+            "Miller-Rabin",
+            "AKS"
+        ],
+        "right": [
+            "O(sqrt(n))",
+            "Can be fooled",
+            "Very accurate",
+            "Polynomial time"
+        ]
+    },
+    {
+        "q": "What is RSA encryption?",
+        "type": "mcq",
+        "o": [
+            "Public-key cryptosystem based on difficulty of factoring",
+            "Symmetric encryption",
+            "Hash function",
+            "Digital signature only"
+        ]
+    },
+    {
+        "q": "RSA uses two large primes p and q to compute n = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "p * q"
+        ],
+        "other_options": [
+            "p + q",
+            "p - q",
+            "p / q"
+        ]
+    },
+    {
+        "q": "RSA security relies on the difficulty of factoring large numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange RSA key generation:",
+        "type": "rearrange",
+        "words": [
+            "Choose primes p, q",
+            "Compute n = pq",
+            "Compute phi(n)",
+            "Choose e coprime to phi",
+            "Compute d = e^(-1) mod phi"
+        ]
+    },
+    {
+        "q": "What is the public key in RSA?",
+        "type": "mcq",
+        "o": [
+            "The pair (n, e)",
+            "The pair (p, q)",
+            "The value d",
+            "phi(n)"
+        ]
+    },
+    {
+        "q": "RSA encryption: c = m^e mod ______.",
+        "type": "fill_blank",
+        "answers": [
+            "n"
+        ],
+        "other_options": [
+            "e",
+            "d",
+            "phi(n)"
+        ]
+    },
+    {
+        "q": "The private key d satisfies ed ≡ 1 (mod phi(n)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the RSA component:",
+        "type": "match",
+        "left": [
+            "n",
+            "e",
+            "d",
+            "phi(n)"
+        ],
+        "right": [
+            "Public modulus",
+            "Public exponent",
+            "Private exponent",
+            "(p-1)(q-1)"
+        ]
+    },
+    {
+        "q": "What is Diffie-Hellman key exchange?",
+        "type": "mcq",
+        "o": [
+            "Protocol for two parties to establish shared secret over insecure channel",
+            "Encryption algorithm",
+            "Hash function",
+            "Digital signature"
+        ]
+    },
+    {
+        "q": "Diffie-Hellman security relies on the discrete ______ problem.",
+        "type": "fill_blank",
+        "answers": [
+            "logarithm"
+        ],
+        "other_options": [
+            "factoring",
+            "root",
+            "power"
+        ]
+    },
+    {
+        "q": "The shared secret in Diffie-Hellman is g^(ab) mod p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Diffie-Hellman steps:",
+        "type": "rearrange",
+        "words": [
+            "Agree on g, p",
+            "Alice sends g^a mod p",
+            "Bob sends g^b mod p",
+            "Both compute g^(ab)"
+        ]
+    },
+    {
+        "q": "What is the discrete log problem?",
+        "type": "mcq",
+        "o": [
+            "Given g, h, p, find x such that g^x ≡ h (mod p)",
+            "Finding GCD",
+            "Factoring",
+            "Finding primitive root"
+        ]
+    },
+    {
+        "q": "Baby-step giant-step solves discrete log in O(sqrt(n)) space and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "time"
+        ],
+        "other_options": [
+            "memory",
+            "steps",
+            "operations"
+        ]
+    },
+    {
+        "q": "No polynomial-time algorithm is known for discrete log.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm:",
+        "type": "match",
+        "left": [
+            "Baby-step giant-step",
+            "Pollard's rho",
+            "Index calculus",
+            "Number field sieve"
+        ],
+        "right": [
+            "O(sqrt(n))",
+            "Probabilistic sqrt",
+            "Subexponential",
+            "Factoring"
+        ]
+    },
+    {
+        "q": "What is elliptic curve cryptography?",
+        "type": "mcq",
+        "o": [
+            "Cryptography using elliptic curve groups over finite fields",
+            "RSA variant",
+            "Hash function",
+            "Symmetric encryption"
+        ]
+    },
+    {
+        "q": "ECC offers same security as RSA with ______ key sizes.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller"
+        ],
+        "other_options": [
+            "larger",
+            "same",
+            "variable"
+        ]
+    },
+    {
+        "q": "ECDH is Diffie-Hellman using elliptic curves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cryptosystem:",
+        "type": "match",
+        "left": [
+            "RSA",
+            "ECDSA",
+            "ECDH",
+            "ElGamal"
+        ],
+        "right": [
+            "Factoring-based",
+            "EC signatures",
+            "EC key exchange",
+            "Discrete log"
+        ]
+    },
+    {
+        "q": "What is a continued fraction?",
+        "type": "mcq",
+        "o": [
+            "Expression a0 + 1/(a1 + 1/(a2 + ...))",
+            "a/b",
+            "Decimal expansion",
+            "Power series"
+        ]
+    },
+    {
+        "q": "Every rational number has a ______ continued fraction.",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "infinite",
+            "periodic",
+            "irrational"
+        ]
+    },
+    {
+        "q": "Irrational numbers have infinite continued fractions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange continued fraction convergents:",
+        "type": "rearrange",
+        "words": [
+            "p0/q0",
+            "p1/q1",
+            "p2/q2",
+            "p3/q3"
+        ]
+    },
+    {
+        "q": "What is a partition of n?",
+        "type": "mcq",
+        "o": [
+            "A way to write n as sum of positive integers",
+            "Factors of n",
+            "Divisors of n",
+            "Multiples of n"
+        ]
+    },
+    {
+        "q": "p(4) = 5 because 4 = 4 = 3+1 = 2+2 = 2+1+1 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1+1+1+1"
+        ],
+        "other_options": [
+            "4+0",
+            "2+2",
+            "3+1"
+        ]
+    },
+    {
+        "q": "The partition function p(n) grows exponentially.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the partition count:",
+        "type": "match",
+        "left": [
+            "p(1)",
+            "p(2)",
+            "p(3)",
+            "p(5)"
+        ],
+        "right": [
+            "1",
+            "2",
+            "3",
+            "7"
+        ]
+    },
+    {
+        "q": "What is the Jacobi symbol (a/n)?",
+        "type": "mcq",
+        "o": [
+            "Generalization of Legendre symbol to composite odd n",
+            "Same as Legendre",
+            "GCD(a, n)",
+            "a mod n"
+        ]
+    },
+    {
+        "q": "The Jacobi symbol is the product of ______ symbols.",
+        "type": "fill_blank",
+        "answers": [
+            "Legendre"
+        ],
+        "other_options": [
+            "Jacobi",
+            "Kronecker",
+            "floor"
+        ]
+    },
+    {
+        "q": "(a/n) = 1 does not guarantee a is a quadratic residue mod n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange symbol generalizations:",
+        "type": "rearrange",
+        "words": [
+            "Legendre (prime p)",
+            "Jacobi (odd composite)",
+            "Kronecker (any n)"
+        ]
+    },
+    {
+        "q": "What are Gaussian integers?",
+        "type": "mcq",
+        "o": [
+            "Complex numbers of the form a + bi where a, b are integers",
+            "Real integers",
+            "Rational numbers",
+            "Prime numbers"
+        ]
+    },
+    {
+        "q": "The Gaussian integer 2 = (1+i)(1-i) is not a Gaussian ______.",
+        "type": "fill_blank",
+        "answers": [
+            "prime"
+        ],
+        "other_options": [
+            "integer",
+            "unit",
+            "number"
+        ]
+    },
+    {
+        "q": "Gaussian integers form a unique factorization domain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algebraic number type:",
+        "type": "match",
+        "left": [
+            "Gaussian integers",
+            "Eisenstein integers",
+            "Algebraic integers",
+            "p-adic integers"
+        ],
+        "right": [
+            "Z[i]",
+            "Z[omega]",
+            "Root of monic polynomial",
+            "p-adic analysis"
+        ]
+    },
+    {
+        "q": "What is the norm of a Gaussian integer?",
+        "type": "mcq",
+        "o": [
+            "N(a + bi) = a^2 + b^2",
+            "a + b",
+            "a - b",
+            "|a + bi|"
+        ]
+    },
+    {
+        "q": "N(3 + 4i) = 9 + 16 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "25"
+        ],
+        "other_options": [
+            "7",
+            "12",
+            "20"
+        ]
+    },
+    {
+        "q": "The norm is multiplicative: N(wz) = N(w)N(z).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange norms:",
+        "type": "rearrange",
+        "words": [
+            "N(1) = 1",
+            "N(i) = 1",
+            "N(1+i) = 2",
+            "N(2) = 4"
+        ]
+    },
+    {
+        "q": "What is trial division?",
+        "type": "mcq",
+        "o": [
+            "Testing divisibility by primes up to sqrt(n)",
+            "Random division",
+            "Miller-Rabin test",
+            "Sieve method"
+        ]
+    },
+    {
+        "q": "Trial division has time complexity O(______(n)).",
+        "type": "fill_blank",
+        "answers": [
+            "sqrt"
+        ],
+        "other_options": [
+            "n",
+            "log",
+            "n^2"
+        ]
+    },
+    {
+        "q": "Trial division is efficient for large numbers.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the factorization method:",
+        "type": "match",
+        "left": [
+            "Trial division",
+            "Pollard's rho",
+            "Quadratic sieve",
+            "Number field sieve"
+        ],
+        "right": [
+            "O(sqrt(n))",
+            "O(n^(1/4))",
+            "Subexponential",
+            "Fastest for large n"
+        ]
+    },
+    {
+        "q": "What is Pollard's rho algorithm?",
+        "type": "mcq",
+        "o": [
+            "Probabilistic factorization using cycle detection",
+            "Deterministic factoring",
+            "Primality test",
+            "GCD algorithm"
+        ]
+    },
+    {
+        "q": "Pollard's rho uses ______ detection to find factors.",
+        "type": "fill_blank",
+        "answers": [
+            "cycle"
+        ],
+        "other_options": [
+            "prime",
+            "root",
+            "power"
+        ]
+    },
+    {
+        "q": "Pollard's rho has expected running time O(n^(1/4)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange factorization by efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Trial division",
+            "Pollard's rho",
+            "Quadratic sieve",
+            "Number field sieve"
+        ]
+    },
+    {
+        "q": "What is the quadratic sieve?",
+        "type": "mcq",
+        "o": [
+            "Factorization method using smooth numbers and linear algebra",
+            "Sieve of Eratosthenes",
+            "Primality test",
+            "GCD algorithm"
+        ]
+    },
+    {
+        "q": "Quadratic sieve has ______ time complexity.",
+        "type": "fill_blank",
+        "answers": [
+            "subexponential"
+        ],
+        "other_options": [
+            "polynomial",
+            "exponential",
+            "constant"
+        ]
+    },
+    {
+        "q": "Quadratic sieve was the fastest factorization algorithm before number field sieve.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm discovery year:",
+        "type": "match",
+        "left": [
+            "Euclid's algorithm",
+            "Quadratic sieve",
+            "Number field sieve",
+            "AKS"
+        ],
+        "right": [
+            "Ancient",
+            "1981",
+            "1993",
+            "2002"
+        ]
+    },
+    {
+        "q": "What are smooth numbers?",
+        "type": "mcq",
+        "o": [
+            "Numbers whose prime factors are all small",
+            "Prime numbers",
+            "Perfect squares",
+            "Composite numbers"
+        ]
+    },
+    {
+        "q": "A B-smooth number has all prime factors <= ______.",
+        "type": "fill_blank",
+        "answers": [
+            "B"
+        ],
+        "other_options": [
+            "1",
+            "n",
+            "sqrt(n)"
+        ]
+    },
+    {
+        "q": "Smooth numbers are important in factorization algorithms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by smoothness (10-smooth):",
+        "type": "rearrange",
+        "words": [
+            "12 = 2^2*3",
+            "30 = 2*3*5",
+            "48 = 2^4*3",
+            "Not 10-smooth: 22 = 2*11"
+        ]
+    },
+    {
+        "q": "What is a square-free integer?",
+        "type": "mcq",
+        "o": [
+            "An integer not divisible by any perfect square > 1",
+            "A perfect square",
+            "A prime",
+            "A composite"
+        ]
+    },
+    {
+        "q": "6 = 2 * 3 is square-free because it has no repeated ______.",
+        "type": "fill_blank",
+        "answers": [
+            "prime factors"
+        ],
+        "other_options": [
+            "divisors",
+            "factors",
+            "multiples"
+        ]
+    },
+    {
+        "q": "12 = 2^2 * 3 is not square-free.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number property:",
+        "type": "match",
+        "left": [
+            "Square-free",
+            "Powerful",
+            "Squareful",
+            "Perfect power"
+        ],
+        "right": [
+            "No p^2 divides n",
+            "p|n implies p^2|n",
+            "Some p^2 divides n",
+            "n = m^k"
+        ]
+    },
+    {
+        "q": "What is a powerful number?",
+        "type": "mcq",
+        "o": [
+            "For every prime p dividing n, p^2 also divides n",
+            "A large number",
+            "A prime power",
+            "A perfect square"
+        ]
+    },
+    {
+        "q": "8 = 2^3 is powerful because 2^2 = 4 divides ______.",
+        "type": "fill_blank",
+        "answers": [
+            "8"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Every perfect square is a powerful number.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange powerful numbers:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "4",
+            "8",
+            "9",
+            "16",
+            "25",
+            "27"
+        ]
+    },
+    {
+        "q": "What is the radical of n?",
+        "type": "mcq",
+        "o": [
+            "Product of distinct prime factors of n",
+            "Largest prime factor",
+            "Sum of prime factors",
+            "Number of prime factors"
+        ]
+    },
+    {
+        "q": "rad(12) = rad(2^2 * 3) = 2 * 3 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "12",
+            "4",
+            "3"
+        ]
+    },
+    {
+        "q": "The radical function is multiplicative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the radical:",
+        "type": "match",
+        "left": [
+            "rad(8)",
+            "rad(12)",
+            "rad(15)",
+            "rad(30)"
+        ],
+        "right": [
+            "2",
+            "6",
+            "15",
+            "30"
+        ]
+    },
+    {
+        "q": "What is the abc conjecture?",
+        "type": "mcq",
+        "o": [
+            "For a + b = c with gcd = 1, rad(abc) is usually not much smaller than c",
+            "a * b = c",
+            "All triples work",
+            "No constraint"
+        ]
+    },
+    {
+        "q": "The abc conjecture relates a + b = c to the ______ of abc.",
+        "type": "fill_blank",
+        "answers": [
+            "radical"
+        ],
+        "other_options": [
+            "sum",
+            "product",
+            "gcd"
+        ]
+    },
+    {
+        "q": "The abc conjecture implies Fermat's Last Theorem for large exponents.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange conjectures by difficulty:",
+        "type": "rearrange",
+        "words": [
+            "abc (open)",
+            "Goldbach (open)",
+            "Fermat's Last (proven)",
+            "Twin Prime (open)"
+        ]
+    },
+    {
+        "q": "What is the Liouville function lambda(n)?",
+        "type": "mcq",
+        "o": [
+            "(-1)^Omega(n) where Omega counts prime factors with multiplicity",
+            "Same as mu(n)",
+            "Always 1",
+            "The Carmichael function"
+        ]
+    },
+    {
+        "q": "lambda(12) = lambda(2^2 * 3) = (-1)^3 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "-1"
+        ],
+        "other_options": [
+            "1",
+            "0",
+            "3"
+        ]
+    },
+    {
+        "q": "The Liouville function is completely multiplicative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the arithmetic function type:",
+        "type": "match",
+        "left": [
+            "Multiplicative",
+            "Completely multiplicative",
+            "Additive",
+            "Completely additive"
+        ],
+        "right": [
+            "f(mn) = f(m)f(n) if coprime",
+            "f(mn) = f(m)f(n) always",
+            "f(mn) = f(m)+f(n) if coprime",
+            "f(mn) = f(m)+f(n) always"
+        ]
+    },
+    {
+        "q": "What is Omega(n)?",
+        "type": "mcq",
+        "o": [
+            "Number of prime factors of n counted with multiplicity",
+            "Number of distinct prime factors",
+            "Largest prime factor",
+            "Sum of prime factors"
+        ]
+    },
+    {
+        "q": "Omega(12) = Omega(2^2 * 3) = 2 + 1 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "4",
+            "12"
+        ]
+    },
+    {
+        "q": "Omega is completely additive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Omega values:",
+        "type": "rearrange",
+        "words": [
+            "Omega(1) = 0",
+            "Omega(2) = 1",
+            "Omega(4) = 2",
+            "Omega(12) = 3"
+        ]
+    },
+    {
+        "q": "What is omega(n)?",
+        "type": "mcq",
+        "o": [
+            "Number of distinct prime factors of n",
+            "Same as Omega(n)",
+            "All prime factors with multiplicity",
+            "Largest prime factor"
+        ]
+    },
+    {
+        "q": "omega(12) = omega(2^2 * 3) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "3",
+            "1",
+            "12"
+        ]
+    },
+    {
+        "q": "omega(n) <= Omega(n) for all n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match omega and Omega:",
+        "type": "match",
+        "left": [
+            "omega(8)",
+            "Omega(8)",
+            "omega(30)",
+            "Omega(30)"
+        ],
+        "right": [
+            "1",
+            "3",
+            "3",
+            "3"
+        ]
+    },
+    {
+        "q": "What is a highly composite number?",
+        "type": "mcq",
+        "o": [
+            "A number with more divisors than any smaller positive integer",
+            "A prime",
+            "A perfect square",
+            "A Mersenne number"
+        ]
+    },
+    {
+        "q": "The first few highly composite numbers are 1, 2, 4, 6, ______, 24.",
+        "type": "fill_blank",
+        "answers": [
+            "12"
+        ],
+        "other_options": [
+            "8",
+            "10",
+            "18"
+        ]
+    },
+    {
+        "q": "Highly composite numbers have many small prime factors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange highly composite numbers:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "2",
+            "4",
+            "6",
+            "12",
+            "24",
+            "36",
+            "48"
+        ]
+    },
+    {
+        "q": "What is a practical number?",
+        "type": "mcq",
+        "o": [
+            "Every smaller positive integer is sum of distinct divisors",
+            "A perfect number",
+            "A prime",
+            "A Fibonacci number"
+        ]
+    },
+    {
+        "q": "12 is practical because every number up to 12 can be expressed as sum of its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "divisors"
+        ],
+        "other_options": [
+            "factors",
+            "primes",
+            "multiples"
+        ]
+    },
+    {
+        "q": "All powers of 2 are practical numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number type with example:",
+        "type": "match",
+        "left": [
+            "Practical",
+            "Highly composite",
+            "Perfect",
+            "Prime"
+        ],
+        "right": [
+            "12",
+            "12",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "q": "What is the Hensel's lemma?",
+        "type": "mcq",
+        "o": [
+            "Lifting solutions of congruences from mod p to mod p^k",
+            "Finding GCD",
+            "Primality test",
+            "Factorization"
+        ]
+    },
+    {
+        "q": "Hensel's lemma lifts roots from mod p to mod p^______.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "2",
+            "1",
+            "n"
+        ]
+    },
+    {
+        "q": "Hensel lifting requires the derivative not to vanish mod p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Hensel lifting levels:",
+        "type": "rearrange",
+        "words": [
+            "mod p",
+            "mod p^2",
+            "mod p^3",
+            "mod p^k"
+        ]
+    },
+    {
+        "q": "What is a unit in Zn?",
+        "type": "mcq",
+        "o": [
+            "An element with a multiplicative inverse mod n",
+            "Any element",
+            "Only 1",
+            "Prime factors of n"
+        ]
+    },
+    {
+        "q": "a is a unit mod n if and only if GCD(a, n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "a"
+        ]
+    },
+    {
+        "q": "The number of units mod n is phi(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the unit group:",
+        "type": "match",
+        "left": [
+            "Z5^*",
+            "Z8^*",
+            "Z12^*",
+            "Z15^*"
+        ],
+        "right": [
+            "{1,2,3,4}",
+            "{1,3,5,7}",
+            "phi(12)=4 elements",
+            "phi(15)=8 elements"
+        ]
+    },
+    {
+        "q": "What is a zero divisor?",
+        "type": "mcq",
+        "o": [
+            "A non-zero element a such that ab = 0 for some non-zero b",
+            "Zero itself",
+            "A unit",
+            "A prime"
+        ]
+    },
+    {
+        "q": "In Z6, 2 * 3 = 0, so 2 is a zero ______.",
+        "type": "fill_blank",
+        "answers": [
+            "divisor"
+        ],
+        "other_options": [
+            "unit",
+            "prime",
+            "element"
+        ]
+    },
+    {
+        "q": "Zp has no zero divisors for prime p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by algebraic property:",
+        "type": "rearrange",
+        "words": [
+            "Zero divisor",
+            "Nilpotent",
+            "Idempotent",
+            "Unit"
+        ]
+    },
+    {
+        "q": "What is a nilpotent element?",
+        "type": "mcq",
+        "o": [
+            "An element a such that a^k = 0 for some k",
+            "A unit",
+            "A prime",
+            "The identity"
+        ]
+    },
+    {
+        "q": "In Z8, 2^3 = 8 ≡ 0, so 2 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "nilpotent"
+        ],
+        "other_options": [
+            "a unit",
+            "prime",
+            "idempotent"
+        ]
+    },
+    {
+        "q": "Zn has nilpotent elements if and only if n is not square-free.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the element type:",
+        "type": "match",
+        "left": [
+            "2 in Z8",
+            "3 in Z8",
+            "4 in Z6",
+            "5 in Z6"
+        ],
+        "right": [
+            "Nilpotent",
+            "Unit",
+            "Idempotent",
+            "Unit"
+        ]
+    },
+    {
+        "q": "What is an idempotent?",
+        "type": "mcq",
+        "o": [
+            "An element a such that a^2 = a",
+            "a^k = 0",
+            "a * b = 1",
+            "a + b = 0"
+        ]
+    },
+    {
+        "q": "In Z6, 3^2 = 9 ≡ 3, so 3 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "idempotent"
+        ],
+        "other_options": [
+            "nilpotent",
+            "a unit",
+            "prime"
+        ]
+    },
+    {
+        "q": "0 and 1 are trivial idempotents in any ring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange idempotents in Z6:",
+        "type": "rearrange",
+        "words": [
+            "0^2 = 0",
+            "1^2 = 1",
+            "3^2 = 3",
+            "4^2 = 4"
+        ]
+    },
+    {
+        "q": "What is a quadratic Diophantine equation?",
+        "type": "mcq",
+        "o": [
+            "A Diophantine equation with degree 2 terms",
+            "Linear equation",
+            "Cubic equation",
+            "Exponential equation"
+        ]
+    },
+    {
+        "q": "x^2 + y^2 = z^2 is a ______ Diophantine equation.",
+        "type": "fill_blank",
+        "answers": [
+            "quadratic"
+        ],
+        "other_options": [
+            "linear",
+            "cubic",
+            "exponential"
+        ]
+    },
+    {
+        "q": "The equation x^2 + y^2 = 3 has no integer solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the equation form:",
+        "type": "match",
+        "left": [
+            "ax + by = c",
+            "x^2 + y^2 = n",
+            "x^2 - Dy^2 = 1",
+            "x^n + y^n = z^n"
+        ],
+        "right": [
+            "Linear",
+            "Sum of two squares",
+            "Pell's equation",
+            "Fermat's curve"
+        ]
+    },
+    {
+        "q": "What is Vieta jumping?",
+        "type": "mcq",
+        "o": [
+            "A proof technique using Vieta's formulas for quadratics",
+            "A factorization method",
+            "A primality test",
+            "GCD algorithm"
+        ]
+    },
+    {
+        "q": "Vieta jumping often proves certain Diophantine equations have only ______ solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "trivial"
+        ],
+        "other_options": [
+            "many",
+            "no",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Vieta jumping is based on the sum and product of roots of quadratic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange proof techniques:",
+        "type": "rearrange",
+        "words": [
+            "Infinite descent",
+            "Vieta jumping",
+            "Modular constraints",
+            "Algebraic factoring"
+        ]
+    },
+    {
+        "q": "What is infinite descent?",
+        "type": "mcq",
+        "o": [
+            "Proof by showing existence leads to smaller solutions indefinitely",
+            "Induction",
+            "Direct proof",
+            "Proof by contradiction"
+        ]
+    },
+    {
+        "q": "Fermat used infinite descent to prove x^4 + y^4 ≠ z^2 for positive ______.",
+        "type": "fill_blank",
+        "answers": [
+            "integers"
+        ],
+        "other_options": [
+            "reals",
+            "rationals",
+            "primes"
+        ]
+    },
+    {
+        "q": "Infinite descent is a form of proof by contradiction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the proof method:",
+        "type": "match",
+        "left": [
+            "Induction",
+            "Infinite descent",
+            "Contradiction",
+            "Exhaustion"
+        ],
+        "right": [
+            "Build up",
+            "Show decreasing",
+            "Assume false",
+            "Check all cases"
+        ]
+    },
+    {
+        "q": "What is a Lucas sequence?",
+        "type": "mcq",
+        "o": [
+            "Integer sequences defined by linear recurrence similar to Fibonacci",
+            "Arithmetic sequence",
+            "Geometric sequence",
+            "Random sequence"
+        ]
+    },
+    {
+        "q": "Lucas sequences satisfy U_n = PU_{n-1} - QU_{n-2} with parameters P and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Q"
+        ],
+        "other_options": [
+            "R",
+            "n",
+            "1"
+        ]
+    },
+    {
+        "q": "Fibonacci is a Lucas sequence with P = Q = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange recurrence sequences:",
+        "type": "rearrange",
+        "words": [
+            "Fibonacci",
+            "Lucas",
+            "Pell",
+            "Tribonacci"
+        ]
+    },
+    {
+        "q": "What is the Fibonacci sequence?",
+        "type": "mcq",
+        "o": [
+            "0, 1, 1, 2, 3, 5, 8, ... where each term is sum of previous two",
+            "1, 2, 4, 8, 16, ...",
+            "1, 3, 6, 10, 15, ...",
+            "2, 3, 5, 7, 11, ..."
+        ]
+    },
+    {
+        "q": "F_n = F_{n-1} + F_{n-2} with F_0 = 0 and F_1 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "GCD(F_m, F_n) = F_{GCD(m, n)}.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Fibonacci property:",
+        "type": "match",
+        "left": [
+            "F_10",
+            "Sum of F_1 to F_n",
+            "F_n * F_{n+2} - F_{n+1}^2",
+            "Cassini identity"
+        ],
+        "right": [
+            "55",
+            "F_{n+2} - 1",
+            "(-1)^n",
+            "Same as previous"
+        ]
+    },
+    {
+        "q": "What is Binet's formula?",
+        "type": "mcq",
+        "o": [
+            "F_n = (phi^n - psi^n) / sqrt(5) for Fibonacci",
+            "F_n = 2^n",
+            "F_n = n!",
+            "F_n = n^2"
+        ]
+    },
+    {
+        "q": "Binet's formula uses the golden ratio phi = (1 + sqrt(5)) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "5",
+            "sqrt(5)"
+        ]
+    },
+    {
+        "q": "Binet's formula gives Fibonacci numbers without recursion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange golden ratio related:",
+        "type": "rearrange",
+        "words": [
+            "phi ≈ 1.618",
+            "phi^2 = phi + 1",
+            "1/phi = phi - 1",
+            "phi = (1+sqrt(5))/2"
+        ]
+    },
+    {
+        "q": "What is Zeckendorf's theorem?",
+        "type": "mcq",
+        "o": [
+            "Every positive integer has unique representation as sum of non-consecutive Fibonacci numbers",
+            "All integers are Fibonacci",
+            "Fibonacci are prime",
+            "No representation exists"
+        ]
+    },
+    {
+        "q": "Zeckendorf's representation uses non-______ Fibonacci numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "consecutive"
+        ],
+        "other_options": [
+            "prime",
+            "even",
+            "odd"
+        ]
+    },
+    {
+        "q": "10 = 8 + 2 = F_6 + F_3 is a Zeckendorf representation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the representation:",
+        "type": "match",
+        "left": [
+            "Binary",
+            "Zeckendorf",
+            "Factorial",
+            "Primorial"
+        ],
+        "right": [
+            "Powers of 2",
+            "Fibonacci numbers",
+            "n!",
+            "Product of primes"
+        ]
+    },
+    {
+        "q": "What is the Pisano period?",
+        "type": "mcq",
+        "o": [
+            "Period of Fibonacci sequence modulo n",
+            "Fibonacci number",
+            "Prime period",
+            "Decimal period"
+        ]
+    },
+    {
+        "q": "Fibonacci mod 10 has period pi(10) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "60"
+        ],
+        "other_options": [
+            "10",
+            "100",
+            "20"
+        ]
+    },
+    {
+        "q": "pi(n) divides n^2 * Fibonacci(n-1) for any n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Pisano periods:",
+        "type": "rearrange",
+        "words": [
+            "pi(2) = 3",
+            "pi(3) = 8",
+            "pi(5) = 20",
+            "pi(10) = 60"
+        ]
+    },
+    {
+        "q": "What is a repunit?",
+        "type": "mcq",
+        "o": [
+            "A number consisting of all 1s: 1, 11, 111, 1111, ...",
+            "A power of 2",
+            "A prime",
+            "A perfect number"
+        ]
+    },
+    {
+        "q": "R_n = (10^n - 1) / ______.",
+        "type": "fill_blank",
+        "answers": [
+            "9"
+        ],
+        "other_options": [
+            "10",
+            "1",
+            "n"
+        ]
+    },
+    {
+        "q": "If R_n is prime, then n must be prime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the repunit:",
+        "type": "match",
+        "left": [
+            "R_1",
+            "R_2",
+            "R_3",
+            "R_4"
+        ],
+        "right": [
+            "1",
+            "11",
+            "111",
+            "1111"
+        ]
+    },
+    {
+        "q": "What is a palindromic number?",
+        "type": "mcq",
+        "o": [
+            "A number that reads the same forwards and backwards",
+            "A prime",
+            "An even number",
+            "A square"
+        ]
+    },
+    {
+        "q": "121 is palindromic because 121 reversed is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "121"
+        ],
+        "other_options": [
+            "211",
+            "112",
+            "212"
+        ]
+    },
+    {
+        "q": "All single-digit numbers are palindromic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange palindromic numbers:",
+        "type": "rearrange",
+        "words": [
+            "11",
+            "22",
+            "101",
+            "111",
+            "121",
+            "131"
+        ]
+    },
+    {
+        "q": "What is a narcissistic number?",
+        "type": "mcq",
+        "o": [
+            "Sum of digits raised to number of digits equals the number",
+            "A palindrome",
+            "A prime",
+            "A perfect number"
+        ]
+    },
+    {
+        "q": "153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "153"
+        ],
+        "other_options": [
+            "152",
+            "154",
+            "135"
+        ]
+    },
+    {
+        "q": "All single-digit numbers are narcissistic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the special number type:",
+        "type": "match",
+        "left": [
+            "Narcissistic",
+            "Palindromic",
+            "Happy",
+            "Lucky"
+        ],
+        "right": [
+            "Sum of digit powers",
+            "Same forwards/backwards",
+            "Eventually reaches 1",
+            "Sieve process"
+        ]
+    },
+    {
+        "q": "What is a happy number?",
+        "type": "mcq",
+        "o": [
+            "Iterating sum of squared digits eventually reaches 1",
+            "A prime",
+            "A palindrome",
+            "An even number"
+        ]
+    },
+    {
+        "q": "19 is happy: 1^2 + 9^2 = 82, 64 + 4 = 68, ..., eventually ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "19",
+            "82"
+        ]
+    },
+    {
+        "q": "Numbers that don't reach 1 cycle in a loop containing 4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange happy numbers:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "7",
+            "10",
+            "13",
+            "19",
+            "23"
+        ]
+    },
+    {
+        "q": "What is the Collatz conjecture?",
+        "type": "mcq",
+        "o": [
+            "The sequence n -> n/2 (if even) or 3n+1 (if odd) always reaches 1",
+            "All numbers are prime",
+            "Primes are infinite",
+            "Goldbach's conjecture"
+        ]
+    },
+    {
+        "q": "The Collatz sequence for 6: 6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "6",
+            "3"
+        ]
+    },
+    {
+        "q": "The Collatz conjecture remains unproven.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the unsolved conjecture:",
+        "type": "match",
+        "left": [
+            "Collatz",
+            "Goldbach",
+            "Twin Prime",
+            "Riemann"
+        ],
+        "right": [
+            "3n+1 problem",
+            "Even = 2 primes",
+            "Infinitely many twin primes",
+            "Zeros of zeta"
+        ]
+    },
+    {
+        "q": "What is a semi-prime?",
+        "type": "mcq",
+        "o": [
+            "A natural number that is product of exactly two primes",
+            "A prime",
+            "A perfect square",
+            "A prime power"
+        ]
+    },
+    {
+        "q": "15 = 3 * 5 is a semi-prime or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "biprime"
+        ],
+        "other_options": [
+            "triprime",
+            "prime",
+            "composite"
+        ]
+    },
+    {
+        "q": "Semi-primes are important in RSA cryptography.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange semi-primes:",
+        "type": "rearrange",
+        "words": [
+            "4 = 2*2",
+            "6 = 2*3",
+            "9 = 3*3",
+            "10 = 2*5",
+            "14 = 2*7"
+        ]
+    },
+    {
+        "q": "What is the totient summatory function?",
+        "type": "mcq",
+        "o": [
+            "Phi(n) = sum of phi(k) for k = 1 to n",
+            "phi(n)",
+            "sigma(n)",
+            "d(n)"
+        ]
+    },
+    {
+        "q": "Phi(n) ~ (3/pi^2) * n^2 as n gets ______.",
+        "type": "fill_blank",
+        "answers": [
+            "large"
+        ],
+        "other_options": [
+            "small",
+            "prime",
+            "even"
+        ]
+    },
+    {
+        "q": "The sum of phi(d) over divisors d of n equals n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the summatory function:",
+        "type": "match",
+        "left": [
+            "Sum phi(d)",
+            "Sum mu(d)",
+            "Sum d(k)",
+            "Sum of 1/k"
+        ],
+        "right": [
+            "n",
+            "1 if n=1, 0 otherwise",
+            "Approx n*ln(n)",
+            "Harmonic"
+        ]
+    },
+    {
+        "q": "What is the Ramanujan tau function?",
+        "type": "mcq",
+        "o": [
+            "Coefficients in the q-expansion of the discriminant modular form",
+            "phi(n)",
+            "mu(n)",
+            "sigma(n)"
+        ]
+    },
+    {
+        "q": "The tau function satisfies tau(mn) = tau(m)tau(n) when GCD(m,n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "m"
+        ]
+    },
+    {
+        "q": "tau(2) = -24.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the function with its field:",
+        "type": "match",
+        "left": [
+            "phi(n)",
+            "tau(n)",
+            "sigma(n)",
+            "mu(n)"
+        ],
+        "right": [
+            "Elementary",
+            "Modular forms",
+            "Elementary",
+            "Combinatorics"
+        ]
+    },
+    {
+        "q": "What is the von Mangoldt function?",
+        "type": "mcq",
+        "o": [
+            "Lambda(n) = log(p) if n = p^k, otherwise 0",
+            "Same as phi",
+            "Same as mu",
+            "log(n)"
+        ]
+    },
+    {
+        "q": "Lambda(8) = Lambda(2^3) = log(______).",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "8",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "sum_{d|n} Lambda(d) = log(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange von Mangoldt values:",
+        "type": "rearrange",
+        "words": [
+            "Lambda(1) = 0",
+            "Lambda(2) = log(2)",
+            "Lambda(6) = 0",
+            "Lambda(8) = log(2)"
+        ]
+    },
+    {
+        "q": "What is the Chebyshev function theta(x)?",
+        "type": "mcq",
+        "o": [
+            "Sum of log(p) for primes p <= x",
+            "pi(x)",
+            "phi(x)",
+            "Counting function"
+        ]
+    },
+    {
+        "q": "theta(x) ~ ______ by the Prime Number Theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "x"
+        ],
+        "other_options": [
+            "x/log(x)",
+            "x^2",
+            "log(x)"
+        ]
+    },
+    {
+        "q": "The Chebyshev functions are used in analytic number theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Chebyshev function:",
+        "type": "match",
+        "left": [
+            "theta(x)",
+            "psi(x)",
+            "pi(x)",
+            "Li(x)"
+        ],
+        "right": [
+            "Sum log p for p <= x",
+            "Sum Lambda for n <= x",
+            "Counting primes",
+            "Logarithmic integral"
+        ]
+    },
+    {
+        "q": "What is a Dirichlet character?",
+        "type": "mcq",
+        "o": [
+            "A completely multiplicative function mod n with period n",
+            "Any function",
+            "phi(n)",
+            "mu(n)"
+        ]
+    },
+    {
+        "q": "The principal character chi_0(a) = 1 if GCD(a, n) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "a"
+        ]
+    },
+    {
+        "q": "Dirichlet characters are used in L-functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the character property:",
+        "type": "match",
+        "left": [
+            "chi(mn) = chi(m)chi(n)",
+            "chi has period n",
+            "chi(1) = 1",
+            "chi(a) = 0 if gcd > 1"
+        ],
+        "right": [
+            "Multiplicativity",
+            "Periodicity",
+            "Normalization",
+            "Support"
+        ]
+    },
+    {
+        "q": "What is Dirichlet's theorem on primes?",
+        "type": "mcq",
+        "o": [
+            "There are infinitely many primes in any arithmetic progression a, a+d, a+2d, ... where GCD(a,d) = 1",
+            "All primes are odd",
+            "Primes are finite",
+            "Only finitely many exist in each progression"
+        ]
+    },
+    {
+        "q": "Dirichlet's theorem requires GCD(a, d) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "d",
+            "a"
+        ]
+    },
+    {
+        "q": "There are infinitely many primes of the form 4k + 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange arithmetic progression facts:",
+        "type": "rearrange",
+        "words": [
+            "Primes in 4k+1: infinite",
+            "Primes in 4k+3: infinite",
+            "Primes in 6k+1: infinite",
+            "Density: 1/phi(d)"
+        ]
+    },
+    {
+        "q": "What is a Dirichlet L-function?",
+        "type": "mcq",
+        "o": [
+            "L(s, chi) = sum chi(n)/n^s for Dirichlet character chi",
+            "Riemann zeta only",
+            "log function",
+            "Polynomial"
+        ]
+    },
+    {
+        "q": "L(1, chi) ≠ 0 for non-principal characters is key to Dirichlet's ______ theorem.",
+        "type": "fill_blank",
+        "answers": [
+            "primes"
+        ],
+        "other_options": [
+            "characters",
+            "functions",
+            "series"
+        ]
+    },
+    {
+        "q": "Dirichlet L-functions generalize the Riemann zeta function.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the L-function property:",
+        "type": "match",
+        "left": [
+            "Euler product",
+            "Functional equation",
+            "Analytic continuation",
+            "Critical strip"
+        ],
+        "right": [
+            "Product over primes",
+            "Symmetry",
+            "Extension beyond Re(s) > 1",
+            "0 < Re(s) < 1"
+        ]
+    },
+    {
+        "q": "What is an algebraic number?",
+        "type": "mcq",
+        "o": [
+            "Root of a polynomial equation with integer coefficients",
+            "Any real number",
+            "Only integers",
+            "Transcendental"
+        ]
+    },
+    {
+        "q": "sqrt(2) is algebraic because it's a root of x^2 - ______ = 0.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "4",
+            "sqrt(2)"
+        ]
+    },
+    {
+        "q": "Pi and e are algebraic numbers.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Rearrange by type:",
+        "type": "rearrange",
+        "words": [
+            "Rational (algebraic)",
+            "sqrt(2) (algebraic)",
+            "e (transcendental)",
+            "pi (transcendental)"
+        ]
+    },
+    {
+        "q": "What is a transcendental number?",
+        "type": "mcq",
+        "o": [
+            "A real number that is not algebraic",
+            "An algebraic number",
+            "An integer",
+            "A rational"
+        ]
+    },
+    {
+        "q": "pi was proven transcendental by ______ in 1882.",
+        "type": "fill_blank",
+        "answers": [
+            "Lindemann"
+        ],
+        "other_options": [
+            "Euler",
+            "Gauss",
+            "Fermat"
+        ]
+    },
+    {
+        "q": "Almost all real numbers are transcendental.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the proof of transcendence:",
+        "type": "match",
+        "left": [
+            "e transcendental",
+            "pi transcendental",
+            "Liouville numbers",
+            "Algebraic"
+        ],
+        "right": [
+            "Hermite 1873",
+            "Lindemann 1882",
+            "First explicit examples",
+            "Countable set"
+        ]
+    },
+    {
+        "q": "What is the degree of an algebraic number?",
+        "type": "mcq",
+        "o": [
+            "The degree of its minimal polynomial over Q",
+            "Its value",
+            "Its denominator",
+            "Always 1"
+        ]
+    },
+    {
+        "q": "sqrt(2) has degree ______ because its minimal polynomial is x^2 - 2.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Rational numbers have degree 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algebraic number with its degree:",
+        "type": "match",
+        "left": [
+            "3/4",
+            "sqrt(2)",
+            "cuberoot(2)",
+            "Golden ratio"
+        ],
+        "right": [
+            "1",
+            "2",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "q": "What is a prime gap?",
+        "type": "mcq",
+        "o": [
+            "The difference between consecutive primes",
+            "Sum of primes",
+            "Product of primes",
+            "GCD of primes"
+        ]
+    },
+    {
+        "q": "The gap between 23 and 29 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "5",
+            "4",
+            "7"
+        ]
+    },
+    {
+        "q": "Prime gaps can be arbitrarily large.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by increasing prime gap:",
+        "type": "rearrange",
+        "words": [
+            "Gap 1 (2,3)",
+            "Gap 2 (3,5)",
+            "Gap 4 (7,11)",
+            "Gap 6 (23,29)"
+        ]
+    },
+    {
+        "q": "What is the average prime gap near n?",
+        "type": "mcq",
+        "o": [
+            "Approximately ln(n)",
+            "Approximately n",
+            "Always 2",
+            "sqrt(n)"
+        ]
+    },
+    {
+        "q": "By PNT, average gap between primes near n is about ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ln(n)"
+        ],
+        "other_options": [
+            "n",
+            "sqrt(n)",
+            "n/2"
+        ]
+    },
+    {
+        "q": "Cramer's conjecture says prime gaps are O((log p)^2).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the gap conjecture:",
+        "type": "match",
+        "left": [
+            "Twin prime",
+            "Cramer",
+            "Bounded gaps",
+            "Goldbach"
+        ],
+        "right": [
+            "Gaps of 2 infinite",
+            "O((log p)^2)",
+            "Zhang/Maynard",
+            "Sum of 2 primes"
+        ]
+    },
+    {
+        "q": "What is a Chen prime?",
+        "type": "mcq",
+        "o": [
+            "A prime p such that p + 2 is prime or semi-prime",
+            "A Mersenne prime",
+            "A Sophie Germain prime",
+            "A twin prime"
+        ]
+    },
+    {
+        "q": "Chen's theorem shows there are infinitely many Chen ______.",
+        "type": "fill_blank",
+        "answers": [
+            "primes"
+        ],
+        "other_options": [
+            "numbers",
+            "pairs",
+            "gaps"
+        ]
+    },
+    {
+        "q": "Every sufficiently large even number is the sum of a prime and a semi-prime (Chen's theorem).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange modified Goldbach results:",
+        "type": "rearrange",
+        "words": [
+            "Goldbach (unproven)",
+            "Chen (proven)",
+            "Weak Goldbach (proven)",
+            "Binary Goldbach (open)"
+        ]
+    },
+    {
+        "q": "What is the weak Goldbach conjecture?",
+        "type": "mcq",
+        "o": [
+            "Every odd number > 5 is the sum of three primes",
+            "Every even number is sum of two primes",
+            "All primes are odd",
+            "Twin primes infinite"
+        ]
+    },
+    {
+        "q": "Weak Goldbach was proven by Helfgott in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2013"
+        ],
+        "other_options": [
+            "1995",
+            "2002",
+            "2020"
+        ]
+    },
+    {
+        "q": "Weak Goldbach is also called the ternary Goldbach conjecture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Goldbach form:",
+        "type": "match",
+        "left": [
+            "Strong (binary)",
+            "Weak (ternary)",
+            "Chen's result",
+            "Vinogradov"
+        ],
+        "right": [
+            "Even = 2 primes",
+            "Odd > 5 = 3 primes",
+            "Even ≈ p + pq",
+            "Sufficiently large odd"
+        ]
+    },
+    {
+        "q": "What is the Chebyshev bias?",
+        "type": "mcq",
+        "o": [
+            "More primes ≡ 3 mod 4 than ≡ 1 mod 4 in many ranges",
+            "All primes are equal",
+            "More primes mod 2",
+            "Prime symmetry"
+        ]
+    },
+    {
+        "q": "Chebyshev noted that pi(x; 4, 3) > pi(x; 4, ______) often.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "0",
+            "3"
+        ]
+    },
+    {
+        "q": "Chebyshev bias eventually reverses infinitely often.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by prime density:",
+        "type": "rearrange",
+        "words": [
+            "Primes mod 4",
+            "Primes mod 3",
+            "Primes mod 8",
+            "All residue classes equal asymptotically"
+        ]
+    },
+    {
+        "q": "What is a Wieferich prime?",
+        "type": "mcq",
+        "o": [
+            "A prime p such that 2^(p-1) ≡ 1 (mod p^2)",
+            "A Mersenne prime",
+            "A Fermat prime",
+            "A Wilson prime"
+        ]
+    },
+    {
+        "q": "Only two Wieferich primes are known: 1093 and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3511"
+        ],
+        "other_options": [
+            "1729",
+            "2903",
+            "5003"
+        ]
+    },
+    {
+        "q": "Wieferich primes are related to Fermat's Last Theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the special prime:",
+        "type": "match",
+        "left": [
+            "Wieferich",
+            "Wilson",
+            "Wall-Sun-Sun",
+            "Wolstenholme"
+        ],
+        "right": [
+            "2^(p-1) ≡ 1 mod p^2",
+            "(p-1)! ≡ -1 mod p^2",
+            "Fibonacci",
+            "Binomial"
+        ]
+    },
+    {
+        "q": "What is a Wilson prime?",
+        "type": "mcq",
+        "o": [
+            "A prime p where (p-1)! ≡ -1 (mod p^2)",
+            "A Mersenne prime",
+            "A twin prime",
+            "A safe prime"
+        ]
+    },
+    {
+        "q": "The three known Wilson primes are 5, 13, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "563"
+        ],
+        "other_options": [
+            "17",
+            "541",
+            "1093"
+        ]
+    },
+    {
+        "q": "Wilson primes are very rare.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange primes by rarity:",
+        "type": "rearrange",
+        "words": [
+            "All primes (infinite)",
+            "Mersenne (few dozens)",
+            "Wieferich (2 known)",
+            "Wilson (3 known)"
+        ]
+    },
+    {
+        "q": "What is a safe prime?",
+        "type": "mcq",
+        "o": [
+            "A prime p such that (p-1)/2 is also prime",
+            "A dangerous prime",
+            "A Mersenne prime",
+            "A twin prime"
+        ]
+    },
+    {
+        "q": "If p is safe, then q = (p-1)/2 is called a ______ prime.",
+        "type": "fill_blank",
+        "answers": [
+            "Sophie Germain"
+        ],
+        "other_options": [
+            "safe",
+            "Mersenne",
+            "twin"
+        ]
+    },
+    {
+        "q": "Safe primes are used in cryptography for security.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match prime pair:",
+        "type": "match",
+        "left": [
+            "Twin primes",
+            "Sophie Germain & safe",
+            "Cousin primes",
+            "Sexy primes"
+        ],
+        "right": [
+            "Differ by 2",
+            "p and 2p+1 both prime",
+            "Differ by 4",
+            "Differ by 6"
+        ]
+    },
+    {
+        "q": "What is an Eisenstein integer?",
+        "type": "mcq",
+        "o": [
+            "Complex number a + b*omega where omega = e^(2*pi*i/3)",
+            "Gaussian integer",
+            "Real integer",
+            "Rational"
+        ]
+    },
+    {
+        "q": "omega = (-1 + sqrt(-3)) / ______ is a primitive cube root of unity.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "-2"
+        ]
+    },
+    {
+        "q": "Eisenstein integers form a unique factorization domain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange algebraic integers:",
+        "type": "rearrange",
+        "words": [
+            "Ordinary integers Z",
+            "Gaussian Z[i]",
+            "Eisenstein Z[omega]",
+            "General algebraic integers"
+        ]
+    },
+    {
+        "q": "What is the class number?",
+        "type": "mcq",
+        "o": [
+            "A measure of how far a number ring is from unique factorization",
+            "Number of primes",
+            "GCD of ring elements",
+            "Ring dimension"
+        ]
+    },
+    {
+        "q": "Class number 1 means the ring has unique ______.",
+        "type": "fill_blank",
+        "answers": [
+            "factorization"
+        ],
+        "other_options": [
+            "elements",
+            "ideals",
+            "units"
+        ]
+    },
+    {
+        "q": "Gaussian and Eisenstein integers have class number 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number field property:",
+        "type": "match",
+        "left": [
+            "Class number",
+            "Unit group",
+            "Discriminant",
+            "Regulator"
+        ],
+        "right": [
+            "UFD measure",
+            "Invertible elements",
+            "Field invariant",
+            "Log unit volume"
+        ]
+    },
+    {
+        "q": "What is the Waring problem?",
+        "type": "mcq",
+        "o": [
+            "Every positive integer is sum of s k-th powers for some s depending on k",
+            "All integers are squares",
+            "Primes are sums of squares",
+            "Fermat's problem"
+        ]
+    },
+    {
+        "q": "g(k) is the minimum s such that every integer is sum of s ______ powers.",
+        "type": "fill_blank",
+        "answers": [
+            "k-th"
+        ],
+        "other_options": [
+            "2nd",
+            "3rd",
+            "4th"
+        ]
+    },
+    {
+        "q": "g(2) = 4 by Lagrange's four square theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match g(k):",
+        "type": "match",
+        "left": [
+            "g(2)",
+            "g(3)",
+            "g(4)",
+            "g(5)"
+        ],
+        "right": [
+            "4",
+            "9",
+            "19",
+            "37"
+        ]
+    },
+    {
+        "q": "What is a Lucas-Lehmer test?",
+        "type": "mcq",
+        "o": [
+            "A primality test for Mersenne numbers",
+            "A factorization method",
+            "A GCD algorithm",
+            "A sieve"
+        ]
+    },
+    {
+        "q": "Lucas-Lehmer tests if 2^p - 1 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "prime"
+        ],
+        "other_options": [
+            "composite",
+            "perfect",
+            "Mersenne"
+        ]
+    },
+    {
+        "q": "Lucas-Lehmer is deterministic and polynomial time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange primality tests for special forms:",
+        "type": "rearrange",
+        "words": [
+            "Lucas-Lehmer (Mersenne)",
+            "Pepin (Fermat)",
+            "BPSW (general)",
+            "AKS (general)"
+        ]
+    },
+    {
+        "q": "What is a Proth prime?",
+        "type": "mcq",
+        "o": [
+            "A prime of the form k * 2^n + 1 where k < 2^n",
+            "A Mersenne prime",
+            "A Fermat prime",
+            "A Sophie Germain prime"
+        ]
+    },
+    {
+        "q": "Proth's theorem provides a simple primality test for k*2^n + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "-1",
+            "k"
+        ]
+    },
+    {
+        "q": "Fermat primes are special cases of Proth primes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the prime form:",
+        "type": "match",
+        "left": [
+            "Mersenne",
+            "Fermat",
+            "Proth",
+            "Wagstaff"
+        ],
+        "right": [
+            "2^p - 1",
+            "2^(2^n) + 1",
+            "k*2^n + 1",
+            "(2^p + 1)/3"
+        ]
+    },
+    {
+        "q": "What is a Cullen number?",
+        "type": "mcq",
+        "o": [
+            "A number of the form n * 2^n + 1",
+            "n * 2^n - 1",
+            "2^n - 1",
+            "2^n + 1"
+        ]
+    },
+    {
+        "q": "C_n = n * 2^n + 1 is the ______ Cullen number.",
+        "type": "fill_blank",
+        "answers": [
+            "n-th"
+        ],
+        "other_options": [
+            "first",
+            "last",
+            "prime"
+        ]
+    },
+    {
+        "q": "Cullen primes are rare.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange special number forms:",
+        "type": "rearrange",
+        "words": [
+            "Cullen (n*2^n + 1)",
+            "Woodall (n*2^n - 1)",
+            "Carol",
+            "Kynea"
+        ]
+    },
+    {
+        "q": "What is a Woodall number?",
+        "type": "mcq",
+        "o": [
+            "A number of the form n * 2^n - 1",
+            "n * 2^n + 1",
+            "2^n - 1",
+            "2^n + 1"
+        ]
+    },
+    {
+        "q": "W_n = n * 2^n - ______ is a Woodall number.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "n",
+            "2"
+        ]
+    },
+    {
+        "q": "Woodall numbers are also called Riesel numbers of the second kind.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the partner:",
+        "type": "match",
+        "left": [
+            "Cullen",
+            "Woodall",
+            "Mersenne",
+            "Fermat"
+        ],
+        "right": [
+            "n*2^n + 1",
+            "n*2^n - 1",
+            "2^p - 1",
+            "2^(2^n) + 1"
+        ]
+    },
+    {
+        "q": "What is a primorial?",
+        "type": "mcq",
+        "o": [
+            "Product of all primes up to n, written n# or p#",
+            "n factorial",
+            "GCD of primes",
+            "LCM of primes"
+        ]
+    },
+    {
+        "q": "5# = 2 * 3 * 5 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "30"
+        ],
+        "other_options": [
+            "10",
+            "15",
+            "120"
+        ]
+    },
+    {
+        "q": "n# + 1 is sometimes prime (primorial primes).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange primorials:",
+        "type": "rearrange",
+        "words": [
+            "2# = 2",
+            "3# = 6",
+            "5# = 30",
+            "7# = 210"
+        ]
+    },
+    {
+        "q": "What is a factorial prime?",
+        "type": "mcq",
+        "o": [
+            "A prime of the form n! + 1 or n! - 1",
+            "n!",
+            "A Mersenne prime",
+            "A primorial"
+        ]
+    },
+    {
+        "q": "5! + 1 = 121 = 11^2, so not prime, but 5! - 1 = ______ is prime.",
+        "type": "fill_blank",
+        "answers": [
+            "119"
+        ],
+        "other_options": [
+            "120",
+            "121",
+            "118"
+        ]
+    },
+    {
+        "q": "3! - 1 = 5 is a factorial prime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the special prime form:",
+        "type": "match",
+        "left": [
+            "Primorial prime",
+            "Factorial prime",
+            "Euclid prime",
+            "Mills prime"
+        ],
+        "right": [
+            "p# ± 1",
+            "n! ± 1",
+            "p1...pk + 1",
+            "Floor(A^(3^n))"
+        ]
+    },
+    {
+        "q": "What is an amicable pair?",
+        "type": "mcq",
+        "o": [
+            "Two numbers where each is the sum of proper divisors of the other",
+            "Twin primes",
+            "Perfect numbers",
+            "Coprime numbers"
+        ]
+    },
+    {
+        "q": "The smallest amicable pair is (220, ______).",
+        "type": "fill_blank",
+        "answers": [
+            "284"
+        ],
+        "other_options": [
+            "286",
+            "280",
+            "288"
+        ]
+    },
+    {
+        "q": "sigma(220) - 220 = 284 and sigma(284) - 284 = 220.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange related number pairs:",
+        "type": "rearrange",
+        "words": [
+            "Amicable (220, 284)",
+            "Betrothed",
+            "Sociable chains",
+            "Perfect (self-amicable)"
+        ]
+    },
+    {
+        "q": "What is a sociable chain?",
+        "type": "mcq",
+        "o": [
+            "A cycle of numbers where each is the sum of proper divisors of the previous",
+            "Twin primes",
+            "A single number",
+            "Random sequence"
+        ]
+    },
+    {
+        "q": "Amicable pairs are sociable chains of length ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Perfect numbers are sociable chains of length 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the chain length:",
+        "type": "match",
+        "left": [
+            "Perfect",
+            "Amicable",
+            "Sociable cycle 4",
+            "Sociable cycle 5"
+        ],
+        "right": [
+            "1",
+            "2",
+            "Known examples",
+            "Poulet chain"
+        ]
+    },
+    {
+        "q": "What is a Kaprekar number?",
+        "type": "mcq",
+        "o": [
+            "A number whose square can be split into two parts that add to the original",
+            "A perfect number",
+            "A prime",
+            "A Fibonacci number"
+        ]
+    },
+    {
+        "q": "45^2 = 2025, and 20 + 25 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "45"
+        ],
+        "other_options": [
+            "25",
+            "42",
+            "50"
+        ]
+    },
+    {
+        "q": "9 is a Kaprekar number (81 = 8 + 1 = 9).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Kaprekar numbers:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "9",
+            "45",
+            "55",
+            "99",
+            "297"
+        ]
+    },
+    {
+        "q": "What is the Kaprekar constant?",
+        "type": "mcq",
+        "o": [
+            "6174 - iterating digit rearrangement always reaches it for 4-digit numbers",
+            "A random constant",
+            "495 for 3 digits",
+            "Both 6174 and 495"
+        ]
+    },
+    {
+        "q": "For 3-digit numbers, the Kaprekar constant is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "495"
+        ],
+        "other_options": [
+            "6174",
+            "123",
+            "999"
+        ]
+    },
+    {
+        "q": "Kaprekar's routine subtracts small from large arrangement of digits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the routine constant:",
+        "type": "match",
+        "left": [
+            "3-digit Kaprekar",
+            "4-digit Kaprekar",
+            "2-digit?",
+            "5-digit?"
+        ],
+        "right": [
+            "495",
+            "6174",
+            "No fixed point",
+            "Multiple cycles"
+        ]
+    },
+    {
+        "q": "What is an automorphic number?",
+        "type": "mcq",
+        "o": [
+            "A number whose square ends with the number itself",
+            "A perfect square",
+            "A prime",
+            "A palindrome"
+        ]
+    },
+    {
+        "q": "5^2 = 25 ends in 5, so 5 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "automorphic"
+        ],
+        "other_options": [
+            "perfect",
+            "prime",
+            "narcissistic"
+        ]
+    },
+    {
+        "q": "25 is automorphic because 625 ends in 25.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange automorphic numbers:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "5",
+            "6",
+            "25",
+            "76",
+            "376"
+        ]
+    },
+    {
+        "q": "What is a cyclic number?",
+        "type": "mcq",
+        "o": [
+            "A number whose multiples are cyclic permutations of its digits",
+            "A prime",
+            "A perfect number",
+            "A palindrome"
+        ]
+    },
+    {
+        "q": "142857 * 2 = 285714, a cyclic permutation, so 142857 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cyclic"
+        ],
+        "other_options": [
+            "prime",
+            "perfect",
+            "automorphic"
+        ]
+    },
+    {
+        "q": "142857 is related to 1/7 = 0.142857...",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cyclic property:",
+        "type": "match",
+        "left": [
+            "142857 * 1",
+            "142857 * 2",
+            "142857 * 3",
+            "142857 * 7"
+        ],
+        "right": [
+            "142857",
+            "285714",
+            "428571",
+            "999999"
+        ]
+    },
+    {
+        "q": "What is the sum of first n natural numbers?",
+        "type": "mcq",
+        "o": [
+            "n(n+1)/2",
+            "n^2",
+            "n!",
+            "2^n"
+        ]
+    },
+    {
+        "q": "1 + 2 + ... + 100 = 100 * 101 / 2 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "5050"
+        ],
+        "other_options": [
+            "5000",
+            "5100",
+            "4950"
+        ]
+    },
+    {
+        "q": "Gauss discovered this formula as a child.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sum formula:",
+        "type": "match",
+        "left": [
+            "Sum of 1 to n",
+            "Sum of squares",
+            "Sum of cubes",
+            "Sum of 2^k"
+        ],
+        "right": [
+            "n(n+1)/2",
+            "n(n+1)(2n+1)/6",
+            "(n(n+1)/2)^2",
+            "2^(n+1) - 1"
+        ]
+    },
+    {
+        "q": "What is a triangular number?",
+        "type": "mcq",
+        "o": [
+            "A number of the form n(n+1)/2",
+            "n^2",
+            "n^3",
+            "2^n"
+        ]
+    },
+    {
+        "q": "The 10th triangular number is 10 * 11 / 2 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "55"
+        ],
+        "other_options": [
+            "45",
+            "50",
+            "60"
+        ]
+    },
+    {
+        "q": "Triangular numbers can be arranged in triangles of dots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange triangular numbers:",
+        "type": "rearrange",
+        "words": [
+            "T_1 = 1",
+            "T_2 = 3",
+            "T_3 = 6",
+            "T_4 = 10",
+            "T_5 = 15"
+        ]
+    },
+    {
+        "q": "What is a pentagonal number?",
+        "type": "mcq",
+        "o": [
+            "A number of the form n(3n-1)/2",
+            "n^2",
+            "A triangular number",
+            "5^n"
+        ]
+    },
+    {
+        "q": "The 5th pentagonal number is 5(15-1)/2 = 5*14/2 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "35"
+        ],
+        "other_options": [
+            "25",
+            "30",
+            "40"
+        ]
+    },
+    {
+        "q": "Pentagonal numbers arise in Euler's pentagonal number theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the figurate number:",
+        "type": "match",
+        "left": [
+            "Triangular",
+            "Square",
+            "Pentagonal",
+            "Hexagonal"
+        ],
+        "right": [
+            "n(n+1)/2",
+            "n^2",
+            "n(3n-1)/2",
+            "n(2n-1)"
+        ]
+    },
+    {
+        "q": "What is a square number?",
+        "type": "mcq",
+        "o": [
+            "A number that is n^2 for some integer n",
+            "Any even number",
+            "A prime",
+            "A triangular number"
+        ]
+    },
+    {
+        "q": "144 = 12^2 is a perfect ______.",
+        "type": "fill_blank",
+        "answers": [
+            "square"
+        ],
+        "other_options": [
+            "cube",
+            "prime",
+            "composite"
+        ]
+    },
+    {
+        "q": "The sum of the first n odd numbers equals n^2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange perfect squares:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "4",
+            "9",
+            "16",
+            "25",
+            "36",
+            "49"
+        ]
+    },
+    {
+        "q": "What is a cube number?",
+        "type": "mcq",
+        "o": [
+            "A number that is n^3 for some integer n",
+            "A square",
+            "A prime",
+            "3^n"
+        ]
+    },
+    {
+        "q": "27 = 3^3 is a perfect ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cube"
+        ],
+        "other_options": [
+            "square",
+            "prime",
+            "power"
+        ]
+    },
+    {
+        "q": "The sum of consecutive odd numbers gives cubes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange perfect cubes:",
+        "type": "rearrange",
+        "words": [
+            "1",
+            "8",
+            "27",
+            "64",
+            "125",
+            "216"
+        ]
+    },
+    {
+        "q": "What is the divisibility rule for 3?",
+        "type": "mcq",
+        "o": [
+            "Sum of digits is divisible by 3",
+            "Last digit is 3",
+            "Number is odd",
+            "First digit is 3"
+        ]
+    },
+    {
+        "q": "123 is divisible by 3 because 1+2+3 = 6, and 6 is divisible by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "2",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "q": "The divisibility rule for 9 is the same as for 3 but the sum must be divisible by 9.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the divisibility rule:",
+        "type": "match",
+        "left": [
+            "By 2",
+            "By 3",
+            "By 5",
+            "By 11"
+        ],
+        "right": [
+            "Last digit even",
+            "Digit sum div by 3",
+            "Ends in 0 or 5",
+            "Alternating sum"
+        ]
+    },
+    {
+        "q": "What is the divisibility rule for 11?",
+        "type": "mcq",
+        "o": [
+            "Alternating sum of digits is divisible by 11",
+            "Sum of digits div by 11",
+            "Last 2 digits div by 11",
+            "First digit is 1"
+        ]
+    },
+    {
+        "q": "121: alternating sum = 1 - 2 + 1 = ______, divisible by 11.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "2",
+            "4",
+            "11"
+        ]
+    },
+    {
+        "q": "946: 9 - 4 + 6 = 11, so 946 is divisible by 11.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange divisibility rules by simplicity:",
+        "type": "rearrange",
+        "words": [
+            "By 2 (last digit)",
+            "By 5 (last digit)",
+            "By 3 (digit sum)",
+            "By 7 (complex)"
+        ]
+    },
+    {
+        "q": "What is casting out nines?",
+        "type": "mcq",
+        "o": [
+            "A validity check using remainders mod 9",
+            "Removing all 9s",
+            "Dividing by 9",
+            "Adding 9s"
+        ]
+    },
+    {
+        "q": "Casting out nines works because 10 ≡ 1 (mod ______).",
+        "type": "fill_blank",
+        "answers": [
+            "9"
+        ],
+        "other_options": [
+            "10",
+            "11",
+            "3"
+        ]
+    },
+    {
+        "q": "Casting out nines can catch computational errors in arithmetic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the verification method:",
+        "type": "match",
+        "left": [
+            "Casting out 9s",
+            "Casting out 11s",
+            "Parity check",
+            "Checksum"
+        ],
+        "right": [
+            "Mod 9",
+            "Alternating sums",
+            "Mod 2",
+            "General sum"
+        ]
+    },
+    {
+        "q": "What is the floor function?",
+        "type": "mcq",
+        "o": [
+            "Greatest integer less than or equal to x",
+            "Ceiling",
+            "Round",
+            "Truncate positive"
+        ]
+    },
+    {
+        "q": "floor(3.7) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3"
+        ],
+        "other_options": [
+            "4",
+            "3.5",
+            "3.7"
+        ]
+    },
+    {
+        "q": "floor(x) is also written [x].",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match floor values:",
+        "type": "match",
+        "left": [
+            "floor(2.3)",
+            "floor(-1.5)",
+            "floor(5)",
+            "floor(pi)"
+        ],
+        "right": [
+            "2",
+            "-2",
+            "5",
+            "3"
+        ]
+    },
+    {
+        "q": "What is the ceiling function?",
+        "type": "mcq",
+        "o": [
+            "Smallest integer greater than or equal to x",
+            "Floor",
+            "Round down",
+            "Truncate"
+        ]
+    },
+    {
+        "q": "ceiling(3.2) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "4"
+        ],
+        "other_options": [
+            "3",
+            "3.5",
+            "4.2"
+        ]
+    },
+    {
+        "q": "ceiling(n) = n for any integer n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange by value:",
+        "type": "rearrange",
+        "words": [
+            "floor(2.9) = 2",
+            "ceiling(2.9) = 3",
+            "round(2.9) = 3",
+            "int(2.9) = 2"
+        ]
+    },
+    {
+        "q": "What is the fractional part?",
+        "type": "mcq",
+        "o": [
+            "{x} = x - floor(x), always in [0, 1)",
+            "x / floor(x)",
+            "floor(x) / x",
+            "ceiling(x) - x"
+        ]
+    },
+    {
+        "q": "{3.7} = 3.7 - 3 = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0.7"
+        ],
+        "other_options": [
+            "3",
+            "0.3",
+            "3.7"
+        ]
+    },
+    {
+        "q": "The fractional part is always non-negative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the part:",
+        "type": "match",
+        "left": [
+            "floor(x)",
+            "ceiling(x)",
+            "{x}",
+            "sign(x)"
+        ],
+        "right": [
+            "Integer part down",
+            "Integer part up",
+            "Fractional part",
+            "Plus or minus 1"
+        ]
+    },
+    {
+        "q": "What is a Pell equation?",
+        "type": "mcq",
+        "o": [
+            "An equation of the form x^2 - D*y^2 = 1 where D is a non-square positive integer",
+            "x^2 + y^2 = 1",
+            "A linear equation",
+            "x^3 = y^2"
+        ]
+    },
+    {
+        "q": "The fundamental solution to x^2 - 2y^2 = 1 is (3, ______).",
+        "type": "fill_blank",
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Pell equations have infinitely many solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Pell equation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Fundamental solution",
+            "Recurrence relation",
+            "Continued fractions",
+            "Infinite solutions"
+        ]
+    },
+    {
+        "q": "What is a continued fraction?",
+        "type": "mcq",
+        "o": [
+            "An expression a0 + 1/(a1 + 1/(a2 + ...)) representing a number",
+            "A regular fraction",
+            "A decimal",
+            "An irrational power"
+        ]
+    },
+    {
+        "q": "The continued fraction for sqrt(2) is [1; 2, 2, 2, ______].",
+        "type": "fill_blank",
+        "answers": [
+            "..."
+        ],
+        "other_options": [
+            "3",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "Rational numbers have finite continued fractions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the continued fraction:",
+        "type": "match",
+        "left": [
+            "Golden ratio",
+            "sqrt(2)",
+            "e",
+            "pi"
+        ],
+        "right": [
+            "[1;1,1,1,...]",
+            "[1;2,2,2,...]",
+            "[2;1,2,1,1,4,...]",
+            "No simple pattern"
+        ]
+    },
+    {
+        "q": "What are convergents of a continued fraction?",
+        "type": "mcq",
+        "o": [
+            "The successive rational approximations obtained by truncating the continued fraction",
+            "The coefficients",
+            "The denominators only",
+            "Random fractions"
+        ]
+    },
+    {
+        "q": "Convergents provide the ______ rational approximations to a number.",
+        "type": "fill_blank",
+        "answers": [
+            "best"
+        ],
+        "other_options": [
+            "worst",
+            "average",
+            "random"
+        ]
+    },
+    {
+        "q": "p_n/q_n are the convergents where p_n and q_n satisfy a recurrence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange continued fraction concepts:",
+        "type": "rearrange",
+        "words": [
+            "Partial quotients a_i",
+            "Convergents p/q",
+            "Best approximations",
+            "Periodic for quadratic irrationals"
+        ]
+    },
+    {
+        "q": "What is the Stern-Brocot tree?",
+        "type": "mcq",
+        "o": [
+            "A binary tree containing all positive rational numbers in lowest terms",
+            "A random tree",
+            "An integer tree",
+            "A prime tree"
+        ]
+    },
+    {
+        "q": "The Stern-Brocot tree starts with 0/1 and ______/1 at the ends.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "0",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Mediants (a+c)/(b+d) give children in the Stern-Brocot tree.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the tree property:",
+        "type": "match",
+        "left": [
+            "Stern-Brocot",
+            "Calkin-Wilf",
+            "Farey sequence",
+            "Euclidean algorithm"
+        ],
+        "right": [
+            "Mediant construction",
+            "Hyperbinary",
+            "Fractions in [0,1]",
+            "GCD computation"
+        ]
+    },
+    {
+        "q": "What is the Farey sequence F_n?",
+        "type": "mcq",
+        "o": [
+            "All fractions in [0,1] with denominator at most n, in order",
+            "Prime numbers up to n",
+            "Fibonacci sequence",
+            "Random fractions"
+        ]
+    },
+    {
+        "q": "F_5 includes 0/1, 1/5, 1/4, 1/3, 2/5, 1/2, 3/5, 2/3, 3/4, 4/5, ______/1.",
+        "type": "fill_blank",
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "Adjacent fractions a/b and c/d in Farey sequence satisfy |bc - ad| = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Farey sequence properties:",
+        "type": "rearrange",
+        "words": [
+            "Ordered fractions",
+            "Mediant insertion",
+            "Coprime numerator/denominator",
+            "RH connection"
+        ]
+    },
+    {
+        "q": "What is a p-adic number?",
+        "type": "mcq",
+        "o": [
+            "An extension of rationals using a different absolute value based on a prime p",
+            "A power of p",
+            "A prime number",
+            "An ordinary decimal"
+        ]
+    },
+    {
+        "q": "In 5-adic numbers, ...44444 represents ______ (since 4*sum(5^k) = -1).",
+        "type": "fill_blank",
+        "answers": [
+            "-1"
+        ],
+        "other_options": [
+            "1",
+            "0",
+            "4"
+        ]
+    },
+    {
+        "q": "p-adic numbers form a complete metric space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the number system:",
+        "type": "match",
+        "left": [
+            "Real numbers",
+            "p-adic numbers",
+            "Complex numbers",
+            "Quaternions"
+        ],
+        "right": [
+            "Standard absolute value",
+            "p-adic absolute value",
+            "i^2 = -1",
+            "Non-commutative"
+        ]
+    },
+    {
+        "q": "What is Hensel's lemma?",
+        "type": "mcq",
+        "o": [
+            "A result lifting solutions mod p to solutions mod p^k in p-adic setting",
+            "A primality test",
+            "A factorization method",
+            "A sieve"
+        ]
+    },
+    {
+        "q": "Hensel's lemma is the p-adic analog of ______ method.",
+        "type": "fill_blank",
+        "answers": [
+            "Newton's"
+        ],
+        "other_options": [
+            "Euclid's",
+            "Fermat's",
+            "Gauss's"
+        ]
+    },
+    {
+        "q": "Hensel's lemma requires the derivative to be non-zero mod p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange p-adic concepts:",
+        "type": "rearrange",
+        "words": [
+            "p-adic integers Z_p",
+            "p-adic rationals Q_p",
+            "Hensel lifting",
+            "Ultrametric inequality"
+        ]
+    },
+    {
+        "q": "What is a quadratic form?",
+        "type": "mcq",
+        "o": [
+            "A homogeneous polynomial of degree 2 like ax^2 + bxy + cy^2",
+            "A linear form",
+            "A cubic form",
+            "Any polynomial"
+        ]
+    },
+    {
+        "q": "The discriminant of ax^2 + bxy + cy^2 is b^2 - ______ac.",
+        "type": "fill_blank",
+        "answers": [
+            "4"
+        ],
+        "other_options": [
+            "2",
+            "1",
+            "3"
+        ]
+    },
+    {
+        "q": "Binary quadratic forms are central to algebraic number theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the form type:",
+        "type": "match",
+        "left": [
+            "Positive definite",
+            "Negative definite",
+            "Indefinite",
+            "Degenerate"
+        ],
+        "right": [
+            "Always > 0",
+            "Always < 0",
+            "Both signs",
+            "Zero discriminant"
+        ]
+    },
+    {
+        "q": "What is the composition of quadratic forms?",
+        "type": "mcq",
+        "o": [
+            "Gauss's method to combine two forms into another representing products",
+            "Addition only",
+            "Subtraction",
+            "Division"
+        ]
+    },
+    {
+        "q": "Bhargava revolutionized composition using ______ cubes.",
+        "type": "fill_blank",
+        "answers": [
+            "integer"
+        ],
+        "other_options": [
+            "magic",
+            "perfect",
+            "prime"
+        ]
+    },
+    {
+        "q": "Form composition relates to the class group of a quadratic field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange form topics:",
+        "type": "rearrange",
+        "words": [
+            "Binary forms",
+            "Composition",
+            "Class number",
+            "Bhargava cubes"
+        ]
+    },
+    {
+        "q": "What is Minkowski's theorem?",
+        "type": "mcq",
+        "o": [
+            "A convex body in R^n with volume > 2^n contains a non-zero integer point",
+            "A primality test",
+            "A factorization result",
+            "A GCD theorem"
+        ]
+    },
+    {
+        "q": "Minkowski's theorem is a foundational result in ______ of numbers.",
+        "type": "fill_blank",
+        "answers": [
+            "geometry"
+        ],
+        "other_options": [
+            "algebra",
+            "analysis",
+            "topology"
+        ]
+    },
+    {
+        "q": "Minkowski's theorem implies finiteness of the class number.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geometric result:",
+        "type": "match",
+        "left": [
+            "Minkowski",
+            "Pick's theorem",
+            "Lattice points",
+            "Convex body"
+        ],
+        "right": [
+            "Geometry of numbers",
+            "Area and boundary points",
+            "Integer coordinates",
+            "No indentations"
+        ]
+    },
+    {
+        "q": "What is a lattice in number theory?",
+        "type": "mcq",
+        "o": [
+            "A discrete subgroup of R^n isomorphic to Z^n",
+            "A continuous set",
+            "A random set",
+            "All real numbers"
+        ]
+    },
+    {
+        "q": "Z^2 is the standard ______ lattice.",
+        "type": "fill_blank",
+        "answers": [
+            "integer"
+        ],
+        "other_options": [
+            "real",
+            "complex",
+            "prime"
+        ]
+    },
+    {
+        "q": "The determinant of a lattice measures its fundamental domain volume.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange lattice concepts:",
+        "type": "rearrange",
+        "words": [
+            "Basis vectors",
+            "Fundamental domain",
+            "Determinant",
+            "Shortest vector problem"
+        ]
+    },
+    {
+        "q": "What is the shortest vector problem (SVP)?",
+        "type": "mcq",
+        "o": [
+            "Finding the shortest non-zero vector in a lattice",
+            "Finding any vector",
+            "Finding the longest vector",
+            "Finding no vector"
+        ]
+    },
+    {
+        "q": "SVP is computationally ______ in high dimensions.",
+        "type": "fill_blank",
+        "answers": [
+            "hard"
+        ],
+        "other_options": [
+            "easy",
+            "trivial",
+            "impossible"
+        ]
+    },
+    {
+        "q": "Lattice-based cryptography relies on the hardness of SVP.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the lattice problem:",
+        "type": "match",
+        "left": [
+            "SVP",
+            "CVP",
+            "LWE",
+            "NTRU"
+        ],
+        "right": [
+            "Shortest vector",
+            "Closest vector",
+            "Learning with errors",
+            "Crypto system"
+        ]
+    },
+    {
+        "q": "What is the Riemann zeta function?",
+        "type": "mcq",
+        "o": [
+            "zeta(s) = sum over n of 1/n^s, connected to prime distribution",
+            "A polynomial",
+            "A linear function",
+            "A random function"
+        ]
+    },
+    {
+        "q": "zeta(2) = pi^2/______ (Basel problem).",
+        "type": "fill_blank",
+        "answers": [
+            "6"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "The Euler product connects zeta to primes: zeta(s) = product over p of 1/(1 - p^(-s)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange zeta values:",
+        "type": "rearrange",
+        "words": [
+            "zeta(2) = pi^2/6",
+            "zeta(4) = pi^4/90",
+            "zeta(-1) = -1/12",
+            "zeta(3) irrational"
+        ]
+    },
+    {
+        "q": "What is the Riemann Hypothesis?",
+        "type": "mcq",
+        "o": [
+            "All non-trivial zeros of zeta(s) have real part 1/2",
+            "zeta has no zeros",
+            "All zeros are integers",
+            "A disproven conjecture"
+        ]
+    },
+    {
+        "q": "The critical line where RH says zeros lie is Re(s) = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1/2"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "2"
+        ]
+    },
+    {
+        "q": "RH is one of the Millennium Prize Problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the zeta property:",
+        "type": "match",
+        "left": [
+            "Trivial zeros",
+            "Non-trivial zeros",
+            "Critical strip",
+            "Functional equation"
+        ],
+        "right": [
+            "At -2, -4, -6, ...",
+            "In 0 < Re(s) < 1",
+            "0 < Re(s) < 1",
+            "zeta(s) = ...zeta(1-s)"
+        ]
+    },
+    {
+        "q": "What is an L-function?",
+        "type": "mcq",
+        "o": [
+            "A generalization of the Riemann zeta function with a character",
+            "A logarithm",
+            "A polynomial",
+            "A factorial"
+        ]
+    },
+    {
+        "q": "Dirichlet L-functions L(s, chi) use a ______ character chi.",
+        "type": "fill_blank",
+        "answers": [
+            "Dirichlet"
+        ],
+        "other_options": [
+            "random",
+            "simple",
+            "complex"
+        ]
+    },
+    {
+        "q": "L-functions are central to the proof of primes in arithmetic progressions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange L-function types:",
+        "type": "rearrange",
+        "words": [
+            "Riemann zeta",
+            "Dirichlet L",
+            "Dedekind zeta",
+            "Artin L"
+        ]
+    },
+    {
+        "q": "What is the Birch and Swinnerton-Dyer conjecture?",
+        "type": "mcq",
+        "o": [
+            "Relates the rank of an elliptic curve to the order of vanishing of its L-function at s=1",
+            "About primes",
+            "A proven theorem",
+            "About perfect numbers"
+        ]
+    },
+    {
+        "q": "BSD is another ______ Prize Problem.",
+        "type": "fill_blank",
+        "answers": [
+            "Millennium"
+        ],
+        "other_options": [
+            "Nobel",
+            "Fields",
+            "Turing"
+        ]
+    },
+    {
+        "q": "BSD connects arithmetic (rank) to analysis (L-function).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Millennium Problem:",
+        "type": "match",
+        "left": [
+            "Riemann Hypothesis",
+            "BSD conjecture",
+            "P vs NP",
+            "Hodge conjecture"
+        ],
+        "right": [
+            "Zeta zeros",
+            "Elliptic curves",
+            "Complexity theory",
+            "Algebraic geometry"
+        ]
+    },
+    {
+        "q": "What is an elliptic curve?",
+        "type": "mcq",
+        "o": [
+            "A curve given by y^2 = x^3 + ax + b with a group structure",
+            "An ellipse",
+            "A circle",
+            "A parabola"
+        ]
+    },
+    {
+        "q": "The group law on an elliptic curve is defined using ______ and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "chord"
+        ],
+        "other_options": [
+            "add",
+            "multiply",
+            "divide"
+        ]
+    },
+    {
+        "q": "Elliptic curves are used in modern cryptography (ECC).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange EC concepts:",
+        "type": "rearrange",
+        "words": [
+            "Weierstrass form",
+            "Group law",
+            "Rank",
+            "Torsion points"
+        ]
+    },
+    {
+        "q": "What is the rank of an elliptic curve?",
+        "type": "mcq",
+        "o": [
+            "The number of independent rational points of infinite order",
+            "The number of torsion points",
+            "The degree",
+            "The discriminant"
+        ]
+    },
+    {
+        "q": "Mordell-Weil theorem says E(Q) is finitely ______.",
+        "type": "fill_blank",
+        "answers": [
+            "generated"
+        ],
+        "other_options": [
+            "infinite",
+            "zero",
+            "complex"
+        ]
+    },
+    {
+        "q": "Computing the exact rank is a difficult open problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the EC property:",
+        "type": "match",
+        "left": [
+            "Rank",
+            "Torsion",
+            "Conductor",
+            "Discriminant"
+        ],
+        "right": [
+            "Free part generators",
+            "Finite order points",
+            "Bad reduction primes",
+            "Curve smoothness"
+        ]
+    },
+    {
+        "q": "What is Fermat's Last Theorem?",
+        "type": "mcq",
+        "o": [
+            "No positive integer solutions to x^n + y^n = z^n for n > 2",
+            "Every even number is sum of two primes",
+            "There are infinitely many primes",
+            "About perfect numbers"
+        ]
+    },
+    {
+        "q": "FLT was proven by Andrew ______ in 1995.",
+        "type": "fill_blank",
+        "answers": [
+            "Wiles"
+        ],
+        "other_options": [
+            "Euler",
+            "Gauss",
+            "Fermat"
+        ]
+    },
+    {
+        "q": "The proof used modularity of elliptic curves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange FLT history:",
+        "type": "rearrange",
+        "words": [
+            "Fermat's claim (1637)",
+            "Proved for n=3,4 (Euler)",
+            "Kummer's work",
+            "Wiles proof (1995)"
+        ]
+    },
+    {
+        "q": "What is the modularity theorem?",
+        "type": "mcq",
+        "o": [
+            "Every elliptic curve over Q is modular (associated to a modular form)",
+            "About modular arithmetic",
+            "About prime modules",
+            "A random conjecture"
+        ]
+    },
+    {
+        "q": "The modularity theorem was formerly called Taniyama-Shimura-______ conjecture.",
+        "type": "fill_blank",
+        "answers": [
+            "Weil"
+        ],
+        "other_options": [
+            "Fermat",
+            "Gauss",
+            "Euler"
+        ]
+    },
+    {
+        "q": "Proving modularity for semistable curves was key to FLT.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the modern result:",
+        "type": "match",
+        "left": [
+            "Modularity theorem",
+            "FLT",
+            "Faltings theorem",
+            "ABC conjecture"
+        ],
+        "right": [
+            "EC to modular forms",
+            "x^n + y^n = z^n",
+            "Mordell conjecture",
+            "Radical product bounds"
+        ]
+    }
+]

@@ -1,0 +1,6144 @@
+[
+    {
+        "q": "What is a CPU?",
+        "type": "mcq",
+        "o": [
+            "Central Processing Unit",
+            "Computer Power Unit",
+            "Central Power Unit",
+            "Computer Processing Unit"
+        ]
+    },
+    {
+        "q": "The CPU is the _____ of a computer.",
+        "type": "fill_blank",
+        "answers": [
+            "brain"
+        ],
+        "other_options": [
+            "heart",
+            "memory",
+            "storage"
+        ]
+    },
+    {
+        "q": "CPU stands for Central Processing Unit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does a CPU do?",
+        "type": "mcq",
+        "o": [
+            "Executes instructions",
+            "Stores data permanently",
+            "Displays graphics",
+            "Connects to internet"
+        ]
+    },
+    {
+        "q": "The CPU processes _____ and data.",
+        "type": "fill_blank",
+        "answers": [
+            "instructions"
+        ],
+        "other_options": [
+            "power",
+            "electricity",
+            "cables"
+        ]
+    },
+    {
+        "q": "Match the CPU component with its function:",
+        "type": "match",
+        "left": [
+            "ALU",
+            "Control Unit",
+            "Registers",
+            "Cache"
+        ],
+        "right": [
+            "Arithmetic",
+            "Coordination",
+            "Fast storage",
+            "Quick access"
+        ]
+    },
+    {
+        "q": "CPUs can only do one thing at a time.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is RAM?",
+        "type": "mcq",
+        "o": [
+            "Random Access Memory",
+            "Read All Memory",
+            "Random Allocated Memory",
+            "Read Access Memory"
+        ]
+    },
+    {
+        "q": "RAM provides _____ storage for running programs.",
+        "type": "fill_blank",
+        "answers": [
+            "temporary"
+        ],
+        "other_options": [
+            "permanent",
+            "long-term",
+            "forever"
+        ]
+    },
+    {
+        "q": "Rearrange memory types by speed:",
+        "type": "rearrange",
+        "words": [
+            "Registers",
+            "Cache",
+            "RAM",
+            "SSD"
+        ]
+    },
+    {
+        "q": "RAM keeps data when power is off.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is ROM?",
+        "type": "mcq",
+        "o": [
+            "Read Only Memory",
+            "Random Only Memory",
+            "Read Open Memory",
+            "Run Only Memory"
+        ]
+    },
+    {
+        "q": "ROM stores _____ that doesn't change.",
+        "type": "fill_blank",
+        "answers": [
+            "firmware"
+        ],
+        "other_options": [
+            "documents",
+            "photos",
+            "videos"
+        ]
+    },
+    {
+        "q": "Match the memory type with its property:",
+        "type": "match",
+        "left": [
+            "RAM",
+            "ROM",
+            "Cache",
+            "VRAM"
+        ],
+        "right": [
+            "Volatile",
+            "Non-volatile",
+            "Fastest",
+            "Graphics"
+        ]
+    },
+    {
+        "q": "ROM retains data without power.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a motherboard?",
+        "type": "mcq",
+        "o": [
+            "Main circuit board",
+            "Memory board",
+            "Display board",
+            "Power board"
+        ]
+    },
+    {
+        "q": "The motherboard connects all computer _____.",
+        "type": "fill_blank",
+        "answers": [
+            "components"
+        ],
+        "other_options": [
+            "users",
+            "websites",
+            "programs"
+        ]
+    },
+    {
+        "q": "CPUs are soldered permanently to all motherboards.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a hard drive?",
+        "type": "mcq",
+        "o": [
+            "Permanent storage device",
+            "Temporary memory",
+            "Processing unit",
+            "Display unit"
+        ]
+    },
+    {
+        "q": "Hard drives store data _____.",
+        "type": "fill_blank",
+        "answers": [
+            "permanently"
+        ],
+        "other_options": [
+            "temporarily",
+            "briefly",
+            "shortly"
+        ]
+    },
+    {
+        "q": "Rearrange storage by capacity (smallest to largest):",
+        "type": "rearrange",
+        "words": [
+            "Cache",
+            "RAM",
+            "SSD",
+            "HDD"
+        ]
+    },
+    {
+        "q": "Match the storage with its technology:",
+        "type": "match",
+        "left": [
+            "HDD",
+            "SSD",
+            "USB drive",
+            "CD"
+        ],
+        "right": [
+            "Magnetic",
+            "Flash",
+            "Flash",
+            "Optical"
+        ]
+    },
+    {
+        "q": "HDDs use spinning platters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an SSD?",
+        "type": "mcq",
+        "o": [
+            "Solid State Drive",
+            "Super Speed Drive",
+            "System Storage Device",
+            "Solid Speed Drive"
+        ]
+    },
+    {
+        "q": "SSDs use _____ memory with no moving parts.",
+        "type": "fill_blank",
+        "answers": [
+            "flash"
+        ],
+        "other_options": [
+            "magnetic",
+            "optical",
+            "mechanical"
+        ]
+    },
+    {
+        "q": "SSDs are slower than HDDs.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a GPU?",
+        "type": "mcq",
+        "o": [
+            "Graphics Processing Unit",
+            "General Processing Unit",
+            "Graphical Power Unit",
+            "Graphics Power Unit"
+        ]
+    },
+    {
+        "q": "GPUs are optimized for _____ calculations.",
+        "type": "fill_blank",
+        "answers": [
+            "parallel"
+        ],
+        "other_options": [
+            "sequential",
+            "slow",
+            "single"
+        ]
+    },
+    {
+        "q": "Match the component with its purpose:",
+        "type": "match",
+        "left": [
+            "CPU",
+            "GPU",
+            "RAM",
+            "SSD"
+        ],
+        "right": [
+            "General processing",
+            "Graphics",
+            "Fast memory",
+            "Storage"
+        ]
+    },
+    {
+        "q": "GPUs are only used for gaming.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a logic gate?",
+        "type": "mcq",
+        "o": [
+            "Basic digital circuit element",
+            "Physical gate",
+            "Computer entrance",
+            "Security barrier"
+        ]
+    },
+    {
+        "q": "Logic gates operate on _____ values (0 and 1).",
+        "type": "fill_blank",
+        "answers": [
+            "binary"
+        ],
+        "other_options": [
+            "decimal",
+            "text",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange basic logic gates:",
+        "type": "rearrange",
+        "words": [
+            "AND",
+            "OR",
+            "NOT",
+            "XOR"
+        ]
+    },
+    {
+        "q": "Computers use decimal logic internally.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does an AND gate do?",
+        "type": "mcq",
+        "o": [
+            "Output 1 if both inputs are 1",
+            "Output 1 if any input is 1",
+            "Invert the input",
+            "Always output 1"
+        ]
+    },
+    {
+        "q": "AND gate outputs 1 only when _____ inputs are 1.",
+        "type": "fill_blank",
+        "answers": [
+            "both"
+        ],
+        "other_options": [
+            "either",
+            "no",
+            "some"
+        ]
+    },
+    {
+        "q": "Match the gate with its symbol truth:",
+        "type": "match",
+        "left": [
+            "AND",
+            "OR",
+            "NOT",
+            "XOR"
+        ],
+        "right": [
+            "Both true",
+            "Any true",
+            "Invert",
+            "One true only"
+        ]
+    },
+    {
+        "q": "AND(1,0) outputs 1.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does an OR gate do?",
+        "type": "mcq",
+        "o": [
+            "Output 1 if any input is 1",
+            "Output 1 if both inputs are 1",
+            "Invert the input",
+            "Always output 0"
+        ]
+    },
+    {
+        "q": "OR gate outputs 1 when at least _____ input is 1.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "both",
+            "no",
+            "zero"
+        ]
+    },
+    {
+        "q": "OR(0,0) outputs 1.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does a NOT gate do?",
+        "type": "mcq",
+        "o": [
+            "Inverts the input",
+            "Adds inputs",
+            "Multiplies inputs",
+            "Stores input"
+        ]
+    },
+    {
+        "q": "NOT gate is also called an _____.",
+        "type": "fill_blank",
+        "answers": [
+            "inverter"
+        ],
+        "other_options": [
+            "adder",
+            "multiplier",
+            "amplifier"
+        ]
+    },
+    {
+        "q": "NOT(1) outputs 1.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does an XOR gate do?",
+        "type": "mcq",
+        "o": [
+            "Output 1 if inputs are different",
+            "Output 1 if inputs are same",
+            "Invert both inputs",
+            "Always output 0"
+        ]
+    },
+    {
+        "q": "XOR stands for exclusive _____.",
+        "type": "fill_blank",
+        "answers": [
+            "OR"
+        ],
+        "other_options": [
+            "AND",
+            "NOT",
+            "NOR"
+        ]
+    },
+    {
+        "q": "Rearrange gate complexity:",
+        "type": "rearrange",
+        "words": [
+            "NOT",
+            "AND/OR",
+            "XOR",
+            "Full adder"
+        ]
+    },
+    {
+        "q": "XOR(1,1) outputs 1.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a NAND gate?",
+        "type": "mcq",
+        "o": [
+            "NOT combined with AND",
+            "Neither AND nor OR",
+            "New AND gate",
+            "Negative AND"
+        ]
+    },
+    {
+        "q": "NAND is a _____ gate.",
+        "type": "fill_blank",
+        "answers": [
+            "universal"
+        ],
+        "other_options": [
+            "rare",
+            "simple",
+            "basic"
+        ]
+    },
+    {
+        "q": "Match the combined gate with its base gates:",
+        "type": "match",
+        "left": [
+            "NAND",
+            "NOR",
+            "XNOR",
+            "Buffer"
+        ],
+        "right": [
+            "NOT + AND",
+            "NOT + OR",
+            "NOT + XOR",
+            "Same output"
+        ]
+    },
+    {
+        "q": "NAND gates can build any other gate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is binary?",
+        "type": "mcq",
+        "o": [
+            "Base-2 number system",
+            "Base-10 system",
+            "Text encoding",
+            "Color system"
+        ]
+    },
+    {
+        "q": "Binary uses only _____ and 1.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "2",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "q": "Binary 1010 equals decimal 12.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a bit?",
+        "type": "mcq",
+        "o": [
+            "Smallest unit of data",
+            "Eight bytes",
+            "Computer chip",
+            "Memory card"
+        ]
+    },
+    {
+        "q": "A bit can be _____ or 1.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "10"
+        ]
+    },
+    {
+        "q": "Rearrange data units by size:",
+        "type": "rearrange",
+        "words": [
+            "Bit",
+            "Byte",
+            "Kilobyte",
+            "Megabyte"
+        ]
+    },
+    {
+        "q": "Match the unit with its value:",
+        "type": "match",
+        "left": [
+            "Byte",
+            "Kilobyte",
+            "Megabyte",
+            "Gigabyte"
+        ],
+        "right": [
+            "8 bits",
+            "1024 bytes",
+            "1024 KB",
+            "1024 MB"
+        ]
+    },
+    {
+        "q": "8 bits make 1 byte.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CPU clock speed?",
+        "type": "mcq",
+        "o": [
+            "Cycles per second",
+            "Time display",
+            "Power usage",
+            "Size measurement"
+        ]
+    },
+    {
+        "q": "Clock speed is measured in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hertz"
+        ],
+        "other_options": [
+            "bytes",
+            "bits",
+            "watts"
+        ]
+    },
+    {
+        "q": "GHz means billions of cycles per second.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a CPU core?",
+        "type": "mcq",
+        "o": [
+            "Independent processing unit",
+            "CPU center",
+            "Outer shell",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "Multi-core CPUs have multiple _____ units.",
+        "type": "fill_blank",
+        "answers": [
+            "processing"
+        ],
+        "other_options": [
+            "power",
+            "display",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the CPU term with its meaning:",
+        "type": "match",
+        "left": [
+            "Core",
+            "Thread",
+            "Clock speed",
+            "Cache"
+        ],
+        "right": [
+            "Processing unit",
+            "Execution path",
+            "Cycles/second",
+            "Fast memory"
+        ]
+    },
+    {
+        "q": "More cores always mean faster processing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is cache memory?",
+        "type": "mcq",
+        "o": [
+            "Fast memory near CPU",
+            "Main storage",
+            "Slow memory",
+            "External storage"
+        ]
+    },
+    {
+        "q": "Cache stores frequently _____ data.",
+        "type": "fill_blank",
+        "answers": [
+            "accessed"
+        ],
+        "other_options": [
+            "deleted",
+            "old",
+            "large"
+        ]
+    },
+    {
+        "q": "Rearrange cache levels by speed:",
+        "type": "rearrange",
+        "words": [
+            "L1 (fastest)",
+            "L2",
+            "L3",
+            "RAM"
+        ]
+    },
+    {
+        "q": "L1 cache is larger than L3 cache.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a bus in computing?",
+        "type": "mcq",
+        "o": [
+            "Data pathway between components",
+            "Transportation vehicle",
+            "Power cable",
+            "Display connection"
+        ]
+    },
+    {
+        "q": "The system bus transfers _____ between components.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "power",
+            "heat",
+            "sound"
+        ]
+    },
+    {
+        "q": "Match the bus type with its function:",
+        "type": "match",
+        "left": [
+            "Data bus",
+            "Address bus",
+            "Control bus",
+            "PCI"
+        ],
+        "right": [
+            "Transfer data",
+            "Memory location",
+            "Signals",
+            "Expansion"
+        ]
+    },
+    {
+        "q": "Wider buses can transfer more data at once.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an input device?",
+        "type": "mcq",
+        "o": [
+            "Device that sends data to computer",
+            "Device that receives data",
+            "Storage device",
+            "Processing device"
+        ]
+    },
+    {
+        "q": "Keyboards and mice are _____ devices.",
+        "type": "fill_blank",
+        "answers": [
+            "input"
+        ],
+        "other_options": [
+            "output",
+            "storage",
+            "processing"
+        ]
+    },
+    {
+        "q": "Rearrange I/O device types:",
+        "type": "rearrange",
+        "words": [
+            "Input",
+            "Output",
+            "Storage",
+            "Communication"
+        ]
+    },
+    {
+        "q": "A monitor is an input device.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is an output device?",
+        "type": "mcq",
+        "o": [
+            "Device that receives data from computer",
+            "Device that sends data",
+            "Storage device",
+            "Processing device"
+        ]
+    },
+    {
+        "q": "Monitors and printers are _____ devices.",
+        "type": "fill_blank",
+        "answers": [
+            "output"
+        ],
+        "other_options": [
+            "input",
+            "storage",
+            "processing"
+        ]
+    },
+    {
+        "q": "Match the device with its type:",
+        "type": "match",
+        "left": [
+            "Keyboard",
+            "Monitor",
+            "Mouse",
+            "Printer"
+        ],
+        "right": [
+            "Input",
+            "Output",
+            "Input",
+            "Output"
+        ]
+    },
+    {
+        "q": "Speakers are output devices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a power supply unit?",
+        "type": "mcq",
+        "o": [
+            "Converts AC to DC power",
+            "Stores power",
+            "Processes data",
+            "Displays information"
+        ]
+    },
+    {
+        "q": "PSU converts wall power to _____ voltages.",
+        "type": "fill_blank",
+        "answers": [
+            "appropriate"
+        ],
+        "other_options": [
+            "random",
+            "high",
+            "dangerous"
+        ]
+    },
+    {
+        "q": "PSU efficiency is measured in percentage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is BIOS?",
+        "type": "mcq",
+        "o": [
+            "Basic Input Output System",
+            "Basic Internet Online System",
+            "Binary Input Output System",
+            "Boot Initial Operating System"
+        ]
+    },
+    {
+        "q": "BIOS starts before the operating _____.",
+        "type": "fill_blank",
+        "answers": [
+            "system"
+        ],
+        "other_options": [
+            "power",
+            "display",
+            "mouse"
+        ]
+    },
+    {
+        "q": "Rearrange boot sequence:",
+        "type": "rearrange",
+        "words": [
+            "Power on",
+            "BIOS/UEFI",
+            "Bootloader",
+            "OS load"
+        ]
+    },
+    {
+        "q": "Match the firmware with its type:",
+        "type": "match",
+        "left": [
+            "BIOS",
+            "UEFI",
+            "Bootloader",
+            "Kernel"
+        ],
+        "right": [
+            "Legacy",
+            "Modern",
+            "OS loader",
+            "OS core"
+        ]
+    },
+    {
+        "q": "UEFI is replacing BIOS.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a transistor?",
+        "type": "mcq",
+        "o": [
+            "Electronic switch",
+            "Storage device",
+            "Display component",
+            "Power generator"
+        ]
+    },
+    {
+        "q": "Modern CPUs have _____ of transistors.",
+        "type": "fill_blank",
+        "answers": [
+            "billions"
+        ],
+        "other_options": [
+            "hundreds",
+            "thousands",
+            "dozens"
+        ]
+    },
+    {
+        "q": "Transistors are the building blocks of processors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Moore's Law?",
+        "type": "mcq",
+        "o": [
+            "Transistors double every  ~2 years",
+            "Speed doubles yearly",
+            "Price halves monthly",
+            "Size doubles daily"
+        ]
+    },
+    {
+        "q": "Moore's Law relates to transistor _____.",
+        "type": "fill_blank",
+        "answers": [
+            "density"
+        ],
+        "other_options": [
+            "color",
+            "cost",
+            "shape"
+        ]
+    },
+    {
+        "q": "Moore's Law is a physical law of nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a semiconductor?",
+        "type": "mcq",
+        "o": [
+            "Material with controllable conductivity",
+            "Perfect conductor",
+            "Perfect insulator",
+            "Display material"
+        ]
+    },
+    {
+        "q": "Silicon is the most common _____ material.",
+        "type": "fill_blank",
+        "answers": [
+            "semiconductor"
+        ],
+        "other_options": [
+            "conductor",
+            "insulator",
+            "display"
+        ]
+    },
+    {
+        "q": "Match the material with its type:",
+        "type": "match",
+        "left": [
+            "Copper",
+            "Silicon",
+            "Rubber",
+            "Gold"
+        ],
+        "right": [
+            "Conductor",
+            "Semiconductor",
+            "Insulator",
+            "Conductor"
+        ]
+    },
+    {
+        "q": "Semiconductors can act as switches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an integrated circuit?",
+        "type": "mcq",
+        "o": [
+            "Multiple components on single chip",
+            "Single component",
+            "External circuit",
+            "Disconnected parts"
+        ]
+    },
+    {
+        "q": "ICs are also called _____.",
+        "type": "fill_blank",
+        "answers": [
+            "chips"
+        ],
+        "other_options": [
+            "wires",
+            "cables",
+            "boards"
+        ]
+    },
+    {
+        "q": "Match the IC type with its complexity:",
+        "type": "match",
+        "left": [
+            "SSI",
+            "MSI",
+            "LSI",
+            "VLSI"
+        ],
+        "right": [
+            "Small scale",
+            "Medium scale",
+            "Large scale",
+            "Very large"
+        ]
+    },
+    {
+        "q": "CPUs are integrated circuits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a flip-flop?",
+        "type": "mcq",
+        "o": [
+            "Memory circuit storing one bit",
+            "Footwear",
+            "Power switch",
+            "Display element"
+        ]
+    },
+    {
+        "q": "Flip-flops are used to build _____.",
+        "type": "fill_blank",
+        "answers": [
+            "registers"
+        ],
+        "other_options": [
+            "displays",
+            "cables",
+            "keyboards"
+        ]
+    },
+    {
+        "q": "Rearrange memory building blocks:",
+        "type": "rearrange",
+        "words": [
+            "Flip-flop",
+            "Register",
+            "Cache",
+            "RAM"
+        ]
+    },
+    {
+        "q": "Flip-flops maintain state until changed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a register?",
+        "type": "mcq",
+        "o": [
+            "Small fast CPU storage",
+            "Cash register",
+            "Main memory",
+            "External storage"
+        ]
+    },
+    {
+        "q": "Registers store _____ bits of data.",
+        "type": "fill_blank",
+        "answers": [
+            "few"
+        ],
+        "other_options": [
+            "millions",
+            "billions",
+            "thousands"
+        ]
+    },
+    {
+        "q": "Match the register with its purpose:",
+        "type": "match",
+        "left": [
+            "Program counter",
+            "Instruction register",
+            "Accumulator",
+            "Stack pointer"
+        ],
+        "right": [
+            "Next instruction",
+            "Current instruction",
+            "Results",
+            "Stack location"
+        ]
+    },
+    {
+        "q": "Registers are the fastest memory type.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ALU?",
+        "type": "mcq",
+        "o": [
+            "Arithmetic Logic Unit",
+            "All Logic Unit",
+            "Arithmetic Language Unit",
+            "Advanced Logic Unit"
+        ]
+    },
+    {
+        "q": "The ALU performs arithmetic and _____ operations.",
+        "type": "fill_blank",
+        "answers": [
+            "logical"
+        ],
+        "other_options": [
+            "display",
+            "storage",
+            "network"
+        ]
+    },
+    {
+        "q": "The ALU only does addition.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the control unit?",
+        "type": "mcq",
+        "o": [
+            "Coordinates CPU operations",
+            "Control panel",
+            "User interface",
+            "Power control"
+        ]
+    },
+    {
+        "q": "The control unit directs data _____ within CPU.",
+        "type": "fill_blank",
+        "answers": [
+            "flow"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "power"
+        ]
+    },
+    {
+        "q": "Match the CPU component with its role:",
+        "type": "match",
+        "left": [
+            "ALU",
+            "Control unit",
+            "Registers",
+            "Cache"
+        ],
+        "right": [
+            "Calculations",
+            "Coordination",
+            "Storage",
+            "Quick access"
+        ]
+    },
+    {
+        "q": "The control unit decodes instructions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is pipelining?",
+        "type": "mcq",
+        "o": [
+            "Overlapping instruction execution",
+            "Water pipes",
+            "Data storage",
+            "Power delivery"
+        ]
+    },
+    {
+        "q": "Pipelining increases CPU _____.",
+        "type": "fill_blank",
+        "answers": [
+            "throughput"
+        ],
+        "other_options": [
+            "size",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "Rearrange instruction stages:",
+        "type": "rearrange",
+        "words": [
+            "Fetch",
+            "Decode",
+            "Execute",
+            "Write back"
+        ]
+    },
+    {
+        "q": "Pipelining processes one instruction at a time.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is superscalar architecture?",
+        "type": "mcq",
+        "o": [
+            "Multiple execution units",
+            "Super computer",
+            "Large scale",
+            "High speed"
+        ]
+    },
+    {
+        "q": "Superscalar CPUs can execute multiple _____ per cycle.",
+        "type": "fill_blank",
+        "answers": [
+            "instructions"
+        ],
+        "other_options": [
+            "programs",
+            "files",
+            "users"
+        ]
+    },
+    {
+        "q": "Modern CPUs are superscalar.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is branch prediction?",
+        "type": "mcq",
+        "o": [
+            "Guessing which code path to take",
+            "Tree analysis",
+            "Branch office",
+            "Code branching"
+        ]
+    },
+    {
+        "q": "Branch prediction reduces pipeline _____.",
+        "type": "fill_blank",
+        "answers": [
+            "stalls"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "power"
+        ]
+    },
+    {
+        "q": "Match the CPU technique with its benefit:",
+        "type": "match",
+        "left": [
+            "Pipelining",
+            "Superscalar",
+            "Branch prediction",
+            "Out-of-order"
+        ],
+        "right": [
+            "Parallel stages",
+            "Multiple units",
+            "Reduce stalls",
+            "Better utilization"
+        ]
+    },
+    {
+        "q": "Wrong predictions cause performance penalties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is out-of-order execution?",
+        "type": "mcq",
+        "o": [
+            "Executing instructions in flexible order",
+            "Random execution",
+            "Reverse execution",
+            "Sequential only"
+        ]
+    },
+    {
+        "q": "Out-of-order execution improves CPU _____.",
+        "type": "fill_blank",
+        "answers": [
+            "utilization"
+        ],
+        "other_options": [
+            "size",
+            "color",
+            "shape"
+        ]
+    },
+    {
+        "q": "Out-of-order execution maintains program correctness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hyper-threading?",
+        "type": "mcq",
+        "o": [
+            "Intel's simultaneous multithreading",
+            "Faster threading",
+            "Thread counting",
+            "Hardware damage"
+        ]
+    },
+    {
+        "q": "Hyper-threading creates _____ logical cores per physical core.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "ten",
+            "hundred",
+            "zero"
+        ]
+    },
+    {
+        "q": "Hyper-threading doubles physical cores.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is DDR memory?",
+        "type": "mcq",
+        "o": [
+            "Double Data Rate memory",
+            "Dual Drive RAM",
+            "Direct Data Read",
+            "Double Drive Rate"
+        ]
+    },
+    {
+        "q": "DDR transfers data on both clock _____.",
+        "type": "fill_blank",
+        "answers": [
+            "edges"
+        ],
+        "other_options": [
+            "cycles",
+            "sides",
+            "lines"
+        ]
+    },
+    {
+        "q": "Rearrange DDR generations:",
+        "type": "rearrange",
+        "words": [
+            "DDR",
+            "DDR2",
+            "DDR3",
+            "DDR4"
+        ]
+    },
+    {
+        "q": "Match the DDR version with its feature:",
+        "type": "match",
+        "left": [
+            "DDR3",
+            "DDR4",
+            "DDR5",
+            "LPDDR"
+        ],
+        "right": [
+            "1.5V",
+            "1.2V",
+            "1.1V",
+            "Low power"
+        ]
+    },
+    {
+        "q": "DDR5 is faster than DDR4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ECC memory?",
+        "type": "mcq",
+        "o": [
+            "Error Correcting Code memory",
+            "Extra Capacity Cache",
+            "Enhanced Computer Core",
+            "Extended Component Card"
+        ]
+    },
+    {
+        "q": "ECC memory detects and corrects _____ errors.",
+        "type": "fill_blank",
+        "answers": [
+            "bit"
+        ],
+        "other_options": [
+            "power",
+            "display",
+            "network"
+        ]
+    },
+    {
+        "q": "ECC is common in consumer laptops.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is virtual memory?",
+        "type": "mcq",
+        "o": [
+            "Using disk as extended RAM",
+            "Virtual reality",
+            "Fake memory",
+            "Cloud storage"
+        ]
+    },
+    {
+        "q": "Virtual memory uses disk space as _____.",
+        "type": "fill_blank",
+        "answers": [
+            "swap"
+        ],
+        "other_options": [
+            "cache",
+            "boot",
+            "root"
+        ]
+    },
+    {
+        "q": "Match the memory term with its meaning:",
+        "type": "match",
+        "left": [
+            "Page",
+            "Swap",
+            "TLB",
+            "MMU"
+        ],
+        "right": [
+            "Memory block",
+            "Disk RAM",
+            "Address cache",
+            "Memory manager"
+        ]
+    },
+    {
+        "q": "Virtual memory is as fast as physical RAM.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the MMU?",
+        "type": "mcq",
+        "o": [
+            "Memory Management Unit",
+            "Main Memory Unit",
+            "Multiple Memory Unit",
+            "Master Memory Unit"
+        ]
+    },
+    {
+        "q": "The MMU translates virtual to physical _____.",
+        "type": "fill_blank",
+        "answers": [
+            "addresses"
+        ],
+        "other_options": [
+            "data",
+            "files",
+            "programs"
+        ]
+    },
+    {
+        "q": "Rearrange address translation steps:",
+        "type": "rearrange",
+        "words": [
+            "Virtual address",
+            "TLB lookup",
+            "Page table",
+            "Physical address"
+        ]
+    },
+    {
+        "q": "The MMU is part of the CPU.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is flash memory?",
+        "type": "mcq",
+        "o": [
+            "Non-volatile electronic storage",
+            "Camera flash",
+            "Fast memory only",
+            "Temporary storage"
+        ]
+    },
+    {
+        "q": "Flash memory uses _____ to store data.",
+        "type": "fill_blank",
+        "answers": [
+            "transistors"
+        ],
+        "other_options": [
+            "magnets",
+            "lasers",
+            "disks"
+        ]
+    },
+    {
+        "q": "Match the flash type with its use:",
+        "type": "match",
+        "left": [
+            "NOR flash",
+            "NAND flash",
+            "eMMC",
+            "UFS"
+        ],
+        "right": [
+            "Code storage",
+            "Data storage",
+            "Embedded",
+            "Fast mobile"
+        ]
+    },
+    {
+        "q": "Flash memory has unlimited write cycles.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is NAND flash?",
+        "type": "mcq",
+        "o": [
+            "High-density storage flash",
+            "NOT AND flash",
+            "Negative AND",
+            "New AND type"
+        ]
+    },
+    {
+        "q": "NAND flash is used in SSDs and _____ cards.",
+        "type": "fill_blank",
+        "answers": [
+            "memory"
+        ],
+        "other_options": [
+            "credit",
+            "playing",
+            "gift"
+        ]
+    },
+    {
+        "q": "Rearrange NAND types by density:",
+        "type": "rearrange",
+        "words": [
+            "SLC",
+            "MLC",
+            "TLC",
+            "QLC"
+        ]
+    },
+    {
+        "q": "QLC stores more bits per cell than SLC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is NVMe?",
+        "type": "mcq",
+        "o": [
+            "Non-Volatile Memory Express",
+            "New Volume Memory",
+            "Network Volatile Memory",
+            "Non-Visual Memory"
+        ]
+    },
+    {
+        "q": "NVMe connects directly to _____ for faster speeds.",
+        "type": "fill_blank",
+        "answers": [
+            "PCIe"
+        ],
+        "other_options": [
+            "USB",
+            "SATA",
+            "Ethernet"
+        ]
+    },
+    {
+        "q": "Match the storage interface with its speed:",
+        "type": "match",
+        "left": [
+            "SATA",
+            "SAS",
+            "NVMe",
+            "USB 3.0"
+        ],
+        "right": [
+            "6 Gbps",
+            "12 Gbps",
+            "Fastest",
+            "5 Gbps"
+        ]
+    },
+    {
+        "q": "NVMe is faster than SATA SSDs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RAID?",
+        "type": "mcq",
+        "o": [
+            "Redundant Array of Independent Disks",
+            "Random Access Internal Drive",
+            "Rapid Access Interface Device",
+            "Redundant Array Interface Drive"
+        ]
+    },
+    {
+        "q": "RAID 0 improves _____ but no redundancy.",
+        "type": "fill_blank",
+        "answers": [
+            "speed"
+        ],
+        "other_options": [
+            "safety",
+            "storage",
+            "security"
+        ]
+    },
+    {
+        "q": "Rearrange RAID levels by redundancy:",
+        "type": "rearrange",
+        "words": [
+            "RAID 0 (none)",
+            "RAID 1 (mirror)",
+            "RAID 5 (parity)",
+            "RAID 6 (dual parity)"
+        ]
+    },
+    {
+        "q": "Match the RAID level with its description:",
+        "type": "match",
+        "left": [
+            "RAID 0",
+            "RAID 1",
+            "RAID 5",
+            "RAID 10"
+        ],
+        "right": [
+            "Striping",
+            "Mirroring",
+            "Parity",
+            "Stripe+mirror"
+        ]
+    },
+    {
+        "q": "RAID 1 duplicates data on multiple drives.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is PCIe?",
+        "type": "mcq",
+        "o": [
+            "Peripheral Component Interconnect Express",
+            "Personal Computer Interface",
+            "Primary Connection Interface",
+            "Processor Cache Interface"
+        ]
+    },
+    {
+        "q": "PCIe uses _____ for high-speed transfers.",
+        "type": "fill_blank",
+        "answers": [
+            "lanes"
+        ],
+        "other_options": [
+            "wires",
+            "cables",
+            "ports"
+        ]
+    },
+    {
+        "q": "Rearrange PCIe generations:",
+        "type": "rearrange",
+        "words": [
+            "PCIe 3.0",
+            "PCIe 4.0",
+            "PCIe 5.0",
+            "PCIe 6.0"
+        ]
+    },
+    {
+        "q": "PCIe 4.0 doubles PCIe 3.0 bandwidth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is USB?",
+        "type": "mcq",
+        "o": [
+            "Universal Serial Bus",
+            "Ultra Speed Bus",
+            "Unified System Bus",
+            "Universal System Buffer"
+        ]
+    },
+    {
+        "q": "USB provides data transfer and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "sound",
+            "video",
+            "cooling"
+        ]
+    },
+    {
+        "q": "Match the USB version with its speed:",
+        "type": "match",
+        "left": [
+            "USB 2.0",
+            "USB 3.0",
+            "USB 3.2",
+            "USB4"
+        ],
+        "right": [
+            "480 Mbps",
+            "5 Gbps",
+            "20 Gbps",
+            "40 Gbps"
+        ]
+    },
+    {
+        "q": "USB-C is a connector type, not speed standard.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Thunderbolt?",
+        "type": "mcq",
+        "o": [
+            "High-speed connection by Intel/Apple",
+            "Lightning cable",
+            "Storm warning",
+            "Power connector"
+        ]
+    },
+    {
+        "q": "Thunderbolt 4 supports up to _____ Gbps.",
+        "type": "fill_blank",
+        "answers": [
+            "40"
+        ],
+        "other_options": [
+            "10",
+            "5",
+            "100"
+        ]
+    },
+    {
+        "q": "Thunderbolt can daisy-chain multiple devices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is HDMI?",
+        "type": "mcq",
+        "o": [
+            "High-Definition Multimedia Interface",
+            "High Data Media Input",
+            "Hardware Display Media Interface",
+            "High Definition Monitor Input"
+        ]
+    },
+    {
+        "q": "HDMI carries video and _____ signals.",
+        "type": "fill_blank",
+        "answers": [
+            "audio"
+        ],
+        "other_options": [
+            "power",
+            "data",
+            "network"
+        ]
+    },
+    {
+        "q": "Match the display interface with its type:",
+        "type": "match",
+        "left": [
+            "HDMI",
+            "DisplayPort",
+            "VGA",
+            "DVI"
+        ],
+        "right": [
+            "Digital+audio",
+            "Digital best",
+            "Analog old",
+            "Digital only"
+        ]
+    },
+    {
+        "q": "VGA is a digital interface.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is DisplayPort?",
+        "type": "mcq",
+        "o": [
+            "High-bandwidth display connection",
+            "Display cable port",
+            "Monitor entry",
+            "Screen connection"
+        ]
+    },
+    {
+        "q": "DisplayPort supports _____ monitors.",
+        "type": "fill_blank",
+        "answers": [
+            "multiple"
+        ],
+        "other_options": [
+            "single",
+            "zero",
+            "no"
+        ]
+    },
+    {
+        "q": "DisplayPort is primarily for TVs.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is an LCD?",
+        "type": "mcq",
+        "o": [
+            "Liquid Crystal Display",
+            "Light Controlled Display",
+            "Large Color Display",
+            "Linear Crystal Device"
+        ]
+    },
+    {
+        "q": "LCD requires _____ for illumination.",
+        "type": "fill_blank",
+        "answers": [
+            "backlight"
+        ],
+        "other_options": [
+            "frontlight",
+            "sidelight",
+            "nolight"
+        ]
+    },
+    {
+        "q": "Rearrange display technologies:",
+        "type": "rearrange",
+        "words": [
+            "CRT",
+            "LCD",
+            "LED",
+            "OLED"
+        ]
+    },
+    {
+        "q": "Match the display with its feature:",
+        "type": "match",
+        "left": [
+            "LCD",
+            "OLED",
+            "LED",
+            "CRT"
+        ],
+        "right": [
+            "Liquid crystal",
+            "Self-emitting",
+            "Better LCD",
+            "Old tube"
+        ]
+    },
+    {
+        "q": "OLED pixels emit their own light.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an OLED?",
+        "type": "mcq",
+        "o": [
+            "Organic Light Emitting Diode",
+            "Optical Light Display",
+            "Original Light Emitter",
+            "Optical LED Display"
+        ]
+    },
+    {
+        "q": "OLED has better _____ ratio than LCD.",
+        "type": "fill_blank",
+        "answers": [
+            "contrast"
+        ],
+        "other_options": [
+            "size",
+            "weight",
+            "cost"
+        ]
+    },
+    {
+        "q": "OLED can suffer from burn-in.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is refresh rate?",
+        "type": "mcq",
+        "o": [
+            "Times display updates per second",
+            "Browser refresh",
+            "Memory clear rate",
+            "CPU speed"
+        ]
+    },
+    {
+        "q": "Refresh rate is measured in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Hertz"
+        ],
+        "other_options": [
+            "bytes",
+            "bits",
+            "watts"
+        ]
+    },
+    {
+        "q": "Match the refresh rate with its use:",
+        "type": "match",
+        "left": [
+            "60Hz",
+            "120Hz",
+            "144Hz",
+            "240Hz"
+        ],
+        "right": [
+            "Standard",
+            "Smooth",
+            "Gaming",
+            "Pro gaming"
+        ]
+    },
+    {
+        "q": "Higher refresh rate means smoother motion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a network interface card?",
+        "type": "mcq",
+        "o": [
+            "Hardware for network connectivity",
+            "Playing card",
+            "Graphics card",
+            "Sound card"
+        ]
+    },
+    {
+        "q": "NIC connects computer to _____ network.",
+        "type": "fill_blank",
+        "answers": [
+            "computer"
+        ],
+        "other_options": [
+            "television",
+            "radio",
+            "phone"
+        ]
+    },
+    {
+        "q": "Rearrange network speeds:",
+        "type": "rearrange",
+        "words": [
+            "10 Mbps",
+            "100 Mbps",
+            "1 Gbps",
+            "10 Gbps"
+        ]
+    },
+    {
+        "q": "Wi-Fi adapters are a type of NIC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Ethernet?",
+        "type": "mcq",
+        "o": [
+            "Wired networking standard",
+            "Wireless standard",
+            "Display connection",
+            "Power cable"
+        ]
+    },
+    {
+        "q": "Ethernet cables are called _____ cables.",
+        "type": "fill_blank",
+        "answers": [
+            "RJ45"
+        ],
+        "other_options": [
+            "USB",
+            "HDMI",
+            "Power"
+        ]
+    },
+    {
+        "q": "Match the cable category with its speed:",
+        "type": "match",
+        "left": [
+            "Cat5e",
+            "Cat6",
+            "Cat6a",
+            "Cat7"
+        ],
+        "right": [
+            "1 Gbps",
+            "10 Gbps short",
+            "10 Gbps",
+            "10+ Gbps"
+        ]
+    },
+    {
+        "q": "Ethernet is faster than Wi-Fi typically.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Wi-Fi?",
+        "type": "mcq",
+        "o": [
+            "Wireless networking standard",
+            "Wired fidelity",
+            "Wide area network",
+            "Window interface"
+        ]
+    },
+    {
+        "q": "Wi-Fi uses _____ waves for communication.",
+        "type": "fill_blank",
+        "answers": [
+            "radio"
+        ],
+        "other_options": [
+            "light",
+            "sound",
+            "heat"
+        ]
+    },
+    {
+        "q": "Rearrange Wi-Fi generations:",
+        "type": "rearrange",
+        "words": [
+            "Wi-Fi 4",
+            "Wi-Fi 5",
+            "Wi-Fi 6",
+            "Wi-Fi 7"
+        ]
+    },
+    {
+        "q": "Wi-Fi 6 is faster than Wi-Fi 5.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Bluetooth?",
+        "type": "mcq",
+        "o": [
+            "Short-range wireless technology",
+            "Long-range wireless",
+            "Wired connection",
+            "Display technology"
+        ]
+    },
+    {
+        "q": "Bluetooth operates in the _____ GHz band.",
+        "type": "fill_blank",
+        "answers": [
+            "2.4"
+        ],
+        "other_options": [
+            "5",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "q": "Match the wireless with its range:",
+        "type": "match",
+        "left": [
+            "Bluetooth",
+            "Wi-Fi",
+            "NFC",
+            "Cellular"
+        ],
+        "right": [
+            "~10m",
+            "~50m",
+            "~10cm",
+            "Kilometers"
+        ]
+    },
+    {
+        "q": "Bluetooth is designed for high-bandwidth transfers.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a heatsink?",
+        "type": "mcq",
+        "o": [
+            "Metal for heat dissipation",
+            "Kitchen sink",
+            "Water cooling",
+            "Power supply"
+        ]
+    },
+    {
+        "q": "Heatsinks absorb and _____ heat.",
+        "type": "fill_blank",
+        "answers": [
+            "dissipate"
+        ],
+        "other_options": [
+            "create",
+            "store",
+            "block"
+        ]
+    },
+    {
+        "q": "CPUs run fine without cooling.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is thermal paste?",
+        "type": "mcq",
+        "o": [
+            "Heat conductor between CPU and heatsink",
+            "Cooling liquid",
+            "Glue",
+            "Paint"
+        ]
+    },
+    {
+        "q": "Thermal paste fills _____ between surfaces.",
+        "type": "fill_blank",
+        "answers": [
+            "gaps"
+        ],
+        "other_options": [
+            "holes",
+            "space",
+            "air"
+        ]
+    },
+    {
+        "q": "Match the cooling method with its type:",
+        "type": "match",
+        "left": [
+            "Air cooler",
+            "AIO",
+            "Custom loop",
+            "Passive"
+        ],
+        "right": [
+            "Fan+heatsink",
+            "Closed liquid",
+            "Open liquid",
+            "No fan"
+        ]
+    },
+    {
+        "q": "Thermal paste is optional for CPU cooling.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is TDP?",
+        "type": "mcq",
+        "o": [
+            "Thermal Design Power",
+            "Total Data Processing",
+            "Thermal Drive Power",
+            "Total Design Power"
+        ]
+    },
+    {
+        "q": "TDP indicates heat _____ by a component.",
+        "type": "fill_blank",
+        "answers": [
+            "generated"
+        ],
+        "other_options": [
+            "stored",
+            "removed",
+            "blocked"
+        ]
+    },
+    {
+        "q": "Higher TDP means less cooling needed.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is overclocking?",
+        "type": "mcq",
+        "o": [
+            "Running CPU faster than rated",
+            "Slow down CPU",
+            "Fix broken clock",
+            "Set time"
+        ]
+    },
+    {
+        "q": "Overclocking increases _____ and heat.",
+        "type": "fill_blank",
+        "answers": [
+            "performance"
+        ],
+        "other_options": [
+            "safety",
+            "warranty",
+            "stability"
+        ]
+    },
+    {
+        "q": "Rearrange overclocking considerations:",
+        "type": "rearrange",
+        "words": [
+            "Base clock",
+            "Multiplier",
+            "Voltage",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "Overclocking voids most warranties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is undervolting?",
+        "type": "mcq",
+        "o": [
+            "Reducing voltage for efficiency",
+            "Increasing voltage",
+            "Power failure",
+            "Voltage testing"
+        ]
+    },
+    {
+        "q": "Undervolting can reduce _____ and heat.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "speed",
+            "performance",
+            "storage"
+        ]
+    },
+    {
+        "q": "Undervolting always reduces performance.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a chipset?",
+        "type": "mcq",
+        "o": [
+            "Set of chips managing system functions",
+            "Chip container",
+            "Potato chips",
+            "Gaming accessory"
+        ]
+    },
+    {
+        "q": "Chipsets connect CPU to other _____.",
+        "type": "fill_blank",
+        "answers": [
+            "components"
+        ],
+        "other_options": [
+            "users",
+            "programs",
+            "networks"
+        ]
+    },
+    {
+        "q": "Match the chipset component with its role:",
+        "type": "match",
+        "left": [
+            "Northbridge (old)",
+            "Southbridge (old)",
+            "PCH",
+            "IO die"
+        ],
+        "right": [
+            "Fast devices",
+            "Slow devices",
+            "Platform controller",
+            "AMD equivalent"
+        ]
+    },
+    {
+        "q": "Modern CPUs integrate northbridge functionality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a system-on-chip?",
+        "type": "mcq",
+        "o": [
+            "All components on single chip",
+            "System chip",
+            "Chip system",
+            "Single component"
+        ]
+    },
+    {
+        "q": "SoCs are common in _____ devices.",
+        "type": "fill_blank",
+        "answers": [
+            "mobile"
+        ],
+        "other_options": [
+            "desktop",
+            "server",
+            "mainframe"
+        ]
+    },
+    {
+        "q": "Rearrange SoC components:",
+        "type": "rearrange",
+        "words": [
+            "CPU",
+            "GPU",
+            "Memory controller",
+            "IO"
+        ]
+    },
+    {
+        "q": "Apple M-series chips are SoCs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is instruction set architecture?",
+        "type": "mcq",
+        "o": [
+            "CPU instruction design specification",
+            "Instruction manual",
+            "Architecture blueprint",
+            "Building design"
+        ]
+    },
+    {
+        "q": "ISA defines the interface between software and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hardware"
+        ],
+        "other_options": [
+            "network",
+            "display",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the ISA with its type:",
+        "type": "match",
+        "left": [
+            "x86",
+            "ARM",
+            "RISC-V",
+            "MIPS"
+        ],
+        "right": [
+            "CISC",
+            "RISC mobile",
+            "Open RISC",
+            "Academic RISC"
+        ]
+    },
+    {
+        "q": "x86 is a RISC architecture.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is RISC?",
+        "type": "mcq",
+        "o": [
+            "Reduced Instruction Set Computer",
+            "Rapid Instruction System",
+            "Random Instruction Set",
+            "Regular Instruction Set"
+        ]
+    },
+    {
+        "q": "RISC uses _____ instructions.",
+        "type": "fill_blank",
+        "answers": [
+            "simpler"
+        ],
+        "other_options": [
+            "complex",
+            "random",
+            "varied"
+        ]
+    },
+    {
+        "q": "ARM is a RISC architecture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CISC?",
+        "type": "mcq",
+        "o": [
+            "Complex Instruction Set Computer",
+            "Common Instruction System",
+            "Central Instruction Set",
+            "Computer Instruction System"
+        ]
+    },
+    {
+        "q": "CISC has _____ complex instructions.",
+        "type": "fill_blank",
+        "answers": [
+            "many"
+        ],
+        "other_options": [
+            "few",
+            "no",
+            "zero"
+        ]
+    },
+    {
+        "q": "Rearrange CPU development history:",
+        "type": "rearrange",
+        "words": [
+            "4004",
+            "8086",
+            "Pentium",
+            "Core"
+        ]
+    },
+    {
+        "q": "Modern x86 CPUs internally decode to RISC-like micro-ops.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ARM architecture?",
+        "type": "mcq",
+        "o": [
+            "Energy-efficient RISC design",
+            "Body part computing",
+            "Advanced Random Memory",
+            "Automatic Response Machine"
+        ]
+    },
+    {
+        "q": "ARM dominates _____ device processors.",
+        "type": "fill_blank",
+        "answers": [
+            "mobile"
+        ],
+        "other_options": [
+            "server",
+            "desktop",
+            "mainframe"
+        ]
+    },
+    {
+        "q": "Match the ARM variant with its use:",
+        "type": "match",
+        "left": [
+            "Cortex-A",
+            "Cortex-R",
+            "Cortex-M",
+            "Neoverse"
+        ],
+        "right": [
+            "Application",
+            "Real-time",
+            "Microcontroller",
+            "Server"
+        ]
+    },
+    {
+        "q": "ARM licenses designs to other companies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RISC-V?",
+        "type": "mcq",
+        "o": [
+            "Open-source instruction set",
+            "Fifth RISC version",
+            "Risk five",
+            "Random ISA"
+        ]
+    },
+    {
+        "q": "RISC-V is _____ and royalty-free.",
+        "type": "fill_blank",
+        "answers": [
+            "open"
+        ],
+        "other_options": [
+            "closed",
+            "expensive",
+            "licensed"
+        ]
+    },
+    {
+        "q": "RISC-V is owned by one company.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is GPU compute?",
+        "type": "mcq",
+        "o": [
+            "Using GPU for general computing",
+            "Graphics only",
+            "Gaming compute",
+            "GPU graphics"
+        ]
+    },
+    {
+        "q": "GPUs excel at _____ parallel tasks.",
+        "type": "fill_blank",
+        "answers": [
+            "massively"
+        ],
+        "other_options": [
+            "single",
+            "few",
+            "small"
+        ]
+    },
+    {
+        "q": "Rearrange GPU computing uses:",
+        "type": "rearrange",
+        "words": [
+            "Graphics",
+            "ML training",
+            "Scientific",
+            "Crypto mining"
+        ]
+    },
+    {
+        "q": "Match the GPU platform with its vendor:",
+        "type": "match",
+        "left": [
+            "CUDA",
+            "ROCm",
+            "Metal",
+            "OpenCL"
+        ],
+        "right": [
+            "NVIDIA",
+            "AMD",
+            "Apple",
+            "Cross-platform"
+        ]
+    },
+    {
+        "q": "CUDA only works with NVIDIA GPUs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tensor core?",
+        "type": "mcq",
+        "o": [
+            "Matrix multiplication accelerator",
+            "Ten sore cores",
+            "Tensor calculator",
+            "Core count"
+        ]
+    },
+    {
+        "q": "Tensor cores accelerate _____ operations.",
+        "type": "fill_blank",
+        "answers": [
+            "AI"
+        ],
+        "other_options": [
+            "graphics",
+            "audio",
+            "network"
+        ]
+    },
+    {
+        "q": "Tensor cores are used for ray tracing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is ray tracing?",
+        "type": "mcq",
+        "o": [
+            "Realistic light simulation in graphics",
+            "Track rays",
+            "Ray detection",
+            "Light measurement"
+        ]
+    },
+    {
+        "q": "Ray tracing simulates light _____ realistically.",
+        "type": "fill_blank",
+        "answers": [
+            "behavior"
+        ],
+        "other_options": [
+            "speed",
+            "color",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the GPU feature with its purpose:",
+        "type": "match",
+        "left": [
+            "RT cores",
+            "Tensor cores",
+            "CUDA cores",
+            "ROPs"
+        ],
+        "right": [
+            "Ray tracing",
+            "AI",
+            "Shaders",
+            "Output"
+        ]
+    },
+    {
+        "q": "Ray tracing is less demanding than rasterization.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a microcontroller?",
+        "type": "mcq",
+        "o": [
+            "Small computer on single chip",
+            "Controller brand",
+            "Micro-size computer",
+            "Tiny control"
+        ]
+    },
+    {
+        "q": "Microcontrollers include CPU, memory, and _____ on one chip.",
+        "type": "fill_blank",
+        "answers": [
+            "peripherals"
+        ],
+        "other_options": [
+            "display",
+            "keyboard",
+            "speaker"
+        ]
+    },
+    {
+        "q": "Rearrange embedded system components:",
+        "type": "rearrange",
+        "words": [
+            "Microcontroller",
+            "Sensors",
+            "Actuators",
+            "Communication"
+        ]
+    },
+    {
+        "q": "Arduino uses microcontrollers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is FPGA?",
+        "type": "mcq",
+        "o": [
+            "Field Programmable Gate Array",
+            "Fast Processing Gate Array",
+            "Fixed Program Gate Array",
+            "Free Programmable Gate"
+        ]
+    },
+    {
+        "q": "FPGAs are _____ after manufacturing.",
+        "type": "fill_blank",
+        "answers": [
+            "programmable"
+        ],
+        "other_options": [
+            "fixed",
+            "permanent",
+            "unchangeable"
+        ]
+    },
+    {
+        "q": "Match the chip type with its flexibility:",
+        "type": "match",
+        "left": [
+            "ASIC",
+            "FPGA",
+            "CPU",
+            "GPU"
+        ],
+        "right": [
+            "Fixed",
+            "Reconfigurable",
+            "Most flexible",
+            "Parallel flexible"
+        ]
+    },
+    {
+        "q": "FPGAs are faster than ASICs.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is an ASIC?",
+        "type": "mcq",
+        "o": [
+            "Application Specific Integrated Circuit",
+            "All System Integrated Chip",
+            "Advanced System IC",
+            "Application System IC"
+        ]
+    },
+    {
+        "q": "ASICs are optimized for _____ tasks.",
+        "type": "fill_blank",
+        "answers": [
+            "specific"
+        ],
+        "other_options": [
+            "general",
+            "random",
+            "any"
+        ]
+    },
+    {
+        "q": "Bitcoin miners often use ASICs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DSP?",
+        "type": "mcq",
+        "o": [
+            "Digital Signal Processor",
+            "Data Signal Processing",
+            "Direct Signal Protocol",
+            "Digital System Processor"
+        ]
+    },
+    {
+        "q": "DSPs are optimized for signal _____ algorithms.",
+        "type": "fill_blank",
+        "answers": [
+            "processing"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "transmission"
+        ]
+    },
+    {
+        "q": "Rearrange processor specialization:",
+        "type": "rearrange",
+        "words": [
+            "CPU (general)",
+            "GPU (parallel)",
+            "DSP (signals)",
+            "ASIC (specific)"
+        ]
+    },
+    {
+        "q": "DSPs are common in audio equipment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the fetch-execute cycle?",
+        "type": "mcq",
+        "o": [
+            "CPU instruction processing cycle",
+            "Fetching data",
+            "Execution timing",
+            "Cycle counting"
+        ]
+    },
+    {
+        "q": "The fetch-execute cycle has fetch, decode, execute, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "writeback"
+        ],
+        "other_options": [
+            "delete",
+            "copy",
+            "move"
+        ]
+    },
+    {
+        "q": "CPUs repeat the fetch-execute cycle continuously.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is interrupts in computing?",
+        "type": "mcq",
+        "o": [
+            "Signals requiring CPU attention",
+            "User interruption",
+            "Program stop",
+            "Power interrupt"
+        ]
+    },
+    {
+        "q": "Hardware interrupts are handled by the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "CPU"
+        ],
+        "other_options": [
+            "RAM",
+            "disk",
+            "screen"
+        ]
+    },
+    {
+        "q": "Match the interrupt type with its source:",
+        "type": "match",
+        "left": [
+            "Hardware",
+            "Software",
+            "Timer",
+            "I/O"
+        ],
+        "right": [
+            "Devices",
+            "Programs",
+            "Clock",
+            "Peripherals"
+        ]
+    },
+    {
+        "q": "Interrupts allow efficient I/O handling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DMA?",
+        "type": "mcq",
+        "o": [
+            "Direct Memory Access",
+            "Data Memory Access",
+            "Direct Machine Access",
+            "Data Management Access"
+        ]
+    },
+    {
+        "q": "DMA transfers data without _____ involvement.",
+        "type": "fill_blank",
+        "answers": [
+            "CPU"
+        ],
+        "other_options": [
+            "memory",
+            "disk",
+            "network"
+        ]
+    },
+    {
+        "q": "DMA improves data transfer efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is lithography in chip manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Process of printing circuit patterns",
+            "Stone printing",
+            "Chip design",
+            "Testing process"
+        ]
+    },
+    {
+        "q": "EUV lithography uses extreme _____ light.",
+        "type": "fill_blank",
+        "answers": [
+            "ultraviolet"
+        ],
+        "other_options": [
+            "infrared",
+            "visible",
+            "radio"
+        ]
+    },
+    {
+        "q": "Rearrange manufacturing process steps:",
+        "type": "rearrange",
+        "words": [
+            "Design",
+            "Lithography",
+            "Etching",
+            "Packaging"
+        ]
+    },
+    {
+        "q": "Smaller nanometer processes are more efficient.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is process node?",
+        "type": "mcq",
+        "o": [
+            "Chip manufacturing size metric",
+            "Processing step",
+            "Node point",
+            "Process type"
+        ]
+    },
+    {
+        "q": "Smaller process nodes mean _____ transistors.",
+        "type": "fill_blank",
+        "answers": [
+            "smaller"
+        ],
+        "other_options": [
+            "larger",
+            "fewer",
+            "same"
+        ]
+    },
+    {
+        "q": "Match the process node with its era:",
+        "type": "match",
+        "left": [
+            "180nm",
+            "65nm",
+            "14nm",
+            "3nm"
+        ],
+        "right": [
+            "2000s early",
+            "2000s late",
+            "2010s",
+            "2020s"
+        ]
+    },
+    {
+        "q": "7nm chips have exactly 7nm transistors.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is chip packaging?",
+        "type": "mcq",
+        "o": [
+            "Enclosing chip for protection and connection",
+            "Chip delivery",
+            "Gift wrapping",
+            "Box design"
+        ]
+    },
+    {
+        "q": "Chiplets connect multiple dies in one _____.",
+        "type": "fill_blank",
+        "answers": [
+            "package"
+        ],
+        "other_options": [
+            "chip",
+            "board",
+            "system"
+        ]
+    },
+    {
+        "q": "Rearrange packaging complexity:",
+        "type": "rearrange",
+        "words": [
+            "DIP",
+            "QFP",
+            "BGA",
+            "3D stacked"
+        ]
+    },
+    {
+        "q": "Advanced packaging improves chip performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power delivery?",
+        "type": "mcq",
+        "o": [
+            "Supplying stable voltage to components",
+            "Electricity generation",
+            "Power plant",
+            "Battery charging"
+        ]
+    },
+    {
+        "q": "VRMs convert voltage for _____.",
+        "type": "fill_blank",
+        "answers": [
+            "CPU"
+        ],
+        "other_options": [
+            "display",
+            "keyboard",
+            "mouse"
+        ]
+    },
+    {
+        "q": "Match the power term with its meaning:",
+        "type": "match",
+        "left": [
+            "VRM",
+            "Phase",
+            "MOSFET",
+            "Capacitor"
+        ],
+        "right": [
+            "Voltage regulator",
+            "Power stage",
+            "Switch",
+            "Filter"
+        ]
+    },
+    {
+        "q": "More VRM phases mean better power delivery.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is form factor?",
+        "type": "mcq",
+        "o": [
+            "Physical size and shape standard",
+            "Form design",
+            "Factor calculation",
+            "Shape factor"
+        ]
+    },
+    {
+        "q": "ATX is a common motherboard form _____.",
+        "type": "fill_blank",
+        "answers": [
+            "factor"
+        ],
+        "other_options": [
+            "design",
+            "brand",
+            "type"
+        ]
+    },
+    {
+        "q": "Rearrange motherboard sizes:",
+        "type": "rearrange",
+        "words": [
+            "Mini-ITX",
+            "Micro-ATX",
+            "ATX",
+            "E-ATX"
+        ]
+    },
+    {
+        "q": "Match the form factor with its use:",
+        "type": "match",
+        "left": [
+            "ATX",
+            "Micro-ATX",
+            "Mini-ITX",
+            "E-ATX"
+        ],
+        "right": [
+            "Standard",
+            "Compact",
+            "Tiny",
+            "Extended"
+        ]
+    },
+    {
+        "q": "Smaller form factors have fewer expansion slots.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DIMM?",
+        "type": "mcq",
+        "o": [
+            "Dual Inline Memory Module",
+            "Direct Inline Memory Module",
+            "Dual Input Memory Module",
+            "Direct Input Memory Module"
+        ]
+    },
+    {
+        "q": "DIMM slots hold _____ modules.",
+        "type": "fill_blank",
+        "answers": [
+            "RAM"
+        ],
+        "other_options": [
+            "CPU",
+            "GPU",
+            "SSD"
+        ]
+    },
+    {
+        "q": "SO-DIMM is used in laptops.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is M.2?",
+        "type": "mcq",
+        "o": [
+            "Small form factor connector standard",
+            "Memory version 2",
+            "Module 2",
+            "Mini 2"
+        ]
+    },
+    {
+        "q": "M.2 SSDs connect via PCIe or _____.",
+        "type": "fill_blank",
+        "answers": [
+            "SATA"
+        ],
+        "other_options": [
+            "USB",
+            "HDMI",
+            "Ethernet"
+        ]
+    },
+    {
+        "q": "Match the M.2 key with its interface:",
+        "type": "match",
+        "left": [
+            "B key",
+            "M key",
+            "B+M key",
+            "E key"
+        ],
+        "right": [
+            "SATA",
+            "NVMe",
+            "Both",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "q": "All M.2 drives use NVMe.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a sound card?",
+        "type": "mcq",
+        "o": [
+            "Audio processing hardware",
+            "Music card",
+            "Playing card",
+            "Note card"
+        ]
+    },
+    {
+        "q": "Sound cards convert digital audio to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "analog"
+        ],
+        "other_options": [
+            "digital",
+            "binary",
+            "text"
+        ]
+    },
+    {
+        "q": "Onboard audio is sufficient for most users.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is optical drive?",
+        "type": "mcq",
+        "o": [
+            "Reads/writes optical discs",
+            "Eye drive",
+            "Light drive",
+            "Vision drive"
+        ]
+    },
+    {
+        "q": "Blu-ray holds more data than _____.",
+        "type": "fill_blank",
+        "answers": [
+            "DVD"
+        ],
+        "other_options": [
+            "SSD",
+            "HDD",
+            "USB"
+        ]
+    },
+    {
+        "q": "Rearrange optical media capacity:",
+        "type": "rearrange",
+        "words": [
+            "CD",
+            "DVD",
+            "Blu-ray",
+            "UHD Blu-ray"
+        ]
+    },
+    {
+        "q": "Optical drives are becoming less common.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is biometric hardware?",
+        "type": "mcq",
+        "o": [
+            "Hardware reading body characteristics",
+            "Bio-medicine",
+            "Metric measuring",
+            "Biology hardware"
+        ]
+    },
+    {
+        "q": "Fingerprint readers are _____ devices.",
+        "type": "fill_blank",
+        "answers": [
+            "biometric"
+        ],
+        "other_options": [
+            "keyboard",
+            "display",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the biometric with its type:",
+        "type": "match",
+        "left": [
+            "Fingerprint",
+            "Face",
+            "Iris",
+            "Voice"
+        ],
+        "right": [
+            "Touch",
+            "Camera",
+            "Scanner",
+            "Microphone"
+        ]
+    },
+    {
+        "q": "Biometrics can be used for authentication.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is TPM?",
+        "type": "mcq",
+        "o": [
+            "Trusted Platform Module",
+            "Total Performance Measure",
+            "Trusted Process Module",
+            "Total Platform Module"
+        ]
+    },
+    {
+        "q": "TPM stores cryptographic _____ securely.",
+        "type": "fill_blank",
+        "answers": [
+            "keys"
+        ],
+        "other_options": [
+            "files",
+            "programs",
+            "games"
+        ]
+    },
+    {
+        "q": "TPM 2.0 is required for Windows 11.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure enclave?",
+        "type": "mcq",
+        "o": [
+            "Isolated security processor",
+            "Safe room",
+            "Secret area",
+            "Hidden memory"
+        ]
+    },
+    {
+        "q": "Secure enclaves protect sensitive _____.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the security hardware with its vendor:",
+        "type": "match",
+        "left": [
+            "Secure Enclave",
+            "SGX",
+            "TrustZone",
+            "Pluton"
+        ],
+        "right": [
+            "Apple",
+            "Intel",
+            "ARM",
+            "Microsoft"
+        ]
+    },
+    {
+        "q": "Secure enclaves run isolated from main OS.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is quantum computing?",
+        "type": "mcq",
+        "o": [
+            "Computing using quantum mechanics",
+            "Quick computing",
+            "Quality computing",
+            "Quantity computing"
+        ]
+    },
+    {
+        "q": "Quantum computers use _____ instead of bits.",
+        "type": "fill_blank",
+        "answers": [
+            "qubits"
+        ],
+        "other_options": [
+            "bytes",
+            "words",
+            "blocks"
+        ]
+    },
+    {
+        "q": "Rearrange computing paradigms:",
+        "type": "rearrange",
+        "words": [
+            "Classical",
+            "Analog",
+            "Quantum",
+            "Neuromorphic"
+        ]
+    },
+    {
+        "q": "Quantum computers can solve all problems faster.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is neuromorphic computing?",
+        "type": "mcq",
+        "o": [
+            "Brain-inspired computing",
+            "Nerve computing",
+            "Neural network hardware",
+            "Neuron counting"
+        ]
+    },
+    {
+        "q": "Neuromorphic chips mimic brain _____ networks.",
+        "type": "fill_blank",
+        "answers": [
+            "neural"
+        ],
+        "other_options": [
+            "blood",
+            "bone",
+            "muscle"
+        ]
+    },
+    {
+        "q": "Match the emerging compute with its approach:",
+        "type": "match",
+        "left": [
+            "Quantum",
+            "Neuromorphic",
+            "Photonic",
+            "DNA computing"
+        ],
+        "right": [
+            "Superposition",
+            "Brain-like",
+            "Light-based",
+            "Molecular"
+        ]
+    },
+    {
+        "q": "Neuromorphic chips are energy efficient for AI.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is photonic computing?",
+        "type": "mcq",
+        "o": [
+            "Computing using light",
+            "Photo processing",
+            "Camera computing",
+            "Image computing"
+        ]
+    },
+    {
+        "q": "Photonic computers use _____ instead of electrons.",
+        "type": "fill_blank",
+        "answers": [
+            "photons"
+        ],
+        "other_options": [
+            "neutrons",
+            "protons",
+            "atoms"
+        ]
+    },
+    {
+        "q": "Photonic computing is already mainstream.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is 3D NAND?",
+        "type": "mcq",
+        "o": [
+            "Vertically stacked flash memory",
+            "Three-dimensional display",
+            "3D printing",
+            "3D graphics"
+        ]
+    },
+    {
+        "q": "3D NAND stacks memory cells _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vertically"
+        ],
+        "other_options": [
+            "horizontally",
+            "randomly",
+            "separately"
+        ]
+    },
+    {
+        "q": "3D NAND increases storage density.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is HBM?",
+        "type": "mcq",
+        "o": [
+            "High Bandwidth Memory",
+            "High Buffer Memory",
+            "Heavy Bandwidth Memory",
+            "High Bit Memory"
+        ]
+    },
+    {
+        "q": "HBM uses 3D _____ for high bandwidth.",
+        "type": "fill_blank",
+        "answers": [
+            "stacking"
+        ],
+        "other_options": [
+            "spreading",
+            "separating",
+            "mixing"
+        ]
+    },
+    {
+        "q": "Match the memory type with its use:",
+        "type": "match",
+        "left": [
+            "DDR5",
+            "GDDR6",
+            "HBM",
+            "LPDDR5"
+        ],
+        "right": [
+            "PC RAM",
+            "Graphics",
+            "AI/HPC",
+            "Mobile"
+        ]
+    },
+    {
+        "q": "HBM is cheaper than GDDR.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is CXL?",
+        "type": "mcq",
+        "o": [
+            "Compute Express Link",
+            "Computer Express Line",
+            "Central Express Link",
+            "Cache Express Link"
+        ]
+    },
+    {
+        "q": "CXL enables memory _____ between devices.",
+        "type": "fill_blank",
+        "answers": [
+            "sharing"
+        ],
+        "other_options": [
+            "hiding",
+            "deleting",
+            "copying"
+        ]
+    },
+    {
+        "q": "CXL is built on PCIe technology.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is disaggregated computing?",
+        "type": "mcq",
+        "o": [
+            "Separating resources into pools",
+            "Disagree computing",
+            "Distributed computing",
+            "Divided computing"
+        ]
+    },
+    {
+        "q": "Disaggregation pools CPU, memory, and _____ separately.",
+        "type": "fill_blank",
+        "answers": [
+            "storage"
+        ],
+        "other_options": [
+            "users",
+            "programs",
+            "networks"
+        ]
+    },
+    {
+        "q": "Rearrange data center evolution:",
+        "type": "rearrange",
+        "words": [
+            "Mainframe",
+            "Server",
+            "Cloud",
+            "Disaggregated"
+        ]
+    },
+    {
+        "q": "Disaggregated computing improves resource utilization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is edge computing hardware?",
+        "type": "mcq",
+        "o": [
+            "Computing near data source",
+            "Edge design",
+            "Border hardware",
+            "Corner computing"
+        ]
+    },
+    {
+        "q": "Edge devices process data _____ to the source.",
+        "type": "fill_blank",
+        "answers": [
+            "close"
+        ],
+        "other_options": [
+            "far",
+            "away",
+            "distant"
+        ]
+    },
+    {
+        "q": "Match the edge hardware with its form:",
+        "type": "match",
+        "left": [
+            "Edge server",
+            "IoT gateway",
+            "Smart camera",
+            "Industrial PC"
+        ],
+        "right": [
+            "Mini server",
+            "Network device",
+            "AI vision",
+            "Rugged compute"
+        ]
+    },
+    {
+        "q": "Edge computing reduces latency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cooling in data centers?",
+        "type": "mcq",
+        "o": [
+            "Removing heat from equipment",
+            "Making cold data",
+            "Cooling water",
+            "Cold storage"
+        ]
+    },
+    {
+        "q": "Data centers use significant _____ for cooling.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "water",
+            "space",
+            "time"
+        ]
+    },
+    {
+        "q": "Rearrange cooling methods by efficiency:",
+        "type": "rearrange",
+        "words": [
+            "Air cooling",
+            "Liquid cooling",
+            "Immersion cooling",
+            "Free cooling"
+        ]
+    },
+    {
+        "q": "Immersion cooling submerges servers in liquid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is UPS?",
+        "type": "mcq",
+        "o": [
+            "Uninterruptible Power Supply",
+            "Universal Power Supply",
+            "Ultra Power Supply",
+            "Unlimited Power Supply"
+        ]
+    },
+    {
+        "q": "UPS provides power during _____ outages.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical"
+        ],
+        "other_options": [
+            "network",
+            "data",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the power protection with its type:",
+        "type": "match",
+        "left": [
+            "UPS",
+            "Surge protector",
+            "Generator",
+            "PDU"
+        ],
+        "right": [
+            "Battery backup",
+            "Voltage spike",
+            "Long outage",
+            "Distribution"
+        ]
+    },
+    {
+        "q": "UPS batteries last forever.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is redundancy in hardware?",
+        "type": "mcq",
+        "o": [
+            "Duplicate components for reliability",
+            "Repeated information",
+            "Extra design",
+            "Redundant meaning"
+        ]
+    },
+    {
+        "q": "Redundant power supplies prevent _____ failures.",
+        "type": "fill_blank",
+        "answers": [
+            "single-point"
+        ],
+        "other_options": [
+            "total",
+            "complete",
+            "all"
+        ]
+    },
+    {
+        "q": "Rearrange redundancy levels:",
+        "type": "rearrange",
+        "words": [
+            "N",
+            "N+1",
+            "2N",
+            "2N+1"
+        ]
+    },
+    {
+        "q": "Hot-swap allows replacement without shutdown.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is IPMI?",
+        "type": "mcq",
+        "o": [
+            "Intelligent Platform Management Interface",
+            "Internet Protocol Management",
+            "Internal Platform Monitor",
+            "Intelligent Process Manager"
+        ]
+    },
+    {
+        "q": "IPMI enables _____ management of servers.",
+        "type": "fill_blank",
+        "answers": [
+            "remote"
+        ],
+        "other_options": [
+            "local",
+            "manual",
+            "physical"
+        ]
+    },
+    {
+        "q": "BMC is the component implementing IPMI.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is server virtualization hardware support?",
+        "type": "mcq",
+        "o": [
+            "CPU features for virtual machines",
+            "Virtual server",
+            "Server simulation",
+            "Virtual hardware"
+        ]
+    },
+    {
+        "q": "VT-x is Intel's _____ virtualization technology.",
+        "type": "fill_blank",
+        "answers": [
+            "hardware"
+        ],
+        "other_options": [
+            "software",
+            "network",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the virtualization feature with its vendor:",
+        "type": "match",
+        "left": [
+            "VT-x",
+            "AMD-V",
+            "VT-d",
+            "SR-IOV"
+        ],
+        "right": [
+            "Intel CPU",
+            "AMD CPU",
+            "Intel I/O",
+            "Network"
+        ]
+    },
+    {
+        "q": "Hardware virtualization improves VM performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ESD?",
+        "type": "mcq",
+        "o": [
+            "Electrostatic Discharge",
+            "Electronic System Design",
+            "Electrical Signal Data",
+            "Electric Signal Discharge"
+        ]
+    },
+    {
+        "q": "ESD can damage electronic _____.",
+        "type": "fill_blank",
+        "answers": [
+            "components"
+        ],
+        "other_options": [
+            "software",
+            "data",
+            "files"
+        ]
+    },
+    {
+        "q": "Anti-static wrist straps prevent ESD damage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bus width?",
+        "type": "mcq",
+        "o": [
+            "Number of bits transferred at once",
+            "Physical bus size",
+            "Bus length",
+            "Bus capacity"
+        ]
+    },
+    {
+        "q": "A 64-bit bus transfers 64 _____ at once.",
+        "type": "fill_blank",
+        "answers": [
+            "bits"
+        ],
+        "other_options": [
+            "bytes",
+            "words",
+            "blocks"
+        ]
+    },
+    {
+        "q": "Match the bus width with its era:",
+        "type": "match",
+        "left": [
+            "8-bit",
+            "16-bit",
+            "32-bit",
+            "64-bit"
+        ],
+        "right": [
+            "1980s",
+            "1990s",
+            "2000s",
+            "Modern"
+        ]
+    },
+    {
+        "q": "Wider buses transfer more data per cycle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is memory bandwidth?",
+        "type": "mcq",
+        "o": [
+            "Data transfer rate of memory",
+            "Memory width",
+            "Memory size",
+            "Memory speed"
+        ]
+    },
+    {
+        "q": "Memory bandwidth is measured in _____ per second.",
+        "type": "fill_blank",
+        "answers": [
+            "GB"
+        ],
+        "other_options": [
+            "GHz",
+            "MHz",
+            "Watts"
+        ]
+    },
+    {
+        "q": "Higher memory bandwidth improves performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is latency in hardware?",
+        "type": "mcq",
+        "o": [
+            "Time delay in operations",
+            "Latest hardware",
+            "Hardware age",
+            "Recent design"
+        ]
+    },
+    {
+        "q": "Memory latency is measured in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "nanoseconds"
+        ],
+        "other_options": [
+            "seconds",
+            "minutes",
+            "hours"
+        ]
+    },
+    {
+        "q": "Match the storage with typical latency:",
+        "type": "match",
+        "left": [
+            "Cache",
+            "RAM",
+            "NVMe SSD",
+            "HDD"
+        ],
+        "right": [
+            "<1ns",
+            "~100ns",
+            "~10us",
+            "~10ms"
+        ]
+    },
+    {
+        "q": "Lower latency is always better.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Hardware understanding is essential for computing professionals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is multi-chip module?",
+        "type": "mcq",
+        "o": [
+            "Multiple chips in one package",
+            "Multiple modules",
+            "Chip module",
+            "Module chip"
+        ]
+    },
+    {
+        "q": "MCM improves integration without shrinking _____.",
+        "type": "fill_blank",
+        "answers": [
+            "transistors"
+        ],
+        "other_options": [
+            "packages",
+            "boards",
+            "cases"
+        ]
+    },
+    {
+        "q": "AMD Ryzen uses chiplet architecture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is silicon interposer?",
+        "type": "mcq",
+        "o": [
+            "Connector between chips",
+            "Silicon layer",
+            "Interposer device",
+            "Connection wire"
+        ]
+    },
+    {
+        "q": "Interposers enable high-bandwidth chip _____.",
+        "type": "fill_blank",
+        "answers": [
+            "connections"
+        ],
+        "other_options": [
+            "storage",
+            "power",
+            "cooling"
+        ]
+    },
+    {
+        "q": "Match the packaging tech with its description:",
+        "type": "match",
+        "left": [
+            "2.5D",
+            "3D",
+            "Chiplet",
+            "Monolithic"
+        ],
+        "right": [
+            "Interposer",
+            "Stacked",
+            "Multiple dies",
+            "Single die"
+        ]
+    },
+    {
+        "q": "2.5D packaging uses vertical stacking.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is clock domain crossing?",
+        "type": "mcq",
+        "o": [
+            "Signals between different clock speeds",
+            "Time zone crossing",
+            "Clock setting",
+            "Domain name"
+        ]
+    },
+    {
+        "q": "CDC requires _____ to prevent metastability.",
+        "type": "fill_blank",
+        "answers": [
+            "synchronizers"
+        ],
+        "other_options": [
+            "amplifiers",
+            "resistors",
+            "capacitors"
+        ]
+    },
+    {
+        "q": "All parts of a chip run at the same clock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is power gating?",
+        "type": "mcq",
+        "o": [
+            "Cutting power to unused circuits",
+            "Gate power",
+            "Power gate",
+            "Electric gate"
+        ]
+    },
+    {
+        "q": "Power gating reduces _____ power consumption.",
+        "type": "fill_blank",
+        "answers": [
+            "idle"
+        ],
+        "other_options": [
+            "active",
+            "peak",
+            "maximum"
+        ]
+    },
+    {
+        "q": "Rearrange power saving techniques:",
+        "type": "rearrange",
+        "words": [
+            "Clock gating",
+            "Power gating",
+            "DVFS",
+            "Dark silicon"
+        ]
+    },
+    {
+        "q": "Power gating causes wake-up latency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DVFS?",
+        "type": "mcq",
+        "o": [
+            "Dynamic Voltage Frequency Scaling",
+            "Direct Voltage Frequency System",
+            "Dynamic Variable Frequency",
+            "Direct Variable Frequency"
+        ]
+    },
+    {
+        "q": "DVFS adjusts voltage and frequency for _____.",
+        "type": "fill_blank",
+        "answers": [
+            "efficiency"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Match the power technique with its approach:",
+        "type": "match",
+        "left": [
+            "DVFS",
+            "Power gating",
+            "Clock gating",
+            "Race to idle"
+        ],
+        "right": [
+            "Scale V/F",
+            "Cut power",
+            "Stop clock",
+            "Finish fast"
+        ]
+    },
+    {
+        "q": "Higher voltage increases power consumption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dark silicon?",
+        "type": "mcq",
+        "o": [
+            "Chip area that must be off",
+            "Black chips",
+            "Dark material",
+            "Shadow area"
+        ]
+    },
+    {
+        "q": "Dark silicon results from _____ limitations.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "cost"
+        ]
+    },
+    {
+        "q": "All transistors can be active simultaneously.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is speculative execution?",
+        "type": "mcq",
+        "o": [
+            "Executing before knowing needed",
+            "Guessing execution",
+            "Speculation computing",
+            "Future execution"
+        ]
+    },
+    {
+        "q": "Speculative execution can create _____ vulnerabilities.",
+        "type": "fill_blank",
+        "answers": [
+            "security"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "power"
+        ]
+    },
+    {
+        "q": "Spectre exploits speculative execution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cache coherence?",
+        "type": "mcq",
+        "o": [
+            "Keeping caches consistent",
+            "Cache cleaning",
+            "Coherent cache",
+            "Cache merge"
+        ]
+    },
+    {
+        "q": "MESI is a cache coherence _____.",
+        "type": "fill_blank",
+        "answers": [
+            "protocol"
+        ],
+        "other_options": [
+            "hardware",
+            "software",
+            "cable"
+        ]
+    },
+    {
+        "q": "Match the MESI state with its meaning:",
+        "type": "match",
+        "left": [
+            "Modified",
+            "Exclusive",
+            "Shared",
+            "Invalid"
+        ],
+        "right": [
+            "Changed",
+            "Only copy",
+            "Multiple copies",
+            "Stale"
+        ]
+    },
+    {
+        "q": "Cache coherence is only needed with one core.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is memory ordering?",
+        "type": "mcq",
+        "o": [
+            "Rules for memory access order",
+            "Memory sorting",
+            "Order of memory",
+            "Memory sequence"
+        ]
+    },
+    {
+        "q": "Weak memory ordering requires explicit _____.",
+        "type": "fill_blank",
+        "answers": [
+            "barriers"
+        ],
+        "other_options": [
+            "wires",
+            "cables",
+            "chips"
+        ]
+    },
+    {
+        "q": "x86 has strong memory ordering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is NUMA?",
+        "type": "mcq",
+        "o": [
+            "Non-Uniform Memory Access",
+            "New Unified Memory",
+            "Normal Uniform Memory",
+            "Network Unified Memory"
+        ]
+    },
+    {
+        "q": "NUMA has different memory access _____ times.",
+        "type": "fill_blank",
+        "answers": [
+            "latency"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Rearrange memory architectures:",
+        "type": "rearrange",
+        "words": [
+            "UMA",
+            "NUMA",
+            "ccNUMA",
+            "Distributed"
+        ]
+    },
+    {
+        "q": "NUMA is important for multi-socket servers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is PCIe bifurcation?",
+        "type": "mcq",
+        "o": [
+            "Splitting PCIe lanes",
+            "PCIe branching",
+            "Lane division",
+            "Split connection"
+        ]
+    },
+    {
+        "q": "Bifurcation allows one x16 slot to become two _____.",
+        "type": "fill_blank",
+        "answers": [
+            "x8"
+        ],
+        "other_options": [
+            "x32",
+            "x64",
+            "x4"
+        ]
+    },
+    {
+        "q": "PCIe bifurcation requires BIOS support.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SR-IOV?",
+        "type": "mcq",
+        "o": [
+            "Single Root IO Virtualization",
+            "Server Root IO",
+            "Shared Resource IO",
+            "System Root IO"
+        ]
+    },
+    {
+        "q": "SR-IOV allows VMs to share network _____.",
+        "type": "fill_blank",
+        "answers": [
+            "cards"
+        ],
+        "other_options": [
+            "cables",
+            "racks",
+            "rooms"
+        ]
+    },
+    {
+        "q": "Match the virtualization with its type:",
+        "type": "match",
+        "left": [
+            "VT-x",
+            "VT-d",
+            "SR-IOV",
+            "EPT"
+        ],
+        "right": [
+            "CPU",
+            "DMA",
+            "Network",
+            "Memory"
+        ]
+    },
+    {
+        "q": "SR-IOV improves VM network performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SmartNIC?",
+        "type": "mcq",
+        "o": [
+            "Network card with processing power",
+            "Smart network",
+            "Intelligent cable",
+            "Advanced port"
+        ]
+    },
+    {
+        "q": "SmartNICs offload _____ from the CPU.",
+        "type": "fill_blank",
+        "answers": [
+            "processing"
+        ],
+        "other_options": [
+            "storage",
+            "memory",
+            "power"
+        ]
+    },
+    {
+        "q": "SmartNICs are used in data centers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is DPU?",
+        "type": "mcq",
+        "o": [
+            "Data Processing Unit",
+            "Direct Processing Unit",
+            "Data Power Unit",
+            "Direct Power Unit"
+        ]
+    },
+    {
+        "q": "DPUs offload infrastructure _____ from CPUs.",
+        "type": "fill_blank",
+        "answers": [
+            "tasks"
+        ],
+        "other_options": [
+            "power",
+            "cooling",
+            "storage"
+        ]
+    },
+    {
+        "q": "Rearrange processing unit specialization:",
+        "type": "rearrange",
+        "words": [
+            "CPU (general)",
+            "GPU (parallel)",
+            "DPU (infrastructure)",
+            "TPU (ML)"
+        ]
+    },
+    {
+        "q": "NVIDIA BlueField is a DPU.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is TPU?",
+        "type": "mcq",
+        "o": [
+            "Tensor Processing Unit",
+            "Terminal Processing Unit",
+            "Total Processing Unit",
+            "Tensor Power Unit"
+        ]
+    },
+    {
+        "q": "TPUs are designed for _____ workloads.",
+        "type": "fill_blank",
+        "answers": [
+            "ML"
+        ],
+        "other_options": [
+            "gaming",
+            "graphics",
+            "audio"
+        ]
+    },
+    {
+        "q": "Match the accelerator with its focus:",
+        "type": "match",
+        "left": [
+            "TPU",
+            "GPU",
+            "NPU",
+            "VPU"
+        ],
+        "right": [
+            "ML training",
+            "Graphics/compute",
+            "Neural network",
+            "Vision"
+        ]
+    },
+    {
+        "q": "Google developed TPUs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is NPU?",
+        "type": "mcq",
+        "o": [
+            "Neural Processing Unit",
+            "Network Processing Unit",
+            "New Processing Unit",
+            "Normal Processing Unit"
+        ]
+    },
+    {
+        "q": "NPUs accelerate neural network _____.",
+        "type": "fill_blank",
+        "answers": [
+            "inference"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "networking"
+        ]
+    },
+    {
+        "q": "Many smartphones now include NPUs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ISP in hardware?",
+        "type": "mcq",
+        "o": [
+            "Image Signal Processor",
+            "Internet Service Provider",
+            "Integrated Signal Processor",
+            "Image System Processor"
+        ]
+    },
+    {
+        "q": "ISPs process camera _____ data.",
+        "type": "fill_blank",
+        "answers": [
+            "image"
+        ],
+        "other_options": [
+            "audio",
+            "network",
+            "storage"
+        ]
+    },
+    {
+        "q": "ISPs are found in smartphone cameras.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is PWM in hardware?",
+        "type": "mcq",
+        "o": [
+            "Pulse Width Modulation",
+            "Power Width Modulation",
+            "Pulse Wave Modulation",
+            "Power Wave Modulation"
+        ]
+    },
+    {
+        "q": "PWM controls LED _____ by rapid on/off.",
+        "type": "fill_blank",
+        "answers": [
+            "brightness"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Match the modulation with its use:",
+        "type": "match",
+        "left": [
+            "PWM",
+            "PDM",
+            "AM",
+            "FM"
+        ],
+        "right": [
+            "Motor/LED",
+            "Audio",
+            "Radio amplitude",
+            "Radio frequency"
+        ]
+    },
+    {
+        "q": "PWM is used in computer fans.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ADC?",
+        "type": "mcq",
+        "o": [
+            "Analog to Digital Converter",
+            "Advanced Digital Circuit",
+            "Analog Data Converter",
+            "Advanced Digital Converter"
+        ]
+    },
+    {
+        "q": "ADC converts analog signals to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "digital"
+        ],
+        "other_options": [
+            "analog",
+            "audio",
+            "visual"
+        ]
+    },
+    {
+        "q": "DAC is the opposite of ADC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is RTC?",
+        "type": "mcq",
+        "o": [
+            "Real Time Clock",
+            "Remote Time Controller",
+            "Real Timer Circuit",
+            "Remote Timer Clock"
+        ]
+    },
+    {
+        "q": "RTC keeps time when computer is _____.",
+        "type": "fill_blank",
+        "answers": [
+            "off"
+        ],
+        "other_options": [
+            "on",
+            "running",
+            "active"
+        ]
+    },
+    {
+        "q": "Match the component with its battery:",
+        "type": "match",
+        "left": [
+            "RTC",
+            "CMOS",
+            "UPS",
+            "Laptop"
+        ],
+        "right": [
+            "Coin cell",
+            "Same as RTC",
+            "Lead-acid",
+            "Li-ion"
+        ]
+    },
+    {
+        "q": "RTC uses a small battery.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is watchdog timer?",
+        "type": "mcq",
+        "o": [
+            "Timer that resets hung systems",
+            "Dog timer",
+            "Watch timer",
+            "Guard timer"
+        ]
+    },
+    {
+        "q": "Watchdog timers detect system _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hangs"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange system recovery mechanisms:",
+        "type": "rearrange",
+        "words": [
+            "Exception handling",
+            "Watchdog timer",
+            "Hardware reset",
+            "Power cycle"
+        ]
+    },
+    {
+        "q": "Watchdog timers are common in embedded systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is GPIO?",
+        "type": "mcq",
+        "o": [
+            "General Purpose Input Output",
+            "General Pin Input Output",
+            "Graphics Processing IO",
+            "General Purpose IO"
+        ]
+    },
+    {
+        "q": "GPIO pins are _____ for multiple uses.",
+        "type": "fill_blank",
+        "answers": [
+            "configurable"
+        ],
+        "other_options": [
+            "fixed",
+            "permanent",
+            "static"
+        ]
+    },
+    {
+        "q": "Raspberry Pi has GPIO pins.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is I2C?",
+        "type": "mcq",
+        "o": [
+            "Inter-Integrated Circuit bus",
+            "Internal Interface Connection",
+            "Integrated IC bus",
+            "Interface to Computer"
+        ]
+    },
+    {
+        "q": "I2C uses two wires: SDA and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "SCL"
+        ],
+        "other_options": [
+            "VCC",
+            "GND",
+            "PWR"
+        ]
+    },
+    {
+        "q": "Match the interface with its wire count:",
+        "type": "match",
+        "left": [
+            "I2C",
+            "SPI",
+            "UART",
+            "1-Wire"
+        ],
+        "right": [
+            "2 wires",
+            "4 wires",
+            "2 wires",
+            "1 wire"
+        ]
+    },
+    {
+        "q": "I2C supports multiple devices on same bus.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SPI?",
+        "type": "mcq",
+        "o": [
+            "Serial Peripheral Interface",
+            "System Peripheral Interface",
+            "Serial Protocol Interface",
+            "Standard Peripheral Interface"
+        ]
+    },
+    {
+        "q": "SPI is _____ than I2C but uses more wires.",
+        "type": "fill_blank",
+        "answers": [
+            "faster"
+        ],
+        "other_options": [
+            "slower",
+            "cheaper",
+            "smaller"
+        ]
+    },
+    {
+        "q": "Rearrange interface speeds:",
+        "type": "rearrange",
+        "words": [
+            "1-Wire (slow)",
+            "I2C",
+            "SPI",
+            "Parallel (fast)"
+        ]
+    },
+    {
+        "q": "SPI uses master-slave architecture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is UART?",
+        "type": "mcq",
+        "o": [
+            "Universal Asynchronous Receiver Transmitter",
+            "Unified Async Receiver",
+            "Universal Async Radio",
+            "Unified Async RT"
+        ]
+    },
+    {
+        "q": "UART is _____ communication.",
+        "type": "fill_blank",
+        "answers": [
+            "serial"
+        ],
+        "other_options": [
+            "parallel",
+            "wireless",
+            "optical"
+        ]
+    },
+    {
+        "q": "RS-232 uses UART protocol.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is CAN bus?",
+        "type": "mcq",
+        "o": [
+            "Controller Area Network",
+            "Computer Area Network",
+            "Control Automotive Network",
+            "Central Area Network"
+        ]
+    },
+    {
+        "q": "CAN bus is common in _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vehicles"
+        ],
+        "other_options": [
+            "computers",
+            "phones",
+            "cameras"
+        ]
+    },
+    {
+        "q": "Match the bus with its application:",
+        "type": "match",
+        "left": [
+            "CAN",
+            "LIN",
+            "FlexRay",
+            "MOST"
+        ],
+        "right": [
+            "Automotive main",
+            "Simple sensors",
+            "High speed",
+            "Multimedia"
+        ]
+    },
+    {
+        "q": "CAN bus is designed for reliability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is vapor chamber cooling?",
+        "type": "mcq",
+        "o": [
+            "Heat spreader using evaporation",
+            "Steam cooling",
+            "Water cooling",
+            "Vapor technology"
+        ]
+    },
+    {
+        "q": "Vapor chambers spread heat more _____ than heatsinks.",
+        "type": "fill_blank",
+        "answers": [
+            "evenly"
+        ],
+        "other_options": [
+            "slowly",
+            "poorly",
+            "randomly"
+        ]
+    },
+    {
+        "q": "High-end laptops use vapor chambers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is passive cooling?",
+        "type": "mcq",
+        "o": [
+            "Cooling without fans",
+            "Active cooling",
+            "No cooling",
+            "Pass cooling"
+        ]
+    },
+    {
+        "q": "Passive cooling relies on _____ dissipation.",
+        "type": "fill_blank",
+        "answers": [
+            "natural"
+        ],
+        "other_options": [
+            "forced",
+            "active",
+            "powered"
+        ]
+    },
+    {
+        "q": "Match the cooling with its noise:",
+        "type": "match",
+        "left": [
+            "Passive",
+            "Air cooler",
+            "AIO",
+            "Immersion"
+        ],
+        "right": [
+            "Silent",
+            "Moderate",
+            "Low",
+            "Silent"
+        ]
+    },
+    {
+        "q": "Passive cooling is suitable for high TDP.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a thermal throttle?",
+        "type": "mcq",
+        "o": [
+            "Reducing speed due to heat",
+            "Heat accelerator",
+            "Thermal boost",
+            "Temperature increase"
+        ]
+    },
+    {
+        "q": "Thermal throttling protects hardware from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "damage"
+        ],
+        "other_options": [
+            "cold",
+            "dust",
+            "light"
+        ]
+    },
+    {
+        "q": "Rearrange thermal states:",
+        "type": "rearrange",
+        "words": [
+            "Normal",
+            "Throttling",
+            "Critical",
+            "Shutdown"
+        ]
+    },
+    {
+        "q": "Thermal throttling reduces performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is silicon lottery?",
+        "type": "mcq",
+        "o": [
+            "Chip quality variation",
+            "Silicon game",
+            "Lottery chip",
+            "Random silicon"
+        ]
+    },
+    {
+        "q": "Silicon lottery affects _____ potential.",
+        "type": "fill_blank",
+        "answers": [
+            "overclocking"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "network"
+        ]
+    },
+    {
+        "q": "All CPUs of same model perform identically.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is binning in chip manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Sorting chips by quality",
+            "Trash bin",
+            "Chip container",
+            "Binomial chips"
+        ]
+    },
+    {
+        "q": "Binning determines which _____ tier a chip becomes.",
+        "type": "fill_blank",
+        "answers": [
+            "product"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Match the bin with its result:",
+        "type": "match",
+        "left": [
+            "Best bin",
+            "Mid bin",
+            "Low bin",
+            "Defective"
+        ],
+        "right": [
+            "High-end product",
+            "Mid product",
+            "Budget product",
+            "Discarded"
+        ]
+    },
+    {
+        "q": "Defective chips are always discarded.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is yield in manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Percentage of working chips",
+            "Chip production",
+            "Manufacturing output",
+            "Chip creation"
+        ]
+    },
+    {
+        "q": "Higher yield means lower _____ per chip.",
+        "type": "fill_blank",
+        "answers": [
+            "cost"
+        ],
+        "other_options": [
+            "quality",
+            "speed",
+            "size"
+        ]
+    },
+    {
+        "q": "Larger chips have lower yield.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a wafer?",
+        "type": "mcq",
+        "o": [
+            "Silicon disk for chip manufacturing",
+            "Cookie",
+            "Thin paper",
+            "Metal disk"
+        ]
+    },
+    {
+        "q": "Wafers are sliced into individual _____.",
+        "type": "fill_blank",
+        "answers": [
+            "dies"
+        ],
+        "other_options": [
+            "chips",
+            "modules",
+            "boards"
+        ]
+    },
+    {
+        "q": "Rearrange wafer sizes:",
+        "type": "rearrange",
+        "words": [
+            "200mm",
+            "300mm",
+            "450mm (future)",
+            ""
+        ]
+    },
+    {
+        "q": "Larger wafers produce more chips per run.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is die size?",
+        "type": "mcq",
+        "o": [
+            "Physical area of the chip",
+            "Dice size",
+            "Die count",
+            "Chip number"
+        ]
+    },
+    {
+        "q": "Smaller dies mean more chips per _____.",
+        "type": "fill_blank",
+        "answers": [
+            "wafer"
+        ],
+        "other_options": [
+            "board",
+            "system",
+            "package"
+        ]
+    },
+    {
+        "q": "Die size affects manufacturing cost.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is SIMD?",
+        "type": "mcq",
+        "o": [
+            "Single Instruction Multiple Data",
+            "Single Input Multiple Data",
+            "System Instruction Multiple Data",
+            "Single Instruction Main Data"
+        ]
+    },
+    {
+        "q": "SIMD processes multiple data with one _____.",
+        "type": "fill_blank",
+        "answers": [
+            "instruction"
+        ],
+        "other_options": [
+            "program",
+            "file",
+            "system"
+        ]
+    },
+    {
+        "q": "Match the parallel model with its type:",
+        "type": "match",
+        "left": [
+            "SIMD",
+            "SISD",
+            "MIMD",
+            "MISD"
+        ],
+        "right": [
+            "Vector processing",
+            "Traditional",
+            "Multi-core",
+            "Rare"
+        ]
+    },
+    {
+        "q": "AVX is a SIMD extension.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is vector processing?",
+        "type": "mcq",
+        "o": [
+            "Processing multiple data elements simultaneously",
+            "Vector graphics",
+            "Direction processing",
+            "Arrow processing"
+        ]
+    },
+    {
+        "q": "Vector processors operate on _____ of data.",
+        "type": "fill_blank",
+        "answers": [
+            "arrays"
+        ],
+        "other_options": [
+            "single",
+            "one",
+            "individual"
+        ]
+    },
+    {
+        "q": "GPUs are essentially vector processors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hardware acceleration?",
+        "type": "mcq",
+        "o": [
+            "Using specialized hardware for tasks",
+            "Faster hardware",
+            "Speed hardware",
+            "Quick hardware"
+        ]
+    },
+    {
+        "q": "Hardware acceleration offloads work from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "CPU"
+        ],
+        "other_options": [
+            "RAM",
+            "disk",
+            "display"
+        ]
+    },
+    {
+        "q": "Rearrange hardware by specialization:",
+        "type": "rearrange",
+        "words": [
+            "CPU (general)",
+            "GPU (graphics)",
+            "AV1 decoder (specific)",
+            ""
+        ]
+    },
+    {
+        "q": "Video decoding often uses hardware acceleration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is firmware?",
+        "type": "mcq",
+        "o": [
+            "Software embedded in hardware",
+            "Hard software",
+            "Firm hardware",
+            "Fixed software"
+        ]
+    },
+    {
+        "q": "Firmware updates can fix _____ issues.",
+        "type": "fill_blank",
+        "answers": [
+            "hardware"
+        ],
+        "other_options": [
+            "software",
+            "network",
+            "cloud"
+        ]
+    },
+    {
+        "q": "Match the firmware with its device:",
+        "type": "match",
+        "left": [
+            "BIOS/UEFI",
+            "SSD firmware",
+            "Router firmware",
+            "Printer firmware"
+        ],
+        "right": [
+            "Motherboard",
+            "Storage",
+            "Network",
+            "Peripheral"
+        ]
+    },
+    {
+        "q": "Firmware is stored in volatile memory.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is POST?",
+        "type": "mcq",
+        "o": [
+            "Power-On Self Test",
+            "Post office test",
+            "Power Off System Test",
+            "Primary One Self Test"
+        ]
+    },
+    {
+        "q": "POST checks hardware before _____ load.",
+        "type": "fill_blank",
+        "answers": [
+            "OS"
+        ],
+        "other_options": [
+            "power",
+            "display",
+            "network"
+        ]
+    },
+    {
+        "q": "POST beeps indicate hardware problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is stress testing?",
+        "type": "mcq",
+        "o": [
+            "Pushing hardware to maximum load",
+            "Relaxed testing",
+            "Stress relief",
+            "Easy testing"
+        ]
+    },
+    {
+        "q": "Stress testing reveals _____ issues.",
+        "type": "fill_blank",
+        "answers": [
+            "stability"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Match the stress test with its target:",
+        "type": "match",
+        "left": [
+            "Prime95",
+            "FurMark",
+            "AIDA64",
+            "MemTest86"
+        ],
+        "right": [
+            "CPU",
+            "GPU",
+            "System",
+            "RAM"
+        ]
+    },
+    {
+        "q": "Stress testing can check overclocking stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is benchmarking?",
+        "type": "mcq",
+        "o": [
+            "Measuring hardware performance",
+            "Bench marking",
+            "Mark benching",
+            "Seat testing"
+        ]
+    },
+    {
+        "q": "Benchmarks provide _____ performance scores.",
+        "type": "fill_blank",
+        "answers": [
+            "comparable"
+        ],
+        "other_options": [
+            "random",
+            "unique",
+            "special"
+        ]
+    },
+    {
+        "q": "Rearrange benchmark types:",
+        "type": "rearrange",
+        "words": [
+            "Synthetic",
+            "Application",
+            "Real-world",
+            "Gaming"
+        ]
+    },
+    {
+        "q": "Cinebench tests CPU performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is bottleneck in hardware?",
+        "type": "mcq",
+        "o": [
+            "Component limiting system performance",
+            "Narrow bottle",
+            "Bottle neck",
+            "Neck shape"
+        ]
+    },
+    {
+        "q": "A CPU bottleneck limits _____ performance.",
+        "type": "fill_blank",
+        "answers": [
+            "GPU"
+        ],
+        "other_options": [
+            "RAM",
+            "disk",
+            "network"
+        ]
+    },
+    {
+        "q": "Match the bottleneck with its symptom:",
+        "type": "match",
+        "left": [
+            "CPU bottleneck",
+            "GPU bottleneck",
+            "RAM bottleneck",
+            "Storage bottleneck"
+        ],
+        "right": [
+            "Low GPU usage",
+            "Low frames",
+            "Slowdowns",
+            "Long loads"
+        ]
+    },
+    {
+        "q": "Balanced systems avoid bottlenecks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Hardware knowledge empowers better computing decisions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is computational photography?",
+        "type": "mcq",
+        "o": [
+            "Using processing to enhance photos",
+            "Computer photos",
+            "Photography computing",
+            "Photo computers"
+        ]
+    },
+    {
+        "q": "Computational photography relies on _____ processing.",
+        "type": "fill_blank",
+        "answers": [
+            "software"
+        ],
+        "other_options": [
+            "optical",
+            "mechanical",
+            "chemical"
+        ]
+    },
+    {
+        "q": "Smartphone cameras use computational photography.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is always-on processing?",
+        "type": "mcq",
+        "o": [
+            "Low-power continuous processing",
+            "Always working",
+            "Never off",
+            "Constant power"
+        ]
+    },
+    {
+        "q": "Voice assistants use always-on _____ processing.",
+        "type": "fill_blank",
+        "answers": [
+            "audio"
+        ],
+        "other_options": [
+            "video",
+            "network",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the always-on feature with its hardware:",
+        "type": "match",
+        "left": [
+            "Hey Siri",
+            "OK Google",
+            "Always-on display",
+            "Step counting"
+        ],
+        "right": [
+            "Audio DSP",
+            "Neural engine",
+            "Low-power display",
+            "Accelerometer"
+        ]
+    },
+    {
+        "q": "Always-on processing uses minimal power.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is secure boot?",
+        "type": "mcq",
+        "o": [
+            "Verifying boot software authenticity",
+            "Safe boot",
+            "Boot security",
+            "Secure start"
+        ]
+    },
+    {
+        "q": "Secure boot prevents _____ from loading.",
+        "type": "fill_blank",
+        "answers": [
+            "malware"
+        ],
+        "other_options": [
+            "programs",
+            "files",
+            "data"
+        ]
+    },
+    {
+        "q": "Rearrange boot security chain:",
+        "type": "rearrange",
+        "words": [
+            "Root of trust",
+            "Bootloader",
+            "Kernel",
+            "OS"
+        ]
+    },
+    {
+        "q": "UEFI Secure Boot is a standard feature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hardware root of trust?",
+        "type": "mcq",
+        "o": [
+            "Immutable security foundation",
+            "Trust hardware",
+            "Root access",
+            "Hardware trust"
+        ]
+    },
+    {
+        "q": "Root of trust starts the security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "chain"
+        ],
+        "other_options": [
+            "wall",
+            "gate",
+            "door"
+        ]
+    },
+    {
+        "q": "Root of trust cannot be modified by software.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is memory encryption?",
+        "type": "mcq",
+        "o": [
+            "Encrypting data in RAM",
+            "Memory coding",
+            "RAM password",
+            "Encrypted memory"
+        ]
+    },
+    {
+        "q": "Memory encryption protects against _____ attacks.",
+        "type": "fill_blank",
+        "answers": [
+            "physical"
+        ],
+        "other_options": [
+            "network",
+            "software",
+            "remote"
+        ]
+    },
+    {
+        "q": "Match the memory security with its feature:",
+        "type": "match",
+        "left": [
+            "TME",
+            "SME",
+            "MKTME",
+            "SEV"
+        ],
+        "right": [
+            "Intel total",
+            "AMD memory",
+            "Intel multi-key",
+            "AMD VM"
+        ]
+    },
+    {
+        "q": "AMD SEV encrypts VM memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is confidential computing?",
+        "type": "mcq",
+        "o": [
+            "Protecting data during processing",
+            "Secret computing",
+            "Private computing",
+            "Hidden computing"
+        ]
+    },
+    {
+        "q": "Confidential computing uses hardware _____.",
+        "type": "fill_blank",
+        "answers": [
+            "enclaves"
+        ],
+        "other_options": [
+            "cables",
+            "disks",
+            "screens"
+        ]
+    },
+    {
+        "q": "Confidential computing protects from cloud providers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hardware performance counter?",
+        "type": "mcq",
+        "o": [
+            "CPU registers for monitoring",
+            "Speed counter",
+            "Performance display",
+            "Counter hardware"
+        ]
+    },
+    {
+        "q": "Performance counters measure CPU _____ metrics.",
+        "type": "fill_blank",
+        "answers": [
+            "performance"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Rearrange profiling tools:",
+        "type": "rearrange",
+        "words": [
+            "Hardware counters",
+            "Software instrumentation",
+            "Sampling",
+            "Tracing"
+        ]
+    },
+    {
+        "q": "perf uses hardware performance counters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is chip disaggregation?",
+        "type": "mcq",
+        "o": [
+            "Breaking monolithic chips into parts",
+            "Chip separation",
+            "Disagree chips",
+            "Chip breaking"
+        ]
+    },
+    {
+        "q": "Disaggregation allows mixing different _____ nodes.",
+        "type": "fill_blank",
+        "answers": [
+            "process"
+        ],
+        "other_options": [
+            "color",
+            "size",
+            "shape"
+        ]
+    },
+    {
+        "q": "Match the chiplet with its function:",
+        "type": "match",
+        "left": [
+            "CCD",
+            "IOD",
+            "Memory tile",
+            "Fabric die"
+        ],
+        "right": [
+            "Compute",
+            "Input/output",
+            "HBM stack",
+            "Interconnect"
+        ]
+    },
+    {
+        "q": "AMD uses chiplet architecture in Ryzen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is silicon photonics?",
+        "type": "mcq",
+        "o": [
+            "Optical devices on silicon",
+            "Silicon light",
+            "Photon silicon",
+            "Light chips"
+        ]
+    },
+    {
+        "q": "Silicon photonics enables high-speed _____.",
+        "type": "fill_blank",
+        "answers": [
+            "interconnects"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "processing"
+        ]
+    },
+    {
+        "q": "Data centers use silicon photonics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is die-to-die interconnect?",
+        "type": "mcq",
+        "o": [
+            "Communication between chiplets",
+            "Die connection",
+            "Chip linking",
+            "Die communication"
+        ]
+    },
+    {
+        "q": "UCIe is a standard for die-to-die _____.",
+        "type": "fill_blank",
+        "answers": [
+            "interconnect"
+        ],
+        "other_options": [
+            "power",
+            "cooling",
+            "storage"
+        ]
+    },
+    {
+        "q": "Rearrange interconnect evolution:",
+        "type": "rearrange",
+        "words": [
+            "On-chip",
+            "In-package",
+            "Chip-to-chip",
+            "Board-level"
+        ]
+    },
+    {
+        "q": "UCIe enables interoperable chiplets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is heterogeneous computing?",
+        "type": "mcq",
+        "o": [
+            "Using different processor types together",
+            "Similar computing",
+            "Same processors",
+            "Uniform computing"
+        ]
+    },
+    {
+        "q": "Heterogeneous computing combines CPU and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "GPU"
+        ],
+        "other_options": [
+            "RAM",
+            "disk",
+            "screen"
+        ]
+    },
+    {
+        "q": "Match the approach with its hardware:",
+        "type": "match",
+        "left": [
+            "Homogeneous",
+            "Heterogeneous",
+            "Accelerated",
+            "Specialized"
+        ],
+        "right": [
+            "Same CPUs",
+            "CPU+GPU",
+            "CPU+FPGA",
+            "ASIC only"
+        ]
+    },
+    {
+        "q": "Apple M-series uses heterogeneous architecture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is compute offload?",
+        "type": "mcq",
+        "o": [
+            "Moving work to specialized hardware",
+            "Loading compute",
+            "Offload storage",
+            "Compute moving"
+        ]
+    },
+    {
+        "q": "Offloading moves work from CPU to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "accelerators"
+        ],
+        "other_options": [
+            "RAM",
+            "disk",
+            "screen"
+        ]
+    },
+    {
+        "q": "GPUs are common offload targets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is hardware-software co-design?",
+        "type": "mcq",
+        "o": [
+            "Designing both together for optimization",
+            "Combined design",
+            "Joint design",
+            "Design together"
+        ]
+    },
+    {
+        "q": "Co-design optimizes _____ and software together.",
+        "type": "fill_blank",
+        "answers": [
+            "hardware"
+        ],
+        "other_options": [
+            "network",
+            "storage",
+            "display"
+        ]
+    },
+    {
+        "q": "Rearrange design approaches:",
+        "type": "rearrange",
+        "words": [
+            "Software first",
+            "Hardware first",
+            "Co-design",
+            "Full-stack"
+        ]
+    },
+    {
+        "q": "Apple designs chips optimized for their software.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is thermal interface material?",
+        "type": "mcq",
+        "o": [
+            "Material between heatsink and chip",
+            "Heat material",
+            "Interface matter",
+            "Thermal matter"
+        ]
+    },
+    {
+        "q": "TIM improves heat _____ to cooler.",
+        "type": "fill_blank",
+        "answers": [
+            "transfer"
+        ],
+        "other_options": [
+            "storage",
+            "creation",
+            "blocking"
+        ]
+    },
+    {
+        "q": "Match the TIM with its type:",
+        "type": "match",
+        "left": [
+            "Thermal paste",
+            "Thermal pad",
+            "Liquid metal",
+            "Phase change"
+        ],
+        "right": [
+            "Common",
+            "Thick gap",
+            "Best performance",
+            "Temperature activated"
+        ]
+    },
+    {
+        "q": "Liquid metal conducts better than paste.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is delidding?",
+        "type": "mcq",
+        "o": [
+            "Removing CPU heat spreader",
+            "Lid removal",
+            "Cover opening",
+            "Delid process"
+        ]
+    },
+    {
+        "q": "Delidding allows replacing the _____ between die and IHS.",
+        "type": "fill_blank",
+        "answers": [
+            "TIM"
+        ],
+        "other_options": [
+            "CPU",
+            "RAM",
+            "GPU"
+        ]
+    },
+    {
+        "q": "Delidding voids warranty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a voltage regulator?",
+        "type": "mcq",
+        "o": [
+            "Circuit providing stable voltage",
+            "Voltage meter",
+            "Power meter",
+            "Current meter"
+        ]
+    },
+    {
+        "q": "VRMs provide precise voltage to _____.",
+        "type": "fill_blank",
+        "answers": [
+            "CPU"
+        ],
+        "other_options": [
+            "fans",
+            "LEDs",
+            "speakers"
+        ]
+    },
+    {
+        "q": "VRM quality affects overclocking capability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is embedded memory?",
+        "type": "mcq",
+        "o": [
+            "Memory on the processor die",
+            "External memory",
+            "Embedded chip",
+            "Memory chip"
+        ]
+    },
+    {
+        "q": "Embedded SRAM provides _____ access than external memory.",
+        "type": "fill_blank",
+        "answers": [
+            "faster"
+        ],
+        "other_options": [
+            "slower",
+            "larger",
+            "cheaper"
+        ]
+    },
+    {
+        "q": "Cache is a form of embedded memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AXI bus?",
+        "type": "mcq",
+        "o": [
+            "ARM standard on-chip interconnect",
+            "Axis bus",
+            "AXI cable",
+            "ARM external interface"
+        ]
+    },
+    {
+        "q": "AXI is part of the ARM _____ specification.",
+        "type": "fill_blank",
+        "answers": [
+            "AMBA"
+        ],
+        "other_options": [
+            "AXI",
+            "CPU",
+            "GPU"
+        ]
+    },
+    {
+        "q": "Match the ARM bus with its generation:",
+        "type": "match",
+        "left": [
+            "AXI",
+            "AHB",
+            "APB",
+            "ACE"
+        ],
+        "right": [
+            "High performance",
+            "Legacy high",
+            "Peripheral",
+            "Coherency"
+        ]
+    },
+    {
+        "q": "AXI supports out-of-order transactions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is power domain?",
+        "type": "mcq",
+        "o": [
+            "Independent power region on chip",
+            "Power area",
+            "Domain power",
+            "Electric domain"
+        ]
+    },
+    {
+        "q": "Power domains allow independent _____ control.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Rearrange power management granularity:",
+        "type": "rearrange",
+        "words": [
+            "Chip level",
+            "Power domain",
+            "Clock gate",
+            "Gate level"
+        ]
+    },
+    {
+        "q": "Multiple power domains improve efficiency.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Computer hardware continues to evolve rapidly.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

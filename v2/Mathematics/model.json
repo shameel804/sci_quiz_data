@@ -1,0 +1,6679 @@
+[
+    {
+        "q": "What is a mathematical model?",
+        "type": "mcq",
+        "o": [
+            "A mathematical representation of a real-world phenomenon",
+            "A random number generator",
+            "A graph of data points",
+            "A computer program only"
+        ]
+    },
+    {
+        "q": "Mathematical modeling uses ______ to represent real-world systems.",
+        "type": "fill_blank",
+        "answers": [
+            "equations"
+        ],
+        "other_options": [
+            "words",
+            "pictures",
+            "sounds"
+        ]
+    },
+    {
+        "q": "All mathematical models perfectly represent reality.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the model type:",
+        "type": "match",
+        "left": [
+            "Deterministic",
+            "Stochastic",
+            "Continuous",
+            "Discrete"
+        ],
+        "right": [
+            "Fixed outcomes",
+            "Random elements",
+            "Real numbers",
+            "Integer steps"
+        ]
+    },
+    {
+        "q": "Rearrange the modeling process:",
+        "type": "rearrange",
+        "words": [
+            "Define problem",
+            "Make assumptions",
+            "Build model",
+            "Analyze and validate"
+        ]
+    },
+    {
+        "q": "What is a linear model?",
+        "type": "mcq",
+        "o": [
+            "y = mx + b, where output changes at constant rate with input",
+            "y = x^2",
+            "y = e^x",
+            "y = sin(x)"
+        ]
+    },
+    {
+        "q": "In y = mx + b, m is the ______ and b is the y-intercept.",
+        "type": "fill_blank",
+        "answers": [
+            "slope"
+        ],
+        "other_options": [
+            "intercept",
+            "variable",
+            "output"
+        ]
+    },
+    {
+        "q": "A linear model has constant rate of change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the linear model component:",
+        "type": "match",
+        "left": [
+            "m",
+            "b",
+            "x",
+            "y"
+        ],
+        "right": [
+            "Slope",
+            "y-intercept",
+            "Independent variable",
+            "Dependent variable"
+        ]
+    },
+    {
+        "q": "Rearrange linear model creation:",
+        "type": "rearrange",
+        "words": [
+            "Identify variables",
+            "Find slope",
+            "Find intercept",
+            "Write equation"
+        ]
+    },
+    {
+        "q": "What is an exponential growth model?",
+        "type": "mcq",
+        "o": [
+            "y = a * e^(kt) or y = a * b^t where k > 0 or b > 1",
+            "y = mx + b",
+            "y = ax^2 + bx + c",
+            "y = log(x)"
+        ]
+    },
+    {
+        "q": "Exponential growth occurs when the rate of change is ______ to the current value.",
+        "type": "fill_blank",
+        "answers": [
+            "proportional"
+        ],
+        "other_options": [
+            "equal",
+            "inverse",
+            "unrelated"
+        ]
+    },
+    {
+        "q": "In exponential growth, the doubling time is constant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the exponential model:",
+        "type": "match",
+        "left": [
+            "Growth (k>0)",
+            "Decay (k<0)",
+            "Base e",
+            "Base 2"
+        ],
+        "right": [
+            "Increasing",
+            "Decreasing",
+            "Natural exponential",
+            "Doubling model"
+        ]
+    },
+    {
+        "q": "Rearrange exponential model features:",
+        "type": "rearrange",
+        "words": [
+            "Initial value a",
+            "Growth rate k",
+            "P(t) = a*e^(kt)",
+            "Constant doubling time"
+        ]
+    },
+    {
+        "q": "What is exponential decay?",
+        "type": "mcq",
+        "o": [
+            "y = a * e^(-kt) where k > 0, quantity decreases over time",
+            "y = a * e^(kt)",
+            "y = ax + b",
+            "y = 1/x"
+        ]
+    },
+    {
+        "q": "In exponential decay, the ______ is the time for the quantity to halve.",
+        "type": "fill_blank",
+        "answers": [
+            "half-life"
+        ],
+        "other_options": [
+            "doubling time",
+            "period",
+            "amplitude"
+        ]
+    },
+    {
+        "q": "Radioactive decay follows an exponential decay model.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the decay application:",
+        "type": "match",
+        "left": [
+            "Radioactive decay",
+            "Cooling",
+            "Depreciation",
+            "Drug clearance"
+        ],
+        "right": [
+            "Half-life",
+            "Newton's law",
+            "Asset value",
+            "Elimination rate"
+        ]
+    },
+    {
+        "q": "Rearrange exponential decay concepts:",
+        "type": "rearrange",
+        "words": [
+            "Initial amount",
+            "Decay constant",
+            "Half-life = ln(2)/k",
+            "Asymptote at 0"
+        ]
+    },
+    {
+        "q": "What is the logistic growth model?",
+        "type": "mcq",
+        "o": [
+            "dP/dt = rP(1 - P/K) with carrying capacity K",
+            "dP/dt = rP (unlimited growth)",
+            "P = mt + b",
+            "P = at^2"
+        ]
+    },
+    {
+        "q": "In logistic growth, K represents the ______ capacity.",
+        "type": "fill_blank",
+        "answers": [
+            "carrying"
+        ],
+        "other_options": [
+            "initial",
+            "growth",
+            "decay"
+        ]
+    },
+    {
+        "q": "Logistic growth starts exponentially but levels off at the carrying capacity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logistic model parameter:",
+        "type": "match",
+        "left": [
+            "r",
+            "K",
+            "P",
+            "P/K"
+        ],
+        "right": [
+            "Growth rate",
+            "Carrying capacity",
+            "Population",
+            "Saturation ratio"
+        ]
+    },
+    {
+        "q": "Rearrange logistic growth phases:",
+        "type": "rearrange",
+        "words": [
+            "Slow start",
+            "Exponential phase",
+            "Deceleration",
+            "Plateau at K"
+        ]
+    },
+    {
+        "q": "What is the formula for compound interest?",
+        "type": "mcq",
+        "o": [
+            "A = P(1 + r/n)^(nt)",
+            "A = P + rt",
+            "A = P * r * t",
+            "A = P / (1 + rt)"
+        ]
+    },
+    {
+        "q": "Compound interest is interest earned on both principal and ______ interest.",
+        "type": "fill_blank",
+        "answers": [
+            "accumulated"
+        ],
+        "other_options": [
+            "simple",
+            "future",
+            "negative"
+        ]
+    },
+    {
+        "q": "More frequent compounding leads to higher final amount.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the compounding frequency:",
+        "type": "match",
+        "left": [
+            "Annual",
+            "Quarterly",
+            "Monthly",
+            "Continuous"
+        ],
+        "right": [
+            "n = 1",
+            "n = 4",
+            "n = 12",
+            "A = Pe^(rt)"
+        ]
+    },
+    {
+        "q": "Rearrange compound interest by frequency:",
+        "type": "rearrange",
+        "words": [
+            "Annual (lowest)",
+            "Monthly",
+            "Daily",
+            "Continuous (highest)"
+        ]
+    },
+    {
+        "q": "What is continuous compounding?",
+        "type": "mcq",
+        "o": [
+            "A = Pe^(rt), the limit of compound interest as n approaches infinity",
+            "A = P(1 + r)",
+            "A = P + Prt",
+            "A = P/r"
+        ]
+    },
+    {
+        "q": "Continuous compounding uses the formula A = P*e^(______t).",
+        "type": "fill_blank",
+        "answers": [
+            "r"
+        ],
+        "other_options": [
+            "n",
+            "P",
+            "A"
+        ]
+    },
+    {
+        "q": "Continuous compounding is the maximum possible growth for a given rate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the interest type:",
+        "type": "match",
+        "left": [
+            "Simple",
+            "Compound",
+            "Continuous",
+            "Effective annual"
+        ],
+        "right": [
+            "I = Prt",
+            "(1 + r/n)^(nt)",
+            "e^(rt)",
+            "(1 + r/n)^n - 1"
+        ]
+    },
+    {
+        "q": "Rearrange interest calculations:",
+        "type": "rearrange",
+        "words": [
+            "Identify P, r, t, n",
+            "Choose formula",
+            "Calculate",
+            "Interpret result"
+        ]
+    },
+    {
+        "q": "What is the rule of 72?",
+        "type": "mcq",
+        "o": [
+            "Doubling time approximately equals 72 divided by percent growth rate",
+            "Interest rate = 72/time",
+            "Principal doubles in 72 years",
+            "72% interest rate"
+        ]
+    },
+    {
+        "q": "At 6% annual growth, money doubles in approximately ______/6 = 12 years.",
+        "type": "fill_blank",
+        "answers": [
+            "72"
+        ],
+        "other_options": [
+            "100",
+            "36",
+            "50"
+        ]
+    },
+    {
+        "q": "The rule of 72 is an approximation for doubling time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rule of 72 example:",
+        "type": "match",
+        "left": [
+            "3% rate",
+            "6% rate",
+            "9% rate",
+            "12% rate"
+        ],
+        "right": [
+            "24 years",
+            "12 years",
+            "8 years",
+            "6 years"
+        ]
+    },
+    {
+        "q": "Rearrange doubling time calculations:",
+        "type": "rearrange",
+        "words": [
+            "Identify growth rate",
+            "Apply rule of 72",
+            "72/rate = years",
+            "Verify with exact formula"
+        ]
+    },
+    {
+        "q": "What is a population dynamics model?",
+        "type": "mcq",
+        "o": [
+            "Mathematical description of how population changes over time",
+            "A census count",
+            "A fixed population value",
+            "A social network"
+        ]
+    },
+    {
+        "q": "Population dynamics models describe ______, deaths, and migration effects.",
+        "type": "fill_blank",
+        "answers": [
+            "births"
+        ],
+        "other_options": [
+            "taxes",
+            "weather",
+            "geography"
+        ]
+    },
+    {
+        "q": "The Malthusian model assumes unlimited exponential growth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the population model:",
+        "type": "match",
+        "left": [
+            "Malthusian",
+            "Logistic",
+            "Lotka-Volterra",
+            "SIR"
+        ],
+        "right": [
+            "Exponential",
+            "Carrying capacity",
+            "Predator-prey",
+            "Epidemic"
+        ]
+    },
+    {
+        "q": "Rearrange population model complexity:",
+        "type": "rearrange",
+        "words": [
+            "Malthusian (simple)",
+            "Logistic",
+            "Predator-prey",
+            "Age-structured (complex)"
+        ]
+    },
+    {
+        "q": "What is the Lotka-Volterra predator-prey model?",
+        "type": "mcq",
+        "o": [
+            "Coupled ODEs describing oscillating predator and prey populations",
+            "A single exponential growth equation",
+            "A linear model",
+            "A stochastic model only"
+        ]
+    },
+    {
+        "q": "In Lotka-Volterra, prey population increases when ______ are scarce.",
+        "type": "fill_blank",
+        "answers": [
+            "predators"
+        ],
+        "other_options": [
+            "resources",
+            "prey",
+            "diseases"
+        ]
+    },
+    {
+        "q": "The Lotka-Volterra model produces oscillating population cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Lotka-Volterra term:",
+        "type": "match",
+        "left": [
+            "alpha",
+            "beta",
+            "gamma",
+            "delta"
+        ],
+        "right": [
+            "Prey growth",
+            "Predation rate",
+            "Predator death",
+            "Predator efficiency"
+        ]
+    },
+    {
+        "q": "Rearrange Lotka-Volterra dynamics:",
+        "type": "rearrange",
+        "words": [
+            "Prey abundant",
+            "Predators increase",
+            "Prey decreases",
+            "Predators decrease"
+        ]
+    },
+    {
+        "q": "What is the SIR model in epidemiology?",
+        "type": "mcq",
+        "o": [
+            "Compartmental model with Susceptible, Infected, Recovered populations",
+            "A linear growth model",
+            "A decay-only model",
+            "A logistic model"
+        ]
+    },
+    {
+        "q": "In the SIR model, S + I + R = ______ (total population, often 1 if normalized).",
+        "type": "fill_blank",
+        "answers": [
+            "N"
+        ],
+        "other_options": [
+            "0",
+            "S",
+            "I"
+        ]
+    },
+    {
+        "q": "The basic reproduction number R0 determines if an epidemic spreads.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the SIR compartment:",
+        "type": "match",
+        "left": [
+            "S",
+            "I",
+            "R",
+            "R0"
+        ],
+        "right": [
+            "Susceptible",
+            "Infected",
+            "Recovered",
+            "Reproduction number"
+        ]
+    },
+    {
+        "q": "Rearrange SIR model flow:",
+        "type": "rearrange",
+        "words": [
+            "Susceptible",
+            "becomes Infected",
+            "becomes Recovered",
+            "remains Recovered"
+        ]
+    },
+    {
+        "q": "What is optimization in modeling?",
+        "type": "mcq",
+        "o": [
+            "Finding the best solution by maximizing or minimizing an objective function",
+            "Running a simulation",
+            "Collecting data",
+            "Drawing graphs"
+        ]
+    },
+    {
+        "q": "Optimization seeks to ______ (maximize or minimize) an objective function.",
+        "type": "fill_blank",
+        "answers": [
+            "optimize"
+        ],
+        "other_options": [
+            "ignore",
+            "randomize",
+            "delete"
+        ]
+    },
+    {
+        "q": "Constraints limit the feasible region in optimization problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the optimization term:",
+        "type": "match",
+        "left": [
+            "Objective function",
+            "Constraints",
+            "Feasible region",
+            "Optimal solution"
+        ],
+        "right": [
+            "What to optimize",
+            "Restrictions",
+            "Allowed values",
+            "Best point"
+        ]
+    },
+    {
+        "q": "Rearrange optimization process:",
+        "type": "rearrange",
+        "words": [
+            "Define objective",
+            "Identify constraints",
+            "Find feasible region",
+            "Find optimal point"
+        ]
+    },
+    {
+        "q": "What is linear programming?",
+        "type": "mcq",
+        "o": [
+            "Optimization with linear objective function and linear constraints",
+            "Programming in Python",
+            "Nonlinear optimization",
+            "Statistical analysis"
+        ]
+    },
+    {
+        "q": "In linear programming, the objective function is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "quadratic",
+            "exponential",
+            "logarithmic"
+        ]
+    },
+    {
+        "q": "The optimal solution in linear programming occurs at a vertex of the feasible region.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the LP term:",
+        "type": "match",
+        "left": [
+            "Objective",
+            "Constraint",
+            "Vertex",
+            "Simplex"
+        ],
+        "right": [
+            "Function to optimize",
+            "Limitation",
+            "Corner point",
+            "Algorithm"
+        ]
+    },
+    {
+        "q": "Rearrange linear programming steps:",
+        "type": "rearrange",
+        "words": [
+            "Formulate problem",
+            "Graph constraints",
+            "Identify vertices",
+            "Evaluate objective at vertices"
+        ]
+    },
+    {
+        "q": "What is a quadratic model?",
+        "type": "mcq",
+        "o": [
+            "y = ax^2 + bx + c, a parabolic relationship",
+            "y = mx + b",
+            "y = e^x",
+            "y = log(x)"
+        ]
+    },
+    {
+        "q": "A quadratic model has a ______ vertex (maximum if a < 0, minimum if a > 0).",
+        "type": "fill_blank",
+        "answers": [
+            "unique"
+        ],
+        "other_options": [
+            "no",
+            "two",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Projectile motion without air resistance follows a quadratic path.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quadratic feature:",
+        "type": "match",
+        "left": [
+            "a > 0",
+            "a < 0",
+            "Vertex",
+            "Discriminant"
+        ],
+        "right": [
+            "Opens up",
+            "Opens down",
+            "Minimum/maximum",
+            "b^2 - 4ac"
+        ]
+    },
+    {
+        "q": "Rearrange quadratic applications:",
+        "type": "rearrange",
+        "words": [
+            "Projectile motion",
+            "Profit maximization",
+            "Area optimization",
+            "Curve fitting"
+        ]
+    },
+    {
+        "q": "What is a power model?",
+        "type": "mcq",
+        "o": [
+            "y = ax^b, where output is proportional to input raised to a power",
+            "y = mx + b",
+            "y = e^x",
+            "y = b^x"
+        ]
+    },
+    {
+        "q": "In y = ax^b, b is the ______ exponent.",
+        "type": "fill_blank",
+        "answers": [
+            "power"
+        ],
+        "other_options": [
+            "linear",
+            "logarithmic",
+            "exponential"
+        ]
+    },
+    {
+        "q": "Power models include inverse relationships (like y = k/x = kx^(-1)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the power model exponent:",
+        "type": "match",
+        "left": [
+            "b = 1",
+            "b = 2",
+            "b = -1",
+            "b = 0.5"
+        ],
+        "right": [
+            "Linear",
+            "Quadratic",
+            "Inverse",
+            "Square root"
+        ]
+    },
+    {
+        "q": "Rearrange power model types:",
+        "type": "rearrange",
+        "words": [
+            "Linear (b=1)",
+            "Quadratic (b=2)",
+            "Square root (b=0.5)",
+            "Inverse (b=-1)"
+        ]
+    },
+    {
+        "q": "What is a logarithmic model?",
+        "type": "mcq",
+        "o": [
+            "y = a + b*ln(x), output increases slowly as input increases",
+            "y = e^x",
+            "y = mx + b",
+            "y = ax^2"
+        ]
+    },
+    {
+        "q": "Logarithmic models show ______ growth at large x values.",
+        "type": "fill_blank",
+        "answers": [
+            "slow"
+        ],
+        "other_options": [
+            "fast",
+            "exponential",
+            "linear"
+        ]
+    },
+    {
+        "q": "The Richter scale for earthquakes uses a logarithmic model.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the logarithmic application:",
+        "type": "match",
+        "left": [
+            "Richter scale",
+            "Decibels",
+            "pH",
+            "Learning curves"
+        ],
+        "right": [
+            "Earthquake",
+            "Sound",
+            "Acidity",
+            "Skill acquisition"
+        ]
+    },
+    {
+        "q": "Rearrange log model characteristics:",
+        "type": "rearrange",
+        "words": [
+            "Fast initial growth",
+            "Slowing rate",
+            "Concave down",
+            "Asymptotic behavior"
+        ]
+    },
+    {
+        "q": "What is a difference equation?",
+        "type": "mcq",
+        "o": [
+            "A recurrence relation defining values in terms of previous values: x(n+1) = f(x(n))",
+            "A differential equation",
+            "An algebraic equation",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "Difference equations model ______ time steps.",
+        "type": "fill_blank",
+        "answers": [
+            "discrete"
+        ],
+        "other_options": [
+            "continuous",
+            "random",
+            "negative"
+        ]
+    },
+    {
+        "q": "The Fibonacci sequence follows a difference equation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the difference equation:",
+        "type": "match",
+        "left": [
+            "Linear first-order",
+            "Second-order",
+            "Nonlinear",
+            "Fibonacci"
+        ],
+        "right": [
+            "x(n+1) = ax(n) + b",
+            "Involves x(n-1)",
+            "f is nonlinear",
+            "F(n) = F(n-1) + F(n-2)"
+        ]
+    },
+    {
+        "q": "Rearrange difference equation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Initial condition",
+            "Recurrence relation",
+            "Iterate forward",
+            "Find equilibrium"
+        ]
+    },
+    {
+        "q": "What is a differential equation model?",
+        "type": "mcq",
+        "o": [
+            "An equation involving derivatives that describes continuous change",
+            "An algebraic equation",
+            "A difference equation",
+            "A polynomial"
+        ]
+    },
+    {
+        "q": "Differential equations model ______ change over time.",
+        "type": "fill_blank",
+        "answers": [
+            "continuous"
+        ],
+        "other_options": [
+            "discrete",
+            "random",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Newton's second law F = ma is a differential equation (where a = d^2x/dt^2).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ODE order:",
+        "type": "match",
+        "left": [
+            "First-order",
+            "Second-order",
+            "Linear",
+            "Nonlinear"
+        ],
+        "right": [
+            "dy/dx only",
+            "d^2y/dx^2",
+            "y and derivatives linear",
+            "Products like y*dy/dx"
+        ]
+    },
+    {
+        "q": "Rearrange ODE solving:",
+        "type": "rearrange",
+        "words": [
+            "Classify ODE type",
+            "Choose method",
+            "Solve analytically or numerically",
+            "Check solution"
+        ]
+    },
+    {
+        "q": "What is dimensional analysis?",
+        "type": "mcq",
+        "o": [
+            "Checking that equations are dimensionally consistent (units match)",
+            "Measuring dimensions",
+            "Drawing in 3D",
+            "Statistical analysis"
+        ]
+    },
+    {
+        "q": "Dimensional analysis ensures that ______ are consistent in equations.",
+        "type": "fill_blank",
+        "answers": [
+            "units"
+        ],
+        "other_options": [
+            "variables",
+            "constants",
+            "functions"
+        ]
+    },
+    {
+        "q": "You cannot add quantities with different dimensions (e.g., meters + seconds).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dimension:",
+        "type": "match",
+        "left": [
+            "Length",
+            "Time",
+            "Mass",
+            "Velocity"
+        ],
+        "right": [
+            "[L]",
+            "[T]",
+            "[M]",
+            "[L]/[T]"
+        ]
+    },
+    {
+        "q": "Rearrange dimensional analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify quantities",
+            "Write dimensions",
+            "Check consistency",
+            "Form dimensionless groups"
+        ]
+    },
+    {
+        "q": "What is the Buckingham Pi theorem?",
+        "type": "mcq",
+        "o": [
+            "Any physical law can be expressed as a relationship between dimensionless groups",
+            "Pi equals 3.14159",
+            "All equations have 3 variables",
+            "Units are optional"
+        ]
+    },
+    {
+        "q": "The Buckingham Pi theorem helps reduce the number of ______ needed in experiments.",
+        "type": "fill_blank",
+        "answers": [
+            "variables"
+        ],
+        "other_options": [
+            "equations",
+            "dimensions",
+            "constants"
+        ]
+    },
+    {
+        "q": "Dimensionless numbers like Reynolds number arise from the Buckingham Pi theorem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dimensionless number:",
+        "type": "match",
+        "left": [
+            "Reynolds",
+            "Froude",
+            "Mach",
+            "Peclet"
+        ],
+        "right": [
+            "Inertia/viscous",
+            "Inertia/gravity",
+            "Speed/sound speed",
+            "Advection/diffusion"
+        ]
+    },
+    {
+        "q": "Rearrange Buckingham Pi theorem steps:",
+        "type": "rearrange",
+        "words": [
+            "List all variables",
+            "Identify fundamental dimensions",
+            "Form Pi groups",
+            "Express relationship"
+        ]
+    },
+    {
+        "q": "What is Monte Carlo simulation?",
+        "type": "mcq",
+        "o": [
+            "Using random sampling to estimate quantities or simulate systems",
+            "A deterministic calculation",
+            "A linear model",
+            "A single calculation"
+        ]
+    },
+    {
+        "q": "Monte Carlo uses ______ numbers to sample from distributions.",
+        "type": "fill_blank",
+        "answers": [
+            "random"
+        ],
+        "other_options": [
+            "sequential",
+            "fixed",
+            "negative"
+        ]
+    },
+    {
+        "q": "Monte Carlo simulation accuracy improves with more samples.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the simulation type:",
+        "type": "match",
+        "left": [
+            "Monte Carlo",
+            "Discrete event",
+            "Agent-based",
+            "Continuous"
+        ],
+        "right": [
+            "Random sampling",
+            "Event-driven",
+            "Individual agents",
+            "Differential equations"
+        ]
+    },
+    {
+        "q": "Rearrange Monte Carlo process:",
+        "type": "rearrange",
+        "words": [
+            "Define input distributions",
+            "Generate random samples",
+            "Run model repeatedly",
+            "Aggregate results"
+        ]
+    },
+    {
+        "q": "What is sensitivity analysis?",
+        "type": "mcq",
+        "o": [
+            "Studying how changes in inputs affect model outputs",
+            "Making the model sensitive",
+            "Deleting variables",
+            "Ignoring parameters"
+        ]
+    },
+    {
+        "q": "Sensitivity analysis identifies which ______ have the most impact on outputs.",
+        "type": "fill_blank",
+        "answers": [
+            "parameters"
+        ],
+        "other_options": [
+            "outputs",
+            "graphs",
+            "titles"
+        ]
+    },
+    {
+        "q": "One-at-a-time (OAT) sensitivity analysis varies one parameter while holding others fixed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sensitivity method:",
+        "type": "match",
+        "left": [
+            "OAT",
+            "Morris",
+            "Sobol",
+            "FAST"
+        ],
+        "right": [
+            "One parameter at a time",
+            "Screening method",
+            "Variance-based",
+            "Fourier analysis"
+        ]
+    },
+    {
+        "q": "Rearrange sensitivity analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Define parameter ranges",
+            "Choose method",
+            "Vary parameters",
+            "Analyze output variation"
+        ]
+    },
+    {
+        "q": "What is model validation?",
+        "type": "mcq",
+        "o": [
+            "Checking if the model accurately represents the real system",
+            "Running the model faster",
+            "Adding more variables",
+            "Deleting the model"
+        ]
+    },
+    {
+        "q": "Validation compares model ______ to real-world data.",
+        "type": "fill_blank",
+        "answers": [
+            "predictions"
+        ],
+        "other_options": [
+            "equations",
+            "assumptions",
+            "code"
+        ]
+    },
+    {
+        "q": "A validated model is verified to be correct and matches reality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the model assessment:",
+        "type": "match",
+        "left": [
+            "Verification",
+            "Validation",
+            "Calibration",
+            "Sensitivity"
+        ],
+        "right": [
+            "Code correctness",
+            "Matches reality",
+            "Parameter fitting",
+            "Input importance"
+        ]
+    },
+    {
+        "q": "Rearrange model development:",
+        "type": "rearrange",
+        "words": [
+            "Build model",
+            "Verify code",
+            "Calibrate parameters",
+            "Validate against data"
+        ]
+    },
+    {
+        "q": "What is model calibration?",
+        "type": "mcq",
+        "o": [
+            "Adjusting parameters to make model outputs match observed data",
+            "Deleting parameters",
+            "Running the model backward",
+            "Ignoring data"
+        ]
+    },
+    {
+        "q": "Calibration typically minimizes the ______ between model and data.",
+        "type": "fill_blank",
+        "answers": [
+            "error"
+        ],
+        "other_options": [
+            "sum",
+            "product",
+            "ratio"
+        ]
+    },
+    {
+        "q": "Least squares is a common calibration method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the calibration method:",
+        "type": "match",
+        "left": [
+            "Least squares",
+            "Maximum likelihood",
+            "Bayesian",
+            "Manual"
+        ],
+        "right": [
+            "Minimize SSE",
+            "Maximize probability",
+            "Posterior distribution",
+            "Trial and error"
+        ]
+    },
+    {
+        "q": "Rearrange calibration process:",
+        "type": "rearrange",
+        "words": [
+            "Collect data",
+            "Choose parameters to fit",
+            "Define objective function",
+            "Optimize parameters"
+        ]
+    },
+    {
+        "q": "What is linear regression?",
+        "type": "mcq",
+        "o": [
+            "Fitting a line y = mx + b to data by minimizing squared errors",
+            "Any curve fitting",
+            "Exponential fitting",
+            "Polynomial fitting only"
+        ]
+    },
+    {
+        "q": "Linear regression minimizes the sum of squared ______.",
+        "type": "fill_blank",
+        "answers": [
+            "residuals"
+        ],
+        "other_options": [
+            "data points",
+            "variables",
+            "parameters"
+        ]
+    },
+    {
+        "q": "R-squared measures how well the line fits the data (closer to 1 = better fit).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the regression output:",
+        "type": "match",
+        "left": [
+            "Slope",
+            "Intercept",
+            "R-squared",
+            "Residual"
+        ],
+        "right": [
+            "Rate of change",
+            "y when x=0",
+            "Goodness of fit",
+            "Prediction error"
+        ]
+    },
+    {
+        "q": "Rearrange linear regression steps:",
+        "type": "rearrange",
+        "words": [
+            "Plot scatter plot",
+            "Compute slope and intercept",
+            "Draw line",
+            "Compute R-squared"
+        ]
+    },
+    {
+        "q": "What is least squares regression?",
+        "type": "mcq",
+        "o": [
+            "Finding parameters that minimize sum of squared residuals (y_i - y_hat_i)^2",
+            "Minimizing absolute errors",
+            "Maximizing errors",
+            "Random parameter selection"
+        ]
+    },
+    {
+        "q": "Least squares minimizes the sum of (y_i - _______i)^2.",
+        "type": "fill_blank",
+        "answers": [
+            "y_hat"
+        ],
+        "other_options": [
+            "x",
+            "m",
+            "b"
+        ]
+    },
+    {
+        "q": "Ordinary least squares (OLS) has a closed-form solution for linear models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the least squares term:",
+        "type": "match",
+        "left": [
+            "SSE",
+            "SSR",
+            "SST",
+            "R^2"
+        ],
+        "right": [
+            "Sum of squared errors",
+            "Sum of squared regression",
+            "Total sum of squares",
+            "SSR/SST"
+        ]
+    },
+    {
+        "q": "Rearrange least squares calculation:",
+        "type": "rearrange",
+        "words": [
+            "Compute means",
+            "Compute deviations",
+            "Solve normal equations",
+            "Get coefficients"
+        ]
+    },
+    {
+        "q": "What is polynomial regression?",
+        "type": "mcq",
+        "o": [
+            "Fitting a polynomial y = a0 + a1*x + a2*x^2 + ... to data",
+            "Only linear fitting",
+            "Exponential fitting",
+            "Logarithmic fitting only"
+        ]
+    },
+    {
+        "q": "A degree-2 polynomial regression is also called ______ regression.",
+        "type": "fill_blank",
+        "answers": [
+            "quadratic"
+        ],
+        "other_options": [
+            "linear",
+            "cubic",
+            "exponential"
+        ]
+    },
+    {
+        "q": "Higher degree polynomials can overfit the data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the polynomial degree:",
+        "type": "match",
+        "left": [
+            "Degree 1",
+            "Degree 2",
+            "Degree 3",
+            "Degree n"
+        ],
+        "right": [
+            "Linear",
+            "Quadratic",
+            "Cubic",
+            "nth degree"
+        ]
+    },
+    {
+        "q": "Rearrange polynomial fitting considerations:",
+        "type": "rearrange",
+        "words": [
+            "Choose degree",
+            "Fit polynomial",
+            "Check residuals",
+            "Avoid overfitting"
+        ]
+    },
+    {
+        "q": "What is interpolation?",
+        "type": "mcq",
+        "o": [
+            "Estimating values between known data points",
+            "Estimating values beyond data range",
+            "Deleting data",
+            "Averaging all data"
+        ]
+    },
+    {
+        "q": "Interpolation estimates values ______ the range of known data.",
+        "type": "fill_blank",
+        "answers": [
+            "within"
+        ],
+        "other_options": [
+            "outside",
+            "before",
+            "after"
+        ]
+    },
+    {
+        "q": "Linear interpolation assumes a straight line between adjacent points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the interpolation method:",
+        "type": "match",
+        "left": [
+            "Linear",
+            "Polynomial",
+            "Spline",
+            "Nearest neighbor"
+        ],
+        "right": [
+            "Straight line",
+            "Single polynomial",
+            "Piecewise smooth",
+            "Closest value"
+        ]
+    },
+    {
+        "q": "Rearrange interpolation methods by smoothness:",
+        "type": "rearrange",
+        "words": [
+            "Nearest neighbor (step)",
+            "Linear (continuous)",
+            "Quadratic (smooth)",
+            "Cubic spline (smoother)"
+        ]
+    },
+    {
+        "q": "What is extrapolation?",
+        "type": "mcq",
+        "o": [
+            "Estimating values beyond the range of known data",
+            "Estimating within data range",
+            "Averaging data",
+            "Deleting outliers"
+        ]
+    },
+    {
+        "q": "Extrapolation is generally ______ risky than interpolation.",
+        "type": "fill_blank",
+        "answers": [
+            "more"
+        ],
+        "other_options": [
+            "less",
+            "equally",
+            "not"
+        ]
+    },
+    {
+        "q": "Extrapolation assumes the model trend continues beyond observed data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the estimation type:",
+        "type": "match",
+        "left": [
+            "Interpolation",
+            "Extrapolation",
+            "Regression",
+            "Smoothing"
+        ],
+        "right": [
+            "Within data",
+            "Beyond data",
+            "Find relationship",
+            "Reduce noise"
+        ]
+    },
+    {
+        "q": "Rearrange risk level:",
+        "type": "rearrange",
+        "words": [
+            "Interpolation (safest)",
+            "Near extrapolation",
+            "Far extrapolation",
+            "Wild extrapolation (riskiest)"
+        ]
+    },
+    {
+        "q": "What is a network model?",
+        "type": "mcq",
+        "o": [
+            "A model using nodes and edges to represent relationships",
+            "A computer network only",
+            "A linear equation",
+            "A spreadsheet"
+        ]
+    },
+    {
+        "q": "In graph theory, vertices are connected by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "edges"
+        ],
+        "other_options": [
+            "nodes",
+            "points",
+            "circles"
+        ]
+    },
+    {
+        "q": "Social networks can be modeled as graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the network term:",
+        "type": "match",
+        "left": [
+            "Node",
+            "Edge",
+            "Degree",
+            "Path"
+        ],
+        "right": [
+            "Vertex",
+            "Connection",
+            "Number of connections",
+            "Sequence of edges"
+        ]
+    },
+    {
+        "q": "Rearrange network concepts:",
+        "type": "rearrange",
+        "words": [
+            "Nodes",
+            "Edges",
+            "Degree distribution",
+            "Network metrics"
+        ]
+    },
+    {
+        "q": "What is the shortest path problem?",
+        "type": "mcq",
+        "o": [
+            "Finding the path with minimum total edge weight between two nodes",
+            "Finding the longest path",
+            "Counting all paths",
+            "Deleting paths"
+        ]
+    },
+    {
+        "q": "Dijkstra's algorithm finds ______ paths in weighted graphs.",
+        "type": "fill_blank",
+        "answers": [
+            "shortest"
+        ],
+        "other_options": [
+            "longest",
+            "random",
+            "all"
+        ]
+    },
+    {
+        "q": "GPS navigation uses shortest path algorithms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the graph algorithm:",
+        "type": "match",
+        "left": [
+            "Dijkstra",
+            "Bellman-Ford",
+            "Floyd-Warshall",
+            "A*"
+        ],
+        "right": [
+            "Single source positive",
+            "Handles negative",
+            "All pairs",
+            "Heuristic search"
+        ]
+    },
+    {
+        "q": "Rearrange shortest path steps (Dijkstra):",
+        "type": "rearrange",
+        "words": [
+            "Initialize distances",
+            "Pick minimum unvisited",
+            "Update neighbors",
+            "Mark as visited"
+        ]
+    },
+    {
+        "q": "What is the traveling salesman problem (TSP)?",
+        "type": "mcq",
+        "o": [
+            "Finding the shortest tour visiting all cities exactly once and returning",
+            "Finding the shortest path between two cities",
+            "Counting cities",
+            "A linear programming problem"
+        ]
+    },
+    {
+        "q": "TSP is an NP-______ optimization problem.",
+        "type": "fill_blank",
+        "answers": [
+            "hard"
+        ],
+        "other_options": [
+            "easy",
+            "complete",
+            "simple"
+        ]
+    },
+    {
+        "q": "Exact TSP solutions become infeasible for large numbers of cities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the TSP approach:",
+        "type": "match",
+        "left": [
+            "Brute force",
+            "Nearest neighbor",
+            "2-opt",
+            "Genetic algorithm"
+        ],
+        "right": [
+            "Try all permutations",
+            "Greedy heuristic",
+            "Local improvement",
+            "Evolutionary"
+        ]
+    },
+    {
+        "q": "Rearrange TSP solution methods:",
+        "type": "rearrange",
+        "words": [
+            "Exact (small n)",
+            "Constructive heuristic",
+            "Local search",
+            "Metaheuristic (large n)"
+        ]
+    },
+    {
+        "q": "What is queueing theory?",
+        "type": "mcq",
+        "o": [
+            "Mathematical study of waiting lines and service systems",
+            "Theory of questions",
+            "Linear algebra",
+            "Calculus"
+        ]
+    },
+    {
+        "q": "In queueing, lambda (λ) represents the ______ rate.",
+        "type": "fill_blank",
+        "answers": [
+            "arrival"
+        ],
+        "other_options": [
+            "service",
+            "departure",
+            "queue"
+        ]
+    },
+    {
+        "q": "For a stable queue, arrival rate must be less than service rate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the queueing notation:",
+        "type": "match",
+        "left": [
+            "M/M/1",
+            "M/M/c",
+            "M/G/1",
+            "G/G/1"
+        ],
+        "right": [
+            "Markov/Markov/1 server",
+            "c servers",
+            "General service",
+            "Most general"
+        ]
+    },
+    {
+        "q": "Rearrange queueing model components:",
+        "type": "rearrange",
+        "words": [
+            "Arrival process",
+            "Service process",
+            "Number of servers",
+            "Queue discipline"
+        ]
+    },
+    {
+        "q": "What is game theory?",
+        "type": "mcq",
+        "o": [
+            "Mathematical study of strategic decision-making among rational agents",
+            "Theory of video games",
+            "Board game design",
+            "Sports analysis only"
+        ]
+    },
+    {
+        "q": "In game theory, a ______ is a complete plan of action for a player.",
+        "type": "fill_blank",
+        "answers": [
+            "strategy"
+        ],
+        "other_options": [
+            "game",
+            "move",
+            "payoff"
+        ]
+    },
+    {
+        "q": "The Nash equilibrium is a state where no player benefits from unilaterally changing strategy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the game theory concept:",
+        "type": "match",
+        "left": [
+            "Nash equilibrium",
+            "Dominant strategy",
+            "Payoff matrix",
+            "Zero-sum"
+        ],
+        "right": [
+            "Stable state",
+            "Best regardless of others",
+            "Outcome table",
+            "One wins = other loses"
+        ]
+    },
+    {
+        "q": "Rearrange game theory concepts:",
+        "type": "rearrange",
+        "words": [
+            "Players",
+            "Strategies",
+            "Payoffs",
+            "Equilibrium"
+        ]
+    },
+    {
+        "q": "What is the Prisoner's Dilemma?",
+        "type": "mcq",
+        "o": [
+            "A game where individual rationality leads to a suboptimal collective outcome",
+            "A puzzle about escaping prison",
+            "A linear equation",
+            "A queueing problem"
+        ]
+    },
+    {
+        "q": "In the Prisoner's Dilemma, mutual ______ is the Nash equilibrium but not the best collective outcome.",
+        "type": "fill_blank",
+        "answers": [
+            "defection"
+        ],
+        "other_options": [
+            "cooperation",
+            "silence",
+            "escape"
+        ]
+    },
+    {
+        "q": "The Prisoner's Dilemma illustrates why cooperation can fail even when it benefits everyone.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Prisoner's Dilemma outcome:",
+        "type": "match",
+        "left": [
+            "Both cooperate",
+            "Both defect",
+            "One defects",
+            "Nash equilibrium"
+        ],
+        "right": [
+            "Good for both",
+            "Worse for both",
+            "Best for defector",
+            "Both defect"
+        ]
+    },
+    {
+        "q": "Rearrange Prisoner's Dilemma payoffs (for one player):",
+        "type": "rearrange",
+        "words": [
+            "Defect while other cooperates (best)",
+            "Both cooperate",
+            "Both defect",
+            "Cooperate while other defects (worst)"
+        ]
+    },
+    {
+        "q": "What is a Markov chain?",
+        "type": "mcq",
+        "o": [
+            "A stochastic process where future state depends only on current state",
+            "A deterministic sequence",
+            "A linear equation",
+            "A differential equation"
+        ]
+    },
+    {
+        "q": "Markov chains have the ______ property: future depends only on present, not past.",
+        "type": "fill_blank",
+        "answers": [
+            "memoryless"
+        ],
+        "other_options": [
+            "memory",
+            "historical",
+            "predictive"
+        ]
+    },
+    {
+        "q": "Transition probabilities in a Markov chain sum to 1 for each state.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Markov chain term:",
+        "type": "match",
+        "left": [
+            "State",
+            "Transition probability",
+            "Stationary distribution",
+            "Absorbing state"
+        ],
+        "right": [
+            "Current condition",
+            "P(next|current)",
+            "Long-run probabilities",
+            "No exit"
+        ]
+    },
+    {
+        "q": "Rearrange Markov chain analysis:",
+        "type": "rearrange",
+        "words": [
+            "Define states",
+            "Construct transition matrix",
+            "Compute powers of matrix",
+            "Find stationary distribution"
+        ]
+    },
+    {
+        "q": "What is a decision tree?",
+        "type": "mcq",
+        "o": [
+            "A tree structure showing decisions, chance events, and outcomes",
+            "A physical tree",
+            "A linear model",
+            "A network diagram only"
+        ]
+    },
+    {
+        "q": "Decision trees have decision ______ (squares) and chance nodes (circles).",
+        "type": "fill_blank",
+        "answers": [
+            "nodes"
+        ],
+        "other_options": [
+            "branches",
+            "leaves",
+            "roots"
+        ]
+    },
+    {
+        "q": "Expected value analysis helps choose the best decision in a decision tree.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the decision tree component:",
+        "type": "match",
+        "left": [
+            "Decision node",
+            "Chance node",
+            "Branch",
+            "Outcome"
+        ],
+        "right": [
+            "Choice point",
+            "Uncertainty",
+            "Connection",
+            "Final payoff"
+        ]
+    },
+    {
+        "q": "Rearrange decision tree analysis:",
+        "type": "rearrange",
+        "words": [
+            "Draw tree structure",
+            "Assign probabilities",
+            "Calculate expected values",
+            "Choose best decision"
+        ]
+    },
+    {
+        "q": "What is expected value in decision making?",
+        "type": "mcq",
+        "o": [
+            "Sum of (outcome * probability) for all possible outcomes",
+            "The most likely outcome",
+            "The maximum outcome",
+            "The minimum outcome"
+        ]
+    },
+    {
+        "q": "EV = sum of p_i * _______ for all outcomes i.",
+        "type": "fill_blank",
+        "answers": [
+            "x_i"
+        ],
+        "other_options": [
+            "n",
+            "1",
+            "p"
+        ]
+    },
+    {
+        "q": "A risk-neutral decision maker chooses the option with highest expected value.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the decision criterion:",
+        "type": "match",
+        "left": [
+            "Expected value",
+            "Maximin",
+            "Maximax",
+            "Minimax regret"
+        ],
+        "right": [
+            "Average outcome",
+            "Best worst case",
+            "Best best case",
+            "Minimize maximum regret"
+        ]
+    },
+    {
+        "q": "Rearrange risk attitudes:",
+        "type": "rearrange",
+        "words": [
+            "Risk averse (prefer certain)",
+            "Risk neutral (EV)",
+            "Risk seeking (prefer gamble)"
+        ]
+    },
+    {
+        "q": "What is inventory modeling?",
+        "type": "mcq",
+        "o": [
+            "Mathematical models for managing stock levels and ordering",
+            "Counting items only",
+            "Sales forecasting only",
+            "Accounting"
+        ]
+    },
+    {
+        "q": "The Economic Order Quantity (EOQ) minimizes total ______ and ordering costs.",
+        "type": "fill_blank",
+        "answers": [
+            "holding"
+        ],
+        "other_options": [
+            "selling",
+            "buying",
+            "production"
+        ]
+    },
+    {
+        "q": "EOQ assumes constant demand rate and instantaneous replenishment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the inventory term:",
+        "type": "match",
+        "left": [
+            "EOQ",
+            "Reorder point",
+            "Safety stock",
+            "Lead time"
+        ],
+        "right": [
+            "Optimal order quantity",
+            "When to order",
+            "Buffer against uncertainty",
+            "Time to receive order"
+        ]
+    },
+    {
+        "q": "Rearrange inventory model components:",
+        "type": "rearrange",
+        "words": [
+            "Demand estimation",
+            "Cost analysis",
+            "EOQ calculation",
+            "Reorder policy"
+        ]
+    },
+    {
+        "q": "What is the EOQ formula?",
+        "type": "mcq",
+        "o": [
+            "Q* = sqrt(2DS/H) where D=demand, S=ordering cost, H=holding cost",
+            "Q* = D + S + H",
+            "Q* = D/H",
+            "Q* = S/D"
+        ]
+    },
+    {
+        "q": "EOQ = sqrt(2*D*S/______) where H is annual holding cost per unit.",
+        "type": "fill_blank",
+        "answers": [
+            "H"
+        ],
+        "other_options": [
+            "D",
+            "S",
+            "Q"
+        ]
+    },
+    {
+        "q": "EOQ balances ordering costs (favoring large orders) and holding costs (favoring small orders).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the EOQ variable:",
+        "type": "match",
+        "left": [
+            "D",
+            "S",
+            "H",
+            "Q*"
+        ],
+        "right": [
+            "Annual demand",
+            "Ordering cost",
+            "Holding cost",
+            "Optimal quantity"
+        ]
+    },
+    {
+        "q": "Rearrange EOQ derivation:",
+        "type": "rearrange",
+        "words": [
+            "Write total cost function",
+            "Take derivative",
+            "Set equal to zero",
+            "Solve for Q*"
+        ]
+    },
+    {
+        "q": "What is a scheduling model?",
+        "type": "mcq",
+        "o": [
+            "Mathematical model for allocating resources over time",
+            "A calendar",
+            "A to-do list",
+            "Random assignment"
+        ]
+    },
+    {
+        "q": "Scheduling models optimize ______ such as completion time or resource utilization.",
+        "type": "fill_blank",
+        "answers": [
+            "objectives"
+        ],
+        "other_options": [
+            "colors",
+            "names",
+            "shapes"
+        ]
+    },
+    {
+        "q": "The critical path in project scheduling is the longest path determining project duration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the scheduling method:",
+        "type": "match",
+        "left": [
+            "CPM",
+            "PERT",
+            "Gantt chart",
+            "Job shop"
+        ],
+        "right": [
+            "Critical path method",
+            "Probabilistic durations",
+            "Visual timeline",
+            "Machine scheduling"
+        ]
+    },
+    {
+        "q": "Rearrange project scheduling steps:",
+        "type": "rearrange",
+        "words": [
+            "Define activities",
+            "Estimate durations",
+            "Find critical path",
+            "Allocate resources"
+        ]
+    },
+    {
+        "q": "What is PERT?",
+        "type": "mcq",
+        "o": [
+            "Program Evaluation and Review Technique, uses probabilistic activity times",
+            "A type of chart only",
+            "A linear model",
+            "A network without times"
+        ]
+    },
+    {
+        "q": "PERT uses three time estimates: optimistic, most likely, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pessimistic"
+        ],
+        "other_options": [
+            "average",
+            "median",
+            "random"
+        ]
+    },
+    {
+        "q": "PERT expected time = (a + 4m + b)/6 where a=optimistic, m=most likely, b=pessimistic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PERT estimate:",
+        "type": "match",
+        "left": [
+            "a",
+            "m",
+            "b",
+            "Expected time"
+        ],
+        "right": [
+            "Optimistic",
+            "Most likely",
+            "Pessimistic",
+            "(a+4m+b)/6"
+        ]
+    },
+    {
+        "q": "Rearrange PERT analysis:",
+        "type": "rearrange",
+        "words": [
+            "Get three estimates",
+            "Calculate expected times",
+            "Find critical path",
+            "Estimate completion probability"
+        ]
+    },
+    {
+        "q": "What is a Gantt chart?",
+        "type": "mcq",
+        "o": [
+            "A bar chart showing project schedule with activities over time",
+            "A pie chart",
+            "A scatter plot",
+            "A network diagram"
+        ]
+    },
+    {
+        "q": "Gantt charts show activity ______ as horizontal bars.",
+        "type": "fill_blank",
+        "answers": [
+            "duration"
+        ],
+        "other_options": [
+            "cost",
+            "color",
+            "name"
+        ]
+    },
+    {
+        "q": "Gantt charts are useful for visualizing project timelines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the project visualization:",
+        "type": "match",
+        "left": [
+            "Gantt chart",
+            "Network diagram",
+            "Milestone chart",
+            "Resource histogram"
+        ],
+        "right": [
+            "Timeline bars",
+            "Activity relationships",
+            "Key dates",
+            "Resource usage"
+        ]
+    },
+    {
+        "q": "Rearrange Gantt chart elements:",
+        "type": "rearrange",
+        "words": [
+            "Activities (rows)",
+            "Timeline (x-axis)",
+            "Duration bars",
+            "Dependencies"
+        ]
+    },
+    {
+        "q": "What is a compartmental model?",
+        "type": "mcq",
+        "o": [
+            "A model dividing a system into distinct states or compartments",
+            "A storage model",
+            "A linear equation",
+            "A network model"
+        ]
+    },
+    {
+        "q": "SIR and SEIR are examples of ______ models in epidemiology.",
+        "type": "fill_blank",
+        "answers": [
+            "compartmental"
+        ],
+        "other_options": [
+            "linear",
+            "exponential",
+            "network"
+        ]
+    },
+    {
+        "q": "Compartmental models conserve total population (flows in = flows out + change).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the epidemic compartment:",
+        "type": "match",
+        "left": [
+            "S",
+            "E",
+            "I",
+            "R"
+        ],
+        "right": [
+            "Susceptible",
+            "Exposed",
+            "Infected",
+            "Recovered"
+        ]
+    },
+    {
+        "q": "Rearrange SEIR model flow:",
+        "type": "rearrange",
+        "words": [
+            "Susceptible",
+            "Exposed",
+            "Infected",
+            "Recovered"
+        ]
+    },
+    {
+        "q": "What is the basic reproduction number R0?",
+        "type": "mcq",
+        "o": [
+            "Average number of secondary infections caused by one infected individual in a fully susceptible population",
+            "Total population",
+            "Infection rate",
+            "Recovery rate"
+        ]
+    },
+    {
+        "q": "If R0 > 1, the epidemic will ______.",
+        "type": "fill_blank",
+        "answers": [
+            "spread"
+        ],
+        "other_options": [
+            "die out",
+            "stay constant",
+            "reverse"
+        ]
+    },
+    {
+        "q": "Herd immunity threshold is approximately 1 - 1/R0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the R0 interpretation:",
+        "type": "match",
+        "left": [
+            "R0 < 1",
+            "R0 = 1",
+            "R0 > 1",
+            "R0 = 2"
+        ],
+        "right": [
+            "Dies out",
+            "Endemic",
+            "Epidemic",
+            "Each infects 2 on average"
+        ]
+    },
+    {
+        "q": "Rearrange epidemic control strategies:",
+        "type": "rearrange",
+        "words": [
+            "Reduce contacts",
+            "Increase recovery",
+            "Vaccination",
+            "Achieve herd immunity"
+        ]
+    },
+    {
+        "q": "What is Newton's law of cooling?",
+        "type": "mcq",
+        "o": [
+            "dT/dt = -k(T - T_env), temperature change proportional to temperature difference",
+            "T = mt + b",
+            "T = e^t",
+            "T = constant"
+        ]
+    },
+    {
+        "q": "Newton's cooling law gives ______ decay toward ambient temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "exponential"
+        ],
+        "other_options": [
+            "linear",
+            "quadratic",
+            "instant"
+        ]
+    },
+    {
+        "q": "The solution is T(t) = T_env + (T_0 - T_env)*e^(-kt).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cooling model term:",
+        "type": "match",
+        "left": [
+            "T",
+            "T_env",
+            "k",
+            "T_0"
+        ],
+        "right": [
+            "Temperature",
+            "Ambient",
+            "Cooling constant",
+            "Initial temperature"
+        ]
+    },
+    {
+        "q": "Rearrange cooling model application:",
+        "type": "rearrange",
+        "words": [
+            "Measure initial temp",
+            "Note ambient temp",
+            "Fit cooling constant",
+            "Predict future temp"
+        ]
+    },
+    {
+        "q": "What is allometric scaling?",
+        "type": "mcq",
+        "o": [
+            "Power law relationship between body size and biological quantities: y = ax^b",
+            "Linear scaling",
+            "Exponential growth",
+            "Constant ratio"
+        ]
+    },
+    {
+        "q": "Metabolic rate scales with body mass to the ______ power (approximately 0.75).",
+        "type": "fill_blank",
+        "answers": [
+            "3/4"
+        ],
+        "other_options": [
+            "1",
+            "2",
+            "1/2"
+        ]
+    },
+    {
+        "q": "Kleiber's law states metabolic rate scales as mass^0.75.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the allometric exponent:",
+        "type": "match",
+        "left": [
+            "Isometric",
+            "b < 1",
+            "b > 1",
+            "b = 0.75"
+        ],
+        "right": [
+            "Proportional",
+            "Slower than linear",
+            "Faster than linear",
+            "Metabolic rate"
+        ]
+    },
+    {
+        "q": "Rearrange allometric analysis:",
+        "type": "rearrange",
+        "words": [
+            "Log-transform data",
+            "Fit linear regression",
+            "Exponent = slope",
+            "Interpret scaling"
+        ]
+    },
+    {
+        "q": "What is a phase plane analysis?",
+        "type": "mcq",
+        "o": [
+            "Analyzing 2D systems of ODEs by plotting trajectories in state space",
+            "Analyzing phases of the moon",
+            "A linear algebra technique",
+            "A statistical method"
+        ]
+    },
+    {
+        "q": "In phase plane analysis, fixed points are where dx/dt = dy/dt = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0"
+        ],
+        "other_options": [
+            "1",
+            "x",
+            "y"
+        ]
+    },
+    {
+        "q": "Nullclines are curves where one derivative is zero.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the phase plane term:",
+        "type": "match",
+        "left": [
+            "Fixed point",
+            "Nullcline",
+            "Trajectory",
+            "Basin of attraction"
+        ],
+        "right": [
+            "Equilibrium",
+            "Derivative = 0",
+            "Solution path",
+            "Initial conditions leading to attractor"
+        ]
+    },
+    {
+        "q": "Rearrange phase plane analysis:",
+        "type": "rearrange",
+        "words": [
+            "Find nullclines",
+            "Find fixed points",
+            "Analyze stability",
+            "Draw trajectories"
+        ]
+    },
+    {
+        "q": "What is stability analysis for ODEs?",
+        "type": "mcq",
+        "o": [
+            "Determining whether solutions stay near or move away from equilibrium",
+            "Finding solutions",
+            "Integrating equations",
+            "Plotting graphs"
+        ]
+    },
+    {
+        "q": "A stable equilibrium attracts nearby ______.",
+        "type": "fill_blank",
+        "answers": [
+            "trajectories"
+        ],
+        "other_options": [
+            "lines",
+            "points",
+            "equations"
+        ]
+    },
+    {
+        "q": "Linearization near equilibrium uses the Jacobian matrix.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stability type:",
+        "type": "match",
+        "left": [
+            "Stable node",
+            "Unstable node",
+            "Saddle",
+            "Center"
+        ],
+        "right": [
+            "Attracts all",
+            "Repels all",
+            "Attracts some, repels others",
+            "Neutral orbits"
+        ]
+    },
+    {
+        "q": "Rearrange stability analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Find equilibrium",
+            "Compute Jacobian",
+            "Find eigenvalues",
+            "Classify stability"
+        ]
+    },
+    {
+        "q": "What characterizes a stable fixed point (real negative eigenvalues)?",
+        "type": "mcq",
+        "o": [
+            "All eigenvalues have negative real parts, solutions converge",
+            "Positive eigenvalues",
+            "Zero eigenvalues",
+            "Imaginary eigenvalues only"
+        ]
+    },
+    {
+        "q": "Negative real parts of eigenvalues mean solutions ______ to equilibrium.",
+        "type": "fill_blank",
+        "answers": [
+            "converge"
+        ],
+        "other_options": [
+            "diverge",
+            "oscillate",
+            "stop"
+        ]
+    },
+    {
+        "q": "A saddle point has eigenvalues of opposite sign.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match eigenvalue to behavior:",
+        "type": "match",
+        "left": [
+            "Both negative real",
+            "Both positive real",
+            "Opposite signs",
+            "Purely imaginary"
+        ],
+        "right": [
+            "Stable node",
+            "Unstable node",
+            "Saddle",
+            "Center (neutrally stable)"
+        ]
+    },
+    {
+        "q": "Rearrange by stability:",
+        "type": "rearrange",
+        "words": [
+            "Stable node (most stable)",
+            "Stable spiral",
+            "Center",
+            "Unstable node (least stable)"
+        ]
+    },
+    {
+        "q": "What is bifurcation?",
+        "type": "mcq",
+        "o": [
+            "Qualitative change in system behavior as a parameter varies",
+            "A linear change",
+            "Constant behavior",
+            "Random change"
+        ]
+    },
+    {
+        "q": "At a bifurcation point, the number or stability of ______ changes.",
+        "type": "fill_blank",
+        "answers": [
+            "equilibria"
+        ],
+        "other_options": [
+            "parameters",
+            "variables",
+            "inputs"
+        ]
+    },
+    {
+        "q": "Bifurcation diagrams show how equilibria change with a parameter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bifurcation type:",
+        "type": "match",
+        "left": [
+            "Saddle-node",
+            "Transcritical",
+            "Pitchfork",
+            "Hopf"
+        ],
+        "right": [
+            "Equilibria appear/disappear",
+            "Exchange stability",
+            "Symmetry breaking",
+            "Oscillations emerge"
+        ]
+    },
+    {
+        "q": "Rearrange bifurcation analysis:",
+        "type": "rearrange",
+        "words": [
+            "Vary parameter",
+            "Track equilibria",
+            "Note qualitative changes",
+            "Draw bifurcation diagram"
+        ]
+    },
+    {
+        "q": "What is a limit cycle?",
+        "type": "mcq",
+        "o": [
+            "An isolated closed trajectory in phase space representing periodic motion",
+            "A fixed point",
+            "A line",
+            "A random path"
+        ]
+    },
+    {
+        "q": "Limit cycles represent self-sustained ______.",
+        "type": "fill_blank",
+        "answers": [
+            "oscillations"
+        ],
+        "other_options": [
+            "equilibria",
+            "decay",
+            "growth"
+        ]
+    },
+    {
+        "q": "A stable limit cycle attracts nearby trajectories.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the periodic behavior:",
+        "type": "match",
+        "left": [
+            "Fixed point",
+            "Limit cycle",
+            "Strange attractor",
+            "Quasiperiodic"
+        ],
+        "right": [
+            "Constant solution",
+            "Periodic oscillation",
+            "Chaotic",
+            "Two incommensurate frequencies"
+        ]
+    },
+    {
+        "q": "Rearrange dynamical behaviors:",
+        "type": "rearrange",
+        "words": [
+            "Fixed point (simplest)",
+            "Limit cycle",
+            "Quasiperiodic",
+            "Chaos (most complex)"
+        ]
+    },
+    {
+        "q": "What is chaos in dynamical systems?",
+        "type": "mcq",
+        "o": [
+            "Deterministic but unpredictable behavior with sensitive dependence on initial conditions",
+            "Random behavior",
+            "Periodic behavior",
+            "Linear behavior"
+        ]
+    },
+    {
+        "q": "Chaos shows sensitive dependence on ______ conditions (butterfly effect).",
+        "type": "fill_blank",
+        "answers": [
+            "initial"
+        ],
+        "other_options": [
+            "boundary",
+            "final",
+            "all"
+        ]
+    },
+    {
+        "q": "The Lorenz attractor is an example of a chaotic system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the chaos concept:",
+        "type": "match",
+        "left": [
+            "Butterfly effect",
+            "Strange attractor",
+            "Lyapunov exponent",
+            "Fractal dimension"
+        ],
+        "right": [
+            "Sensitivity",
+            "Chaotic trajectory",
+            "Divergence rate",
+            "Self-similarity"
+        ]
+    },
+    {
+        "q": "Rearrange chaos characteristics:",
+        "type": "rearrange",
+        "words": [
+            "Deterministic",
+            "Aperiodic",
+            "Sensitive to IC",
+            "Bounded"
+        ]
+    },
+    {
+        "q": "What is time series forecasting?",
+        "type": "mcq",
+        "o": [
+            "Predicting future values based on historical time-ordered data",
+            "Random number generation",
+            "Cross-sectional analysis",
+            "Static modeling"
+        ]
+    },
+    {
+        "q": "Time series forecasting uses ______ data to predict the future.",
+        "type": "fill_blank",
+        "answers": [
+            "historical"
+        ],
+        "other_options": [
+            "random",
+            "future",
+            "static"
+        ]
+    },
+    {
+        "q": "Moving average is a simple forecasting method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the forecasting method:",
+        "type": "match",
+        "left": [
+            "Moving average",
+            "Exponential smoothing",
+            "ARIMA",
+            "Regression"
+        ],
+        "right": [
+            "Average recent values",
+            "Weight recent more",
+            "Autoregressive integrated",
+            "Relationship-based"
+        ]
+    },
+    {
+        "q": "Rearrange forecasting complexity:",
+        "type": "rearrange",
+        "words": [
+            "Naive (use last)",
+            "Moving average",
+            "Exp smoothing",
+            "ARIMA"
+        ]
+    },
+    {
+        "q": "What is exponential smoothing?",
+        "type": "mcq",
+        "o": [
+            "A forecasting method that applies exponentially decreasing weights to past observations",
+            "Fitting an exponential curve",
+            "Random weighting",
+            "Linear regression"
+        ]
+    },
+    {
+        "q": "In exponential smoothing, alpha (α) is the ______ constant (0 < α < 1).",
+        "type": "fill_blank",
+        "answers": [
+            "smoothing"
+        ],
+        "other_options": [
+            "growth",
+            "decay",
+            "random"
+        ]
+    },
+    {
+        "q": "Higher alpha gives more weight to recent observations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the alpha value:",
+        "type": "match",
+        "left": [
+            "Alpha = 0.1",
+            "Alpha = 0.5",
+            "Alpha = 0.9",
+            "Alpha = 1"
+        ],
+        "right": [
+            "Slow response",
+            "Moderate",
+            "Fast response",
+            "Last value only"
+        ]
+    },
+    {
+        "q": "Rearrange smoothing by responsiveness:",
+        "type": "rearrange",
+        "words": [
+            "Alpha = 0.1 (slow)",
+            "Alpha = 0.3",
+            "Alpha = 0.7",
+            "Alpha = 0.9 (fast)"
+        ]
+    },
+    {
+        "q": "What is trend analysis?",
+        "type": "mcq",
+        "o": [
+            "Identifying long-term movement direction in data over time",
+            "Random fluctuation",
+            "Seasonal pattern",
+            "Noise analysis"
+        ]
+    },
+    {
+        "q": "A trend is the long-term ______ or decrease in data.",
+        "type": "fill_blank",
+        "answers": [
+            "increase"
+        ],
+        "other_options": [
+            "noise",
+            "cycle",
+            "random"
+        ]
+    },
+    {
+        "q": "Detrending removes the trend component from time series.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the time series component:",
+        "type": "match",
+        "left": [
+            "Trend",
+            "Seasonal",
+            "Cyclical",
+            "Random"
+        ],
+        "right": [
+            "Long-term direction",
+            "Repeating pattern",
+            "Irregular fluctuation",
+            "Noise"
+        ]
+    },
+    {
+        "q": "Rearrange time series decomposition:",
+        "type": "rearrange",
+        "words": [
+            "Trend component",
+            "Seasonal component",
+            "Cyclical component",
+            "Random component"
+        ]
+    },
+    {
+        "q": "What is seasonality in time series?",
+        "type": "mcq",
+        "o": [
+            "Regular, repeating patterns that occur at fixed intervals (daily, weekly, yearly)",
+            "Random noise",
+            "Long-term trend",
+            "Irregular cycles"
+        ]
+    },
+    {
+        "q": "Retail sales often show ______ seasonality with peaks in December.",
+        "type": "fill_blank",
+        "answers": [
+            "yearly"
+        ],
+        "other_options": [
+            "daily",
+            "random",
+            "weekly"
+        ]
+    },
+    {
+        "q": "Seasonal adjustment removes predictable seasonal effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the seasonality example:",
+        "type": "match",
+        "left": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Annual"
+        ],
+        "right": [
+            "Traffic patterns",
+            "Weekend effects",
+            "Payroll cycles",
+            "Holiday shopping"
+        ]
+    },
+    {
+        "q": "Rearrange seasonal periods:",
+        "type": "rearrange",
+        "words": [
+            "Daily (24 hours)",
+            "Weekly (7 days)",
+            "Monthly (30 days)",
+            "Annual (365 days)"
+        ]
+    },
+    {
+        "q": "What is control theory?",
+        "type": "mcq",
+        "o": [
+            "Mathematical framework for designing systems that regulate themselves via feedback",
+            "Random control",
+            "Manual control only",
+            "Open-loop only"
+        ]
+    },
+    {
+        "q": "Feedback control compares output to ______ and adjusts accordingly.",
+        "type": "fill_blank",
+        "answers": [
+            "setpoint"
+        ],
+        "other_options": [
+            "input",
+            "history",
+            "random"
+        ]
+    },
+    {
+        "q": "A thermostat is an example of feedback control.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the control type:",
+        "type": "match",
+        "left": [
+            "Open-loop",
+            "Closed-loop",
+            "Feedforward",
+            "Adaptive"
+        ],
+        "right": [
+            "No feedback",
+            "Uses feedback",
+            "Anticipates disturbance",
+            "Adjusts parameters"
+        ]
+    },
+    {
+        "q": "Rearrange control system complexity:",
+        "type": "rearrange",
+        "words": [
+            "On-off control",
+            "P control",
+            "PI control",
+            "PID control"
+        ]
+    },
+    {
+        "q": "What is PID control?",
+        "type": "mcq",
+        "o": [
+            "Proportional-Integral-Derivative controller that uses error, integral, and derivative terms",
+            "Only proportional control",
+            "Random control",
+            "Open-loop control"
+        ]
+    },
+    {
+        "q": "PID stands for Proportional-Integral-______.",
+        "type": "fill_blank",
+        "answers": [
+            "Derivative"
+        ],
+        "other_options": [
+            "Difference",
+            "Dynamic",
+            "Direct"
+        ]
+    },
+    {
+        "q": "The proportional term responds to current error.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PID term:",
+        "type": "match",
+        "left": [
+            "P",
+            "I",
+            "D",
+            "Kp"
+        ],
+        "right": [
+            "Current error",
+            "Accumulated error",
+            "Rate of change",
+            "Proportional gain"
+        ]
+    },
+    {
+        "q": "Rearrange PID tuning effects:",
+        "type": "rearrange",
+        "words": [
+            "P: quick response",
+            "I: eliminate steady error",
+            "D: reduce overshoot",
+            "Combined: optimal control"
+        ]
+    },
+    {
+        "q": "What is systems dynamics?",
+        "type": "mcq",
+        "o": [
+            "Methodology using feedback loops and stocks/flows to model complex systems",
+            "Linear algebra",
+            "Static analysis",
+            "Simple equations"
+        ]
+    },
+    {
+        "q": "Systems dynamics uses stocks, flows, and ______ loops.",
+        "type": "fill_blank",
+        "answers": [
+            "feedback"
+        ],
+        "other_options": [
+            "random",
+            "static",
+            "linear"
+        ]
+    },
+    {
+        "q": "Jay Forrester developed systems dynamics at MIT.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the systems dynamics term:",
+        "type": "match",
+        "left": [
+            "Stock",
+            "Flow",
+            "Feedback",
+            "Delay"
+        ],
+        "right": [
+            "Accumulation",
+            "Rate of change",
+            "Circular causality",
+            "Time lag"
+        ]
+    },
+    {
+        "q": "Rearrange systems dynamics elements:",
+        "type": "rearrange",
+        "words": [
+            "Define stocks",
+            "Identify flows",
+            "Map feedback loops",
+            "Simulate behavior"
+        ]
+    },
+    {
+        "q": "What is a stock in systems dynamics?",
+        "type": "mcq",
+        "o": [
+            "An accumulation variable that represents quantity at a point in time",
+            "A rate of change",
+            "A feedback loop",
+            "A constant"
+        ]
+    },
+    {
+        "q": "Population, inventory, and bank balance are examples of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "stocks"
+        ],
+        "other_options": [
+            "flows",
+            "rates",
+            "constants"
+        ]
+    },
+    {
+        "q": "Stocks change only through inflows and outflows.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match stock and flow examples:",
+        "type": "match",
+        "left": [
+            "Bathtub water",
+            "Bank balance",
+            "Population",
+            "Knowledge"
+        ],
+        "right": [
+            "Stock",
+            "Stock",
+            "Stock",
+            "Stock"
+        ]
+    },
+    {
+        "q": "Rearrange stock-flow relationship:",
+        "type": "rearrange",
+        "words": [
+            "Inflows add to stock",
+            "Outflows subtract",
+            "Stock = integral of net flow",
+            "Rate of change = net flow"
+        ]
+    },
+    {
+        "q": "What is a causal loop diagram?",
+        "type": "mcq",
+        "o": [
+            "A diagram showing variables and their causal relationships with polarity",
+            "A data chart",
+            "A flowchart",
+            "An organization chart"
+        ]
+    },
+    {
+        "q": "A positive (+) link means variables move in the ______ direction.",
+        "type": "fill_blank",
+        "answers": [
+            "same"
+        ],
+        "other_options": [
+            "opposite",
+            "random",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Reinforcing (R) loops amplify change; balancing (B) loops resist change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the loop type:",
+        "type": "match",
+        "left": [
+            "Reinforcing",
+            "Balancing",
+            "Positive link",
+            "Negative link"
+        ],
+        "right": [
+            "Amplifies",
+            "Stabilizes",
+            "Same direction",
+            "Opposite direction"
+        ]
+    },
+    {
+        "q": "Rearrange causal loop analysis:",
+        "type": "rearrange",
+        "words": [
+            "Identify variables",
+            "Draw links with polarity",
+            "Identify loop type",
+            "Analyze behavior"
+        ]
+    },
+    {
+        "q": "What is agent-based modeling?",
+        "type": "mcq",
+        "o": [
+            "Simulation where autonomous agents interact according to rules, producing emergent behavior",
+            "A differential equation",
+            "A linear regression",
+            "A static model"
+        ]
+    },
+    {
+        "q": "In ABM, ______ patterns arise from individual agent interactions.",
+        "type": "fill_blank",
+        "answers": [
+            "emergent"
+        ],
+        "other_options": [
+            "random",
+            "planned",
+            "static"
+        ]
+    },
+    {
+        "q": "Agent-based models can capture heterogeneity and spatial effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ABM concept:",
+        "type": "match",
+        "left": [
+            "Agent",
+            "Rule",
+            "Environment",
+            "Emergence"
+        ],
+        "right": [
+            "Individual entity",
+            "Behavior specification",
+            "Context/space",
+            "Collective pattern"
+        ]
+    },
+    {
+        "q": "Rearrange ABM components:",
+        "type": "rearrange",
+        "words": [
+            "Define agents",
+            "Specify rules",
+            "Create environment",
+            "Run simulation"
+        ]
+    },
+    {
+        "q": "What is discrete event simulation?",
+        "type": "mcq",
+        "o": [
+            "Simulation that progresses by processing events in chronological order",
+            "Continuous simulation",
+            "Static analysis",
+            "Random sampling"
+        ]
+    },
+    {
+        "q": "DES advances the clock to the next ______ event.",
+        "type": "fill_blank",
+        "answers": [
+            "scheduled"
+        ],
+        "other_options": [
+            "random",
+            "fixed",
+            "first"
+        ]
+    },
+    {
+        "q": "Manufacturing and service systems are often modeled with DES.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the DES component:",
+        "type": "match",
+        "left": [
+            "Event",
+            "Entity",
+            "Resource",
+            "Queue"
+        ],
+        "right": [
+            "State change",
+            "Object flowing through",
+            "Limited capacity",
+            "Waiting line"
+        ]
+    },
+    {
+        "q": "Rearrange DES simulation steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize system",
+            "Schedule events",
+            "Process next event",
+            "Update state and statistics"
+        ]
+    },
+    {
+        "q": "What is cellular automata?",
+        "type": "mcq",
+        "o": [
+            "Grid of cells that evolve according to rules based on neighbor states",
+            "Single cell simulation",
+            "A differential equation",
+            "Random pattern"
+        ]
+    },
+    {
+        "q": "Conway's Game of Life is a famous ______ automaton.",
+        "type": "fill_blank",
+        "answers": [
+            "cellular"
+        ],
+        "other_options": [
+            "random",
+            "linear",
+            "static"
+        ]
+    },
+    {
+        "q": "Complex patterns can emerge from simple cellular automata rules.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CA rule (Game of Life):",
+        "type": "match",
+        "left": [
+            "2 or 3 neighbors",
+            "Fewer than 2",
+            "More than 3",
+            "Exactly 3"
+        ],
+        "right": [
+            "Survive",
+            "Die (underpopulation)",
+            "Die (overpopulation)",
+            "Birth"
+        ]
+    },
+    {
+        "q": "Rearrange cellular automata setup:",
+        "type": "rearrange",
+        "words": [
+            "Define grid",
+            "Set initial state",
+            "Define update rules",
+            "Iterate and observe"
+        ]
+    },
+    {
+        "q": "What is the Euler method for ODEs?",
+        "type": "mcq",
+        "o": [
+            "y(n+1) = y(n) + h*f(t(n), y(n)), a simple numerical integration method",
+            "y = mx + b",
+            "An analytical solution",
+            "A symbolic method"
+        ]
+    },
+    {
+        "q": "Euler's method uses a step size h to approximate the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solution"
+        ],
+        "other_options": [
+            "problem",
+            "error",
+            "derivative"
+        ]
+    },
+    {
+        "q": "Smaller step sizes give more accurate results in Euler's method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the numerical method:",
+        "type": "match",
+        "left": [
+            "Euler",
+            "Improved Euler",
+            "RK4",
+            "Implicit"
+        ],
+        "right": [
+            "First-order",
+            "Second-order",
+            "Fourth-order",
+            "Backward Euler"
+        ]
+    },
+    {
+        "q": "Rearrange numerical methods by accuracy:",
+        "type": "rearrange",
+        "words": [
+            "Euler (O(h))",
+            "Improved Euler (O(h^2))",
+            "RK4 (O(h^4))",
+            "Higher-order methods"
+        ]
+    },
+    {
+        "q": "What is Runge-Kutta 4 (RK4)?",
+        "type": "mcq",
+        "o": [
+            "A fourth-order numerical method using weighted average of slopes at multiple points",
+            "A first-order method",
+            "An analytical solution",
+            "Euler's method"
+        ]
+    },
+    {
+        "q": "RK4 evaluates the derivative at ______ points per step (k1, k2, k3, k4).",
+        "type": "fill_blank",
+        "answers": [
+            "four"
+        ],
+        "other_options": [
+            "one",
+            "two",
+            "three"
+        ]
+    },
+    {
+        "q": "RK4 is widely used due to its balance of accuracy and computational cost.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the RK4 slope:",
+        "type": "match",
+        "left": [
+            "k1",
+            "k2",
+            "k3",
+            "k4"
+        ],
+        "right": [
+            "Slope at start",
+            "Slope at midpoint using k1",
+            "Slope at midpoint using k2",
+            "Slope at end"
+        ]
+    },
+    {
+        "q": "Rearrange RK4 calculation:",
+        "type": "rearrange",
+        "words": [
+            "Calculate k1",
+            "Calculate k2 using k1",
+            "Calculate k3 using k2",
+            "Calculate k4 and combine"
+        ]
+    },
+    {
+        "q": "What is finite difference method?",
+        "type": "mcq",
+        "o": [
+            "Approximating derivatives using discrete differences on a grid",
+            "An analytical method",
+            "A Monte Carlo method",
+            "A random method"
+        ]
+    },
+    {
+        "q": "Forward difference approximates f'(x) ≈ (f(x+h) - f(x))/______.",
+        "type": "fill_blank",
+        "answers": [
+            "h"
+        ],
+        "other_options": [
+            "x",
+            "f",
+            "1"
+        ]
+    },
+    {
+        "q": "Central differences are more accurate than forward or backward differences.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the difference type:",
+        "type": "match",
+        "left": [
+            "Forward",
+            "Backward",
+            "Central",
+            "Second derivative"
+        ],
+        "right": [
+            "(f(x+h)-f(x))/h",
+            "(f(x)-f(x-h))/h",
+            "(f(x+h)-f(x-h))/2h",
+            "(f(x+h)-2f(x)+f(x-h))/h^2"
+        ]
+    },
+    {
+        "q": "Rearrange finite difference accuracy:",
+        "type": "rearrange",
+        "words": [
+            "Forward/backward (O(h))",
+            "Central (O(h^2))",
+            "Higher-order stencils",
+            "Spectral (highest)"
+        ]
+    },
+    {
+        "q": "What is a partial differential equation (PDE)?",
+        "type": "mcq",
+        "o": [
+            "An equation involving partial derivatives with respect to multiple independent variables",
+            "An ODE",
+            "An algebraic equation",
+            "A difference equation"
+        ]
+    },
+    {
+        "q": "PDEs model phenomena that vary in ______ and time (like temperature or waves).",
+        "type": "fill_blank",
+        "answers": [
+            "space"
+        ],
+        "other_options": [
+            "height",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "The heat equation is a classic PDE.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PDE type:",
+        "type": "match",
+        "left": [
+            "Elliptic",
+            "Parabolic",
+            "Hyperbolic",
+            "Laplace"
+        ],
+        "right": [
+            "Equilibrium (steady)",
+            "Diffusion",
+            "Wave",
+            "Steady-state potential"
+        ]
+    },
+    {
+        "q": "Rearrange PDE solution methods:",
+        "type": "rearrange",
+        "words": [
+            "Separation of variables",
+            "Finite differences",
+            "Finite elements",
+            "Spectral methods"
+        ]
+    },
+    {
+        "q": "What is the heat equation?",
+        "type": "mcq",
+        "o": [
+            "du/dt = k * d^2u/dx^2, describing heat diffusion",
+            "du/dt = 0",
+            "d^2u/dt^2 = c^2 * d^2u/dx^2",
+            "Laplace's equation"
+        ]
+    },
+    {
+        "q": "The heat equation is ______ (parabolic type).",
+        "type": "fill_blank",
+        "answers": [
+            "parabolic"
+        ],
+        "other_options": [
+            "elliptic",
+            "hyperbolic",
+            "linear"
+        ]
+    },
+    {
+        "q": "Heat flows from hot to cold regions according to the heat equation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the PDE to physical phenomenon:",
+        "type": "match",
+        "left": [
+            "Heat equation",
+            "Wave equation",
+            "Laplace equation",
+            "Poisson equation"
+        ],
+        "right": [
+            "Diffusion",
+            "Vibrations",
+            "Steady potential",
+            "Sources in steady state"
+        ]
+    },
+    {
+        "q": "Rearrange PDEs by time dependence:",
+        "type": "rearrange",
+        "words": [
+            "Laplace (no time)",
+            "Poisson (no time)",
+            "Heat (first derivative)",
+            "Wave (second derivative)"
+        ]
+    },
+    {
+        "q": "What is the wave equation?",
+        "type": "mcq",
+        "o": [
+            "d^2u/dt^2 = c^2 * d^2u/dx^2, describing wave propagation",
+            "du/dt = k * d^2u/dx^2",
+            "Laplace's equation",
+            "Poisson's equation"
+        ]
+    },
+    {
+        "q": "In the wave equation, c is the wave ______.",
+        "type": "fill_blank",
+        "answers": [
+            "speed"
+        ],
+        "other_options": [
+            "amplitude",
+            "frequency",
+            "phase"
+        ]
+    },
+    {
+        "q": "The wave equation is hyperbolic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match wave equation applications:",
+        "type": "match",
+        "left": [
+            "Sound",
+            "Light",
+            "Vibrating string",
+            "Water waves"
+        ],
+        "right": [
+            "Acoustic waves",
+            "Electromagnetic",
+            "Mechanical",
+            "Surface waves"
+        ]
+    },
+    {
+        "q": "Rearrange wave equation concepts:",
+        "type": "rearrange",
+        "words": [
+            "Initial displacement",
+            "Initial velocity",
+            "Boundary conditions",
+            "Wave propagation"
+        ]
+    },
+    {
+        "q": "What is dimensional reduction in modeling?",
+        "type": "mcq",
+        "o": [
+            "Simplifying models by assuming certain dimensions are negligible or averaging",
+            "Adding dimensions",
+            "Making 3D models",
+            "Data visualization"
+        ]
+    },
+    {
+        "q": "A thin rod can be modeled as ______ (ignoring width and height).",
+        "type": "fill_blank",
+        "answers": [
+            "1D"
+        ],
+        "other_options": [
+            "2D",
+            "3D",
+            "4D"
+        ]
+    },
+    {
+        "q": "Dimensional reduction simplifies PDEs at the cost of some spatial detail.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dimensional approximation:",
+        "type": "match",
+        "left": [
+            "Thin rod",
+            "Thin plate",
+            "Shallow water",
+            "Point mass"
+        ],
+        "right": [
+            "1D",
+            "2D",
+            "Depth-averaged",
+            "0D"
+        ]
+    },
+    {
+        "q": "Rearrange by spatial complexity:",
+        "type": "rearrange",
+        "words": [
+            "0D (point)",
+            "1D (line)",
+            "2D (surface)",
+            "3D (volume)"
+        ]
+    },
+    {
+        "q": "What is a stochastic differential equation (SDE)?",
+        "type": "mcq",
+        "o": [
+            "A differential equation with random (noise) terms",
+            "A deterministic ODE",
+            "An algebraic equation",
+            "A difference equation"
+        ]
+    },
+    {
+        "q": "SDEs model systems with ______ fluctuations or uncertainty.",
+        "type": "fill_blank",
+        "answers": [
+            "random"
+        ],
+        "other_options": [
+            "fixed",
+            "zero",
+            "large"
+        ]
+    },
+    {
+        "q": "Brownian motion is modeled by a stochastic process.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the stochastic concept:",
+        "type": "match",
+        "left": [
+            "Wiener process",
+            "Ito integral",
+            "Drift",
+            "Diffusion"
+        ],
+        "right": [
+            "Brownian motion",
+            "Stochastic integration",
+            "Deterministic part",
+            "Random part"
+        ]
+    },
+    {
+        "q": "Rearrange SDE components:",
+        "type": "rearrange",
+        "words": [
+            "Drift term",
+            "Diffusion term",
+            "Wiener process",
+            "Solution distribution"
+        ]
+    },
+    {
+        "q": "What is the Black-Scholes model?",
+        "type": "mcq",
+        "o": [
+            "A mathematical model for pricing options using stochastic calculus",
+            "A physics model",
+            "A population model",
+            "A linear model"
+        ]
+    },
+    {
+        "q": "Black-Scholes uses a ______ differential equation to model stock prices.",
+        "type": "fill_blank",
+        "answers": [
+            "stochastic"
+        ],
+        "other_options": [
+            "linear",
+            "quadratic",
+            "static"
+        ]
+    },
+    {
+        "q": "The Black-Scholes formula gives a closed-form option pricing solution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Black-Scholes term:",
+        "type": "match",
+        "left": [
+            "S",
+            "K",
+            "r",
+            "sigma"
+        ],
+        "right": [
+            "Stock price",
+            "Strike price",
+            "Risk-free rate",
+            "Volatility"
+        ]
+    },
+    {
+        "q": "Rearrange option pricing inputs:",
+        "type": "rearrange",
+        "words": [
+            "Current stock price",
+            "Strike price",
+            "Time to expiry",
+            "Volatility"
+        ]
+    },
+    {
+        "q": "What is parameter estimation?",
+        "type": "mcq",
+        "o": [
+            "Finding the best parameter values to fit a model to data",
+            "Guessing parameters",
+            "Deleting parameters",
+            "Ignoring parameters"
+        ]
+    },
+    {
+        "q": "Parameter estimation minimizes the ______ between model predictions and data.",
+        "type": "fill_blank",
+        "answers": [
+            "difference"
+        ],
+        "other_options": [
+            "sum",
+            "product",
+            "ratio"
+        ]
+    },
+    {
+        "q": "Maximum likelihood estimation (MLE) is a common parameter estimation method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the estimation method:",
+        "type": "match",
+        "left": [
+            "Least squares",
+            "MLE",
+            "Bayesian",
+            "Method of moments"
+        ],
+        "right": [
+            "Minimize SSE",
+            "Maximize likelihood",
+            "Posterior distribution",
+            "Match moments"
+        ]
+    },
+    {
+        "q": "Rearrange parameter estimation process:",
+        "type": "rearrange",
+        "words": [
+            "Choose model",
+            "Define objective",
+            "Optimize parameters",
+            "Validate fit"
+        ]
+    },
+    {
+        "q": "What is model uncertainty?",
+        "type": "mcq",
+        "o": [
+            "Doubt about which model structure best represents reality",
+            "Certain model selection",
+            "Parameter certainty",
+            "Data collection"
+        ]
+    },
+    {
+        "q": "Model uncertainty includes uncertainty about ______ structure and parameters.",
+        "type": "fill_blank",
+        "answers": [
+            "model"
+        ],
+        "other_options": [
+            "data",
+            "results",
+            "graphs"
+        ]
+    },
+    {
+        "q": "Ensemble modeling uses multiple models to address model uncertainty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the uncertainty type:",
+        "type": "match",
+        "left": [
+            "Parameter",
+            "Structural",
+            "Data",
+            "Measurement"
+        ],
+        "right": [
+            "Value uncertainty",
+            "Model form",
+            "Input errors",
+            "Observation errors"
+        ]
+    },
+    {
+        "q": "Rearrange uncertainty sources:",
+        "type": "rearrange",
+        "words": [
+            "Measurement error",
+            "Parameter uncertainty",
+            "Model structure",
+            "Scenario uncertainty"
+        ]
+    },
+    {
+        "q": "What is scenario analysis?",
+        "type": "mcq",
+        "o": [
+            "Exploring model behavior under different plausible future assumptions",
+            "A single run",
+            "Historical analysis only",
+            "Random testing"
+        ]
+    },
+    {
+        "q": "Scenario analysis tests ______ outcomes under different assumptions.",
+        "type": "fill_blank",
+        "answers": [
+            "possible"
+        ],
+        "other_options": [
+            "certain",
+            "fixed",
+            "random"
+        ]
+    },
+    {
+        "q": "Best-case, worst-case, and most-likely are common scenarios.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the scenario type:",
+        "type": "match",
+        "left": [
+            "Best case",
+            "Worst case",
+            "Base case",
+            "Stressed"
+        ],
+        "right": [
+            "Optimistic",
+            "Pessimistic",
+            "Most likely",
+            "Extreme test"
+        ]
+    },
+    {
+        "q": "Rearrange scenario analysis steps:",
+        "type": "rearrange",
+        "words": [
+            "Define scenarios",
+            "Set parameters",
+            "Run model",
+            "Compare outcomes"
+        ]
+    },
+    {
+        "q": "What is a metamodel?",
+        "type": "mcq",
+        "o": [
+            "A simplified surrogate model that approximates a complex model's input-output relationship",
+            "A complex model",
+            "The original model",
+            "Raw data"
+        ]
+    },
+    {
+        "q": "Metamodels are also called ______ models or response surfaces.",
+        "type": "fill_blank",
+        "answers": [
+            "surrogate"
+        ],
+        "other_options": [
+            "original",
+            "complex",
+            "final"
+        ]
+    },
+    {
+        "q": "Metamodels speed up optimization and sensitivity analysis for expensive models.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metamodel type:",
+        "type": "match",
+        "left": [
+            "Polynomial",
+            "Kriging",
+            "Neural network",
+            "Radial basis"
+        ],
+        "right": [
+            "Response surface",
+            "Gaussian process",
+            "Machine learning",
+            "RBF interpolation"
+        ]
+    },
+    {
+        "q": "Rearrange metamodel construction:",
+        "type": "rearrange",
+        "words": [
+            "Design experiments",
+            "Run complex model",
+            "Fit metamodel",
+            "Validate accuracy"
+        ]
+    },
+    {
+        "q": "What is design of experiments (DOE)?",
+        "type": "mcq",
+        "o": [
+            "Systematic planning of experiments to efficiently explore input space",
+            "Random testing",
+            "One run only",
+            "Pure trial and error"
+        ]
+    },
+    {
+        "q": "DOE systematically varies ______ to understand their effects.",
+        "type": "fill_blank",
+        "answers": [
+            "factors"
+        ],
+        "other_options": [
+            "outputs",
+            "results",
+            "graphs"
+        ]
+    },
+    {
+        "q": "Factorial designs test all combinations of factor levels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the DOE type:",
+        "type": "match",
+        "left": [
+            "Full factorial",
+            "Fractional factorial",
+            "Latin hypercube",
+            "Central composite"
+        ],
+        "right": [
+            "All combinations",
+            "Subset of combinations",
+            "Space-filling",
+            "Response surface"
+        ]
+    },
+    {
+        "q": "Rearrange DOE complexity:",
+        "type": "rearrange",
+        "words": [
+            "One-at-a-time",
+            "Fractional factorial",
+            "Full factorial",
+            "Response surface"
+        ]
+    },
+    {
+        "q": "What is utility theory?",
+        "type": "mcq",
+        "o": [
+            "Mathematical framework for measuring preferences and satisfaction",
+            "A physics theory",
+            "Random choice",
+            "Linear programming"
+        ]
+    },
+    {
+        "q": "Utility functions assign ______ values to outcomes based on preferences.",
+        "type": "fill_blank",
+        "answers": [
+            "numerical"
+        ],
+        "other_options": [
+            "random",
+            "fixed",
+            "binary"
+        ]
+    },
+    {
+        "q": "Risk-averse individuals have concave utility functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the utility function shape:",
+        "type": "match",
+        "left": [
+            "Concave",
+            "Convex",
+            "Linear",
+            "S-shaped"
+        ],
+        "right": [
+            "Risk averse",
+            "Risk seeking",
+            "Risk neutral",
+            "Prospect theory"
+        ]
+    },
+    {
+        "q": "Rearrange utility theory concepts:",
+        "type": "rearrange",
+        "words": [
+            "Preferences",
+            "Utility function",
+            "Expected utility",
+            "Risk attitude"
+        ]
+    },
+    {
+        "q": "What is multi-objective optimization?",
+        "type": "mcq",
+        "o": [
+            "Optimization with multiple, often conflicting, objectives to balance",
+            "Single objective optimization",
+            "Random search",
+            "No optimization"
+        ]
+    },
+    {
+        "q": "The Pareto front contains solutions where no objective can improve without ______ another.",
+        "type": "fill_blank",
+        "answers": [
+            "worsening"
+        ],
+        "other_options": [
+            "improving",
+            "ignoring",
+            "fixing"
+        ]
+    },
+    {
+        "q": "Pareto optimal solutions are non-dominated.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multi-objective concept:",
+        "type": "match",
+        "left": [
+            "Pareto front",
+            "Dominated",
+            "Trade-off",
+            "NSGA-II"
+        ],
+        "right": [
+            "Optimal set",
+            "Not optimal",
+            "Balance between objectives",
+            "Evolutionary algorithm"
+        ]
+    },
+    {
+        "q": "Rearrange multi-objective optimization:",
+        "type": "rearrange",
+        "words": [
+            "Define multiple objectives",
+            "Find Pareto front",
+            "Visualize trade-offs",
+            "Select solution"
+        ]
+    },
+    {
+        "q": "What is heuristic optimization?",
+        "type": "mcq",
+        "o": [
+            "Optimization using experience-based rules that find good (not guaranteed optimal) solutions",
+            "Exact optimization",
+            "Random search",
+            "Exhaustive search"
+        ]
+    },
+    {
+        "q": "Heuristics trade optimality for ______ efficiency.",
+        "type": "fill_blank",
+        "answers": [
+            "computational"
+        ],
+        "other_options": [
+            "zero",
+            "maximum",
+            "random"
+        ]
+    },
+    {
+        "q": "Greedy algorithms are simple heuristics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the heuristic type:",
+        "type": "match",
+        "left": [
+            "Greedy",
+            "Local search",
+            "Simulated annealing",
+            "Genetic algorithm"
+        ],
+        "right": [
+            "Best immediate choice",
+            "Neighborhood search",
+            "Probabilistic acceptance",
+            "Evolutionary"
+        ]
+    },
+    {
+        "q": "Rearrange heuristics by sophistication:",
+        "type": "rearrange",
+        "words": [
+            "Greedy",
+            "Local search",
+            "Simulated annealing",
+            "Genetic algorithm"
+        ]
+    },
+    {
+        "q": "What is genetic algorithm?",
+        "type": "mcq",
+        "o": [
+            "Optimization inspired by natural selection using populations, mutation, and crossover",
+            "A deterministic method",
+            "A gradient method",
+            "A linear method"
+        ]
+    },
+    {
+        "q": "Genetic algorithms evolve a ______ of candidate solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "population"
+        ],
+        "other_options": [
+            "single",
+            "fixed",
+            "random"
+        ]
+    },
+    {
+        "q": "Selection, crossover, and mutation are genetic algorithm operators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the GA operator:",
+        "type": "match",
+        "left": [
+            "Selection",
+            "Crossover",
+            "Mutation",
+            "Fitness"
+        ],
+        "right": [
+            "Choose parents",
+            "Combine genes",
+            "Random change",
+            "Solution quality"
+        ]
+    },
+    {
+        "q": "Rearrange GA steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize population",
+            "Evaluate fitness",
+            "Selection and crossover",
+            "Mutation and repeat"
+        ]
+    },
+    {
+        "q": "What is simulated annealing?",
+        "type": "mcq",
+        "o": [
+            "Optimization inspired by metal cooling, allowing worse moves with decreasing probability",
+            "A greedy algorithm",
+            "A linear method",
+            "Exhaustive search"
+        ]
+    },
+    {
+        "q": "Simulated annealing uses a ______ parameter that decreases over time.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "pressure",
+            "speed",
+            "size"
+        ]
+    },
+    {
+        "q": "High temperature allows more exploration; low temperature focuses on exploitation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the SA concept:",
+        "type": "match",
+        "left": [
+            "Temperature",
+            "Cooling schedule",
+            "Accept probability",
+            "Equilibrium"
+        ],
+        "right": [
+            "Control parameter",
+            "How temp decreases",
+            "exp(-delta/T)",
+            "Local balance"
+        ]
+    },
+    {
+        "q": "Rearrange SA process:",
+        "type": "rearrange",
+        "words": [
+            "Initialize high temperature",
+            "Propose random move",
+            "Accept/reject",
+            "Cool and repeat"
+        ]
+    },
+    {
+        "q": "What is constraint satisfaction?",
+        "type": "mcq",
+        "o": [
+            "Finding values that satisfy a set of constraints without necessarily optimizing",
+            "Optimization only",
+            "Ignoring constraints",
+            "Random assignment"
+        ]
+    },
+    {
+        "q": "Constraint satisfaction problems (CSPs) have ______, domains, and constraints.",
+        "type": "fill_blank",
+        "answers": [
+            "variables"
+        ],
+        "other_options": [
+            "objectives",
+            "outputs",
+            "inputs"
+        ]
+    },
+    {
+        "q": "Sudoku is an example of a constraint satisfaction problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CSP technique:",
+        "type": "match",
+        "left": [
+            "Backtracking",
+            "Constraint propagation",
+            "Arc consistency",
+            "Heuristic ordering"
+        ],
+        "right": [
+            "Try and backtrack",
+            "Reduce domains",
+            "Pairwise consistency",
+            "Variable ordering"
+        ]
+    },
+    {
+        "q": "Rearrange CSP solving:",
+        "type": "rearrange",
+        "words": [
+            "Select variable",
+            "Choose value",
+            "Check constraints",
+            "Backtrack if needed"
+        ]
+    },
+    {
+        "q": "What is integer programming?",
+        "type": "mcq",
+        "o": [
+            "Optimization where some or all variables must be integers",
+            "Only continuous variables",
+            "No constraints",
+            "Random selection"
+        ]
+    },
+    {
+        "q": "Integer programming is ______ than linear programming due to discrete variables.",
+        "type": "fill_blank",
+        "answers": [
+            "harder"
+        ],
+        "other_options": [
+            "easier",
+            "same",
+            "faster"
+        ]
+    },
+    {
+        "q": "Branch and bound is a common integer programming algorithm.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the IP type:",
+        "type": "match",
+        "left": [
+            "Pure IP",
+            "Mixed IP",
+            "Binary IP",
+            "Relaxation"
+        ],
+        "right": [
+            "All integer",
+            "Some integer",
+            "0-1 only",
+            "Ignore integrality"
+        ]
+    },
+    {
+        "q": "Rearrange IP solving:",
+        "type": "rearrange",
+        "words": [
+            "Solve LP relaxation",
+            "Branch on fractional",
+            "Bound subproblems",
+            "Prune and repeat"
+        ]
+    },
+    {
+        "q": "What is convex optimization?",
+        "type": "mcq",
+        "o": [
+            "Optimization with convex objective and feasible region, guaranteeing global optimum",
+            "Any optimization",
+            "Non-convex only",
+            "Random optimization"
+        ]
+    },
+    {
+        "q": "Convex functions have the property that local minima are ______ minima.",
+        "type": "fill_blank",
+        "answers": [
+            "global"
+        ],
+        "other_options": [
+            "local",
+            "no",
+            "multiple"
+        ]
+    },
+    {
+        "q": "Convex optimization problems can be solved efficiently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the convex concept:",
+        "type": "match",
+        "left": [
+            "Convex set",
+            "Convex function",
+            "Linear program",
+            "Quadratic program"
+        ],
+        "right": [
+            "Line segment inside",
+            "Bowl-shaped",
+            "Convex",
+            "QP with convex Q"
+        ]
+    },
+    {
+        "q": "Rearrange by convexity difficulty:",
+        "type": "rearrange",
+        "words": [
+            "Linear (easiest)",
+            "Quadratic convex",
+            "General convex",
+            "Non-convex (hardest)"
+        ]
+    },
+    {
+        "q": "What is gradient descent?",
+        "type": "mcq",
+        "o": [
+            "Iterative optimization moving in direction of negative gradient",
+            "Moving uphill",
+            "Random search",
+            "Exhaustive search"
+        ]
+    },
+    {
+        "q": "Gradient descent updates x = x - alpha*______(f).",
+        "type": "fill_blank",
+        "answers": [
+            "gradient"
+        ],
+        "other_options": [
+            "value",
+            "sum",
+            "product"
+        ]
+    },
+    {
+        "q": "Learning rate (alpha) controls step size in gradient descent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the gradient method:",
+        "type": "match",
+        "left": [
+            "Batch GD",
+            "Stochastic GD",
+            "Mini-batch GD",
+            "Adam"
+        ],
+        "right": [
+            "All data",
+            "One sample",
+            "Subset",
+            "Adaptive learning"
+        ]
+    },
+    {
+        "q": "Rearrange gradient descent steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize parameters",
+            "Compute gradient",
+            "Update parameters",
+            "Check convergence"
+        ]
+    },
+    {
+        "q": "What is Newton's method for optimization?",
+        "type": "mcq",
+        "o": [
+            "Uses both gradient and Hessian for faster convergence",
+            "First-order only",
+            "Random search",
+            "No derivatives"
+        ]
+    },
+    {
+        "q": "Newton's method uses the ______ matrix (second derivatives).",
+        "type": "fill_blank",
+        "answers": [
+            "Hessian"
+        ],
+        "other_options": [
+            "Jacobian",
+            "gradient",
+            "identity"
+        ]
+    },
+    {
+        "q": "Newton's method converges faster than gradient descent near optimum.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the optimization method order:",
+        "type": "match",
+        "left": [
+            "Gradient descent",
+            "Newton's method",
+            "Quasi-Newton",
+            "Conjugate gradient"
+        ],
+        "right": [
+            "First-order",
+            "Second-order",
+            "Approximate Hessian",
+            "Special first-order"
+        ]
+    },
+    {
+        "q": "Rearrange by convergence speed:",
+        "type": "rearrange",
+        "words": [
+            "Gradient descent (slowest)",
+            "Conjugate gradient",
+            "Quasi-Newton",
+            "Newton (fastest near optimum)"
+        ]
+    },
+    {
+        "q": "What is curve fitting?",
+        "type": "mcq",
+        "o": [
+            "Finding a mathematical function that best approximates data points",
+            "Drawing straight lines only",
+            "Ignoring data",
+            "Random function selection"
+        ]
+    },
+    {
+        "q": "Curve fitting minimizes the ______ between the function and data.",
+        "type": "fill_blank",
+        "answers": [
+            "error"
+        ],
+        "other_options": [
+            "sum",
+            "product",
+            "ratio"
+        ]
+    },
+    {
+        "q": "Nonlinear least squares fits curves where parameters appear nonlinearly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the fitting type:",
+        "type": "match",
+        "left": [
+            "Linear",
+            "Polynomial",
+            "Exponential",
+            "Spline"
+        ],
+        "right": [
+            "y = mx + b",
+            "y = sum(a_i*x^i)",
+            "y = a*e^(bx)",
+            "Piecewise"
+        ]
+    },
+    {
+        "q": "Rearrange fitting process:",
+        "type": "rearrange",
+        "words": [
+            "Choose function form",
+            "Estimate initial parameters",
+            "Minimize error",
+            "Validate fit"
+        ]
+    },
+    {
+        "q": "What is a time constant?",
+        "type": "mcq",
+        "o": [
+            "Characteristic time for a system to respond (e.g., RC circuit tau = RC)",
+            "A fixed number",
+            "Infinite time",
+            "Zero time"
+        ]
+    },
+    {
+        "q": "The time constant tau determines how fast a system reaches ______ of its final value.",
+        "type": "fill_blank",
+        "answers": [
+            "63.2%"
+        ],
+        "other_options": [
+            "50%",
+            "100%",
+            "0%"
+        ]
+    },
+    {
+        "q": "After 5 time constants, a first-order system reaches ~99% of final value.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the time constant multiple:",
+        "type": "match",
+        "left": [
+            "1*tau",
+            "2*tau",
+            "3*tau",
+            "5*tau"
+        ],
+        "right": [
+            "63.2%",
+            "86.5%",
+            "95%",
+            "99.3%"
+        ]
+    },
+    {
+        "q": "Rearrange first-order response:",
+        "type": "rearrange",
+        "words": [
+            "Initial value",
+            "Exponential approach",
+            "Time constant determines rate",
+            "Asymptote at final value"
+        ]
+    },
+    {
+        "q": "What is steady-state analysis?",
+        "type": "mcq",
+        "o": [
+            "Analyzing system behavior after transients have died out",
+            "Initial behavior only",
+            "Random behavior",
+            "Dynamic analysis"
+        ]
+    },
+    {
+        "q": "At steady state, all time ______ are zero.",
+        "type": "fill_blank",
+        "answers": [
+            "derivatives"
+        ],
+        "other_options": [
+            "values",
+            "inputs",
+            "outputs"
+        ]
+    },
+    {
+        "q": "Steady-state solutions are found by setting d/dt = 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the analysis type:",
+        "type": "match",
+        "left": [
+            "Transient",
+            "Steady-state",
+            "Stability",
+            "Frequency"
+        ],
+        "right": [
+            "Initial response",
+            "Long-term",
+            "Equilibrium behavior",
+            "Sinusoidal input"
+        ]
+    },
+    {
+        "q": "Rearrange system analysis:",
+        "type": "rearrange",
+        "words": [
+            "Initial conditions",
+            "Transient response",
+            "Approach to steady state",
+            "Steady-state value"
+        ]
+    },
+    {
+        "q": "What is resonance?",
+        "type": "mcq",
+        "o": [
+            "Large amplitude response when driving frequency matches natural frequency",
+            "No response",
+            "Linear response",
+            "Random oscillation"
+        ]
+    },
+    {
+        "q": "Resonance occurs when forcing frequency equals ______ frequency.",
+        "type": "fill_blank",
+        "answers": [
+            "natural"
+        ],
+        "other_options": [
+            "zero",
+            "infinite",
+            "random"
+        ]
+    },
+    {
+        "q": "Damping reduces resonance amplitude and prevents infinite response.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the oscillation concept:",
+        "type": "match",
+        "left": [
+            "Natural frequency",
+            "Damping",
+            "Resonance",
+            "Quality factor"
+        ],
+        "right": [
+            "omega_n",
+            "Energy dissipation",
+            "Peak response",
+            "Sharpness of peak"
+        ]
+    },
+    {
+        "q": "Rearrange resonance factors:",
+        "type": "rearrange",
+        "words": [
+            "System natural frequency",
+            "Forcing frequency",
+            "Frequency match = resonance",
+            "Damping limits amplitude"
+        ]
+    },
+    {
+        "q": "What is harmonic oscillation?",
+        "type": "mcq",
+        "o": [
+            "Periodic motion described by sine or cosine functions",
+            "Random motion",
+            "Exponential growth",
+            "Linear motion"
+        ]
+    },
+    {
+        "q": "Simple harmonic motion: x(t) = A*cos(omega*t + ______).",
+        "type": "fill_blank",
+        "answers": [
+            "phi"
+        ],
+        "other_options": [
+            "A",
+            "t",
+            "x"
+        ]
+    },
+    {
+        "q": "A mass-spring system exhibits simple harmonic motion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the harmonic parameter:",
+        "type": "match",
+        "left": [
+            "A",
+            "omega",
+            "phi",
+            "T"
+        ],
+        "right": [
+            "Amplitude",
+            "Angular frequency",
+            "Phase",
+            "Period"
+        ]
+    },
+    {
+        "q": "Rearrange harmonic motion components:",
+        "type": "rearrange",
+        "words": [
+            "Amplitude",
+            "Frequency",
+            "Phase",
+            "Complete solution x(t)"
+        ]
+    },
+    {
+        "q": "What is damped oscillation?",
+        "type": "mcq",
+        "o": [
+            "Oscillation with decreasing amplitude due to energy loss",
+            "Growing oscillation",
+            "Constant amplitude",
+            "No oscillation"
+        ]
+    },
+    {
+        "q": "Damping causes oscillation amplitude to ______ over time.",
+        "type": "fill_blank",
+        "answers": [
+            "decrease"
+        ],
+        "other_options": [
+            "increase",
+            "stay constant",
+            "oscillate"
+        ]
+    },
+    {
+        "q": "Critical damping returns to equilibrium fastest without oscillating.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the damping type:",
+        "type": "match",
+        "left": [
+            "Underdamped",
+            "Critically damped",
+            "Overdamped",
+            "Undamped"
+        ],
+        "right": [
+            "Oscillates",
+            "Fastest no oscillation",
+            "Slow return",
+            "Oscillates forever"
+        ]
+    },
+    {
+        "q": "Rearrange damping ratio:",
+        "type": "rearrange",
+        "words": [
+            "zeta < 1 (underdamped)",
+            "zeta = 1 (critical)",
+            "zeta > 1 (overdamped)",
+            "zeta = 0 (undamped)"
+        ]
+    },
+    {
+        "q": "What is a transfer function?",
+        "type": "mcq",
+        "o": [
+            "Ratio of output to input in Laplace domain: G(s) = Y(s)/X(s)",
+            "A time-domain equation",
+            "A static relationship",
+            "A random function"
+        ]
+    },
+    {
+        "q": "Transfer functions are typically written in the ______ domain.",
+        "type": "fill_blank",
+        "answers": [
+            "Laplace"
+        ],
+        "other_options": [
+            "time",
+            "frequency",
+            "spatial"
+        ]
+    },
+    {
+        "q": "Poles of the transfer function determine system stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the transfer function term:",
+        "type": "match",
+        "left": [
+            "G(s)",
+            "Poles",
+            "Zeros",
+            "Order"
+        ],
+        "right": [
+            "Transfer function",
+            "Denominator roots",
+            "Numerator roots",
+            "Highest power"
+        ]
+    },
+    {
+        "q": "Rearrange transfer function analysis:",
+        "type": "rearrange",
+        "words": [
+            "Find poles and zeros",
+            "Check stability",
+            "Analyze frequency response",
+            "Design controller"
+        ]
+    },
+    {
+        "q": "What is a Bode plot?",
+        "type": "mcq",
+        "o": [
+            "Graph of magnitude and phase vs frequency on log scale",
+            "A time-domain plot",
+            "A scatter plot",
+            "A bar chart"
+        ]
+    },
+    {
+        "q": "Bode plots show magnitude in ______ (dB) and phase in degrees.",
+        "type": "fill_blank",
+        "answers": [
+            "decibels"
+        ],
+        "other_options": [
+            "volts",
+            "hertz",
+            "watts"
+        ]
+    },
+    {
+        "q": "Bode plots are useful for frequency-domain analysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Bode plot feature:",
+        "type": "match",
+        "left": [
+            "Magnitude plot",
+            "Phase plot",
+            "Corner frequency",
+            "Gain margin"
+        ],
+        "right": [
+            "|G(jw)| in dB vs log(w)",
+            "angle(G(jw)) vs log(w)",
+            "Breakpoint",
+            "Stability measure"
+        ]
+    },
+    {
+        "q": "Rearrange Bode plot construction:",
+        "type": "rearrange",
+        "words": [
+            "Find corner frequencies",
+            "Draw magnitude asymptotes",
+            "Draw phase curve",
+            "Combine for total response"
+        ]
+    },
+    {
+        "q": "What is impulse response?",
+        "type": "mcq",
+        "o": [
+            "System output when input is a Dirac delta (impulse) function",
+            "Step response",
+            "Sine response",
+            "No input"
+        ]
+    },
+    {
+        "q": "The impulse response is the inverse Laplace transform of the ______ function.",
+        "type": "fill_blank",
+        "answers": [
+            "transfer"
+        ],
+        "other_options": [
+            "input",
+            "output",
+            "sine"
+        ]
+    },
+    {
+        "q": "Convolution of input with impulse response gives output.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the system response:",
+        "type": "match",
+        "left": [
+            "Impulse",
+            "Step",
+            "Ramp",
+            "Sinusoidal"
+        ],
+        "right": [
+            "Delta input",
+            "Heaviside input",
+            "t*u(t) input",
+            "Frequency response"
+        ]
+    },
+    {
+        "q": "Rearrange system characterization:",
+        "type": "rearrange",
+        "words": [
+            "Apply impulse",
+            "Measure output",
+            "Impulse response h(t)",
+            "Convolve for any input"
+        ]
+    },
+    {
+        "q": "What is convolution?",
+        "type": "mcq",
+        "o": [
+            "Mathematical operation combining two functions: (f*g)(t) = integral of f(tau)*g(t-tau)",
+            "Simple multiplication",
+            "Addition",
+            "Division"
+        ]
+    },
+    {
+        "q": "Convolution in time domain equals ______ in frequency domain.",
+        "type": "fill_blank",
+        "answers": [
+            "multiplication"
+        ],
+        "other_options": [
+            "convolution",
+            "addition",
+            "division"
+        ]
+    },
+    {
+        "q": "LTI system output is convolution of input with impulse response.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the convolution property:",
+        "type": "match",
+        "left": [
+            "Commutative",
+            "Associative",
+            "Distributive",
+            "Identity"
+        ],
+        "right": [
+            "f*g = g*f",
+            "(f*g)*h = f*(g*h)",
+            "f*(g+h) = f*g + f*h",
+            "f*delta = f"
+        ]
+    },
+    {
+        "q": "Rearrange convolution concepts:",
+        "type": "rearrange",
+        "words": [
+            "Define functions",
+            "Flip one function",
+            "Slide and integrate",
+            "Result at each point"
+        ]
+    },
+    {
+        "q": "What is the Laplace transform?",
+        "type": "mcq",
+        "o": [
+            "F(s) = integral from 0 to infinity of f(t)*e^(-st) dt, converts time to s-domain",
+            "A Fourier transform only",
+            "A discrete transform",
+            "An identity transform"
+        ]
+    },
+    {
+        "q": "The Laplace transform converts ______ equations to algebraic equations.",
+        "type": "fill_blank",
+        "answers": [
+            "differential"
+        ],
+        "other_options": [
+            "algebraic",
+            "integral",
+            "matrix"
+        ]
+    },
+    {
+        "q": "The region of convergence (ROC) determines where the Laplace transform exists.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Laplace pair:",
+        "type": "match",
+        "left": [
+            "1",
+            "t",
+            "e^(at)",
+            "sin(wt)"
+        ],
+        "right": [
+            "1/s",
+            "1/s^2",
+            "1/(s-a)",
+            "w/(s^2+w^2)"
+        ]
+    },
+    {
+        "q": "Rearrange Laplace transform use:",
+        "type": "rearrange",
+        "words": [
+            "Transform equation",
+            "Solve algebraically",
+            "Inverse transform",
+            "Get time solution"
+        ]
+    },
+    {
+        "q": "What is the Fourier transform?",
+        "type": "mcq",
+        "o": [
+            "F(w) = integral of f(t)*e^(-jwt) dt, decomposes into frequency components",
+            "A Laplace transform only",
+            "A z-transform",
+            "A discrete transform only"
+        ]
+    },
+    {
+        "q": "Fourier transform decomposes signals into ______ components.",
+        "type": "fill_blank",
+        "answers": [
+            "frequency"
+        ],
+        "other_options": [
+            "time",
+            "spatial",
+            "random"
+        ]
+    },
+    {
+        "q": "The power spectrum shows frequency content of a signal.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the Fourier concept:",
+        "type": "match",
+        "left": [
+            "Fourier series",
+            "Fourier transform",
+            "DFT",
+            "FFT"
+        ],
+        "right": [
+            "Periodic signals",
+            "Non-periodic",
+            "Discrete",
+            "Fast algorithm"
+        ]
+    },
+    {
+        "q": "Rearrange Fourier analysis:",
+        "type": "rearrange",
+        "words": [
+            "Time-domain signal",
+            "Apply Fourier transform",
+            "Frequency spectrum",
+            "Interpret components"
+        ]
+    },
+    {
+        "q": "What is the z-transform?",
+        "type": "mcq",
+        "o": [
+            "X(z) = sum of x[n]*z^(-n), for discrete-time signals",
+            "A continuous transform",
+            "A Laplace transform",
+            "A Fourier transform"
+        ]
+    },
+    {
+        "q": "The z-transform is the ______ equivalent of the Laplace transform.",
+        "type": "fill_blank",
+        "answers": [
+            "discrete-time"
+        ],
+        "other_options": [
+            "continuous",
+            "spatial",
+            "frequency"
+        ]
+    },
+    {
+        "q": "The z-transform is used for analyzing digital filters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the z-transform pair:",
+        "type": "match",
+        "left": [
+            "u[n]",
+            "a^n*u[n]",
+            "n*u[n]",
+            "delta[n]"
+        ],
+        "right": [
+            "z/(z-1)",
+            "z/(z-a)",
+            "z/(z-1)^2",
+            "1"
+        ]
+    },
+    {
+        "q": "Rearrange z-transform use:",
+        "type": "rearrange",
+        "words": [
+            "Sample continuous signal",
+            "Apply z-transform",
+            "Analyze in z-domain",
+            "Inverse transform"
+        ]
+    },
+    {
+        "q": "What is a discrete-time system?",
+        "type": "mcq",
+        "o": [
+            "A system that operates on sampled signals at discrete time points",
+            "A continuous system",
+            "An analog system",
+            "A random system"
+        ]
+    },
+    {
+        "q": "Discrete-time signals are sampled at intervals of ______ seconds.",
+        "type": "fill_blank",
+        "answers": [
+            "T"
+        ],
+        "other_options": [
+            "0",
+            "1",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Digital filters are discrete-time systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the system type:",
+        "type": "match",
+        "left": [
+            "Continuous-time",
+            "Discrete-time",
+            "Analog",
+            "Digital"
+        ],
+        "right": [
+            "t as variable",
+            "n as index",
+            "Physical signal",
+            "Sampled signal"
+        ]
+    },
+    {
+        "q": "Rearrange signal processing:",
+        "type": "rearrange",
+        "words": [
+            "Continuous signal",
+            "Sample (ADC)",
+            "Digital processing",
+            "Reconstruct (DAC)"
+        ]
+    },
+    {
+        "q": "What is the sampling theorem (Nyquist)?",
+        "type": "mcq",
+        "o": [
+            "Sample rate must be at least twice the highest frequency to avoid aliasing",
+            "Sample once per cycle",
+            "No minimum sample rate",
+            "Sample at any rate"
+        ]
+    },
+    {
+        "q": "Nyquist frequency is ______ the sampling frequency.",
+        "type": "fill_blank",
+        "answers": [
+            "half"
+        ],
+        "other_options": [
+            "equal to",
+            "double",
+            "unrelated to"
+        ]
+    },
+    {
+        "q": "Aliasing occurs when sample rate is below Nyquist rate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sampling concept:",
+        "type": "match",
+        "left": [
+            "Nyquist rate",
+            "Aliasing",
+            "Anti-aliasing filter",
+            "Reconstruction"
+        ],
+        "right": [
+            "2*f_max",
+            "Frequency folding",
+            "Low-pass before sampling",
+            "Sinc interpolation"
+        ]
+    },
+    {
+        "q": "Rearrange sampling process:",
+        "type": "rearrange",
+        "words": [
+            "Apply anti-aliasing filter",
+            "Sample at Nyquist rate",
+            "Process digitally",
+            "Reconstruct with DAC"
+        ]
+    },
+    {
+        "q": "What is a digital filter?",
+        "type": "mcq",
+        "o": [
+            "A system that processes discrete-time signals to modify frequency content",
+            "An analog filter",
+            "A mechanical filter",
+            "A random process"
+        ]
+    },
+    {
+        "q": "FIR filters have ______ impulse response (finite duration).",
+        "type": "fill_blank",
+        "answers": [
+            "finite"
+        ],
+        "other_options": [
+            "infinite",
+            "zero",
+            "random"
+        ]
+    },
+    {
+        "q": "IIR filters can achieve sharper response than FIR with fewer coefficients.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the filter type:",
+        "type": "match",
+        "left": [
+            "FIR",
+            "IIR",
+            "Low-pass",
+            "High-pass"
+        ],
+        "right": [
+            "Finite impulse response",
+            "Infinite impulse response",
+            "Passes low frequencies",
+            "Passes high frequencies"
+        ]
+    },
+    {
+        "q": "Rearrange filter design:",
+        "type": "rearrange",
+        "words": [
+            "Specify requirements",
+            "Choose filter type",
+            "Design coefficients",
+            "Implement and test"
+        ]
+    },
+    {
+        "q": "What is model selection?",
+        "type": "mcq",
+        "o": [
+            "Choosing the best model among candidates based on criteria",
+            "Using all models",
+            "Ignoring models",
+            "Random selection"
+        ]
+    },
+    {
+        "q": "AIC and BIC are criteria for model ______.",
+        "type": "fill_blank",
+        "answers": [
+            "selection"
+        ],
+        "other_options": [
+            "validation",
+            "training",
+            "deletion"
+        ]
+    },
+    {
+        "q": "Cross-validation helps prevent overfitting in model selection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the selection criterion:",
+        "type": "match",
+        "left": [
+            "AIC",
+            "BIC",
+            "Cross-validation",
+            "R-squared"
+        ],
+        "right": [
+            "Akaike",
+            "Bayesian",
+            "Hold-out testing",
+            "Fit quality"
+        ]
+    },
+    {
+        "q": "Rearrange model selection process:",
+        "type": "rearrange",
+        "words": [
+            "Propose candidate models",
+            "Fit to data",
+            "Compute selection criteria",
+            "Choose best model"
+        ]
+    },
+    {
+        "q": "What is overfitting?",
+        "type": "mcq",
+        "o": [
+            "Model fits training data too well but generalizes poorly to new data",
+            "Model fits poorly",
+            "Perfect generalization",
+            "Underfitting"
+        ]
+    },
+    {
+        "q": "Overfitting occurs when model is too ______ for the data.",
+        "type": "fill_blank",
+        "answers": [
+            "complex"
+        ],
+        "other_options": [
+            "simple",
+            "linear",
+            "small"
+        ]
+    },
+    {
+        "q": "Regularization helps prevent overfitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the fitting problem:",
+        "type": "match",
+        "left": [
+            "Overfitting",
+            "Underfitting",
+            "Good fit",
+            "Bias-variance"
+        ],
+        "right": [
+            "Too complex",
+            "Too simple",
+            "Just right",
+            "Trade-off"
+        ]
+    },
+    {
+        "q": "Rearrange fitting quality:",
+        "type": "rearrange",
+        "words": [
+            "Underfitting (high bias)",
+            "Good fit",
+            "Overfitting (high variance)",
+            "Find optimal complexity"
+        ]
+    },
+    {
+        "q": "What is regularization?",
+        "type": "mcq",
+        "o": [
+            "Adding penalty terms to prevent overfitting by constraining parameter magnitude",
+            "Removing constraints",
+            "Increasing complexity",
+            "Ignoring data"
+        ]
+    },
+    {
+        "q": "L2 regularization adds lambda*(sum of parameter ______) to the loss.",
+        "type": "fill_blank",
+        "answers": [
+            "squares"
+        ],
+        "other_options": [
+            "values",
+            "counts",
+            "products"
+        ]
+    },
+    {
+        "q": "Ridge regression uses L2 regularization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the regularization type:",
+        "type": "match",
+        "left": [
+            "L1 (Lasso)",
+            "L2 (Ridge)",
+            "Elastic net",
+            "Dropout"
+        ],
+        "right": [
+            "Sparse solutions",
+            "Small weights",
+            "L1 + L2",
+            "Neural network technique"
+        ]
+    },
+    {
+        "q": "Rearrange regularization effect:",
+        "type": "rearrange",
+        "words": [
+            "Add penalty to loss",
+            "Constrain parameters",
+            "Reduce overfitting",
+            "Improve generalization"
+        ]
+    },
+    {
+        "q": "What is Occam's razor in modeling?",
+        "type": "mcq",
+        "o": [
+            "Prefer simpler models when they explain data equally well",
+            "Prefer complex models",
+            "Ignore simplicity",
+            "Use all available features"
+        ]
+    },
+    {
+        "q": "Occam's razor suggests choosing the ______ adequate model.",
+        "type": "fill_blank",
+        "answers": [
+            "simplest"
+        ],
+        "other_options": [
+            "most complex",
+            "largest",
+            "fastest"
+        ]
+    },
+    {
+        "q": "Simpler models are often more interpretable and generalizable.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the principle:",
+        "type": "match",
+        "left": [
+            "Occam's razor",
+            "Parsimony",
+            "Bias-variance",
+            "Minimum description length"
+        ],
+        "right": [
+            "Simplest explanation",
+            "Avoid complexity",
+            "Trade-off",
+            "Compress model + data"
+        ]
+    },
+    {
+        "q": "Rearrange model complexity trade-offs:",
+        "type": "rearrange",
+        "words": [
+            "Too simple = underfit",
+            "Just right = good fit",
+            "Too complex = overfit",
+            "Balance with data size"
+        ]
+    },
+    {
+        "q": "What is model interpretability?",
+        "type": "mcq",
+        "o": [
+            "Ability to understand and explain how a model makes predictions",
+            "Model complexity",
+            "Prediction accuracy only",
+            "Training speed"
+        ]
+    },
+    {
+        "q": "Linear models are generally more ______ than neural networks.",
+        "type": "fill_blank",
+        "answers": [
+            "interpretable"
+        ],
+        "other_options": [
+            "accurate",
+            "complex",
+            "fast"
+        ]
+    },
+    {
+        "q": "There is often a trade-off between interpretability and accuracy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the interpretability level:",
+        "type": "match",
+        "left": [
+            "Linear regression",
+            "Decision tree",
+            "Random forest",
+            "Deep neural network"
+        ],
+        "right": [
+            "High",
+            "Medium-high",
+            "Medium",
+            "Low"
+        ]
+    },
+    {
+        "q": "Rearrange by interpretability:",
+        "type": "rearrange",
+        "words": [
+            "Linear (most)",
+            "Decision tree",
+            "Ensemble methods",
+            "Deep learning (least)"
+        ]
+    },
+    {
+        "q": "What is dimensional analysis in physics modeling?",
+        "type": "mcq",
+        "o": [
+            "Analyzing physical quantities by their fundamental dimensions (M, L, T)",
+            "Measuring sizes",
+            "Drawing graphs",
+            "Statistical analysis"
+        ]
+    },
+    {
+        "q": "Force has dimensions [M][L][T]^______.",
+        "type": "fill_blank",
+        "answers": [
+            "-2"
+        ],
+        "other_options": [
+            "1",
+            "2",
+            "0"
+        ]
+    },
+    {
+        "q": "Dimensional analysis can help check if equations are physically correct.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the physical dimension:",
+        "type": "match",
+        "left": [
+            "Force",
+            "Energy",
+            "Power",
+            "Pressure"
+        ],
+        "right": [
+            "[MLT^-2]",
+            "[ML^2T^-2]",
+            "[ML^2T^-3]",
+            "[ML^-1T^-2]"
+        ]
+    },
+    {
+        "q": "Rearrange by complexity of dimension:",
+        "type": "rearrange",
+        "words": [
+            "Length [L]",
+            "Velocity [LT^-1]",
+            "Acceleration [LT^-2]",
+            "Force [MLT^-2]"
+        ]
+    },
+    {
+        "q": "What is sensitivity of a model?",
+        "type": "mcq",
+        "o": [
+            "How much output changes for a given change in input",
+            "Model accuracy",
+            "Speed of computation",
+            "Number of parameters"
+        ]
+    },
+    {
+        "q": "High sensitivity means small input changes cause ______ output changes.",
+        "type": "fill_blank",
+        "answers": [
+            "large"
+        ],
+        "other_options": [
+            "small",
+            "no",
+            "random"
+        ]
+    },
+    {
+        "q": "Sensitivity analysis helps identify critical parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sensitivity type:",
+        "type": "match",
+        "left": [
+            "Local",
+            "Global",
+            "One-at-a-time",
+            "Variance-based"
+        ],
+        "right": [
+            "At a point",
+            "Over range",
+            "Simple screening",
+            "Sobol indices"
+        ]
+    },
+    {
+        "q": "Rearrange sensitivity analysis:",
+        "type": "rearrange",
+        "words": [
+            "Define input ranges",
+            "Sample input space",
+            "Run model",
+            "Compute sensitivity indices"
+        ]
+    },
+    {
+        "q": "What is a constitutive equation?",
+        "type": "mcq",
+        "o": [
+            "An equation relating stress, strain, or other material properties",
+            "A conservation law",
+            "A boundary condition",
+            "An initial condition"
+        ]
+    },
+    {
+        "q": "Hooke's law (stress = E * strain) is a ______ equation.",
+        "type": "fill_blank",
+        "answers": [
+            "constitutive"
+        ],
+        "other_options": [
+            "conservation",
+            "boundary",
+            "initial"
+        ]
+    },
+    {
+        "q": "Constitutive equations describe material behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the material model:",
+        "type": "match",
+        "left": [
+            "Hooke's law",
+            "Newtonian fluid",
+            "Viscoelastic",
+            "Plastic"
+        ],
+        "right": [
+            "Linear elastic",
+            "Linear viscosity",
+            "Time-dependent",
+            "Permanent deformation"
+        ]
+    },
+    {
+        "q": "Rearrange material model complexity:",
+        "type": "rearrange",
+        "words": [
+            "Elastic (simplest)",
+            "Viscoelastic",
+            "Plastic",
+            "Nonlinear (complex)"
+        ]
+    },
+    {
+        "q": "What is a conservation law?",
+        "type": "mcq",
+        "o": [
+            "Principle that a quantity remains constant (mass, energy, momentum)",
+            "A material property",
+            "A boundary condition",
+            "A random process"
+        ]
+    },
+    {
+        "q": "Conservation of mass: rate in - rate out = rate of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "accumulation"
+        ],
+        "other_options": [
+            "creation",
+            "destruction",
+            "change"
+        ]
+    },
+    {
+        "q": "The continuity equation is a form of conservation of mass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the conservation law:",
+        "type": "match",
+        "left": [
+            "Mass",
+            "Energy",
+            "Momentum",
+            "Charge"
+        ],
+        "right": [
+            "Continuity equation",
+            "First law thermodynamics",
+            "Newton's second law",
+            "Kirchhoff's law"
+        ]
+    },
+    {
+        "q": "Rearrange conservation law application:",
+        "type": "rearrange",
+        "words": [
+            "Define control volume",
+            "Identify inflows and outflows",
+            "Apply conservation",
+            "Solve for unknowns"
+        ]
+    },
+    {
+        "q": "What is a boundary condition?",
+        "type": "mcq",
+        "o": [
+            "Constraints on solution values at the boundary of the domain",
+            "An initial condition",
+            "A constitutive equation",
+            "A conservation law"
+        ]
+    },
+    {
+        "q": "Dirichlet boundary conditions specify the ______ at the boundary.",
+        "type": "fill_blank",
+        "answers": [
+            "value"
+        ],
+        "other_options": [
+            "derivative",
+            "integral",
+            "nothing"
+        ]
+    },
+    {
+        "q": "Neumann boundary conditions specify the derivative (flux) at the boundary.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the boundary condition type:",
+        "type": "match",
+        "left": [
+            "Dirichlet",
+            "Neumann",
+            "Robin",
+            "Periodic"
+        ],
+        "right": [
+            "Fixed value",
+            "Fixed flux",
+            "Linear combination",
+            "Same at both ends"
+        ]
+    },
+    {
+        "q": "Rearrange BC specification:",
+        "type": "rearrange",
+        "words": [
+            "Define domain boundary",
+            "Choose BC type",
+            "Specify values/fluxes",
+            "Incorporate into solution"
+        ]
+    },
+    {
+        "q": "What is an initial condition?",
+        "type": "mcq",
+        "o": [
+            "The state of the system at time t=0",
+            "A boundary condition",
+            "A final condition",
+            "A constitutive equation"
+        ]
+    },
+    {
+        "q": "Initial conditions specify the ______ of the system at the start.",
+        "type": "fill_blank",
+        "answers": [
+            "state"
+        ],
+        "other_options": [
+            "end",
+            "boundary",
+            "equilibrium"
+        ]
+    },
+    {
+        "q": "ODEs typically require initial conditions to have a unique solution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the condition type:",
+        "type": "match",
+        "left": [
+            "Initial value problem",
+            "Boundary value problem",
+            "Mixed",
+            "Eigenvalue"
+        ],
+        "right": [
+            "IC at t=0",
+            "BC at domain boundary",
+            "Both IC and BC",
+            "Find special values"
+        ]
+    },
+    {
+        "q": "Rearrange problem specification:",
+        "type": "rearrange",
+        "words": [
+            "Write governing equation",
+            "Specify initial conditions",
+            "Specify boundary conditions",
+            "Solve"
+        ]
+    },
+    {
+        "q": "What is a transient solution?",
+        "type": "mcq",
+        "o": [
+            "Time-dependent solution before reaching steady state",
+            "Steady-state only",
+            "Equilibrium solution",
+            "Static solution"
+        ]
+    },
+    {
+        "q": "Transient solutions show how the system ______ from initial to steady state.",
+        "type": "fill_blank",
+        "answers": [
+            "evolves"
+        ],
+        "other_options": [
+            "stays",
+            "stops",
+            "jumps"
+        ]
+    },
+    {
+        "q": "Transient analysis captures dynamics before equilibrium.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the solution type:",
+        "type": "match",
+        "left": [
+            "Transient",
+            "Steady-state",
+            "Periodic",
+            "Chaotic"
+        ],
+        "right": [
+            "Time-dependent",
+            "Time-independent",
+            "Repeating",
+            "Aperiodic"
+        ]
+    },
+    {
+        "q": "Rearrange solution phases:",
+        "type": "rearrange",
+        "words": [
+            "Initial condition",
+            "Transient response",
+            "Approach to equilibrium",
+            "Steady state"
+        ]
+    },
+    {
+        "q": "What is linearization in modeling?",
+        "type": "mcq",
+        "o": [
+            "Approximating a nonlinear system with a linear one near an operating point",
+            "Making curves",
+            "Adding complexity",
+            "Random simplification"
+        ]
+    },
+    {
+        "q": "Linearization uses Taylor series truncated at ______ order terms.",
+        "type": "fill_blank",
+        "answers": [
+            "first"
+        ],
+        "other_options": [
+            "zero",
+            "second",
+            "third"
+        ]
+    },
+    {
+        "q": "Linearization is valid only near the operating point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the linearization term:",
+        "type": "match",
+        "left": [
+            "Jacobian",
+            "Operating point",
+            "Small perturbation",
+            "Linear approximation"
+        ],
+        "right": [
+            "Matrix of partials",
+            "Equilibrium",
+            "Delta x",
+            "First-order Taylor"
+        ]
+    },
+    {
+        "q": "Rearrange linearization process:",
+        "type": "rearrange",
+        "words": [
+            "Find equilibrium point",
+            "Compute Jacobian",
+            "Apply small perturbation",
+            "Get linear system"
+        ]
+    },
+    {
+        "q": "What is a perturbation method?",
+        "type": "mcq",
+        "o": [
+            "Solving difficult problems by expanding in terms of a small parameter",
+            "Exact solution",
+            "Numerical integration",
+            "Random perturbation"
+        ]
+    },
+    {
+        "q": "Perturbation methods assume a small parameter ______ (epsilon).",
+        "type": "fill_blank",
+        "answers": [
+            "epsilon"
+        ],
+        "other_options": [
+            "infinity",
+            "zero",
+            "one"
+        ]
+    },
+    {
+        "q": "Regular perturbation expands solution as sum of epsilon^n terms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the perturbation type:",
+        "type": "match",
+        "left": [
+            "Regular",
+            "Singular",
+            "Multiple scale",
+            "WKB"
+        ],
+        "right": [
+            "Simple expansion",
+            "Boundary layers",
+            "Two time scales",
+            "High frequency"
+        ]
+    },
+    {
+        "q": "Rearrange perturbation solution:",
+        "type": "rearrange",
+        "words": [
+            "Identify small parameter",
+            "Expand in powers",
+            "Solve order by order",
+            "Combine terms"
+        ]
+    },
+    {
+        "q": "What is a lumped parameter model?",
+        "type": "mcq",
+        "o": [
+            "Model where spatial variation is ignored and variables depend only on time",
+            "Distributed model",
+            "Infinite-dimensional model",
+            "PDE model"
+        ]
+    },
+    {
+        "q": "Lumped models assume uniform ______ distribution within a region.",
+        "type": "fill_blank",
+        "answers": [
+            "spatial"
+        ],
+        "other_options": [
+            "time",
+            "random",
+            "none"
+        ]
+    },
+    {
+        "q": "RC circuits are often modeled as lumped systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the model type:",
+        "type": "match",
+        "left": [
+            "Lumped",
+            "Distributed",
+            "ODE",
+            "PDE"
+        ],
+        "right": [
+            "Spatially uniform",
+            "Spatial variation",
+            "Time only",
+            "Space and time"
+        ]
+    },
+    {
+        "q": "Rearrange model complexity:",
+        "type": "rearrange",
+        "words": [
+            "Lumped (ODE)",
+            "1D distributed (PDE)",
+            "2D distributed",
+            "3D distributed (most complex)"
+        ]
+    },
+    {
+        "q": "What is model order reduction?",
+        "type": "mcq",
+        "o": [
+            "Reducing the number of states/variables while preserving essential behavior",
+            "Adding more states",
+            "Increasing complexity",
+            "Random reduction"
+        ]
+    },
+    {
+        "q": "Model order reduction creates a ______ model that approximates the original.",
+        "type": "fill_blank",
+        "answers": [
+            "reduced"
+        ],
+        "other_options": [
+            "larger",
+            "random",
+            "identical"
+        ]
+    },
+    {
+        "q": "Proper orthogonal decomposition (POD) is a model reduction technique.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the reduction method:",
+        "type": "match",
+        "left": [
+            "Modal truncation",
+            "Balanced truncation",
+            "POD",
+            "Krylov methods"
+        ],
+        "right": [
+            "Keep dominant modes",
+            "Balance controllability",
+            "SVD-based",
+            "Projection subspace"
+        ]
+    },
+    {
+        "q": "Rearrange reduction process:",
+        "type": "rearrange",
+        "words": [
+            "Identify important features",
+            "Project onto reduced space",
+            "Construct reduced model",
+            "Validate accuracy"
+        ]
+    },
+    {
+        "q": "What is identifiability in modeling?",
+        "type": "mcq",
+        "o": [
+            "Whether parameters can be uniquely determined from data",
+            "Model accuracy",
+            "Computing speed",
+            "Random property"
+        ]
+    },
+    {
+        "q": "A model is identifiable if its parameters can be ______ estimated from data.",
+        "type": "fill_blank",
+        "answers": [
+            "uniquely"
+        ],
+        "other_options": [
+            "randomly",
+            "never",
+            "approximately"
+        ]
+    },
+    {
+        "q": "Non-identifiable models have multiple parameter sets that fit data equally well.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the identifiability type:",
+        "type": "match",
+        "left": [
+            "Structural",
+            "Practical",
+            "Parameter correlation",
+            "Sensitivity"
+        ],
+        "right": [
+            "Model structure",
+            "Given data quality",
+            "Parameters linked",
+            "Parameter impact"
+        ]
+    },
+    {
+        "q": "Rearrange identifiability analysis:",
+        "type": "rearrange",
+        "words": [
+            "Check structural identifiability",
+            "Collect sufficient data",
+            "Check practical identifiability",
+            "Estimate parameters"
+        ]
+    },
+    {
+        "q": "What is robustness in modeling?",
+        "type": "mcq",
+        "o": [
+            "Insensitivity of model predictions to parameter uncertainty or perturbations",
+            "Model complexity",
+            "Computation speed",
+            "Exact predictions"
+        ]
+    },
+    {
+        "q": "A robust model gives reliable predictions despite ______ in inputs.",
+        "type": "fill_blank",
+        "answers": [
+            "uncertainty"
+        ],
+        "other_options": [
+            "precision",
+            "accuracy",
+            "speed"
+        ]
+    },
+    {
+        "q": "Robust design seeks solutions that perform well under uncertainty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the robustness concept:",
+        "type": "match",
+        "left": [
+            "Sensitivity",
+            "Robustness",
+            "Reliability",
+            "Resilience"
+        ],
+        "right": [
+            "Response to change",
+            "Insensitivity",
+            "Probability of success",
+            "Recovery from failure"
+        ]
+    },
+    {
+        "q": "Rearrange robustness analysis:",
+        "type": "rearrange",
+        "words": [
+            "Identify uncertainties",
+            "Perturb inputs",
+            "Measure output variation",
+            "Assess robustness"
+        ]
+    },
+    {
+        "q": "What is a state variable?",
+        "type": "mcq",
+        "o": [
+            "A variable that describes the current state of a dynamic system",
+            "An input variable",
+            "An output only",
+            "A parameter"
+        ]
+    },
+    {
+        "q": "State variables contain enough information to predict ______ system behavior.",
+        "type": "fill_blank",
+        "answers": [
+            "future"
+        ],
+        "other_options": [
+            "past",
+            "random",
+            "static"
+        ]
+    },
+    {
+        "q": "Position and velocity are state variables for a mechanical system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the system representation:",
+        "type": "match",
+        "left": [
+            "State variable",
+            "Input",
+            "Output",
+            "Parameter"
+        ],
+        "right": [
+            "Internal variable",
+            "External forcing",
+            "Measured quantity",
+            "Fixed constant"
+        ]
+    },
+    {
+        "q": "Rearrange state-space formulation:",
+        "type": "rearrange",
+        "words": [
+            "Define state vector",
+            "Write state equation (dx/dt = Ax + Bu)",
+            "Write output equation (y = Cx + Du)",
+            "Solve or simulate"
+        ]
+    },
+    {
+        "q": "What is a bifurcation diagram?",
+        "type": "mcq",
+        "o": [
+            "Plot showing qualitative behavior changes as a parameter varies",
+            "A pie chart",
+            "A bar graph",
+            "A scatter plot"
+        ]
+    },
+    {
+        "q": "Bifurcation diagrams show ______ as a function of parameter value.",
+        "type": "fill_blank",
+        "answers": [
+            "attractors"
+        ],
+        "other_options": [
+            "inputs",
+            "time",
+            "noise"
+        ]
+    },
+    {
+        "q": "Period-doubling leads to chaos in many systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bifurcation type:",
+        "type": "match",
+        "left": [
+            "Saddle-node",
+            "Pitchfork",
+            "Hopf",
+            "Period-doubling"
+        ],
+        "right": [
+            "Fixed points created",
+            "Symmetry breaking",
+            "Limit cycle birth",
+            "Route to chaos"
+        ]
+    },
+    {
+        "q": "Rearrange bifurcation analysis:",
+        "type": "rearrange",
+        "words": [
+            "Vary parameter",
+            "Observe qualitative changes",
+            "Identify bifurcation points",
+            "Classify bifurcation type"
+        ]
+    },
+    {
+        "q": "What is hysteresis?",
+        "type": "mcq",
+        "o": [
+            "Path-dependent behavior where the system depends on history",
+            "Linear response",
+            "Immediate equilibrium",
+            "Random behavior"
+        ]
+    },
+    {
+        "q": "Hysteresis causes different ______ for increasing vs decreasing parameter.",
+        "type": "fill_blank",
+        "answers": [
+            "paths"
+        ],
+        "other_options": [
+            "speeds",
+            "colors",
+            "sizes"
+        ]
+    },
+    {
+        "q": "Magnetic materials exhibit hysteresis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the hysteresis example:",
+        "type": "match",
+        "left": [
+            "Magnetism",
+            "Thermostat",
+            "Phase transition",
+            "Elastic band"
+        ],
+        "right": [
+            "B-H curve",
+            "On-off control",
+            "Supercooling",
+            "Stretching"
+        ]
+    },
+    {
+        "q": "Rearrange hysteresis behavior:",
+        "type": "rearrange",
+        "words": [
+            "Initial state",
+            "Increase parameter",
+            "Different path on decrease",
+            "Path-dependent equilibrium"
+        ]
+    }
+]

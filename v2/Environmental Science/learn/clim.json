@@ -1,0 +1,59 @@
+{
+    "id": "learn_clim",
+    "topicId": "clim",
+    "topicTitle": "Climate Science",
+    "description": "Explore greenhouse effect, climate models, global warming, and feedback loops",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "clim_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Climate Science 🌡️\n\n## Topics\n- Greenhouse effect\n- Climate models\n- Global warming\n- Feedback loops"
+        },
+        {
+            "id": "clim_2",
+            "type": "content",
+            "title": "Greenhouse Effect",
+            "content": "# Greenhouse Effect 🏠\n\n## Natural Process\n```\nSun → Earth → IR radiation\n       ↓\nGreenhouse gases trap heat\n```\n\n## Key Gases\n| Gas | Source |\n|-----|--------|\n| CO₂ | Fossil fuels |\n| CH₄ | Agriculture |\n| N₂O | Agriculture |\n| H₂O | Evaporation |"
+        },
+        {
+            "id": "clim_3",
+            "type": "content",
+            "title": "Global Warming",
+            "content": "# Global Warming 🌍\n\n## Evidence\n- Rising temperatures\n- Melting ice\n- Sea level rise\n- Extreme weather\n\n## Causes\n- Fossil fuel burning\n- Deforestation\n- Agriculture\n- Industry"
+        },
+        {
+            "id": "clim_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Which gas is the main driver of current climate change?",
+            "quizOptions": [
+                "O₂",
+                "N₂",
+                "CO₂",
+                "Ar"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "clim_4",
+            "type": "content",
+            "title": "Feedback Loops",
+            "content": "# Feedback Loops 🔄\n\n## Positive (Amplifying)\n- Ice-albedo: Less ice → more absorption\n- Permafrost: Thaw → release CH₄\n\n## Negative (Stabilizing)\n- More CO₂ → more plant growth\n- Clouds (complex)"
+        },
+        {
+            "id": "clim_5",
+            "type": "content",
+            "title": "Climate Models",
+            "content": "# Climate Models 💻\n\n## Components\n- Atmosphere\n- Ocean\n- Land surface\n- Ice sheets\n\n## Predictions\n- Temperature rise\n- Precipitation changes\n- Sea level scenarios"
+        },
+        {
+            "id": "clim_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Greenhouse gases trap heat\n- CO₂ main anthropogenic driver\n- Positive feedbacks amplify warming\n- Models predict future climate"
+        }
+    ]
+}

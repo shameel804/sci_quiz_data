@@ -1,0 +1,59 @@
+{
+    "id": "learn_mater",
+    "topicId": "mater",
+    "topicTitle": "Materials Science",
+    "description": "Explore material properties, nanomaterials, composites, and corrosion",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mater_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Materials Science 🔬\n\n## Topics\n- Material properties\n- Nanomaterials\n- Composites\n- Corrosion & degradation"
+        },
+        {
+            "id": "mater_2",
+            "type": "content",
+            "title": "Properties",
+            "content": "# Material Properties 💪\n\n| Property | Description |\n|----------|-------------|\n| Strength | Resist deformation |\n| Ductility | Stretch before break |\n| Hardness | Resist scratching |\n| Toughness | Resist fracture |\n| Stiffness | Resist bending |"
+        },
+        {
+            "id": "mater_3",
+            "type": "content",
+            "title": "Nanomaterials",
+            "content": "# Nanomaterials 🔍\n\n## What is Nano?\n1-100 nanometers\n\n## Types\n| Type | Example |\n|------|--------|\n| Nanoparticles | Gold, silver |\n| Nanotubes | Carbon |\n| Graphene | 2D carbon |\n\n## Applications\n- Electronics\n- Medicine\n- Energy"
+        },
+        {
+            "id": "mater_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Ductility measures ability to:",
+            "quizOptions": [
+                "Resist scratching",
+                "Stretch before breaking",
+                "Resist corrosion",
+                "Conduct electricity"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "mater_4",
+            "type": "content",
+            "title": "Composites",
+            "content": "# Composites 🧱\n\n## Definition\nTwo+ materials combined for better properties.\n\n## Types\n| Composite | Example |\n|-----------|--------|\n| Fiber-reinforced | Carbon fiber |\n| Metal matrix | Al + SiC |\n| Ceramic matrix | SiC + SiC |\n\n## Benefits\n- High strength-to-weight"
+        },
+        {
+            "id": "mater_5",
+            "type": "content",
+            "title": "Corrosion",
+            "content": "# Corrosion & Degradation 🔧\n\n## Types\n| Type | Cause |\n|------|-------|\n| Uniform | General attack |\n| Galvanic | Dissimilar metals |\n| Pitting | Localized |\n| Stress | Tension + corrosion |\n\n## Prevention\n- Coating\n- Cathodic protection\n- Material selection"
+        },
+        {
+            "id": "mater_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Properties: Strength, ductility, toughness\n- Nano: 1-100 nm, unique properties\n- Composites: Combined materials\n- Corrosion: Types & prevention"
+        }
+    ]
+}

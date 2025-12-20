@@ -1,0 +1,59 @@
+{
+    "id": "learn_geo",
+    "topicId": "geo",
+    "topicTitle": "Geology",
+    "description": "Explore the rock cycle, minerals, plate tectonics, and earthquakes/volcanoes",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "geo_1",
+            "type": "content",
+            "title": "Welcome to Geology",
+            "content": "# Geology 🌋\n\n## What you'll learn:\n- Rock cycle\n- Mineral properties\n- Plate tectonics\n- Earthquakes & volcanoes\n\n## Earth's Layers\n| Layer | State | Thickness |\n|-------|-------|----------|\n| Crust | Solid | 5-70 km |\n| Mantle | Plastic | 2,900 km |\n| Outer Core | Liquid | 2,200 km |\n| Inner Core | Solid | 1,200 km |"
+        },
+        {
+            "id": "geo_2",
+            "type": "content",
+            "title": "The Rock Cycle",
+            "content": "# Rock Cycle 🪨\n\n```\n    Igneous\n     ↙ ↖\nSedimentary ↔ Metamorphic\n```\n\n## Rock Types\n| Type | Formation | Examples |\n|------|-----------|----------|\n| Igneous | Cooling magma | Granite, basalt |\n| Sedimentary | Compacted sediments | Sandstone, limestone |\n| Metamorphic | Heat/pressure | Marble, slate |"
+        },
+        {
+            "id": "geo_3",
+            "type": "content",
+            "title": "Minerals",
+            "content": "# Minerals 💎\n\n## Properties\n| Property | Description |\n|----------|-------------|\n| Hardness | Mohs scale (1-10) |\n| Luster | Metallic/non-metallic |\n| Streak | Color of powder |\n| Cleavage | How it breaks |\n| Crystal form | Shape |\n\n## Common Minerals\n- Quartz (hardness 7)\n- Feldspar\n- Mica\n- Calcite (reacts w/ acid)"
+        },
+        {
+            "id": "geo_quiz_1",
+            "type": "quiz",
+            "title": "Geology Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which rock type forms from cooling magma?",
+            "quizOptions": [
+                "Sedimentary",
+                "Igneous",
+                "Metamorphic",
+                "All of them"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geo_4",
+            "type": "content",
+            "title": "Plate Tectonics",
+            "content": "# Plate Tectonics 🌍\n\n## Plate Boundaries\n| Type | Motion | Features |\n|------|--------|----------|\n| Divergent | Apart | Mid-ocean ridges |\n| Convergent | Together | Mountains, trenches |\n| Transform | Sliding | Earthquakes |\n\n## Evidence\n- Continental fit\n- Fossil distribution\n- Seafloor spreading\n- Magnetic stripes"
+        },
+        {
+            "id": "geo_5",
+            "type": "content",
+            "title": "Earthquakes & Volcanoes",
+            "content": "# Earthquakes & Volcanoes 🌋\n\n## Earthquakes\n| Term | Definition |\n|------|------------|\n| Focus | Where it starts |\n| Epicenter | Surface point above |\n| Richter scale | Magnitude |\n\n## Volcanoes\n| Type | Shape | Eruption |\n|------|-------|----------|\n| Shield | Broad | Gentle |\n| Stratovolcano | Steep | Explosive |\n| Cinder cone | Small | Moderate |"
+        },
+        {
+            "id": "geo_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n## Key Concepts\n- Rock cycle: Igneous ↔ Sedimentary ↔ Metamorphic\n- Plate tectonics: Drives earthquakes/volcanoes\n- Minerals: Identified by properties\n- Earth layers: Crust → Mantle → Core"
+        }
+    ]
+}

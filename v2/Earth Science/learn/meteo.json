@@ -1,0 +1,59 @@
+{
+    "id": "learn_meteo",
+    "topicId": "meteo",
+    "topicTitle": "Meteorology",
+    "description": "Explore weather patterns, climate zones, atmosphere, and forecasting",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "meteo_1",
+            "type": "content",
+            "title": "Welcome to Meteorology",
+            "content": "# Meteorology ⛅\n\n## What you'll learn:\n- Weather patterns\n- Climate zones\n- Atmospheric layers\n- Weather forecasting\n\n## Weather vs Climate\n| Term | Time Scale |\n|------|------------|\n| Weather | Short-term |\n| Climate | Long-term average |"
+        },
+        {
+            "id": "meteo_2",
+            "type": "content",
+            "title": "Atmosphere",
+            "content": "# Atmospheric Layers 🌡️\n\n| Layer | Height | Features |\n|-------|--------|----------|\n| Troposphere | 0-12 km | Weather occurs |\n| Stratosphere | 12-50 km | Ozone layer |\n| Mesosphere | 50-80 km | Meteors burn |\n| Thermosphere | 80-700 km | Aurora |\n| Exosphere | 700+ km | Space boundary |"
+        },
+        {
+            "id": "meteo_3",
+            "type": "content",
+            "title": "Weather Patterns",
+            "content": "# Weather Patterns 🌀\n\n## Fronts\n| Type | Symbol | Weather |\n|------|--------|--------|\n| Cold | ▲▲▲ | Sharp temp drop |\n| Warm | ●●● | Gradual warming |\n| Stationary | ▲●▲● | Prolonged rain |\n| Occluded | ▲●▲● | Mixed |\n\n## Pressure\n- High pressure → Clear skies\n- Low pressure → Clouds/rain"
+        },
+        {
+            "id": "meteo_quiz_1",
+            "type": "quiz",
+            "title": "Meteorology Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "In which layer does weather occur?",
+            "quizOptions": [
+                "Stratosphere",
+                "Troposphere",
+                "Mesosphere",
+                "Thermosphere"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "meteo_4",
+            "type": "content",
+            "title": "Climate Zones",
+            "content": "# Climate Zones 🌍\n\n| Zone | Location | Features |\n|------|----------|----------|\n| Tropical | Equator | Hot, wet |\n| Temperate | Mid-latitudes | Seasons |\n| Polar | High latitudes | Cold |\n| Desert | Subtropics | Dry |\n| Mediterranean | West coasts | Dry summers |"
+        },
+        {
+            "id": "meteo_5",
+            "type": "content",
+            "title": "Forecasting",
+            "content": "# Weather Forecasting 📊\n\n## Tools\n| Tool | Measures |\n|------|----------|\n| Thermometer | Temperature |\n| Barometer | Pressure |\n| Anemometer | Wind speed |\n| Hygrometer | Humidity |\n| Radar | Precipitation |\n\n## Methods\n- Satellite imagery\n- Computer models\n- Weather balloons"
+        },
+        {
+            "id": "meteo_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- Troposphere: Weather layer\n- High/Low pressure systems\n- Fronts cause weather changes\n- Climate = long-term patterns"
+        }
+    ]
+}

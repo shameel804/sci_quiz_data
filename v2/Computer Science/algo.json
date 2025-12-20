@@ -1,0 +1,5395 @@
+[
+    {
+        "q": "What does the term 'algorithm' mean?",
+        "type": "mcq",
+        "o": [
+            "A step-by-step procedure to solve a problem",
+            "A type of computer hardware",
+            "A programming language",
+            "A database system"
+        ]
+    },
+    {
+        "q": "Which sorting algorithm repeatedly swaps adjacent elements if they are in wrong order?",
+        "type": "mcq",
+        "o": [
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Heap Sort"
+        ]
+    },
+    {
+        "q": "Linear search checks elements _____ by one until the target is found.",
+        "type": "fill_blank",
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "two",
+            "three",
+            "randomly"
+        ]
+    },
+    {
+        "q": "What is the best case time complexity of bubble sort?",
+        "type": "mcq",
+        "o": [
+            "O(n)",
+            "O(n^2)",
+            "O(log n)",
+            "O(1)"
+        ]
+    },
+    {
+        "q": "Binary search can only work on sorted arrays.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which search algorithm divides the array in half repeatedly?",
+        "type": "mcq",
+        "o": [
+            "Binary Search",
+            "Linear Search",
+            "Depth First Search",
+            "Breadth First Search"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def linear_search(arr, target):\n    for i in range(len(arr)):\n        if arr[i] == target:\n            return i\n    return -1\n\nprint(linear_search([5, 3, 8, 1], 8))",
+        "o": [
+            "2",
+            "3",
+            "8",
+            "-1"
+        ]
+    },
+    {
+        "q": "Match the sorting algorithm with its description:",
+        "type": "match",
+        "left": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Insertion Sort",
+            "Merge Sort"
+        ],
+        "right": [
+            "Swaps adjacent elements repeatedly",
+            "Finds minimum and places at start",
+            "Builds sorted array one element at a time",
+            "Divides array and merges sorted halves"
+        ]
+    },
+    {
+        "q": "O(1) represents constant time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the worst case time complexity of linear search?",
+        "type": "mcq",
+        "o": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "In Big-O notation, O(n) is called _____ time complexity.",
+        "type": "fill_blank",
+        "answers": [
+            "linear"
+        ],
+        "other_options": [
+            "constant",
+            "quadratic",
+            "logarithmic"
+        ]
+    },
+    {
+        "q": "Which of these has the fastest time complexity?",
+        "type": "mcq",
+        "o": [
+            "O(1)",
+            "O(n)",
+            "O(n^2)",
+            "O(log n)"
+        ]
+    },
+    {
+        "q": "Bubble sort is an efficient sorting algorithm for large datasets.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nprint(bubble_sort([3, 1, 2])[0])",
+        "o": [
+            "1",
+            "3",
+            "2",
+            "0"
+        ]
+    },
+    {
+        "q": "Which data structure uses LIFO (Last In First Out) principle?",
+        "type": "mcq",
+        "o": [
+            "Stack",
+            "Queue",
+            "Array",
+            "Linked List"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of binary search in correct order:",
+        "type": "rearrange",
+        "words": [
+            "Find middle element",
+            "Compare with target",
+            "Adjust search range",
+            "Repeat until found"
+        ]
+    },
+    {
+        "q": "What does O(n^2) mean in terms of time complexity?",
+        "type": "mcq",
+        "o": [
+            "Quadratic time complexity",
+            "Linear time complexity",
+            "Constant time complexity",
+            "Logarithmic time complexity"
+        ]
+    },
+    {
+        "q": "The time complexity of binary search is O(log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n\nprint(binary_search([1, 3, 5, 7, 9], 5))",
+        "o": [
+            "2",
+            "5",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "A _____ is a collection of nodes connected by edges.",
+        "type": "fill_blank",
+        "answers": [
+            "graph"
+        ],
+        "other_options": [
+            "tree",
+            "array",
+            "stack"
+        ]
+    },
+    {
+        "q": "Which algorithm is best for searching in an unsorted array?",
+        "type": "mcq",
+        "o": [
+            "Linear Search",
+            "Binary Search",
+            "Jump Search",
+            "Interpolation Search"
+        ]
+    },
+    {
+        "q": "Selection sort finds the minimum element in each iteration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def selection_sort(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr\n\nprint(selection_sort([64, 25, 12])[0])",
+        "o": [
+            "12",
+            "64",
+            "25",
+            "0"
+        ]
+    },
+    {
+        "q": "Match the time complexity with its name:",
+        "type": "match",
+        "left": [
+            "O(1)",
+            "O(n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "right": [
+            "Constant",
+            "Linear",
+            "Quadratic",
+            "Logarithmic"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a sorting algorithm?",
+        "type": "mcq",
+        "o": [
+            "Binary Search",
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort"
+        ]
+    },
+    {
+        "q": "In insertion sort, elements are inserted into their correct _____ in the sorted portion.",
+        "type": "fill_blank",
+        "answers": [
+            "position"
+        ],
+        "other_options": [
+            "order",
+            "index",
+            "place"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def insertion_sort(arr):\n    for i in range(1, len(arr)):\n        key = arr[i]\n        j = i - 1\n        while j >= 0 and arr[j] > key:\n            arr[j + 1] = arr[j]\n            j -= 1\n        arr[j + 1] = key\n    return arr\n\nprint(insertion_sort([5, 2, 9, 1])[3])",
+        "o": [
+            "9",
+            "1",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "A queue uses FIFO (First In First Out) principle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the space complexity of bubble sort?",
+        "type": "mcq",
+        "o": [
+            "O(1)",
+            "O(n)",
+            "O(n^2)",
+            "O(log n)"
+        ]
+    },
+    {
+        "q": "Which sorting algorithm uses divide and conquer strategy?",
+        "type": "mcq",
+        "o": [
+            "Merge Sort",
+            "Bubble Sort",
+            "Selection Sort",
+            "Insertion Sort"
+        ]
+    },
+    {
+        "q": "Rearrange the bubble sort steps in correct order:",
+        "type": "rearrange",
+        "words": [
+            "Compare adjacent",
+            "Swap if needed",
+            "Move to next pair",
+            "Repeat passes"
+        ]
+    },
+    {
+        "q": "The worst case time complexity of bubble sort is O(n^2).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "arr = [10, 20, 30]\nmid = len(arr) // 2\nprint(arr[mid])",
+        "o": [
+            "20",
+            "10",
+            "30",
+            "1"
+        ]
+    },
+    {
+        "q": "A node in a graph with no outgoing edges is called a _____ node.",
+        "type": "fill_blank",
+        "answers": [
+            "sink"
+        ],
+        "other_options": [
+            "source",
+            "root",
+            "leaf"
+        ]
+    },
+    {
+        "q": "Which algorithm traverses a graph level by level?",
+        "type": "mcq",
+        "o": [
+            "Breadth First Search",
+            "Depth First Search",
+            "Binary Search",
+            "Linear Search"
+        ]
+    },
+    {
+        "q": "Match the data structure with its principle:",
+        "type": "match",
+        "left": [
+            "Stack",
+            "Queue",
+            "Priority Queue",
+            "Deque"
+        ],
+        "right": [
+            "LIFO",
+            "FIFO",
+            "Highest priority first",
+            "Both ends access"
+        ]
+    },
+    {
+        "q": "Merge sort has a time complexity of O(n log n) in all cases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def merge(left, right):\n    result = []\n    i = j = 0\n    while i < len(left) and j < len(right):\n        if left[i] <= right[j]:\n            result.append(left[i])\n            i += 1\n        else:\n            result.append(right[j])\n            j += 1\n    result.extend(left[i:])\n    result.extend(right[j:])\n    return result\n\nprint(merge([1, 3], [2, 4]))",
+        "o": [
+            "[1, 2, 3, 4]",
+            "[1, 3, 2, 4]",
+            "[2, 4, 1, 3]",
+            "[3, 4, 1, 2]"
+        ]
+    },
+    {
+        "q": "Which of these time complexities is the slowest?",
+        "type": "mcq",
+        "o": [
+            "O(n!)",
+            "O(n^2)",
+            "O(2^n)",
+            "O(n log n)"
+        ]
+    },
+    {
+        "q": "Depth First Search uses a stack data structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "An edge that connects a node to itself is called a _____ edge.",
+        "type": "fill_blank",
+        "answers": [
+            "self"
+        ],
+        "other_options": [
+            "loop",
+            "cycle",
+            "recursive"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_swaps(arr):\n    swaps = 0\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n                swaps += 1\n    return swaps\n\nprint(count_swaps([3, 2, 1]))",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "6"
+        ]
+    },
+    {
+        "q": "Which graph representation uses a matrix to store edges?",
+        "type": "mcq",
+        "o": [
+            "Adjacency Matrix",
+            "Adjacency List",
+            "Edge List",
+            "Incidence Matrix"
+        ]
+    },
+    {
+        "q": "Match the search algorithm with its requirement:",
+        "type": "match",
+        "left": [
+            "Binary Search",
+            "Linear Search",
+            "Ternary Search",
+            "Jump Search"
+        ],
+        "right": [
+            "Sorted array required",
+            "Works on any array",
+            "Sorted array required",
+            "Sorted array required"
+        ]
+    },
+    {
+        "q": "Rearrange merge sort steps in correct order:",
+        "type": "rearrange",
+        "words": [
+            "Divide array",
+            "Recursively sort",
+            "Merge halves",
+            "Return sorted"
+        ]
+    },
+    {
+        "q": "An adjacency list is more space efficient for sparse graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "graph = {0: [1, 2], 1: [0, 3], 2: [0], 3: [1]}\nprint(len(graph[0]))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "The number of edges in a complete graph with n nodes is n(n-1)/2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which algorithm finds the shortest path in an unweighted graph?",
+        "type": "mcq",
+        "o": [
+            "BFS",
+            "DFS",
+            "Binary Search",
+            "Linear Search"
+        ]
+    },
+    {
+        "q": "In a _____ graph, edges have no direction.",
+        "type": "fill_blank",
+        "answers": [
+            "undirected"
+        ],
+        "other_options": [
+            "directed",
+            "weighted",
+            "cyclic"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_sorted(arr):\n    for i in range(len(arr) - 1):\n        if arr[i] > arr[i + 1]:\n            return False\n    return True\n\nprint(is_sorted([1, 2, 3, 4]))",
+        "o": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "A tree is a connected graph with no cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the graph term with its definition:",
+        "type": "match",
+        "left": [
+            "Vertex",
+            "Edge",
+            "Degree",
+            "Path"
+        ],
+        "right": [
+            "A node in graph",
+            "Connection between nodes",
+            "Number of connections",
+            "Sequence of vertices"
+        ]
+    },
+    {
+        "q": "What is the time complexity of accessing an element in an array by index?",
+        "type": "mcq",
+        "o": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def find_max(arr):\n    max_val = arr[0]\n    for num in arr:\n        if num > max_val:\n            max_val = num\n    return max_val\n\nprint(find_max([3, 7, 2, 9, 1]))",
+        "o": [
+            "9",
+            "7",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "Breadth First Search uses a queue data structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A graph with weighted edges is called a _____ graph.",
+        "type": "fill_blank",
+        "answers": [
+            "weighted"
+        ],
+        "other_options": [
+            "directed",
+            "simple",
+            "complete"
+        ]
+    },
+    {
+        "q": "Which of these is a stable sorting algorithm?",
+        "type": "mcq",
+        "o": [
+            "Merge Sort",
+            "Heap Sort",
+            "Quick Sort",
+            "Selection Sort"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sum_array(arr):\n    total = 0\n    for num in arr:\n        total += num\n    return total\n\nprint(sum_array([1, 2, 3, 4, 5]))",
+        "o": [
+            "15",
+            "10",
+            "5",
+            "20"
+        ]
+    },
+    {
+        "q": "Rearrange the selection sort steps:",
+        "type": "rearrange",
+        "words": [
+            "Find minimum",
+            "Swap with first",
+            "Move boundary",
+            "Repeat"
+        ]
+    },
+    {
+        "q": "O(log n) is faster than O(n) for large inputs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm with its average time complexity:",
+        "type": "match",
+        "left": [
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Insertion Sort"
+        ],
+        "right": [
+            "O(n^2)",
+            "O(n log n)",
+            "O(n log n)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "arr = [5, 2, 8, 1, 9]\narr.sort()\nprint(arr[2])",
+        "o": [
+            "5",
+            "8",
+            "2",
+            "1"
+        ]
+    },
+    {
+        "q": "A _____ graph allows edges to point in one direction only.",
+        "type": "fill_blank",
+        "answers": [
+            "directed"
+        ],
+        "other_options": [
+            "undirected",
+            "simple",
+            "weighted"
+        ]
+    },
+    {
+        "q": "The space complexity of merge sort is O(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def reverse_array(arr):\n    return arr[::-1]\n\nprint(reverse_array([1, 2, 3]))",
+        "o": [
+            "[3, 2, 1]",
+            "[1, 2, 3]",
+            "[2, 1, 3]",
+            "[1, 3, 2]"
+        ]
+    },
+    {
+        "q": "Which sorting algorithm has the best average case performance?",
+        "type": "mcq",
+        "o": [
+            "Quick Sort",
+            "Bubble Sort",
+            "Selection Sort",
+            "Insertion Sort"
+        ]
+    },
+    {
+        "q": "A cycle in a graph is a path that starts and ends at the same node.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def contains(arr, target):\n    return target in arr\n\nprint(contains([1, 2, 3, 4], 3))",
+        "o": [
+            "True",
+            "False",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "q": "The _____ of a vertex is the number of edges connected to it.",
+        "type": "fill_blank",
+        "answers": [
+            "degree"
+        ],
+        "other_options": [
+            "weight",
+            "level",
+            "height"
+        ]
+    },
+    {
+        "q": "Match the term with its meaning in graphs:",
+        "type": "match",
+        "left": [
+            "Adjacent",
+            "Connected",
+            "Sparse",
+            "Dense"
+        ],
+        "right": [
+            "Nodes sharing an edge",
+            "Path exists between all nodes",
+            "Few edges compared to nodes",
+            "Many edges compared to nodes"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def find_index(arr, target):\n    try:\n        return arr.index(target)\n    except ValueError:\n        return -1\n\nprint(find_index([10, 20, 30], 20))",
+        "o": [
+            "1",
+            "2",
+            "20",
+            "0"
+        ]
+    },
+    {
+        "q": "Insertion sort performs well on nearly sorted arrays.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_occurrences(arr, target):\n    return arr.count(target)\n\nprint(count_occurrences([1, 2, 2, 3, 2], 2))",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a graph traversal algorithm?",
+        "type": "mcq",
+        "o": [
+            "Binary Search",
+            "BFS",
+            "DFS",
+            "Level Order Traversal"
+        ]
+    },
+    {
+        "q": "The _____ of a tree is the length of the longest path from root to leaf.",
+        "type": "fill_blank",
+        "answers": [
+            "height"
+        ],
+        "other_options": [
+            "width",
+            "depth",
+            "size"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def get_first_last(arr):\n    return arr[0], arr[-1]\n\nprint(get_first_last([5, 10, 15, 20]))",
+        "o": [
+            "(5, 20)",
+            "(5, 15)",
+            "(10, 20)",
+            "(5, 10)"
+        ]
+    },
+    {
+        "q": "Quick sort uses a pivot element to partition the array.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_empty(arr):\n    return len(arr) == 0\n\nprint(is_empty([]))",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "None"
+        ]
+    },
+    {
+        "q": "An algorithm that always produces the same output for the same input is called _____.",
+        "type": "fill_blank",
+        "answers": [
+            "deterministic"
+        ],
+        "other_options": [
+            "random",
+            "heuristic",
+            "probabilistic"
+        ]
+    },
+    {
+        "q": "Match the sorting algorithm with its space complexity:",
+        "type": "match",
+        "left": [
+            "Bubble Sort",
+            "Merge Sort",
+            "Quick Sort",
+            "Heap Sort"
+        ],
+        "right": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(1)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def double_values(arr):\n    return [x * 2 for x in arr]\n\nprint(double_values([1, 2, 3]))",
+        "o": [
+            "[2, 4, 6]",
+            "[1, 2, 3]",
+            "[3, 6, 9]",
+            "[1, 4, 9]"
+        ]
+    },
+    {
+        "q": "A heap is a complete binary tree.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def filter_even(arr):\n    return [x for x in arr if x % 2 == 0]\n\nprint(filter_even([1, 2, 3, 4, 5, 6]))",
+        "o": [
+            "[2, 4, 6]",
+            "[1, 3, 5]",
+            "[1, 2, 3, 4, 5, 6]",
+            "[]"
+        ]
+    },
+    {
+        "q": "Which of these describes an in-place sorting algorithm?",
+        "type": "mcq",
+        "o": [
+            "Uses O(1) extra space",
+            "Uses O(n) extra space",
+            "Creates a new sorted array",
+            "Requires additional memory proportional to input"
+        ]
+    },
+    {
+        "q": "The root of a tree has no _____ node.",
+        "type": "fill_blank",
+        "answers": [
+            "parent"
+        ],
+        "other_options": [
+            "child",
+            "sibling",
+            "leaf"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def swap(arr, i, j):\n    arr[i], arr[j] = arr[j], arr[i]\n    return arr\n\nprint(swap([1, 2, 3], 0, 2))",
+        "o": [
+            "[3, 2, 1]",
+            "[1, 2, 3]",
+            "[2, 1, 3]",
+            "[1, 3, 2]"
+        ]
+    },
+    {
+        "q": "DFS can be implemented using recursion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def get_middle(arr):\n    mid = len(arr) // 2\n    return arr[mid]\n\nprint(get_middle([10, 20, 30, 40, 50]))",
+        "o": [
+            "30",
+            "20",
+            "40",
+            "25"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of linear search:",
+        "type": "rearrange",
+        "words": [
+            "Start from first",
+            "Compare element",
+            "Move to next",
+            "Return result"
+        ]
+    },
+    {
+        "q": "Match the concept with its definition:",
+        "type": "match",
+        "left": [
+            "Time Complexity",
+            "Space Complexity",
+            "Best Case",
+            "Worst Case"
+        ],
+        "right": [
+            "Operations as input grows",
+            "Memory used by algorithm",
+            "Minimum operations needed",
+            "Maximum operations needed"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def min_element(arr):\n    return min(arr)\n\nprint(min_element([5, 3, 8, 1, 9]))",
+        "o": [
+            "1",
+            "3",
+            "5",
+            "9"
+        ]
+    },
+    {
+        "q": "A leaf node in a tree has no _____ nodes.",
+        "type": "fill_blank",
+        "answers": [
+            "child"
+        ],
+        "other_options": [
+            "parent",
+            "sibling",
+            "root"
+        ]
+    },
+    {
+        "q": "Selection sort has a time complexity of O(n^2) in all cases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the time complexity of finding median in an unsorted array?",
+        "type": "mcq",
+        "o": [
+            "O(n)",
+            "O(1)",
+            "O(log n)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "Which algorithm is typically used for topological sorting?",
+        "type": "mcq",
+        "o": [
+            "DFS",
+            "Binary Search",
+            "Quick Sort",
+            "Bubble Sort"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def partition(arr, low, high):\n    pivot = arr[high]\n    i = low - 1\n    for j in range(low, high):\n        if arr[j] <= pivot:\n            i += 1\n            arr[i], arr[j] = arr[j], arr[i]\n    arr[i+1], arr[high] = arr[high], arr[i+1]\n    return i + 1\n\narr = [3, 1, 4, 1, 5]\nprint(partition(arr, 0, 4))",
+        "o": [
+            "4",
+            "2",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "q": "A _____ is a graph where every pair of vertices is connected by an edge.",
+        "type": "fill_blank",
+        "answers": [
+            "complete"
+        ],
+        "other_options": [
+            "connected",
+            "sparse",
+            "bipartite"
+        ]
+    },
+    {
+        "q": "Quick sort has O(n^2) worst case time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm type with its example:",
+        "type": "match",
+        "left": [
+            "Greedy",
+            "Divide and Conquer",
+            "Dynamic Programming",
+            "Brute Force"
+        ],
+        "right": [
+            "Dijkstra's",
+            "Merge Sort",
+            "Fibonacci",
+            "Linear Search"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quick_sort(left) + middle + quick_sort(right)\n\nprint(quick_sort([3, 6, 1, 8])[1])",
+        "o": [
+            "3",
+            "1",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "q": "Which graph algorithm uses relaxation technique?",
+        "type": "mcq",
+        "o": [
+            "Dijkstra's Algorithm",
+            "Binary Search",
+            "Bubble Sort",
+            "DFS"
+        ]
+    },
+    {
+        "q": "Dijkstra's algorithm works correctly with negative edge weights.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def heap_parent(i):\n    return (i - 1) // 2\n\nprint(heap_parent(5))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "The _____ property states that a parent node is always greater than its children in a max heap.",
+        "type": "fill_blank",
+        "answers": [
+            "heap"
+        ],
+        "other_options": [
+            "tree",
+            "binary",
+            "order"
+        ]
+    },
+    {
+        "q": "Rearrange the heap sort steps:",
+        "type": "rearrange",
+        "words": [
+            "Build max heap",
+            "Extract maximum",
+            "Heapify",
+            "Repeat"
+        ]
+    },
+    {
+        "q": "What is the time complexity of heap sort?",
+        "type": "mcq",
+        "o": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(n)",
+            "O(log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def left_child(i):\n    return 2 * i + 1\n\nprint(left_child(2))",
+        "o": [
+            "5",
+            "4",
+            "6",
+            "3"
+        ]
+    },
+    {
+        "q": "A min heap has the smallest element at the root.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the heap operation with its complexity:",
+        "type": "match",
+        "left": [
+            "Insert",
+            "Extract Min",
+            "Build Heap",
+            "Find Min"
+        ],
+        "right": [
+            "O(log n)",
+            "O(log n)",
+            "O(n)",
+            "O(1)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def right_child(i):\n    return 2 * i + 2\n\nprint(right_child(1))",
+        "o": [
+            "4",
+            "3",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "Which data structure is commonly used to implement priority queue?",
+        "type": "mcq",
+        "o": [
+            "Heap",
+            "Stack",
+            "Array",
+            "Linked List"
+        ]
+    },
+    {
+        "q": "The height of a complete binary tree with n nodes is approximately log2(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import heapq\n\nheap = [3, 1, 4, 1, 5]\nheapq.heapify(heap)\nprint(heap[0])",
+        "o": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "A _____ tree has at most 2^h nodes at height h.",
+        "type": "fill_blank",
+        "answers": [
+            "binary"
+        ],
+        "other_options": [
+            "complete",
+            "full",
+            "balanced"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "import heapq\n\nheap = []\nheapq.heappush(heap, 5)\nheapq.heappush(heap, 2)\nheapq.heappush(heap, 8)\nprint(heapq.heappop(heap))",
+        "o": [
+            "2",
+            "5",
+            "8",
+            "0"
+        ]
+    },
+    {
+        "q": "Counting sort is a comparison-based sorting algorithm.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the algorithm with its typical use case:",
+        "type": "match",
+        "left": [
+            "BFS",
+            "DFS",
+            "Dijkstra's",
+            "Prim's"
+        ],
+        "right": [
+            "Shortest path unweighted",
+            "Cycle detection",
+            "Shortest path weighted",
+            "Minimum spanning tree"
+        ]
+    },
+    {
+        "q": "What is the time complexity of counting sort?",
+        "type": "mcq",
+        "o": [
+            "O(n + k)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def counting_sort_range(arr):\n    if not arr:\n        return arr\n    min_val, max_val = min(arr), max(arr)\n    count = [0] * (max_val - min_val + 1)\n    for num in arr:\n        count[num - min_val] += 1\n    return count[0]\n\nprint(counting_sort_range([3, 1, 4, 1, 5]))",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "3"
+        ]
+    },
+    {
+        "q": "Radix sort processes digits from _____ significant to most significant.",
+        "type": "fill_blank",
+        "answers": [
+            "least"
+        ],
+        "other_options": [
+            "most",
+            "middle",
+            "random"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def get_digit(num, place):\n    return (num // place) % 10\n\nprint(get_digit(1234, 100))",
+        "o": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "Bucket sort works best when input is uniformly distributed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def num_digits(n):\n    count = 0\n    while n > 0:\n        count += 1\n        n //= 10\n    return count\n\nprint(num_digits(12345))",
+        "o": [
+            "5",
+            "4",
+            "6",
+            "12345"
+        ]
+    },
+    {
+        "q": "Match the non-comparison sort with its key characteristic:",
+        "type": "match",
+        "left": [
+            "Counting Sort",
+            "Radix Sort",
+            "Bucket Sort",
+            "Pigeonhole Sort"
+        ],
+        "right": [
+            "Uses frequency array",
+            "Processes digit by digit",
+            "Uses buckets for ranges",
+            "Similar to counting sort"
+        ]
+    },
+    {
+        "q": "Which algorithm finds strongly connected components?",
+        "type": "mcq",
+        "o": [
+            "Kosaraju's Algorithm",
+            "Binary Search",
+            "Bubble Sort",
+            "Quick Sort"
+        ]
+    },
+    {
+        "q": "Rearrange the Dijkstra's algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize distances",
+            "Select minimum",
+            "Update neighbors",
+            "Mark visited"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "graph = {\n    'A': ['B', 'C'],\n    'B': ['A', 'D'],\n    'C': ['A', 'D'],\n    'D': ['B', 'C']\n}\nprint(len(graph['A']))",
+        "o": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "A spanning tree of a graph contains all vertices and _____ edges.",
+        "type": "fill_blank",
+        "answers": [
+            "n-1"
+        ],
+        "other_options": [
+            "n",
+            "n+1",
+            "2n"
+        ]
+    },
+    {
+        "q": "Kruskal's algorithm uses a greedy approach to find MST.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def find_parent(parent, i):\n    if parent[i] != i:\n        parent[i] = find_parent(parent, parent[i])\n    return parent[i]\n\nparent = [0, 1, 2, 3, 4]\nparent[1] = 0\nparent[2] = 0\nprint(find_parent(parent, 2))",
+        "o": [
+            "0",
+            "2",
+            "1",
+            "3"
+        ]
+    },
+    {
+        "q": "Match the MST algorithm with its approach:",
+        "type": "match",
+        "left": [
+            "Kruskal's",
+            "Prim's",
+            "Boruvka's",
+            "Reverse Delete"
+        ],
+        "right": [
+            "Edge-based greedy",
+            "Vertex-based greedy",
+            "Parallel friendly",
+            "Removes edges"
+        ]
+    },
+    {
+        "q": "Which data structure is used in Kruskal's algorithm for cycle detection?",
+        "type": "mcq",
+        "o": [
+            "Disjoint Set Union",
+            "Binary Heap",
+            "Stack",
+            "Queue"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "edges = [(1, 2, 5), (2, 3, 3), (1, 3, 4)]\nedges.sort(key=lambda x: x[2])\nprint(edges[0][2])",
+        "o": [
+            "3",
+            "5",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "Prim's algorithm grows the MST from a starting vertex.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The time complexity of Prim's algorithm with binary heap is O(E log V).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def union(parent, rank, x, y):\n    px, py = find(parent, x), find(parent, y)\n    if rank[px] < rank[py]:\n        parent[px] = py\n    elif rank[px] > rank[py]:\n        parent[py] = px\n    else:\n        parent[py] = px\n        rank[px] += 1\n\ndef find(parent, i):\n    if parent[i] != i:\n        parent[i] = find(parent, parent[i])\n    return parent[i]\n\nparent = [0, 1, 2]\nrank = [0, 0, 0]\nunion(parent, rank, 0, 1)\nprint(parent[1])",
+        "o": [
+            "0",
+            "1",
+            "2",
+            "-1"
+        ]
+    },
+    {
+        "q": "A _____ sort is stable if equal elements maintain their relative order.",
+        "type": "fill_blank",
+        "answers": [
+            "sorting"
+        ],
+        "other_options": [
+            "quick",
+            "heap",
+            "merge"
+        ]
+    },
+    {
+        "q": "Which of these algorithms can detect negative cycles?",
+        "type": "mcq",
+        "o": [
+            "Bellman-Ford",
+            "Dijkstra's",
+            "BFS",
+            "Prim's"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bellman_relax(dist, u, v, weight):\n    if dist[u] != float('inf') and dist[u] + weight < dist[v]:\n        dist[v] = dist[u] + weight\n        return True\n    return False\n\ndist = [0, float('inf'), float('inf')]\nprint(bellman_relax(dist, 0, 1, 5))",
+        "o": [
+            "True",
+            "False",
+            "5",
+            "0"
+        ]
+    },
+    {
+        "q": "Bellman-Ford algorithm runs for V-1 iterations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the shortest path algorithm with its graph type:",
+        "type": "match",
+        "left": [
+            "BFS",
+            "Dijkstra's",
+            "Bellman-Ford",
+            "Floyd-Warshall"
+        ],
+        "right": [
+            "Unweighted",
+            "Non-negative weights",
+            "Any weights",
+            "All pairs"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def has_cycle_directed(graph, node, visited, rec_stack):\n    visited[node] = True\n    rec_stack[node] = True\n    for neighbor in graph.get(node, []):\n        if not visited[neighbor]:\n            if has_cycle_directed(graph, neighbor, visited, rec_stack):\n                return True\n        elif rec_stack[neighbor]:\n            return True\n    rec_stack[node] = False\n    return False\n\ngraph = {0: [1], 1: [2], 2: [0]}\nvisited = [False] * 3\nrec_stack = [False] * 3\nprint(has_cycle_directed(graph, 0, visited, rec_stack))",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "None"
+        ]
+    },
+    {
+        "q": "Floyd-Warshall finds shortest paths between all pairs of vertices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The time complexity of Floyd-Warshall algorithm is O(V^3).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "INF = float('inf')\ndist = [[0, 5, INF], [INF, 0, 3], [INF, INF, 0]]\nfor k in range(3):\n    for i in range(3):\n        for j in range(3):\n            dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])\nprint(dist[0][2])",
+        "o": [
+            "8",
+            "3",
+            "5",
+            "inf"
+        ]
+    },
+    {
+        "q": "A _____ search can be used to find bridges in a graph.",
+        "type": "fill_blank",
+        "answers": [
+            "DFS"
+        ],
+        "other_options": [
+            "BFS",
+            "binary",
+            "linear"
+        ]
+    },
+    {
+        "q": "Which algorithm finds articulation points in a graph?",
+        "type": "mcq",
+        "o": [
+            "Tarjan's Algorithm",
+            "Quick Sort",
+            "Merge Sort",
+            "Binary Search"
+        ]
+    },
+    {
+        "q": "Rearrange the Floyd-Warshall steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize matrix",
+            "Consider each vertex",
+            "Update all pairs",
+            "Output distances"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_bipartite_check(adj, node, color, c):\n    color[node] = c\n    for neighbor in adj[node]:\n        if color[neighbor] == -1:\n            if not is_bipartite_check(adj, neighbor, color, 1-c):\n                return False\n        elif color[neighbor] == c:\n            return False\n    return True\n\nadj = {0: [1, 3], 1: [0, 2], 2: [1, 3], 3: [0, 2]}\ncolor = [-1] * 4\nprint(is_bipartite_check(adj, 0, color, 0))",
+        "o": [
+            "True",
+            "False",
+            "0",
+            "-1"
+        ]
+    },
+    {
+        "q": "A bipartite graph can be colored with exactly 2 colors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the graph property with its definition:",
+        "type": "match",
+        "left": [
+            "Bipartite",
+            "Eulerian",
+            "Hamiltonian",
+            "Planar"
+        ],
+        "right": [
+            "Two colorable",
+            "Visits all edges once",
+            "Visits all vertices once",
+            "No edge crossings"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def topological_util(v, visited, stack, adj):\n    visited[v] = True\n    for i in adj.get(v, []):\n        if not visited[i]:\n            topological_util(i, visited, stack, adj)\n    stack.append(v)\n\nadj = {0: [1], 1: [2], 2: []}\nvisited = [False] * 3\nstack = []\ntopological_util(0, visited, stack)\nprint(stack[-1])",
+        "o": [
+            "0",
+            "2",
+            "1",
+            "None"
+        ]
+    },
+    {
+        "q": "Topological sorting is only possible for DAGs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "DAG stands for Directed _____ Graph.",
+        "type": "fill_blank",
+        "answers": [
+            "Acyclic"
+        ],
+        "other_options": [
+            "Adjacent",
+            "Ascending",
+            "Algorithmic"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import deque\n\ndef kahn_in_degree(adj, n):\n    in_degree = [0] * n\n    for u in adj:\n        for v in adj[u]:\n            in_degree[v] += 1\n    return in_degree\n\nadj = {0: [1, 2], 1: [3], 2: [3], 3: []}\nprint(kahn_in_degree(adj, 4)[3])",
+        "o": [
+            "2",
+            "0",
+            "1",
+            "3"
+        ]
+    },
+    {
+        "q": "Which approach does Kahn's algorithm use for topological sort?",
+        "type": "mcq",
+        "o": [
+            "BFS with in-degree",
+            "DFS with recursion",
+            "Divide and conquer",
+            "Greedy selection"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_paths(graph, start, end, visited):\n    if start == end:\n        return 1\n    visited[start] = True\n    count = 0\n    for neighbor in graph.get(start, []):\n        if not visited[neighbor]:\n            count += count_paths(graph, neighbor, end, visited)\n    visited[start] = False\n    return count\n\ngraph = {0: [1, 2], 1: [3], 2: [3], 3: []}\nvisited = [False] * 4\nprint(count_paths(graph, 0, 3, visited))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "A back edge in DFS indicates a cycle in directed graph.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the edge type in DFS with its meaning:",
+        "type": "match",
+        "left": [
+            "Tree Edge",
+            "Back Edge",
+            "Forward Edge",
+            "Cross Edge"
+        ],
+        "right": [
+            "Parent to child",
+            "Descendant to ancestor",
+            "Ancestor to descendant",
+            "Between subtrees"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def dfs_iterative(graph, start):\n    visited = set()\n    stack = [start]\n    order = []\n    while stack:\n        node = stack.pop()\n        if node not in visited:\n            visited.add(node)\n            order.append(node)\n            for neighbor in reversed(graph.get(node, [])):\n                stack.append(neighbor)\n    return order\n\ngraph = {0: [1, 2], 1: [3], 2: [], 3: []}\nprint(dfs_iterative(graph, 0)[2])",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "0"
+        ]
+    },
+    {
+        "q": "BFS finds the shortest path in terms of number of edges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "from collections import deque\n\ndef bfs_distance(graph, start):\n    dist = {start: 0}\n    queue = deque([start])\n    while queue:\n        node = queue.popleft()\n        for neighbor in graph.get(node, []):\n            if neighbor not in dist:\n                dist[neighbor] = dist[node] + 1\n                queue.append(neighbor)\n    return dist\n\ngraph = {0: [1, 2], 1: [3], 2: [3], 3: []}\nprint(bfs_distance(graph, 0)[3])",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "The _____ of a graph is the number of edges incident to a vertex.",
+        "type": "fill_blank",
+        "answers": [
+            "degree"
+        ],
+        "other_options": [
+            "weight",
+            "order",
+            "size"
+        ]
+    },
+    {
+        "q": "Which algorithm can find the diameter of a tree?",
+        "type": "mcq",
+        "o": [
+            "Two BFS",
+            "Quick Sort",
+            "Binary Search",
+            "Bubble Sort"
+        ]
+    },
+    {
+        "q": "Rearrange the BFS traversal order for a tree from root:",
+        "type": "rearrange",
+        "words": [
+            "Visit root",
+            "Enqueue children",
+            "Dequeue next",
+            "Process level"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def find_levels(graph, root):\n    levels = {root: 0}\n    queue = [root]\n    max_level = 0\n    while queue:\n        node = queue.pop(0)\n        for child in graph.get(node, []):\n            if child not in levels:\n                levels[child] = levels[node] + 1\n                max_level = max(max_level, levels[child])\n                queue.append(child)\n    return max_level\n\ngraph = {0: [1, 2], 1: [3, 4], 2: [5], 3: [], 4: [], 5: []}\nprint(find_levels(graph, 0))",
+        "o": [
+            "2",
+            "3",
+            "1",
+            "5"
+        ]
+    },
+    {
+        "q": "A tree with n vertices has exactly n-1 edges.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the tree traversal with its order:",
+        "type": "match",
+        "left": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level Order"
+        ],
+        "right": [
+            "Root-Left-Right",
+            "Left-Root-Right",
+            "Left-Right-Root",
+            "Level by level"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def preorder(root, tree, result):\n    result.append(root)\n    for child in tree.get(root, []):\n        preorder(child, tree, result)\n    return result\n\ntree = {1: [2, 3], 2: [4], 3: [], 4: []}\nprint(preorder(1, tree, [])[2])",
+        "o": [
+            "4",
+            "3",
+            "2",
+            "1"
+        ]
+    },
+    {
+        "q": "The worst case of quick sort occurs when the pivot is always the smallest or largest.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def postorder(root, tree, result):\n    for child in tree.get(root, []):\n        postorder(child, tree, result)\n    result.append(root)\n    return result\n\ntree = {1: [2, 3], 2: [], 3: []}\nprint(postorder(1, tree, [])[0])",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "A binary tree where every level except possibly the last is full is called _____.",
+        "type": "fill_blank",
+        "answers": [
+            "complete"
+        ],
+        "other_options": [
+            "full",
+            "perfect",
+            "balanced"
+        ]
+    },
+    {
+        "q": "Which sorting algorithm is best for linked lists?",
+        "type": "mcq",
+        "o": [
+            "Merge Sort",
+            "Quick Sort",
+            "Heap Sort",
+            "Counting Sort"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def tree_height(node, tree):\n    if node not in tree or not tree[node]:\n        return 0\n    return 1 + max(tree_height(child, tree) for child in tree[node])\n\ntree = {1: [2, 3], 2: [4, 5], 3: [], 4: [], 5: []}\nprint(tree_height(1, tree))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Match the complexity class with its growth rate order:",
+        "type": "match",
+        "left": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "right": [
+            "Constant",
+            "Logarithmic",
+            "Linear",
+            "Polynomial"
+        ]
+    },
+    {
+        "q": "A full binary tree has all nodes with either 0 or 2 children.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_nodes(node, tree):\n    if node not in tree:\n        return 1\n    return 1 + sum(count_nodes(child, tree) for child in tree.get(node, []))\n\ntree = {1: [2, 3], 2: [4], 3: [], 4: []}\nprint(count_nodes(1, tree))",
+        "o": [
+            "4",
+            "3",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "The _____ complexity describes how memory usage grows with input size.",
+        "type": "fill_blank",
+        "answers": [
+            "space"
+        ],
+        "other_options": [
+            "time",
+            "worst",
+            "average"
+        ]
+    },
+    {
+        "q": "Rearrange the quick sort steps:",
+        "type": "rearrange",
+        "words": [
+            "Choose pivot",
+            "Partition array",
+            "Sort left",
+            "Sort right"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_leaves(node, tree):\n    if node not in tree or not tree[node]:\n        return 1\n    return sum(count_leaves(child, tree) for child in tree[node])\n\ntree = {1: [2, 3], 2: [4, 5], 3: [], 4: [], 5: []}\nprint(count_leaves(1, tree))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "Timsort is a hybrid sorting algorithm used in Python.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which complexity is considered efficient for most practical purposes?",
+        "type": "mcq",
+        "o": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(2^n)",
+            "O(n!)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_leaf(node, tree):\n    return node not in tree or len(tree.get(node, [])) == 0\n\ntree = {1: [2, 3], 2: [], 3: [4], 4: []}\nprint(is_leaf(2, tree))",
+        "o": [
+            "True",
+            "False",
+            "2",
+            "0"
+        ]
+    },
+    {
+        "q": "Match the algorithm paradigm with its description:",
+        "type": "match",
+        "left": [
+            "Greedy",
+            "Divide Conquer",
+            "Dynamic Programming",
+            "Backtracking"
+        ],
+        "right": [
+            "Local optimal choice",
+            "Split solve combine",
+            "Overlapping subproblems",
+            "Try and undo"
+        ]
+    },
+    {
+        "q": "What is the amortized time complexity of inserting n elements into a dynamic array?",
+        "type": "mcq",
+        "o": [
+            "O(n)",
+            "O(n^2)",
+            "O(log n)",
+            "O(n log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fibonacci_dp(n):\n    if n <= 1:\n        return n\n    dp = [0] * (n + 1)\n    dp[1] = 1\n    for i in range(2, n + 1):\n        dp[i] = dp[i-1] + dp[i-2]\n    return dp[n]\n\nprint(fibonacci_dp(7))",
+        "o": [
+            "13",
+            "8",
+            "21",
+            "5"
+        ]
+    },
+    {
+        "q": "Dynamic programming requires problems to have _____ subproblems.",
+        "type": "fill_blank",
+        "answers": [
+            "overlapping"
+        ],
+        "other_options": [
+            "independent",
+            "random",
+            "sequential"
+        ]
+    },
+    {
+        "q": "Memoization is a top-down approach to dynamic programming.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lcs_length(s1, s2):\n    m, n = len(s1), len(s2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if s1[i-1] == s2[j-1]:\n                dp[i][j] = dp[i-1][j-1] + 1\n            else:\n                dp[i][j] = max(dp[i-1][j], dp[i][j-1])\n    return dp[m][n]\n\nprint(lcs_length('ABCD', 'AEBD'))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "Which problem is solved using dynamic programming with a 0/1 approach?",
+        "type": "mcq",
+        "o": [
+            "Knapsack Problem",
+            "Merge Sort",
+            "Quick Sort",
+            "Binary Search"
+        ]
+    },
+    {
+        "q": "Match the DP problem with its subproblem structure:",
+        "type": "match",
+        "left": [
+            "Fibonacci",
+            "LCS",
+            "Knapsack",
+            "Edit Distance"
+        ],
+        "right": [
+            "Single dimension",
+            "Two sequences",
+            "Weight and items",
+            "Two strings comparison"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def coin_change(coins, amount):\n    dp = [float('inf')] * (amount + 1)\n    dp[0] = 0\n    for coin in coins:\n        for x in range(coin, amount + 1):\n            dp[x] = min(dp[x], dp[x - coin] + 1)\n    return dp[amount] if dp[amount] != float('inf') else -1\n\nprint(coin_change([1, 2, 5], 11))",
+        "o": [
+            "3",
+            "4",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "The space complexity of tabulation is typically O(n) for 1D problems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def edit_distance(s1, s2):\n    m, n = len(s1), len(s2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(m + 1):\n        dp[i][0] = i\n    for j in range(n + 1):\n        dp[0][j] = j\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if s1[i-1] == s2[j-1]:\n                dp[i][j] = dp[i-1][j-1]\n            else:\n                dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])\n    return dp[m][n]\n\nprint(edit_distance('cat', 'cut'))",
+        "o": [
+            "1",
+            "2",
+            "0",
+            "3"
+        ]
+    },
+    {
+        "q": "The _____ structure allows optimal substructure in DP problems.",
+        "type": "fill_blank",
+        "answers": [
+            "recursive"
+        ],
+        "other_options": [
+            "iterative",
+            "random",
+            "linear"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of solving a DP problem:",
+        "type": "rearrange",
+        "words": [
+            "Define subproblems",
+            "Write recurrence",
+            "Build table",
+            "Extract solution"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def longest_increasing_subsequence(arr):\n    n = len(arr)\n    dp = [1] * n\n    for i in range(1, n):\n        for j in range(i):\n            if arr[j] < arr[i]:\n                dp[i] = max(dp[i], dp[j] + 1)\n    return max(dp)\n\nprint(longest_increasing_subsequence([10, 22, 9, 33, 21, 50]))",
+        "o": [
+            "4",
+            "3",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "q": "Which technique reduces space in DP when only previous row is needed?",
+        "type": "mcq",
+        "o": [
+            "Space optimization",
+            "Memoization",
+            "Recursion",
+            "Backtracking"
+        ]
+    },
+    {
+        "q": "Matrix chain multiplication uses DP to find optimal parenthesization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def max_subarray_sum(arr):\n    max_ending = max_so_far = arr[0]\n    for x in arr[1:]:\n        max_ending = max(x, max_ending + x)\n        max_so_far = max(max_so_far, max_ending)\n    return max_so_far\n\nprint(max_subarray_sum([-2, 1, -3, 4, -1, 2, 1, -5, 4]))",
+        "o": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ]
+    },
+    {
+        "q": "Match the algorithm with its time complexity:",
+        "type": "match",
+        "left": [
+            "Kadane's Algorithm",
+            "LCS",
+            "Edit Distance",
+            "LIS (O(n^2))"
+        ],
+        "right": [
+            "O(n)",
+            "O(mn)",
+            "O(mn)",
+            "O(n^2)"
+        ]
+    },
+    {
+        "q": "The _____ algorithm finds maximum subarray sum in O(n) time.",
+        "type": "fill_blank",
+        "answers": [
+            "Kadane's"
+        ],
+        "other_options": [
+            "Floyd's",
+            "Dijkstra's",
+            "Prim's"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def knapsack_01(weights, values, capacity):\n    n = len(weights)\n    dp = [[0] * (capacity + 1) for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for w in range(capacity + 1):\n            if weights[i-1] <= w:\n                dp[i][w] = max(dp[i-1][w], values[i-1] + dp[i-1][w-weights[i-1]])\n            else:\n                dp[i][w] = dp[i-1][w]\n    return dp[n][capacity]\n\nprint(knapsack_01([1, 2, 3], [6, 10, 12], 5))",
+        "o": [
+            "22",
+            "18",
+            "16",
+            "28"
+        ]
+    },
+    {
+        "q": "Greedy approach always gives optimal solution for fractional knapsack.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def rod_cutting(prices, n):\n    dp = [0] * (n + 1)\n    for i in range(1, n + 1):\n        for j in range(1, i + 1):\n            dp[i] = max(dp[i], prices[j-1] + dp[i-j])\n    return dp[n]\n\nprint(rod_cutting([1, 5, 8, 9], 4))",
+        "o": [
+            "10",
+            "9",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "q": "Which search technique is used when elements are uniformly distributed?",
+        "type": "mcq",
+        "o": [
+            "Interpolation Search",
+            "Binary Search",
+            "Linear Search",
+            "Jump Search"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of backtracking:",
+        "type": "rearrange",
+        "words": [
+            "Make choice",
+            "Explore further",
+            "Check constraints",
+            "Undo if invalid"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_valid_sudoku_cell(board, row, col, num):\n    for i in range(9):\n        if board[row][i] == num or board[i][col] == num:\n            return False\n    start_row, start_col = 3 * (row // 3), 3 * (col // 3)\n    for i in range(start_row, start_row + 3):\n        for j in range(start_col, start_col + 3):\n            if board[i][j] == num:\n                return False\n    return True\n\nboard = [[0]*9 for _ in range(9)]\nboard[0][0] = 5\nprint(is_valid_sudoku_cell(board, 0, 1, 5))",
+        "o": [
+            "False",
+            "True",
+            "5",
+            "None"
+        ]
+    },
+    {
+        "q": "The N-Queens problem is solved using _____ technique.",
+        "type": "fill_blank",
+        "answers": [
+            "backtracking"
+        ],
+        "other_options": [
+            "greedy",
+            "divide",
+            "dynamic"
+        ]
+    },
+    {
+        "q": "Match the problem with its solving technique:",
+        "type": "match",
+        "left": [
+            "N-Queens",
+            "Sudoku",
+            "Maze Solving",
+            "Subset Sum"
+        ],
+        "right": [
+            "Backtracking",
+            "Backtracking",
+            "Backtracking/BFS",
+            "DP/Backtracking"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def generate_subsets(nums):\n    result = []\n    def backtrack(start, path):\n        result.append(path[:])\n        for i in range(start, len(nums)):\n            path.append(nums[i])\n            backtrack(i + 1, path)\n            path.pop()\n    backtrack(0, [])\n    return len(result)\n\nprint(generate_subsets([1, 2, 3]))",
+        "o": [
+            "8",
+            "6",
+            "7",
+            "9"
+        ]
+    },
+    {
+        "q": "Backtracking prunes the search space by abandoning invalid paths early.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def generate_permutations(nums):\n    result = []\n    def backtrack(path, remaining):\n        if not remaining:\n            result.append(path[:])\n            return\n        for i in range(len(remaining)):\n            path.append(remaining[i])\n            backtrack(path, remaining[:i] + remaining[i+1:])\n            path.pop()\n    backtrack([], nums)\n    return len(result)\n\nprint(generate_permutations([1, 2, 3]))",
+        "o": [
+            "6",
+            "8",
+            "9",
+            "3"
+        ]
+    },
+    {
+        "q": "The time complexity of generating all permutations is O(n!).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which data structure is used for efficient range queries?",
+        "type": "mcq",
+        "o": [
+            "Segment Tree",
+            "Stack",
+            "Queue",
+            "Linked List"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def build_segment_tree(arr, tree, node, start, end):\n    if start == end:\n        tree[node] = arr[start]\n    else:\n        mid = (start + end) // 2\n        build_segment_tree(arr, tree, 2*node, start, mid)\n        build_segment_tree(arr, tree, 2*node+1, mid+1, end)\n        tree[node] = tree[2*node] + tree[2*node+1]\n\narr = [1, 3, 5, 7, 9, 11]\ntree = [0] * (4 * len(arr))\nbuild_segment_tree(arr, tree, 1, 0, len(arr)-1)\nprint(tree[1])",
+        "o": [
+            "36",
+            "25",
+            "30",
+            "21"
+        ]
+    },
+    {
+        "q": "A segment tree has height O(log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ tree is used for prefix sum queries with updates.",
+        "type": "fill_blank",
+        "answers": [
+            "Fenwick"
+        ],
+        "other_options": [
+            "Segment",
+            "Binary",
+            "AVL"
+        ]
+    },
+    {
+        "q": "Match the data structure with its primary operation:",
+        "type": "match",
+        "left": [
+            "Segment Tree",
+            "Fenwick Tree",
+            "Trie",
+            "Suffix Array"
+        ],
+        "right": [
+            "Range queries",
+            "Prefix sums",
+            "String search",
+            "Pattern matching"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def prefix_sum_query(prefix, l, r):\n    if l == 0:\n        return prefix[r]\n    return prefix[r] - prefix[l - 1]\n\narr = [1, 2, 3, 4, 5]\nprefix = [arr[0]]\nfor i in range(1, len(arr)):\n    prefix.append(prefix[-1] + arr[i])\nprint(prefix_sum_query(prefix, 1, 3))",
+        "o": [
+            "9",
+            "6",
+            "10",
+            "3"
+        ]
+    },
+    {
+        "q": "A Trie is efficient for storing and searching strings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "class TrieNode:\n    def __init__(self):\n        self.children = {}\n        self.is_end = False\n\ndef insert(root, word):\n    node = root\n    for char in word:\n        if char not in node.children:\n            node.children[char] = TrieNode()\n        node = node.children[char]\n    node.is_end = True\n\nroot = TrieNode()\ninsert(root, 'apple')\nprint('a' in root.children)",
+        "o": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of Trie insertion:",
+        "type": "rearrange",
+        "words": [
+            "Start at root",
+            "Check each character",
+            "Create node if needed",
+            "Mark word end"
+        ]
+    },
+    {
+        "q": "Which algorithm finds the longest common prefix efficiently using a Trie?",
+        "type": "mcq",
+        "o": [
+            "Trie traversal",
+            "Binary Search",
+            "Quick Sort",
+            "DFS"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def longest_common_prefix_trie(strs):\n    if not strs:\n        return ''\n    prefix = strs[0]\n    for s in strs[1:]:\n        while not s.startswith(prefix):\n            prefix = prefix[:-1]\n            if not prefix:\n                return ''\n    return prefix\n\nprint(longest_common_prefix_trie(['flower', 'flow', 'flight']))",
+        "o": [
+            "fl",
+            "flo",
+            "f",
+            "flow"
+        ]
+    },
+    {
+        "q": "A _____ sort is used for strings based on individual characters.",
+        "type": "fill_blank",
+        "answers": [
+            "radix"
+        ],
+        "other_options": [
+            "merge",
+            "quick",
+            "heap"
+        ]
+    },
+    {
+        "q": "Match the string algorithm with its purpose:",
+        "type": "match",
+        "left": [
+            "KMP",
+            "Rabin-Karp",
+            "Z-Algorithm",
+            "Manacher"
+        ],
+        "right": [
+            "Pattern matching",
+            "Hash-based search",
+            "Pattern occurrences",
+            "Longest palindrome"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def compute_lps(pattern):\n    lps = [0] * len(pattern)\n    length = 0\n    i = 1\n    while i < len(pattern):\n        if pattern[i] == pattern[length]:\n            length += 1\n            lps[i] = length\n            i += 1\n        else:\n            if length != 0:\n                length = lps[length - 1]\n            else:\n                lps[i] = 0\n                i += 1\n    return lps\n\nprint(compute_lps('AABAACAABAA'))",
+        "o": [
+            "[0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 5]",
+            "[0, 0, 1, 0, 1, 0, 1, 2, 3, 4, 5]",
+            "[1, 2, 0, 1, 2, 0, 1, 2, 3, 4, 5]",
+            "[0, 1, 2, 1, 2, 0, 1, 2, 3, 4, 5]"
+        ]
+    },
+    {
+        "q": "KMP algorithm has O(n + m) time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def rabin_karp_hash(s, base=256, mod=101):\n    h = 0\n    for char in s:\n        h = (h * base + ord(char)) % mod\n    return h\n\nprint(rabin_karp_hash('abc'))",
+        "o": [
+            "94",
+            "100",
+            "97",
+            "99"
+        ]
+    },
+    {
+        "q": "The _____ algorithm uses rolling hash for pattern matching.",
+        "type": "fill_blank",
+        "answers": [
+            "Rabin-Karp"
+        ],
+        "other_options": [
+            "KMP",
+            "Boyer-Moore",
+            "Z-Algorithm"
+        ]
+    },
+    {
+        "q": "Rearrange the KMP algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute LPS array",
+            "Compare characters",
+            "Use LPS on mismatch",
+            "Report matches"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def z_function(s):\n    n = len(s)\n    z = [0] * n\n    l, r = 0, 0\n    for i in range(1, n):\n        if i < r:\n            z[i] = min(r - i, z[i - l])\n        while i + z[i] < n and s[z[i]] == s[i + z[i]]:\n            z[i] += 1\n        if i + z[i] > r:\n            l, r = i, i + z[i]\n    return z\n\nprint(z_function('aabxaab')[4])",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "Match the problem with its optimal algorithm:",
+        "type": "match",
+        "left": [
+            "Single source shortest path",
+            "All pairs shortest path",
+            "MST",
+            "Topological sort"
+        ],
+        "right": [
+            "Dijkstra's",
+            "Floyd-Warshall",
+            "Kruskal's/Prim's",
+            "DFS/Kahn's"
+        ]
+    },
+    {
+        "q": "A binary indexed tree requires O(n) space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fenwick_update(bit, i, delta, n):\n    while i <= n:\n        bit[i] += delta\n        i += i & (-i)\n\ndef fenwick_query(bit, i):\n    s = 0\n    while i > 0:\n        s += bit[i]\n        i -= i & (-i)\n    return s\n\nn = 5\nbit = [0] * (n + 1)\nfor i, val in enumerate([1, 2, 3, 4, 5], 1):\n    fenwick_update(bit, i, val, n)\nprint(fenwick_query(bit, 3))",
+        "o": [
+            "6",
+            "3",
+            "5",
+            "10"
+        ]
+    },
+    {
+        "q": "The operation i & (-i) in Fenwick tree gives the _____ set bit.",
+        "type": "fill_blank",
+        "answers": [
+            "lowest"
+        ],
+        "other_options": [
+            "highest",
+            "middle",
+            "second"
+        ]
+    },
+    {
+        "q": "Which algorithm finds the convex hull of points?",
+        "type": "mcq",
+        "o": [
+            "Graham Scan",
+            "Dijkstra's",
+            "Bellman-Ford",
+            "Floyd-Warshall"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def cross_product(o, a, b):\n    return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])\n\nprint(cross_product((0, 0), (1, 0), (0, 1)))",
+        "o": [
+            "1",
+            "-1",
+            "0",
+            "2"
+        ]
+    },
+    {
+        "q": "A positive cross product indicates a counter-clockwise turn.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the geometric algorithm with its purpose:",
+        "type": "match",
+        "left": [
+            "Graham Scan",
+            "Jarvis March",
+            "Line Sweep",
+            "Closest Pair"
+        ],
+        "right": [
+            "Convex hull",
+            "Convex hull",
+            "Event processing",
+            "Minimum distance"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def euclidean_distance(p1, p2):\n    return ((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)**0.5\n\nprint(euclidean_distance((0, 0), (3, 4)))",
+        "o": [
+            "5.0",
+            "7.0",
+            "4.0",
+            "3.0"
+        ]
+    },
+    {
+        "q": "The time complexity of closest pair using divide and conquer is O(n log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the convex hull construction steps:",
+        "type": "rearrange",
+        "words": [
+            "Sort by angle",
+            "Process points",
+            "Remove non-hull",
+            "Return hull"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def manhattan_distance(p1, p2):\n    return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])\n\nprint(manhattan_distance((1, 2), (4, 6)))",
+        "o": [
+            "7",
+            "5",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\nprint(gcd(48, 18))",
+        "o": [
+            "6",
+            "12",
+            "3",
+            "18"
+        ]
+    },
+    {
+        "q": "The _____ algorithm computes GCD in O(log(min(a, b))) time.",
+        "type": "fill_blank",
+        "answers": [
+            "Euclidean"
+        ],
+        "other_options": [
+            "Division",
+            "Binary",
+            "Extended"
+        ]
+    },
+    {
+        "q": "Match the number theory algorithm with its use:",
+        "type": "match",
+        "left": [
+            "Euclidean GCD",
+            "Extended Euclidean",
+            "Sieve of Eratosthenes",
+            "Fast Exponentiation"
+        ],
+        "right": [
+            "Find GCD",
+            "Find modular inverse",
+            "Generate primes",
+            "Compute power mod"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sieve(n):\n    is_prime = [True] * (n + 1)\n    is_prime[0] = is_prime[1] = False\n    for i in range(2, int(n**0.5) + 1):\n        if is_prime[i]:\n            for j in range(i*i, n + 1, i):\n                is_prime[j] = False\n    return sum(is_prime)\n\nprint(sieve(20))",
+        "o": [
+            "8",
+            "7",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "q": "The Sieve of Eratosthenes has O(n log log n) time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fast_power(base, exp, mod):\n    result = 1\n    base = base % mod\n    while exp > 0:\n        if exp & 1:\n            result = (result * base) % mod\n        exp >>= 1\n        base = (base * base) % mod\n    return result\n\nprint(fast_power(2, 10, 1000))",
+        "o": [
+            "24",
+            "1024",
+            "512",
+            "256"
+        ]
+    },
+    {
+        "q": "Modular exponentiation has O(log n) time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lcm(a, b):\n    def gcd(x, y):\n        while y:\n            x, y = y, x % y\n        return x\n    return (a * b) // gcd(a, b)\n\nprint(lcm(12, 18))",
+        "o": [
+            "36",
+            "6",
+            "24",
+            "72"
+        ]
+    },
+    {
+        "q": "The _____ of two numbers is their product divided by their GCD.",
+        "type": "fill_blank",
+        "answers": [
+            "LCM"
+        ],
+        "other_options": [
+            "GCD",
+            "product",
+            "sum"
+        ]
+    },
+    {
+        "q": "Rearrange the sieve algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize array",
+            "Start from 2",
+            "Mark multiples",
+            "Collect primes"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def extended_gcd(a, b):\n    if a == 0:\n        return b, 0, 1\n    gcd, x1, y1 = extended_gcd(b % a, a)\n    x = y1 - (b // a) * x1\n    y = x1\n    return gcd, x, y\n\nprint(extended_gcd(35, 15)[0])",
+        "o": [
+            "5",
+            "15",
+            "7",
+            "3"
+        ]
+    },
+    {
+        "q": "Match the complexity with its growth description:",
+        "type": "match",
+        "left": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "right": [
+            "Constant regardless of n",
+            "Halving input each step",
+            "Proportional to input",
+            "Nested iterations"
+        ]
+    },
+    {
+        "q": "A modular multiplicative inverse exists only when GCD(a, m) = 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def mod_inverse(a, m):\n    def extended_gcd(a, b):\n        if a == 0:\n            return b, 0, 1\n        gcd, x1, y1 = extended_gcd(b % a, a)\n        return gcd, y1 - (b // a) * x1, x1\n    gcd, x, _ = extended_gcd(a % m, m)\n    return (x % m + m) % m if gcd == 1 else None\n\nprint(mod_inverse(3, 7))",
+        "o": [
+            "5",
+            "3",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "Which technique is used to count inversions in an array?",
+        "type": "mcq",
+        "o": [
+            "Modified Merge Sort",
+            "Quick Sort",
+            "Heap Sort",
+            "Bubble Sort"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_inversions(arr):\n    count = 0\n    n = len(arr)\n    for i in range(n):\n        for j in range(i + 1, n):\n            if arr[i] > arr[j]:\n                count += 1\n    return count\n\nprint(count_inversions([3, 1, 2]))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "0"
+        ]
+    },
+    {
+        "q": "An inversion in an array is when arr[i] > arr[j] for i < j.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ algorithm finds the maximum flow in a network.",
+        "type": "fill_blank",
+        "answers": [
+            "Ford-Fulkerson"
+        ],
+        "other_options": [
+            "Dijkstra",
+            "Bellman",
+            "Floyd"
+        ]
+    },
+    {
+        "q": "Match the network flow concept with its definition:",
+        "type": "match",
+        "left": [
+            "Source",
+            "Sink",
+            "Capacity",
+            "Flow"
+        ],
+        "right": [
+            "Origin node",
+            "Destination node",
+            "Maximum edge limit",
+            "Current edge usage"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def residual_capacity(capacity, flow, u, v):\n    return capacity[u][v] - flow[u][v]\n\ncapacity = [[0, 10, 5], [0, 0, 15], [0, 0, 0]]\nflow = [[0, 5, 5], [0, 0, 10], [0, 0, 0]]\nprint(residual_capacity(capacity, flow, 0, 1))",
+        "o": [
+            "5",
+            "10",
+            "15",
+            "0"
+        ]
+    },
+    {
+        "q": "The max-flow min-cut theorem states that maximum flow equals minimum cut.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange Ford-Fulkerson algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Find augmenting path",
+            "Calculate bottleneck",
+            "Update flows",
+            "Repeat until done"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bipartite_matching_possible(left_prefs, n_left, n_right):\n    match_right = [-1] * n_right\n    matches = 0\n    for _ in range(n_left):\n        if left_prefs:\n            matches += 1\n    return matches > 0\n\nprint(bipartite_matching_possible([[0, 1], [1]], 2, 2))",
+        "o": [
+            "True",
+            "False",
+            "2",
+            "1"
+        ]
+    },
+    {
+        "q": "Which algorithm solves the assignment problem optimally?",
+        "type": "mcq",
+        "o": [
+            "Hungarian Algorithm",
+            "Dijkstra's",
+            "BFS",
+            "DFS"
+        ]
+    },
+    {
+        "q": "A _____ graph has edges only between two disjoint sets of vertices.",
+        "type": "fill_blank",
+        "answers": [
+            "bipartite"
+        ],
+        "other_options": [
+            "complete",
+            "connected",
+            "directed"
+        ]
+    },
+    {
+        "q": "Match the flow algorithm with its complexity:",
+        "type": "match",
+        "left": [
+            "Ford-Fulkerson",
+            "Edmonds-Karp",
+            "Dinic's",
+            "Push-Relabel"
+        ],
+        "right": [
+            "O(E * max_flow)",
+            "O(VE^2)",
+            "O(V^2 * E)",
+            "O(V^2 * E)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def minimum_cut_value(max_flow):\n    return max_flow\n\nprint(minimum_cut_value(23))",
+        "o": [
+            "23",
+            "46",
+            "0",
+            "None"
+        ]
+    },
+    {
+        "q": "Edmonds-Karp uses BFS to find augmenting paths.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the time complexity of Dinic's algorithm?",
+        "type": "mcq",
+        "o": [
+            "O(V^2 * E)",
+            "O(VE^2)",
+            "O(E * max_flow)",
+            "O(V^3)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def strongly_connected(graph):\n    visited = set()\n    def dfs(node):\n        visited.add(node)\n        for neighbor in graph.get(node, []):\n            if neighbor not in visited:\n                dfs(neighbor)\n    dfs(0)\n    return len(visited) == len(graph)\n\ngraph = {0: [1], 1: [2], 2: [0]}\nprint(strongly_connected(graph))",
+        "o": [
+            "True",
+            "False",
+            "3",
+            "None"
+        ]
+    },
+    {
+        "q": "Tarjan's algorithm finds SCCs in _____ traversal.",
+        "type": "fill_blank",
+        "answers": [
+            "single"
+        ],
+        "other_options": [
+            "double",
+            "triple",
+            "multiple"
+        ]
+    },
+    {
+        "q": "A strongly connected component has a path between every pair of vertices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm with its discovery time usage:",
+        "type": "match",
+        "left": [
+            "Tarjan's SCC",
+            "Articulation Points",
+            "Bridges",
+            "Lowest Ancestor"
+        ],
+        "right": [
+            "Low-link values",
+            "DFS tree check",
+            "Edge cut detection",
+            "LCA queries"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def euler_totient(n):\n    result = n\n    p = 2\n    while p * p <= n:\n        if n % p == 0:\n            while n % p == 0:\n                n //= p\n            result -= result // p\n        p += 1\n    if n > 1:\n        result -= result // n\n    return result\n\nprint(euler_totient(10))",
+        "o": [
+            "4",
+            "5",
+            "6",
+            "3"
+        ]
+    },
+    {
+        "q": "Euler's totient function counts integers coprime to n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def chinese_remainder_simple(r1, m1, r2, m2):\n    for x in range(m1 * m2):\n        if x % m1 == r1 and x % m2 == r2:\n            return x\n    return -1\n\nprint(chinese_remainder_simple(2, 3, 3, 5))",
+        "o": [
+            "8",
+            "5",
+            "11",
+            "2"
+        ]
+    },
+    {
+        "q": "The Chinese Remainder Theorem requires moduli to be _____.",
+        "type": "fill_blank",
+        "answers": [
+            "coprime"
+        ],
+        "other_options": [
+            "prime",
+            "even",
+            "odd"
+        ]
+    },
+    {
+        "q": "Rearrange the steps of finding modular inverse using Fermat's little theorem:",
+        "type": "rearrange",
+        "words": [
+            "Check if p is prime",
+            "Compute a^(p-2)",
+            "Apply mod p",
+            "Return inverse"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def is_prime_miller_rabin_simple(n):\n    if n < 2:\n        return False\n    for p in [2, 3, 5, 7, 11]:\n        if n == p:\n            return True\n        if n % p == 0:\n            return False\n    return True\n\nprint(is_prime_miller_rabin_simple(13))",
+        "o": [
+            "True",
+            "False",
+            "13",
+            "None"
+        ]
+    },
+    {
+        "q": "Match the primality test with its complexity:",
+        "type": "match",
+        "left": [
+            "Trial Division",
+            "Miller-Rabin",
+            "AKS",
+            "Fermat"
+        ],
+        "right": [
+            "O(sqrt(n))",
+            "O(k log^3 n)",
+            "O(log^6 n)",
+            "O(k log^2 n)"
+        ]
+    },
+    {
+        "q": "Miller-Rabin is a probabilistic primality test.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def matrix_multiply(A, B, mod):\n    n = len(A)\n    C = [[0] * n for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            for k in range(n):\n                C[i][j] = (C[i][j] + A[i][k] * B[k][j]) % mod\n    return C\n\nA = [[1, 1], [1, 0]]\nB = [[1, 1], [1, 0]]\nprint(matrix_multiply(A, B, 1000)[0][0])",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Matrix exponentiation computes the nth Fibonacci in O(log n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def matrix_power(M, n, mod):\n    size = len(M)\n    result = [[1 if i == j else 0 for j in range(size)] for i in range(size)]\n    while n > 0:\n        if n & 1:\n            result = [[sum(result[i][k] * M[k][j] for k in range(size)) % mod for j in range(size)] for i in range(size)]\n        M = [[sum(M[i][k] * M[k][j] for k in range(size)) % mod for j in range(size)] for i in range(size)]\n        n >>= 1\n    return result\n\nprint(matrix_power([[1, 1], [1, 0]], 5, 1000)[0][0])",
+        "o": [
+            "8",
+            "5",
+            "13",
+            "3"
+        ]
+    },
+    {
+        "q": "The _____ identity matrix is the multiplicative identity for matrices.",
+        "type": "fill_blank",
+        "answers": [
+            "identity"
+        ],
+        "other_options": [
+            "zero",
+            "unit",
+            "null"
+        ]
+    },
+    {
+        "q": "Match the recurrence with its matrix form solution:",
+        "type": "match",
+        "left": [
+            "Fibonacci",
+            "Linear recurrence",
+            "Path counting",
+            "Power sum"
+        ],
+        "right": [
+            "2x2 matrix",
+            "kxk matrix",
+            "Adjacency matrix",
+            "Matrix chain"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def catalan(n):\n    if n <= 1:\n        return 1\n    dp = [0] * (n + 1)\n    dp[0] = dp[1] = 1\n    for i in range(2, n + 1):\n        for j in range(i):\n            dp[i] += dp[j] * dp[i - j - 1]\n    return dp[n]\n\nprint(catalan(4))",
+        "o": [
+            "14",
+            "5",
+            "42",
+            "9"
+        ]
+    },
+    {
+        "q": "Catalan numbers count the number of valid parenthesizations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def stirling_second(n, k):\n    if n == 0 and k == 0:\n        return 1\n    if n == 0 or k == 0:\n        return 0\n    dp = [[0] * (k + 1) for _ in range(n + 1)]\n    dp[0][0] = 1\n    for i in range(1, n + 1):\n        for j in range(1, min(i, k) + 1):\n            dp[i][j] = j * dp[i-1][j] + dp[i-1][j-1]\n    return dp[n][k]\n\nprint(stirling_second(4, 2))",
+        "o": [
+            "7",
+            "6",
+            "8",
+            "5"
+        ]
+    },
+    {
+        "q": "Stirling numbers of the second kind count ways to partition a set into k non-empty subsets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the steps for computing nCr mod p:",
+        "type": "rearrange",
+        "words": [
+            "Precompute factorials",
+            "Compute inverse factorials",
+            "Apply formula",
+            "Return result"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def binomial_coeff(n, r):\n    if r > n:\n        return 0\n    if r == 0 or r == n:\n        return 1\n    dp = [[0] * (r + 1) for _ in range(n + 1)]\n    for i in range(n + 1):\n        dp[i][0] = 1\n        if i <= r:\n            dp[i][i] = 1\n    for i in range(2, n + 1):\n        for j in range(1, min(i, r + 1)):\n            dp[i][j] = dp[i-1][j-1] + dp[i-1][j]\n    return dp[n][r]\n\nprint(binomial_coeff(5, 2))",
+        "o": [
+            "10",
+            "5",
+            "20",
+            "15"
+        ]
+    },
+    {
+        "q": "The _____ triangle is used to compute binomial coefficients.",
+        "type": "fill_blank",
+        "answers": [
+            "Pascal's"
+        ],
+        "other_options": [
+            "Fibonacci",
+            "Catalan",
+            "Stirling"
+        ]
+    },
+    {
+        "q": "Match the combinatorial number with its formula:",
+        "type": "match",
+        "left": [
+            "Permutation",
+            "Combination",
+            "Catalan",
+            "Derangement"
+        ],
+        "right": [
+            "n!/(n-r)!",
+            "n!/r!(n-r)!",
+            "(2n)!/(n+1)!n!",
+            "n!(1-1/1!+...)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def derangement(n):\n    if n == 0:\n        return 1\n    if n == 1:\n        return 0\n    dp = [0] * (n + 1)\n    dp[0], dp[1] = 1, 0\n    for i in range(2, n + 1):\n        dp[i] = (i - 1) * (dp[i-1] + dp[i-2])\n    return dp[n]\n\nprint(derangement(4))",
+        "o": [
+            "9",
+            "6",
+            "12",
+            "24"
+        ]
+    },
+    {
+        "q": "A derangement is a permutation where no element appears in its original position.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lca_naive(parent, depth, u, v):\n    while depth[u] > depth[v]:\n        u = parent[u]\n    while depth[v] > depth[u]:\n        v = parent[v]\n    while u != v:\n        u = parent[u]\n        v = parent[v]\n    return u\n\nparent = [-1, 0, 0, 1, 1, 2, 2]\ndepth = [0, 1, 1, 2, 2, 2, 2]\nprint(lca_naive(parent, depth, 3, 5))",
+        "o": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "Binary lifting precomputes 2^i ancestors for efficient LCA queries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The time complexity of LCA with binary lifting is O(log n) per query.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sparse_table_build(arr):\n    n = len(arr)\n    k = n.bit_length()\n    st = [[0] * n for _ in range(k)]\n    st[0] = arr[:]\n    for i in range(1, k):\n        for j in range(n - (1 << i) + 1):\n            st[i][j] = min(st[i-1][j], st[i-1][j + (1 << (i-1))])\n    return st[0][0]\n\nprint(sparse_table_build([3, 1, 4, 1, 5, 9]))",
+        "o": [
+            "3",
+            "1",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "A _____ table answers range minimum queries in O(1) after O(n log n) preprocessing.",
+        "type": "fill_blank",
+        "answers": [
+            "sparse"
+        ],
+        "other_options": [
+            "hash",
+            "lookup",
+            "segment"
+        ]
+    },
+    {
+        "q": "Match the query structure with its best data structure:",
+        "type": "match",
+        "left": [
+            "Range minimum",
+            "Range sum with updates",
+            "Point updates only",
+            "Static range sum"
+        ],
+        "right": [
+            "Sparse Table",
+            "Segment Tree",
+            "Fenwick Tree",
+            "Prefix Sum"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sqrt_decomposition_blocksize(n):\n    import math\n    return int(math.sqrt(n)) + 1\n\nprint(sqrt_decomposition_blocksize(100))",
+        "o": [
+            "11",
+            "10",
+            "12",
+            "9"
+        ]
+    },
+    {
+        "q": "Square root decomposition divides data into blocks of size sqrt(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the Mo's algorithm query sorting criteria:",
+        "type": "rearrange",
+        "words": [
+            "Assign block number",
+            "Sort by block",
+            "Sort by right",
+            "Process queries"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def block_number(index, block_size):\n    return index // block_size\n\nprint(block_number(15, 4))",
+        "o": [
+            "3",
+            "4",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "Mo's algorithm has O((N + Q) * sqrt(N)) time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algorithm with its preprocessing time:",
+        "type": "match",
+        "left": [
+            "Sparse Table",
+            "Binary Lifting",
+            "Heavy-Light",
+            "Centroid Decomposition"
+        ],
+        "right": [
+            "O(n log n)",
+            "O(n log n)",
+            "O(n)",
+            "O(n log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def centroid_find(adj, n, removed):\n    subtree_size = [0] * n\n    def get_size(v, parent):\n        subtree_size[v] = 1\n        for u in adj[v]:\n            if u != parent and not removed[u]:\n                subtree_size[v] += get_size(u, v)\n        return subtree_size[v]\n    return get_size(0, -1)\n\nadj = [[1, 2], [0, 3], [0], [1]]\nremoved = [False] * 4\nprint(centroid_find(adj, 4, removed))",
+        "o": [
+            "4",
+            "3",
+            "2",
+            "1"
+        ]
+    },
+    {
+        "q": "Centroid decomposition creates a tree of depth O(log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def heavy_light_chain(adj, parent, depth, heavy):\n    def dfs_size(v, p):\n        size = 1\n        max_child_size = 0\n        for u in adj[v]:\n            if u != p:\n                parent[u] = v\n                depth[u] = depth[v] + 1\n                child_size = dfs_size(u, v)\n                size += child_size\n                if child_size > max_child_size:\n                    max_child_size = child_size\n                    heavy[v] = u\n        return size\n    return dfs_size(0, -1)\n\nadj = [[1, 2], [0, 3, 4], [0], [1], [1]]\nparent = [-1] * 5\ndepth = [0] * 5\nheavy = [-1] * 5\nprint(heavy_light_chain(adj, parent, depth, heavy))",
+        "o": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ]
+    },
+    {
+        "q": "Heavy-Light Decomposition reduces tree path queries to O(log^2 n) with segment trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ edge connects a node to its heaviest subtree child.",
+        "type": "fill_blank",
+        "answers": [
+            "heavy"
+        ],
+        "other_options": [
+            "light",
+            "bridge",
+            "cut"
+        ]
+    },
+    {
+        "q": "Match the tree algorithm with its application:",
+        "type": "match",
+        "left": [
+            "LCA",
+            "HLD",
+            "Centroid",
+            "Euler Tour"
+        ],
+        "right": [
+            "Ancestor queries",
+            "Path queries",
+            "Distance queries",
+            "Subtree queries"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def euler_tour(adj, root):\n    tour = []\n    def dfs(v, p):\n        tour.append(v)\n        for u in adj[v]:\n            if u != p:\n                dfs(u, v)\n                tour.append(v)\n    dfs(root, -1)\n    return len(tour)\n\nadj = [[1, 2], [0, 3], [0], [1]]\nprint(euler_tour(adj, 0))",
+        "o": [
+            "7",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "q": "An Euler tour visits each edge exactly twice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def dfs_order(adj, root):\n    order = []\n    visited = set()\n    def dfs(v):\n        visited.add(v)\n        order.append(v)\n        for u in adj[v]:\n            if u not in visited:\n                dfs(u)\n    dfs(root)\n    return order\n\nadj = [[1, 2], [0, 3], [0, 4], [1], [2]]\nprint(dfs_order(adj, 0))",
+        "o": [
+            "[0, 1, 3, 2, 4]",
+            "[0, 2, 4, 1, 3]",
+            "[0, 1, 2, 3, 4]",
+            "[4, 2, 0, 1, 3]"
+        ]
+    },
+    {
+        "q": "Rearrange the DFS tree edge classification order:",
+        "type": "rearrange",
+        "words": [
+            "Tree edges",
+            "Back edges",
+            "Forward edges",
+            "Cross edges"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bfs_layers(adj, root):\n    from collections import deque\n    layers = []\n    visited = {root}\n    queue = deque([(root, 0)])\n    current_layer = 0\n    layer = []\n    while queue:\n        v, d = queue.popleft()\n        if d > current_layer:\n            layers.append(layer)\n            layer = []\n            current_layer = d\n        layer.append(v)\n        for u in adj[v]:\n            if u not in visited:\n                visited.add(u)\n                queue.append((u, d + 1))\n    if layer:\n        layers.append(layer)\n    return len(layers)\n\nadj = [[1, 2], [0, 3], [0, 4], [1], [2]]\nprint(bfs_layers(adj, 0))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "BFS produces a shortest path tree in unweighted graphs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the traversal with its typical use case:",
+        "type": "match",
+        "left": [
+            "DFS",
+            "BFS",
+            "Dijkstra's",
+            "A*"
+        ],
+        "right": [
+            "Topological sort",
+            "Shortest path unweighted",
+            "Shortest path weighted",
+            "Heuristic search"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def a_star_heuristic(current, goal):\n    return abs(current[0] - goal[0]) + abs(current[1] - goal[1])\n\nprint(a_star_heuristic((0, 0), (3, 4)))",
+        "o": [
+            "7",
+            "5",
+            "12",
+            "3"
+        ]
+    },
+    {
+        "q": "A* algorithm uses f(n) = g(n) + h(n) where h(n) is the heuristic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bidirectional_meet(forward_visited, backward_visited):\n    for node in forward_visited:\n        if node in backward_visited:\n            return node\n    return None\n\nprint(bidirectional_meet({0, 1, 2, 3}, {3, 4, 5}))",
+        "o": [
+            "3",
+            "0",
+            "4",
+            "None"
+        ]
+    },
+    {
+        "q": "Bidirectional search can reduce search space from O(b^d) to O(b^(d/2)).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ search expands nodes with minimum f(n) = g(n) + h(n).",
+        "type": "fill_blank",
+        "answers": [
+            "A*"
+        ],
+        "other_options": [
+            "BFS",
+            "DFS",
+            "Dijkstra's"
+        ]
+    },
+    {
+        "q": "Match the heuristic property with its definition:",
+        "type": "match",
+        "left": [
+            "Admissible",
+            "Consistent",
+            "Informed",
+            "Uninformed"
+        ],
+        "right": [
+            "Never overestimates",
+            "h(n) <= c(n,n') + h(n')",
+            "Uses domain knowledge",
+            "No domain knowledge"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def ida_star_bound_update(current_f, threshold):\n    if current_f <= threshold:\n        return threshold\n    return current_f\n\nprint(ida_star_bound_update(15, 10))",
+        "o": [
+            "15",
+            "10",
+            "25",
+            "5"
+        ]
+    },
+    {
+        "q": "IDA* combines depth-first search with iterative deepening.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange jump point search optimization steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify forced neighbors",
+            "Prune symmetric paths",
+            "Jump straight lines",
+            "Expand goal"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def suffix_array_naive(s):\n    n = len(s)\n    suffixes = [(s[i:], i) for i in range(n)]\n    suffixes.sort()\n    return [idx for _, idx in suffixes]\n\nprint(suffix_array_naive('banana')[0])",
+        "o": [
+            "5",
+            "0",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "A suffix array stores starting indices of sorted suffixes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lcp_array(s, sa):\n    n = len(s)\n    rank = [0] * n\n    for i, idx in enumerate(sa):\n        rank[idx] = i\n    lcp = [0] * (n - 1)\n    k = 0\n    for i in range(n):\n        if rank[i] == n - 1:\n            k = 0\n            continue\n        j = sa[rank[i] + 1]\n        while i + k < n and j + k < n and s[i + k] == s[j + k]:\n            k += 1\n        lcp[rank[i]] = k\n        k = max(0, k - 1)\n    return lcp\n\ns = 'banana'\nsa = [5, 3, 1, 0, 4, 2]\nprint(lcp_array(s, sa)[0])",
+        "o": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "The _____ array stores longest common prefix between consecutive suffixes.",
+        "type": "fill_blank",
+        "answers": [
+            "LCP"
+        ],
+        "other_options": [
+            "suffix",
+            "prefix",
+            "rank"
+        ]
+    },
+    {
+        "q": "Match the string structure with its construction time:",
+        "type": "match",
+        "left": [
+            "Suffix Array (naive)",
+            "Suffix Array (DC3)",
+            "Suffix Tree",
+            "LCP Array"
+        ],
+        "right": [
+            "O(n^2 log n)",
+            "O(n)",
+            "O(n)",
+            "O(n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def suffix_tree_edge_count(s):\n    # Simplified count for illustration\n    return len(s) + len(s) - 1  # nodes + edges approx\n\nprint(suffix_tree_edge_count('abc'))",
+        "o": [
+            "5",
+            "3",
+            "6",
+            "4"
+        ]
+    },
+    {
+        "q": "Suffix trees enable O(m) pattern search where m is pattern length.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def aho_corasick_states(patterns):\n    # Simplified state count\n    total_chars = sum(len(p) for p in patterns)\n    return total_chars + 1\n\nprint(aho_corasick_states(['he', 'she', 'his', 'hers']))",
+        "o": [
+            "13",
+            "12",
+            "10",
+            "4"
+        ]
+    },
+    {
+        "q": "Rearrange Aho-Corasick construction steps:",
+        "type": "rearrange",
+        "words": [
+            "Build trie",
+            "Add failure links",
+            "Add output links",
+            "Search text"
+        ]
+    },
+    {
+        "q": "Aho-Corasick finds all pattern occurrences in O(n + m + z) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multi-pattern algorithm with its structure:",
+        "type": "match",
+        "left": [
+            "Aho-Corasick",
+            "Suffix Automaton",
+            "Generalized Suffix Tree",
+            "Pattern DAG"
+        ],
+        "right": [
+            "Failure links",
+            "Suffix links",
+            "Multiple strings",
+            "Partial order"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def suffix_automaton_size(s):\n    # Upper bound on states\n    return 2 * len(s)\n\nprint(suffix_automaton_size('abcde'))",
+        "o": [
+            "10",
+            "5",
+            "15",
+            "6"
+        ]
+    },
+    {
+        "q": "A suffix automaton has at most 2n-1 states for a string of length n.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def palindrome_check_manacher(s):\n    # Check if any palindrome > 1 exists\n    for i in range(len(s)):\n        for j in range(i + 2, len(s) + 1):\n            sub = s[i:j]\n            if sub == sub[::-1]:\n                return True\n    return False\n\nprint(palindrome_check_manacher('abcba'))",
+        "o": [
+            "True",
+            "False",
+            "5",
+            "None"
+        ]
+    },
+    {
+        "q": "The _____ algorithm finds longest palindromic substring in O(n) time.",
+        "type": "fill_blank",
+        "answers": [
+            "Manacher's"
+        ],
+        "other_options": [
+            "KMP",
+            "Z",
+            "Rabin-Karp"
+        ]
+    },
+    {
+        "q": "Match the palindrome algorithm with its approach:",
+        "type": "match",
+        "left": [
+            "Manacher's",
+            "DP palindrome",
+            "Hash palindrome",
+            "Expand around center"
+        ],
+        "right": [
+            "Linear time",
+            "O(n^2) preprocessing",
+            "Rolling hash",
+            "O(n^2) brute force"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def polynomial_hash(s, base=31, mod=10**9+7):\n    h = 0\n    p = 1\n    for c in s:\n        h = (h + (ord(c) - ord('a') + 1) * p) % mod\n        p = (p * base) % mod\n    return h\n\nprint(polynomial_hash('ab') % 1000)",
+        "o": [
+            "63",
+            "31",
+            "93",
+            "3"
+        ]
+    },
+    {
+        "q": "Polynomial hashing uses base^i coefficients for character positions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the time complexity of finding bridges using Tarjan's algorithm?",
+        "type": "mcq",
+        "o": [
+            "O(V + E)",
+            "O(V * E)",
+            "O(V^2)",
+            "O(E^2)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def modular_inverse_fermat(a, p):\n    def power(base, exp, mod):\n        result = 1\n        base %= mod\n        while exp > 0:\n            if exp & 1:\n                result = result * base % mod\n            exp >>= 1\n            base = base * base % mod\n        return result\n    return power(a, p - 2, p)\n\nprint(modular_inverse_fermat(3, 11))",
+        "o": [
+            "4",
+            "3",
+            "8",
+            "7"
+        ]
+    },
+    {
+        "q": "Fermat's little theorem gives a^(p-1) = 1 mod p for prime p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ algorithm computes discrete logarithm in O(sqrt(n)) time.",
+        "type": "fill_blank",
+        "answers": [
+            "Baby-step Giant-step"
+        ],
+        "other_options": [
+            "Pollard Rho",
+            "Euclidean",
+            "Extended GCD"
+        ]
+    },
+    {
+        "q": "Match the number theory algorithm with its purpose:",
+        "type": "match",
+        "left": [
+            "Baby-step Giant-step",
+            "Pollard Rho",
+            "Pollard p-1",
+            "Quadratic Sieve"
+        ],
+        "right": [
+            "Discrete log",
+            "Factorization",
+            "Special factorization",
+            "Large factorization"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lucas_theorem_coeff(n, r, p):\n    def nCr_mod_p(n, r, p):\n        if r > n:\n            return 0\n        if r == 0 or r == n:\n            return 1\n        num = den = 1\n        for i in range(r):\n            num = num * (n - i) % p\n            den = den * (i + 1) % p\n        return num * pow(den, p - 2, p) % p\n    result = 1\n    while n > 0 or r > 0:\n        ni, ri = n % p, r % p\n        if ri > ni:\n            return 0\n        result = result * nCr_mod_p(ni, ri, p) % p\n        n //= p\n        r //= p\n    return result\n\nprint(lucas_theorem_coeff(12, 3, 5))",
+        "o": [
+            "0",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "Lucas' theorem computes nCr mod p for prime p.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def mobius_function(n):\n    if n == 1:\n        return 1\n    prime_factors = 0\n    for p in range(2, int(n**0.5) + 1):\n        if n % p == 0:\n            if n % (p * p) == 0:\n                return 0\n            prime_factors += 1\n            while n % p == 0:\n                n //= p\n    if n > 1:\n        prime_factors += 1\n    return -1 if prime_factors % 2 else 1\n\nprint(mobius_function(30))",
+        "o": [
+            "-1",
+            "0",
+            "1",
+            "30"
+        ]
+    },
+    {
+        "q": "The Mobius function returns 0 if n has a squared prime factor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the steps of finding primitive root:",
+        "type": "rearrange",
+        "words": [
+            "Compute phi(n)",
+            "Find prime factors",
+            "Test candidates",
+            "Verify generator"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def order_of_element(a, n):\n    if a == 1:\n        return 1\n    order = 1\n    power = a % n\n    while power != 1:\n        power = power * a % n\n        order += 1\n    return order\n\nprint(order_of_element(2, 7))",
+        "o": [
+            "3",
+            "6",
+            "7",
+            "2"
+        ]
+    },
+    {
+        "q": "A primitive root g of n has order phi(n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the algebraic structure with its property:",
+        "type": "match",
+        "left": [
+            "Group",
+            "Ring",
+            "Field",
+            "Monoid"
+        ],
+        "right": [
+            "Closure inverse identity",
+            "Two operations",
+            "Division possible",
+            "No inverse required"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def ntt_primitive_root(p):\n    # Find smallest primitive root\n    phi = p - 1\n    factors = []\n    n = phi\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            factors.append(i)\n            while n % i == 0:\n                n //= i\n    if n > 1:\n        factors.append(n)\n    for g in range(2, p):\n        ok = True\n        for f in factors:\n            if pow(g, phi // f, p) == 1:\n                ok = False\n                break\n        if ok:\n            return g\n    return -1\n\nprint(ntt_primitive_root(7))",
+        "o": [
+            "3",
+            "2",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "q": "NTT (Number Theoretic Transform) is the modular version of FFT.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fft_bit_reverse(n):\n    bits = n.bit_length() - 1\n    result = 0\n    for i in range(bits):\n        if n & (1 << i):\n            result |= 1 << (bits - 1 - i)\n    return result\n\nprint(fft_bit_reverse(6))",
+        "o": [
+            "3",
+            "6",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "The _____ algorithm multiplies polynomials in O(n log n) time.",
+        "type": "fill_blank",
+        "answers": [
+            "FFT"
+        ],
+        "other_options": [
+            "KMP",
+            "BFS",
+            "DFS"
+        ]
+    },
+    {
+        "q": "Match the transform with its application:",
+        "type": "match",
+        "left": [
+            "FFT",
+            "NTT",
+            "Walsh-Hadamard",
+            "Karatsuba"
+        ],
+        "right": [
+            "Polynomial multiplication",
+            "Modular polynomial",
+            "XOR convolution",
+            "Integer multiplication"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def convolution_length(a, b):\n    return len(a) + len(b) - 1\n\nprint(convolution_length([1, 2, 3], [4, 5]))",
+        "o": [
+            "4",
+            "5",
+            "3",
+            "6"
+        ]
+    },
+    {
+        "q": "Convolution of two arrays of length n and m has length n + m - 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def karatsuba_split(n):\n    # Return split point for n-digit number\n    return (n + 1) // 2\n\nprint(karatsuba_split(5))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "Rearrange the Karatsuba multiplication steps:",
+        "type": "rearrange",
+        "words": [
+            "Split numbers",
+            "Compute three products",
+            "Combine results",
+            "Handle carries"
+        ]
+    },
+    {
+        "q": "Karatsuba algorithm has O(n^1.585) time complexity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the multiplication algorithm with its complexity:",
+        "type": "match",
+        "left": [
+            "Grade school",
+            "Karatsuba",
+            "Toom-Cook",
+            "FFT-based"
+        ],
+        "right": [
+            "O(n^2)",
+            "O(n^1.585)",
+            "O(n^1.465)",
+            "O(n log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sweep_line_events(intervals):\n    events = []\n    for start, end in intervals:\n        events.append((start, 1))\n        events.append((end, -1))\n    events.sort()\n    return len(events)\n\nprint(sweep_line_events([(1, 3), (2, 5), (4, 6)]))",
+        "o": [
+            "6",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "q": "Line sweep processes events in sorted order.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def max_overlapping(intervals):\n    events = []\n    for start, end in intervals:\n        events.append((start, 1))\n        events.append((end, -1))\n    events.sort()\n    current = max_count = 0\n    for _, delta in events:\n        current += delta\n        max_count = max(max_count, current)\n    return max_count\n\nprint(max_overlapping([(1, 4), (2, 5), (3, 6)]))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "The _____ algorithm finds line segment intersections in O((n+k) log n).",
+        "type": "fill_blank",
+        "answers": [
+            "Bentley-Ottmann"
+        ],
+        "other_options": [
+            "Graham",
+            "Jarvis",
+            "Fortune"
+        ]
+    },
+    {
+        "q": "Match the computational geometry problem with its algorithm:",
+        "type": "match",
+        "left": [
+            "Closest pair",
+            "Convex hull",
+            "Line intersection",
+            "Voronoi diagram"
+        ],
+        "right": [
+            "Divide and conquer",
+            "Graham scan",
+            "Bentley-Ottmann",
+            "Fortune's sweep"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def orientation(p, q, r):\n    val = (q[1] - p[1]) * (r[0] - q[0]) - (q[0] - p[0]) * (r[1] - q[1])\n    if val == 0:\n        return 0  # Collinear\n    return 1 if val > 0 else 2  # CW or CCW\n\nprint(orientation((0, 0), (1, 1), (2, 0)))",
+        "o": [
+            "1",
+            "2",
+            "0",
+            "-1"
+        ]
+    },
+    {
+        "q": "Rearrange Fortune's algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Process site events",
+            "Handle circle events",
+            "Update beach line",
+            "Extract Voronoi"
+        ]
+    },
+    {
+        "q": "Fortune's algorithm constructs Voronoi diagram in O(n log n).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def point_in_polygon_ray(point, polygon):\n    x, y = point\n    n = len(polygon)\n    inside = False\n    j = n - 1\n    for i in range(n):\n        xi, yi = polygon[i]\n        xj, yj = polygon[j]\n        if ((yi > y) != (yj > y)) and (x < (xj - xi) * (y - yi) / (yj - yi) + xi):\n            inside = not inside\n        j = i\n    return inside\n\nprint(point_in_polygon_ray((2, 2), [(0, 0), (4, 0), (4, 4), (0, 4)]))",
+        "o": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ]
+    },
+    {
+        "q": "Match the point location query with its method:",
+        "type": "match",
+        "left": [
+            "Point in polygon",
+            "Point in convex",
+            "Closest point",
+            "Range search"
+        ],
+        "right": [
+            "Ray casting",
+            "Binary search",
+            "Voronoi query",
+            "K-d tree"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def kd_tree_split_axis(depth, dimensions):\n    return depth % dimensions\n\nprint(kd_tree_split_axis(5, 3))",
+        "o": [
+            "2",
+            "1",
+            "0",
+            "5"
+        ]
+    },
+    {
+        "q": "K-d trees partition space using alternating axes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def range_tree_count(points, x1, x2, y1, y2):\n    count = 0\n    for x, y in points:\n        if x1 <= x <= x2 and y1 <= y <= y2:\n            count += 1\n    return count\n\npoints = [(1, 1), (2, 3), (4, 2), (5, 5)]\nprint(range_tree_count(points, 1, 4, 1, 3))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "Range trees answer 2D range queries in O(log^2 n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ data structure answers dynamic range queries efficiently.",
+        "type": "fill_blank",
+        "answers": [
+            "segment"
+        ],
+        "other_options": [
+            "hash",
+            "heap",
+            "stack"
+        ]
+    },
+    {
+        "q": "Match the range query structure with its dimension:",
+        "type": "match",
+        "left": [
+            "Fenwick Tree",
+            "2D Fenwick",
+            "Range Tree",
+            "K-d Tree"
+        ],
+        "right": [
+            "1D",
+            "2D",
+            "Multi-dimensional",
+            "Any dimension"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def persistent_array_version(versions, index, value):\n    new_version = versions[-1].copy()\n    new_version[index] = value\n    versions.append(new_version)\n    return len(versions)\n\nversions = [[1, 2, 3]]\npersistent_array_version(versions, 1, 10)\nprint(versions[-1][1])",
+        "o": [
+            "10",
+            "2",
+            "1",
+            "3"
+        ]
+    },
+    {
+        "q": "Persistent data structures preserve all previous versions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def wavelet_tree_rank(bits, position, target):\n    count = 0\n    for i in range(position + 1):\n        if bits[i] == target:\n            count += 1\n    return count\n\nbits = [0, 1, 0, 0, 1, 1, 0]\nprint(wavelet_tree_rank(bits, 5, 1))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "Rearrange wavelet tree construction steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute median",
+            "Partition by bit",
+            "Recurse on halves",
+            "Store bit vectors"
+        ]
+    },
+    {
+        "q": "Wavelet trees answer rank and select queries in O(log sigma).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the advanced structure with its query type:",
+        "type": "match",
+        "left": [
+            "Wavelet Tree",
+            "Persistent Segment",
+            "Link-Cut Tree",
+            "Splay Tree"
+        ],
+        "right": [
+            "Rank/Select",
+            "Historical queries",
+            "Dynamic tree",
+            "Self-adjusting"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def splay_zig(node_val, parent_val):\n    # Simplified splay step\n    return parent_val  # Child becomes new position\n\nprint(splay_zig(5, 10))",
+        "o": [
+            "10",
+            "5",
+            "15",
+            "0"
+        ]
+    },
+    {
+        "q": "Splay trees have O(log n) amortized time for operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def treap_priority_compare(p1, p2):\n    return p1 > p2  # Max heap property\n\nprint(treap_priority_compare(15, 10))",
+        "o": [
+            "True",
+            "False",
+            "15",
+            "10"
+        ]
+    },
+    {
+        "q": "A treap combines BST property with heap priority property.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ property ensures randomized BST balance in treaps.",
+        "type": "fill_blank",
+        "answers": [
+            "random priority"
+        ],
+        "other_options": [
+            "color",
+            "height",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the balanced BST with its balancing strategy:",
+        "type": "match",
+        "left": [
+            "AVL",
+            "Red-Black",
+            "Splay",
+            "Treap"
+        ],
+        "right": [
+            "Height balance",
+            "Color properties",
+            "Access frequency",
+            "Random priorities"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def skip_list_level(max_level):\n    import random\n    level = 1\n    while random.random() < 0.5 and level < max_level:\n        level += 1\n    return level\n\n# Expected value calculation\nprint(1 + 0.5 + 0.25)  # Expected levels approx",
+        "o": [
+            "1.75",
+            "2.0",
+            "1.5",
+            "3.0"
+        ]
+    },
+    {
+        "q": "Skip lists provide O(log n) expected search time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the B-tree insertion steps:",
+        "type": "rearrange",
+        "words": [
+            "Find leaf",
+            "Insert key",
+            "Split if full",
+            "Propagate up"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def b_tree_min_keys(order):\n    return (order + 1) // 2 - 1\n\nprint(b_tree_min_keys(5))",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "B-trees are optimized for disk-based storage systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the tree structure with its use case:",
+        "type": "match",
+        "left": [
+            "B-tree",
+            "B+ tree",
+            "LSM tree",
+            "Trie"
+        ],
+        "right": [
+            "General indexing",
+            "Range queries",
+            "Write-heavy",
+            "String storage"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def bloom_filter_bits(n, fp_rate):\n    import math\n    return int(-n * math.log(fp_rate) / (math.log(2) ** 2))\n\nprint(bloom_filter_bits(100, 0.01))",
+        "o": [
+            "958",
+            "100",
+            "500",
+            "1000"
+        ]
+    },
+    {
+        "q": "Bloom filters may have false positives but never false negatives.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def cuckoo_hash_location(key, size, hash_num):\n    if hash_num == 0:\n        return key % size\n    return (key // size) % size\n\nprint(cuckoo_hash_location(23, 10, 0))",
+        "o": [
+            "3",
+            "2",
+            "23",
+            "10"
+        ]
+    },
+    {
+        "q": "Cuckoo hashing uses multiple hash functions for collision resolution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ filter is a space-efficient probabilistic membership test.",
+        "type": "fill_blank",
+        "answers": [
+            "Bloom"
+        ],
+        "other_options": [
+            "Hash",
+            "Bucket",
+            "Count"
+        ]
+    },
+    {
+        "q": "Match the hash structure with its property:",
+        "type": "match",
+        "left": [
+            "Open addressing",
+            "Chaining",
+            "Cuckoo",
+            "Robin Hood"
+        ],
+        "right": [
+            "Probing",
+            "Linked lists",
+            "Multiple tables",
+            "Variance reduction"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def consistent_hash_add_node(ring, node, replicas):\n    for i in range(replicas):\n        ring[hash(f'{node}:{i}') % 360] = node\n    return len(ring)\n\nring = {}\nprint(consistent_hash_add_node(ring, 'server1', 3))",
+        "o": [
+            "3",
+            "1",
+            "360",
+            "0"
+        ]
+    },
+    {
+        "q": "Consistent hashing minimizes key redistribution when nodes change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the external merge sort steps:",
+        "type": "rearrange",
+        "words": [
+            "Create sorted runs",
+            "Merge runs",
+            "Write to disk",
+            "Repeat merge"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def external_sort_passes(n, memory_runs):\n    import math\n    if n <= memory_runs:\n        return 1\n    return 1 + math.ceil(math.log(n / memory_runs) / math.log(memory_runs))\n\nprint(external_sort_passes(1000, 10))",
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "External sorting minimizes disk I/O operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the I/O efficient algorithm with its model:",
+        "type": "match",
+        "left": [
+            "External merge",
+            "B-tree",
+            "Buffer tree",
+            "Cache-oblivious"
+        ],
+        "right": [
+            "Sorting",
+            "Search",
+            "Batched operations",
+            "Any block size"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def parallel_prefix_sum(arr):\n    n = len(arr)\n    result = arr[:]\n    step = 1\n    while step < n:\n        for i in range(step, n):\n            result[i] += result[i - step]\n        step *= 2\n        break  # One step demo\n    return result\n\nprint(parallel_prefix_sum([1, 2, 3, 4]))",
+        "o": [
+            "[1, 3, 5, 7]",
+            "[1, 2, 3, 4]",
+            "[1, 3, 6, 10]",
+            "[2, 4, 6, 8]"
+        ]
+    },
+    {
+        "q": "Parallel prefix sum has O(log n) parallel depth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def work_efficient_scan_steps(n):\n    import math\n    return 2 * int(math.log2(n))\n\nprint(work_efficient_scan_steps(16))",
+        "o": [
+            "8",
+            "4",
+            "16",
+            "32"
+        ]
+    },
+    {
+        "q": "Work-efficient parallel scan has O(n) total work.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ theorem states P = NC would mean all P problems are efficiently parallelizable.",
+        "type": "fill_blank",
+        "answers": [
+            "P vs NC"
+        ],
+        "other_options": [
+            "P vs NP",
+            "Cook-Levin",
+            "Karp"
+        ]
+    },
+    {
+        "q": "Match the parallel complexity class with its description:",
+        "type": "match",
+        "left": [
+            "NC",
+            "P-complete",
+            "RNC",
+            "AC"
+        ],
+        "right": [
+            "Polylog depth",
+            "Inherently sequential",
+            "Randomized NC",
+            "Unbounded fan-in"
+        ]
+    },
+    {
+        "q": "What is the time complexity of the Link-Cut Tree for path queries?",
+        "type": "mcq",
+        "o": [
+            "O(log n) amortized",
+            "O(n)",
+            "O(log^2 n)",
+            "O(sqrt(n))"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def link_cut_access(splay_root, path_parent):\n    # Simplified access operation\n    return splay_root is not None\n\nprint(link_cut_access(5, None))",
+        "o": [
+            "True",
+            "False",
+            "5",
+            "None"
+        ]
+    },
+    {
+        "q": "Link-Cut Trees support dynamic path queries on forests.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ operation in Link-Cut tree makes a node the root of its represented tree.",
+        "type": "fill_blank",
+        "answers": [
+            "access"
+        ],
+        "other_options": [
+            "link",
+            "cut",
+            "splay"
+        ]
+    },
+    {
+        "q": "Match the dynamic tree operation with its effect:",
+        "type": "match",
+        "left": [
+            "Link",
+            "Cut",
+            "Access",
+            "Find-Root"
+        ],
+        "right": [
+            "Connect trees",
+            "Disconnect subtree",
+            "Expose path",
+            "Get tree root"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def euler_tour_tree_size(tour):\n    return len(set(tour))\n\nprint(euler_tour_tree_size([0, 1, 0, 2, 0]))",
+        "o": [
+            "3",
+            "5",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "Euler Tour Trees represent trees as sequences for efficient operations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def top_tree_cluster_weight(left_weight, right_weight, boundary_cost):\n    return left_weight + right_weight + boundary_cost\n\nprint(top_tree_cluster_weight(10, 15, 5))",
+        "o": [
+            "30",
+            "25",
+            "20",
+            "35"
+        ]
+    },
+    {
+        "q": "Rearrange the lazy propagation steps:",
+        "type": "rearrange",
+        "words": [
+            "Store lazy value",
+            "Push to children",
+            "Apply update",
+            "Clear lazy"
+        ]
+    },
+    {
+        "q": "Lazy propagation delays updates until they are needed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the segment tree technique with its use:",
+        "type": "match",
+        "left": [
+            "Lazy propagation",
+            "Persistent",
+            "Merge sort tree",
+            "2D segment"
+        ],
+        "right": [
+            "Range updates",
+            "Historical queries",
+            "Order statistics",
+            "2D queries"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fractional_cascading_query(sorted_lists, query):\n    count = 0\n    for lst in sorted_lists:\n        # Simplified binary search count\n        for x in lst:\n            if x >= query:\n                count += 1\n                break\n    return count\n\nlists = [[1, 3, 5], [2, 4, 6], [1, 2, 3]]\nprint(fractional_cascading_query(lists, 3))",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "Fractional cascading reduces search time in multiple sorted lists.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def van_emde_boas_universe(u):\n    import math\n    # Compute number of levels\n    levels = 0\n    while u > 2:\n        u = int(math.sqrt(u))\n        levels += 1\n    return levels + 1\n\nprint(van_emde_boas_universe(16))",
+        "o": [
+            "3",
+            "4",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "Van Emde Boas trees support operations in O(log log u) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ tree achieves O(log log u) predecessor queries.",
+        "type": "fill_blank",
+        "answers": [
+            "Van Emde Boas"
+        ],
+        "other_options": [
+            "Segment",
+            "Fenwick",
+            "AVL"
+        ]
+    },
+    {
+        "q": "Match the integer data structure with its time complexity:",
+        "type": "match",
+        "left": [
+            "Van Emde Boas",
+            "Y-fast Trie",
+            "X-fast Trie",
+            "Fusion Tree"
+        ],
+        "right": [
+            "O(log log u)",
+            "O(log log u)",
+            "O(log u)",
+            "O(log n / log w)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def y_fast_trie_bucket_size(n, universe):\n    import math\n    return max(1, int(math.log2(universe)) if universe > 1 else 1)\n\nprint(y_fast_trie_bucket_size(100, 1000000))",
+        "o": [
+            "19",
+            "100",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "q": "X-fast tries use hashing to achieve O(log u) predecessor search.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the Van Emde Boas insert steps:",
+        "type": "rearrange",
+        "words": [
+            "Update min/max",
+            "Compute high/low",
+            "Recurse on cluster",
+            "Update summary"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fusion_tree_word_size_bits(w):\n    # Number of keys that fit in word\n    import math\n    return int(w ** 0.2)  # Simplified\n\nprint(fusion_tree_word_size_bits(64))",
+        "o": [
+            "2",
+            "3",
+            "4",
+            "64"
+        ]
+    },
+    {
+        "q": "Fusion trees pack multiple keys into machine words.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the randomized algorithm with its expected complexity:",
+        "type": "match",
+        "left": [
+            "Randomized Quick Sort",
+            "Skip List Search",
+            "Treap Insert",
+            "Randomized Min Cut"
+        ],
+        "right": [
+            "O(n log n)",
+            "O(log n)",
+            "O(log n)",
+            "O(n^2 log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def polynomial_identity_test(coeffs1, coeffs2, test_point):\n    val1 = sum(c * (test_point ** i) for i, c in enumerate(coeffs1))\n    val2 = sum(c * (test_point ** i) for i, c in enumerate(coeffs2))\n    return val1 == val2\n\nprint(polynomial_identity_test([1, 2, 1], [1, 2, 1], 5))",
+        "o": [
+            "True",
+            "False",
+            "36",
+            "None"
+        ]
+    },
+    {
+        "q": "Schwartz-Zippel lemma bounds false positive probability in polynomial identity testing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fingerprinting_hash(s, mod):\n    h = 0\n    base = 31\n    for c in s:\n        h = (h * base + ord(c)) % mod\n    return h\n\nprint(fingerprinting_hash('abc', 1000007) % 100)",
+        "o": [
+            "36",
+            "97",
+            "0",
+            "99"
+        ]
+    },
+    {
+        "q": "String fingerprinting uses hash values for probabilistic equality testing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ algorithm finds minimum cut with high probability using random edge contractions.",
+        "type": "fill_blank",
+        "answers": [
+            "Karger's"
+        ],
+        "other_options": [
+            "Ford-Fulkerson",
+            "Edmonds-Karp",
+            "Dinic's"
+        ]
+    },
+    {
+        "q": "Match the probabilistic technique with its application:",
+        "type": "match",
+        "left": [
+            "Fingerprinting",
+            "Random sampling",
+            "Reservoir sampling",
+            "Monte Carlo"
+        ],
+        "right": [
+            "String comparison",
+            "Approximate counting",
+            "Stream selection",
+            "Numerical integration"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def reservoir_sample_prob(stream_size, k):\n    if stream_size <= k:\n        return 1.0\n    return k / stream_size\n\nprint(reservoir_sample_prob(100, 10))",
+        "o": [
+            "0.1",
+            "10",
+            "0.01",
+            "100"
+        ]
+    },
+    {
+        "q": "Reservoir sampling maintains a uniform random sample from a stream.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def count_min_sketch_estimate(counters, hash_values):\n    return min(counters[i][h] for i, h in enumerate(hash_values))\n\ncounters = [[5, 3, 7], [4, 6, 2], [8, 3, 5]]\nhash_values = [1, 0, 1]\nprint(count_min_sketch_estimate(counters, hash_values))",
+        "o": [
+            "3",
+            "4",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "Rearrange the Count-Min Sketch update steps:",
+        "type": "rearrange",
+        "words": [
+            "Hash item",
+            "Increment counters",
+            "Query minimum",
+            "Return estimate"
+        ]
+    },
+    {
+        "q": "Count-Min Sketch provides frequency estimates with one-sided error.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the streaming algorithm with its purpose:",
+        "type": "match",
+        "left": [
+            "Count-Min",
+            "HyperLogLog",
+            "Misra-Gries",
+            "Flajolet-Martin"
+        ],
+        "right": [
+            "Frequency estimate",
+            "Cardinality",
+            "Heavy hitters",
+            "Distinct count"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def hyperloglog_register_count(precision):\n    return 2 ** precision\n\nprint(hyperloglog_register_count(4))",
+        "o": [
+            "16",
+            "4",
+            "8",
+            "32"
+        ]
+    },
+    {
+        "q": "HyperLogLog estimates cardinality using O(log log n) bits per register.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def morris_counter_increment(counter, probability):\n    import random\n    if random.random() < 1 / (2 ** counter):\n        return counter + 1\n    return counter\n\n# Expected behavior analysis\nprint(2 ** 5)  # Value estimated by counter=5",
+        "o": [
+            "32",
+            "5",
+            "10",
+            "16"
+        ]
+    },
+    {
+        "q": "Morris counting provides approximate counts using logarithmic space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ sketch answers dot product queries on streams.",
+        "type": "fill_blank",
+        "answers": [
+            "AMS"
+        ],
+        "other_options": [
+            "Count-Min",
+            "Bloom",
+            "HyperLogLog"
+        ]
+    },
+    {
+        "q": "Match the space bound with its streaming problem:",
+        "type": "match",
+        "left": [
+            "O(1)",
+            "O(log n)",
+            "O(sqrt(n))",
+            "O(n)"
+        ],
+        "right": [
+            "Impossible for most",
+            "Approximate counting",
+            "Distinct with error",
+            "Exact storage"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def lsh_hash_band(signature, band_start, band_size):\n    return tuple(signature[band_start:band_start + band_size])\n\nsig = [1, 2, 3, 4, 5, 6]\nprint(lsh_hash_band(sig, 2, 2))",
+        "o": [
+            "(3, 4)",
+            "(1, 2)",
+            "(5, 6)",
+            "(2, 3)"
+        ]
+    },
+    {
+        "q": "Locality-Sensitive Hashing maps similar items to the same bucket with high probability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def minhash_similarity(sig1, sig2):\n    matches = sum(1 for a, b in zip(sig1, sig2) if a == b)\n    return matches / len(sig1)\n\nprint(minhash_similarity([1, 2, 3, 4], [1, 2, 5, 6]))",
+        "o": [
+            "0.5",
+            "0.25",
+            "0.75",
+            "1.0"
+        ]
+    },
+    {
+        "q": "Rearrange the MinHash generation steps:",
+        "type": "rearrange",
+        "words": [
+            "Apply hash function",
+            "Find minimum hash",
+            "Repeat for k hashes",
+            "Form signature"
+        ]
+    },
+    {
+        "q": "MinHash estimates Jaccard similarity between sets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the similarity measure with its LSH family:",
+        "type": "match",
+        "left": [
+            "Jaccard",
+            "Cosine",
+            "Euclidean",
+            "Hamming"
+        ],
+        "right": [
+            "MinHash",
+            "Random projection",
+            "p-stable",
+            "Bit sampling"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def simhash_fingerprint_bits(text_length, num_features):\n    return min(64, num_features)\n\nprint(simhash_fingerprint_bits(1000, 128))",
+        "o": [
+            "64",
+            "128",
+            "1000",
+            "32"
+        ]
+    },
+    {
+        "q": "SimHash produces fixed-length fingerprints for near-duplicate detection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def sat_clause_satisfied(clause, assignment):\n    for lit in clause:\n        var = abs(lit)\n        if (lit > 0 and assignment.get(var, False)) or (lit < 0 and not assignment.get(var, True)):\n            return True\n    return False\n\nprint(sat_clause_satisfied([1, -2, 3], {1: True, 2: True, 3: False}))",
+        "o": [
+            "True",
+            "False",
+            "1",
+            "None"
+        ]
+    },
+    {
+        "q": "SAT is the canonical NP-complete problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ theorem states that SAT is NP-complete.",
+        "type": "fill_blank",
+        "answers": [
+            "Cook-Levin"
+        ],
+        "other_options": [
+            "Karp",
+            "Turing",
+            "Church"
+        ]
+    },
+    {
+        "q": "Match the NP-complete problem with its reduction source:",
+        "type": "match",
+        "left": [
+            "3-SAT",
+            "Clique",
+            "Vertex Cover",
+            "Hamiltonian Path"
+        ],
+        "right": [
+            "SAT",
+            "3-SAT",
+            "Clique",
+            "Vertex Cover"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def tsp_brute_force_count(n):\n    import math\n    return math.factorial(n - 1) // 2  # Undirected\n\nprint(tsp_brute_force_count(5))",
+        "o": [
+            "12",
+            "24",
+            "60",
+            "120"
+        ]
+    },
+    {
+        "q": "The Travelling Salesman Problem is NP-hard.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def tsp_dp_states(n):\n    return n * (2 ** n)\n\nprint(tsp_dp_states(4))",
+        "o": [
+            "64",
+            "16",
+            "32",
+            "256"
+        ]
+    },
+    {
+        "q": "The Held-Karp algorithm solves TSP in O(n^2 * 2^n) time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange the branch and bound steps:",
+        "type": "rearrange",
+        "words": [
+            "Compute bound",
+            "Branch if promising",
+            "Prune if worse",
+            "Update best"
+        ]
+    },
+    {
+        "q": "Match the optimization technique with its approach:",
+        "type": "match",
+        "left": [
+            "Branch and Bound",
+            "Simulated Annealing",
+            "Genetic Algorithm",
+            "Ant Colony"
+        ],
+        "right": [
+            "Tree search with pruning",
+            "Temperature-based",
+            "Population evolution",
+            "Pheromone trails"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def simulated_annealing_accept(delta_e, temperature):\n    import math\n    if delta_e < 0:\n        return True\n    return math.exp(-delta_e / temperature) > 0.5  # Simplified\n\nprint(simulated_annealing_accept(-5, 100))",
+        "o": [
+            "True",
+            "False",
+            "-5",
+            "0.95"
+        ]
+    },
+    {
+        "q": "Simulated annealing accepts worse solutions with decreasing probability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def genetic_crossover_point(chromosome_length):\n    return chromosome_length // 2\n\nprint(genetic_crossover_point(10))",
+        "o": [
+            "5",
+            "10",
+            "4",
+            "6"
+        ]
+    },
+    {
+        "q": "Genetic algorithms use selection, crossover, and mutation operators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ approximation algorithm achieves 2-factor for metric TSP.",
+        "type": "fill_blank",
+        "answers": [
+            "Christofides"
+        ],
+        "other_options": [
+            "Greedy",
+            "DP",
+            "Branch-bound"
+        ]
+    },
+    {
+        "q": "Match the approximation ratio with its problem:",
+        "type": "match",
+        "left": [
+            "Vertex Cover",
+            "Set Cover",
+            "Metric TSP",
+            "Bin Packing"
+        ],
+        "right": [
+            "2",
+            "O(log n)",
+            "1.5",
+            "11/9 OPT + 1"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def vertex_cover_approximation_ratio():\n    return 2\n\nprint(vertex_cover_approximation_ratio())",
+        "o": [
+            "2",
+            "1",
+            "1.5",
+            "3"
+        ]
+    },
+    {
+        "q": "A 2-approximation for Vertex Cover repeatedly picks edges and covers both endpoints.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def set_cover_greedy_cost_ratio(set_size, remaining_elements):\n    return set_size / remaining_elements if remaining_elements > 0 else float('inf')\n\nprint(set_cover_greedy_cost_ratio(5, 10))",
+        "o": [
+            "0.5",
+            "5",
+            "2",
+            "50"
+        ]
+    },
+    {
+        "q": "Rearrange the greedy set cover steps:",
+        "type": "rearrange",
+        "words": [
+            "Find best ratio set",
+            "Add to cover",
+            "Remove covered elements",
+            "Repeat until done"
+        ]
+    },
+    {
+        "q": "Greedy set cover achieves O(log n) approximation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the problem class with its characteristic:",
+        "type": "match",
+        "left": [
+            "P",
+            "NP",
+            "NP-hard",
+            "NP-complete"
+        ],
+        "right": [
+            "Polynomial time",
+            "Verifiable in poly",
+            "At least as hard as NP",
+            "NP and NP-hard"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def fptas_scaling_factor(epsilon, max_value):\n    return max_value * epsilon / len([1, 2, 3])  # Simplified n=3\n\nprint(fptas_scaling_factor(0.1, 100))",
+        "o": [
+            "3.33",
+            "10",
+            "0.1",
+            "100"
+        ]
+    },
+    {
+        "q": "FPTAS provides (1+epsilon)-approximation in polynomial time for fixed epsilon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def ptas_runtime_exponent(epsilon):\n    return int(1 / epsilon)\n\nprint(ptas_runtime_exponent(0.2))",
+        "o": [
+            "5",
+            "0.2",
+            "2",
+            "10"
+        ]
+    },
+    {
+        "q": "PTAS has runtime polynomial in n but possibly exponential in 1/epsilon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ problem asks if P equals NP.",
+        "type": "fill_blank",
+        "answers": [
+            "P vs NP"
+        ],
+        "other_options": [
+            "SAT",
+            "TSP",
+            "Halting"
+        ]
+    },
+    {
+        "q": "Match the complexity class with examples:",
+        "type": "match",
+        "left": [
+            "P",
+            "NP-complete",
+            "PSPACE",
+            "EXPTIME"
+        ],
+        "right": [
+            "Sorting, searching",
+            "SAT, Clique",
+            "QBF",
+            "Chess optimal play"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def parameterized_complexity_fpt(n, k, f_k):\n    return f_k * n  # f(k) * poly(n)\n\nprint(parameterized_complexity_fpt(100, 5, 32))",
+        "o": [
+            "3200",
+            "500",
+            "132",
+            "3205"
+        ]
+    },
+    {
+        "q": "FPT algorithms are polynomial in n for fixed parameter k.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def kernelization_size(original_n, k):\n    return min(original_n, k * k)  # Quadratic kernel\n\nprint(kernelization_size(1000, 10))",
+        "o": [
+            "100",
+            "1000",
+            "10",
+            "10000"
+        ]
+    },
+    {
+        "q": "Rearrange the fixed-parameter tractability proof steps:",
+        "type": "rearrange",
+        "words": [
+            "Identify parameter",
+            "Design FPT algorithm",
+            "Prove kernel bound",
+            "Analyze complexity"
+        ]
+    },
+    {
+        "q": "Kernelization reduces problem size while preserving correctness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the parameterized problem with its classification:",
+        "type": "match",
+        "left": [
+            "k-Vertex Cover",
+            "k-Clique",
+            "k-Path",
+            "k-Dominating Set"
+        ],
+        "right": [
+            "FPT",
+            "W[1]-complete",
+            "FPT",
+            "W[2]-complete"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def iterative_compression_steps(n):\n    return n  # Process one vertex at a time\n\nprint(iterative_compression_steps(50))",
+        "o": [
+            "50",
+            "25",
+            "100",
+            "1"
+        ]
+    },
+    {
+        "q": "Iterative compression builds solutions by adding elements incrementally.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def color_coding_prob(k):\n    import math\n    return math.e ** (-k)  # Probability of colorful path\n\nprint(round(2.718 ** (-3), 3))",
+        "o": [
+            "0.05",
+            "0.5",
+            "0.37",
+            "0.01"
+        ]
+    },
+    {
+        "q": "Color coding uses random coloring to find paths in FPT time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The W-hierarchy classifies parameterized intractability with W[1] at the base.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the online algorithm with its competitive ratio:",
+        "type": "match",
+        "left": [
+            "Ski Rental",
+            "Paging (LRU)",
+            "List Update (MTF)",
+            "Load Balancing"
+        ],
+        "right": [
+            "2",
+            "k-competitive",
+            "2",
+            "O(log n)"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def ski_rental_decision(days_skied, buy_cost, rent_cost):\n    return days_skied * rent_cost >= buy_cost\n\nprint(ski_rental_decision(10, 50, 5))",
+        "o": [
+            "True",
+            "False",
+            "50",
+            "100"
+        ]
+    },
+    {
+        "q": "Online algorithms make decisions without knowing future input.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def competitive_ratio(online_cost, optimal_cost):\n    return online_cost / optimal_cost if optimal_cost > 0 else float('inf')\n\nprint(competitive_ratio(150, 100))",
+        "o": [
+            "1.5",
+            "50",
+            "0.67",
+            "250"
+        ]
+    },
+    {
+        "q": "LRU paging is k-competitive where k is cache size.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The _____ ratio measures online algorithm performance against optimal offline.",
+        "type": "fill_blank",
+        "answers": [
+            "competitive"
+        ],
+        "other_options": [
+            "approximation",
+            "optimal",
+            "worst"
+        ]
+    },
+    {
+        "q": "Match the scheduling problem with its algorithm:",
+        "type": "match",
+        "left": [
+            "Job shop",
+            "Flow shop",
+            "Open shop",
+            "Single machine"
+        ],
+        "right": [
+            "Branch and bound",
+            "Johnson's rule",
+            "Polynomial optimal",
+            "EDD/SPT"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def spt_order(jobs):\n    return sorted(jobs, key=lambda x: x[1])  # Sort by processing time\n\njobs = [('A', 5), ('B', 2), ('C', 8)]\nprint(spt_order(jobs)[0][0])",
+        "o": [
+            "B",
+            "A",
+            "C",
+            "None"
+        ]
+    },
+    {
+        "q": "SPT minimizes total completion time for single machine scheduling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def makespan_lower_bound(jobs, machines):\n    return max(sum(j[1] for j in jobs) / machines, max(j[1] for j in jobs))\n\njobs = [('A', 10), ('B', 20), ('C', 15)]\nprint(makespan_lower_bound(jobs, 2))",
+        "o": [
+            "22.5",
+            "20",
+            "45",
+            "15"
+        ]
+    },
+    {
+        "q": "Rearrange the list scheduling algorithm steps:",
+        "type": "rearrange",
+        "words": [
+            "Process job list",
+            "Find least loaded",
+            "Assign job",
+            "Update load"
+        ]
+    },
+    {
+        "q": "List scheduling achieves 2-approximation for makespan on identical machines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the game theory concept with its definition:",
+        "type": "match",
+        "left": [
+            "Nash Equilibrium",
+            "Pareto Optimal",
+            "Dominant Strategy",
+            "Minimax"
+        ],
+        "right": [
+            "No player gains by changing",
+            "No improvement for all",
+            "Best regardless of others",
+            "Minimize maximum loss"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def minimax_value(node_values, is_max):\n    return max(node_values) if is_max else min(node_values)\n\nprint(minimax_value([3, 5, 2, 9], True))",
+        "o": [
+            "9",
+            "2",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "q": "Alpha-beta pruning reduces minimax search without affecting the result.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the output of this code?",
+        "type": "mcq",
+        "c": "def alpha_beta_prune(alpha, beta):\n    return alpha >= beta\n\nprint(alpha_beta_prune(5, 3))",
+        "o": [
+            "True",
+            "False",
+            "5",
+            "3"
+        ]
+    },
+    {
+        "q": "The _____ theorem guarantees existence of mixed strategy Nash equilibrium.",
+        "type": "fill_blank",
+        "answers": [
+            "Nash"
+        ],
+        "other_options": [
+            "Minimax",
+            "Von Neumann",
+            "Zermelo"
+        ]
+    },
+    {
+        "q": "Every finite game has at least one Nash equilibrium in mixed strategies.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

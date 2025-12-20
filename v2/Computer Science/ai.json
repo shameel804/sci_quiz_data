@@ -1,0 +1,6738 @@
+[
+    {
+        "q": "What is Artificial Intelligence?",
+        "type": "mcq",
+        "o": [
+            "Machines that mimic human intelligence",
+            "A type of computer hardware",
+            "A programming language",
+            "A database system"
+        ]
+    },
+    {
+        "q": "AI stands for _____ Intelligence.",
+        "type": "fill_blank",
+        "answers": [
+            "Artificial"
+        ],
+        "other_options": [
+            "Automated",
+            "Advanced",
+            "Augmented"
+        ]
+    },
+    {
+        "q": "AI systems can learn from data.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an AI application?",
+        "type": "mcq",
+        "o": [
+            "Voice assistants like Siri",
+            "Simple calculators",
+            "Text editors",
+            "File managers"
+        ]
+    },
+    {
+        "q": "Match the AI term with its meaning:",
+        "type": "match",
+        "left": [
+            "Machine Learning",
+            "Neural Network",
+            "NLP",
+            "Computer Vision"
+        ],
+        "right": [
+            "Learning from data",
+            "Brain-inspired model",
+            "Text processing",
+            "Image understanding"
+        ]
+    },
+    {
+        "q": "What is Machine Learning?",
+        "type": "mcq",
+        "o": [
+            "Algorithms that improve from experience",
+            "Programming hardware",
+            "Building robots",
+            "Writing software"
+        ]
+    },
+    {
+        "q": "ML is a subset of _____.",
+        "type": "fill_blank",
+        "answers": [
+            "AI"
+        ],
+        "other_options": [
+            "Data",
+            "Code",
+            "Hardware"
+        ]
+    },
+    {
+        "q": "Machine Learning requires data to learn.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which is a type of machine learning?",
+        "type": "mcq",
+        "o": [
+            "Supervised learning",
+            "Manual learning",
+            "Static learning",
+            "Fixed learning"
+        ]
+    },
+    {
+        "q": "Rearrange the ML workflow steps:",
+        "type": "rearrange",
+        "words": [
+            "Collect data",
+            "Prepare data",
+            "Train model",
+            "Evaluate",
+            "Deploy"
+        ]
+    },
+    {
+        "q": "What is supervised learning?",
+        "type": "mcq",
+        "o": [
+            "Learning with labeled examples",
+            "Learning without any data",
+            "Learning from games",
+            "Learning from errors only"
+        ]
+    },
+    {
+        "q": "Supervised learning uses _____ data for training.",
+        "type": "fill_blank",
+        "answers": [
+            "labeled"
+        ],
+        "other_options": [
+            "random",
+            "encrypted",
+            "compressed"
+        ]
+    },
+    {
+        "q": "Classification predicts categories.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the learning type with its description:",
+        "type": "match",
+        "left": [
+            "Supervised",
+            "Unsupervised",
+            "Reinforcement",
+            "Semi-supervised"
+        ],
+        "right": [
+            "Labeled data",
+            "No labels",
+            "Rewards/penalties",
+            "Mixed labels"
+        ]
+    },
+    {
+        "q": "Which is a supervised learning task?",
+        "type": "mcq",
+        "o": [
+            "Email spam detection",
+            "Finding clusters",
+            "Playing chess",
+            "Randomizing data"
+        ]
+    },
+    {
+        "q": "What is unsupervised learning?",
+        "type": "mcq",
+        "o": [
+            "Learning from unlabeled data",
+            "Learning with a teacher",
+            "Learning from rewards",
+            "Learning from examples"
+        ]
+    },
+    {
+        "q": "Clustering groups similar _____ together.",
+        "type": "fill_blank",
+        "answers": [
+            "data points"
+        ],
+        "other_options": [
+            "labels",
+            "models",
+            "features"
+        ]
+    },
+    {
+        "q": "K-means is a clustering algorithm.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which is an unsupervised learning task?",
+        "type": "mcq",
+        "o": [
+            "Customer segmentation",
+            "Predicting prices",
+            "Image classification",
+            "Speech recognition"
+        ]
+    },
+    {
+        "q": "Match the algorithm with its type:",
+        "type": "match",
+        "left": [
+            "Linear Regression",
+            "K-Means",
+            "Decision Tree",
+            "PCA"
+        ],
+        "right": [
+            "Supervised",
+            "Unsupervised",
+            "Supervised",
+            "Unsupervised"
+        ]
+    },
+    {
+        "q": "What is reinforcement learning?",
+        "type": "mcq",
+        "o": [
+            "Learning through trial and error",
+            "Learning with labels",
+            "Learning without data",
+            "Learning from books"
+        ]
+    },
+    {
+        "q": "RL agents receive _____ for their actions.",
+        "type": "fill_blank",
+        "answers": [
+            "rewards"
+        ],
+        "other_options": [
+            "data",
+            "labels",
+            "features"
+        ]
+    },
+    {
+        "q": "Game-playing AI often uses reinforcement learning.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a neural network?",
+        "type": "mcq",
+        "o": [
+            "A model inspired by the human brain",
+            "A type of database",
+            "A hardware component",
+            "A network cable"
+        ]
+    },
+    {
+        "q": "Neural networks consist of _____ connected in layers.",
+        "type": "fill_blank",
+        "answers": [
+            "neurons"
+        ],
+        "other_options": [
+            "databases",
+            "files",
+            "cables"
+        ]
+    },
+    {
+        "q": "Rearrange neural network components:",
+        "type": "rearrange",
+        "words": [
+            "Input layer",
+            "Hidden layers",
+            "Output layer",
+            "Activate"
+        ]
+    },
+    {
+        "q": "Deep learning uses neural networks with many layers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the neural network term with its role:",
+        "type": "match",
+        "left": [
+            "Neuron",
+            "Weight",
+            "Bias",
+            "Activation"
+        ],
+        "right": [
+            "Processing unit",
+            "Connection strength",
+            "Threshold shift",
+            "Non-linearity"
+        ]
+    },
+    {
+        "q": "What is deep learning?",
+        "type": "mcq",
+        "o": [
+            "ML with deep neural networks",
+            "Learning in deep water",
+            "Long-term learning",
+            "Underground computing"
+        ]
+    },
+    {
+        "q": "Deep learning requires _____ amounts of data.",
+        "type": "fill_blank",
+        "answers": [
+            "large"
+        ],
+        "other_options": [
+            "small",
+            "zero",
+            "fixed"
+        ]
+    },
+    {
+        "q": "CNNs are commonly used for image recognition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which uses deep learning?",
+        "type": "mcq",
+        "o": [
+            "Image recognition systems",
+            "Simple calculators",
+            "Spreadsheet formulas",
+            "Text editors"
+        ]
+    },
+    {
+        "q": "CNN stands for _____ Neural Network.",
+        "type": "fill_blank",
+        "answers": [
+            "Convolutional"
+        ],
+        "other_options": [
+            "Connected",
+            "Computed",
+            "Combined"
+        ]
+    },
+    {
+        "q": "What is NLP?",
+        "type": "mcq",
+        "o": [
+            "Natural Language Processing",
+            "Neural Learning Protocol",
+            "Network Layer Processing",
+            "New Logic Programming"
+        ]
+    },
+    {
+        "q": "NLP enables computers to understand _____ language.",
+        "type": "fill_blank",
+        "answers": [
+            "human"
+        ],
+        "other_options": [
+            "binary",
+            "machine",
+            "coded"
+        ]
+    },
+    {
+        "q": "Match the NLP task with its description:",
+        "type": "match",
+        "left": [
+            "Sentiment analysis",
+            "Translation",
+            "Summarization",
+            "NER"
+        ],
+        "right": [
+            "Detect emotion",
+            "Convert languages",
+            "Shorten text",
+            "Find entities"
+        ]
+    },
+    {
+        "q": "Chatbots use NLP to understand user input.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which is an NLP application?",
+        "type": "mcq",
+        "o": [
+            "Language translation",
+            "Image editing",
+            "Video streaming",
+            "File compression"
+        ]
+    },
+    {
+        "q": "What is Computer Vision?",
+        "type": "mcq",
+        "o": [
+            "AI that interprets visual information",
+            "A type of monitor",
+            "Software for graphics",
+            "Video player"
+        ]
+    },
+    {
+        "q": "Computer Vision analyzes _____ and videos.",
+        "type": "fill_blank",
+        "answers": [
+            "images"
+        ],
+        "other_options": [
+            "sounds",
+            "texts",
+            "numbers"
+        ]
+    },
+    {
+        "q": "Facial recognition uses computer vision.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange computer vision pipeline:",
+        "type": "rearrange",
+        "words": [
+            "Capture image",
+            "Preprocess",
+            "Extract features",
+            "Classify",
+            "Output"
+        ]
+    },
+    {
+        "q": "Which is a computer vision task?",
+        "type": "mcq",
+        "o": [
+            "Object detection",
+            "Text editing",
+            "Audio mixing",
+            "Data sorting"
+        ]
+    },
+    {
+        "q": "Match the CV term with its meaning:",
+        "type": "match",
+        "left": [
+            "Object detection",
+            "Segmentation",
+            "OCR",
+            "Pose estimation"
+        ],
+        "right": [
+            "Find objects",
+            "Divide image",
+            "Read text",
+            "Track body"
+        ]
+    },
+    {
+        "q": "What is a dataset in ML?",
+        "type": "mcq",
+        "o": [
+            "Collection of data for training",
+            "A type of algorithm",
+            "A programming language",
+            "Hardware component"
+        ]
+    },
+    {
+        "q": "Datasets are split into training and _____ sets.",
+        "type": "fill_blank",
+        "answers": [
+            "test"
+        ],
+        "other_options": [
+            "copy",
+            "backup",
+            "archive"
+        ]
+    },
+    {
+        "q": "Quality data improves model performance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a feature in ML?",
+        "type": "mcq",
+        "o": [
+            "An input variable",
+            "The output result",
+            "A model type",
+            "An algorithm"
+        ]
+    },
+    {
+        "q": "Features are also called _____ variables.",
+        "type": "fill_blank",
+        "answers": [
+            "independent"
+        ],
+        "other_options": [
+            "dependent",
+            "output",
+            "target"
+        ]
+    },
+    {
+        "q": "Match the data term with its role:",
+        "type": "match",
+        "left": [
+            "Feature",
+            "Label",
+            "Sample",
+            "Split"
+        ],
+        "right": [
+            "Input variable",
+            "Output variable",
+            "One data point",
+            "Divide data"
+        ]
+    },
+    {
+        "q": "What is a label in supervised learning?",
+        "type": "mcq",
+        "o": [
+            "The correct answer for a sample",
+            "A type of algorithm",
+            "A feature name",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Labels are the _____ values in training data.",
+        "type": "fill_blank",
+        "answers": [
+            "target"
+        ],
+        "other_options": [
+            "input",
+            "random",
+            "missing"
+        ]
+    },
+    {
+        "q": "Classification tasks have categorical labels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is overfitting?",
+        "type": "mcq",
+        "o": [
+            "Model learns training data too well",
+            "Model learns too slowly",
+            "Model uses too little data",
+            "Model fails to compile"
+        ]
+    },
+    {
+        "q": "Overfitting causes poor _____ on new data.",
+        "type": "fill_blank",
+        "answers": [
+            "generalization"
+        ],
+        "other_options": [
+            "training",
+            "loading",
+            "saving"
+        ]
+    },
+    {
+        "q": "Rearrange model evaluation steps:",
+        "type": "rearrange",
+        "words": [
+            "Train model",
+            "Validate",
+            "Test",
+            "Tune",
+            "Deploy"
+        ]
+    },
+    {
+        "q": "Regularization helps prevent overfitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the term with its description:",
+        "type": "match",
+        "left": [
+            "Overfitting",
+            "Underfitting",
+            "Bias",
+            "Variance"
+        ],
+        "right": [
+            "Too complex",
+            "Too simple",
+            "Systematic error",
+            "Sensitivity"
+        ]
+    },
+    {
+        "q": "What is underfitting?",
+        "type": "mcq",
+        "o": [
+            "Model is too simple to learn patterns",
+            "Model is too complex",
+            "Model trains too long",
+            "Model uses too much data"
+        ]
+    },
+    {
+        "q": "Underfitting occurs when the model has high _____.",
+        "type": "fill_blank",
+        "answers": [
+            "bias"
+        ],
+        "other_options": [
+            "variance",
+            "accuracy",
+            "speed"
+        ]
+    },
+    {
+        "q": "Adding more features can help with underfitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is training in ML?",
+        "type": "mcq",
+        "o": [
+            "Teaching a model using data",
+            "Installing software",
+            "Deleting files",
+            "Formatting data"
+        ]
+    },
+    {
+        "q": "Models learn _____ from training data.",
+        "type": "fill_blank",
+        "answers": [
+            "patterns"
+        ],
+        "other_options": [
+            "files",
+            "names",
+            "types"
+        ]
+    },
+    {
+        "q": "Training adjusts model parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is model evaluation?",
+        "type": "mcq",
+        "o": [
+            "Measuring model performance",
+            "Creating new models",
+            "Deleting old models",
+            "Renaming models"
+        ]
+    },
+    {
+        "q": "Accuracy measures the _____ of correct predictions.",
+        "type": "fill_blank",
+        "answers": [
+            "percentage"
+        ],
+        "other_options": [
+            "sum",
+            "average",
+            "median"
+        ]
+    },
+    {
+        "q": "Match the metric with its use:",
+        "type": "match",
+        "left": [
+            "Accuracy",
+            "Precision",
+            "Recall",
+            "F1 Score"
+        ],
+        "right": [
+            "Overall correct",
+            "Positive accuracy",
+            "Find all positives",
+            "Balance metric"
+        ]
+    },
+    {
+        "q": "High accuracy always means a good model.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a classification model?",
+        "type": "mcq",
+        "o": [
+            "Predicts categories",
+            "Predicts numbers",
+            "Sorts data",
+            "Stores data"
+        ]
+    },
+    {
+        "q": "Binary classification has _____ possible outcomes.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "many",
+            "zero"
+        ]
+    },
+    {
+        "q": "Spam detection is a classification problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange classification pipeline:",
+        "type": "rearrange",
+        "words": [
+            "Collect data",
+            "Label data",
+            "Train classifier",
+            "Predict",
+            "Evaluate"
+        ]
+    },
+    {
+        "q": "What is regression in ML?",
+        "type": "mcq",
+        "o": [
+            "Predicting continuous values",
+            "Predicting categories",
+            "Sorting data",
+            "Grouping data"
+        ]
+    },
+    {
+        "q": "Regression outputs _____ values.",
+        "type": "fill_blank",
+        "answers": [
+            "numerical"
+        ],
+        "other_options": [
+            "categorical",
+            "binary",
+            "boolean"
+        ]
+    },
+    {
+        "q": "Match the task with its type:",
+        "type": "match",
+        "left": [
+            "House price",
+            "Spam detection",
+            "Customer segments",
+            "Game AI"
+        ],
+        "right": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Reinforcement"
+        ]
+    },
+    {
+        "q": "Linear regression draws a best-fit line.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a decision tree?",
+        "type": "mcq",
+        "o": [
+            "A flowchart-like model",
+            "A type of database",
+            "A neural network",
+            "A data format"
+        ]
+    },
+    {
+        "q": "Decision trees split data based on _____.",
+        "type": "fill_blank",
+        "answers": [
+            "features"
+        ],
+        "other_options": [
+            "labels",
+            "outputs",
+            "errors"
+        ]
+    },
+    {
+        "q": "Decision trees are easy to interpret.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a random forest?",
+        "type": "mcq",
+        "o": [
+            "Ensemble of decision trees",
+            "A single tree",
+            "A type of data",
+            "A neural network"
+        ]
+    },
+    {
+        "q": "Random forests use _____ to improve accuracy.",
+        "type": "fill_blank",
+        "answers": [
+            "voting"
+        ],
+        "other_options": [
+            "sorting",
+            "filtering",
+            "deleting"
+        ]
+    },
+    {
+        "q": "Match the algorithm with its strength:",
+        "type": "match",
+        "left": [
+            "Decision Tree",
+            "Random Forest",
+            "SVM",
+            "KNN"
+        ],
+        "right": [
+            "Interpretable",
+            "Accurate",
+            "Margins",
+            "Simple"
+        ]
+    },
+    {
+        "q": "What is gradient descent?",
+        "type": "mcq",
+        "o": [
+            "Optimization algorithm",
+            "Data structure",
+            "Neural network type",
+            "Programming language"
+        ]
+    },
+    {
+        "q": "Gradient descent minimizes the _____ function.",
+        "type": "fill_blank",
+        "answers": [
+            "loss"
+        ],
+        "other_options": [
+            "gain",
+            "speed",
+            "size"
+        ]
+    },
+    {
+        "q": "Learning rate controls step size in gradient descent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange gradient descent steps:",
+        "type": "rearrange",
+        "words": [
+            "Initialize",
+            "Compute gradient",
+            "Update weights",
+            "Check convergence"
+        ]
+    },
+    {
+        "q": "What is a loss function?",
+        "type": "mcq",
+        "o": [
+            "Measures prediction error",
+            "Creates predictions",
+            "Stores data",
+            "Deletes errors"
+        ]
+    },
+    {
+        "q": "Lower loss means _____ model performance.",
+        "type": "fill_blank",
+        "answers": [
+            "better"
+        ],
+        "other_options": [
+            "worse",
+            "random",
+            "unknown"
+        ]
+    },
+    {
+        "q": "Match the loss function with its use:",
+        "type": "match",
+        "left": [
+            "MSE",
+            "Cross-entropy",
+            "MAE",
+            "Hinge"
+        ],
+        "right": [
+            "Regression",
+            "Classification",
+            "Regression",
+            "SVM"
+        ]
+    },
+    {
+        "q": "What is backpropagation?",
+        "type": "mcq",
+        "o": [
+            "Algorithm to train neural networks",
+            "Data storage method",
+            "Type of activation",
+            "Network architecture"
+        ]
+    },
+    {
+        "q": "Backpropagation computes _____ to update weights.",
+        "type": "fill_blank",
+        "answers": [
+            "gradients"
+        ],
+        "other_options": [
+            "averages",
+            "sums",
+            "products"
+        ]
+    },
+    {
+        "q": "Backpropagation uses the chain rule of calculus.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an activation function?",
+        "type": "mcq",
+        "o": [
+            "Adds non-linearity to neurons",
+            "Connects networks",
+            "Stores data",
+            "Deletes weights"
+        ]
+    },
+    {
+        "q": "ReLU stands for Rectified _____ Unit.",
+        "type": "fill_blank",
+        "answers": [
+            "Linear"
+        ],
+        "other_options": [
+            "Logic",
+            "Layer",
+            "Learning"
+        ]
+    },
+    {
+        "q": "Match the activation with its formula:",
+        "type": "match",
+        "left": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "Softmax"
+        ],
+        "right": [
+            "max(0, x)",
+            "1/(1+e^-x)",
+            "(-1 to 1)",
+            "Prob distribution"
+        ]
+    },
+    {
+        "q": "Sigmoid outputs values between 0 and 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a convolutional layer?",
+        "type": "mcq",
+        "o": [
+            "Extracts features using filters",
+            "Stores training data",
+            "Connects all neurons",
+            "Outputs final predictions"
+        ]
+    },
+    {
+        "q": "Filters in CNNs detect _____ patterns.",
+        "type": "fill_blank",
+        "answers": [
+            "spatial"
+        ],
+        "other_options": [
+            "temporal",
+            "random",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Pooling layers reduce the spatial dimensions of feature maps.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the CNN component with its function:",
+        "type": "match",
+        "left": [
+            "Convolution",
+            "Pooling",
+            "Flatten",
+            "Dense"
+        ],
+        "right": [
+            "Feature extraction",
+            "Reduce size",
+            "1D array",
+            "Classification"
+        ]
+    },
+    {
+        "q": "What is max pooling?",
+        "type": "mcq",
+        "o": [
+            "Takes maximum value in each region",
+            "Takes average value",
+            "Takes minimum value",
+            "Takes random value"
+        ]
+    },
+    {
+        "q": "Padding adds _____ around the input image.",
+        "type": "fill_blank",
+        "answers": [
+            "zeros"
+        ],
+        "other_options": [
+            "ones",
+            "noise",
+            "colors"
+        ]
+    },
+    {
+        "q": "Stride determines how many pixels the filter moves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a RNN?",
+        "type": "mcq",
+        "o": [
+            "Recurrent Neural Network",
+            "Random Neural Network",
+            "Recursive Noise Network",
+            "Real Number Network"
+        ]
+    },
+    {
+        "q": "RNNs process _____ data.",
+        "type": "fill_blank",
+        "answers": [
+            "sequential"
+        ],
+        "other_options": [
+            "random",
+            "static",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Rearrange RNN processing steps:",
+        "type": "rearrange",
+        "words": [
+            "Input sequence",
+            "Hidden state",
+            "Process step",
+            "Update state",
+            "Output"
+        ]
+    },
+    {
+        "q": "RNNs suffer from vanishing gradient problem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the RNN variant with its feature:",
+        "type": "match",
+        "left": [
+            "Simple RNN",
+            "LSTM",
+            "GRU",
+            "Bidirectional"
+        ],
+        "right": [
+            "Basic memory",
+            "Long memory",
+            "Simpler gates",
+            "Both directions"
+        ]
+    },
+    {
+        "q": "What is LSTM?",
+        "type": "mcq",
+        "o": [
+            "Long Short-Term Memory",
+            "Linear State Time Model",
+            "Layer Stacked Training Module",
+            "Lazy Sequential Training Method"
+        ]
+    },
+    {
+        "q": "LSTM uses _____ to control information flow.",
+        "type": "fill_blank",
+        "answers": [
+            "gates"
+        ],
+        "other_options": [
+            "doors",
+            "filters",
+            "layers"
+        ]
+    },
+    {
+        "q": "The forget gate decides what to discard from memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Transformer?",
+        "type": "mcq",
+        "o": [
+            "Attention-based neural network",
+            "Type of RNN",
+            "CNN variant",
+            "Optimization algorithm"
+        ]
+    },
+    {
+        "q": "Transformers use _____ instead of recurrence.",
+        "type": "fill_blank",
+        "answers": [
+            "attention"
+        ],
+        "other_options": [
+            "convolution",
+            "pooling",
+            "loops"
+        ]
+    },
+    {
+        "q": "BERT is a transformer-based model.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the transformer component with its role:",
+        "type": "match",
+        "left": [
+            "Self-attention",
+            "Multi-head",
+            "Encoder",
+            "Decoder"
+        ],
+        "right": [
+            "Focus on context",
+            "Multiple views",
+            "Process input",
+            "Generate output"
+        ]
+    },
+    {
+        "q": "What is self-attention?",
+        "type": "mcq",
+        "o": [
+            "Computing importance of each position",
+            "Training without labels",
+            "Using external data",
+            "Reducing model size"
+        ]
+    },
+    {
+        "q": "Self-attention computes Query, Key, and _____ matrices.",
+        "type": "fill_blank",
+        "answers": [
+            "Value"
+        ],
+        "other_options": [
+            "Weight",
+            "Bias",
+            "Output"
+        ]
+    },
+    {
+        "q": "Rearrange transformer architecture:",
+        "type": "rearrange",
+        "words": [
+            "Input embed",
+            "Positional encode",
+            "Multi-head attention",
+            "Feed forward",
+            "Output"
+        ]
+    },
+    {
+        "q": "Transformers can process sequences in parallel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is GPT?",
+        "type": "mcq",
+        "o": [
+            "Generative Pre-trained Transformer",
+            "General Purpose Training",
+            "Gradient Propagation Tool",
+            "Graph Processing Technique"
+        ]
+    },
+    {
+        "q": "GPT is trained to predict the _____ token.",
+        "type": "fill_blank",
+        "answers": [
+            "next"
+        ],
+        "other_options": [
+            "first",
+            "random",
+            "missing"
+        ]
+    },
+    {
+        "q": "BERT uses bidirectional context for training.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the model with its architecture:",
+        "type": "match",
+        "left": [
+            "GPT",
+            "BERT",
+            "T5",
+            "Vision Transformer"
+        ],
+        "right": [
+            "Decoder only",
+            "Encoder only",
+            "Encoder-decoder",
+            "Images"
+        ]
+    },
+    {
+        "q": "What is transfer learning?",
+        "type": "mcq",
+        "o": [
+            "Using pre-trained models for new tasks",
+            "Training from scratch",
+            "Transferring files",
+            "Moving servers"
+        ]
+    },
+    {
+        "q": "Transfer learning reduces _____ requirements.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "hardware",
+            "software",
+            "storage"
+        ]
+    },
+    {
+        "q": "Fine-tuning adjusts pre-trained weights for specific tasks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is batch normalization?",
+        "type": "mcq",
+        "o": [
+            "Normalizing layer inputs",
+            "Grouping data",
+            "Sorting examples",
+            "Creating batches"
+        ]
+    },
+    {
+        "q": "Batch norm stabilizes _____ during training.",
+        "type": "fill_blank",
+        "answers": [
+            "learning"
+        ],
+        "other_options": [
+            "data",
+            "memory",
+            "storage"
+        ]
+    },
+    {
+        "q": "Match the normalization with its scope:",
+        "type": "match",
+        "left": [
+            "Batch norm",
+            "Layer norm",
+            "Instance norm",
+            "Group norm"
+        ],
+        "right": [
+            "Across batch",
+            "Across features",
+            "Per sample",
+            "Groups of channels"
+        ]
+    },
+    {
+        "q": "What is dropout?",
+        "type": "mcq",
+        "o": [
+            "Randomly disabling neurons during training",
+            "Removing data",
+            "Deleting layers",
+            "Stopping training"
+        ]
+    },
+    {
+        "q": "Dropout helps prevent _____.",
+        "type": "fill_blank",
+        "answers": [
+            "overfitting"
+        ],
+        "other_options": [
+            "underfitting",
+            "learning",
+            "training"
+        ]
+    },
+    {
+        "q": "Rearrange regularization techniques by strength:",
+        "type": "rearrange",
+        "words": [
+            "L1",
+            "L2",
+            "Dropout",
+            "Early stopping"
+        ]
+    },
+    {
+        "q": "L2 regularization is also called weight decay.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is an epoch?",
+        "type": "mcq",
+        "o": [
+            "One pass through entire training data",
+            "Single training sample",
+            "One gradient step",
+            "Final training phase"
+        ]
+    },
+    {
+        "q": "Training for too many epochs can cause _____.",
+        "type": "fill_blank",
+        "answers": [
+            "overfitting"
+        ],
+        "other_options": [
+            "underfitting",
+            "speed up",
+            "improvement"
+        ]
+    },
+    {
+        "q": "Match the training term with its meaning:",
+        "type": "match",
+        "left": [
+            "Epoch",
+            "Batch",
+            "Iteration",
+            "Learning rate"
+        ],
+        "right": [
+            "Full dataset pass",
+            "Subset of data",
+            "One update",
+            "Step size"
+        ]
+    },
+    {
+        "q": "What is a hyperparameter?",
+        "type": "mcq",
+        "o": [
+            "Configuration set before training",
+            "Value learned during training",
+            "Output of the model",
+            "Input data feature"
+        ]
+    },
+    {
+        "q": "Learning rate is a _____.",
+        "type": "fill_blank",
+        "answers": [
+            "hyperparameter"
+        ],
+        "other_options": [
+            "parameter",
+            "feature",
+            "label"
+        ]
+    },
+    {
+        "q": "Grid search tests all hyperparameter combinations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is cross-validation?",
+        "type": "mcq",
+        "o": [
+            "Splitting data into multiple folds for testing",
+            "Combining multiple models",
+            "Crossing data streams",
+            "Validating across servers"
+        ]
+    },
+    {
+        "q": "K-fold validation uses _____ subsets.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "2",
+            "10",
+            "100"
+        ]
+    },
+    {
+        "q": "Rearrange cross-validation steps:",
+        "type": "rearrange",
+        "words": [
+            "Split data",
+            "Train on k-1 folds",
+            "Validate on 1 fold",
+            "Repeat",
+            "Average results"
+        ]
+    },
+    {
+        "q": "What is the confusion matrix?",
+        "type": "mcq",
+        "o": [
+            "Table of prediction outcomes",
+            "Matrix multiplication",
+            "Neural network layer",
+            "Data transformation"
+        ]
+    },
+    {
+        "q": "True positives are correctly predicted _____ cases.",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "neutral",
+            "unknown"
+        ]
+    },
+    {
+        "q": "Match the confusion matrix element with its meaning:",
+        "type": "match",
+        "left": [
+            "TP",
+            "TN",
+            "FP",
+            "FN"
+        ],
+        "right": [
+            "Correct positive",
+            "Correct negative",
+            "Wrong positive",
+            "Missed positive"
+        ]
+    },
+    {
+        "q": "Precision is TP divided by (TP + FP).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is recall?",
+        "type": "mcq",
+        "o": [
+            "Proportion of actual positives identified",
+            "Overall accuracy",
+            "False positive rate",
+            "Training speed"
+        ]
+    },
+    {
+        "q": "Recall is also called _____.",
+        "type": "fill_blank",
+        "answers": [
+            "sensitivity"
+        ],
+        "other_options": [
+            "specificity",
+            "accuracy",
+            "precision"
+        ]
+    },
+    {
+        "q": "F1 score balances precision and recall.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ROC curve?",
+        "type": "mcq",
+        "o": [
+            "Plot of true positive vs false positive rate",
+            "Learning curve",
+            "Loss function graph",
+            "Model architecture"
+        ]
+    },
+    {
+        "q": "AUC stands for Area Under the _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Curve"
+        ],
+        "other_options": [
+            "Cost",
+            "Class",
+            "Cover"
+        ]
+    },
+    {
+        "q": "AUC of 1.0 indicates perfect classification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metric with its range:",
+        "type": "match",
+        "left": [
+            "Accuracy",
+            "Precision",
+            "AUC",
+            "Loss"
+        ],
+        "right": [
+            "0 to 1",
+            "0 to 1",
+            "0 to 1",
+            "0 to infinity"
+        ]
+    },
+    {
+        "q": "What is data augmentation?",
+        "type": "mcq",
+        "o": [
+            "Artificially increasing training data",
+            "Reducing data size",
+            "Deleting duplicates",
+            "Compressing files"
+        ]
+    },
+    {
+        "q": "Image augmentation includes rotation and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "flipping"
+        ],
+        "other_options": [
+            "deleting",
+            "compressing",
+            "encrypting"
+        ]
+    },
+    {
+        "q": "Rearrange augmentation operations by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Flip",
+            "Rotate",
+            "Crop",
+            "Color jitter",
+            "Mixup"
+        ]
+    },
+    {
+        "q": "Data augmentation helps prevent overfitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is feature engineering?",
+        "type": "mcq",
+        "o": [
+            "Creating new features from raw data",
+            "Deleting features",
+            "Training models",
+            "Testing accuracy"
+        ]
+    },
+    {
+        "q": "Feature scaling normalizes values to similar _____.",
+        "type": "fill_blank",
+        "answers": [
+            "ranges"
+        ],
+        "other_options": [
+            "types",
+            "names",
+            "shapes"
+        ]
+    },
+    {
+        "q": "Match the scaling method with its formula:",
+        "type": "match",
+        "left": [
+            "Min-max",
+            "Standardization",
+            "Robust",
+            "Log transform"
+        ],
+        "right": [
+            "(x-min)/(max-min)",
+            "(x-mean)/std",
+            "(x-median)/IQR",
+            "log(x)"
+        ]
+    },
+    {
+        "q": "What is one-hot encoding?",
+        "type": "mcq",
+        "o": [
+            "Converting categories to binary vectors",
+            "Heating data",
+            "Compressing features",
+            "Encrypting values"
+        ]
+    },
+    {
+        "q": "One-hot encoding creates _____ new columns.",
+        "type": "fill_blank",
+        "answers": [
+            "binary"
+        ],
+        "other_options": [
+            "numeric",
+            "text",
+            "float"
+        ]
+    },
+    {
+        "q": "Label encoding assigns integers to categories.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is word embedding?",
+        "type": "mcq",
+        "o": [
+            "Vector representation of words",
+            "Counting word frequency",
+            "Sorting words",
+            "Deleting words"
+        ]
+    },
+    {
+        "q": "Word2Vec learns word _____ from context.",
+        "type": "fill_blank",
+        "answers": [
+            "embeddings"
+        ],
+        "other_options": [
+            "counts",
+            "types",
+            "positions"
+        ]
+    },
+    {
+        "q": "Match the embedding method with its approach:",
+        "type": "match",
+        "left": [
+            "Word2Vec",
+            "GloVe",
+            "FastText",
+            "BERT"
+        ],
+        "right": [
+            "Context prediction",
+            "Co-occurrence",
+            "Subwords",
+            "Contextualized"
+        ]
+    },
+    {
+        "q": "Similar words have similar embeddings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is tokenization?",
+        "type": "mcq",
+        "o": [
+            "Splitting text into tokens",
+            "Encrypting text",
+            "Compressing text",
+            "Deleting text"
+        ]
+    },
+    {
+        "q": "BPE stands for Byte Pair _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Encoding"
+        ],
+        "other_options": [
+            "Embedding",
+            "Extraction",
+            "Evaluation"
+        ]
+    },
+    {
+        "q": "Rearrange NLP preprocessing steps:",
+        "type": "rearrange",
+        "words": [
+            "Tokenize",
+            "Remove stopwords",
+            "Stem/lemmatize",
+            "Vectorize"
+        ]
+    },
+    {
+        "q": "What is named entity recognition?",
+        "type": "mcq",
+        "o": [
+            "Identifying entities like names and places",
+            "Creating entity names",
+            "Deleting entities",
+            "Sorting entities"
+        ]
+    },
+    {
+        "q": "NER identifies persons, locations, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "organizations"
+        ],
+        "other_options": [
+            "numbers",
+            "verbs",
+            "adjectives"
+        ]
+    },
+    {
+        "q": "Match the NLP task with its output:",
+        "type": "match",
+        "left": [
+            "NER",
+            "POS tagging",
+            "Parsing",
+            "Sentiment"
+        ],
+        "right": [
+            "Entity labels",
+            "Word types",
+            "Tree structure",
+            "Emotion"
+        ]
+    },
+    {
+        "q": "What is text classification?",
+        "type": "mcq",
+        "o": [
+            "Assigning categories to text",
+            "Counting words",
+            "Translating text",
+            "Generating text"
+        ]
+    },
+    {
+        "q": "Sentiment analysis classifies text as positive, negative, or _____.",
+        "type": "fill_blank",
+        "answers": [
+            "neutral"
+        ],
+        "other_options": [
+            "active",
+            "passive",
+            "mixed"
+        ]
+    },
+    {
+        "q": "Topic modeling discovers hidden topics in documents.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is sequence-to-sequence learning?",
+        "type": "mcq",
+        "o": [
+            "Mapping input sequence to output sequence",
+            "Single input to single output",
+            "Sorting sequences",
+            "Deleting sequences"
+        ]
+    },
+    {
+        "q": "Machine translation uses seq2seq _____.",
+        "type": "fill_blank",
+        "answers": [
+            "models"
+        ],
+        "other_options": [
+            "data",
+            "features",
+            "labels"
+        ]
+    },
+    {
+        "q": "Rearrange seq2seq processing:",
+        "type": "rearrange",
+        "words": [
+            "Encode input",
+            "Create context",
+            "Decode output",
+            "Generate tokens"
+        ]
+    },
+    {
+        "q": "Attention mechanism helps seq2seq focus on relevant parts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is object detection?",
+        "type": "mcq",
+        "o": [
+            "Locating and classifying objects in images",
+            "Creating objects",
+            "Deleting objects",
+            "Counting pixels"
+        ]
+    },
+    {
+        "q": "Object detection outputs bounding _____ coordinates.",
+        "type": "fill_blank",
+        "answers": [
+            "box"
+        ],
+        "other_options": [
+            "circle",
+            "line",
+            "point"
+        ]
+    },
+    {
+        "q": "Match the detector with its approach:",
+        "type": "match",
+        "left": [
+            "YOLO",
+            "Faster R-CNN",
+            "SSD",
+            "RetinaNet"
+        ],
+        "right": [
+            "Single shot",
+            "Region proposal",
+            "Multi-scale",
+            "Focal loss"
+        ]
+    },
+    {
+        "q": "What is image segmentation?",
+        "type": "mcq",
+        "o": [
+            "Dividing image into regions",
+            "Resizing images",
+            "Deleting images",
+            "Compressing images"
+        ]
+    },
+    {
+        "q": "Semantic segmentation labels each _____.",
+        "type": "fill_blank",
+        "answers": [
+            "pixel"
+        ],
+        "other_options": [
+            "image",
+            "region",
+            "object"
+        ]
+    },
+    {
+        "q": "Instance segmentation distinguishes individual objects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is generative AI?",
+        "type": "mcq",
+        "o": [
+            "AI that creates new content",
+            "AI that classifies content",
+            "AI that deletes content",
+            "AI that compresses content"
+        ]
+    },
+    {
+        "q": "GANs use generator and _____ networks.",
+        "type": "fill_blank",
+        "answers": [
+            "discriminator"
+        ],
+        "other_options": [
+            "classifier",
+            "encoder",
+            "decoder"
+        ]
+    },
+    {
+        "q": "Match the generative model with its approach:",
+        "type": "match",
+        "left": [
+            "GAN",
+            "VAE",
+            "Diffusion",
+            "Autoregressive"
+        ],
+        "right": [
+            "Adversarial",
+            "Latent space",
+            "Denoising",
+            "Sequential"
+        ]
+    },
+    {
+        "q": "Diffusion models generate images by removing noise.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is VAE?",
+        "type": "mcq",
+        "o": [
+            "Variational Autoencoder",
+            "Vector Array Encoding",
+            "Variable Attention Engine",
+            "Visual Alignment Encoder"
+        ]
+    },
+    {
+        "q": "VAEs learn a _____ representation of data.",
+        "type": "fill_blank",
+        "answers": [
+            "latent"
+        ],
+        "other_options": [
+            "visible",
+            "direct",
+            "raw"
+        ]
+    },
+    {
+        "q": "Autoencoders have encoder and decoder parts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the autoencoder type with its purpose:",
+        "type": "match",
+        "left": [
+            "Standard AE",
+            "VAE",
+            "Denoising AE",
+            "Sparse AE"
+        ],
+        "right": [
+            "Compression",
+            "Generation",
+            "Remove noise",
+            "Feature selection"
+        ]
+    },
+    {
+        "q": "What is Q-learning?",
+        "type": "mcq",
+        "o": [
+            "Value-based reinforcement learning",
+            "Question answering system",
+            "Quantum computing",
+            "Query optimization"
+        ]
+    },
+    {
+        "q": "Q-learning estimates action _____ values.",
+        "type": "fill_blank",
+        "answers": [
+            "value"
+        ],
+        "other_options": [
+            "cost",
+            "speed",
+            "type"
+        ]
+    },
+    {
+        "q": "Rearrange Q-learning update formula components:",
+        "type": "rearrange",
+        "words": [
+            "Current Q",
+            "Reward",
+            "Learning rate",
+            "Discount future",
+            "Max next Q"
+        ]
+    },
+    {
+        "q": "The discount factor gamma determines future reward importance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is policy gradient?",
+        "type": "mcq",
+        "o": [
+            "Directly learning the action policy",
+            "Gradient of loss function",
+            "Policy documentation",
+            "Government AI rules"
+        ]
+    },
+    {
+        "q": "Policy gradient optimizes the _____ directly.",
+        "type": "fill_blank",
+        "answers": [
+            "policy"
+        ],
+        "other_options": [
+            "value",
+            "reward",
+            "state"
+        ]
+    },
+    {
+        "q": "Match the RL algorithm with its type:",
+        "type": "match",
+        "left": [
+            "Q-learning",
+            "SARSA",
+            "Policy Gradient",
+            "Actor-Critic"
+        ],
+        "right": [
+            "Off-policy value",
+            "On-policy value",
+            "Policy-based",
+            "Hybrid"
+        ]
+    },
+    {
+        "q": "What is actor-critic?",
+        "type": "mcq",
+        "o": [
+            "Combining policy and value methods",
+            "Movie AI system",
+            "Acting simulation",
+            "Critical analysis"
+        ]
+    },
+    {
+        "q": "The critic estimates the _____ function.",
+        "type": "fill_blank",
+        "answers": [
+            "value"
+        ],
+        "other_options": [
+            "policy",
+            "action",
+            "state"
+        ]
+    },
+    {
+        "q": "PPO is a popular policy gradient algorithm.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is deep reinforcement learning?",
+        "type": "mcq",
+        "o": [
+            "RL using neural networks",
+            "Deep water robotics",
+            "Long-term learning",
+            "Underground AI"
+        ]
+    },
+    {
+        "q": "DQN uses experience _____ for training stability.",
+        "type": "fill_blank",
+        "answers": [
+            "replay"
+        ],
+        "other_options": [
+            "deletion",
+            "creation",
+            "transfer"
+        ]
+    },
+    {
+        "q": "Rearrange deep RL milestones:",
+        "type": "rearrange",
+        "words": [
+            "DQN Atari",
+            "AlphaGo",
+            "AlphaFold",
+            "ChatGPT"
+        ]
+    },
+    {
+        "q": "What is multi-agent RL?",
+        "type": "mcq",
+        "o": [
+            "Multiple agents learning together",
+            "One agent with multiple tasks",
+            "Agent multiplication",
+            "Distributed computing"
+        ]
+    },
+    {
+        "q": "Multi-agent systems can be cooperative or _____.",
+        "type": "fill_blank",
+        "answers": [
+            "competitive"
+        ],
+        "other_options": [
+            "singular",
+            "static",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the RL research area with its focus:",
+        "type": "match",
+        "left": [
+            "Multi-agent",
+            "Meta-learning",
+            "Hierarchical",
+            "Inverse RL"
+        ],
+        "right": [
+            "Many agents",
+            "Learn to learn",
+            "Subtasks",
+            "Learn from demos"
+        ]
+    },
+    {
+        "q": "What is AI bias?",
+        "type": "mcq",
+        "o": [
+            "Unfair outcomes from flawed data or models",
+            "Model preference for speed",
+            "Training acceleration",
+            "Algorithm optimization"
+        ]
+    },
+    {
+        "q": "Bias can occur during data collection, model _____, or deployment.",
+        "type": "fill_blank",
+        "answers": [
+            "training"
+        ],
+        "other_options": [
+            "deletion",
+            "storage",
+            "naming"
+        ]
+    },
+    {
+        "q": "Historical bias in training data can lead to unfair predictions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI fairness?",
+        "type": "mcq",
+        "o": [
+            "Equal treatment across groups",
+            "Fast processing speed",
+            "Accurate predictions",
+            "Low error rate"
+        ]
+    },
+    {
+        "q": "Demographic parity aims for equal _____ rates across groups.",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "neutral",
+            "error"
+        ]
+    },
+    {
+        "q": "Match the fairness metric with its definition:",
+        "type": "match",
+        "left": [
+            "Demographic parity",
+            "Equal opportunity",
+            "Calibration",
+            "Individual fairness"
+        ],
+        "right": [
+            "Equal selection rates",
+            "Equal TPR",
+            "Prob matches outcome",
+            "Similar = similar"
+        ]
+    },
+    {
+        "q": "What is explainable AI (XAI)?",
+        "type": "mcq",
+        "o": [
+            "Making AI decisions understandable",
+            "Explaining AI history",
+            "AI documentation",
+            "Training tutorials"
+        ]
+    },
+    {
+        "q": "LIME explains predictions using _____ interpretable models.",
+        "type": "fill_blank",
+        "answers": [
+            "local"
+        ],
+        "other_options": [
+            "global",
+            "complex",
+            "deep"
+        ]
+    },
+    {
+        "q": "Rearrange XAI techniques by scope:",
+        "type": "rearrange",
+        "words": [
+            "Feature importance",
+            "LIME",
+            "SHAP",
+            "Attention maps"
+        ]
+    },
+    {
+        "q": "SHAP values are based on game theory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is model interpretability?",
+        "type": "mcq",
+        "o": [
+            "Understanding how models make decisions",
+            "Model speed measurement",
+            "Accuracy calculation",
+            "Data formatting"
+        ]
+    },
+    {
+        "q": "Decision trees are more interpretable than deep neural networks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI safety?",
+        "type": "mcq",
+        "o": [
+            "Ensuring AI systems are reliable and beneficial",
+            "Physical security of AI hardware",
+            "Firewall protection",
+            "Password security"
+        ]
+    },
+    {
+        "q": "AI alignment ensures AI goals match _____ intentions.",
+        "type": "fill_blank",
+        "answers": [
+            "human"
+        ],
+        "other_options": [
+            "machine",
+            "corporate",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the AI safety concept with its concern:",
+        "type": "match",
+        "left": [
+            "Alignment",
+            "Robustness",
+            "Interpretability",
+            "Privacy"
+        ],
+        "right": [
+            "Goal matching",
+            "Handle edge cases",
+            "Understand decisions",
+            "Data protection"
+        ]
+    },
+    {
+        "q": "What is adversarial attack?",
+        "type": "mcq",
+        "o": [
+            "Inputs designed to fool ML models",
+            "Physical attacks on hardware",
+            "Network intrusion",
+            "Data deletion"
+        ]
+    },
+    {
+        "q": "Adversarial examples exploit model _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "strengths",
+            "outputs",
+            "inputs"
+        ]
+    },
+    {
+        "q": "Small perturbations can cause misclassification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is federated learning?",
+        "type": "mcq",
+        "o": [
+            "Training on distributed data without centralization",
+            "Federal government AI",
+            "Centralized training",
+            "Single server learning"
+        ]
+    },
+    {
+        "q": "Federated learning preserves data _____.",
+        "type": "fill_blank",
+        "answers": [
+            "privacy"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "format"
+        ]
+    },
+    {
+        "q": "Rearrange federated learning steps:",
+        "type": "rearrange",
+        "words": [
+            "Send model to devices",
+            "Local training",
+            "Send updates back",
+            "Aggregate updates",
+            "Update global"
+        ]
+    },
+    {
+        "q": "What is model compression?",
+        "type": "mcq",
+        "o": [
+            "Reducing model size while maintaining performance",
+            "Compressing training data",
+            "Reducing training time",
+            "Data encryption"
+        ]
+    },
+    {
+        "q": "Pruning removes unnecessary _____ from networks.",
+        "type": "fill_blank",
+        "answers": [
+            "weights"
+        ],
+        "other_options": [
+            "inputs",
+            "outputs",
+            "data"
+        ]
+    },
+    {
+        "q": "Match the compression technique with its approach:",
+        "type": "match",
+        "left": [
+            "Pruning",
+            "Quantization",
+            "Distillation",
+            "Factorization"
+        ],
+        "right": [
+            "Remove weights",
+            "Reduce precision",
+            "Smaller student",
+            "Decompose layers"
+        ]
+    },
+    {
+        "q": "Knowledge distillation trains a smaller student model.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is quantization?",
+        "type": "mcq",
+        "o": [
+            "Using lower precision numbers",
+            "Counting data points",
+            "Measuring accuracy",
+            "Creating datasets"
+        ]
+    },
+    {
+        "q": "INT8 quantization uses _____ bits per weight.",
+        "type": "fill_blank",
+        "answers": [
+            "8"
+        ],
+        "other_options": [
+            "16",
+            "32",
+            "64"
+        ]
+    },
+    {
+        "q": "Quantization reduces memory and speeds inference.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is MLOps?",
+        "type": "mcq",
+        "o": [
+            "Managing ML system lifecycle",
+            "ML operations center",
+            "Machine learning operators",
+            "Model loading options"
+        ]
+    },
+    {
+        "q": "MLOps combines ML with _____ practices.",
+        "type": "fill_blank",
+        "answers": [
+            "DevOps"
+        ],
+        "other_options": [
+            "hardware",
+            "security",
+            "legal"
+        ]
+    },
+    {
+        "q": "Rearrange MLOps pipeline stages:",
+        "type": "rearrange",
+        "words": [
+            "Data preparation",
+            "Model training",
+            "Model validation",
+            "Deployment",
+            "Monitoring"
+        ]
+    },
+    {
+        "q": "What is model serving?",
+        "type": "mcq",
+        "o": [
+            "Deploying models to handle predictions",
+            "Training models",
+            "Creating models",
+            "Deleting models"
+        ]
+    },
+    {
+        "q": "REST APIs commonly serve model _____.",
+        "type": "fill_blank",
+        "answers": [
+            "predictions"
+        ],
+        "other_options": [
+            "training",
+            "data",
+            "logs"
+        ]
+    },
+    {
+        "q": "Match the deployment term with its meaning:",
+        "type": "match",
+        "left": [
+            "Batch inference",
+            "Real-time",
+            "Edge",
+            "A/B testing"
+        ],
+        "right": [
+            "Bulk processing",
+            "Instant response",
+            "On device",
+            "Compare versions"
+        ]
+    },
+    {
+        "q": "What is model drift?",
+        "type": "mcq",
+        "o": [
+            "Model performance degradation over time",
+            "Model moving between servers",
+            "Training speedup",
+            "Accuracy improvement"
+        ]
+    },
+    {
+        "q": "Data drift occurs when input _____ changes.",
+        "type": "fill_blank",
+        "answers": [
+            "distribution"
+        ],
+        "other_options": [
+            "name",
+            "format",
+            "size"
+        ]
+    },
+    {
+        "q": "Model monitoring detects drift and performance issues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is feature store?",
+        "type": "mcq",
+        "o": [
+            "Centralized repository for feature data",
+            "Hardware shop",
+            "Algorithm collection",
+            "Model storage"
+        ]
+    },
+    {
+        "q": "Feature stores enable feature _____ across teams.",
+        "type": "fill_blank",
+        "answers": [
+            "reuse"
+        ],
+        "other_options": [
+            "deletion",
+            "hiding",
+            "encryption"
+        ]
+    },
+    {
+        "q": "Match the ML infrastructure with its purpose:",
+        "type": "match",
+        "left": [
+            "Feature store",
+            "Model registry",
+            "Experiment tracker",
+            "Data catalog"
+        ],
+        "right": [
+            "Manage features",
+            "Version models",
+            "Log experiments",
+            "Discover data"
+        ]
+    },
+    {
+        "q": "What is prompt engineering?",
+        "type": "mcq",
+        "o": [
+            "Crafting effective inputs for LLMs",
+            "Building AI hardware",
+            "Programming robots",
+            "Training datasets"
+        ]
+    },
+    {
+        "q": "Few-shot prompting includes _____ examples.",
+        "type": "fill_blank",
+        "answers": [
+            "few"
+        ],
+        "other_options": [
+            "no",
+            "many",
+            "all"
+        ]
+    },
+    {
+        "q": "Zero-shot prompting works without task examples.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Rearrange prompting techniques by example count:",
+        "type": "rearrange",
+        "words": [
+            "Zero-shot",
+            "One-shot",
+            "Few-shot",
+            "Many-shot"
+        ]
+    },
+    {
+        "q": "What is chain-of-thought prompting?",
+        "type": "mcq",
+        "o": [
+            "Encouraging step-by-step reasoning",
+            "Linking multiple models",
+            "Chain of command",
+            "Sequential training"
+        ]
+    },
+    {
+        "q": "Chain-of-thought improves _____ on complex tasks.",
+        "type": "fill_blank",
+        "answers": [
+            "reasoning"
+        ],
+        "other_options": [
+            "speed",
+            "memory",
+            "simplicity"
+        ]
+    },
+    {
+        "q": "Match the prompting technique with its use:",
+        "type": "match",
+        "left": [
+            "Zero-shot",
+            "Few-shot",
+            "Chain-of-thought",
+            "ReAct"
+        ],
+        "right": [
+            "No examples",
+            "Some examples",
+            "Step reasoning",
+            "Reason + act"
+        ]
+    },
+    {
+        "q": "What is retrieval-augmented generation (RAG)?",
+        "type": "mcq",
+        "o": [
+            "Combining retrieval with generation",
+            "Data retrieval system",
+            "Generation without retrieval",
+            "Random access generation"
+        ]
+    },
+    {
+        "q": "RAG retrieves relevant _____ before generating.",
+        "type": "fill_blank",
+        "answers": [
+            "documents"
+        ],
+        "other_options": [
+            "models",
+            "users",
+            "servers"
+        ]
+    },
+    {
+        "q": "RAG helps reduce hallucinations in LLMs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is fine-tuning LLMs?",
+        "type": "mcq",
+        "o": [
+            "Adapting pre-trained models to specific tasks",
+            "Training from scratch",
+            "Deleting model weights",
+            "Compressing models"
+        ]
+    },
+    {
+        "q": "LoRA enables efficient fine-tuning using low-rank _____.",
+        "type": "fill_blank",
+        "answers": [
+            "adapters"
+        ],
+        "other_options": [
+            "deletions",
+            "copies",
+            "backups"
+        ]
+    },
+    {
+        "q": "Match the fine-tuning method with its approach:",
+        "type": "match",
+        "left": [
+            "Full fine-tuning",
+            "LoRA",
+            "Prefix tuning",
+            "Prompt tuning"
+        ],
+        "right": [
+            "All weights",
+            "Low-rank updates",
+            "Prepend tokens",
+            "Soft prompts"
+        ]
+    },
+    {
+        "q": "What is RLHF?",
+        "type": "mcq",
+        "o": [
+            "Reinforcement Learning from Human Feedback",
+            "Recurrent Learning High Frequency",
+            "Random Learning High Fidelity",
+            "Rapid Learning Hardware Framework"
+        ]
+    },
+    {
+        "q": "RLHF uses human preferences to train a _____ model.",
+        "type": "fill_blank",
+        "answers": [
+            "reward"
+        ],
+        "other_options": [
+            "loss",
+            "accuracy",
+            "speed"
+        ]
+    },
+    {
+        "q": "Rearrange RLHF training stages:",
+        "type": "rearrange",
+        "words": [
+            "Supervised fine-tune",
+            "Collect comparisons",
+            "Train reward model",
+            "RL optimization"
+        ]
+    },
+    {
+        "q": "What is Constitutional AI?",
+        "type": "mcq",
+        "o": [
+            "Training AI with explicit principles",
+            "Government AI regulations",
+            "Legal document AI",
+            "Political AI system"
+        ]
+    },
+    {
+        "q": "Constitutional AI uses principles rather than human labels for _____.",
+        "type": "fill_blank",
+        "answers": [
+            "critique"
+        ],
+        "other_options": [
+            "training",
+            "deployment",
+            "storage"
+        ]
+    },
+    {
+        "q": "DPO is an alternative to RLHF for preference learning.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are vision-language models?",
+        "type": "mcq",
+        "o": [
+            "Models that understand images and text together",
+            "Only image models",
+            "Only text models",
+            "Audio processing models"
+        ]
+    },
+    {
+        "q": "CLIP learns joint embeddings of images and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "text"
+        ],
+        "other_options": [
+            "audio",
+            "video",
+            "data"
+        ]
+    },
+    {
+        "q": "Match the multimodal model with its capability:",
+        "type": "match",
+        "left": [
+            "CLIP",
+            "DALL-E",
+            "GPT-4V",
+            "Whisper"
+        ],
+        "right": [
+            "Image-text matching",
+            "Image generation",
+            "Vision chat",
+            "Speech recognition"
+        ]
+    },
+    {
+        "q": "What is neural architecture search (NAS)?",
+        "type": "mcq",
+        "o": [
+            "Automated architecture design",
+            "Network file search",
+            "Neural data storage",
+            "Architecture documentation"
+        ]
+    },
+    {
+        "q": "NAS automates the design of neural network _____.",
+        "type": "fill_blank",
+        "answers": [
+            "architectures"
+        ],
+        "other_options": [
+            "data",
+            "labels",
+            "users"
+        ]
+    },
+    {
+        "q": "AutoML includes automated feature engineering and model selection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mixture of experts (MoE)?",
+        "type": "mcq",
+        "o": [
+            "Sparse model with specialized sub-networks",
+            "Team of human experts",
+            "Single dense model",
+            "Data mixture"
+        ]
+    },
+    {
+        "q": "MoE uses a gating network to select _____.",
+        "type": "fill_blank",
+        "answers": [
+            "experts"
+        ],
+        "other_options": [
+            "data",
+            "users",
+            "labels"
+        ]
+    },
+    {
+        "q": "Rearrange model scaling approaches:",
+        "type": "rearrange",
+        "words": [
+            "Wider models",
+            "Deeper models",
+            "More data",
+            "Mixture of experts"
+        ]
+    },
+    {
+        "q": "What is attention mechanism?",
+        "type": "mcq",
+        "o": [
+            "Weighting input importance dynamically",
+            "User attention tracking",
+            "Attention deficit modeling",
+            "Focus group AI"
+        ]
+    },
+    {
+        "q": "Attention computes weighted _____ of values.",
+        "type": "fill_blank",
+        "answers": [
+            "sum"
+        ],
+        "other_options": [
+            "product",
+            "difference",
+            "ratio"
+        ]
+    },
+    {
+        "q": "Match the attention type with its characteristics:",
+        "type": "match",
+        "left": [
+            "Self-attention",
+            "Cross-attention",
+            "Multi-head",
+            "Sparse attention"
+        ],
+        "right": [
+            "Same sequence",
+            "Different sequences",
+            "Multiple views",
+            "Efficient compute"
+        ]
+    },
+    {
+        "q": "FlashAttention is an efficient attention implementation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is positional encoding?",
+        "type": "mcq",
+        "o": [
+            "Adding position information to embeddings",
+            "GPS for AI models",
+            "Data location storage",
+            "Server positioning"
+        ]
+    },
+    {
+        "q": "Transformers need positional encoding because they lack inherent _____.",
+        "type": "fill_blank",
+        "answers": [
+            "order"
+        ],
+        "other_options": [
+            "size",
+            "type",
+            "power"
+        ]
+    },
+    {
+        "q": "RoPE is a relative positional encoding method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the vanishing gradient problem?",
+        "type": "mcq",
+        "o": [
+            "Gradients becoming too small during backpropagation",
+            "Gradients disappearing from storage",
+            "Gradient deletion",
+            "Gradient compression"
+        ]
+    },
+    {
+        "q": "Residual connections help _____ gradient flow.",
+        "type": "fill_blank",
+        "answers": [
+            "maintain"
+        ],
+        "other_options": [
+            "block",
+            "delete",
+            "slow"
+        ]
+    },
+    {
+        "q": "Match the problem with its solution:",
+        "type": "match",
+        "left": [
+            "Vanishing gradient",
+            "Exploding gradient",
+            "Overfitting",
+            "Slow convergence"
+        ],
+        "right": [
+            "Residual/LSTM",
+            "Gradient clipping",
+            "Regularization",
+            "LR schedule"
+        ]
+    },
+    {
+        "q": "What is gradient clipping?",
+        "type": "mcq",
+        "o": [
+            "Limiting gradient magnitude",
+            "Removing gradients",
+            "Gradient visualization",
+            "Gradient storage"
+        ]
+    },
+    {
+        "q": "Gradient clipping prevents _____ gradients.",
+        "type": "fill_blank",
+        "answers": [
+            "exploding"
+        ],
+        "other_options": [
+            "vanishing",
+            "normal",
+            "stable"
+        ]
+    },
+    {
+        "q": "Gradient accumulation helps train with limited memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is curriculum learning?",
+        "type": "mcq",
+        "o": [
+            "Training from easy to hard examples",
+            "Academic course design",
+            "Fixed difficulty training",
+            "Random sampling"
+        ]
+    },
+    {
+        "q": "Curriculum learning starts with _____ examples.",
+        "type": "fill_blank",
+        "answers": [
+            "easier"
+        ],
+        "other_options": [
+            "harder",
+            "random",
+            "longer"
+        ]
+    },
+    {
+        "q": "Match the training strategy with its approach:",
+        "type": "match",
+        "left": [
+            "Curriculum",
+            "Self-paced",
+            "Active",
+            "Contrastive"
+        ],
+        "right": [
+            "Easy to hard",
+            "Model selects",
+            "Query uncertain",
+            "Compare pairs"
+        ]
+    },
+    {
+        "q": "What is contrastive learning?",
+        "type": "mcq",
+        "o": [
+            "Learning by comparing similar and different samples",
+            "Opposing opinions learning",
+            "Contrast enhancement",
+            "Image processing"
+        ]
+    },
+    {
+        "q": "Contrastive learning maximizes similarity of _____ pairs.",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "random",
+            "all"
+        ]
+    },
+    {
+        "q": "SimCLR is a contrastive learning framework.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is self-supervised learning?",
+        "type": "mcq",
+        "o": [
+            "Learning from unlabeled data using pretext tasks",
+            "Training without computers",
+            "Self-driving vehicles",
+            "Automatic labeling"
+        ]
+    },
+    {
+        "q": "Self-supervised learning creates _____ from data itself.",
+        "type": "fill_blank",
+        "answers": [
+            "labels"
+        ],
+        "other_options": [
+            "models",
+            "features",
+            "errors"
+        ]
+    },
+    {
+        "q": "Rearrange self-supervised pretext tasks by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Rotation prediction",
+            "Jigsaw puzzle",
+            "Masked prediction",
+            "Contrastive learning"
+        ]
+    },
+    {
+        "q": "What is active learning?",
+        "type": "mcq",
+        "o": [
+            "Model selects samples for labeling",
+            "Physical activity tracking",
+            "Passive data collection",
+            "Random sampling"
+        ]
+    },
+    {
+        "q": "Active learning queries the most _____ samples.",
+        "type": "fill_blank",
+        "answers": [
+            "uncertain"
+        ],
+        "other_options": [
+            "certain",
+            "random",
+            "easy"
+        ]
+    },
+    {
+        "q": "Match the sampling strategy with its selection criterion:",
+        "type": "match",
+        "left": [
+            "Uncertainty",
+            "Diversity",
+            "Representative",
+            "Random"
+        ],
+        "right": [
+            "Least confident",
+            "Maximum coverage",
+            "Typical samples",
+            "No criterion"
+        ]
+    },
+    {
+        "q": "What is meta-learning?",
+        "type": "mcq",
+        "o": [
+            "Learning how to learn",
+            "Metadata processing",
+            "Meta tags",
+            "Large-scale learning"
+        ]
+    },
+    {
+        "q": "Meta-learning enables _____ learning on new tasks.",
+        "type": "fill_blank",
+        "answers": [
+            "few-shot"
+        ],
+        "other_options": [
+            "zero-shot",
+            "many-shot",
+            "no"
+        ]
+    },
+    {
+        "q": "MAML is a popular meta-learning algorithm.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is continual learning?",
+        "type": "mcq",
+        "o": [
+            "Learning new tasks without forgetting old ones",
+            "Continuous training forever",
+            "Non-stop inference",
+            "Always-on systems"
+        ]
+    },
+    {
+        "q": "Catastrophic forgetting is when models forget _____ knowledge.",
+        "type": "fill_blank",
+        "answers": [
+            "previous"
+        ],
+        "other_options": [
+            "new",
+            "current",
+            "future"
+        ]
+    },
+    {
+        "q": "Match the continual learning approach with its technique:",
+        "type": "match",
+        "left": [
+            "Regularization",
+            "Replay",
+            "Architecture",
+            "Distillation"
+        ],
+        "right": [
+            "Constrain weights",
+            "Store examples",
+            "Add modules",
+            "Preserve outputs"
+        ]
+    },
+    {
+        "q": "What is out-of-distribution detection?",
+        "type": "mcq",
+        "o": [
+            "Identifying inputs different from training data",
+            "Distribution statistics",
+            "Data distribution",
+            "Output distribution"
+        ]
+    },
+    {
+        "q": "OOD detection helps identify _____ inputs.",
+        "type": "fill_blank",
+        "answers": [
+            "anomalous"
+        ],
+        "other_options": [
+            "normal",
+            "training",
+            "expected"
+        ]
+    },
+    {
+        "q": "Rearrange confidence calibration methods:",
+        "type": "rearrange",
+        "words": [
+            "Temperature scaling",
+            "Platt scaling",
+            "Isotonic regression",
+            "Ensemble"
+        ]
+    },
+    {
+        "q": "What is uncertainty quantification?",
+        "type": "mcq",
+        "o": [
+            "Measuring prediction confidence",
+            "Data uncertainty",
+            "Model counting",
+            "Quantity prediction"
+        ]
+    },
+    {
+        "q": "Epistemic uncertainty reflects _____ uncertainty.",
+        "type": "fill_blank",
+        "answers": [
+            "model"
+        ],
+        "other_options": [
+            "data",
+            "random",
+            "system"
+        ]
+    },
+    {
+        "q": "Match the uncertainty type with its source:",
+        "type": "match",
+        "left": [
+            "Epistemic",
+            "Aleatoric",
+            "Predictive",
+            "Distributional"
+        ],
+        "right": [
+            "Limited data",
+            "Inherent noise",
+            "Both combined",
+            "Data shift"
+        ]
+    },
+    {
+        "q": "What is Bayesian deep learning?",
+        "type": "mcq",
+        "o": [
+            "Neural networks with probabilistic weights",
+            "Bay area computing",
+            "Thomas Bayes biography",
+            "Deterministic networks"
+        ]
+    },
+    {
+        "q": "Bayesian methods provide _____ estimates.",
+        "type": "fill_blank",
+        "answers": [
+            "uncertainty"
+        ],
+        "other_options": [
+            "point",
+            "exact",
+            "fixed"
+        ]
+    },
+    {
+        "q": "MC Dropout approximates Bayesian inference.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is ensemble learning?",
+        "type": "mcq",
+        "o": [
+            "Combining multiple models for better predictions",
+            "Music ensemble AI",
+            "Single model training",
+            "Model deletion"
+        ]
+    },
+    {
+        "q": "Ensembles reduce _____ through averaging.",
+        "type": "fill_blank",
+        "answers": [
+            "variance"
+        ],
+        "other_options": [
+            "bias",
+            "speed",
+            "accuracy"
+        ]
+    },
+    {
+        "q": "Match the ensemble method with its approach:",
+        "type": "match",
+        "left": [
+            "Bagging",
+            "Boosting",
+            "Stacking",
+            "Voting"
+        ],
+        "right": [
+            "Bootstrap samples",
+            "Sequential",
+            "Meta-learner",
+            "Majority rule"
+        ]
+    },
+    {
+        "q": "What is knowledge graph?",
+        "type": "mcq",
+        "o": [
+            "Structured representation of entities and relations",
+            "Learning progress chart",
+            "Neural network diagram",
+            "Database schema"
+        ]
+    },
+    {
+        "q": "Knowledge graphs represent facts as _____.",
+        "type": "fill_blank",
+        "answers": [
+            "triples"
+        ],
+        "other_options": [
+            "singles",
+            "pairs",
+            "lists"
+        ]
+    },
+    {
+        "q": "Rearrange knowledge graph components:",
+        "type": "rearrange",
+        "words": [
+            "Entity",
+            "Relation",
+            "Property",
+            "Ontology"
+        ]
+    },
+    {
+        "q": "What is graph neural network?",
+        "type": "mcq",
+        "o": [
+            "Neural networks for graph-structured data",
+            "Flowchart AI",
+            "Network diagrams",
+            "Graph visualization"
+        ]
+    },
+    {
+        "q": "GNNs aggregate information from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "neighbors"
+        ],
+        "other_options": [
+            "self",
+            "random",
+            "global"
+        ]
+    },
+    {
+        "q": "Match the GNN variant with its aggregation:",
+        "type": "match",
+        "left": [
+            "GCN",
+            "GAT",
+            "GraphSAGE",
+            "GIN"
+        ],
+        "right": [
+            "Spectral",
+            "Attention",
+            "Sampling",
+            "Isomorphism"
+        ]
+    },
+    {
+        "q": "What is link prediction?",
+        "type": "mcq",
+        "o": [
+            "Predicting missing edges in graphs",
+            "URL shortening",
+            "Network cables",
+            "Web links"
+        ]
+    },
+    {
+        "q": "Link prediction is used for _____ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "recommendation"
+        ],
+        "other_options": [
+            "compression",
+            "encryption",
+            "deletion"
+        ]
+    },
+    {
+        "q": "Node classification assigns labels to graph nodes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is geometric deep learning?",
+        "type": "mcq",
+        "o": [
+            "Generalizing deep learning to non-Euclidean data",
+            "Shape recognition",
+            "Geometry classification",
+            "CAD software"
+        ]
+    },
+    {
+        "q": "Geometric DL includes graphs, manifolds, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "meshes"
+        ],
+        "other_options": [
+            "images",
+            "text",
+            "audio"
+        ]
+    },
+    {
+        "q": "Rearrange data types by geometric complexity:",
+        "type": "rearrange",
+        "words": [
+            "Grid",
+            "Sequence",
+            "Graph",
+            "Manifold"
+        ]
+    },
+    {
+        "q": "What is neural radiance field (NeRF)?",
+        "type": "mcq",
+        "o": [
+            "3D scene representation using neural networks",
+            "Radiation detector",
+            "Field effect transistor",
+            "Radio frequency"
+        ]
+    },
+    {
+        "q": "NeRF synthesizes novel _____ of scenes.",
+        "type": "fill_blank",
+        "answers": [
+            "views"
+        ],
+        "other_options": [
+            "sounds",
+            "texts",
+            "labels"
+        ]
+    },
+    {
+        "q": "Match the 3D representation with its approach:",
+        "type": "match",
+        "left": [
+            "NeRF",
+            "Point cloud",
+            "Mesh",
+            "Voxel"
+        ],
+        "right": [
+            "Implicit field",
+            "Points",
+            "Triangles",
+            "3D pixels"
+        ]
+    },
+    {
+        "q": "What is neural implicit representation?",
+        "type": "mcq",
+        "o": [
+            "Using neural networks to represent continuous signals",
+            "Explicit modeling",
+            "Discrete representation",
+            "File compression"
+        ]
+    },
+    {
+        "q": "Neural implicits can represent signals at _____ resolution.",
+        "type": "fill_blank",
+        "answers": [
+            "arbitrary"
+        ],
+        "other_options": [
+            "fixed",
+            "low",
+            "high"
+        ]
+    },
+    {
+        "q": "SIREN uses periodic activation functions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is neural architecture efficiency?",
+        "type": "mcq",
+        "o": [
+            "Achieving good performance with fewer resources",
+            "Building faster computers",
+            "Network speed",
+            "Data efficiency"
+        ]
+    },
+    {
+        "q": "EfficientNet scales depth, width, and _____ together.",
+        "type": "fill_blank",
+        "answers": [
+            "resolution"
+        ],
+        "other_options": [
+            "color",
+            "batch",
+            "epoch"
+        ]
+    },
+    {
+        "q": "Match the efficient architecture with its innovation:",
+        "type": "match",
+        "left": [
+            "MobileNet",
+            "EfficientNet",
+            "ShuffleNet",
+            "SqueezeNet"
+        ],
+        "right": [
+            "Depthwise conv",
+            "Compound scaling",
+            "Channel shuffle",
+            "Fire modules"
+        ]
+    },
+    {
+        "q": "What is neural network sparsity?",
+        "type": "mcq",
+        "o": [
+            "Many weights being zero",
+            "Dense connections",
+            "Full utilization",
+            "Complete networks"
+        ]
+    },
+    {
+        "q": "Sparse networks have lower _____ costs.",
+        "type": "fill_blank",
+        "answers": [
+            "computation"
+        ],
+        "other_options": [
+            "accuracy",
+            "training",
+            "design"
+        ]
+    },
+    {
+        "q": "Rearrange pruning granularity levels:",
+        "type": "rearrange",
+        "words": [
+            "Weight",
+            "Neuron",
+            "Filter",
+            "Layer"
+        ]
+    },
+    {
+        "q": "What is lottery ticket hypothesis?",
+        "type": "mcq",
+        "o": [
+            "Dense networks contain trainable sparse subnetworks",
+            "Gambling AI",
+            "Random initialization",
+            "Ticket sales prediction"
+        ]
+    },
+    {
+        "q": "Winning tickets can match _____ network performance.",
+        "type": "fill_blank",
+        "answers": [
+            "full"
+        ],
+        "other_options": [
+            "half",
+            "zero",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the compression topic with its focus:",
+        "type": "match",
+        "left": [
+            "Lottery ticket",
+            "Network slimming",
+            "Deep compression",
+            "Filter pruning"
+        ],
+        "right": [
+            "Sparse subnets",
+            "Channel pruning",
+            "Combined methods",
+            "Conv filter removal"
+        ]
+    },
+    {
+        "q": "What is neural tangent kernel?",
+        "type": "mcq",
+        "o": [
+            "Infinite-width network theory",
+            "Kernel density estimation",
+            "Tangent line calculation",
+            "Touch screen AI"
+        ]
+    },
+    {
+        "q": "NTK connects deep learning to _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "kernel"
+        ],
+        "other_options": [
+            "linear",
+            "tree",
+            "graph"
+        ]
+    },
+    {
+        "q": "Wide neural networks behave like kernel regression.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is neural scaling law?",
+        "type": "mcq",
+        "o": [
+            "Performance predictably improves with scale",
+            "Weight measurement",
+            "Model sizing",
+            "Balance calculation"
+        ]
+    },
+    {
+        "q": "Scaling laws predict loss based on data, compute, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "parameters"
+        ],
+        "other_options": [
+            "accuracy",
+            "speed",
+            "memory"
+        ]
+    },
+    {
+        "q": "Match the scaling factor with its effect:",
+        "type": "match",
+        "left": [
+            "More data",
+            "More parameters",
+            "More compute",
+            "Longer training"
+        ],
+        "right": [
+            "Better generalization",
+            "More capacity",
+            "Better optimization",
+            "Lower loss"
+        ]
+    },
+    {
+        "q": "What is emergent ability in LLMs?",
+        "type": "mcq",
+        "o": [
+            "Capabilities that appear at large scale",
+            "Emergency response",
+            "Designed features",
+            "Gradual improvement"
+        ]
+    },
+    {
+        "q": "Emergent abilities appear _____ at certain scales.",
+        "type": "fill_blank",
+        "answers": [
+            "suddenly"
+        ],
+        "other_options": [
+            "gradually",
+            "never",
+            "always"
+        ]
+    },
+    {
+        "q": "Rearrange LLM capabilities by emergence scale:",
+        "type": "rearrange",
+        "words": [
+            "Basic completion",
+            "Few-shot learning",
+            "Complex reasoning",
+            "Code generation"
+        ]
+    },
+    {
+        "q": "What is in-context learning?",
+        "type": "mcq",
+        "o": [
+            "Learning from examples in the prompt",
+            "Context switching",
+            "Training update",
+            "Weight change"
+        ]
+    },
+    {
+        "q": "In-context learning requires no _____ update.",
+        "type": "fill_blank",
+        "answers": [
+            "gradient"
+        ],
+        "other_options": [
+            "prompt",
+            "input",
+            "output"
+        ]
+    },
+    {
+        "q": "Match the LLM capability with its description:",
+        "type": "match",
+        "left": [
+            "In-context learning",
+            "Instruction following",
+            "Reasoning",
+            "Tool use"
+        ],
+        "right": [
+            "Learn from prompt",
+            "Follow commands",
+            "Multi-step thinking",
+            "External APIs"
+        ]
+    },
+    {
+        "q": "What is hallucination in AI?",
+        "type": "mcq",
+        "o": [
+            "Generating plausible but incorrect information",
+            "Visual illusions",
+            "Audio distortion",
+            "Correct predictions"
+        ]
+    },
+    {
+        "q": "LLM hallucinations produce confident but _____ outputs.",
+        "type": "fill_blank",
+        "answers": [
+            "false"
+        ],
+        "other_options": [
+            "true",
+            "accurate",
+            "verified"
+        ]
+    },
+    {
+        "q": "Retrieval augmentation helps reduce hallucinations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI agent?",
+        "type": "mcq",
+        "o": [
+            "AI system that can take actions autonomously",
+            "AI spy",
+            "Human operator",
+            "Data storage"
+        ]
+    },
+    {
+        "q": "AI agents use LLMs for planning and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "reasoning"
+        ],
+        "other_options": [
+            "storage",
+            "display",
+            "deletion"
+        ]
+    },
+    {
+        "q": "Rearrange AI agent components:",
+        "type": "rearrange",
+        "words": [
+            "Perception",
+            "Planning",
+            "Action",
+            "Memory",
+            "Tools"
+        ]
+    },
+    {
+        "q": "What is tool use in LLMs?",
+        "type": "mcq",
+        "o": [
+            "LLMs calling external APIs and functions",
+            "Hardware tools",
+            "Programming IDEs",
+            "File managers"
+        ]
+    },
+    {
+        "q": "Function calling enables LLMs to use external _____.",
+        "type": "fill_blank",
+        "answers": [
+            "tools"
+        ],
+        "other_options": [
+            "models",
+            "data",
+            "users"
+        ]
+    },
+    {
+        "q": "Match the agent framework with its approach:",
+        "type": "match",
+        "left": [
+            "ReAct",
+            "AutoGPT",
+            "LangChain",
+            "Toolformer"
+        ],
+        "right": [
+            "Reason+act loop",
+            "Autonomous agent",
+            "Chain components",
+            "Self-taught tools"
+        ]
+    },
+    {
+        "q": "What is model merging?",
+        "type": "mcq",
+        "o": [
+            "Combining weights from multiple models",
+            "Training together",
+            "Data combination",
+            "Model deletion"
+        ]
+    },
+    {
+        "q": "Model merging combines _____ without retraining.",
+        "type": "fill_blank",
+        "answers": [
+            "capabilities"
+        ],
+        "other_options": [
+            "data",
+            "labels",
+            "errors"
+        ]
+    },
+    {
+        "q": "TIES merging resolves parameter conflicts intelligently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is model editing?",
+        "type": "mcq",
+        "o": [
+            "Modifying specific model behaviors",
+            "Image editing",
+            "Video editing",
+            "Text editing"
+        ]
+    },
+    {
+        "q": "Model editing changes knowledge without full _____.",
+        "type": "fill_blank",
+        "answers": [
+            "retraining"
+        ],
+        "other_options": [
+            "deletion",
+            "copying",
+            "loading"
+        ]
+    },
+    {
+        "q": "Match the model editing method with its approach:",
+        "type": "match",
+        "left": [
+            "ROME",
+            "MEMIT",
+            "Knowledge neurons",
+            "Hypernetworks"
+        ],
+        "right": [
+            "Rank-one",
+            "Mass editing",
+            "Locate neurons",
+            "Generate weights"
+        ]
+    },
+    {
+        "q": "What is mechanistic interpretability?",
+        "type": "mcq",
+        "o": [
+            "Understanding neural network internal mechanisms",
+            "Mechanical engineering",
+            "Robot interpretation",
+            "Physical AI"
+        ]
+    },
+    {
+        "q": "Circuit finding identifies computational _____ in networks.",
+        "type": "fill_blank",
+        "answers": [
+            "subgraphs"
+        ],
+        "other_options": [
+            "weights",
+            "biases",
+            "layers"
+        ]
+    },
+    {
+        "q": "Rearrange interpretability methods by abstraction:",
+        "type": "rearrange",
+        "words": [
+            "Weight analysis",
+            "Neuron activation",
+            "Circuit finding",
+            "Behavior analysis"
+        ]
+    },
+    {
+        "q": "What is activation patching?",
+        "type": "mcq",
+        "o": [
+            "Replacing activations to study causality",
+            "Software updates",
+            "Security patches",
+            "Activation functions"
+        ]
+    },
+    {
+        "q": "Activation patching reveals _____ mechanisms.",
+        "type": "fill_blank",
+        "answers": [
+            "causal"
+        ],
+        "other_options": [
+            "random",
+            "visual",
+            "audio"
+        ]
+    },
+    {
+        "q": "Match the interpretability concept with its meaning:",
+        "type": "match",
+        "left": [
+            "Superposition",
+            "Polysemanticity",
+            "Circuits",
+            "Probing"
+        ],
+        "right": [
+            "Multiple features per neuron",
+            "Neuron = many concepts",
+            "Computational subgraph",
+            "Train classifier on activations"
+        ]
+    },
+    {
+        "q": "What is representation engineering?",
+        "type": "mcq",
+        "o": [
+            "Controlling model behavior through representations",
+            "Graphics engineering",
+            "Data representation",
+            "Code formatting"
+        ]
+    },
+    {
+        "q": "Activation steering modifies model _____ at inference.",
+        "type": "fill_blank",
+        "answers": [
+            "behavior"
+        ],
+        "other_options": [
+            "weights",
+            "structure",
+            "training"
+        ]
+    },
+    {
+        "q": "Steering vectors can change model personality traits.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is synthetic data generation?",
+        "type": "mcq",
+        "o": [
+            "Creating artificial training data",
+            "Synthetic music",
+            "Plastic materials",
+            "Natural data"
+        ]
+    },
+    {
+        "q": "Synthetic data helps when real data is _____ or expensive.",
+        "type": "fill_blank",
+        "answers": [
+            "scarce"
+        ],
+        "other_options": [
+            "abundant",
+            "free",
+            "easy"
+        ]
+    },
+    {
+        "q": "Match the synthetic data method with its approach:",
+        "type": "match",
+        "left": [
+            "Rule-based",
+            "Simulation",
+            "GAN",
+            "LLM distillation"
+        ],
+        "right": [
+            "Programmatic",
+            "Virtual world",
+            "Generative adversarial",
+            "Model-generated"
+        ]
+    },
+    {
+        "q": "What is data distillation?",
+        "type": "mcq",
+        "o": [
+            "Creating compact datasets that preserve learning",
+            "Water purification",
+            "Data deletion",
+            "Data compression"
+        ]
+    },
+    {
+        "q": "Dataset distillation aims to reduce _____ size.",
+        "type": "fill_blank",
+        "answers": [
+            "training"
+        ],
+        "other_options": [
+            "test",
+            "model",
+            "memory"
+        ]
+    },
+    {
+        "q": "Rearrange dataset efficiency methods:",
+        "type": "rearrange",
+        "words": [
+            "Full dataset",
+            "Coreset selection",
+            "Dataset distillation",
+            "Synthetic data"
+        ]
+    },
+    {
+        "q": "What is world model?",
+        "type": "mcq",
+        "o": [
+            "Internal model of environment dynamics",
+            "Global map",
+            "World news",
+            "Earth simulation"
+        ]
+    },
+    {
+        "q": "World models predict future _____ from actions.",
+        "type": "fill_blank",
+        "answers": [
+            "states"
+        ],
+        "other_options": [
+            "weights",
+            "labels",
+            "names"
+        ]
+    },
+    {
+        "q": "Match the model-based RL concept with its role:",
+        "type": "match",
+        "left": [
+            "World model",
+            "Dynamics model",
+            "Reward model",
+            "Value model"
+        ],
+        "right": [
+            "Predict everything",
+            "Predict transitions",
+            "Predict rewards",
+            "Predict returns"
+        ]
+    },
+    {
+        "q": "What is causal discovery?",
+        "type": "mcq",
+        "o": [
+            "Learning causal relationships from data",
+            "Finding bugs",
+            "Root cause analysis",
+            "Correlation analysis"
+        ]
+    },
+    {
+        "q": "Causal discovery distinguishes correlation from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "causation"
+        ],
+        "other_options": [
+            "relation",
+            "connection",
+            "similarity"
+        ]
+    },
+    {
+        "q": "Directed acyclic graphs represent causal structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is neuro-symbolic AI?",
+        "type": "mcq",
+        "o": [
+            "Combining neural networks with symbolic reasoning",
+            "Brain scanning",
+            "Symbol translation",
+            "Neural surgery"
+        ]
+    },
+    {
+        "q": "Neuro-symbolic AI integrates learning with _____.",
+        "type": "fill_blank",
+        "answers": [
+            "logic"
+        ],
+        "other_options": [
+            "data",
+            "hardware",
+            "speed"
+        ]
+    },
+    {
+        "q": "Match the neuro-symbolic approach with its method:",
+        "type": "match",
+        "left": [
+            "Neural theorem proving",
+            "Differentiable programming",
+            "Concept bottleneck",
+            "Neural logic"
+        ],
+        "right": [
+            "Prove with NN",
+            "Symbolic as NN",
+            "Interpretable concepts",
+            "Logic in NN"
+        ]
+    },
+    {
+        "q": "What is test-time adaptation?",
+        "type": "mcq",
+        "o": [
+            "Adapting models during inference",
+            "Test preparation",
+            "Exam adaptation",
+            "Training modification"
+        ]
+    },
+    {
+        "q": "Test-time adaptation handles distribution _____ at inference.",
+        "type": "fill_blank",
+        "answers": [
+            "shift"
+        ],
+        "other_options": [
+            "match",
+            "freeze",
+            "lock"
+        ]
+    },
+    {
+        "q": "Rearrange adaptation timing:",
+        "type": "rearrange",
+        "words": [
+            "Pre-training",
+            "Fine-tuning",
+            "Prompt tuning",
+            "Test-time adaptation"
+        ]
+    },
+    {
+        "q": "What is neural codec?",
+        "type": "mcq",
+        "o": [
+            "Neural network-based compression",
+            "Audio codec chip",
+            "Video format",
+            "File extension"
+        ]
+    },
+    {
+        "q": "Neural codecs achieve better compression than traditional _____.",
+        "type": "fill_blank",
+        "answers": [
+            "codecs"
+        ],
+        "other_options": [
+            "models",
+            "files",
+            "data"
+        ]
+    },
+    {
+        "q": "Match the neural compression target with its application:",
+        "type": "match",
+        "left": [
+            "Image",
+            "Video",
+            "Audio",
+            "Point cloud"
+        ],
+        "right": [
+            "Photography",
+            "Streaming",
+            "Voice calls",
+            "3D scanning"
+        ]
+    },
+    {
+        "q": "What is tokenization in LLMs?",
+        "type": "mcq",
+        "o": [
+            "Splitting text into subword units",
+            "Creating tokens",
+            "Cryptocurrency",
+            "Access control"
+        ]
+    },
+    {
+        "q": "Subword tokenization balances vocabulary size and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "coverage"
+        ],
+        "other_options": [
+            "speed",
+            "memory",
+            "accuracy"
+        ]
+    },
+    {
+        "q": "Rearrange tokenization methods by granularity:",
+        "type": "rearrange",
+        "words": [
+            "Character",
+            "Subword",
+            "Word",
+            "Sentence"
+        ]
+    },
+    {
+        "q": "What is speculative decoding?",
+        "type": "mcq",
+        "o": [
+            "Using small model to speed up large model generation",
+            "Guessing outputs",
+            "Random generation",
+            "Parallel training"
+        ]
+    },
+    {
+        "q": "Speculative decoding uses a _____ model for drafting.",
+        "type": "fill_blank",
+        "answers": [
+            "draft"
+        ],
+        "other_options": [
+            "large",
+            "slow",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the inference optimization with its approach:",
+        "type": "match",
+        "left": [
+            "Speculative decoding",
+            "KV cache",
+            "Batching",
+            "Pruning"
+        ],
+        "right": [
+            "Draft and verify",
+            "Store attention",
+            "Group requests",
+            "Remove weights"
+        ]
+    },
+    {
+        "q": "What is key-value cache?",
+        "type": "mcq",
+        "o": [
+            "Storing attention computations for reuse",
+            "Database cache",
+            "Key storage",
+            "Value stream"
+        ]
+    },
+    {
+        "q": "KV cache avoids recomputing _____ for previous tokens.",
+        "type": "fill_blank",
+        "answers": [
+            "attention"
+        ],
+        "other_options": [
+            "embedding",
+            "output",
+            "loss"
+        ]
+    },
+    {
+        "q": "KV cache trades memory for inference speed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is context length extension?",
+        "type": "mcq",
+        "o": [
+            "Enabling longer input sequences",
+            "Extending training",
+            "Longer outputs",
+            "More parameters"
+        ]
+    },
+    {
+        "q": "Position interpolation extends context beyond training _____.",
+        "type": "fill_blank",
+        "answers": [
+            "length"
+        ],
+        "other_options": [
+            "time",
+            "data",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the context extension method with its approach:",
+        "type": "match",
+        "left": [
+            "Position interpolation",
+            "ALiBi",
+            "RoPE scaling",
+            "Landmark attention"
+        ],
+        "right": [
+            "Scale positions",
+            "Linear bias",
+            "Frequency scaling",
+            "Sparse tokens"
+        ]
+    },
+    {
+        "q": "What is sparse attention?",
+        "type": "mcq",
+        "o": [
+            "Computing attention for subset of positions",
+            "Full attention",
+            "Dense computation",
+            "All positions"
+        ]
+    },
+    {
+        "q": "Sparse attention reduces _____ complexity from quadratic.",
+        "type": "fill_blank",
+        "answers": [
+            "computational"
+        ],
+        "other_options": [
+            "accuracy",
+            "memory",
+            "speed"
+        ]
+    },
+    {
+        "q": "Rearrange attention efficiency methods:",
+        "type": "rearrange",
+        "words": [
+            "Full attention",
+            "Linear attention",
+            "Sparse attention",
+            "Flash attention"
+        ]
+    },
+    {
+        "q": "What is model parallelism?",
+        "type": "mcq",
+        "o": [
+            "Splitting model across multiple devices",
+            "Training in parallel",
+            "Data duplication",
+            "Batch splitting"
+        ]
+    },
+    {
+        "q": "Tensor parallelism splits individual _____ across devices.",
+        "type": "fill_blank",
+        "answers": [
+            "layers"
+        ],
+        "other_options": [
+            "data",
+            "batches",
+            "files"
+        ]
+    },
+    {
+        "q": "Match the parallelism type with its split dimension:",
+        "type": "match",
+        "left": [
+            "Data parallel",
+            "Pipeline parallel",
+            "Tensor parallel",
+            "Expert parallel"
+        ],
+        "right": [
+            "Batch",
+            "Layers",
+            "Within layer",
+            "Expert subset"
+        ]
+    },
+    {
+        "q": "What is ZeRO optimization?",
+        "type": "mcq",
+        "o": [
+            "Partitioning optimizer states across devices",
+            "Zero learning rate",
+            "Zero parameters",
+            "Empty model"
+        ]
+    },
+    {
+        "q": "ZeRO reduces memory by distributing optimizer _____.",
+        "type": "fill_blank",
+        "answers": [
+            "states"
+        ],
+        "other_options": [
+            "weights",
+            "biases",
+            "layers"
+        ]
+    },
+    {
+        "q": "Rearrange ZeRO stages by memory savings:",
+        "type": "rearrange",
+        "words": [
+            "ZeRO-1",
+            "ZeRO-2",
+            "ZeRO-3",
+            "ZeRO-Offload"
+        ]
+    },
+    {
+        "q": "What is mixed precision training?",
+        "type": "mcq",
+        "o": [
+            "Using different precision for different operations",
+            "Precision measurement",
+            "Accurate training",
+            "Exact computation"
+        ]
+    },
+    {
+        "q": "FP16 training uses 16-bit _____ for speed.",
+        "type": "fill_blank",
+        "answers": [
+            "floats"
+        ],
+        "other_options": [
+            "integers",
+            "strings",
+            "bytes"
+        ]
+    },
+    {
+        "q": "Match the precision format with its bits:",
+        "type": "match",
+        "left": [
+            "FP32",
+            "FP16",
+            "BF16",
+            "INT8"
+        ],
+        "right": [
+            "32 bits",
+            "16 bits",
+            "16 bits",
+            "8 bits"
+        ]
+    },
+    {
+        "q": "What is gradient checkpointing?",
+        "type": "mcq",
+        "o": [
+            "Recomputing activations to save memory",
+            "Gradient debugging",
+            "Training checkpoints",
+            "Weight saving"
+        ]
+    },
+    {
+        "q": "Gradient checkpointing trades _____ for memory.",
+        "type": "fill_blank",
+        "answers": [
+            "compute"
+        ],
+        "other_options": [
+            "accuracy",
+            "speed",
+            "quality"
+        ]
+    },
+    {
+        "q": "Activation checkpointing saves memory during backpropagation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is weight tying?",
+        "type": "mcq",
+        "o": [
+            "Sharing weights between layers",
+            "Tightening weights",
+            "Weight restriction",
+            "Layer deletion"
+        ]
+    },
+    {
+        "q": "Embedding and output layers often share _____ in LLMs.",
+        "type": "fill_blank",
+        "answers": [
+            "weights"
+        ],
+        "other_options": [
+            "biases",
+            "layers",
+            "outputs"
+        ]
+    },
+    {
+        "q": "Weight sharing reduces model parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is warmup in training?",
+        "type": "mcq",
+        "o": [
+            "Gradually increasing learning rate",
+            "Hardware heating",
+            "Data preprocessing",
+            "Model initialization"
+        ]
+    },
+    {
+        "q": "Warmup helps prevent _____ divergence early in training.",
+        "type": "fill_blank",
+        "answers": [
+            "gradient"
+        ],
+        "other_options": [
+            "weight",
+            "loss",
+            "data"
+        ]
+    },
+    {
+        "q": "Match the learning rate schedule with its pattern:",
+        "type": "match",
+        "left": [
+            "Constant",
+            "Step decay",
+            "Cosine",
+            "Warmup+decay"
+        ],
+        "right": [
+            "Never changes",
+            "Sharp drops",
+            "Smooth curve",
+            "Rise then fall"
+        ]
+    },
+    {
+        "q": "What is cosine annealing?",
+        "type": "mcq",
+        "o": [
+            "Learning rate follows cosine curve",
+            "Metal processing",
+            "Data formatting",
+            "Model architecture"
+        ]
+    },
+    {
+        "q": "Cosine annealing provides _____ decay.",
+        "type": "fill_blank",
+        "answers": [
+            "smooth"
+        ],
+        "other_options": [
+            "sharp",
+            "random",
+            "step"
+        ]
+    },
+    {
+        "q": "Rearrange optimizer evolution:",
+        "type": "rearrange",
+        "words": [
+            "SGD",
+            "Momentum",
+            "AdaGrad",
+            "Adam",
+            "AdamW"
+        ]
+    },
+    {
+        "q": "What is AdamW?",
+        "type": "mcq",
+        "o": [
+            "Adam with decoupled weight decay",
+            "Adam for Windows",
+            "Advanced Adam",
+            "Adam wrapper"
+        ]
+    },
+    {
+        "q": "AdamW fixes weight decay in the original _____ optimizer.",
+        "type": "fill_blank",
+        "answers": [
+            "Adam"
+        ],
+        "other_options": [
+            "SGD",
+            "RMSprop",
+            "Adagrad"
+        ]
+    },
+    {
+        "q": "Match the optimizer with its feature:",
+        "type": "match",
+        "left": [
+            "SGD",
+            "Adam",
+            "AdaGrad",
+            "RMSprop"
+        ],
+        "right": [
+            "Simple updates",
+            "Adaptive + momentum",
+            "Per-param LR",
+            "Exponential average"
+        ]
+    },
+    {
+        "q": "What is label smoothing?",
+        "type": "mcq",
+        "o": [
+            "Softening one-hot labels",
+            "Removing labels",
+            "Label encryption",
+            "Label sorting"
+        ]
+    },
+    {
+        "q": "Label smoothing prevents model _____ confidence.",
+        "type": "fill_blank",
+        "answers": [
+            "overconfidence"
+        ],
+        "other_options": [
+            "underconfidence",
+            "uncertainty",
+            "speed"
+        ]
+    },
+    {
+        "q": "Label smoothing is a form of regularization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is mixup?",
+        "type": "mcq",
+        "o": [
+            "Interpolating training examples",
+            "Audio mixing",
+            "Data shuffling",
+            "Model merging"
+        ]
+    },
+    {
+        "q": "Mixup creates _____ combinations of training pairs.",
+        "type": "fill_blank",
+        "answers": [
+            "convex"
+        ],
+        "other_options": [
+            "random",
+            "discrete",
+            "fixed"
+        ]
+    },
+    {
+        "q": "Match the augmentation method with its approach:",
+        "type": "match",
+        "left": [
+            "Mixup",
+            "CutMix",
+            "CutOut",
+            "RandAugment"
+        ],
+        "right": [
+            "Blend images",
+            "Paste regions",
+            "Mask regions",
+            "Random policies"
+        ]
+    },
+    {
+        "q": "What is knowledge pruning?",
+        "type": "mcq",
+        "o": [
+            "Removing unnecessary knowledge from models",
+            "Removing training data",
+            "Deleting features",
+            "Label removal"
+        ]
+    },
+    {
+        "q": "Machine unlearning removes specific _____ from models.",
+        "type": "fill_blank",
+        "answers": [
+            "knowledge"
+        ],
+        "other_options": [
+            "weights",
+            "layers",
+            "parameters"
+        ]
+    },
+    {
+        "q": "Rearrange model privacy techniques:",
+        "type": "rearrange",
+        "words": [
+            "Data anonymization",
+            "Differential privacy",
+            "Federated learning",
+            "Machine unlearning"
+        ]
+    },
+    {
+        "q": "What is differential privacy?",
+        "type": "mcq",
+        "o": [
+            "Mathematical privacy guarantee",
+            "Data difference",
+            "Privacy settings",
+            "Access control"
+        ]
+    },
+    {
+        "q": "DP training adds _____ to gradients.",
+        "type": "fill_blank",
+        "answers": [
+            "noise"
+        ],
+        "other_options": [
+            "weights",
+            "data",
+            "labels"
+        ]
+    },
+    {
+        "q": "Match the privacy concept with its mechanism:",
+        "type": "match",
+        "left": [
+            "Differential privacy",
+            "Secure aggregation",
+            "Homomorphic encryption",
+            "Trusted execution"
+        ],
+        "right": [
+            "Noise injection",
+            "Private summation",
+            "Compute on encrypted",
+            "Secure hardware"
+        ]
+    },
+    {
+        "q": "What is model watermarking?",
+        "type": "mcq",
+        "o": [
+            "Embedding ownership information in models",
+            "Image watermarks",
+            "Model encryption",
+            "Parameter hiding"
+        ]
+    },
+    {
+        "q": "Model watermarks help prove _____ of ML models.",
+        "type": "fill_blank",
+        "answers": [
+            "ownership"
+        ],
+        "other_options": [
+            "accuracy",
+            "speed",
+            "size"
+        ]
+    },
+    {
+        "q": "Model watermarks can survive fine-tuning.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is model inversion?",
+        "type": "mcq",
+        "o": [
+            "Reconstructing training data from models",
+            "Flipping model weights",
+            "Inverting outputs",
+            "Reverse training"
+        ]
+    },
+    {
+        "q": "Model inversion is a privacy _____ attack.",
+        "type": "fill_blank",
+        "answers": [
+            "attack"
+        ],
+        "other_options": [
+            "defense",
+            "feature",
+            "benefit"
+        ]
+    },
+    {
+        "q": "Match the ML attack with its goal:",
+        "type": "match",
+        "left": [
+            "Adversarial",
+            "Model inversion",
+            "Membership inference",
+            "Data poisoning"
+        ],
+        "right": [
+            "Fool model",
+            "Recover data",
+            "Detect training",
+            "Corrupt training"
+        ]
+    },
+    {
+        "q": "What is membership inference?",
+        "type": "mcq",
+        "o": [
+            "Detecting if data was used in training",
+            "Group membership",
+            "User authentication",
+            "Access control"
+        ]
+    },
+    {
+        "q": "Membership inference reveals training data _____.",
+        "type": "fill_blank",
+        "answers": [
+            "presence"
+        ],
+        "other_options": [
+            "absence",
+            "content",
+            "labels"
+        ]
+    },
+    {
+        "q": "Overfitted models are more vulnerable to membership inference.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is data poisoning?",
+        "type": "mcq",
+        "o": [
+            "Corrupting training data to harm models",
+            "Data deletion",
+            "Data encryption",
+            "Data backup"
+        ]
+    },
+    {
+        "q": "Backdoor attacks insert hidden _____ in models.",
+        "type": "fill_blank",
+        "answers": [
+            "triggers"
+        ],
+        "other_options": [
+            "weights",
+            "layers",
+            "data"
+        ]
+    },
+    {
+        "q": "Rearrange ML security threats by attack surface:",
+        "type": "rearrange",
+        "words": [
+            "Data poisoning",
+            "Model stealing",
+            "Adversarial attack",
+            "Model inversion"
+        ]
+    },
+    {
+        "q": "What is model stealing?",
+        "type": "mcq",
+        "o": [
+            "Extracting model through queries",
+            "Physical theft",
+            "Software piracy",
+            "Data theft"
+        ]
+    },
+    {
+        "q": "Model extraction creates _____ of victim models.",
+        "type": "fill_blank",
+        "answers": [
+            "copies"
+        ],
+        "other_options": [
+            "improvements",
+            "errors",
+            "backups"
+        ]
+    },
+    {
+        "q": "Match the defense with its attack:",
+        "type": "match",
+        "left": [
+            "Adversarial training",
+            "DP-SGD",
+            "Data sanitization",
+            "Query rate limiting"
+        ],
+        "right": [
+            "Adversarial attack",
+            "Privacy attack",
+            "Poisoning",
+            "Model stealing"
+        ]
+    },
+    {
+        "q": "What is certified defense?",
+        "type": "mcq",
+        "o": [
+            "Provable robustness guarantees",
+            "Security certificate",
+            "Model certification",
+            "Training verification"
+        ]
+    },
+    {
+        "q": "Certified defenses provide _____ bounds on robustness.",
+        "type": "fill_blank",
+        "answers": [
+            "mathematical"
+        ],
+        "other_options": [
+            "empirical",
+            "approximate",
+            "visual"
+        ]
+    },
+    {
+        "q": "Randomized smoothing provides certified robustness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is robot learning?",
+        "type": "mcq",
+        "o": [
+            "Training robots through ML",
+            "Programming robots",
+            "Building robots",
+            "Robot manufacturing"
+        ]
+    },
+    {
+        "q": "Robot learning combines ML with _____ systems.",
+        "type": "fill_blank",
+        "answers": [
+            "physical"
+        ],
+        "other_options": [
+            "virtual",
+            "digital",
+            "simulated"
+        ]
+    },
+    {
+        "q": "Rearrange robot learning approaches:",
+        "type": "rearrange",
+        "words": [
+            "Teleoperation",
+            "Imitation",
+            "Sim-to-real",
+            "Foundation models"
+        ]
+    },
+    {
+        "q": "What is sim-to-real transfer?",
+        "type": "mcq",
+        "o": [
+            "Training in simulation for real deployment",
+            "Simulator installation",
+            "Reality capture",
+            "Virtual reality"
+        ]
+    },
+    {
+        "q": "Domain randomization helps bridge the _____ gap.",
+        "type": "fill_blank",
+        "answers": [
+            "sim-to-real"
+        ],
+        "other_options": [
+            "model-data",
+            "train-test",
+            "input-output"
+        ]
+    },
+    {
+        "q": "Match the robot learning method with its approach:",
+        "type": "match",
+        "left": [
+            "Imitation learning",
+            "Sim-to-real",
+            "RLHF for robots",
+            "Foundation models"
+        ],
+        "right": [
+            "Learn from demos",
+            "Train in sim",
+            "Human feedback",
+            "Pretrained vision/language"
+        ]
+    },
+    {
+        "q": "What is imitation learning?",
+        "type": "mcq",
+        "o": [
+            "Learning from demonstrations",
+            "Copying models",
+            "Imitating humans",
+            "Voice mimicking"
+        ]
+    },
+    {
+        "q": "Behavior cloning directly _____ expert actions.",
+        "type": "fill_blank",
+        "answers": [
+            "copies"
+        ],
+        "other_options": [
+            "improves",
+            "ignores",
+            "analyzes"
+        ]
+    },
+    {
+        "q": "Imitation learning can suffer from distribution shift.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is autonomous driving AI?",
+        "type": "mcq",
+        "o": [
+            "AI for self-driving vehicles",
+            "Traffic control",
+            "GPS navigation",
+            "Speed monitoring"
+        ]
+    },
+    {
+        "q": "Autonomous vehicles use perception, prediction, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "planning"
+        ],
+        "other_options": [
+            "coding",
+            "training",
+            "testing"
+        ]
+    },
+    {
+        "q": "Match the AV module with its function:",
+        "type": "match",
+        "left": [
+            "Perception",
+            "Prediction",
+            "Planning",
+            "Control"
+        ],
+        "right": [
+            "Understand scene",
+            "Forecast agents",
+            "Decide actions",
+            "Execute motion"
+        ]
+    },
+    {
+        "q": "What is end-to-end driving?",
+        "type": "mcq",
+        "o": [
+            "Direct sensor to control learning",
+            "Complete road coverage",
+            "Full route planning",
+            "Entire vehicle design"
+        ]
+    },
+    {
+        "q": "End-to-end models learn driving from _____ to outputs.",
+        "type": "fill_blank",
+        "answers": [
+            "inputs"
+        ],
+        "other_options": [
+            "modules",
+            "rules",
+            "maps"
+        ]
+    },
+    {
+        "q": "Rearrange autonomous driving levels:",
+        "type": "rearrange",
+        "words": [
+            "No automation",
+            "Driver assistance",
+            "Partial",
+            "Conditional",
+            "Full"
+        ]
+    },
+    {
+        "q": "What is occupancy network?",
+        "type": "mcq",
+        "o": [
+            "3D scene representation as occupancy grid",
+            "Building occupancy",
+            "Network utilization",
+            "User presence"
+        ]
+    },
+    {
+        "q": "Occupancy networks predict occupied _____ in 3D space.",
+        "type": "fill_blank",
+        "answers": [
+            "voxels"
+        ],
+        "other_options": [
+            "pixels",
+            "points",
+            "layers"
+        ]
+    },
+    {
+        "q": "Match the 3D perception method with its output:",
+        "type": "match",
+        "left": [
+            "BEV",
+            "Occupancy",
+            "Point cloud",
+            "Depth estimation"
+        ],
+        "right": [
+            "Top-down view",
+            "3D grid",
+            "Sparse points",
+            "Per-pixel distance"
+        ]
+    },
+    {
+        "q": "What is bird's eye view (BEV)?",
+        "type": "mcq",
+        "o": [
+            "Top-down scene representation",
+            "Bird tracking",
+            "Aerial photography",
+            "Sky detection"
+        ]
+    },
+    {
+        "q": "BEV transforms camera images to _____ view.",
+        "type": "fill_blank",
+        "answers": [
+            "top-down"
+        ],
+        "other_options": [
+            "side",
+            "front",
+            "back"
+        ]
+    },
+    {
+        "q": "BEV simplifies planning by using a unified coordinate frame.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is motion planning?",
+        "type": "mcq",
+        "o": [
+            "Computing trajectories for agents",
+            "Video editing",
+            "Animation creation",
+            "Physics simulation"
+        ]
+    },
+    {
+        "q": "Motion planning optimizes for safety and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "comfort"
+        ],
+        "other_options": [
+            "speed",
+            "fuel",
+            "distance"
+        ]
+    },
+    {
+        "q": "Match the planning approach with its characteristics:",
+        "type": "match",
+        "left": [
+            "Optimization",
+            "Search",
+            "Learning",
+            "Rule-based"
+        ],
+        "right": [
+            "Cost minimization",
+            "Graph exploration",
+            "Data-driven",
+            "Expert rules"
+        ]
+    },
+    {
+        "q": "What is scene flow?",
+        "type": "mcq",
+        "o": [
+            "3D motion field estimation",
+            "Traffic flow",
+            "Scene transitions",
+            "Data pipeline"
+        ]
+    },
+    {
+        "q": "Scene flow describes 3D _____ between frames.",
+        "type": "fill_blank",
+        "answers": [
+            "motion"
+        ],
+        "other_options": [
+            "color",
+            "depth",
+            "texture"
+        ]
+    },
+    {
+        "q": "Rearrange motion representations by dimension:",
+        "type": "rearrange",
+        "words": [
+            "Optical flow",
+            "Scene flow",
+            "Trajectory",
+            "Path"
+        ]
+    },
+    {
+        "q": "What is speech recognition?",
+        "type": "mcq",
+        "o": [
+            "Converting speech to text",
+            "Voice synthesis",
+            "Sound effects",
+            "Audio mixing"
+        ]
+    },
+    {
+        "q": "ASR stands for Automatic Speech _____.",
+        "type": "fill_blank",
+        "answers": [
+            "Recognition"
+        ],
+        "other_options": [
+            "Recording",
+            "Rendering",
+            "Reproduction"
+        ]
+    },
+    {
+        "q": "Match the speech task with its direction:",
+        "type": "match",
+        "left": [
+            "ASR",
+            "TTS",
+            "Voice cloning",
+            "Translation"
+        ],
+        "right": [
+            "Speech to text",
+            "Text to speech",
+            "Copy voice",
+            "Cross language"
+        ]
+    },
+    {
+        "q": "What is text-to-speech?",
+        "type": "mcq",
+        "o": [
+            "Generating speech from text",
+            "Transcription",
+            "Speech recognition",
+            "Voice recording"
+        ]
+    },
+    {
+        "q": "TTS systems synthesize natural-sounding _____.",
+        "type": "fill_blank",
+        "answers": [
+            "voice"
+        ],
+        "other_options": [
+            "text",
+            "music",
+            "noise"
+        ]
+    },
+    {
+        "q": "Neural TTS produces more natural speech than concatenative systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is voice cloning?",
+        "type": "mcq",
+        "o": [
+            "Replicating someone's voice characteristics",
+            "Recording voice",
+            "Voice effects",
+            "Audio cleaning"
+        ]
+    },
+    {
+        "q": "Voice cloning can work with just a few _____ of audio.",
+        "type": "fill_blank",
+        "answers": [
+            "seconds"
+        ],
+        "other_options": [
+            "hours",
+            "days",
+            "weeks"
+        ]
+    },
+    {
+        "q": "Rearrange audio AI tasks by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Speech detection",
+            "ASR",
+            "Speaker identification",
+            "Voice cloning"
+        ]
+    },
+    {
+        "q": "What is music generation?",
+        "type": "mcq",
+        "o": [
+            "AI creating musical compositions",
+            "Music playback",
+            "Audio editing",
+            "Sound recording"
+        ]
+    },
+    {
+        "q": "Music generation models learn patterns from musical _____.",
+        "type": "fill_blank",
+        "answers": [
+            "data"
+        ],
+        "other_options": [
+            "theory",
+            "instruments",
+            "artists"
+        ]
+    },
+    {
+        "q": "Match the audio model with its capability:",
+        "type": "match",
+        "left": [
+            "Whisper",
+            "AudioLM",
+            "MusicLM",
+            "Bark"
+        ],
+        "right": [
+            "Transcription",
+            "Audio generation",
+            "Music generation",
+            "Speech synthesis"
+        ]
+    },
+    {
+        "q": "What is audio understanding?",
+        "type": "mcq",
+        "o": [
+            "Extracting meaning from audio",
+            "Audio playback",
+            "Sound mixing",
+            "Audio compression"
+        ]
+    },
+    {
+        "q": "Audio understanding includes classification and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "transcription"
+        ],
+        "other_options": [
+            "deletion",
+            "compression",
+            "storage"
+        ]
+    },
+    {
+        "q": "Multimodal models can understand both audio and images.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is video understanding?",
+        "type": "mcq",
+        "o": [
+            "Analyzing video content with AI",
+            "Video playback",
+            "Video editing",
+            "Video compression"
+        ]
+    },
+    {
+        "q": "Video understanding combines spatial and _____ information.",
+        "type": "fill_blank",
+        "answers": [
+            "temporal"
+        ],
+        "other_options": [
+            "audio",
+            "color",
+            "depth"
+        ]
+    },
+    {
+        "q": "Match the video task with its output:",
+        "type": "match",
+        "left": [
+            "Classification",
+            "Captioning",
+            "Segmentation",
+            "Tracking"
+        ],
+        "right": [
+            "Category label",
+            "Text description",
+            "Pixel labels",
+            "Object trajectories"
+        ]
+    },
+    {
+        "q": "What is video generation?",
+        "type": "mcq",
+        "o": [
+            "Creating videos with AI",
+            "Video recording",
+            "Video editing",
+            "Video streaming"
+        ]
+    },
+    {
+        "q": "Video diffusion generates frames by progressive _____.",
+        "type": "fill_blank",
+        "answers": [
+            "denoising"
+        ],
+        "other_options": [
+            "encoding",
+            "compression",
+            "rendering"
+        ]
+    },
+    {
+        "q": "Rearrange video generation challenges:",
+        "type": "rearrange",
+        "words": [
+            "Frame quality",
+            "Temporal consistency",
+            "Long duration",
+            "Controllability"
+        ]
+    },
+    {
+        "q": "What is temporal consistency?",
+        "type": "mcq",
+        "o": [
+            "Maintaining coherence across frames",
+            "Time measurement",
+            "Clock synchronization",
+            "Schedule management"
+        ]
+    },
+    {
+        "q": "Video flickering results from poor temporal _____.",
+        "type": "fill_blank",
+        "answers": [
+            "consistency"
+        ],
+        "other_options": [
+            "quality",
+            "resolution",
+            "compression"
+        ]
+    },
+    {
+        "q": "Match the video model with its application:",
+        "type": "match",
+        "left": [
+            "Sora",
+            "Runway",
+            "Pika",
+            "Stable Video"
+        ],
+        "right": [
+            "Long videos",
+            "Creative editing",
+            "Animation",
+            "Image-to-video"
+        ]
+    },
+    {
+        "q": "What is action recognition?",
+        "type": "mcq",
+        "o": [
+            "Identifying actions in videos",
+            "Motion capture",
+            "Gesture detection",
+            "Activity logging"
+        ]
+    },
+    {
+        "q": "Action recognition classifies human _____ in videos.",
+        "type": "fill_blank",
+        "answers": [
+            "activities"
+        ],
+        "other_options": [
+            "faces",
+            "clothes",
+            "locations"
+        ]
+    },
+    {
+        "q": "3D CNNs process spatial and temporal dimensions together.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is dense prediction?",
+        "type": "mcq",
+        "o": [
+            "Per-pixel output generation",
+            "Dense data storage",
+            "Compact models",
+            "Compressed predictions"
+        ]
+    },
+    {
+        "q": "Semantic segmentation is a _____ prediction task.",
+        "type": "fill_blank",
+        "answers": [
+            "dense"
+        ],
+        "other_options": [
+            "sparse",
+            "simple",
+            "global"
+        ]
+    },
+    {
+        "q": "Match the dense prediction task with its output:",
+        "type": "match",
+        "left": [
+            "Semantic seg",
+            "Depth estimation",
+            "Optical flow",
+            "Surface normals"
+        ],
+        "right": [
+            "Class per pixel",
+            "Distance per pixel",
+            "Motion per pixel",
+            "Direction per pixel"
+        ]
+    },
+    {
+        "q": "What is panoptic segmentation?",
+        "type": "mcq",
+        "o": [
+            "Unified semantic and instance segmentation",
+            "Panoramic photos",
+            "Full scene reconstruction",
+            "360 video"
+        ]
+    },
+    {
+        "q": "Panoptic segmentation labels both stuff and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "things"
+        ],
+        "other_options": [
+            "objects",
+            "areas",
+            "regions"
+        ]
+    },
+    {
+        "q": "Rearrange segmentation tasks by complexity:",
+        "type": "rearrange",
+        "words": [
+            "Semantic",
+            "Instance",
+            "Panoptic",
+            "Video panoptic"
+        ]
+    },
+    {
+        "q": "What is optical flow?",
+        "type": "mcq",
+        "o": [
+            "2D motion between frames",
+            "Light physics",
+            "Camera optics",
+            "Visual effects"
+        ]
+    },
+    {
+        "q": "Optical flow estimates pixel _____ between frames.",
+        "type": "fill_blank",
+        "answers": [
+            "displacement"
+        ],
+        "other_options": [
+            "color",
+            "intensity",
+            "depth"
+        ]
+    },
+    {
+        "q": "Match the motion method with its representation:",
+        "type": "match",
+        "left": [
+            "Optical flow",
+            "Scene flow",
+            "Trajectory",
+            "Motion vector"
+        ],
+        "right": [
+            "2D pixel motion",
+            "3D point motion",
+            "Object path",
+            "Block motion"
+        ]
+    },
+    {
+        "q": "What is depth estimation?",
+        "type": "mcq",
+        "o": [
+            "Predicting distance from camera",
+            "Deep learning",
+            "Data depth",
+            "Model layers"
+        ]
+    },
+    {
+        "q": "Monocular depth estimation uses _____ camera input.",
+        "type": "fill_blank",
+        "answers": [
+            "single"
+        ],
+        "other_options": [
+            "dual",
+            "multiple",
+            "stereo"
+        ]
+    },
+    {
+        "q": "Self-supervised depth learning uses stereo or video.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is neural rendering?",
+        "type": "mcq",
+        "o": [
+            "Using neural networks for image synthesis",
+            "CPU rendering",
+            "GPU computing",
+            "Traditional graphics"
+        ]
+    },
+    {
+        "q": "Neural rendering combines ML with computer _____.",
+        "type": "fill_blank",
+        "answers": [
+            "graphics"
+        ],
+        "other_options": [
+            "vision",
+            "networks",
+            "systems"
+        ]
+    },
+    {
+        "q": "Match the neural rendering method with its approach:",
+        "type": "match",
+        "left": [
+            "NeRF",
+            "3D Gaussian",
+            "Neural textures",
+            "Deferred shading"
+        ],
+        "right": [
+            "Implicit field",
+            "Explicit primitives",
+            "Learned materials",
+            "Hybrid pipeline"
+        ]
+    },
+    {
+        "q": "What is 3D Gaussian Splatting?",
+        "type": "mcq",
+        "o": [
+            "Fast 3D scene representation",
+            "Image blur effect",
+            "Data visualization",
+            "Statistical method"
+        ]
+    },
+    {
+        "q": "3D Gaussians enable real-time _____ of novel views.",
+        "type": "fill_blank",
+        "answers": [
+            "rendering"
+        ],
+        "other_options": [
+            "training",
+            "storage",
+            "compression"
+        ]
+    },
+    {
+        "q": "Rearrange novel view synthesis methods by speed:",
+        "type": "rearrange",
+        "words": [
+            "NeRF",
+            "Instant-NGP",
+            "3D Gaussians",
+            "Mesh"
+        ]
+    },
+    {
+        "q": "What is pose estimation?",
+        "type": "mcq",
+        "o": [
+            "Detecting body joint locations",
+            "Camera calibration",
+            "Object placement",
+            "Scene layout"
+        ]
+    },
+    {
+        "q": "Human pose estimation locates body _____.",
+        "type": "fill_blank",
+        "answers": [
+            "keypoints"
+        ],
+        "other_options": [
+            "shapes",
+            "colors",
+            "textures"
+        ]
+    },
+    {
+        "q": "Match the pose task with its scope:",
+        "type": "match",
+        "left": [
+            "2D pose",
+            "3D pose",
+            "Hand pose",
+            "Whole-body"
+        ],
+        "right": [
+            "Image joints",
+            "3D joints",
+            "Finger joints",
+            "Body + hands + face"
+        ]
+    },
+    {
+        "q": "What is face recognition?",
+        "type": "mcq",
+        "o": [
+            "Identifying individuals from faces",
+            "Facial expressions",
+            "Face detection",
+            "Face generation"
+        ]
+    },
+    {
+        "q": "Face embeddings encode identity in _____ vectors.",
+        "type": "fill_blank",
+        "answers": [
+            "fixed-length"
+        ],
+        "other_options": [
+            "variable",
+            "random",
+            "dynamic"
+        ]
+    },
+    {
+        "q": "Face verification compares two faces for match.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is facial landmark detection?",
+        "type": "mcq",
+        "o": [
+            "Locating facial keypoints",
+            "Finding famous locations",
+            "Map landmarks",
+            "Building detection"
+        ]
+    },
+    {
+        "q": "Facial landmarks include eyes, nose, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "mouth"
+        ],
+        "other_options": [
+            "ears",
+            "chin",
+            "hair"
+        ]
+    },
+    {
+        "q": "Rearrange face analysis tasks:",
+        "type": "rearrange",
+        "words": [
+            "Detection",
+            "Landmarks",
+            "Recognition",
+            "Expression"
+        ]
+    },
+    {
+        "q": "What is document understanding?",
+        "type": "mcq",
+        "o": [
+            "AI for processing documents",
+            "Reading books",
+            "Writing papers",
+            "Printing documents"
+        ]
+    },
+    {
+        "q": "Document AI combines OCR with _____ understanding.",
+        "type": "fill_blank",
+        "answers": [
+            "layout"
+        ],
+        "other_options": [
+            "color",
+            "font",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the document task with its output:",
+        "type": "match",
+        "left": [
+            "OCR",
+            "Layout analysis",
+            "Key-value extraction",
+            "Table detection"
+        ],
+        "right": [
+            "Text content",
+            "Structure understanding",
+            "Form fields",
+            "Tabular data"
+        ]
+    },
+    {
+        "q": "What is scene text recognition?",
+        "type": "mcq",
+        "o": [
+            "Reading text in natural images",
+            "Scene description",
+            "Text generation",
+            "Word processing"
+        ]
+    },
+    {
+        "q": "STR handles _____ text conditions.",
+        "type": "fill_blank",
+        "answers": [
+            "challenging"
+        ],
+        "other_options": [
+            "simple",
+            "standard",
+            "clean"
+        ]
+    },
+    {
+        "q": "End-to-end STR combines detection and recognition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is medical imaging AI?",
+        "type": "mcq",
+        "o": [
+            "AI for analyzing medical images",
+            "Hospital equipment",
+            "Medical records",
+            "Patient management"
+        ]
+    },
+    {
+        "q": "Medical AI assists in diagnosis and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "treatment"
+        ],
+        "other_options": [
+            "billing",
+            "scheduling",
+            "registration"
+        ]
+    },
+    {
+        "q": "Match the medical imaging modality with its use:",
+        "type": "match",
+        "left": [
+            "X-ray",
+            "CT",
+            "MRI",
+            "Ultrasound"
+        ],
+        "right": [
+            "Bones",
+            "3D anatomy",
+            "Soft tissue",
+            "Real-time"
+        ]
+    },
+    {
+        "q": "What is drug discovery AI?",
+        "type": "mcq",
+        "o": [
+            "AI for finding new medicines",
+            "Pharmacy software",
+            "Drug tracking",
+            "Medication delivery"
+        ]
+    },
+    {
+        "q": "AI accelerates drug discovery by predicting molecular _____.",
+        "type": "fill_blank",
+        "answers": [
+            "properties"
+        ],
+        "other_options": [
+            "names",
+            "colors",
+            "sounds"
+        ]
+    },
+    {
+        "q": "Rearrange drug discovery stages:",
+        "type": "rearrange",
+        "words": [
+            "Target identification",
+            "Lead discovery",
+            "Optimization",
+            "Clinical trials"
+        ]
+    },
+    {
+        "q": "What is protein structure prediction?",
+        "type": "mcq",
+        "o": [
+            "Predicting 3D protein shapes",
+            "Protein counting",
+            "Protein synthesis",
+            "Protein storage"
+        ]
+    },
+    {
+        "q": "AlphaFold predicts protein structure from _____.",
+        "type": "fill_blank",
+        "answers": [
+            "sequence"
+        ],
+        "other_options": [
+            "images",
+            "sounds",
+            "text"
+        ]
+    },
+    {
+        "q": "AlphaFold achieved near-experimental accuracy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI for science?",
+        "type": "mcq",
+        "o": [
+            "Using AI to accelerate scientific research",
+            "Science education",
+            "Science writing",
+            "Science equipment"
+        ]
+    },
+    {
+        "q": "AI4Science applies ML to physics, chemistry, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "biology"
+        ],
+        "other_options": [
+            "art",
+            "music",
+            "sports"
+        ]
+    },
+    {
+        "q": "Match the scientific AI with its domain:",
+        "type": "match",
+        "left": [
+            "AlphaFold",
+            "GNoME",
+            "Weather AI",
+            "Math AI"
+        ],
+        "right": [
+            "Proteins",
+            "Materials",
+            "Forecasting",
+            "Theorem proving"
+        ]
+    },
+    {
+        "q": "What is AI for weather?",
+        "type": "mcq",
+        "o": [
+            "ML-based weather forecasting",
+            "Weather stations",
+            "Climate control",
+            "Rain detection"
+        ]
+    },
+    {
+        "q": "AI weather models outperform traditional _____ methods.",
+        "type": "fill_blank",
+        "answers": [
+            "numerical"
+        ],
+        "other_options": [
+            "visual",
+            "manual",
+            "random"
+        ]
+    },
+    {
+        "q": "GraphCast and Pangu-Weather use foundation model approaches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is molecular generation?",
+        "type": "mcq",
+        "o": [
+            "AI creating new molecular structures",
+            "Molecule counting",
+            "Chemical reactions",
+            "Atom splitting"
+        ]
+    },
+    {
+        "q": "AI generates molecules with desired _____ properties.",
+        "type": "fill_blank",
+        "answers": [
+            "chemical"
+        ],
+        "other_options": [
+            "visual",
+            "audio",
+            "text"
+        ]
+    },
+    {
+        "q": "Match the molecular AI task with its goal:",
+        "type": "match",
+        "left": [
+            "Generation",
+            "Optimization",
+            "Prediction",
+            "Docking"
+        ],
+        "right": [
+            "Create molecules",
+            "Improve properties",
+            "Estimate activity",
+            "Binding simulation"
+        ]
+    },
+    {
+        "q": "What is materials discovery AI?",
+        "type": "mcq",
+        "o": [
+            "Finding new materials with AI",
+            "Material inventory",
+            "Mining operations",
+            "Manufacturing"
+        ]
+    },
+    {
+        "q": "GNoME discovered thousands of new stable _____.",
+        "type": "fill_blank",
+        "answers": [
+            "crystals"
+        ],
+        "other_options": [
+            "drugs",
+            "proteins",
+            "chemicals"
+        ]
+    },
+    {
+        "q": "AI accelerates materials discovery by orders of magnitude.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is theorem proving AI?",
+        "type": "mcq",
+        "o": [
+            "Using AI to prove mathematical theorems",
+            "Teaching math",
+            "Calculation AI",
+            "Arithmetic system"
+        ]
+    },
+    {
+        "q": "Formal verification uses AI to check _____ correctness.",
+        "type": "fill_blank",
+        "answers": [
+            "program"
+        ],
+        "other_options": [
+            "visual",
+            "audio",
+            "social"
+        ]
+    },
+    {
+        "q": "Rearrange mathematical AI capabilities:",
+        "type": "rearrange",
+        "words": [
+            "Calculation",
+            "Problem solving",
+            "Proof search",
+            "Conjecture generation"
+        ]
+    },
+    {
+        "q": "What is code generation?",
+        "type": "mcq",
+        "o": [
+            "AI writing programming code",
+            "Code encryption",
+            "Code compression",
+            "Code deletion"
+        ]
+    },
+    {
+        "q": "Code LLMs are trained on programming _____ data.",
+        "type": "fill_blank",
+        "answers": [
+            "language"
+        ],
+        "other_options": [
+            "image",
+            "audio",
+            "video"
+        ]
+    },
+    {
+        "q": "Match the code AI capability with its description:",
+        "type": "match",
+        "left": [
+            "Completion",
+            "Generation",
+            "Explanation",
+            "Debugging"
+        ],
+        "right": [
+            "Finish code",
+            "Create from scratch",
+            "Describe code",
+            "Find errors"
+        ]
+    },
+    {
+        "q": "What is AI code review?",
+        "type": "mcq",
+        "o": [
+            "Using AI to analyze code quality",
+            "Manual code reading",
+            "Code compilation",
+            "Code execution"
+        ]
+    },
+    {
+        "q": "AI code review helps find bugs and security _____.",
+        "type": "fill_blank",
+        "answers": [
+            "vulnerabilities"
+        ],
+        "other_options": [
+            "features",
+            "benefits",
+            "updates"
+        ]
+    },
+    {
+        "q": "Copilot assists developers with code suggestions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is AI governance?",
+        "type": "mcq",
+        "o": [
+            "Policies and practices for responsible AI",
+            "Government AI systems",
+            "AI voting",
+            "Political AI"
+        ]
+    },
+    {
+        "q": "AI governance addresses ethics, safety, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "accountability"
+        ],
+        "other_options": [
+            "speed",
+            "cost",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the governance topic with its focus:",
+        "type": "match",
+        "left": [
+            "Regulation",
+            "Standards",
+            "Audit",
+            "Transparency"
+        ],
+        "right": [
+            "Laws",
+            "Best practices",
+            "Evaluation",
+            "Explainability"
+        ]
+    },
+    {
+        "q": "What is AI regulation?",
+        "type": "mcq",
+        "o": [
+            "Laws governing AI development and use",
+            "Technical standards",
+            "Internal policies",
+            "Model training"
+        ]
+    },
+    {
+        "q": "The EU AI Act classifies AI by _____ level.",
+        "type": "fill_blank",
+        "answers": [
+            "risk"
+        ],
+        "other_options": [
+            "cost",
+            "speed",
+            "size"
+        ]
+    },
+    {
+        "q": "Rearrange AI governance levels:",
+        "type": "rearrange",
+        "words": [
+            "Self-regulation",
+            "Industry standards",
+            "Government regulation",
+            "International treaties"
+        ]
+    },
+    {
+        "q": "What is responsible AI?",
+        "type": "mcq",
+        "o": [
+            "Developing AI ethically and safely",
+            "AI accountability software",
+            "Responsible for AI failures",
+            "AI liability"
+        ]
+    },
+    {
+        "q": "Responsible AI includes fairness, transparency, and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "privacy"
+        ],
+        "other_options": [
+            "speed",
+            "cost",
+            "size"
+        ]
+    },
+    {
+        "q": "Match the responsible AI principle with its meaning:",
+        "type": "match",
+        "left": [
+            "Fairness",
+            "Accountability",
+            "Transparency",
+            "Privacy"
+        ],
+        "right": [
+            "Equal treatment",
+            "Clear ownership",
+            "Understandable",
+            "Data protection"
+        ]
+    },
+    {
+        "q": "What is AI audit?",
+        "type": "mcq",
+        "o": [
+            "Systematic evaluation of AI systems",
+            "Sound analysis",
+            "Audio processing",
+            "Hearing AI"
+        ]
+    },
+    {
+        "q": "AI audits assess models for bias and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "compliance"
+        ],
+        "other_options": [
+            "speed",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Third-party audits provide independent AI evaluation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is model cards?",
+        "type": "mcq",
+        "o": [
+            "Documentation of model details",
+            "Playing cards",
+            "Credit cards",
+            "Business cards"
+        ]
+    },
+    {
+        "q": "Model cards document intended use and _____.",
+        "type": "fill_blank",
+        "answers": [
+            "limitations"
+        ],
+        "other_options": [
+            "advantages",
+            "costs",
+            "speeds"
+        ]
+    },
+    {
+        "q": "Match the documentation type with its content:",
+        "type": "match",
+        "left": [
+            "Model card",
+            "Data sheet",
+            "System card",
+            "Impact assessment"
+        ],
+        "right": [
+            "Model details",
+            "Dataset info",
+            "Full system",
+            "Societal effects"
+        ]
+    },
+    {
+        "q": "What is red teaming for AI?",
+        "type": "mcq",
+        "o": [
+            "Adversarial testing of AI systems",
+            "Team colors",
+            "Sports AI",
+            "Color coding"
+        ]
+    },
+    {
+        "q": "Red teams try to find AI _____.",
+        "type": "fill_blank",
+        "answers": [
+            "weaknesses"
+        ],
+        "other_options": [
+            "strengths",
+            "features",
+            "benefits"
+        ]
+    },
+    {
+        "q": "Rearrange AI safety evaluation methods:",
+        "type": "rearrange",
+        "words": [
+            "Automated testing",
+            "Red teaming",
+            "External audit",
+            "Public deployment"
+        ]
+    },
+    {
+        "q": "What is AI benchmark?",
+        "type": "mcq",
+        "o": [
+            "Standardized evaluation of AI capabilities",
+            "Physical testing bench",
+            "Hardware measurement",
+            "Speed testing"
+        ]
+    },
+    {
+        "q": "Benchmarks enable _____ comparison of models.",
+        "type": "fill_blank",
+        "answers": [
+            "fair"
+        ],
+        "other_options": [
+            "biased",
+            "random",
+            "arbitrary"
+        ]
+    },
+    {
+        "q": "Match the benchmark with its domain:",
+        "type": "match",
+        "left": [
+            "ImageNet",
+            "GLUE",
+            "MMLU",
+            "HumanEval"
+        ],
+        "right": [
+            "Vision",
+            "NLU",
+            "Knowledge",
+            "Code"
+        ]
+    },
+    {
+        "q": "What is leaderboard contamination?",
+        "type": "mcq",
+        "o": [
+            "Training on evaluation data",
+            "Dirty rankings",
+            "Corrupted scores",
+            "System errors"
+        ]
+    },
+    {
+        "q": "Contamination makes benchmarks _____ for evaluation.",
+        "type": "fill_blank",
+        "answers": [
+            "unreliable"
+        ],
+        "other_options": [
+            "better",
+            "faster",
+            "simpler"
+        ]
+    },
+    {
+        "q": "Private test sets help prevent benchmark contamination.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is compute scaling?",
+        "type": "mcq",
+        "o": [
+            "Using more computation for better AI",
+            "Computer sales",
+            "Hardware design",
+            "System maintenance"
+        ]
+    },
+    {
+        "q": "Training large models requires massive _____ resources.",
+        "type": "fill_blank",
+        "answers": [
+            "compute"
+        ],
+        "other_options": [
+            "storage",
+            "memory",
+            "power"
+        ]
+    },
+    {
+        "q": "Rearrange AI training scales:",
+        "type": "rearrange",
+        "words": [
+            "Single GPU",
+            "Multi-GPU",
+            "Multi-node",
+            "Datacenter"
+        ]
+    },
+    {
+        "q": "What is AI chip?",
+        "type": "mcq",
+        "o": [
+            "Specialized hardware for AI computation",
+            "Computer chips",
+            "Potato chips",
+            "Wood chips"
+        ]
+    },
+    {
+        "q": "GPUs and TPUs are examples of AI _____.",
+        "type": "fill_blank",
+        "answers": [
+            "accelerators"
+        ],
+        "other_options": [
+            "memory",
+            "storage",
+            "cables"
+        ]
+    },
+    {
+        "q": "Match the AI hardware with its maker:",
+        "type": "match",
+        "left": [
+            "GPU",
+            "TPU",
+            "NPU",
+            "IPU"
+        ],
+        "right": [
+            "NVIDIA",
+            "Google",
+            "Various",
+            "Graphcore"
+        ]
+    },
+    {
+        "q": "What is AI democratization?",
+        "type": "mcq",
+        "o": [
+            "Making AI accessible to everyone",
+            "AI voting systems",
+            "Democratic AI",
+            "Government AI"
+        ]
+    },
+    {
+        "q": "Open source models enable wider _____ to AI.",
+        "type": "fill_blank",
+        "answers": [
+            "access"
+        ],
+        "other_options": [
+            "cost",
+            "speed",
+            "complexity"
+        ]
+    },
+    {
+        "q": "Cloud APIs lower the barrier to using AI.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What will future AI focus on?",
+        "type": "mcq",
+        "o": [
+            "Safety, efficiency, and broader capabilities",
+            "Slower computation",
+            "Less data",
+            "Simpler models"
+        ]
+    }
+]

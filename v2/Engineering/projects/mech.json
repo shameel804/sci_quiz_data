@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Thermodynamic Systems 🔥",
+        "ques": "1. Types of thermodynamic systems\n2. State properties\n3. Process types",
+        "answer": {
+            "type": "text",
+            "content": "**1. System types:**\n- Open: Mass and energy can cross boundary\n- Closed: Only energy crosses (fixed mass)\n- Isolated: Nothing crosses\n\n**2. State properties:** Fully defined by: Temperature, Pressure, Volume, Internal Energy, Enthalpy\n\n**3. Process types:**\n- Isothermal: Constant T\n- Isobaric: Constant P\n- Isochoric: Constant V\n- Adiabatic: No heat transfer"
+        },
+        "explanation": "**First Law:** ΔU = Q - W. Energy is conserved; heat and work are forms of energy transfer."
+    },
+    {
+        "title": "Heat Exchangers 🔄",
+        "ques": "1. Types of heat exchangers\n2. LMTD method\n3. Effectiveness-NTU method",
+        "answer": {
+            "type": "text",
+            "content": "**1. Types:**\n- Shell and tube\n- Plate\n- Double pipe\n- Cross-flow\n\n**2. LMTD (Log Mean Temperature Difference):**\n```\nQ = U·A·LMTD\nLMTD = (ΔT₁ - ΔT₂)/ln(ΔT₁/ΔT₂)\n```\n\n**3. Effectiveness-NTU:**\n- ε = actual heat transfer / maximum possible\n- Used when outlet temps unknown"
+        },
+        "explanation": "**Counter-flow** exchangers are more efficient than parallel flow for same area."
+    },
+    {
+        "title": "IC Engines 🚗",
+        "ques": "1. Four-stroke cycle\n2. Otto vs Diesel cycle\n3. Compression ratio effect",
+        "answer": {
+            "type": "text",
+            "content": "**1. Four strokes:**\n1. Intake: Air/fuel enters\n2. Compression: Piston compresses mixture\n3. Power: Combustion pushes piston\n4. Exhaust: Burnt gases exit\n\n**2. Otto vs Diesel:**\n- Otto: Spark ignition, gasoline\n- Diesel: Compression ignition, no spark\n\n**3. Compression ratio:**\nHigher CR → Higher efficiency\n- Otto: 8-12:1\n- Diesel: 15-22:1"
+        },
+        "explanation": "**Diesel engines** are more efficient due to higher compression ratio but heavier."
+    },
+    {
+        "title": "Refrigeration Cycle ❄️",
+        "ques": "1. Components of vapor compression cycle\n2. How does it move heat from cold to hot?\n3. COP definition",
+        "answer": {
+            "type": "text",
+            "content": "**1. Components:**\n- Compressor: Raises refrigerant pressure\n- Condenser: Releases heat to surroundings\n- Expansion valve: Drops pressure\n- Evaporator: Absorbs heat from cold space\n\n**2. Heat pump action:**\nWork input allows heat to flow from cold to hot (opposite of natural)\n\n**3. COP (Coefficient of Performance):**\n```\nCOP_refrigerator = Q_cold/W\nCOP_heat_pump = Q_hot/W\n```\nCOP > 1 is typical (not efficiency)"
+        },
+        "explanation": "**Heat pumps** are refrigerators in reverse. Extract heat from cold outdoor air to warm house."
+    },
+    {
+        "title": "Fluid Properties 💧",
+        "ques": "1. Viscosity and its types\n2. Reynolds number\n3. Laminar vs turbulent flow",
+        "answer": {
+            "type": "text",
+            "content": "**1. Viscosity:** Resistance to flow\n- Dynamic (μ): Force per shear rate\n- Kinematic (ν = μ/ρ): Dynamic/density\n\n**2. Reynolds number:**\n```\nRe = ρvD/μ = vD/ν\n```\n- Re < 2300: Laminar\n- Re > 4000: Turbulent\n- Between: Transition\n\n**3. Flow types:**\n- Laminar: Smooth, parallel layers\n- Turbulent: Chaotic, mixing"
+        },
+        "explanation": "**Reynolds number** predicts flow regime. Higher velocity/diameter → more turbulent."
+    },
+    {
+        "title": "Pump and Turbine 🌊",
+        "ques": "1. Pump vs turbine purpose\n2. Pump types\n3. What is head?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Difference:**\n- Pump: Adds energy to fluid (lifts/moves)\n- Turbine: Extracts energy from fluid (generates power)\n\n**2. Pump types:**\n- Centrifugal: Uses impeller\n- Positive displacement: Piston/gear\n\n**3. Head:** Energy per unit weight\n```\nH = ΔP/ρg + Δv²/2g + Δz\n```\n(Pressure head + Velocity head + Elevation head)"
+        },
+        "explanation": "**Bernoulli's equation** is fundamental to pump/turbine analysis. Total head is conserved."
+    }
+]

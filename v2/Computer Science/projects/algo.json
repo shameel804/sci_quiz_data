@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Sorting Algorithms 📊",
+        "ques": "1. How does bubble sort work?\n2. Time complexity of bubble sort\n3. Name a faster sorting algorithm",
+        "answer": {
+            "type": "text",
+            "content": "**1. Bubble sort:** Repeatedly compare adjacent elements, swap if out of order. Largest \"bubbles up\" to end.\n\n**2. Time complexity:** O(n²) - slow for large datasets\n\n**3. Faster:** Merge sort and Quick sort - O(n log n) average"
+        },
+        "explanation": "**O(n²)** means doubling input quadruples time. Avoid for large arrays!"
+    },
+    {
+        "title": "Search Algorithms 🔍",
+        "ques": "1. Linear vs binary search\n2. Binary search requirement\n3. Time complexity of each",
+        "answer": {
+            "type": "text",
+            "content": "**1. Difference:**\n- Linear: Check each element one by one\n- Binary: Divide and conquer (check middle, eliminate half)\n\n**2. Binary requires:** Sorted array\n\n**3. Complexity:**\n- Linear: O(n)\n- Binary: O(log n) - much faster for large arrays"
+        },
+        "explanation": "**Binary search** is powerful: 1 million items searched in ~20 comparisons!"
+    },
+    {
+        "title": "Big-O Notation 📈",
+        "ques": "Order these from fastest to slowest:\nO(n²), O(1), O(log n), O(n), O(n log n)",
+        "answer": {
+            "type": "text",
+            "content": "**Fastest to slowest:**\n1. O(1) - Constant (instant)\n2. O(log n) - Logarithmic (binary search)\n3. O(n) - Linear (simple loop)\n4. O(n log n) - Linearithmic (merge sort)\n5. O(n²) - Quadratic (nested loops)\n\n**For n = 1000:**\n- O(1) = 1\n- O(log n) ≈ 10\n- O(n) = 1000\n- O(n log n) ≈ 10000\n- O(n²) = 1000000"
+        },
+        "explanation": "**Big-O** describes worst-case growth rate. Focus on the dominant term."
+    },
+    {
+        "title": "Graph Algorithms 🕸️",
+        "ques": "1. What is BFS vs DFS?\n2. Use cases for each\n3. Time complexity",
+        "answer": {
+            "type": "text",
+            "content": "**1. Difference:**\n- BFS (Breadth-First): Explore level by level (queue)\n- DFS (Depth-First): Go deep before backtracking (stack)\n\n**2. Uses:**\n- BFS: Shortest path (unweighted), level-order\n- DFS: Cycle detection, topological sort, mazes\n\n**3. Both:** O(V + E) where V = vertices, E = edges"
+        },
+        "explanation": "**BFS** finds shortest path in unweighted graphs. Use Dijkstra for weighted."
+    },
+    {
+        "title": "Recursion 🔄",
+        "ques": "Write factorial function:\n1. Iterative approach\n2. Recursive approach\n3. What is base case?",
+        "answer": {
+            "type": "code",
+            "lang": "python",
+            "content": "# Iterative\ndef factorial_iter(n):\n    result = 1\n    for i in range(1, n+1):\n        result *= i\n    return result\n\n# Recursive\ndef factorial_rec(n):\n    if n <= 1:  # Base case\n        return 1\n    return n * factorial_rec(n-1)\n\n# Base case: n <= 1 returns 1\n# Without it, infinite recursion → stack overflow"
+        },
+        "explanation": "**Recursion** is function calling itself. Always needs base case to stop!"
+    },
+    {
+        "title": "Divide and Conquer ⚔️",
+        "ques": "1. What is divide and conquer?\n2. Example algorithms\n3. How does merge sort use it?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Strategy:**\n- Divide: Break problem into subproblems\n- Conquer: Solve subproblems recursively\n- Combine: Merge solutions\n\n**2. Examples:** Merge sort, Quick sort, Binary search\n\n**3. Merge sort:**\n- Divide: Split array in half\n- Conquer: Sort each half\n- Combine: Merge sorted halves"
+        },
+        "explanation": "**Divide and conquer** often yields O(n log n) algorithms - very efficient!"
+    }
+]

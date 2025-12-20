@@ -1,0 +1,59 @@
+{
+    "id": "learn_ai",
+    "topicId": "ai",
+    "topicTitle": "Artificial Intelligence",
+    "description": "Explore machine learning, neural networks, NLP, and AI ethics",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ai_1",
+            "type": "content",
+            "title": "Introduction",
+            "content": "# Artificial Intelligence 🤖\n\n## What is AI?\nMachines that can learn and solve problems.\n\n## Types\n| Type | Description |\n|------|-------------|\n| Narrow AI | Specific task |\n| General AI | Human-like (theoretical) |\n| Super AI | Beyond human (theoretical) |"
+        },
+        {
+            "id": "ai_2",
+            "type": "content",
+            "title": "Machine Learning",
+            "content": "# Machine Learning 📊\n\n## Types\n| Type | Description |\n|------|-------------|\n| Supervised | Labeled data |\n| Unsupervised | Find patterns |\n| Reinforcement | Learn from rewards |\n\n## Common Algorithms\n- Linear regression\n- Decision trees\n- Random forest\n- SVM"
+        },
+        {
+            "id": "ai_3",
+            "type": "content",
+            "title": "Neural Networks",
+            "content": "# Neural Networks 🧠\n\n## Structure\n```\nInput → Hidden layers → Output\n```\n\n## Deep Learning\n- Many hidden layers\n- Learns features automatically\n\n## Applications\n- Image recognition\n- Speech processing\n- Language translation"
+        },
+        {
+            "id": "ai_quiz_1",
+            "type": "quiz",
+            "title": "Quiz",
+            "content": "Test yourself!",
+            "quizQuestion": "Which ML type uses labeled data?",
+            "quizOptions": [
+                "Unsupervised",
+                "Reinforcement",
+                "Supervised",
+                "Transfer"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ai_4",
+            "type": "content",
+            "title": "NLP",
+            "content": "# Natural Language Processing 💬\n\n## Tasks\n- Text classification\n- Sentiment analysis\n- Machine translation\n- Chatbots\n\n## Techniques\n- Tokenization\n- Word embeddings\n- Transformers (GPT, BERT)"
+        },
+        {
+            "id": "ai_5",
+            "type": "content",
+            "title": "AI Ethics",
+            "content": "# AI Ethics ⚖️\n\n## Key Concerns\n| Issue | Description |\n|-------|-------------|\n| Bias | Unfair outcomes |\n| Privacy | Data misuse |\n| Job displacement | Automation |\n| Accountability | Who's responsible? |\n\n## Principles\n- Transparency\n- Fairness\n- Human oversight"
+        },
+        {
+            "id": "ai_6",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Summary 🎉\n\n- ML: Supervised/Unsupervised/RL\n- Neural networks: Deep learning\n- NLP: Language understanding\n- Ethics: Bias, privacy, accountability"
+        }
+    ]
+}

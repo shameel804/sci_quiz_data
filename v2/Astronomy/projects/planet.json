@@ -1,56 +1,92 @@
 [
     {
-        "title": "Planet Types 🪐",
-        "ques": "Compare terrestrial and gas giant planets:\n1. List examples of each\n2. Key differences\n3. Why are they different?",
+        "title": "Planets Classification 🪐",
+        "ques": "Compare **terrestrial** and **Jovian** (gas giant) planets with examples.",
         "answer": {
             "type": "text",
-            "content": "**1. Examples:**\n- Terrestrial: Mercury, Venus, Earth, Mars\n- Gas giants: Jupiter, Saturn, Uranus, Neptune\n\n**2. Differences:**\n| Feature | Terrestrial | Gas Giant |\n|---------|-------------|----------|\n| Size | Small | Large |\n| Composition | Rock/metal | H/He gas |\n| Density | High | Low |\n| Moons | Few | Many |\n\n**3. Why:** Distance from Sun - close planets lost light gases"
+            "content": "| Feature | Terrestrial | Jovian |\n|---------|------------|--------|\n| **Composition** | Rocky, metallic | Hydrogen, helium gas |\n| **Size** | Small | Large |\n| **Density** | High (~5 g/cm³) | Low (~1 g/cm³) |\n| **Moons** | Few or none | Many |\n| **Rings** | None | Yes |\n| **Examples** | Mercury, Venus, Earth, Mars | Jupiter, Saturn, Uranus, Neptune |"
         },
-        "explanation": "**Frost line** separates inner rocky planets from outer gas giants. Beyond this line, ices could condense."
+        "explanation": "Inner planets formed where it was too hot for volatiles to condense. Outer planets captured more gas and ice."
     },
     {
-        "title": "Asteroids, Comets, Meteors ☄️",
-        "ques": "Define and differentiate:\n1. Asteroid\n2. Comet\n3. Meteoroid/Meteor/Meteorite",
+        "title": "Kepler's Laws 🌍",
+        "ques": "State **Kepler's three laws** of planetary motion with illustrations.",
         "answer": {
             "type": "text",
-            "content": "**1. Asteroid:** Rocky/metallic body, mainly in asteroid belt between Mars and Jupiter\n\n**2. Comet:** Ice and dust, develops tail when near Sun\n\n**3. Meteor sequence:**\n- Meteoroid: Small rock in space\n- Meteor: \"Shooting star\" burning in atmosphere\n- Meteorite: Reaches Earth's surface"
+            "content": "**1. Law of Ellipses:**\nPlanets orbit the Sun in elliptical paths with Sun at one focus\n\n**2. Law of Equal Areas:**\nLine from Sun to planet sweeps equal areas in equal times\n→ Planet moves faster when closer to Sun\n\n**3. Law of Periods:**\n$$T^2 ∝ a^3$$\nOrbital period squared proportional to semi-major axis cubed\n\n*Example:* Earth (1 AU, 1 yr) vs Jupiter (5.2 AU, 11.86 yr)\n5.2³ ≈ 140.6, √140.6 ≈ 11.86 ✓"
         },
-        "explanation": "**Comets** come from the Kuiper Belt or Oort Cloud. Their tails always point away from the Sun."
+        "explanation": "Kepler derived these empirically (1609-1619). Newton later explained them with gravity."
     },
     {
-        "title": "Kepler's Laws 🌓",
-        "ques": "State Kepler's three laws and explain each:\n1. Law of Orbits\n2. Law of Areas\n3. Law of Periods",
+        "title": "Moon Formation 🌙",
+        "ques": "Explain the **Giant Impact Hypothesis** for the Moon's formation.",
         "answer": {
             "type": "text",
-            "content": "**1. Law of Orbits:** Planets orbit in ellipses with Sun at one focus\n\n**2. Law of Areas:** Line from Sun to planet sweeps equal areas in equal times (faster when closer)\n\n**3. Law of Periods:** T² ∝ a³\n```\nT² = (4π²/GM) × a³\n```\n(T = orbital period, a = semi-major axis)"
+            "content": "**Giant Impact Hypothesis:**\n\n**Events:**\n1. ~4.5 billion years ago\n2. Mars-sized body (\"Theia\") collided with early Earth\n3. Debris ejected into orbit\n4. Debris accreted to form Moon\n\n**Evidence:**\n- Moon's low iron content (Earth's core already formed)\n- Similar oxygen isotope ratios (Earth and Moon)\n- Moon's lack of volatile elements\n- Angular momentum of Earth-Moon system"
         },
-        "explanation": "**Kepler's laws** describe planetary motion empirically. Newton later explained them with gravity."
+        "explanation": "Computer simulations support this hypothesis. The collision may have tilted Earth's axis, giving us seasons."
     },
     {
-        "title": "Solar System Formation 🌌",
-        "ques": "Explain the nebular hypothesis:\n1. Starting conditions\n2. Main steps\n3. Why planets have same orbital plane",
+        "title": "Solar System Formation ⭐",
+        "ques": "Describe the **nebular hypothesis** for solar system formation.",
         "answer": {
             "type": "text",
-            "content": "**1. Starting:** Cloud of gas and dust (nebula)\n\n**2. Steps:**\n- Cloud collapses (gravity)\n- Spins faster (conservation of angular momentum)\n- Flattens into disk\n- Central mass becomes Sun\n- Planets form from disk material\n\n**3. Same plane:** All formed from same rotating disk"
+            "content": "**Nebular Hypothesis Steps:**\n\n1. **Molecular cloud** of gas and dust exists\n2. **Gravitational collapse** triggered (supernova?)\n3. Cloud spins faster as it contracts (conservation of angular momentum)\n4. **Protoplanetary disk** forms around proto-Sun\n5. **Accretion:** Dust → planetesimals → protoplanets\n6. **Differentiation:** Heavy elements sink to cores\n7. Sun ignites nuclear fusion; solar wind clears remaining gas\n\n**Timeline:** ~100 million years"
         },
-        "explanation": "**Nebular hypothesis** explains solar system structure. Exceptions (tilted Uranus) come from later collisions."
+        "explanation": "We observe protoplanetary disks around young stars (proplyds in Orion Nebula). Process is ongoing in the galaxy."
     },
     {
-        "title": "Moon Phases 🌙",
-        "ques": "1. Why do we see moon phases?\n2. Order from New Moon to New Moon\n3. Why always see same side of Moon?",
+        "title": "Asteroids vs Comets ☄️",
+        "ques": "Differentiate between **asteroids, comets, and meteoroids**.",
         "answer": {
             "type": "text",
-            "content": "**1. Why phases:** We see different amounts of illuminated side as Moon orbits Earth\n\n**2. Order:** New → Waxing Crescent → First Quarter → Waxing Gibbous → Full → Waning Gibbous → Third Quarter → Waning Crescent → New\n\n**3. Same side:** Tidal locking - Moon's rotation period = orbital period (synchronous rotation)"
+            "content": "| Object | Composition | Location | Appearance |\n|--------|------------|----------|------------|\n| **Asteroid** | Rocky, metallic | Asteroid belt (mostly) | No tail |\n| **Comet** | Ice, dust, rock (\"dirty snowball\") | Kuiper belt, Oort cloud | Tail when near Sun |\n| **Meteoroid** | Rock/metal fragment | Anywhere in space | - |\n| **Meteor** | Meteoroid in atmosphere | - | \"Shooting star\" |\n| **Meteorite** | Meteor that lands | Earth's surface | Can be found |"
         },
-        "explanation": "**Lunar phases** cycle every 29.5 days. The \"dark side\" gets sunlight, just not when we can see it."
+        "explanation": "Comets develop coma and tails as sun vaporizes ice. Short-period comets (Kuiper) vs long-period (Oort cloud)."
     },
     {
-        "title": "Eclipses ☀️🌑",
-        "ques": "1. Solar vs lunar eclipse\n2. Why don't eclipses happen every month?\n3. Why is total solar eclipse rare?",
+        "title": "Dwarf Planets 🔵",
+        "ques": "What defines a **dwarf planet**? List the known dwarf planets.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Solar: Moon between Sun and Earth (Moon blocks Sun)\n- Lunar: Earth between Sun and Moon (Earth's shadow on Moon)\n\n**2. Not monthly:** Moon's orbit tilted 5° to Earth's orbit → alignment rare\n\n**3. Total solar rare:** Moon's shadow is small (~100 km); must be in path of totality"
+            "content": "**Dwarf Planet Criteria (IAU 2006):**\n1. Orbits the Sun ✓\n2. Sufficient mass for hydrostatic equilibrium (round) ✓\n3. Has NOT cleared its orbital neighborhood ✗\n4. Is not a satellite ✓\n\n**Known Dwarf Planets:**\n- Pluto (Kuiper belt)\n- Eris (scattered disk)\n- Haumea (Kuiper belt)\n- Makemake (Kuiper belt)\n- Ceres (asteroid belt)\n\n*Possibly many more in outer solar system*"
         },
-        "explanation": "**Eclipses** require alignment on same plane. Solar eclipses visible from small area; lunar visible from half of Earth."
+        "explanation": "Pluto was reclassified in 2006 because it hasn't cleared its orbit (shares it with similar Kuiper belt objects)."
+    },
+    {
+        "title": "Tidal Forces 🌊",
+        "ques": "Explain why we have **two high tides** per day on Earth.",
+        "answer": {
+            "type": "text",
+            "content": "**Tidal Bulges:**\n\n**Near side:** Moon's gravity pulls water toward it → high tide\n\n**Far side:** Earth is pulled away from water (water \"left behind\") → high tide\n\n**Sides:** Water flows toward bulges → low tide\n\n**Result:** Two high tides and two low tides as Earth rotates (~12.5 hours apart)\n\n**Spring tides:** Sun and Moon aligned → extra high\n**Neap tides:** Sun and Moon at 90° → less extreme"
+        },
+        "explanation": "Moon's gravity varies with distance (1/r²). The differential creates the tide-generating force."
+    },
+    {
+        "title": "Planetary Atmospheres 🌬️",
+        "ques": "Why does Mars have a thin atmosphere while Venus has a thick one?",
+        "answer": {
+            "type": "text",
+            "content": "**Atmosphere Retention Depends On:**\n1. **Gravity** (mass/radius)\n2. **Temperature** (affects gas speed)\n3. **Magnetic field** (protects from solar wind)\n\n**Mars:**\n- Low gravity (0.38g) → gases escape easier\n- No global magnetic field → solar wind strips atmosphere\n- Cold → less outgassing from interior\n\n**Venus:**\n- Similar size to Earth → strong gravity\n- Thick CO₂ atmosphere → runaway greenhouse\n- No magnetic field BUT atmosphere so thick solar wind can't strip it"
+        },
+        "explanation": "Earth's magnetic field is crucial for atmospheric retention. Mars lost its field ~4 billion years ago."
+    },
+    {
+        "title": "Retrograde Motion 🔄",
+        "ques": "Explain apparent **retrograde motion** of planets as seen from Earth.",
+        "answer": {
+            "type": "text",
+            "content": "**Retrograde Motion:**\nPlanets appear to move backward (west) against the stars temporarily\n\n**Explanation (Heliocentric):**\n1. Earth and Mars orbit the Sun\n2. Earth (inner, faster) catches up to Mars\n3. As Earth passes Mars, Mars appears to move backward\n4. Like passing a slower car on highway—it seems to move backward\n\n**Duration:** Mars retrograde lasts ~2 months every ~2 years\n\n**Historical:** Ptolemy's epicycles (wrong), Copernicus explained correctly"
+        },
+        "explanation": "All superior planets (beyond Earth) show retrograde. It's an optical illusion due to Earth's faster orbital motion."
+    },
+    {
+        "title": "Planetary Rings 💍",
+        "ques": "Why do the **gas giants have rings** but terrestrial planets don't?",
+        "answer": {
+            "type": "text",
+            "content": "**Ring Formation Theories:**\n1. **Tidal destruction:** Moon or asteroid torn apart inside Roche limit\n2. **Debris from collisions** between moons\n3. **Leftover material** that never formed a moon\n\n**Why Gas Giants Have Rings:**\n- Stronger gravity → larger Roche limit\n- More moons → more collision debris\n- Cold temperatures preserve ice particles\n- Shepherd moons maintain ring structure\n\n**Saturn's rings:** Mostly water ice, 10m thick, 282,000 km wide\n\n*Rings are geologically young—may disappear in 100 million years*"
+        },
+        "explanation": "Roche limit is where tidal forces exceed object's self-gravity. Anything crossing it is torn apart."
     }
 ]

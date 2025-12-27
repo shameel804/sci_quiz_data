@@ -1,56 +1,92 @@
 [
     {
-        "title": "Exoplanet Detection: Transit 🌑",
-        "ques": "1. How does transit method work?\n2. What can we learn?\n3. Limitations",
+        "title": "Exoplanet Detection Methods 🔍",
+        "ques": "Compare the **transit** and **radial velocity** methods for detecting exoplanets.",
         "answer": {
             "type": "text",
-            "content": "**1. Transit method:** Planet passes in front of star → small dip in brightness\n\n**2. Learn:**\n- Planet size (depth of dip)\n- Orbital period (time between transits)\n- Atmosphere composition (transmission spectroscopy)\n\n**3. Limitations:**\n- Requires orbital plane alignment\n- Favors close-in planets\n- False positives (eclipsing binaries)"
+            "content": "**Transit Method:**\n- Planet passes in front of star\n- Measures brightness dip\n- Gives: radius, orbital period\n- Bias: Large planets, edge-on orbits\n- Example: Kepler, TESS\n\n**Radial Velocity:**\n- Star wobbles due to planet's gravity\n- Measures Doppler shift in spectrum\n- Gives: minimum mass, orbital period\n- Bias: Massive planets, close orbits\n\n**Combining both:** True mass and density"
         },
-        "explanation": "**Kepler mission** discovered thousands of exoplanets using transits. ~0.5% dip for Jupiter-size planet."
+        "explanation": "Over 5,500 exoplanets confirmed as of 2024. Most found by transit method (Kepler mission)."
     },
     {
-        "title": "Exoplanet Detection: Radial Velocity 📉",
-        "ques": "1. How does RV method work?\n2. What's the wobble?\n3. What can we measure?",
+        "title": "Habitable Zone 🌍",
+        "ques": "Define the **habitable zone** and factors that affect its location.",
         "answer": {
             "type": "text",
-            "content": "**1. Radial velocity:** Detect star's wobble from orbiting planet via Doppler shift\n\n**2. Wobble:** Planet and star orbit common center of mass → star moves slightly\n\n**3. Measure:**\n- Minimum planet mass\n- Orbital period\n- Eccentricity\n- Cannot get true mass (inclination unknown)"
+            "content": "**Habitable Zone (HZ):**\nDistance from star where liquid water can exist on planet surface\n\n**Factors Affecting HZ:**\n| Factor | Effect |\n|--------|--------|\n| Stellar luminosity | Brighter star → HZ farther out |\n| Planet atmosphere | Greenhouse effect extends HZ |\n| Planet albedo | Reflective → needs to be closer |\n| Tidal locking | One side hot, one cold |\n\n**Sun's HZ:** ~0.95-1.67 AU\n**Earth:** Right at inner edge!"
         },
-        "explanation": "**First exoplanets** were found this way (51 Pegasi b, 1995). Sensitive to massive, close planets."
-    },
-    {
-        "title": "Habitable Zones 🌍",
-        "ques": "1. What is the habitable zone?\n2. What determines it?\n3. Is HZ guarantee of life?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Habitable zone:** Region where liquid water could exist on planet surface\n\n**2. Determined by:**\n- Star's luminosity\n- Planet's distance\n- Also: atmosphere, albedo, greenhouse effect\n\n**3. Not guaranteed:**\n- Need atmosphere\n- Right composition\n- Stable conditions\n- Mars is in HZ but dry"
-        },
-        "explanation": "**Goldiloads zone** is just first step. Many factors affect habitability."
-    },
-    {
-        "title": "Exoplanet Atmospheres 🌫️",
-        "ques": "1. How do we study exoplanet atmospheres?\n2. What biosignatures look for?\n3. JWST contributions",
-        "answer": {
-            "type": "text",
-            "content": "**1. Methods:**\n- Transmission spectroscopy (light through atmosphere during transit)\n- Emission spectroscopy (planet's thermal emission)\n\n**2. Biosignatures:**\n- Oxygen + methane together (imbalance)\n- Ozone\n- Chlorophyll signature\n\n**3. JWST:** First detailed atmospheric spectra of rocky exoplanets; detected CO₂, H₂O on gas giants"
-        },
-        "explanation": "**JWST** can study small, rocky planets' atmospheres for first time. Key for finding habitable worlds."
+        "explanation": "Habitability is complex—liquid water is necessary but not sufficient. Atmosphere, magnetic field, geology also matter."
     },
     {
         "title": "Hot Jupiters 🔥",
-        "ques": "1. What are hot Jupiters?\n2. Why unexpected?\n3. How did they form?",
+        "ques": "What are **hot Jupiters** and why were they surprising discoveries?",
         "answer": {
             "type": "text",
-            "content": "**1. Hot Jupiters:** Gas giants very close to star (orbital period < 10 days)\n\n**2. Unexpected:** Too hot to form there (ices can't condense) → challenged planet formation theory\n\n**3. Formation theories:**\n- Formed far out, migrated inward\n- Disk migration (drag from gas disk)\n- Gravitational scattering then circularization"
+            "content": "**Hot Jupiters:**\n- Gas giants orbiting very close to their stars\n- Orbital periods: Days (not years)\n- Surface temperatures: 1000-2000 K\n- First found: 51 Pegasi b (1995)\n\n**Why Surprising:**\n- Can't form so close (too hot for gas)\n- Must have **migrated** inward\n- Migration mechanisms:\n  - Disk migration\n  - Planet-planet scattering\n  - Kozai resonance (inclined companion)\n\nChallenged planet formation theory"
         },
-        "explanation": "**51 Pegasi b** was first hot Jupiter found. They're easiest to detect but rare (~1% of stars)."
+        "explanation": "Hot Jupiters were found first because they're easiest to detect. Now we know they're relatively rare (~1%)."
     },
     {
-        "title": "TRAPPIST-1 System 🌟",
-        "ques": "1. What's special about TRAPPIST-1?\n2. How many planets?\n3. Habitability prospects",
+        "title": "TRAPPIST-1 System 🔴",
+        "ques": "Why is the **TRAPPIST-1 system** significant for exoplanet research?",
         "answer": {
             "type": "text",
-            "content": "**1. Special:** Ultra-cool red dwarf with 7 Earth-sized planets in compact system\n\n**2. Planets:** 7 rocky planets (b through h), several in habitable zone\n\n**3. Prospects:**\n- 3-4 in HZ\n- But: tidal locking, stellar flares\n- Being studied by JWST\n- Most promising system for biosignature search"
+            "content": "**TRAPPIST-1 System:**\n- Red dwarf star (M8V, 39 ly away)\n- 7 Earth-sized rocky planets\n- 3 in habitable zone (e, f, g)\n- Compact: All orbits fit inside Mercury's\n\n**Significance:**\n- Best target for atmospheric studies\n- JWST observing for biosignatures\n- Testing habitability around M dwarfs\n- Planets in resonant chain (formation info)\n\n**Challenges:** Stellar flares, tidal locking"
         },
-        "explanation": "**TRAPPIST-1** is only 40 light-years away. All 7 planets would fit inside Mercury's orbit!"
+        "explanation": "TRAPPIST-1 shows small stars can host Earth-like planets. M dwarfs are 70% of all stars."
+    },
+    {
+        "title": "Direct Imaging 📸",
+        "ques": "Why is **direct imaging** of exoplanets difficult? What techniques help?",
+        "answer": {
+            "type": "text",
+            "content": "**Challenges:**\n- Stars are ~10⁹ times brighter than planets\n- Angular separation is tiny (arcseconds)\n- Need to block stellar light\n\n**Techniques:**\n| Method | Description |\n|--------|------------|\n| **Coronagraph** | Blocks star's light |\n| **Starshade** | External occulter |\n| **Adaptive optics** | Corrects atmospheric blur |\n| **Infrared** | Better planet/star contrast |\n\n**Best targets:** Young, massive planets far from star\n\n**Example:** HR 8799 system (4 imaged planets)"
+        },
+        "explanation": "Roman Space Telescope will have coronagraph. Starshade concepts could enable Earth-like imaging."
+    },
+    {
+        "title": "Exoplanet Atmospheres 🌬️",
+        "ques": "How do astronomers study **exoplanet atmospheres**?",
+        "answer": {
+            "type": "text",
+            "content": "**Atmospheric Characterization:**\n\n**Transit Spectroscopy:**\n- Starlight filters through atmosphere\n- Absorptions reveal composition\n- Different depths at different wavelengths\n\n**Detected Species:**\n- H₂O, CO₂, CO, CH₄, Na, K\n- Clouds and hazes\n- Thermal inversions\n\n**JWST Advances:**\n- Higher precision\n- More molecules detected\n- Rocky planet atmospheres (TRAPPIST-1)"
+        },
+        "explanation": "Atmospheric spectroscopy could detect biosignatures—O₂, O₃, CH₄ together would be compelling evidence of life."
+    },
+    {
+        "title": "Planet Formation 🌱",
+        "ques": "Describe the **core accretion** model of planet formation.",
+        "answer": {
+            "type": "text",
+            "content": "**Core Accretion Model:**\n\n1. **Dust grains collide** and stick\n2. Grow to **planetesimals** (km-sized)\n3. Planetesimals collide → **protoplanets**\n4. Rocky core forms (several Earth masses)\n5. If beyond ice line: captures gas → **gas giant**\n6. If inside: remains terrestrial\n\n**Timescale:** ~1-10 million years\n\n**Alternative:** Gravitational instability (direct collapse)\n- Faster, for massive disks"
+        },
+        "explanation": "Core accretion explains Solar System well. Exoplanet diversity requires variations and migration."
+    },
+    {
+        "title": "Super-Earths and Mini-Neptunes 🪨",
+        "ques": "What are **super-Earths** and **mini-Neptunes**? Why is there a gap between them?",
+        "answer": {
+            "type": "text",
+            "content": "**Definitions:**\n- **Super-Earth:** 1-1.6 R⊕, rocky (like scaled-up Earth)\n- **Mini-Neptune:** 2-4 R⊕, thick H/He atmosphere\n\n**Radius Gap (Fulton Gap):**\n- Few planets between 1.5-2 R⊕\n- Discovered by Kepler statistics\n\n**Explanations:**\n- **Photoevaporation:** X-rays strip atmospheres from small planets\n- **Core-powered mass loss:** Internal heat drives escape\n\n**Result:** Planets either keep atmospheres (Neptune) or lose them (super-Earth)"
+        },
+        "explanation": "The radius gap tells us about atmospheric evolution. Our Solar System lacks these common planet types!"
+    },
+    {
+        "title": "Biosignatures 🧬",
+        "ques": "What are potential **biosignatures** astronomers look for on exoplanets?",
+        "answer": {
+            "type": "text",
+            "content": "**Atmospheric Biosignatures:**\n\n| Gas | Significance |\n|-----|-------------|\n| **O₂** | Product of photosynthesis |\n| **O₃** | Ozone, proxy for O₂ |\n| **CH₄** | Biological production |\n| **N₂O** | Microbial activity |\n\n**Key:** Look for **disequilibrium**\n- O₂ + CH₄ together shouldn't coexist chemically\n- Life maintains the imbalance\n\n**False Positives:**\n- Abiotic O₂ from photolysis\n- Need multiple lines of evidence"
+        },
+        "explanation": "JWST and future missions (HabEx, LUVOIR) aim to detect biosignatures. Detection would be transformative."
+    },
+    {
+        "title": "Exomoons 🌙",
+        "ques": "Why are **exomoons** of interest and how might they be detected?",
+        "answer": {
+            "type": "text",
+            "content": "**Interest in Exomoons:**\n- Could be habitable even outside HZ (tidal heating)\n- Possible candidates: Moons of gas giants in HZ\n- Io-like volcanic activity, Europa-like oceans\n\n**Detection Methods:**\n- Transit timing variations (planet wobbles)\n- Transit duration variations\n- Additional dips in light curve\n- Direct moon transit\n\n**Challenges:**\n- Very small signals\n- Need precise photometry\n- Candidate: Kepler-1625b I (disputed)"
+        },
+        "explanation": "In our Solar System, several moons have subsurface oceans (Europa, Enceladus). Exomoons expand habitable real estate."
     }
 ]

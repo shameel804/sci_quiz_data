@@ -1,56 +1,92 @@
 [
     {
         "title": "Periodic Trends 📊",
-        "ques": "Compare Na, Mg, and Al for:\n1. Atomic radius trend\n2. Ionization energy trend\n3. Explain why electronegativity increases left to right",
+        "ques": "Arrange in order of increasing **atomic radius**: Na, Mg, Al, K. Explain the trend.",
         "answer": {
             "type": "text",
-            "content": "**1. Atomic Radius:** Na > Mg > Al (decreases across period - more protons, same shell)\n\n**2. Ionization Energy:** Al > Mg > Na (more protons hold electrons tighter)\n\n**3. Electronegativity increases** because nuclear charge increases while shielding stays constant → stronger pull on bonding electrons"
+            "content": "**Order:** Al < Mg < Na < K\n\n**Explanation:**\n- **Across period (Na→Al):** Radius decreases\n  - More protons = stronger nuclear attraction\n  - Same shell, electrons pulled closer\n\n- **Down group (Na→K):** Radius increases\n  - New electron shell added\n  - Outer electrons farther from nucleus"
         },
-        "explanation": "**Periodic trends** result from nuclear charge vs electron shielding. Moving right: more protons, same shielding = stronger pull."
+        "explanation": "Atomic radius decreases left→right and increases top→bottom on the periodic table."
     },
     {
-        "title": "Acids and Bases 🧪",
-        "ques": "For HCl + NaOH → NaCl + H₂O:\n\n1. Identify acid, base, salt, water\n2. Calculate pH of 0.001 M HCl\n3. What volume of 0.1 M NaOH neutralizes 50 mL of 0.1 M HCl?",
+        "title": "Acid-Base Neutralization 🧪",
+        "ques": "What volume of **0.5 M NaOH** neutralizes **25 mL** of **0.3 M H₂SO₄**?",
         "answer": {
             "type": "text",
-            "content": "**1.** Acid: HCl, Base: NaOH, Salt: NaCl, Water: H₂O\n\n**2. pH:**\n```\n[H⁺] = 0.001 M\npH = -log(0.001) = 3\n```\n\n**3. Neutralization:**\n```\nM₁V₁ = M₂V₂\n0.1 × 50 = 0.1 × V₂\nV₂ = 50 mL NaOH\n```"
+            "content": "**Balanced equation:** H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\n**Moles of H₂SO₄:**\nn = 0.3 × 0.025 = 0.0075 mol\n\n**Moles of NaOH needed:**\nn = 2 × 0.0075 = 0.015 mol\n\n**Volume of NaOH:**\nV = n/M = 0.015/0.5 = **0.03 L = 30 mL**"
         },
-        "explanation": "**Strong acid + strong base** neutralization is 1:1 molar ratio. pH = -log[H⁺]."
+        "explanation": "H₂SO₄ is diprotic—each molecule neutralizes 2 NaOH molecules. Always balance equations first!"
     },
     {
-        "title": "Redox Reactions ⚡",
-        "ques": "For: 2Fe + 3Cl₂ → 2FeCl₃\n\n1. Identify what's oxidized and reduced\n2. Write half-reactions\n3. Balance in acidic solution: Fe²⁺ → Fe³⁺",
+        "title": "Oxidation Numbers 🔢",
+        "ques": "Determine the oxidation number of Mn in **KMnO₄** and **MnO₂**.",
         "answer": {
             "type": "text",
-            "content": "**1.** Fe is oxidized (0→+3), Cl₂ is reduced (0→-1)\n\n**2. Half-reactions:**\n- Oxidation: Fe → Fe³⁺ + 3e⁻\n- Reduction: Cl₂ + 2e⁻ → 2Cl⁻\n\n**3. Balanced:**\n```\nFe²⁺ → Fe³⁺ + e⁻\n```"
+            "content": "**KMnO₄:**\n- K = +1, O = -2\n- Let Mn = x\n- (+1) + x + 4(-2) = 0\n- x = +8 - 1 = **+7**\n\n**MnO₂:**\n- O = -2\n- x + 2(-2) = 0\n- x = **+4**\n\n*Mn can have oxidation states from +2 to +7!*"
         },
-        "explanation": "**OIL RIG:** Oxidation Is Loss, Reduction Is Gain (of electrons). The species that loses electrons is oxidized."
+        "explanation": "Sum of oxidation numbers = 0 (neutral) or ion charge. Transition metals have variable oxidation states."
     },
     {
-        "title": "Coordination Compounds 🔷",
-        "ques": "For [Cu(NH₃)₄]²⁺:\n\n1. Identify central metal and ligands\n2. What is the coordination number?\n3. Explain why this complex is blue",
+        "title": "Balancing Redox Equations ⚡",
+        "ques": "Balance in acidic solution: **MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺**",
         "answer": {
             "type": "text",
-            "content": "**1.** Central metal: Cu²⁺; Ligands: 4 NH₃ molecules\n\n**2. Coordination number:** 4 (four ligand bonds)\n\n**3. Blue color:** d-d electron transitions; Cu²⁺ has unpaired d electrons that absorb orange light → we see the complementary blue color"
+            "content": "**Half-reaction method:**\n\n**Reduction:** MnO₄⁻ → Mn²⁺\n- Add H₂O: MnO₄⁻ → Mn²⁺ + 4H₂O\n- Add H⁺: MnO₄⁻ + 8H⁺ → Mn²⁺ + 4H₂O\n- Add e⁻: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O\n\n**Oxidation:** Fe²⁺ → Fe³⁺ + e⁻\n\n**Balance electrons (×5):**\n\n**Final:** MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺"
         },
-        "explanation": "**Coordination complexes** show color due to d-orbital splitting. The energy gap determines which wavelength is absorbed."
+        "explanation": "In acidic solution, add H₂O to balance O, H⁺ to balance H, then electrons to balance charge."
     },
     {
-        "title": "Electronegativity Application 🧲",
-        "ques": "Arrange these bonds by polarity: C-H, O-H, N-H, F-H\n\n1. Order from least to most polar\n2. Which would have highest boiling point compound?\n3. Why is HF not the strongest acid?",
+        "title": "Coordination Compounds 🌀",
+        "ques": "Name **[Co(NH₃)₄Cl₂]Cl** and identify the coordination number, oxidation state, and geometry.",
         "answer": {
             "type": "text",
-            "content": "**1. Polarity order:** C-H < N-H < O-H < F-H\n\n**2. Highest bp:** HF (strong hydrogen bonding despite small size)\n\n**3. HF not strongest acid** because F-H bond is very strong (hard to break) despite high polarity. HI is stronger acid (weak H-I bond)."
+            "content": "**Name:** Tetraamminedichlorocobalt(III) chloride\n\n**Analysis:**\n- **Central metal:** Cobalt\n- **Ligands:** 4 NH₃ (neutral) + 2 Cl⁻ (anionic)\n- **Coordination number:** 4 + 2 = **6**\n- **Counter ion:** 1 Cl⁻\n\n**Oxidation state:**\nComplex charge + 1(-1) = 0, so complex = +1\nCo + 4(0) + 2(-1) = +1 → **Co = +3**\n\n**Geometry:** Octahedral (CN = 6)"
         },
-        "explanation": "**Acid strength** depends on bond strength, not just polarity. Weaker bonds are easier to break, releasing H⁺ more readily."
+        "explanation": "Coordination number is defined by atoms directly bonded to metal. Ligands inside brackets are in inner sphere."
     },
     {
-        "title": "Buffer Solutions 💧",
-        "ques": "A buffer contains 0.1 M acetic acid and 0.1 M sodium acetate (Ka = 1.8×10⁻⁵).\n\n1. Calculate the pH\n2. What happens when HCl is added?\n3. Why are buffers important in blood?",
+        "title": "Buffer Solutions 🧴",
+        "ques": "Calculate the pH of a buffer with **0.1 M** acetic acid and **0.15 M** sodium acetate. (pKa = 4.76)",
         "answer": {
             "type": "text",
-            "content": "**1. Henderson-Hasselbalch:**\n```\npH = pKa + log([A⁻]/[HA])\npH = 4.74 + log(0.1/0.1) = 4.74\n```\n\n**2. HCl added:** Acetate ions neutralize H⁺ → minimal pH change\n\n**3. Blood buffers** (carbonate system) maintain pH 7.35-7.45; deviation causes acidosis/alkalosis"
+            "content": "**Henderson-Hasselbalch equation:**\n$$pH = pK_a + \\log\\frac{[A^-]}{[HA]}$$\n\n**Calculation:**\n$$pH = 4.76 + \\log\\frac{0.15}{0.1}$$\n$$pH = 4.76 + \\log(1.5)$$\n$$pH = 4.76 + 0.176 = \\mathbf{4.94}$$"
         },
-        "explanation": "**Buffers** resist pH changes because they contain both acid and conjugate base to neutralize added H⁺ or OH⁻."
+        "explanation": "Buffers resist pH change by having both weak acid and conjugate base. More base → slightly higher pH."
+    },
+    {
+        "title": "Crystal Field Theory 💎",
+        "ques": "Explain why **[Fe(CN)₆]⁴⁻** is diamagnetic while **[Fe(H₂O)₆]²⁺** is paramagnetic (both Fe²⁺).",
+        "answer": {
+            "type": "text",
+            "content": "**Both have Fe²⁺ (d⁶ configuration):**\n\n**[Fe(CN)₆]⁴⁻:**\n- CN⁻ is **strong field** ligand\n- Large crystal field splitting (Δ)\n- Electrons pair in t₂g: t₂g⁶ eg⁰\n- **0 unpaired → diamagnetic**\n\n**[Fe(H₂O)₆]²⁺:**\n- H₂O is **weak field** ligand\n- Small Δ\n- High spin: t₂g⁴ eg²\n- **4 unpaired → paramagnetic**"
+        },
+        "explanation": "Strong field ligands cause electron pairing (low spin). Spectrochemical series ranks ligand strength."
+    },
+    {
+        "title": "Ionization Energy Trend ⚡",
+        "ques": "Explain why the first ionization energy of **O** is less than that of **N**.",
+        "answer": {
+            "type": "text",
+            "content": "**Expected trend:** IE should increase left→right\n\n**Exception at O:**\n- N: 1s² 2s² 2p³ (half-filled p subshell)\n- O: 1s² 2s² 2p⁴ (one electron paired)\n\n**Reason:**\n- Half-filled subshells are extra stable\n- O has electron-electron repulsion in paired orbital\n- Easier to remove one electron from O\n\n**IE order:** N (1402 kJ/mol) > O (1314 kJ/mol)"
+        },
+        "explanation": "Half-filled and fully-filled subshells have extra stability. This causes anomalies at N and P."
+    },
+    {
+        "title": "Solubility Product (Ksp) 💧",
+        "ques": "The Ksp of **AgCl** is 1.8 × 10⁻¹⁰. Calculate the molar solubility in pure water.",
+        "answer": {
+            "type": "text",
+            "content": "**Dissolution:** AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq)\n\n**Let solubility = s mol/L:**\n- [Ag⁺] = s\n- [Cl⁻] = s\n\n**Ksp expression:**\n$$K_{sp} = [Ag^+][Cl^-] = s × s = s^2$$\n\n**Solve:**\n$$s = \\sqrt{K_{sp}} = \\sqrt{1.8 × 10^{-10}}$$\n$$s = \\mathbf{1.34 × 10^{-5}\\ M}$$"
+        },
+        "explanation": "Ksp relates to solubility through equilibrium expression. Lower Ksp = less soluble."
+    },
+    {
+        "title": "Common Ion Effect 🔄",
+        "ques": "What is the solubility of AgCl in **0.1 M NaCl** solution? (Ksp = 1.8 × 10⁻¹⁰)",
+        "answer": {
+            "type": "text",
+            "content": "**With common ion Cl⁻ already present:**\n- [Ag⁺] = s (from AgCl dissolution)\n- [Cl⁻] = 0.1 + s ≈ 0.1 M (s is negligible)\n\n**Ksp expression:**\n$$K_{sp} = [Ag^+][Cl^-] = s × 0.1$$\n\n**Solve:**\n$$s = \\frac{1.8 × 10^{-10}}{0.1} = \\mathbf{1.8 × 10^{-9}\\ M}$$\n\n*Solubility decreased by factor of ~7500!*"
+        },
+        "explanation": "Common ion effect: Adding ions that are in equilibrium shifts it, reducing solubility dramatically."
     }
 ]

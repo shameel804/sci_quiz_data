@@ -2,154 +2,144 @@
     "id": "learn_mech",
     "topicId": "mech",
     "topicTitle": "Mechanics",
-    "description": "Master the fundamentals of motion, forces, energy, gravitation, and momentum - the building blocks of classical physics",
-    "baseKP": 75,
+    "description": "Master the fundamentals of motion, forces, energy, and momentum in this comprehensive mechanics course.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "mech_1",
             "type": "content",
-            "title": "Welcome to Mechanics",
-            "content": "# Introduction to Mechanics ⚙️\n\nWelcome to **Mechanics** - the oldest and most fundamental branch of physics!\n\n## What you'll learn:\n- **Kinematics** - Describing motion mathematically\n- **Forces & Newton's Laws** - Why objects move the way they do\n- **Work, Energy & Power** - The currency of the physical world\n- **Gravitation** - The force that shapes the universe\n- **Momentum & Collisions** - Conservation laws in action\n\n> 💡 **Fun Fact:** Isaac Newton developed the laws of mechanics in 1687, and they're still used today to send rockets to space!\n\n## Why Study Mechanics?\n- 🚀 **Foundation of engineering** - Bridges, cars, rockets\n- 🌍 **Explains everyday phenomena** - Why things fall, how engines work\n- 🎯 **Problem-solving skills** - Develops logical thinking\n- 📈 **Gateway to advanced physics** - Essential for all other branches\n\nLet's explore the science of motion!"
+            "title": "Introduction to Mechanics",
+            "content": "# What is Mechanics? 🍎\n\nMechanics is the branch of physics that deals with the **motion of objects** and the **forces** that affect that motion. It is the foundation of classical physics.\n\n## Key Areas\n- **Kinematics**: Describes motion without considering its causes (e.g., \"how fast?\")\n- **Dynamics**: Deals with the forces that cause motion (e.g., \"why does it move?\")\n- **Statics**: Studies bodies at rest on in equilibrium.\n\n> 💡 **Fun Fact:** Sir Isaac Newton laid the groundwork for classical mechanics in his work *Principia Mathematica* in 1687."
         },
         {
             "id": "mech_2",
             "type": "content",
-            "title": "Kinematics: The Study of Motion",
-            "content": "# Kinematics 🏃\n\nKinematics describes **how** objects move without worrying about **why** they move.\n\n## Key Quantities\n\n| Quantity | Symbol | Unit | Description |\n|----------|--------|------|-------------|\n| **Position** | x, y | m | Location of object |\n| **Displacement** | Δx | m | Change in position |\n| **Velocity** | v | m/s | Rate of position change |\n| **Acceleration** | a | m/s² | Rate of velocity change |\n\n## Types of Motion\n\n### 1. Uniform Motion\n- Constant velocity\n- Zero acceleration\n- Example: Car on cruise control\n\n### 2. Uniformly Accelerated Motion\n- Constant acceleration\n- Velocity changes linearly\n- Example: Free-falling object\n\n## Important Distinction\n\n| Speed | Velocity |\n|-------|----------|\n| Scalar (magnitude only) | Vector (magnitude + direction) |\n| Always positive | Can be negative |\n| Distance/time | Displacement/time |\n\n> 🎯 **Key Point:** Velocity tells you how fast AND in which direction!"
+            "title": "Kinematics: Position & Displacement",
+            "content": "# Understanding Motion 📍\n\nTo describe motion, we first need to know where something is.\n\n## Position ($x$)\nThe location of an object relative to a reference point (origin).\n\n## Distance vs. Displacement\n- **Distance ($d$)**: The total path length traveled. (Scalar quantity)\n- **Displacement ($\\Delta x$)**: The change in position. Vector (has direction).\n\n$$\\Delta x = x_f - x_i$$\nwhere $x_f$ is final position and $x_i$ is initial position.\n\n> 🚶 **Example:** If you walk 5m Forward and 2m Back:\n> - Distance = 5 + 2 = 7m\n> - Displacement = 5 - 2 = 3m Forward"
         },
         {
             "id": "mech_3",
             "type": "content",
-            "title": "Equations of Motion",
-            "content": "# Equations of Motion 📐\n\nThese equations relate position, velocity, acceleration, and time for **uniformly accelerated motion**.\n\n## The Famous Four Equations\n\n### Equation 1: Velocity-Time\n```\nv = u + at\n```\n- v = final velocity\n- u = initial velocity\n- a = acceleration\n- t = time\n\n### Equation 2: Displacement-Time\n```\ns = ut + ½at²\n```\n\n### Equation 3: Velocity-Displacement\n```\nv² = u² + 2as\n```\n\n### Equation 4: Average Velocity\n```\ns = ½(u + v)t\n```\n\n## Example Problem\n\n**A car accelerates from rest at 2 m/s². Find its velocity after 5 seconds.**\n\n| Given | Find |\n|-------|------|\n| u = 0 m/s | v = ? |\n| a = 2 m/s² | |\n| t = 5 s | |\n\n**Solution:** v = u + at = 0 + (2)(5) = **10 m/s**\n\n> ⚠️ **Remember:** These equations only work for constant acceleration!"
-        },
-        {
-            "id": "mech_quiz_1",
-            "type": "quiz",
-            "title": "Quick Check",
-            "content": "Test your understanding of kinematics!",
-            "quizQuestion": "A ball is thrown upward with initial velocity 20 m/s. Using g = 10 m/s², how high will it rise?",
-            "quizOptions": [
-                "10 m",
-                "20 m",
-                "40 m",
-                "80 m"
-            ],
-            "correctOptionIndex": 1
+            "title": "Speed and Velocity",
+            "content": "# How Fast? 🏎️\n\n## Speed\nRate of change of distance. A scalar quantity (magnitude only).\n$$Speed = \\frac{Distance}{Time}$$\n\n## Velocity ($v$)\nRate of change of displacement. A vector quantity (magnitude & direction).\n$$v = \\frac{\\Delta x}{\\Delta t}$$\n\n- **Average Velocity**: Total displacement divided by total time.\n- **Instantaneous Velocity**: Velocity at a specific moment."
         },
         {
             "id": "mech_4",
             "type": "content",
-            "title": "Newton's First Law: Inertia",
-            "content": "# Newton's First Law: The Law of Inertia 🔲\n\n## The Law Statement\n\n> *\"An object at rest stays at rest, and an object in motion stays in motion with the same speed and direction, unless acted upon by an unbalanced force.\"*\n\n## What is Inertia?\n\n**Inertia** is the tendency of an object to resist changes in its state of motion.\n\n### Key Points:\n- ✅ Objects don't change motion on their own\n- ✅ Mass is a measure of inertia\n- ✅ More mass = more inertia = harder to accelerate\n\n## Real-World Examples\n\n| Situation | Inertia Effect |\n|-----------|----------------|\n| Sudden braking | Passengers lurch forward |\n| Tablecloth trick | Dishes stay in place |\n| Satellite in space | Continues forever (no friction) |\n| Seatbelts | Prevent forward motion |\n\n## Why Objects Stop on Earth\n\nOn Earth, objects slow down due to:\n- 🌬️ Air resistance\n- 🛞 Friction\n- 🌊 Drag forces\n\n> 💡 **Insight:** In the vacuum of space, a moving object would travel forever at constant velocity!"
+            "title": "Acceleration",
+            "content": "# Changing Motion 🚀\n\n**Acceleration ($a$)** is the rate of change of velocity.\n\n$$a = \\frac{\\Delta v}{\\Delta t} = \\frac{v_f - v_i}{t}$$\n\n- If velocity is constant, acceleration is **zero**.\n- Acceleration can happen by:\n  1. Changing speed (speeding up/slowing down)\n  2. Changing direction (turning)\n\n> ⚠️ **Note:** \"Deceleration\" is just acceleration in the opposite direction of motion."
+        },
+        {
+            "id": "mech_quiz_1",
+            "type": "quiz",
+            "title": "Kinematics Check",
+            "content": "Test your knowledge of motion basics.",
+            "quizQuestion": "A car travels 100 km North, then 100 km South. What is its displacement?",
+            "quizOptions": [
+                "200 km",
+                "100 km North",
+                "0 km",
+                "100 km South"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "mech_5",
             "type": "content",
-            "title": "Newton's Second Law: F = ma",
-            "content": "# Newton's Second Law: Force and Acceleration ⚡\n\n## The Law Statement\n\n> *\"The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\"*\n\n## The Famous Equation\n\n```\nF = ma\n```\n\n| Symbol | Meaning | Unit |\n|--------|---------|------|\n| F | Net Force | Newton (N) |\n| m | Mass | kilogram (kg) |\n| a | Acceleration | m/s² |\n\n## Understanding the Relationship\n\n### More Force → More Acceleration\n- Push harder, object accelerates faster\n- Double the force, double the acceleration\n\n### More Mass → Less Acceleration\n- Heavier objects are harder to accelerate\n- Double the mass, half the acceleration\n\n## Problem-Solving Strategy\n\n1. **Identify** all forces acting on the object\n2. **Draw** a free-body diagram\n3. **Choose** a coordinate system\n4. **Apply** F = ma in each direction\n5. **Solve** for unknowns\n\n## Example\n\n**A 1000 kg car accelerates at 3 m/s². What force is applied?**\n\nF = ma = (1000 kg)(3 m/s²) = **3000 N**\n\n> 🎯 **Remember:** 1 Newton is the force needed to accelerate 1 kg at 1 m/s²"
+            "title": "Equations of Motion",
+            "content": "# The SUVAT Equations 📐\n\nFor constant acceleration, we use these key equations:\n\n1. $$v = u + at$$\n2. $$s = ut + \\frac{1}{2}at^2$$\n3. $$v^2 = u^2 + 2as$$\n4. $$s = \\frac{(u+v)}{2}t$$\n\n**Variables:**\n- $s$: Displacement\n- $u$: Initial velocity\n- $v$: Final velocity\n- $a$: Acceleration\n- $t$: Time"
         },
         {
             "id": "mech_6",
             "type": "content",
-            "title": "Newton's Third Law: Action-Reaction",
-            "content": "# Newton's Third Law: Action and Reaction 🔄\n\n## The Law Statement\n\n> *\"For every action, there is an equal and opposite reaction.\"*\n\n## Key Characteristics of Action-Reaction Pairs\n\n| Property | Description |\n|----------|-------------|\n| **Equal magnitude** | Same strength |\n| **Opposite direction** | 180° apart |\n| **Different objects** | Act on different bodies |\n| **Same type** | Both gravitational, both contact, etc. |\n\n## Common Examples\n\n### 🚀 Rocket Propulsion\n- Action: Rocket pushes exhaust gases down\n- Reaction: Gases push rocket up\n\n### 🚶 Walking\n- Action: Foot pushes ground backward\n- Reaction: Ground pushes foot forward\n\n### 🏊 Swimming\n- Action: Hands push water backward\n- Reaction: Water pushes swimmer forward\n\n## Common Misconception\n\n❌ **Wrong:** Action-reaction forces cancel out\n\n✅ **Correct:** They act on DIFFERENT objects, so they don't cancel!\n\n## Free-Body Diagrams\n\nWhen drawing free-body diagrams, only include forces acting **on** the object, not forces the object exerts on others.\n\n> 💡 **Key Insight:** Understanding which forces act on which object is crucial for problem-solving!"
+            "title": "Newton's First Law",
+            "content": "# The Law of Inertia 🛑\n\n**Newton's First Law:**\nAn object remains at rest or in uniform motion unless acted upon by a net external force.\n\n## Inertia\nThe tendency of an object to resist changes in its state of motion. \n- **Mass** is a measure of inertia.\n- More mass = More inertia (harder to move or stop).\n\n> 🏒 **Example:** An ice hockey puck glides almost forever because friction (an external force) is very low."
+        },
+        {
+            "id": "mech_7",
+            "type": "content",
+            "title": "Newton's Second Law",
+            "content": "# Force and Acceleration 🤜\n\n**Newton's Second Law:**\nThe acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\n$$F_{net} = ma$$\n\n- **Force ($F$)** is measured in Newtons ($N$).\n- $1 N = 1 kg \\cdot m/s^2$\n\nThis is the most critical equation in mechanics!"
+        },
+        {
+            "id": "mech_8",
+            "type": "content",
+            "title": "Newton's Third Law",
+            "content": "# Action and Reaction 👏\n\n**Newton's Third Law:**\nFor every action, there is an equal and opposite reaction.\n\n- Forces always come in **pairs**.\n- Action and reaction forces act on **different objects**.\n\n> 🚀 **Rocket Science:** A rocket exerts force down on gases; the gases exert an equal force up on the rocket (thrust)."
+        },
+        {
+            "id": "mech_9",
+            "type": "content",
+            "title": "Friction",
+            "content": "# The Opposing Force 🌵\n\n**Friction** is a resistive force that opposes motion between surfaces in contact.\n\n$$f = \\mu N$$\n\n- $\\mu$ (mu): Coefficient of friction (depends on materials).\n- $N$: Normal force (perpendicular contact force).\n\n## Types\n1. **Static Friction**: Prevents motion from starting.\n2. **Kinetic Friction**: Acts opposes motion of sliding objects.\n(Static friction is usually stronger than kinetic!)"
         },
         {
             "id": "mech_quiz_2",
             "type": "quiz",
             "title": "Newton's Laws Quiz",
-            "content": "Test your understanding of Newton's Laws!",
-            "quizQuestion": "When you push against a wall with 50 N, the wall pushes back with:",
+            "content": "Apply the laws of motion.",
+            "quizQuestion": "If you push a 10kg box with 50N of force on a frictionless surface, what is its acceleration?",
             "quizOptions": [
-                "0 N (walls can't push)",
-                "25 N",
-                "50 N",
-                "100 N"
+                "50 m/s²",
+                "5 m/s²",
+                "10 m/s²",
+                "0.2 m/s²"
             ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "mech_7",
-            "type": "content",
-            "title": "Friction: The Resistive Force",
-            "content": "# Friction 🛞\n\nFriction is a force that **opposes relative motion** between surfaces in contact.\n\n## Types of Friction\n\n### 1. Static Friction (fs)\n- Acts when objects are **not moving** relative to each other\n- Can vary from 0 to a maximum value\n- **fs ≤ μs × N** (where N is normal force)\n\n### 2. Kinetic Friction (fk)\n- Acts when objects are **sliding** against each other\n- Has a constant value: **fk = μk × N**\n- Always less than maximum static friction\n\n## Coefficient of Friction (μ)\n\n| Surface Pair | μs | μk |\n|--------------|-------|-------|\n| Rubber on dry concrete | 1.0 | 0.8 |\n| Steel on steel | 0.74 | 0.57 |\n| Ice on ice | 0.1 | 0.03 |\n| Teflon on Teflon | 0.04 | 0.04 |\n\n## Friction Graph\n\n```\nFriction\n   ↑\n   |    _____ Static (max)\n   |   /      Kinetic (constant)\n   |  /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\n   | /\n   |/________________________→ Applied Force\n```\n\n## Is Friction Good or Bad?\n\n| Helpful Friction | Harmful Friction |\n|------------------|------------------|\n| Walking | Engine wear |\n| Writing | Energy loss |\n| Braking | Overheating |\n\n> 🎯 **Remember:** Friction depends on surface roughness and normal force, NOT on contact area!"
-        },
-        {
-            "id": "mech_8",
-            "type": "content",
-            "title": "Work and Energy",
-            "content": "# Work and Energy 💪\n\n## What is Work?\n\nIn physics, **work** is done when a force moves an object through a distance.\n\n```\nW = F × d × cos(θ)\n```\n\n| Symbol | Meaning | Unit |\n|--------|---------|------|\n| W | Work | Joule (J) |\n| F | Force | Newton (N) |\n| d | Distance | meter (m) |\n| θ | Angle between F and d | degrees |\n\n## When is Work Done?\n\n| Scenario | Work Done? | Why? |\n|----------|------------|------|\n| Pushing a box across floor | ✅ Yes | Force moves object |\n| Holding a heavy book | ❌ No | No displacement |\n| Carrying bag while walking | ❌ No | Force ⊥ to motion |\n| Pushing wall | ❌ No | No displacement |\n\n## Types of Energy\n\n### Kinetic Energy (KE)\nEnergy of motion:\n```\nKE = ½mv²\n```\n\n### Potential Energy (PE)\nStored energy:\n- **Gravitational:** PE = mgh\n- **Elastic:** PE = ½kx²\n\n## Work-Energy Theorem\n\n> *\"The net work done on an object equals its change in kinetic energy.\"*\n\n```\nW_net = ΔKE = ½mv²_final - ½mv²_initial\n```\n\n> 💡 **Insight:** Work is the mechanism by which energy is transferred!"
-        },
-        {
-            "id": "mech_9",
-            "type": "content",
-            "title": "Conservation of Energy",
-            "content": "# Conservation of Energy ⚡\n\n## The Principle\n\n> *\"Energy cannot be created or destroyed, only transformed from one form to another.\"*\n\n## Total Mechanical Energy\n\n```\nE_total = KE + PE = constant (in absence of friction)\n```\n\n## Energy Transformations\n\n### Falling Object\n```\nTop: All PE, No KE\n  ↓\nMiddle: Half PE, Half KE\n  ↓\nBottom: No PE, All KE\n```\n\n### Pendulum Swing\n- Highest point: Maximum PE, Zero KE\n- Lowest point: Zero PE, Maximum KE\n- Energy continuously converts back and forth\n\n## Problem-Solving with Energy\n\n**Advantage:** No need to analyze forces during complex motion!\n\n### Example: Roller Coaster\n\n**A 500 kg cart starts from rest at height 20 m. Find its speed at the bottom.**\n\n| At Top | At Bottom |\n|--------|----------|\n| PE = mgh = 500 × 10 × 20 | KE = ½mv² |\n| = 100,000 J | = ½ × 500 × v² |\n\nBy conservation: 100,000 = 250v²\n\nv = **20 m/s**\n\n## With Non-Conservative Forces\n\nWhen friction is present:\n```\nE_initial = E_final + Energy_lost_to_friction\n```\n\n> 🎯 **Power Tip:** Energy methods often simplify complex problems!"
+            "correctOptionIndex": 1
         },
         {
             "id": "mech_10",
             "type": "content",
-            "title": "Power: The Rate of Work",
-            "content": "# Power ⚡\n\nPower measures **how quickly** work is done or energy is transferred.\n\n## Definition\n\n```\nP = W/t = Energy/time\n```\n\n| Symbol | Meaning | Unit |\n|--------|---------|------|\n| P | Power | Watt (W) |\n| W | Work | Joule (J) |\n| t | Time | second (s) |\n\n## Alternative Formula\n\nFor constant force:\n```\nP = F × v\n```\n- F = force applied\n- v = velocity\n\n## Power Units\n\n| Unit | Equivalent |\n|------|------------|\n| 1 Watt | 1 J/s |\n| 1 kilowatt (kW) | 1000 W |\n| 1 Megawatt (MW) | 1,000,000 W |\n| 1 Horsepower (hp) | 746 W |\n\n## Common Power Ratings\n\n| Device | Power |\n|--------|-------|\n| LED bulb | 10 W |\n| Human (sustained) | 75 W |\n| Microwave | 1000 W |\n| Car engine | 100-200 kW |\n| Power plant | 500-1000 MW |\n\n## Efficiency\n\n```\nEfficiency = (Useful output power / Input power) × 100%\n```\n\nNo machine is 100% efficient due to friction and heat losses.\n\n> 💡 **Fun Fact:** A fit human can sustain about 75 W of power, but can briefly produce over 1000 W during sprinting!"
-        },
-        {
-            "id": "mech_quiz_3",
-            "type": "quiz",
-            "title": "Energy Quiz",
-            "content": "Check your understanding of work and energy!",
-            "quizQuestion": "A 2 kg ball falls from height 5 m. What is its speed just before hitting the ground? (g = 10 m/s²)",
-            "quizOptions": [
-                "5 m/s",
-                "10 m/s",
-                "20 m/s",
-                "50 m/s"
-            ],
-            "correctOptionIndex": 1
+            "title": "Work",
+            "content": "# Defining Work 👷\n\nIn physics, **Work ($W$)** is done when a force causes displacement.\n\n$$W = F \\cdot d \\cdot \\cos(\\theta)$$\n\n- $F$: Force applied\n- $d$: Displacement\n- $\\theta$: Angle between force and displacement vectors\n\n- Measured in **Joules ($J$)**.\n- No displacement = No work done (even if you get tired!)."
         },
         {
             "id": "mech_11",
             "type": "content",
-            "title": "Gravitation",
-            "content": "# Gravitation 🌍\n\nGravity is the force of attraction between any two objects with mass.\n\n## Newton's Law of Universal Gravitation\n\n```\nF = G × (m₁ × m₂) / r²\n```\n\n| Symbol | Meaning | Value |\n|--------|---------|-------|\n| G | Gravitational constant | 6.67 × 10⁻¹¹ N⋅m²/kg² |\n| m₁, m₂ | Masses | kg |\n| r | Distance between centers | m |\n\n## Key Properties\n\n1. **Always attractive** - Unlike electric forces\n2. **Inverse square law** - Double distance = ¼ force\n3. **Acts through vacuum** - No medium needed\n4. **Mutual** - Both objects experience equal forces\n\n## Surface Gravity (g)\n\n```\ng = GM/R²\n```\n\n| Planet | g (m/s²) |\n|--------|----------|\n| Mercury | 3.7 |\n| Earth | 9.8 |\n| Mars | 3.7 |\n| Jupiter | 24.8 |\n| Moon | 1.6 |\n\n## Weight vs. Mass\n\n| Mass | Weight |\n|------|--------|\n| Amount of matter | Force of gravity |\n| Scalar | Vector |\n| Constant everywhere | Changes with location |\n| Unit: kg | Unit: N (W = mg) |\n\n> 🎯 **Key Insight:** You weigh less on the Moon (W = mg), but your mass stays the same!"
+            "title": "Energy",
+            "content": "# The Capacity to do Work 🔋\n\n**Energy** is the ability to do work. It exists in many forms.\n\n## Kinetic Energy ($KE$)\nEnergy of motion.\n$$KE = \\frac{1}{2}mv^2$$\n\n## Potential Energy ($PE$)\nStored energy due to position.\n- **Gravitational PE**: $PE_g = mgh$\n- **Elastic PE**: $PE_s = \\frac{1}{2}kx^2$ (springs)"
         },
         {
             "id": "mech_12",
             "type": "content",
-            "title": "Projectile Motion",
-            "content": "# Projectile Motion 🎯\n\nProjectile motion is 2D motion under gravity only (ignoring air resistance).\n\n## Key Principle\n\n> *Horizontal and vertical motions are INDEPENDENT!*\n\n| Horizontal | Vertical |\n|------------|----------|\n| ax = 0 | ay = -g |\n| vx = constant | vy changes |\n| x = vx × t | y = vy₀t - ½gt² |\n\n## Trajectory Shape\n\nProjectiles follow a **parabolic** path.\n\n## Important Formulas\n\n### Maximum Height\n```\nH = (v₀sinθ)² / (2g)\n```\n\n### Time of Flight\n```\nT = 2v₀sinθ / g\n```\n\n### Range (horizontal distance)\n```\nR = v₀²sin(2θ) / g\n```\n\n## Optimal Launch Angle\n\n- **Maximum range:** 45°\n- **Complementary angles** (like 30° and 60°) give same range\n\n| Angle | Range | Max Height |\n|-------|-------|------------|\n| 30° | 0.87 R_max | Low |\n| 45° | Maximum | Medium |\n| 60° | 0.87 R_max | High |\n\n## Real-World Applications\n\n- 🏀 Basketball shots\n- ⚽ Football kicks\n- 💧 Water fountains\n- 🎆 Fireworks\n\n> 💡 **Note:** In reality, air resistance modifies these ideal trajectories!"
+            "title": "Conservation of Energy",
+            "content": "# Energy Never Dies ♻️\n\n**Law of Conservation of Energy:**\nEnergy cannot be created or destroyed, only transformed from one form to another.\n\n$$E_{total} = KE + PE = constant$$\n\n(In the absence of non-conservative forces like friction, mechanical energy is conserved.)"
         },
         {
             "id": "mech_13",
             "type": "content",
-            "title": "Momentum",
-            "content": "# Linear Momentum 💨\n\n## Definition\n\nMomentum is the **quantity of motion** an object has.\n\n```\np = m × v\n```\n\n| Symbol | Meaning | Unit |\n|--------|---------|------|\n| p | Momentum | kg⋅m/s |\n| m | Mass | kg |\n| v | Velocity | m/s |\n\n## Properties\n\n- **Vector quantity** - Has direction\n- **Depends on mass AND velocity**\n- **Related to force:** F = Δp/Δt\n\n## Impulse\n\n**Impulse** is the change in momentum:\n\n```\nJ = F × Δt = Δp = m × Δv\n```\n\n## Impulse-Momentum Applications\n\n| Application | How it works |\n|-------------|-------------|\n| Airbags | Increase Δt → Reduce F |\n| Catching a ball | Move hand back → Increase Δt |\n| Crumple zones | Extend collision time |\n| Bungee jumping | Gradual deceleration |\n\n## Comparing Momentum\n\n| Object | Mass | Velocity | Momentum |\n|--------|------|----------|----------|\n| Bullet | 0.01 kg | 400 m/s | 4 kg⋅m/s |\n| Tennis ball | 0.06 kg | 50 m/s | 3 kg⋅m/s |\n| Car | 1000 kg | 10 m/s | 10,000 kg⋅m/s |\n\n> 🎯 **Key Point:** A slow, heavy object can have more momentum than a fast, light one!"
+            "title": "Power",
+            "content": "# Rate of Work ⚡\n\n**Power ($P$)** is how quickly work is done or energy is transferred.\n\n$$P = \\frac{Work}{Time} = \\frac{\\Delta E}{t}$$\n\n- Measured in **Watts ($W$)**.\n- 1 Watt = 1 Joule/second.\n- Also, $P = F \\cdot v$ (Force $\\times$ Velocity)."
         },
         {
             "id": "mech_14",
             "type": "content",
-            "title": "Conservation of Momentum",
-            "content": "# Conservation of Momentum ⚖️\n\n## The Principle\n\n> *\"In an isolated system (no external forces), total momentum remains constant.\"*\n\n```\np_total(before) = p_total(after)\nm₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'\n```\n\n## Types of Collisions\n\n### 1. Elastic Collision\n- Kinetic energy IS conserved\n- Objects bounce apart\n- Example: Billiard balls\n\n### 2. Inelastic Collision\n- Kinetic energy NOT conserved\n- Some energy → heat, sound, deformation\n- Example: Car crash\n\n### 3. Perfectly Inelastic Collision\n- Objects STICK together\n- Maximum KE loss\n- Example: Catching a ball\n\n```\nm₁v₁ + m₂v₂ = (m₁ + m₂)v_final\n```\n\n## Example Problem\n\n**A 1 kg ball moving at 10 m/s collides with a stationary 2 kg ball. They stick together. Find the final velocity.**\n\n| Before | After |\n|--------|-------|\n| p₁ = 1 × 10 = 10 | p = 3 × v |\n| p₂ = 2 × 0 = 0 | |\n| Total = 10 kg⋅m/s | |\n\n10 = 3v → **v = 3.33 m/s**\n\n> 💡 **Application:** This principle explains how rockets work - expelling gas backward gives the rocket forward momentum!"
-        },
-        {
-            "id": "mech_quiz_4",
-            "type": "quiz",
-            "title": "Momentum Quiz",
-            "content": "Final check on momentum concepts!",
-            "quizQuestion": "A 2 kg object moving at 5 m/s collides with a 3 kg stationary object. If they stick together, what is their final velocity?",
-            "quizOptions": [
-                "1 m/s",
-                "2 m/s",
-                "3 m/s",
-                "5 m/s"
-            ],
-            "correctOptionIndex": 1
+            "title": "Momentum",
+            "content": "# Mass in Motion 🐘\n\n**Linear Momentum ($p$)** is a vector quantity.\n\n$$p = mv$$\n\n- Harder to stop heavier or faster objects.\n- **Impulse ($J$)**: Change in momentum.\n$$J = \\Delta p = F \\Delta t$$\nThis explains why airbags save lives (increasing time $\\Delta t$ reduces force $F$)."
         },
         {
             "id": "mech_15",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed the Mechanics module! Here's what you've mastered:\n\n## Key Takeaways\n\n### Kinematics\n- ✅ Motion equations: v = u + at, s = ut + ½at², v² = u² + 2as\n- ✅ Velocity vs speed distinction\n- ✅ Projectile motion follows parabolic path\n\n### Newton's Laws\n- ✅ **1st Law:** Objects resist changes in motion (inertia)\n- ✅ **2nd Law:** F = ma\n- ✅ **3rd Law:** Action = Reaction (on different objects)\n\n### Friction\n- ✅ Static friction ≤ μs × N\n- ✅ Kinetic friction = μk × N\n- ✅ Independent of surface area\n\n### Work & Energy\n- ✅ Work: W = Fd cos(θ)\n- ✅ KE = ½mv², PE = mgh\n- ✅ Energy is conserved in isolated systems\n- ✅ Power: P = W/t = Fv\n\n### Gravitation & Projectiles\n- ✅ F = Gm₁m₂/r²\n- ✅ Maximum range at 45° launch angle\n\n### Momentum\n- ✅ p = mv (conserved in collisions)\n- ✅ Impulse: J = FΔt = Δp\n\n> 🚀 **Next Steps:** Apply these concepts to Thermodynamics and Electromagnetism!\n\n## Practice Tip\nSolve problems using both force (Newton's laws) and energy methods to build strong intuition!"
+            "title": "Conservation of Momentum",
+            "content": "# Collisions 🎱\n\nIn a closed system (no external forces), total momentum is conserved.\n\n$$p_{initial} = p_{final}$$\n$$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$\n\n## Types of Collisions\n1. **Elastic**: Kinetic energy IS conserved (billiard balls).\n2. **Inelastic**: Kinetic energy IS NOT conserved (cars crashing and sticking)."
+        },
+        {
+            "id": "mech_16",
+            "type": "content",
+            "title": "Gravitation",
+            "content": "# Universal Attraction 🪐\n\n**Newton's Law of Universal Gravitation:**\nEvery particle attracts every other particle.\n\n$$F_g = G \\frac{m_1 m_2}{r^2}$$\n\n- $G$: Gravitational constant\n- $r$: Distance between centers\n\nGravity is what keeps planets in orbit!"
+        },
+        {
+            "id": "mech_17",
+            "type": "content",
+            "title": "Projectile Motion",
+            "content": "# Curved Paths 🏹\n\nMotion in 2D with constant horizontal velocity and constant vertical acceleration (gravity).\n\n- **Horizontal ($x$)**: $a_x = 0$, $v_x$ is constant.\n- **Vertical ($y$)**: $a_y = -g$ ($9.8 m/s^2$).\n\nThe path of a projectile is a **parabola**."
+        },
+        {
+            "id": "mech_end",
+            "type": "content",
+            "title": "Mechanics Summary",
+            "content": "# You've Mastered Mechanics! 🎓\n\n## Key Takeaways\n- **Motion** is described by displacement, velocity, and acceleration.\n- **Newton's Laws** govern how forces affect motion.\n- **Energy** is conserved, transforming between Kinetic and Potential.\n- **Momentum** describes the impact of collisions.\n\nMechanics is the toolkit for understanding the physical universe around us. Great job!"
         }
     ]
 }

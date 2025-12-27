@@ -1,56 +1,92 @@
 [
     {
         "title": "Haber Process ⚗️",
-        "ques": "For ammonia synthesis: N₂ + 3H₂ ⇌ 2NH₃\n\n1. What conditions favor high yield?\n2. Why use 450°C despite Le Chatelier?\n3. What catalyst is used?",
+        "ques": "Describe the **Haber process** for ammonia synthesis including conditions and catalyst.",
         "answer": {
             "type": "text",
-            "content": "**1. High yield conditions:**\n- High pressure (200 atm) - fewer moles on right\n- Low temperature - exothermic reaction\n- Remove NH₃ as formed\n\n**2. 450°C used** for faster rate despite lower equilibrium yield (compromise)\n\n**3. Catalyst:** Iron with promoters (K₂O, Al₂O₃)"
+            "content": "**Reaction:**\n$$N_2(g) + 3H_2(g) ⇌ 2NH_3(g) \\quad ΔH = -92\\ kJ/mol$$\n\n**Conditions:**\n- **Temperature:** 400-500°C\n- **Pressure:** 150-300 atm\n- **Catalyst:** Iron with promoters (K₂O, Al₂O₃)\n\n**Why these conditions:**\n- High pressure → favors fewer moles (product side)\n- Lower temp → favors exothermic direction BUT too slow\n- Compromise: 450°C gives reasonable rate and yield (~15%)\n- Unreacted gases recycled"
         },
-        "explanation": "**Haber process** balances yield vs rate. Too cold = high yield but too slow. Catalyst enables reasonable rate at lower temperature."
+        "explanation": "Haber process produces 150 million tons of NH₃ annually—essential for fertilizers feeding half the world's population."
     },
     {
-        "title": "Electrolysis Applications 🔋",
-        "ques": "In electrolysis of molten NaCl:\n\n1. Write electrode reactions\n2. Why can't aqueous NaCl work the same way?\n3. What are the products of brine electrolysis?",
+        "title": "Electrolysis Calculations ⚡",
+        "ques": "How many grams of **Al** are produced by passing **10 A** current for **1 hour** through molten Al₂O₃?",
         "answer": {
             "type": "text",
-            "content": "**1. Reactions:**\n- Cathode: Na⁺ + e⁻ → Na\n- Anode: 2Cl⁻ → Cl₂ + 2e⁻\n\n**2. Aqueous NaCl:** Water is reduced instead (H₂O → H₂ + OH⁻) because lower reduction potential\n\n**3. Brine products:** Cl₂, H₂, and NaOH (chlor-alkali process)"
+            "content": "**Cathode reaction:** Al³⁺ + 3e⁻ → Al\n\n**Charge passed:**\nQ = I × t = 10 A × 3600 s = 36,000 C\n\n**Moles of electrons:**\nn_e = Q/F = 36000/96485 = 0.373 mol e⁻\n\n**Moles of Al:**\nn_Al = n_e/3 = 0.373/3 = 0.124 mol\n\n**Mass of Al:**\nm = n × M = 0.124 × 27 = **3.35 g**"
         },
-        "explanation": "**Electrolysis** splits compounds using electricity. In solution, the species with lowest reduction potential is reduced."
+        "explanation": "Industrial Al production uses Hall-Héroult process. It's energy-intensive: ~15 kWh per kg of Al."
     },
     {
-        "title": "Soaps and Detergents 🧼",
-        "ques": "1. How is soap made (saponification)?\n2. Why doesn't soap work well in hard water?\n3. How do detergents differ?",
+        "title": "Soap vs Detergent 🧼",
+        "ques": "Explain the chemical difference between soap and synthetic detergent, and why detergents work in hard water.",
         "answer": {
             "type": "text",
-            "content": "**1. Saponification:**\n```\nFat + NaOH → Glycerol + Soap\n(ester + base → alcohol + carboxylate salt)\n```\n\n**2. Hard water:** Ca²⁺/Mg²⁺ form insoluble soap scum (calcium stearate)\n\n**3. Detergents:** Synthetic, don't precipitate with hard water (sulfonate groups)"
+            "content": "**Soap:**\n- Sodium/potassium salt of fatty acid\n- Example: C₁₇H₃₅COO⁻Na⁺\n- **Problem in hard water:**\n  2RCOO⁻ + Ca²⁺ → (RCOO)₂Ca↓ (insoluble scum)\n\n**Detergent:**\n- Sodium alkyl sulfate or sulfonate\n- Example: C₁₂H₂₅OSO₃⁻Na⁺\n- **Works in hard water:**\n  Calcium salts are soluble—no scum!\n\n**Both have:**\n- Hydrophilic head (water-loving)\n- Hydrophobic tail (grease-loving)\n- Form micelles around dirt"
         },
-        "explanation": "**Soaps** are sodium salts of fatty acids. Detergents have different ionic groups that stay soluble with Ca²⁺."
+        "explanation": "Hard water contains Ca²⁺ and Mg²⁺. Soap forms insoluble precipitates; detergents don't. Biodegradable detergents are now preferred."
     },
     {
-        "title": "Nanomaterials 🔬",
-        "ques": "1. What defines a nanomaterial?\n2. Why do nanoparticles have different properties?\n3. Name 2 applications",
+        "title": "Nanotechnology Applications 🔬",
+        "ques": "Describe two applications of **nanotechnology** in chemistry, explaining how size affects properties.",
         "answer": {
             "type": "text",
-            "content": "**1. Definition:** At least one dimension 1-100 nm\n\n**2. Different properties because:**\n- Very high surface area to volume ratio\n- Quantum effects at small sizes\n- Different electronic structure\n\n**3. Applications:**\n- Drug delivery (penetrate cells)\n- Catalysis (high surface area)\n- Electronics (quantum dots)\n- Sunscreens (TiO₂ nanoparticles)"
+            "content": "**1. Nanoparticle Catalysts:**\n- Gold nanoparticles catalyze CO oxidation\n- Bulk gold is inert!\n- **Why:** High surface area:volume ratio\n- More atoms available for reaction\n\n**2. Quantum Dots:**\n- Semiconductor nanocrystals (CdSe, InP)\n- **Size-dependent fluorescence**\n- Smaller = higher energy = bluer light\n- Used in: displays, solar cells, bioimaging\n\n**Size effects occur because:**\n- Quantum confinement (electrons restricted)\n- Surface atoms dominate behavior\n- Different electronic structure than bulk"
         },
-        "explanation": "**Nanomaterials** behave differently from bulk materials. Gold nanoparticles appear red, not gold-colored!"
+        "explanation": "Nanoscale (1-100 nm) materials have unique properties unlike bulk or molecular forms. Surface effects dominate."
     },
     {
-        "title": "Battery Chemistry 🔌",
-        "ques": "For a zinc-copper cell:\n\n1. Write half-reactions\n2. Which is anode, which is cathode?\n3. Why does the zinc electrode get lighter?",
+        "title": "Fuel Cells ⚡",
+        "ques": "Write the electrode reactions and overall reaction for a **hydrogen fuel cell**. Why is it efficient?",
         "answer": {
             "type": "text",
-            "content": "**1. Half-reactions:**\n- Zn → Zn²⁺ + 2e⁻ (oxidation)\n- Cu²⁺ + 2e⁻ → Cu (reduction)\n\n**2.** Anode: Zinc (oxidation)\nCathode: Copper (reduction)\n\n**3. Zinc gets lighter** because Zn atoms dissolve into solution as Zn²⁺ ions"
+            "content": "**Anode (oxidation):**\n$$2H_2 → 4H^+ + 4e^-$$\n\n**Cathode (reduction):**\n$$O_2 + 4H^+ + 4e^- → 2H_2O$$\n\n**Overall:**\n$$2H_2 + O_2 → 2H_2O \\quad ΔG° = -237\\ kJ/mol$$\n\n**Efficiency advantages:**\n- Direct chemical → electrical conversion\n- No combustion (Carnot limit doesn't apply)\n- Theoretical efficiency: ~83%\n- Actual: 40-60% (still better than engines)\n- Byproduct: only water!"
         },
-        "explanation": "**Galvanic cells** convert chemical energy to electrical. More reactive metal (Zn) is oxidized at anode."
+        "explanation": "Fuel cells power some vehicles and spacecraft. Main challenges: H₂ storage, Pt catalyst cost."
     },
     {
-        "title": "Materials Science 🏗️",
-        "ques": "Compare:\n1. Alloys vs pure metals\n2. Polymers vs ceramics\n3. Why is steel stronger than iron?",
+        "title": "Polymer Recycling ♻️",
+        "ques": "Explain the difference between **mechanical** and **chemical** recycling of plastics.",
         "answer": {
             "type": "text",
-            "content": "**1. Alloys:** Mixtures of metals; usually stronger than pure metals (different atom sizes disrupt slip)\n\n**2.** \n- Polymers: Long chains, flexible, low melting point\n- Ceramics: Ionic/covalent, hard, brittle, high mp\n\n**3. Steel stronger** because carbon atoms fit between iron atoms, preventing layers from sliding"
+            "content": "**Mechanical Recycling:**\n- Physical process: shred, melt, reform\n- *Advantages:* Simple, established\n- *Limitations:*\n  - Quality degrades each cycle\n  - Can't mix polymer types\n  - Limited cycles possible\n\n**Chemical Recycling:**\n- Break polymers back to monomers\n- Methods: pyrolysis, depolymerization, gasification\n\n*Example: PET depolymerization*\n$$PET + 2CH_3OH → 2 \\text{(DMT)} + \\text{ethylene glycol}$$\n\n- *Advantages:* Produces virgin-quality material\n- *Limitations:* Energy intensive, expensive"
         },
-        "explanation": "**Material properties** depend on structure. Impurities/alloying creates obstacles to dislocation movement → stronger material."
+        "explanation": "Chemical recycling could enable true circularity for plastics. Currently only ~9% of plastic is recycled globally."
+    },
+    {
+        "title": "Batteries - Li-ion 🔋",
+        "ques": "Write the electrode reactions for a **lithium-ion battery** during discharge.",
+        "answer": {
+            "type": "text",
+            "content": "**Anode (oxidation):**\n$$LiC_6 → C_6 + Li^+ + e^-$$\n*(Lithium leaves graphite)*\n\n**Cathode (reduction):**\n$$Li^+ + e^- + CoO_2 → LiCoO_2$$\n*(Lithium intercalates into cobalt oxide)*\n\n**Overall:**\n$$LiC_6 + CoO_2 → C_6 + LiCoO_2$$\n\n**Key features:**\n- No metallic lithium (safer)\n- Lithium ions \"shuttle\" between electrodes\n- Voltage: ~3.7 V per cell\n- High energy density"
+        },
+        "explanation": "Li-ion batteries power phones, laptops, and EVs. Development won the 2019 Nobel Prize in Chemistry."
+    },
+    {
+        "title": "Petrochemical Cracking 🛢️",
+        "ques": "What is catalytic cracking? Why is it important for fuel production?",
+        "answer": {
+            "type": "text",
+            "content": "**Catalytic Cracking:**\nBreaking large hydrocarbon molecules into smaller, more useful ones\n\n**Example:**\n$$C_{16}H_{34} \\xrightarrow{zeolite, 500°C} C_8H_{18} + C_8H_{16}$$\n\n**Conditions:**\n- Catalyst: Zeolite (aluminosilicate)\n- Temperature: 450-550°C\n- Fluidized bed reactor\n\n**Importance:**\n- Crude oil has too much heavy fraction\n- Demand is high for gasoline/diesel\n- Also produces alkenes for plastics\n- Increases refinery flexibility and profit"
+        },
+        "explanation": "Cracking matches refinery output to market demand. Zeolite catalysts are highly shape-selective."
+    },
+    {
+        "title": "Contact Process ⚗️",
+        "ques": "Outline the **Contact Process** for sulfuric acid production. Why is SO₃ absorbed in H₂SO₄ instead of water?",
+        "answer": {
+            "type": "text",
+            "content": "**Steps:**\n\n1. **Burn sulfur:**\n   $$S + O_2 → SO_2$$\n\n2. **Oxidize (key step):**\n   $$2SO_2 + O_2 ⇌ 2SO_3$$\n   Catalyst: V₂O₅, 450°C, 1-2 atm\n\n3. **Absorb in oleum:**\n   $$SO_3 + H_2SO_4 → H_2S_2O_7$$ (oleum)\n   $$H_2S_2O_7 + H_2O → 2H_2SO_4$$\n\n**Why not direct water absorption?**\n- SO₃ + H₂O is extremely exothermic\n- Creates acid mist (dangerous, inefficient)\n- Oleum absorbs SO₃ controllably"
+        },
+        "explanation": "H₂SO₄ is the most produced chemical globally—used in fertilizers, detergents, and metal processing."
+    },
+    {
+        "title": "Drug Chirality 💊",
+        "ques": "Why is **enantiomeric purity** critical in pharmaceutical manufacturing? Give an example.",
+        "answer": {
+            "type": "text",
+            "content": "**Why chirality matters:**\n- Biological receptors are chiral\n- Each enantiomer may have different effects\n- One may be therapeutic, other harmful\n\n**Thalidomide tragedy:**\n- (R)-thalidomide: sedative (intended)\n- (S)-thalidomide: teratogenic (caused birth defects)\n- They interconvert in the body\n- Led to modern drug safety regulations\n\n**Solutions:**\n- Asymmetric synthesis (make one enantiomer)\n- Chiral resolution (separate racemate)\n- Use chiral catalysts or enzymes"
+        },
+        "explanation": "FDA now often requires testing of individual enantiomers. Chiral drugs account for ~50% of pharmaceutical sales."
     }
 ]

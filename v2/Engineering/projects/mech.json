@@ -1,56 +1,92 @@
 [
     {
-        "title": "Thermodynamic Systems 🔥",
-        "ques": "1. Types of thermodynamic systems\n2. State properties\n3. Process types",
+        "title": "Stress and Strain 🔧",
+        "ques": "Define **stress, strain, and Young's modulus**. Calculate strain if a 2m rod stretches by 1mm.",
         "answer": {
             "type": "text",
-            "content": "**1. System types:**\n- Open: Mass and energy can cross boundary\n- Closed: Only energy crosses (fixed mass)\n- Isolated: Nothing crosses\n\n**2. State properties:** Fully defined by: Temperature, Pressure, Volume, Internal Energy, Enthalpy\n\n**3. Process types:**\n- Isothermal: Constant T\n- Isobaric: Constant P\n- Isochoric: Constant V\n- Adiabatic: No heat transfer"
+            "content": "**Definitions:**\n\n| Term | Formula | Units |\n|------|---------|-------|\n| **Stress (σ)** | Force/Area | Pa (N/m²) |\n| **Strain (ε)** | ΔL/L | Dimensionless |\n| **Young's Modulus (E)** | σ/ε | Pa |\n\n**Calculation:**\n$$ε = \\frac{ΔL}{L} = \\frac{1\\ mm}{2000\\ mm} = \\mathbf{0.0005 = 0.05\\%}$$\n\n**Hooke's Law:** σ = E × ε (elastic region)"
         },
-        "explanation": "**First Law:** ΔU = Q - W. Energy is conserved; heat and work are forms of energy transfer."
+        "explanation": "Young's modulus measures material stiffness. Steel: ~200 GPa, Rubber: ~0.01 GPa."
     },
     {
-        "title": "Heat Exchangers 🔄",
-        "ques": "1. Types of heat exchangers\n2. LMTD method\n3. Effectiveness-NTU method",
+        "title": "Thermodynamics Cycles 🔄",
+        "ques": "Explain the **Carnot cycle** and why it represents maximum efficiency.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Shell and tube\n- Plate\n- Double pipe\n- Cross-flow\n\n**2. LMTD (Log Mean Temperature Difference):**\n```\nQ = U·A·LMTD\nLMTD = (ΔT₁ - ΔT₂)/ln(ΔT₁/ΔT₂)\n```\n\n**3. Effectiveness-NTU:**\n- ε = actual heat transfer / maximum possible\n- Used when outlet temps unknown"
+            "content": "**Carnot Cycle (4 reversible processes):**\n\n1. **Isothermal expansion:** Heat absorbed from hot reservoir\n2. **Adiabatic expansion:** Temperature drops\n3. **Isothermal compression:** Heat rejected to cold reservoir\n4. **Adiabatic compression:** Temperature rises\n\n**Efficiency:**\n$$η_{Carnot} = 1 - \\frac{T_C}{T_H}$$\n\n**Maximum because:**\n- All processes reversible (no friction, heat loss)\n- No real engine can exceed Carnot efficiency\n- Example: T_H=500K, T_C=300K → η = 40%"
         },
-        "explanation": "**Counter-flow** exchangers are more efficient than parallel flow for same area."
+        "explanation": "Real engines 20-40% efficient. Carnot is ideal limit—useful for comparison."
     },
     {
-        "title": "IC Engines 🚗",
-        "ques": "1. Four-stroke cycle\n2. Otto vs Diesel cycle\n3. Compression ratio effect",
+        "title": "Gear Ratios ⚙️",
+        "ques": "Calculate the **gear ratio** and output speed if input gear (20 teeth) at 1000 rpm drives output gear (60 teeth).",
         "answer": {
             "type": "text",
-            "content": "**1. Four strokes:**\n1. Intake: Air/fuel enters\n2. Compression: Piston compresses mixture\n3. Power: Combustion pushes piston\n4. Exhaust: Burnt gases exit\n\n**2. Otto vs Diesel:**\n- Otto: Spark ignition, gasoline\n- Diesel: Compression ignition, no spark\n\n**3. Compression ratio:**\nHigher CR → Higher efficiency\n- Otto: 8-12:1\n- Diesel: 15-22:1"
+            "content": "**Gear Ratio:**\n$$GR = \\frac{N_{output}}{N_{input}} = \\frac{60}{20} = 3:1$$\n\n**Speed Relationship:**\n$$\\frac{ω_{in}}{ω_{out}} = GR$$\n\n**Output Speed:**\n$$ω_{out} = \\frac{1000}{3} = \\mathbf{333.3\\ rpm}$$\n\n**Torque Relationship:**\n$$T_{out} = T_{in} × GR$$\n\nMore teeth on output = slower but more torque (speed reduction)"
         },
-        "explanation": "**Diesel engines** are more efficient due to higher compression ratio but heavier."
+        "explanation": "Gear trains multiply torque at the expense of speed, or vice versa. Power (P = Tω) is conserved (minus friction)."
     },
     {
-        "title": "Refrigeration Cycle ❄️",
-        "ques": "1. Components of vapor compression cycle\n2. How does it move heat from cold to hot?\n3. COP definition",
+        "title": "Heat Transfer 🌡️",
+        "ques": "Compare **conduction, convection, and radiation** heat transfer modes.",
         "answer": {
             "type": "text",
-            "content": "**1. Components:**\n- Compressor: Raises refrigerant pressure\n- Condenser: Releases heat to surroundings\n- Expansion valve: Drops pressure\n- Evaporator: Absorbs heat from cold space\n\n**2. Heat pump action:**\nWork input allows heat to flow from cold to hot (opposite of natural)\n\n**3. COP (Coefficient of Performance):**\n```\nCOP_refrigerator = Q_cold/W\nCOP_heat_pump = Q_hot/W\n```\nCOP > 1 is typical (not efficiency)"
+            "content": "| Mode | Mechanism | Medium Required? | Example |\n|------|-----------|-----------------|--------|\n| **Conduction** | Molecular vibration | Yes (solid best) | Touching hot pan |\n| **Convection** | Fluid motion | Yes (fluid) | Boiling water |\n| **Radiation** | EM waves | No | Sunlight |\n\n**Formulas:**\n- Conduction: $Q = kA\\frac{ΔT}{L}$\n- Convection: $Q = hA ΔT$\n- Radiation: $Q = εσAT^4$"
         },
-        "explanation": "**Heat pumps** are refrigerators in reverse. Extract heat from cold outdoor air to warm house."
+        "explanation": "Buildings use all three: insulation (blocks conduction), sealing (blocks convection), reflective surfaces (blocks radiation)."
     },
     {
-        "title": "Fluid Properties 💧",
-        "ques": "1. Viscosity and its types\n2. Reynolds number\n3. Laminar vs turbulent flow",
+        "title": "Fluid Mechanics 💧",
+        "ques": "State **Bernoulli's equation** and use it to explain airplane lift.",
         "answer": {
             "type": "text",
-            "content": "**1. Viscosity:** Resistance to flow\n- Dynamic (μ): Force per shear rate\n- Kinematic (ν = μ/ρ): Dynamic/density\n\n**2. Reynolds number:**\n```\nRe = ρvD/μ = vD/ν\n```\n- Re < 2300: Laminar\n- Re > 4000: Turbulent\n- Between: Transition\n\n**3. Flow types:**\n- Laminar: Smooth, parallel layers\n- Turbulent: Chaotic, mixing"
+            "content": "**Bernoulli's Equation:**\n$$P + \\frac{1}{2}ρv^2 + ρgh = constant$$\n\nPressure + Kinetic + Potential = constant along streamline\n\n**Airplane Wing:**\n- Curved top → air speeds up → lower pressure\n- Flat bottom → slower air → higher pressure\n- Pressure difference → upward force (lift)\n\n**Lift equation:**\n$$L = \\frac{1}{2}ρv^2 × C_L × A$$"
         },
-        "explanation": "**Reynolds number** predicts flow regime. Higher velocity/diameter → more turbulent."
+        "explanation": "Bernoulli also explains venturi tubes, spray bottles, and carburetor function."
     },
     {
-        "title": "Pump and Turbine 🌊",
-        "ques": "1. Pump vs turbine purpose\n2. Pump types\n3. What is head?",
+        "title": "Machine Design 🔩",
+        "ques": "What is a **factor of safety** and why is it important?",
         "answer": {
             "type": "text",
-            "content": "**1. Difference:**\n- Pump: Adds energy to fluid (lifts/moves)\n- Turbine: Extracts energy from fluid (generates power)\n\n**2. Pump types:**\n- Centrifugal: Uses impeller\n- Positive displacement: Piston/gear\n\n**3. Head:** Energy per unit weight\n```\nH = ΔP/ρg + Δv²/2g + Δz\n```\n(Pressure head + Velocity head + Elevation head)"
+            "content": "**Factor of Safety (FoS):**\n$$FoS = \\frac{Failure\\ Strength}{Design\\ Load}$$\n\n**Purpose:**\n- Account for uncertainties\n- Material variations\n- Unexpected loads\n- Degradation over time\n\n**Typical Values:**\n| Application | FoS |\n|-------------|-----|\n| Building structures | 2-3 |\n| Bridges | 3-6 |\n| Pressure vessels | 3.5-4 |\n| Aircraft | 1.5-2 |\n| Nuclear | 4-10 |"
         },
-        "explanation": "**Bernoulli's equation** is fundamental to pump/turbine analysis. Total head is conserved."
+        "explanation": "Higher FoS = safer but heavier and more expensive. Engineers balance safety, cost, and weight."
+    },
+    {
+        "title": "Free Body Diagrams ⚖️",
+        "ques": "Draw a **free body diagram** for a ladder leaning against a wall.",
+        "answer": {
+            "type": "text",
+            "content": "**Forces on Ladder:**\n\n**Acting:**\n1. Weight (W) - downward at center of mass\n2. Normal from floor (N₁) - upward\n3. Friction from floor (f) - toward wall\n4. Normal from wall (N₂) - away from wall\n\n**Equilibrium Equations:**\n- ΣFx = 0: f = N₂\n- ΣFy = 0: N₁ = W\n- ΣM = 0: (moment balance about any point)\n\n**Tip:** Wall often assumed frictionless"
+        },
+        "explanation": "FBDs are the first step in any statics or dynamics problem. Include all external forces."
+    },
+    {
+        "title": "Vibration Analysis 📳",
+        "ques": "What is **natural frequency** and why is resonance dangerous?",
+        "answer": {
+            "type": "text",
+            "content": "**Natural Frequency:**\nFrequency at which a system naturally vibrates when disturbed\n\n**For mass-spring system:**\n$$f_n = \\frac{1}{2π}\\sqrt{\\frac{k}{m}}$$\n\n**Resonance:**\n- When forcing frequency = natural frequency\n- Amplitude grows dramatically\n- Can cause structural failure\n\n**Examples:**\n- Tacoma Narrows Bridge collapse (1940)\n- Wine glass breaking with voice\n- Earthquake matching building frequency"
+        },
+        "explanation": "Engineers avoid resonance by changing mass, stiffness, or adding damping."
+    },
+    {
+        "title": "CAD Basics 🖥️",
+        "ques": "What is **CAD/CAM** and how has it revolutionized engineering?",
+        "answer": {
+            "type": "text",
+            "content": "**CAD (Computer-Aided Design):**\n- 2D drafting and 3D modeling\n- Precise geometric representation\n- Easy modification and iteration\n- Software: AutoCAD, SolidWorks, Fusion 360\n\n**CAM (Computer-Aided Manufacturing):**\n- Generates CNC machine instructions\n- Toolpath planning\n- Simulation before cutting\n\n**Benefits:**\n- Faster design cycles\n- Fewer physical prototypes\n- Integration with analysis (FEA)\n- Digital twin capability"
+        },
+        "explanation": "Modern products go from CAD model directly to 3D printing or CNC machining. PLM manages entire lifecycle."
+    },
+    {
+        "title": "Finite Element Analysis 🔢",
+        "ques": "What is **FEA** and how is it used in mechanical engineering?",
+        "answer": {
+            "type": "text",
+            "content": "**FEA (Finite Element Analysis):**\n- Divides complex geometry into small elements\n- Solves equations at each node\n- Assembles global solution\n\n**Process:**\n1. Create/import geometry\n2. Mesh into elements\n3. Apply boundary conditions and loads\n4. Solve\n5. Post-process results\n\n**Applications:**\n- Stress analysis\n- Heat transfer\n- Fluid flow (CFD)\n- Vibration (modal analysis)"
+        },
+        "explanation": "FEA catches design problems before manufacturing. Software: ANSYS, ABAQUS, COMSOL."
     }
 ]

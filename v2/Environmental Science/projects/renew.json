@@ -1,56 +1,92 @@
 [
     {
         "title": "Solar Energy ☀️",
-        "ques": "1. Types of solar energy\n2. How do solar panels work?\n3. Advantages and challenges",
+        "ques": "Compare **photovoltaic (PV)** and **concentrated solar power (CSP)** technologies.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Photovoltaic (PV): Direct electricity\n- Concentrated Solar Power (CSP): Heat to steam to electricity\n- Solar thermal: Hot water/heating\n\n**2. PV operation:**\n- Photons hit silicon cells\n- Electrons knocked loose\n- Electric field drives current\n- ~20% efficiency typical\n\n**3. Pros/Cons:**\n- ✅ Clean, abundant, decreasing cost\n- ❌ Intermittent, land use, manufacturing footprint"
+            "content": "**Photovoltaic (PV):**\n- Direct conversion of light to electricity\n- Semiconductor cells (silicon)\n- Works in diffuse light\n- Modular, scalable\n- Efficiency: 15-22% (commercial)\n\n**Concentrated Solar Power (CSP):**\n- Uses mirrors to concentrate sunlight\n- Heats fluid to drive turbine\n- Needs direct sunlight (deserts)\n- Thermal storage possible (24hr operation)\n\n| Factor | PV | CSP |\n|--------|-----|-----|\n| Scale | Any | Large |\n| Storage | Batteries | Thermal |"
         },
-        "explanation": "**Solar cost** dropped 89% in 10 years. Now cheapest electricity source in many locations."
+        "explanation": "PV costs dropped 90% in 10 years. CSP declining due to PV + battery competition."
     },
     {
-        "title": "Wind Power 💨",
-        "ques": "1. How turbines work\n2. Onshore vs offshore\n3. Limitations",
+        "title": "Wind Power 🌬️",
+        "ques": "Explain how **wind turbines** work and factors affecting their output.",
         "answer": {
             "type": "text",
-            "content": "**1. Turbine operation:**\n- Wind turns blades\n- Rotor spins generator\n- Electricity produced\n- Power ∝ wind speed³\n\n**2. Comparison:**\n- Onshore: Cheaper, easier maintenance\n- Offshore: Stronger/consistent winds, less visual impact, more expensive\n\n**3. Limitations:**\n- Intermittent\n- Bird/bat mortality\n- Noise concerns\n- Visual impact\n- Need backup/storage"
+            "content": "**Working Principle:**\nWind → Rotor blades → Generator → Electricity\n\n**Power Equation:**\n$$P = \\frac{1}{2}ρAv^3C_p$$\n\n| Factor | Effect |\n|--------|--------|\n| Wind speed (v³) | Dominant factor—doubling speed = 8× power |\n| Air density (ρ) | Higher at low altitude |\n| Swept area (A) | Larger turbines = more power |\n| Capacity factor (Cp) | Max ~59% (Betz limit) |\n\n**Offshore:** Higher winds, fewer obstacles, more expensive"
         },
-        "explanation": "**Wind power** supplied 7% of global electricity in 2022. Growing rapidly."
+        "explanation": "Modern turbines: 2-15 MW. Capacity factor: typically 30-50% depending on site."
+    },
+    {
+        "title": "Hydroelectric Power 💧",
+        "ques": "Compare **conventional hydro, pumped storage, and run-of-river** hydro systems.",
+        "answer": {
+            "type": "text",
+            "content": "| Type | Description | Storage |\n|------|-------------|--------|\n| **Conventional** | Dam creates reservoir | Yes |\n| **Pumped Storage** | Pumps water uphill when excess power | Yes (battery) |\n| **Run-of-River** | No significant storage | Minimal |\n\n**Advantages:**\n- Dispatchable (can turn on/off)\n- Long lifetime (50+ years)\n- Low operating costs\n\n**Disadvantages:**\n- Environmental impacts (fish, ecosystems)\n- Methane from reservoirs\n- Limited new sites"
+        },
+        "explanation": "Hydro is ~16% of global electricity. Three Gorges Dam: 22.5 GW, world's largest."
+    },
+    {
+        "title": "Biomass and Biofuels 🌾",
+        "ques": "Compare **first, second, and third generation** biofuels.",
+        "answer": {
+            "type": "text",
+            "content": "| Generation | Feedstock | Issues |\n|------------|-----------|--------|\n| **First** | Food crops (corn, sugarcane) | Food vs fuel, land use |\n| **Second** | Non-food (cellulose, waste) | Processing challenges |\n| **Third** | Algae | Still in development |\n\n**Products:**\n- Bioethanol (gasoline replacement)\n- Biodiesel (diesel replacement)\n- Biogas (anaerobic digestion)\n\n**Carbon neutral?** Only if sustainably sourced"
+        },
+        "explanation": "Lifecycle emissions matter. Corn ethanol barely carbon positive; cellulosic ethanol much better."
+    },
+    {
+        "title": "Geothermal Energy 🌋",
+        "ques": "Where is **geothermal energy** viable and how is it harnessed?",
+        "answer": {
+            "type": "text",
+            "content": "**Best Locations:**\n- Plate boundaries\n- Volcanic regions\n- Hot spots (Iceland, New Zealand, Kenya)\n\n**Types of Systems:**\n| Type | Temperature | Use |\n|------|-------------|-----|\n| High-temp (>150°C) | Electricity generation | Flash, binary plants |\n| Medium (90-150°C) | District heating | Direct use |\n| Low (<90°C) | Heat pumps | Building heating/cooling |\n\n**Advantages:** Baseload, small footprint, 24/7\n**Enhanced Geothermal (EGS):** Create reservoirs in hot dry rock"
+        },
+        "explanation": "Iceland gets ~30% of electricity from geothermal. Potential is enormous but geography-limited."
+    },
+    {
+        "title": "Nuclear Power ☢️",
+        "ques": "Is nuclear energy **renewable**? Discuss its pros and cons.",
+        "answer": {
+            "type": "text",
+            "content": "**Not technically renewable** (finite uranium), but very low carbon\n\n**Pros:**\n- High energy density\n- Very low emissions\n- Baseload power\n- Small land footprint\n\n**Cons:**\n- Radioactive waste (long-lived)\n- Accident risk (Fukushima, Chernobyl)\n- High capital cost\n- Proliferation concerns\n\n**New Developments:**\n- Small Modular Reactors (SMRs)\n- Generation IV designs\n- Fusion (research stage)"
+        },
+        "explanation": "~10% of global electricity. France: 70% nuclear. Debate on role in climate mitigation continues."
     },
     {
         "title": "Energy Storage 🔋",
-        "ques": "1. Why is storage important?\n2. Types of storage\n3. Battery technologies",
+        "ques": "Compare different **energy storage** technologies for renewable integration.",
         "answer": {
             "type": "text",
-            "content": "**1. Importance:**\n- Match supply with demand\n- Enable higher renewable penetration\n- Provide backup power\n- Grid stability\n\n**2. Storage types:**\n- Batteries (Li-ion, flow)\n- Pumped hydro (largest scale)\n- Compressed air\n- Hydrogen\n- Thermal\n\n**3. Batteries:**\n- Lithium-ion dominant\n- Sodium-ion emerging (cheaper)\n- Solid-state (future)\n- Flow batteries (long duration)"
+            "content": "| Technology | Duration | Efficiency | Use |\n|------------|----------|------------|-----|\n| Li-ion batteries | Hours | 85-95% | Grid, EVs |\n| Pumped hydro | Hours-days | 70-85% | Bulk storage |\n| Compressed air | Hours | 50-70% | Large scale |\n| Hydrogen | Days-months | 30-40% | Seasonal |\n| Flow batteries | Hours | 70-80% | Grid |\n\n**Challenge:** Intermittency of solar/wind needs storage\n**Solution:** Mix of technologies for different timescales"
         },
-        "explanation": "**Storage** is the key to 100% renewable grids. Costs dropping rapidly."
+        "explanation": "Battery costs dropped 90% since 2010. Grid-scale storage growing rapidly."
     },
     {
-        "title": "Nuclear Energy ⚛️",
-        "ques": "1. How nuclear plants work\n2. Pros and cons\n3. Future of nuclear",
+        "title": "Grid Integration 🔌",
+        "ques": "What challenges arise from integrating **variable renewables** into power grids?",
         "answer": {
             "type": "text",
-            "content": "**1. Operation:**\n- Fission splits uranium atoms\n- Heat creates steam\n- Steam drives turbines\n- ~33% thermal efficiency\n\n**2. Pros/Cons:**\n- ✅ Low carbon, reliable, high power density\n- ❌ Waste storage, accident risk, high cost, slow to build\n\n**3. Future:**\n- Small Modular Reactors (SMRs)\n- Advanced reactor designs\n- Fusion (long-term)"
+            "content": "**Challenges:**\n| Issue | Description |\n|-------|------------|\n| Intermittency | Sun doesn't always shine |\n| Variability | Output fluctuates |\n| Forecast errors | Weather prediction limits |\n| Duck curve | Midday solar oversupply |\n| Grid stability | Frequency/voltage control |\n\n**Solutions:**\n- Energy storage\n- Demand response\n- Interconnected grids\n- Flexible conventional plants\n- Smart grid technology"
         },
-        "explanation": "**Nuclear** provides 10% of global electricity. Debate continues over its role in decarbonization."
+        "explanation": "California's duck curve: steep evening ramp as solar drops. Solved by batteries and demand shifting."
     },
     {
-        "title": "Bioenergy 🌽",
-        "ques": "1. What is bioenergy?\n2. Generations of biofuels\n3. Sustainability concerns",
+        "title": "Hydrogen Economy 🧪",
+        "ques": "What is **green hydrogen** and how might it be used?",
         "answer": {
             "type": "text",
-            "content": "**1. Bioenergy:** Energy from organic matter (biomass)\n- Burning wood, crop residues\n- Biofuels (ethanol, biodiesel)\n- Biogas (methane from waste)\n\n**2. Biofuel generations:**\n- 1st: Food crops (corn, sugarcane)\n- 2nd: Non-food (cellulose, waste)\n- 3rd: Algae\n\n**3. Concerns:**\n- Food vs fuel competition\n- Land use change\n- Net carbon impact\n- Water use"
+            "content": "**Hydrogen by Production Method:**\n| Color | Production | Carbon |\n|-------|------------|--------|\n| Grey | Natural gas (SMR) | High |\n| Blue | SMR + carbon capture | Medium |\n| Green | Electrolysis + renewables | Near zero |\n\n**Uses:**\n- Heavy transport (trucks, ships, planes)\n- Industrial heat\n- Steel production\n- Seasonal energy storage\n- Ammonia for shipping fuel\n\n**Challenges:** Efficiency losses, storage, infrastructure"
         },
-        "explanation": "**Sustainable bioenergy** from waste is good; growing crops for fuel is controversial."
+        "explanation": "Green hydrogen currently expensive but costs falling. Key for decarbonizing hard-to-electrify sectors."
     },
     {
-        "title": "Energy Efficiency 💡",
-        "ques": "1. Why efficiency matters\n2. Buildings efficiency\n3. Transport efficiency",
+        "title": "Energy Efficiency ⚡",
+        "ques": "Why is **energy efficiency** called the \"first fuel\"?",
         "answer": {
             "type": "text",
-            "content": "**1. Importance:**\n- Cheapest \"source\" of energy\n- Reduces emissions without behavior change\n- Often pays for itself\n\n**2. Buildings:**\n- Insulation and sealing\n- Efficient HVAC\n- LED lighting\n- Smart controls\n- Heat pumps\n\n**3. Transport:**\n- Electric vehicles (3× more efficient)\n- Fuel economy standards\n- Public transit\n- Urban planning"
+            "content": "**\"First Fuel\" Concept:**\nThe cheapest energy is energy you don't use\n\n**Efficiency Measures:**\n| Sector | Strategies |\n|--------|------------|\n| Buildings | Insulation, LED, heat pumps |\n| Transport | EVs, public transit, fuel standards |\n| Industry | Process optimization, waste heat |\n| Appliances | Efficiency standards, labels |\n\n**Benefits:**\n- Reduces need for new generation\n- Saves money\n- Cuts emissions\n- Creates jobs"
         },
-        "explanation": "**Efficiency** can reduce energy demand 40%. The greenest energy is what you don't use!"
+        "explanation": "Energy intensity (energy/GDP) has declined 1-2%/year in developed countries. Efficiency is often most cost-effective solution."
     }
 ]

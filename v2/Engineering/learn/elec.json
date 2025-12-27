@@ -2,58 +2,138 @@
     "id": "learn_elec",
     "topicId": "elec",
     "topicTitle": "Electrical Engineering",
-    "description": "Explore circuit analysis, semiconductors, power systems, and signal processing",
-    "baseKP": 75,
+    "description": "Powering the modern world.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "elec_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Electrical Engineering ⚡\n\n## Topics\n- Circuit analysis\n- Semiconductors\n- Power systems\n- Signal processing"
+            "title": "What is Electrical Engineering?",
+            "content": "# Sparks ⚡\n\nStudy and application of electricity, electronics, and electromagnetism.\n- **Power**: Generating/Moving electricity.\n- **Electronics**: Controlling electricity (Chips).\n- **Signals**: Communication."
         },
         {
             "id": "elec_2",
             "type": "content",
-            "title": "Circuits",
-            "content": "# Circuit Analysis 🔌\n\n## Kirchhoff's Laws\n| Law | Statement |\n|-----|----------|\n| KCL | ΣI = 0 (node) |\n| KVL | ΣV = 0 (loop) |\n\n## Ohm's Law\n```\nV = IR\nP = IV = I²R\n```"
+            "title": "Circuit Basics",
+            "content": "# The Loop ⭕\n\n- **Voltage (V)**: Pressure (Volts).\n- **Current (I)**: Flow (Amps).\n- **Resistance (R)**: Obstacle (Ohms).\n- **Ohm's Law**: $V = I \\times R$."
         },
         {
             "id": "elec_3",
             "type": "content",
-            "title": "Semiconductors",
-            "content": "# Semiconductors 🔲\n\n## Types\n| Type | Dopant | Carriers |\n|------|--------|----------|\n| n-type | Phosphorus | Electrons |\n| p-type | Boron | Holes |\n\n## Devices\n- Diodes\n- Transistors (BJT, MOSFET)\n- Integrated circuits"
-        },
-        {
-            "id": "elec_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "KCL states that at any node:",
-            "quizOptions": [
-                "ΣV = 0",
-                "ΣI = 0",
-                "V = IR",
-                "P = IV"
-            ],
-            "correctOptionIndex": 1
+            "title": "Kirchhoff's Laws",
+            "content": "# Conservation ⚖️\n\n1. **KCL (Current)**: Current entering a junction = Current leaving.\n2. **KVL (Voltage)**: Sum of voltages around any loop is zero.\nBase rules for all circuit analysis."
         },
         {
             "id": "elec_4",
             "type": "content",
-            "title": "Power",
-            "content": "# Power Systems ⚡\n\n## AC vs DC\n| Type | Use |\n|------|-----|\n| AC | Transmission |\n| DC | Electronics |\n\n## Components\n- Generators\n- Transformers\n- Transmission lines\n- Distribution"
+            "title": "Semiconductors",
+            "content": "# Silicon Valley 💻\n\nMaterials that can switch between conducting and insulating.\n- **Doping**: Adding impurities (P-type, N-type).\n- **Diode**: One-way valve for current.\n- **Transistor**: Digital switch (0 or 1)."
         },
         {
             "id": "elec_5",
             "type": "content",
-            "title": "Signals",
-            "content": "# Signal Processing 📊\n\n## Concepts\n- Fourier transform\n- Sampling\n- Filtering\n- Modulation\n\n## Digital vs Analog\n| Analog | Digital |\n|--------|--------|\n| Continuous | Discrete |\n| Noise-prone | Robust |"
+            "title": "AC vs DC",
+            "content": "# The War of Currents 🥊\n\n- **DC (Direct Current)**: Battery. Electrons flow one way. Edison.\n- **AC (Alternating Current)**: Wall outlet. Electrons wiggle back and forth. Tesla.\n- AC is better for long distance transmission."
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Law Quiz",
+            "content": "Formula check.",
+            "quizQuestion": "What is the formula for Ohm's Law?",
+            "quizOptions": [
+                "E = mc^2",
+                "F = ma",
+                "V = IR",
+                "P = IV"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "elec_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Kirchhoff: KCL, KVL\n- Ohm's Law: V = IR\n- Semiconductors: n-type, p-type\n- Power: AC transmission, DC devices"
+            "title": "Power Systems",
+            "content": "# The Grid 🔋\n\n1. **Generation**: Power Plant (12kV).\n2. **Step Up**: Transformer (400kV for travel).\n3. **Transmission**: High voltage lines.\n4. **Step Down**: Substation (11kV).\n5. **Distribution**: To your house (240V/120V)."
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Signal Processing",
+            "content": "# Filtering Noise 📻\n\nAnalyzing and modifying signals (Sound, Radio, Images).\n- **Analog**: Continuous wave (Vinyl).\n- **Digital**: 0s and 1s (MP3).\n- **DAC/ADC**: Converting between them."
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Control Systems",
+            "content": "# Automation 🎮\n\nManaging behavior of devices.\n- **Open Loop**: Toaster (Runs for time, doesn't check if bread is burnt).\n- **Closed Loop**: AC (Checks temp, adjusts cooling).\n- **PID Controller**: Common algorithm for smooth control."
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Electric Motors",
+            "content": "# Turning Wheels 🚗\n\nUsing magnetism to create motion.\n- **Stator**: Stationary magnets.\n- **Rotor**: Spinning coil.\n- **Induction Motor**: Workhorse of industry (Tesla cars use this)."
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Transformers",
+            "content": "# Voltage Changer 🤖\n\nTwo coils of wire around a magnetic core.\n- Changes Voltage/Current levels using Induction.\n- Only works with **AC**.\n- Essential for power grid."
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Capacitors and Inductors",
+            "content": "# Energy Storage 🔋\n\n- **Capacitor**: Stores energy in Electric Field (Fast burst).\n- **Inductor**: Stores energy in Magnetic Field (Resists change in current)."
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Motor Quiz",
+            "content": "Motion check.",
+            "quizQuestion": "Which part of an electric motor spins?",
+            "quizOptions": [
+                "Stator",
+                "Rotor",
+                "Brush",
+                "Transformer"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_12",
+            "type": "content",
+            "title": "Printed Circuit Boards (PCB)",
+            "content": "# Green Boards 🟩\n\nPhysical platform for circuits.\n- **Copper Traces**: Wires printed on board.\n- **Solder**: Metal glue connecting components.\n- Multi-layered (Phone boards have 10+ layers)."
+        },
+        {
+            "id": "elec_13",
+            "type": "content",
+            "title": "Communication Systems",
+            "content": "# Connecting 📡\n\n- **Modulation**: Encoding info onto a carrier wave (AM/FM, WiFi).\n- **Fiber Optics**: Sending light down glass tubes (Speed of light internet).\n- **5G**: High frequency radio waves."
+        },
+        {
+            "id": "elec_14",
+            "type": "content",
+            "title": "Renewable Integration",
+            "content": "# Green Grid ☀️\n\nChallenge: Sun/Wind aren't constant.\n- **Smart Grid**: Two-way communication.\n- **Inverters**: Converting DC solar to AC grid."
+        },
+        {
+            "id": "elec_15",
+            "type": "content",
+            "title": "Embedded Electronics",
+            "content": "# Microcontrollers 🕹️\n\nTiny computers (Arduino, ESP32).\n- Interfacing with sensors and actuators.\n- Internet of Things (IoT)."
+        },
+        {
+            "id": "elec_16",
+            "type": "content",
+            "title": "Electromagnetic Compatibility (EMC)",
+            "content": "# No Interference 🔇\n\nEnsuring devices don't mess up others nearby.\n- Shielding (Metal cages).\n- Why you have to turn off phones on planes (mostly usage precaution now)."
+        },
+        {
+            "id": "elec_17",
+            "type": "content",
+            "title": "Elec Eng Summary",
+            "content": "# Recap 📝\n\n- **Ohm's Law** rules all.\n- **Transistors** enable computing.\n- **AC Power** runs civilization.\n- **Electromagnetism** connects us."
         }
     ]
 }

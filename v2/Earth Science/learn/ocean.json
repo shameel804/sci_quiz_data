@@ -2,58 +2,138 @@
     "id": "learn_ocean",
     "topicId": "ocean",
     "topicTitle": "Oceanography",
-    "description": "Explore ocean currents, marine ecosystems, tides, and ocean floor",
-    "baseKP": 75,
+    "description": "Exploration of the deep blue sea.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "ocean_1",
             "type": "content",
-            "title": "Welcome to Oceanography",
-            "content": "# Oceanography 🌊\n\n## What you'll learn:\n- Ocean currents\n- Marine ecosystems\n- Tides and waves\n- Ocean floor topography\n\n## Ocean Facts\n- Covers 71% of Earth\n- Average depth: 3,688 m\n- 97% of Earth's water"
+            "title": "What is Oceanography?",
+            "content": "# The Blue Planet 🔵\n\nStudy of the ocean (71% of Earth's surface).\n- **Chemical**: Salinity, composition.\n- **Physical**: Waves, tides, currents.\n- **Biological**: Marine life.\n- **Geological**: Seafloor plate tectonics."
         },
         {
             "id": "ocean_2",
             "type": "content",
-            "title": "Ocean Currents",
-            "content": "# Ocean Currents 🔄\n\n## Types\n| Type | Cause |\n|------|-------|\n| Surface | Wind |\n| Thermohaline | Density differences |\n\n## Major Currents\n- Gulf Stream (warm)\n- California Current (cold)\n- Antarctic Circumpolar\n\n## Coriolis Effect\n- Deflects currents right (N)\n- Deflects left (S)"
+            "title": "Ocean Basins",
+            "content": "# The 5 Oceans 🗺️\n\n1. **Pacific**: Largest and deepest.\n2. **Atlantic**: Growing larger.\n3. **Indian**: Warmest.\n4. **Southern**: Around Antarctica.\n5. **Arctic**: Smallest and shallowest."
         },
         {
             "id": "ocean_3",
             "type": "content",
-            "title": "Tides and Waves",
-            "content": "# Tides and Waves 🌙\n\n## Tides\n| Type | Cause |\n|------|-------|\n| Spring | Sun+Moon aligned |\n| Neap | Sun-Moon perpendicular |\n\n## Waves\n| Part | Description |\n|------|-------------|\n| Crest | Top |\n| Trough | Bottom |\n| Wavelength | Crest to crest |\n| Amplitude | Height |"
-        },
-        {
-            "id": "ocean_quiz_1",
-            "type": "quiz",
-            "title": "Ocean Quiz",
-            "content": "Test your knowledge!",
-            "quizQuestion": "What causes deep ocean currents?",
-            "quizOptions": [
-                "Wind",
-                "Density differences",
-                "Tides",
-                "Earthquakes"
-            ],
-            "correctOptionIndex": 1
+            "title": "Seawater Properties",
+            "content": "# Salty 🧂\n\n- **Salinity**: ~3.5% (35 parts per thousand). Mostly NaCl.\n- **Freezing Point**: -1.9°C (Salt lowers it).\n- **Density**: Cold, salty water is heaviest $\\to$ Sinks."
         },
         {
             "id": "ocean_4",
             "type": "content",
-            "title": "Ocean Floor",
-            "content": "# Ocean Floor 🏔️\n\n## Features\n| Feature | Description |\n|---------|-------------|\n| Continental shelf | Shallow, near coast |\n| Continental slope | Steep descent |\n| Abyssal plain | Flat, deep |\n| Mid-ocean ridge | Volcanic mountains |\n| Trench | Deepest parts |\n\n## Mariana Trench\n- Deepest: 11,034 m"
+            "title": "The Ocean Floor",
+            "content": "# Under the Sea ⛰️\n\n1. **Continental Shelf**: Shallow extension of land.\n2. **Slope/Rise**: Drop off.\n3. **Abyssal Plain**: Flat deep floor.\n4. **Trenches**: Deepest parts (Mariana Trench 11km deep).\n5. **Mid-Ocean Ridge**: Mountain chain where new crust forms."
         },
         {
             "id": "ocean_5",
             "type": "content",
-            "title": "Marine Ecosystems",
-            "content": "# Marine Ecosystems 🐠\n\n## Zones\n| Zone | Light? | Life |\n|------|--------|------|\n| Epipelagic | Yes | Most life |\n| Mesopelagic | Dim | Some |\n| Bathypelagic | No | Sparse |\n| Abyssopelagic | No | Minimal |\n\n## Key Ecosystems\n- Coral reefs\n- Kelp forests\n- Deep sea vents"
+            "title": "Surface Currents",
+            "content": "# Rivers in Sea 🌊\n\nDriven by Wind.\n- **Gyres**: Giant circular loops.\n- **Gulf Stream**: Warm water from Caribbean to Europe (Keeps UK warm).\n- Moves heat from equator to poles."
+        },
+        {
+            "id": "ocean_quiz_1",
+            "type": "quiz",
+            "title": "Depth Quiz",
+            "content": "Deepest point.",
+            "quizQuestion": "What is the deepest feature of the ocean floor?",
+            "quizOptions": [
+                "Abyssal Plain",
+                "Continental Shelf",
+                "Trench",
+                "Seamount"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "ocean_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Surface currents: Wind-driven\n- Thermohaline: Density-driven\n- Tides: Moon/Sun gravity\n- Ocean zones: Light decreases with depth"
+            "title": "Thermohaline Circulation",
+            "content": "# Great Conveyor Belt 🏭\n\nGlobal deep-water circulation driven by **Density** (Heat & Salt).\n- Takes ~1000 years to cycle.\n- Regulates Earth's climate.\n- Ice melt (fresh water) could stop it."
+        },
+        {
+            "id": "ocean_7",
+            "type": "content",
+            "title": "Waves",
+            "content": "# Energy Transfer p 👋\n\nWaves move energy, not water.\n- **Fetch**: Distance wind blows over water.\n- **Swell**: Waves traveled far from storm.\n- **Breaking**: Friction with bottom topples the wave."
+        },
+        {
+            "id": "ocean_8",
+            "type": "content",
+            "title": "Tides",
+            "content": "# Lunar Pull 🌕\n\nRise and fall of sea level caused by Moon (and Sun) gravity.\n- **High Tide**: Water pulled toward moon (and opposite side).\n- **Spring Tide**: Sun/Moon aligned (Extra high).\n- **Neap Tide**: Sun/Moon at 90 deg (Lower high)."
+        },
+        {
+            "id": "ocean_9",
+            "type": "content",
+            "title": "Marine Life Zones",
+            "content": "# Where things live 🐟\n\n- **Photic Zone**: Top 200m (Sunlight). Photosynthesis.\n- **Aphotic Zone**: Dark deep. Bioluminescence.\n- **Benthic**: Bottom dwellers (Crabs)."
+        },
+        {
+            "id": "ocean_10",
+            "type": "content",
+            "title": "Coral Reefs",
+            "content": "# Rainforests of Sea 🪸\n\nStructures built by coral polyps.\n- Home to 25% of marine life.\n- **Bleaching**: Stress (heat/acid) makes coral inject algae $\\to$ Death."
+        },
+        {
+            "id": "ocean_quiz_2",
+            "type": "quiz",
+            "title": "Tide Quiz",
+            "content": "Force check.",
+            "quizQuestion": "Which celestial body has the strongest effect on Earth's tides?",
+            "quizOptions": [
+                "Sun",
+                "Mars",
+                "Moon",
+                "Jupiter"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ocean_11",
+            "type": "content",
+            "title": "Hydrothermal Vents",
+            "content": "# Black Smokers 🚬\n\nVolcanic vents on seafloor.\n- Spew superhot chemical water.\n- Life here relies on **Chemosynthesis** (chemical energy), not Sun.\n- Tube worms, blind shrimp."
+        },
+        {
+            "id": "ocean_12",
+            "type": "content",
+            "title": "Ocean Acidification",
+            "content": "# The Other CO2 Problem 🍋\n\nOceans absorb CO2 $\\to$ Become acidic ($H_2CO_3$).\n- Dissolves shells of clams/corals.\n- Threatens entire food web."
+        },
+        {
+            "id": "ocean_13",
+            "type": "content",
+            "title": "Tsunamis",
+            "content": "# Harbor Waves 🌊\n\nCaused by underwater earthquakes or landslides.\n- Not tidal waves.\n- Move at jet speed (500mph) in open ocean.\n- Build massive height when hitting shallow coast."
+        },
+        {
+            "id": "ocean_14",
+            "type": "content",
+            "title": "Upwelling",
+            "content": "# Nutrients Rises 🥗\n\nWind pushes surface water away ➡️ Cold nutrient-rich deep water rises.\n- Feeds plankton booms.\n- Creates world's best fishing grounds (Peru, California)."
+        },
+        {
+            "id": "ocean_15",
+            "type": "content",
+            "title": "Plankton",
+            "content": "# Drifters 🦐\n\n- **Phytoplankton**: Plants. Produce 50% of Earth's oxygen.\n- **Zooplankton**: Animals. Eat phyto.\nBase of the food chain."
+        },
+        {
+            "id": "ocean_16",
+            "type": "content",
+            "title": "Exploring the Deep",
+            "content": "# Final Frontier 🚢\n\nWe know more about Mars than the deep ocean.\n- Uses: Sonar mapping, Submersibles (Alvin), ROVs.\n- Enormous pressure makes it difficult."
+        },
+        {
+            "id": "ocean_17",
+            "type": "content",
+            "title": "Oceanography Summary",
+            "content": "# Recap 📝\n\n- Oceans drive **Climate** and **Weather**.\n- **Currents** circulate heat.\n- **Tides** show lunar gravity.\n- A vast, vital, and vulnerable resource."
         }
     ]
 }

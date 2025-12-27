@@ -1,56 +1,92 @@
 [
     {
-        "title": "Space Mission History 🚀",
-        "ques": "Match missions with achievements:\n1. Apollo 11\n2. Voyager\n3. Hubble Space Telescope",
+        "title": "Apollo Program 🚀",
+        "ques": "Summarize the **Apollo program** including key missions and achievements.",
         "answer": {
             "type": "text",
-            "content": "**1. Apollo 11** (1969) → First humans on Moon (Armstrong, Aldrin)\n\n**2. Voyager** (1977-) → Grand tour of outer planets, now in interstellar space\n\n**3. Hubble** (1990-) → Revolutionized astronomy with deep space images"
+            "content": "**Apollo Program (1961-1972):**\n\n| Mission | Achievement |\n|---------|------------|\n| Apollo 8 (1968) | First humans to orbit Moon |\n| Apollo 11 (1969) | First Moon landing (Armstrong, Aldrin) |\n| Apollo 13 (1970) | \"Successful failure\" – crew survived abort |\n| Apollo 17 (1972) | Last lunar mission, longest surface stay |\n\n**Stats:**\n- 12 astronauts walked on Moon\n- ~380 kg lunar samples returned\n- Proved human spaceflight possible beyond LEO"
         },
-        "explanation": "**Space exploration** transformed our understanding. Voyager 1 is the most distant human-made object."
+        "explanation": "JFK's challenge \"before this decade is out\" achieved July 20, 1969. Apollo technology was groundbreaking."
     },
     {
-        "title": "Telescope Types 🔭",
-        "ques": "Compare:\n1. Optical vs radio telescopes\n2. Ground vs space telescopes\n3. Why use different wavelengths?",
+        "title": "Space Telescopes 🔭",
+        "ques": "Compare the **Hubble** and **James Webb** Space Telescopes.",
         "answer": {
             "type": "text",
-            "content": "**1. Optical vs Radio:**\n- Optical: Visible light, smaller\n- Radio: Radio waves, huge dishes (Arecibo, FAST)\n\n**2. Ground vs Space:**\n- Ground: Cheaper, larger, but atmosphere blurs\n- Space: No atmosphere, any wavelength\n\n**3. Different wavelengths:** Different phenomena emit different wavelengths (hot gas = X-ray, cold gas = radio)"
+            "content": "| Feature | Hubble | JWST |\n|---------|--------|------|\n| **Launch** | 1990 | 2021 |\n| **Mirror** | 2.4 m | 6.5 m (segmented) |\n| **Wavelengths** | UV, visible, near-IR | Infrared |\n| **Orbit** | Low Earth (535 km) | L2 (1.5 million km) |\n| **Temperature** | Ambient | -233°C (sunshield) |\n| **Focus** | Nearby galaxies, nebulae | Early universe, exoplanets |"
         },
-        "explanation": "**Multi-wavelength astronomy** reveals hidden aspects. Infrared sees through dust; X-rays show high-energy events."
+        "explanation": "JWST can see the first galaxies (z>10). Its infrared vision pierces dust and sees cooler objects."
     },
     {
-        "title": "Rocket Propulsion 🚀",
-        "ques": "1. How do rockets work?\n2. What is escape velocity for Earth?\n3. Why stage rockets?",
+        "title": "Rocket Propulsion ⚡",
+        "ques": "Explain the **rocket equation** and why staging is used.",
         "answer": {
             "type": "text",
-            "content": "**1. Mechanism:** Newton's 3rd law - exhaust pushed down, rocket pushed up (conservation of momentum)\n\n**2. Escape velocity:** 11.2 km/s (to leave Earth's gravity without further propulsion)\n\n**3. Staging:** Drop empty fuel tanks to reduce mass → more efficient (less mass to accelerate)"
+            "content": "**Tsiolkovsky Rocket Equation:**\n$$Δv = v_e × \\ln(m_0/m_f)$$\n\n- Δv = change in velocity\n- v_e = exhaust velocity\n- m₀/m_f = initial/final mass ratio\n\n**Why Staging:**\n- Single stage: carry fuel to orbit fuel\n- Multi-stage: drop empty tanks\n- Each stage optimized for its regime\n- Greatly reduces total mass needed\n\n**Example:** Saturn V had 3 stages (S-IC, S-II, S-IVB)"
         },
-        "explanation": "**Rockets** are inefficient because they carry fuel's mass. That's why reaching orbit is so difficult."
+        "explanation": "The \"tyranny of the rocket equation\" means most of a rocket's mass is fuel. SpaceX reusability changes economics."
     },
     {
-        "title": "International Space Station 🛸",
-        "ques": "1. Orbit altitude\n2. Number of countries\n3. Purpose of ISS research",
+        "title": "Voyager Missions 🛸",
+        "ques": "What have the **Voyager probes** accomplished and where are they now?",
         "answer": {
             "type": "text",
-            "content": "**1. Orbit:** ~400 km above Earth (Low Earth Orbit)\n\n**2. Countries:** 15 countries (USA, Russia, Japan, Canada, ESA members)\n\n**3. Research purposes:**\n- Microgravity experiments\n- Human health in space\n- Earth observation\n- Technology testing for deep space"
+            "content": "**Voyager Missions (launched 1977):**\n\n**Discoveries:**\n- Jupiter: Active volcanoes on Io, Europa's ice\n- Saturn: Complex ring structure, Titan's atmosphere\n- Uranus: 10 new moons, tilted magnetic field\n- Neptune: Great Dark Spot, Triton's geysers\n\n**Current Status (2024):**\n- Voyager 1: ~24 billion km, interstellar space\n- Voyager 2: ~20 billion km, interstellar space\n- Still sending data! (until ~2025)\n- Golden Records carry Earth sounds/images"
         },
-        "explanation": "**ISS** orbits Earth every 90 minutes. It's continuously crewed since November 2000."
+        "explanation": "Voyager 1 is the most distant human-made object. Uses gravity assists—journey would otherwise take centuries."
     },
     {
-        "title": "Mars Exploration 🔴",
-        "ques": "1. Current rovers on Mars\n2. Why explore Mars?\n3. Challenges of Mars missions",
+        "title": "International Space Station 🛰️",
+        "ques": "Describe the **ISS** structure, orbit, and scientific purpose.",
         "answer": {
             "type": "text",
-            "content": "**1. Current rovers:** Curiosity (2012), Perseverance (2021)\n\n**2. Why Mars:**\n- Evidence of past water\n- Possible ancient life\n- Future human destination\n\n**3. Challenges:**\n- Signal delay (4-24 minutes)\n- Thin atmosphere (landing)\n- Dust storms\n- Extreme cold"
+            "content": "**ISS Overview:**\n\n| Stat | Value |\n|------|-------|\n| Assembly | 1998-2011 |\n| Mass | 420,000 kg |\n| Length | 109 m |\n| Altitude | ~400 km |\n| Orbital period | 92 minutes |\n| Speed | 28,000 km/h |\n\n**Scientific Focus:**\n- Microgravity research (biology, materials)\n- Earth observation\n- Technology testing\n- Human long-duration spaceflight studies"
         },
-        "explanation": "**Mars** is the most accessible planet for human exploration. Signs of ancient water are promising for past life."
+        "explanation": "ISS is a partnership of 5 space agencies. Continuously crewed since 2000. Preparation for deep space missions."
     },
     {
-        "title": "Future Space Exploration 🌟",
-        "ques": "1. James Webb Space Telescope goals\n2. Artemis program goals\n3. Challenges of interstellar travel",
+        "title": "Mars Rovers 🔴",
+        "ques": "List NASA's **Mars rovers** and key discovery from each.",
         "answer": {
             "type": "text",
-            "content": "**1. JWST:** Infrared telescope - see first galaxies, study exoplanet atmospheres, observe star formation\n\n**2. Artemis:** Return humans to Moon, establish base, prep for Mars\n\n**3. Interstellar challenges:**\n- Vast distances (Proxima Centauri: 4.2 ly)\n- Travel time (current tech: 70,000 years)\n- Fuel, radiation, life support"
+            "content": "**NASA Mars Rovers:**\n\n| Rover | Years | Key Discovery |\n|-------|-------|---------------|\n| **Sojourner** | 1997 | First rover, proved concept |\n| **Spirit** | 2004-10 | Evidence of past water |\n| **Opportunity** | 2004-18 | Hematite \"blueberries\" (water) |\n| **Curiosity** | 2012-present | Organic molecules, habitable conditions |\n| **Perseverance** | 2021-present | Cached samples, Ingenuity helicopter |\n\n**Mission:** Look for signs of past life, prepare for human missions"
         },
-        "explanation": "**JWST** sees further back in time than any previous telescope. Artemis aims for sustainable Moon presence."
+        "explanation": "Perseverance is collecting samples for later return to Earth. Ingenuity proved powered flight on Mars is possible."
+    },
+    {
+        "title": "Radio vs Optical Telescopes 📡",
+        "ques": "Compare **radio telescopes** with **optical telescopes** in capabilities.",
+        "answer": {
+            "type": "text",
+            "content": "| Aspect | Radio | Optical |\n|--------|-------|--------|\n| **Wavelength** | mm to m | nm (visible) |\n| **Weather** | Works in clouds | Clear skies needed |\n| **Day/Night** | Works anytime | Night only |\n| **Resolution** | Lower (need large dishes) | Higher |\n| **Detects** | Cold gas, pulsars, galaxies | Stars, hot gas |\n| **Example** | ALMA, Arecibo | Keck, VLT |\n\n**Interferometry:** Combine multiple dishes for resolution of huge telescope"
+        },
+        "explanation": "Different wavelengths reveal different phenomena. Multi-wavelength astronomy provides complete picture."
+    },
+    {
+        "title": "Future Space Exploration 🚀",
+        "ques": "What are the major **future space exploration** goals and missions?",
+        "answer": {
+            "type": "text",
+            "content": "**Planned Missions:**\n\n| Agency | Mission | Goal |\n|--------|---------|------|\n| NASA | **Artemis** | Return humans to Moon, Gateway station |\n| SpaceX | **Starship** | Mars colonization |\n| ESA | **JUICE** | Jupiter/Europa exploration |\n| China | **Tianwen-2** | Asteroid sample return |\n| NASA | **Europa Clipper** | Search for life signs |\n\n**Long-term Goals:**\n- Permanent lunar base\n- Crewed Mars mission (2030s-40s)\n- Interstellar probes"
+        },
+        "explanation": "New space race emerging with commercial players. Technology advancing rapidly with reusable rockets."
+    },
+    {
+        "title": "Space Debris Problem 🛰️",
+        "ques": "Why is **space debris** a growing concern? What solutions exist?",
+        "answer": {
+            "type": "text",
+            "content": "**Space Debris Problem:**\n- ~35,000 trackable objects (>10 cm)\n- Millions of smaller fragments\n- Orbital speeds: 7-8 km/s\n- Even paint flecks can damage spacecraft\n\n**Kessler Syndrome:**\nCollision cascade—debris creates more debris → makes orbits unusable\n\n**Solutions:**\n- Avoidance maneuvers\n- Deorbit at end of life\n- Active debris removal (nets, harpoons)\n- Better tracking/catalog\n- International regulations"
+        },
+        "explanation": "LEO becoming crowded with mega-constellations (Starlink). Sustainable space use is critical."
+    },
+    {
+        "title": "Gravity Assists ⚡",
+        "ques": "Explain how **gravity assists** (slingshots) work to speed up spacecraft.",
+        "answer": {
+            "type": "text",
+            "content": "**Gravity Assist Mechanics:**\n\n1. Spacecraft approaches planet\n2. Falls into gravity well, accelerating\n3. Passes behind planet (relative to its orbital motion)\n4. \"Steals\" some orbital momentum from planet\n5. Exits at higher velocity relative to Sun\n\n**Conservation:**\nPlanet slows imperceptibly (Δv = 10⁻²³ m/s for Voyager/Jupiter)\n\n**Examples:**\n- Voyager 2: VEJN trajectory\n- New Horizons: Jupiter boost to Pluto\n- Parker Solar Probe: Venus slows to approach Sun"
+        },
+        "explanation": "Gravity assists enable missions impossible with chemical propulsion alone. Required precise trajectory calculation."
     }
 ]

@@ -1,56 +1,92 @@
 [
     {
-        "title": "Food Chain & Web 🍃",
-        "ques": "1. What is the difference between food chain and food web?\n2. What are trophic levels?\n3. Why is energy transfer only ~10% efficient?",
+        "title": "Food Chain vs Food Web 🕸️",
+        "ques": "Differentiate between a **food chain** and **food web**. Why are food webs more realistic?",
         "answer": {
             "type": "text",
-            "content": "**1.** Food chain: Single linear pathway. Food web: Interconnected food chains\n\n**2. Trophic levels:**\n1. Producers (plants)\n2. Primary consumers (herbivores)\n3. Secondary consumers (carnivores)\n4. Tertiary consumers (top predators)\n\n**3. Only ~10%** because energy lost as heat (metabolism), waste, uneaten parts"
+            "content": "**Food Chain:**\n- Linear sequence: producer → consumer → consumer\n- Example: Grass → Rabbit → Fox\n\n**Food Web:**\n- Interconnected food chains\n- Shows multiple pathways\n- More realistic representation\n\n**Why webs are more realistic:**\n- Most organisms eat multiple food sources\n- Provides stability (one species loss doesn't crash system)\n- Shows indirect effects\n- Reflects actual ecosystem complexity"
         },
-        "explanation": "**10% rule** means top predators need large areas. That's why there are fewer lions than zebras."
+        "explanation": "Food webs show how energy flows through ecosystems. The more connections, the more resilient the ecosystem."
     },
     {
-        "title": "Biomes 🌍",
-        "ques": "Match climate to biome:\n1. Hot and dry year-round\n2. Cold with permafrost\n3. High rainfall, high biodiversity",
+        "title": "Energy Pyramid 🔺",
+        "ques": "Explain the **10% rule** in ecology. Why are there fewer top predators than producers?",
         "answer": {
             "type": "text",
-            "content": "**1. Hot and dry** → Desert\n\n**2. Cold with permafrost** → Tundra\n\n**3. High rainfall, biodiversity** → Tropical rainforest"
+            "content": "**10% Rule:**\nOnly ~10% of energy transfers to the next trophic level\n\n**Energy Loss (90%):**\n- Cellular respiration (heat)\n- Waste products\n- Uneaten parts\n- Movement/activity\n\n**Example:**\n```\n🌱 Producers: 10,000 kcal\n  🐛 Primary consumers: 1,000 kcal\n    🐦 Secondary consumers: 100 kcal\n      🦅 Tertiary consumers: 10 kcal\n```\n\n**Why few top predators:** Limited energy at top of pyramid"
         },
-        "explanation": "**Biomes** are determined by temperature and precipitation. Latitude and altitude both affect climate."
-    },
-    {
-        "title": "Biodiversity Measurement 📊",
-        "ques": "1. What is species richness?\n2. What is species evenness?\n3. Why is biodiversity important?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Richness:** Number of different species\n\n**2. Evenness:** How equally abundant each species is\n\n**3. Importance:**\n- Ecosystem stability\n- Food sources\n- Medicines\n- Ecosystem services (pollination, water purification)"
-        },
-        "explanation": "**High biodiversity** makes ecosystems more resilient to disturbances."
-    },
-    {
-        "title": "Ecological Succession 🌱",
-        "ques": "1. What is primary vs secondary succession?\n2. What is a climax community?\n3. Example of pioneer species",
-        "answer": {
-            "type": "text",
-            "content": "**1. Types:**\n- Primary: Starts from bare rock (no soil)\n- Secondary: After disturbance (fire/flood), soil remains\n\n**2. Climax community:** Stable, mature ecosystem that doesn't change unless disturbed\n\n**3. Pioneer species:** Lichens, mosses (break down rock, create soil)"
-        },
-        "explanation": "**Succession** is predictable change in community composition over time. Secondary is faster because soil exists."
+        "explanation": "This explains why food chains rarely exceed 4-5 levels—not enough energy. Also why eating plants is more efficient than eating meat."
     },
     {
         "title": "Carbon Cycle ♻️",
-        "ques": "1. How does carbon enter atmosphere?\n2. How is it removed?\n3. What is a carbon sink?",
+        "ques": "Draw and explain the major components of the **carbon cycle**.",
         "answer": {
             "type": "text",
-            "content": "**1. Enters atmosphere:**\n- Respiration\n- Combustion (burning fossil fuels)\n- Decomposition\n\n**2. Removed by:**\n- Photosynthesis\n- Ocean absorption\n\n**3. Carbon sink:** Reservoir that absorbs more carbon than it releases (forests, oceans)"
+            "content": "**Carbon Cycle Components:**\n\n| Process | Carbon Movement |\n|---------|----------------|\n| **Photosynthesis** | Atmosphere → Plants (CO₂ → glucose) |\n| **Respiration** | Organisms → Atmosphere (glucose → CO₂) |\n| **Decomposition** | Dead matter → Soil/Atmosphere |\n| **Combustion** | Fossil fuels → Atmosphere |\n| **Ocean absorption** | Atmosphere ↔ Ocean |\n\n**Human Impact:**\n- Fossil fuel burning adds CO₂\n- Deforestation reduces uptake\n- Result: Enhanced greenhouse effect"
         },
-        "explanation": "**Carbon cycle** is disrupted by fossil fuel burning, releasing ancient carbon faster than sinks can absorb."
+        "explanation": "Carbon is the backbone of life. The cycle has been disrupted—atmospheric CO₂ has increased 50% since pre-industrial times."
     },
     {
-        "title": "Climate Change Impacts 🌡️",
-        "ques": "1. Three effects of climate change on ecosystems\n2. What is coral bleaching?\n3. How can species respond?",
+        "title": "Biodiversity Importance 🌿",
+        "ques": "List and explain **3 values** of biodiversity (ecological, economic, ethical).",
         "answer": {
             "type": "text",
-            "content": "**1. Effects:**\n- Shifting habitats (species move poleward)\n- Timing changes (earlier spring)\n- Extinctions (can't adapt fast enough)\n\n**2. Coral bleaching:** Stressed corals expel symbiotic algae → turn white → may die\n\n**3. Responses:** Migrate, adapt, or go extinct"
+            "content": "**Ecological Value:**\n- Ecosystem services (pollination, water purification)\n- Stability and resilience\n- Nutrient cycling\n\n**Economic Value:**\n- Food, medicine, materials\n- Tourism (ecotourism)\n- Genetic resources for crops\n\n**Ethical/Aesthetic Value:**\n- Intrinsic right to exist\n- Cultural and spiritual significance\n- Beauty and inspiration\n\n*Example:* 25% of medicines derive from rainforest plants"
         },
-        "explanation": "**Climate change** is happening faster than many species can adapt or migrate."
+        "explanation": "Current extinction rate is 100-1000× normal. We're in the 6th mass extinction, largely caused by humans."
+    },
+    {
+        "title": "Ecological Succession 🌲",
+        "ques": "Compare **primary** and **secondary** succession with examples.",
+        "answer": {
+            "type": "text",
+            "content": "**Primary Succession:**\n- Starts on bare substrate (no soil)\n- Example: Lava flow, glacial retreat\n- Pioneer species: lichens, mosses\n- Takes 100s-1000s of years\n\n**Secondary Succession:**\n- Starts where soil exists\n- Example: After fire, abandoned farm\n- Pioneer species: grasses, weeds\n- Faster (decades to century)\n\n**Climax Community:**\nFinal stable stage (forest, grassland depending on climate)"
+        },
+        "explanation": "Succession shows ecosystem recovery. Pioneer species modify environment, enabling later species to colonize."
+    },
+    {
+        "title": "Nitrogen Cycle 🔄",
+        "ques": "Explain **nitrogen fixation** and why it's essential. What organisms can fix nitrogen?",
+        "answer": {
+            "type": "text",
+            "content": "**Why Nitrogen Fixation is Essential:**\n- N₂ gas is 78% of atmosphere but unusable by most organisms\n- Plants need NH₄⁺ or NO₃⁻ for amino acids/proteins\n\n**Nitrogen-Fixing Organisms:**\n| Type | Example | Location |\n|------|---------|----------|\n| Free-living bacteria | *Azotobacter* | Soil |\n| Symbiotic bacteria | *Rhizobium* | Legume root nodules |\n| Cyanobacteria | *Anabaena* | Aquatic, symbiotic |\n\n**Process:** N₂ → NH₃ (using nitrogenase enzyme)\n\n**Haber process** does this industrially for fertilizers"
+        },
+        "explanation": "Nitrogen is often the limiting nutrient in ecosystems. Legumes with Rhizobium are used in crop rotation to enrich soil."
+    },
+    {
+        "title": "Climate Change Effects 🌡️",
+        "ques": "Describe **3 major impacts** of climate change on ecosystems.",
+        "answer": {
+            "type": "text",
+            "content": "**1. Shifting Distributions:**\n- Species moving poleward and upslope\n- Mismatches with food sources (phenology shifts)\n- *Example:* Some butterflies now found 200 km north of historical range\n\n**2. Coral Bleaching:**\n- Warming causes corals to expel symbiotic algae\n- Loss of color and nutrition → death\n- Threatens 25% of marine species\n\n**3. Polar Ice Loss:**\n- Polar bears losing sea ice habitat\n- Permafrost thaw releasing methane\n- Sea level rise threatening coastal ecosystems"
+        },
+        "explanation": "Species that can't adapt or migrate fast enough face extinction. Already seeing changes in flowering times, migration patterns."
+    },
+    {
+        "title": "Keystone Species 🔑",
+        "ques": "What is a **keystone species**? Give an example and explain their importance.",
+        "answer": {
+            "type": "text",
+            "content": "**Keystone Species:**\nSpecies with disproportionately large effect relative to abundance\n\n**Example: Sea Otters**\n\n**With otters:**\nSea otters → eat sea urchins → kelp forests thrive\n\n**Without otters:**\nNo predation → sea urchin explosion → kelp forests destroyed → 100s of species lost\n\n**Other Examples:**\n- Wolves in Yellowstone (trophic cascade)\n- Beavers (ecosystem engineers)\n- Fig trees (year-round food for rainforest animals)"
+        },
+        "explanation": "Identifying and protecting keystone species is crucial for conservation. Their loss causes cascading effects throughout the ecosystem."
+    },
+    {
+        "title": "Population Dynamics 📊",
+        "ques": "Compare **exponential** and **logistic** population growth. What is carrying capacity?",
+        "answer": {
+            "type": "text",
+            "content": "**Exponential Growth:**\n- Unlimited resources\n- J-shaped curve\n- Formula: dN/dt = rN\n- *Example:* Bacteria in fresh medium\n\n**Logistic Growth:**\n- Limited resources\n- S-shaped curve\n- Formula: dN/dt = rN(K-N)/K\n- Levels off at carrying capacity\n\n**Carrying Capacity (K):**\n- Maximum population environment can sustain\n- Determined by: food, space, water, predators\n- Population fluctuates around K"
+        },
+        "explanation": "Real populations usually show logistic growth. Exceeding K leads to population crash. Humans have increased K through technology."
+    },
+    {
+        "title": "Invasive Species 🦎",
+        "ques": "Why are **invasive species** problematic? Give an example of ecological damage.",
+        "answer": {
+            "type": "text",
+            "content": "**Why Invasive Species are Problematic:**\n- No natural predators in new environment\n- Outcompete native species for resources\n- Can alter habitat\n- May introduce diseases\n\n**Example: Cane Toads in Australia**\n- Introduced 1935 to control beetles\n- Highly toxic skin → kills native predators\n- Reached 200 million population\n- Caused declines in quolls, snakes, crocodiles\n\n**Other Examples:**\n- Zebra mussels (Great Lakes)\n- Asian carp (Mississippi River)\n- Kudzu vine (US Southeast)"
+        },
+        "explanation": "Invasive species are second only to habitat loss as a threat to biodiversity. Prevention is easier than control."
     }
 ]

@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Material Classification 🔬",
+        "ques": "Classify materials into **metals, ceramics, polymers, and composites** with examples.",
+        "answer": {
+            "type": "text",
+            "content": "| Class | Bonding | Properties | Examples |\n|-------|---------|------------|----------|\n| **Metals** | Metallic | Conductive, ductile, strong | Steel, aluminum, copper |\n| **Ceramics** | Ionic/covalent | Hard, brittle, heat-resistant | Glass, concrete, alumina |\n| **Polymers** | Covalent chains | Light, flexible, insulating | Plastics, rubber, nylon |\n| **Composites** | Combined | Tailored properties | Carbon fiber, fiberglass |"
+        },
+        "explanation": "Semiconductors are a special class. Material selection balances properties, cost, and manufacturability."
+    },
+    {
+        "title": "Crystal Structures 💎",
+        "ques": "Describe the **BCC, FCC, and HCP** crystal structures.",
+        "answer": {
+            "type": "text",
+            "content": "**Common Metal Crystal Structures:**\n\n| Structure | Atoms/Cell | Packing | Examples |\n|-----------|------------|---------|----------|\n| **BCC** (Body-Centered Cubic) | 2 | 68% | Fe (α), W, Cr |\n| **FCC** (Face-Centered Cubic) | 4 | 74% | Al, Cu, Au, Ni |\n| **HCP** (Hexagonal Close-Packed) | 6 | 74% | Mg, Zn, Ti |\n\n**Why It Matters:**\n- FCC: More slip systems → ductile\n- BCC: Fewer slip → stronger but less ductile\n- Affects mechanical properties, phase changes"
+        },
+        "explanation": "Iron changes from BCC to FCC at 912°C. This is basis for heat treatment of steel."
+    },
+    {
+        "title": "Defects in Materials ⚠️",
+        "ques": "What are **point defects, dislocations, and grain boundaries**?",
+        "answer": {
+            "type": "text",
+            "content": "**Point Defects:**\n| Type | Description |\n|------|------------|\n| Vacancy | Missing atom |\n| Interstitial | Extra atom in gap |\n| Substitutional | Different atom in lattice |\n\n**Line Defects (Dislocations):**\n- Edge dislocation: Extra half-plane\n- Screw dislocation: Spiral distortion\n- Enable plastic deformation\n\n**Planar Defects:**\n- Grain boundaries: Between crystals\n- Stacking faults, twins"
+        },
+        "explanation": "Dislocations explain why metals are weaker than theoretical strength. Controlling them = controlling properties."
+    },
+    {
+        "title": "Phase Diagrams 📉",
+        "ques": "How do you read an **iron-carbon phase diagram**?",
+        "answer": {
+            "type": "text",
+            "content": "**Key Features:**\n\n| Phase | Description |\n|-------|------------|\n| **Ferrite (α)** | BCC iron, soft, magnetic |\n| **Austenite (γ)** | FCC iron, ductile |\n| **Cementite** | Fe₃C, hard carbide |\n| **Pearlite** | Layered α + Fe₃C |\n\n**Critical Points:**\n- Eutectic: 4.3% C, 1148°C\n- Eutectoid: 0.77% C, 727°C\n- Steel: <2% C\n- Cast iron: 2-4% C"
+        },
+        "explanation": "Phase diagram guides heat treatment. Slow cooling gives pearlite; quenching gives martensite."
+    },
+    {
+        "title": "Heat Treatment 🔥",
+        "ques": "Explain **annealing, quenching, and tempering** of steel.",
+        "answer": {
+            "type": "text",
+            "content": "**Heat Treatment Processes:**\n\n| Process | Procedure | Result |\n|---------|-----------|--------|\n| **Annealing** | Heat, slow cool | Soft, ductile, stress-free |\n| **Quenching** | Heat, rapid cool (water/oil) | Hard but brittle (martensite) |\n| **Tempering** | Reheat quenched steel, cool | Reduced brittleness |\n| **Normalizing** | Air cool from austenite | Uniform grain structure |\n\n**Combined:** Quench + Temper = Strong and tough"
+        },
+        "explanation": "Hardenability varies with alloying elements. Jominy test measures it."
+    },
+    {
+        "title": "Mechanical Testing 🔧",
+        "ques": "Describe **tensile testing** and the properties it measures.",
+        "answer": {
+            "type": "text",
+            "content": "**Tensile Test:**\nPull specimen until failure\n\n**From Stress-Strain Curve:**\n| Property | Definition |\n|----------|------------|\n| Elastic modulus (E) | Slope of linear region |\n| Yield strength (σ_y) | Onset of plastic deformation |\n| Ultimate tensile strength | Maximum stress |\n| Elongation | % length increase |\n| Reduction in area | % area decrease |\n\n**Necking:** Localized deformation before fracture"
+        },
+        "explanation": "Offset yield (0.2%) used when no clear yield point. Hardness tests (Rockwell, Brinell) are quicker."
+    },
+    {
+        "title": "Corrosion 🧫",
+        "ques": "Explain the **electrochemical basis** of corrosion and methods to prevent it.",
+        "answer": {
+            "type": "text",
+            "content": "**Corrosion = Electrochemical Reaction:**\n- Anode: Metal oxidizes (loses electrons)\n- Cathode: O₂ or H⁺ reduced\n- Electrolyte: Conducts ions\n\n$Fe → Fe^{2+} + 2e^-$ (anode)\n$O_2 + 2H_2O + 4e^- → 4OH^-$ (cathode)\n\n**Prevention Methods:**\n| Method | Example |\n|--------|--------|\n| Coatings | Paint, plating |\n| Cathodic protection | Zinc anodes |\n| Alloying | Stainless steel |\n| Design | Avoid moisture traps |"
+        },
+        "explanation": "Galvanized steel uses zinc as sacrificial anode. Passivation forms protective oxide layer."
+    },
+    {
+        "title": "Composite Materials 🧩",
+        "ques": "Explain the **rule of mixtures** for composite properties.",
+        "answer": {
+            "type": "text",
+            "content": "**Rule of Mixtures:**\nProperty of composite from constituent properties\n\n**Parallel Loading (along fibers):**\n$$E_c = E_f V_f + E_m V_m$$\n\n**Perpendicular Loading:**\n$$\\frac{1}{E_c} = \\frac{V_f}{E_f} + \\frac{V_m}{E_m}$$\n\nWhere:\n- V_f = fiber volume fraction\n- V_m = matrix volume fraction\n- E = Young's modulus"
+        },
+        "explanation": "Composites are anisotropic—properties depend on direction. Design laminates for specific load paths."
+    },
+    {
+        "title": "Nanomaterials 🔬",
+        "ques": "What makes **nanomaterials** unique and how are they applied?",
+        "answer": {
+            "type": "text",
+            "content": "**Nanoscale Effects (1-100 nm):**\n- Large surface area/volume ratio\n- Quantum effects (at very small sizes)\n- Modified electronic, optical, mechanical properties\n\n**Applications:**\n| Material | Use |\n|----------|-----|\n| Carbon nanotubes | Strong composites |\n| Silver nanoparticles | Antibacterial |\n| Quantum dots | Displays, imaging |\n| Graphene | Electronics, barriers |\n| Nano-TiO₂ | Sunscreen, photocatalysis |"
+        },
+        "explanation": "Same material at nanoscale can have different properties than bulk. Challenges: characterization, safety, scale-up."
+    },
+    {
+        "title": "Materials Selection 📋",
+        "ques": "How do engineers **select materials** for a design?",
+        "answer": {
+            "type": "text",
+            "content": "**Ashby Method:**\nUse material indices and selection charts\n\n**Steps:**\n1. Define design requirements\n2. Identify constraints (stiffness, cost)\n3. Plot material properties (e.g., E vs ρ)\n4. Apply selection guidelines (performance index)\n5. Consider manufacturing, availability\n\n**Performance Index Examples:**\n| Goal | Index |\n|------|-------|\n| Stiff light beam | E/ρ |\n| Strong light tie | σ_y/ρ |\n| Heat sink | λ/C_p |"
+        },
+        "explanation": "CES EduPack software commonly used. Consider full lifecycle: sourcing, manufacturing, use, recycling."
+    }
+]

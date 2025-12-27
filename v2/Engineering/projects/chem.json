@@ -1,56 +1,92 @@
 [
     {
-        "title": "Chemical Reactor Types ⚗️",
-        "ques": "1. Types of chemical reactors\n2. Batch vs continuous\n3. Residence time concept",
-        "answer": {
-            "type": "text",
-            "content": "**1. Reactor types:**\n- Batch reactor: All at once, no flow\n- CSTR (Continuous Stirred Tank): Flow in/out, well-mixed\n- PFR (Plug Flow): Flow through tube, no mixing\n\n**2. Batch vs Continuous:**\n- Batch: Small scale, flexibility\n- Continuous: Large scale, consistent product\n\n**3. Residence time:** Average time material spends in reactor\n```\nτ = V/Q (volume/flow rate)\n```"
-        },
-        "explanation": "**Reactor design** balances conversion, selectivity, heat transfer, and economics."
-    },
-    {
         "title": "Mass Balance ⚖️",
-        "ques": "100 kg/hr feed stream (60% A, 40% B). Separator produces stream 1 (90% A) and stream 2 (10% A).\n1. Set up mass balance\n2. Calculate stream flow rates",
+        "ques": "Set up a **mass balance** for a mixer with two inlet streams (100 kg/h and 50 kg/h) combining into one outlet.",
         "answer": {
             "type": "text",
-            "content": "**1. Mass balances:**\nOverall: 100 = m₁ + m₂\nComponent A: 60 = 0.9m₁ + 0.1m₂\n\n**2. Solve:**\nFrom overall: m₂ = 100 - m₁\n60 = 0.9m₁ + 0.1(100 - m₁)\n60 = 0.9m₁ + 10 - 0.1m₁\n50 = 0.8m₁\n**m₁ = 62.5 kg/hr, m₂ = 37.5 kg/hr**"
+            "content": "**Conservation of Mass:**\n$$\\sum \\dot{m}_{in} = \\sum \\dot{m}_{out} + Accumulation$$\n\n**For steady-state mixer:**\n$$\\dot{m}_1 + \\dot{m}_2 = \\dot{m}_3$$\n$$100 + 50 = \\mathbf{150\\ kg/h}$$\n\n**Component balance (if 30% A in stream 1, 60% A in stream 2):**\n$$0.30(100) + 0.60(50) = x_A(150)$$\n$$30 + 30 = 60 = x_A(150)$$\n$$x_A = \\mathbf{40\\%}$$"
         },
-        "explanation": "**Mass balance:** Input = Output + Accumulation. At steady state, accumulation = 0."
+        "explanation": "Mass (and energy, momentum) balances are fundamental to chemical engineering design."
     },
     {
-        "title": "Separation Processes 🔬",
-        "ques": "1. Distillation principle\n2. When use distillation vs filtration?\n3. Other separation methods",
+        "title": "Distillation 🧪",
+        "ques": "Explain how **distillation** separates mixtures based on volatility.",
         "answer": {
             "type": "text",
-            "content": "**1. Distillation:** Separates by boiling point differences\n- Heat liquid → vapor → condense\n- Lower boiling point distills first\n\n**2. Selection:**\n- Distillation: Liquid mixtures with different volatilities\n- Filtration: Solid-liquid separation\n\n**3. Other methods:**\n- Absorption (gas into liquid)\n- Extraction (solvent separation)\n- Adsorption (surface binding)\n- Membrane separation"
+            "content": "**Distillation Principle:**\nSeparation based on different boiling points\n\n**Process:**\n1. Heat liquid mixture\n2. More volatile component evaporates first\n3. Vapor rises, condenses\n4. Collect condensate (distillate)\n\n**Types:**\n| Type | Use |\n|------|-----|\n| Simple | Large boiling point difference |\n| Fractional | Similar boiling points |\n| Vacuum | Heat-sensitive materials |\n| Extractive | Azeotropes |"
         },
-        "explanation": "**Distillation** is energy-intensive. ~40% of energy in chemical plants goes to distillation!"
+        "explanation": "Common application: crude oil refining into gasoline, diesel, etc. McCabe-Thiele method designs columns."
     },
     {
-        "title": "Reaction Kinetics 📈",
-        "ques": "First-order reaction: A → B, k = 0.1 min⁻¹, [A]₀ = 10 M\n1. Rate expression\n2. Concentration after 20 min\n3. Half-life",
+        "title": "Reaction Kinetics ⚡",
+        "ques": "For a **first-order reaction** with k = 0.1 min⁻¹, calculate time for 90% conversion.",
         "answer": {
             "type": "text",
-            "content": "**1. Rate expression:**\n-d[A]/dt = k[A]\n\n**2. After 20 min:**\n```\n[A] = [A]₀e^(-kt)\n[A] = 10 × e^(-0.1×20) = 10 × e^(-2)\n[A] = 1.35 M\n```\n\n**3. Half-life:**\n```\nt_{1/2} = ln(2)/k = 0.693/0.1 = 6.93 min\n```"
+            "content": "**First-Order Rate Law:**\n$$-\\frac{dC_A}{dt} = kC_A$$\n\n**Integrated Form:**\n$$\\ln\\frac{C_{A0}}{C_A} = kt$$\n\n**For 90% conversion:** C_A = 0.1 C_{A0}\n$$\\ln\\frac{C_{A0}}{0.1C_{A0}} = 0.1t$$\n$$\\ln(10) = 0.1t$$\n$$t = \\frac{2.303}{0.1} = \\mathbf{23\\ min}$$\n\n**Half-life:** t₁/₂ = ln(2)/k = 6.93 min"
         },
-        "explanation": "**First-order** half-life is constant regardless of concentration. Radioactive decay follows this."
+        "explanation": "Order of reaction determines how rate depends on concentration. Determined experimentally."
+    },
+    {
+        "title": "Heat Exchangers 🔥",
+        "ques": "Explain **counterflow vs parallel flow** heat exchangers.",
+        "answer": {
+            "type": "text",
+            "content": "**Parallel Flow:**\n- Fluids enter same end, flow same direction\n- Temperature difference decreases along length\n- Lower efficiency\n\n**Counterflow:**\n- Fluids enter opposite ends, flow opposite directions\n- More uniform temperature difference\n- Higher efficiency\n- Can achieve higher outlet temperature\n\n**LMTD (Log Mean Temperature Difference):**\n$$Q = UA × LMTD$$\n$$LMTD = \\frac{ΔT_1 - ΔT_2}{\\ln(ΔT_1/ΔT_2)}$$"
+        },
+        "explanation": "Counterflow preferred when possible. Shell-and-tube exchangers common in industry."
+    },
+    {
+        "title": "Process Flow Diagrams 📊",
+        "ques": "What is the difference between **PFD** and **P&ID**?",
+        "answer": {
+            "type": "text",
+            "content": "**PFD (Process Flow Diagram):**\n- Overview of process\n- Major equipment\n- Main process streams\n- Operating conditions (T, P, flow)\n- Material balance info\n\n**P&ID (Piping & Instrumentation Diagram):**\n- Detailed engineering drawing\n- All piping, valves, fittings\n- Instrumentation and controls\n- Equipment tags and details\n- Used for construction\n\n**Symbols:** ISO 10628, ISA standards"
+        },
+        "explanation": "PFD for understanding process; P&ID for building and operating it."
+    },
+    {
+        "title": "Reactor Design 🔬",
+        "ques": "Compare **batch, CSTR, and PFR** reactor types.",
+        "answer": {
+            "type": "text",
+            "content": "| Reactor | Description | Use |\n|---------|-------------|-----|\n| **Batch** | Closed vessel, no flow during reaction | Small scale, specialty chemicals |\n| **CSTR** | Continuous stirred, uniform composition | Large scale, liquid phase |\n| **PFR** | Tubular, plug flow, no mixing | Gas phase, fast reactions |\n\n**Key Differences:**\n- CSTR: Operates at exit conditions\n- PFR: Concentration varies along length\n- For same conversion, PFR smaller for most kinetics"
+        },
+        "explanation": "Real reactors may combine features. Design equations differ—integrate for PFR, algebraic for CSTR."
+    },
+    {
+        "title": "Unit Operations 🏭",
+        "ques": "List and describe common **unit operations** in chemical engineering.",
+        "answer": {
+            "type": "text",
+            "content": "**Unit Operations:**\n\n| Category | Operations |\n|----------|------------|\n| **Heat Transfer** | Heat exchangers, evaporators |\n| **Mass Transfer** | Distillation, absorption, extraction |\n| **Fluid Flow** | Pumps, compressors, piping |\n| **Mechanical** | Filtration, centrifugation, mixing |\n| **Reaction** | Reactors (batch, continuous) |\n| **Drying** | Spray, drum, freeze drying |"
+        },
+        "explanation": "Unit operations combine to form complete processes. Scale-up from lab to plant is major challenge."
     },
     {
         "title": "Process Control 🎛️",
-        "ques": "1. What is a control loop?\n2. PID controller components\n3. Feedback vs feedforward",
+        "ques": "Describe the components of a **process control loop**.",
         "answer": {
             "type": "text",
-            "content": "**1. Control loop:** Sensor → Controller → Actuator → Process → back to Sensor\n\n**2. PID:**\n- P (Proportional): Response proportional to error\n- I (Integral): Eliminates steady-state error\n- D (Derivative): Anticipates future error\n\n**3. Types:**\n- Feedback: Measures output, corrects after disturbance\n- Feedforward: Measures disturbance before it affects output"
+            "content": "**Control Loop Components:**\n\n| Component | Function | Example |\n|-----------|----------|--------|\n| **Sensor** | Measures process variable | Thermocouple |\n| **Transmitter** | Converts to standard signal | 4-20 mA |\n| **Controller** | Compares to setpoint, calculates action | PLC, DCS |\n| **Final element** | Adjusts process | Control valve |\n\n**Example:** Temperature control\n- Sensor measures temperature\n- Controller compares to setpoint\n- Opens/closes steam valve"
         },
-        "explanation": "**PID tuning** is an art. Too aggressive = oscillation; too weak = slow response."
+        "explanation": "PID control most common. Advanced process control uses model-based methods."
     },
     {
-        "title": "Safety in Chemical Plants 🦺",
-        "ques": "1. HAZOP study\n2. What are guide words?\n3. Layers of protection",
+        "title": "Safety Systems ⚠️",
+        "ques": "What is **HAZOP** and how is it used in chemical plant safety?",
         "answer": {
             "type": "text",
-            "content": "**1. HAZOP:** Hazard and Operability Study - systematic hazard identification\n\n**2. Guide words:**\n- NO/NOT: Complete negation\n- MORE/LESS: Quantitative change\n- REVERSE: Opposite direction\n- PART OF: Component missing\n- AS WELL AS: Additional\n- OTHER THAN: Different activity\n\n**3. Layers of protection:**\n1. Inherent safety (design)\n2. Control systems\n3. Alarms\n4. Safety instrumented systems\n5. Physical relief (rupture disc)\n6. Emergency response"
+            "content": "**HAZOP (Hazard and Operability Study):**\nSystematic review to identify hazards\n\n**Process:**\n1. Divide plant into nodes\n2. Apply guide words to process parameters\n3. Identify deviations and consequences\n4. Recommend safeguards\n\n**Guide Words:**\n| Word | Meaning |\n|------|--------|\n| No/Not | Complete negation |\n| More/Less | Quantitative change |\n| Reverse | Opposite direction |\n| Part of | Component missing |\n| As well as | Additional material |"
         },
-        "explanation": "**Safety layers** provide redundancy. Each layer reduces risk by factor of 10-100."
+        "explanation": "Chemical plants use layers of protection: BPCS, SIS, relief devices, containment. Process safety critical."
+    },
+    {
+        "title": "Scale-Up Challenges 📈",
+        "ques": "What challenges arise when **scaling up** from laboratory to industrial production?",
+        "answer": {
+            "type": "text",
+            "content": "**Scale-Up Challenges:**\n\n| Aspect | Issue |\n|--------|-------|\n| **Heat transfer** | Surface/volume ratio decreases |\n| **Mixing** | Non-uniform, dead zones |\n| **Mass transfer** | Concentration gradients |\n| **Reaction time** | May change with scale |\n| **Equipment** | Geometry can't be exactly scaled |\n\n**Solutions:**\n- Pilot plant testing\n- Dimensional analysis\n- CFD modeling\n- Gradual scale-up (10×, 100×, ...)"
+        },
+        "explanation": "Rule of thumb: Lab → Pilot (10-100×) → Demo → Full scale. Each step validates assumptions."
     }
 ]

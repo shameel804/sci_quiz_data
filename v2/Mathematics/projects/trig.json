@@ -1,56 +1,92 @@
 [
     {
-        "title": "Trig Functions 📐",
-        "ques": "For a right triangle with angle θ where opposite = 3, adjacent = 4:\n1. Find sin θ, cos θ, tan θ\n2. Find the hypotenuse",
+        "title": "Basic Trig Ratios 📐",
+        "ques": "In a right triangle with angle θ, opposite side = 3, adjacent = 4. Find **sin θ, cos θ, tan θ**.",
         "answer": {
             "type": "text",
-            "content": "**1. Find hypotenuse first:**\n√(3² + 4²) = 5\n\n**Trig ratios:**\n- sin θ = opp/hyp = 3/5\n- cos θ = adj/hyp = 4/5\n- tan θ = opp/adj = 3/4"
+            "content": "**First find hypotenuse:**\nh = √(3² + 4²) = √25 = 5\n\n**Trig ratios:**\n$$\\sin θ = \\frac{opposite}{hypotenuse} = \\mathbf{\\frac{3}{5}}$$\n$$\\cos θ = \\frac{adjacent}{hypotenuse} = \\mathbf{\\frac{4}{5}}$$\n$$\\tan θ = \\frac{opposite}{adjacent} = \\mathbf{\\frac{3}{4}}$$\n\n*Mnemonic: SOH-CAH-TOA*"
         },
-        "explanation": "**SOH-CAH-TOA:** Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent."
+        "explanation": "This is a 3-4-5 right triangle. The ratios define the trigonometric functions."
     },
     {
-        "title": "Unit Circle 🔵",
-        "ques": "Find exact values:\n1. sin 30°\n2. cos 45°\n3. tan 60°",
+        "title": "Pythagorean Identity ✓",
+        "ques": "If **sin θ = 3/5** and θ is in Quadrant I, find **cos θ** using the Pythagorean identity.",
         "answer": {
             "type": "text",
-            "content": "**1.** sin 30° = **1/2**\n\n**2.** cos 45° = **√2/2**\n\n**3.** tan 60° = **√3**\n\n| Angle | sin | cos | tan |\n|-------|-----|-----|-----|\n| 30° | 1/2 | √3/2 | 1/√3 |\n| 45° | √2/2 | √2/2 | 1 |\n| 60° | √3/2 | 1/2 | √3 |"
+            "content": "**Pythagorean Identity:**\n$$\\sin^2 θ + \\cos^2 θ = 1$$\n\n**Substitute:**\n$$(\\frac{3}{5})^2 + \\cos^2 θ = 1$$\n$$\\frac{9}{25} + \\cos^2 θ = 1$$\n$$\\cos^2 θ = 1 - \\frac{9}{25} = \\frac{16}{25}$$\n$$\\cos θ = ±\\frac{4}{5}$$\n\n**Quadrant I:** cos θ > 0, so **cos θ = 4/5**"
         },
-        "explanation": "**Unit circle values** should be memorized. 30-60-90 and 45-45-90 triangles are key."
+        "explanation": "Quadrant determines sign: I = all+, II = sin+, III = tan+, IV = cos+."
     },
     {
-        "title": "Trig Identities 🔄",
-        "ques": "Prove:\n1. sin²θ + cos²θ = 1\n2. sec²θ - tan²θ = 1",
+        "title": "Angle Sum Formula ➕",
+        "ques": "Find **sin(75°)** exactly using the angle sum formula.",
         "answer": {
             "type": "text",
-            "content": "**1. Pythagorean identity:**\nIn unit circle, x² + y² = 1\ncos²θ + sin²θ = 1 ✓\n\n**2. Derived from (1):**\n```\nDivide (1) by cos²θ:\ntan²θ + 1 = sec²θ\nsec²θ - tan²θ = 1 ✓\n```"
+            "content": "**Angle Sum Formula:**\n$$\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$$\n\n**Write 75° = 45° + 30°:**\n\n$$\\sin 75° = \\sin 45° \\cos 30° + \\cos 45° \\sin 30°$$\n$$= \\frac{\\sqrt{2}}{2} × \\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{2}}{2} × \\frac{1}{2}$$\n$$= \\frac{\\sqrt{6}}{4} + \\frac{\\sqrt{2}}{4} = \\mathbf{\\frac{\\sqrt{6} + \\sqrt{2}}{4}}$$"
         },
-        "explanation": "**Pythagorean identities** are fundamental. All others can be derived from sin²θ + cos²θ = 1."
+        "explanation": "Common exact values: 0°, 30°, 45°, 60°, 90°. Use sum/difference formulas to find others."
     },
     {
-        "title": "Solving Trig Equations 🎯",
-        "ques": "Solve for θ in [0°, 360°):\n1. sin θ = 1/2\n2. cos θ = -1",
+        "title": "Double Angle Formulas 🔄",
+        "ques": "If **cos θ = 3/5**, find **sin 2θ** and **cos 2θ**.",
         "answer": {
             "type": "text",
-            "content": "**1. sin θ = 1/2:**\nReference angle = 30°\nSin positive in Q1, Q2\nθ = **30° or 150°**\n\n**2. cos θ = -1:**\nθ = **180°**\n(Only solution in given range)"
+            "content": "**First find sin θ:**\nsin²θ = 1 - (3/5)² = 16/25 → sin θ = 4/5 (assume Q1)\n\n**Double Angle Formulas:**\n$$\\sin 2θ = 2 \\sin θ \\cos θ = 2 × \\frac{4}{5} × \\frac{3}{5} = \\mathbf{\\frac{24}{25}}$$\n\n$$\\cos 2θ = \\cos^2 θ - \\sin^2 θ = \\frac{9}{25} - \\frac{16}{25} = \\mathbf{-\\frac{7}{25}}$$\n\n*Or: cos 2θ = 2cos²θ - 1 = 18/25 - 1 = -7/25 ✓*"
         },
-        "explanation": "**ASTC rule:** All positive in Q1, Sin in Q2, Tan in Q3, Cos in Q4."
+        "explanation": "Three forms for cos 2θ: 2cos²θ - 1,  1 - 2sin²θ, cos²θ - sin²θ. Choose based on what's given."
     },
     {
-        "title": "Triangle Applications 🔺",
-        "ques": "In triangle ABC: a = 7, b = 5, C = 60°\n1. Find side c (Law of Cosines)\n2. Find area",
+        "title": "Solving Trig Equations 🔍",
+        "ques": "Solve: **2sin²x - 1 = 0** for x in [0, 2π)",
         "answer": {
             "type": "text",
-            "content": "**1. Law of Cosines:**\n```\nc² = a² + b² - 2ab·cos C\nc² = 49 + 25 - 2(7)(5)(0.5)\nc² = 74 - 35 = 39\nc = √39 ≈ 6.24\n```\n\n**2. Area:**\n```\nArea = (1/2)ab·sin C\n     = (1/2)(7)(5)(√3/2)\n     = 35√3/4 ≈ 15.16\n```"
+            "content": "**Solve for sin x:**\n2sin²x = 1\nsin²x = 1/2\nsin x = ±1/√2 = ±√2/2\n\n**Find angles:**\nsin x = √2/2: x = **π/4**, **3π/4**\nsin x = -√2/2: x = **5π/4**, **7π/4**\n\n**Solutions:** x = **π/4, 3π/4, 5π/4, 7π/4**"
         },
-        "explanation": "**Law of Cosines** generalizes Pythagorean theorem. Area = (1/2)ab·sin C works for any triangle."
+        "explanation": "Always check the domain. For equations like sin x = k, there are usually 2 solutions per period."
     },
     {
-        "title": "Polar Coordinates 🌀",
-        "ques": "Convert:\n1. (3, 4) to polar\n2. (5, 60°) to Cartesian",
+        "title": "Law of Sines 📏",
+        "ques": "In triangle ABC, A = 30°, B = 45°, a = 10. Find side **b**.",
         "answer": {
             "type": "text",
-            "content": "**1. (3,4) to polar:**\n```\nr = √(9+16) = 5\nθ = tan⁻¹(4/3) ≈ 53.13°\n```\nPolar: **(5, 53.13°)**\n\n**2. (5, 60°) to Cartesian:**\n```\nx = r·cos θ = 5·(1/2) = 2.5\ny = r·sin θ = 5·(√3/2) ≈ 4.33\n```\nCartesian: **(2.5, 4.33)**"
+            "content": "**Law of Sines:**\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$$\n\n**Substitute:**\n$$\\frac{10}{\\sin 30°} = \\frac{b}{\\sin 45°}$$\n$$\\frac{10}{0.5} = \\frac{b}{\\frac{\\sqrt{2}}{2}}$$\n$$20 = \\frac{2b}{\\sqrt{2}}$$\n$$b = 10\\sqrt{2} ≈ \\mathbf{14.14}$$"
         },
-        "explanation": "**Polar coordinates** (r, θ) specify point by distance and angle. Convert using x = r·cos θ, y = r·sin θ."
+        "explanation": "Law of Sines relates sides to opposite angles. Use when you have AAS, ASA, or SSA (ambiguous case)."
+    },
+    {
+        "title": "Law of Cosines 🔺",
+        "ques": "In triangle ABC, a = 7, b = 10, C = 60°. Find side **c**.",
+        "answer": {
+            "type": "text",
+            "content": "**Law of Cosines:**\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\n**Substitute:**\n$$c^2 = 7^2 + 10^2 - 2(7)(10)\\cos 60°$$\n$$c^2 = 49 + 100 - 140 × 0.5$$\n$$c^2 = 149 - 70 = 79$$\n$$c = \\sqrt{79} ≈ \\mathbf{8.89}$$"
+        },
+        "explanation": "Law of Cosines is the generalized Pythagorean theorem. Use for SAS or SSS triangles."
+    },
+    {
+        "title": "Polar Coordinates 🎯",
+        "ques": "Convert the rectangular point **(3, 3√3)** to polar coordinates.",
+        "answer": {
+            "type": "text",
+            "content": "**Conversion formulas:**\n- r = √(x² + y²)\n- θ = tan⁻¹(y/x)\n\n**Calculate r:**\n$$r = \\sqrt{3^2 + (3\\sqrt{3})^2} = \\sqrt{9 + 27} = \\sqrt{36} = \\mathbf{6}$$\n\n**Calculate θ:**\n$$\\tan θ = \\frac{3\\sqrt{3}}{3} = \\sqrt{3}$$\n$$θ = \\tan^{-1}(\\sqrt{3}) = \\mathbf{60° = π/3}$$\n\n**Polar coordinates:** (r, θ) = **(6, π/3)**"
+        },
+        "explanation": "Polar coordinates (r, θ) describe position by distance and angle. Useful for circular motion and spirals."
+    },
+    {
+        "title": "Inverse Trig Functions 🔙",
+        "ques": "Evaluate without a calculator: **arcsin(1/2) + arccos(1/2)**",
+        "answer": {
+            "type": "text",
+            "content": "**Evaluate each:**\narcsin(1/2) = **30° = π/6** (since sin 30° = 1/2)\narccos(1/2) = **60° = π/3** (since cos 60° = 1/2)\n\n**Sum:**\narcsin(1/2) + arccos(1/2) = π/6 + π/3 = π/6 + 2π/6 = **π/2 = 90°**\n\n*General property:* arcsin(x) + arccos(x) = π/2 for all x in [-1,1]"
+        },
+        "explanation": "Inverse functions return angles. Domain restrictions ensure unique outputs."
+    },
+    {
+        "title": "Trig Identities - Verify ✓",
+        "ques": "Verify the identity: **tan x + cot x = sec x csc x**",
+        "answer": {
+            "type": "text",
+            "content": "**Left side (convert to sin/cos):**\n$$\\tan x + \\cot x = \\frac{\\sin x}{\\cos x} + \\frac{\\cos x}{\\sin x}$$\n$$= \\frac{\\sin^2 x + \\cos^2 x}{\\sin x \\cos x}$$\n$$= \\frac{1}{\\sin x \\cos x}$$\n\n**Right side:**\n$$\\sec x \\csc x = \\frac{1}{\\cos x} × \\frac{1}{\\sin x} = \\frac{1}{\\sin x \\cos x}$$\n\n**LHS = RHS** ✓"
+        },
+        "explanation": "Strategy: Convert everything to sin and cos, simplify, look for Pythagorean identities."
     }
 ]

@@ -1,56 +1,92 @@
 [
     {
-        "title": "Circuit Analysis 🔌",
-        "ques": "Series circuit: 12V source, resistors 2Ω, 4Ω, 6Ω.\n1. Total resistance\n2. Total current\n3. Voltage across each resistor",
+        "title": "Ohm's Law and Kirchhoff ⚡",
+        "ques": "State **Ohm's Law** and **Kirchhoff's Laws** with circuit examples.",
         "answer": {
             "type": "text",
-            "content": "**1. Total resistance (series):**\nR_total = 2 + 4 + 6 = **12Ω**\n\n**2. Current (Ohm's Law):**\nI = V/R = 12/12 = **1A**\n\n**3. Voltages:**\n- V₁ = IR₁ = 1×2 = 2V\n- V₂ = IR₂ = 1×4 = 4V\n- V₃ = IR₃ = 1×6 = 6V\nCheck: 2+4+6 = 12V ✓"
+            "content": "**Ohm's Law:**\n$$V = IR$$\nVoltage = Current × Resistance\n\n**Kirchhoff's Current Law (KCL):**\nSum of currents at a node = 0\n(Current in = Current out)\n\n**Kirchhoff's Voltage Law (KVL):**\nSum of voltages around a loop = 0\n(Voltage rises = Voltage drops)\n\n**Example:** 3 resistors in series with 12V supply\nKVL: 12 - V₁ - V₂ - V₃ = 0"
         },
-        "explanation": "**Series circuit:** Same current through all; voltages add up to source."
+        "explanation": "These laws are the foundation of circuit analysis. Applicable to DC and AC circuits."
     },
     {
-        "title": "Transformers ⚡",
-        "ques": "Transformer: 500 turns primary, 50 turns secondary, 220V input.\n1. Find output voltage\n2. Is this step-up or step-down?\n3. If 2A output, what's input current?",
+        "title": "AC vs DC ⚡",
+        "ques": "Compare **AC** and **DC** current and explain why AC is used for power transmission.",
         "answer": {
             "type": "text",
-            "content": "**1. Output voltage:**\n```\nV₂/V₁ = N₂/N₁\nV₂ = 220 × (50/500) = 22V\n```\n\n**2. Step-down** (voltage decreased)\n\n**3. Input current (conservation of power):**\n```\nP₁ = P₂ (ideal)\nV₁I₁ = V₂I₂\n220 × I₁ = 22 × 2\nI₁ = 0.2A\n```"
+            "content": "| Feature | DC | AC |\n|---------|----|----|  \n| Direction | Constant | Alternates |\n| Frequency | 0 Hz | 50/60 Hz |\n| Source | Batteries | Generators |\n| Storage | Easy | Difficult |\n\n**Why AC for Transmission:**\n- Transformers easily change voltage\n- High voltage = low current = less I²R loss\n- Step up for transmission, step down for use\n\n$$P_{loss} = I^2R$$\nHigher V means lower I for same power"
         },
-        "explanation": "**Transformers** change voltage levels. Power in ≈ power out (minus losses)."
+        "explanation": "Edison (DC) vs Tesla (AC) in the 'War of Currents'. AC won due to transformer efficiency."
+    },
+    {
+        "title": "Transformers 🔄",
+        "ques": "Explain how a **transformer** works and calculate the turns ratio.",
+        "answer": {
+            "type": "text",
+            "content": "**Transformer Principle:**\nChanging magnetic field induces voltage in secondary coil\n\n**Turns Ratio:**\n$$\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$$\n\n**Power Conservation (ideal):**\n$$V_pI_p = V_sI_s$$\n\n**Example:**\nPrimary: 1000 turns, 120V\nSecondary: 100 turns\n\n$$V_s = \\frac{100}{1000} × 120 = \\mathbf{12V}$$\n\nStep-down transformer (higher current out)"
+        },
+        "explanation": "Transformers only work with AC. Core material (iron/ferrite) reduces eddy current losses."
+    },
+    {
+        "title": "Semiconductors 🔌",
+        "ques": "Explain **p-type** and **n-type** semiconductors and how a diode works.",
+        "answer": {
+            "type": "text",
+            "content": "**Intrinsic Semiconductor:** Pure silicon (4 valence electrons)\n\n**N-type (doped with Group V - Phosphorus):**\n- Extra electrons (negative carriers)\n- Electron donation\n\n**P-type (doped with Group III - Boron):**\n- Missing electrons = \"holes\" (positive carriers)\n- Electron acceptance\n\n**PN Junction Diode:**\n- Forward bias: Current flows (low resistance)\n- Reverse bias: No current (high resistance)\n- Threshold voltage: ~0.7V (Si)"
+        },
+        "explanation": "Diodes are building blocks for rectifiers, LEDs, solar cells. Transistors combine two junctions."
     },
     {
         "title": "Motors and Generators 🔄",
-        "ques": "1. Motor vs generator operation\n2. What is back-EMF?\n3. DC motor speed control",
+        "ques": "Explain the difference between a **motor** and **generator** using the same device.",
         "answer": {
             "type": "text",
-            "content": "**1. Difference:**\n- Motor: Electrical → Mechanical energy\n- Generator: Mechanical → Electrical energy\n(Same machine, different operation!)\n\n**2. Back-EMF:** Voltage generated in motor that opposes applied voltage. Increases with speed.\n\n**3. DC motor speed control:**\n- Vary armature voltage\n- Vary field current\n- PWM (Pulse Width Modulation)"
+            "content": "**Same Device, Different Function:**\n\n| Motor | Generator |\n|-------|----------|\n| Electrical → Mechanical | Mechanical → Electrical |\n| Current in → rotation out | Rotation in → current out |\n| Uses Lorentz force | Uses Faraday induction |\n\n**Working Principle:**\n- Current in magnetic field → force (F = BIL)\n- Conductor moving in magnetic field → EMF (ε = BLv)\n\n**Efficiency:** 90-95% for large machines"
         },
-        "explanation": "**Back-EMF** limits motor current. When motor stalls, no back-EMF → high current."
+        "explanation": "Electric vehicles use regenerative braking—motor becomes generator during deceleration."
     },
     {
-        "title": "Power Factor 📊",
-        "ques": "Load: 1000W real power, 500VAR reactive power.\n1. Apparent power\n2. Power factor\n3. Why improve power factor?",
+        "title": "Digital Logic 🔢",
+        "ques": "Simplify the Boolean expression: **AB + A(B + C) + B(B + C)**",
         "answer": {
             "type": "text",
-            "content": "**1. Apparent power:**\n```\nS = √(P² + Q²) = √(1000² + 500²) = 1118 VA\n```\n\n**2. Power factor:**\n```\nPF = P/S = 1000/1118 = 0.894 (lagging)\n```\n\n**3. Benefits of high PF:**\n- Reduced current for same power\n- Lower losses\n- Avoid utility penalties\n- Smaller cable sizes"
+            "content": "**Step-by-step simplification:**\n\n$$AB + A(B + C) + B(B + C)$$\n$$= AB + AB + AC + BB + BC$$\n$$= AB + AB + AC + B + BC$$  (BB = B)\n$$= AB + AC + B + BC$$  (AB + AB = AB)\n$$= AB + AC + B(1 + C)$$\n$$= AB + AC + B$$  (1 + C = 1)\n$$= \\mathbf{B + AC}$$  (AB absorbed by B)\n\n**Using Karnaugh map would give same result**"
         },
-        "explanation": "**Add capacitors** to improve PF. Brings reactive power closer to zero."
+        "explanation": "Boolean algebra simplifies circuits, reducing gates needed. Key laws: DeMorgan's, Absorption, Idempotent."
     },
     {
-        "title": "Digital Logic 🖥️",
-        "ques": "Design a circuit where LED lights if A AND B are pressed, OR if C is pressed.\n1. Boolean expression\n2. What gates needed?",
+        "title": "Op-Amps 📊",
+        "ques": "Design an **inverting amplifier** with gain of -10 using an op-amp.",
         "answer": {
             "type": "text",
-            "content": "**1. Boolean expression:**\n```\nOutput = (A·B) + C\n```\n\n**2. Gates needed:**\n- 1 AND gate (for A·B)\n- 1 OR gate (to combine with C)\n\n**Circuit:**\n```\nA ──┐\n    AND──┐\nB ──┘    OR── LED\n         │\nC ───────┘\n```"
+            "content": "**Inverting Amplifier Gain:**\n$$A_v = -\\frac{R_f}{R_{in}}$$\n\n**For gain = -10:**\n$$-10 = -\\frac{R_f}{R_{in}}$$\n\n**Choose values:**\n- R_in = 1 kΩ\n- R_f = 10 kΩ\n\n**Circuit:**\n- Input through R_in to inverting input (-)\n- Feedback through R_f from output to (-)\n- Non-inverting input (+) to ground\n- Output = -10 × V_in"
         },
-        "explanation": "**Boolean algebra** describes digital circuits. AND = series switches; OR = parallel switches."
+        "explanation": "Op-amps are building blocks for amplifiers, filters, oscillators. Assume ideal: infinite gain, infinite input impedance."
     },
     {
-        "title": "Semiconductor Basics 💡",
-        "ques": "1. What is a diode?\n2. LED operation\n3. What is a transistor?",
+        "title": "Power Factor 📉",
+        "ques": "What is **power factor** and why is it important in AC circuits?",
         "answer": {
             "type": "text",
-            "content": "**1. Diode:** One-way valve for current (p-n junction)\n- Forward bias: Current flows\n- Reverse bias: Blocks current\n\n**2. LED:** Light-Emitting Diode\n- Forward bias → electrons recombine → emit light\n- Different materials → different colors\n\n**3. Transistor:** Current-controlled switch/amplifier\n- BJT: Small base current controls larger collector current\n- MOSFET: Voltage-controlled"
+            "content": "**Power Factor:**\n$$PF = \\cos(φ) = \\frac{P_{real}}{P_{apparent}} = \\frac{P}{S}$$\n\nWhere φ = phase angle between V and I\n\n**Types of Power:**\n| Type | Formula | Unit |\n|------|---------|------|\n| Real (P) | VI cos(φ) | Watts |\n| Reactive (Q) | VI sin(φ) | VAR |\n| Apparent (S) | VI | VA |\n\n**Why Important:**\n- Low PF = more current for same power\n- Higher losses, larger conductors needed\n- Utilities charge penalties for low PF"
         },
-        "explanation": "**Transistors** are building blocks of all electronics. ~50 billion in modern CPUs!"
+        "explanation": "Capacitors added to correct lagging PF (from inductive loads like motors)."
+    },
+    {
+        "title": "Signal Processing 📶",
+        "ques": "What is **Fourier analysis** and why is it important in electrical engineering?",
+        "answer": {
+            "type": "text",
+            "content": "**Fourier Analysis:**\nAny periodic signal = sum of sinusoids\n\n$$f(t) = a_0 + \\sum_{n=1}^{∞}[a_n\\cos(nωt) + b_n\\sin(nωt)]$$\n\n**Applications:**\n- Audio/image compression\n- Filter design\n- Communication systems\n- Power quality analysis\n\n**Example:**\nSquare wave = fundamental + odd harmonics\n\n**FFT:** Fast algorithm for computing DFT (O(n log n))"
+        },
+        "explanation": "Fourier transforms convert between time and frequency domains. Essential for signal processing."
+    },
+    {
+        "title": "Control Systems 🎛️",
+        "ques": "Explain **feedback control** and the difference between open and closed loop.",
+        "answer": {
+            "type": "text",
+            "content": "**Open Loop:**\n- No feedback\n- Output not compared to desired\n- Simple but inaccurate\n- Example: Toaster\n\n**Closed Loop (Feedback):**\n- Output measured and compared to setpoint\n- Error used to adjust input\n- More accurate and stable\n- Example: Thermostat\n\n**PID Controller:**\n- **P**roportional: Response to current error\n- **I**ntegral: Response to accumulated error\n- **D**erivative: Response to rate of change"
+        },
+        "explanation": "Most industrial control uses PID. Tuning involves adjusting P, I, D gains for stability and response."
     }
 ]

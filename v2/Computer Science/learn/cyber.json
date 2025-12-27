@@ -2,58 +2,138 @@
     "id": "learn_cyber",
     "topicId": "cyber",
     "topicTitle": "Cybersecurity",
-    "description": "Explore encryption, network security, malware, and ethical hacking",
-    "baseKP": 75,
+    "description": "Protecting digital systems.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "cyber_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Cybersecurity 🔒\n\n## CIA Triad\n| Principle | Meaning |\n|-----------|--------|\n| Confidentiality | Keep private |\n| Integrity | Keep accurate |\n| Availability | Keep accessible |"
+            "title": "What is Cybersecurity?",
+            "content": "# Digital Defense 🛡️\n\nProtecting systems, networks, and programs from digital attacks.\n- **CIA Triad**:\n  1. **Confidentiality**: Secret stays secret.\n  2. **Integrity**: Data isn't changed.\n  3. **Availability**: System works when needed."
         },
         {
             "id": "cyber_2",
             "type": "content",
             "title": "Encryption",
-            "content": "# Encryption 🔐\n\n## Types\n| Type | Key | Example |\n|------|-----|--------|\n| Symmetric | Same key | AES, DES |\n| Asymmetric | Public/Private | RSA |\n\n## Use Cases\n- HTTPS (TLS)\n- Password storage\n- Secure messaging"
+            "content": "# Scrambling 🍳\n\nMaking data unreadable without a Key.\n- **AES**: Standard for files.\n- **RSA**: Standard for internet traffic.\n- Without encryption, anyone on WiFi could read your passwords."
         },
         {
             "id": "cyber_3",
             "type": "content",
-            "title": "Network Security",
-            "content": "# Network Security 🌐\n\n## Defenses\n| Tool | Purpose |\n|------|--------|\n| Firewall | Filter traffic |\n| VPN | Encrypt connection |\n| IDS/IPS | Detect intrusions |\n\n## Attacks\n- DDoS\n- Man-in-the-middle\n- Phishing"
-        },
-        {
-            "id": "cyber_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Which encryption uses public/private keys?",
-            "quizOptions": [
-                "Symmetric",
-                "Asymmetric",
-                "Hash",
-                "None"
-            ],
-            "correctOptionIndex": 1
+            "title": "Hashing (Security)",
+            "content": "# Fingerprints ☝️\n\nOne-way math function.\n- Input $\\to$ Fixed String.\n- Cannot go back (String $\\to$ Input).\n- Passwords should be Hashed (not saved as text), so even the admin can't see them."
         },
         {
             "id": "cyber_4",
             "type": "content",
             "title": "Malware",
-            "content": "# Malware & Viruses 🦠\n\n| Type | Description |\n|------|-------------|\n| Virus | Attaches to files |\n| Worm | Self-replicating |\n| Trojan | Hidden in software |\n| Ransomware | Encrypts data |\n| Spyware | Steals information |"
+            "content": "# Bad Software 🦠\n\n- **Virus**: Attaches to files, spreads.\n- **Worm**: Spreads itself over network.\n- **Trojan**: Looks safe, attacks from inside.\n- **Ransomware**: Encrypts files, demands money."
         },
         {
             "id": "cyber_5",
             "type": "content",
-            "title": "Ethical Hacking",
-            "content": "# Ethical Hacking 🎩\n\n## Phases\n1. Reconnaissance\n2. Scanning\n3. Gaining access\n4. Maintaining access\n5. Covering tracks\n\n## Types\n- White hat (authorized)\n- Black hat (malicious)\n- Grey hat (in between)"
+            "title": "Phishing",
+            "content": "# Bait Hook 🎣\n\nFraudulent emails pretending to be trusted sources.\n- \"Your bank account is locked! Click here.\"\n- Goal: Steal login credentials.\n- **Spear Phishing**: Targeted at specific person."
+        },
+        {
+            "id": "cyber_quiz_1",
+            "type": "quiz",
+            "title": "Attack Quiz",
+            "content": "Threat check.",
+            "quizQuestion": "Which type of malware locks your files and demands payment?",
+            "quizOptions": [
+                "Spyware",
+                "Worm",
+                "Ransomware",
+                "Trojan"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "cyber_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- CIA: Confidentiality, Integrity, Availability\n- Encryption: Symmetric vs Asymmetric\n- Defense: Firewalls, VPN, IDS\n- Know malware types"
+            "title": "Man-in-the-Middle (MitM)",
+            "content": "# Eavesdropping 👂\n\nAttacker sits between you and the server.\n- Public WiFi is dangerous.\n- **VPN** helps by creating an encrypted tunnel."
+        },
+        {
+            "id": "cyber_7",
+            "type": "content",
+            "title": "DDoS Attack",
+            "content": "# Traffic Jam 🚦\n\nDistributed Denial of Service.\n- Thousands of hijacked computers (Botnet) flood a website with traffic.\n- Site crashes.\n- Attack on Availability."
+        },
+        {
+            "id": "cyber_8",
+            "type": "content",
+            "title": "Firewalls",
+            "content": "# The Wall 🧱\n\nNetwork barrier that monitors incoming/outgoing traffic.\n- Blocks unauthorized access.\n- Can be Hardware or Software."
+        },
+        {
+            "id": "cyber_9",
+            "type": "content",
+            "title": "Authentication",
+            "content": "# Who are you? 🆔\n\nVerifying identity.\n1. Something you **Know** (Password).\n2. Something you **Have** (Phone code).\n3. Something you **Are** (FaceID).\n**2FA (Two-Factor)** uses two of these. Use it!"
+        },
+        {
+            "id": "cyber_10",
+            "type": "content",
+            "title": "SQL Injection",
+            "content": "# Code Injection 💉\n\nHacker typing code into a login box.\n- Input: `' OR 1=1 --`\n- Trick database into logging you in without password.\n- Prevention: Sanitize inputs."
+        },
+        {
+            "id": "cyber_11",
+            "type": "content",
+            "title": "Zero-Day Exploit",
+            "content": "# Unknown Flaw 0️⃣\n\nVulnerability known to hacker but not the software vendor.\n- \"Zero days\" to fix it.\n- Very valuable on black market."
+        },
+        {
+            "id": "cyber_quiz_2",
+            "type": "quiz",
+            "title": "Safety Quiz",
+            "content": "Auth check.",
+            "quizQuestion": "Which is the most secure method of authentication?",
+            "quizOptions": [
+                "Password only",
+                "SMS code only",
+                "Two-Factor (2FA)",
+                "Secret Question"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cyber_12",
+            "type": "content",
+            "title": "Ethical Hacking",
+            "content": "# White Hats 🤠\n\nHackers hired to break into systems to find flaws.\n- **Penetration Testing**: Simulated cyberattack.\n- **Bug Bounty**: Companies paying for found bugs."
+        },
+        {
+            "id": "cyber_13",
+            "type": "content",
+            "title": "Social Engineering",
+            "content": "# Hacking Humans 🎭\n\nManipulating people into giving up secrets.\n- \"Can you hold the door?\" (Tailgating).\n- \"I'm from IT, I need your password.\"\n- Humans are the weakest link."
+        },
+        {
+            "id": "cyber_14",
+            "type": "content",
+            "title": "HTTPS / SSL",
+            "content": "# Secure Web 🔒\n\nHyper Text Transfer Protocol **Secure**.\n- Encrypts connection between browser and site.\n- Look for the Lock icon.\n- Essential for banking/shopping."
+        },
+        {
+            "id": "cyber_15",
+            "type": "content",
+            "title": "Digital Forensics",
+            "content": "# CSI Cyber 🕵️\n\nRecovering investigation material from devices.\n- Recovering deleted files.\n- Tracing IP addresses.\n- Legal evidence."
+        },
+        {
+            "id": "cyber_16",
+            "type": "content",
+            "title": "Cyber Hygiene",
+            "content": "# Daily Habits 🧼\n\n- Strong unique passwords (Password Manager).\n- Update software (Patches vulnerabilities).\n- Don't click weird links."
+        },
+        {
+            "id": "cyber_17",
+            "type": "content",
+            "title": "Cyber Summary",
+            "content": "# Recap 📝\n\n- **CIA**: Confidentiality, Integrity, Availability.\n- **Encryption** protects data.\n- **Humans** are the main target.\n- Stay paranoid."
         }
     ]
 }

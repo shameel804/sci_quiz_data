@@ -2,110 +2,138 @@
     "id": "learn_cell",
     "topicId": "cell",
     "topicTitle": "Cell Biology",
-    "description": "Explore cell structure, organelles, membranes, cell division, and energy metabolism",
-    "baseKP": 75,
+    "description": "Explore the fundamental unit of life, from organelles to division.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "cell_1",
             "type": "content",
-            "title": "Welcome to Cell Biology",
-            "content": "# Introduction to Cell Biology 🔬\n\nWelcome to **Cell Biology** - the study of life's basic building blocks!\n\n## What you'll learn:\n- **Cell Structure** - Organelles and their functions\n- **Cell Membrane** - Transport and signaling\n- **Cell Division** - Mitosis and meiosis\n- **Cellular Respiration** - Energy production\n- **Photosynthesis** - Energy capture\n\n> 💡 **Fun Fact:** Your body contains about 37 trillion cells, and they're constantly dividing!\n\n## The Cell Theory\n\n1. All living things are made of cells\n2. Cells are the basic unit of structure and function\n3. All cells come from pre-existing cells\n\n## Cell Types\n\n| Feature | Prokaryote | Eukaryote |\n|---------|------------|----------|\n| Nucleus | No membrane | Membrane-bound |\n| Size | 1-10 μm | 10-100 μm |\n| Organelles | Few, simple | Many, complex |\n| DNA | Circular | Linear chromosomes |\n| Examples | Bacteria | Plants, animals, fungi |\n\n## Why Study Cells?\n- 🏥 Understanding disease\n- 💊 Drug development\n- 🧪 Biotechnology\n- 🌱 Agriculture\n\nLet's explore the microscopic world!"
+            "title": "The Cell Theory",
+            "content": "# Life's Lego Blocks 🧱\n\n1. All living things are composed of one or more cells.\n2. The cell is the basic unit of life.\n3. All cells arise from pre-existing cells.\n\nFrom bacteria to blue whales, it's all cells!"
         },
         {
             "id": "cell_2",
             "type": "content",
-            "title": "Cell Structure - Organelles",
-            "content": "# Cell Organelles 🏭\n\n## Major Organelles\n\n### Nucleus - Control Center\n- Contains DNA (genetic information)\n- Surrounded by nuclear envelope (double membrane)\n- Nucleolus makes ribosomes\n\n### Mitochondria - Powerhouse\n- Site of cellular respiration\n- Produces ATP (energy currency)\n- Has own DNA (maternal inheritance)\n- Double membrane\n\n### Endoplasmic Reticulum (ER)\n\n| Type | Structure | Function |\n|------|-----------|----------|\n| Rough ER | Ribosomes attached | Protein synthesis |\n| Smooth ER | No ribosomes | Lipid synthesis, detox |\n\n### Golgi Apparatus - Shipping Center\n- Modifies, packages, ships proteins\n- Stacks of flattened membranes\n- Creates lysosomes\n\n### Lysosomes - Recycling Center\n- Contains digestive enzymes\n- Breaks down waste, old organelles\n- \"Suicide bags\" of the cell\n\n### Ribosomes - Protein Factories\n- Made of RNA and protein\n- Free or bound to ER\n- Read mRNA, build proteins\n\n## Quick Reference\n\n| Organelle | Main Function |\n|-----------|---------------|\n| Nucleus | DNA storage, control |\n| Mitochondria | ATP production |\n| Ribosome | Protein synthesis |\n| Golgi | Package and ship |\n| Lysosome | Digestion |\n| ER | Synthesis |\n\n> 🎯 **Memory Tip:** Think of the cell as a factory with specialized departments!"
+            "title": "Prokaryotes vs. Eukaryotes",
+            "content": "# Simple vs Complex 🦠\n\n**Prokaryotes** (Bacteria, Archaea):\n- No nucleus.\n- No membrane-bound organelles.\n- Small and simple.\n\n**Eukaryotes** (Plants, Animals, Fungi):\n- Have a nucleus (DNA vault).\n- Complex organelles.\n- Larger size."
         },
         {
             "id": "cell_3",
             "type": "content",
-            "title": "Plant vs Animal Cells",
-            "content": "# Plant vs Animal Cells 🌱🐾\n\n## Key Differences\n\n| Feature | Plant Cell | Animal Cell |\n|---------|------------|-------------|\n| Cell wall | Present (cellulose) | Absent |\n| Chloroplasts | Present | Absent |\n| Central vacuole | Large, central | Small, multiple |\n| Shape | Regular, rectangular | Irregular, round |\n| Centrioles | Absent (usually) | Present |\n| Lysosomes | Rare | Common |\n\n## Plant-Specific Structures\n\n### Cell Wall\n- Made of cellulose\n- Provides rigidity and support\n- Outside the cell membrane\n- Gives plants their structure\n\n### Chloroplasts\n- Site of photosynthesis\n- Contains chlorophyll (green pigment)\n- Double membrane\n- Own DNA\n\n### Central Vacuole\n- Stores water, nutrients, waste\n- Maintains turgor pressure\n- Can fill 90% of cell volume\n\n## Animal-Specific Features\n\n### Centrioles\n- Organize spindle fibers in cell division\n- Made of microtubules\n\n### Lysosomes\n- More developed in animals\n- Important for immune function\n\n## Visual Comparison\n\n```\nPlant Cell:             Animal Cell:\n┌───────────────┐       ○─────────────○\n│  ┌─────────┐  │       │  Irregular   │\n│  │ Vacuole │  │       │    shape     │\n│  └─────────┘  │       │  ○ ○ Small   │\n│  □ Chloroplast│       │  vacuoles    │\n│   Cell wall   │       ○─────────────○\n└───────────────┘       (No cell wall)\n```\n\n> 💡 **Key Point:** Chloroplasts and cell walls make plants autotrophs (self-feeders)!"
-        },
-        {
-            "id": "cell_quiz_1",
-            "type": "quiz",
-            "title": "Cell Structure Quiz",
-            "content": "Test your understanding of cell organelles!",
-            "quizQuestion": "Which organelle is known as the 'powerhouse of the cell'?",
-            "quizOptions": [
-                "Nucleus",
-                "Ribosome",
-                "Mitochondria",
-                "Golgi apparatus"
-            ],
-            "correctOptionIndex": 2
+            "title": "The Plasma Membrane",
+            "content": "# The Gatekeeper 🚪\n\n**Phospholipid Bilayer**:\n- Hydrophilic heads (Water loving) face out.\n- Hydrophobic tails (Water fearing) face in.\n\n**Fluid Mosaic Model**: Proteins float in this layer to transport molecules in and out."
         },
         {
             "id": "cell_4",
             "type": "content",
-            "title": "Cell Membrane",
-            "content": "# The Cell Membrane 🧫\n\n## Fluid Mosaic Model\n\nThe membrane is like a \"sea of lipids with floating proteins.\"\n\n```\n   Outside cell\n   ~~~~~~~~~~~~~~~~\n       ○  ○  ○  ○     Proteins\n   ╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶   Phospholipid bilayer\n   ╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶\n       ○     ○\n   ~~~~~~~~~~~~~~~~\n   Inside cell (cytoplasm)\n```\n\n## Phospholipid Bilayer\n\n### Structure\n- **Hydrophilic head** - Loves water, faces outside\n- **Hydrophobic tails** - Hate water, face inward\n\n### Properties\n- Selectively permeable\n- Fluid (molecules can move)\n- Self-healing\n\n## Membrane Proteins\n\n| Type | Location | Function |\n|------|----------|----------|\n| Integral | Span membrane | Transport, signaling |\n| Peripheral | Surface only | Enzymes, support |\n| Channel | Create pores | Ion/water passage |\n| Carrier | Bind molecules | Active transport |\n| Receptor | Outer surface | Signal reception |\n\n## Other Components\n\n### Cholesterol (Animal cells)\n- Stabilizes membrane fluidity\n- Maintains flexibility\n\n### Carbohydrates\n- Attached to proteins/lipids\n- Cell recognition\n- Forms glycocalyx\n\n## Functions of Cell Membrane\n\n1. **Barrier** - Controls what enters/exits\n2. **Communication** - Receptors and signals\n3. **Recognition** - Cell identification\n4. **Attachment** - Cell-cell connections\n\n> 🎯 **Key Point:** \"Fluid mosaic\" - components can move, like boats on a sea!"
+            "title": "The Nucleus",
+            "content": "# The Command Center 🧠\n\nContains the cell's genetic code (**DNA**).\n- **Nuclear Envelope**: Double membrane protection.\n- **Nucleolus**: Makes ribosomes.\n- **Chromatin**: DNA wrapped around proteins."
         },
         {
             "id": "cell_5",
             "type": "content",
-            "title": "Membrane Transport",
-            "content": "# Membrane Transport 🚢\n\n## Passive Transport (No energy)\n\n### Diffusion\n- Movement from HIGH to LOW concentration\n- No energy required\n- Examples: O₂, CO₂ crossing membrane\n\n### Osmosis\n- Diffusion of WATER\n- Water moves toward higher solute concentration\n\n| Solution | Water Movement | Cell Effect |\n|----------|----------------|-------------|\n| Hypotonic | Water in → | Swells/bursts |\n| Isotonic | Equal | Normal |\n| Hypertonic | Water out → | Shrinks |\n\n### Facilitated Diffusion\n- Uses protein channels/carriers\n- Still HIGH → LOW\n- Examples: Glucose, ions\n\n## Active Transport (Uses energy)\n\n### Primary Active Transport\n- Uses ATP directly\n- Example: Sodium-potassium pump\n\n```\nNa⁺/K⁺ Pump:\n3 Na⁺ out →\n← 2 K⁺ in\n+ 1 ATP used\n```\n\n### Secondary Active Transport\n- Uses gradient from primary transport\n- \"Piggyback\" transport\n\n## Bulk Transport\n\n| Type | Direction | Mechanism |\n|------|-----------|----------|\n| **Endocytosis** | Into cell | Membrane engulfs |\n| - Phagocytosis | \"Cell eating\" | Solids |\n| - Pinocytosis | \"Cell drinking\" | Liquids |\n| **Exocytosis** | Out of cell | Vesicle fuses with membrane |\n\n## Summary\n\n| Method | Energy | Direction |\n|--------|--------|----------|\n| Diffusion | No | High → Low |\n| Osmosis | No | Toward solute |\n| Facilitated | No | High → Low |\n| Active | Yes (ATP) | Low → High |\n\n> 💡 **Key Point:** Cells use energy to maintain concentration differences!"
+            "title": "Ribosomes",
+            "content": "# Protein Factories 🏭\n\nSmall structures that read RNA instructions to build proteins.\n- Found floating in cytoplasm OR attached to the Rough ER.\n- Not membrane-bound."
         },
         {
-            "id": "cell_6",
-            "type": "content",
-            "title": "Cellular Respiration",
-            "content": "# Cellular Respiration ⚡\n\nConverting glucose to ATP (energy)!\n\n## Overall Equation\n\n```\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36-38 ATP\nGlucose + Oxygen → Carbon dioxide + Water + Energy\n```\n\n## Three Stages\n\n### 1. Glycolysis (Cytoplasm)\n\n```\nGlucose (6C) → 2 Pyruvate (3C)\n\n• Uses 2 ATP\n• Produces 4 ATP\n• Net gain: 2 ATP\n• Produces 2 NADH\n• No oxygen needed\n```\n\n### 2. Krebs Cycle (Mitochondrial matrix)\n\n```\nPyruvate → CO₂ + ATP + NADH + FADH₂\n\n• Produces 2 ATP\n• Produces 6 NADH, 2 FADH₂\n• Releases CO₂\n• Requires oxygen (indirectly)\n```\n\n### 3. Electron Transport Chain (Inner mitochondrial membrane)\n\n```\nNADH/FADH₂ → 32-34 ATP\n\n• Uses oxygen as final acceptor\n• Produces water\n• Most ATP made here!\n```\n\n## ATP Summary\n\n| Stage | Location | ATP |\n|-------|----------|-----|\n| Glycolysis | Cytoplasm | 2 |\n| Krebs Cycle | Matrix | 2 |\n| ETC | Inner membrane | 32-34 |\n| **Total** | | **36-38** |\n\n## Aerobic vs Anaerobic\n\n| Feature | Aerobic | Anaerobic |\n|---------|---------|----------|\n| Oxygen | Required | Not needed |\n| ATP yield | 36-38 | 2 |\n| End products | CO₂, H₂O | Lactate or ethanol |\n| Efficiency | High | Low |\n\n> 🎯 **Key Point:** Most ATP comes from the electron transport chain!"
-        },
-        {
-            "id": "cell_quiz_2",
+            "id": "cell_quiz_1",
             "type": "quiz",
-            "title": "Respiration Quiz",
-            "content": "Test your understanding of cellular respiration!",
-            "quizQuestion": "Where does glycolysis occur?",
+            "title": "Organelle Quiz",
+            "content": "Identify the part.",
+            "quizQuestion": "Which structure contains the cell's DNA?",
             "quizOptions": [
-                "Nucleus",
+                "Ribosome",
                 "Mitochondria",
-                "Cytoplasm",
-                "Ribosome"
+                "Nucleus",
+                "Golgi Apparatus"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "cell_6",
+            "type": "content",
+            "title": "Endoplasmic Reticulum (ER)",
+            "content": "# The Highway 🛣️\n\n**Rough ER**:\n- Studded with ribosomes.\n- Modifies and transports proteins.\n\n**Smooth ER**:\n- No ribosomes.\n- Makes lipids (fats) and detoxifies poisons (Liver has lots of Smooth ER)."
+        },
+        {
             "id": "cell_7",
             "type": "content",
-            "title": "Photosynthesis",
-            "content": "# Photosynthesis 🌿\n\nConverting light energy to chemical energy!\n\n## Overall Equation\n\n```\n6CO₂ + 6H₂O + Light → C₆H₁₂O₆ + 6O₂\nCarbon dioxide + Water → Glucose + Oxygen\n```\n\n## Location: Chloroplast\n\n```\n         Chloroplast\n    ┌────────────────────┐\n    │   Thylakoids       │\n    │   (light reactions)│\n    │   ┌──┐  ┌──┐       │\n    │   └──┘  └──┘       │\n    │   Stroma           │\n    │   (Calvin cycle)   │\n    └────────────────────┘\n```\n\n## Two Stages\n\n### 1. Light Reactions (Thylakoid membranes)\n\n```\nWater + Light → ATP + NADPH + O₂\n\n• Chlorophyll absorbs light\n• Water split (releases O₂)\n• ATP and NADPH made\n```\n\n### 2. Calvin Cycle (Stroma)\n\n```\nCO₂ + ATP + NADPH → Glucose\n\n• CO₂ fixed (attached to molecule)\n• Uses ATP, NADPH from light reactions\n• Produces G3P → Glucose\n```\n\n## Chlorophyll\n\n| Pigment | Color absorbed | Reflects |\n|---------|----------------|----------|\n| Chlorophyll a | Red, blue | Green |\n| Chlorophyll b | Red, blue | Green |\n| Carotenoids | Blue | Orange/yellow |\n\n## Comparing Respiration and Photosynthesis\n\n| Feature | Photosynthesis | Respiration |\n|---------|----------------|-------------|\n| Location | Chloroplast | Mitochondria |\n| Energy | Light → Chemical | Chemical → ATP |\n| Reactants | CO₂, H₂O | Glucose, O₂ |\n| Products | Glucose, O₂ | CO₂, H₂O, ATP |\n| Organisms | Plants, algae | All living things |\n\n> 💡 **Key Point:** Photosynthesis and respiration are complementary reactions!"
+            "title": "Golgi Apparatus",
+            "content": "# The Post Office 📦\n\n- Receives proteins from the ER.\n- Modifies, sorts, and packages them into vesicles.\n- Ships them to destination (inside or outside cell)."
         },
         {
             "id": "cell_8",
             "type": "content",
-            "title": "Cell Cycle and Mitosis",
-            "content": "# Cell Cycle & Mitosis 🔄\n\n## The Cell Cycle\n\n```\n       G1 (Growth)\n          ↓\n    S (DNA replication)\n          ↓\n       G2 (Growth)\n          ↓\n       M (Mitosis)\n          ↓\n      Cytokinesis\n```\n\n## Interphase (G1, S, G2)\n\n| Phase | Events |\n|-------|--------|\n| G1 | Cell grows, normal functions |\n| S | DNA replication |\n| G2 | Preparation for division |\n\n## Mitosis (PMAT)\n\n### Prophase\n- Chromosomes condense\n- Nuclear membrane dissolves\n- Spindle fibers form\n\n### Metaphase\n- Chromosomes line up at **M**iddle\n- Spindle attaches to centromeres\n\n### Anaphase\n- Chromosomes pulled **A**part\n- One chromatid to each pole\n\n### Telophase\n- Nuclear membranes re-form\n- Chromosomes decondense\n- Two nuclei visible\n\n### Cytokinesis\n- Cytoplasm divides\n- Two daughter cells\n- Animal: Cleavage furrow\n- Plant: Cell plate forms\n\n## Result of Mitosis\n\n```\n1 Cell (2n) → 2 Cells (2n each)\n          Identical copies!\n```\n\n## Purpose of Mitosis\n\n- Growth\n- Repair\n- Asexual reproduction\n- Replacement of dead cells\n\n> 🎯 **Memory Trick:** PMAT - Prophet Met A Tyrant!"
+            "title": "Mitochondria",
+            "content": "# Powerhouse of the Cell ⚡\n\nSite of **Cellular Respiration**.\n- Converts Glucose + Oxygen $\\to$ ATP (Energy).\n- Has its own DNA (mtDNA) inherited only from your mother.\n- Double membrane structure."
         },
         {
             "id": "cell_9",
             "type": "content",
-            "title": "Meiosis",
-            "content": "# Meiosis 🧬\n\nProducing sex cells (gametes) with half the chromosomes!\n\n## Overview\n\n```\n1 Cell (2n) → 4 Cells (n each)\n    Diploid      Haploid\n                 (Genetically different!)\n```\n\n## Meiosis I - Reduction Division\n\n### Prophase I\n- Chromosomes condense\n- Homologous pairs find each other\n- **Crossing over** occurs!\n\n### Metaphase I\n- Homologous pairs line up\n- Random orientation (independent assortment)\n\n### Anaphase I\n- Homologous pairs separate\n- One of each pair to each pole\n\n### Telophase I / Cytokinesis\n- Two cells form\n- Each cell is haploid (n)\n\n## Meiosis II - Like Mitosis\n\n- Prophase II → Metaphase II → Anaphase II → Telophase II\n- Sister chromatids separate\n- Result: 4 haploid cells\n\n## Sources of Genetic Variation\n\n### 1. Crossing Over\n- Exchange of DNA between homologs\n- Creates new gene combinations\n\n### 2. Independent Assortment\n- Random orientation of pairs\n- 2²³ = 8 million combinations!\n\n### 3. Random Fertilization\n- Any sperm + any egg\n\n## Mitosis vs Meiosis\n\n| Feature | Mitosis | Meiosis |\n|---------|---------|--------|\n| Divisions | 1 | 2 |\n| Daughter cells | 2 | 4 |\n| Ploidy | 2n → 2n | 2n → n |\n| Identical? | Yes | No |\n| Purpose | Growth | Gametes |\n\n> 💡 **Key Point:** Meiosis creates genetic diversity essential for evolution!"
-        },
-        {
-            "id": "cell_quiz_3",
-            "type": "quiz",
-            "title": "Cell Division Quiz",
-            "content": "Test your understanding of cell division!",
-            "quizQuestion": "How many daughter cells are produced at the end of meiosis?",
-            "quizOptions": [
-                "1",
-                "2",
-                "3",
-                "4"
-            ],
-            "correctOptionIndex": 3
+            "title": "Chloroplasts",
+            "content": "# Solar Panels ☀️\n\nFound ONLY in Plant cells (and some algae).\n- Site of **Photosynthesis**.\n- Contains Chlorophyll (green pigment).\n- Converts Sunlight + CO2 $\\to$ Glucose."
         },
         {
             "id": "cell_10",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Cell Biology! Here's what you've mastered:\n\n## Cell Structure\n- ✅ Prokaryotes vs Eukaryotes\n- ✅ Major organelles and functions\n- ✅ Plant vs Animal cell differences\n\n## Cell Membrane\n- ✅ Fluid mosaic model\n- ✅ Phospholipid bilayer\n- ✅ Membrane proteins\n\n## Transport\n- ✅ Passive: Diffusion, osmosis, facilitated\n- ✅ Active: ATP-powered pumps\n- ✅ Bulk: Endocytosis, exocytosis\n\n## Energy Processes\n\n| Process | Location | Purpose |\n|---------|----------|--------|\n| Respiration | Mitochondria | Glucose → ATP |\n| Photosynthesis | Chloroplast | Light → Glucose |\n\n## Cell Division\n\n| Type | Result | Purpose |\n|------|--------|--------|\n| Mitosis | 2 identical 2n cells | Growth, repair |\n| Meiosis | 4 different n cells | Gametes |\n\n## Key Formulas\n\n- Respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP\n- Photosynthesis: 6CO₂ + 6H₂O + Light → C₆H₁₂O₆ + 6O₂\n\n> 🚀 **Next Steps:** Explore Genetics to understand how cells pass on information!\n\nYou now understand the fundamental unit of life!"
+            "title": "Lysosomes",
+            "content": "# Recycling Center ♻️\n\nSacks of digestive enzymes.\n- Break down waste, old organelles, and food.\n- Can trigger cell suicide (**Apoptosis**) if cell is damaged."
+        },
+        {
+            "id": "cell_11",
+            "type": "content",
+            "title": "Cytoskeleton",
+            "content": "# Skeleton and Muscles 🦴\n\nNetwork of protein fibers:\n- **Microtubules**: Tracks for transport.\n- **Actin Filaments**: Movement and shape.\n- **Intermediate Filaments**: Strength.\n\nKeeps organelle in place and helps cell move."
+        },
+        {
+            "id": "cell_quiz_2",
+            "type": "quiz",
+            "title": "Function Quiz",
+            "content": "Match the job.",
+            "quizQuestion": "Which organelle creates ATP energy?",
+            "quizOptions": [
+                "Nucleus",
+                "Mitochondria",
+                "Lysosome",
+                "Chloroplast"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "cell_12",
+            "type": "content",
+            "title": "Transport",
+            "content": "# Moving Stuff 🚚\n\n- **Passive Transport**: High $\\to$ Low conc. No energy needed. (Diffusion, Osmosis).\n- **Active Transport**: Low $\\to$ High conc. Requires Energy (ATP). (Sodium-Potassium Pump)."
+        },
+        {
+            "id": "cell_13",
+            "type": "content",
+            "title": "Osmosis",
+            "content": "# Water Flow 💧\n\nDiffusion of water across a membrane.\n- **Hypertonic**: Saltier outside $\\to$ Water leaves (Cell shrinks).\n- **Hypotonic**: Saltier inside $\\to$ Water enters (Cell swells/bursts).\n- **Isotonic**: Equal balance."
+        },
+        {
+            "id": "cell_14",
+            "type": "content",
+            "title": "Cell Cycle",
+            "content": "# Life of a Cell ⏳\n\n1. **Interphase**: Growth and DNA replication (90% of time).\n2. **Mitosis**: Division of nucleus.\n3. **Cytokinesis**: Division of cytoplasm."
+        },
+        {
+            "id": "cell_15",
+            "type": "content",
+            "title": "Mitosis",
+            "content": "# Cloning 🐑\n\nMaking identical body cells (Somatic).\nStages (PMAT):\n1. **Prophase**: Chromosomes condense.\n2. **Metaphase**: Line up in middle.\n3. **Anaphase**: Pulled apart.\n4. **Telophase**: New nuclei form.\nResult: 2 Identical Diploid cells."
+        },
+        {
+            "id": "cell_16",
+            "type": "content",
+            "title": "Meiosis",
+            "content": "# Making Gametes 🥚\n\nMaking sex cells (Sperm/Egg).\n- Two rounds of division.\n- **Crossing Over**: Mixes DNA for variety.\nResult: 4 Unique Haploid cells (Half the DNA)."
+        },
+        {
+            "id": "cell_17",
+            "type": "content",
+            "title": "Cell Biology Summary",
+            "content": "# Recap 📝\n\n- **Organelles** (Nucleus, Mitochondria, etc.) work together like a city.\n- **Membranes** control what enters/exits.\n- **Mitosis** for growth; **Meiosis** for reproduction.\n\nCells are the marvelous microscopic machines that make you, YOU."
         }
     ]
 }

@@ -2,148 +2,138 @@
     "id": "learn_mod",
     "topicId": "mod",
     "topicTitle": "Modern Physics",
-    "description": "Explore the revolutionary concepts of quantum mechanics, nuclear physics, special relativity, and semiconductor physics",
-    "baseKP": 75,
+    "description": "Unlock the mysteries of the quantum world, relativity, and the atomic nucleus.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "mod_1",
             "type": "content",
-            "title": "Welcome to Modern Physics",
-            "content": "# Introduction to Modern Physics 🚀\n\nWelcome to **Modern Physics** - where classical physics breaks down and new rules emerge!\n\n## What you'll learn:\n- **Quantum Mechanics** - The physics of the very small\n- **Nuclear Physics** - The heart of atoms\n- **Special Relativity** - Space, time, and light\n- **Semiconductors** - The foundation of electronics\n\n> 💡 **Fun Fact:** Modern physics began around 1900 when classical physics couldn't explain blackbody radiation, leading to Planck's quantum hypothesis!\n\n## Why \"Modern\" Physics?\n\nPhysics before ~1900: **Classical Physics**\n- Newton's mechanics\n- Maxwell's electromagnetism\n- Thermodynamics\n\nPhysics after ~1900: **Modern Physics**\n- Quantum mechanics\n- Relativity\n- Nuclear & particle physics\n\n## Mind-Bending Concepts Ahead\n\n| Classical View | Modern Reality |\n|----------------|----------------|\n| Continuous energy | Quantized in packets |\n| Absolute time | Time is relative |\n| Particles are particles | Wave-particle duality |\n| Mass is constant | Mass increases with speed |\n\n> ⚠️ **Warning:** Your intuition from everyday life may fail here. That's okay - even Einstein was troubled by quantum mechanics!\n\nLet's explore the strange and wonderful!"
+            "title": "The Quantum Revolution",
+            "content": "# Beyond Classical Physics ⚛️\n\nAround 1900, classical physics couldn't explain certain phenomena.\n- Blackbody radiation\n- Photoelectric effect\n- Atomic spectra\n\nThis led to **Quantum Mechanics**: The physics of the very small."
         },
         {
             "id": "mod_2",
             "type": "content",
-            "title": "The Photoelectric Effect",
-            "content": "# The Photoelectric Effect 💡\n\nLight shining on metal can eject electrons - but not the way classical physics predicted!\n\n## The Experiment\n\n```\n    Light (hf)\n         ↓\n    ═══════════ Metal surface\n         ↓\n    Electrons ejected (if f > f₀)\n```\n\n## Classical Predictions (WRONG!)\n\n- ❌ Brighter light should give electrons more energy\n- ❌ Any frequency should work if bright enough\n- ❌ Time delay expected for dim light\n\n## Actual Observations\n\n- ✅ Electron energy depends on light **frequency**, not intensity\n- ✅ Below threshold frequency f₀, NO electrons regardless of brightness\n- ✅ Electrons emitted **instantly**, no delay\n- ✅ Brighter light = more electrons, not faster ones\n\n## Einstein's Explanation (1905)\n\nLight comes in packets called **photons**!\n\n```\nE_photon = hf\n```\n\n| Symbol | Meaning | Value |\n|--------|---------|-------|\n| h | Planck's constant | 6.63 × 10⁻³⁴ J·s |\n| f | Frequency | Hz |\n\n## Photoelectric Equation\n\n```\nhf = φ + KE_max\n\nKE_max = hf - φ\n```\n\n- φ (phi) = work function (minimum energy to escape)\n- KE_max = maximum kinetic energy of ejected electron\n\n## Work Functions\n\n| Metal | φ (eV) |\n|-------|--------|\n| Cesium | 2.1 |\n| Sodium | 2.3 |\n| Zinc | 4.3 |\n| Platinum | 5.6 |\n\n> 🎯 **Key Point:** Einstein won his Nobel Prize for this, not relativity!"
+            "title": "Photoelectric Effect",
+            "content": "# Particles of Light 💡\n\nObserved: Shining light on metal ejects electrons.\nEinstein's Explanation:\n- Light comes in packets of energy called **Photons**.\n- Energy depends on **Frequency**, not intensity.\n\n$$E = hf$$\n\nThis proved light acts like a particle!"
         },
         {
             "id": "mod_3",
             "type": "content",
             "title": "Wave-Particle Duality",
-            "content": "# Wave-Particle Duality 〰️\n\nLight and matter exhibit BOTH wave AND particle properties!\n\n## Evidence for Light as Waves\n\n- Interference (Young's double slit)\n- Diffraction\n- Polarization\n\n## Evidence for Light as Particles\n\n- Photoelectric effect\n- Compton scattering\n- Blackbody radiation\n\n## de Broglie's Hypothesis (1924)\n\n> *\"If light can be particles, maybe particles can be waves!\"*\n\n```\nλ = h/p = h/(mv)\n```\n\n| Symbol | Meaning |\n|--------|--------|\n| λ | de Broglie wavelength |\n| h | Planck's constant |\n| p | Momentum |\n| m | Mass |\n| v | Velocity |\n\n## de Broglie Wavelengths\n\n| Object | Wavelength |\n|--------|------------|\n| Electron (slow) | ~1 nm |\n| Electron (fast) | ~0.01 nm |\n| Baseball | ~10⁻³⁴ m (unmeasurable!) |\n| Human | ~10⁻³⁵ m |\n\n## Electron Diffraction\n\nElectrons passing through crystals create diffraction patterns - proving their wave nature!\n\n## The Complementarity Principle\n\n> *We can observe wave OR particle behavior, never both simultaneously.*\n\n- When we detect \"which path\": Particle behavior\n- When we don't detect path: Wave behavior (interference)\n\n> 💡 **Deep Insight:** The observer's choice of experiment determines what we see!"
+            "content": "# Identity Crisis 🎭\n\n- Light acts like a wave AND a particle.\n- **De Broglie Hypothesis**: Matter (like electrons) also has wave properties!\n\n$$\\lambda = \\frac{h}{momentum}$$\n\nThis is why electron microscopes work."
+        },
+        {
+            "id": "mod_4",
+            "type": "content",
+            "title": "Bohr Model of the Atom",
+            "content": "# Planetary Orbits 🪐\n\nNiels Bohr proposed:\n- Electrons orbit nucleus at fixed energy levels.\n- They can \"jump\" levels by absorbing/emitting a photon.\n\nThis explained the specific colors (spectrum) emitted by Hydrogen."
+        },
+        {
+            "id": "mod_5",
+            "type": "content",
+            "title": "Heisenberg Uncertainty Principle",
+            "content": "# Nature is Fuzzy 🌫️\n\nIt is impossible to know both the exact **position** and **momentum** of a particle simultaneously.\n\n$$\\Delta x \\Delta p \\ge \\frac{h}{4\\pi}$$\n\nIt's not a measurement error; it's a fundamental property of nature."
         },
         {
             "id": "mod_quiz_1",
             "type": "quiz",
             "title": "Quantum Quiz",
-            "content": "Test your understanding of quantum concepts!",
-            "quizQuestion": "In the photoelectric effect, increasing the intensity of light (keeping frequency constant) will:",
+            "content": "Check your quantum intuition.",
+            "quizQuestion": "According to quantum mechanics, light behaves as:",
             "quizOptions": [
-                "Increase the maximum kinetic energy of electrons",
-                "Increase the number of electrons emitted",
-                "Decrease the work function",
-                "Change the threshold frequency"
+                "Only a wave",
+                "Only a particle",
+                "Both a particle and a wave",
+                "Neither"
             ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "mod_4",
-            "type": "content",
-            "title": "The Bohr Model of the Atom",
-            "content": "# The Bohr Model 🔵\n\nNiels Bohr (1913) combined quantum ideas with atomic structure.\n\n## Bohr's Postulates\n\n### 1. Quantized Orbits\nElectrons can only exist in specific orbits with fixed energies.\n\n### 2. Stationary States\nElectrons don't radiate energy while in an allowed orbit.\n\n### 3. Quantum Jumps\nElectrons emit/absorb photons when jumping between orbits.\n\n```\n        n=3  ━━━━━━━  E₃\n                ↓ photon (E₃-E₂)\n        n=2  ━━━━━━━  E₂\n                ↓ photon (E₂-E₁)\n        n=1  ━━━━━━━  E₁ (ground state)\n```\n\n## Energy Levels of Hydrogen\n\n```\nEₙ = -13.6 eV / n²\n```\n\n| n | Energy (eV) | Name |\n|---|-------------|------|\n| 1 | -13.6 | Ground state |\n| 2 | -3.4 | First excited |\n| 3 | -1.51 | Second excited |\n| ∞ | 0 | Ionized |\n\n## Photon Emission\n\n```\nhf = Eᵢ - Eᶠ\n```\n\nThe frequency of emitted light matches the energy difference!\n\n## Spectral Series\n\n| Series | Transitions to n= | Wavelength |\n|--------|-------------------|------------|\n| Lyman | 1 | UV |\n| Balmer | 2 | Visible |\n| Paschen | 3 | Infrared |\n\n## Limitations\n\n- Works perfectly for hydrogen\n- Fails for multi-electron atoms\n- Replaced by quantum mechanics\n\n> 🎯 **Key Point:** Energy quantization explains why atoms emit specific colors!"
-        },
-        {
-            "id": "mod_5",
-            "type": "content",
-            "title": "Nuclear Structure",
-            "content": "# Nuclear Structure ⚛️\n\n## Inside the Nucleus\n\n| Particle | Symbol | Charge | Mass (u) |\n|----------|--------|--------|----------|\n| Proton | p | +1 | 1.007 |\n| Neutron | n | 0 | 1.009 |\n\n## Nuclear Notation\n\n```\n    ᴬ\n    ᵧX\n    \nA = Mass number (protons + neutrons)\nZ = Atomic number (protons)\n```\n\nExample: ²³⁵U₉₂ has 92 protons, 143 neutrons\n\n## Nuclear Forces\n\n| Force | Range | Strength | Role |\n|-------|-------|----------|------|\n| Strong | ~1 fm | Very strong | Holds nucleus together |\n| Electromagnetic | ∞ | Medium | Proton repulsion |\n| Weak | ~0.001 fm | Weak | Beta decay |\n\n## Binding Energy\n\nEnergy required to completely separate all nucleons.\n\n```\nΔm = Zm_p + Nm_n - M_nucleus\nE_binding = Δm × c²\n```\n\n## Binding Energy per Nucleon Curve\n\n```\nBE/A\n  ↑       ⁵⁶Fe (peak ~8.8 MeV)\n  │      /‾‾‾\\\n  │     /      \\\n  │    /        \\ Heavy nuclei\n  │___/          \\___\n  └─────────────────→ A (mass number)\n      Light    Heavy\n```\n\n- Peak at iron-56: Most stable nucleus\n- Fusion: Light nuclei → Energy released\n- Fission: Heavy nuclei → Energy released\n\n## Isotopes\n\nSame element, different neutron count:\n- ¹H (hydrogen), ²H (deuterium), ³H (tritium)\n\n> 💡 **Insight:** The nucleus contains 99.9% of atom's mass in 0.00001% of its volume!"
+            "correctOptionIndex": 2
         },
         {
             "id": "mod_6",
             "type": "content",
+            "title": "Special Relativity",
+            "content": "# Einstein's Big Idea 🚀\n\nTwo Postulates:\n1. Laws of physics are the same in all inertial frames.\n2. **Speed of light ($c$) is constant** for all observers, regardless of motion.\n\nThis leads to weird consequences at high speeds!"
+        },
+        {
+            "id": "mod_7",
+            "type": "content",
+            "title": "Relativistic Effects",
+            "content": "# Warping Reality ⏳\n\nAt speeds close to $c$:\n1. **Time Dilation**: Moving clocks run slower.\n2. **Length Contraction**: Moving objects get shorter.\n3. **Mass Increase**: Moving objects gain mass.\n\nYou can't travel faster than light!"
+        },
+        {
+            "id": "mod_8",
+            "type": "content",
+            "title": "Mass-Energy Equivalence",
+            "content": "# The Famous Equation 💥\n\n$$E = mc^2$$\n\n- energy ($E$) and mass ($m$) are interchangeable.\n- Small mass = HUGE energy.\n- This is the source of power for stars and nuclear reactors."
+        },
+        {
+            "id": "mod_9",
+            "type": "content",
+            "title": "Nuclear Structure",
+            "content": "# The Core 🥜\n\n**Nucleus** contains:\n- **Protons** (+)\n- **Neutrons** (0)\n\nHeld together by the **Strong Nuclear Force** (strongest force in nature!).\n\n**Isotopes**: Same element, different number of neutrons."
+        },
+        {
+            "id": "mod_10",
+            "type": "content",
             "title": "Radioactivity",
-            "content": "# Radioactivity ☢️\n\nUnstable nuclei spontaneously emit radiation to become more stable.\n\n## Types of Radiation\n\n### Alpha (α) Decay\n```\n²³⁸U → ²³⁴Th + ⁴He\n```\n- Helium nucleus (2p + 2n)\n- Stopped by paper\n- Not very penetrating\n- Very ionizing\n\n### Beta (β) Decay\n```\n¹⁴C → ¹⁴N + e⁻ + ν̄\n(Neutron → proton + electron + antineutrino)\n```\n- Electron or positron\n- Stopped by aluminum\n- More penetrating than α\n- Less ionizing than α\n\n### Gamma (γ) Decay\n```\n²³⁸U* → ²³⁸U + γ\n```\n- High-energy photon\n- Stopped by lead/concrete\n- Most penetrating\n- Least ionizing\n\n## Comparison\n\n| Property | α | β | γ |\n|----------|---|---|---|\n| Mass | 4 u | ~0 | 0 |\n| Charge | +2 | ±1 | 0 |\n| Penetration | Low | Medium | High |\n| Ionization | High | Medium | Low |\n| Stopped by | Paper | Aluminum | Lead |\n\n## Half-Life\n\nTime for half the nuclei to decay:\n\n```\nN = N₀ × (½)^(t/t₁/₂)\n```\n\n| Isotope | Half-life |\n|---------|----------|\n| ⁸Be | 10⁻¹⁶ s |\n| ²²²Rn | 3.8 days |\n| ¹⁴C | 5,730 years |\n| ²³⁸U | 4.5 billion years |\n\n> 🎯 **Key Point:** Radioactive decay is random for individual atoms but predictable for large numbers!"
+            "content": "# Unstable Nuclei ☢️\n\nSome nuclei decay naturally to become stable.\n\nTypes:\n- **Alpha ($\\alpha$)**: Helium nucleus emitted. Stopped by paper.\n- **Beta ($\\beta$)**: Electron/Positron emitted. Stopped by wood.\n- **Gamma ($\\gamma$)**: High energy photon. Stopped by lead."
+        },
+        {
+            "id": "mod_11",
+            "type": "content",
+            "title": "Nuclear Fission",
+            "content": "# Splitting the Atom 🪓\n\nA heavy nucleus (Uranium) splits into lighter nuclei, releasing massive energy.\n\n- Chain reactions.\n- Used in Nuclear Power Plants and Atomic Bombs."
+        },
+        {
+            "id": "mod_12",
+            "type": "content",
+            "title": "Nuclear Fusion",
+            "content": "# Power of Stars ☀️\n\nLight nuclei (Hydrogen) fuse to form heavier nuclei (Helium).\n\n- Releases even MORE energy than fission.\n- Requires extreme temps (millions of degrees).\n- Clean energy Grail (Scientific goal)."
         },
         {
             "id": "mod_quiz_2",
             "type": "quiz",
             "title": "Nuclear Quiz",
-            "content": "Test your understanding of nuclear physics!",
-            "quizQuestion": "Which type of radiation is most penetrating?",
+            "content": "Core knowledge.",
+            "quizQuestion": "Which process powers the Sun?",
             "quizOptions": [
-                "Alpha particles",
-                "Beta particles",
-                "Gamma rays",
-                "All equally penetrating"
+                "Combustion",
+                "Nuclear Fission",
+                "Nuclear Fusion",
+                "Alpha Decay"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "mod_7",
-            "type": "content",
-            "title": "Nuclear Fission",
-            "content": "# Nuclear Fission 💥\n\nFission is the **splitting of a heavy nucleus** into lighter fragments, releasing tremendous energy.\n\n## The Fission Process\n\n```\n    n + ²³⁵U → ²³⁶U* → ¹⁴⁴Ba + ⁸⁹Kr + 3n + Energy\n      (unstable)              (new neutrons!)\n```\n\n## Energy Released\n\n~200 MeV per fission event!\n\nCompare: Chemical burning releases ~10 eV per reaction.\n\nFission releases ~20 million times more energy!\n\n## Chain Reaction\n\n```\n        n\n        ↓\n       ⬤ → 3n → ⬤⬤⬤ → 9n → ⬤⬤⬤⬤⬤⬤⬤⬤⬤...\n      (1)   (3)     (9)     (27)...\n```\n\n## Critical Mass\n\nMinimum amount of fissile material needed to sustain chain reaction.\n\n| Material | Critical Mass |\n|----------|---------------|\n| ²³⁵U (bare sphere) | ~52 kg |\n| ²³⁹Pu (bare sphere) | ~10 kg |\n\n## Controlling Fission\n\n| Component | Function |\n|-----------|----------|\n| **Fuel rods** | Contain fissile material |\n| **Moderator** | Slows neutrons (water, graphite) |\n| **Control rods** | Absorb neutrons (cadmium, boron) |\n| **Coolant** | Removes heat |\n\n## Applications\n\n### Nuclear Power Plants\n- Controlled chain reaction\n- Heat → Steam → Electricity\n- ~440 reactors worldwide\n\n### Nuclear Weapons\n- Uncontrolled chain reaction\n- Explosive energy release\n\n> ⚠️ **Challenge:** Nuclear waste remains radioactive for thousands of years."
-        },
-        {
-            "id": "mod_8",
-            "type": "content",
-            "title": "Nuclear Fusion",
-            "content": "# Nuclear Fusion ☀️\n\nFusion is the **combining of light nuclei** into heavier ones, releasing even more energy than fission!\n\n## The Fusion Process\n\n```\n²H + ³H → ⁴He + n + 17.6 MeV\n(deuterium + tritium → helium + neutron + energy)\n```\n\n## Why Fusion is Hard\n\nNuclei are positive → They repel!\n\nNeed extreme conditions:\n- Temperature: ~100 million °C\n- Pressure: Enormous confinement\n\n## Fusion in Stars\n\n### Proton-Proton Chain (Sun)\n```\n4¹H → ⁴He + 2e⁺ + 2ν + 26.7 MeV\n```\n\nThe Sun converts 600 million tons of hydrogen to helium every second!\n\n## Fusion vs Fission\n\n| Property | Fission | Fusion |\n|----------|---------|--------|\n| Process | Split heavy | Combine light |\n| Fuel | Uranium, Plutonium | Hydrogen isotopes |\n| Energy/reaction | ~200 MeV | ~17 MeV |\n| Energy/kg fuel | ~80 TJ | ~340 TJ |\n| Waste | Long-lived | Short-lived |\n| Achieved? | Yes (1942) | Not yet (sustained) |\n\n## Fusion Approaches\n\n| Method | How it works |\n|--------|-------------|\n| **Tokamak** | Magnetic confinement |\n| **Stellarator** | Twisted magnetic field |\n| **Inertial** | Laser compression |\n| **Z-pinch** | Electric current compression |\n\n## ITER Project\n\n- International fusion reactor\n- Goal: 500 MW output from 50 MW input\n- Target: First plasma 2025+\n\n> 💡 **The Dream:** Fusion could provide virtually unlimited clean energy!"
-        },
-        {
-            "id": "mod_9",
-            "type": "content",
-            "title": "Special Relativity: Postulates",
-            "content": "# Special Relativity ⏱️\n\nAlbert Einstein's 1905 theory revolutionized our understanding of space and time.\n\n## The Two Postulates\n\n### 1. Principle of Relativity\n> *The laws of physics are the same in all inertial reference frames.*\n\nNo experiment can distinguish between uniform motion and rest.\n\n### 2. Constancy of Light Speed\n> *The speed of light in vacuum is the same for all observers, regardless of their motion.*\n\nc = 3 × 10⁸ m/s - always!\n\n## Why This is Strange\n\n**Normal objects:**\nIf you throw a ball at 10 m/s from a car moving at 20 m/s:\n- Observer on ground sees 30 m/s\n\n**Light:**\nIf you shine light from a car moving at any speed:\n- Everyone measures c, not c + v!\n\n## Consequences\n\n| Effect | Description |\n|--------|-------------|\n| Time dilation | Moving clocks run slower |\n| Length contraction | Moving objects are shorter |\n| Mass increase | Objects get heavier at high speeds |\n| Simultaneity | What's simultaneous depends on observer |\n\n## What \"Special\" Means\n\n- **Special** Relativity: Constant velocity (inertial frames)\n- **General** Relativity: Includes acceleration and gravity\n\n> 🎯 **Key Insight:** Space and time are not absolute - they're relative to the observer!"
-        },
-        {
-            "id": "mod_10",
-            "type": "content",
-            "title": "Time Dilation and Length Contraction",
-            "content": "# Time Dilation & Length Contraction 📏\n\n## Time Dilation\n\nMoving clocks tick **slower**!\n\n```\nΔt = γΔt₀\n\nγ = 1/√(1 - v²/c²)  (Lorentz factor)\n```\n\n| Speed (v) | γ | Time dilation |\n|-----------|---|---------------|\n| 0 | 1.00 | None |\n| 0.5c | 1.15 | 15% slower |\n| 0.9c | 2.29 | 2.3× slower |\n| 0.99c | 7.09 | 7× slower |\n| 0.999c | 22.4 | 22× slower |\n\n## The Twin Paradox\n\nOne twin travels at high speed, the other stays home.\n\nTraveling twin returns **younger** than stay-at-home twin!\n\n(Actually observed with cosmic ray muons and atomic clocks on planes!)\n\n## Length Contraction\n\nMoving objects are **shorter** in direction of motion!\n\n```\nL = L₀/γ = L₀√(1 - v²/c²)\n```\n\n| Speed | Length |\n|-------|--------|\n| 0.5c | 87% of rest length |\n| 0.9c | 44% of rest length |\n| 0.99c | 14% of rest length |\n\n## What Contracts?\n\n- Only the dimension parallel to motion\n- Perpendicular dimensions unaffected\n- The object doesn't \"feel\" squeezed\n\n## Real-World Evidence\n\n### Muon Lifetime\n- Muons live ~2.2 μs in lab\n- Should travel ~660 m\n- Actually reach Earth's surface (~10 km)!\n- Time dilation extends their lifetime\n\n> 💡 **Mind-bender:** From muon's perspective, the atmosphere is length-contracted!"
-        },
-        {
-            "id": "mod_quiz_3",
-            "type": "quiz",
-            "title": "Relativity Quiz",
-            "content": "Test your understanding of special relativity!",
-            "quizQuestion": "According to special relativity, if a spaceship travels at 0.9c, an observer on Earth would see clocks on the ship:",
-            "quizOptions": [
-                "Run faster",
-                "Run slower",
-                "Run at the same rate",
-                "Stop completely"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "mod_11",
-            "type": "content",
-            "title": "Mass-Energy Equivalence",
-            "content": "# E = mc² ⚡\n\nThe most famous equation in physics!\n\n## What It Means\n\nMass and energy are **interchangeable**:\n\n```\nE = mc²\n```\n\n| Symbol | Meaning |\n|--------|--------|\n| E | Energy (J) |\n| m | Mass (kg) |\n| c² | (3×10⁸)² = 9×10¹⁶ m²/s² |\n\n## Implications\n\n- A small mass = enormous energy\n- 1 kg of matter = 9 × 10¹⁶ J\n- That's ~25 billion kWh!\n\n## Relativistic Mass & Energy\n\n### Total Energy\n```\nE = γmc² = mc²/√(1 - v²/c²)\n```\n\n### Rest Energy\n```\nE₀ = mc² (when v = 0)\n```\n\n### Kinetic Energy (Relativistic)\n```\nKE = (γ - 1)mc²\n```\n\n## Applications of E = mc²\n\n| Application | How |\n|-------------|-----|\n| Nuclear power | Mass converted to energy |\n| PET scans | Positron annihilation |\n| Particle accelerators | Energy → mass (new particles) |\n| Sun's energy | Hydrogen → Helium + energy |\n\n## Mass Deficit Example\n\n**Helium-4 nucleus:**\n- 2 protons + 2 neutrons = 4.0330 u\n- Actual He-4 mass = 4.0026 u\n- \"Missing\" mass = 0.0304 u\n- Became 28.3 MeV of binding energy!\n\n## Why You Can't Reach c\n\nAs v → c, γ → ∞\n\nRequires infinite energy to accelerate mass to light speed!\n\n> 🎯 **Profound Truth:** Mass is just a very concentrated form of energy!"
-        },
-        {
-            "id": "mod_12",
-            "type": "content",
-            "title": "Semiconductors and Diodes",
-            "content": "# Semiconductors 💻\n\nSemiconductors have electrical conductivity between conductors and insulators.\n\n## Band Theory\n\n```\n                  Conductor   Semiconductor   Insulator\n                  _________   _____________   _________\nConduction band   |///////|   |    ↗    |   |         |\n                  |///////|   |   Gap   |   |  Large  |\n                  ‾‾‾‾‾‾‾‾‾   ‾‾‾‾‾‾‾‾‾‾‾‾‾   |   Gap  |\nValence band      |///////|   |///////|   |///////|\n                                              ‾‾‾‾‾‾‾‾‾\n```\n\n| Material Type | Band Gap |\n|---------------|----------|\n| Conductor | No gap (bands overlap) |\n| Semiconductor | Small gap (~1 eV) |\n| Insulator | Large gap (> 5 eV) |\n\n## Common Semiconductors\n\n| Material | Band Gap (eV) | Use |\n|----------|---------------|-----|\n| Silicon (Si) | 1.1 | Most electronics |\n| Germanium (Ge) | 0.67 | Early transistors |\n| GaAs | 1.4 | LEDs, high-speed |\n\n## Doping\n\nAdding impurities to control conductivity:\n\n### N-type (extra electrons)\n- Add Group V element (P, As)\n- Electrons are majority carriers\n\n### P-type (extra holes)\n- Add Group III element (B, Al)\n- Holes are majority carriers\n\n## The P-N Junction\n\n```\n   P-type    |    N-type\n   ○ ○ ○     |     ● ● ●\n   ○ ○ ○  ←→ |  ←→ ● ● ●\n   ○ ○ ○     |     ● ● ●\n           Depletion\n            region\n```\n\n## Diode Behavior\n\n| Bias | Current |\n|------|--------|\n| Forward (P→N) | Current flows |\n| Reverse (N→P) | Blocked |\n\n> 💡 **Foundation:** Semiconductors enable transistors, LEDs, solar cells, and all modern electronics!"
-        },
-        {
             "id": "mod_13",
             "type": "content",
-            "title": "Transistors and Applications",
-            "content": "# Transistors & Applications 🔧\n\n## The Transistor\n\nA transistor is a semiconductor device that can amplify or switch electrical signals.\n\n### Structure (NPN)\n```\n     Collector (C)\n         ↑\n    N    │    N\n    ─────┼─────\n         │\n    P (Base) ← Small current controls large current\n         │\n    N────┴────\n         ↓\n     Emitter (E)\n```\n\n## Two Main Functions\n\n### 1. Amplifier\n- Small base current controls large collector current\n- Gain: I_C / I_B ≈ 100-300\n\n### 2. Switch\n- ON: Current flows (logic 1)\n- OFF: No current (logic 0)\n- Foundation of digital logic!\n\n## Types of Transistors\n\n| Type | Description |\n|------|-------------|\n| BJT | Bipolar Junction Transistor |\n| MOSFET | Metal-Oxide-Semiconductor FET |\n| JFET | Junction FET |\n\n## Semiconductor Devices\n\n| Device | Function | Application |\n|--------|----------|-------------|\n| **LED** | Light emission | Displays, lighting |\n| **Photodiode** | Light detection | Sensors, solar |\n| **Solar cell** | Light → electricity | Power generation |\n| **Laser diode** | Coherent light | DVD, fiber optics |\n| **IC chips** | Billions of transistors | Computers, phones |\n\n## Moore's Law\n\n> *\"Transistor count doubles approximately every 2 years.\"*\n\n| Year | Transistors per chip |\n|------|---------------------|\n| 1971 | 2,300 (Intel 4004) |\n| 1989 | 1.2 million |\n| 2000 | 42 million |\n| 2020 | 50+ billion |\n\n> 🎯 **Impact:** Transistors are possibly humanity's most important invention!"
-        },
-        {
-            "id": "mod_quiz_4",
-            "type": "quiz",
-            "title": "Semiconductors Quiz",
-            "content": "Test your understanding of semiconductors!",
-            "quizQuestion": "In an N-type semiconductor, the majority charge carriers are:",
-            "quizOptions": [
-                "Holes",
-                "Electrons",
-                "Protons",
-                "Photons"
-            ],
-            "correctOptionIndex": 1
+            "title": "Standard Model",
+            "content": "# The Particle Zoo 🦁\n\nAll matter is made of:\n1. **Quarks**: Make up protons/neutrons.\n2. **Leptons**: Electrons, neutrinos.\n3. **Bosons**: Force carriers (Photon, Gluon).\n\nThe **Higgs Boson** gives particles mass."
         },
         {
             "id": "mod_14",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed the Modern Physics module! Here's what you've mastered:\n\n## Quantum Mechanics\n- ✅ Photoelectric effect: E = hf, KE = hf - φ\n- ✅ Wave-particle duality: λ = h/p\n- ✅ Bohr model: Eₙ = -13.6/n² eV\n\n## Nuclear Physics\n- ✅ Atomic structure: protons + neutrons\n- ✅ Radioactivity: α, β, γ decay\n- ✅ Half-life: N = N₀(½)^(t/t₁/₂)\n- ✅ Fission: Heavy → light + energy\n- ✅ Fusion: Light → heavy + energy\n\n## Special Relativity\n- ✅ Two postulates: Same laws, constant c\n- ✅ Time dilation: Δt = γΔt₀\n- ✅ Length contraction: L = L₀/γ\n- ✅ Mass-energy: **E = mc²**\n\n## Semiconductors\n- ✅ Band theory: Conduction/valence bands\n- ✅ Doping: N-type (electrons), P-type (holes)\n- ✅ P-N junction: Diodes and transistors\n\n## The Modern Physics Revolution\n\n| Discovery | Impact |\n|-----------|--------|\n| Quantum mechanics | Computers, lasers, MRI |\n| Nuclear physics | Power, medicine, weapons |\n| Relativity | GPS, particle physics |\n| Semiconductors | All electronics |\n\n> 🚀 **Looking Forward:** These concepts lead to quantum computing, nanotechnology, and beyond!\n\nYou now understand the physics that defines our modern world!"
+            "title": "Schrödinger's Cat",
+            "content": "# Quantum Superposition 🐈\n\nA thought experiment.\n- A cat in a box is simultaneously alive AND dead until observed.\n- Quantum systems exist in all possible states (**Superposition**) until measured.\n- Measurement causes \"Wavefunction Collapse\"."
+        },
+        {
+            "id": "mod_15",
+            "type": "content",
+            "title": "Semiconductors",
+            "content": "# Electronics Foundation 💾\n\nBand Theory:\n- **Valence Band**: Electrons stuck.\n- **Conduction Band**: Electrons free to move.\n- **Band Gap**: Energy needed to jump.\n\nSilicon has a small gap. Heat or voltage can make it conduct."
+        },
+        {
+            "id": "mod_16",
+            "type": "content",
+            "title": "Lasers",
+            "content": "# Coherent Light 🔦\n\n**L**ight **A**mplification by **S**timulated **E**mission of **R**adiation.\n\n- Electrons are pumped to high levels.\n- One photon triggers a cascade of identical clones.\n- Result: Monochromatic, directional, intense beam."
+        },
+        {
+            "id": "mod_17",
+            "type": "content",
+            "title": "Modern Physics Summary",
+            "content": "# Recap 📝\n\n- **Quantum**: Nature is granular and probabilistic.\n- **Relativity**: Space and time are flexible; $E=mc^2$.\n- **Nuclear**: Massive energy in the atom's core.\n\nModern physics transformed our understanding of reality, giving us lasers, GPS, computers, and nuclear energy!"
         }
     ]
 }

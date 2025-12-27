@@ -1,57 +1,93 @@
 [
     {
-        "title": "Sorting Algorithms 📊",
-        "ques": "1. How does bubble sort work?\n2. Time complexity of bubble sort\n3. Name a faster sorting algorithm",
+        "title": "Big O Notation ⏱️",
+        "ques": "Explain **Big O notation** and rank these: O(1), O(n), O(n²), O(log n), O(n log n).",
         "answer": {
             "type": "text",
-            "content": "**1. Bubble sort:** Repeatedly compare adjacent elements, swap if out of order. Largest \"bubbles up\" to end.\n\n**2. Time complexity:** O(n²) - slow for large datasets\n\n**3. Faster:** Merge sort and Quick sort - O(n log n) average"
+            "content": "**Big O Notation:**\nDescribes algorithm efficiency as input size grows (worst-case)\n\n**Ranking (best to worst):**\n\n| Complexity | Name | Example |\n|------------|------|--------|\n| **O(1)** | Constant | Array access |\n| **O(log n)** | Logarithmic | Binary search |\n| **O(n)** | Linear | Simple loop |\n| **O(n log n)** | Linearithmic | Merge sort |\n| **O(n²)** | Quadratic | Nested loops |\n\n**Growth comparison (n=1000):**\nO(1)=1, O(log n)≈10, O(n)=1000, O(n log n)≈10000, O(n²)=1,000,000"
         },
-        "explanation": "**O(n²)** means doubling input quadruples time. Avoid for large arrays!"
+        "explanation": "Big O ignores constants and lower-order terms. Focus on dominant behavior as n→∞."
     },
     {
-        "title": "Search Algorithms 🔍",
-        "ques": "1. Linear vs binary search\n2. Binary search requirement\n3. Time complexity of each",
+        "title": "Sorting Algorithms 🔀",
+        "ques": "Compare **Bubble Sort, Merge Sort, and Quick Sort** in terms of time complexity.",
         "answer": {
             "type": "text",
-            "content": "**1. Difference:**\n- Linear: Check each element one by one\n- Binary: Divide and conquer (check middle, eliminate half)\n\n**2. Binary requires:** Sorted array\n\n**3. Complexity:**\n- Linear: O(n)\n- Binary: O(log n) - much faster for large arrays"
+            "content": "**Sorting Algorithm Comparison:**\n\n| Algorithm | Best | Average | Worst | Space |\n|-----------|------|---------|-------|-------|\n| **Bubble Sort** | O(n) | O(n²) | O(n²) | O(1) |\n| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) |\n| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(log n) |\n\n**Key Points:**\n- Bubble: Simple but slow\n- Merge: Stable, consistent, uses extra memory\n- Quick: Fast average case, unstable"
         },
-        "explanation": "**Binary search** is powerful: 1 million items searched in ~20 comparisons!"
+        "explanation": "In practice, Quick Sort is often fastest due to cache efficiency. Merge Sort preferred when stability matters."
     },
     {
-        "title": "Big-O Notation 📈",
-        "ques": "Order these from fastest to slowest:\nO(n²), O(1), O(log n), O(n), O(n log n)",
+        "title": "Binary Search 🔍",
+        "ques": "Write pseudocode for **binary search** and explain why it's O(log n).",
         "answer": {
-            "type": "text",
-            "content": "**Fastest to slowest:**\n1. O(1) - Constant (instant)\n2. O(log n) - Logarithmic (binary search)\n3. O(n) - Linear (simple loop)\n4. O(n log n) - Linearithmic (merge sort)\n5. O(n²) - Quadratic (nested loops)\n\n**For n = 1000:**\n- O(1) = 1\n- O(log n) ≈ 10\n- O(n) = 1000\n- O(n log n) ≈ 10000\n- O(n²) = 1000000"
+            "type": "code",
+            "content": "function binarySearch(arr, target):\n    left = 0\n    right = length(arr) - 1\n    \n    while left <= right:\n        mid = (left + right) / 2\n        \n        if arr[mid] == target:\n            return mid  // Found!\n        else if arr[mid] < target:\n            left = mid + 1  // Search right half\n        else:\n            right = mid - 1  // Search left half\n    \n    return -1  // Not found",
+            "lang": "python"
         },
-        "explanation": "**Big-O** describes worst-case growth rate. Focus on the dominant term."
-    },
-    {
-        "title": "Graph Algorithms 🕸️",
-        "ques": "1. What is BFS vs DFS?\n2. Use cases for each\n3. Time complexity",
-        "answer": {
-            "type": "text",
-            "content": "**1. Difference:**\n- BFS (Breadth-First): Explore level by level (queue)\n- DFS (Depth-First): Go deep before backtracking (stack)\n\n**2. Uses:**\n- BFS: Shortest path (unweighted), level-order\n- DFS: Cycle detection, topological sort, mazes\n\n**3. Both:** O(V + E) where V = vertices, E = edges"
-        },
-        "explanation": "**BFS** finds shortest path in unweighted graphs. Use Dijkstra for weighted."
+        "explanation": "Each comparison eliminates half the remaining elements. For n elements: need log₂(n) comparisons. Requires sorted array."
     },
     {
         "title": "Recursion 🔄",
-        "ques": "Write factorial function:\n1. Iterative approach\n2. Recursive approach\n3. What is base case?",
-        "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# Iterative\ndef factorial_iter(n):\n    result = 1\n    for i in range(1, n+1):\n        result *= i\n    return result\n\n# Recursive\ndef factorial_rec(n):\n    if n <= 1:  # Base case\n        return 1\n    return n * factorial_rec(n-1)\n\n# Base case: n <= 1 returns 1\n# Without it, infinite recursion → stack overflow"
-        },
-        "explanation": "**Recursion** is function calling itself. Always needs base case to stop!"
-    },
-    {
-        "title": "Divide and Conquer ⚔️",
-        "ques": "1. What is divide and conquer?\n2. Example algorithms\n3. How does merge sort use it?",
+        "ques": "Explain **recursion** with the Fibonacci sequence example. What's the problem with naive recursion?",
         "answer": {
             "type": "text",
-            "content": "**1. Strategy:**\n- Divide: Break problem into subproblems\n- Conquer: Solve subproblems recursively\n- Combine: Merge solutions\n\n**2. Examples:** Merge sort, Quick sort, Binary search\n\n**3. Merge sort:**\n- Divide: Split array in half\n- Conquer: Sort each half\n- Combine: Merge sorted halves"
+            "content": "**Recursion:** Function calls itself with simpler input\n\n**Fibonacci (naive):**\n```\nfib(n):\n    if n <= 1: return n\n    return fib(n-1) + fib(n-2)\n```\n\n**Problem:** Exponential time O(2ⁿ)\n- fib(5) calls fib(4) and fib(3)\n- Both call overlapping subproblems\n- fib(2) computed 3 times!\n\n**Solution: Memoization**\nStore results to avoid recalculation → O(n)"
         },
-        "explanation": "**Divide and conquer** often yields O(n log n) algorithms - very efficient!"
+        "explanation": "Every recursive solution can be converted to iteration. Key: base case (stopping condition) and progress toward it."
+    },
+    {
+        "title": "Graph Traversal 🕸️",
+        "ques": "Compare **BFS** (Breadth-First Search) and **DFS** (Depth-First Search).",
+        "answer": {
+            "type": "text",
+            "content": "**BFS (Breadth-First Search):**\n- Explores level by level\n- Uses **queue** (FIFO)\n- Finds shortest path (unweighted)\n- Good for: Nearest neighbor, shortest path\n\n**DFS (Depth-First Search):**\n- Explores as deep as possible first\n- Uses **stack** (LIFO) or recursion\n- May not find shortest path\n- Good for: Topological sort, maze solving\n\n**Time/Space:** Both O(V + E) time, O(V) space"
+        },
+        "explanation": "BFS guarantees shortest path in unweighted graphs. DFS uses less memory for long paths."
+    },
+    {
+        "title": "Dynamic Programming 📊",
+        "ques": "Explain **dynamic programming** with the knapsack problem.",
+        "answer": {
+            "type": "text",
+            "content": "**Dynamic Programming:**\nBreak problem into overlapping subproblems, solve each once, store results\n\n**0/1 Knapsack Problem:**\nGiven items with weights and values, maximize value in capacity W\n\n**Recurrence:**\n```\ndp[i][w] = max(\n    dp[i-1][w],           // Don't take item i\n    dp[i-1][w-wt[i]] + v[i]  // Take item i\n)\n```\n\n**Time:** O(n × W)\n**Space:** O(n × W), can be optimized to O(W)"
+        },
+        "explanation": "DP requirements: optimal substructure + overlapping subproblems. Bottom-up (tabulation) vs top-down (memoization)."
+    },
+    {
+        "title": "Hash Tables ⚡",
+        "ques": "How do **hash tables** achieve O(1) average lookup? What are collisions?",
+        "answer": {
+            "type": "text",
+            "content": "**Hash Table:**\nArray + hash function for key-value storage\n\n**How it works:**\n1. Key → hash function → index\n2. Store value at that index\n3. Retrieval: same process\n\n**Collision:** Two keys hash to same index\n\n**Handling Collisions:**\n| Method | Description |\n|--------|------------|\n| **Chaining** | Linked list at each bucket |\n| **Open addressing** | Probe for next empty slot |\n\n**Load factor = n/buckets** → resize when too high"
+        },
+        "explanation": "Average O(1), worst O(n) if many collisions. Good hash functions distribute keys uniformly."
+    },
+    {
+        "title": "Divide and Conquer ✂️",
+        "ques": "Explain the **divide and conquer** paradigm with Merge Sort.",
+        "answer": {
+            "type": "text",
+            "content": "**Divide and Conquer Steps:**\n1. **Divide:** Split problem into subproblems\n2. **Conquer:** Solve subproblems recursively\n3. **Combine:** Merge solutions\n\n**Merge Sort:**\n```\nmergeSort(arr):\n    if len(arr) <= 1: return arr\n    \n    mid = len(arr) / 2\n    left = mergeSort(arr[0:mid])    // Divide\n    right = mergeSort(arr[mid:])    // Divide\n    return merge(left, right)        // Combine\n```\n\n**Analysis:** T(n) = 2T(n/2) + O(n) = O(n log n)"
+        },
+        "explanation": "Other D&C algorithms: Binary search, Quick sort, Strassen's matrix multiplication, FFT."
+    },
+    {
+        "title": "Greedy Algorithms 🤑",
+        "ques": "What is a **greedy algorithm**? When does it give optimal solutions?",
+        "answer": {
+            "type": "text",
+            "content": "**Greedy Algorithm:**\nAlways make locally optimal choice at each step\n\n**Example: Coin Change (US coins)**\nFor 63¢: Take largest coin possible each time\n- 50¢ → 10¢ → 1¢ → 1¢ → 1¢ = 5 coins ✓\n\n**When Greedy Works:**\n- **Greedy choice property:** Local optimal leads to global optimal\n- **Optimal substructure:** Optimal solution contains optimal solutions to subproblems\n\n**Greedy Fails:**\nCoins: [1, 15, 25], Amount: 30\n- Greedy: 25+1+1+1+1+1 = 6 coins\n- Optimal: 15+15 = 2 coins"
+        },
+        "explanation": "Greedy is simpler and faster than DP but doesn't always work. Must prove correctness for each problem."
+    },
+    {
+        "title": "NP-Complete Problems 🔐",
+        "ques": "Explain **P vs NP** and what it means for a problem to be NP-complete.",
+        "answer": {
+            "type": "text",
+            "content": "**Complexity Classes:**\n\n| Class | Definition | Example |\n|-------|------------|--------|\n| **P** | Solvable in polynomial time | Sorting |\n| **NP** | Verifiable in polynomial time | Sudoku |\n| **NP-Complete** | Hardest in NP | Traveling Salesman |\n| **NP-Hard** | At least as hard as NP-complete | Halting problem |\n\n**P = NP?**\nBillion-dollar question! If true, any problem we can verify quickly, we can solve quickly.\n\n**Implications:** If one NP-complete solved in P, all are."
+        },
+        "explanation": "Most believe P ≠ NP. For NP-complete problems, we use approximation algorithms or heuristics."
     }
 ]

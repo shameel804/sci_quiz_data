@@ -2,58 +2,138 @@
     "id": "learn_model",
     "topicId": "model",
     "topicTitle": "Mathematical Modeling",
-    "description": "Explore linear, exponential models, population dynamics, and optimization",
-    "baseKP": 75,
+    "description": "Translating real world problems into math to find solutions.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "model_1",
             "type": "content",
-            "title": "Introduction to Modeling",
-            "content": "# Mathematical Modeling 📈\n\n## What is Modeling?\nUsing math to represent real-world systems.\n\n## Process\n```\nReal problem → Math model → Solution → Interpretation\n```\n\n## Types of Models\n| Type | Use |\n|------|-----|\n| Linear | Constant rate |\n| Exponential | Growth/decay |\n| Logistic | Limited growth |\n| Polynomial | Complex patterns |"
+            "title": "What is Modeling?",
+            "content": "# Abstracting Reality 🌍 $\\to$ 📝\n\nThe process of using mathematics to represent, analyze, and make predictions about real-world phenomena.\nSteps:\n1. Real Problem $\\to$ Math Model\n2. Solve Math\n3. Math Solution $\\to$ Real Interpretation"
         },
         {
             "id": "model_2",
             "type": "content",
             "title": "Linear Models",
-            "content": "# Linear Models 📏\n\n## Form\n```\ny = mx + b\nm = rate of change\nb = initial value\n```\n\n## Examples\n- Distance = speed × time\n- Cost = price × quantity + fixed\n- Temperature conversion\n\n## Fitting Data\n- Least squares regression\n- Correlation coefficient r"
+            "content": "# Constant Rate 📏\n\n$y = mx + b$\n\nSimplest model.\nExample: Cost of taxi ride.\n- $b$: Base fee.\n- $m$: Cost per mile.\n- $x$: Miles."
         },
         {
             "id": "model_3",
             "type": "content",
             "title": "Exponential Models",
-            "content": "# Exponential Models 📊\n\n## Forms\n```\nGrowth: y = a × bᵗ (b > 1)\nDecay: y = a × bᵗ (0 < b < 1)\nContinuous: y = aeᵏᵗ\n```\n\n## Applications\n| Application | Formula |\n|-------------|--------|\n| Population | P = P₀eʳᵗ |\n| Radioactive | N = N₀e⁻ᵏᵗ |\n| Compound interest | A = P(1+r/n)ⁿᵗ |\n\n## Half-life\n```\nt₁/₂ = ln(2)/k\n```"
+            "content": "# Growth and Decay 🦠\n\n$y = A e^{kt}$\n\nRate depends on current size.\n- **Population Growth**: Bacteria doubling.\n- **Radioactive Decay**: Uranium half-life.\n- **Compound Interest**: Money."
+        },
+        {
+            "id": "model_4",
+            "type": "content",
+            "title": "Logistic Growth",
+            "content": "# Realistic Growth 🛑\n\nPopulations can't grow forever (Run out of food).\nStart exponential, then level off at **Carrying Capacity** ($K$).\nS-Curve."
         },
         {
             "id": "model_quiz_1",
             "type": "quiz",
-            "title": "Modeling Quiz",
-            "content": "Test your understanding!",
-            "quizQuestion": "If a population doubles every 10 years, what model is appropriate?",
+            "title": "Growth Quiz",
+            "content": "Identify the proper model.",
+            "quizQuestion": "Which model best describes unlimited bacteria growth in a petri dish?",
             "quizOptions": [
                 "Linear",
                 "Exponential",
-                "Quadratic",
+                "Logarithmic",
                 "Constant"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "model_4",
-            "type": "content",
-            "title": "Population Dynamics",
-            "content": "# Population Dynamics 🐇\n\n## Exponential Growth\n```\ndP/dt = rP → P = P₀eʳᵗ\n```\nUnlimited, unrealistic long-term.\n\n## Logistic Growth\n```\ndP/dt = rP(1 - P/K)\n\nK = carrying capacity\n```\nS-shaped curve, approaches K.\n\n## Predator-Prey (Lotka-Volterra)\n```\ndx/dt = αx - βxy\ndy/dt = δxy - γy\n```"
-        },
-        {
             "id": "model_5",
             "type": "content",
-            "title": "Optimization",
-            "content": "# Optimization 🎯\n\n## Goal\nFind maximum or minimum values.\n\n## Calculus Method\n1. Set f'(x) = 0\n2. Solve for critical points\n3. Use second derivative test\n\n## Linear Programming\n- Constraints as inequalities\n- Objective function\n- Feasible region\n\n## Example\n```\nMaximize: P = 3x + 5y\nSubject to:\nx + y ≤ 10\nx ≥ 0, y ≥ 0\n```"
+            "title": "Optimization Problems",
+            "content": "# Best Outcome 🏆\n\nFinding Maxima or Minima.\n- Maximize profit.\n- Minimize material usage.\n- Methodology: Define constraints, write objective function, use Calculus (derivative = 0) or Linear Programming."
         },
         {
             "id": "model_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n## Model Types\n| Model | Equation |\n|-------|----------|\n| Linear | y = mx + b |\n| Exponential | y = aeᵏᵗ |\n| Logistic | dP/dt = rP(1-P/K) |\n\n## Applications\n- Growth/decay\n- Population\n- Optimization\n- Physics-based modeling"
+            "title": "Predator-Prey Model",
+            "content": "# Fox and Rabbit 🐇🦊\n\nLotka-Volterra equations.\n- Coupled differential equations.\n- Rabbits go up $\\to$ Foxes go up.\n- Foxes eat rabbits $\\to$ Rabbits go down.\n- Foxes starve $\\to$ Foxes go down.\n- Repeat (Oscillation)."
+        },
+        {
+            "id": "model_7",
+            "type": "content",
+            "title": "SIR Model",
+            "content": "# Epidemiology 😷\n\nModeling disease spread.\n- **S**: Susceptible.\n- **I**: Infected.\n- **R**: Recovered.\nUsed to predict COVID peaks and herd immunity threshold."
+        },
+        {
+            "id": "model_8",
+            "type": "content",
+            "title": "Financial Modeling",
+            "content": "# Money Math 💰\n\n- **Amortization**: Calculating mortgage payments.\n- **Black-Scholes**: Pricing stock options.\n- **Risk Analysis**: Monte Carlo simulations."
+        },
+        {
+            "id": "model_9",
+            "type": "content",
+            "title": "Physics Modeling",
+            "content": "# Projectile Motion 🏹\n\nIgnoring air resistance: Parabola.\nAdding air resistance: Complex differential equation requiring numerical definition."
+        },
+        {
+            "id": "model_10",
+            "type": "content",
+            "title": "Network Models",
+            "content": "# Graph Theory 🕸️\n\nNodes and Edges.\n- **Shortest Path**: GPS routing (Dijkstra's algo).\n- **Social Networks**: Viral marketing/Influence."
+        },
+        {
+            "id": "model_quiz_2",
+            "type": "quiz",
+            "title": "Disease Quiz",
+            "content": "SIR Check.",
+            "quizQuestion": "In the SIR model, R stands for:",
+            "quizOptions": [
+                "Rate",
+                "Recovered",
+                "Ratio",
+                "Reinfected"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "model_11",
+            "type": "content",
+            "title": "Stochastic vs Deterministic",
+            "content": "# Standard vs Random 🎲\n\n- **Deterministic**: Same input $\\to$ Same output (Physics).\n- **Stochastic**: Includes randomness (Stock market, Weather).\n  - Output is a probability distribution."
+        },
+        {
+            "id": "model_12",
+            "type": "content",
+            "title": "Climate Models",
+            "content": "# Planet Sim 🌍\n\nGrid-based simulation of atmosphere and ocean.\n- Massive complexity.\n- Energy balance (Sun in vs Heat out).\n- Feedback loops (Ice melt $\\to$ Less reflection $\\to$ More beat)."
+        },
+        {
+            "id": "model_13",
+            "type": "content",
+            "title": "Game Theory",
+            "content": "# Strategy ♟️\n\nModeling conflict and cooperation.\n- **Prisoner's Dilemma**: Rationally selfish behavior leads to bad outcome for all.\n- Nash Equilibrium."
+        },
+        {
+            "id": "model_14",
+            "type": "content",
+            "title": "Machine Learning",
+            "content": "# Data Modeling 🤖\n\nInstead of writing the formula, the computer *learns* the formula from data.\n- Neural Networks are universal function approximators."
+        },
+        {
+            "id": "model_15",
+            "type": "content",
+            "title": "Verification and Validation",
+            "content": "# Is it right? ✅\n\n- **Verification**: Did we solve the equations correctly?\n- **Validation**: Does the model match reality?\nA model is a simplification; all models are wrong, but some are useful."
+        },
+        {
+            "id": "model_16",
+            "type": "content",
+            "title": "Chaos Theory",
+            "content": "# Butterfly Effect 🦋\n\nSensitivity to initial conditions.\n- Tiny change in input $\\to$ Huge change in output.\n- Why weather is impossible to predict past 10 days."
+        },
+        {
+            "id": "model_17",
+            "type": "content",
+            "title": "Modeling Summary",
+            "content": "# Recap 📝\n\n- Translate Real $\\to$ Math.\n- **Linear**, **Exponential**, **Logistic** are basics.\n- Used for **Populations**, **Disease**, **Finance**.\n- Helps us make better decisions."
         }
     ]
 }

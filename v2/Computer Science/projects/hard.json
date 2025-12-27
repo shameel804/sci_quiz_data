@@ -1,56 +1,92 @@
 [
     {
-        "title": "CPU Basics 🖥️",
-        "ques": "1. What does CPU stand for?\n2. Main CPU components\n3. What is clock speed?",
+        "title": "CPU Architecture 🧠",
+        "ques": "Explain the **fetch-decode-execute cycle** of a CPU.",
         "answer": {
             "type": "text",
-            "content": "**1.** Central Processing Unit - \"brain\" of computer\n\n**2. Components:**\n- ALU (Arithmetic Logic Unit): Math and logic\n- Control Unit: Directs operations\n- Registers: Fast temporary storage\n- Cache: Quick access memory\n\n**3. Clock speed:** Cycles per second (GHz)\n- 3 GHz = 3 billion cycles/second\n- Higher = faster (with caveats)"
+            "content": "**CPU Cycle:**\n\n| Stage | Action |\n|-------|--------|\n| **Fetch** | Get instruction from memory (PC → MAR → Memory → MBR) |\n| **Decode** | Interpret instruction (Control Unit) |\n| **Execute** | Perform operation (ALU for math/logic) |\n| **Store** | Write result if needed |\n\n**Key Registers:**\n- PC (Program Counter): Next instruction address\n- IR (Instruction Register): Current instruction\n- ACC (Accumulator): Working value"
         },
-        "explanation": "**Moore's Law:** Transistor count doubles every ~2 years. Slowing down now."
+        "explanation": "Modern CPUs pipeline stages for parallel execution. Branch prediction and speculative execution increase performance."
     },
     {
         "title": "Memory Hierarchy 📊",
-        "ques": "1. Types of memory (fast to slow)\n2. RAM vs ROM\n3. Why have multiple levels?",
+        "ques": "Describe the **memory hierarchy** from fastest to slowest.",
         "answer": {
             "type": "text",
-            "content": "**1. Hierarchy (fast→slow, expensive→cheap):**\nRegisters → L1 Cache → L2 Cache → L3 Cache → RAM → SSD → HDD\n\n**2. RAM vs ROM:**\n- RAM: Volatile, read/write (working memory)\n- ROM: Non-volatile, read-only (firmware)\n\n**3. Why levels:**\n- Fast memory is expensive\n- Keep frequently used data in fast cache\n- Trade-off: speed vs capacity vs cost"
+            "content": "**Memory Hierarchy:**\n\n| Level | Type | Speed | Size | Cost/byte |\n|-------|------|-------|------|----------|\n| 1 | Registers | ~1 ns | Bytes | $$$$$ |\n| 2 | L1 Cache | ~1-4 ns | KB | $$$$ |\n| 3 | L2/L3 Cache | ~10-40 ns | MB | $$$ |\n| 4 | RAM | ~100 ns | GB | $$ |\n| 5 | SSD | ~100 µs | TB | $ |\n| 6 | HDD | ~10 ms | TB | ¢ |\n\n**Principle:** Locality of reference makes caching effective"
         },
-        "explanation": "**Cache** dramatically speeds up computing by keeping hot data close to CPU."
+        "explanation": "CPU-memory speed gap is major bottleneck. Cache hit rates >95% for well-written programs."
+    },
+    {
+        "title": "Binary Numbers 0️⃣1️⃣",
+        "ques": "Convert between **binary, decimal, and hexadecimal**. Convert 156 to binary and hex.",
+        "answer": {
+            "type": "text",
+            "content": "**Decimal 156 to Binary:**\n156 ÷ 2 = 78 r0\n78 ÷ 2 = 39 r0\n39 ÷ 2 = 19 r1\n19 ÷ 2 = 9 r1\n9 ÷ 2 = 4 r1\n4 ÷ 2 = 2 r0\n2 ÷ 2 = 1 r0\n1 ÷ 2 = 0 r1\n\n**Binary:** 10011100\n\n**To Hex:** Group by 4 bits\n1001 1100 = 9 C\n**Hex:** 0x9C"
+        },
+        "explanation": "Hex is convenient shorthand for binary (4 bits per hex digit). Common in memory addresses, colors."
     },
     {
         "title": "Logic Gates ⚡",
-        "ques": "1. Basic logic gates\n2. Truth table for AND\n3. How computer adds numbers",
+        "ques": "Draw truth tables for **AND, OR, NOT, XOR, NAND** gates.",
         "answer": {
             "type": "text",
-            "content": "**1. Basic gates:**\n- AND: Both inputs 1 → output 1\n- OR: Either input 1 → output 1\n- NOT: Inverts input\n- XOR: One but not both → 1\n\n**2. AND truth table:**\n| A | B | A AND B |\n|---|---|--------|\n| 0 | 0 | 0 |\n| 0 | 1 | 0 |\n| 1 | 0 | 0 |\n| 1 | 1 | 1 |\n\n**3. Addition:** Half adder (XOR for sum, AND for carry) → Full adder → Ripple adder"
+            "content": "| A | B | AND | OR | XOR | NAND |\n|---|---|-----|----|----|------|\n| 0 | 0 | 0 | 0 | 0 | 1 |\n| 0 | 1 | 0 | 1 | 1 | 1 |\n| 1 | 0 | 0 | 1 | 1 | 1 |\n| 1 | 1 | 1 | 1 | 0 | 0 |\n\n| A | NOT |\n|---|-----|\n| 0 | 1 |\n| 1 | 0 |\n\n**NAND is universal:** Can build any other gate from NANDs only"
         },
-        "explanation": "**All computing** reduces to logic gates. Billions of transistors implement gates."
+        "explanation": "All computer computation builds on these primitives. Transistors implement gates."
     },
     {
-        "title": "Storage Devices 💾",
-        "ques": "1. HDD vs SSD\n2. Advantages of each\n3. How SSDs work",
+        "title": "Storage Types 💾",
+        "ques": "Compare **HDD, SSD, and NVMe** storage technologies.",
         "answer": {
             "type": "text",
-            "content": "**1. Key difference:**\n- HDD: Spinning magnetic disks, mechanical\n- SSD: Flash memory, no moving parts\n\n**2. Comparison:**\n| Feature | HDD | SSD |\n|---------|-----|-----|\n| Speed | Slower | 5-10× faster |\n| Price | Cheaper/GB | More expensive |\n| Durability | Fragile | Shock resistant |\n| Noise | Audible | Silent |\n\n**3. SSD working:** Stores data as electrical charges in flash cells (NAND)"
+            "content": "| Feature | HDD | SATA SSD | NVMe SSD |\n|---------|-----|----------|----------|\n| **Technology** | Spinning platters | Flash memory | Flash memory |\n| **Interface** | SATA | SATA | PCIe |\n| **Read speed** | ~100 MB/s | ~500 MB/s | ~3500 MB/s |\n| **Latency** | ~10 ms | ~0.1 ms | ~0.02 ms |\n| **Durability** | Moving parts | No moving parts | No moving parts |\n| **Cost/GB** | $ | $$ | $$$ |"
         },
-        "explanation": "**SSDs** are standard for OS now. HDDs still used for bulk storage (cost)."
+        "explanation": "SSDs have limited write cycles (TBW). NVMe eliminates SATA bottleneck for flash speeds."
     },
     {
-        "title": "Binary System 🔢",
-        "ques": "1. Convert 13 to binary\n2. Convert 1010 to decimal\n3. Why computers use binary",
+        "title": "Operating System Functions 🖥️",
+        "ques": "What are the main **functions of an operating system**?",
         "answer": {
             "type": "text",
-            "content": "**1. 13 to binary:**\n13 ÷ 2 = 6 R1\n6 ÷ 2 = 3 R0\n3 ÷ 2 = 1 R1\n1 ÷ 2 = 0 R1\n**13 = 1101**\n\n**2. 1010 to decimal:**\n1×8 + 0×4 + 1×2 + 0×1 = **10**\n\n**3. Binary because:**\n- Two states easy to implement (on/off, high/low voltage)\n- Reliable, less error-prone\n- Logic gates work naturally with binary"
+            "content": "**OS Functions:**\n\n| Function | Description |\n|----------|------------|\n| **Process Management** | Scheduling, multitasking |\n| **Memory Management** | Allocation, virtual memory |\n| **File System** | Storage organization |\n| **I/O Management** | Device drivers |\n| **Security** | User authentication, permissions |\n| **Networking** | Protocol stack, sockets |\n\n**Types:**\n- Batch, Time-sharing, Real-time\n- Examples: Windows, Linux, macOS, Android"
         },
-        "explanation": "**Bit** (binary digit) is smallest data unit. 8 bits = 1 byte."
+        "explanation": "OS provides abstraction between hardware and applications. Kernel runs in privileged mode."
     },
     {
-        "title": "I/O Systems 🔌",
-        "ques": "1. Common I/O devices\n2. USB versions\n3. What is driver?",
+        "title": "Network Layers 🌐",
+        "ques": "Explain the **OSI model** layers and their functions.",
         "answer": {
             "type": "text",
-            "content": "**1. I/O devices:**\n- Input: Keyboard, mouse, microphone, camera\n- Output: Monitor, speakers, printer\n- Both: Touchscreen, network card\n\n**2. USB versions:**\n- USB 2.0: 480 Mbps\n- USB 3.0: 5 Gbps\n- USB 4.0: 40 Gbps\n\n**3. Driver:** Software that allows OS to communicate with hardware device"
+            "content": "**OSI 7-Layer Model:**\n\n| Layer | Name | Function | Example |\n|-------|------|----------|--------|\n| 7 | Application | User interface | HTTP, DNS |\n| 6 | Presentation | Data format | SSL, JPEG |\n| 5 | Session | Connection mgmt | RPC |\n| 4 | Transport | End-to-end | TCP, UDP |\n| 3 | Network | Routing | IP |\n| 2 | Data Link | Frame delivery | Ethernet |\n| 1 | Physical | Bits on wire | Cables |\n\n*Mnemonic: Please Do Not Throw Sausage Pizza Away*"
         },
-        "explanation": "**Drivers** translate between OS and devices. Missing driver = device won't work."
+        "explanation": "TCP/IP model has 4 layers. Understanding layers helps debug network issues."
+    },
+    {
+        "title": "Parallel Processing 🔄",
+        "ques": "Explain **multi-core processors** and the challenges of parallel programming.",
+        "answer": {
+            "type": "text",
+            "content": "**Multi-Core:**\n- Multiple CPU cores on one chip\n- Each core executes independently\n- Shared cache and memory\n\n**Parallel Programming Challenges:**\n| Challenge | Description |\n|-----------|------------|\n| **Race conditions** | Unpredictable results from shared data |\n| **Deadlock** | Processes waiting on each other |\n| **Synchronization** | Coordinating access to shared resources |\n| **Amdahl's Law** | Sequential portions limit speedup |\n\n**Solutions:** Locks, semaphores, message passing"
+        },
+        "explanation": "Moore's Law slowed; parallel is the path forward. GPU has 1000s of cores for parallel workloads."
+    },
+    {
+        "title": "Virtualization 🖥️🖥️",
+        "ques": "What is **virtualization** and how do VMs work?",
+        "answer": {
+            "type": "text",
+            "content": "**Virtualization:**\nRunning multiple virtual computers on one physical machine\n\n**Components:**\n- **Hypervisor:** Manages VMs\n  - Type 1 (bare metal): VMware ESXi\n  - Type 2 (hosted): VirtualBox\n- **Guest OS:** OS running in VM\n- **Virtual hardware:** CPU, memory, disk, network\n\n**Benefits:**\n- Server consolidation\n- Isolation and security\n- Easy backup/migration\n- Development and testing"
+        },
+        "explanation": "Containers (Docker) are lightweight alternative. Cloud computing relies heavily on virtualization."
+    },
+    {
+        "title": "Input/Output Devices 🖱️",
+        "ques": "How do **I/O devices** communicate with the CPU?",
+        "answer": {
+            "type": "text",
+            "content": "**I/O Communication Methods:**\n\n| Method | Description | Use Case |\n|--------|-------------|----------|\n| **Polling** | CPU repeatedly checks device | Simple devices |\n| **Interrupts** | Device signals CPU when ready | Keyboard, mouse |\n| **DMA** | Device accesses memory directly | Disk, network |\n\n**I/O Buses:**\n- USB (Universal Serial Bus)\n- PCIe (high-speed internal)\n- SATA (storage)\n- Thunderbolt (high-speed external)\n\n**Device Drivers:** Software translating OS commands to device-specific instructions"
+        },
+        "explanation": "DMA offloads data transfer from CPU. Interrupt handlers run when device needs attention."
     }
 ]

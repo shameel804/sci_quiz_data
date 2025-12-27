@@ -2,58 +2,138 @@
     "id": "learn_robo",
     "topicId": "robo",
     "topicTitle": "Robotics",
-    "description": "Explore robot kinematics, control systems, sensors, and autonomous systems",
-    "baseKP": 75,
+    "description": "Machines that sense, think, and act.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "robo_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Robotics 🤖\n\n## Topics\n- Robot kinematics\n- Control systems\n- Sensors & actuators\n- Autonomous systems"
+            "title": "What is a Robot?",
+            "content": "# Sense-Think-Act 🤖\n\nA machine capable of interacting with its environment.\n1. **Sensors**: Gather data (Eyes).\n2. **Controller**: Process data (Brain).\n3. **Actuators**: Move/Do (Muscles)."
         },
         {
             "id": "robo_2",
             "type": "content",
             "title": "Kinematics",
-            "content": "# Robot Kinematics 🦾\n\n## Types\n| Type | Motion |\n|------|--------|\n| Forward | Joint → End position |\n| Inverse | End position → Joints |\n\n## DOF\nDegrees of freedom = independent motions"
+            "content": "# Moving Arms 🦾\n\nMath of robot position.\n- **Forward Kinematics**: \"If I turn shoulder $30\\degree$, where is my hand?\"\n- **Inverse Kinematics**: \"I want hand at (X, Y), what angles do I need?\" (Harder)."
         },
         {
             "id": "robo_3",
             "type": "content",
-            "title": "Control",
-            "content": "# Control Systems 🎛️\n\n## PID Control\n```\nu = Kp*e + Ki*∫e + Kd*(de/dt)\n```\n\n| Term | Function |\n|------|----------|\n| P | Present error |\n| I | Past error |\n| D | Future trend |"
-        },
-        {
-            "id": "robo_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "PID control's 'I' term addresses:",
-            "quizOptions": [
-                "Present error",
-                "Past error accumulation",
-                "Error rate",
-                "Noise"
-            ],
-            "correctOptionIndex": 1
+            "title": "Actuators",
+            "content": "# Muscles 💪\n\n- **DC Motor**: Spinning wheels.\n- **Servo**: Precise angle control (Joints).\n- **Stepper Motor**: Precise rotation ticks (3D printers).\n- **Pneumatics/Hydraulics**: Fluid power."
         },
         {
             "id": "robo_4",
             "type": "content",
             "title": "Sensors",
-            "content": "# Sensors & Actuators 📡\n\n## Sensors\n| Sensor | Measures |\n|--------|----------|\n| Encoder | Position |\n| IMU | Orientation |\n| LIDAR | Distance |\n| Camera | Vision |\n\n## Actuators\n- Motors (DC, stepper, servo)\n- Pneumatic/hydraulic"
+            "content": "# Senses 👁️\n\n- **Lidar**: Laser scanning distance.\n- **Ultrasonic**: Sound echolocation.\n- **IMU**: Gyroscope/Accelerometer (Balance).\n- **Cameras**: Computer Vision."
         },
         {
             "id": "robo_5",
             "type": "content",
-            "title": "Autonomous",
-            "content": "# Autonomous Systems 🚗\n\n## Components\n- Perception (sensors)\n- Planning (path finding)\n- Control (actuation)\n\n## Applications\n- Self-driving cars\n- Drones\n- Industrial robots"
+            "title": "Degrees of Freedom (DOF)",
+            "content": "# Flexibility 🤸\n\nNumber of independent ways a robot moves.\n- Human arm: ~7 DOF.\n- Industrial arm: usually 6 DOF (Can reach any point at any angle)."
+        },
+        {
+            "id": "robo_quiz_1",
+            "type": "quiz",
+            "title": "Component Quiz",
+            "content": "Parts check.",
+            "quizQuestion": "Which component allows a robot to physically move?",
+            "quizOptions": [
+                "Sensor",
+                "Processor",
+                "Actuator",
+                "Battery"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "robo_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Kinematics: Forward & inverse\n- PID: Proportional, Integral, Derivative\n- Sensors: Encoder, LIDAR, camera\n- Autonomous: Sense → Plan → Act"
+            "title": "Control Systems",
+            "content": "# Feedback Loop 🔁\n\n\"Am I there yet?\"\n- **Open Loop**: Tell motor to spin 5s. Hope it worked.\n- **Closed Loop**: Spin, check encoder, adjust speed. Precise."
+        },
+        {
+            "id": "robo_7",
+            "type": "content",
+            "title": "Industrial Robots",
+            "content": "# Factory Workers 🏭\n\n- **Articulated Arms**: Welding, Painting.\n- **SCARA**: Pick and place (Fast horizontal).\n- **Delta**: Spider-like, very fast sorting.\n- Dangerous: Stay out of their cage."
+        },
+        {
+            "id": "robo_8",
+            "type": "content",
+            "title": "Mobile Robots",
+            "content": "# Rovers 🚌\n\nRobots that move around.\n- Wheels (Mars Rover).\n- Tracks (Tanks).\n- Legs (Boston Dynamics).\n- Flight (Drones)."
+        },
+        {
+            "id": "robo_9",
+            "type": "content",
+            "title": "SLAM",
+            "content": "# Mapping 🗺️\n\n**S**imultaneous **L**ocalization **A**nd **M**apping.\n- Robot enters unknown room.\n- Builds a map WHILE figuring out where it is in that map.\n- Roomba uses this."
+        },
+        {
+            "id": "robo_10",
+            "type": "content",
+            "title": "Human-Robot Interaction (HRI)",
+            "content": "# Friendly Bots 🤝\n\n- **Cobots**: Collaborative Robots safe to work next to humans.\n- Force sensors detect bumps and stop instantly.\n- Social robots (Pepper) for service."
+        },
+        {
+            "id": "robo_11",
+            "type": "content",
+            "title": "Autonomous Vehicles",
+            "content": "# Self Driving 🚗\n\nLevels of Autonomy (0-5).\n- Level 2: Lane assist (Tesla).\n- Level 5: No steering wheel (Future).\n- Relies on sensor fusion (Camera + Radar + Lidar)."
+        },
+        {
+            "id": "robo_12",
+            "type": "content",
+            "title": "Soft Robotics",
+            "content": "# Squishy 🐙\n\nMade of silicone/rubber.\n- Air inflated muscles.\n- Good for handling delicate fruit or exploring tight spaces.\n- Inspired by octopuses."
+        },
+        {
+            "id": "robo_quiz_2",
+            "type": "quiz",
+            "title": "Nav Quiz",
+            "content": "Tech check.",
+            "quizQuestion": "What does SLAM stand for in robotics?",
+            "quizOptions": [
+                "Super Large Area Map",
+                "Simultaneous Localization And Mapping",
+                "Sensor Light Analysis Method",
+                "Servo Linear Actuation Motion"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "robo_13",
+            "type": "content",
+            "title": "Swarm Robotics",
+            "content": "# Hive Mind 🐝\n\nMany simple robots working together.\n- No central leader.\n- Pattern formation.\n- Robust: If one dies, swarm continues."
+        },
+        {
+            "id": "robo_14",
+            "type": "content",
+            "title": "Medical Robotics",
+            "content": "# Surgeon Bot 🩺\n\n- **Da Vinci System**: Remote surgery.\n- Surgeon controls joysticks, robot moves tiny tools inside patient.\n- Removes hand tremors."
+        },
+        {
+            "id": "robo_15",
+            "type": "content",
+            "title": "Robot Ethics",
+            "content": "# Three Laws ⚖️\n\nAsimov's rules (Fiction) vs Reality.\n- Weaponization (Drones).\n- 1Job displacement.\n- \"Trolley Problem\" for self-driving cars."
+        },
+        {
+            "id": "robo_16",
+            "type": "content",
+            "title": "History",
+            "content": "# Origins 🕰️\n\n- 1961: **Unimate** (First industrial robot, GM).\n- 2000s: Roomba (Domestic).\n- 2020s: Humanoids (Tesla Optimus)."
+        },
+        {
+            "id": "robo_17",
+            "type": "content",
+            "title": "Robotics Summary",
+            "content": "# Recap 📝\n\n- **Sensors** perceive.\n- **Algorithms** plan.\n- **Actuators** execute.\n- Robots extend human capability into the dangerous, dull, and dirty."
         }
     ]
 }

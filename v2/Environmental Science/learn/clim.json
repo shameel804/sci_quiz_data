@@ -1,59 +1,139 @@
 {
     "id": "learn_clim",
     "topicId": "clim",
-    "topicTitle": "Climate Science",
-    "description": "Explore greenhouse effect, climate models, global warming, and feedback loops",
-    "baseKP": 75,
+    "topicTitle": "Climate Change",
+    "description": "Understanding the warming planet.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "clim_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Climate Science 🌡️\n\n## Topics\n- Greenhouse effect\n- Climate models\n- Global warming\n- Feedback loops"
+            "title": "Weather vs Climate",
+            "content": "# Mood vs Personality 🌡️\n\n- **Weather**: Short term state of atmosphere (Raining today).\n- **Climate**: Average weather over 30+ years (Tropical).\n- \"Climate is what you expect, weather is what you get.\""
         },
         {
             "id": "clim_2",
             "type": "content",
             "title": "Greenhouse Effect",
-            "content": "# Greenhouse Effect 🏠\n\n## Natural Process\n```\nSun → Earth → IR radiation\n       ↓\nGreenhouse gases trap heat\n```\n\n## Key Gases\n| Gas | Source |\n|-----|--------|\n| CO₂ | Fossil fuels |\n| CH₄ | Agriculture |\n| N₂O | Agriculture |\n| H₂O | Evaporation |"
+            "content": "# The Blanket 🧣\n\nGases trap heat from the Sun.\n- Without it, Earth would be frozen (-18°C).\n- **Enhanced Greenhouse Effect**: Humans adding too many gases $\\to$ Overheating."
         },
         {
             "id": "clim_3",
             "type": "content",
-            "title": "Global Warming",
-            "content": "# Global Warming 🌍\n\n## Evidence\n- Rising temperatures\n- Melting ice\n- Sea level rise\n- Extreme weather\n\n## Causes\n- Fossil fuel burning\n- Deforestation\n- Agriculture\n- Industry"
-        },
-        {
-            "id": "clim_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Which gas is the main driver of current climate change?",
-            "quizOptions": [
-                "O₂",
-                "N₂",
-                "CO₂",
-                "Ar"
-            ],
-            "correctOptionIndex": 2
+            "title": "Greenhouse Gases (GHGs)",
+            "content": "# The Culprits 🏭\n\n1. **Carbon Dioxide ($CO_2$)**: Burning fossil fuels. Long lasting.\n2. **Methane ($CH_4$)**: Cows, Landfills. Short lived but potent.\n3. **Nitrous Oxide ($N_2O$)**: Fertilizer.\n4. **Water Vapor**: Increases as Earth warms (Feedback loop)."
         },
         {
             "id": "clim_4",
             "type": "content",
-            "title": "Feedback Loops",
-            "content": "# Feedback Loops 🔄\n\n## Positive (Amplifying)\n- Ice-albedo: Less ice → more absorption\n- Permafrost: Thaw → release CH₄\n\n## Negative (Stabilizing)\n- More CO₂ → more plant growth\n- Clouds (complex)"
+            "title": "Global Warming Potential (GWP)",
+            "content": "# Strength Factor 💪\n\nComparing gases to $CO_2$ (GWP = 1).\n- Methane: ~28x stronger.\n- Nitrous Oxide: ~265x stronger.\n- Even small amounts of these matter."
         },
         {
             "id": "clim_5",
             "type": "content",
-            "title": "Climate Models",
-            "content": "# Climate Models 💻\n\n## Components\n- Atmosphere\n- Ocean\n- Land surface\n- Ice sheets\n\n## Predictions\n- Temperature rise\n- Precipitation changes\n- Sea level scenarios"
+            "title": "Albedo Effect",
+            "content": "# Reflection ❄️\n\nWhiteness of a surface.\n- Ice/Snow: High Albedo (Reflects heat).\n- Dark Ocean: Low Albedo (Absorbs heat).\n- Melting ice reveals dark water $\\to$ More heat absorbed $\\to$ More melting (Positive Feedback)."
+        },
+        {
+            "id": "clim_quiz_1",
+            "type": "quiz",
+            "title": "Gas Quiz",
+            "content": "Source check.",
+            "quizQuestion": "Which gas is primarily released by burning fossil fuels like coal and oil?",
+            "quizOptions": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Argon",
+                "Hydrogen"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "clim_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Greenhouse gases trap heat\n- CO₂ main anthropogenic driver\n- Positive feedbacks amplify warming\n- Models predict future climate"
+            "title": "Carbon Footprint",
+            "content": "# Your Impact 👣\n\nTotal GHGs caused by an individual or organization.\n- Driving cars, eating meat, flying, using electricity.\n- Reducing footprint helps slow warming."
+        },
+        {
+            "id": "clim_7",
+            "type": "content",
+            "title": "Impact: Sea Level Rise",
+            "content": "# Rising Tides 🌊\n\nCauses:\n1. **Thermal Expansion**: Warmer water takes up more space.\n2. **Melting Ice Sheets**: Greenland/Antarctica adding water.\nThreatens coastal cities (Miami, Venice)."
+        },
+        {
+            "id": "clim_8",
+            "type": "content",
+            "title": "Impact: Extreme Weather",
+            "content": "# Superstorms 🌀\n\nWarmer atmosphere holds more energy and moisture.\n- Stronger Hurricanes.\n- Longer Droughts.\n- Intense Heatwaves."
+        },
+        {
+            "id": "clim_9",
+            "type": "content",
+            "title": "Ocean Acidification",
+            "content": "# Sour Seas 🍋\n\nOcean absorbs excess $CO_2$ $\\to$ Becomes acidic.\n- Dissolves coral reefs and shellfish shells.\n- Threatens marine food chain."
+        },
+        {
+            "id": "clim_10",
+            "type": "content",
+            "title": "Climate Models",
+            "content": "# Predicting Future 🔮\n\nSupercomputers simulating Earth's physics.\n- Predict temperature rise based on emission scenarios (RCPs).\n- Have accurately predicted current warming for decades."
+        },
+        {
+            "id": "clim_11",
+            "type": "content",
+            "title": "Mitigation vs Adaptation",
+            "content": "# Strategy ♟️\n\n- **Mitigation**: Fixing the cause (Solar panels, Electric cars).\n- **Adaptation**: Dealing with the effect (Building sea walls, drought-resistant crops)."
+        },
+        {
+            "id": "clim_quiz_2",
+            "type": "quiz",
+            "title": "Strategy Quiz",
+            "content": "Action check.",
+            "quizQuestion": "Building a sea wall to protect a city from rising tides is an example of:",
+            "quizOptions": [
+                "Mitigation",
+                "Adaptation",
+                "Ignorance",
+                "Pollution"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "clim_12",
+            "type": "content",
+            "title": "The Paris Agreement",
+            "content": "# Global Deal 🤝\n\nInternational treaty (2015).\n- Goal: Keep warming well below 2°C (aim for 1.5°C).\n- Countries submit NDCs (National pledges) to cut emissions."
+        },
+        {
+            "id": "clim_13",
+            "type": "content",
+            "title": "Tipping Points",
+            "content": "# Point of No Return ⚠️\n\nThresholds where change becomes irreversible.\n- Permafrost melt releasing methane.\n- Amazon rainforest turning into savanna.\n- Collapse of ice sheets."
+        },
+        {
+            "id": "clim_14",
+            "type": "content",
+            "title": "Paleoclimate",
+            "content": "# Ice Cores 🧊\n\nDrilling deep ice reveals ancient air bubbles.\n- Tells us $CO_2$ and Temp history.\n- Current $CO_2$ levels are higher than anytime in human history."
+        },
+        {
+            "id": "clim_15",
+            "type": "content",
+            "title": "Energy Transition",
+            "content": "# Solution ⚡\n\nMoving from Fossil Fuels to Renewables.\n- Solar, Wind, Hydro, Nuclear, Geothermal.\n- Electrifying transport and heating."
+        },
+        {
+            "id": "clim_16",
+            "type": "content",
+            "title": "Geoengineering",
+            "content": "# Hacker Mankind 💉\n\nControversial tech to cool Earth.\n- Solar Radiation Management (Dimming sun).\n- Carbon Capture (Sucking $CO_2$).\n- Risky side effects."
+        },
+        {
+            "id": "clim_17",
+            "type": "content",
+            "title": "Climate Summary",
+            "content": "# Recap 📝\n\n- It's real.\n- It's us ($CO_2$).\n- It's bad.\n- We are sure.\n- We can fix it (if we act fast)."
         }
     ]
 }

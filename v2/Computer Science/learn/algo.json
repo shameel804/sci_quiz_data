@@ -2,58 +2,138 @@
     "id": "learn_algo",
     "topicId": "algo",
     "topicTitle": "Algorithms",
-    "description": "Explore sorting, searching, time complexity, and graph algorithms",
-    "baseKP": 75,
+    "description": "Step-by-step recipes for solving problems.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "algo_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Algorithms 💻\n\n## What is an Algorithm?\nStep-by-step procedure to solve a problem.\n\n## Topics\n- Sorting algorithms\n- Search algorithms\n- Time complexity\n- Graph algorithms"
+            "title": "What is an Algorithm?",
+            "content": "# A Recipe 🥘\n\nA precise sequence of instructions to solve a problem or perform a computation.\n- Input $\\to$ Algorithm $\\to$ Output.\n- Like a cooking recipe, but for computers."
         },
         {
             "id": "algo_2",
             "type": "content",
-            "title": "Sorting",
-            "content": "# Sorting Algorithms 📊\n\n| Algorithm | Time (avg) | Space |\n|-----------|------------|-------|\n| Bubble | O(n²) | O(1) |\n| Merge | O(n log n) | O(n) |\n| Quick | O(n log n) | O(log n) |\n| Insertion | O(n²) | O(1) |\n\n## Stable vs Unstable\n- Stable: Preserves equal element order\n- Merge sort is stable"
+            "title": "Big O Notation",
+            "content": "# Measuring Speed ⏱️\n\nHow does the runtime grow as input size ($n$) grows?\n- $O(1)$: Constant (Instant).\n- $O(\\log n)$: Fast (Binary Search).\n- $O(n)$: Linear (Loop through list).\n- $O(n^2)$: Quadratic (Nested loops).\n- $O(2^n)$: Exponential (Too slow)."
         },
         {
             "id": "algo_3",
             "type": "content",
-            "title": "Searching",
-            "content": "# Search Algorithms 🔍\n\n## Linear Search\n- O(n) time\n- Works on unsorted\n\n## Binary Search\n- O(log n) time\n- Requires sorted array\n```\nmid = (low + high) / 2\nif target < arr[mid]: search left\nelse: search right\n```"
-        },
-        {
-            "id": "algo_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "What is the time complexity of binary search?",
-            "quizOptions": [
-                "O(n)",
-                "O(n²)",
-                "O(log n)",
-                "O(1)"
-            ],
-            "correctOptionIndex": 2
+            "title": "Linear Search",
+            "content": "# Check One by One 🔍\n\nLooking for an item in an unsorted list.\n1. Check first item.\n2. Check second item.\n3. ...\nWorst case: $O(n)$ (Item is last or not there)."
         },
         {
             "id": "algo_4",
             "type": "content",
-            "title": "Big-O Notation",
-            "content": "# Time Complexity ⏱️\n\n## Common Complexities\n| Notation | Name | Example |\n|----------|------|--------|\n| O(1) | Constant | Array access |\n| O(log n) | Logarithmic | Binary search |\n| O(n) | Linear | Linear search |\n| O(n log n) | Linearithmic | Merge sort |\n| O(n²) | Quadratic | Bubble sort |"
+            "title": "Binary Search",
+            "content": "# Divide and Conquer 🔪\n\nLooking in a **Sorted** list.\n1. Check middle.\n2. If target > middle, discard left half.\n3. Repeat.\nRuntime: $O(\\log n)$. Much faster than linear!"
+        },
+        {
+            "id": "algo_quiz_1",
+            "type": "quiz",
+            "title": "Speed Quiz",
+            "content": "Complexity check.",
+            "quizQuestion": "Which Big O represents the fastest algorithm?",
+            "quizOptions": [
+                "O(n)",
+                "O(2^n)",
+                "O(1)",
+                "O(log n)"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "algo_5",
             "type": "content",
-            "title": "Graph Algorithms",
-            "content": "# Graph Algorithms 🔗\n\n## Traversal\n- BFS: Level by level\n- DFS: Deep first\n\n## Shortest Path\n| Algorithm | Use |\n|-----------|-----|\n| Dijkstra | Weighted, non-negative |\n| Bellman-Ford | Negative weights |\n| Floyd-Warshall | All pairs |"
+            "title": "Sorting: Bubble Sort",
+            "content": "# Bubbling Up 🛁\n\nSimple but slow ($O(n^2)$).\n1. Compare adjacent pair.\n2. Swap if wrong order.\n3. Repeat until no swaps needed.\nGood for learning, bad for real use."
         },
         {
             "id": "algo_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Sorting: O(n²) vs O(n log n)\n- Binary search: O(log n)\n- BFS/DFS for graph traversal\n- Big-O measures efficiency"
+            "title": "Sorting: Merge Sort",
+            "content": "# Split and Join 🤝\n\nEfficient ($O(n \\log n)$).\n1. Split list in half until 1 item left.\n2. Merge sorted halves back together.\nRecursive approach."
+        },
+        {
+            "id": "algo_7",
+            "type": "content",
+            "title": "Graph Algorithms: BFS",
+            "content": "# Breadth First Search 🌊\n\nExploring a graph layer by layer.\n- Visit neighbors first, then neighbors' neighbors.\n- Finds **shortest path** in unweighted graphs.\n- Uses a Queue."
+        },
+        {
+            "id": "algo_8",
+            "type": "content",
+            "title": "Graph Algorithms: DFS",
+            "content": "# Depth First Search 🕳️\n\nExploring as deep as possible first.\n- Go down one path to the end, then backtrack.\n- Good for solving mazes.\n- Uses a Stack (or Recursion)."
+        },
+        {
+            "id": "algo_9",
+            "type": "content",
+            "title": "Dijkstra's Algorithm",
+            "content": "# Best Path 📍\n\nFinds shortest path in a **Weighted** graph (like a map with road distances).\n- Basis for Google Maps / GPS.\n- \"Greedy\" approach (Always take closest node)."
+        },
+        {
+            "id": "algo_10",
+            "type": "content",
+            "title": "Recursion",
+            "content": "# Calling Self 📞\n\nA function that calls itself.\n- Must have a **Base Case** (Stop condition) to avoid Infinite Loop.\n- Factorial: $5! = 5 \\times 4!$.\n- Elegant solution for tree structures."
+        },
+        {
+            "id": "algo_quiz_2",
+            "type": "quiz",
+            "title": "Search Quiz",
+            "content": "Graph check.",
+            "quizQuestion": "Which algorithm is best for finding the shortest path on a map?",
+            "quizOptions": [
+                "Bubble Sort",
+                "Binary Search",
+                "Dijkstra's Algorithm",
+                "DFS"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "algo_11",
+            "type": "content",
+            "title": "Dynamic Programming",
+            "content": "# Remembering Past 🧠\n\nBreaking complex problem into subproblems and saving results (Memoization).\n- Don't calculate Fibonacci(5) twice!\n- Trade memory for speed."
+        },
+        {
+            "id": "algo_12",
+            "type": "content",
+            "title": "Greedy Algorithms",
+            "content": "# In the Moment 😋\n\nMaking the locally optimal choice at each step.\n- Making change: Pick biggest coin first.\n- Doesn't always give best global solution (Knapsack problem)."
+        },
+        {
+            "id": "algo_13",
+            "type": "content",
+            "title": "Hashing",
+            "content": "# Instant Access 🏷️\n\nMapping data to a fixed-size table.\n- Allows looking up items in $O(1)$ time.\n- Used in Dictionaries/HashMaps.\n- Needs to handle Collisions."
+        },
+        {
+            "id": "algo_14",
+            "type": "content",
+            "title": "Space Complexity",
+            "content": "# Memory Cost 💾\n\nNot just time, but RAM matters.\n- Does your algorithm need to copy the whole list ($O(n)$ space)?\n- Or does it swap in place ($O(1)$ space)?"
+        },
+        {
+            "id": "algo_15",
+            "type": "content",
+            "title": "Encryption Algorithms",
+            "content": "# Secret Math 🔒\n\n- **Symmetric**: Same key locks and unlocks (AES).\n- **Asymmetric**: Public key locks, Private key unlocks (RSA).\nRelies on math being easy one way, hard the other (Factoring)."
+        },
+        {
+            "id": "algo_16",
+            "type": "content",
+            "title": "P vs NP",
+            "content": "# The Million Dollar Question 💰\n\n- **P**: Problems solvable quickly.\n- **NP**: Problems verifiable quickly.\n- Does $P = NP$?\n- If yes, we could crack all encryption instantly. Most think No."
+        },
+        {
+            "id": "algo_17",
+            "type": "content",
+            "title": "Algo Summary",
+            "content": "# Recap 📝\n\n- **Searching** and **Sorting** are improved.\n- **Graphs** model connections.\n- **Recursion** divides problems.\n- Efficiency ($O$) is king."
         }
     ]
 }

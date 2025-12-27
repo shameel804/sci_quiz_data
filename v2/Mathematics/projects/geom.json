@@ -1,56 +1,92 @@
 [
     {
-        "title": "Triangle Properties 📐",
-        "ques": "For a triangle with sides 3, 4, 5:\n1. Is it a right triangle? Prove it.\n2. Calculate the area\n3. Calculate the perimeter",
+        "title": "Triangle Area 📐",
+        "ques": "Find the area of a triangle with vertices at **(0, 0), (4, 0), and (2, 5)**.",
         "answer": {
             "type": "text",
-            "content": "**1. Right triangle proof:**\n```\n3² + 4² = 9 + 16 = 25 = 5²\n```\nYes! Satisfies Pythagorean theorem ✓\n\n**2. Area:** (1/2) × base × height = (1/2) × 3 × 4 = **6 square units**\n\n**3. Perimeter:** 3 + 4 + 5 = **12 units**"
+            "content": "**Using the formula:**\n$$Area = \\frac{1}{2}|x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$$\n\n**Substituting:**\n$$Area = \\frac{1}{2}|0(0-5) + 4(5-0) + 2(0-0)|$$\n$$Area = \\frac{1}{2}|0 + 20 + 0| = \\mathbf{10\\ sq\\ units}$$\n\n**Alternative:** Base = 4, Height = 5\nArea = ½ × 4 × 5 = **10 sq units** ✓"
         },
-        "explanation": "**3-4-5** is the most famous Pythagorean triple. Others include 5-12-13 and 8-15-17."
+        "explanation": "The coordinate formula works for any triangle. When a side lies on an axis, base-height method is simpler."
     },
     {
-        "title": "Circle Calculations ⭕",
-        "ques": "For a circle with radius 7:\n1. Calculate circumference\n2. Calculate area\n3. What is a central angle of 90°'s arc length?",
+        "title": "Pythagorean Theorem 📏",
+        "ques": "A ladder leans against a wall. If the ladder is **10 m** long and the base is **6 m** from the wall, how high does it reach?",
         "answer": {
             "type": "text",
-            "content": "**1. Circumference:**\n```\nC = 2πr = 2π(7) = 14π ≈ 43.98 units\n```\n\n**2. Area:**\n```\nA = πr² = π(49) = 49π ≈ 153.94 sq units\n```\n\n**3. 90° arc length:**\n```\n90°/360° × 14π = (1/4) × 14π = 3.5π ≈ 11 units\n```"
+            "content": "**Pythagorean Theorem:** a² + b² = c²\n\nWhere c = hypotenuse (ladder) = 10 m\nBase = 6 m\n\n**Solve for height:**\n6² + h² = 10²\n36 + h² = 100\nh² = 64\n**h = 8 m**\n\nThis is a 6-8-10 right triangle (3-4-5 scaled by 2)."
         },
-        "explanation": "**Circle formulas:** C = 2πr, A = πr². Arc length = (angle/360°) × circumference."
+        "explanation": "Common Pythagorean triples: 3-4-5, 5-12-13, 8-15-17. Multiples of these are also valid."
     },
     {
-        "title": "Pythagorean Theorem 🔺",
-        "ques": "A ladder 10 m long leans against a wall. Base is 6 m from wall.\n1. How high up the wall does it reach?\n2. If ladder slides 2 m down, how far is base now from wall?",
+        "title": "Circle Equations 🔵",
+        "ques": "Find the **center and radius** of the circle: **x² + y² - 6x + 4y - 12 = 0**",
         "answer": {
             "type": "text",
-            "content": "**1. Height:**\n```\n10² = 6² + h²\n100 = 36 + h²\nh² = 64\nh = 8 m\n```\n\n**2. New base distance:**\nNew height = 8 - 2 = 6 m\n```\n10² = b² + 6²\n100 = b² + 36\nb² = 64\nb = 8 m from wall\n```"
+            "content": "**Complete the square:**\n\n(x² - 6x) + (y² + 4y) = 12\n\n(x² - 6x + 9) + (y² + 4y + 4) = 12 + 9 + 4\n\n**(x - 3)² + (y + 2)² = 25**\n\n**Standard form:** (x - h)² + (y - k)² = r²\n\n**Center:** (h, k) = **(3, -2)**\n**Radius:** r = √25 = **5**"
         },
-        "explanation": "**Pythagorean theorem** a² + b² = c² applies to right triangles. Ladder problems are classic applications."
+        "explanation": "General form: x² + y² + Dx + Ey + F = 0. Center: (-D/2, -E/2). Radius: √(D²/4 + E²/4 - F)."
     },
     {
-        "title": "Coordinate Geometry 📍",
-        "ques": "For points A(1, 2) and B(4, 6):\n1. Find distance AB\n2. Find midpoint\n3. Find slope of line AB",
+        "title": "Similar Triangles 🔺",
+        "ques": "Triangle ABC ~ Triangle DEF. If AB = 6, DE = 9, and the area of ABC = 24, find the area of DEF.",
         "answer": {
             "type": "text",
-            "content": "**1. Distance:**\n```\nd = √[(4-1)² + (6-2)²]\n  = √[9 + 16] = √25 = 5\n```\n\n**2. Midpoint:**\n```\nM = ((1+4)/2, (2+6)/2) = (2.5, 4)\n```\n\n**3. Slope:**\n```\nm = (6-2)/(4-1) = 4/3\n```"
+            "content": "**Ratio of corresponding sides:**\nk = DE/AB = 9/6 = 3/2\n\n**Area ratio = square of side ratio:**\nArea ratio = k² = (3/2)² = 9/4\n\n**Area of DEF:**\n$$Area_{DEF} = Area_{ABC} × \\frac{9}{4} = 24 × \\frac{9}{4} = \\mathbf{54\\ sq\\ units}$$"
         },
-        "explanation": "**Coordinate geometry** connects algebra and geometry. Distance, midpoint, and slope formulas are essential."
+        "explanation": "For similar figures: linear ratio = k, area ratio = k², volume ratio = k³."
     },
     {
-        "title": "3D Geometry 📦",
-        "ques": "For a cube with side 5:\n1. Surface area\n2. Volume\n3. Space diagonal length",
+        "title": "Thales' Theorem 🌓",
+        "ques": "State **Thales' Theorem** and use it to find an unknown angle in a semicircle.",
         "answer": {
             "type": "text",
-            "content": "**1. Surface area:**\n```\n6 × s² = 6 × 25 = 150 sq units\n```\n\n**2. Volume:**\n```\ns³ = 125 cubic units\n```\n\n**3. Space diagonal:**\n```\nd = s√3 = 5√3 ≈ 8.66 units\n```"
+            "content": "**Thales' Theorem:**\nAn angle inscribed in a semicircle is always a **right angle** (90°).\n\n**Application:**\nIf A, B, C are points on a circle with AB as diameter, then ∠ACB = 90°.\n\n**Example:**\n- AB is diameter = 10 cm\n- Point C is on the circle\n- AC = 6 cm\n- Find BC\n\nBy Thales' Theorem, ∠ACB = 90°\n6² + BC² = 10²\nBC = 8 cm"
         },
-        "explanation": "**3D formulas:** Cube diagonal = s√3. For rectangular box: d = √(l² + w² + h²)."
+        "explanation": "Thales (~600 BCE) proved this fundamental property. It's a special case of the inscribed angle theorem."
     },
     {
-        "title": "Thales' Theorem 📐",
-        "ques": "1. State Thales' theorem\n2. A semicircle has diameter AB = 10. Point C is on semicircle. If AC = 6, find BC.\n3. Application example",
+        "title": "3D Geometry - Cuboid 📦",
+        "ques": "A cuboid has dimensions **3 × 4 × 12**. Find the **diagonal** length.",
         "answer": {
             "type": "text",
-            "content": "**1. Theorem:** Any angle inscribed in a semicircle (with diameter as one side) is 90°\n\n**2. Using Pythagorean theorem:**\n```\nAC² + BC² = AB² (since ∠C = 90°)\n36 + BC² = 100\nBC = 8\n```\n\n**3. Application:** Constructing right angles with just compass and straightedge"
+            "content": "**Space Diagonal Formula:**\n$$d = \\sqrt{l^2 + w^2 + h^2}$$\n\n**Calculation:**\n$$d = \\sqrt{3^2 + 4^2 + 12^2}$$\n$$d = \\sqrt{9 + 16 + 144}$$\n$$d = \\sqrt{169} = \\mathbf{13\\ units}$$\n\n*This forms a Pythagorean triple in 3D!*"
         },
-        "explanation": "**Thales' theorem** is one of earliest proofs in geometry (c. 600 BCE). Inscribed angle is half central angle."
+        "explanation": "Apply Pythagorean theorem twice: first for face diagonal, then for space diagonal. Or use the combined formula."
+    },
+    {
+        "title": "Coordinate Geometry - Distance 📍",
+        "ques": "Find the distance between points **A(2, 3)** and **B(-4, 11)**.",
+        "answer": {
+            "type": "text",
+            "content": "**Distance Formula:**\n$$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$$\n\n**Calculation:**\n$$d = \\sqrt{(-4-2)^2 + (11-3)^2}$$\n$$d = \\sqrt{(-6)^2 + (8)^2}$$\n$$d = \\sqrt{36 + 64}$$\n$$d = \\sqrt{100} = \\mathbf{10\\ units}$$\n\n*Note: This is a 6-8-10 triangle (3-4-5 scaled)*"
+        },
+        "explanation": "The distance formula is derived from the Pythagorean theorem applied to the horizontal and vertical distances."
+    },
+    {
+        "title": "Angle Sum Property 📐",
+        "ques": "In a pentagon, four angles measure 100°, 110°, 120°, and 130°. Find the fifth angle.",
+        "answer": {
+            "type": "text",
+            "content": "**Interior Angle Sum Formula:**\n$$Sum = (n-2) × 180°$$\n\n**Pentagon (n = 5):**\nSum = (5-2) × 180° = 3 × 180° = **540°**\n\n**Fifth angle:**\n540° - (100° + 110° + 120° + 130°) = 540° - 460° = **80°**"
+        },
+        "explanation": "A regular pentagon has each angle = 540°/5 = 108°. The formula works for any convex polygon."
+    },
+    {
+        "title": "Sector and Arc 🥧",
+        "ques": "Find the **arc length** and **area of sector** with radius 10 cm and central angle 72°.",
+        "answer": {
+            "type": "text",
+            "content": "**Formulas:**\n- Arc length: L = (θ/360°) × 2πr\n- Sector area: A = (θ/360°) × πr²\n\n**Arc Length:**\n$$L = \\frac{72}{360} × 2π(10) = \\frac{1}{5} × 20π = \\mathbf{4π ≈ 12.57\\ cm}$$\n\n**Sector Area:**\n$$A = \\frac{72}{360} × π(10)^2 = \\frac{1}{5} × 100π = \\mathbf{20π ≈ 62.83\\ cm^2}$$"
+        },
+        "explanation": "Sector is a \"pizza slice\" of a circle. Arc is the curved edge of that slice."
+    },
+    {
+        "title": "Solid Geometry - Cone 🔺",
+        "ques": "A cone has radius **6 cm** and slant height **10 cm**. Find the **volume** and **curved surface area**.",
+        "answer": {
+            "type": "text",
+            "content": "**First find height (Pythagorean):**\n$$h = \\sqrt{l^2 - r^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8\\ cm$$\n\n**Volume:**\n$$V = \\frac{1}{3}πr^2h = \\frac{1}{3}π(6)^2(8) = \\frac{288π}{3} = \\mathbf{96π ≈ 301.6\\ cm^3}$$\n\n**Curved Surface Area:**\n$$CSA = πrl = π(6)(10) = \\mathbf{60π ≈ 188.5\\ cm^2}$$"
+        },
+        "explanation": "Total surface area = CSA + base area = πrl + πr². The slant height, height, and radius form a right triangle."
     }
 ]

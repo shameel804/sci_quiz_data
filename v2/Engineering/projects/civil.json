@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Beam Analysis 🏗️",
+        "ques": "Calculate reactions for a **simply supported beam** with a 10 kN point load at center (span = 6m).",
+        "answer": {
+            "type": "text",
+            "content": "**Setup:**\n- Beam length L = 6 m\n- Load P = 10 kN at center (3 m)\n- Supports at both ends (A and B)\n\n**Equilibrium Equations:**\nΣFy = 0: R_A + R_B = 10 kN\nΣM_A = 0: R_B × 6 - 10 × 3 = 0\n\n**Solving:**\nR_B = 30/6 = **5 kN**\nR_A = 10 - 5 = **5 kN**\n\n**Maximum Moment:**\nM_max = R_A × 3 = 5 × 3 = **15 kN·m** (at center)"
+        },
+        "explanation": "Symmetric loading gives equal reactions. Shear and moment diagrams help visualize internal forces."
+    },
+    {
+        "title": "Concrete Mix Design 🧱",
+        "ques": "What is the **water-cement ratio** and why is it critical for concrete strength?",
+        "answer": {
+            "type": "text",
+            "content": "**Water-Cement Ratio (w/c):**\n$$w/c = \\frac{Weight\\ of\\ water}{Weight\\ of\\ cement}$$\n\n**Importance:**\n| w/c Ratio | Effect |\n|-----------|--------|\n| < 0.4 | High strength, difficult to work |\n| 0.4-0.6 | Typical structural concrete |\n| > 0.6 | Lower strength, easier to pour |\n\n**Why:**\n- Water chemically reacts with cement\n- Excess water evaporates → voids → weak\n- Too little → incomplete hydration"
+        },
+        "explanation": "Abrams' Law: Strength inversely proportional to w/c ratio. Admixtures improve workability without extra water."
+    },
+    {
+        "title": "Soil Mechanics 🏔️",
+        "ques": "Explain **bearing capacity** and factors affecting foundation design.",
+        "answer": {
+            "type": "text",
+            "content": "**Bearing Capacity:**\nMaximum load per unit area soil can support without failure\n\n**Terzaghi's Equation:**\n$$q_u = cN_c + γDN_q + 0.5γBN_γ$$\n\n**Factors Affecting Design:**\n| Factor | Effect |\n|--------|--------|\n| Soil type | Clay vs sand strength |\n| Water table | Reduces effective stress |\n| Foundation size/shape | Width, circular vs strip |\n| Depth | Deeper = more capacity |\n| Load type | Static vs dynamic |"
+        },
+        "explanation": "Site investigation (borings, tests) essential before foundation design. Factor of safety typically 3."
+    },
+    {
+        "title": "Traffic Engineering 🚗",
+        "ques": "What is **Level of Service (LOS)** in highway engineering?",
+        "answer": {
+            "type": "text",
+            "content": "**Level of Service (LOS):**\nQualitative measure of traffic conditions\n\n| LOS | Description | V/C Ratio |\n|-----|-------------|----------|\n| **A** | Free flow | < 0.35 |\n| **B** | Reasonably free | 0.35-0.55 |\n| **C** | Stable flow | 0.55-0.75 |\n| **D** | Approaching unstable | 0.75-0.90 |\n| **E** | At capacity | 0.90-1.00 |\n| **F** | Breakdown, congestion | > 1.00 |\n\n**Design target:** Usually LOS C or D"
+        },
+        "explanation": "V/C = Volume/Capacity ratio. Highway design balances construction cost with acceptable LOS."
+    },
+    {
+        "title": "Surveying Basics 📏",
+        "ques": "What is the difference between **horizontal** and **vertical** surveying?",
+        "answer": {
+            "type": "text",
+            "content": "**Horizontal Surveying:**\n- Measures distances and angles in horizontal plane\n- Creates maps and boundaries\n- Instruments: Total station, GPS\n\n**Vertical Surveying (Leveling):**\n- Measures elevations\n- Determines height differences\n- Instruments: Level, staff\n\n**Coordinate Systems:**\n- Northing (Y), Easting (X), Elevation (Z)\n- Local or GPS-based\n\n**Modern:** Drones with LiDAR for rapid 3D mapping"
+        },
+        "explanation": "Accurate surveying is foundation of all construction. Control points established before building."
+    },
+    {
+        "title": "Structural Steel 🏢",
+        "ques": "What are the advantages of **steel frame** construction?",
+        "answer": {
+            "type": "text",
+            "content": "**Advantages:**\n| Advantage | Details |\n|-----------|--------|\n| **High strength/weight** | Lighter foundations |\n| **Speed** | Prefabricated, fast erection |\n| **Flexibility** | Long spans, open plans |\n| **Ductility** | Bends before breaking (earthquake) |\n| **Recyclable** | 90%+ recycled content |\n\n**Disadvantages:**\n- Fire: Loses strength at high temp\n- Corrosion: Requires protection\n- Cost: Higher material cost\n\n**Fire protection:** Spray-on fireproofing, concrete encasement"
+        },
+        "explanation": "Most tall buildings use steel frame or steel/concrete composite. I-beams, H-columns are common shapes."
+    },
+    {
+        "title": "Water Supply Systems 💧",
+        "ques": "Describe the components of a **municipal water supply** system.",
+        "answer": {
+            "type": "text",
+            "content": "**Water Supply Components:**\n\n| Stage | Function |\n|-------|----------|\n| **Source** | River, lake, groundwell |\n| **Intake** | Collects raw water |\n| **Treatment plant** | Purifies water |\n| **Transmission** | Large pipes to storage |\n| **Storage** | Tanks, reservoirs |\n| **Distribution** | Pipes to consumers |\n\n**Design Considerations:**\n- Peak demand factors\n- Pressure requirements (20-80 psi)\n- Fire flow capacity\n- Water quality standards"
+        },
+        "explanation": "Hardy Cross method analyzes pipe networks. Modern SCADA systems monitor in real-time."
+    },
+    {
+        "title": "Environmental Impact 🌿",
+        "ques": "What is an **Environmental Impact Assessment (EIA)**?",
+        "answer": {
+            "type": "text",
+            "content": "**EIA Purpose:**\nEvaluate environmental effects of proposed projects before approval\n\n**Key Components:**\n1. Project description\n2. Baseline environmental conditions\n3. Impact prediction\n4. Mitigation measures\n5. Alternatives analysis\n6. Public participation\n7. Monitoring plan\n\n**Impact Categories:**\n- Air and water quality\n- Noise and vibration\n- Ecology and wildlife\n- Social and cultural\n- Cumulative effects"
+        },
+        "explanation": "Required by law for major projects in most countries. NEPA (US, 1970) was pioneering legislation."
+    },
+    {
+        "title": "Earthquake Engineering 🌍",
+        "ques": "What are **base isolators** and how do they protect buildings?",
+        "answer": {
+            "type": "text",
+            "content": "**Base Isolation:**\nDecouples building from ground motion\n\n**How It Works:**\n- Flexible bearings between foundation and superstructure\n- Building moves less than ground\n- Natural period increased beyond earthquake frequency\n\n**Types:**\n| Type | Description |\n|------|------------|\n| **Lead-rubber** | Rubber layers with lead core |\n| **Friction pendulum** | Curved surface, slides |\n| **Elastomeric** | Layered rubber and steel |\n\n**Reduction:** Can reduce forces by 80%+"
+        },
+        "explanation": "Also used: dampers, moment frames, shear walls. Retrofitting older buildings is critical in seismic zones."
+    },
+    {
+        "title": "Sustainable Construction 🌱",
+        "ques": "What is **LEED certification** and its rating system?",
+        "answer": {
+            "type": "text",
+            "content": "**LEED (Leadership in Energy and Environmental Design):**\nGreen building rating system\n\n**Categories (points):**\n- Sustainable sites\n- Water efficiency\n- Energy and atmosphere\n- Materials and resources\n- Indoor environmental quality\n- Innovation\n- Regional priority\n\n**Certification Levels:**\n| Points | Level |\n|--------|-------|\n| 40-49 | Certified |\n| 50-59 | Silver |\n| 60-79 | Gold |\n| 80+ | Platinum |"
+        },
+        "explanation": "Green buildings use less energy/water, healthier for occupants. Other systems: BREEAM (UK), Green Star (Australia)."
+    }
+]

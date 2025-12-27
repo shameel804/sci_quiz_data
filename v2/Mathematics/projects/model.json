@@ -1,56 +1,92 @@
 [
     {
-        "title": "Linear Models 📈",
-        "ques": "A car rental costs $30/day plus $0.20/mile.\n1. Write the cost function\n2. Graph it\n3. Cost for 3 days and 150 miles?",
+        "title": "Exponential Growth Model 📈",
+        "ques": "A population of 1000 bacteria doubles every 3 hours. Write a model and find the population after 12 hours.",
         "answer": {
             "type": "text",
-            "content": "**1. Cost function:**\nC(d, m) = 30d + 0.20m\n\n**2. For fixed days (d=1):**\nC = 30 + 0.20m (linear, y-intercept 30, slope 0.20)\n\n**3. Cost calculation:**\nC = 30(3) + 0.20(150) = 90 + 30 = **$120**"
+            "content": "**Exponential Growth Model:**\n$$P(t) = P_0 × 2^{t/T}$$\n\nWhere:\n- P₀ = 1000 (initial)\n- T = 3 hours (doubling time)\n\n**Model:** P(t) = 1000 × 2^(t/3)\n\n**After 12 hours:**\nP(12) = 1000 × 2^(12/3) = 1000 × 2⁴ = 1000 × 16 = **16,000 bacteria**"
         },
-        "explanation": "**Linear models** have constant rate of change. Form: y = mx + b (slope + intercept)."
+        "explanation": "Exponential models describe unlimited growth. Real populations eventually face constraints (logistic model)."
     },
     {
-        "title": "Exponential Growth 📊",
-        "ques": "Bacteria double every 20 minutes. Starting with 100:\n1. Write population function\n2. Population after 2 hours?",
+        "title": "Linear Regression 📊",
+        "ques": "Given data points (1,2), (2,4), (3,5), (4,4), (5,5), find the **least squares regression line**.",
         "answer": {
             "type": "text",
-            "content": "**1. Population function:**\nP(t) = 100 × 2^(t/20)\nwhere t is time in minutes\n\n**2. After 2 hours (120 min):**\n```\nP(120) = 100 × 2^(120/20)\n       = 100 × 2^6\n       = 100 × 64 = 6,400 bacteria\n```"
+            "content": "**Calculate sums:**\n- n = 5\n- Σx = 15, Σy = 20\n- Σxy = 52, Σx² = 55\n\n**Slope:**\n$$m = \\frac{n(Σxy) - (Σx)(Σy)}{n(Σx^2) - (Σx)^2}$$\n$$m = \\frac{5(52) - 15(20)}{5(55) - 225} = \\frac{260 - 300}{275 - 225} = \\frac{-40}{50} = \\mathbf{0.6}$$\n\n**Intercept:**\n$$b = \\frac{Σy - m(Σx)}{n} = \\frac{20 - 0.6(15)}{5} = \\frac{11}{5} = \\mathbf{2.2}$$\n\n**Regression line:** y = 0.6x + 2.2"
         },
-        "explanation": "**Exponential growth:** P(t) = P₀ · b^(t/T) where T is doubling time. Growth is \"explosive.\""
+        "explanation": "Least squares minimizes sum of squared vertical distances. The line passes through (x̄, ȳ)."
     },
     {
-        "title": "Population Dynamics 🐰",
-        "ques": "A population follows logistic growth:\n1. What limits population growth?\n2. What is carrying capacity?\n3. Draw S-curve shape",
+        "title": "Logistic Model 🔄",
+        "ques": "A population follows: **P(t) = 1000/(1 + 9e^(-0.5t))**. Find the carrying capacity and population at t=6.",
         "answer": {
             "type": "text",
-            "content": "**1. Limiting factors:**\n- Food availability\n- Space/habitat\n- Predators\n- Disease\n\n**2. Carrying capacity (K):** Maximum sustainable population the environment can support\n\n**3. S-curve:**\n```\nPop\n K |------------•••\n   |         •\n   |       •\n   |     •\n   |   •\n   | •\n   |_________________Time\n```\nSlow start → rapid growth → levels off"
+            "content": "**Logistic Model:**\n$$P(t) = \\frac{K}{1 + Ae^{-kt}}$$\n\n**Identify parameters:**\n- K (carrying capacity) = **1000**\n- A = 9\n- k = 0.5\n\n**Initial population:**\nP(0) = 1000/(1 + 9) = 100\n\n**At t = 6:**\n$$P(6) = \\frac{1000}{1 + 9e^{-3}} = \\frac{1000}{1 + 9(0.0498)}$$\n$$= \\frac{1000}{1.448} ≈ \\mathbf{691}$$"
         },
-        "explanation": "**Logistic model:** dP/dt = rP(1 - P/K). Realistic for populations with resource limits."
+        "explanation": "Logistic model: slow start, rapid middle growth, slows as it approaches carrying capacity."
     },
     {
-        "title": "Optimization 🎯",
-        "ques": "Fence 3 sides of a rectangle against a wall with 100m of fencing.\n1. Write area function\n2. Find dimensions for maximum area",
+        "title": "Optimization - Minimum Distance 📏",
+        "ques": "Find the point on **y = x²** closest to the point **(0, 2)**.",
         "answer": {
             "type": "text",
-            "content": "**1. Setup:**\nLet x = parallel to wall, y = perpendicular\nConstraint: x + 2y = 100 → x = 100 - 2y\nArea: A = xy = (100-2y)y = 100y - 2y²\n\n**2. Maximize:**\n```\ndA/dy = 100 - 4y = 0\ny = 25 m\nx = 100 - 50 = 50 m\n```\n**Dimensions: 50m × 25m**\nMax Area = 1250 m²"
+            "content": "**Distance formula:**\n$$D = \\sqrt{(x-0)^2 + (x^2-2)^2}$$\n\n**Minimize D² (easier):**\n$$f(x) = x^2 + (x^2-2)^2 = x^2 + x^4 - 4x^2 + 4$$\n$$f(x) = x^4 - 3x^2 + 4$$\n\n**Find critical points:**\n$$f'(x) = 4x^3 - 6x = 2x(2x^2 - 3) = 0$$\n$$x = 0 \\text{ or } x = ±\\sqrt{3/2}$$\n\n**Check:** f(0) = 4, f(±√1.5) = 1.5 - 4.5 + 4 = 1\n\n**Closest point:** (±√1.5, 1.5) or approximately **(±1.22, 1.5)**"
         },
-        "explanation": "**Optimization** uses calculus to find max/min. Set derivative = 0, solve for variable."
+        "explanation": "Optimization often involves minimizing distance or cost. Use calculus to find and verify critical points."
     },
     {
-        "title": "Physics Models 🚗",
-        "ques": "A ball is thrown up with v₀ = 20 m/s.\nh(t) = -5t² + 20t\n1. When does it reach max height?\n2. What is max height?\n3. When does it land?",
+        "title": "Newton's Cooling Law ❄️",
+        "ques": "Coffee at 90°C cools in a room at 20°C. After 5 min it's 70°C. Find temperature after 10 min.",
         "answer": {
             "type": "text",
-            "content": "**1. Max height time:**\ndh/dt = -10t + 20 = 0\nt = **2 seconds**\n\n**2. Max height:**\nh(2) = -5(4) + 20(2) = -20 + 40 = **20 m**\n\n**3. Landing time:**\n-5t² + 20t = 0\n-5t(t - 4) = 0\nt = 0 or t = **4 seconds**"
+            "content": "**Newton's Law of Cooling:**\n$$T(t) = T_a + (T_0 - T_a)e^{-kt}$$\n\n**Given:**\n- T₀ = 90, Tₐ = 20\n- T(5) = 70\n\n**Find k:**\n$$70 = 20 + 70e^{-5k}$$\n$$50 = 70e^{-5k}$$\n$$e^{-5k} = 5/7$$\n$$k = -\\frac{\\ln(5/7)}{5} ≈ 0.0673$$\n\n**T(10):**\n$$T(10) = 20 + 70e^{-0.673} = 20 + 70(0.51) ≈ \\mathbf{55.7°C}$$"
         },
-        "explanation": "**Projectile motion** is parabolic. Time to max = v₀/g. Total flight = 2 × time to max."
+        "explanation": "Cooling follows exponential decay toward ambient temperature. Same model works for heating."
     },
     {
-        "title": "Data Fitting 📉",
-        "ques": "Given data: (1,2), (2,5), (3,10)\n1. Is this linear or exponential?\n2. What type of regression to use?",
+        "title": "Predator-Prey Model 🐺🐰",
+        "ques": "Explain the **Lotka-Volterra equations** and what they model qualitatively.",
         "answer": {
             "type": "text",
-            "content": "**1. Check pattern:**\n- Linear: constant difference? 5-2=3, 10-5=5 → No\n- Exponential: constant ratio? 5/2=2.5, 10/5=2 → Close but not exact\n\n**2. Best fit:** Power or polynomial regression\nActual: y ≈ x² + 1 (quadratic)\n\nCheck: 1+1=2 ✓, 4+1=5 ✓, 9+1=10 ✓"
+            "content": "**Lotka-Volterra Equations:**\n$$\\frac{dR}{dt} = αR - βRF$$\n$$\\frac{dF}{dt} = δRF - γF$$\n\nWhere R = prey, F = predators\n\n**Meaning of terms:**\n- αR: prey growth (without predators)\n- βRF: prey killed by predators\n- δRF: predator growth from eating prey\n- γF: predator death (without prey)\n\n**Behavior:**\nOscillating populations: prey increases → predators increase → prey decreases → predators decrease → cycle repeats"
         },
-        "explanation": "**Data fitting** identifies the model type. Check for constant differences (linear), ratios (exponential), or try polynomial."
+        "explanation": "Classic example of coupled differential equations. Predator and prey populations oscillate out of phase."
+    },
+    {
+        "title": "Radioactive Decay ☢️",
+        "ques": "Carbon-14 has half-life of 5730 years. A sample has 25% of original C-14. How old is it?",
+        "answer": {
+            "type": "text",
+            "content": "**Decay model:**\n$$N(t) = N_0 × (1/2)^{t/T_{1/2}}$$\n\n**Given:** N/N₀ = 0.25 = 1/4\n\n**Solve:**\n$$\\frac{1}{4} = (\\frac{1}{2})^{t/5730}$$\n$$(\\frac{1}{2})^2 = (\\frac{1}{2})^{t/5730}$$\n$$2 = \\frac{t}{5730}$$\n$$t = 2 × 5730 = \\mathbf{11,460\\ years}$$"
+        },
+        "explanation": "After n half-lives, (1/2)ⁿ of the original remains. 25% = 2 half-lives."
+    },
+    {
+        "title": "Projectile Motion Physics 🎯",
+        "ques": "A ball is thrown at 20 m/s at 45°. Find the **maximum height** and **range**. (g = 10 m/s²)",
+        "answer": {
+            "type": "text",
+            "content": "**Components:**\n- v₀ₓ = 20 cos(45°) = 10√2 m/s\n- v₀ᵧ = 20 sin(45°) = 10√2 m/s\n\n**Maximum height:**\n$$H = \\frac{v_{0y}^2}{2g} = \\frac{(10\\sqrt{2})^2}{2(10)} = \\frac{200}{20} = \\mathbf{10\\ m}$$\n\n**Range:**\n$$R = \\frac{v_0^2 \\sin(2θ)}{g} = \\frac{400 × 1}{10} = \\mathbf{40\\ m}$$"
+        },
+        "explanation": "45° gives maximum range. Mathematical modeling bridges physics and calculus."
+    },
+    {
+        "title": "SIR Epidemic Model 🦠",
+        "ques": "Describe the **SIR model** compartments and their meaning.",
+        "answer": {
+            "type": "text",
+            "content": "**SIR Model Compartments:**\n- **S (Susceptible):** Can catch disease\n- **I (Infectious):** Currently infected, can spread\n- **R (Recovered/Removed):** Recovered or died, immune\n\n**Differential Equations:**\n$$\\frac{dS}{dt} = -βSI$$\n$$\\frac{dI}{dt} = βSI - γI$$\n$$\\frac{dR}{dt} = γI$$\n\n**Parameters:**\n- β = transmission rate\n- γ = recovery rate\n- R₀ = β/γ (basic reproduction number)"
+        },
+        "explanation": "If R₀ > 1, epidemic spreads. COVID models used extensions of SIR. Total S+I+R = N (constant)."
+    },
+    {
+        "title": "Dimensional Analysis 📐",
+        "ques": "A pendulum period depends on length L and gravity g. Use **dimensional analysis** to find the formula.",
+        "answer": {
+            "type": "text",
+            "content": "**Dimensions:**\n- T = [Time]\n- L = [Length]\n- g = [Length/Time²]\n\n**Assume:** T ∝ L^a × g^b\n\n**Dimensional equation:**\n[Time] = [Length]^a × [Length/Time²]^b\nT = L^(a+b) × T^(-2b)\n\n**Match exponents:**\n- Time: 1 = -2b → b = -1/2\n- Length: 0 = a + b → a = 1/2\n\n**Result:** $T ∝ \\sqrt{L/g}$\n\n**Actual formula:** T = 2π√(L/g)"
+        },
+        "explanation": "Dimensional analysis finds functional form but not constants (like 2π). Powerful technique for checking equations."
     }
 ]

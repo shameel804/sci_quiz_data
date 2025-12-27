@@ -1,56 +1,92 @@
 [
     {
-        "title": "Fossil Types 🦕",
-        "ques": "1. Types of fossils\n2. What is fossil vs trace fossil?\n3. How do fossils form?",
+        "title": "Geologic Time Scale ⏳",
+        "ques": "List the **major divisions** of geologic time from largest to smallest.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Body fossils (bones, shells)\n- Trace fossils (footprints, burrows)\n- Casts and molds\n- Frozen (mammoths)\n- Amber (insects)\n\n**2. Difference:**\n- Fossil: Preserved remains of organism\n- Trace: Evidence of activity (not body)\n\n**3. Formation:** Burial → minerals replace organic matter → rock forms around it"
+            "content": "**Hierarchy:**\n1. **Eon** (largest)\n2. **Era**\n3. **Period**\n4. **Epoch**\n5. **Age** (smallest)\n\n**The Four Eons:**\n| Eon | Time (MYA) | Key Events |\n|-----|------------|------------|\n| **Hadean** | 4600-4000 | Formation, heavy bombardment |\n| **Archean** | 4000-2500 | First life (bacteria) |\n| **Proterozoic** | 2500-541 | O₂ rise, eukaryotes |\n| **Phanerozoic** | 541-present | Visible life explosion |"
         },
-        "explanation": "**Fossilization** is rare - requires rapid burial. Most organisms decay without trace."
-    },
-    {
-        "title": "Dating Methods 📅",
-        "ques": "1. Relative vs absolute dating\n2. How does carbon-14 dating work?\n3. Why can't C-14 date dinosaurs?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Difference:**\n- Relative: Order of events (older/younger)\n- Absolute: Actual age in years\n\n**2. Carbon-14:** Living things absorb C-14. Death stops absorption. C-14 decays (half-life 5730 years). Less C-14 = older.\n\n**3. Dinosaurs:** C-14 half-life too short for >50,000 years. Use uranium or potassium dating for millions of years."
-        },
-        "explanation": "**Radiometric dating** uses decay rates. Different isotopes for different time scales."
+        "explanation": "Phanerozoic (\"visible life\") divided into Paleozoic, Mesozoic, Cenozoic eras."
     },
     {
         "title": "Mass Extinctions 💀",
-        "ques": "1. What is mass extinction?\n2. Famous mass extinctions\n3. What caused dinosaur extinction?",
+        "ques": "Describe the **5 major mass extinctions** and their causes.",
         "answer": {
             "type": "text",
-            "content": "**1. Definition:** >75% of species disappear in short geological time\n\n**2. \"Big Five\":**\n- End Ordovician (445 mya)\n- Late Devonian (375 mya)\n- End Permian (252 mya) - worst, 96% gone\n- End Triassic (200 mya)\n- End Cretaceous (66 mya) - dinosaurs\n\n**3. Dinosaur extinction:** Asteroid impact (Chicxulub, Mexico) + volcanic eruptions"
+            "content": "**The Big Five:**\n\n| Extinction | When (MYA) | % Lost | Cause |\n|------------|------------|--------|-------|\n| **Ordovician** | 445 | 86% | Glaciation, sea level |\n| **Devonian** | 375 | 75% | Anoxia, climate |\n| **Permian** | 252 | 96% | Volcanism (Siberian Traps) |\n| **Triassic** | 201 | 80% | Volcanism (CAMP) |\n| **Cretaceous** | 66 | 76% | Asteroid impact |\n\n**Permian:** \"The Great Dying\" - most severe\n**Cretaceous:** End of dinosaurs"
         },
-        "explanation": "**We may be in the 6th mass extinction** caused by human activity. Species loss rate 100-1000× normal."
+        "explanation": "We may be in the 6th mass extinction—current extinction rate 100-1000× background."
     },
     {
-        "title": "Dinosaur Classification 🦖",
-        "ques": "1. Two main dinosaur groups\n2. Difference between them\n3. Are birds dinosaurs?",
+        "title": "Dinosaur Era 🦕",
+        "ques": "Describe the **Mesozoic Era** and the major dinosaur groups.",
         "answer": {
             "type": "text",
-            "content": "**1. Groups:**\n- Saurischia (lizard-hipped): T-rex, sauropods\n- Ornithischia (bird-hipped): Triceratops, Stegosaurus\n\n**2. Hip structure:** Different pubis bone orientation\n\n**3. Yes!** Birds are living dinosaurs (theropod descendants). \"Non-avian dinosaurs\" went extinct."
+            "content": "**Mesozoic Era (252-66 MYA):**\n\"Age of Reptiles\"\n\n| Period | Duration | Features |\n|--------|----------|----------|\n| **Triassic** | 252-201 | First dinosaurs, mammals |\n| **Jurassic** | 201-145 | Giant sauropods, Archaeopteryx |\n| **Cretaceous** | 145-66 | T. rex, flowering plants |\n\n**Dinosaur Groups:**\n- **Saurischia:** \"Lizard-hipped\" (theropods, sauropods)\n- **Ornithischia:** \"Bird-hipped\" (hadrosaurs, ceratopsians)\n\n*Birds are surviving theropod dinosaurs!*"
         },
-        "explanation": "**Cladistics** shows birds ARE dinosaurs. Feathers evolved before flight for insulation."
+        "explanation": "Pangaea broke apart during Mesozoic. Warm climate, high CO₂, no polar ice caps."
     },
     {
-        "title": "Paleoclimate 🌡️",
-        "ques": "1. How do we know ancient climates?\n2. What are ice cores?\n3. Evidence of past ice ages",
+        "title": "Fossil Types 🦴",
+        "ques": "Describe different **types of fossils** and preservation methods.",
         "answer": {
             "type": "text",
-            "content": "**1. Climate proxies:**\n- Ice cores (trapped air bubbles)\n- Tree rings\n- Coral growth\n- Fossils (palm trees in Arctic = warm)\n\n**2. Ice cores:** Cylinders drilled from ice sheets; contain trapped ancient atmosphere\n\n**3. Ice age evidence:**\n- Glacial landforms\n- Sea level changes\n- Oxygen isotope ratios"
+            "content": "**Fossil Types:**\n\n| Type | Description | Example |\n|------|-------------|--------|\n| **Body fossils** | Actual remains | Bones, shells |\n| **Trace fossils** | Evidence of activity | Footprints, burrows |\n| **Molds** | Cavity left by organism | Shell impression |\n| **Casts** | Mold filled with minerals | 3D replica |\n| **Petrification** | Organic replaced by minerals | Petrified wood |\n| **Amber** | Preserved in tree resin | Insects |\n| **Frozen** | Ice preservation | Mammoths |\n| **Tar** | Preserved in asphalt | La Brea tar pits |"
         },
-        "explanation": "**Ice cores** from Antarctica go back 800,000 years. Show CO₂-temperature correlation."
+        "explanation": "Soft parts rarely preserved—we have mostly bones and shells. Lagerstätten are sites of exceptional preservation."
     },
     {
-        "title": "Geologic Time Scale ⏳",
-        "ques": "1. Eons, Eras, Periods order\n2. What era are we in?\n3. What is the Cambrian Explosion?",
+        "title": "Cambrian Explosion 🐚",
+        "ques": "What was the **Cambrian Explosion** and why is it significant?",
         "answer": {
             "type": "text",
-            "content": "**1. Hierarchy:** Eon > Era > Period > Epoch\n\n**2. Current:** Cenozoic Era, Quaternary Period, Holocene Epoch (or Anthropocene?)\n\n**3. Cambrian Explosion:** ~540 mya - rapid appearance of most major animal groups; first hard shells, eyes"
+            "content": "**Cambrian Explosion (~541-520 MYA):**\nRapid diversification of complex animal life\n\n**What Happened:**\n- All major animal phyla appeared\n- First hard shells and skeletons\n- Complex ecosystems developed\n- Rapid increase in biodiversity\n\n**Possible Causes:**\n- Rising oxygen levels\n- End of Snowball Earth\n- Evolution of eyes (arms race)\n- Genetic innovations (HOX genes)\n- Ecological opportunities\n\n**Famous fossils:** Burgess Shale (Canada)"
         },
-        "explanation": "**Geologic time** divided by major events (extinctions, appearances). Earth is 4.5 billion years old."
+        "explanation": "The \"explosion\" occurred over 20+ million years—rapid by geological standards. Before this, life was mainly microbial."
+    },
+    {
+        "title": "Human Evolution Timeline 🧬",
+        "ques": "When did **humans** evolve and what were the major milestones?",
+        "answer": {
+            "type": "text",
+            "content": "**Human Evolution Timeline:**\n\n| Event | Time | Significance |\n|-------|------|-------------|\n| Chimp-human split | 6-7 MYA | Last common ancestor |\n| Bipedalism | 4+ MYA | Australopithecus |\n| Stone tools | 3.3 MYA | Earliest known tools |\n| *Homo erectus* | 1.9 MYA | Left Africa, used fire |\n| *Homo sapiens* | 300 KYA | Anatomically modern |\n| Behavioral modernity | 50 KYA | Art, complex language |\n| Agriculture | 10 KYA | Neolithic revolution |"
+        },
+        "explanation": "Human evolution wasn't linear—multiple species coexisted. All living humans descend from African population ~200 KYA."
+    },
+    {
+        "title": "Ice Ages 🧊",
+        "ques": "What caused the **Pleistocene Ice Ages** and their cycles?",
+        "answer": {
+            "type": "text",
+            "content": "**Pleistocene Epoch (2.6 MYA - 11.7 KYA):**\nRepeated glacial-interglacial cycles (~100,000 year period)\n\n**Milankovitch Cycles:**\n| Cycle | Period | Effect |\n|-------|--------|--------|\n| **Eccentricity** | 100,000 yrs | Orbit shape change |\n| **Obliquity** | 41,000 yrs | Axial tilt change |\n| **Precession** | 23,000 yrs | Axis wobble |\n\n**Effects:**\n- Sea level dropped 120+ m during glacials\n- Land bridges exposed (Beringia)\n- Species migrated, adapted, went extinct"
+        },
+        "explanation": "We're currently in a warm interglacial. Without human influence, next glacial would begin in ~50,000 years."
+    },
+    {
+        "title": "Continental Drift Evidence 🗺️",
+        "ques": "What **evidence** supports that continents have moved (continental drift)?",
+        "answer": {
+            "type": "text",
+            "content": "**Evidence for Continental Drift:**\n\n| Type | Example |\n|------|--------|\n| **Fit of continents** | South America and Africa coastlines |\n| **Fossil distribution** | Mesosaurus in S. America and Africa |\n| **Rock matches** | Mountain chains align across oceans |\n| **Paleoclimate** | Glacial deposits in tropical areas |\n| **Paleomagnetism** | Magnetic pole positions from rocks |\n\n**Pangaea:** Supercontinent ~335-175 MYA\n\n*Alfred Wegener proposed drift in 1912; mechanism (plate tectonics) not accepted until 1960s*"
+        },
+        "explanation": "Wegener lacked mechanism explanation. Seafloor spreading discovery in 1960s led to plate tectonics theory."
+    },
+    {
+        "title": "Paleoclimatology 🌡️",
+        "ques": "How do scientists reconstruct **past climates** (paleoclimatology)?",
+        "answer": {
+            "type": "text",
+            "content": "**Paleoclimate Proxies:**\n\n| Proxy | Provides | Time Range |\n|-------|----------|------------|\n| **Ice cores** | Temperature, CO₂, CH₄ | 800 KYA |\n| **Tree rings** | Temperature, precipitation | 10 KYA |\n| **Ocean sediments** | Temperature, ice volume | 100 MYA |\n| **Corals** | Sea temperature, chemistry | 500 years |\n| **Pollen** | Vegetation, climate | Variable |\n| **Oxygen isotopes** | Temperature | Variable |\n\n**δ¹⁸O:** Ratio of oxygen isotopes indicates temperature"
+        },
+        "explanation": "Ice cores from Antarctica (Vostok) provide 800,000 years of climate data—shows current CO₂ unprecedented."
+    },
+    {
+        "title": "Precambrian Life 🦠",
+        "ques": "What life existed before the **Cambrian Explosion** (Precambrian)?",
+        "answer": {
+            "type": "text",
+            "content": "**Precambrian Life (4.6 BYA - 541 MYA):**\n\n| Time | Life Form |\n|------|----------|\n| 3.5 BYA | Stromatolites (cyanobacteria) |\n| 2.7 BYA | Photosynthesis → O₂ production |\n| 2.4 BYA | Great Oxidation Event |\n| 2.1 BYA | First eukaryotes |\n| 1.2 BYA | Sexual reproduction |\n| 800 MYA | First multicellular organisms |\n| 575 MYA | Ediacaran fauna |\n\n**Ediacaran organisms:** Soft-bodied, strange forms (Dickinsonia)"
+        },
+        "explanation": "Life was microbial for 3+ billion years. The oxygenation event was caused by cyanobacteria and led to first mass extinction."
     }
 ]

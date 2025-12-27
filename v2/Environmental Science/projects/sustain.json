@@ -1,29 +1,92 @@
 [
     {
-        "title": "Sustainable Development 🌍",
-        "ques": "1. What is sustainable development?\n2. UN SDGs\n3. Triple bottom line",
+        "title": "Sustainability Principles 🌱",
+        "ques": "Define **sustainability** and explain the three pillars concept.",
         "answer": {
             "type": "text",
-            "content": "**1. Definition:** Development that meets present needs without compromising future generations' ability to meet their needs (Brundtland, 1987)\n\n**2. UN SDGs (17 goals):**\n- No poverty, Zero hunger\n- Good health, Education\n- Clean water, Affordable energy\n- Climate action, Life on land/water\n\n**3. Triple bottom line:**\n- People (social)\n- Planet (environmental)\n- Profit (economic)\nBalance all three"
+            "content": "**Sustainability Definition:**\nMeeting present needs without compromising future generations' ability to meet theirs (Brundtland, 1987)\n\n**Three Pillars:**\n| Pillar | Focus |\n|--------|-------|\n| **Environmental** | Ecosystems, resources, pollution |\n| **Social** | Health, equity, education |\n| **Economic** | Jobs, growth, prosperity |\n\n**Intersection:** True sustainability requires balance of all three\n\n**Weak vs Strong Sustainability:**\n- Weak: Natural capital can be substituted\n- Strong: Some natural capital irreplaceable"
         },
-        "explanation": "**SDGs** set 2030 targets. Progress is measurable but uneven across goals and countries."
+        "explanation": "SDGs (UN Sustainable Development Goals) integrate all three pillars into 17 goals and 169 targets."
     },
     {
-        "title": "Life Cycle Assessment ♻️",
-        "ques": "1. What is LCA?\n2. Stages of LCA\n3. Applications",
+        "title": "Circular Economy ♻️",
+        "ques": "Compare the **linear economy** with the **circular economy** model.",
         "answer": {
             "type": "text",
-            "content": "**1. LCA:** Systematic analysis of environmental impacts throughout product's life\n\n**2. Stages:**\n1. Goal and scope definition\n2. Inventory analysis (inputs/outputs)\n3. Impact assessment\n4. Interpretation\n\n**3. Applications:**\n- Product design\n- Comparing alternatives\n- Policy decisions\n- Marketing claims\n- Hotspot identification"
+            "content": "**Linear Economy:**\nTake → Make → Dispose\n- Extracts virgin resources\n- Products discarded after use\n- Generates waste\n\n**Circular Economy:**\nReduce → Reuse → Recycle → Regenerate\n\n**Strategies:**\n| Strategy | Example |\n|----------|--------|\n| Refuse | Avoid unnecessary products |\n| Reduce | Lighter packaging |\n| Reuse | Refillable containers |\n| Repair | Right to repair laws |\n| Recycle | Material recovery |\n| Recover | Energy from waste |"
         },
-        "explanation": "**LCA** reveals hidden impacts. Paper bags aren't always better than plastic when all factors considered!"
+        "explanation": "Ellen MacArthur Foundation promotes circular economy. Design for disassembly enables circularity."
     },
     {
-        "title": "Corporate Sustainability 🏢",
-        "ques": "1. What is ESG?\n2. Sustainability reporting\n3. Greenwashing",
+        "title": "Life Cycle Assessment 📊",
+        "ques": "What is **Life Cycle Assessment (LCA)** and why is it important?",
         "answer": {
             "type": "text",
-            "content": "**1. ESG:** Environmental, Social, Governance factors for investment\n- E: Climate, waste, pollution\n- S: Labor, community, diversity\n- G: Board, ethics, transparency\n\n**2. Reporting:**\n- GRI (Global Reporting Initiative)\n- CDP (Carbon Disclosure Project)\n- TCFD (Climate-related financial)\n- Increasingly mandatory\n\n**3. Greenwashing:** Misleading claims about environmental benefits\n- Vague claims (\"eco-friendly\")\n- Hidden trade-offs\n- No proof"
+            "content": "**LCA:**\nEvaluates environmental impacts of a product from \"cradle to grave\"\n\n**Stages:**\n1. Raw material extraction\n2. Manufacturing\n3. Distribution\n4. Use phase\n5. End of life (disposal/recycling)\n\n**Impact Categories:**\n- Climate change (CO₂eq)\n- Water use\n- Resource depletion\n- Toxicity\n- Eutrophication\n\n**ISO Standards:** 14040, 14044"
         },
-        "explanation": "**ESG investing** now >$30 trillion assets. Pressure on companies to perform sustainably."
+        "explanation": "LCA prevents shifting impacts—e.g., electric cars may have higher manufacturing but lower use phase emissions."
+    },
+    {
+        "title": "Sustainable Agriculture 🌾",
+        "ques": "Compare **conventional** and **sustainable** farming practices.",
+        "answer": {
+            "type": "text",
+            "content": "| Aspect | Conventional | Sustainable |\n|--------|--------------|-------------|\n| Inputs | Synthetic fertilizers, pesticides | Organic, integrated pest management |\n| Diversity | Monocultures | Polycultures, crop rotation |\n| Soil | Depletion, erosion | Conservation, composting |\n| Water | Irrigation, runoff | Efficiency, rain harvesting |\n| Energy | Fossil fuels | Renewables, reduced tillage |\n\n**Approaches:**\n- Organic farming\n- Regenerative agriculture\n- Agroforestry\n- Permaculture"
+        },
+        "explanation": "Agriculture is 10-12% of global emissions. Regenerative practices can sequester carbon in soil."
+    },
+    {
+        "title": "Sustainable Development Goals 🎯",
+        "ques": "List and explain several **UN Sustainable Development Goals (SDGs)**.",
+        "answer": {
+            "type": "text",
+            "content": "**17 SDGs (Agenda 2030):**\n\n| Goal | Focus |\n|------|-------|\n| 1 | No poverty |\n| 2 | Zero hunger |\n| 6 | Clean water and sanitation |\n| 7 | Affordable clean energy |\n| 11 | Sustainable cities |\n| 12 | Responsible consumption |\n| 13 | Climate action |\n| 14 | Life below water |\n| 15 | Life on land |\n\n**Interlinkages:** Goals are interconnected—progress on one affects others"
+        },
+        "explanation": "169 specific targets with measurable indicators. Progress tracked annually. Many goals off track."
+    },
+    {
+        "title": "Green Building 🏢",
+        "ques": "What makes a building **sustainable** or \"green\"?",
+        "answer": {
+            "type": "text",
+            "content": "**Green Building Features:**\n\n| Category | Strategies |\n|----------|------------|\n| **Energy** | Solar, insulation, LED, smart controls |\n| **Water** | Low-flow fixtures, rainwater, greywater |\n| **Materials** | Recycled, local, low-VOC |\n| **Indoor quality** | Ventilation, natural light |\n| **Site** | Minimal disturbance, transit access |\n\n**Certifications:**\n- LEED (Leadership in Energy and Environmental Design)\n- BREEAM\n- Passive House"
+        },
+        "explanation": "Buildings are ~40% of energy use and emissions. Net-zero buildings produce as much energy as they use."
+    },
+    {
+        "title": "Water Sustainability 💧",
+        "ques": "What are strategies for **sustainable water management**?",
+        "answer": {
+            "type": "text",
+            "content": "**Challenges:**\n- 2 billion people lack safe drinking water\n- Aquifers depleting faster than recharge\n- Climate change disrupting patterns\n\n**Strategies:**\n| Approach | Example |\n|----------|--------|\n| Efficiency | Drip irrigation, low-flow fixtures |\n| Reuse | Treated wastewater for irrigation |\n| Rainwater harvesting | Collection systems |\n| Watershed protection | Forest conservation |\n| Desalination | Where appropriate |\n| Pricing | Reflect true cost |"
+        },
+        "explanation": "Agriculture uses 70% of freshwater withdrawals. \"Virtual water\" concept tracks water embedded in products."
+    },
+    {
+        "title": "Sustainable Cities 🏙️",
+        "ques": "What features define a **sustainable city**?",
+        "answer": {
+            "type": "text",
+            "content": "**Sustainable City Features:**\n\n| Domain | Elements |\n|--------|----------|\n| Transport | Public transit, cycling, walkability |\n| Energy | Renewables, district heating/cooling |\n| Housing | Efficient, affordable, mixed-use |\n| Green space | Parks, urban forests, gardens |\n| Waste | Recycling, composting, waste-to-energy |\n| Water | Efficiency, stormwater management |\n| Food | Urban farming, local markets |\n\n**Examples:** Copenhagen, Singapore, Curitiba"
+        },
+        "explanation": "70% of global emissions come from cities. Urban design determines emissions for decades."
+    },
+    {
+        "title": "Corporate Sustainability 🏭",
+        "ques": "What is **ESG** and how do companies report sustainability?",
+        "answer": {
+            "type": "text",
+            "content": "**ESG:**\nEnvironmental, Social, and Governance criteria\n\n**Environmental:**\n- Emissions, energy, waste, water\n\n**Social:**\n- Labor practices, diversity, community\n\n**Governance:**\n- Board diversity, ethics, transparency\n\n**Reporting Frameworks:**\n- GRI (Global Reporting Initiative)\n- TCFD (climate risks)\n- B Corp certification\n- Science-Based Targets (SBTi)"
+        },
+        "explanation": "Investors increasingly use ESG criteria. Greenwashing is a concern—need verification and standards."
+    },
+    {
+        "title": "Sustainable Finance 💵",
+        "ques": "How does **sustainable finance** support environmental goals?",
+        "answer": {
+            "type": "text",
+            "content": "**Sustainable Finance Instruments:**\n\n| Instrument | Purpose |\n|------------|--------|\n| Green bonds | Fund environmental projects |\n| Social bonds | Fund social projects |\n| Sustainability-linked loans | Interest tied to ESG targets |\n| Carbon markets | Price emissions |\n| Divestment | Remove capital from fossil fuels |\n\n**Global Investment:**\n- $30+ trillion in sustainable assets\n- EU taxonomy defines \"sustainable\" activities\n- Climate risk becoming financial risk"
+        },
+        "explanation": "Financial system can drive transition. \"Stranded assets\" refers to fossil fuel reserves that may never be extracted."
     }
 ]

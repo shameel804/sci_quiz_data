@@ -2,70 +2,138 @@
     "id": "learn_stellar",
     "topicId": "stellar",
     "topicTitle": "Stellar Astronomy",
-    "description": "Explore star formation, classification, stellar evolution, and binary systems",
-    "baseKP": 75,
+    "description": "How stars are born, live, and die in spectacular fashion.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "stellar_1",
             "type": "content",
-            "title": "Welcome to Stellar Astronomy",
-            "content": "# Introduction to Stellar Astronomy ⭐\n\n## What you'll learn:\n- Star formation\n- H-R diagram classification\n- Stellar evolution\n- Stellar remnants\n- Binary star systems\n\n## What is a Star?\n\nA massive ball of hot gas undergoing nuclear fusion.\n\n## Our Sun\n\n| Property | Value |\n|----------|-------|\n| Type | G-type main sequence |\n| Age | 4.6 billion years |\n| Surface temp | 5,500°C |\n| Core temp | 15 million°C |"
+            "title": "What is a Star?",
+            "content": "# Cosmic Fusion Reactors ☀️\n\nA luminous spheroid of plasma held together by its own gravity.\n- Powered by **Nuclear Fusion** in the core.\n- The Sun is an average star."
         },
         {
             "id": "stellar_2",
             "type": "content",
             "title": "Star Formation",
-            "content": "# Star Formation 🌟\n\n## Birth from Nebulae\n\n1. Giant molecular cloud\n2. Gravity pulls gas together\n3. Protostar forms\n4. Core heats to 10 million K\n5. Nuclear fusion begins\n\n## Failed Stars\n\n| Object | Mass | Fusion? |\n|--------|------|--------|\n| Planet | <13 Mj | No |\n| Brown dwarf | 13-80 Mj | Deuterium only |\n| Red dwarf | >80 Mj | Hydrogen |"
+            "content": "# A Star is Born 👶\n\nBorn in **Nebulae** (clouds of dust and Hydrogen).\n1. Gravity pulls dust together.\n2. Protostar heats up.\n3. Temperature reaches 10 million K.\n4. Fusion ignites! ($H + H \\to He + Energy$)."
         },
         {
             "id": "stellar_3",
             "type": "content",
-            "title": "H-R Diagram",
-            "content": "# Hertzsprung-Russell Diagram 📊\n\n## Spectral Classes\n\nOBAFGKM - Hot to Cool\n\n| Class | Temp | Color | Example |\n|-------|------|-------|--------|\n| O | >30,000 K | Blue | Rigel |\n| G | 5,200-6,000 K | Yellow | Sun |\n| M | <3,700 K | Red | Betelgeuse |\n\n## Luminosity Classes\n\n| Class | Type |\n|-------|------|\n| I | Supergiant |\n| III | Giant |\n| V | Main sequence |\n\nSun = G2V"
-        },
-        {
-            "id": "stellar_quiz_1",
-            "type": "quiz",
-            "title": "Star Classification Quiz",
-            "content": "Test your knowledge!",
-            "quizQuestion": "What spectral class is our Sun?",
-            "quizOptions": [
-                "O",
-                "A",
-                "G",
-                "M"
-            ],
-            "correctOptionIndex": 2
+            "title": "Hydrostatic Equilibrium",
+            "content": "# The Balancing Act ⚖️\n\nA star is a battleground:\n- **Gravity** trying to crush it inward.\n- **Fusion Pressure** pushing outward.\n\nWhile they balance, the star is stable (Main Sequence)."
         },
         {
             "id": "stellar_4",
             "type": "content",
-            "title": "Low Mass Evolution",
-            "content": "# Low Mass Star Evolution 🌟\n\nStars like our Sun (<8 solar masses)\n\n## Stages\n\n1. Main sequence (H fusion)\n2. Red giant (He fusion)\n3. Planetary nebula\n4. White dwarf\n\n## White Dwarf\n\n| Property | Value |\n|----------|-------|\n| Mass | Up to 1.4 solar masses |\n| Size | Earth-sized |\n| Density | 1 ton/cm³ |"
+            "title": "The H-R Diagram",
+            "content": "# The Map of Stars 🗺️\n\nHertzsprung-Russell Diagram plots stars by:\n- **Temperature** (X-axis, Hot Left $\\to$ Cool Right).\n- **Luminosity** (Y-axis, Bright Top $\\to$ Dim Bottom).\n\n90% of stars are on the **Main Sequence** diagonal."
+        },
+        {
+            "id": "stellar_quiz_1",
+            "type": "quiz",
+            "title": "Stability Quiz",
+            "content": "Check the balance.",
+            "quizQuestion": "What force balances gravity to keep a star stable?",
+            "quizOptions": [
+                "Magnetic fields",
+                "Centrifugal force",
+                "Fusion pressure",
+                "Dark Energy"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "stellar_5",
             "type": "content",
-            "title": "High Mass Evolution",
-            "content": "# High Mass Star Evolution 💥\n\nStars >8 solar masses\n\n## Onion Layers\nH → He → C → O → Si → Fe\n\n## Iron Problem\n- Fusing iron absorbs energy\n- Core collapses\n- SUPERNOVA!\n\n## Remnants\n\n| Original Mass | Remnant |\n|---------------|--------|\n| 8-25 M☉ | Neutron star |\n| >25 M☉ | Black hole |"
+            "title": "Spectral Classification",
+            "content": "# OBAFGKM 🌈\n\nStars classified by temperature (color).\n- **O**: Blue, Hottest.\n- **B**: Blue-White.\n- **A**: White.\n- **F**: Yellow-White.\n- **G**: Yellow (Sun).\n- **K**: Orange.\n- **M**: Red, Coolest. (Most common)."
         },
         {
             "id": "stellar_6",
             "type": "content",
-            "title": "Stellar Remnants",
-            "content": "# Stellar Remnants 💀\n\n## Neutron Stars\n- 20 km diameter\n- 1 teaspoon = billion tons\n- Pulsars: rotating neutron stars\n\n## Black Holes\n- Nothing escapes, not even light\n- Event horizon: point of no return\n- Schwarzschild radius: rs = 2GM/c²"
+            "title": "Low Mass Star Death",
+            "content": "# Gentle End 🕯️\n\n(Like our Sun)\n1. Runs out of Hydrogen.\n2. Swells into a **Red Giant** (fusing Helium).\n3. Puffs off outer layers (**Planetary Nebula**).\n4. Core remains as a **White Dwarf**."
         },
         {
             "id": "stellar_7",
             "type": "content",
-            "title": "Binary Stars",
-            "content": "# Binary Star Systems ⭐⭐\n\n## Types\n\n| Type | Detection |\n|------|----------|\n| Visual | See both |\n| Spectroscopic | Doppler shifts |\n| Eclipsing | Brightness dips |\n\n## Importance\n- Measure stellar masses\n- Type Ia supernovae (standard candles)\n- About 50% of stars are binary"
+            "title": "High Mass Star Death",
+            "content": "# Violent End 💥\n\n1. Fuses heavy elements up to **Iron**.\n2. Iron absorbs energy, fusion stops.\n3. Core collapses in milliseconds.\n4. **Supernova** explosion!"
         },
         {
             "id": "stellar_8",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n## Key Concepts\n- Stars form from molecular clouds\n- H-R diagram: OBAFGKM classes\n- Low mass → White dwarf\n- High mass → Neutron star or Black hole\n- Binary stars help measure masses"
+            "title": "Neutron Stars",
+            "content": "# Dense 🧶\n\nRemnant of a supernova (if $1.4 < Mass < 3$ Suns).\n- Protons + Electrons crushed into Neutrons.\n- Size of a city, mass of a sun.\n- **Pulsars**: Rapidly spinning neutron stars."
+        },
+        {
+            "id": "stellar_9",
+            "type": "content",
+            "title": "Black Holes",
+            "content": "# The Abyss 🕳️\n\nRemnant of a massive supernova (if $Mass > 3$ Suns).\n- Gravity is so strong not even light can escape.\n- **Event Horizon**: The point of no return.\n- **Singularity**: Infinite density at center."
+        },
+        {
+            "id": "stellar_10",
+            "type": "content",
+            "title": "Nucleosynthesis",
+            "content": "# Star Stuff ✨\n\nBig Bang made H and He.\n**Stars** made everything else.\n- Fusion makes C, N, O.\n- Supernovae make Gold, Silver, Uranium.\n\nEvery atom in your body was cooked in a star."
+        },
+        {
+            "id": "stellar_quiz_2",
+            "type": "quiz",
+            "title": "Death Quiz",
+            "content": "Fate check.",
+            "quizQuestion": "What will our Sun eventually become?",
+            "quizOptions": [
+                "Black Hole",
+                "Neutron Star",
+                "White Dwarf",
+                "Supernova"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "stellar_11",
+            "type": "content",
+            "title": "Binary Stars",
+            "content": "# Two Suns 👯\n\nMost stars are in binary/multiple systems.\n- **Visual**: Seen through telescope.\n- **Eclipsing**: One passes in front of other (Luminosity dip).\n- **Spectroscopic**: Doppler shift reveals motion."
+        },
+        {
+            "id": "stellar_12",
+            "type": "content",
+            "title": "Variable Stars",
+            "content": "# Winking Stars 💡\n\nStars that change brightness.\n- **Cepheid Variables**: Pulsate like a beating heart. Period is related to luminosity. Used as \"Standard Candles\" to measure distance."
+        },
+        {
+            "id": "stellar_13",
+            "type": "content",
+            "title": "Stellar Clusters",
+            "content": "# Star Cities 🏙️\n\n- **Open Clusters**: Young, loose group (Pleiades).\n- **Globular Clusters**: Old, dense ball of millions of stars. Orbit galaxy center."
+        },
+        {
+            "id": "stellar_14",
+            "type": "content",
+            "title": "Brown Dwarfs",
+            "content": "# Failed Stars 📉\n\nToo big to be a planet, too small to fuse Hydrogen.\n- Glow dimly in Infrared.\n- The \"missing link\" between Gas Giants and Stars."
+        },
+        {
+            "id": "stellar_15",
+            "type": "content",
+            "title": "Stellar Evolution",
+            "content": "# Timescales ⏱️\n\n- Massive stars live fast and die young (Millions of years).\n- Small Red Dwarfs live nearly forever (Trillions of years).\n- Mass determines density."
+        },
+        {
+            "id": "stellar_16",
+            "type": "content",
+            "title": "Nova vs Supernova",
+            "content": "# Boom vs KA-BOOM 🧨\n\n- **Nova**: White dwarf steals gas from neighbor -> Surface explosion. Star survives.\n- **Supernova**: Total destruction of the star."
+        },
+        {
+            "id": "stellar_17",
+            "type": "content",
+            "title": "Stellar Summary",
+            "content": "# Recap 📝\n\n- Mass is destiny.\n- **H-R Diagram** tracks life stages.\n- Through fusion and explosion, stars enrich the universe with elements for life."
         }
     ]
 }

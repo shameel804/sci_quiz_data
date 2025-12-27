@@ -1,59 +1,139 @@
 {
     "id": "learn_eco",
     "topicId": "eco",
-    "topicTitle": "Ecology",
-    "description": "Explore ecosystems, food webs, biogeochemical cycles, and population dynamics",
-    "baseKP": 75,
+    "topicTitle": "Ecosystems",
+    "description": "Interactions between living things and their environment.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "eco_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Ecology 🌿\n\n## What you'll learn:\n- Ecosystems\n- Food webs\n- Biogeochemical cycles\n- Population dynamics"
+            "title": "What is an Ecosystem?",
+            "content": "# Life Support 🌍\n\nA community of living organisms (Biotic) interacting with non-living components (Abiotic).\n- **Biotic**: Animals, Plants, Bacteria.\n- **Abiotic**: Water, Sunlight, Soil, Temperature."
         },
         {
             "id": "eco_2",
             "type": "content",
-            "title": "Ecosystems",
-            "content": "# Ecosystems 🏞️\n\n## Components\n| Type | Examples |\n|------|----------|\n| Biotic | Plants, animals |\n| Abiotic | Water, sun, soil |\n\n## Types\n- Terrestrial (forest, desert)\n- Aquatic (freshwater, marine)"
+            "title": "Trophic Levels",
+            "content": "# Food Chain 🍔\n\n1. **Producers** (Autotrophs): Plants making energy from Sun.\n2. **Primary Consumers** (Herbivores): Eat plants.\n3. **Secondary Consumers** (Carnivores): Eat meat.\n4. **Decomposers**: Break down waste (Fungi)."
         },
         {
             "id": "eco_3",
             "type": "content",
-            "title": "Food Webs",
-            "content": "# Food Webs 🕸️\n\n## Trophic Levels\n| Level | Organisms |\n|-------|----------|\n| Producers | Plants |\n| Primary consumers | Herbivores |\n| Secondary | Carnivores |\n| Tertiary | Top predators |\n\n## 10% Rule\nOnly 10% energy transfers to next level"
-        },
-        {
-            "id": "eco_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "How much energy transfers between trophic levels?",
-            "quizOptions": [
-                "100%",
-                "50%",
-                "10%",
-                "1%"
-            ],
-            "correctOptionIndex": 2
+            "title": "Energy Flow",
+            "content": "# 10% Rule 📉\n\nEnergy is lost as heat at each step.\n- Only ~10% of energy is transferred to the next level.\n- This is why there are fewer Tigers (Top predators) than Zebras."
         },
         {
             "id": "eco_4",
             "type": "content",
-            "title": "Cycles",
-            "content": "# Biogeochemical Cycles ♻️\n\n| Cycle | Key Process |\n|-------|------------|\n| Carbon | Photosynthesis/respiration |\n| Nitrogen | Fixation by bacteria |\n| Water | Evaporation/precip |\n| Phosphorus | Rock weathering |"
+            "title": "Food Webs",
+            "content": "# Tangled Web 🕸️\n\nMultiple interconnected food chains.\n- More realistic than a simple chain.\n- Removing one species can collapse the web (Keystone Species)."
         },
         {
             "id": "eco_5",
             "type": "content",
-            "title": "Populations",
-            "content": "# Population Dynamics 📊\n\n## Growth Types\n| Type | Pattern |\n|------|--------|\n| Exponential | J-curve |\n| Logistic | S-curve |\n\n## Carrying Capacity (K)\nMax population environment can support"
+            "title": "Biomes: Forests",
+            "content": "# Trees 🌲\n\n- **Tropical Rainforest**: High biodiversity, poor soil (Nutrients are in the trees).\n- **Temperate Deciduous**: Seasonal leaf drop.\n- **Taiga (Boreal)**: Conifers, cold winters."
         },
         {
             "id": "eco_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Ecosystems: Biotic + abiotic\n- 10% energy rule\n- Cycles: C, N, H₂O, P\n- Carrying capacity limits growth"
+            "title": "Biomes: Deserts",
+            "content": "# Dry 🌵\n\nLow precipitation.\n- Not always hot! (Antarctica is a desert).\n- Plants adapt to store water (Cactus).\n- Animals nocturnal to avoid heat."
+        },
+        {
+            "id": "eco_quiz_1",
+            "type": "quiz",
+            "title": "Biome Quiz",
+            "content": "Habitat check.",
+            "quizQuestion": "Which biome is characterized by having the highest biodiversity?",
+            "quizOptions": [
+                "Tundra",
+                "Tropical Rainforest",
+                "Desert",
+                "Grassland"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "eco_7",
+            "type": "content",
+            "title": "Biodiversity",
+            "content": "# Variety is Life 🦜\n\n- **Genetic Diversity**: Variation within species.\n- **Species Diversity**: Number of different species.\n- **Ecosystem Diversity**: Variety of habitats.\nHigher biodiversity = More resilient ecosystem."
+        },
+        {
+            "id": "eco_8",
+            "type": "content",
+            "title": "Ecological Succession",
+            "content": "# Recovery 🌱\n\n- **Primary**: Starting from bare rock (Volcano). Lichens first.\n- **Secondary**: Starting from soil (Forest fire). Grasses/Shrubs first.\n- Ends in **Climax Community** (Stable forest)."
+        },
+        {
+            "id": "eco_9",
+            "type": "content",
+            "title": "Carrying Capacity",
+            "content": "# Limits 🛑\n\nMaximum population an environment can sustain.\n- Limited by food, water, space.\n- Overshoot leads to crash."
+        },
+        {
+            "id": "eco_10",
+            "type": "content",
+            "title": "Niche vs Habitat",
+            "content": "# Job vs Home 🏠\n\n- **Habitat**: Where you live (The forest).\n- **Niche**: What you do (Eat insects at night).\n- No two species can occupy the exact same niche (Competition)."
+        },
+        {
+            "id": "eco_11",
+            "type": "content",
+            "title": "Symbiosis",
+            "content": "# Relationships 💑\n\n- **Mutualism**: Both win (Bee & Flower).\n- **Commensalism**: One wins, other unaffected (Bird on Rhino).\n- **Parasitism**: One wins, other hurt (Tick on Dog)."
+        },
+        {
+            "id": "eco_quiz_2",
+            "type": "quiz",
+            "title": "Relation Quiz",
+            "content": "Symbiosis check.",
+            "quizQuestion": "A relationship where one organism benefits and the other is harmed is called:",
+            "quizOptions": [
+                "Mutualism",
+                "Parasitism",
+                "Commensalism",
+                "Altruism"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "eco_12",
+            "type": "content",
+            "title": "Invasive Species",
+            "content": "# Invaders 👽\n\nNon-native species that harm the ecosystem.\n- No natural predators.\n- Outcompete locals.\n- Examples: Cane Toads, Kudzu, Lionfish."
+        },
+        {
+            "id": "eco_13",
+            "type": "content",
+            "title": "Biogeochemical Cycles",
+            "content": "# Recycling Matter ♻️\n\n- Water, Carbon, Nitrogen, Phosphorus cycles.\n- Matter is recycled, Energy flows one way (Sun $\\to$ Heat)."
+        },
+        {
+            "id": "eco_14",
+            "type": "content",
+            "title": "Biomes: Tundra",
+            "content": "# Frozen Plains ❄️\n\n- Permafrost (Permanently frozen soil).\n- Small plants, no trees.\n- Fragile ecosystem."
+        },
+        {
+            "id": "eco_15",
+            "type": "content",
+            "title": "Biomes: Grasslands",
+            "content": "# Savanna & Prairie 🌾\n\n- Ruled by grazing herds (Bison, Wildebeest).\n- Frequent fires prevent trees from taking over."
+        },
+        {
+            "id": "eco_16",
+            "type": "content",
+            "title": "Aquatic Ecosystems",
+            "content": "# Underwater 🐟\n\n- **Freshwater**: Lakes, Rivers (Low salt).\n- **Marine**: Oceans, Coral Reefs (High salt).\n- **Estuaries**: Mixing zone (Brackish). Nurseries for fish."
+        },
+        {
+            "id": "eco_17",
+            "type": "content",
+            "title": "Eco Summary",
+            "content": "# Recap 📝\n\n- **Producers** fuel the system.\n- **Biodiversity** creates strength.\n- **Biomes** are defined by climate.\n- We are part of the ecosystem, not separate from it."
         }
     ]
 }

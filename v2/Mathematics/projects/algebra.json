@@ -1,56 +1,92 @@
 [
     {
-        "title": "Solving Linear Equations 🔢",
-        "ques": "Solve for x:\n1. 3x + 7 = 22\n2. 2(x - 3) = 4x + 8",
+        "title": "Solving Linear Equations ➕",
+        "ques": "Solve for x: **3x + 7 = 2x - 5**",
         "answer": {
             "type": "text",
-            "content": "**1.**\n```\n3x + 7 = 22\n3x = 15\nx = 5\n```\n\n**2.**\n```\n2(x - 3) = 4x + 8\n2x - 6 = 4x + 8\n-14 = 2x\nx = -7\n```"
+            "content": "**Step-by-step solution:**\n\n1. Move x terms to left: 3x - 2x + 7 = -5\n2. Simplify: x + 7 = -5\n3. Subtract 7: x = -5 - 7\n4. **x = -12**\n\n**Check:** 3(-12) + 7 = -36 + 7 = -29\n2(-12) - 5 = -24 - 5 = -29 ✓"
         },
-        "explanation": "**Linear equations** balance equal signs. Whatever you do to one side, do to the other."
+        "explanation": "Always verify your answer by substituting back into the original equation."
     },
     {
-        "title": "Quadratic Equations 📈",
-        "ques": "Solve x² - 5x + 6 = 0 using:\n1. Factoring\n2. Quadratic formula",
+        "title": "Quadratic Formula 📐",
+        "ques": "Solve **x² - 5x + 6 = 0** using the quadratic formula.",
         "answer": {
             "type": "text",
-            "content": "**1. Factoring:**\n```\n(x - 2)(x - 3) = 0\nx = 2 or x = 3\n```\n\n**2. Quadratic formula:**\n```\nx = (-b ± √(b²-4ac))/2a\nx = (5 ± √(25-24))/2\nx = (5 ± 1)/2\nx = 3 or x = 2\n```"
+            "content": "**Quadratic Formula:**\n$$x = \\frac{-b ± \\sqrt{b^2 - 4ac}}{2a}$$\n\n**Given:** a = 1, b = -5, c = 6\n\n**Discriminant:** Δ = (-5)² - 4(1)(6) = 25 - 24 = 1\n\n**Solution:**\n$$x = \\frac{5 ± \\sqrt{1}}{2} = \\frac{5 ± 1}{2}$$\n\n**x₁ = 3, x₂ = 2**\n\n*Also solvable by factoring: (x-3)(x-2) = 0*"
         },
-        "explanation": "**Quadratic formula** always works: x = (-b ± √(b²-4ac))/2a. Discriminant determines number of solutions."
+        "explanation": "Discriminant (b²-4ac) determines: >0 → two real solutions, =0 → one solution, <0 → complex solutions."
     },
     {
-        "title": "Matrix Operations 📊",
-        "ques": "For A = [[1,2],[3,4]] and B = [[5,6],[7,8]]:\n1. Calculate A + B\n2. Calculate A × B",
+        "title": "Matrix Multiplication ⬛",
+        "ques": "Calculate the product: **A × B** where\nA = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]]",
         "answer": {
             "type": "text",
-            "content": "**1. A + B:**\n```\n[[1+5, 2+6], [3+7, 4+8]]\n= [[6, 8], [10, 12]]\n```\n\n**2. A × B:**\n```\n[[1×5+2×7, 1×6+2×8], [3×5+4×7, 3×6+4×8]]\n= [[19, 22], [43, 50]]\n```"
+            "content": "**Matrix Multiplication:**\nRow of A × Column of B\n\n**Calculation:**\n| Position | Calculation | Result |\n|----------|-------------|--------|\n| (1,1) | 1×5 + 2×7 | **19** |\n| (1,2) | 1×6 + 2×8 | **22** |\n| (2,1) | 3×5 + 4×7 | **43** |\n| (2,2) | 3×6 + 4×8 | **50** |\n\n**A × B = [[19, 22], [43, 50]]**"
         },
-        "explanation": "**Matrix multiplication** is row × column. Order matters: A×B ≠ B×A generally."
-    },
-    {
-        "title": "Functions and Graphs 📉",
-        "ques": "For f(x) = 2x² - 4x + 1:\n1. Find vertex\n2. Find y-intercept\n3. Is parabola opening up or down?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Vertex:** x = -b/2a = 4/4 = 1\nf(1) = 2(1) - 4(1) + 1 = -1\nVertex: **(1, -1)**\n\n**2. Y-intercept:** f(0) = 1, so **(0, 1)**\n\n**3. Opens up** (coefficient of x² is positive)"
-        },
-        "explanation": "**Parabola properties:** a > 0 opens up; vertex formula x = -b/2a; y-intercept is c when f(x) = ax² + bx + c."
-    },
-    {
-        "title": "Linear Inequalities 📏",
-        "ques": "Solve and graph:\n1. 2x - 5 < 7\n2. -3x + 6 ≥ 0",
-        "answer": {
-            "type": "text",
-            "content": "**1.**\n```\n2x - 5 < 7\n2x < 12\nx < 6\n```\nGraph: Open circle at 6, shade left\n\n**2.**\n```\n-3x + 6 ≥ 0\n-3x ≥ -6\nx ≤ 2 (flip inequality when dividing by negative!)\n```\nGraph: Closed circle at 2, shade left"
-        },
-        "explanation": "**Key rule:** Flip inequality sign when multiplying/dividing by negative number."
+        "explanation": "Matrix multiplication is NOT commutative: A×B ≠ B×A in general. Dimensions must match: (m×n)(n×p) = (m×p)."
     },
     {
         "title": "Systems of Equations 🔗",
-        "ques": "Solve:\n- 2x + y = 7\n- x - y = 2",
+        "ques": "Solve the system:\n**2x + 3y = 12**\n**4x - y = 5**",
         "answer": {
             "type": "text",
-            "content": "**Method: Addition**\n```\n  2x + y = 7\n+ x - y = 2\n-----------\n  3x = 9\n  x = 3\n\nSubstitute: 3 - y = 2\ny = 1\n```\n**Solution: (3, 1)**"
+            "content": "**Elimination Method:**\n\n1. Multiply equation 2 by 3:\n   2x + 3y = 12\n   12x - 3y = 15\n\n2. Add equations:\n   14x = 27\n   **x = 27/14 ≈ 1.93**\n\n3. Substitute into equation 2:\n   4(27/14) - y = 5\n   108/14 - y = 5\n   y = 108/14 - 70/14 = **38/14 ≈ 2.71**\n\n**Solution:** x = 27/14, y = 19/7"
         },
-        "explanation": "**Systems** can be solved by substitution, elimination (addition), or graphing."
+        "explanation": "Systems can be solved by substitution, elimination, or matrices (Cramer's rule, Gaussian elimination)."
+    },
+    {
+        "title": "Function Analysis 📈",
+        "ques": "For f(x) = x² - 4x + 3, find the **vertex, axis of symmetry, and roots**.",
+        "answer": {
+            "type": "text",
+            "content": "**Vertex form:** f(x) = a(x-h)² + k\n\nComplete the square:\nf(x) = (x² - 4x + 4) + 3 - 4\nf(x) = **(x - 2)² - 1**\n\n**Vertex:** (h, k) = **(2, -1)**\n\n**Axis of symmetry:** x = **2**\n\n**Roots:** (x-3)(x-1) = 0\n**x = 1 and x = 3**"
+        },
+        "explanation": "The vertex is the minimum for a>0 or maximum for a<0. The parabola is symmetric about x = h."
+    },
+    {
+        "title": "Exponents and Logarithms 📊",
+        "ques": "Solve for x: **2^(x+1) = 32**",
+        "answer": {
+            "type": "text",
+            "content": "**Method 1 (Rewrite as same base):**\n2^(x+1) = 2^5 (since 32 = 2⁵)\n\nTherefore: x + 1 = 5\n**x = 4**\n\n**Method 2 (Logarithms):**\nlog₂(2^(x+1)) = log₂(32)\n(x+1) = log₂(32) = 5\n**x = 4**\n\n**Check:** 2^(4+1) = 2^5 = 32 ✓"
+        },
+        "explanation": "For exponential equations, try to express both sides as powers of the same base, or use logarithms."
+    },
+    {
+        "title": "Inequality Solving ≥",
+        "ques": "Solve and graph: **-2x + 5 > 11**",
+        "answer": {
+            "type": "text",
+            "content": "**Solution:**\n\n-2x + 5 > 11\n-2x > 11 - 5\n-2x > 6\n\n**⚠️ Flip inequality when dividing by negative:**\nx < -3\n\n**Interval notation:** (-∞, -3)\n\n**Graph:** ←──────○ at -3\n(Open circle, arrow pointing left)"
+        },
+        "explanation": "Key rule: multiply or divide by a negative number → flip the inequality sign."
+    },
+    {
+        "title": "Polynomial Division 📝",
+        "ques": "Divide **(x³ - 2x² - 5x + 6)** by **(x - 3)** using synthetic division.",
+        "answer": {
+            "type": "text",
+            "content": "**Synthetic Division with root = 3:**\n\n```\n    1   -2   -5    6\n3 |     3    3   -6\n    ─────────────────\n    1    1   -2    0\n```\n\n**Result:** x² + x - 2 with remainder 0\n\n**Therefore:** x³ - 2x² - 5x + 6 = (x - 3)(x² + x - 2)\n= (x - 3)(x + 2)(x - 1)"
+        },
+        "explanation": "Remainder 0 confirms (x-3) is a factor. This technique is faster than polynomial long division."
+    },
+    {
+        "title": "Arithmetic Sequences 🔢",
+        "ques": "Find the **50th term** and **sum of first 50 terms** of the sequence: 3, 7, 11, 15, ...",
+        "answer": {
+            "type": "text",
+            "content": "**Identify pattern:** Common difference d = 4, first term a₁ = 3\n\n**nth term formula:** aₙ = a₁ + (n-1)d\n\n**50th term:**\na₅₀ = 3 + (50-1)(4) = 3 + 196 = **199**\n\n**Sum formula:** Sₙ = n(a₁ + aₙ)/2\n\n**Sum of 50 terms:**\nS₅₀ = 50(3 + 199)/2 = 50(202)/2 = **5050**"
+        },
+        "explanation": "Arithmetic sequence: constant difference. Geometric sequence: constant ratio. Both have closed-form formulas."
+    },
+    {
+        "title": "Determinants and Inverse 🔲",
+        "ques": "Find the **determinant** and **inverse** of matrix A = [[3, 1], [5, 2]]",
+        "answer": {
+            "type": "text",
+            "content": "**Determinant (2×2):**\ndet(A) = ad - bc = (3)(2) - (1)(5) = 6 - 5 = **1**\n\n**Inverse formula:**\n$$A^{-1} = \\frac{1}{det(A)} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$\n\n**Inverse:**\n$$A^{-1} = \\frac{1}{1} \\begin{bmatrix} 2 & -1 \\\\ -5 & 3 \\end{bmatrix} = \\begin{bmatrix} 2 & -1 \\\\ -5 & 3 \\end{bmatrix}$$\n\n**Check:** A × A⁻¹ = I ✓"
+        },
+        "explanation": "Matrix is invertible only if det ≠ 0. If det = 0, the matrix is singular (no unique solution to linear system)."
     }
 ]

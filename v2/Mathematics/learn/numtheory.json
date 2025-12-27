@@ -2,58 +2,138 @@
     "id": "learn_numtheory",
     "topicId": "numtheory",
     "topicTitle": "Number Theory",
-    "description": "Explore prime numbers, divisibility, modular arithmetic, and Fermat's little theorem",
-    "baseKP": 75,
+    "description": "The queen of mathematics: properties of integers.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "numtheory_1",
             "type": "content",
-            "title": "Welcome to Number Theory",
-            "content": "# Introduction to Number Theory 🔢\n\nWelcome to **Number Theory** - the queen of mathematics!\n\n## What you'll learn:\n- **Primes and Divisibility** - Building blocks of integers\n- **Modular Arithmetic** - Clock math\n- **Diophantine Equations** - Integer solutions\n- **Fermat's Little Theorem** - Powerful tool\n\n> 💡 **Fun Fact:** Gauss called number theory \"the queen of mathematics.\"\n\n## Why Study Number Theory?\n\n- 🔐 Cryptography (RSA)\n- 💻 Computer science\n- 🧩 Puzzles and problems\n- 🎨 Pure mathematical beauty\n\n## Types of Numbers\n\n| Type | Examples |\n|------|----------|\n| Natural (ℕ) | 1, 2, 3, ... |\n| Whole (ℤ₀) | 0, 1, 2, ... |\n| Integers (ℤ) | ...-2, -1, 0, 1, 2... |\n| Rational (ℚ) | Fractions |\n| Irrational | π, √2 |\n\n## Notation\n\n| Symbol | Meaning |\n|--------|--------|\n| a|b | a divides b |\n| a∤b | a does not divide b |\n| gcd(a,b) | Greatest common divisor |\n| lcm(a,b) | Least common multiple |\n\nLet's explore integers!"
+            "title": "What is Number Theory?",
+            "content": "# Integers only 🔢\n\nStudy of properties of positive integers ($1, 2, 3...$).\n- **Primes**, factors, divisibility.\n- Formerly \"Pure Math\", now essential for **Cryptography**."
         },
         {
             "id": "numtheory_2",
             "type": "content",
-            "title": "Primes and Divisibility",
-            "content": "# Primes and Divisibility ➗\n\n## Divisibility\n\n```\na|b means b = a×q for some integer q\n\n3|12 because 12 = 3×4\n```\n\n## Prime Numbers\n\nInteger > 1 with only divisors 1 and itself.\n\n```\nPrimes: 2, 3, 5, 7, 11, 13, 17, 19, 23...\n```\n\n> 2 is the ONLY even prime!\n\n## Fundamental Theorem of Arithmetic\n\n```\nEvery integer > 1 has a UNIQUE prime factorization.\n\n60 = 2² × 3 × 5\n```\n\n## Divisibility Rules\n\n| Divisor | Rule |\n|---------|------|\n| 2 | Last digit even |\n| 3 | Sum of digits ÷ 3 |\n| 4 | Last two digits ÷ 4 |\n| 5 | Ends in 0 or 5 |\n| 9 | Sum of digits ÷ 9 |\n| 11 | Alternating sum ÷ 11 |\n\n## GCD and LCM\n\n### GCD (Greatest Common Divisor)\n```\ngcd(12, 18) = 6\n```\n\n### LCM (Least Common Multiple)\n```\nlcm(12, 18) = 36\n```\n\n### Relationship\n```\ngcd(a,b) × lcm(a,b) = a × b\n```\n\n## Euclidean Algorithm\n\n```\ngcd(48, 18):\n48 = 18×2 + 12\n18 = 12×1 + 6\n12 = 6×2 + 0 → gcd = 6\n```\n\n> 🎯 **Key Point:** There are infinitely many primes!"
+            "title": "Prime Numbers",
+            "content": "# The Atoms of Math ⚛️\n\nNumbers with exactly two factors: 1 and itself.\n2, 3, 5, 7, 11, 13, 17...\n- 2 is the *only* even prime.\n- **Fundamental Theorem of Arithmetic**: Every integer is a unique product of primes ($12 = 2 \\times 2 \\times 3$)."
         },
         {
             "id": "numtheory_3",
             "type": "content",
-            "title": "Modular Arithmetic",
-            "content": "# Modular Arithmetic ⏰\n\n\"Clock arithmetic\" - numbers wrap around.\n\n## Congruence\n\n```\na ≡ b (mod n)\n\nmeans: n | (a - b)\n\n17 ≡ 5 (mod 12) because 12|(17-5)\n```\n\n## Clock Example\n\n```\n14:00 ≡ 2:00 (mod 12)\n\n    12\n   /  \\\n  9 ● 3\n   \\  /\n    6\n```\n\n## Modular Operations\n\n### Addition\n```\n(a + b) mod n = [(a mod n) + (b mod n)] mod n\n```\n\n### Multiplication\n```\n(a × b) mod n = [(a mod n) × (b mod n)] mod n\n```\n\n## Properties\n\n| Property | Expression |\n|----------|------------|\n| Reflexive | a ≡ a (mod n) |\n| Symmetric | a ≡ b → b ≡ a |\n| Transitive | a ≡ b, b ≡ c → a ≡ c |\n\n## Modular Inverse\n\n```\na × a⁻¹ ≡ 1 (mod n)\n\nExists iff gcd(a, n) = 1\n```\n\n## Applications\n\n| Application | How |\n|-------------|-----|\n| Days of week | mod 7 |\n| Time | mod 12 or 24 |\n| Hash functions | mod n |\n| Cryptography | Large moduli |\n\n> 💡 **Key Point:** Modular arithmetic is the foundation of modern cryptography!"
-        },
-        {
-            "id": "numtheory_quiz_1",
-            "type": "quiz",
-            "title": "Number Theory Quiz",
-            "content": "Test your number theory skills!",
-            "quizQuestion": "What is 23 mod 5?",
-            "quizOptions": [
-                "2",
-                "3",
-                "4",
-                "5"
-            ],
-            "correctOptionIndex": 1
+            "title": "Divisibility Rules",
+            "content": "# Shortcuts ✂️\n\n- Div by 2: Even (ends 0,2,4,6,8).\n- Div by 3: Sum of digits div by 3 ($123 \\to 1+2+3=6$).\n- Div by 5: Ends in 0 or 5.\n- Div by 9: Sum of digits div by 9."
         },
         {
             "id": "numtheory_4",
             "type": "content",
-            "title": "Fermat's Little Theorem",
-            "content": "# Fermat's Little Theorem 🏆\n\n## The Theorem\n\n```\nIf p is prime and gcd(a, p) = 1:\n\na^(p-1) ≡ 1 (mod p)\n```\n\n### Equivalent Form\n```\na^p ≡ a (mod p) for any integer a\n```\n\n## Example\n\n```\np = 7, a = 3\n\n3^6 = 729 ≡ 1 (mod 7) ✓\n\nCheck: 729 = 7×104 + 1\n```\n\n## Applications\n\n### Finding Large Powers (mod n)\n\n```\n2^100 (mod 13)\n\nBy Fermat: 2^12 ≡ 1 (mod 13)\n100 = 12×8 + 4\n2^100 = (2^12)^8 × 2^4 ≡ 1^8 × 16 ≡ 3 (mod 13)\n```\n\n### Primality Testing\n\nIf a^(n-1) ≢ 1 (mod n), then n is NOT prime.\n\n## Euler's Generalization\n\n```\na^φ(n) ≡ 1 (mod n) if gcd(a,n) = 1\n```\n\n### Euler's Totient Function\n\n```\nφ(n) = numbers from 1 to n that are coprime to n\n\nφ(p) = p - 1 (prime)\nφ(p^k) = p^k - p^(k-1)\n```\n\n## RSA Connection\n\nRSA encryption uses:\n- Large primes p, q\n- Euler's theorem\n- Modular inverses\n\n> 🎯 **Key Point:** This 350-year-old theorem secures modern internet!"
+            "title": "GCD and LCM",
+            "content": "# Common Ground 🤝\n\n- **GCD (Greatest Common Divisor)**: Biggest number that divides both.\n- **LCM (Least Common Multiple)**: Smallest number both divide into.\nUsing Euclid's Algorithm to find GCD efficiently."
+        },
+        {
+            "id": "numtheory_quiz_1",
+            "type": "quiz",
+            "title": "Prime Quiz",
+            "content": "Definition check.",
+            "quizQuestion": "Which of these is a Prime Number?",
+            "quizOptions": [
+                "9",
+                "15",
+                "17",
+                "21"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "numtheory_5",
             "type": "content",
-            "title": "Diophantine Equations",
-            "content": "# Diophantine Equations 📝\n\nEquations with INTEGER solutions only.\n\n## Linear Diophantine Equation\n\n```\nax + by = c\n\nHas solution iff: gcd(a,b) | c\n```\n\n### Example\n```\n3x + 5y = 1\n\ngcd(3,5) = 1, which divides 1 ✓\n\nSolution: x = 2, y = -1\n```\n\n### General Solution\n\n```\nIf (x₀, y₀) is one solution:\n\nx = x₀ + (b/d)t\ny = y₀ - (a/d)t\n\nwhere d = gcd(a,b), t ∈ ℤ\n```\n\n## Famous Problems\n\n### Fermat's Last Theorem\n\n```\nx^n + y^n = z^n\n\nNo solutions for n > 2\n(Proved by Andrew Wiles, 1995)\n```\n\n### Pythagorean Triples\n\n```\na² + b² = c²\n\nInfinite solutions!\n(3,4,5), (5,12,13), (8,15,17)...\n```\n\n### Generating Triples\n\n```\nFor m > n > 0:\n\na = m² - n²\nb = 2mn\nc = m² + n²\n```\n\n## Pell's Equation\n\n```\nx² - Dy² = 1 (D not a perfect square)\n\nAlways has infinitely many solutions\n```\n\n> 💡 **Key Point:** Finding integer solutions is often very hard!"
+            "title": "Modular Arithmetic",
+            "content": "# Clock Math 🕰️\n\nDealing with remainders.\n$A \\pmod N$\n\n$14 \\equiv 2 \\pmod{12}$ (14 o'clock is 2 o'clock).\nUsed heavily in coding and encryption."
         },
         {
             "id": "numtheory_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Number Theory!\n\n## Primes and Divisibility\n\n- ✅ Fundamental Theorem of Arithmetic\n- ✅ Euclidean Algorithm for GCD\n- ✅ gcd × lcm = product\n\n## Modular Arithmetic\n\n| Concept | Formula |\n|---------|--------|\n| Congruence | a ≡ b (mod n) |\n| Addition | (a+b) mod n |\n| Multiplication | (a×b) mod n |\n\n## Key Theorems\n\n### Fermat's Little Theorem\n```\na^(p-1) ≡ 1 (mod p) if gcd(a,p) = 1\n```\n\n### Euler's Theorem\n```\na^φ(n) ≡ 1 (mod n) if gcd(a,n) = 1\n```\n\n## Diophantine Equations\n\n- ✅ ax + by = c has solution iff gcd(a,b)|c\n- ✅ Pythagorean triples generation\n\n## Applications\n\n| Application | Uses |\n|-------------|------|\n| RSA encryption | Primes, modular arithmetic |\n| Hash functions | Modular arithmetic |\n| Error detection | Divisibility |\n\n> 🚀 **Next Steps:** Explore Trigonometry for angle relationships!\n\nYou now understand the beautiful properties of integers!"
+            "title": "Fermat's Little Theorem",
+            "content": "# Prime Power ⚡\n\nIf $p$ is prime:\n$$a^p \\equiv a \\pmod p$$\n\nEssential for testing primality of huge numbers."
+        },
+        {
+            "id": "numtheory_7",
+            "type": "content",
+            "title": "RSA Encryption",
+            "content": "# Secret Codes 🔐\n\nModern internet security relies on the fact that:\n- Multiplying primes is easy ($p \\times q = N$).\n- Factoring $N$ back into $p$ and $q$ is incredibly hard if numbers are huge."
+        },
+        {
+            "id": "numtheory_8",
+            "type": "content",
+            "title": "Diophantine Equations",
+            "content": "# Integer Solutions 🧩\n\nEquations where only integer solutions are allowed.\n$3x + 4y = 7$\n- No fractions allowable.\n- Fermat's Last Theorem ($x^n + y^n = z^n$ has no solution for $n > 2$)."
+        },
+        {
+            "id": "numtheory_9",
+            "type": "content",
+            "title": "Perfect Numbers",
+            "content": "# Sum of Parts 🌟\n\nNumber equal to sum of its proper divisors.\n- $6$ ($1+2+3$).\n- $28$ ($1+2+4+7+14$).\n- We don't know if any odd perfect numbers exist."
+        },
+        {
+            "id": "numtheory_10",
+            "type": "content",
+            "title": "Euclidean Algorithm",
+            "content": "# Ancient Algo 📜\n\nFinding GCD of A and B.\n1. Divide A by B, get remainder R.\n2. Divide B by R.\n3. Repeat until remainder is 0. Last divisor is GCD.\nStill the fastest way."
+        },
+        {
+            "id": "numtheory_quiz_2",
+            "type": "quiz",
+            "title": "Modulo Quiz",
+            "content": "Remainder check.",
+            "quizQuestion": "What is 10 mod 3?",
+            "quizOptions": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "numtheory_11",
+            "type": "content",
+            "title": "Sieve of Eratosthenes",
+            "content": "# Finding Primes 🕸️\n\nAlgorithm to find all primes up to N.\n1. List 2 to N.\n2. Circle 2, cross out all multiples of 2.\n3. Circle next available (3), cross out multiples.\n4. Repeat."
+        },
+        {
+            "id": "numtheory_12",
+            "type": "content",
+            "title": "Twin Primes",
+            "content": "# Best Friends 👯\n\nPrimes with gap of 2.\n- (3, 5)\n- (11, 13)\n- (41, 43)\nConjecture: There are infinitely many twin primes."
+        },
+        {
+            "id": "numtheory_13",
+            "type": "content",
+            "title": "Goldbach Conjecture",
+            "content": "# Unsolved ❓\n\n\"Every even integer greater than 2 is the sum of two primes.\"\n$10 = 3 + 7$\n$100 = 3 + 97$\nSeems true, but never proven!"
+        },
+        {
+            "id": "numtheory_14",
+            "type": "content",
+            "title": "Fibonacci Sequence",
+            "content": "# Nature's Code 🌻\n\n0, 1, 1, 2, 3, 5, 8, 13...\nEach number is sum of previous two.\n- Connected to **Golden Ratio** ($\\phi$).\n- Appears in sunflowers, pinecones, shells."
+        },
+        {
+            "id": "numtheory_15",
+            "type": "content",
+            "title": "Congruences",
+            "content": "# Matching Relations ⚖️\n\n$a \\equiv b \\pmod m$\nMeans m divides $a - b$.\nAllows arithmetic on remainders: $(A + B) \\pmod m = (A \\pmod m + B \\pmod m) \\pmod m$."
+        },
+        {
+            "id": "numtheory_16",
+            "type": "content",
+            "title": "Infinity of Primes",
+            "content": "# Never Ending 🛤️\n\nEuclid proved there is no largest prime.\n- Assume finite list. Multiply all + 1.\n- New number is not divisible by any on list.\n- Therefore list is incomplete."
+        },
+        {
+            "id": "numtheory_17",
+            "type": "content",
+            "title": "Number Theory Summary",
+            "content": "# Recap 📝\n\n- **Primes** build all numbers.\n- **Modular Arithmetic** is the math of cycles.\n- It underpins **Internet Security**.\n- Full of simple questions with impossibly hard answers."
         }
     ]
 }

@@ -1,59 +1,92 @@
 [
     {
-        "title": "Arrays and Lists 📋",
-        "ques": "1. What is an array?\n2. Array vs List differences\n3. Access and modify elements",
+        "title": "Arrays vs Linked Lists 📋",
+        "ques": "Compare **arrays** and **linked lists** with their time complexities.",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Array: Ordered, indexed collection\n\n# Python uses lists (dynamic arrays)\nfruits = [\"apple\", \"banana\", \"cherry\"]\n\n# 2. Array vs List:\n# Arrays: Fixed size, same type (in most languages)\n# Python lists: Dynamic size, any types\n\n# 3. Access (0-indexed)\nprint(fruits[0])   # apple\nprint(fruits[-1])  # cherry (last)\n\n# Modify\nfruits[1] = \"mango\"\nfruits.append(\"orange\")"
+            "type": "text",
+            "content": "| Operation | Array | Linked List |\n|-----------|-------|-------------|\n| Access by index | **O(1)** | O(n) |\n| Search | O(n) | O(n) |\n| Insert at beginning | O(n) | **O(1)** |\n| Insert at end | O(1)* | O(n)/O(1)** |\n| Delete | O(n) | O(1) if have node |\n\n*If array has space; **If tail pointer kept\n\n**Array:** Contiguous memory, fixed size\n**Linked List:** Nodes with pointers, dynamic size"
         },
-        "explanation": "**Arrays** have O(1) access by index. Lists in Python are dynamic arrays."
+        "explanation": "Arrays have better cache locality. Linked lists are better when many insertions/deletions at arbitrary positions."
     },
     {
         "title": "Stacks and Queues 📚",
-        "ques": "1. Stack operations\n2. Queue operations\n3. Real-world examples",
-        "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Stack: LIFO (Last In First Out)\nstack = []\nstack.append(1)  # push\nstack.append(2)\nstack.pop()      # returns 2\n\n# 2. Queue: FIFO (First In First Out)\nfrom collections import deque\nqueue = deque()\nqueue.append(1)   # enqueue\nqueue.append(2)\nqueue.popleft()   # dequeue, returns 1\n\n# 3. Examples:\n# Stack: Undo feature, browser back\n# Queue: Print queue, task scheduling"
-        },
-        "explanation": "**Stack** = plates. **Queue** = line at store. Both are fundamental data structures."
-    },
-    {
-        "title": "Trees 🌳",
-        "ques": "1. What is a binary tree?\n2. Common traversals\n3. What is BST?",
+        "ques": "Explain **stacks** and **queues** with real-world examples.",
         "answer": {
             "type": "text",
-            "content": "**1. Binary tree:** Each node has at most 2 children (left, right)\n\n**2. Traversals:**\n- Inorder: Left → Root → Right (BST gives sorted)\n- Preorder: Root → Left → Right\n- Postorder: Left → Right → Root\n\n**3. BST (Binary Search Tree):**\n- Left child < parent < right child\n- O(log n) search, insert, delete (balanced)"
+            "content": "**Stack (LIFO):**\n- Last In, First Out\n- Operations: push, pop, peek\n- All O(1)\n\n**Examples:**\n- Browser back button\n- Undo/Redo\n- Function call stack\n- Expression evaluation\n\n**Queue (FIFO):**\n- First In, First Out\n- Operations: enqueue, dequeue\n- All O(1)\n\n**Examples:**\n- Print queue\n- Customer service line\n- BFS traversal"
         },
-        "explanation": "**Trees** represent hierarchical data. File systems, HTML DOM are tree structures."
+        "explanation": "Implement stack with array or linked list. Implement queue with circular array or linked list."
+    },
+    {
+        "title": "Binary Trees 🌳",
+        "ques": "What is a **binary search tree**? Show the three traversal orders.",
+        "answer": {
+            "type": "text",
+            "content": "**Binary Search Tree (BST):**\n- Each node has at most 2 children\n- Left subtree < node < right subtree\n- Operations: O(log n) average, O(n) worst\n\n**Traversals:**\n```\n        4\n       / \\\n      2   6\n     / \\\n    1   3\n```\n\n| Order | Result | Use |\n|-------|--------|-----|\n| **In-order** (L-Root-R) | 1,2,3,4,6 | Sorted order |\n| **Pre-order** (Root-L-R) | 4,2,1,3,6 | Copy tree |\n| **Post-order** (L-R-Root) | 1,3,2,6,4 | Delete tree |"
+        },
+        "explanation": "Balanced BSTs (AVL, Red-Black) ensure O(log n) worst case. Self-balancing on insertion/deletion."
+    },
+    {
+        "title": "Heaps 🏔️",
+        "ques": "Explain **heaps** and their use in priority queues.",
+        "answer": {
+            "type": "text",
+            "content": "**Heap Properties:**\n- Complete binary tree\n- **Max-heap:** Parent ≥ children\n- **Min-heap:** Parent ≤ children\n\n**Operations:**\n| Operation | Time |\n|-----------|------|\n| Insert | O(log n) |\n| Extract max/min | O(log n) |\n| Peek | O(1) |\n| Build heap | O(n) |\n\n**Priority Queue Uses:**\n- Dijkstra's algorithm\n- Event scheduling\n- Huffman coding\n- Heap sort"
+        },
+        "explanation": "Heaps typically stored as arrays. Parent at i, children at 2i+1 and 2i+2."
+    },
+    {
+        "title": "Hash Maps 🗺️",
+        "ques": "How do **hash maps** achieve O(1) average lookup?",
+        "answer": {
+            "type": "text",
+            "content": "**Hash Map Structure:**\nArray of buckets + hash function\n\n**Process:**\n1. key → hash(key) → index\n2. Store (key, value) at index\n3. Retrieval: same hash → same index\n\n**Collision Handling:**\n- **Chaining:** Linked list at each bucket\n- **Open addressing:** Linear/quadratic probing\n\n**Good Hash Function:**\n- Deterministic\n- Uniform distribution\n- Fast to compute"
+        },
+        "explanation": "Load factor = n/buckets. Resize when load factor exceeds threshold (~0.75)."
     },
     {
         "title": "Graphs 🕸️",
-        "ques": "1. What is a graph?\n2. Directed vs undirected\n3. Representation methods",
+        "ques": "Compare **adjacency matrix** vs **adjacency list** representations.",
         "answer": {
             "type": "text",
-            "content": "**1. Graph:** Nodes (vertices) connected by edges\n\n**2. Types:**\n- Directed: Edges have direction (Twitter follows)\n- Undirected: Edges go both ways (Facebook friends)\n\n**3. Representations:**\n- Adjacency matrix: 2D array (O(V²) space)\n- Adjacency list: Array of lists (O(V+E) space)"
+            "content": "**Graph: V vertices, E edges**\n\n| Aspect | Adjacency Matrix | Adjacency List |\n|--------|-----------------|----------------|\n| Space | O(V²) | O(V + E) |\n| Edge lookup | O(1) | O(degree) |\n| Add edge | O(1) | O(1) |\n| Iterate neighbors | O(V) | O(degree) |\n| Best for | Dense graphs | Sparse graphs |\n\n**Most real graphs are sparse → use adjacency list**"
         },
-        "explanation": "**Graphs** model relationships. Social networks, maps, dependencies are graphs."
+        "explanation": "Social networks, web graphs are sparse. Complete graphs (dense) rare in practice."
     },
     {
-        "title": "Hash Tables 🔑",
-        "ques": "1. What is a hash table?\n2. What is a hash function?\n3. Handle collisions",
-        "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Hash table: Key-value store with O(1) average access\nphonebook = {\n    \"Alice\": \"555-1234\",\n    \"Bob\": \"555-5678\"\n}\n\n# 2. Hash function: Converts key to index\n# hash(\"Alice\") → 42 (example)\n\n# 3. Collisions (same hash):\n# - Chaining: Store in list at index\n# - Open addressing: Find next empty slot\n\nprint(phonebook[\"Alice\"])  # O(1) access"
-        },
-        "explanation": "**Hash tables** (Python dicts) are extremely useful. O(1) average case lookup!"
-    },
-    {
-        "title": "Linked Lists 🔗",
-        "ques": "1. What is a linked list?\n2. Array vs linked list\n3. Types of linked lists",
+        "title": "Tries 🔤",
+        "ques": "What is a **trie** and what is it used for?",
         "answer": {
             "type": "text",
-            "content": "**1. Linked list:** Nodes containing data + pointer to next node\n\n**2. Comparison:**\n| Operation | Array | Linked List |\n|-----------|-------|-------------|\n| Access | O(1) | O(n) |\n| Insert/Delete at front | O(n) | O(1) |\n| Memory | Contiguous | Non-contiguous |\n\n**3. Types:**\n- Singly linked (next pointer)\n- Doubly linked (next + prev)\n- Circular (last points to first)"
+            "content": "**Trie (Prefix Tree):**\nTree for storing strings, sharing common prefixes\n\n**Example:** Storing [\"cat\", \"car\", \"card\"]\n```\n     root\n       |\n       c\n       |\n       a\n      / \\\n     t   r\n         |\n         d\n```\n\n**Operations:** O(m) where m = string length\n\n**Uses:**\n- Autocomplete\n- Spell checkers\n- IP routing tables\n- Word games (Scrabble)"
         },
-        "explanation": "**Linked lists** excel at frequent insertions/deletions. Arrays better for random access."
+        "explanation": "Space efficient for many strings with shared prefixes. Compressed tries (radix trees) save more space."
+    },
+    {
+        "title": "Balanced Trees ⚖️",
+        "ques": "Why are **balanced trees** (AVL, Red-Black) important?",
+        "answer": {
+            "type": "text",
+            "content": "**Problem with Unbalanced BST:**\nInserting sorted data: 1,2,3,4,5 creates a linked list!\n→ Operations become O(n)\n\n**Self-Balancing Trees:**\n| Tree | Balance Condition |\n|------|------------------|\n| **AVL** | Height difference ≤ 1 |\n| **Red-Black** | # black nodes equal on all paths |\n| **B-Tree** | Degree constraints |\n\n**Result:** Guaranteed O(log n) operations\n\n**AVL:** Stricter balance, faster lookup\n**Red-Black:** Faster insert/delete"
+        },
+        "explanation": "Red-Black trees used in most language standard libraries. B-Trees used in databases/filesystems."
+    },
+    {
+        "title": "Union-Find 🔗",
+        "ques": "Explain the **Union-Find** (Disjoint Set) data structure.",
+        "answer": {
+            "type": "text",
+            "content": "**Union-Find:**\nTrack elements partitioned into disjoint sets\n\n**Operations:**\n- **Find(x):** Which set contains x?\n- **Union(x, y):** Merge sets containing x and y\n\n**Optimizations:**\n| Technique | Effect |\n|-----------|--------|\n| **Path compression** | Find points directly to root |\n| **Union by rank** | Attach smaller tree to larger |\n\n**With both:** Nearly O(1) amortized\n\n**Uses:**\n- Kruskal's MST algorithm\n- Connected components\n- Cycle detection"
+        },
+        "explanation": "Ackermann inverse function α(n) ≤ 5 for all practical n. Effectively constant time."
+    },
+    {
+        "title": "Segment Trees 📊",
+        "ques": "What is a **segment tree** and when is it used?",
+        "answer": {
+            "type": "text",
+            "content": "**Segment Tree:**\nTree for range queries and updates\n\n**Building:** O(n)\n**Query/Update:** O(log n)\n**Space:** O(n)\n\n**Example Uses:**\n- Range sum queries\n- Range minimum/maximum\n- With lazy propagation: range updates\n\n**Structure:**\n- Leaf nodes: individual elements\n- Internal nodes: aggregate of children\n- Root: aggregate of entire array"
+        },
+        "explanation": "Fenwick tree (BIT) is simpler alternative for cumulative queries. Segment trees more flexible."
     }
 ]

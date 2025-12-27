@@ -1,91 +1,139 @@
 {
     "id": "learn_human",
     "topicId": "human",
-    "topicTitle": "Human Biology",
-    "description": "Explore human organ systems, anatomy, nutrition, diseases, and health",
-    "baseKP": 75,
+    "topicTitle": "Human Physiology",
+    "description": "A tour of the miraculous machine that is your body.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "human_1",
             "type": "content",
-            "title": "Welcome to Human Biology",
-            "content": "# Introduction to Human Biology 🫀\n\nWelcome to **Human Biology** - understanding your own body!\n\n## What you'll learn:\n- **Organ Systems** - Digestive, circulatory, nervous\n- **Anatomy** - Structure of body parts\n- **Physiology** - How body parts function\n- **Nutrition** - Fuel for the body\n- **Health & Disease** - Keeping the body working\n\n> 💡 **Fun Fact:** Your body has about 37 trillion cells, and they work together seamlessly!\n\n## Human Body Organization\n\n```\nCells → Tissues → Organs → Organ Systems → Organism\n```\n\n## Types of Tissues\n\n| Tissue | Function | Examples |\n|--------|----------|----------|\n| Epithelial | Cover/line | Skin, intestine lining |\n| Connective | Support/connect | Bone, blood, fat |\n| Muscle | Movement | Skeletal, cardiac, smooth |\n| Nervous | Communication | Neurons, glia |\n\n## Major Organ Systems\n\n| System | Main Function |\n|--------|---------------|\n| Digestive | Break down food |\n| Circulatory | Transport materials |\n| Respiratory | Gas exchange |\n| Nervous | Control/coordination |\n| Skeletal | Support/protection |\n| Immune | Defense |\n\nLet's explore the magnificent human machine!"
+            "title": "Organization of Body",
+            "content": "# Hierarchy 🪜\n\n1. **Cells** (Neuron)\n2. **Tissues** (Nerve tissue)\n3. **Organs** (Brain)\n4. **Organ Systems** (Nervous System)\n5. **Organism** (You!)\n\nHomeostasis: Keeping internal conditions stable (Temp, pH, Sugar) despite outside changes."
         },
         {
             "id": "human_2",
             "type": "content",
             "title": "Digestive System",
-            "content": "# Digestive System 🍽️\n\nBreaking down food for absorption.\n\n## The Journey of Food\n\n```\nMouth → Esophagus → Stomach → Small intestine\n                                    ↓\n               ← Rectum ← Large intestine\n```\n\n## Organs and Their Roles\n\n| Organ | Function |\n|-------|----------|\n| **Mouth** | Mechanical + chemical digestion (amylase) |\n| **Esophagus** | Moves food via peristalsis |\n| **Stomach** | Churns, adds acid + pepsin |\n| **Small intestine** | Most digestion + absorption |\n| **Large intestine** | Water absorption |\n| **Liver** | Makes bile |\n| **Pancreas** | Makes digestive enzymes |\n| **Gallbladder** | Stores bile |\n\n## Types of Digestion\n\n### Mechanical\n- Chewing (mouth)\n- Churning (stomach)\n- Segmentation (intestines)\n\n### Chemical (Enzymes)\n\n| Enzyme | Substrate | Product |\n|--------|-----------|--------|\n| Amylase | Starch | Sugars |\n| Protease | Proteins | Amino acids |\n| Lipase | Fats | Fatty acids + glycerol |\n\n## Absorption\n\n**Small Intestine:**\n- Surface area increased by villi and microvilli\n- Nutrients → Blood → Cells\n\n## Digestive Problems\n\n| Condition | Description |\n|-----------|-------------|\n| Heartburn | Acid reflux |\n| Ulcers | Stomach lining damage |\n| Celiac | Gluten intolerance |\n| IBS | Irritable bowel syndrome |\n\n> 🎯 **Key Point:** The small intestine is where most absorption happens!"
+            "content": "# Fuel Processing 🍔\n\n- **Mouth**: Mechanical chew + Enzyme (Amylase).\n- **Stomach**: Acid bath (HCL) + Pepsin.\n- **Small Intestine**: Nutrient absorption (Villi).\n- **Large Intestine**: Water absorption.\n- **Liver/Pancreas**: Chemical factories assisting digestion."
         },
         {
             "id": "human_3",
             "type": "content",
             "title": "Circulatory System",
-            "content": "# Circulatory System ❤️\n\nTransporting materials around the body.\n\n## Components\n\n### The Heart\n- 4 chambers (2 atria, 2 ventricles)\n- Two pumps in one\n- Beats ~100,000 times/day\n\n```\n     Right Atrium    Left Atrium\n          ▼               ▼\n    Right Ventricle  Left Ventricle\n          ↓               ↓\n       Lungs (O₂)     Body (O₂ delivery)\n```\n\n### Blood Vessels\n\n| Type | Function | Characteristics |\n|------|----------|----------------|\n| Arteries | Carry blood AWAY | Thick walls, high pressure |\n| Veins | Carry blood TOWARD | Valves, low pressure |\n| Capillaries | Exchange | Thin walls, tiny |\n\n### Blood\n\n| Component | Function |\n|-----------|----------|\n| Red blood cells | Carry O₂ (hemoglobin) |\n| White blood cells | Immune defense |\n| Platelets | Clotting |\n| Plasma | Liquid transport |\n\n## Two Circuits\n\n### Pulmonary (Heart ↔ Lungs)\n- Right ventricle → Lungs → Left atrium\n- Picks up O₂, drops off CO₂\n\n### Systemic (Heart ↔ Body)\n- Left ventricle → Body → Right atrium\n- Delivers O₂, picks up CO₂\n\n## Heart Disease\n\n- Atherosclerosis (blocked arteries)\n- Heart attack\n- High blood pressure\n\n> 💡 **Stat:** Blood travels 100,000 km of blood vessels in your body!"
-        },
-        {
-            "id": "human_quiz_1",
-            "type": "quiz",
-            "title": "Body Systems Quiz",
-            "content": "Test your understanding of body systems!",
-            "quizQuestion": "Which blood vessels carry blood AWAY from the heart?",
-            "quizOptions": [
-                "Veins",
-                "Capillaries",
-                "Arteries",
-                "Venules"
-            ],
-            "correctOptionIndex": 2
+            "content": "# The Transport Network ❤️\n\n- **Heart**: 4-chambered pump.\n- **Arteries**: Carry Oxygenated blood AWAY.\n- **Veins**: Carry Deoxygenated blood TOWARD.\n- **Capillaries**: Tiny exchange points for gases/nutrients."
         },
         {
             "id": "human_4",
             "type": "content",
             "title": "Respiratory System",
-            "content": "# Respiratory System 🫁\n\nGas exchange: O₂ in, CO₂ out.\n\n## Pathway of Air\n\n```\nNose/Mouth → Pharynx → Larynx → Trachea\n                                   ↓\n         Bronchioles ← Bronchi\n                ↓\n            Alveoli (gas exchange)\n```\n\n## Anatomy\n\n| Structure | Function |\n|-----------|----------|\n| Nasal cavity | Warm, moisten, filter |\n| Pharynx | Throat (shared pathway) |\n| Larynx | Voice box |\n| Trachea | Windpipe (C-shaped cartilage) |\n| Bronchi | Airways to each lung |\n| Bronchioles | Small airways |\n| Alveoli | Gas exchange (300 million!) |\n\n## Gas Exchange at Alveoli\n\n```\n    Alveolus (high O₂)      Capillary\n    ┌──────────────┐        (low O₂, high CO₂)\n    │     O₂ →     │→→→→→→→ Blood\n    │    ← CO₂     │←←←←←←←\n    └──────────────┘\n    \n    Diffusion across thin walls\n```\n\n## Breathing Mechanics\n\n### Inhalation\n- Diaphragm contracts (moves down)\n- Rib cage expands\n- Pressure decreases → Air rushes in\n\n### Exhalation\n- Diaphragm relaxes (moves up)\n- Rib cage contracts\n- Pressure increases → Air pushed out\n\n## Respiratory Disorders\n\n| Condition | Description |\n|-----------|-------------|\n| Asthma | Airways constrict |\n| Bronchitis | Inflamed bronchi |\n| Emphysema | Damaged alveoli |\n| Pneumonia | Lung infection |\n\n> 🎯 **Key Point:** Alveoli have huge surface area (~70 m²) for efficient gas exchange!"
+            "content": "# Gas Exchange 🫁\n\nGoal: Get $O_2$ In, $CO_2$ Out.\n- **Alveoli**: Tiny air sacs in lungs where exchange happens.\n- **Diaphragm**: Muscle that pulls air in (negative pressure)."
+        },
+        {
+            "id": "human_quiz_1",
+            "type": "quiz",
+            "title": "Systems Quiz",
+            "content": "Check connections.",
+            "quizQuestion": "Where does oxygen enter the blood stream?",
+            "quizOptions": [
+                "Heart",
+                "Stomach",
+                "Alveoli",
+                "Kidney"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "human_5",
             "type": "content",
-            "title": "Nervous System",
-            "content": "# Nervous System 🧠\n\nControl and communication center.\n\n## Organization\n\n```\nNervous System\n    ├── Central (CNS)\n    │       ├── Brain\n    │       └── Spinal cord\n    └── Peripheral (PNS)\n            ├── Sensory nerves\n            └── Motor nerves\n```\n\n## The Neuron\n\n```\n    Dendrites      Cell body      Axon          Axon terminals\n        \\────────── ● ────────────────────────────────/\n        (Receive)   │            (Transmit)       (Release)\n              Nucleus                         Neurotransmitters\n```\n\n## Nerve Impulse\n\n### Resting Potential\n- Inside negative (-70 mV)\n- Na⁺ outside, K⁺ inside\n\n### Action Potential\n1. Stimulus reaches threshold\n2. Na⁺ rushes in (depolarization)\n3. K⁺ rushes out (repolarization)\n4. Reset\n\n## Synapse\n\n```\nPresynaptic neuron → Neurotransmitter → Postsynaptic neuron\n                     (across gap)\n```\n\n## Brain Regions\n\n| Region | Function |\n|--------|----------|\n| Cerebrum | Thinking, memory, senses |\n| Cerebellum | Balance, coordination |\n| Brain stem | Basic life functions |\n| Hypothalamus | Homeostasis, hormones |\n\n## Reflexes\n\n```\nStimulus → Sensory neuron → Spinal cord → Motor neuron → Response\n                        (No brain needed for reflex!)\n```\n\n> 💡 **Stat:** Your brain has ~86 billion neurons with 150 trillion connections!"
+            "title": "Nervous System 1",
+            "content": "# The Control Center 🧠\n\n**CNS (Central)**: Brain + Spinal Cord.\n**PNS (Peripheral)**: Nerves to body.\n\n- **Neuron**: The messenger cell.\n- **Synapse**: Gap between neurons where chemicals (Neurotransmitters) jump."
         },
         {
             "id": "human_6",
             "type": "content",
-            "title": "Immune System",
-            "content": "# Immune System 🛡️\n\nDefending against pathogens.\n\n## Three Lines of Defense\n\n### 1st Line: Physical Barriers\n- Skin (waterproof, acidic)\n- Mucus (traps pathogens)\n- Cilia (sweep out particles)\n- Stomach acid\n\n### 2nd Line: Nonspecific (Innate)\n- Inflammation\n- Fever\n- Phagocytes (eat pathogens)\n- Natural killer cells\n\n### 3rd Line: Specific (Adaptive)\n- Lymphocytes (B and T cells)\n- Antibodies\n- Memory cells\n\n## Key Cells\n\n| Cell | Function |\n|------|----------|\n| Macrophages | Phagocytosis, present antigens |\n| B cells | Make antibodies |\n| T helper cells | Coordinate immune response |\n| T killer cells | Destroy infected cells |\n| Memory cells | Remember pathogens |\n\n## Antibodies\n\n```\n    ──Y──\n    Antigen-binding sites\n    (Each antibody specific to one antigen)\n```\n\n## Vaccination\n\n```\nWeakened/killed pathogen → Immune response → Memory cells\n\nFuture exposure → Fast response → No disease\n```\n\n## Immune Disorders\n\n| Type | Examples |\n|------|----------|\n| Allergies | Overreaction to harmless substances |\n| Autoimmune | Attack own cells (lupus, MS) |\n| Immunodeficiency | Weak immune system (AIDS) |\n\n> 🎯 **Key Point:** Vaccines train your immune system without causing disease!"
-        },
-        {
-            "id": "human_quiz_2",
-            "type": "quiz",
-            "title": "Immune System Quiz",
-            "content": "Test your understanding of immunity!",
-            "quizQuestion": "Which cells produce antibodies?",
-            "quizOptions": [
-                "T cells",
-                "B cells",
-                "Red blood cells",
-                "Platelets"
-            ],
-            "correctOptionIndex": 1
+            "title": "Nervous System 2",
+            "content": "# Fight or Flight 🐯\n\nAutonomic Nervous System (Automatic):\n- **Sympathetic**: \"Fight or Flight\" (High heart rate, pupils dilate).\n- **Parasympathetic**: \"Rest and Digest\" (Calm down, digestion on)."
         },
         {
             "id": "human_7",
             "type": "content",
-            "title": "Nutrition",
-            "content": "# Nutrition 🥗\n\nWhat your body needs from food.\n\n## Macronutrients (Large amounts needed)\n\n| Nutrient | Function | Sources |\n|----------|----------|--------|\n| Carbohydrates | Energy (4 kcal/g) | Bread, pasta, fruits |\n| Proteins | Building blocks (4 kcal/g) | Meat, beans, eggs |\n| Fats | Energy storage (9 kcal/g) | Oils, nuts, dairy |\n\n## Micronutrients (Small amounts needed)\n\n### Vitamins\n\n| Vitamin | Function | Deficiency |\n|---------|----------|------------|\n| A | Vision | Night blindness |\n| C | Immune, collagen | Scurvy |\n| D | Calcium absorption | Rickets |\n| B12 | Red blood cells | Anemia |\n\n### Minerals\n\n| Mineral | Function | Deficiency |\n|---------|----------|------------|\n| Iron | Hemoglobin | Anemia |\n| Calcium | Bones, muscles | Osteoporosis |\n| Iodine | Thyroid | Goiter |\n| Zinc | Immune function | Poor healing |\n\n## Water\n\n- 60% of body weight\n- Need ~2 L/day\n- Essential for all reactions\n\n## Balanced Diet\n\n```\n        Grains/Starches ────────\n       /                        \\\n      /   Vegetables ───────     \\\n     /   /                   \\    \\\n    ────────────────────────────────\n         Fruits    Protein   Dairy\n```\n\n## Dietary Problems\n\n| Issue | Description |\n|-------|-------------|\n| Obesity | Excess calorie intake |\n| Malnutrition | Nutrient deficiency |\n| Eating disorders | Anorexia, bulimia |\n\n> 💡 **Key Point:** Balance and variety are essential for good nutrition!"
+            "title": "Musculoskeletal System",
+            "content": "# Support and Move 💪\n\n- **Bones**: Structure, blood cell factory (Marrow).\n- **Muscles**: Only pull, never push.\n  - Skeletal (Voluntary)\n  - Smooth (Involuntary - guts)\n  - Cardiac (Heart)\n- **Tendons**: Muscle to Bone.\n- **Ligaments**: Bone to Bone."
         },
         {
             "id": "human_8",
             "type": "content",
-            "title": "Health and Disease",
-            "content": "# Health and Disease 🏥\n\n## Types of Disease\n\n### Infectious (Communicable)\n\nCaused by pathogens, can spread.\n\n| Pathogen | Example Disease |\n|----------|----------------|\n| Bacteria | Tuberculosis, cholera |\n| Virus | Flu, COVID-19, AIDS |\n| Fungi | Athlete's foot |\n| Protist | Malaria |\n| Prion | Mad cow disease |\n\n### Non-Infectious\n\nNot caused by pathogens, cannot spread.\n\n| Type | Examples |\n|------|----------|\n| Genetic | Sickle cell, cystic fibrosis |\n| Nutritional | Scurvy, rickets |\n| Degenerative | Alzheimer's, arthritis |\n| Cancer | Various |\n\n## Disease Transmission\n\n| Route | Examples |\n|-------|----------|\n| Airborne | Flu, TB |\n| Contact | Skin infections |\n| Vector | Malaria (mosquito) |\n| Waterborne | Cholera |\n| Food | Salmonella |\n\n## Prevention\n\n- Vaccination\n- Hand washing\n- Safe food handling\n- Clean water\n- Vector control\n\n## Lifestyle Diseases\n\n| Disease | Risk Factors |\n|---------|-------------|\n| Heart disease | Smoking, diet, inactivity |\n| Type 2 diabetes | Obesity, diet |\n| Lung cancer | Smoking |\n| Liver disease | Alcohol |\n\n## Public Health\n\n- Sanitation\n- Health education\n- Disease surveillance\n- Emergency response\n\n> 🎯 **Key Point:** Many diseases are preventable through lifestyle choices!"
+            "title": "Excretory System",
+            "content": "# Waste Removal 🚽\n\n**Kidneys**: Filter blood.\n- **Nephron**: Filtering unit.\n- Removes Urea, excess salts, water.\n- Produces Urine.\n\nCrucial for water balance and blood pressure."
         },
         {
             "id": "human_9",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Human Biology! Here's what you've mastered:\n\n## Body Organization\n- ✅ Cells → Tissues → Organs → Systems\n- ✅ Four tissue types\n\n## Major Systems\n\n| System | Key Function |\n|--------|-------------|\n| Digestive | Break down and absorb food |\n| Circulatory | Transport O₂, nutrients, waste |\n| Respiratory | Gas exchange |\n| Nervous | Control and coordination |\n| Immune | Defense against pathogens |\n\n## Key Concepts\n\n### Circulatory\n- Pulmonary vs systemic circulation\n- Blood components (RBC, WBC, platelets, plasma)\n\n### Respiratory\n- Alveoli for gas exchange\n- Diaphragm for breathing\n\n### Nervous\n- Neurons transmit impulses\n- CNS vs PNS\n\n### Immune\n- Three lines of defense\n- B cells make antibodies\n\n## Nutrition\n- Macro vs micronutrients\n- Balanced diet importance\n\n## Health\n- Infectious vs non-infectious disease\n- Prevention strategies\n\n> 🚀 **Next Steps:** Explore Plant Biology to understand our photosynthesizing partners!\n\nYou now understand the remarkable human body!"
+            "title": "Endocrine System",
+            "content": "# Chemical Messengers ✉️\n\n**Hormones**: Slow, long-lasting signals in blood.\n- **Pituitary**: Master gland (Growth).\n- **Thyroid**: Metabolism.\n- **Adrenal**: Adrenaline/Cortisol (Stress).\n- **Pancreas**: Insulin (Sugar)."
+        },
+        {
+            "id": "human_10",
+            "type": "content",
+            "title": "Immune System 1",
+            "content": "# Defense Force 🛡️\n\n- **Innate**: Barriers (Skin), Fever, Inflammation. (General).\n- **Adaptive**: Specialized hunters. (Specific)."
+        },
+        {
+            "id": "human_11",
+            "type": "content",
+            "title": "Immune System 2",
+            "content": "# Special Ops 🦠\n\n- **B-Cells**: Make **Antibodies** (Missiles that tag invaders).\n- **T-Cells**: Kill infected cells directly.\n- **Memory Cells**: Remember enemies for next time (Immunity)."
+        },
+        {
+            "id": "human_quiz_2",
+            "type": "quiz",
+            "title": "Defense Quiz",
+            "content": "Immunity check.",
+            "quizQuestion": "Which cells produce antibodies?",
+            "quizOptions": [
+                "Red Blood Cells",
+                "T-Cells",
+                "B-Cells",
+                "Neurons"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "human_12",
+            "type": "content",
+            "title": "Reproductive System",
+            "content": "# Next Generation 👶\n\n- **Gametes**: Sperm (Testes) and Eggs (Ovaries).\n- **Fertilization**: Meet in Fallopian tube forms Zygote.\n- Hormones (Testosterone, Estrogen) drive changes."
+        },
+        {
+            "id": "human_13",
+            "type": "content",
+            "title": "Integumentary System",
+            "content": "# The Wrapper 🧴\n\n**Skin**: Largest organ.\n- Protection against pathogens/UV.\n- Temperature regulation (Sweat).\n- Sensation (Touch)."
+        },
+        {
+            "id": "human_14",
+            "type": "content",
+            "title": "Senses",
+            "content": "# Input Devices 👁️\n\n- **Vision**: Rods (Light) & Cones (Color) in Retina.\n- **Hearing**: Cochlea hairs vibrate.\n- **Smell/Taste**: Chemical receptors.\n- **Touch**: Pressure/Heat/Pain sensors."
+        },
+        {
+            "id": "human_15",
+            "type": "content",
+            "title": "Energy Metabolism",
+            "content": "# Burning Calories 🔥\n\n- **BMR (Basal Metabolic Rate)**: Energy to exist at rest.\n- **ATP**: The energy currency.\n- Excess energy stored as Glycogen (short term) or Fat (long term)."
+        },
+        {
+            "id": "human_16",
+            "type": "content",
+            "title": "Homeostasis Examples",
+            "content": "# Balance Beam 🧘\n\n- **Too Hot**: Sweat, blood vessels widen (Vasodilation).\n- **Too Cold**: Shiver, vessels shrink (Vasoconstriction).\n- **High Sugar**: Insulin stores it.\n- **Low Sugar**: Glucagon releases it."
+        },
+        {
+            "id": "human_17",
+            "type": "content",
+            "title": "Physiology Summary",
+            "content": "# Recap 📝\n\n- 11 Organ Systems work in harmony.\n- **Homeostasis** is the goal.\n- **Communication** happens via Nerves (Fast) and Hormones (Slow).\n- **Defense** keeps invaders out.\n\nYour body is the most complex machine in the known universe!"
         }
     ]
 }

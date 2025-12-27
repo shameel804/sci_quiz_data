@@ -1,56 +1,92 @@
 [
     {
-        "title": "ML Basics 🤖",
-        "ques": "1. What is machine learning?\n2. Supervised vs unsupervised learning\n3. What is a model?",
+        "title": "Machine Learning Types 🤖",
+        "ques": "Compare **supervised, unsupervised, and reinforcement learning**.",
         "answer": {
             "type": "text",
-            "content": "**1. ML:** Computers learn patterns from data without explicit programming\n\n**2. Types:**\n- Supervised: Labeled data (input→output pairs)\n- Unsupervised: No labels, find patterns\n\n**3. Model:** Mathematical representation that makes predictions based on learned patterns"
+            "content": "| Type | Data | Goal | Examples |\n|------|------|------|----------|\n| **Supervised** | Labeled | Predict labels | Classification, Regression |\n| **Unsupervised** | Unlabeled | Find patterns | Clustering, Dimensionality reduction |\n| **Reinforcement** | Rewards/penalties | Maximize reward | Game playing, Robotics |\n\n**Examples:**\n- Supervised: Spam detection, House price prediction\n- Unsupervised: Customer segmentation, Anomaly detection\n- Reinforcement: AlphaGo, Self-driving cars"
         },
-        "explanation": "**ML** finds patterns humans might miss. Powered by data and computing power."
+        "explanation": "Most business applications use supervised learning. Deep learning is a subset using neural networks."
     },
     {
         "title": "Neural Networks 🧠",
-        "ques": "1. What is a neural network?\n2. What is a layer?\n3. What is activation function?",
+        "ques": "Explain the basic structure of a **neural network** and how it learns.",
         "answer": {
             "type": "text",
-            "content": "**1. Neural network:** Computing system inspired by biological neurons; interconnected nodes process data\n\n**2. Layer:** Group of neurons at same depth\n- Input layer (receives data)\n- Hidden layers (process)\n- Output layer (predictions)\n\n**3. Activation function:** Introduces non-linearity (ReLU, sigmoid); decides if neuron \"fires\""
+            "content": "**Structure:**\n- **Input layer:** Receives data\n- **Hidden layers:** Process features\n- **Output layer:** Produces prediction\n\n**Neurons:**\n- Receive inputs with weights\n- Sum weighted inputs + bias\n- Apply activation function\n- Pass output forward\n\n**Learning (Backpropagation):**\n1. Forward pass: Compute prediction\n2. Calculate loss (error)\n3. Backward pass: Compute gradients\n4. Update weights to reduce loss\n\n**Epoch:** One pass through all training data"
         },
-        "explanation": "**Deep learning** uses many hidden layers. More layers = more complex patterns learned."
+        "explanation": "Deep learning = many hidden layers. Common activations: ReLU, sigmoid, softmax."
     },
     {
-        "title": "NLP Introduction 💬",
-        "ques": "1. What is NLP?\n2. Common NLP tasks\n3. What is tokenization?",
+        "title": "Natural Language Processing 📝",
+        "ques": "What are key **NLP** tasks and techniques?",
         "answer": {
             "type": "text",
-            "content": "**1. NLP (Natural Language Processing):** AI understanding and generating human language\n\n**2. Tasks:**\n- Sentiment analysis\n- Translation\n- Chatbots\n- Text summarization\n- Named entity recognition\n\n**3. Tokenization:** Splitting text into pieces (tokens) - words, subwords, or characters"
+            "content": "**NLP Tasks:**\n| Task | Example |\n|------|--------|\n| **Tokenization** | Split text into words |\n| **Named Entity Recognition** | Find names, places |\n| **Sentiment Analysis** | Positive/negative classification |\n| **Machine Translation** | English → French |\n| **Text Generation** | ChatGPT |\n\n**Key Techniques:**\n- Word embeddings (Word2Vec, GloVe)\n- RNNs/LSTMs for sequences\n- Transformers (BERT, GPT)\n- Attention mechanisms"
         },
-        "explanation": "**ChatGPT, Google Translate** are NLP applications. Transformers revolutionized the field."
+        "explanation": "Transformers revolutionized NLP in 2017. Large Language Models (LLMs) like GPT-4 use billions of parameters."
     },
     {
-        "title": "AI Ethics ⚖️",
-        "ques": "1. What is AI bias?\n2. Privacy concerns\n3. Why is explainability important?",
+        "title": "Computer Vision 👁️",
+        "ques": "Describe common **computer vision** tasks and how CNNs work.",
         "answer": {
             "type": "text",
-            "content": "**1. AI bias:** Models learn biases from training data → unfair outcomes (hiring, lending, policing)\n\n**2. Privacy concerns:**\n- Data collection for training\n- Facial recognition\n- Personal data in models\n\n**3. Explainability:** Need to understand WHY AI makes decisions (healthcare, legal, financial)"
+            "content": "**Computer Vision Tasks:**\n- Image classification\n- Object detection\n- Segmentation\n- Face recognition\n- Image generation\n\n**CNN (Convolutional Neural Network):**\n| Layer | Purpose |\n|-------|--------|\n| **Convolutional** | Detect features with filters |\n| **Pooling** | Reduce dimensions |\n| **Fully Connected** | Classification |\n\n**How Convolution Works:**\n- Slide filter over image\n- Compute dot product at each position\n- Creates feature map"
         },
-        "explanation": "**Responsible AI** requires addressing bias, privacy, transparency. Not just technical problem!"
+        "explanation": "Early layers detect edges, later layers detect complex features. Transfer learning uses pre-trained CNNs."
     },
     {
-        "title": "Training Models 📈",
-        "ques": "1. What is training data?\n2. What is overfitting?\n3. Train vs test split",
+        "title": "Search Algorithms 🔎",
+        "ques": "Explain **A* search** algorithm and how it differs from Dijkstra's.",
         "answer": {
             "type": "text",
-            "content": "**1. Training data:** Examples model learns from (input-output pairs for supervised)\n\n**2. Overfitting:** Model memorizes training data, fails on new data (too complex)\n\n**3. Split:**\n- Training set (~80%): Learn patterns\n- Test set (~20%): Evaluate performance on unseen data"
+            "content": "**A* Search:**\nFinds shortest path using:\n$$f(n) = g(n) + h(n)$$\n\n| Component | Meaning |\n|-----------|--------|\n| g(n) | Cost from start to n |\n| h(n) | Heuristic estimate to goal |\n| f(n) | Total estimated cost |\n\n**vs Dijkstra's:**\n- Dijkstra's: h(n) = 0 (no heuristic)\n- A*: Uses heuristic for faster search\n\n**Heuristics:**\n- Manhattan distance (grid)\n- Euclidean distance\n- Must be admissible (never overestimate)"
         },
-        "explanation": "**Good generalization** is the goal. Always validate on data model hasn't seen!"
+        "explanation": "A* is optimal if heuristic is admissible. Used in GPS navigation, game pathfinding."
     },
     {
-        "title": "AI Applications 🌍",
-        "ques": "1. AI in healthcare\n2. AI in transportation\n3. Future of AI",
+        "title": "Generative AI 🎨",
+        "ques": "How do **generative AI models** like GPT and DALL-E work?",
         "answer": {
             "type": "text",
-            "content": "**1. Healthcare:**\n- Disease diagnosis (X-rays, scans)\n- Drug discovery\n- Personalized treatment\n\n**2. Transportation:**\n- Self-driving cars\n- Traffic optimization\n- Route planning\n\n**3. Future:**\n- More capable assistants\n- Scientific discovery\n- Ensuring beneficial outcomes"
+            "content": "**Large Language Models (GPT):**\n- Trained on massive text data\n- Predict next token given context\n- Transformer architecture\n- Fine-tuned with RLHF (Reinforcement Learning from Human Feedback)\n\n**Image Generation (DALL-E, Stable Diffusion):**\n- Diffusion models\n- Start with noise, gradually denoise\n- Conditioned on text prompt\n- Learn to reverse noise process\n\n**Key Concepts:**\n- Attention mechanism\n- Self-supervision\n- Emergent capabilities"
         },
-        "explanation": "**AI** is transforming every industry. Balance benefits with risks and ethical considerations."
+        "explanation": "Generative AI creates new content. Raises questions about copyright, misinformation, and AI safety."
+    },
+    {
+        "title": "Decision Trees 🌳",
+        "ques": "How do **decision trees** and **random forests** work?",
+        "answer": {
+            "type": "text",
+            "content": "**Decision Tree:**\n- Hierarchical \"if-then\" rules\n- Split data on features\n- Use entropy/Gini for best splits\n- Prone to overfitting\n\n**Random Forest:**\n- Ensemble of many decision trees\n- Each tree trained on random subset\n- Features randomly selected\n- Vote/average for prediction\n\n**Advantages of Random Forest:**\n- More accurate than single tree\n- Less overfitting\n- Handles missing data\n- Feature importance"
+        },
+        "explanation": "Ensemble methods combine weak learners into strong ones. Gradient Boosting (XGBoost) is another powerful ensemble."
+    },
+    {
+        "title": "Bias and Fairness ⚖️",
+        "ques": "What causes **bias in AI systems** and how can it be mitigated?",
+        "answer": {
+            "type": "text",
+            "content": "**Sources of Bias:**\n| Source | Example |\n|--------|--------|\n| Training data | Historical discrimination |\n| Feature selection | Proxies for protected attributes |\n| Sampling | Underrepresented groups |\n| Labeling | Subjective judgments |\n\n**Mitigation Strategies:**\n- Diverse training data\n- Bias testing and auditing\n- Fairness constraints in models\n- Human oversight\n- Explainable AI (XAI)\n\n**Fairness Definitions:**\nDemographic parity, equal opportunity, individual fairness"
+        },
+        "explanation": "AI ethics is critical. COMPAS recidivism algorithm showed significant racial bias."
+    },
+    {
+        "title": "Turing Test 🤖",
+        "ques": "What is the **Turing Test** and why is it important in AI?",
+        "answer": {
+            "type": "text",
+            "content": "**Turing Test (1950):**\n- Proposed by Alan Turing\n- Can a machine exhibit intelligent behavior indistinguishable from a human?\n\n**Setup:**\n- Human evaluator converses with machine and human\n- Can they tell which is which?\n- If not, machine passes the test\n\n**Criticisms:**\n- Focuses on deception, not intelligence\n- Chinese Room argument (Searle)\n- Modern LLMs can pass but may not \"understand\"\n\n**Alternatives:** Winograd Schema Challenge, ARC benchmark"
+        },
+        "explanation": "The Turing Test sparked debate about machine intelligence. Understanding vs. simulation remains an open question."
+    },
+    {
+        "title": "AI Safety 🛡️",
+        "ques": "What are the major concerns in **AI safety** research?",
+        "answer": {
+            "type": "text",
+            "content": "**AI Safety Concerns:**\n\n| Issue | Description |\n|-------|------------|\n| **Alignment** | Ensuring AI goals match human values |\n| **Robustness** | Handling edge cases, adversarial attacks |\n| **Interpretability** | Understanding AI decisions |\n| **Control** | Maintaining human oversight |\n| **Misuse** | Deepfakes, autonomous weapons |\n\n**Alignment Problem:**\n- Specification: Defining correct objectives\n- Generalization: Working in new situations\n- Corrigibility: Allowing correction"
+        },
+        "explanation": "AI safety research aims to ensure AI systems remain beneficial. Leading organizations: DeepMind, Anthropic, OpenAI."
     }
 ]

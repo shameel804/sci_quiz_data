@@ -1,65 +1,92 @@
 [
     {
-        "title": "Photoelectric Effect 💡",
-        "ques": "UV light (λ = 200 nm) shines on metal with work function **4.5 eV**.\n\n*h = 6.63 × 10⁻³⁴ J·s, c = 3 × 10⁸ m/s*\n\n1. Calculate photon energy in eV\n2. Will electrons be emitted?\n3. What is the max KE of emitted electrons?",
+        "title": "Photoelectric Effect ⚡",
+        "ques": "Light of wavelength **400 nm** strikes sodium (work function 2.3 eV). Find the maximum KE of emitted electrons.",
         "answer": {
             "type": "text",
-            "content": "**1. Photon Energy:**\n```\nE = hc/λ = (6.63×10⁻³⁴)(3×10⁸)/(200×10⁻⁹)\nE = 9.95×10⁻¹⁹ J ≈ 6.22 eV\n```\n\n**2.** YES! 6.22 eV > 4.5 eV (work function)\n\n**3. Max KE:**\n```\nKE = E - φ = 6.22 - 4.5 = 1.72 eV\n```"
+            "content": "**Einstein's equation:** KE_max = hf - φ = hc/λ - φ\n\n**Photon energy:**\n$$E = \\frac{1240\\ eV·nm}{400\\ nm} = 3.1\\ eV$$\n\n**Maximum KE:** KE = 3.1 - 2.3 = **0.8 eV**"
         },
-        "explanation": "The **photoelectric effect** proved light's particle nature. Electrons are emitted only if photon energy exceeds the work function."
+        "explanation": "The photoelectric effect proves light's particle nature. Energy above work function becomes electron kinetic energy."
     },
     {
-        "title": "Bohr Model ⚛️",
-        "ques": "Calculate the wavelength emitted when hydrogen electron falls from n=4 to n=2.\n\n*R = 1.097 × 10⁷ m⁻¹*",
+        "title": "Bohr Model Calculation 🔴",
+        "ques": "Calculate the energy and radius of hydrogen's **3rd orbit** (n=3).",
         "answer": {
             "type": "text",
-            "content": "**Rydberg Formula:**\n```\n1/λ = R(1/n₁² - 1/n₂²)\n1/λ = 1.097×10⁷(1/4 - 1/16)\n1/λ = 1.097×10⁷ × 3/16\nλ = 486 nm (Blue light - Hβ line)\n```"
+            "content": "**Bohr formulas:**\n- E_n = -13.6/n² eV\n- r_n = 0.529 × n² Å\n\n**For n=3:**\n- Energy: E₃ = -13.6/9 = **-1.51 eV**\n- Radius: r₃ = 0.529 × 9 = **4.76 Å**"
         },
-        "explanation": "The **Balmer series** (transitions to n=2) produces visible light. This 486 nm line appears cyan-blue."
+        "explanation": "Energy is negative (bound state). Higher orbits have more energy (less negative) and larger radius."
     },
     {
-        "title": "Nuclear Decay ☢️",
-        "ques": "A sample of **8×10²⁰ atoms** has half-life of **6 hours**.\n\n1. Atoms remaining after 24 hours?\n2. Calculate decay constant λ",
+        "title": "De Broglie Wavelength 🌀",
+        "ques": "Find the de Broglie wavelength of an electron accelerated through **100 V**.",
         "answer": {
             "type": "text",
-            "content": "**1. After 24 hours (4 half-lives):**\n```\nN = N₀(1/2)⁴ = 8×10²⁰/16 = 5×10¹⁹ atoms\n```\n\n**2. Decay constant:**\n```\nλ = ln(2)/t½ = 0.693/6 = 0.1155 hr⁻¹\n```"
+            "content": "**De Broglie:** λ = h/p = h/√(2mE)\n\n**Electron energy:** E = eV = 100 eV = 1.6 × 10⁻¹⁷ J\n\n**Wavelength:**\n$$λ = \\frac{6.63 × 10^{-34}}{\\sqrt{2 × 9.11 × 10^{-31} × 1.6 × 10^{-17}}}$$\n$$λ = \\mathbf{1.23 × 10^{-10}\\ m = 1.23\\ Å}$$"
         },
-        "explanation": "**Radioactive decay** follows exponential law. Each half-life reduces the sample by half, regardless of amount."
+        "explanation": "Wave-particle duality: electrons exhibit wave properties. This wavelength is comparable to atomic spacing, enabling electron diffraction."
     },
     {
-        "title": "Mass-Energy Equivalence ⚡",
-        "ques": "In fusion: **4¹H → ⁴He**\n- H mass: 1.007825 u\n- He mass: 4.002603 u\n\nCalculate energy released per fusion (1 u = 931.5 MeV).",
+        "title": "Nuclear Binding Energy ⚛️",
+        "ques": "Calculate the binding energy of He-4 (mass = 4.0026 u). Proton: 1.0078 u, Neutron: 1.0087 u.",
         "answer": {
             "type": "text",
-            "content": "**Mass defect:**\n```\nΔm = 4(1.007825) - 4.002603\nΔm = 4.0313 - 4.0026 = 0.0287 u\n```\n\n**Energy:**\n```\nE = Δm × 931.5 = 26.7 MeV\n```"
+            "content": "**Mass defect:** Δm = (2×1.0078 + 2×1.0087) - 4.0026\nΔm = 4.0330 - 4.0026 = **0.0304 u**\n\n**Binding Energy:** E = Δm × 931.5 MeV/u\nE = 0.0304 × 931.5 = **28.3 MeV**\n\n**Per nucleon:** 28.3/4 = **7.08 MeV/nucleon**"
         },
-        "explanation": "**E = mc²** converts the \"missing\" mass to energy. This powers stars and hydrogen bombs."
+        "explanation": "Mass defect converts to binding energy via E=mc². He-4 is very stable due to high binding energy per nucleon."
+    },
+    {
+        "title": "Radioactive Decay ☢️",
+        "ques": "A sample has 1000 radioactive atoms with half-life 5 days. How many remain after 15 days?",
+        "answer": {
+            "type": "text",
+            "content": "**Half-life formula:** N = N₀ × (1/2)^(t/T₁/₂)\n\n**Number of half-lives:** 15/5 = 3\n\n**Remaining atoms:**\nN = 1000 × (1/2)³ = 1000 × 1/8 = **125 atoms**"
+        },
+        "explanation": "After each half-life, exactly half the atoms decay. This is probabilistic—we can't predict which specific atoms will decay."
+    },
+    {
+        "title": "Mass-Energy Equivalence 💫",
+        "ques": "In nuclear fission, 0.1% of mass converts to energy. How much energy from 1 kg of U-235?",
+        "answer": {
+            "type": "text",
+            "content": "**Mass converted:** Δm = 0.001 × 1 kg = 0.001 kg\n\n**Energy (E = mc²):**\nE = 0.001 × (3 × 10⁸)² = 0.001 × 9 × 10¹⁶\nE = **9 × 10¹³ J = 90 TJ**\n\n*Equivalent to ~21 kilotons of TNT!*"
+        },
+        "explanation": "Nuclear reactions release enormous energy because c² is huge. This explains nuclear power's energy density."
     },
     {
         "title": "Time Dilation ⏰",
-        "ques": "A spacecraft at **0.8c** travels for 5 years (ship time). How much time passes on Earth?",
+        "ques": "A spacecraft travels at 0.8c. If 5 years pass on the ship, how much time passes on Earth?",
         "answer": {
             "type": "text",
-            "content": "**Lorentz factor:**\n```\nγ = 1/√(1-0.8²) = 1/0.6 = 1.667\n```\n\n**Earth time:**\n```\nt = γτ = 1.667 × 5 = 8.33 years\n```"
+            "content": "**Lorentz factor:** γ = 1/√(1 - v²/c²)\n\n**Calculation:**\nγ = 1/√(1 - 0.64) = 1/√0.36 = 1/0.6 = **1.667**\n\n**Earth time:** t = γ × t₀ = 1.667 × 5 = **8.33 years**"
         },
-        "explanation": "**Time dilation** means moving clocks run slow. Astronauts age slower than Earth observers!"
+        "explanation": "Moving clocks run slow (from stationary observer's view). This has been verified with atomic clocks on aircraft."
     },
     {
-        "title": "Semiconductor Diode 🔧",
-        "ques": "A diode (0.7V drop) connects to 5V through 1kΩ resistor. Calculate current.",
+        "title": "Semiconductor Basics 💻",
+        "ques": "Explain the difference between n-type and p-type semiconductors and how they form a p-n junction.",
         "answer": {
             "type": "text",
-            "content": "```\nV_resistor = 5V - 0.7V = 4.3V\nI = V/R = 4.3/1000 = 4.3 mA\n```"
+            "content": "**N-type:** Doped with pentavalent atoms (P, As). Extra electrons as majority carriers.\n\n**P-type:** Doped with trivalent atoms (B, Ga). \"Holes\" as majority carriers.\n\n**P-N Junction:**\n- At junction, electrons and holes recombine\n- Creates **depletion region** (no free carriers)\n- Electric field prevents further diffusion\n- Forms **one-way valve** for current (diode)"
         },
-        "explanation": "In forward bias, silicon diodes drop ~0.7V. The rest appears across the resistor."
+        "explanation": "The p-n junction is the basis of all semiconductor devices: diodes, transistors, LEDs, and solar cells."
     },
     {
-        "title": "Nuclear Fission ⚛️",
-        "ques": "U-235 fission releases 173 MeV. How many kg of U-235 powers a 1GW reactor for 1 day?",
+        "title": "Heisenberg Uncertainty 🎲",
+        "ques": "An electron's position is known to within 10 nm. What is the minimum uncertainty in its velocity?",
         "answer": {
             "type": "text",
-            "content": "**Energy needed:** 10⁹ W × 86400 s = 8.64×10¹³ J\n\n**Per fission:** 173 MeV = 2.77×10⁻¹¹ J\n\n**Fissions needed:** 3.12×10²⁴\n\n**Mass:** ~1.2 kg U-235"
+            "content": "**Heisenberg:** Δx × Δp ≥ ħ/2\n\nwhere ħ = h/2π = 1.055 × 10⁻³⁴ J·s\n\n**Minimum momentum uncertainty:**\nΔp = ħ/(2Δx) = 1.055 × 10⁻³⁴ / (2 × 10⁻⁸) = 5.27 × 10⁻²⁷ kg·m/s\n\n**Velocity uncertainty:**\nΔv = Δp/m = 5.27 × 10⁻²⁷ / 9.11 × 10⁻³¹ = **5790 m/s**"
         },
-        "explanation": "Nuclear fission releases ~200 MeV per event - millions of times more than chemical reactions!"
+        "explanation": "Precise position measurement inherently disturbs momentum. This isn't measurement error—it's fundamental quantum nature."
+    },
+    {
+        "title": "Compton Scattering 📡",
+        "ques": "X-rays (λ = 0.1 nm) scatter at 90° from electrons. Find the wavelength shift.",
+        "answer": {
+            "type": "text",
+            "content": "**Compton shift:** Δλ = (h/m_e c)(1 - cos θ)\n\n**Compton wavelength:** h/m_e c = 0.00243 nm\n\n**At 90°:** cos(90°) = 0\n\nΔλ = 0.00243 × (1 - 0) = **0.00243 nm**\n\n**Final wavelength:** λ' = 0.1 + 0.00243 = **0.10243 nm**"
+        },
+        "explanation": "Compton scattering proves photons have momentum. Higher scattering angles give larger wavelength shifts."
     }
 ]

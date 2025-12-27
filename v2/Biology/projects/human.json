@@ -1,56 +1,92 @@
 [
     {
-        "title": "Digestive System 🍽️",
-        "ques": "Match organ with function:\n1. Stomach\n2. Liver\n3. Small intestine",
+        "title": "Digestive System Organs 🍽️",
+        "ques": "Trace the path of food through the **digestive system** and describe what happens at each stage.",
         "answer": {
             "type": "text",
-            "content": "**1. Stomach** → Protein digestion (pepsin + HCl)\n\n**2. Liver** → Produces bile (for fat digestion), detoxification\n\n**3. Small intestine** → Nutrient absorption (villi increase surface area)"
+            "content": "| Organ | Process | Enzymes/Secretions |\n|-------|---------|--------------------|\n| **Mouth** | Mechanical + chemical digestion | Salivary amylase (starch) |\n| **Esophagus** | Peristalsis transport | None |\n| **Stomach** | Protein digestion, chyme formation | Pepsin, HCl |\n| **Small intestine** | Most absorption | Pancreatic enzymes, bile |\n| **Large intestine** | Water absorption | Bacteria (vitamin K) |\n| **Rectum** | Feces storage/elimination | None |"
         },
-        "explanation": "**Digestion** breaks down food mechanically and chemically. Most absorption occurs in the small intestine."
+        "explanation": "The small intestine has villi and microvilli increasing surface area 600×. Most nutrients absorbed here."
     },
     {
-        "title": "Circulatory System ❤️",
-        "ques": "1. Trace blood flow through the heart\n2. Difference between arteries and veins\n3. What is blood pressure?",
+        "title": "Heart Blood Flow ❤️",
+        "ques": "Describe the pathway of blood through the **heart**, including chambers, valves, and major vessels.",
         "answer": {
             "type": "text",
-            "content": "**1. Blood flow:**\nBody → Right atrium → Right ventricle → Lungs → Left atrium → Left ventricle → Body\n\n**2. Comparison:**\n- Arteries: Away from heart, thick walls, high pressure\n- Veins: Toward heart, thin walls, valves\n\n**3. Blood pressure:** Force of blood on vessel walls (systolic/diastolic = 120/80 mmHg normal)"
+            "content": "**Blood Flow Pathway:**\n\n1. **Deoxygenated blood** enters → **Right atrium** (via vena cava)\n2. Through **tricuspid valve** → **Right ventricle**\n3. Through **pulmonary valve** → **Pulmonary artery** → Lungs\n4. **Oxygenated blood** returns → **Left atrium** (via pulmonary veins)\n5. Through **mitral valve** → **Left ventricle**\n6. Through **aortic valve** → **Aorta** → Body\n\n*Mnemonic: Try Pulling My Aorta*"
         },
-        "explanation": "**Double circulation:** Blood goes through heart twice per cycle (pulmonary + systemic)."
+        "explanation": "Left ventricle has thickest wall—pumps blood to entire body. Pulmonary artery is the only artery carrying deoxygenated blood."
     },
     {
-        "title": "Respiratory System 🫁",
-        "ques": "1. Where does gas exchange occur?\n2. What is diffusion?\n3. Why do we breathe faster during exercise?",
+        "title": "Gas Exchange in Lungs 🌬️",
+        "ques": "Explain how **gas exchange** occurs in the alveoli. What structural features aid this process?",
         "answer": {
             "type": "text",
-            "content": "**1. Gas exchange:** Alveoli (thin walls, large surface area)\n\n**2. Diffusion:** O₂ moves from high→low concentration (alveoli→blood), CO₂ moves opposite\n\n**3. Exercise:** Muscles need more O₂ → more CO₂ produced → brain signals faster breathing"
+            "content": "**Gas Exchange Process:**\n- O₂ diffuses: alveoli → blood (high → low concentration)\n- CO₂ diffuses: blood → alveoli (reverse)\n\n**Structural Adaptations:**\n| Feature | Function |\n|---------|----------|\n| Thin walls (1 cell thick) | Short diffusion distance |\n| Large surface area | ~70 m² total (tennis court!) |\n| Moist surface | Gases dissolve for diffusion |\n| Rich capillary network | Maintains concentration gradient |\n| Surfactant | Prevents alveoli from collapsing |"
         },
-        "explanation": "**Alveoli** maximize surface area (~70 m²) for efficient gas exchange."
+        "explanation": "Fick's law: diffusion rate ∝ (surface area × concentration difference) / distance. Alveoli maximize this."
     },
     {
-        "title": "Nervous System 🧠",
-        "ques": "1. Parts of a neuron\n2. How does an action potential work?\n3. What are neurotransmitters?",
+        "title": "Neuron Structure and Function 🧠",
+        "ques": "Label the parts of a **neuron** and explain how an action potential travels.",
         "answer": {
             "type": "text",
-            "content": "**1. Neuron parts:**\n- Dendrites (receive signals)\n- Cell body (contains nucleus)\n- Axon (transmits signals)\n\n**2. Action potential:** Na⁺ rushes in (depolarization) → K⁺ rushes out (repolarization) → signal travels down axon\n\n**3. Neurotransmitters:** Chemicals that cross synapse to transmit signal (dopamine, serotonin)"
+            "content": "**Neuron Parts:**\n- **Dendrites:** Receive signals\n- **Cell body (soma):** Contains nucleus\n- **Axon:** Carries signal away from cell body\n- **Myelin sheath:** Insulation (Schwann cells)\n- **Nodes of Ranvier:** Gaps for saltatory conduction\n- **Axon terminals:** Release neurotransmitters\n\n**Action Potential:**\n1. Stimulus opens Na⁺ channels → depolarization\n2. Na⁺ rushes in (-70mV → +30mV)\n3. K⁺ channels open → repolarization\n4. Signal jumps between nodes (faster)"
         },
-        "explanation": "**Neurons** communicate electrochemically. Signals are electrical within neurons, chemical between neurons."
+        "explanation": "Myelinated neurons conduct at 100 m/s vs 1 m/s unmyelinated. Multiple sclerosis damages myelin → impaired signaling."
     },
     {
-        "title": "Endocrine System 💉",
-        "ques": "Match hormone with gland:\n1. Insulin\n2. Adrenaline\n3. Thyroid hormone",
+        "title": "Hormone Regulation 🎚️",
+        "ques": "Explain **negative feedback** using the thyroid hormone system as an example.",
         "answer": {
             "type": "text",
-            "content": "**1. Insulin** → Pancreas (regulates blood sugar)\n\n**2. Adrenaline** → Adrenal glands (fight or flight response)\n\n**3. Thyroid hormone** → Thyroid gland (metabolism regulation)"
+            "content": "**Thyroid Negative Feedback Loop:**\n\n```\nHypothalamus → TRH → Pituitary → TSH → Thyroid → T3/T4\n                              ↑________________________↓\n                                  (inhibits when high)\n```\n\n**Process:**\n1. Low T3/T4 → Hypothalamus releases TRH\n2. TRH → Pituitary releases TSH\n3. TSH → Thyroid releases T3/T4\n4. High T3/T4 → Inhibits hypothalamus & pituitary\n5. Less TRH/TSH → Less T3/T4 production\n\n**Result:** Stable hormone levels"
         },
-        "explanation": "**Hormones** are chemical messengers. They travel in blood and affect target cells throughout body."
+        "explanation": "Most hormone systems use negative feedback—maintains homeostasis. Positive feedback (e.g., childbirth, blood clotting) amplifies responses."
     },
     {
-        "title": "Immune System 🛡️",
-        "ques": "1. What are antibodies?\n2. How do vaccines work?\n3. Difference between B cells and T cells",
+        "title": "Immune System Response 🛡️",
+        "ques": "Compare **innate** and **adaptive** immunity with examples of each.",
         "answer": {
             "type": "text",
-            "content": "**1. Antibodies:** Y-shaped proteins that bind specific antigens, marking pathogens for destruction\n\n**2. Vaccines:** Introduce weakened/dead pathogen → immune response → memory cells → future immunity\n\n**3. Cells:**\n- B cells: Make antibodies (humoral immunity)\n- T cells: Kill infected cells directly (cell-mediated)"
+            "content": "| Feature | Innate Immunity | Adaptive Immunity |\n|---------|-----------------|-------------------|\n| **Speed** | Immediate (0-12 hrs) | Slower (days) |\n| **Specificity** | Nonspecific | Highly specific |\n| **Memory** | None | Yes (2nd response faster) |\n| **Components** | Skin, phagocytes, inflammation | B cells, T cells, antibodies |\n| **Examples** | Neutrophils, macrophages, fever | Antibodies, memory cells |"
         },
-        "explanation": "**Adaptive immunity** is specific and has memory. That's why you don't get same disease twice."
+        "explanation": "Vaccines train adaptive immunity—create memory cells without disease. Both systems work together for full protection."
+    },
+    {
+        "title": "Kidney Function 💧",
+        "ques": "Describe the **3 processes** in urine formation: filtration, reabsorption, secretion.",
+        "answer": {
+            "type": "text",
+            "content": "**Urine Formation in Nephron:**\n\n| Process | Location | What Happens |\n|---------|----------|---------------|\n| **Filtration** | Glomerulus | Blood pressure forces small molecules into Bowman's capsule |\n| **Reabsorption** | Proximal tubule, Loop of Henle | Useful substances (glucose, amino acids, water) return to blood |\n| **Secretion** | Distal tubule | Additional wastes (H⁺, K⁺, drugs) added to filtrate |\n\n**Daily stats:**\n- Filtered: ~180 L\n- Reabsorbed: ~178.5 L\n- Urine produced: ~1.5 L"
+        },
+        "explanation": "Kidneys regulate blood pressure (renin), blood pH, electrolyte balance, and produce erythropoietin (red blood cell production)."
+    },
+    {
+        "title": "Muscle Contraction 💪",
+        "ques": "Explain the **sliding filament theory** of muscle contraction.",
+        "answer": {
+            "type": "text",
+            "content": "**Sliding Filament Theory:**\n\n**Proteins:**\n- **Actin:** Thin filaments\n- **Myosin:** Thick filaments with heads\n- **Troponin/Tropomyosin:** Regulatory proteins\n\n**Steps:**\n1. Action potential → Ca²⁺ released from sarcoplasmic reticulum\n2. Ca²⁺ binds troponin → tropomyosin moves\n3. Myosin binding sites on actin exposed\n4. Myosin heads attach, pull actin (power stroke)\n5. ATP binds → myosin releases\n6. Cycle repeats (ratcheting)\n\n**Result:** Sarcomere shortens → muscle contracts"
+        },
+        "explanation": "Muscles can't push—only pull. Rigor mortis occurs when ATP runs out and myosin stays attached to actin."
+    },
+    {
+        "title": "Blood Typing 🩸",
+        "ques": "Explain the **ABO blood group system**. Why can't everyone donate to everyone?",
+        "answer": {
+            "type": "text",
+            "content": "**ABO System:**\n| Blood Type | Antigens | Antibodies | Can Donate To | Can Receive From |\n|------------|----------|------------|---------------|------------------|\n| **A** | A | Anti-B | A, AB | A, O |\n| **B** | B | Anti-A | B, AB | B, O |\n| **AB** | A and B | None | AB only | Universal recipient |\n| **O** | None | Anti-A, Anti-B | Universal donor | O only |\n\n**Problem:** Antibodies attack foreign antigens → agglutination (clumping) → blocked vessels"
+        },
+        "explanation": "Rh factor (+/-) also matters. Rh- mother with Rh+ fetus can cause hemolytic disease of newborn."
+    },
+    {
+        "title": "Hormone Types 🧪",
+        "ques": "Compare **peptide** vs **steroid** hormones in their mechanism of action.",
+        "answer": {
+            "type": "text",
+            "content": "| Feature | Peptide Hormones | Steroid Hormones |\n|---------|------------------|------------------|\n| **Structure** | Amino acid chains | Cholesterol-derived lipids |\n| **Solubility** | Water-soluble | Lipid-soluble |\n| **Receptor location** | Cell membrane | Inside cell (cytoplasm/nucleus) |\n| **Mechanism** | Second messengers (cAMP) | Direct gene activation |\n| **Speed** | Fast (seconds-minutes) | Slow (hours-days) |\n| **Examples** | Insulin, ADH | Testosterone, cortisol |"
+        },
+        "explanation": "Steroid hormones can cross the membrane because they're lipid-soluble. They have longer-lasting effects because they change gene expression."
     }
 ]

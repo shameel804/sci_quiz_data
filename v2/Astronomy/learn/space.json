@@ -2,78 +2,138 @@
     "id": "learn_space",
     "topicId": "space",
     "topicTitle": "Space Exploration",
-    "description": "Explore space missions, telescopes, rockets, propulsion systems, and the International Space Station",
-    "baseKP": 75,
+    "description": "Humanity's quest to leave the cradle and explore the void.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "space_1",
             "type": "content",
-            "title": "Welcome to Space Exploration",
-            "content": "# Introduction to Space Exploration 🚀\n\nWelcome to **Space Exploration** - humanity's journey beyond Earth!\n\n## What you'll learn:\n- **Historic Missions** - Apollo, Voyager, and more\n- **Telescopes** - Optical, radio, and space-based\n- **Rockets & Propulsion** - How we reach space\n- **ISS** - Living in space\n\n> 💡 **Fun Fact:** The first human in space, Yuri Gagarin, orbited Earth on April 12, 1961!\n\n## The Space Age Timeline\n\n| Year | Milestone |\n|------|----------|\n| 1957 | Sputnik 1 (first satellite) |\n| 1961 | Yuri Gagarin (first human) |\n| 1969 | Apollo 11 (Moon landing) |\n| 1971 | First space station (Salyut 1) |\n| 1981 | Space Shuttle first flight |\n| 1990 | Hubble Space Telescope |\n| 1998 | ISS construction begins |\n| 2012 | Curiosity lands on Mars |\n| 2021 | James Webb Space Telescope |\n\n## Space Agencies\n\n| Agency | Country |\n|--------|--------|\n| NASA | USA |\n| ESA | Europe |\n| JAXA | Japan |\n| Roscosmos | Russia |\n| CNSA | China |\n| ISRO | India |\n\nLet's explore how we reach the stars!"
+            "title": "History of Spaceflight",
+            "content": "# The Space Race 🚀\n\nCold War competition between USA and USSR.\n- **Sputnik 1** (1957): First satellite (USSR).\n- **Yuri Gagarin** (1961): First human in space (USSR).\n- **Apollo 11** (1969): First humans on Moon (USA)."
         },
         {
             "id": "space_2",
             "type": "content",
-            "title": "Historic Space Missions",
-            "content": "# Historic Space Missions 🌙\n\n## Apollo Program (1961-1972)\n\nThe race to the Moon.\n\n### Key Missions\n\n| Mission | Achievement |\n|---------|-------------|\n| Apollo 8 | First to orbit Moon |\n| Apollo 11 | First Moon landing (1969) |\n| Apollo 13 | \"Successful failure\" |\n| Apollo 17 | Last Moon mission |\n\n**Apollo 11 Crew:**\n- Neil Armstrong (Commander)\n- Buzz Aldrin (Lunar Module Pilot)\n- Michael Collins (Command Module Pilot)\n\n> \"That's one small step for man, one giant leap for mankind.\"\n\n## Voyager Program (1977-present)\n\n```\nVoyager 1 and 2:\n  Jupiter → Saturn → Uranus → Neptune → Interstellar space!\n```\n\n- Voyager 1: Farthest human-made object (~24 billion km)\n- Golden Record: Message for aliens\n- Still sending data!\n\n## Mars Exploration\n\n| Mission | Type | Year | Status |\n|---------|------|------|--------|\n| Viking 1,2 | Lander | 1976 | First soft landing |\n| Spirit/Opportunity | Rover | 2004 | Opportunity: 14 years! |\n| Curiosity | Rover | 2012 | Still active |\n| Perseverance | Rover | 2021 | Seeking biosignatures |\n| Ingenuity | Helicopter | 2021 | First powered flight |\n\n## Other Notable Missions\n\n- Cassini-Huygens (Saturn)\n- New Horizons (Pluto)\n- Juno (Jupiter)\n- MESSENGER (Mercury)\n\n> 🎯 **Key Point:** 12 humans have walked on the Moon, all American!"
+            "title": "Rocket Science",
+            "content": "# Newton's Third Law 🍎\n\n\"For every action, there is an equal and opposite reaction.\"\n- Rocket throws gas One way, Rocket moves Other way.\n- **Thrust**: The force pushing up.\n- **Payload**: The stuff carrying up."
         },
         {
             "id": "space_3",
             "type": "content",
-            "title": "Telescopes",
-            "content": "# Telescopes 🔭\n\n## Types of Telescopes\n\n### Optical Telescopes\n\n| Type | Design | Pros |\n|------|--------|------|\n| Refractor | Lenses | Sharp images |\n| Reflector | Mirrors | Cheaper, larger |\n| Catadioptric | Both | Compact |\n\n### Radio Telescopes\n\n- Detect radio waves from space\n- Can work day or night, through clouds\n- Must be HUGE (Arecibo: 305m)\n- Example: ALMA, VLA\n\n## Space-Based Telescopes\n\nWhy space? No atmosphere!\n\n```\nGround:\n  Starlight → Turbulent atmosphere → Blurry\n  \nSpace:\n  Starlight → Crystal clear!\n```\n\n### Hubble Space Telescope (1990)\n\n| Property | Value |\n|----------|-------|\n| Mirror | 2.4 m |\n| Orbit | 540 km |\n| Wavelengths | UV, visible, near-IR |\n| Discoveries | Age of universe, dark energy |\n\n### James Webb Space Telescope (2021)\n\n| Property | Value |\n|----------|-------|\n| Mirror | 6.5 m (18 segments) |\n| Location | L2 (1.5 million km) |\n| Wavelengths | Infrared |\n| Mission | First stars, exoplanets |\n\n### Other Space Telescopes\n\n- Chandra (X-ray)\n- Spitzer (Infrared)\n- Kepler/TESS (Exoplanets)\n- Fermi (Gamma-ray)\n\n> 💡 **Key Point:** Different wavelengths reveal different phenomena!"
-        },
-        {
-            "id": "space_quiz_1",
-            "type": "quiz",
-            "title": "Space Missions Quiz",
-            "content": "Test your knowledge of space exploration!",
-            "quizQuestion": "Which mission was the first to land humans on the Moon?",
-            "quizOptions": [
-                "Apollo 8",
-                "Apollo 11",
-                "Apollo 13",
-                "Voyager 1"
-            ],
-            "correctOptionIndex": 1
+            "title": "Escape Velocity",
+            "content": "# Breaking Free ⛓️\n\nSpeed needed to break free from a planet's gravity.\n- Earth: ~11.2 km/s (25,000 mph).\n- Requires immense energy, hence giant multi-stage rockets."
         },
         {
             "id": "space_4",
             "type": "content",
-            "title": "Rockets and Propulsion",
-            "content": "# Rockets and Propulsion 🚀\n\n## Newton's Third Law\n\n> For every action, there is an equal and opposite reaction.\n\n```\n    Exhaust ←←←←←← ROCKET →→→→→→ Direction of travel\n    (High speed gas)        (Reaction force)\n```\n\n## Rocket Equation\n\n```\nΔv = ve × ln(m₀/m₁)\n\nΔv = change in velocity\nve = exhaust velocity\nm₀/m₁ = mass ratio (full/empty)\n```\n\n## Types of Propulsion\n\n### Chemical Rockets\n\n| Type | Fuel | Oxidizer |\n|------|------|----------|\n| Solid | Aluminum | Ammonium perchlorate |\n| Liquid | Hydrogen/Kerosene | Liquid oxygen |\n\n### Other Propulsion\n\n| Type | Speed | Use |\n|------|-------|-----|\n| Ion | Very high | Deep space |\n| Solar sail | No fuel | Long missions |\n| Nuclear thermal | Medium | Future Mars |\n\n## Staging\n\nWhy drop tanks?\n\n```\n    Stage 3    ╔══╗\n    Stage 2    ╠══╣      Drop empty stages\n    Stage 1    ╚══╝  ─→  Less mass to accelerate\n```\n\n## Famous Rockets\n\n| Rocket | Era | Notable |\n|--------|-----|--------|\n| Saturn V | 1960s-70s | Moon missions |\n| Space Shuttle | 1981-2011 | Reusable orbiter |\n| Falcon 9 | 2010-present | Reusable first stage |\n| SLS | 2022-present | Artemis program |\n\n## Escape Velocity\n\n```\nEarth: 11.2 km/s\nMoon: 2.4 km/s\n\nMust reach this speed to leave gravity!\n```\n\n> 🎯 **Key Point:** >90% of a rocket's mass is fuel!"
+            "title": "Orbit Types",
+            "content": "# Traffic Lanes 🛣️\n\n- **LEO (Low Earth Orbit)**: ISS, Hubble. (close, fast).\n- **GEO (Geostationary)**: Stays over one spot (TV/Communication sats).\n- **Polar**: Goes over poles (Spy/Weather sats)."
         },
         {
             "id": "space_5",
             "type": "content",
-            "title": "International Space Station",
-            "content": "# International Space Station 🛰️\n\nHumanity's orbital outpost.\n\n## ISS Facts\n\n| Property | Value |\n|----------|-------|\n| Launch | 1998-2011 (assembly) |\n| Mass | 420,000 kg |\n| Size | Football field |\n| Orbit | 400 km altitude |\n| Speed | 28,000 km/h |\n| Orbit time | 90 minutes |\n| Crew | Usually 6-7 |\n\n## Partners\n\n- NASA (USA)\n- Roscosmos (Russia)\n- ESA (Europe)\n- JAXA (Japan)\n- CSA (Canada)\n\n## Modules\n\n```\n┌──────────────────────────────────────┐\n│         Solar panels                 │\n│    ═══════════╬══════════            │\n│               ║                      │\n│    US segment ║ Russian segment      │\n│    ═══════════╬══════════            │\n│               ║                      │\n│         ┌─────┴─────┐                │\n│         │  Columbus │ (ESA)          │\n│         │   Kibo    │ (JAXA)         │\n│         └───────────┘                │\n└──────────────────────────────────────┘\n```\n\n## Life in Space\n\n| Challenge | Solution |\n|-----------|----------|\n| Microgravity | Exercise 2+ hours/day |\n| Oxygen | Electrolysis of water |\n| Water | Recycled (including sweat, urine) |\n| Food | Pre-packaged, some fresh |\n| Sleep | Strapped in sleeping bags |\n\n## ISS Science\n\n- Microgravity experiments\n- Human health studies\n- Earth observation\n- Materials science\n- Biology and medicine\n\n> 💡 **Key Point:** The ISS has been continuously crewed since November 2000!"
+            "title": "Apollo Program",
+            "content": "# To the Moon 🌕\n\nNASA's program 1961-1972.\n- **Saturn V**: Most powerful rocket ever flown.\n- **Apollo 11**: Neil Armstrong & Buzz Aldrin walked on moon.\n- Total of 12 men have walked on the moon."
+        },
+        {
+            "id": "space_quiz_1",
+            "type": "quiz",
+            "title": "History Quiz",
+            "content": "Firsts check.",
+            "quizQuestion": "Who was the first human in space?",
+            "quizOptions": [
+                "Neil Armstrong",
+                "Yuri Gagarin",
+                "Buzz Aldrin",
+                "John Glenn"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "space_6",
             "type": "content",
-            "title": "Future of Space Exploration",
-            "content": "# Future of Space Exploration 🔮\n\n## Return to the Moon: Artemis\n\n| Mission | Goal |\n|---------|------|\n| Artemis I | Uncrewed lunar orbit |\n| Artemis II | Crewed lunar flyby |\n| Artemis III | First woman on Moon |\n| Gateway | Lunar space station |\n\n## Mars Missions\n\n```\n    Earth ────────→ Mars\n          ~7 months\n          \n    Challenges:\n    • Radiation\n    • Microgravity\n    • Mental health\n    • Resources\n```\n\n### Timeline\n\n| Organization | Goal |\n|--------------|------|\n| NASA | Humans on Mars: 2030s-2040s |\n| SpaceX | Earlier timeline attempted |\n| China | Mars sample return |\n\n## Private Space Companies\n\n| Company | Focus |\n|---------|-------|\n| SpaceX | Launch, Starship, Mars |\n| Blue Origin | New Glenn, Moon |\n| Virgin Galactic | Space tourism |\n| Rocket Lab | Small satellites |\n\n## Space Tourism\n\n- Suborbital flights (Blue Origin, Virgin)\n- Orbital flights (SpaceX Crew Dragon)\n- ISS visits (Axiom Space)\n\n## Big Questions\n\n- Life on Europa or Enceladus?\n- Terraforming Mars?\n- Mining asteroids?\n- Interstellar travel?\n\n> 🎯 **Key Point:** We may see humans on Mars in your lifetime!"
-        },
-        {
-            "id": "space_quiz_2",
-            "type": "quiz",
-            "title": "Rockets Quiz",
-            "content": "Test your understanding of rockets!",
-            "quizQuestion": "What is the escape velocity from Earth?",
-            "quizOptions": [
-                "2.4 km/s",
-                "7.9 km/s",
-                "11.2 km/s",
-                "28 km/s"
-            ],
-            "correctOptionIndex": 2
+            "title": "Space Shuttle",
+            "content": "# Reusable Ship ✈️\n\nNASA's workhorse (1981-2011).\n- Launched like a rocket, landed like a plane.\n- Built the ISS.\n- Two tragedies: Challenger and Columbia."
         },
         {
             "id": "space_7",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Space Exploration! Here's what you've mastered:\n\n## Historic Missions\n- ✅ Apollo program: Moon landings\n- ✅ Voyager: Beyond the solar system\n- ✅ Mars rovers: Spirit, Opportunity, Curiosity, Perseverance\n\n## Telescopes\n\n| Type | Example | Specialty |\n|------|---------|----------|\n| Optical | Hubble | Visible light |\n| Radio | ALMA | Radio waves |\n| Infrared | JWST | Early universe |\n| X-ray | Chandra | High-energy events |\n\n## Rockets\n- ✅ Newton's Third Law\n- ✅ Staging reduces mass\n- ✅ Chemical vs ion propulsion\n- ✅ Escape velocity: 11.2 km/s\n\n## ISS\n- ✅ 400 km altitude, 90-min orbit\n- ✅ International partnership\n- ✅ Continuous habitation since 2000\n\n## Future\n- ✅ Artemis: Return to the Moon\n- ✅ Mars human missions\n- ✅ Commercial spaceflight\n\n> 🚀 **Next Steps:** Explore Astrochemistry to learn about cosmic chemistry!\n\nYou now understand how humanity explores the cosmos!"
+            "title": "International Space Station",
+            "content": "# Lab in the Sky 🛰️\n\nHabitable artificial satellite.\n- Joint project (US, Russia, Europe, Japan, Canada).\n- Research in microgravity (Medicine, Materials).\n- Continuously occupied since 2000."
+        },
+        {
+            "id": "space_8",
+            "type": "content",
+            "title": "Robotic Explorers 1",
+            "content": "# The Voyagers 📡\n\n**Voyager 1 & 2** (Launched 1977).\n- Toured Jupiter, Saturn, Uranus, Neptune.\n- Carrying the \"Golden Record\" (Message to aliens).\n- Now in Interstellar Space (First human objects to leave solar system)."
+        },
+        {
+            "id": "space_9",
+            "type": "content",
+            "title": "Robotic Explorers 2",
+            "content": "# Mars Rovers 🤖\n\n- Sojourner, Spirit, Opportunity, Curiosity, Perseverance.\n- Geology labs on wheels.\n- Hunting for signs of ancient water and life."
+        },
+        {
+            "id": "space_10",
+            "type": "content",
+            "title": "Telescopes",
+            "content": "# Eyes on Sky 🔭\n\n- **Optical**: Hubble (Visible light).\n- **Radio**: Arecibo (Radio waves).\n- **Infrared**: James Webb (Heat/Early universe).\n- Space telescopes avoid atmospheric blur."
+        },
+        {
+            "id": "space_11",
+            "type": "content",
+            "title": "Falcon 9 & SpaceX",
+            "content": "# New Era 🔄\n\nReusable rockets landing vertically.\n- Dramatically lowered cost of launch.\n- Aiming for Mars (Starship)."
+        },
+        {
+            "id": "space_12",
+            "type": "content",
+            "title": "Propulsion Systems",
+            "content": "# Going Faster 🏎️\n\n- **Chemical**: Burning fuel (High thrust, low efficiency).\n- **Ion Drive**: Shooting ions (Low thrust, high efficiency). Used for long deep space missions.\n- **Solar Sails**: Pushed by light pressure."
+        },
+        {
+            "id": "space_quiz_2",
+            "type": "quiz",
+            "title": "Tech Quiz",
+            "content": "Engine check.",
+            "quizQuestion": "Which propulsion is best for landing on a planet (needs high thrust)?",
+            "quizOptions": [
+                "Ion Drive",
+                "Solar Sail",
+                "Chemical Rocket",
+                "Gravity Assist"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "space_13",
+            "type": "content",
+            "title": "Gravity Assist",
+            "content": "# Slingshot 🏹\n\nUsing a planet's gravity to speed up (steal momentum).\n- Voyager used Jupiter to fling to Saturn.\n- Saves fuel and time."
+        },
+        {
+            "id": "space_14",
+            "type": "content",
+            "title": "Hazards of Space",
+            "content": "# Danger Zone ⚠️\n\n- **Vacuum**: No air.\n- **Radiation**: Cancer risk.\n- **Microgravity**: Bone/Muscle loss.\n- **Debris**: Tiny junk hitting at bullet speeds."
+        },
+        {
+            "id": "space_15",
+            "type": "content",
+            "title": "Future Missions",
+            "content": "# What's Next? 🔮\n\n- **Artemis**: Return humans to Moon.\n- **Mars Sample Return**: Bring rocks back.\n- **Europa Clipper**: Visit Jupiter's ocean moon."
+        },
+        {
+            "id": "space_16",
+            "type": "content",
+            "title": "SETI",
+            "content": "# Hello? 👽\n\nSearch for Extraterrestrial Intelligence.\n- Listening for radio signals.\n- **Drake Equation**: Estimates N of civilizations.\n- So far... silence."
+        },
+        {
+            "id": "space_17",
+            "type": "content",
+            "title": "Exploration Summary",
+            "content": "# Recap 📝\n\n- Rockets overcome gravity.\n- **Robots** lead the way (Voyager, Rovers).\n- **Humans** follow (Apollo, ISS, Artemis).\n- Exploration drives technology and inspires humanity."
         }
     ]
 }

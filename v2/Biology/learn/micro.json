@@ -1,91 +1,139 @@
 {
     "id": "learn_micro",
     "topicId": "micro",
-    "topicTitle": "Microbiology",
-    "description": "Explore bacteria, viruses, fungi, their structure, reproduction, and impact on humans",
-    "baseKP": 75,
+    "topicTitle": "Microbiology & Biotechnology",
+    "description": "Explore the invisible world of microbes and how we use them.",
+    "baseKP": 100,
     "slides": [
         {
-            "id": "microbio_1",
+            "id": "micro_1",
             "type": "content",
-            "title": "Welcome to Microbiology",
-            "content": "# Introduction to Microbiology 🦠\n\nWelcome to **Microbiology** - the study of life too small to see!\n\n## What you'll learn:\n- **Bacteria** - Prokaryotic cells\n- **Viruses** - Not quite alive\n- **Fungi** - Decomposers and more\n- **Protists** - Diverse eukaryotes\n- **Microbes & Humans** - Disease and benefits\n\n> 💡 **Fun Fact:** Your body contains more bacterial cells than human cells - about 38 trillion bacteria!\n\n## Types of Microorganisms\n\n| Type | Cell Type | Examples |\n|------|-----------|----------|\n| Bacteria | Prokaryotic | E. coli, Streptococcus |\n| Archaea | Prokaryotic | Extremophiles |\n| Protists | Eukaryotic | Amoeba, Paramecium |\n| Fungi | Eukaryotic | Yeast, mold |\n| Viruses | Acellular | Flu, COVID-19 |\n\n## Why Study Microbiology?\n\n- 🏥 Understanding disease\n- 💊 Antibiotic development\n- 🧬 Biotechnology\n- 🍞 Food production\n- 🌍 Environmental cycles\n\n## Size Scale\n\n```\nVirus (20-300 nm) → Bacteria (1-10 μm) → Eukaryotic cell (10-100 μm)\n       │                    │                      │\n    Electron             Light                  Light\n    microscope           microscope             microscope\n```\n\nLet's explore the microscopic world!"
+            "title": "The Invisible World",
+            "content": "# Small but Mighty 🔬\n\nMicrobiology is the study of microscopic organisms:\n- Bacteria\n- Viruses\n- Fungi\n- Protozoa\n\nThey are everywhere: In air, soil, water, and YOU."
         },
         {
-            "id": "microbio_2",
+            "id": "micro_2",
             "type": "content",
             "title": "Bacteria",
-            "content": "# Bacteria 🦠\n\n## Bacterial Cell Structure\n\n```\n    ┌─────────────────────────────┐\n    │ Cell wall (peptidoglycan)    │\n    │  ┌───────────────────────┐  │\n    │  │ Cell membrane          │  │\n    │  │  ╭──────────────────╮  │  │\n    │  │  │   Cytoplasm      │  │  │\n    │  │  │   ○ Ribosome     │  │  │\n    │  │  │   ~ DNA (Nucleoid)│  │  │\n    │  │  │   ○ Plasmid      │  │  │\n    │  │  ╰──────────────────╯  │  │\n    │  └───────────────────────┘  │\n    └─────────────────────────────┘\n            ~~~~ Flagellum\n```\n\n## Key Structures\n\n| Structure | Function |\n|-----------|----------|\n| Cell wall | Protection, shape |\n| Cell membrane | Selectively permeable |\n| Nucleoid | DNA storage |\n| Plasmid | Extra DNA (antibiotic resistance) |\n| Ribosome | Protein synthesis |\n| Flagellum | Movement |\n| Pili | Attachment, DNA transfer |\n| Capsule | Protection, adhesion |\n\n## Bacterial Shapes\n\n| Shape | Name | Example |\n|-------|------|--------|\n| ● | Coccus (sphere) | Streptococcus |\n| ─ | Bacillus (rod) | E. coli |\n| 〰 | Spirillum (spiral) | Spirochetes |\n\n## Gram Staining\n\n| Feature | Gram-positive | Gram-negative |\n|---------|---------------|---------------|\n| Color | Purple | Pink |\n| Wall | Thick peptidoglycan | Thin + outer membrane |\n| Examples | Staph, Strep | E. coli, Salmonella |\n\n> 🎯 **Key Point:** Bacteria are prokaryotes - no membrane-bound nucleus!"
+            "content": "# Prokaryotes 🦠\n\n- Single-celled, no nucleus.\n- Shapes: Cocci (Spheres), Bacilli (Rods), Spirilla (Spirals).\n- Divide by **Binary Fission** (Cloning).\n- Most are helpful (Gut bacteria), some are harmful (Pathogens)."
         },
         {
-            "id": "microbio_3",
+            "id": "micro_3",
             "type": "content",
-            "title": "Bacterial Reproduction",
-            "content": "# Bacterial Reproduction 📈\n\n## Binary Fission\n\nAsexual reproduction - one cell divides into two identical cells.\n\n```\n1. DNA replication\n    ○~~~~~~○\n    \n2. Cell elongates\n    ○─────○\n    \n3. Septum forms\n    ○──┼──○\n    \n4. Two daughter cells\n    (○) (○)\n```\n\n## Growth Rate\n\n- Can divide every 20 minutes!\n- 1 cell → 2⁴⁸ cells in 24 hours\n- That's ~281 trillion cells!\n\n## Bacterial Growth Curve\n\n```\nLog cells\n    │         ______ Stationary\n    │       /        \\\n    │      /          Decline\n    │     / Log phase\n    │____/\n    Lag\n    └────────────────→ Time\n```\n\n| Phase | Description |\n|-------|-------------|\n| Lag | Adjusting, preparing |\n| Log | Rapid exponential growth |\n| Stationary | Resources depleted |\n| Decline | Cells dying |\n\n## Genetic Variation without Sex\n\n### 1. Mutation\nRandom DNA changes\n\n### 2. Transformation\nUptake of free DNA\n\n### 3. Transduction\nDNA transfer via virus\n\n### 4. Conjugation\nDirect DNA transfer (\"bacterial sex\")\n```\nBacterium 1 ──pilus── Bacterium 2\n   (F+)    →plasmid→    (F-)\n```\n\n> 💡 **Key Point:** Genetic variation helps bacteria evolve rapidly (antibiotic resistance)!"
+            "title": "Viruses",
+            "content": "# The Hijackers 👽\n\n- Not strictly \"alive\" (Can't reproduce on their own).\n- Genetic material (DNA/RNA) in a protein coat.\n- Must hijack a host cell to copy themselves.\n- Examples: Flu, HIV, COVID-19."
         },
         {
-            "id": "microbio_quiz_1",
+            "id": "micro_4",
+            "type": "content",
+            "title": "Fungi",
+            "content": "# The Decomposers 🍄\n\n- Eukaryotes (Have nucleus).\n- Yeasts (Single cell) and Molds (Multicellular).\n- Absorb nutrients from environment.\n- Penicillin comes from a mold!"
+        },
+        {
+            "id": "micro_5",
+            "type": "content",
+            "title": "Protists",
+            "content": "# The Misfits 🪱\n\n- Eukaryotes that aren't Plant/Animal/Fungus.\n- **Algae**: Plant-like (Photosynthesis).\n- **Protozoa**: Animal-like (Amoeba, Paramecium).\n- **Malaria** is caused by a protist."
+        },
+        {
+            "id": "micro_quiz_1",
             "type": "quiz",
-            "title": "Bacteria Quiz",
-            "content": "Test your understanding of bacteria!",
-            "quizQuestion": "What type of reproduction do bacteria primarily use?",
+            "title": "Microbe Quiz",
+            "content": "Identify the bug.",
+            "quizQuestion": "Which microbe requires a host cell to reproduce?",
             "quizOptions": [
-                "Mitosis",
-                "Meiosis",
-                "Binary fission",
-                "Budding"
+                "Bacteria",
+                "Fungus",
+                "Virus",
+                "Algae"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "microbio_4",
+            "id": "micro_6",
             "type": "content",
-            "title": "Viruses",
-            "content": "# Viruses 🧬\n\n## Are Viruses Alive?\n\n**Arguments for:**\n- Have genetic material\n- Evolve\n- Reproduce (sort of)\n\n**Arguments against:**\n- No cells\n- No metabolism\n- Can't reproduce independently\n\n> Most scientists say NO - they're on the edge of life.\n\n## Virus Structure\n\n```\n    Envelope (some viruses)\n        ┌─────────────┐\n        │  Capsid      │\n        │  (protein)   │\n        │  ┌───────┐   │\n        │  │ DNA   │   │\n        │  │  or   │   │\n        │  │ RNA   │   │\n        │  └───────┘   │\n        │              │\n        └──────────────┘\n            ↑\n         Spikes (attachment)\n```\n\n## Virus Types\n\n| Genetic Material | Example |\n|-----------------|--------|\n| DNA, double-stranded | Herpes |\n| DNA, single-stranded | Parvovirus |\n| RNA, single-stranded | Flu, COVID-19 |\n| RNA, double-stranded | Rotavirus |\n| Retrovirus (RNA→DNA) | HIV |\n\n## Shapes\n\n| Shape | Example |\n|-------|--------|\n| Helical | Tobacco mosaic virus |\n| Icosahedral | Adenovirus |\n| Complex | Bacteriophage |\n| Enveloped | Influenza |\n\n## Host Specificity\n\n- Viruses are very specific\n- Bacteriophages infect bacteria\n- Plant viruses infect plants\n- Animal viruses infect specific animal cells\n\n> 🎯 **Key Point:** Viruses can ONLY reproduce inside living host cells!"
+            "title": "Microbiome",
+            "content": "# You are a Planet 🌍\n\nYou have more bacterial cells in/on you than human cells!\n- Aid digestion.\n- Produce vitamins (K).\n- Train immune system.\n- Protect against bad bugs."
         },
         {
-            "id": "microbio_5",
+            "id": "micro_7",
             "type": "content",
-            "title": "Viral Replication",
-            "content": "# Viral Replication Cycles 🔄\n\n## Lytic Cycle\n\nVirus destroys host cell.\n\n```\n1. Attachment (virus binds receptor)\n        ↓\n2. Entry (injects genetic material)\n        ↓\n3. Replication (copies DNA/RNA)\n        ↓\n4. Assembly (new viruses built)\n        ↓\n5. Lysis (cell bursts, releases viruses)\n```\n\n## Lysogenic Cycle\n\nVirus DNA integrates into host genome.\n\n```\n1. Attachment & Entry\n        ↓\n2. Integration (become prophage)\n        ↓\n3. Replication (with host DNA)\n        ↓\n4. May remain dormant for years\n        ↓\n5. Can switch to lytic cycle\n```\n\n## Comparison\n\n| Feature | Lytic | Lysogenic |\n|---------|-------|----------|\n| Host cell | Destroyed | Survives |\n| Speed | Fast | Slow/dormant |\n| Symptoms | Immediate | Delayed |\n| Example | Cold virus | HIV, herpes |\n\n## HIV: A Special Case\n\n```\n1. RNA virus enters T cell\n2. Reverse transcriptase: RNA → DNA\n3. DNA integrates (provirus)\n4. Can lie dormant for years\n5. Eventually destroys immune system (AIDS)\n```\n\n## Viral Diseases\n\n| Virus | Disease |\n|-------|--------|\n| Influenza | Flu |\n| SARS-CoV-2 | COVID-19 |\n| HIV | AIDS |\n| HPV | Warts, cancer |\n| Rabies | Rabies |\n\n> 💡 **Key Point:** Antibiotics DON'T work on viruses - they only target bacteria!"
+            "title": "Germ Theory",
+            "content": "# Louis Pasteur 🥛\n\nProved that diseases are caused by microorganisms, not \"bad air\" (Miasma).\n- **Pasteurization**: Heating to kill microbes.\n- Led to sterilization and hygiene revolution."
         },
         {
-            "id": "microbio_6",
+            "id": "micro_8",
             "type": "content",
-            "title": "Fungi",
-            "content": "# Fungi 🍄\n\n## Characteristics\n\n- Eukaryotic\n- Cell walls (chitin, not cellulose)\n- Heterotrophs (absorb nutrients)\n- Most are decomposers\n\n## Fungal Structure\n\n```\n    Fruiting body (mushroom)\n           │\n           │\n    ═══════╧═══════ Ground level\n           │\n    ───────┴─────── Hyphae\n         │ │ │\n    Mycelium (network)\n```\n\n## Types of Fungi\n\n| Group | Reproduction | Examples |\n|-------|--------------|----------|\n| Zygomycota | Zygospores | Bread mold |\n| Ascomycota | Ascospores | Yeast, morels |\n| Basidiomycota | Basidiospores | Mushrooms |\n| Deuteromycota | Asexual only | Penicillium |\n\n## Roles of Fungi\n\n### Beneficial\n- **Decomposition:** Recycle nutrients\n- **Symbiosis:** Mycorrhizae with plants\n- **Food:** Mushrooms, yeast (bread, beer)\n- **Medicine:** Antibiotics (penicillin)\n\n### Harmful\n- **Plant diseases:** Rust, smut\n- **Human infections:** Athlete's foot, ringworm\n- **Food spoilage:** Mold on bread\n\n## Yeast\n\nSingle-celled fungi.\n\n```\nSugar → Alcohol + CO₂ (fermentation)\n      ↓          ↓\n    Beer      Bread rises\n```\n\n## Lichens\n\nSymbiosis: Fungus + Algae/Cyanobacteria\n\n- Fungus provides structure, water\n- Algae provides food (photosynthesis)\n\n> 🎯 **Key Point:** Fungi are nature's recyclers!"
+            "title": "Antibiotics",
+            "content": "# Magic Bullet 💊\n\nChemicals that kill Bacteria (NOT viruses).\n- Attack cell walls or ribosomes specific to bacteria.\n- **Fleming** discovered Penicillin.\n- Overuse leads to resistance."
         },
         {
-            "id": "microbio_quiz_2",
+            "id": "micro_9",
+            "type": "content",
+            "title": "Vaccines",
+            "content": "# Training Day 🏋️\n\nExposing immune system to a harmless version of a pathogen.\n- Body builds memory cells.\n- Real infection is defeated instantly later.\n- Eradicated Smallpox."
+        },
+        {
+            "id": "micro_10",
+            "type": "content",
+            "title": "Fermentation",
+            "content": "# Tasty Microbes 🍞\n\nUsing microbes to make food.\n- **Yeast**: Alcohol (Beer/Wine) + CO2 (Bread rise).\n- **Bacteria**: Lactic Acid (Yogurt, Cheese, Sauerkraut)."
+        },
+        {
+            "id": "micro_11",
+            "type": "content",
+            "title": "Bioremediation",
+            "content": "# Cleanup Crew 🧹\n\nUsing microbes to clean up pollution.\n- Bacteria eating oil spills.\n- Microbes breaking down plastic.\n- Treating sewage water."
+        },
+        {
+            "id": "micro_12",
+            "type": "content",
+            "title": "Genetic Engineering",
+            "content": "# GMOs 🧬\n\nTaking a gene from one organism and putting it in another.\n- **Insulin**: produced by E. coli bacteria with human insulin gene.\n- **Bt Corn**: Corn with bacteria gene toxic to pests."
+        },
+        {
+            "id": "micro_quiz_2",
             "type": "quiz",
-            "title": "Viruses & Fungi Quiz",
-            "content": "Test your understanding!",
-            "quizQuestion": "In which viral cycle does the host cell remain alive with viral DNA integrated?",
+            "title": "Tech Quiz",
+            "content": "Application check.",
+            "quizQuestion": "Bioremediation uses microbes to:",
             "quizOptions": [
-                "Lytic cycle",
-                "Lysogenic cycle",
-                "Binary fission",
-                "Budding"
+                "Make food",
+                "Cause disease",
+                "Clean pollution",
+                "Edit genes"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 2
         },
         {
-            "id": "microbio_7",
+            "id": "micro_13",
             "type": "content",
-            "title": "Microbes and Disease",
-            "content": "# Microbes and Disease 🏥\n\n## Pathogens\n\nMicroorganisms that cause disease.\n\n| Pathogen | Disease Examples |\n|----------|------------------|\n| Bacteria | TB, cholera, tetanus |\n| Virus | Flu, COVID, measles |\n| Fungi | Athlete's foot, thrush |\n| Protist | Malaria, dysentery |\n\n## Koch's Postulates\n\nProving a microbe causes disease:\n\n1. Found in all sick individuals\n2. Isolated and grown in pure culture\n3. Causes disease when introduced to healthy host\n4. Re-isolated from experimental host\n\n## Chain of Infection\n\n```\nReservoir → Exit → Transmission → Entry → Susceptible host\n```\n\n## Transmission Methods\n\n| Route | Examples |\n|-------|----------|\n| Airborne | Flu, TB |\n| Contact | Cold, skin infections |\n| Vector | Malaria (mosquito) |\n| Food/water | Cholera, Salmonella |\n| Body fluids | HIV, hepatitis B |\n\n## Preventing Infection\n\n| Method | How it works |\n|--------|-------------|\n| Vaccination | Train immune system |\n| Hand washing | Remove pathogens |\n| Antibiotics | Kill bacteria |\n| Antivirals | Slow virus replication |\n| Sterilization | Kill all microbes |\n\n## Antibiotic Resistance\n\n```\nAntibiotic use → Most bacteria die\n    → Resistant survivors reproduce\n        → Resistant population\n```\n\n**Superbugs:** MRSA, XDR-TB\n\n> ⚠️ **Warning:** Overuse of antibiotics accelerates resistance!"
+            "title": "Cloning",
+            "content": "# Copy Paste 🐑\n\n- **Reproductive Cloning**: Making a whole copy (Dolly).\n- **Therapeutic Cloning**: Making tissues/organs.\n- High failure rate and ethical issues."
         },
         {
-            "id": "microbio_8",
+            "id": "micro_14",
             "type": "content",
-            "title": "Beneficial Microbes",
-            "content": "# Beneficial Microbes 🌟\n\nNot all microbes are harmful - most are essential!\n\n## Microbiome\n\nThe community of microbes living in/on your body.\n\n### Gut Microbiome\n- Aids digestion\n- Makes vitamins (K, B12)\n- Trains immune system\n- Affects mood and health\n\n## Industrial Uses\n\n| Industry | Microbe | Product |\n|----------|---------|--------|\n| Food | Yeast | Bread, beer, wine |\n| Food | Lactobacillus | Yogurt, cheese |\n| Medicine | Penicillium | Penicillin |\n| Biotech | E. coli | Insulin production |\n| Cleaning | Various | Bioremediation |\n\n## Environmental Roles\n\n### Nitrogen Cycle\n- Nitrogen fixation (Rhizobium)\n- Nitrification\n- Denitrification\n\n### Decomposition\n- Recycle nutrients\n- Break down dead matter\n\n### Bioremediation\n- Clean up oil spills\n- Break down pollutants\n\n## Biotechnology Applications\n\n| Application | How microbes help |\n|-------------|-------------------|\n| Insulin | Bacteria produce human insulin |\n| Vaccines | Grown in cell cultures |\n| Biofuels | Fermentation to ethanol |\n| GMO crops | Agrobacterium transfers genes |\n| Gene therapy | Viral vectors deliver genes |\n\n> 💡 **Perspective:** Only ~1% of bacteria are pathogens - most are harmless or helpful!"
+            "title": "Stem Cells",
+            "content": "# Blank Slates ⬜\n\nCells that can turn into any tissue.\n- **Embryonic**: Pluripotent (Any cell).\n- **Adult**: Multipotent (Limited types).\n- Hope for curing paralysis, Parkinson's."
         },
         {
-            "id": "microbio_9",
+            "id": "micro_15",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Microbiology! Here's what you've mastered:\n\n## Bacteria\n- ✅ Prokaryotic cell structure\n- ✅ Gram-positive vs Gram-negative\n- ✅ Binary fission\n- ✅ Genetic variation (mutation, transformation, conjugation)\n\n## Viruses\n- ✅ Structure: Capsid, genetic material, envelope\n- ✅ Not considered living\n- ✅ Lytic vs lysogenic cycle\n- ✅ Host specificity\n\n## Fungi\n- ✅ Eukaryotic, chitin cell walls\n- ✅ Hyphae and mycelium\n- ✅ Decomposers and symbionts\n\n## Disease\n- ✅ Koch's postulates\n- ✅ Transmission routes\n- ✅ Prevention methods\n- ✅ Antibiotic resistance threat\n\n## Beneficial Microbes\n- ✅ Gut microbiome\n- ✅ Food production\n- ✅ Biotechnology\n- ✅ Environmental cycles\n\n## Key Insight\n\n> *\"Microbes are not our enemies - most are our partners in life.\"*\n\n> 🎓 **You've completed Biology!**\n\nCongratulations on mastering the science of life from cells to ecosystems!"
+            "title": "Forensic DNA",
+            "content": "# Catching Criminals 🕵️\n\n- **DNA Fingerprinting**: Unique pattern for every person (except identical twins).\n- Matches suspect to crime scene blood/hair."
+        },
+        {
+            "id": "micro_16",
+            "type": "content",
+            "title": "Pandemics",
+            "content": "# Going Global 😷\n\nWhen an epidemic spreads worldwide.\n- **Zoonosis**: Disease jumping from animal to human (Spillover).\n- Monitoring and global cooperation are key defenses."
+        },
+        {
+            "id": "micro_17",
+            "type": "content",
+            "title": "Microbiology Summary",
+            "content": "# Recap 📝\n\n- Microbes usually help us (Food, Digestion).\n- **Germ Theory** saved billions of lives.\n- **Biotechnology** harnesses cellular machinery for medicine and industry.\n- The small things run the world."
         }
     ]
 }

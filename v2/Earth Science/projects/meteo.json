@@ -1,56 +1,92 @@
 [
     {
-        "title": "Weather Fronts ⛈️",
-        "ques": "1. Define cold front and warm front\n2. Weather associated with each\n3. How are they shown on maps?",
+        "title": "Atmosphere Layers 🌬️",
+        "ques": "Describe the **5 layers** of Earth's atmosphere and their characteristics.",
         "answer": {
             "type": "text",
-            "content": "**1. Definitions:**\n- Cold front: Cold air mass pushes under warm air\n- Warm front: Warm air mass slides over cold air\n\n**2. Weather:**\n- Cold front: Sharp drop in temp, heavy rain, thunderstorms\n- Warm front: Gradual warming, light rain, clouds\n\n**3. Map symbols:**\n- Cold: Blue line with triangles\n- Warm: Red line with semicircles"
+            "content": "| Layer | Altitude | Temperature | Features |\n|-------|----------|-------------|----------|\n| **Troposphere** | 0-12 km | Decreases | Weather, 75% of air mass |\n| **Stratosphere** | 12-50 km | Increases | Ozone layer, jets fly here |\n| **Mesosphere** | 50-80 km | Decreases | Coldest layer, meteors burn |\n| **Thermosphere** | 80-700 km | Increases | Aurora, ISS orbit |\n| **Exosphere** | 700+ km | - | Transition to space |"
         },
-        "explanation": "**Fronts** are boundaries between air masses. Cold fronts move faster, causing more dramatic weather."
+        "explanation": "Temperature changes with altitude due to energy absorption. Troposphere contains almost all water vapor and weather."
     },
     {
-        "title": "Climate Zones 🌍",
-        "ques": "1. What determines climate zones?\n2. Name the main climate zones\n3. Difference between weather and climate",
+        "title": "Weather Fronts ⛅",
+        "ques": "Compare **cold fronts** and **warm fronts** in terms of weather they produce.",
         "answer": {
             "type": "text",
-            "content": "**1. Factors:**\n- Latitude (solar angle)\n- Altitude\n- Ocean currents\n- Distance from water\n\n**2. Zones:**\n- Tropical, Subtropical, Temperate, Polar\n\n**3. Difference:**\n- Weather: Short-term, daily conditions\n- Climate: Long-term average patterns (30+ years)"
+            "content": "| Feature | Cold Front | Warm Front |\n|---------|------------|------------|\n| **Symbol** | Blue triangles | Red semicircles |\n| **Slope** | Steep (1:50) | Gentle (1:200) |\n| **Movement** | Faster | Slower |\n| **Clouds** | Cumulus, cumulonimbus | Stratus, nimbostratus |\n| **Precipitation** | Heavy, brief | Light, prolonged |\n| **After passage** | Cooler, drier | Warmer, more humid |\n\n**Occluded front:** Cold front catches up to warm front"
         },
-        "explanation": "**Climate** is \"average weather.\" Latitude is primary factor - poles receive less solar energy."
+        "explanation": "Fronts are boundaries between air masses. Most severe weather occurs along cold fronts."
     },
     {
-        "title": "Atmospheric Layers 🌫️",
-        "ques": "1. List atmosphere layers from surface up\n2. Where is ozone layer?\n3. Where does weather occur?",
+        "title": "Coriolis Effect 🌀",
+        "ques": "Explain the **Coriolis effect** and how it influences weather patterns.",
         "answer": {
             "type": "text",
-            "content": "**1. Layers (bottom to top):**\n- Troposphere (0-12 km)\n- Stratosphere (12-50 km)\n- Mesosphere (50-85 km)\n- Thermosphere (85-600 km)\n- Exosphere (600+ km)\n\n**2. Ozone:** Stratosphere (protects from UV)\n\n**3. Weather:** Troposphere (all clouds, rain here)"
+            "content": "**Coriolis Effect:**\nApparent deflection of moving objects due to Earth's rotation\n\n**Direction:**\n- Northern Hemisphere: Right deflection\n- Southern Hemisphere: Left deflection\n\n**Effects on Weather:**\n| Phenomenon | NH Rotation | SH Rotation |\n|------------|-------------|-------------|\n| Hurricanes | Counterclockwise | Clockwise |\n| High pressure | Clockwise | Counterclockwise |\n| Trade winds | NE trades | SE trades |\n\n**Strength:** Increases with latitude, zero at equator"
         },
-        "explanation": "**Troposphere** contains 80% of atmosphere's mass. Temperature drops ~6.5°C per km altitude."
+        "explanation": "Named after Gustave-Gaspard Coriolis (1835). Essential for understanding global wind patterns and ocean currents."
     },
     {
-        "title": "Weather Forecasting 📊",
-        "ques": "1. Tools used in weather forecasting\n2. What is a weather satellite?\n3. Why is forecasting limited?",
+        "title": "Climate vs Weather 🌡️",
+        "ques": "Differentiate between **climate** and **weather**. What factors affect climate?",
         "answer": {
             "type": "text",
-            "content": "**1. Tools:**\n- Barometer (pressure)\n- Thermometer (temperature)\n- Anemometer (wind speed)\n- Radar (precipitation)\n- Satellites (clouds, movement)\n\n**2. Weather satellites:** Observe Earth from space; track storms, cloud patterns\n\n**3. Limitations:**\n- Atmosphere is chaotic system\n- Small errors grow exponentially\n- ~10 day forecast limit"
+            "content": "**Weather:** Short-term atmospheric conditions (hours to days)\n\n**Climate:** Long-term average weather patterns (30+ years)\n\n*\"Climate is what you expect, weather is what you get\"*\n\n**Climate Factors:**\n| Factor | Effect |\n|--------|--------|\n| Latitude | Higher → colder |\n| Altitude | Higher → colder |\n| Ocean currents | Warm/cold, modifies temperature |\n| Distance from ocean | Maritime vs continental |\n| Topography | Mountains affect precipitation |\n| Prevailing winds | Bring different air masses |"
         },
-        "explanation": "**Chaos theory** limits long-range forecasts. The \"butterfly effect\" makes weather inherently unpredictable."
+        "explanation": "Köppen climate classification uses temperature and precipitation patterns. Climate change alters long-term patterns."
     },
     {
-        "title": "Severe Weather ⚡",
-        "ques": "1. How do hurricanes form?\n2. Tornado formation\n3. Safety during each",
+        "title": "Hurricanes 🌀",
+        "ques": "Describe the **formation** and **structure** of a hurricane.",
         "answer": {
             "type": "text",
-            "content": "**1. Hurricanes:**\n- Form over warm ocean (>26°C)\n- Warm, moist air rises, creates low pressure\n- Coriolis effect causes rotation\n- Safety: Evacuate coast, board windows\n\n**2. Tornadoes:**\n- Form from supercell thunderstorms\n- Wind shear creates rotation\n- Safety: Underground/interior room\n\n**3. Key difference:** Hurricanes = large, slow; Tornadoes = small, intense"
+            "content": "**Formation Requirements:**\n1. Warm ocean water (≥26°C)\n2. Low wind shear\n3. Distance from equator (Coriolis effect)\n4. Moist atmosphere\n5. Pre-existing disturbance\n\n**Structure:**\n- **Eye:** Calm center, 30-60 km diameter\n- **Eye wall:** Most intense winds and rain\n- **Rain bands:** Spiral outward, tornadoes possible\n\n**Saffir-Simpson Scale:**\n| Category | Wind Speed |\n|----------|------------|\n| 1 | 74-95 mph |\n| 3 | 111-129 mph |\n| 5 | ≥157 mph |"
         },
-        "explanation": "**Hurricanes** lose strength over land (no warm water). Tornadoes last minutes; hurricanes last days."
+        "explanation": "Hurricanes weaken over land (cut off from warm water). Same phenomenon called typhoons (Pacific) or cyclones (Indian Ocean)."
     },
     {
-        "title": "Pressure Systems 🌬️",
-        "ques": "1. High vs low pressure systems\n2. Weather each brings\n3. How do winds flow?",
+        "title": "Greenhouse Effect 🌡️",
+        "ques": "Explain the **natural** vs **enhanced** greenhouse effect.",
         "answer": {
             "type": "text",
-            "content": "**1 & 2. Systems:**\n- High pressure: Sinking air, clear skies, stable\n- Low pressure: Rising air, clouds, storms\n\n**3. Wind flow (Northern Hemisphere):**\n- High: Clockwise, outward\n- Low: Counter-clockwise, inward\n\n(Opposite in Southern Hemisphere)"
+            "content": "**Natural Greenhouse Effect:**\n1. Sun's visible light reaches Earth\n2. Surface absorbs → emits infrared\n3. Greenhouse gases trap some IR\n4. Keeps Earth ~33°C warmer than without\n5. Essential for life!\n\n**Enhanced (Anthropogenic):**\n- Human activities increase GHG concentrations\n- CO₂: Fossil fuels, deforestation\n- CH₄: Agriculture, natural gas\n- N₂O: Fertilizers, industry\n\n**Result:**\n- More IR trapped → warming\n- ~1.1°C increase since pre-industrial"
         },
-        "explanation": "**Pressure differences** drive wind. Air moves from high to low pressure, deflected by Coriolis effect."
+        "explanation": "Without natural greenhouse effect, Earth would be ~-18°C. The problem is the rapid enhancement."
+    },
+    {
+        "title": "Water Cycle 💧",
+        "ques": "Diagram and explain the major processes in the **hydrological cycle**.",
+        "answer": {
+            "type": "text",
+            "content": "**Major Processes:**\n\n| Process | Description |\n|---------|------------|\n| **Evaporation** | Liquid → gas (from oceans, lakes) |\n| **Transpiration** | Water released by plants |\n| **Condensation** | Gas → liquid (cloud formation) |\n| **Precipitation** | Rain, snow, sleet, hail |\n| **Infiltration** | Water entering ground |\n| **Runoff** | Surface flow to oceans |\n\n**Reservoirs:**\n- Oceans: 97.2%\n- Ice caps: 2.0%\n- Groundwater: 0.6%\n- Lakes/rivers: 0.02%\n- Atmosphere: 0.001%"
+        },
+        "explanation": "Solar energy and gravity drive the cycle. Residence times vary: atmosphere (9 days), groundwater (100s-1000s years)."
+    },
+    {
+        "title": "Air Pressure and Wind 🌬️",
+        "ques": "Explain the relationship between **air pressure** and **wind**.",
+        "answer": {
+            "type": "text",
+            "content": "**Air Pressure:**\n- Weight of atmosphere above\n- Decreases with altitude\n- Standard: 1013.25 mb (1 atm)\n\n**Pressure-Wind Relationship:**\n- Wind blows from HIGH to LOW pressure\n- Greater pressure difference → stronger wind\n-  Pressure gradient force initiates movement\n\n**Modifying Forces:**\n1. **Coriolis effect:** Deflects wind\n2. **Friction:** Slows surface winds\n\n**Result:**\n- Upper atmosphere: Wind parallel to isobars\n- Surface: Wind crosses isobars toward low"
+        },
+        "explanation": "Low pressure = rising air = clouds/precipitation. High pressure = sinking air = clear skies."
+    },
+    {
+        "title": "El Niño and La Niña 🌊",
+        "ques": "Explain the **ENSO cycle** (El Niño/La Niña) and their global effects.",
+        "answer": {
+            "type": "text",
+            "content": "**El Niño (Warm Phase):**\n- Weakened trade winds\n- Warm water shifts to eastern Pacific\n- Reduced upwelling off South America\n- Heavy rain in Peru, drought in Indonesia\n\n**La Niña (Cool Phase):**\n- Strengthened trade winds\n- Cool water in eastern Pacific\n- Enhanced upwelling\n- Opposite weather patterns\n\n**Global Effects:**\n| Region | El Niño | La Niña |\n|--------|---------|--------|\n| US West | Wet, cool | Dry, warm |\n| US East | Mild winter | Cold winter |\n| Australia | Drought | Flooding |"
+        },
+        "explanation": "ENSO cycles every 2-7 years. Major driver of year-to-year climate variability worldwide."
+    },
+    {
+        "title": "Cloud Classification ☁️",
+        "ques": "Classify clouds by **altitude** and **appearance** with examples.",
+        "answer": {
+            "type": "text",
+            "content": "**Cloud Classification:**\n\n**By Altitude:**\n| Level | Height | Types |\n|-------|--------|-------|\n| High | >6 km | Cirrus, cirrostratus, cirrocumulus |\n| Middle | 2-6 km | Altostratus, altocumulus |\n| Low | <2 km | Stratus, stratocumulus, nimbostratus |\n| Vertical | - | Cumulus, cumulonimbus |\n\n**By Shape:**\n- **Cumulus:** Puffy, flat base\n- **Stratus:** Layered, sheet-like\n- **Cirrus:** Wispy, high ice crystals\n- **Nimbus prefix/suffix:** Rain-bearing"
+        },
+        "explanation": "Luke Howard's 1803 classification still used today. Cumulonimbus can extend through all layers (thunderstorms)."
     }
 ]

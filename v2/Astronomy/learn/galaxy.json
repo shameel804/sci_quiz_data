@@ -2,64 +2,138 @@
     "id": "learn_galaxy",
     "topicId": "galaxy",
     "topicTitle": "Galaxies and Cosmology",
-    "description": "Explore galaxy types, Big Bang, CMB, and dark matter/energy",
-    "baseKP": 75,
+    "description": "Zoom out to the largest scales: Billions of stars, billions of years.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "galaxy_1",
             "type": "content",
-            "title": "Welcome to Galaxies",
-            "content": "# Introduction to Galaxies 🌌\n\n## What you'll learn:\n- Galaxy types\n- The Milky Way\n- Big Bang theory\n- Cosmic microwave background\n- Dark matter and dark energy\n\n## Galaxy Basics\n\n| Property | Typical Value |\n|----------|---------------|\n| Size | 1,000-100,000 ly |\n| Stars | 100M - 100T |\n| Types | Spiral, Elliptical, Irregular |"
+            "title": "What is a Galaxy?",
+            "content": "# Island Universes 🏝️\n\nA massive system of stars, stellar remnants, interstellar gas, dust, and dark matter bound together by gravity.\n\nWe live in the **Milky Way**."
         },
         {
             "id": "galaxy_2",
             "type": "content",
             "title": "Galaxy Types",
-            "content": "# Galaxy Types 🌀\n\n## Spiral Galaxies\n- Disk with spiral arms\n- Young stars in arms\n- Examples: Milky Way, Andromeda\n\n## Elliptical Galaxies\n- Sphere to football shaped\n- Old, red stars\n- Little gas/dust\n\n## Irregular Galaxies\n- No defined shape\n- Often from collisions\n- Examples: Magellanic Clouds"
+            "content": "# Hubble Classification 🔱\n\n1. **Spiral (S)**: Flat disk with arms (Milky Way). New stars forming.\n2. **Elliptical (E)**: Round/Oval blob. Old stars. No gas/dust.\n3. **Irregular (Irr)**: Chaos. Often result of collisions."
         },
         {
             "id": "galaxy_3",
             "type": "content",
             "title": "The Milky Way",
-            "content": "# The Milky Way 🌌\n\n## Key Facts\n\n| Property | Value |\n|----------|-------|\n| Type | Barred spiral |\n| Diameter | ~100,000 ly |\n| Stars | 200-400 billion |\n| Black hole | 4 million solar masses |\n\n## Sun's Location\n- Orion Arm\n- 26,000 ly from center\n- Orbital period: 230 million years"
-        },
-        {
-            "id": "galaxy_quiz_1",
-            "type": "quiz",
-            "title": "Galaxies Quiz",
-            "content": "Test your knowledge!",
-            "quizQuestion": "What type of galaxy is the Milky Way?",
-            "quizOptions": [
-                "Elliptical",
-                "Spiral",
-                "Irregular",
-                "Barred spiral"
-            ],
-            "correctOptionIndex": 3
+            "content": "# Home Sweet Home 🥛\n\n- Barred Spiral Galaxy.\n- ~100-400 Billion stars.\n- 100,000 light-years across.\n- Sun is in the Orion Arm, 26,000 ly from center.\n- Supermassive Black Hole (Sagittarius A*) at the core."
         },
         {
             "id": "galaxy_4",
             "type": "content",
-            "title": "Big Bang Theory",
-            "content": "# The Big Bang 💥\n\n## Timeline\n\n| Time | Event |\n|------|-------|\n| 0 | Singularity |\n| 10^-36 s | Inflation |\n| 3 min | Nucleosynthesis |\n| 380,000 yr | CMB released |\n| 13.8 billion yr | Today |\n\n## Evidence\n- CMB\n- Expanding universe\n- H/He abundances"
+            "title": "Active Galactic Nuclei (AGN)",
+            "content": "# Monsters in the Middle 👹\n\nSupermassive Black Holes feeding voraciously.\n- **Quasars**: Most luminous objects in universe.\n- **Blazars**: Jets pointed at Earth.\n- Outshine their entire galaxy."
         },
         {
             "id": "galaxy_5",
             "type": "content",
-            "title": "Cosmic Microwave Background",
-            "content": "# CMB 📡\n\nThe afterglow of the Big Bang.\n\n## Properties\n\n| Property | Value |\n|----------|-------|\n| Temperature | 2.725 K |\n| Age | 380,000 years after Big Bang |\n| Uniformity | 99.999% |\n\n## Why Microwaves?\nSpace expanded, stretching light from visible to microwave."
+            "title": "Galaxy Collisions",
+            "content": "# Cosmic Dance 💃\n\nGalaxies pass through each other.\n- Stars rarely hit (space is empty).\n- Gas clouds collide $\\to$ Starburst (baby boom).\n- Milky Way will collide with Andromeda in 4.5 billion years."
+        },
+        {
+            "id": "galaxy_quiz_1",
+            "type": "quiz",
+            "title": "Type Quiz",
+            "content": "Identify the shape.",
+            "quizQuestion": "Which galaxy type typically contains the oldest stars and least gas?",
+            "quizOptions": [
+                "Spiral",
+                "Irregular",
+                "Elliptical",
+                "Barred Spiral"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "galaxy_6",
             "type": "content",
-            "title": "Dark Matter and Energy",
-            "content": "# Dark Matter and Energy 🌑\n\n## Universe Composition\n\n| Component | Percentage |\n|-----------|------------|\n| Dark energy | 68% |\n| Dark matter | 27% |\n| Visible matter | 5% |\n\n## Dark Matter\n- Has gravity\n- Does NOT emit light\n- Detected via rotation curves\n\n## Dark Energy\n- Causes accelerating expansion\n- Discovered 1998"
+            "title": "Expansion of Universe",
+            "content": "# Hubble's Law 🎈\n\nObserved that distant galaxies are moving away from us.\n- **Redshift**: Light stretched to red end of spectrum.\n- Farther away = Moving faster.\n- Conclusion: The Universe is expanding."
         },
         {
             "id": "galaxy_7",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n## Key Concepts\n- Galaxy types: Spiral, Elliptical, Irregular\n- Milky Way: Barred spiral, 100,000 ly\n- Big Bang: 13.8 billion years ago\n- CMB: 2.725 K afterglow\n- 95% of universe is dark matter/energy"
+            "title": "The Big Bang",
+            "content": "# The Beginning 💥\n\n~13.8 Billion years ago.\n- Universe started as a hot, dense point.\n- Rapid expansion.\n- Not an explosion *in* space, but an explosion *of* space."
+        },
+        {
+            "id": "galaxy_8",
+            "type": "content",
+            "title": "Cosmic Microwave Background",
+            "content": "# The Afterglow 📺\n\n**CMB**: Radiation left over from the Big Bang.\n- Visible everywhere in the sky.\n- Cooled down to 2.7 Kelvin.\n- The static on old TVs includes CMB photons!\n- Strongest evidence for Big Bang model."
+        },
+        {
+            "id": "galaxy_9",
+            "type": "content",
+            "title": "Dark Matter",
+            "content": "# Invisible Glue 👻\n\nGalaxies spin too fast; they should fly apart.\n- Something invisible provides extra gravity.\n- **Dark Matter**: 85% of matter in universe.\n- Doesn't interact with light. We only know it's there by gravity."
+        },
+        {
+            "id": "galaxy_10",
+            "type": "content",
+            "title": "Dark Energy",
+            "content": "# The Pusher 🌬️\n\nThe expansion of the universe is **accelerating**.\n- Dark Energy is the mysterious force pushing space apart.\n- Makes up ~68% of total energy of universe.\n- We have no idea what it is."
+        },
+        {
+            "id": "galaxy_quiz_2",
+            "type": "quiz",
+            "title": "Cosmo Quiz",
+            "content": "Dark stuff.",
+            "quizQuestion": "What is causing the expansion of the universe to accelerate?",
+            "quizOptions": [
+                "Dark Matter",
+                "Gravity",
+                "Dark Energy",
+                "Supernovae"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "galaxy_11",
+            "type": "content",
+            "title": "Structure of Universe",
+            "content": "# Cosmic Web 🕸️\n\n- Galaxies group into **Clusters**.\n- Clusters group into **Superclusters**.\n- Arranged in filaments with giant **Voids** in between.\n- Looks like a brain's neural network."
+        },
+        {
+            "id": "galaxy_12",
+            "type": "content",
+            "title": "Likely Fate of Universe",
+            "content": "# The End? 🔚\n\nBased on Dark Energy:\n- **Big Freeze / Heat Death**: Expansion continues forever. Stars die. Everything gets cold and dark. (Most likely).\n- **Big Crunch**: Gravity wins, universe collapses back.\n- **Big Rip**: Dark energy tears atoms apart."
+        },
+        {
+            "id": "galaxy_13",
+            "type": "content",
+            "title": "Distance Ladder",
+            "content": "# Measuring Space 📏\n\nHow do we know how far?\n1. **Parallax**: Geometry (Nearby stars).\n2. **Cepheid Variables**: Standard candles (Nearby galaxies).\n3. **Type Ia Supernovae**: Standard explosions (Distant galaxies).\n4. **Redshift**: Hubble's Law (Edge of universe)."
+        },
+        {
+            "id": "galaxy_14",
+            "type": "content",
+            "title": "Gravitational Lensing",
+            "content": "# Space Zoom 🔍\n\nMassive objects (clusters) bend space-time.\n- Light from background galaxies curves around them.\n- Acts as a natural telescope lens to see early universe."
+        },
+        {
+            "id": "galaxy_15",
+            "type": "content",
+            "title": "Early Universe",
+            "content": "# First Light 🕯️\n\n- **Inflation**: Instant expansion.\n- **Recombination**: 380,000 years later, atoms formed, light could finally travel (CMB).\n- **Dark Ages**: Before stars formed."
+        },
+        {
+            "id": "galaxy_16",
+            "type": "content",
+            "title": "Multiverse?",
+            "content": "# Bubbles 🫧\n\nHypothesis: Is our universe just one bubble in a cosmic foam?\n- String theory and Inflation suggest it's possible.\n- Untestable currently, but fun to think about."
+        },
+        {
+            "id": "galaxy_17",
+            "type": "content",
+            "title": "Cosmology Summary",
+            "content": "# Recap 📝\n\n- **Big Bang**: Origin.\n- **Galaxies**: Building blocks.\n- **Expansion**: Driven by Dark Energy.\n- We are a tiny part of a grand, expanding mystery."
         }
     ]
 }

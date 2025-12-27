@@ -1,56 +1,92 @@
 [
     {
-        "title": "Rock Cycle 🪨",
-        "ques": "1. Name the 3 rock types\n2. How is each formed?\n3. Give an example of each",
+        "title": "Earth's Layers 🌍",
+        "ques": "Describe the **4 main layers** of Earth and their characteristics.",
         "answer": {
             "type": "text",
-            "content": "| Type | Formation | Example |\n|------|-----------|--------|\n| **Igneous** | Cooling of magma/lava | Granite, Basalt |\n| **Sedimentary** | Compaction of sediments | Sandstone, Limestone |\n| **Metamorphic** | Heat/pressure on existing rock | Marble, Slate |"
+            "content": "| Layer | Depth | State | Composition |\n|-------|-------|-------|-------------|\n| **Crust** | 5-70 km | Solid | Silicates (continental: granite, oceanic: basalt) |\n| **Mantle** | 70-2900 km | Solid (flows slowly) | Silicate rocks rich in Fe, Mg |\n| **Outer Core** | 2900-5100 km | Liquid | Iron, nickel alloy |\n| **Inner Core** | 5100-6371 km | Solid | Iron, nickel (solid due to pressure) |\n\n**Discovery:** Seismic waves reveal layer boundaries (Moho, Gutenberg discontinuity)"
         },
-        "explanation": "**Rock cycle** transforms rocks between types. Any rock can become any other type given enough time."
+        "explanation": "Earth's layered structure was determined by analyzing how seismic waves from earthquakes travel through Earth."
+    },
+    {
+        "title": "Plate Tectonics 🔀",
+        "ques": "Describe the **3 types** of plate boundaries and give examples of each.",
+        "answer": {
+            "type": "text",
+            "content": "**1. Divergent (spreading):**\n- Plates move apart\n- New crust forms (seafloor spreading)\n- *Example:* Mid-Atlantic Ridge\n\n**2. Convergent (colliding):**\n- Plates move together\n- Subduction or mountain building\n- *Example:* Himalayas (continental-continental)\n- *Example:* Mariana Trench (oceanic-oceanic)\n\n**3. Transform (sliding):**\n- Plates slide past each other\n- Earthquakes common\n- *Example:* San Andreas Fault"
+        },
+        "explanation": "Plate tectonics explains earthquakes, volcanoes, and mountain building. Plates move ~2-10 cm/year."
+    },
+    {
+        "title": "Rock Cycle ♻️",
+        "ques": "Explain the **rock cycle** showing how the 3 rock types transform into each other.",
+        "answer": {
+            "type": "text",
+            "content": "**Three Rock Types:**\n\n**1. Igneous** (from magma/lava)\n→ Weathering/erosion → sediments\n→ Heat/pressure → metamorphic\n→ Melting → magma\n\n**2. Sedimentary** (from sediments)\n→ Compaction/cementation\n→ Heat/pressure → metamorphic\n→ Melting → igneous\n\n**3. Metamorphic** (from heat/pressure)\n→ Melting → igneous\n→ Weathering → sedimentary\n\n*The cycle is continuous with multiple pathways*"
+        },
+        "explanation": "Energy from Earth's interior and Sun drive the rock cycle. It operates over millions of years."
+    },
+    {
+        "title": "Earthquakes 🌋",
+        "ques": "Explain earthquake **magnitude vs intensity** and the scales used to measure them.",
+        "answer": {
+            "type": "text",
+            "content": "**Magnitude (Objective):**\n- Energy released at focus\n- Measured by seismograph\n- **Richter/Moment Magnitude Scale**\n- Logarithmic: each step = 32× energy\n- Single value per earthquake\n\n**Intensity (Subjective):**\n- Effects on people and structures\n- Based on observations\n- **Modified Mercalli Scale** (I-XII)\n- Varies with distance from epicenter\n\n| Magnitude | Effects |\n|-----------|--------|\n| <3.0 | Usually not felt |\n| 4-5 | Light damage |\n| 6-7 | Moderate to severe damage |\n| 8+ | Major destruction |"
+        },
+        "explanation": "The largest recorded earthquake: Chile 1960 (M 9.5). Earthquakes can trigger tsunamis if underwater."
+    },
+    {
+        "title": "Volcanoes Types 🌋",
+        "ques": "Compare **shield, cinder cone, and composite** volcanoes.",
+        "answer": {
+            "type": "text",
+            "content": "| Type | Shape | Eruption Style | Lava | Example |\n|------|-------|----------------|------|--------|\n| **Shield** | Broad, gentle slopes | Effusive, quiet | Low viscosity basalt | Mauna Loa (Hawaii) |\n| **Cinder Cone** | Small, steep | Explosive | Pyroclastic material | Paricutin (Mexico) |\n| **Composite (Stratovolcano)** | Tall, steep | Alternating | Both types | Mt. Fuji, Mt. St. Helens |\n\n**Viscosity determines eruption style:**\nHigh silica → thick lava → explosive\nLow silica → fluid lava → gentle"
+        },
+        "explanation": "Composite volcanoes are most dangerous due to unpredictable explosive eruptions. Ring of Fire has 75% of world's volcanoes."
     },
     {
         "title": "Mineral Identification 💎",
-        "ques": "1. What is Mohs hardness scale?\n2. Properties used to identify minerals\n3. Identify: hardness 3, reacts with acid",
+        "ques": "What properties are used to **identify minerals**? Describe 5 tests.",
         "answer": {
             "type": "text",
-            "content": "**1. Mohs scale:** 1 (talc) to 10 (diamond) measuring scratch resistance\n\n**2. Properties:**\n- Hardness\n- Luster (metallic/non-metallic)\n- Color\n- Streak\n- Cleavage/fracture\n- Crystal structure\n\n**3.** Hardness 3 + acid reaction = **Calcite** (CaCO₃)"
+            "content": "**Mineral Identification Properties:**\n\n| Property | Description | Example |\n|----------|-------------|--------|\n| **Hardness** | Resistance to scratching (Mohs 1-10) | Diamond = 10 |\n| **Streak** | Color of powder on unglazed tile | Hematite = red |\n| **Luster** | How light reflects | Metallic, glassy |\n| **Cleavage** | Tendency to break along planes | Mica = 1 plane |\n| **Specific Gravity** | Density relative to water | Gold = 19.3 |\n\n**Others:** Color, crystal shape, magnetic properties, acid test (calcite fizzes)"
         },
-        "explanation": "**Mineral identification** uses physical properties. Streak color often differs from surface color."
+        "explanation": "Color alone is unreliable—impurities change it. Streak is more consistent."
     },
     {
-        "title": "Plate Tectonics 🌍",
-        "ques": "1. What are tectonic plates?\n2. Three types of boundaries\n3. What drives plate motion?",
+        "title": "Fossils and Geologic Time ⏳",
+        "ques": "How do geologists use **fossils** to date rocks and correlate formations?",
         "answer": {
             "type": "text",
-            "content": "**1.** Large sections of Earth's lithosphere that move on asthenosphere\n\n**2. Boundaries:**\n- Divergent: Plates move apart (mid-ocean ridges)\n- Convergent: Plates collide (mountains, trenches)\n- Transform: Plates slide past (earthquakes)\n\n**3. Drivers:**\n- Mantle convection\n- Ridge push\n- Slab pull"
+            "content": "**Index Fossils:**\n- Organisms that existed briefly but were widespread\n- Used to correlate rock layers globally\n- *Example:* Trilobites (Paleozoic), Ammonites (Mesozoic)\n\n**Requirements for good index fossil:**\n1. Wide geographic distribution\n2. Short time range\n3. Easily recognizable\n4. Abundant\n\n**Relative Dating:** Fossils tell if rock is older/younger than another\n\n**Absolute Dating:** Radiometric dating gives actual age"
         },
-        "explanation": "**Plate tectonics** explains earthquakes, volcanoes, and mountain building. Proposed by Wegener (1912)."
+        "explanation": "Fossil succession principle: Fossils succeed each other in predictable order. William Smith used this to create first geologic maps."
     },
     {
-        "title": "Earthquakes 🌐",
-        "ques": "1. What is earthquake focus vs epicenter?\n2. P-waves vs S-waves\n3. Richter vs Moment magnitude",
+        "title": "Weathering and Erosion 🌧️",
+        "ques": "Distinguish between **mechanical** and **chemical** weathering with examples.",
         "answer": {
             "type": "text",
-            "content": "**1.**\n- Focus: Actual location of rupture (underground)\n- Epicenter: Point on surface directly above focus\n\n**2.**\n- P-waves: Compressional, fastest, through solids/liquids\n- S-waves: Shear, slower, only through solids\n\n**3.**\n- Richter: Original scale, based on amplitude\n- Moment magnitude (Mw): Modern, based on energy released"
+            "content": "**Mechanical (Physical) Weathering:**\nRock broken without chemical change\n\n| Type | Process |\n|------|--------|\n| Frost wedging | Water freezes in cracks, expands |\n| Root wedging | Plant roots grow in cracks |\n| Thermal expansion | Heating/cooling cycles |\n| Abrasion | Rock fragments scrape surfaces |\n\n**Chemical Weathering:**\nMinerals chemically altered\n\n| Type | Process |\n|------|--------|\n| Hydrolysis | Water reacts with minerals |\n| Oxidation | Oxygen reacts (rusting) |\n| Carbonation | CO₂ + H₂O → carbonic acid dissolves limestone |"
         },
-        "explanation": "**Seismic waves** reveal Earth's interior. S-waves not through liquid core proved it's liquid."
+        "explanation": "Climate affects weathering type: humid/warm → chemical; dry/cold → mechanical."
     },
     {
-        "title": "Volcanoes 🌋",
-        "ques": "1. Three volcano types\n2. Why do volcanoes form at plate boundaries?\n3. What is the Ring of Fire?",
+        "title": "Earth's Magnetic Field 🧭",
+        "ques": "What **causes Earth's magnetic field** and what evidence shows it has reversed?",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Shield: Low viscosity, gentle slopes (Hawaii)\n- Composite/Stratovolcano: Explosive, steep (Mt. Fuji)\n- Cinder cone: Small, steep, short-lived\n\n**2. Form because:**\n- Divergent: Magma rises as plates separate\n- Convergent: Subducting plate melts, magma rises\n\n**3. Ring of Fire:** Pacific Ocean rim with 75% of world's volcanoes"
+            "content": "**Cause (Geodynamo Theory):**\n1. Outer core is liquid iron-nickel\n2. Heat causes convection currents\n3. Earth's rotation + convection = dynamo effect\n4. Moving conductor generates magnetic field\n\n**Evidence for Reversals:**\n- Magnetic minerals in rocks record field direction\n- Ocean floor shows symmetrical \"stripes\" on either side of ridge\n- Alternating normal/reversed polarity\n\n**Frequency:** Average every 200,000-300,000 years\n**Last reversal:** 780,000 years ago"
         },
-        "explanation": "**Magma viscosity** determines eruption style. High silica = explosive; low silica = flowing."
+        "explanation": "Magnetic field protects us from solar wind. During reversal, field weakens but doesn't disappear completely."
     },
     {
-        "title": "Earth's Interior 🌐",
-        "ques": "1. Name Earth's layers\n2. Composition of each\n3. How do we know this?",
+        "title": "Radiometric Dating ☢️",
+        "ques": "How does **radioactive dating** work? Explain using Carbon-14 and Uranium-Lead.",
         "answer": {
             "type": "text",
-            "content": "**1 & 2. Layers:**\n- Crust: 5-70 km, silicate rock\n- Mantle: To 2900 km, silicate (partially molten)\n- Outer core: Liquid iron-nickel\n- Inner core: Solid iron-nickel (5500°C)\n\n**3. How we know:**\n- Seismic wave behavior\n- Density calculations\n- Meteorite analysis\n- Magnetic field (liquid iron core)"
+            "content": "**Principle:**\nRadioactive isotopes decay at known rates (half-life)\n\n**Carbon-14:**\n- Half-life: 5,730 years\n- Range: Up to ~50,000 years\n- **Use:** Organic material (fossils, artifacts)\n- ¹⁴C → ¹⁴N + β⁻\n\n**Uranium-Lead:**\n- Half-life: 4.5 billion years (²³⁸U)\n- Range: Millions to billions of years\n- **Use:** Very old rocks, meteorites\n- ²³⁸U → ²⁰⁶Pb\n\n**Age = t × [ln(1 + D/P)] / ln(2)**\nWhere D = daughter, P = parent isotopes"
         },
-        "explanation": "**Seismology** reveals interior structure. Wave speed changes and reflections mark layer boundaries."
+        "explanation": "Different isotopes for different time scales. Earth's age (4.54 billion years) determined by U-Pb dating of meteorites."
     }
 ]

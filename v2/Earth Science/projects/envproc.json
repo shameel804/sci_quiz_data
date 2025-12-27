@@ -1,56 +1,92 @@
 [
     {
-        "title": "Soil Formation 🌱",
-        "ques": "1. What are soil formation factors?\n2. Soil horizons O, A, B, C\n3. Why is topsoil important?",
+        "title": "Groundwater Basics 💧",
+        "ques": "Explain **aquifer types** and the difference between porosity and permeability.",
         "answer": {
             "type": "text",
-            "content": "**1. Factors:** Climate, organisms, relief (topography), parent material, time (CLORPT)\n\n**2. Horizons:**\n- O: Organic matter (leaf litter)\n- A: Topsoil (humus-rich, dark)\n- B: Subsoil (minerals accumulate)\n- C: Weathered parent material\n\n**3. Topsoil importance:** Contains nutrients, organic matter; supports plant growth"
+            "content": "**Aquifer Types:**\n| Type | Characteristics |\n|------|----------------|\n| **Unconfined** | Water table, recharged from surface |\n| **Confined** | Between impermeable layers (aquitards) |\n| **Artesian** | Pressurized confined aquifer |\n\n**Porosity vs Permeability:**\n| Property | Definition |\n|----------|------------|\n| **Porosity** | % of rock that is void space |\n| **Permeability** | How easily water flows through |\n\n*Clay: high porosity, low permeability*\n*Gravel: high both*"
         },
-        "explanation": "**Soil formation** takes 500-1000 years per inch. Erosion can destroy it much faster."
+        "explanation": "Artesian wells can flow without pumping due to pressure. Ogallala Aquifer supplies 30% of US irrigation water."
     },
     {
-        "title": "Water Cycle 💧",
-        "ques": "1. Steps of the water cycle\n2. What is transpiration?\n3. Where is most freshwater?",
+        "title": "Water Table 📉",
+        "ques": "What is the **water table** and what causes it to rise or fall?",
         "answer": {
             "type": "text",
-            "content": "**1. Steps:**\nEvaporation → Condensation → Precipitation → Collection/Runoff\n\n**2. Transpiration:** Water released from plants through leaves (part of evaporation)\n\n**3. Freshwater distribution:**\n- Ice/glaciers: 69%\n- Groundwater: 30%\n- Surface water (lakes/rivers): <1%"
+            "content": "**Water Table:**\nUpper surface of the saturated zone in unconfined aquifers\n\n**Causes of Change:**\n| Rising | Falling |\n|--------|--------|\n| Heavy rainfall | Drought |\n| Reduced pumping | Over-pumping |\n| Flood irrigation | Urbanization (less infiltration) |\n| Snowmelt | Deforestation |\n\n**Relationship to Surface:**\n- Follows topography (smoothed)\n- Lakes/rivers form where water table meets surface\n- Springs: water table intersects hillside"
         },
-        "explanation": "**Water cycle** moves water continuously. Only 3% of Earth's water is fresh, mostly frozen."
+        "explanation": "Cone of depression forms around pumping wells. Sustainable yield = amount that can be withdrawn without long-term decline."
     },
     {
-        "title": "Natural Disasters 🌪️",
-        "ques": "1. Causes of tsunamis\n2. Hurricane categories\n3. How to prepare for disasters",
+        "title": "River Systems 🏞️",
+        "ques": "Describe the features of a **river system** from source to mouth.",
         "answer": {
             "type": "text",
-            "content": "**1. Tsunami causes:**\n- Undersea earthquakes (most common)\n- Volcanic eruptions\n- Landslides into water\n\n**2. Hurricane categories (Saffir-Simpson):**\n- Cat 1: 74-95 mph\n- Cat 5: >157 mph\n\n**3. Preparation:**\n- Emergency kit (water, food, flashlight)\n- Know evacuation routes\n- Secure property"
+            "content": "**Upper Course (Young River):**\n- Steep gradient\n- V-shaped valley\n- Waterfalls, rapids\n- Erosion dominant\n\n**Middle Course (Mature River):**\n- Moderate gradient\n- Wider valley\n- Meanders begin\n- Balance of erosion/deposition\n\n**Lower Course (Old River):**\n- Gentle gradient\n- Wide floodplain\n- Oxbow lakes\n- Deposition dominant\n- Delta at mouth"
         },
-        "explanation": "**Tsunamis** travel at 500+ mph in deep ocean. Early warning systems save lives."
+        "explanation": "River profiles are concave—steep at source, gentle at mouth. Gradient controls energy and erosion power."
     },
     {
-        "title": "Erosion 🏜️",
-        "ques": "1. Types of erosion\n2. What causes the Grand Canyon?\n3. How to prevent erosion",
+        "title": "Flooding 🌊",
+        "ques": "What factors contribute to **floods** and how can they be predicted?",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Water (rivers, rain)\n- Wind (desert areas)\n- Ice (glaciers)\n- Coastal (waves)\n\n**2. Grand Canyon:** Colorado River erosion over 5-6 million years\n\n**3. Prevention:**\n- Plant vegetation\n- Terracing\n- Retaining walls\n- Cover crops"
+            "content": "**Contributing Factors:**\n| Natural | Human |\n|---------|-------|\n| Heavy/prolonged rain | Urbanization (impervious surfaces) |\n| Snowmelt | Deforestation |\n| Saturated soil | Dam failure |\n| Steep terrain | Poor drainage |\n\n**Prediction Tools:**\n- **Hydrograph:** Shows discharge over time\n- **Recurrence interval:** Statistical probability (100-year flood)\n- **Stream gauge data:** Historical records\n- **Radar/satellite precipitation monitoring**\n\n**100-year flood = 1% chance any given year**"
         },
-        "explanation": "**Erosion** moves ~10 billion tons of sediment to oceans annually. Vegetation roots stabilize soil."
+        "explanation": "Flash floods are most dangerous due to rapid onset. Climate change is increasing flood frequency and intensity."
     },
     {
-        "title": "Groundwater 💦",
-        "ques": "1. What is an aquifer?\n2. Water table definition\n3. Problems with over-pumping",
+        "title": "Drainage Patterns 🗺️",
+        "ques": "Identify the main **drainage patterns** and what they indicate about geology.",
         "answer": {
             "type": "text",
-            "content": "**1. Aquifer:** Underground layer of rock/sediment that holds water\n\n**2. Water table:** Top surface of groundwater saturation\n\n**3. Over-pumping problems:**\n- Aquifer depletion\n- Land subsidence (sinking)\n- Saltwater intrusion (coastal)\n- Wells going dry"
+            "content": "**Drainage Pattern Types:**\n\n| Pattern | Shape | Indicates |\n|---------|-------|----------|\n| **Dendritic** | Tree-like branching | Uniform rock, gentle slope |\n| **Rectangular** | Right-angle bends | Jointed/faulted rock |\n| **Radial** | Outward from center | Volcanic cone, dome |\n| **Trellis** | Parallel + perpendicular | Folded sedimentary rock |\n| **Centripetal** | Inward to center | Basin, crater |\n\n*Drainage patterns visible on topographic maps and satellite images*"
         },
-        "explanation": "**Groundwater** provides 40% of US drinking water. Recharge takes years to centuries."
+        "explanation": "Drainage patterns reflect underlying geology—useful for geological mapping from remote sensing."
     },
     {
-        "title": "Sedimentation 🏔️",
-        "ques": "1. What is sediment deposition?\n2. Where does deposition occur?\n3. How do deltas form?",
+        "title": "Water Quality 🔬",
+        "ques": "What parameters are used to measure **water quality** and what do they indicate?",
         "answer": {
             "type": "text",
-            "content": "**1. Deposition:** Settling of transported sediments when water/wind slows\n\n**2. Locations:**\n- River mouths (deltas)\n- Lake bottoms\n- Floodplains\n- Ocean floor\n\n**3. Delta formation:** River slows at ocean → drops sediment → builds up land (Mississippi, Nile)"
+            "content": "**Water Quality Parameters:**\n\n| Parameter | Good Value | Indicates |\n|-----------|------------|----------|\n| **pH** | 6.5-8.5 | Acidity/alkalinity |\n| **Dissolved O₂** | >5 mg/L | Aquatic life support |\n| **Turbidity** | Low NTU | Suspended particles |\n| **BOD** | <2 mg/L | Organic pollution |\n| **Nitrates** | <10 mg/L | Agricultural runoff |\n| **Coliform bacteria** | 0 CFU | Fecal contamination |\n\n**Total Dissolved Solids (TDS):** Mineral content"
         },
-        "explanation": "**Sedimentary processes** build new land and create fossil-bearing rock layers over time."
+        "explanation": "WHO sets drinking water guidelines. Many parameters linked to disease or ecological harm."
+    },
+    {
+        "title": "Glaciers and Ice ❄️",
+        "ques": "How do **glaciers** form and move? What landforms do they create?",
+        "answer": {
+            "type": "text",
+            "content": "**Glacier Formation:**\n1. Snow accumulates faster than it melts\n2. Compaction: Snow → firn → glacial ice\n3. Weight causes plastic flow\n\n**Movement:**\n- Plastic deformation (internal)\n- Basal sliding (on meltwater)\n- Typically 3-300 m/year\n\n**Erosional Landforms:**\n- Cirques, arêtes, horns\n- U-shaped valleys\n- Fjords\n\n**Depositional Landforms:**\n- Moraines (lateral, terminal, ground)\n- Drumlins, eskers\n- Outwash plains"
+        },
+        "explanation": "Glaciers store 69% of freshwater. They're sensitive climate indicators—most retreating rapidly."
+    },
+    {
+        "title": "Lakes and Wetlands 🏞️",
+        "ques": "How do **lakes** form and why do they eventually disappear?",
+        "answer": {
+            "type": "text",
+            "content": "**Lake Formation:**\n| Type | Example |\n|------|--------|\n| Glacial | Great Lakes |\n| Tectonic | Lake Baikal |\n| Volcanic | Crater Lake |\n| Oxbow | Mississippi flood plain |\n| Dammed | Landslide, beaver, human |\n\n**Lake Disappearance:**\n1. **Sediment filling:** Rivers deposit sediment\n2. **Evaporation:** Arid climates\n3. **Outlet erosion:** Drains the lake\n4. **Eutrophication:** Plants overgrow\n\n*All lakes are geologically temporary*"
+        },
+        "explanation": "Wetlands are transition zones—filter water, store floods, support biodiversity. Over 50% of US wetlands lost."
+    },
+    {
+        "title": "Water Treatment 🚿",
+        "ques": "Outline the steps in **drinking water treatment**.",
+        "answer": {
+            "type": "text",
+            "content": "**Treatment Process:**\n\n| Step | Purpose |\n|------|--------|\n| **Screening** | Remove large debris |\n| **Coagulation** | Add chemicals to clump particles |\n| **Flocculation** | Gentle mixing forms flocs |\n| **Sedimentation** | Flocs settle out |\n| **Filtration** | Sand/carbon filters remove remaining particles |\n| **Disinfection** | Kill pathogens (chlorine, UV, ozone) |\n| **Fluoridation** | Optional—dental health |\n| **pH adjustment** | Prevent pipe corrosion |"
+        },
+        "explanation": "Chlorination revolutionized public health in early 1900s. Modern plants may add additional steps for specific contaminants."
+    },
+    {
+        "title": "Karst Topography 🕳️",
+        "ques": "What is **karst topography** and how does it form?",
+        "answer": {
+            "type": "text",
+            "content": "**Karst Formation:**\nChemical weathering of soluble rock (limestone, dolomite, gypsum)\n\n$$CaCO_3 + H_2CO_3 → Ca^{2+} + 2HCO_3^-$$\n\n**Karst Features:**\n| Surface | Underground |\n|---------|------------|\n| Sinkholes | Caves |\n| Disappearing streams | Underground rivers |\n| Karst towers | Stalactites/stalagmites |\n| Poljes (flat basins) | Solution cavities |\n\n**Locations:** Florida, Kentucky, Yucatan, Slovenia"
+        },
+        "explanation": "Karst aquifers are vulnerable to contamination—no filtration. Florida sinkholes can swallow buildings."
     }
 ]

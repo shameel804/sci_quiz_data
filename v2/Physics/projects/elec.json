@@ -1,65 +1,92 @@
 [
     {
-        "title": "Electric Field Fundamentals ⚡",
-        "ques": "Two point charges are placed 1 meter apart:\n- Charge A: **+4 μC** (microcoulombs)\n- Charge B: **-2 μC**\n\n*Given: k = 9 × 10⁹ N⋅m²/C²*\n\n1. Calculate the electric force between them. Is it attractive or repulsive?\n2. What is the electric field at the midpoint between the charges?\n3. Where along the line joining the charges is the electric field zero?",
+        "title": "Electric Field Basics ⚡",
+        "ques": "A point charge of **+5 μC** is placed in space. Calculate the **electric field strength** at a distance of **2 m** from the charge.\n\n**Given:** k = 9 × 10⁹ N·m²/C²",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- q₁ = +4 μC = 4 × 10⁻⁶ C\n- q₂ = -2 μC = -2 × 10⁻⁶ C\n- r = 1 m\n- k = 9 × 10⁹ N⋅m²/C²\n\n### Solutions:\n\n**1. Electric Force (Coulomb's Law):**\n```\nF = k|q₁||q₂|/r²\nF = (9 × 10⁹)(4 × 10⁻⁶)(2 × 10⁻⁶)/(1)²\nF = (9 × 10⁹)(8 × 10⁻¹²)\nF = 0.072 N = 72 mN\n```\n**Attractive** (opposite signs)\n\n**2. Electric Field at Midpoint (x = 0.5 m):**\n```\nE_A = kq₁/r² = (9 × 10⁹)(4 × 10⁻⁶)/(0.5)²\n    = 144,000 N/C (pointing away from A)\n\nE_B = k|q₂|/r² = (9 × 10⁹)(2 × 10⁻⁶)/(0.5)²\n    = 72,000 N/C (pointing toward B)\n```\nBoth fields point in the **same direction** (A→B)\n```\nE_total = 144,000 + 72,000 = 216,000 N/C\n```\n*Toward the negative charge B*\n\n**3. Zero Electric Field Location:**\nField is zero outside the charges, beyond A (the larger charge).\nLet distance from A be x:\n```\nkq₁/x² = k|q₂|/(x+1)²\n4/x² = 2/(x+1)²\n2(x+1)² = x²\n√2(x+1) = x\n1.414x + 1.414 = x\n0.414x = -1.414\nx = -3.41 m (3.41 m to the left of A)\n```"
+            "content": "**Electric Field Formula:**\n$$E = k\\frac{q}{r^2}$$\n\n**Calculation:**\n$$E = \\frac{9 × 10^9 × 5 × 10^{-6}}{4} = \\mathbf{11,250\\ N/C}$$\n\nThe field points **radially outward** from the positive charge."
         },
-        "explanation": "Electric field **superposition** means we add fields as vectors. The field is zero where fields from both charges are equal and opposite - this occurs outside the charges, beyond the larger one."
+        "explanation": "Electric field represents the **force per unit charge**. For positive charges, field vectors point outward."
     },
     {
-        "title": "Ohm's Law and Circuits 🔌",
-        "ques": "Consider a circuit with a **12 V** battery connected to three resistors:\n- R₁ = 4 Ω\n- R₂ = 6 Ω  \n- R₃ = 12 Ω\n\n**Part A:** All resistors in series\n**Part B:** All resistors in parallel\n\nFor each configuration, find:\n1. Total resistance\n2. Total current from the battery\n3. Power dissipated by the circuit",
+        "title": "Ohm's Law Circuit Analysis 🔌",
+        "ques": "A **12V** battery connects to **R₁ = 2Ω**, **R₂ = 4Ω** in series, with **R₃ = 6Ω** in parallel. Find equivalent resistance and total current.",
         "answer": {
             "type": "text",
-            "content": "### Part A: Series Configuration\n\n**1. Total Resistance:**\n```\nR_total = R₁ + R₂ + R₃\nR_total = 4 + 6 + 12 = 22 Ω\n```\n\n**2. Total Current:**\n```\nI = V/R = 12/22 = 0.545 A\n```\n\n**3. Power Dissipated:**\n```\nP = V²/R = 144/22 = 6.55 W\n```\nor P = I²R = (0.545)² × 22 = 6.55 W ✓\n\n---\n\n### Part B: Parallel Configuration\n\n**1. Total Resistance:**\n```\n1/R_total = 1/R₁ + 1/R₂ + 1/R₃\n1/R_total = 1/4 + 1/6 + 1/12\n1/R_total = 3/12 + 2/12 + 1/12 = 6/12 = 1/2\nR_total = 2 Ω\n```\n\n**2. Total Current:**\n```\nI = V/R = 12/2 = 6 A\n```\n\n**3. Power Dissipated:**\n```\nP = V²/R = 144/2 = 72 W\n```\n\n---\n\n### Comparison:\n| Property | Series | Parallel |\n|----------|--------|----------|\n| R_total | 22 Ω | 2 Ω |\n| Current | 0.545 A | 6 A |\n| Power | 6.55 W | 72 W |\n\n*Parallel draws **11× more power** from the same battery!*"
+            "content": "**Solution:**\n- Series: R₁₂ = 2 + 4 = 6Ω\n- Parallel: R_eq = (6 × 6)/(6 + 6) = **3Ω**\n- Current: I = 12/3 = **4A**"
         },
-        "explanation": "In **series**, resistances add up directly (more resistance, less current). In **parallel**, the reciprocals add, so total resistance is always less than the smallest individual resistor. This is why household appliances are wired in parallel - each gets full voltage."
+        "explanation": "In parallel circuits, voltage is the same across branches. Current divides inversely proportional to resistance."
     },
     {
-        "title": "Kirchhoff's Laws Application 🔋",
-        "ques": "Analyze the following circuit using Kirchhoff's Laws:\n\n```\n    ─── R₁=3Ω ───┬─── R₂=6Ω ───\n   │             │              │\n(+)│             R₃=4Ω         │(-)\n 12V             │           6V\n   │             │              │\n    ─────────────┴──────────────\n```\n\nTwo batteries (12V and 6V) with three resistors.\n\n1. State Kirchhoff's Current Law (KCL) and Voltage Law (KVL)\n2. Set up equations to find current through each resistor\n3. Calculate the current through R₃",
+        "title": "Magnetic Force on Charge 🧲",
+        "ques": "An electron moves at **3 × 10⁶ m/s** perpendicular to **0.5 T** field. Find the magnetic force.",
         "answer": {
             "type": "text",
-            "content": "### 1. Kirchhoff's Laws:\n\n**KCL (Current Law):**\n> At any junction, the sum of currents entering equals the sum leaving.\n> ΣI_in = ΣI_out\n\n**KVL (Voltage Law):**\n> Around any closed loop, the sum of all voltage changes equals zero.\n> ΣV = 0\n\n### 2. Setting Up Equations:\n\nLet I₁ flow through R₁, I₂ through R₂, I₃ through R₃.\n\n**At Junction (KCL):**\n```\nI₁ = I₂ + I₃  ... (1)\n```\n\n**Left Loop (KVL, clockwise):**\n```\n12 - 3I₁ - 4I₃ = 0\n12 = 3I₁ + 4I₃  ... (2)\n```\n\n**Right Loop (KVL, clockwise):**\n```\n4I₃ - 6I₂ - 6 = 0\n4I₃ = 6I₂ + 6  ... (3)\n```\n\n### 3. Solving:\n\nFrom (3): I₂ = (4I₃ - 6)/6 = (2I₃ - 3)/3\n\nSubstitute into (1):\nI₁ = (2I₃ - 3)/3 + I₃ = (2I₃ - 3 + 3I₃)/3 = (5I₃ - 3)/3\n\nSubstitute into (2):\n12 = 3 × (5I₃ - 3)/3 + 4I₃\n12 = 5I₃ - 3 + 4I₃\n15 = 9I₃\n\n**I₃ = 15/9 = 5/3 ≈ 1.67 A**\n\nVerification:\n- I₁ = (5 × 5/3 - 3)/3 = (16/3)/3 = 16/9 ≈ 1.78 A\n- I₂ = (2 × 5/3 - 3)/3 = (1/3)/3 = 1/9 ≈ 0.11 A\n- Check KCL: 1.78 ≈ 0.11 + 1.67 ✓"
+            "content": "**Formula:** F = qvB sin(90°)\n\n$$F = 1.6 × 10^{-19} × 3 × 10^6 × 0.5 = \\mathbf{2.4 × 10^{-13}\\ N}$$"
         },
-        "explanation": "**Kirchhoff's Laws** are essential for analyzing complex circuits with multiple batteries or loops. KCL ensures charge conservation at junctions, while KVL ensures energy conservation around loops. These principles are the foundation of circuit analysis."
+        "explanation": "Magnetic force is perpendicular to velocity, causing circular motion without changing speed."
     },
     {
-        "title": "Magnetic Force on Moving Charges 🧲",
-        "ques": "A proton (q = 1.6 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg) moves at **2 × 10⁶ m/s** perpendicular to a magnetic field of **0.5 T**.\n\n1. Calculate the magnetic force on the proton\n2. Describe the path of the proton in this field\n3. Calculate the radius of the circular path\n4. How would the path change if an electron replaced the proton?",
+        "title": "Capacitor Energy Storage 🔋",
+        "ques": "A **100 μF** capacitor at **50 V**. Find stored charge and energy.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- q = 1.6 × 10⁻¹⁹ C\n- m = 1.67 × 10⁻²⁷ kg\n- v = 2 × 10⁶ m/s\n- B = 0.5 T\n- θ = 90° (perpendicular)\n\n### Solutions:\n\n**1. Magnetic Force:**\n```\nF = qvB sin(θ)\nF = (1.6 × 10⁻¹⁹)(2 × 10⁶)(0.5)(1)\nF = 1.6 × 10⁻¹³ N\n```\n\n**2. Path Description:**\n- The magnetic force is always **perpendicular** to velocity\n- This provides **centripetal acceleration**\n- The proton moves in a **circular path**\n- Speed remains constant (magnetic force does no work)\n- Direction changes continuously\n\n**3. Radius of Circular Path:**\nMagnetic force = Centripetal force:\n```\nqvB = mv²/r\nr = mv/(qB)\nr = (1.67 × 10⁻²⁷)(2 × 10⁶)/[(1.6 × 10⁻¹⁹)(0.5)]\nr = (3.34 × 10⁻²¹)/(8 × 10⁻²⁰)\nr = 0.042 m = 4.2 cm\n```\n\n**4. Electron vs. Proton:**\n\n| Property | Proton | Electron |\n|----------|--------|----------|\n| Charge | +e | -e |\n| Mass | 1.67 × 10⁻²⁷ kg | 9.11 × 10⁻³¹ kg |\n| Radius | 4.2 cm | **0.023 mm** |\n| Direction | Clockwise | **Counter-clockwise** |\n\nElectron radius: r = mv/(qB) = (9.11 × 10⁻³¹)(2 × 10⁶)/[(1.6 × 10⁻¹⁹)(0.5)] = 2.3 × 10⁻⁵ m\n\n*The electron curves ~1800× tighter and in the opposite direction!*"
+            "content": "**Solutions:**\n- Charge: Q = CV = 100 × 10⁻⁶ × 50 = **5 mC**\n- Energy: E = ½CV² = ½ × 100 × 10⁻⁶ × 2500 = **0.125 J**"
         },
-        "explanation": "The **Lorentz force** (F = qv × B) is always perpendicular to velocity, so magnetic fields cannot change particle speed, only direction. This principle is used in **cyclotrons**, **mass spectrometers**, and the **Large Hadron Collider**."
+        "explanation": "Capacitors store energy in the electric field between their plates."
     },
     {
-        "title": "Electromagnetic Induction 🔄",
-        "ques": "A rectangular coil with **100 turns**, dimensions **20 cm × 10 cm**, is placed in a magnetic field that changes uniformly from **0 T to 0.5 T** in **0.2 seconds**.\n\n1. Calculate the magnetic flux through the coil at B = 0.5 T\n2. Calculate the induced EMF using Faraday's Law\n3. If the coil has resistance 5 Ω, what current flows?\n4. According to Lenz's Law, what direction does this current flow?",
+        "title": "Faraday's Law 🔄",
+        "ques": "A 20-turn coil (area 0.05 m²) in a field decreasing from 0.8 T to 0.2 T in 0.1 s. Find induced EMF.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- N = 100 turns\n- Area = 0.20 × 0.10 = 0.02 m²\n- ΔB = 0.5 - 0 = 0.5 T\n- Δt = 0.2 s\n- R = 5 Ω\n\n### Solutions:\n\n**1. Magnetic Flux at B = 0.5 T:**\n```\nΦ = BA cos(θ)\nAssuming θ = 0° (field perpendicular to coil):\nΦ = (0.5)(0.02)(1)\nΦ = 0.01 Wb (Weber)\n```\n\n**2. Induced EMF (Faraday's Law):**\n```\nε = -N × dΦ/dt\nε = -N × (ΔΦ/Δt)\nε = -100 × (0.01 - 0)/0.2\nε = -100 × 0.05\n|ε| = 5 V\n```\n\n**3. Induced Current:**\n```\nI = ε/R = 5/5 = 1 A\n```\n\n**4. Current Direction (Lenz's Law):**\n\n- Original field: Increasing (0 → 0.5 T), let's say pointing **into the page**\n- Lenz's Law: Induced current **opposes** the change\n- To oppose increasing inward field, induced field must point **out of page**\n- Using right-hand rule: Current flows **counter-clockwise** when viewed from the direction the original field points\n\n```\n    × × × × (B increasing into page)\n  ┌─────────┐\n  │  ↺ I    │  (Current counter-clockwise)\n  │         │  (Creates B out of page to oppose)\n  └─────────┘\n```"
+            "content": "**Faraday's Law:**\n$$|ε| = N × A × |ΔB/Δt| = 20 × 0.05 × 6 = \\mathbf{6\\ V}$$"
         },
-        "explanation": "**Faraday's Law** (ε = -NdΦ/dt) shows that changing magnetic flux induces an EMF. **Lenz's Law** (the negative sign) ensures the induced current opposes the change - this is a consequence of energy conservation. This is how generators and transformers work!"
+        "explanation": "Induced EMF opposes flux change (Lenz's Law). This is the basis of generators and transformers."
     },
     {
-        "title": "AC Circuit Analysis 📊",
-        "ques": "An AC circuit contains a **100 Ω resistor**, **0.5 H inductor**, and **20 μF capacitor** in series with a **220 V, 50 Hz** AC source.\n\n1. Calculate the reactance of the inductor and capacitor\n2. Calculate the total impedance of the circuit\n3. Find the current in the circuit\n4. At what frequency would resonance occur?",
+        "title": "AC Circuit Impedance 📊",
+        "ques": "Circuit with R = 100Ω, L = 0.2H, C = 50μF at 50Hz. Calculate impedance.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- R = 100 Ω\n- L = 0.5 H\n- C = 20 μF = 20 × 10⁻⁶ F\n- V = 220 V\n- f = 50 Hz\n- ω = 2πf = 100π rad/s\n\n### Solutions:\n\n**1. Reactances:**\n\n*Inductive Reactance:*\n```\nXL = ωL = 2πfL\nXL = (100π)(0.5)\nXL = 50π ≈ 157.1 Ω\n```\n\n*Capacitive Reactance:*\n```\nXC = 1/(ωC) = 1/(2πfC)\nXC = 1/[(100π)(20 × 10⁻⁶)]\nXC = 1/(0.00628)\nXC ≈ 159.2 Ω\n```\n\n**2. Total Impedance:**\n```\nZ = √[R² + (XL - XC)²]\nZ = √[100² + (157.1 - 159.2)²]\nZ = √[10000 + 4.4]\nZ ≈ 100.02 Ω\n```\n*Almost purely resistive since XL ≈ XC!*\n\n**3. Current:**\n```\nI = V/Z = 220/100.02 ≈ 2.2 A\n```\n\n**4. Resonance Frequency:**\nAt resonance: XL = XC\n```\n2πf₀L = 1/(2πf₀C)\nf₀² = 1/(4π²LC)\nf₀ = 1/(2π√LC)\nf₀ = 1/(2π√(0.5 × 20 × 10⁻⁶))\nf₀ = 1/(2π × 0.00316)\nf₀ ≈ 50.3 Hz\n```\n\n*We're already very close to resonance!*"
+            "content": "**Reactances:**\n- X_L = 2π(50)(0.2) = 62.83Ω\n- X_C = 1/(2π × 50 × 50 × 10⁻⁶) = 63.66Ω\n\n**Impedance:** Z = √(100² + (62.83 - 63.66)²) ≈ **100Ω**"
         },
-        "explanation": "At **resonance**, XL = XC, impedance is minimum (Z = R), and current is maximum. This circuit is nearly at resonance, which is why impedance ≈ R. Resonance is crucial in radio tuning, filters, and power transmission."
+        "explanation": "Near resonance (X_L ≈ X_C), impedance equals R and current is maximum."
     },
     {
-        "title": "Electromagnetic Waves Challenge 🌊",
-        "ques": "An electromagnetic wave travels through vacuum with electric field amplitude **E₀ = 300 V/m**.\n\n*Given: c = 3 × 10⁸ m/s, μ₀ = 4π × 10⁻⁷ T⋅m/A, ε₀ = 8.85 × 10⁻¹² F/m*\n\n1. Calculate the magnetic field amplitude B₀\n2. Calculate the intensity of the wave\n3. If this wave has wavelength 500 nm, what is its frequency?\n4. What type of electromagnetic radiation is this?",
+        "title": "EM Wave Properties 🌊",
+        "ques": "EM wave at 100 MHz. Find wavelength and wave type.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- E₀ = 300 V/m\n- c = 3 × 10⁸ m/s\n- μ₀ = 4π × 10⁻⁷ T⋅m/A\n- ε₀ = 8.85 × 10⁻¹² F/m\n- λ = 500 nm = 500 × 10⁻⁹ m\n\n### Solutions:\n\n**1. Magnetic Field Amplitude:**\n```\nE₀/B₀ = c\nB₀ = E₀/c\nB₀ = 300/(3 × 10⁸)\nB₀ = 1 × 10⁻⁶ T = 1 μT\n```\n\n**2. Intensity:**\n```\nI = (1/2)ε₀cE₀²\nI = (1/2)(8.85 × 10⁻¹²)(3 × 10⁸)(300)²\nI = (1/2)(8.85 × 10⁻¹²)(3 × 10⁸)(90000)\nI = (1/2)(2.39 × 10⁵)\nI ≈ 119.5 W/m²\n```\n\nAlternatively:\n```\nI = E₀B₀/(2μ₀) = (300)(10⁻⁶)/(2 × 4π × 10⁻⁷)\n  = 3 × 10⁻⁴/(8π × 10⁻⁷)\n  ≈ 119.4 W/m² ✓\n```\n\n**3. Frequency:**\n```\nc = fλ\nf = c/λ\nf = (3 × 10⁸)/(500 × 10⁻⁹)\nf = 6 × 10¹⁴ Hz = 600 THz\n```\n\n**4. Type of Radiation:**\n\n| Wavelength | Type |\n|------------|------|\n| 500 nm | **Visible Light (Green-Cyan)** |\n\nThe visible spectrum spans ~380-700 nm, and 500 nm falls in the **cyan-green** region."
+            "content": "**Wavelength:** λ = c/f = 3 × 10⁸ / 10⁸ = **3 m**\n\nThis is a **radio wave** (VHF/FM band)."
         },
-        "explanation": "In EM waves, electric and magnetic fields oscillate **perpendicular** to each other and to the direction of propagation. The ratio E/B always equals c in vacuum. EM waves carry energy (~120 W/m² here, similar to indoor lighting)."
+        "explanation": "All EM waves travel at speed c. E and B fields are perpendicular to propagation direction."
+    },
+    {
+        "title": "RC Time Constant ⏱️",
+        "ques": "500 μF capacitor through 10 kΩ resistor. Find time constant and time for 99% charge.",
+        "answer": {
+            "type": "text",
+            "content": "**Time constant:** τ = RC = 10000 × 500 × 10⁻⁶ = **5 s**\n\n**99% charge:** t = 4.605τ = **23 s**"
+        },
+        "explanation": "Capacitor reaches 63.2% after one τ, practically full after 5τ."
+    },
+    {
+        "title": "Transformer Calculations 🔌",
+        "ques": "Step-down transformer: 230V to 12V, secondary draws 2A. Find turns ratio and primary current.",
+        "answer": {
+            "type": "text",
+            "content": "**Turns ratio:** 230/12 = **19.17:1**\n\n**Primary current:** I_p = 2 × 12/230 = **0.104 A**"
+        },
+        "explanation": "Transformers work on electromagnetic induction, only with AC."
+    },
+    {
+        "title": "Kirchhoff's Laws 🔗",
+        "ques": "Apply Kirchhoff's laws to find currents in a two-loop circuit with 10V and 6V sources.",
+        "answer": {
+            "type": "text",
+            "content": "**Method:**\n1. KCL at junction: I₁ = I₂ + I₃\n2. KVL for each loop\n3. Solve system of equations\n\nSystematic application yields unique current values for each branch."
+        },
+        "explanation": "KCL: current in = current out. KVL: voltage sum around loop = 0."
     }
 ]

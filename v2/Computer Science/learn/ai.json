@@ -2,58 +2,138 @@
     "id": "learn_ai",
     "topicId": "ai",
     "topicTitle": "Artificial Intelligence",
-    "description": "Explore machine learning, neural networks, NLP, and AI ethics",
-    "baseKP": 75,
+    "description": "Machines that think (or pretend to).",
+    "baseKP": 100,
     "slides": [
         {
             "id": "ai_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Artificial Intelligence 🤖\n\n## What is AI?\nMachines that can learn and solve problems.\n\n## Types\n| Type | Description |\n|------|-------------|\n| Narrow AI | Specific task |\n| General AI | Human-like (theoretical) |\n| Super AI | Beyond human (theoretical) |"
+            "title": "What is AI?",
+            "content": "# Smart Machines 🤖\n\nSimulation of human intelligence by machines.\n- **Narrow AI**: Good at one task (Chess, Face ID). We have this.\n- **General AI (AGI)**: Good at everything (Human-level). We don't have this yet."
         },
         {
             "id": "ai_2",
             "type": "content",
-            "title": "Machine Learning",
-            "content": "# Machine Learning 📊\n\n## Types\n| Type | Description |\n|------|-------------|\n| Supervised | Labeled data |\n| Unsupervised | Find patterns |\n| Reinforcement | Learn from rewards |\n\n## Common Algorithms\n- Linear regression\n- Decision trees\n- Random forest\n- SVM"
+            "title": "Machine Learning (ML)",
+            "content": "# Learning from Data 📚\n\nInstead of programming rules (\"If red, stop\"), we show data and let computer find rules.\n- Training Data $\\to$ Model $\\to$ Predictions."
         },
         {
             "id": "ai_3",
             "type": "content",
-            "title": "Neural Networks",
-            "content": "# Neural Networks 🧠\n\n## Structure\n```\nInput → Hidden layers → Output\n```\n\n## Deep Learning\n- Many hidden layers\n- Learns features automatically\n\n## Applications\n- Image recognition\n- Speech processing\n- Language translation"
-        },
-        {
-            "id": "ai_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Which ML type uses labeled data?",
-            "quizOptions": [
-                "Unsupervised",
-                "Reinforcement",
-                "Supervised",
-                "Transfer"
-            ],
-            "correctOptionIndex": 2
+            "title": "Supervised Learning",
+            "content": "# Teacher Included 👩‍🏫\n\nTraining with labeled data.\n- Show 1000 pics of cats labeled \"Cat\".\n- Show 1000 pics of dogs labeled \"Dog\".\n- AI learns to distinguish them."
         },
         {
             "id": "ai_4",
             "type": "content",
-            "title": "NLP",
-            "content": "# Natural Language Processing 💬\n\n## Tasks\n- Text classification\n- Sentiment analysis\n- Machine translation\n- Chatbots\n\n## Techniques\n- Tokenization\n- Word embeddings\n- Transformers (GPT, BERT)"
+            "title": "Unsupervised Learning",
+            "content": "# Exploring 🗺️\n\nTraining with NO labels.\n- Give AI huge pile of data.\n- It finds patterns/clusters on its own.\n- \"These customers buy similar things.\""
         },
         {
             "id": "ai_5",
             "type": "content",
-            "title": "AI Ethics",
-            "content": "# AI Ethics ⚖️\n\n## Key Concerns\n| Issue | Description |\n|-------|-------------|\n| Bias | Unfair outcomes |\n| Privacy | Data misuse |\n| Job displacement | Automation |\n| Accountability | Who's responsible? |\n\n## Principles\n- Transparency\n- Fairness\n- Human oversight"
+            "title": "Reinforcement Learning",
+            "content": "# Pavlov's Dog 🐕\n\nLearning by Trial and Error.\n- Valid Action = Reward (+1).\n- Bad Action = Punishment (-1).\n- How AI learns to play video games (Mario) or walk."
+        },
+        {
+            "id": "ai_quiz_1",
+            "type": "quiz",
+            "title": "Method Quiz",
+            "content": "Type check.",
+            "quizQuestion": "Training an AI with labeled examples (Input/Output pairs) is called:",
+            "quizOptions": [
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Supervised Learning",
+                "Magic"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "ai_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- ML: Supervised/Unsupervised/RL\n- Neural networks: Deep learning\n- NLP: Language understanding\n- Ethics: Bias, privacy, accountability"
+            "title": "Neural Networks",
+            "content": "# Digital Brain 🧠\n\nInspired by biological neurons.\n- Layers of nodes connected by \"weights\".\n- Data flows through layers, getting processed.\n- **Deep Learning**: Many, many layers."
+        },
+        {
+            "id": "ai_7",
+            "type": "content",
+            "title": "Backpropagation",
+            "content": "# Learning from Mistakes 📉\n\nThe algorithm that trains Neural Nets.\n1. Make a guess.\n2. Calculate Error (Loss).\n3. Go backward through network, adjusting weights to reduce error."
+        },
+        {
+            "id": "ai_8",
+            "type": "content",
+            "title": "Natural Language Processing (NLP)",
+            "content": "# Talking 🗣️\n\nAI understanding and generating human language.\n- Translation (Google Translate).\n- Chatbots (ChatGPT).\n- Sentiment Analysis."
+        },
+        {
+            "id": "ai_9",
+            "type": "content",
+            "title": "Computer Vision",
+            "content": "# Seeing 👁️\n\nAI interpreting images.\n- Facial Recognition.\n- Self-driving cars seeing stop signs.\n- Medical diagnosis from X-Rays."
+        },
+        {
+            "id": "ai_10",
+            "type": "content",
+            "title": "LLMs (Large Language Models)",
+            "content": "# Predict the Next Word 🔮\n\nModels trained on vast text (internet).\n- They don't \"know\" facts, they predict likely continuations.\n- \"The cat sat on the _____\" -> \"Mat\"."
+        },
+        {
+            "id": "ai_quiz_2",
+            "type": "quiz",
+            "title": "Brain Quiz",
+            "content": "Structure check.",
+            "quizQuestion": "Deep Learning relies on multi-layered structures called:",
+            "quizOptions": [
+                "Decision Trees",
+                "Neural Networks",
+                "If-Else Chains",
+                "Databases"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ai_11",
+            "type": "content",
+            "title": "Bias and Ethics",
+            "content": "# Mirror of Us 🪞\n\nAI learns from data.\n- If data is biased (e.g., historical hiring records), AI becomes biased.\n- Ethical issue: Facial recognition failing on minorities."
+        },
+        {
+            "id": "ai_12",
+            "type": "content",
+            "title": "Turing Test",
+            "content": "# Human or Machine? 🕵️\n\nProposed by Alan Turing (1950).\n- Can a machine converse well enough to fool a human into thinking it's human?\n- Modern AI passes this easily, but is it \"thinking\"?"
+        },
+        {
+            "id": "ai_13",
+            "type": "content",
+            "title": "Generative AI",
+            "content": "# Creator 🎨\n\nAI creating new content.\n- Images (Midjourney).\n- Text (GPT).\n- Music.\nRaises copyright and creativity questions."
+        },
+        {
+            "id": "ai_14",
+            "type": "content",
+            "title": "Robotics and AI",
+            "content": "# Body and Brain 🦾\n\nPutting the brain (AI) inside a body (Robot).\n- Harder than it looks.\n- \"Moravec's Paradox\": Hard stuff (Chess) is easy for AI; Easy stuff (Walking, Folding laundry) is hard."
+        },
+        {
+            "id": "ai_15",
+            "type": "content",
+            "title": "The Singularity",
+            "content": "# Explosion 💥\n\nHypothetical point where AI becomes smarter than humans and improves itself rapidly.\n- Could lead to solving all problems OR extinction."
+        },
+        {
+            "id": "ai_16",
+            "type": "content",
+            "title": "Explainability",
+            "content": "# Black Box 📦\n\nWe often don't know *why* a Neural Net made a decision.\n- \"Why did you deny this loan?\"\n- Important for trust and law."
+        },
+        {
+            "id": "ai_17",
+            "type": "content",
+            "title": "AI Summary",
+            "content": "# Recap 📝\n\n- **ML** finds patterns in data.\n- **Neural Nets** power the revolution.\n- **GenAI** creates.\n- Powerful tool requiring responsible use."
         }
     ]
 }

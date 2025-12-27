@@ -1,56 +1,92 @@
 [
     {
-        "title": "Prime Numbers 🔢",
-        "ques": "1. Is 97 prime?\n2. Find all primes less than 30\n3. Why is 1 not prime?",
+        "title": "Prime Factorization 🔢",
+        "ques": "Find the **prime factorization** of 360 and use it to find the number of divisors.",
         "answer": {
             "type": "text",
-            "content": "**1.** Test divisibility by primes ≤ √97 ≈ 9.8\n97 ÷ 2, 3, 5, 7 → none divide evenly\n**Yes, 97 is prime**\n\n**2.** 2, 3, 5, 7, 11, 13, 17, 19, 23, 29\n\n**3.** 1 is not prime by definition (prime must have exactly 2 factors: 1 and itself). 1 has only 1 factor."
+            "content": "**Prime Factorization of 360:**\n360 = 2 × 180 = 2 × 2 × 90 = 2 × 2 × 2 × 45\n= 2³ × 45 = 2³ × 9 × 5 = **2³ × 3² × 5**\n\n**Number of Divisors:**\n$$τ(n) = (a_1+1)(a_2+1)...(a_k+1)$$\nτ(360) = (3+1)(2+1)(1+1) = 4 × 3 × 2 = **24 divisors**"
         },
-        "explanation": "**Fundamental theorem of arithmetic:** Every integer > 1 is uniquely expressible as product of primes."
-    },
-    {
-        "title": "Modular Arithmetic ⏰",
-        "ques": "Calculate:\n1. 17 mod 5\n2. (23 + 14) mod 7\n3. What day is 100 days after Monday?",
-        "answer": {
-            "type": "text",
-            "content": "**1.** 17 = 5×3 + 2 → **17 mod 5 = 2**\n\n**2.** (23 + 14) mod 7 = 37 mod 7 = **2**\n\n**3.** 100 mod 7 = 2\nMonday + 2 days = **Wednesday**"
-        },
-        "explanation": "**Modular arithmetic** is clock arithmetic. Used in cryptography, checksums, and day calculations."
-    },
-    {
-        "title": "Divisibility Rules 📏",
-        "ques": "Without calculating, determine if 12,345,678 is divisible by:\n1. 2\n2. 3\n3. 9",
-        "answer": {
-            "type": "text",
-            "content": "**1. By 2:** Last digit 8 is even → **Yes**\n\n**2. By 3:** Digit sum = 1+2+3+4+5+6+7+8 = 36\n36 ÷ 3 = 12 → **Yes**\n\n**3. By 9:** Digit sum = 36\n36 ÷ 9 = 4 → **Yes**"
-        },
-        "explanation": "**Divisibility rules** provide quick tests. By 3: digit sum divisible by 3. By 9: digit sum divisible by 9."
+        "explanation": "Every integer >1 has unique prime factorization (Fundamental Theorem of Arithmetic)."
     },
     {
         "title": "GCD and LCM 🔗",
-        "ques": "Find:\n1. GCD(48, 36)\n2. LCM(12, 18)\n3. Relationship between GCD and LCM",
+        "ques": "Find **GCD(48, 180)** and **LCM(48, 180)** using prime factorization.",
         "answer": {
             "type": "text",
-            "content": "**1. GCD by Euclidean algorithm:**\n```\n48 = 36×1 + 12\n36 = 12×3 + 0\nGCD = 12\n```\n\n**2. LCM:**\n12 = 2²×3, 18 = 2×3²\nLCM = 2²×3² = **36**\n\n**3. Relationship:**\nGCD(a,b) × LCM(a,b) = a × b"
+            "content": "**Prime Factorizations:**\n- 48 = 2⁴ × 3\n- 180 = 2² × 3² × 5\n\n**GCD (take minimum powers):**\nGCD = 2^min(4,2) × 3^min(1,2) = 2² × 3 = **12**\n\n**LCM (take maximum powers):**\nLCM = 2⁴ × 3² × 5 = 16 × 9 × 5 = **720**\n\n**Verify:** GCD × LCM = 12 × 720 = 8640 = 48 × 180 ✓"
         },
-        "explanation": "**Euclidean algorithm** efficiently finds GCD. LCM × GCD = product of the numbers."
+        "explanation": "For any a, b: GCD(a,b) × LCM(a,b) = a × b. Euclidean algorithm is another method for GCD."
     },
     {
-        "title": "Fermat's Little Theorem 🧮",
-        "ques": "1. State Fermat's Little Theorem\n2. Find 3¹⁰⁰ mod 7\n3. Application in cryptography",
+        "title": "Modular Arithmetic ⚙️",
+        "ques": "Calculate: **(17 × 23) mod 7**",
         "answer": {
             "type": "text",
-            "content": "**1. Theorem:** If p is prime and gcd(a,p)=1:\naᵖ⁻¹ ≡ 1 (mod p)\n\n**2. Calculate:**\nSince 7 is prime: 3⁶ ≡ 1 (mod 7)\n100 = 6×16 + 4\n3¹⁰⁰ = (3⁶)¹⁶ × 3⁴ ≡ 1 × 81 ≡ **4** (mod 7)\n\n**3. Cryptography:** RSA algorithm uses this for encryption/decryption"
+            "content": "**Method 1 (Direct):**\n17 × 23 = 391\n391 ÷ 7 = 55 remainder 6\n**Answer: 6**\n\n**Method 2 (Reduce first):**\n17 ≡ 3 (mod 7)\n23 ≡ 2 (mod 7)\n3 × 2 = 6 ≡ **6 (mod 7)**\n\n*Reducing first is much easier for large numbers!*"
         },
-        "explanation": "**Fermat's theorem** simplifies modular exponentiation. Essential for modern cryptography."
+        "explanation": "Modular arithmetic is like clock arithmetic. It's fundamental to cryptography (RSA algorithm)."
     },
     {
-        "title": "Diophantine Equations 🔢",
-        "ques": "Solve in integers: 3x + 5y = 17\n1. Find one solution\n2. Find general solution",
+        "title": "Fermat's Little Theorem 🎯",
+        "ques": "Use **Fermat's Little Theorem** to find the remainder when **5^100** is divided by **7**.",
         "answer": {
             "type": "text",
-            "content": "**1. One solution:** Trial: x=4, y=1\n3(4) + 5(1) = 17 ✓\n\n**2. General solution:**\n```\nx = 4 + 5t\ny = 1 - 3t\n```\nFor any integer t\n\n(Check: 3(4+5t) + 5(1-3t) = 12+15t+5-15t = 17 ✓)"
+            "content": "**Fermat's Little Theorem:**\nIf p is prime and gcd(a,p) = 1, then:\n$$a^{p-1} ≡ 1 \\pmod{p}$$\n\n**Apply (p = 7):**\n$$5^6 ≡ 1 \\pmod{7}$$\n\n**Reduce exponent:**\n100 = 6 × 16 + 4, so 100 ≡ 4 (mod 6)\n\n$$5^{100} = (5^6)^{16} × 5^4 ≡ 1^{16} × 5^4 \\pmod{7}$$\n$$5^4 = 625 = 89 × 7 + 2$$\n\n**Answer:** 5^100 ≡ **2 (mod 7)**"
         },
-        "explanation": "**Diophantine equations** seek integer solutions. Solution exists iff gcd(a,b) divides c."
+        "explanation": "Fermat's Little Theorem dramatically simplifies large exponent mod calculations. Euler's theorem generalizes this."
+    },
+    {
+        "title": "Diophantine Equations 📝",
+        "ques": "Find all integer solutions to: **3x + 5y = 23**",
+        "answer": {
+            "type": "text",
+            "content": "**Check if solvable:**\ngcd(3,5) = 1, and 1 | 23 ✓ (solutions exist)\n\n**Find particular solution:**\nBy inspection: x = 1, y = 4 (since 3 + 20 = 23)\n\n**General solution:**\n$$x = 1 + 5t$$\n$$y = 4 - 3t$$\nfor any integer t\n\n**Some solutions:**\n- t=0: (1, 4)\n- t=1: (6, 1)\n- t=-1: (-4, 7)"
+        },
+        "explanation": "Linear Diophantine equation ax + by = c has solutions iff gcd(a,b) divides c."
+    },
+    {
+        "title": "Perfect Numbers 🌟",
+        "ques": "Verify that **28** is a perfect number and explain the connection to Mersenne primes.",
+        "answer": {
+            "type": "text",
+            "content": "**Perfect Number:** Sum of proper divisors equals the number\n\n**Divisors of 28:** 1, 2, 4, 7, 14\n**Sum:** 1 + 2 + 4 + 7 + 14 = **28** ✓\n\n**Euler-Euclid Theorem:**\nIf 2^p - 1 is prime (Mersenne prime), then\nn = 2^(p-1)(2^p - 1) is perfect\n\n**For 28:**\np = 3, 2³-1 = 7 (prime)\n28 = 2² × 7 = 4 × 7 ✓"
+        },
+        "explanation": "Only 51 Mersenne primes known (as of 2024). All known perfect numbers are even; odd perfect numbers may not exist."
+    },
+    {
+        "title": "Divisibility Rules 📋",
+        "ques": "Is **1,234,567,890** divisible by 3, 4, 9, and 11?",
+        "answer": {
+            "type": "text",
+            "content": "**Divisibility by 3:** Sum of digits = 1+2+3+4+5+6+7+8+9+0 = 45\n45 ÷ 3 = 15 ✓ **Yes**\n\n**Divisibility by 4:** Last 2 digits = 90\n90 ÷ 4 = 22.5 **No**\n\n**Divisibility by 9:** Digit sum = 45\n45 ÷ 9 = 5 ✓ **Yes**\n\n**Divisibility by 11:** Alternating sum\n= 0-9+8-7+6-5+4-3+2-1 = -5\n-5 ≢ 0 (mod 11) **No**"
+        },
+        "explanation": "Divisibility rules are shortcuts from modular arithmetic. For 7, the best method is usually direct division."
+    },
+    {
+        "title": "Chinese Remainder Theorem 🧩",
+        "ques": "Find x: **x ≡ 2 (mod 3)** and **x ≡ 3 (mod 5)**",
+        "answer": {
+            "type": "text",
+            "content": "**Chinese Remainder Theorem:**\nSince gcd(3,5) = 1, unique solution exists mod 15\n\n**Method (substitution):**\nFrom first: x = 3k + 2\n\nSubstitute into second:\n3k + 2 ≡ 3 (mod 5)\n3k ≡ 1 (mod 5)\n\n3 × 2 = 6 ≡ 1 (mod 5), so k ≡ 2 (mod 5)\n\n**Solution:**\nx = 3(2) + 2 = **8**\n\n**General:** x ≡ 8 (mod 15)"
+        },
+        "explanation": "CRT guarantees a unique solution mod (m₁ × m₂ × ... × mₖ) when the moduli are pairwise coprime."
+    },
+    {
+        "title": "Euclidean Algorithm 🔄",
+        "ques": "Use the **Euclidean Algorithm** to find GCD(252, 105).",
+        "answer": {
+            "type": "text",
+            "content": "**Euclidean Algorithm:**\nRepeatedly divide larger by smaller\n\n252 = 105 × 2 + 42\n105 = 42 × 2 + 21\n42 = 21 × 2 + **0**\n\n**GCD = last non-zero remainder = 21**\n\n**Verify:**\n252 = 21 × 12\n105 = 21 × 5 ✓"
+        },
+        "explanation": "Euclidean algorithm is efficient: O(log(min(a,b))) steps. It's over 2000 years old but still widely used."
+    },
+    {
+        "title": "Goldbach Conjecture ❓",
+        "ques": "Verify **Goldbach's Conjecture** for **100** by finding its representation as a sum of two primes.",
+        "answer": {
+            "type": "text",
+            "content": "**Goldbach's Conjecture:**\nEvery even integer > 2 is the sum of two primes\n\n**For 100:**\nPrimes below 50: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47\n\n**Check pairs:**\n- 3 + 97 = 100 ✓ (97 is prime)\n- 11 + 89 = 100 ✓ (89 is prime)\n- 17 + 83 = 100 ✓ (83 is prime)\n- 29 + 71 = 100 ✓\n- 41 + 59 = 100 ✓\n- 47 + 53 = 100 ✓\n\n**6 ways to express 100!**"
+        },
+        "explanation": "Goldbach's Conjecture (1742) is unproven but verified for all even numbers up to 4 × 10¹⁸."
     }
 ]

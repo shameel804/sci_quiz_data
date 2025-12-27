@@ -1,65 +1,92 @@
 [
     {
-        "title": "Simple Machines: Levers 🔧",
-        "ques": "A lever has the fulcrum **0.5 m** from the load and **2.0 m** from the effort.\n\n1. What is the mechanical advantage?\n2. If you apply 100 N of force, what load can you lift?\n3. Identify the class of this lever and give an example",
+        "title": "Simple Machines - Lever ⚖️",
+        "ques": "A lever has effort arm **2 m** and load arm **0.5 m**. If load is **200 N**, find the effort needed and mechanical advantage.",
         "answer": {
             "type": "text",
-            "content": "**1. Mechanical Advantage:**\n```\nMA = Effort arm / Load arm\nMA = 2.0 / 0.5 = 4\n```\n\n**2. Load lifted:**\n```\nLoad = Effort × MA = 100 × 4 = 400 N\n```\n\n**3. Class:** First-class lever (fulcrum between load and effort)\n*Examples:* Seesaw, crowbar, scissors"
+            "content": "**Lever principle:** Effort × Effort arm = Load × Load arm\n\n**Effort:** F = (200 × 0.5)/2 = **50 N**\n\n**Mechanical Advantage:** MA = Load/Effort = 200/50 = **4**\n\n*Or* MA = Effort arm/Load arm = 2/0.5 = **4**"
         },
-        "explanation": "**Levers** multiply force at the expense of distance. The mechanical advantage depends on the ratio of arm lengths."
+        "explanation": "Levers trade force for distance. Higher MA means less effort needed but greater movement distance."
     },
     {
-        "title": "Pulley Systems 🏗️",
-        "ques": "A block-and-tackle system uses 4 pulleys to lift a 200 kg load.\n\n1. What is the ideal mechanical advantage?\n2. What force is needed to lift the load?\n3. If you pull 8 m of rope, how high does the load rise?",
+        "title": "Pulley System Analysis 🔧",
+        "ques": "A block-and-tackle system has 4 supporting ropes. To lift a 400 N load by 1 m, find effort force and rope pulled.",
         "answer": {
             "type": "text",
-            "content": "**1. Mechanical Advantage = 4** (number of rope segments supporting load)\n\n**2. Force needed:**\n```\nF = mg/MA = (200 × 10)/4 = 500 N\n```\n\n**3. Height:**\n```\nDistance in = MA × Distance out\n8 = 4 × h → h = 2 m\n```"
+            "content": "**Mechanical Advantage:** MA = number of supporting ropes = 4\n\n**Effort force:** F = Load/MA = 400/4 = **100 N**\n\n**Rope to pull:** d = Load distance × MA = 1 × 4 = **4 m**\n\n*Work in = Work out (ignoring friction)*"
         },
-        "explanation": "**Pulleys** trade distance for force. More pulleys = less effort needed but more rope to pull."
+        "explanation": "Multiple pulleys reduce force but increase the distance you must pull. Total work remains constant."
     },
     {
-        "title": "Bernoulli's Principle ✈️",
-        "ques": "Water flows through a pipe that narrows from 4 cm to 2 cm diameter. Velocity at wide section is 2 m/s.\n\n1. Calculate velocity at narrow section\n2. If pressure at wide section is 200 kPa, find pressure at narrow section\n3. Explain how this relates to airplane lift",
+        "title": "Bernoulli's Principle - Lift 🛫",
+        "ques": "An airplane wing has area **30 m²**. Air velocity is 100 m/s above and 80 m/s below. Calculate lift force. (ρ_air = 1.2 kg/m³)",
         "answer": {
             "type": "text",
-            "content": "**1. Velocity (Continuity):**\n```\nA₁v₁ = A₂v₂\nπ(2)²(2) = π(1)²v₂\nv₂ = 8 m/s\n```\n\n**2. Pressure (Bernoulli):**\n```\nP₁ + ½ρv₁² = P₂ + ½ρv₂²\n200000 + ½(1000)(4) = P₂ + ½(1000)(64)\nP₂ = 200000 + 2000 - 32000 = 170 kPa\n```\n\n**3. Airplane Lift:** Air moves faster over curved top surface → lower pressure above wing → net upward force"
+            "content": "**Bernoulli's equation gives pressure difference:**\n$$ΔP = \\frac{1}{2}ρ(v_{below}² - v_{above}²)$$\n$$ΔP = \\frac{1}{2}(1.2)(6400 - 10000) = -2160\\ Pa$$\n\nPressure is **lower above** (as expected)\n\n**Lift force:** F = |ΔP| × A = 2160 × 30 = **64,800 N**"
         },
-        "explanation": "**Bernoulli's Principle:** faster flow = lower pressure. This explains lift, carburetors, and the curve of a spinning ball."
+        "explanation": "Faster air above wing = lower pressure = upward lift. This is how airplane wings generate lift."
     },
     {
-        "title": "Fluid Pressure 💧",
-        "ques": "A dam holds water 30 m deep.\n\n*ρ_water = 1000 kg/m³, g = 10 m/s²*\n\n1. Calculate pressure at the bottom\n2. Why are dams thicker at the bottom?\n3. Calculate force on a 2 m × 1 m gate at the bottom",
+        "title": "Hydraulic Press 💪",
+        "ques": "A hydraulic press has pistons of area **2 cm²** and **200 cm²**. If 50 N force is applied to small piston, find output force.",
         "answer": {
             "type": "text",
-            "content": "**1. Pressure:**\n```\nP = ρgh = 1000 × 10 × 30 = 300,000 Pa = 300 kPa\n```\n\n**2. Dams are thicker at bottom because pressure increases with depth - more force to resist\n\n**3. Force:**\n```\nF = PA = 300000 × 2 = 600,000 N = 600 kN\n```"
+            "content": "**Pascal's principle:** Pressure transmits equally\n\n$$P = \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$\n\n**Output force:**\n$$F_2 = F_1 × \\frac{A_2}{A_1} = 50 × \\frac{200}{2} = \\mathbf{5000\\ N}$$\n\n**Mechanical advantage:** MA = 100"
         },
-        "explanation": "**Hydrostatic pressure** P = ρgh increases linearly with depth, which is why submarines and dams must withstand enormous forces."
+        "explanation": "Hydraulic systems multiply force by the ratio of piston areas. Used in car brakes and heavy machinery."
     },
     {
-        "title": "Black Holes 🌌",
-        "ques": "A star of mass 10 M☉ (solar masses) collapses to a black hole.\n*M☉ = 2×10³⁰ kg, G = 6.67×10⁻¹¹, c = 3×10⁸ m/s*\n\n1. Calculate the Schwarzschild radius\n2. What is the event horizon?\n3. Can anything escape from inside?",
+        "title": "Fluid Flow - Continuity 🚰",
+        "ques": "Water flows through a pipe at 2 m/s where diameter is 10 cm. Find velocity where diameter narrows to 5 cm.",
         "answer": {
             "type": "text",
-            "content": "**1. Schwarzschild radius:**\n```\nrs = 2GM/c²\nrs = 2(6.67×10⁻¹¹)(2×10³¹)/(3×10⁸)²\nrs = 29.6 km ≈ 30 km\n```\n\n**2. Event horizon:** The boundary at rs where escape velocity = c\n\n**3. No!** Nothing (not even light) can escape once inside the event horizon."
+            "content": "**Continuity equation:** A₁v₁ = A₂v₂\n\n**Area ratio:** A ∝ d², so A₁/A₂ = (10/5)² = 4\n\n**Velocity:**\n$$v_2 = v_1 × \\frac{A_1}{A_2} = 2 × 4 = \\mathbf{8\\ m/s}$$"
         },
-        "explanation": "**Black holes** form when matter compresses within the Schwarzschild radius. The event horizon marks the point of no return."
+        "explanation": "When pipe narrows, fluid speeds up (like your thumb over a garden hose). Mass flow rate stays constant."
     },
     {
-        "title": "Cosmic Rays 🌠",
-        "ques": "A cosmic ray proton travels at 0.99c and collides with Earth's atmosphere.\n\n1. Calculate its Lorentz factor\n2. What happens in the collision?\n3. Why are cosmic rays important for research?",
+        "title": "Black Hole Escape Velocity 🕳️",
+        "ques": "Explain why light cannot escape a black hole using the concept of escape velocity.",
         "answer": {
             "type": "text",
-            "content": "**1. Lorentz factor:**\n```\nγ = 1/√(1-0.99²) = 1/√0.0199 ≈ 7.1\n```\n\n**2. Collision produces:** Air showers - cascades of secondary particles (pions, muons, electrons) detectable on Earth's surface\n\n**3. Importance:**\n- Natural particle accelerators\n- Energies exceeding manmade accelerators\n- Discovered positron, muon, pion\n- Probe extreme astrophysical environments"
+            "content": "**Escape velocity:** $v_e = \\sqrt{\\frac{2GM}{r}}$\n\n**Schwarzschild radius:** When v_e = c (speed of light)\n$$r_s = \\frac{2GM}{c²}$$\n\n**At or inside r_s:**\n- Escape velocity ≥ speed of light\n- Nothing, including light, can escape\n- This boundary is the **event horizon**"
         },
-        "explanation": "**Cosmic rays** are high-energy particles from space reaching energies impossible in labs. They helped discover antimatter!"
+        "explanation": "Black holes are not \"sucking\" objects—they simply have gravity so strong that escape velocity exceeds c."
     },
     {
-        "title": "Inclined Plane Analysis 📐",
-        "ques": "A 50 kg box slides down a 30° incline with μk = 0.2.\n\n1. Calculate normal force\n2. Calculate friction force\n3. Calculate acceleration down the slope",
+        "title": "Cosmic Ray Energy ☄️",
+        "ques": "An ultra-high energy cosmic ray proton has energy 10²⁰ eV. Compare this to a baseball's kinetic energy.",
         "answer": {
             "type": "text",
-            "content": "**1. Normal force:**\n```\nN = mg cos(30°) = 50 × 10 × 0.866 = 433 N\n```\n\n**2. Friction:**\n```\nf = μN = 0.2 × 433 = 86.6 N\n```\n\n**3. Acceleration:**\n```\nF_net = mg sin(30°) - f\n      = 500 × 0.5 - 86.6 = 163.4 N\na = F/m = 163.4/50 = 3.27 m/s²\n```"
+            "content": "**Cosmic ray energy:**\n10²⁰ eV = 10²⁰ × 1.6 × 10⁻¹⁹ J = **16 J**\n\n**Baseball comparison:**\n- Mass: ~0.145 kg, Speed: ~40 m/s (90 mph)\n- KE = ½mv² = ½ × 0.145 × 40² = **116 J**\n\n**A single proton has ~14% the energy of a thrown baseball!**"
         },
-        "explanation": "**Inclined planes** demonstrate force components. Parallel component (mg sin θ) drives motion; normal force (mg cos θ) determines friction."
+        "explanation": "A single subatomic particle with macroscopic energy! Origin of such particles is still actively researched."
+    },
+    {
+        "title": "Buoyancy and Floating 🚢",
+        "ques": "A wooden block (ρ = 600 kg/m³, volume 0.1 m³) floats in water. What fraction is submerged?",
+        "answer": {
+            "type": "text",
+            "content": "**For floating object:** Weight = Buoyant force\n\n$$ρ_{object} × V_{total} × g = ρ_{water} × V_{submerged} × g$$\n\n**Fraction submerged:**\n$$\\frac{V_{submerged}}{V_{total}} = \\frac{ρ_{object}}{ρ_{water}} = \\frac{600}{1000} = \\mathbf{0.6\\ or\\ 60\\%}$$"
+        },
+        "explanation": "Objects float when density < water density. Fraction submerged equals density ratio. Ice floats because ρ_ice = 917 kg/m³."
+    },
+    {
+        "title": "Torque and Equilibrium 🏗️",
+        "ques": "A 4 m uniform beam (weight 200 N) is supported at one end. A 100 N load hangs 3 m from the support. Find the support force.",
+        "answer": {
+            "type": "text",
+            "content": "**Taking moments about support point:**\n\n- Beam weight acts at center (2 m from support)\n- Load at 3 m from support\n- This is a **cantilever** (needs additional support or moment)\n\n**If simply supported at both ends with one support at the load point:**\n\nUsing equilibrium:\n- Sum of forces: F₁ + F₂ = 300 N\n- Sum of moments about F₁: F₂ × 3 = 200 × 2 + 100 × 3\n- F₂ = 533/3 ≈ **233.3 N** at load point\n- F₁ = 300 - 233.3 = **66.7 N**"
+        },
+        "explanation": "Static equilibrium requires both force balance (ΣF = 0) and torque balance (Στ = 0)."
+    },
+    {
+        "title": "Heat Engine Efficiency 🔥",
+        "ques": "A steam engine operates between 500°C and 100°C. Find maximum efficiency and compare to typical real efficiency (35%).",
+        "answer": {
+            "type": "text",
+            "content": "**Convert to Kelvin:** T_H = 773 K, T_C = 373 K\n\n**Carnot efficiency:**\n$$η_{max} = 1 - \\frac{T_C}{T_H} = 1 - \\frac{373}{773} = \\mathbf{51.7\\%}$$\n\n**Real vs Ideal:**\n- Real: 35%, Carnot: 51.7%\n- Actual/Carnot = 35/51.7 = **67.7% of ideal**\n\nLosses: friction, heat leaks, incomplete combustion"
+        },
+        "explanation": "No real engine can reach Carnot efficiency due to irreversibilities. Modern power plants achieve 40-45%."
     }
 ]

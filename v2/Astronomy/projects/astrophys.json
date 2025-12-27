@@ -1,56 +1,92 @@
 [
     {
         "title": "Gravitational Waves 🌊",
-        "ques": "1. What are gravitational waves?\n2. First detection?\n3. What creates them?",
+        "ques": "What are **gravitational waves** and how are they detected?",
         "answer": {
             "type": "text",
-            "content": "**1. Gravitational waves:** Ripples in spacetime caused by accelerating massive objects\n\n**2. First detection:** 2015 by LIGO (two merging black holes, 1.3 billion ly away)\n\n**3. Sources:**\n- Black hole mergers\n- Neutron star collisions\n- Supernovae\n- Big Bang (primordial)"
+            "content": "**Gravitational Waves:**\n- Ripples in spacetime fabric\n- Caused by accelerating massive objects\n- Travel at speed of light\n- Predicted by Einstein (1916), detected 2015\n\n**LIGO Detection:**\n- 4 km laser interferometer arms\n- Measures length change of 10⁻¹⁸ m (1/1000 proton)\n- First detection: Merging black holes (GW150914)\n\n**Sources:** Binary neutron stars, merging black holes, supernovae"
         },
-        "explanation": "**LIGO** measures length changes smaller than a proton. Nobel Prize awarded in 2017."
+        "explanation": "Nobel Prize 2017 to Weiss, Barish, Thorne. Opens new window on universe—\"seeing\" with gravity."
     },
     {
-        "title": "Black Hole Physics 🕳️",
-        "ques": "1. What is event horizon?\n2. Types of black holes\n3. Can anything escape?",
+        "title": "Black Hole Anatomy 🕳️",
+        "ques": "Describe the key features of a **black hole**: event horizon, singularity, ergosphere.",
         "answer": {
             "type": "text",
-            "content": "**1. Event horizon:** Boundary where escape velocity = speed of light; point of no return\n\n**2. Types:**\n- Stellar: 3-10 M☉ (from star collapse)\n- Intermediate: 100-10,000 M☉\n- Supermassive: millions-billions M☉ (galaxy centers)\n\n**3. Escape:** Nothing escapes once inside. Hawking radiation slowly evaporates black holes (theoretically)."
+            "content": "**Black Hole Structure:**\n\n| Feature | Description |\n|---------|------------|\n| **Singularity** | Infinite density point at center |\n| **Event Horizon** | Boundary where escape velocity = c |\n| **Schwarzschild Radius** | r_s = 2GM/c² |\n| **Ergosphere** | Region around rotating BH where spacetime drags |\n| **Photon Sphere** | Where light orbits at 1.5 r_s |\n\n**Types:**\n- Stellar: 3-100 M☉\n- Intermediate: 100-10⁵ M☉\n- Supermassive: 10⁶-10¹⁰ M☉"
         },
-        "explanation": "**Black holes** warp spacetime extremely. First image of black hole (M87) taken in 2019."
+        "explanation": "Black holes can be described by only 3 properties: mass, charge, angular momentum (\"No hair theorem\")."
     },
     {
-        "title": "Relativity in Space ⏱️",
-        "ques": "1. Special vs general relativity\n2. GPS and relativity\n3. Gravitational time dilation",
+        "title": "General Relativity 📐",
+        "ques": "Explain **spacetime curvature** and how mass curves spacetime.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Special: Deals with constant velocity (time dilation, length contraction)\n- General: Includes gravity = curved spacetime\n\n**2. GPS:** Satellites experience both effects; clocks run faster (weaker gravity) and slower (high speed) → net correction needed\n\n**3. Gravitational time dilation:** Clocks run slower in stronger gravity (near massive objects)"
+            "content": "**Einstein's General Relativity (1915):**\n\n**Key Idea:**\n\"Mass tells spacetime how to curve; curved spacetime tells mass how to move\"\n\n**Einstein Field Equations:**\n$$G_{μν} = \\frac{8πG}{c^4}T_{μν}$$\n\n**Evidence:**\n- Mercury's perihelion precession\n- Light bending (Eddington 1919)\n- Gravitational time dilation (GPS satellites)\n- Gravitational waves\n- Black hole shadows"
         },
-        "explanation": "**Without relativistic corrections**, GPS would drift ~10 km per day!"
+        "explanation": "GR replaced Newton's \"action at a distance\" with geometric description. Tested to extreme precision."
     },
     {
-        "title": "Cosmic Rays 🌠",
-        "ques": "1. What are cosmic rays?\n2. Where do they come from?\n3. Effects on Earth",
+        "title": "Cosmic Rays ☄️",
+        "ques": "What are **cosmic rays** and where do they originate?",
         "answer": {
             "type": "text",
-            "content": "**1. Cosmic rays:** High-energy particles (mostly protons) from space\n\n**2. Sources:**\n- Sun (low energy)\n- Supernovae\n- Active galactic nuclei\n- Unknown sources (highest energy)\n\n**3. Effects:**\n- Radiation hazard for astronauts\n-Create air showers in atmosphere\n- Affect electronics\n- Carbon-14 production"
+            "content": "**Cosmic Rays:**\n- High-energy particles (mostly protons)\n- Energies: 10⁹ to 10²⁰ eV\n- Discovered 1912 by Victor Hess\n\n**Sources by Energy:**\n| Energy | Source |\n|--------|--------|\n| Low | Solar wind |\n| Medium | Supernova remnants (shock acceleration) |\n| High | Active galactic nuclei? Unknown |\n\n**Detection:** Pierre Auger Observatory, IceCube\n\n**Effects:** Ionize atmosphere, risk for astronauts"
         },
-        "explanation": "**Highest energy cosmic rays** exceed 10²⁰ eV - far beyond any particle accelerator."
+        "explanation": "Ultra-high energy cosmic rays remain mysterious—what accelerates particles to 10²⁰ eV? Called the \"Oh-My-God particle.\""
     },
     {
-        "title": "Neutron Stars ⭐",
-        "ques": "1. What is a neutron star?\n2. Properties\n3. What are pulsars?",
+        "title": "Hawking Radiation ✨",
+        "ques": "Explain **Hawking radiation** and black hole evaporation.",
         "answer": {
             "type": "text",
-            "content": "**1. Neutron star:** Ultra-dense remnant of supernova; held up by neutron degeneracy pressure\n\n**2. Properties:**\n- Mass: 1.4-2 M☉\n- Size: ~20 km diameter\n- Density: 10¹⁷ kg/m³ (1 teaspoon = billion tons)\n- Magnetic field: trillion times Earth's\n\n**3. Pulsars:** Rotating neutron stars emitting beams of radiation (like lighthouse)"
+            "content": "**Hawking Radiation (1974):**\n\n**Mechanism:**\n1. Quantum vacuum has virtual particle pairs\n2. Near event horizon, one falls in, one escapes\n3. Escaping particle = radiation from black hole\n4. Energy comes from BH mass → BH shrinks\n\n**Temperature:**\n$$T = \\frac{ℏc^3}{8πGMk_B}$$\n\n- Smaller BH = hotter = faster evaporation\n- Stellar BH: T < CMB, so actually gains mass\n- Primordial mini-BH: Could evaporate"
         },
-        "explanation": "**Pulsars** are extremely precise clocks. They were initially thought to be alien signals (\"LGM\")."
+        "explanation": "Hawking radiation implies black holes aren't eternal. Connects quantum mechanics, gravity, thermodynamics."
     },
     {
-        "title": "Active Galactic Nuclei 💫",
-        "ques": "1. What powers AGN?\n2. Types of AGN\n3. Quasars vs normal galaxies",
+        "title": "Neutron Star Physics 🌟",
+        "ques": "Describe the extreme physics inside **neutron stars**.",
         "answer": {
             "type": "text",
-            "content": "**1. Power source:** Supermassive black holes actively accreting matter (extremely luminous)\n\n**2. Types:**\n- Quasars: Most luminous\n- Seyfert galaxies: Spiral with bright nuclei\n- Blazars: Jet pointed toward us\n\n**3. Quasars:** Can outshine entire galaxy by 100×; found at great distances (young universe)"
+            "content": "**Neutron Star Interior:**\n\n| Layer | Composition |\n|-------|------------|\n| Atmosphere | < 1 cm, normal atoms |\n| Outer crust | Nuclei + electron gas |\n| Inner crust | Neutron-rich nuclei, free neutrons |\n| Outer core | Superfluid neutrons, superconducting protons |\n| Inner core | Unknown (quark matter?) |\n\n**Extreme Properties:**\n- Density: 10¹⁴ g/cm³\n- Magnetic field: 10⁸-10¹⁵ Gauss\n- Rotation: Up to 716 Hz (PSR J1748-2446ad)"
         },
-        "explanation": "**Quasars** are some of the most distant objects known. Their light reveals conditions in early universe."
+        "explanation": "Neutron stars are natural laboratories for physics we can't replicate on Earth."
+    },
+    {
+        "title": "Relativistic Jets 💨",
+        "ques": "What are **relativistic jets** and how do they form?",
+        "answer": {
+            "type": "text",
+            "content": "**Relativistic Jets:**\n- Collimated outflows at ~99% speed of light\n- From black holes and neutron stars\n- Extend thousands of light-years\n\n**Formation (Blandford-Znajek):**\n1. Material spirals into accretion disk\n2. Magnetic fields twist and amplify\n3. Energy extracted from rotating black hole\n4. Plasma accelerated along field lines\n\n**Observed in:** AGN, quasars, microquasars, GRBs\n\n**M87 jet:** Imaged by Event Horizon Telescope"
+        },
+        "explanation": "Jets carry enormous energy—can affect galaxy evolution by heating gas and preventing star formation."
+    },
+    {
+        "title": "Gravitational Lensing 🔭",
+        "ques": "Explain **gravitational lensing** and its astronomical applications.",
+        "answer": {
+            "type": "text",
+            "content": "**Gravitational Lensing:**\nMass bends spacetime → light follows curved path\n\n**Types:**\n| Type | Effect | Example |\n|------|--------|--------|\n| **Strong** | Multiple images, arcs | Galaxy clusters |\n| **Weak** | Slight distortion | Dark matter mapping |\n| **Micro** | Brightness change | MACHO searches |\n\n**Applications:**\n- Measure masses of galaxies and clusters\n- Detect dark matter distribution\n- Discover exoplanets\n- Magnify distant galaxies"
+        },
+        "explanation": "Gravitational lensing is a natural telescope. First confirmed by Eddington (1919) during solar eclipse."
+    },
+    {
+        "title": "Gamma-Ray Bursts 💥",
+        "ques": "What causes **gamma-ray bursts (GRBs)** and why are they significant?",
+        "answer": {
+            "type": "text",
+            "content": "**Gamma-Ray Bursts:**\n- Most energetic explosions in universe\n- Brief (ms to minutes) intense gamma-ray flash\n- Discovered 1967 (nuclear test monitors!)\n\n**Types:**\n| Duration | Cause |\n|----------|-------|\n| Short (<2s) | Neutron star mergers |\n| Long (>2s) | Core-collapse supernovae (collapsars) |\n\n**Energy:** 10⁵¹-10⁵⁴ ergs (Sun's lifetime in seconds)\n\n**GW170817:** First GRB with gravitational waves + light"
+        },
+        "explanation": "GRBs pointed at Earth could sterilize the biosphere. Fortunately, they're rare and beamed."
+    },
+    {
+        "title": "Multi-Messenger Astronomy 📡",
+        "ques": "What is **multi-messenger astronomy** and why is it revolutionary?",
+        "answer": {
+            "type": "text",
+            "content": "**Multi-Messenger Astronomy:**\nCombining different \"messengers\" from cosmic sources:\n\n**Messengers:**\n1. **Electromagnetic radiation** (light, radio, X-rays)\n2. **Gravitational waves**\n3. **Neutrinos**\n4. **Cosmic rays**\n\n**GW170817 (Aug 2017):**\n- Gravitational waves from neutron star merger\n- Gamma-ray burst 1.7s later\n- Kilonova in optical/IR\n- ~70 observatories observed\n\n**Revolution:** Complete picture of extreme events"
+        },
+        "explanation": "Era of multi-messenger astronomy began 2017. Each messenger reveals different physics of the same event."
     }
 ]

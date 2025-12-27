@@ -1,56 +1,92 @@
 [
     {
-        "title": "Encryption Basics 🔐",
-        "ques": "1. Symmetric vs asymmetric encryption\n2. What is AES?\n3. What is RSA?",
+        "title": "CIA Triad 🔐",
+        "ques": "Explain the **CIA Triad** - the three pillars of cybersecurity.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Symmetric: Same key encrypts/decrypts (faster)\n- Asymmetric: Public/private key pair (more secure)\n\n**2. AES (Advanced Encryption Standard):**\n- Symmetric encryption\n- 128, 192, or 256-bit keys\n- Used for data at rest\n\n**3. RSA:**\n- Asymmetric encryption\n- Based on factoring large primes\n- Public key encrypts, private key decrypts"
+            "content": "**CIA Triad:**\n\n| Pillar | Meaning | Threats |\n|--------|---------|--------|\n| **Confidentiality** | Only authorized access | Data breaches, eavesdropping |\n| **Integrity** | Data unaltered | Man-in-middle, tampering |\n| **Availability** | Systems accessible | DDoS, ransomware |\n\n**Examples:**\n- Confidentiality: Encryption, access controls\n- Integrity: Hashing, digital signatures\n- Availability: Backups, redundancy"
         },
-        "explanation": "**HTTPS** uses both: RSA to exchange keys, then AES for speed."
+        "explanation": "Security involves balancing all three. Sometimes they conflict (high security can reduce availability)."
+    },
+    {
+        "title": "Encryption Types 🔑",
+        "ques": "Compare **symmetric** and **asymmetric** encryption.",
+        "answer": {
+            "type": "text",
+            "content": "**Symmetric Encryption:**\n- Same key to encrypt/decrypt\n- Fast, efficient\n- Problem: Key distribution\n- *Examples:* AES, DES, ChaCha20\n\n**Asymmetric Encryption:**\n- Public key encrypts, private key decrypts\n- Slower, more secure key exchange\n- *Examples:* RSA, ECC, Diffie-Hellman\n\n**Hybrid Approach (TLS/HTTPS):**\n1. Asymmetric to exchange symmetric key\n2. Symmetric for actual data encryption"
+        },
+        "explanation": "AES-256 is standard for symmetric. RSA-2048+ or ECC for asymmetric."
+    },
+    {
+        "title": "Common Attacks 💀",
+        "ques": "Describe **SQL Injection**, **XSS**, and **CSRF** attacks.",
+        "answer": {
+            "type": "text",
+            "content": "**SQL Injection:**\n- Malicious SQL in user input\n- `'; DROP TABLE users; --`\n- *Prevention:* Parameterized queries\n\n**XSS (Cross-Site Scripting):**\n- Malicious scripts in web pages\n- Steals cookies, sessions\n- *Prevention:* Input sanitization, CSP\n\n**CSRF (Cross-Site Request Forgery):**\n- Tricks user into unwanted action\n- Uses authenticated session\n- *Prevention:* CSRF tokens, SameSite cookies"
+        },
+        "explanation": "OWASP Top 10 lists most critical web security risks. Input validation is key prevention."
+    },
+    {
+        "title": "Password Security 🔒",
+        "ques": "Why should passwords be **hashed** not encrypted? What is salting?",
+        "answer": {
+            "type": "text",
+            "content": "**Hashing vs Encrypting:**\n- **Encryption:** Reversible (need key)\n- **Hashing:** One-way function (can't reverse)\n\n**Why Hash Passwords:**\n- Even if database leaked, passwords safe\n- Server doesn't need to know password\n- Just compare hashes\n\n**Salting:**\n- Add random data before hashing\n- Prevents rainbow table attacks\n- Each user has unique salt\n\n**Good Algorithms:** bcrypt, Argon2, scrypt"
+        },
+        "explanation": "Never store passwords in plaintext! MD5/SHA1 too fast for passwords—use slow hash functions."
     },
     {
         "title": "Network Security 🌐",
-        "ques": "1. What is a firewall?\n2. What is VPN?\n3. Common ports to know",
+        "ques": "What is a **firewall** and how does it protect networks?",
         "answer": {
             "type": "text",
-            "content": "**1. Firewall:** Monitors and filters network traffic based on rules\n\n**2. VPN (Virtual Private Network):**\n- Encrypts internet connection\n- Hides IP address\n- Secures public WiFi\n\n**3. Common ports:**\n- 80: HTTP\n- 443: HTTPS\n- 22: SSH\n- 25: SMTP (email)\n- 3306: MySQL"
+            "content": "**Firewall:**\nMonitors and filters network traffic based on rules\n\n**Types:**\n| Type | Level | Description |\n|------|-------|------------|\n| **Packet filter** | Network | IP, port rules |\n| **Stateful** | Transport | Tracks connections |\n| **Application** | Application | Deep packet inspection |\n| **Next-gen (NGFW)** | All | ML, threat intel |\n\n**Common Rules:**\n- Block all inbound except specified ports\n- Allow outbound web traffic\n- Block known malicious IPs"
         },
-        "explanation": "**Defense in depth:** Multiple security layers. Never rely on single protection."
+        "explanation": "Defense in depth: firewalls are one layer. Also need IDS/IPS, antivirus, user training."
+    },
+    {
+        "title": "Phishing and Social Engineering 🎣",
+        "ques": "What is **phishing** and how can it be prevented?",
+        "answer": {
+            "type": "text",
+            "content": "**Phishing:**\nDeceptive messages to steal credentials/install malware\n\n**Types:**\n- Email phishing (mass)\n- Spear phishing (targeted)\n- Whaling (executives)\n- Smishing (SMS)\n- Vishing (voice)\n\n**Red Flags:**\n- Urgency/fear tactics\n- Suspicious sender/URLs\n- Spelling/grammar errors\n- Requests for credentials\n\n**Prevention:**\n- User training\n- Multi-factor authentication\n- Email filtering\n- DMARC/SPF/DKIM"
+        },
+        "explanation": "Social engineering exploits human psychology. 91% of attacks start with phishing email."
     },
     {
         "title": "Malware Types 🦠",
-        "ques": "1. What is malware?\n2. Types of malware\n3. How to protect against",
+        "ques": "Classify different types of **malware** and their behaviors.",
         "answer": {
             "type": "text",
-            "content": "**1. Malware:** Malicious software designed to harm\n\n**2. Types:**\n- Virus: Attaches to files, spreads\n- Worm: Self-replicates across networks\n- Trojan: Disguised as legitimate software\n- Ransomware: Encrypts files, demands payment\n- Spyware: Secretly monitors user\n\n**3. Protection:**\n- Antivirus software\n- Keep systems updated\n- Don't open suspicious links\n- Backup data regularly"
+            "content": "**Malware Classification:**\n\n| Type | Behavior |\n|------|----------|\n| **Virus** | Attaches to files, spreads on execution |\n| **Worm** | Self-replicates across networks |\n| **Trojan** | Disguised as legitimate software |\n| **Ransomware** | Encrypts files, demands payment |\n| **Spyware** | Collects user data secretly |\n| **Rootkit** | Hides deep in system |\n| **Keylogger** | Records keystrokes |\n| **Botnet** | Controlled by attacker remotely |"
         },
-        "explanation": "**Social engineering** often delivers malware. User awareness is critical!"
+        "explanation": "Modern malware often combines multiple types. Defense: antivirus, updates, backups, least privilege."
     },
     {
-        "title": "Ethical Hacking 🎭",
-        "ques": "1. What is ethical hacking?\n2. Penetration testing phases\n3. Bug bounty programs",
+        "title": "Multi-Factor Authentication 📱",
+        "ques": "Explain **MFA** and the three authentication factors.",
         "answer": {
             "type": "text",
-            "content": "**1. Ethical hacking:** Authorized testing to find vulnerabilities before attackers do\n\n**2. Phases:**\n1. Reconnaissance (gather info)\n2. Scanning (find vulnerabilities)\n3. Exploitation (test vulnerabilities)\n4. Reporting (document findings)\n\n**3. Bug bounty:** Companies pay for finding bugs (Google, Microsoft, etc.)"
+            "content": "**Three Authentication Factors:**\n\n| Factor | Type | Example |\n|--------|------|--------|\n| **Knowledge** | Something you know | Password, PIN |\n| **Possession** | Something you have | Phone, hardware key |\n| **Inherence** | Something you are | Fingerprint, face |\n\n**MFA Strength:**\n- 2FA significantly reduces account takeover\n- Hardware keys (FIDO2) strongest\n- SMS codes weakest (SIM swapping)\n\n**Examples:**\nGoogle Authenticator, YubiKey, Windows Hello"
         },
-        "explanation": "**White hat hackers** help improve security. Always get authorization first!"
+        "explanation": "MFA blocks 99.9% of automated attacks. Passwordless authentication is the future (passkeys)."
     },
     {
-        "title": "Password Security 🔑",
-        "ques": "1. What makes a strong password?\n2. What is hashing?\n3. Two-factor authentication",
+        "title": "Zero Trust Security 🚫",
+        "ques": "What is **Zero Trust** architecture?",
         "answer": {
             "type": "text",
-            "content": "**1. Strong password:**\n- 12+ characters\n- Mix upper/lower/numbers/symbols\n- No dictionary words\n- Unique per site\n\n**2. Hashing:** One-way function to store passwords\n- Password → hash (cannot reverse)\n- Sites store hash, not password\n\n**3. 2FA:** \"Something you know\" + \"Something you have\"\n- Password + phone code\n- Much harder to compromise"
+            "content": "**Zero Trust Principle:**\n\"Never trust, always verify\"\n\n**Traditional vs Zero Trust:**\n| Traditional | Zero Trust |\n|-------------|------------|\n| Trust inside perimeter | Trust no one |\n| Verify once | Verify continuously |\n| Network-based | Identity-based |\n\n**Key Components:**\n- Strong identity verification\n- Least privilege access\n- Micro-segmentation\n- Continuous monitoring\n- Assume breach mentality"
         },
-        "explanation": "**Password managers** help use unique strong passwords. Enable 2FA everywhere!"
+        "explanation": "Modern work (remote, cloud) breaks traditional perimeter. Google's BeyondCorp pioneered Zero Trust."
     },
     {
-        "title": "Common Attacks 💥",
-        "ques": "1. What is SQL injection?\n2. What is phishing?\n3. What is DDoS?",
+        "title": "Incident Response 🚨",
+        "ques": "What are the steps in **incident response**?",
         "answer": {
             "type": "text",
-            "content": "**1. SQL injection:** Inserting malicious SQL through user input\n```sql\n' OR '1'='1' --\n```\nBypasses login if not sanitized\n\n**2. Phishing:** Fake emails/sites to steal credentials\n- Look for suspicious URLs\n- Never click unknown links\n\n**3. DDoS (Distributed Denial of Service):**\n- Overwhelm server with traffic\n- Makes service unavailable\n- Uses botnets (infected computers)"
+            "content": "**NIST Incident Response Phases:**\n\n| Phase | Activities |\n|-------|------------|\n| **Preparation** | Policies, tools, training |\n| **Detection** | Identify incident |\n| **Containment** | Limit damage |\n| **Eradication** | Remove threat |\n| **Recovery** | Restore systems |\n| **Lessons Learned** | Post-mortem analysis |\n\n**Key Roles:**\n- Incident Commander\n- Technical Lead\n- Communications\n- Legal/Compliance"
         },
-        "explanation": "**Input validation** prevents SQL injection. Stay vigilant against phishing!"
+        "explanation": "Time is critical—have playbooks ready. Document everything for potential legal action."
     }
 ]

@@ -1,56 +1,92 @@
 [
     {
-        "title": "Natural Selection 🦒",
-        "ques": "Explain Darwin's natural selection in 4 steps:\n1. What are the conditions needed?\n2. Give an example (peppered moths)",
+        "title": "Natural Selection Mechanisms 🦎",
+        "ques": "Explain the **4 conditions** required for natural selection to occur.",
         "answer": {
             "type": "text",
-            "content": "**4 Steps:**\n1. Variation exists in population\n2. Some variations are heritable\n3. More offspring than can survive\n4. Favorable traits increase in frequency\n\n**Peppered moths:** Before industrial revolution, light moths common. Pollution darkened trees → dark moths survived better → dark moths became common"
+            "content": "**Four Conditions for Natural Selection:**\n\n1. **Variation:** Individuals differ in traits\n\n2. **Heritability:** Traits are passed to offspring\n\n3. **Differential Reproduction:** Some variants survive/reproduce better\n\n4. **Overproduction:** More offspring than can survive\n\n**Result:** Beneficial traits become more common over generations\n\n*Example:* Peppered moths during Industrial Revolution—dark moths survived better on soot-covered trees"
         },
-        "explanation": "**Natural selection** is the mechanism of evolution. Environment 'selects' individuals with advantageous traits."
+        "explanation": "Darwin's theory (1859) explains adaptation. Natural selection acts on phenotypes but changes genotype frequencies."
     },
     {
         "title": "Evidence for Evolution 🦴",
-        "ques": "Explain these types of evidence:\n1. Fossil evidence\n2. Homologous structures\n3. Vestigial structures",
+        "ques": "Describe **3 types of evidence** supporting evolution with examples.",
         "answer": {
             "type": "text",
-            "content": "**1. Fossils:** Show transitional forms (e.g., Archaeopteryx - dinosaur→bird)\n\n**2. Homologous structures:** Same bone structure, different function (arm, wing, flipper) → common ancestor\n\n**3. Vestigial structures:** Reduced organs with no function (human appendix, whale hip bones) → had function in ancestors"
+            "content": "**1. Fossil Record:**\n- Shows transitional forms\n- *Example:* Archaeopteryx (dinosaur→bird features)\n\n**2. Homologous Structures:**\n- Similar anatomy, different functions\n- *Example:* Whale flipper, bat wing, human arm—same bones\n\n**3. Molecular Evidence:**\n- DNA/protein similarities reflect ancestry\n- *Example:* Humans share 98.7% DNA with chimps\n\n**Also:**\n- Vestigial structures (human appendix)\n- Biogeography (island species)"
         },
-        "explanation": "**Multiple lines of evidence** support evolution: fossils, anatomy, embryology, molecular biology."
+        "explanation": "Multiple independent lines of evidence converge on common ancestry. Evolution is both fact (it happened) and theory (how it works)."
     },
     {
-        "title": "Speciation 🌿",
-        "ques": "1. What is speciation?\n2. Explain allopatric vs sympatric\n3. What is reproductive isolation?",
+        "title": "Speciation Types 🌴",
+        "ques": "Compare **allopatric** vs **sympatric** speciation with examples.",
         "answer": {
             "type": "text",
-            "content": "**1. Speciation:** Formation of new species\n\n**2. Types:**\n- Allopatric: Geographic barrier separates populations\n- Sympatric: Speciation in same area (polyploidy, habitat specialization)\n\n**3. Reproductive isolation:** Cannot interbreed and produce fertile offspring (defines species)"
+            "content": "**Allopatric Speciation:**\n- Geographic barrier separates populations\n- Populations evolve independently\n- *Example:* Grand Canyon squirrels—Kaibab and Abert squirrels diverged\n\n**Sympatric Speciation:**\n- No geographic barrier\n- Reproductive isolation develops within same area\n- *Example:* Apple maggot flies—some shifted from hawthorn to apple trees\n\n**Key to Both:** Reproductive isolation prevents gene flow → populations diverge"
         },
-        "explanation": "**Speciation** requires reproductive isolation. Geographic barriers often start the process by preventing gene flow."
+        "explanation": "Allopatric is more common. Sympatric often involves polyploidy in plants or behavioral/temporal isolation."
     },
     {
-        "title": "Genetic Drift 🎴",
-        "ques": "1. What is genetic drift?\n2. Explain bottleneck effect\n3. Explain founder effect",
+        "title": "Genetic Drift 🎲",
+        "ques": "Explain **genetic drift** and describe its two main effects: bottleneck and founder effect.",
         "answer": {
             "type": "text",
-            "content": "**1. Genetic drift:** Random changes in allele frequency, especially in small populations\n\n**2. Bottleneck:** Population crash reduces genetic diversity (cheetahs)\n\n**3. Founder effect:** Small group colonizes new area → limited genetic diversity (Amish communities)"
+            "content": "**Genetic Drift:**\nRandom changes in allele frequencies, especially in small populations\n\n**Bottleneck Effect:**\n- Population drastically reduced (disaster, hunting)\n- Survivors may not represent original gene pool\n- *Example:* Cheetahs—nearly identical genetically\n\n**Founder Effect:**\n- Small group colonizes new area\n- Carries subset of alleles\n- *Example:* Amish—high frequency of Ellis-van Creveld syndrome\n\n**Key:** Random, not adaptive—can reduce genetic diversity"
         },
-        "explanation": "**Genetic drift** is evolution by chance, not selection. It's stronger in small populations."
+        "explanation": "Drift is stronger in small populations. Can lead to fixation or loss of alleles regardless of fitness."
     },
     {
-        "title": "Human Evolution 🧍",
-        "ques": "Put in order (oldest first):\n1. Homo sapiens\n2. Australopithecus\n3. Homo erectus",
+        "title": "Human Evolution Timeline 🧑",
+        "ques": "Create a simplified timeline of **human evolution** with key species and characteristics.",
         "answer": {
             "type": "text",
-            "content": "**Correct order:**\n1. Australopithecus (~4 mya) - bipedal, small brain\n2. Homo erectus (~1.9 mya) - larger brain, used fire\n3. Homo sapiens (~300 kya) - modern humans\n\n**Key traits:** Bipedalism → tool use → larger brain → language"
+            "content": "| MYA | Species | Key Features |\n|-----|---------|-------------|\n| 6-7 | Common ancestor | Split from chimps |\n| 4.4 | *Ardipithecus* | Early biped, forest dwelling |\n| 3.2 | *Australopithecus* | \"Lucy,\" bipedal, small brain |\n| 2.5 | *Homo habilis* | First stone tools |\n| 1.8 | *Homo erectus* | Fire use, left Africa |\n| 0.3 | *Homo sapiens* | Modern humans, language |\n\n**Key transitions:** Bipedalism → Tool use → Brain expansion → Language"
         },
-        "explanation": "**Human evolution** shows gradual development of key traits. We share 98% of DNA with chimpanzees."
+        "explanation": "Human evolution is not linear—multiple hominin species coexisted. All modern humans share recent African ancestry (~200,000 years ago)."
     },
     {
-        "title": "Adaptation Types 🦎",
-        "ques": "Classify these adaptations:\n1. Camouflage\n2. Migration\n3. Thick fur",
+        "title": "Types of Selection 📊",
+        "ques": "Distinguish between **stabilizing, directional, and disruptive** selection with graphs.",
         "answer": {
             "type": "text",
-            "content": "**1. Camouflage** → Structural adaptation (body structure)\n\n**2. Migration** → Behavioral adaptation (actions)\n\n**3. Thick fur** → Structural adaptation (insulation)"
+            "content": "**Stabilizing Selection:**\n- Favors intermediate phenotype\n- Reduces variation\n- *Example:* Human birth weight—too small or too large is risky\n\n**Directional Selection:**\n- Favors one extreme\n- Shifts population mean\n- *Example:* Antibiotic resistance—resistant bacteria increase\n\n**Disruptive Selection:**\n- Favors both extremes\n- May lead to speciation\n- *Example:* African seed crackers—large or small beaks, not intermediate\n\n**Visual:** Distribution curves shift differently for each type"
         },
-        "explanation": "**Adaptations** help organisms survive. They can be structural, behavioral, or physiological (internal processes)."
+        "explanation": "Selection type depends on which phenotypes have highest fitness in the current environment."
+    },
+    {
+        "title": "Coevolution 🌺🦋",
+        "ques": "What is **coevolution**? Give examples of mutualistic and antagonistic coevolution.",
+        "answer": {
+            "type": "text",
+            "content": "**Coevolution:** Two species reciprocally affect each other's evolution\n\n**Mutualistic Coevolution:**\n- Both benefit\n- *Example:* Flowers and pollinators\n  - Long-tongued moths + deep flowers (Madagascar orchid + hawk moth)\n\n**Antagonistic Coevolution:**\n- \"Arms race\" between predator-prey or parasite-host\n- *Example:* Cheetah and gazelle—speed competition\n- *Example:* Newt toxin and garter snake resistance"
+        },
+        "explanation": "Coevolution explains many remarkable adaptations. Red Queen hypothesis: organisms must keep evolving just to maintain fitness."
+    },
+    {
+        "title": "Hardy-Weinberg Equilibrium 📐",
+        "ques": "In a population, 16% have a recessive phenotype. Using **Hardy-Weinberg**, find allele and genotype frequencies.",
+        "answer": {
+            "type": "text",
+            "content": "**Hardy-Weinberg Equations:**\n- p + q = 1 (allele frequencies)\n- p² + 2pq + q² = 1 (genotype frequencies)\n\n**Given:** q² (homozygous recessive) = 0.16\n\n**Solve:**\n- q = √0.16 = **0.4** (recessive allele)\n- p = 1 - 0.4 = **0.6** (dominant allele)\n\n**Genotype Frequencies:**\n- p² = 0.36 (homozygous dominant) = **36%**\n- 2pq = 2(0.6)(0.4) = 0.48 (heterozygous) = **48%**\n- q² = 0.16 (homozygous recessive) = **16%**"
+        },
+        "explanation": "Hardy-Weinberg describes a non-evolving population. Deviations indicate evolution is occurring through selection, drift, mutation, migration, or non-random mating."
+    },
+    {
+        "title": "Analogous vs Homologous Structures 🦅🦇",
+        "ques": "Differentiate **analogous** from **homologous** structures and explain what each indicates about evolution.",
+        "answer": {
+            "type": "text",
+            "content": "**Homologous Structures:**\n- **Same ancestry**, different functions\n- Similar underlying structure\n- Evidence for **common descent**\n- *Example:* Bat wing, whale flipper, human arm\n\n**Analogous Structures:**\n- **Different ancestry**, similar function\n- Result of **convergent evolution**\n- Similar environment → similar adaptations\n- *Example:* Bird wing, butterfly wing, bat wing\n\n**Key:** Homology = shared ancestry, Analogy = shared function"
+        },
+        "explanation": "Analogous structures show evolution is predictable—similar problems have similar solutions. DNA analysis distinguishes homology from analogy."
+    },
+    {
+        "title": "Punctuated Equilibrium vs Gradualism ⏰",
+        "ques": "Compare **gradualism** and **punctuated equilibrium** models of evolutionary change.",
+        "answer": {
+            "type": "text",
+            "content": "**Gradualism:**\n- Evolution is slow and steady\n- Small changes accumulate over time\n- Darwin's original view\n- Supported by some fossil sequences\n\n**Punctuated Equilibrium:**\n- Long periods of stability (stasis)\n- Rapid change during speciation events\n- Proposed by Gould & Eldredge (1972)\n- Explains \"gaps\" in fossil record\n\n**Reality:** Both patterns occur—depends on species and conditions\n\n*Example of punctuation:* Cambrian explosion—rapid diversification 540 MYA"
+        },
+        "explanation": "These models aren't mutually exclusive. Speciation may be rapid relative to geological time but still take thousands of years."
     }
 ]

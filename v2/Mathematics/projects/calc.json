@@ -1,56 +1,92 @@
 [
     {
-        "title": "Limits Introduction 📈",
-        "ques": "Evaluate:\n1. lim(x→3) (x² - 9)/(x - 3)\n2. lim(x→0) sin(x)/x",
+        "title": "Limit Evaluation 🔍",
+        "ques": "Evaluate: **lim(x→2) (x² - 4)/(x - 2)**",
         "answer": {
             "type": "text",
-            "content": "**1.**\n```\n(x² - 9)/(x - 3) = (x+3)(x-3)/(x-3) = x + 3\nlim(x→3) = 3 + 3 = 6\n```\n\n**2.** Standard limit:\n```\nlim(x→0) sin(x)/x = 1\n```\n(Must use radians!)"
+            "content": "**Direct substitution gives:** 0/0 (indeterminate)\n\n**Factor the numerator:**\n$$\\lim_{x→2} \\frac{x^2 - 4}{x - 2} = \\lim_{x→2} \\frac{(x+2)(x-2)}{x-2}$$\n\n**Cancel common factors:**\n$$= \\lim_{x→2} (x + 2) = 2 + 2 = \\mathbf{4}$$"
         },
-        "explanation": "**Limits** find values functions approach. Factor to cancel 0/0; some limits must be memorized."
+        "explanation": "When direct substitution gives 0/0, try factoring, L'Hôpital's rule, or rationalization."
     },
     {
-        "title": "Derivatives 📉",
-        "ques": "Find dy/dx:\n1. y = x³ - 4x² + 2x\n2. y = sin(x) · eˣ",
+        "title": "Basic Derivatives 📉",
+        "ques": "Find the derivative of **f(x) = 3x⁴ - 2x³ + 5x - 7**",
         "answer": {
             "type": "text",
-            "content": "**1. Power rule:**\n```\ndy/dx = 3x² - 8x + 2\n```\n\n**2. Product rule:** (uv)' = u'v + uv'\n```\ndy/dx = cos(x)·eˣ + sin(x)·eˣ\n      = eˣ(cos(x) + sin(x))\n```"
+            "content": "**Power Rule:** d/dx(xⁿ) = nxⁿ⁻¹\n\n**Apply term by term:**\n$$f'(x) = 3(4x^3) - 2(3x^2) + 5(1) - 0$$\n$$f'(x) = \\mathbf{12x^3 - 6x^2 + 5}$$"
         },
-        "explanation": "**Derivatives** measure rate of change. Power rule: d/dx(xⁿ) = nxⁿ⁻¹. Product rule for products."
+        "explanation": "Constants disappear, coefficients multiply by the power, and powers decrease by 1."
     },
     {
-        "title": "Applications of Derivatives 🎯",
-        "ques": "For f(x) = x³ - 6x² + 9x + 1:\n1. Find critical points\n2. Find local max/min\n3. Find inflection point",
+        "title": "Chain Rule 🔗",
+        "ques": "Find dy/dx if **y = (3x² + 1)⁵**",
         "answer": {
             "type": "text",
-            "content": "**1. Critical points:** f'(x) = 0\n```\n3x² - 12x + 9 = 0\n3(x² - 4x + 3) = 0\n(x-1)(x-3) = 0\nx = 1, x = 3\n```\n\n**2. Second derivative test:**\nf''(x) = 6x - 12\n- f''(1) = -6 < 0 → **Local max at x=1**\n- f''(3) = 6 > 0 → **Local min at x=3**\n\n**3. Inflection:** f''(x) = 0 → **x = 2**"
+            "content": "**Chain Rule:** d/dx[f(g(x))] = f'(g(x)) · g'(x)\n\n**Let u = 3x² + 1, so y = u⁵**\n\n**Derivatives:**\n- dy/du = 5u⁴\n- du/dx = 6x\n\n**Chain rule:**\n$$\\frac{dy}{dx} = 5u^4 · 6x = 5(3x^2+1)^4 · 6x$$\n$$= \\mathbf{30x(3x^2+1)^4}$$"
         },
-        "explanation": "**Critical points** where f'(x) = 0 or undefined. Second derivative test determines max/min."
+        "explanation": "The chain rule handles composite functions. Think: \"derivative of outside times derivative of inside.\""
     },
     {
-        "title": "Integrals 📐",
-        "ques": "Evaluate:\n1. ∫(3x² + 2x - 1)dx\n2. ∫₀² x² dx",
+        "title": "Basic Integration ∫",
+        "ques": "Evaluate: **∫(4x³ - 6x + 2)dx**",
         "answer": {
             "type": "text",
-            "content": "**1. Indefinite:**\n```\n∫(3x² + 2x - 1)dx = x³ + x² - x + C\n```\n\n**2. Definite:**\n```\n∫₀² x² dx = [x³/3]₀²\n= 8/3 - 0 = 8/3\n```"
+            "content": "**Power Rule for Integration:**\n$$∫x^n dx = \\frac{x^{n+1}}{n+1} + C$$\n\n**Apply term by term:**\n$$∫(4x^3 - 6x + 2)dx = \\frac{4x^4}{4} - \\frac{6x^2}{2} + 2x + C$$\n$$= \\mathbf{x^4 - 3x^2 + 2x + C}$$"
         },
-        "explanation": "**Integration** is reverse of differentiation. Add constant C for indefinite; evaluate bounds for definite."
+        "explanation": "Integration is the reverse of differentiation. Always add +C for indefinite integrals."
     },
     {
-        "title": "Differential Equations 🔄",
-        "ques": "Solve:\n1. dy/dx = 2x, y(0) = 3\n2. dy/dx = y, y(0) = 1",
+        "title": "Definite Integral 📊",
+        "ques": "Evaluate: **∫₀² (x² + 1)dx**",
         "answer": {
             "type": "text",
-            "content": "**1. Integrate:**\n```\ny = ∫2x dx = x² + C\ny(0) = 3 → C = 3\ny = x² + 3\n```\n\n**2. Separation:**\n```\ndy/y = dx\nln|y| = x + C\ny = Aeˣ\ny(0) = 1 → A = 1\ny = eˣ\n```"
+            "content": "**First find antiderivative:**\n$$F(x) = \\frac{x^3}{3} + x$$\n\n**Apply Fundamental Theorem:**\n$$∫_0^2 (x^2+1)dx = F(2) - F(0)$$\n$$= \\left(\\frac{8}{3} + 2\\right) - \\left(0 + 0\\right)$$\n$$= \\frac{8}{3} + 2 = \\frac{8 + 6}{3} = \\mathbf{\\frac{14}{3}}$$"
         },
-        "explanation": "**Differential equations** relate function to its derivatives. Many describe natural phenomena (growth, decay)."
+        "explanation": "Definite integrals give the net signed area under the curve between the limits."
     },
     {
-        "title": "Area Under Curves 📊",
-        "ques": "Find area between y = x² and y = x from x = 0 to x = 1",
+        "title": "Product Rule 🔄",
+        "ques": "Find the derivative of **f(x) = x² · sin(x)**",
         "answer": {
             "type": "text",
-            "content": "**Solution:**\n```\nArea = ∫₀¹ (x - x²) dx\n     = [x²/2 - x³/3]₀¹\n     = (1/2 - 1/3) - 0\n     = 1/6 square units\n```\nNote: y = x is above y = x² in [0,1]"
+            "content": "**Product Rule:** (uv)' = u'v + uv'\n\n**Let u = x², v = sin(x)**\n- u' = 2x\n- v' = cos(x)\n\n**Apply Product Rule:**\n$$f'(x) = 2x · \\sin(x) + x^2 · \\cos(x)$$\n$$= \\mathbf{2x\\sin(x) + x^2\\cos(x)}$$"
         },
-        "explanation": "**Area between curves** = ∫(top - bottom)dx. Always subtract lower from upper function."
+        "explanation": "Product rule needed when two functions are multiplied. Remember: differentiate one, keep the other, then swap."
+    },
+    {
+        "title": "Differential Equations - Separable 🔀",
+        "ques": "Solve the differential equation: **dy/dx = 2xy** with y(0) = 1",
+        "answer": {
+            "type": "text",
+            "content": "**Separate variables:**\n$$\\frac{dy}{y} = 2x\\,dx$$\n\n**Integrate both sides:**\n$$\\ln|y| = x^2 + C$$\n\n**Solve for y:**\n$$y = e^{x^2 + C} = Ae^{x^2}$$\n\n**Apply initial condition y(0) = 1:**\n$$1 = Ae^0 → A = 1$$\n\n**Solution:** $y = \\mathbf{e^{x^2}}$"
+        },
+        "explanation": "Separable equations: get all y's on one side, all x's on the other, then integrate."
+    },
+    {
+        "title": "Optimization Problem 📈",
+        "ques": "A farmer has **100 m** of fencing. What dimensions maximize the rectangular area?",
+        "answer": {
+            "type": "text",
+            "content": "**Setup:**\n- Perimeter: 2l + 2w = 100 → l + w = 50 → w = 50 - l\n- Area: A = l × w = l(50 - l) = 50l - l²\n\n**Find critical points:**\n$$\\frac{dA}{dl} = 50 - 2l = 0$$\n$$l = 25$$\n\n**Therefore:** w = 50 - 25 = 25\n\n**Dimensions:** 25 m × 25 m (a **square**)\n**Maximum Area:** 625 m²"
+        },
+        "explanation": "For fixed perimeter, a square maximizes area. Verify with second derivative: A'' = -2 < 0 (maximum)."
+    },
+    {
+        "title": "Related Rates ⏱️",
+        "ques": "A balloon's radius increases at **2 cm/s**. How fast is the volume increasing when r = 5 cm?",
+        "answer": {
+            "type": "text",
+            "content": "**Volume formula:** V = (4/3)πr³\n\n**Differentiate with respect to time:**\n$$\\frac{dV}{dt} = 4πr^2 \\frac{dr}{dt}$$\n\n**Given:** dr/dt = 2 cm/s, r = 5 cm\n\n**Substitute:**\n$$\\frac{dV}{dt} = 4π(5)^2(2) = 4π(25)(2)$$\n$$\\frac{dV}{dt} = \\mathbf{200π ≈ 628.3\\ cm^3/s}$$"
+        },
+        "explanation": "Related rates problems connect rates of change of different quantities. Always differentiate implicitly with respect to time."
+    },
+    {
+        "title": "Integration by Substitution 🔄",
+        "ques": "Evaluate: **∫2x · cos(x²)dx**",
+        "answer": {
+            "type": "text",
+            "content": "**Substitution:** Let u = x²\n\n**Then:** du = 2x dx\n\n**Transform integral:**\n$$∫2x · \\cos(x^2)dx = ∫\\cos(u)\\,du$$\n\n**Integrate:**\n$$= \\sin(u) + C$$\n\n**Substitute back:**\n$$= \\mathbf{\\sin(x^2) + C}$$"
+        },
+        "explanation": "u-substitution is the reverse of chain rule. Look for a function and its derivative inside the integral."
     }
 ]

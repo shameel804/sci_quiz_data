@@ -1,56 +1,92 @@
 [
     {
-        "title": "Mole Calculations ⚖️",
-        "ques": "Calculate for 18g of water (H₂O):\n1. Number of moles\n2. Number of molecules\n3. Number of hydrogen atoms",
+        "title": "Mole Calculations 🧮",
+        "ques": "How many moles and molecules are in **36 g** of water (H₂O)?",
         "answer": {
             "type": "text",
-            "content": "**1. Moles:**\n```\nMolar mass H₂O = 2(1) + 16 = 18 g/mol\nmoles = 18g / 18g/mol = 1 mol\n```\n\n**2. Molecules:**\n```\n1 mol × 6.022×10²³ = 6.022×10²³ molecules\n```\n\n**3. H atoms:**\n```\n2 H per molecule × 6.022×10²³ = 1.204×10²⁴ atoms\n```"
+            "content": "**Molar mass of H₂O:** 2(1) + 16 = 18 g/mol\n\n**Moles:** n = mass/molar mass = 36/18 = **2 mol**\n\n**Molecules:** N = n × Nₐ\nN = 2 × 6.022 × 10²³ = **1.204 × 10²⁴ molecules**\n\n*That's over a trillion trillion molecules!*"
         },
-        "explanation": "**Avogadro's number** (6.022×10²³) is the bridge between moles and particles. Always use molar mass to convert mass to moles first."
+        "explanation": "Avogadro's number (6.022 × 10²³) connects moles to number of particles."
     },
     {
-        "title": "Titration Calculation 🧫",
-        "ques": "25 mL of unknown HCl requires 30 mL of 0.1 M NaOH for neutralization.\n\n1. Find molarity of HCl\n2. Find mass of HCl in 100 mL of this solution\n3. What indicator would you use?",
+        "title": "Stoichiometry Problem ⚖️",
+        "ques": "How many grams of CO₂ are produced when **50 g** of CaCO₃ completely decomposes?\n\nCaCO₃ → CaO + CO₂",
         "answer": {
             "type": "text",
-            "content": "**1. Molarity:**\n```\nM₁V₁ = M₂V₂\nM × 25 = 0.1 × 30\nM = 0.12 M\n```\n\n**2. Mass in 100 mL:**\n```\nmoles = 0.12 × 0.1 = 0.012 mol\nmass = 0.012 × 36.5 = 0.438 g\n```\n\n**3. Indicator:** Phenolphthalein (colorless in acid, pink in base)"
+            "content": "**Step 1:** Molar masses\n- CaCO₃: 40 + 12 + 48 = 100 g/mol\n- CO₂: 12 + 32 = 44 g/mol\n\n**Step 2:** Moles of CaCO₃\nn = 50/100 = 0.5 mol\n\n**Step 3:** Mole ratio (1:1)\nMoles of CO₂ = 0.5 mol\n\n**Step 4:** Mass of CO₂\nm = 0.5 × 44 = **22 g**"
         },
-        "explanation": "**Titration** uses known concentration to find unknown. Strong acid + strong base → pH 7 at endpoint."
+        "explanation": "Stoichiometry uses balanced equations to relate amounts. The 1:1 ratio means equal moles of reactant and product."
     },
     {
-        "title": "pH Calculations 📏",
-        "ques": "Calculate:\n1. pH of 0.01 M HNO₃\n2. pH of 0.001 M NaOH\n3. [H⁺] if pH = 5",
+        "title": "Titration Calculation 🧪",
+        "ques": "**25 mL** of HCl requires **30 mL** of **0.1 M NaOH** for neutralization. Find the concentration of HCl.",
         "answer": {
             "type": "text",
-            "content": "**1.** pH = -log(0.01) = **2**\n\n**2.** pOH = -log(0.001) = 3\npH = 14 - 3 = **11**\n\n**3.** [H⁺] = 10⁻⁵ = **0.00001 M**"
+            "content": "**Equation:** HCl + NaOH → NaCl + H₂O (1:1 ratio)\n\n**At equivalence point:** moles HCl = moles NaOH\n\n**Moles NaOH:** n = M × V = 0.1 × 0.030 = 0.003 mol\n\n**Moles HCl:** 0.003 mol\n\n**Concentration HCl:**\nM = n/V = 0.003/0.025 = **0.12 M**"
         },
-        "explanation": "For strong acids/bases, [H⁺] = concentration directly. Remember: pH + pOH = 14 at 25°C."
+        "explanation": "Titrations find unknown concentrations. The key is identifying the mole ratio from the balanced equation."
     },
     {
-        "title": "Chromatography 📊",
-        "ques": "In paper chromatography, a spot travels 6 cm while solvent travels 10 cm.\n\n1. Calculate Rf value\n2. What does Rf tell you?\n3. Name two types of chromatography",
+        "title": "pH and pOH Calculations 📊",
+        "ques": "Calculate pH, pOH, [H⁺], and [OH⁻] for a **0.01 M** NaOH solution.",
         "answer": {
             "type": "text",
-            "content": "**1. Rf value:**\n```\nRf = distance by spot / distance by solvent\nRf = 6/10 = 0.6\n```\n\n**2.** Rf identifies substances; each compound has characteristic Rf in given conditions\n\n**3. Types:**\n- Paper chromatography\n- Column chromatography\n- Gas chromatography (GC)\n- HPLC"
+            "content": "**NaOH is a strong base (100% dissociation):**\n[OH⁻] = **0.01 M = 10⁻² M**\n\n**pOH:**\npOH = -log[OH⁻] = -log(10⁻²) = **2**\n\n**pH:**\npH = 14 - pOH = 14 - 2 = **12**\n\n**[H⁺]:**\n[H⁺] = 10⁻ᵖᴴ = 10⁻¹² M = **1 × 10⁻¹² M**\n\n*Very basic solution (pH > 7)*"
         },
-        "explanation": "**Chromatography** separates mixtures by differential movement through stationary phase. Rf is constant for each substance under fixed conditions."
+        "explanation": "At 25°C: pH + pOH = 14 and [H⁺][OH⁻] = 10⁻¹⁴. Strong bases dissociate completely."
     },
     {
-        "title": "Spectroscopy Basics 🌈",
-        "ques": "Match the spectroscopy with what it detects:\n1. IR spectroscopy\n2. UV-Vis spectroscopy\n3. NMR spectroscopy",
+        "title": "Percent Composition 📈",
+        "ques": "Calculate the percent composition by mass of each element in **glucose (C₆H₁₂O₆)**.",
         "answer": {
             "type": "text",
-            "content": "**1. IR:** Functional groups (bond vibrations)\n\n**2. UV-Vis:** Electronic transitions (conjugation, color)\n\n**3. NMR:** Chemical environment of H/C atoms (structure)"
+            "content": "**Molar mass of C₆H₁₂O₆:**\n= 6(12) + 12(1) + 6(16) = 72 + 12 + 96 = 180 g/mol\n\n**Percent composition:**\n\n| Element | Mass | % Composition |\n|---------|------|---------------|\n| C | 72 g | 72/180 × 100 = **40.0%** |\n| H | 12 g | 12/180 × 100 = **6.67%** |\n| O | 96 g | 96/180 × 100 = **53.3%** |\n\n**Total: 100%** ✓"
         },
-        "explanation": "**Spectroscopy** uses electromagnetic radiation to probe molecular structure. Each technique reveals different information."
+        "explanation": "Percent composition = (mass of element / molar mass) × 100. Useful for verifying empirical formulas."
     },
     {
-        "title": "Stoichiometry Problem ⚗️",
-        "ques": "For: 2H₂ + O₂ → 2H₂O\n\n1. How many moles of H₂O from 4 mol H₂?\n2. How many grams of O₂ needed for 36g H₂O?\n3. Limiting reagent if 3 mol H₂ and 2 mol O₂?",
+        "title": "Limiting Reagent 🚧",
+        "ques": "If **10 g** of H₂ reacts with **10 g** of O₂, how much water forms?\n\n2H₂ + O₂ → 2H₂O",
         "answer": {
             "type": "text",
-            "content": "**1.** 2:2 ratio → 4 mol H₂ produces **4 mol H₂O**\n\n**2.** 36g H₂O = 2 mol\n1 mol O₂ → 2 mol H₂O\nSo need 1 mol O₂ = **32 g**\n\n**3.** 3 mol H₂ needs 1.5 mol O₂\nHave 2 mol O₂ → **H₂ is limiting reagent**"
+            "content": "**Find moles:**\n- H₂: 10/2 = 5 mol\n- O₂: 10/32 = 0.3125 mol\n\n**From equation:** 2 mol H₂ needs 1 mol O₂\n\n**Check:** 5 mol H₂ needs 2.5 mol O₂ (but we only have 0.3125)\n**O₂ is the limiting reagent!**\n\n**Water produced:**\nMoles H₂O = 2 × moles O₂ = 2 × 0.3125 = 0.625 mol\n\n**Mass:** 0.625 × 18 = **11.25 g H₂O**"
         },
-        "explanation": "**Stoichiometry** uses mole ratios from balanced equations. The limiting reagent is completely consumed first."
+        "explanation": "The limiting reagent is completely consumed first and determines product amount. Excess reagent remains unreacted."
+    },
+    {
+        "title": "Spectroscopy - IR 📉",
+        "ques": "An IR spectrum shows strong absorptions at **3300 cm⁻¹** (broad) and **1710 cm⁻¹** (sharp). What functional groups are present?",
+        "answer": {
+            "type": "text",
+            "content": "**Peak Analysis:**\n\n| Wavenumber | Characteristic | Group |\n|------------|----------------|-------|\n| 3300 cm⁻¹ (broad) | O-H stretch | **Carboxylic acid** or **Alcohol** |\n| 1710 cm⁻¹ (sharp) | C=O stretch | **Carbonyl** |\n\n**Conclusion:**\nBroad O-H + C=O strongly suggests a **carboxylic acid** (-COOH)\n\n*The breadth of O-H peak indicates hydrogen bonding*"
+        },
+        "explanation": "IR spectroscopy identifies functional groups. Key regions: 1700 cm⁻¹ (C=O), 3200-3600 cm⁻¹ (O-H, N-H)."
+    },
+    {
+        "title": "Chromatography Rf Value 🧫",
+        "ques": "In TLC, compound A travels **4.5 cm** while solvent front travels **6 cm**. Calculate Rf and interpret.",
+        "answer": {
+            "type": "text",
+            "content": "**Rf (Retention factor):**\n$$R_f = \\frac{\\text{Distance by compound}}{\\text{Distance by solvent}} = \\frac{4.5}{6} = \\mathbf{0.75}$$\n\n**Interpretation:**\n- Rf = 0.75 indicates compound is fairly **non-polar**\n- Polar compounds have low Rf (stay near origin)\n- Non-polar compounds have high Rf (travel with solvent)\n\n**Good separation range:** Rf between 0.2-0.8"
+        },
+        "explanation": "TLC separates compounds by polarity. Rf is constant for a compound in a given solvent system."
+    },
+    {
+        "title": "Mass Spectrometry 📊",
+        "ques": "A mass spectrum shows M⁺ peak at **m/z = 46** and a base peak at **m/z = 31**. Identify the compound.",
+        "answer": {
+            "type": "text",
+            "content": "**Analysis:**\n\n**Molecular ion (M⁺) = 46:**\nPossible formula: C₂H₆O (ethanol) ✓\n- 2(12) + 6(1) + 16 = 46\n\n**Base peak at 31:**\nLoss of 15 (CH₃) from 46\n- CH₃CH₂OH → CH₂OH⁺ (m/z = 31)\n- This is the oxonium ion fragment\n\n**Compound:** **Ethanol (C₂H₅OH)**\n\n*Base peak is the most abundant fragment*"
+        },
+        "explanation": "MS gives molecular weight and fragmentation pattern. Loss of 15 often indicates CH₃ group."
+    },
+    {
+        "title": "Empirical Formula Determination 🔬",
+        "ques": "A compound contains **40% C**, **6.7% H**, and **53.3% O** by mass. Find empirical formula.",
+        "answer": {
+            "type": "text",
+            "content": "**Assume 100 g sample:**\n- C: 40 g\n- H: 6.7 g\n- O: 53.3 g\n\n**Convert to moles:**\n- C: 40/12 = 3.33 mol\n- H: 6.7/1 = 6.7 mol\n- O: 53.3/16 = 3.33 mol\n\n**Divide by smallest (3.33):**\n- C: 3.33/3.33 = 1\n- H: 6.7/3.33 = 2\n- O: 3.33/3.33 = 1\n\n**Empirical formula:** **CH₂O**\n\n*(This is also the formula for formaldehyde and a unit of glucose)*"
+        },
+        "explanation": "Empirical formula is the simplest whole-number ratio. Molecular formula may be a multiple (e.g., C₆H₁₂O₆)."
     }
 ]

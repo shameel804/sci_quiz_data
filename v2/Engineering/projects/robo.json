@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Robot Components 🤖",
+        "ques": "What are the essential **components** of a robotic system?",
+        "answer": {
+            "type": "text",
+            "content": "**Robot System Components:**\n\n| Component | Function | Example |\n|-----------|----------|--------|\n| **Manipulator** | Physical structure, links & joints | Robot arm |\n| **End Effector** | Tool at end | Gripper, welding torch |\n| **Actuators** | Create motion | Electric motors, hydraulics |\n| **Sensors** | Gather environment info | Cameras, encoders |\n| **Controller** | \"Brain\" - processes & commands | Microcontroller, PC |\n| **Power Supply** | Energy source | Battery, mains |"
+        },
+        "explanation": "Degrees of freedom (DOF) = number of independent motions. Industrial arms typically have 6 DOF."
+    },
+    {
+        "title": "Types of Robots 🦾",
+        "ques": "Compare different **robot configurations**: Cartesian, SCARA, and Articulated.",
+        "answer": {
+            "type": "text",
+            "content": "| Configuration | Joints | Workspace | Use |\n|---------------|--------|-----------|-----|\n| **Cartesian** | 3 linear (XYZ) | Box | 3D printing, pick-place |\n| **SCARA** | 2 rotary + 1 linear | Cylindrical | Assembly, packaging |\n| **Articulated** | All rotary | Complex sphere | Welding, painting |\n\n**Others:**\n- Cylindrical (1 linear + 2 rotary)\n- Spherical/Polar\n- Delta (parallel links)"
+        },
+        "explanation": "Configuration choice depends on payload, reach, speed, precision, and application requirements."
+    },
+    {
+        "title": "Kinematics 📐",
+        "ques": "Explain **forward** and **inverse kinematics** in robotics.",
+        "answer": {
+            "type": "text",
+            "content": "**Forward Kinematics:**\nGiven: Joint angles → Find: End effector position\n\n**Inverse Kinematics:**\nGiven: Desired position → Find: Joint angles\n\n**Example (2-link arm):**\n- Forward: θ₁, θ₂ → (x, y)\n- Inverse: (x, y) → θ₁, θ₂\n\n**Challenges with Inverse:**\n- Multiple solutions possible\n- No solution (out of reach)\n- Singular configurations\n- Computationally complex"
+        },
+        "explanation": "Denavit-Hartenberg parameters provide systematic forward kinematics. Inverse often solved numerically."
+    },
+    {
+        "title": "Sensors for Robots 📡",
+        "ques": "Describe **proprioceptive** vs **exteroceptive** sensors in robotics.",
+        "answer": {
+            "type": "text",
+            "content": "**Proprioceptive (Internal State):**\n| Sensor | Measures |\n|--------|----------|\n| Encoder | Joint position |\n| Tachometer | Motor speed |\n| Strain gauge | Force/torque |\n| IMU | Orientation, acceleration |\n\n**Exteroceptive (External Environment):**\n| Sensor | Measures |\n|--------|----------|\n| Camera | Vision |\n| LiDAR | 3D point cloud |\n| Ultrasonic | Distance |\n| Touch/pressure | Contact |"
+        },
+        "explanation": "Sensor fusion combines multiple sensors for robust perception. Cameras + LiDAR common for autonomous vehicles."
+    },
+    {
+        "title": "Motion Planning 🗺️",
+        "ques": "What is **path planning** and what algorithms are used?",
+        "answer": {
+            "type": "text",
+            "content": "**Path Planning:**\nFind collision-free path from start to goal\n\n**Common Algorithms:**\n| Algorithm | Type | Pros |\n|-----------|------|------|\n| **A*** | Graph search | Optimal, complete |\n| **RRT** | Sampling-based | Fast in high DOF |\n| **PRM** | Sampling-based | Multi-query |\n| **Potential Fields** | Gradient descent | Simple, real-time |\n\n**Motion Planning adds:**\n- Dynamics constraints\n- Velocity/acceleration limits\n- Trajectory smoothing"
+        },
+        "explanation": "High-dimensional planning (e.g., 6-DOF arm) is challenging. RRT and PRM are probabilistically complete."
+    },
+    {
+        "title": "Control Systems 🎮",
+        "ques": "How is **PID control** applied in robotics?",
+        "answer": {
+            "type": "text",
+            "content": "**PID Controller:**\n$$u(t) = K_p e(t) + K_i \\int e(t)dt + K_d \\frac{de(t)}{dt}$$\n\n| Term | Effect | Fixes |\n|------|--------|-------|\n| **Proportional** | Immediate response | Reduces error |\n| **Integral** | Eliminates steady-state | Offset |\n| **Derivative** | Dampens oscillation | Overshoot |\n\n**In Robotics:**\n- Each joint may have its own PID\n- Gains tuned for response\n- Model-based control more accurate"
+        },
+        "explanation": "Ziegler-Nichols method for tuning. Advanced: computed torque, impedance control."
+    },
+    {
+        "title": "Computer Vision 👁️",
+        "ques": "How do robots use **computer vision** for perception?",
+        "answer": {
+            "type": "text",
+            "content": "**Vision Tasks:**\n| Task | Application |\n|------|------------|\n| Object detection | Identify items to pick |\n| Pose estimation | Orient gripper correctly |\n| Visual SLAM | Build map, locate self |\n| Semantic segmentation | Understand scene |\n\n**Common Approaches:**\n- Classical: Edge detection, feature matching\n- Deep learning: CNNs, YOLO, Mask R-CNN\n- 3D: Depth cameras, stereo vision\n\n**Calibration:** Camera intrinsic/extrinsic parameters"
+        },
+        "explanation": "Hand-eye calibration relates camera to robot frame. Real-time processing requires efficient algorithms or GPUs."
+    },
+    {
+        "title": "Human-Robot Interaction 🤝",
+        "ques": "What safety considerations exist for **collaborative robots (cobots)**?",
+        "answer": {
+            "type": "text",
+            "content": "**Collaborative Robot Safety:**\n\n**ISO 10218, ISO/TS 15066 Standards:**\n\n| Method | Description |\n|--------|------------|\n| Safety-rated stop | Stop when human enters zone |\n| Hand guiding | Human physically guides robot |\n| Speed & separation | Slow down near humans |\n| Force limiting | Reduce force on contact |\n\n**Cobot Features:**\n- Rounded edges\n- Force/torque sensors\n- Lightweight construction\n- No pinch points"
+        },
+        "explanation": "Cobots work alongside humans without cages. Speed and payload typically lower than industrial robots."
+    },
+    {
+        "title": "Mobile Robots 🚗",
+        "ques": "Explain **SLAM** (Simultaneous Localization and Mapping).",
+        "answer": {
+            "type": "text",
+            "content": "**SLAM:**\nBuild map of environment while tracking position within it\n\n**Chicken-and-egg problem:**\n- Need map to localize\n- Need location to build map\n\n**Components:**\n1. State estimation (Kalman filter, particle filter)\n2. Landmark detection\n3. Data association\n4. Map updating\n\n**Types:**\n- Visual SLAM (cameras)\n- LiDAR SLAM\n- Feature-based vs Dense"
+        },
+        "explanation": "SLAM enables autonomous navigation. Self-driving cars, vacuum robots, drones all use SLAM variants."
+    },
+    {
+        "title": "Actuators 💪",
+        "ques": "Compare **electric, hydraulic, and pneumatic** actuators for robots.",
+        "answer": {
+            "type": "text",
+            "content": "| Type | Pros | Cons | Use |\n|------|------|------|-----|\n| **Electric** | Precise, clean, quiet | Lower power density | Most robots |\n| **Hydraulic** | Very powerful | Heavy, messy, complex | Heavy lifting |\n| **Pneumatic** | Fast, compliant | Low precision | Grippers, simple tasks |\n\n**Electric Motors:**\n- DC brushed: Simple, cheap\n- Brushless DC: Efficient, long life\n- Stepper: Open-loop positioning\n- Servo: Closed-loop control"
+        },
+        "explanation": "Gearboxes increase torque but reduce speed. Backdrivable systems allow force control."
+    }
+]

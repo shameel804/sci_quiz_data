@@ -2,58 +2,138 @@
     "id": "learn_renew",
     "topicId": "renew",
     "topicTitle": "Renewable Energy",
-    "description": "Explore solar, wind, hydro, and bioenergy systems",
-    "baseKP": 75,
+    "description": "Infinite power from nature.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "renew_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Renewable Energy ⚡\n\n## Why Renewable?\n- Infinite supply\n- Low emissions\n- Energy security\n\n## Types\n- Solar, Wind, Hydro\n- Geothermal, Biomass"
+            "title": "What is Renewable Energy?",
+            "content": "# Free Refills 🔄\n\nEnergy from sources that replenish naturally.\n- Sun, Wind, Water, Earth Heat.\n- Unlimited supply.\n- Usually Low Carbon."
         },
         {
             "id": "renew_2",
             "type": "content",
-            "title": "Solar",
-            "content": "# Solar Energy ☀️\n\n## Technologies\n| Type | How |\n|------|-----|\n| Photovoltaic | Light → electricity |\n| Thermal | Heat water |\n| Concentrated | Focus sunlight |\n\n## Pros/Cons\n+ Abundant, clean\n- Intermittent, space"
+            "title": "Solar Energy (PV)",
+            "content": "# Sun Power ☀️\n\n**Photovoltaics**: Converting light directly to electricity.\n- Silicon panels.\n- Cost has dropped 90% in 10 years.\n- Works best in sunny places, but works everywhere."
         },
         {
             "id": "renew_3",
             "type": "content",
-            "title": "Wind",
-            "content": "# Wind Energy 💨\n\n## How It Works\n```\nWind → Turbine rotation → Generator → Electricity\n```\n\n## Types\n| Type | Location |\n|------|----------|\n| Onshore | Land |\n| Offshore | Sea |\n\n## Capacity Factor: ~25-45%"
-        },
-        {
-            "id": "renew_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Photovoltaic cells convert:",
-            "quizOptions": [
-                "Heat to electricity",
-                "Light to electricity",
-                "Wind to electricity",
-                "Water to electricity"
-            ],
-            "correctOptionIndex": 1
+            "title": "Concentrated Solar Power (CSP)",
+            "content": "# Mirrors 🪞\n\nFocusing sunlight to heat salt/water $\\to$ Steam $\\to$ Turbine.\n- Can store heat to produce power at night.\n- Used in deserts."
         },
         {
             "id": "renew_4",
             "type": "content",
-            "title": "Hydro",
-            "content": "# Hydropower 💧\n\n## Types\n| Type | Description |\n|------|-------------|\n| Conventional | Dam |\n| Run-of-river | Flow |\n| Pumped storage | Energy storage |\n\n## Largest Power Source\n~16% of global electricity"
+            "title": "Wind Energy",
+            "content": "# Spinning Giants 🌬️\n\nTurbines capture kinetic energy of air.\n- **Onshore**: Cheaper.\n- **Offshore**: Stronger/consistent winds, but expensive.\n- Bigger blades = More power."
         },
         {
             "id": "renew_5",
             "type": "content",
-            "title": "Biomass",
-            "content": "# Bioenergy 🌾\n\n## Sources\n- Wood, crops\n- Agricultural waste\n- Algae\n\n## Products\n| Product | Use |\n|---------|-----|\n| Bioethanol | Transport |\n| Biodiesel | Transport |\n| Biogas | Heat/power |"
+            "title": "Hydropower",
+            "content": "# Water Power 💧\n\nDams.\n- Gravity pulls water through turbine.\n- Provides \"Baseload\" (constant) power.\n- Environmental issue: Blocks fish migration."
+        },
+        {
+            "id": "renew_quiz_1",
+            "type": "quiz",
+            "title": "Solar Quiz",
+            "content": "Tech check.",
+            "quizQuestion": "Photovoltaic cells convert sunlight directly into:",
+            "quizOptions": [
+                "Heat",
+                "Electricity",
+                "Steam",
+                "Motion"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "renew_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Solar: PV, thermal, CSP\n- Wind: Onshore/offshore\n- Hydro: Dams, run-of-river\n- Biomass: Biofuels, biogas"
+            "title": "Geothermal",
+            "content": "# Earth Heat 🌋\n\nTapping heat from crust.\n- Iceland runs on this.\n- Clean, constant, reliable.\n- Limited to volcanic areas usually."
+        },
+        {
+            "id": "renew_7",
+            "type": "content",
+            "title": "Biomass / Biofuels",
+            "content": "# Burning Plants 🌽\n\n- **Ethanol**: Corn/Sugarcane alcohol (in your car gas).\n- **Biogas**: Methane from rotting waste.\n- Carbon Neutral? (Plants absorbed CO2 while growing, burning releases it back)."
+        },
+        {
+            "id": "renew_8",
+            "type": "content",
+            "title": "Tidal and Wave Energy",
+            "content": "# Moon Power 🌊\n\n- **Tidal**: Underwater turbines driven by tides (Reliable).\n- **Wave**: Bobbing buoys capturing motion.\n- Harsh saltwater environment makes maintenance hard."
+        },
+        {
+            "id": "renew_9",
+            "type": "content",
+            "title": "Intermittency Problem",
+            "content": "# Sun doesn't shine at night 🌙\n\nThe main challenge.\n- Need **Storage** (Batteries) or **Baseload** backup.\n- Grid must be smarter to handle fluctuating power."
+        },
+        {
+            "id": "renew_10",
+            "type": "content",
+            "title": "Energy Storage",
+            "content": "# Batteries 🔋\n\n- **Lithium-Ion**: Phones, Cars, Grid.\n- **Pumped Hydro**: Pumping water uphill when extra power, letting it flow down when needed (Biggest battery on Earth).\n- **Green Hydrogen**: Storing energy as gas."
+        },
+        {
+            "id": "renew_11",
+            "type": "content",
+            "title": "Nuclear Energy",
+            "content": "# The Controversial Cousin ☢️\n\n- Not strictly \"Renewable\" (Uranium runs out).\n- But **Carbon Free**.\n- Massive power density.\n- Dangerous waste and accident risk (Chernobyl/Fukushima)."
+        },
+        {
+            "id": "renew_12",
+            "type": "content",
+            "title": "Hydrogen Economy",
+            "content": "# Fuel of Future? 💧\n\nSplitting water ($H_2O$) into $H_2$ and $O_2$.\n- **Green Hydrogen**: Uses solar/wind.\n- Clean burning (Waste is water).\n- Good for steel, shipping, and planes."
+        },
+        {
+            "id": "renew_quiz_2",
+            "type": "quiz",
+            "title": "Storage Quiz",
+            "content": "Battery check.",
+            "quizQuestion": "What is currently the most common form of grid-scale energy storage?",
+            "quizOptions": [
+                "Giant Springs",
+                "Pumped Hydro",
+                "Lithium Batteries",
+                "Flywheels"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "renew_13",
+            "type": "content",
+            "title": "Smart Grid",
+            "content": "# Intelligent Network 🧠\n\nDigital communication used on power lines.\n- Detecting outages instantly.\n- Balancing local solar (your roof) with grid demand.\n- Charging EVs when power is cheap."
+        },
+        {
+            "id": "renew_14",
+            "type": "content",
+            "title": "Energy Efficiency",
+            "content": "# Fifth Fuel 📉\n\nThe best energy is the energy you don't use.\n- LED lights (Use 90% less).\n- Insulation.\n- Efficient motors."
+        },
+        {
+            "id": "renew_15",
+            "type": "content",
+            "title": "Fusion",
+            "content": "# Star Power ⭐\n\nSmashed atoms together (H + H $\\to$ He).\n- Same as Sun.\n- Infinite clean energy, no meltdown risk.\n- \"Always 30 years away\" (Hard to do)."
+        },
+        {
+            "id": "renew_16",
+            "type": "content",
+            "title": "Electrification",
+            "content": "# Plug Everything In 🔌\n\nDecarbonizing society means electrifying everything.\n- Cars (EVs).\n- Heating (Heat Pumps).\n- Cooking (Induction)."
+        },
+        {
+            "id": "renew_17",
+            "type": "content",
+            "title": "Renewable Summary",
+            "content": "# Recap 📝\n\n- Sun and Wind are now cheapest energy.\n- **Storage** is the key.\n- Transition is happening fast.\n- The future is electric."
         }
     ]
 }

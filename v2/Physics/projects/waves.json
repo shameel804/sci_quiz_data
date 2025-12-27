@@ -1,65 +1,92 @@
 [
     {
         "title": "Wave Properties Basics 🌊",
-        "ques": "A sound wave has a frequency of **440 Hz** and travels through air at **340 m/s**.\n\n1. Calculate the wavelength of this sound wave\n2. What musical note does 440 Hz correspond to?\n3. If the same wave enters water (speed 1500 m/s), what happens to its frequency and wavelength?",
+        "ques": "A wave has frequency **500 Hz** and wavelength **0.68 m**. Calculate the **wave speed** and identify if this could be a sound wave in air.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Frequency (f) = 440 Hz\n- Speed in air (v) = 340 m/s\n- Speed in water = 1500 m/s\n\n### Solutions:\n\n**1. Wavelength in Air:**\n```\nv = fλ\nλ = v/f\nλ = 340/440\nλ = 0.773 m ≈ 77.3 cm\n```\n\n**2. Musical Note:**\n**440 Hz = A₄ (A above middle C)**\n\nThis is the standard \"concert pitch\" used for tuning orchestras worldwide.\n\n**3. Wave Entering Water:**\n\n| Property | In Air | In Water |\n|----------|--------|----------|\n| Frequency | 440 Hz | **440 Hz** (unchanged) |\n| Speed | 340 m/s | 1500 m/s |\n| Wavelength | 0.77 m | **3.41 m** |\n\n*Frequency stays constant* (determined by source)\n\nNew wavelength:\n```\nλ_water = v_water/f = 1500/440 = 3.41 m\n```\n\n**Key Insight:** When a wave changes medium:\n- ✅ Frequency remains constant\n- ✅ Speed changes (medium property)\n- ✅ Wavelength changes accordingly"
+            "content": "**Wave Speed Formula:** v = fλ\n\n**Calculation:**\nv = 500 × 0.68 = **340 m/s**\n\nYes, this is the speed of sound in air at ~15°C, so this is a **sound wave**."
         },
-        "explanation": "The relationship **v = fλ** is fundamental to all waves. When waves transition between media, frequency is preserved because it's set by the source. This principle explains refraction - waves change direction because their speed (and wavelength) changes."
+        "explanation": "The wave equation v = fλ applies to all waves. Sound in air travels at ~340 m/s at room temperature."
     },
     {
         "title": "Doppler Effect Calculation 🚗",
-        "ques": "An ambulance siren emits sound at **600 Hz**. The ambulance moves at **30 m/s** toward a stationary observer.\n\n*Speed of sound = 340 m/s*\n\n1. What frequency does the observer hear?\n2. After the ambulance passes, what frequency does the observer hear?\n3. A police car approaches the observer from the opposite direction at 20 m/s. If its siren also emits 600 Hz, which siren sounds higher pitched?",
+        "ques": "An ambulance with siren at **800 Hz** approaches you at **30 m/s**. What frequency do you hear? (v_sound = 340 m/s)",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Source frequency (f₀) = 600 Hz\n- Source velocity (vs) = 30 m/s\n- Speed of sound (v) = 340 m/s\n\n### Doppler Effect Formula:\n```\nf_observed = f₀ × (v ± v_observer)/(v ∓ v_source)\n```\n*Upper sign when approaching, lower when receding*\n\n### Solutions:\n\n**1. Ambulance Approaching:**\nObserver stationary (v_o = 0), source approaching:\n```\nf = f₀ × v/(v - vs)\nf = 600 × 340/(340 - 30)\nf = 600 × 340/310\nf = 600 × 1.097\nf ≈ 658 Hz\n```\n\n**2. Ambulance Receding:**\n```\nf = f₀ × v/(v + vs)\nf = 600 × 340/(340 + 30)\nf = 600 × 340/370\nf = 600 × 0.919\nf ≈ 551 Hz\n```\n\n**Shift:** 658 - 551 = **107 Hz difference!**\n\n**3. Police Car (v = 20 m/s) Approaching:**\n```\nf = 600 × 340/(340 - 20)\nf = 600 × 340/320\nf = 637.5 Hz\n```\n\n| Vehicle | Approaching Frequency |\n|---------|----------------------|\n| Ambulance (30 m/s) | **658 Hz** ← Higher |\n| Police car (20 m/s) | 637.5 Hz |\n\n*Faster source = greater frequency shift*"
+            "content": "**Doppler Effect (source approaching):**\n$$f' = f \\frac{v}{v - v_s}$$\n\n**Calculation:**\n$$f' = 800 × \\frac{340}{340 - 30} = 800 × \\frac{340}{310}$$\n$$f' = 800 × 1.097 = \\mathbf{877.4\\ Hz}$$"
         },
-        "explanation": "The **Doppler Effect** explains why approaching vehicles sound higher-pitched and receding ones lower-pitched. It's also used in radar speed guns, medical ultrasound, and detecting the expansion of the universe (redshift of galaxies)."
+        "explanation": "When source approaches, wavelengths compress, increasing observed frequency. This is why ambulance sirens sound higher-pitched when approaching."
     },
     {
-        "title": "Reflection and Refraction 🔦",
-        "ques": "Light travels from air (n = 1.00) into glass (n = 1.50) at an angle of incidence of **45°**.\n\n1. Calculate the angle of refraction using Snell's Law\n2. If total internal reflection were possible, at what angle would it occur?\n3. A light ray hits a plane mirror at 30° to the mirror surface. What is the angle of reflection measured from the normal?",
+        "title": "Snell's Law Refraction 🔍",
+        "ques": "Light travels from air (n=1) into glass (n=1.5) at **45°** angle. Find the **refracted angle**.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- n₁ (air) = 1.00\n- n₂ (glass) = 1.50\n- Angle of incidence = 45°\n\n### Solutions:\n\n**1. Angle of Refraction (Snell's Law):**\n```\nn₁ sin(θ₁) = n₂ sin(θ₂)\n1.00 × sin(45°) = 1.50 × sin(θ₂)\n0.707 = 1.50 × sin(θ₂)\nsin(θ₂) = 0.707/1.50 = 0.471\nθ₂ = sin⁻¹(0.471)\nθ₂ ≈ 28.1°\n```\n*Light bends toward the normal (entering denser medium)*\n\n**2. Critical Angle for Total Internal Reflection:**\n\nTIR only occurs when going from **denser → less dense** medium.\n\nFor glass → air:\n```\nsin(θc) = n₂/n₁ = 1.00/1.50 = 0.667\nθc = sin⁻¹(0.667)\nθc ≈ 41.8°\n```\n\n*For the original scenario (air → glass), TIR cannot occur!*\n\n**3. Plane Mirror Reflection:**\n\n- Angle to mirror surface = 30°\n- Angle of incidence (from normal) = 90° - 30° = **60°**\n- By Law of Reflection: Angle of reflection = **60°**\n\n```\n         Normal\n           |\n    60°    |    60°\n   ────\\   |   /────\n        \\  |  /\n         \\ | /\n    ========|========  Mirror\n           |← 30° to surface\n```"
+            "content": "**Snell's Law:** n₁ sin θ₁ = n₂ sin θ₂\n\n**Calculation:**\n$$\\sin θ_2 = \\frac{n_1 \\sin θ_1}{n_2} = \\frac{1 × \\sin 45°}{1.5}$$\n$$\\sin θ_2 = \\frac{0.707}{1.5} = 0.471$$\n$$θ_2 = \\sin^{-1}(0.471) = \\mathbf{28.1°}$$"
         },
-        "explanation": "**Snell's Law** (n₁sinθ₁ = n₂sinθ₂) governs refraction. Light bends toward the normal when entering a denser medium and away when exiting. **Total Internal Reflection** only occurs above the critical angle, going from denser to less dense medium - this is how optical fibers work!"
+        "explanation": "Light bends toward the normal when entering a denser medium (higher refractive index)."
     },
     {
-        "title": "Lens Optics Problem 🔍",
-        "ques": "A convex lens has a focal length of **20 cm**. An object is placed **30 cm** from the lens.\n\n1. Using the lens equation, find the image distance\n2. Calculate the magnification\n3. Describe the image (real/virtual, upright/inverted, enlarged/diminished)\n4. If the object is moved to 10 cm from the lens, what happens to the image?",
+        "title": "Lens Equation Problem 🔬",
+        "ques": "A converging lens (f = 20 cm) has an object at 30 cm. Find image distance and magnification.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Focal length (f) = +20 cm (convex lens)\n- Object distance (u) = -30 cm (using sign convention: object on opposite side)\n\n### Solutions:\n\n**1. Image Distance (Lens Equation):**\n```\n1/f = 1/v - 1/u\n1/20 = 1/v - 1/(-30)\n1/20 = 1/v + 1/30\n1/v = 1/20 - 1/30\n1/v = 3/60 - 2/60 = 1/60\nv = +60 cm\n```\n\n**2. Magnification:**\n```\nm = v/u = 60/(-30) = -2\n|m| = 2 (double size)\n```\n\n**3. Image Characteristics:**\n\n| Property | Value | Interpretation |\n|----------|-------|----------------|\n| v = +60 cm | Positive | **Real** (same side as outgoing light) |\n| m = -2 | Negative | **Inverted** |\n| |m| = 2 | >1 | **Enlarged** (2× size) |\n\n**4. Object at 10 cm (inside focal length):**\n```\n1/20 = 1/v + 1/30... wait, u = -10 cm\n1/v = 1/20 - 1/(-10) = 1/20 + 1/10\n1/v = 1/20 + 2/20 = 3/20\nv = -6.67 cm (Negative!)\n```\n\n*Magnification:* m = (-6.67)/(-10) = +0.67\n\n**New Image:**\n- v negative → **Virtual** (same side as object)\n- m positive → **Upright**\n- |m| < 1 → **Diminished** (2/3 size)\n\n*This is how a magnifying glass works when object is too close!*"
+            "content": "**Lens Equation:** 1/f = 1/v - 1/u\n\n**Given:** f = 20 cm, u = -30 cm\n\n$$\\frac{1}{v} = \\frac{1}{20} + \\frac{1}{30} = \\frac{3 + 2}{60} = \\frac{5}{60}$$\n\n**Image distance:** v = **60 cm** (real, on opposite side)\n\n**Magnification:** m = -v/u = -60/(-30) = **-2** (inverted, 2× larger)"
         },
-        "explanation": "The **sign convention** in optics: focal length positive for convex lens, object distance negative (on same side as incident light), image distance positive for real images. When an object is inside the focal length, the lens acts as a magnifying glass producing a virtual image."
+        "explanation": "Positive v means real image. Negative magnification means inverted. Object beyond f creates real, inverted image."
     },
     {
-        "title": "Interference Pattern Analysis 🌈",
-        "ques": "In a Young's double-slit experiment:\n- Slit separation: **0.5 mm**\n- Screen distance: **2 m**\n- Light wavelength: **600 nm**\n\n1. Calculate the distance between adjacent bright fringes\n2. What is the angular position of the first maximum?\n3. If white light is used, what colors appear at the center and edges of the pattern?",
+        "title": "Double Slit Interference 🎯",
+        "ques": "In Young's experiment, slits are **0.5 mm** apart, screen **2 m** away, wavelength **600 nm**. Find fringe width.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Slit separation (d) = 0.5 mm = 5 × 10⁻⁴ m\n- Screen distance (D) = 2 m\n- Wavelength (λ) = 600 nm = 6 × 10⁻⁷ m\n\n### Solutions:\n\n**1. Fringe Spacing:**\n```\nβ = λD/d\nβ = (6 × 10⁻⁷)(2)/(5 × 10⁻⁴)\nβ = (12 × 10⁻⁷)/(5 × 10⁻⁴)\nβ = 2.4 × 10⁻³ m = 2.4 mm\n```\n\n**2. Angular Position of First Maximum:**\n\nFor first maximum (n = 1):\n```\nd sin(θ) = nλ\nsin(θ) = λ/d = (6 × 10⁻⁷)/(5 × 10⁻⁴)\nsin(θ) = 1.2 × 10⁻³\nθ = sin⁻¹(0.0012)\nθ ≈ 0.069° ≈ 4.1 arc minutes\n```\n\n*Using small angle approximation:* θ ≈ tan(θ) = y/D = 2.4mm/2m = 0.0012 rad ✓\n\n**3. White Light Pattern:**\n\n**At Center (path difference = 0):**\n- All wavelengths interfere constructively\n- **White/bright central maximum**\n\n**Away from Center:**\n- Different λ have maxima at different positions\n- Pattern becomes **colored fringes**\n\n| Color | Wavelength | Fringe Width |\n|-------|------------|-------------|\n| Red | ~700 nm | Widest (2.8 mm) |\n| Green | ~550 nm | Medium (2.2 mm) |\n| Blue | ~450 nm | Narrowest (1.8 mm) |\n\n**At Edges:**\n- Colors overlap and blur\n- Higher-order fringes become **indistinct**\n- Red outer edge, blue inner edge of each bright band"
+            "content": "**Fringe Width Formula:** β = λD/d\n\n**Calculation:**\n$$β = \\frac{600 × 10^{-9} × 2}{0.5 × 10^{-3}}$$\n$$β = \\frac{1.2 × 10^{-6}}{5 × 10^{-4}} = \\mathbf{2.4\\ mm}$$"
         },
-        "explanation": "**Young's double-slit experiment** proved light's wave nature. The interference pattern depends on wavelength, which is why white light creates colorful fringes. This principle is used in **diffraction gratings** for spectroscopy and **anti-reflective coatings** on lenses."
+        "explanation": "Interference creates alternating bright and dark fringes. Larger wavelength or screen distance gives wider fringes."
     },
     {
-        "title": "Diffraction Grating Spectroscopy 📊",
-        "ques": "A diffraction grating has **5000 lines per cm**. Light from a sodium lamp (λ = 589 nm) passes through it.\n\n1. Calculate the grating spacing (d)\n2. At what angle does the first-order maximum appear?\n3. What is the maximum order that can be observed?\n4. Why are diffraction gratings preferred over prisms for spectroscopy?",
+        "title": "Single Slit Diffraction 📐",
+        "ques": "A single slit (width 0.1 mm) is illuminated with 500 nm light. Find the angular position of first minimum.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Lines per cm = 5000\n- Wavelength (λ) = 589 nm = 589 × 10⁻⁹ m\n\n### Solutions:\n\n**1. Grating Spacing:**\n```\nd = 1 cm / 5000 = 0.0002 cm = 2 × 10⁻⁶ m = 2 μm\n```\n\n**2. First-Order Maximum Angle:**\n\nGrating equation: d sin(θ) = nλ\n\nFor n = 1:\n```\nsin(θ₁) = λ/d\nsin(θ₁) = (589 × 10⁻⁹)/(2 × 10⁻⁶)\nsin(θ₁) = 0.2945\nθ₁ = sin⁻¹(0.2945)\nθ₁ ≈ 17.1°\n```\n\n**3. Maximum Observable Order:**\n\nMaximum when sin(θ) ≤ 1:\n```\nnλ/d ≤ 1\nn ≤ d/λ = (2 × 10⁻⁶)/(589 × 10⁻⁹)\nn ≤ 3.40\n```\n**Maximum order: n = 3**\n\nAngles for each order:\n| Order | Angle |\n|-------|-------|\n| n = 1 | 17.1° |\n| n = 2 | 36.1° |\n| n = 3 | 61.9° |\n\n**4. Advantages Over Prisms:**\n\n| Property | Grating | Prism |\n|----------|---------|-------|\n| Dispersion | Linear (uniform) | Non-linear |\n| Resolution | Very high | Lower |\n| Multiple orders | Yes (n = 1, 2, 3...) | Single spectrum |\n| Wavelength formula | Simple: d sin(θ) = nλ | Complex |\n| Calibration | Easy, precise | Material-dependent |"
+            "content": "**First Minimum Condition:** a sin θ = λ\n\n**Calculation:**\n$$\\sin θ = \\frac{λ}{a} = \\frac{500 × 10^{-9}}{0.1 × 10^{-3}} = 0.005$$\n$$θ = \\sin^{-1}(0.005) = \\mathbf{0.29°}$$"
         },
-        "explanation": "Diffraction gratings split light by **diffraction and interference**, not refraction. With thousands of slits, they produce sharp spectral lines ideal for precise wavelength measurement. This is how astronomers identify elements in distant stars!"
+        "explanation": "Diffraction causes light to spread after passing through a narrow slit. Narrower slits cause more spreading."
     },
     {
-        "title": "Standing Waves in Pipes 🎵",
-        "ques": "A tube **1.0 m long** can be open at both ends or closed at one end.\n\n*Speed of sound = 340 m/s*\n\nFor **each configuration**, find:\n1. The fundamental frequency (first harmonic)\n2. The first three resonant frequencies\n3. Sketch the wave pattern for the fundamental mode",
+        "title": "Polarization 🕶️",
+        "ques": "Unpolarized light of intensity I₀ passes through two polarizers at 60° angle. Find final intensity.",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Length (L) = 1.0 m\n- Speed of sound (v) = 340 m/s\n\n---\n\n### Case A: Open at Both Ends\n\n**Boundary Condition:** Antinodes at both ends\n\n**1. Fundamental Frequency:**\n```\nL = λ₁/2  →  λ₁ = 2L = 2.0 m\nf₁ = v/λ₁ = 340/2.0 = 170 Hz\n```\n\n**2. First Three Harmonics:**\nOpen pipe: All harmonics present (n = 1, 2, 3, ...)\n```\nfₙ = n × f₁\nf₁ = 170 Hz\nf₂ = 340 Hz\nf₃ = 510 Hz\n```\n\n**3. Wave Pattern (Fundamental):**\n```\n   A───────N───────A\n  ┌─────────────────┐\n  │  ≈     ≈     ≈  │\n  │ ≈   ≈   ≈   ≈   │\n  └─────────────────┘\n  Open            Open\n  (Antinode)   (Antinode)\n```\n\n---\n\n### Case B: Closed at One End\n\n**Boundary Condition:** Node at closed end, Antinode at open end\n\n**1. Fundamental Frequency:**\n```\nL = λ₁/4  →  λ₁ = 4L = 4.0 m\nf₁ = v/λ₁ = 340/4.0 = 85 Hz\n```\n\n**2. First Three Harmonics:**\nClosed pipe: Only **odd** harmonics (n = 1, 3, 5, ...)\n```\nfₙ = n × f₁ (n = 1, 3, 5...)\nf₁ = 85 Hz\nf₃ = 255 Hz\nf₅ = 425 Hz\n```\n*Note: No 2nd or 4th harmonics!*\n\n**3. Wave Pattern (Fundamental):**\n```\n   N═══════════════A\n  ┌─────────────────┐\n  ║  ≈  ≈  ≈  ≈  ≈  │\n  ║≈  ≈  ≈  ≈  ≈  ≈ │\n  └─────────────────┘\n  Closed         Open\n  (Node)       (Antinode)\n```\n\n### Summary:\n| Pipe Type | f₁ | f₂ | f₃ | Harmonics |\n|-----------|-----|-----|-----|----------|\n| Open-Open | 170 Hz | 340 Hz | 510 Hz | All |\n| Closed-Open | 85 Hz | — | 255 Hz | Odd only |"
+            "content": "**After first polarizer:** I₁ = I₀/2\n\n**After second polarizer (Malus's Law):**\n$$I_2 = I_1 \\cos^2 θ = \\frac{I_0}{2} × \\cos^2 60°$$\n$$I_2 = \\frac{I_0}{2} × 0.25 = \\mathbf{\\frac{I_0}{8}}$$"
         },
-        "explanation": "Standing waves form when **boundary conditions** are satisfied. Open ends must have pressure antinodes (maximum oscillation), closed ends must have nodes (zero oscillation). Closed pipes produce only odd harmonics, giving them a distinctive \"hollow\" sound compared to open pipes."
+        "explanation": "First polarizer halves intensity (blocks half of unpolarized light). Second follows Malus's Law."
+    },
+    {
+        "title": "Standing Waves in String 🎸",
+        "ques": "A guitar string (L = 0.65 m) produces fundamental frequency 330 Hz. Find wave speed and first overtone frequency.",
+        "answer": {
+            "type": "text",
+            "content": "**Fundamental:** λ₁ = 2L = 1.3 m\n\n**Wave speed:** v = fλ = 330 × 1.3 = **429 m/s**\n\n**First overtone (n=2):** f₂ = 2f₁ = **660 Hz**"
+        },
+        "explanation": "String fixed at both ends has nodes at ends. Harmonics are integer multiples of fundamental."
+    },
+    {
+        "title": "Total Internal Reflection 💎",
+        "ques": "Find the critical angle for diamond (n=2.42) to air interface.",
+        "answer": {
+            "type": "text",
+            "content": "**Critical Angle Formula:** sin θc = n₂/n₁\n\n**Calculation:**\n$$\\sin θ_c = \\frac{1}{2.42} = 0.413$$\n$$θ_c = \\sin^{-1}(0.413) = \\mathbf{24.4°}$$"
+        },
+        "explanation": "Diamond's small critical angle causes extensive internal reflection, creating its characteristic sparkle."
+    },
+    {
+        "title": "Resonance in Tubes 🎺",
+        "ques": "An open pipe resonates at 440 Hz (A note). Find its length and first three harmonics. (v = 340 m/s)",
+        "answer": {
+            "type": "text",
+            "content": "**Open pipe fundamental:** λ = 2L, so L = v/(2f)\n\n**Length:** L = 340/(2 × 440) = **0.386 m**\n\n**Harmonics (all integers):**\n- 1st: 440 Hz\n- 2nd: 880 Hz\n- 3rd: 1320 Hz"
+        },
+        "explanation": "Open pipes have antinodes at both ends and produce all harmonics. Closed pipes only odd harmonics."
     }
 ]

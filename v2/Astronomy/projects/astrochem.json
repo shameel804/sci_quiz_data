@@ -1,56 +1,92 @@
 [
     {
         "title": "Interstellar Medium 🌫️",
-        "ques": "1. What is the interstellar medium?\n2. Main components\n3. How do we study it?",
+        "ques": "What is the **interstellar medium (ISM)** and what are its components?",
         "answer": {
             "type": "text",
-            "content": "**1. ISM:** Gas and dust between stars (not empty space!)\n\n**2. Components:**\n- Hydrogen (90%)\n- Helium (~9%)\n- Dust (~1%)\n- Trace molecules\n\n**3. Study methods:**\n- Radio spectroscopy\n- Absorption lines from background stars\n- Infrared for dust"
+            "content": "**ISM Definition:**\nGas and dust between stars in a galaxy\n\n**Components:**\n| Phase | Temperature | Density | Example |\n|-------|-------------|---------|--------|\n| **Molecular clouds** | 10-20 K | 10²-10⁶ cm⁻³ | Star-forming regions |\n| **Cold neutral** | 100 K | 1-100 cm⁻³ | HI regions |\n| **Warm neutral** | 8000 K | 0.1 cm⁻³ | Galactic disk |\n| **Warm ionized** | 8000 K | 0.1 cm⁻³ | HII regions |\n| **Hot ionized** | 10⁶ K | 10⁻³ cm⁻³ | Supernova remnants |"
         },
-        "explanation": "**ISM** is raw material for star formation. Though thin, vast distances make it significant."
+        "explanation": "ISM is not empty—it's where stars are born and where they return matter when they die."
+    },
+    {
+        "title": "Molecules in Space 🔬",
+        "ques": "Name **5 molecules** detected in space and their significance.",
+        "answer": {
+            "type": "text",
+            "content": "**Interstellar Molecules:**\n\n| Molecule | Significance |\n|----------|-------------|\n| **H₂** | Most abundant, fuel for star formation |\n| **CO** | Tracer for H₂ (H₂ hard to detect) |\n| **H₂O** | Essential for life, found in comets |\n| **NH₃** | First polyatomic molecule detected |\n| **C₂H₅OH** | Ethanol—yes, alcohol in space! |\n\n**Complex molecules:** Amino acids, sugars detected in meteorites\n\n**>200 molecules identified** via radio spectroscopy"
+        },
+        "explanation": "Astrochemistry shows building blocks of life are common in the universe. Supports panspermia hypothesis."
+    },
+    {
+        "title": "Spectroscopy in Astronomy 🌈",
+        "ques": "How is **spectroscopy** used to determine composition and motion of celestial objects?",
+        "answer": {
+            "type": "text",
+            "content": "**Spectroscopy Applications:**\n\n**1. Composition:**\n- Each element has unique spectral fingerprint\n- Emission lines: hot gas\n- Absorption lines: cooler gas in front\n\n**2. Temperature:**\n- Peak wavelength (Wien's law)\n- Relative line strengths\n\n**3. Motion (Doppler):**\n- Blueshift = approaching\n- Redshift = receding\n- Δλ/λ = v/c\n\n**4. Magnetic Fields:**\n- Zeeman splitting of lines"
+        },
+        "explanation": "Spectroscopy is perhaps astronomy's most powerful tool—we learned stellar composition without visiting stars."
     },
     {
         "title": "Molecular Clouds ☁️",
-        "ques": "1. What are molecular clouds?\n2. Key molecules found\n3. Why important for star formation?",
+        "ques": "Why are **molecular clouds** important and what conditions exist inside them?",
         "answer": {
             "type": "text",
-            "content": "**1. Molecular clouds:** Dense, cold regions where H₂ and other molecules exist\n\n**2. Molecules:** H₂, CO, H₂O, NH₃, CH₃OH (methanol), even amino acids!\n\n**3. Importance:** Dense enough for gravity to overcome pressure → cloud collapses → stars form"
+            "content": "**Molecular Cloud Properties:**\n\n| Property | Value |\n|----------|-------|\n| Temperature | 10-20 K |\n| Density | 10²-10⁶ particles/cm³ |\n| Mass | 10²-10⁶ M☉ |\n| Size | 1-100 pc |\n| Composition | 99% gas (H₂), 1% dust |\n\n**Importance:**\n- Sites of star formation\n- Shield UV radiation (molecules survive)\n- Grain surfaces enable chemistry\n- Where complexity builds up"
         },
-        "explanation": "**Molecular clouds** are stellar nurseries. The Orion Nebula contains an active star-forming region."
+        "explanation": "Giant molecular clouds (GMCs) like Orion Nebula are stellar nurseries. Cold temperatures allow gravitational collapse."
     },
     {
-        "title": "Spectroscopy in Astronomy 📊",
-        "ques": "1. How does spectroscopy work?\n2. What can we determine?\n3. Absorption vs emission spectra",
+        "title": "Polycyclic Aromatic Hydrocarbons 💫",
+        "ques": "What are **PAHs** and why are they important in astrochemistry?",
         "answer": {
             "type": "text",
-            "content": "**1. How it works:** Split light by wavelength; analyze bright/dark lines\n\n**2. Determines:**\n- Composition (elements present)\n- Temperature\n- Motion (Doppler shift)\n- Density, magnetic fields\n\n**3. Types:**\n- Emission: Bright lines on dark (hot gas)\n- Absorption: Dark lines on continuum (cool gas in front of hot source)"
+            "content": "**PAHs (Polycyclic Aromatic Hydrocarbons):**\n- Multiple fused benzene rings\n- Examples: naphthalene, pyrene, coronene\n\n**Significance:**\n- 10-25% of cosmic carbon in PAHs\n- Identified via IR emission bands (3.3, 6.2, 7.7 μm)\n- Found everywhere: ISM, circumstellar disks, comets\n- May be precursors to prebiotic molecules\n- Remarkably stable in harsh conditions\n\n**Origin:** Formed in carbon-rich stellar winds and supernovae"
         },
-        "explanation": "**Spectroscopy** is astronomy's most powerful tool. Each element has unique spectral 'fingerprint'."
+        "explanation": "PAHs are the largest molecules spectroscopically identified in space. Connection to origin of life is actively studied."
     },
     {
-        "title": "Chemical Evolution 🔬",
-        "ques": "1. Where are heavy elements made?\n2. What is nucleosynthesis?\n3. Why are we 'made of stardust'?",
+        "title": "Dust Grains 🌌",
+        "ques": "What role do **interstellar dust grains** play in astrochemistry?",
         "answer": {
             "type": "text",
-            "content": "**1. Heavy elements:**\n- Up to iron: Stars\n- Heavier than iron: Supernovae, neutron star mergers\n\n**2. Nucleosynthesis:** Creation of new atomic nuclei via fusion/capture reactions\n\n**3. Stardust:** Carbon, oxygen, nitrogen in our bodies came from stars that died before our Sun formed"
+            "content": "**Dust Grain Functions:**\n\n**1. Catalysis:**\n- Surfaces enable H₂ formation\n- Gas-phase H + H → H₂ is inefficient\n\n**2. Protection:**\n- Shield molecules from UV destruction\n\n**3. Heating:**\n- Absorb starlight, emit IR\n\n**Composition:**\n- Silicates (rocky)\n- Carbonaceous (graphite, PAHs)\n- Ice mantles (H₂O, CO, NH₃)\n\n**Size:** 0.01-0.1 μm (smoke particle sized)"
         },
-        "explanation": "**Nuclear fusion** in stars builds elements up to iron. Beyond iron, supernovae create heavier elements."
+        "explanation": "Without dust, molecular hydrogen couldn't form efficiently, and neither could stars. Dust is crucial for cosmic chemistry."
     },
     {
-        "title": "Planetary Atmospheres 🌍",
-        "ques": "1. What determines atmosphere composition?\n2. Why doesn't Moon have atmosphere?\n3. Greenhouse effect on Venus vs Earth",
+        "title": "Astrochemistry in Protoplanetary Disks 💿",
+        "ques": "How does **chemistry in protoplanetary disks** relate to planet formation?",
         "answer": {
             "type": "text",
-            "content": "**1. Factors:**\n- Gravity (escape velocity)\n- Temperature\n- Outgassing from interior\n- Solar wind stripping\n\n**2. Moon:** Low gravity → light gases escape; no magnetic field → solar wind strips rest\n\n**3. Greenhouse:**\n- Venus: 96% CO₂ → runaway greenhouse → 460°C\n- Earth: ~0.04% CO₂ → moderate → ~15°C"
+            "content": "**Disk Chemistry Processes:**\n\n**Radial Structure:**\n- Inner disk: Hot, rocky minerals\n- Snow line: Water ice condenses (~3 AU)\n- Outer disk: CO, N₂ ices\n\n**Importance:**\n- Determines what planets form from\n- Ice availability enables giant planet cores\n- Organic delivery to terrestrial planets\n- Comets preserve pristine disk material\n\n**Detection:** ALMA imaging shows chemical structure"
         },
-        "explanation": "**Venus** shows what runaway greenhouse effect looks like. Early Venus may have had oceans."
+        "explanation": "The snow line position affects where giant planets form. Earth received water from outer solar system via impacts."
     },
     {
-        "title": "Astrochemistry Lab 🧪",
-        "ques": "1. What is laboratory astrophysics?\n2. How do we simulate space conditions?\n3. Why is this research important?",
+        "title": "Isotope Ratios in Astronomy 🔢",
+        "ques": "Why are **isotope ratios** important in astrochemistry?",
         "answer": {
             "type": "text",
-            "content": "**1. Lab astrophysics:** Recreating space conditions to study reactions\n\n**2. Simulation:**\n- Ultra-high vacuum chambers\n- Cryogenic temperatures (10-100 K)\n- UV radiation sources\n\n**3. Importance:**\n- Understand molecule formation\n- Interpret astronomical spectra\n- Study origins of life's building blocks"
+            "content": "**Isotope Ratios as Tracers:**\n\n| Ratio | Information |\n|-------|------------|\n| **D/H** | Temperature history (deuterium fractionation) |\n| **¹²C/¹³C** | Nuclear processing, stellar winds |\n| **¹⁶O/¹⁸O** | Stellar nucleosynthesis, mass loss |\n\n**Applications:**\n- Determine origin of Solar System water\n- Trace material processing in ISM\n- Distinguish pre-solar grains in meteorites\n- Compare Solar System to ISM"
         },
-        "explanation": "**Lab studies** help interpret observations. We've found amino acids can form on icy grains!"
+        "explanation": "Earth's D/H ratio matches certain asteroids better than comets. Isotopes tell us where our atoms came from."
+    },
+    {
+        "title": "Chemical Networks 🕸️",
+        "ques": "How do astrochemists model the **chemistry of molecular clouds**?",
+        "answer": {
+            "type": "text",
+            "content": "**Chemical Modeling:**\n\n**Components:**\n1. Gas-phase reactions (ion-molecule)\n2. Grain surface reactions\n3. Photodissociation\n4. Cosmic ray ionization\n\n**Network:**\n- 100s of species, 1000s of reactions\n- Solve coupled differential equations\n- Include time-dependence\n\n**Key Processes:**\n- H₃⁺ is initiator of ion-molecule chains\n- Cosmic rays ionize H₂ → H₂⁺ → H₃⁺\n- H₃⁺ + X → HX⁺ chain begins"
+        },
+        "explanation": "Modern astrochemical models reproduce observed abundances well. Computing power enables complex simulations."
+    },
+    {
+        "title": "Origin of Life Connection 🧬",
+        "ques": "How does **astrochemistry** inform the **origin of life**?",
+        "answer": {
+            "type": "text",
+            "content": "**Astrochemistry & Life:**\n\n**Building Blocks in Space:**\n- Amino acids (glycine detected in comets)\n- Sugars (ribose in meteorites)\n- Nucleobases (adenine, uracil)\n- Phosphorus compounds\n\n**Delivery Mechanisms:**\n- Meteorites (carbonaceous chondrites)\n- Comets\n- Interplanetary dust particles\n\n**Implications:**\n- Life's precursors are universal\n- May have seeded early Earth\n- Increases likelihood of life elsewhere"
+        },
+        "explanation": "Astrochemistry shows that prebiotic chemistry is a cosmic phenomenon, not unique to Earth."
     }
 ]

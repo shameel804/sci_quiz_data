@@ -2,58 +2,138 @@
     "id": "learn_celmech",
     "topicId": "celmech",
     "topicTitle": "Celestial Mechanics",
-    "description": "Explore orbital dynamics, tides, gravitational interactions, and Lagrange points",
-    "baseKP": 75,
+    "description": "The math behind the motion of the heavens.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "celmech_1",
             "type": "content",
-            "title": "Welcome to Celestial Mechanics",
-            "content": "# Introduction to Celestial Mechanics 🌙\n\nWelcome to **Celestial Mechanics** - the physics of orbits!\n\n## What you'll learn:\n- **Orbital Dynamics** - How objects move in space\n- **Tides** - Gravitational effects\n- **N-body Problem** - Multiple gravitating objects\n- **Lagrange Points** - Gravitational balance points\n\n> 💡 **Fun Fact:** Newton's laws can predict planetary positions centuries in advance!\n\n## What is Celestial Mechanics?\n\nThe study of motions of celestial bodies under gravity.\n\n## Historical Development\n\n| Scientist | Contribution |\n|-----------|-------------|\n| Ptolemy | Earth-centered model |\n| Copernicus | Sun-centered model |\n| Kepler | Laws of planetary motion |\n| Newton | Universal gravitation |\n| Lagrange | Stability and L-points |\n| Einstein | General relativity corrections |\n\n## Newton's Law of Gravitation\n\n```\nF = G(m₁m₂)/r²\n\nG = 6.674 × 10⁻¹¹ N⋅m²/kg²\n```\n\n## Applications\n\n- Satellite deployment\n- Space missions\n- Planetary ephemerides\n- Space debris tracking\n- Exoplanet detection\n\nLet's explore the dance of the planets!"
+            "title": "What is Celestial Mechanics?",
+            "content": "# Orbital Dance 💃\n\nThe branch of astronomy that deals with the motions of objects in outer space.\n- Unifying Kepler's geometry with Newton's physics."
         },
         {
             "id": "celmech_2",
             "type": "content",
-            "title": "Orbital Elements",
-            "content": "# Orbital Dynamics 🛰️\n\n## Kepler's Laws (Review)\n\n1. **Elliptical orbits** - Sun at one focus\n2. **Equal areas** in equal times\n3. **P² = a³** (for solar system)\n\n## Orbital Elements\n\nSix numbers completely describe an orbit:\n\n| Element | Symbol | Description |\n|---------|--------|-------------|\n| Semi-major axis | a | Size of orbit |\n| Eccentricity | e | Shape (0=circle) |\n| Inclination | i | Tilt from reference |\n| Longitude of ascending node | Ω | Orientation |\n| Argument of periapsis | ω | Where periapsis is |\n| True anomaly | ν | Position along orbit |\n\n## Orbit Types by Eccentricity\n\n| e value | Shape | Example |\n|---------|-------|--------|\n| 0 | Circle | Circular orbit |\n| 0 < e < 1 | Ellipse | Planets |\n| 1 | Parabola | Just barely escapes |\n| > 1 | Hyperbola | Unbound trajectory |\n\n## Orbital Velocities\n\n### Circular orbit:\n```\nv = √(GM/r)\n```\n\n### Escape velocity:\n```\nv_esc = √(2GM/r)\n```\n\n## Orbital Energy\n\n```\nE = -GMm/(2a)\n\nNegative = bound (ellipse)\nZero = parabolic\nPositive = hyperbolic\n```\n\n## Vis-Viva Equation\n\n```\nv² = GM(2/r - 1/a)\n```\n\n> 🎯 **Key Point:** Lower orbits = faster motion; higher orbits = slower!"
+            "title": "Newton's Law of Gravitation",
+            "content": "# The Formula 🧮\n\n$$F = G \\frac{m_1 m_2}{r^2}$$\n\n- **G**: Gravitational Constant.\n- Force drops with distance squared.\n- Gravity is universal."
         },
         {
             "id": "celmech_3",
             "type": "content",
-            "title": "Tides",
-            "content": "# Tides 🌊\n\nGravitational effects from the Moon and Sun.\n\n## How Tides Form\n\n```\n              Near side:\n              Pulled toward Moon\n                    │\n    ┌───────────────●───────────────┐\n    │               │               │\n    │       🌍      │               │ 🌙 Moon\n    │               │               │\n    └───────────────●───────────────┘\n                    │\n              Far side:\n              Left behind (bulge)\n```\n\n## Two Bulges!\n\n- Near side: Water pulled toward Moon\n- Far side: Earth pulled away, water \"left behind\"\n- Result: Two high tides per day\n\n## Tidal Patterns\n\n| Type | Description |\n|------|-------------|\n| Spring tides | Sun + Moon aligned → Extra high/low |\n| Neap tides | Sun + Moon at 90° → Moderate tides |\n\n```\nSpring Tide:     Neap Tide:\n🌑☀️ → 🌍        🌓\n                  ↓\nAligned          ☀️ → 🌍\nStronger         Perpendicular\n                 Weaker\n```\n\n## Tidal Locking\n\n```\nTidal forces slow rotation until:\n\nRotation period = Orbital period\n\nMoon always shows same face to Earth!\n```\n\n## Tidal Effects on Bodies\n\n| Effect | Example |\n|--------|--------|\n| Tidal heating | Io's volcanism |\n| Tidal locking | Moon, Pluto-Charon |\n| Orbital decay | Moon moving away ~3.8 cm/yr |\n| Spin down | Earth's day getting longer |\n\n> 💡 **Key Point:** Tides transfer angular momentum between bodies!"
-        },
-        {
-            "id": "celmech_quiz_1",
-            "type": "quiz",
-            "title": "Celestial Mechanics Quiz",
-            "content": "Test your understanding!",
-            "quizQuestion": "What happens during a spring tide?",
-            "quizOptions": [
-                "The Moon is farthest from Earth",
-                "Sun and Moon are at right angles",
-                "Sun and Moon are aligned",
-                "No tides occur"
-            ],
-            "correctOptionIndex": 2
+            "title": "Conic Sections",
+            "content": "# Orbital Shapes 📐\n\nOrbits are slices of a cone.\n- **Circle**: Eccentricity ($e$) = 0.\n- **Ellipse**: $0 < e < 1$ (Planets).\n- **Parabola**: $e = 1$ (Escape path).\n- **Hyperbola**: $e > 1$ (Flyby)."
         },
         {
             "id": "celmech_4",
             "type": "content",
-            "title": "The N-Body Problem",
-            "content": "# The N-Body Problem 🌐\n\n## The Challenge\n\n- Two bodies: Solved exactly (Kepler, Newton)\n- Three bodies: Generally NOT solvable analytically!\n- N bodies: Requires numerical integration\n\n## Why It's Hard\n\n```\nEach body affects every other body:\n\n  ●₁ ← → ●₂\n   \\   ╱\n    ╲ ╱\n     ●₃\n     \nWith N bodies: N(N-1)/2 interactions\n```\n\n## Restricted Three-Body Problem\n\nSimplification: Third body has negligible mass.\n\n- Used for spacecraft trajectories\n- Leads to Lagrange points\n\n## Chaos in Celestial Mechanics\n\nSmall changes → Big effects over time.\n\n### Example: Solar System\n\n- Stable for ~5 billion years (probably)\n- Mercury's orbit is chaotic\n- Precise prediction: ~10 million years max\n\n## Numerical Methods\n\n| Method | Use |\n|--------|-----|\n| Euler | Simple but inaccurate |\n| Runge-Kutta | Good general purpose |\n| Symplectic | Preserves energy long-term |\n| Tree codes | Large N problems |\n\n## Resonances\n\nWhen orbital periods form simple ratios:\n\n| Resonance | Example |\n|-----------|--------|\n| 2:1 | Jupiter-Saturn (near) |\n| 3:2 | Pluto-Neptune |\n| 1:1 | Trojan asteroids |\n\nResonances can stabilize OR destabilize orbits.\n\n> 🎯 **Key Point:** Beyond 2 bodies, we must use computers!"
+            "title": "Orbital Elements",
+            "content": "# 6 Numbers 🎲\n\nDefine an orbit in 3D space.\n1. **Semi-major axis ($a$)**: Size.\n2. **Eccentricity ($e$)**: Shape.\n3. **Inclination ($i$)**: Tilt.\n4. **Ascending Node ($\\Omega$)**: Swivel.\n5. **Argument of Periapsis ($\\omega$)**: Rotation.\n6. **Mean Anomaly ($M$)**: Position."
+        },
+        {
+            "id": "celmech_quiz_1",
+            "type": "quiz",
+            "title": "Shape Quiz",
+            "content": "Geometry check.",
+            "quizQuestion": "An orbit with eccentricity e = 0 is a:",
+            "quizOptions": [
+                "Line",
+                "Parabola",
+                "Circle",
+                "Hyperbola"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "celmech_5",
             "type": "content",
-            "title": "Lagrange Points",
-            "content": "# Lagrange Points ⚓\n\nFive special equilibrium points in a two-body system.\n\n## The Five Points\n\n```\n             L4\n            ╱\n           ╱  60°\n          ╱\n    L3   ★     🌍  L1    L2\n    ●──────●──────●─────●─────●\n          Sun    Earth\n          ╲\n           ╲ 60°\n            ╲\n             L5\n```\n\n## Point Descriptions\n\n| Point | Location | Stability |\n|-------|----------|----------|\n| L1 | Between bodies | Unstable |\n| L2 | Beyond smaller body | Unstable |\n| L3 | Opposite side of larger | Unstable |\n| L4 | 60° ahead (triangle) | Stable |\n| L5 | 60° behind (triangle) | Stable |\n\n## L1 Applications\n\n```\nSun-Earth L1 (1.5 million km toward Sun)\n\nUsed for: Solar observation satellites\nExample: SOHO, DSCOVR\n```\n\n## L2 Applications\n\n```\nSun-Earth L2 (1.5 million km away from Sun)\n\nUsed for: Space telescopes\nExample: JWST, Planck, Gaia\n\nAdvantages:\n- Always away from Sun\n- Stable thermal environment\n- Earth blocks some solar radiation\n```\n\n## L4 and L5: Trojan Asteroids\n\n```\n           Trojans (L4)\n          ╱\n         ╱\n    ★───◐───────────→ Orbit\n         ╲\n          ╲\n           Greeks (L5)\n```\n\nJupiter has ~10,000 known Trojans!\n\n## Halo Orbits\n\nSatellites don't sit at L-points exactly - they orbit around them.\n\n> 💡 **Key Point:** JWST orbits around L2, not at it exactly!"
+            "title": "The Two-Body Problem",
+            "content": "# Solved! ✅\n\nSimulating 2 objects (Sun + Earth) is exactly solvable.\n- They orbit their common Center of Mass (**Barycenter**).\n- Barycenter of Sun-Jupiter is just outside the Sun's surface."
         },
         {
             "id": "celmech_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Celestial Mechanics! Here's what you've mastered:\n\n## Orbital Dynamics\n\n- ✅ Six orbital elements define an orbit\n- ✅ Eccentricity: Circle to hyperbola\n- ✅ Vis-viva: v² = GM(2/r - 1/a)\n- ✅ Lower orbit = faster motion\n\n## Kepler's Laws\n\n| Law | Statement |\n|-----|----------|\n| 1st | Ellipses with Sun at focus |\n| 2nd | Equal areas in equal times |\n| 3rd | P² = a³ |\n\n## Tides\n\n- ✅ Two bulges (near and far)\n- ✅ Spring/neap tides\n- ✅ Tidal locking (Moon)\n- ✅ Tidal heating (Io)\n\n## N-Body Problem\n\n- ✅ No general analytical solution for 3+ bodies\n- ✅ Numerical integration required\n- ✅ Long-term chaos\n- ✅ Resonances stabilize/destabilize\n\n## Lagrange Points\n\n| Point | Use |\n|-------|-----|\n| L1 | Solar observatories |\n| L2 | Space telescopes (JWST) |\n| L4, L5 | Trojan asteroids |\n\n> 🎓 **You've completed Astronomy!**\n\nCongratulations on mastering the universe from planets to the cosmos!"
+            "title": "The Three-Body Problem",
+            "content": "# Chaos 🦋\n\nAdding a 3rd object (Sun + Earth + Moon) makes it mathematically unsolvable (No formula).\n- Must use computer approximation ($dt$).\n- Sensitive to initial conditions (Chaos Theory)."
+        },
+        {
+            "id": "celmech_7",
+            "type": "content",
+            "title": "Lagrange Points",
+            "content": "# Parking Spots 🅿️\n\n5 points where gravity of two bodies balance centrifugal force.\n- **L1**: Between Sun/Earth (Observatories).\n- **L2**: Behind Earth (James Webb Telescope).\n- **L4/L5**: Stable points 60 deg ahead/behind (Trojan Asteroids)."
+        },
+        {
+            "id": "celmech_8",
+            "type": "content",
+            "title": "Tidal Forces",
+            "content": "# Stretching 🌊\n\nGravity pulls harder on the close side than the far side.\n- Creates Tides on Earth.\n- Tears apart comets (Roche Limit).\n- Locks moons to face planet (**Tidal Locking**)."
+        },
+        {
+            "id": "celmech_9",
+            "type": "content",
+            "title": "Roche Limit",
+            "content": "# Breaking Point 💔\n\nDistance where planetary tidal forces overpower a moon's self-gravity.\n- Moon crumbles into discrete particles.\n- This is how **Saturn's Rings** formed."
+        },
+        {
+            "id": "celmech_10",
+            "type": "content",
+            "title": "Orbital Resonance",
+            "content": "# Rhythm 🥁\n\nPeriodic gravitational kick when orbits form simple ratios.\n- Io/Europa/Ganymede (1:2:4 resonance).\n- Can stabilize orbits (Pluto/Neptune 2:3) or clear gaps (Kirkwood gaps in asteroids)."
+        },
+        {
+            "id": "celmech_11",
+            "type": "content",
+            "title": "Perturbations",
+            "content": "# Nudges 🎱\n\nPlanets aren't alone; they tug each other.\n- Causes orbits to wobble (Precession).\n- Used to discover Neptune (Uranus wasn't where it should be)."
+        },
+        {
+            "id": "celmech_quiz_2",
+            "type": "quiz",
+            "title": "Dynamics Quiz",
+            "content": "Force check.",
+            "quizQuestion": "Why does the Moon always show the same face to Earth?",
+            "quizOptions": [
+                "Coincidence",
+                "Tidal Locking",
+                "Magnetic Locking",
+                "It doesn't rotate"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "celmech_12",
+            "type": "content",
+            "title": "Hohmann Transfer",
+            "content": "# Efficient Travel ⛽\n\nTo move between orbits (Earth to Mars), you don't fly straight.\n- You perform an elliptical transfer orbit.\n- Burn 1 to leave Earth, Burn 2 to arrive at Mars.\n- Takes ~6-8 months."
+        },
+        {
+            "id": "celmech_13",
+            "type": "content",
+            "title": "Hill Sphere",
+            "content": "# Domain 🌐\n\nRegion where a body dominates the attraction of satellites.\n- Inside Hill Sphere: You orbit planet.\n- Outside: You orbit Sun.\n- Moon is well inside Earth's Hill sphere."
+        },
+        {
+            "id": "celmech_14",
+            "type": "content",
+            "title": "Precession of Perihelion",
+            "content": "# Mercury's Mystery 🕵️\n\nMercury's orbit rotates slowly.\n- Newton couldn't explain all of it.\n- Einstein (General Relativity) fixed it (Gravity is curvature).\n- First proof of GR."
+        },
+        {
+            "id": "celmech_15",
+            "type": "content",
+            "title": "Chaos in Solar System",
+            "content": "# Unpredictable 🎲\n\nOver billions of years, orbits drift.\n- Small chance Mercury could be ejected or hit Venus.\n- Not clockwork, but chaotic stable."
+        },
+        {
+            "id": "celmech_16",
+            "type": "content",
+            "title": "N-Body Simulation",
+            "content": "# Computer Power 💻\n\nCalculating gravity for millions of stars to simulate Galaxy formation.\n- Requires massive supercomputers."
+        },
+        {
+            "id": "celmech_17",
+            "type": "content",
+            "title": "CelMech Summary",
+            "content": "# Recap 📝\n\n- Orbits are **Ellipses**.\n- **Gravity** allows for complex dances (Resonance, Lagrange points).\n- **Tides** shape objects (and rings).\n- Math lets us navigate the Solar System."
         }
     ]
 }

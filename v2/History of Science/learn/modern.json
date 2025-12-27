@@ -2,58 +2,138 @@
     "id": "learn_modern",
     "topicId": "modern",
     "topicTitle": "Modern Science",
-    "description": "Explore Scientific Revolution, Industrial Age, 20th Century breakthroughs, and current science",
-    "baseKP": 75,
+    "description": "The Scientific Revolution and beyond.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "modern_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Modern Science 🔬\n\n## Eras\n- Scientific Revolution (1500-1700)\n- Industrial Age (1700-1900)\n- 20th Century\n- Contemporary"
+            "title": "The Scientific Revolution",
+            "content": "# New Way 🔭\n\n1543-1687.\nA shift from trusting Authority (Aristotle/Bible) to trusting Observation and Reason.\n- Copernicus to Newton."
         },
         {
             "id": "modern_2",
             "type": "content",
-            "title": "Scientific Revolution",
-            "content": "# Scientific Revolution 🌟\n\n## Key Figures\n| Scientist | Contribution |\n|-----------|-------------|\n| Copernicus | Heliocentric model |\n| Galileo | Telescope, motion |\n| Newton | Gravity, calculus |\n| Kepler | Planetary motion |\n\n## Key Shift\n- From authority to evidence\n- Scientific method"
+            "title": "Copernicus",
+            "content": "# Sun Center ☀️\n\n1543: *On the Revolutions of the Celestial Spheres*.\n- **Heliocentric Model**: Earth goes around Sun.\n- Challenged 1000 years of belief.\n- Published on his deathbed to avoid persecution."
         },
         {
             "id": "modern_3",
             "type": "content",
-            "title": "Industrial Age",
-            "content": "# Industrial Age Science ⚙️\n\n## Breakthroughs\n| Field | Advance |\n|-------|--------|\n| Electricity | Faraday, Maxwell |\n| Evolution | Darwin |\n| Chemistry | Periodic table |\n| Thermodynamics | Laws established |"
-        },
-        {
-            "id": "modern_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Who proposed the heliocentric model?",
-            "quizOptions": [
-                "Galileo",
-                "Copernicus",
-                "Newton",
-                "Kepler"
-            ],
-            "correctOptionIndex": 1
+            "title": "Galileo Galilei",
+            "content": "# The Observer 🔭\n\n- Improved Telescope.\n- Saw: Moons of Jupiter (Earth not only center!), Phases of Venus, Sunspots.\n- Tried by Inquisition: \"And yet it moves.\""
         },
         {
             "id": "modern_4",
             "type": "content",
-            "title": "20th Century",
-            "content": "# 20th Century Science 🚀\n\n## Revolutions\n| Field | Breakthrough |\n|-------|-------------|\n| Physics | Relativity, QM |\n| Biology | DNA structure |\n| Space | Moon landing |\n| Computing | Transistors, internet |\n| Medicine | Antibiotics, vaccines |"
+            "title": "Francis Bacon",
+            "content": "# Scientific Method 🧪\n\n- **Empiricism**: Knowledge comes from sensory experience.\n- Inductive Reasoning.\n- \"Knowledge is Power\"."
         },
         {
             "id": "modern_5",
             "type": "content",
-            "title": "Current Science",
-            "content": "# Contemporary Science 🧬\n\n## Frontiers\n- Gene editing (CRISPR)\n- AI and machine learning\n- Climate science\n- Dark matter/energy\n- Quantum computing"
+            "title": "Isaac Newton",
+            "content": "# Gravity 🍎\n\n1687: *Principia Mathematica*.\n- **Laws of Motion**.\n- **Universal Gravitation**: Same force pulls apple and keeps Moon in orbit.\n- Invented Calculus (with Leibniz).\n- Unified Heaven and Earth physics."
+        },
+        {
+            "id": "modern_quiz_1",
+            "type": "quiz",
+            "title": "Motion Quiz",
+            "content": "Person check.",
+            "quizQuestion": "Who formulated the Laws of Motion and Universal Gravitation?",
+            "quizOptions": [
+                "Einstein",
+                "Newton",
+                "Galileo",
+                "Darwin"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "modern_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Scientific Revolution: Evidence-based\n- Industrial Age: Electricity, evolution\n- 20th Century: QM, DNA, computing\n- Today: AI, genetics, quantum"
+            "title": "Chemistry Revolution",
+            "content": "# Elements ⚛️\n\n- **Antoine Lavoisier**: Identified Oxygen. Law of Conservation of Mass.\n- **Dmitri Mendeleev**: Periodic Table (1869). Predicted missing elements.\n- Alchemy finally became Chemistry."
+        },
+        {
+            "id": "modern_7",
+            "type": "content",
+            "title": "Darwin and Evolution",
+            "content": "# Origin of Species 🐢\n\n1859.\n- **Natural Selection**: Survival of the fittest.\n- All life shares a common ancestor.\n- Changed Biology forever."
+        },
+        {
+            "id": "modern_8",
+            "type": "content",
+            "title": "Germ Theory",
+            "content": "# Invisible Enemies 🦠\n\n- **Louis Pasteur**: Germs cause disease (not bad smells/miasma). Pasteurization.\n- **Robert Koch**: Identifies specific bacteria for Anthrax, TB.\n- **Joseph Lister**: Antiseptic surgery."
+        },
+        {
+            "id": "modern_9",
+            "type": "content",
+            "title": "Electromagnetism",
+            "content": "# Sparks ⚡\n\n- **Michael Faraday**: Induction (Motor/Generator).\n- **James Clerk Maxwell**: Equations uniting Electricity, Magnetism, and Light.\n- Powered the industrial world."
+        },
+        {
+            "id": "modern_10",
+            "type": "content",
+            "title": "Industrial Revolution",
+            "content": "# Machines 🚂\n\n- **Steam Engine** (James Watt): Heat $\\to$ Work.\n- Factories, Trains, Electricity.\n- Science applied to production."
+        },
+        {
+            "id": "modern_11",
+            "type": "content",
+            "title": "Marie Curie",
+            "content": "# Radioactivity ☢️\n\n- Discovered Radium and Polonium.\n- Only person to win Nobel Prize in two different sciences (Physics & Chemistry).\n- Died from her own discovery."
+        },
+        {
+            "id": "modern_quiz_2",
+            "type": "quiz",
+            "title": "Bio Quiz",
+            "content": "Theory check.",
+            "quizQuestion": "Was Germ Theory accepted before the 19th Century?",
+            "quizOptions": [
+                "Yes, Greeks knew it",
+                "No, Miasma theory ruled",
+                "Yes, Romans confirmed it",
+                "No, they believed in viruses"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "modern_12",
+            "type": "content",
+            "title": "Quantum Mechanics",
+            "content": "# Weird Physics 🎲\n\nEarly 20th Century.\n- Planck, Einstein, Bohr, Heisenberg.\n- Energy is quantized.\n- Particles are Probability waves.\n- Uncertainty Principle."
+        },
+        {
+            "id": "modern_13",
+            "type": "content",
+            "title": "Einstein's Relativity",
+            "content": "# Space-Time ⏳\n\n1905/1915.\n- **Special**: Time slows down when you move fast ($E=mc^2$).\n- **General**: Gravity is bending of space-time.\n- Replaced Newton's fixed universe."
+        },
+        {
+            "id": "modern_14",
+            "type": "content",
+            "title": "DNA Structure",
+            "content": "# Double Helix 🧬\n\n1953: Watson, Crick, Franklin, Wilkins.\n- Mechanism of heredity found.\n- Molecular Biology begins.\n- Genome sequencing follows."
+        },
+        {
+            "id": "modern_15",
+            "type": "content",
+            "title": "The Digital Age",
+            "content": "# Computers 💻\n\n- **Turing**: Mathematical logic.\n- **Transistor** (1947): Bell Labs.\n- **Internet**.\n- Information Revolution."
+        },
+        {
+            "id": "modern_16",
+            "type": "content",
+            "title": "Big Science",
+            "content": "# Megaprojects 🚀\n\nScience became too big for one person.\n- **Manhattan Project** (nuke).\n- **Apollo** (Moon).\n- **CERN** (Particle Accelerator).\n- **Human Genome Project**."
+        },
+        {
+            "id": "modern_17",
+            "type": "content",
+            "title": "Modern Summary",
+            "content": "# Recap 📝\n\n- We moved from **Philosophy** to **Experiment**.\n- Technology exploded.\n- We unlocked the atom and the gene.\n- Exponential growth of knowledge."
         }
     ]
 }

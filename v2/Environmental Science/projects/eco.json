@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Ecosystem Components 🌿",
+        "ques": "Describe the **biotic** and **abiotic** components of an ecosystem.",
+        "answer": {
+            "type": "text",
+            "content": "**Biotic (Living) Components:**\n| Category | Role | Examples |\n|----------|------|----------|\n| **Producers** | Make food (photosynthesis) | Plants, algae |\n| **Consumers** | Eat other organisms | Herbivores, carnivores |\n| **Decomposers** | Break down dead matter | Bacteria, fungi |\n\n**Abiotic (Non-living) Components:**\n- Sunlight\n- Temperature\n- Water\n- Soil/substrate\n- Nutrients\n- pH, salinity"
+        },
+        "explanation": "Energy flows through ecosystems (one-way); nutrients cycle (recycled). Together they sustain life."
+    },
+    {
+        "title": "Food Webs 🕸️",
+        "ques": "Explain the difference between **food chains** and **food webs**.",
+        "answer": {
+            "type": "text",
+            "content": "**Food Chain:**\nLinear pathway of energy transfer\n```\nGrass → Grasshopper → Frog → Snake → Hawk\n```\n\n**Food Web:**\nInterconnected food chains in an ecosystem\n- More realistic\n- Shows complex relationships\n- Species eat multiple food sources\n\n**Trophic Levels:**\n1. Producers\n2. Primary consumers\n3. Secondary consumers\n4. Tertiary consumers\n5. Apex predators"
+        },
+        "explanation": "Only ~10% of energy transfers between trophic levels. Limits food chain length to 4-5 levels."
+    },
+    {
+        "title": "Biogeochemical Cycles ♻️",
+        "ques": "Compare the **carbon** and **nitrogen** cycles.",
+        "answer": {
+            "type": "text",
+            "content": "**Carbon Cycle:**\n| Process | Description |\n|---------|------------|\n| Photosynthesis | CO₂ → organic C |\n| Respiration | Organic C → CO₂ |\n| Decomposition | Return C to soil |\n| Combustion | Fossil fuels release CO₂ |\n\n**Nitrogen Cycle:**\n| Process | Description |\n|---------|------------|\n| Fixation | N₂ → NH₃ (by bacteria) |\n| Nitrification | NH₃ → NO₃⁻ |\n| Assimilation | Plants absorb NO₃⁻ |\n| Denitrification | NO₃⁻ → N₂ |"
+        },
+        "explanation": "Humans disrupt both: fossil fuels (carbon), fertilizers (nitrogen). Causes climate change and eutrophication."
+    },
+    {
+        "title": "Biomes 🌍",
+        "ques": "Describe the major **terrestrial biomes** and their characteristics.",
+        "answer": {
+            "type": "text",
+            "content": "| Biome | Climate | Vegetation |\n|-------|---------|------------|\n| **Tropical rainforest** | Hot, wet year-round | Dense forest, high diversity |\n| **Desert** | Hot or cold, dry | Cacti, sparse |\n| **Savanna** | Hot, seasonal rain | Grassland with trees |\n| **Temperate forest** | Moderate, distinct seasons | Deciduous trees |\n| **Taiga** | Cold, long winters | Coniferous forest |\n| **Tundra** | Very cold, permafrost | Mosses, lichens |\n| **Grassland** | Moderate, less rain than forest | Grasses |"
+        },
+        "explanation": "Biomes are determined primarily by temperature and precipitation. Climate change is shifting biome boundaries."
+    },
+    {
+        "title": "Ecological Succession 🌱",
+        "ques": "Explain **primary** and **secondary** ecological succession.",
+        "answer": {
+            "type": "text",
+            "content": "**Primary Succession:**\n- Starts on bare substrate (no soil)\n- Examples: Volcanic rock, glacial retreat\n- Takes centuries\n- Process: Lichens → Mosses → Grasses → Shrubs → Trees\n\n**Secondary Succession:**\n- Starts with existing soil\n- Examples: After fire, farm abandonment\n- Faster (decades)\n- Soil organisms and seeds already present\n\n**Climax Community:** Stable end stage of succession"
+        },
+        "explanation": "Disturbances reset succession. Some ecosystems (chaparral) depend on periodic fire."
+    },
+    {
+        "title": "Keystone Species 🦦",
+        "ques": "What is a **keystone species** and why are they important?",
+        "answer": {
+            "type": "text",
+            "content": "**Keystone Species:**\nSpecies with disproportionate effect on ecosystem relative to abundance\n\n**Examples:**\n| Species | Role |\n|---------|------|\n| Sea otters | Control urchins that eat kelp |\n| Wolves | Regulate deer, restore vegetation |\n| Bees | Pollination for many plants |\n| Beavers | Create wetland habitats |\n\n**Trophic Cascade:**\nRemoval of keystone → effects cascade through food web\n\nYellowstone wolves: reintroduction changed river courses!"
+        },
+        "explanation": "Ecosystem engineers (beavers, elephants) physically modify habitat. Protection of keystones protects ecosystems."
+    },
+    {
+        "title": "Carrying Capacity 📈",
+        "ques": "Define **carrying capacity** and factors that affect it.",
+        "answer": {
+            "type": "text",
+            "content": "**Carrying Capacity (K):**\nMaximum population size an environment can sustainably support\n\n**Limiting Factors:**\n| Type | Examples |\n|------|----------|\n| **Density-dependent** | Food, disease, predation |\n| **Density-independent** | Weather, natural disasters |\n\n**Population Growth:**\n- Exponential: Unlimited resources\n- Logistic: Levels off at K\n\n$$\\frac{dN}{dt} = rN\\frac{(K-N)}{K}$$"
+        },
+        "explanation": "Human carrying capacity is debated—technology extends it, but resources are finite."
+    },
+    {
+        "title": "Ecological Niches 🎯",
+        "ques": "Distinguish between **fundamental** and **realized** niche.",
+        "answer": {
+            "type": "text",
+            "content": "**Fundamental Niche:**\nFull range of conditions and resources a species COULD use\n\n**Realized Niche:**\nActual conditions where species DOES live (after competition)\n\nRealized ⊂ Fundamental\n\n**Competitive Exclusion Principle:**\nTwo species cannot occupy same niche indefinitely—one will outcompete\n\n**Niche Partitioning:**\nSpecies evolve to use different resources (reduces competition)\n\n*Example: Warblers feeding at different heights in trees*"
+        },
+        "explanation": "Niches are multidimensional: food, space, time of activity, etc. Generalists vs specialists."
+    },
+    {
+        "title": "Invasive Species 🌾",
+        "ques": "Why are **invasive species** harmful and how do they spread?",
+        "answer": {
+            "type": "text",
+            "content": "**Invasive Species:**\nNon-native species that cause ecological/economic harm\n\n**Why Harmful:**\n- No natural predators\n- Outcompete native species\n- Alter habitats\n- Spread disease\n\n**Spread Mechanisms:**\n| Pathway | Example |\n|---------|--------|\n| Shipping ballast | Zebra mussels |\n| Pet trade | Burmese pythons |\n| Agriculture | Kudzu vine |\n| Biocontrol gone wrong | Cane toads |\n\n**Cost:** >$100 billion/year in US alone"
+        },
+        "explanation": "Prevention best; eradication expensive and often impossible. Island ecosystems especially vulnerable."
+    },
+    {
+        "title": "Symbiotic Relationships 🤝",
+        "ques": "Compare **mutualism, commensalism, and parasitism**.",
+        "answer": {
+            "type": "text",
+            "content": "**Symbiotic Relationships:**\n\n| Type | Species 1 | Species 2 | Example |\n|------|-----------|-----------|--------|\n| **Mutualism** | Benefits (+) | Benefits (+) | Bees-flowers |\n| **Commensalism** | Benefits (+) | Neutral (0) | Barnacles on whales |\n| **Parasitism** | Benefits (+) | Harmed (-) | Ticks on deer |\n\n**Also:**\n- **Amensalism:** One harmed, other unaffected\n- **Competition:** Both harmed"
+        },
+        "explanation": "Coral-zooxanthellae is obligate mutualism. Many relationships evolved over millions of years."
+    }
+]

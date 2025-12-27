@@ -2,58 +2,138 @@
     "id": "learn_geoeng",
     "topicId": "geoeng",
     "topicTitle": "Geological Engineering",
-    "description": "Explore geothermal energy, mining, seismic surveying, and groundwater",
-    "baseKP": 75,
+    "description": "Building with and on the Earth safely.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "geoeng_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Geological Engineering ⚙️\n\n## Topics\n- Geothermal energy\n- Mining techniques\n- Seismic surveying\n- Groundwater management"
+            "title": "What is Geo-Engineering?",
+            "content": "# Rock & Build 🏗️\n\nApplying geological science to engineering projects.\n- Assessing ground conditions.\n- Designing foundations, tunnels, and dams.\n- Mitigating geological hazards."
         },
         {
             "id": "geoeng_2",
             "type": "content",
-            "title": "Geothermal Energy",
-            "content": "# Geothermal Energy 🌋\n\n## Types\n| Type | Use |\n|------|-----|\n| Hydrothermal | Power plants |\n| Ground source | Heat pumps |\n| Hot dry rock | Future tech |\n\n## Benefits\n- Renewable\n- Low emissions\n- Reliable baseload"
+            "title": "Site Investigation",
+            "content": "# Look Before Leap 🧐\n\nCrucial first step.\n- **Drilling**: Taking core samples.\n- **Geophysics**: Scanning underground (Radar, Seismic).\n- Failure to investigate leads to disaster (Leaning Tower of Pisa)."
         },
         {
             "id": "geoeng_3",
             "type": "content",
-            "title": "Mining",
-            "content": "# Mining Techniques ⛏️\n\n| Method | Use |\n|--------|-----|\n| Open pit | Surface deposits |\n| Underground | Deep deposits |\n| Placer | Stream beds |\n| Solution | Dissolve ore |\n\n## Environmental Concerns\n- Habitat destruction\n- Water pollution\n- Tailings management"
-        },
-        {
-            "id": "geoeng_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "What type of mining is used for surface deposits?",
-            "quizOptions": [
-                "Underground",
-                "Open pit",
-                "Solution",
-                "Placer"
-            ],
-            "correctOptionIndex": 1
+            "title": "Rock Mechanics",
+            "content": "# Stress and Strain 🪨\n\nHow rocks deform under load.\n- **Intact Rock**: Strength of the stone itself.\n- **Rock Mass**: Strength of large block (includes cracks/joints).\n- Important for tunnels and mines."
         },
         {
             "id": "geoeng_4",
             "type": "content",
-            "title": "Seismic Surveying",
-            "content": "# Seismic Surveying 📊\n\n## Method\n```\nSource → Waves → Reflection → Receivers\n```\n\n## Applications\n- Oil/gas exploration\n- Earthquake research\n- Underground mapping\n\n## Types\n- Reflection seismology\n- Refraction seismology"
+            "title": "Soil Mechanics",
+            "content": "# Dirt Math 🧱\n\nSoil behaves like a fluid, solid, or particulate.\n- **Liquefaction**: Saturated soil turning to liquid during earthquake.\n- **Consolidation**: Soil settling under weight (Sinking buildings)."
         },
         {
             "id": "geoeng_5",
             "type": "content",
-            "title": "Groundwater",
-            "content": "# Groundwater 💧\n\n## Terms\n| Term | Definition |\n|------|------------|\n| Aquifer | Water-bearing rock |\n| Water table | Top of saturated zone |\n| Well | Drilled for water |\n| Recharge | Water entering aquifer |\n\n## Management\n- Sustainable extraction\n- Pollution prevention\n- Artificial recharge"
+            "title": "Slope Stability",
+            "content": "# Don't Slide 📉\n\nCalculated 'Factor of Safety'.\n- Increasing slope angle reduces stability.\n- Water is the enemy (Lubricates slip plane).\n- Solutions: Retaining walls, drainage, bolts."
+        },
+        {
+            "id": "geoeng_quiz_1",
+            "type": "quiz",
+            "title": "Stability Quiz",
+            "content": "Safety check.",
+            "quizQuestion": "What is the most common trigger for landslides?",
+            "quizOptions": [
+                "Wind",
+                "Water",
+                "Sunlight",
+                "Traffic"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "geoeng_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Geothermal: Clean, renewable\n- Mining: Open pit vs underground\n- Seismic: Subsurface imaging\n- Groundwater: Aquifer management"
+            "title": "Mining Methods",
+            "content": "# Digging Deep ⛏️\n\n- **Surface Mining**: Open pit. Removing overburden to get ore.\n- **Underground Mining**: Shafts and tunnels. Follows veins.\n- **Placer Mining**: Sifting riverbeds (Gold rush)."
+        },
+        {
+            "id": "geoeng_7",
+            "type": "content",
+            "title": "Seismic Surveying",
+            "content": "# Sound Pictures 🔊\n\nUsed to find Oil/Gas.\n- Send shockwaves (Truck or Explosive).\n- Listen to reflections.\n- Maps underground layers in 3D."
+        },
+        {
+            "id": "geoeng_8",
+            "type": "content",
+            "title": "Groundwater Manage",
+            "content": "# Aqua Engineering 💧\n\n- **Extraction**: Wells and pumps.\n- **Contamination**: Preventing landfill leaks into aquifer.\n- **Subsidence**: Ground sinking due to over-pumping (Venice, Mexico City)."
+        },
+        {
+            "id": "geoeng_9",
+            "type": "content",
+            "title": "Geothermal Energy",
+            "content": "# Earth Heat ♨️\n\nUsing Earth's heat for power.\n- Hot water pumped up $\\to$ Steam $\\to$ Turbine.\n- Renewable and constant (Baseload).\n- Iceland uses it for almost everything."
+        },
+        {
+            "id": "geoeng_10",
+            "type": "content",
+            "title": "Tunnelling",
+            "content": "# Boring 🚇\n\n- **TBM**: Tunnel Boring Machine (Giant drill).\n- **NATM**: New Austrian Tunneling Method (Using rock's own stress to support itself).\n- Channel Tunnel connects UK and France."
+        },
+        {
+            "id": "geoeng_11",
+            "type": "content",
+            "title": "Dam Construction",
+            "content": "# Holding Water 🧱\n\n- **Gravity Dam**: Holds water by sheer weight (Concrete).\n- **Arch Dam**: Curvature pushes force into canyon walls (Hoover Dam).\n- Requires solid bedrock foundation."
+        },
+        {
+            "id": "geoeng_quiz_2",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Source check.",
+            "quizQuestion": "Geothermal energy is powered by:",
+            "quizOptions": [
+                "Sun",
+                "Wind",
+                "Heat from Earth's core",
+                "Fossil Fuels"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "geoeng_12",
+            "type": "content",
+            "title": "Earthquake Engineering",
+            "content": "# Quake Proof 🏠\n\n- **Base Isolation**: Building sits on rubber pads.\n- **Dampers**: Huge pendulums to absorb sway (Taipei 101).\n- **Retrofitting**: Adding cross-braces to old buildings."
+        },
+        {
+            "id": "geoeng_13",
+            "type": "content",
+            "title": "Fracking",
+            "content": "# Hydraulic Fracturing ⛽\n\nInjecting fluid at high pressure to crack shale rock and release gas.\n- Revolutionized energy.\n- Controversial: Can cause small quakes and groundwater pollution."
+        },
+        {
+            "id": "geoeng_14",
+            "type": "content",
+            "title": "Carbon Sequestration",
+            "content": "# Burying CO2 📉\n\nCapturing Carbon from factories and pumping it deep underground (into empty oil wells).\n- Geo-engineering solution for Climate Change."
+        },
+        {
+            "id": "geoeng_15",
+            "type": "content",
+            "title": "Land Reclamation",
+            "content": "# Making Land 🏝️\n\nDredging sand from sea to build new islands.\n- Dubai (Palm Islands), Netherlands, Singapore.\n- Issues: Coastal erosion and ecosystem damage."
+        },
+        {
+            "id": "geoeng_16",
+            "type": "content",
+            "title": "Remote Sensing",
+            "content": "# Eyes in Space 🛰️\n\nUsing satellites (LiDAR, Radar) to monitor ground movement.\n- Can detect sinking of millimeters per year.\n- Monitors landslide risks."
+        },
+        {
+            "id": "geoeng_17",
+            "type": "content",
+            "title": "GeoEng Summary",
+            "content": "# Recap 📝\n\n- We build **ON** and **IN** the Earth.\n- Understanding rocks prevents collapse.\n- **Resources** (Mining, Water, Heat) require engineering.\n- Balances human needs with safety."
         }
     ]
 }

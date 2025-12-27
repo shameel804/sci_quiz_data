@@ -2,58 +2,138 @@
     "id": "learn_astrochem",
     "topicId": "astrochem",
     "topicTitle": "Astrochemistry",
-    "description": "Explore interstellar medium composition, molecular clouds, and spectroscopy in astronomy",
-    "baseKP": 75,
+    "description": "Chemistry in the vacuum of space.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "astrochem_1",
             "type": "content",
-            "title": "Welcome to Astrochemistry",
-            "content": "# Introduction to Astrochemistry 🧪⭐\n\nWelcome to **Astrochemistry** - chemistry beyond Earth!\n\n## What you'll learn:\n- **Interstellar Medium** - What's between the stars\n- **Molecular Clouds** - Stellar nurseries\n- **Spectroscopy** - How we identify cosmic molecules\n- **Astrobiology Connections** - Building blocks of life\n\n> 💡 **Fun Fact:** Over 200 different molecules have been detected in space, including amino acids!\n\n## What is Astrochemistry?\n\nStudy of chemical elements and molecules in space:\n- Their formation\n- Their destruction\n- Their reactions\n\n## Key Questions\n\n- How do molecules form in space?\n- Where do complex organics come from?\n- How did life's building blocks arrive on Earth?\n\n## Molecules in Space\n\n| Category | Examples |\n|----------|----------|\n| Simple | H₂, CO, H₂O, NH₃ |\n| Complex organics | CH₃OH, HCOOH |\n| Polycyclic aromatics | PAHs |\n| Ions | H₃⁺, HCO⁺ |\n\n## Detection Methods\n\n- Radio spectroscopy\n- Infrared spectroscopy\n- UV spectroscopy\n\nLet's explore cosmic chemistry!"
+            "title": "What is Astrochemistry?",
+            "content": "# Space Lab 🧪\n\nThe study of abundance and reactions of molecules in the Universe, and their interaction with radiation.\n\nIt connects Astronomy and Chemistry."
         },
         {
             "id": "astrochem_2",
             "type": "content",
-            "title": "The Interstellar Medium",
-            "content": "# The Interstellar Medium (ISM) 🌌\n\nThe matter between stars.\n\n## Composition\n\n```\nBy mass:\n  ~70% Hydrogen\n  ~28% Helium\n  ~2% Heavy elements (\"metals\")\n  \nPlus: Dust grains (1% by mass but important!)\n```\n\n## Phases of the ISM\n\n| Phase | Temperature | Density | State |\n|-------|-------------|---------|-------|\n| Hot ionized | 10⁶ K | 0.003/cm³ | Plasma |\n| Warm ionized | 8,000 K | 0.3/cm³ | Ionized |\n| Warm neutral | 6,000 K | 0.5/cm³ | Atomic H |\n| Cold neutral | 100 K | 50/cm³ | Atomic H |\n| Molecular | 10-20 K | 10³-10⁶/cm³ | H₂ |\n\n## Interstellar Dust\n\n### Composition\n- Silicates (rock-like)\n- Carbonaceous (graphite, soot)\n- Ice mantles (H₂O, CO, CO₂)\n\n### Size\n~0.1 μm (1000 atoms across)\n\n### Formation\n- Stellar winds\n- Supernova ejecta\n- Around evolved stars\n\n### Effects\n- Extincts (dims) starlight\n- Reddens starlight\n- Platform for molecule formation\n\n## Chemical Reactions\n\nIn space: Too cold and dilute for normal chemistry!\n\nReactions happen:\n- On dust grain surfaces\n- Via cosmic ray ionization\n- UV photodissociation\n\n> 🎯 **Key Point:** Dust grains are essential \"chemical factories\" in space!"
+            "title": "The Interstellar Medium (ISM)",
+            "content": "# The Stuff Between 🌌\n\nSpace isn't completely empty.\n- 99% Gas (Hydrogen, Helium).\n- 1% Dust (Silicates, Carbon).\n- Density is incredibly low (1 atom per $cm^3$ vs $10^{19}$ in air)."
         },
         {
             "id": "astrochem_3",
             "type": "content",
             "title": "Molecular Clouds",
-            "content": "# Molecular Clouds ☁️\n\nGiant clouds of molecular gas - stellar nurseries.\n\n## Properties\n\n| Property | Value |\n|----------|-------|\n| Temperature | 10-50 K |\n| Size | 15-600 light-years |\n| Mass | 10³-10⁷ M☉ |\n| Main molecule | H₂ |\n| Tracer molecule | CO |\n\n## Why CO as a Tracer?\n\n```\nH₂ is invisible at low temperatures\nH₂ has no permanent dipole moment\n\nCO does have a dipole → Rotational lines\nCO is abundant → Easy to detect\n```\n\n## Famous Molecular Clouds\n\n- Orion Molecular Cloud\n- Taurus Molecular Cloud\n- Rho Ophiuchi Cloud\n- Sagittarius B2 (most molecules detected)\n\n## Complex Molecules Found\n\n| Molecules | Formula | Notes |\n|-----------|---------|-------|\n| Methanol | CH₃OH | Common |\n| Formaldehyde | H₂CO | Pre-biotic |\n| Glycolaldehyde | HCOCH₂OH | Sugar-related |\n| Amino acetonitrile | NH₂CH₂CN | Glycine precursor |\n| Benzene | C₆H₆ | Building block |\n\n## Star Formation Connection\n\n```\nMolecular cloud\n      ↓\nDense core collapses\n      ↓\nProtostar forms\n      ↓\nChemistry changes with heating\n      ↓\nPlanetary disk chemistry\n```\n\n> 💡 **Key Point:** Complex organic molecules form before stars ignite!"
-        },
-        {
-            "id": "astrochem_quiz_1",
-            "type": "quiz",
-            "title": "Astrochemistry Quiz",
-            "content": "Test your knowledge of cosmic chemistry!",
-            "quizQuestion": "Why is CO used to trace molecular clouds instead of H₂?",
-            "quizOptions": [
-                "CO is more abundant",
-                "H₂ has no permanent dipole moment",
-                "H₂ is too hot to detect",
-                "CO is heavier"
-            ],
-            "correctOptionIndex": 1
+            "content": "# Stellar Nurseries 🍼\n\nCold, dense clouds where complex molecules can survive.\n- Shielded from UV radiation by dust.\n- Site of star formation.\n- Home to Water, Ammonia, Alcohol, etc."
         },
         {
             "id": "astrochem_4",
             "type": "content",
-            "title": "Spectroscopy in Astronomy",
-            "content": "# Spectroscopy in Astronomy 🌈\n\nIdentifying cosmic molecules by their \"fingerprints.\"\n\n## Types of Spectra\n\n### Emission Spectrum\n```\n│  │   │    │      │\n──┴──┴───┴────┴──────┴──\n Bright lines at specific wavelengths\n (Hot gas emitting)\n```\n\n### Absorption Spectrum\n```\n████████████████████████\n   │   │       │\n   Dark lines (Cool gas absorbing)\n```\n\n## Molecular Transitions\n\n| Type | Energy | Wavelength |\n|------|--------|------------|\n| Electronic | High | UV/Visible |\n| Vibrational | Medium | Infrared |\n| Rotational | Low | Microwave/Radio |\n\n## Radio Spectroscopy\n\nMolecules rotate → Emit at specific radio frequencies.\n\n### Famous Lines\n\n| Molecule | Frequency | Wavelength |\n|----------|-----------|------------|\n| CO (J=1-0) | 115 GHz | 2.6 mm |\n| H₂O (maser) | 22 GHz | 1.3 cm |\n| NH₃ | 23.7 GHz | 1.3 cm |\n| HI (21-cm) | 1420 MHz | 21 cm |\n\n## The 21-cm Line\n\n```\nHydrogen atom:\n\nParallel spins: ↑↑ (higher energy)\n        ↓ Spin flip → Photon emits\nAntiparallel: ↑↓ (lower energy)\n\nλ = 21 cm\n```\n\nMaps atomic hydrogen throughout the galaxy!\n\n## Infrared Spectroscopy\n\n- Identifies ices on dust grains\n- Detects organic molecules\n- JWST specialty!\n\n> 🎯 **Key Point:** Each molecule has unique spectral fingerprints!"
+            "title": "Spectroscopy",
+            "content": "# Fingerprints of Light 🌈\n\nHow we know what's out there.\n- Molecules absorb/emit specific frequencies.\n- **Radio Telescopes** (ALMA) detect rotational transitions of cold molecules."
+        },
+        {
+            "id": "astrochem_quiz_1",
+            "type": "quiz",
+            "title": "Detection Quiz",
+            "content": "Tool check.",
+            "quizQuestion": "Which tool is primarily used to identify molecules in cold dark clouds?",
+            "quizOptions": [
+                "Optical Telescope",
+                "Radio Telescope",
+                "X-Ray Telescope",
+                "Microscope"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "astrochem_5",
             "type": "content",
-            "title": "Origins of Life Chemistry",
-            "content": "# Astrobiology Connections 🧬\n\nWhere did life's molecules come from?\n\n## Building Blocks of Life\n\n| Molecule | Role | Found in Space? |\n|----------|------|----------------|\n| Amino acids | Proteins | Yes (in meteorites) |\n| Sugars | Energy, DNA backbone | Yes (glycolaldehyde) |\n| Nucleobases | DNA/RNA | Some evidence |\n| Phosphorus compounds | DNA, ATP | Detected |\n| Water | Solvent | Abundant! |\n\n## Delivery to Early Earth\n\n```\n           Molecular cloud\n                 ↓\n         Protoplanetary disk\n                 ↓\n    Comets & asteroids form with organics\n                 ↓\n         Early Earth bombardment\n                 ↓\n      Molecules delivered to Earth\n```\n\n## Murchison Meteorite (1969)\n\nFell in Australia, contained:\n- 90+ amino acids\n- Nucleobases\n- Sugar-related compounds\n- Fatty acids\n\n> Proof that complex organics form in space!\n\n## Key Reactions in Space\n\n### Grain Surface Chemistry\n\n```\nH atom lands on grain\n      ↓\nMeets another H → H₂\n      ↓\nMore reactions → H₂O, NH₃, CH₄, etc.\n```\n\n### Ion-Molecule Reactions\n\n```\nCosmic ray ionizes H₂:\nH₂ + CR → H₂⁺ + e⁻\n\nChain of reactions follows\n```\n\n## Implications\n\n- Life's raw materials are common\n- Formed before planets exist\n- Similar chemistry could occur elsewhere\n\n> 💡 **Key Point:** We are made of stardust AND interstellar molecules!"
+            "title": "Chemistry on Dust Grains",
+            "content": "# The Meeting Place 🤝\n\nGas atoms in space rarely meet.\n- **Dust grains** act as a surface (catalyst).\n- Atoms stick, meet partners, react ($H + H \\to H_2$), and release."
         },
         {
             "id": "astrochem_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Astrochemistry! Here's what you've mastered:\n\n## Interstellar Medium\n- ✅ 70% H, 28% He, 2% metals\n- ✅ Multiple phases (hot to molecular)\n- ✅ Dust grains as chemical factories\n\n## Molecular Clouds\n- ✅ 10-50 K, stellar nurseries\n- ✅ CO traces H₂\n- ✅ 200+ molecules detected\n\n## Spectroscopy\n\n| Type | Wavelength | Probes |\n|------|------------|--------|\n| Radio | mm-cm | Rotation |\n| Infrared | μm | Vibration |\n| UV/Visible | nm | Electronic |\n\n## Famous Lines\n- ✅ 21-cm line (atomic hydrogen)\n- ✅ CO rotational lines\n\n## Astrobiology\n- ✅ Amino acids form in space\n- ✅ Meteorites carry organics\n- ✅ Comets delivered water and molecules\n\n## Key Insight\n\n> The chemistry of life began in interstellar space, before our Sun and Earth formed.\n\n> 🚀 **Next Steps:** Explore Astrophysics for the physics behind cosmic phenomena!\n\nYou now understand the chemistry of the cosmos!"
+            "title": "Complex Organic Molecules",
+            "content": "# Prebiotic Soup 🍜\n\nWe've found:\n- Methanol ($CH_3OH$)\n- Ethanol (Alcohol)\n- Amino Acid precursors\n- Sugars (Glycolaldehyde)\n\nBuilding blocks of life exist in space!"
+        },
+        {
+            "id": "astrochem_7",
+            "type": "content",
+            "title": "PAHs",
+            "content": "# Soot of Stars 🏭\n\nPolycyclic Aromatic Hydrocarbons.\n- Chicken-wire sheets of Carbon.\n- Very stable.\n- Contain ~20% of galactic carbon.\n- Often glow in Infrared."
+        },
+        {
+            "id": "astrochem_8",
+            "type": "content",
+            "title": "Cosmic Rays",
+            "content": "# High Energy Drivers ⚡\n\nHigh-speed protons hitting molecules.\n- Drive chemistry in cold dark places (Ionization).\n- Can destroy molecules or provide energy to build them."
+        },
+        {
+            "id": "astrochem_9",
+            "type": "content",
+            "title": "Cometary Chemistry",
+            "content": "# Frozen Time Capsules 🧊\n\nComets preserve the chemistry of the early solar system.\n- Rosetta mission landed on Comet 67P.\n- Found organics and water (though different isotope ratio than Earth)."
+        },
+        {
+            "id": "astrochem_10",
+            "type": "content",
+            "title": "Titan's Atmosphere",
+            "content": "# Orange Haze 🟠\n\nSaturn's Moon Titan.\n- Orange smog of Tholins (complex organics created by Sunlight + Methane + Nitrogen).\n- Like early Earth before life?"
+        },
+        {
+            "id": "astrochem_11",
+            "type": "content",
+            "title": "Panspermia",
+            "content": "# Life from Space? ☄️\n\nHypothesis: Life (or its ingredients) arrived on Earth via comets/meteorites.\n- We find amino acids in meteorites (Murchison meteorite).\n- Plausible origin story."
+        },
+        {
+            "id": "astrochem_12",
+            "type": "content",
+            "title": "Water in Universe",
+            "content": "# Ubiquitous H2O 💧\n\nWater is everywhere.\n- Ice on grains.\n- Vapor in hot stars.\n- Liquid on planets.\n- Third most common molecule (after $H_2$ and $CO$)."
+        },
+        {
+            "id": "astrochem_quiz_2",
+            "type": "quiz",
+            "title": "Origin Quiz",
+            "content": "Theory check.",
+            "quizQuestion": "The theory that life's ingredients came from space rocks is called:",
+            "quizOptions": [
+                "Photosynthesis",
+                "Panspermia",
+                "Evolution",
+                "Terraforming"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "astrochem_13",
+            "type": "content",
+            "title": "Cool Stars",
+            "content": "# Molecular Atmospheres 🔴\n\nRed Giants and Brown Dwarfs are cool enough to have molecules in their 'air'.\n- Titanium Oxide ($TiO$).\n- Water vapor.\n- Methane."
+        },
+        {
+            "id": "astrochem_14",
+            "type": "content",
+            "title": "Isotopes",
+            "content": "# Chemical Clues 🕵️\n\nDifferent number of neutrons ($H$ vs Deuterium).\n- Ratio tells us temperature/origin.\n- Earth's water D/H ratio matches asteroids better than comets."
+        },
+        {
+            "id": "astrochem_15",
+            "type": "content",
+            "title": "Formation of Planets",
+            "content": "# Chemical Sorting 🌪️\n\n- **Snow Line**: Distance from sun where ice stays solid.\n- Inside Line: Rocks/Metals (Earth).\n- Outside Line: Ices/Gas (Jupiter).\nChemistry dictated planet types."
+        },
+        {
+            "id": "astrochem_16",
+            "type": "content",
+            "title": "Exoplanet Atmospheres",
+            "content": "# Sniffing Worlds 👃\n\nWhen a planet passes Sun, light filters through air.\n- JWST telescope detects Water, $CO_2$, Methane.\n- Searching for **Biosignatures** (Oxygen + Methane together)."
+        },
+        {
+            "id": "astrochem_17",
+            "type": "content",
+            "title": "Astrochem Summary",
+            "content": "# Recap 📝\n\n- **Spectroscopy** is our tool.\n- **Dust** is the factory.\n- Space is full of organic molecules.\n- Chemistry builds the stage for biology."
         }
     ]
 }

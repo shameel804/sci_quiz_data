@@ -1,56 +1,92 @@
 [
     {
-        "title": "Cell Organelles 🔬",
-        "ques": "Match each organelle with its function:\n1. Mitochondria\n2. Ribosome\n3. Golgi apparatus\n4. Nucleus",
+        "title": "Cell Organelle Functions 🔬",
+        "ques": "Match each organelle to its function: **Mitochondria, Ribosome, Golgi apparatus, Lysosome**.",
         "answer": {
             "type": "text",
-            "content": "**1. Mitochondria** → Cellular respiration (ATP production) - \"powerhouse of the cell\"\n\n**2. Ribosome** → Protein synthesis\n\n**3. Golgi apparatus** → Protein modification, packaging, and sorting\n\n**4. Nucleus** → Contains DNA, controls cell activities"
+            "content": "| Organelle | Function |\n|-----------|----------|\n| **Mitochondria** | Cellular respiration; produces ATP (\"powerhouse\") |\n| **Ribosome** | Protein synthesis; translates mRNA |\n| **Golgi apparatus** | Modifies, packages, and ships proteins |\n| **Lysosome** | Contains digestive enzymes; breaks down waste |"
         },
-        "explanation": "Each organelle has specialized function. Prokaryotes lack membrane-bound organelles; eukaryotes have them."
+        "explanation": "Each organelle is specialized. Mitochondria have their own DNA—evidence of endosymbiotic origin from ancient bacteria."
     },
     {
-        "title": "Prokaryotes vs Eukaryotes 🦠",
-        "ques": "Compare:\n1. Size difference\n2. DNA location\n3. Give examples of each",
+        "title": "Prokaryote vs Eukaryote 🦠",
+        "ques": "List **3 key differences** between prokaryotic and eukaryotic cells.",
         "answer": {
             "type": "text",
-            "content": "| Feature | Prokaryote | Eukaryote |\n|---------|------------|----------|\n| **Size** | 0.1-5 μm | 10-100 μm |\n| **DNA** | Circular, in cytoplasm | Linear, in nucleus |\n| **Organelles** | No membrane-bound | Has membrane-bound |\n| **Examples** | Bacteria, Archaea | Animals, Plants, Fungi |"
+            "content": "| Feature | Prokaryote | Eukaryote |\n|---------|------------|----------|\n| **Nucleus** | No membrane-bound nucleus | True nucleus with envelope |\n| **Size** | Small (1-10 μm) | Larger (10-100 μm) |\n| **Organelles** | No membrane-bound organelles | Mitochondria, ER, Golgi, etc. |\n| **DNA** | Circular, in nucleoid | Linear, in chromosomes |\n| **Examples** | Bacteria, Archaea | Animals, plants, fungi |"
         },
-        "explanation": "**Prokaryotes** are simpler and older. Eukaryotes evolved when prokaryotes engulfed other cells (endosymbiotic theory)."
+        "explanation": "Prokaryotes evolved ~3.5 billion years ago; eukaryotes ~1.5 billion years ago. Endosymbiosis theory explains organelle origins."
     },
     {
-        "title": "Cell Division: Mitosis 🔄",
-        "ques": "Put these phases in order and describe each:\nMetaphase, Anaphase, Prophase, Telophase",
+        "title": "Mitosis Stages 🔄",
+        "ques": "Describe what happens in each phase of **mitosis**: Prophase, Metaphase, Anaphase, Telophase.",
         "answer": {
             "type": "text",
-            "content": "**Correct order:** PMAT\n\n1. **Prophase** - Chromosomes condense, nuclear envelope breaks down\n\n2. **Metaphase** - Chromosomes align at cell equator (metaphase plate)\n\n3. **Anaphase** - Sister chromatids separate, move to poles\n\n4. **Telophase** - Nuclear envelopes reform, chromosomes decondense"
+            "content": "**Prophase:**\n- Chromatin condenses into chromosomes\n- Nuclear envelope breaks down\n- Spindle fibers form\n\n**Metaphase:**\n- Chromosomes align at cell equator (metaphase plate)\n- Spindle fibers attach to centromeres\n\n**Anaphase:**\n- Sister chromatids separate\n- Move to opposite poles\n\n**Telophase:**\n- Nuclear envelopes reform\n- Chromosomes decondense\n- Cytokinesis begins (cell division)"
         },
-        "explanation": "**Mitosis** produces two identical daughter cells. Remember PMAT! Mnemonic: *Please Make Another Turtle*"
+        "explanation": "Mitosis produces two identical daughter cells. Mnemonic: PMAT. Cell cycle also includes Interphase (G1, S, G2)."
     },
     {
         "title": "Photosynthesis Equation 🌱",
-        "ques": "1. Write the overall equation\n2. Where does the light reaction occur?\n3. Where does the Calvin cycle occur?",
+        "ques": "Write the overall equation for photosynthesis. Where do the light reactions and Calvin cycle occur?",
         "answer": {
             "type": "text",
-            "content": "**1. Overall equation:**\n```\n6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂\n```\n\n**2. Light reaction:** Thylakoid membrane (makes ATP & NADPH)\n\n**3. Calvin cycle:** Stroma (uses ATP & NADPH to fix CO₂)"
+            "content": "**Overall Equation:**\n$$6CO_2 + 6H_2O + light → C_6H_{12}O_6 + 6O_2$$\n\n**Location of reactions:**\n\n| Stage | Location | Products |\n|-------|----------|----------|\n| **Light reactions** | Thylakoid membrane | ATP, NADPH, O₂ |\n| **Calvin cycle** | Stroma | Glucose (G3P) |\n\n**Light reactions:** Water → O₂ + H⁺ + electrons\n**Calvin cycle:** CO₂ + ATP + NADPH → glucose"
         },
-        "explanation": "**Photosynthesis** converts light energy to chemical energy. Light reactions capture energy; Calvin cycle builds sugar."
+        "explanation": "Photosynthesis is essentially the reverse of cellular respiration. The oxygen we breathe comes from water splitting."
     },
     {
-        "title": "Cellular Respiration 💨",
-        "ques": "1. What is the ATP yield from one glucose?\n2. Name the three stages\n3. Where does each stage occur?",
+        "title": "Cellular Respiration ATP Yield 💪",
+        "ques": "How many **ATP molecules** are produced from one glucose molecule in aerobic cellular respiration? Break down by stage.",
         "answer": {
             "type": "text",
-            "content": "**1. ATP yield:** ~30-32 ATP per glucose\n\n**2 & 3. Stages and locations:**\n- Glycolysis → Cytoplasm (2 ATP)\n- Krebs Cycle → Mitochondrial matrix (2 ATP)\n- Electron Transport Chain → Inner mitochondrial membrane (26-28 ATP)"
+            "content": "**ATP Production per Glucose:**\n\n| Stage | Location | ATP Yield |\n|-------|----------|----------|\n| **Glycolysis** | Cytoplasm | 2 ATP |\n| **Pyruvate oxidation** | Mitochondria | 0 ATP |\n| **Citric acid cycle** | Mitochondria | 2 ATP |\n| **Oxidative phosphorylation** | Inner membrane | ~26-28 ATP |\n\n**Total: ~30-32 ATP** (theoretical max: 38)\n\n*Actual yield varies due to membrane leakage and transport costs*"
         },
-        "explanation": "**Respiration** is the reverse of photosynthesis. Most ATP comes from ETC using the proton gradient."
+        "explanation": "Most ATP comes from the electron transport chain using NADH and FADH₂ produced in earlier steps."
     },
     {
-        "title": "Membrane Transport 🚪",
-        "ques": "Compare:\n1. Diffusion vs active transport\n2. Osmosis direction\n3. What is hypertonic solution?",
+        "title": "Osmosis and Tonicity 💧",
+        "ques": "Predict what happens to a red blood cell in **hypertonic, hypotonic, and isotonic** solutions.",
         "answer": {
             "type": "text",
-            "content": "**1. Comparison:**\n- Diffusion: High→low concentration, no energy\n- Active transport: Low→high, requires ATP\n\n**2. Osmosis:** Water moves from low solute to high solute (toward higher concentration)\n\n**3. Hypertonic:** Solution with higher solute concentration than cell → cell shrinks (water leaves)"
+            "content": "| Solution | Relative Solute | Water Movement | Cell Effect |\n|----------|----------------|----------------|-------------|\n| **Hypertonic** | Higher outside | Water exits cell | Crenation (shrinks) |\n| **Hypotonic** | Lower outside | Water enters cell | Lysis (bursts) |\n| **Isotonic** | Equal | No net movement | Normal shape |\n\n**Osmosis:** Water moves from low solute → high solute concentration through semipermeable membrane"
         },
-        "explanation": "**Membrane transport** can be passive (no energy) or active (requires ATP). Osmosis is passive water movement."
+        "explanation": "IV fluids must be isotonic (0.9% NaCl) to prevent cell damage. Plant cells have cell walls preventing lysis."
+    },
+    {
+        "title": "Active vs Passive Transport 🚚",
+        "ques": "Compare **active transport** and **passive transport** with examples of each.",
+        "answer": {
+            "type": "text",
+            "content": "| Feature | Passive Transport | Active Transport |\n|---------|-------------------|------------------|\n| **Energy** | No ATP required | Requires ATP |\n| **Direction** | High → low concentration | Low → high concentration |\n| **Types** | Diffusion, osmosis, facilitated diffusion | Pumps, vesicle transport |\n| **Examples** | O₂ crossing membrane | Na⁺/K⁺ pump (3 Na⁺ out, 2 K⁺ in) |"
+        },
+        "explanation": "Na⁺/K⁺ pump uses ~25% of cell's ATP. Essential for nerve impulses and maintaining cell volume."
+    },
+    {
+        "title": "Enzyme Function 🧬",
+        "ques": "Explain the **lock and key** vs **induced fit** models of enzyme action.",
+        "answer": {
+            "type": "text",
+            "content": "**Lock and Key Model (Fisher, 1894):**\n- Enzyme and substrate have complementary shapes\n- Rigid fit like key in lock\n- Simple but incomplete\n\n**Induced Fit Model (Koshland, 1958):**\n- Enzyme shape is flexible\n- Active site molds around substrate\n- Explains enzyme specificity better\n\n**Key concepts:**\n- Enzymes lower activation energy\n- Substrate → Product\n- Enzyme unchanged (reusable)\n- Affected by pH, temperature, inhibitors"
+        },
+        "explanation": "Induced fit is more accurate. Conformational changes optimize catalysis and explain allosteric regulation."
+    },
+    {
+        "title": "Meiosis and Genetic Diversity 🎲",
+        "ques": "How does **meiosis** produce genetic variation? Describe two mechanisms.",
+        "answer": {
+            "type": "text",
+            "content": "**1. Crossing Over (Prophase I):**\n- Homologous chromosomes exchange segments\n- Creates new gene combinations\n- Occurs at chiasmata\n\n**2. Independent Assortment (Metaphase I):**\n- Random orientation of chromosome pairs\n- Creates 2²³ = ~8 million combinations in humans\n\n**3. Random Fertilization:**\n- Any sperm + any egg\n- 8 million × 8 million = ~70 trillion combinations!\n\n**Result:** Each gamete is genetically unique"
+        },
+        "explanation": "This variation is the raw material for natural selection. Meiosis produces haploid cells (n = 23 in humans)."
+    },
+    {
+        "title": "Cell Cycle Regulation 🚦",
+        "ques": "What are **checkpoints** in the cell cycle? What happens if they fail?",
+        "answer": {
+            "type": "text",
+            "content": "**Major Checkpoints:**\n\n| Checkpoint | Location | What's Checked |\n|------------|----------|----------------|\n| **G1/S** | Before DNA replication | Cell size, nutrients, DNA damage |\n| **G2/M** | Before mitosis | DNA replication complete? Damage? |\n| **Spindle** | During metaphase | Are all chromosomes attached? |\n\n**Key proteins:** Cyclins and CDKs (cyclin-dependent kinases)\n\n**If checkpoints fail:**\n- Uncontrolled cell division\n- Potential for **cancer**\n- Tumor suppressor genes (p53) normally prevent this"
+        },
+        "explanation": "p53 is mutated in ~50% of cancers. It's called the 'guardian of the genome' because it triggers apoptosis if DNA is damaged."
     }
 ]

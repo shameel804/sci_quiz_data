@@ -1,56 +1,92 @@
 [
     {
-        "title": "Bacteria Basics 🦠",
-        "ques": "1. What shapes can bacteria be?\n2. Are bacteria prokaryotic or eukaryotic?\n3. How do bacteria reproduce?",
+        "title": "Bacteria Types 🦠",
+        "ques": "Classify bacteria by **shape** and **Gram staining**. Give examples of each.",
         "answer": {
             "type": "text",
-            "content": "**1. Shapes:**\n- Cocci (spherical)\n- Bacilli (rod-shaped)\n- Spirilla (spiral)\n\n**2. Prokaryotic** (no nucleus or membrane-bound organelles)\n\n**3. Binary fission:** DNA replicates → cell divides → 2 identical cells"
+            "content": "**By Shape:**\n| Shape | Name | Example |\n|-------|------|--------|\n| Sphere | Cocci | *Staphylococcus* |\n| Rod | Bacilli | *E. coli* |\n| Spiral | Spirilla | *Treponema* (syphilis) |\n\n**By Gram Stain:**\n| Type | Cell Wall | Color | Example |\n|------|-----------|-------|---------|\n| Gram + | Thick peptidoglycan | Purple | *Streptococcus* |\n| Gram - | Thin + outer membrane | Pink | *E. coli* |"
         },
-        "explanation": "**Bacteria** reproduce very fast (every 20 minutes). That's why infections spread quickly."
+        "explanation": "Gram staining is crucial for antibiotic selection. Gram-negative bacteria are often harder to treat due to outer membrane."
     },
     {
         "title": "Virus Structure 🔬",
-        "ques": "1. Is a virus alive?\n2. Basic virus structure\n3. Lytic vs lysogenic cycle",
+        "ques": "Compare **lytic** and **lysogenic** viral cycles.",
         "answer": {
             "type": "text",
-            "content": "**1. Not alive:** Cannot reproduce without host cell\n\n**2. Structure:**\n- Genetic material (DNA or RNA)\n- Protein coat (capsid)\n- Some have envelope\n\n**3. Cycles:**\n- Lytic: Virus reproduces, destroys cell\n- Lysogenic: Virus DNA integrates, lies dormant"
+            "content": "**Lytic Cycle (virulent):**\n1. Attachment to host cell\n2. Injection of genetic material\n3. Replication using host machinery\n4. Assembly of new viruses\n5. Lysis (cell bursts) → viruses released\n\n**Lysogenic Cycle (temperate):**\n1. Viral DNA integrates into host genome (provirus/prophage)\n2. Replicates with host for generations\n3. May switch to lytic cycle under stress\n\n**Example:** Lambda phage can do both"
         },
-        "explanation": "**Viruses** are on the edge of life. They need host cells to replicate."
+        "explanation": "Lysogenic viruses can remain dormant for years. HIV integrates into DNA. Some lysogenic viruses can cause cancer."
     },
     {
-        "title": "Fermentation 🍺",
-        "ques": "1. What is fermentation?\n2. Two types and products\n3. Industrial applications",
+        "title": "Fermentation Types 🍞",
+        "ques": "Compare **alcoholic** and **lactic acid** fermentation. Give applications of each.",
         "answer": {
             "type": "text",
-            "content": "**1. Fermentation:** Anaerobic respiration (no oxygen)\n\n**2. Types:**\n- Alcoholic: Glucose → Ethanol + CO₂ (yeast)\n- Lactic acid: Glucose → Lactic acid (muscles, yogurt)\n\n**3. Applications:**\n- Beer/wine (alcohol)\n- Bread (CO₂ for rising)\n- Yogurt/cheese (lactic acid)"
+            "content": "**Alcoholic Fermentation:**\n$$Glucose → 2 Ethanol + 2 CO_2 + 2 ATP$$\n- Organisms: Yeast (*Saccharomyces*)\n- Applications: Beer, wine, bread rising\n\n**Lactic Acid Fermentation:**\n$$Glucose → 2 Lactic Acid + 2 ATP$$\n- Organisms: *Lactobacillus*, muscle cells\n- Applications: Yogurt, cheese, sauerkraut\n- Causes muscle fatigue during exercise\n\n**Both:** Anaerobic, regenerate NAD⁺ for glycolysis"
         },
-        "explanation": "**Fermentation** produces less ATP than aerobic respiration but works without oxygen."
+        "explanation": "Fermentation is less efficient than respiration (2 ATP vs 36-38). Used when oxygen is absent."
     },
     {
-        "title": "Antibiotics 💊",
-        "ques": "1. How do antibiotics work?\n2. Why don't they work on viruses?\n3. What is antibiotic resistance?",
+        "title": "Antibiotic Resistance 💊",
+        "ques": "Explain how **antibiotic resistance** develops and spreads. How can we prevent it?",
         "answer": {
             "type": "text",
-            "content": "**1. Mechanism:** Target bacterial structures (cell wall synthesis, protein synthesis)\n\n**2. Not effective on viruses:** Viruses lack cell walls and ribosomes that antibiotics target\n\n**3. Resistance:** Bacteria evolve to survive antibiotics (overuse accelerates this)"
+            "content": "**How Resistance Develops:**\n1. Random mutation creates resistant bacteria\n2. Antibiotic kills susceptible bacteria\n3. Resistant bacteria survive and reproduce (selection)\n4. Population becomes resistant\n\n**How Resistance Spreads:**\n- Horizontal gene transfer (plasmids)\n- Transformation, transduction, conjugation\n- Mobile genetic elements\n\n**Prevention:**\n- Complete full antibiotic courses\n- Don't use antibiotics for viruses\n- Reduce agricultural antibiotic use\n- Develop new antibiotics"
         },
-        "explanation": "**Antibiotic resistance** is a global health threat. Complete your prescribed course!"
+        "explanation": "MRSA, C. diff, and tuberculosis show dangerous resistance. WHO calls this a global health crisis."
     },
     {
-        "title": "Genetic Engineering 🧬",
-        "ques": "1. What are GMOs?\n2. How is insulin produced?\n3. Give 2 benefits and 2 concerns",
+        "title": "GMO Creation 🌽",
+        "ques": "Describe how a **genetically modified organism** is created using the example of Bt corn.",
         "answer": {
             "type": "text",
-            "content": "**1. GMOs:** Organisms with DNA modified using biotechnology\n\n**2. Insulin production:** Human insulin gene inserted into bacteria → bacteria produce insulin\n\n**3. Benefits:** Disease-resistant crops, medicine production\n**Concerns:** Unknown long-term effects, corporate control of seeds"
+            "content": "**Bt Corn Creation:**\n\n1. **Identify gene:** Bacillus thuringiensis Cry gene (produces insecticidal protein)\n\n2. **Gene isolation:** Cut gene using restriction enzymes\n\n3. **Vector construction:** Insert gene into plasmid with promoter\n\n4. **Transformation:** Use Agrobacterium or gene gun to insert into plant cells\n\n5. **Selection:** Identify transformed cells (marker genes)\n\n6. **Regeneration:** Grow transformed cells into plants\n\n7. **Testing:** Verify expression, field trials\n\n**Result:** Corn produces Bt toxin → kills caterpillars"
         },
-        "explanation": "**Genetic engineering** uses restriction enzymes and plasmids to insert genes into organisms."
+        "explanation": "GMOs reduce pesticide use but raise concerns about biodiversity and corporate control. Over 90% of US corn/soy is GMO."
     },
     {
-        "title": "Stem Cells 🔬",
-        "ques": "1. What are stem cells?\n2. Embryonic vs adult stem cells\n3. Potential applications",
+        "title": "Stem Cells 🔄",
+        "ques": "Differentiate between **embryonic** and **adult** stem cells. What are their potential uses?",
         "answer": {
             "type": "text",
-            "content": "**1. Stem cells:** Undifferentiated cells that can become specialized cells\n\n**2. Types:**\n- Embryonic: Can become any cell type (pluripotent)\n- Adult: More limited differentiation\n\n**3. Applications:**\n- Organ regeneration\n- Disease treatment\n- Drug testing"
+            "content": "| Feature | Embryonic | Adult |\n|---------|-----------|-------|\n| **Source** | Inner cell mass of blastocyst | Various tissues |\n| **Potency** | Pluripotent (any cell type) | Multipotent (limited) |\n| **Ethical issues** | Controversial | Less controversial |\n| **Examples** | - | Bone marrow, adipose tissue |\n\n**Induced Pluripotent Stem Cells (iPSCs):**\n- Adult cells reprogrammed to embryonic-like state\n- 2012 Nobel Prize (Yamanaka)\n\n**Applications:**\n- Regenerative medicine\n- Drug testing\n- Disease modeling"
         },
-        "explanation": "**Stem cells** offer hope for treating currently incurable diseases but raise ethical concerns."
+        "explanation": "iPSCs avoid ethical concerns of embryonic cells. Clinical trials ongoing for macular degeneration, heart disease, diabetes."
+    },
+    {
+        "title": "Cloning Basics 🐑",
+        "ques": "Explain how **Dolly the sheep** was cloned using somatic cell nuclear transfer.",
+        "answer": {
+            "type": "text",
+            "content": "**Somatic Cell Nuclear Transfer (SCNT):**\n\n1. **Remove nucleus** from egg cell (enucleation)\n2. **Extract nucleus** from body (somatic) cell of donor\n3. **Insert donor nucleus** into enucleated egg\n4. **Electric shock** triggers cell division\n5. **Implant embryo** into surrogate mother\n6. **Birth of clone** genetically identical to donor\n\n**Dolly (1996):**\n- First mammal cloned from adult cell\n- Used mammary gland cell → nucleus\n- Died at age 6 (premature aging discussion)"
+        },
+        "explanation": "Cloning efficiency is low (~1%). Used for endangered species preservation and agricultural breeding, not recommended for humans."
+    },
+    {
+        "title": "Fungi Characteristics 🍄",
+        "ques": "How do **fungi** differ from plants? Describe fungal reproduction.",
+        "answer": {
+            "type": "text",
+            "content": "**Fungi vs Plants:**\n| Feature | Fungi | Plants |\n|---------|-------|--------|\n| Cell wall | Chitin | Cellulose |\n| Nutrition | Heterotroph (absorb) | Autotroph (photosynthesis) |\n| Food storage | Glycogen | Starch |\n| Movement | No | No |\n\n**Fungal Reproduction:**\n- **Asexual:** Spores, budding, fragmentation\n- **Sexual:** Fusion of hyphae, produces fruiting body\n- Spores dispersed by wind, water, animals\n\n**Structure:** Network of hyphae = mycelium"
+        },
+        "explanation": "Fungi are more closely related to animals than plants! Decomposers essential for nutrient cycling. Some form mycorrhizal symbiosis with plants."
+    },
+    {
+        "title": "Recombinant DNA Technology 🧬",
+        "ques": "Describe the steps to produce **recombinant insulin** using bacteria.",
+        "answer": {
+            "type": "text",
+            "content": "**Recombinant Insulin Production:**\n\n1. **Obtain gene:** Synthesize human insulin gene or isolate from mRNA\n\n2. **Create recombinant DNA:**\n   - Cut plasmid with restriction enzymes\n   - Insert insulin gene\n   - Ligate (seal) with DNA ligase\n\n3. **Transform bacteria:** Introduce plasmid into *E. coli*\n\n4. **Select transformants:** Antibiotic resistance marker\n\n5. **Grow at scale:** Industrial fermentation\n\n6. **Purify protein:** Extract and purify insulin\n\n**Advantage:** Unlimited supply, no animal allergies"
+        },
+        "explanation": "Before 1982, insulin came from pig/cow pancreas. Recombinant insulin was first FDA-approved biotech drug."
+    },
+    {
+        "title": "Microbiome 🦠",
+        "ques": "What is the human **microbiome**? Why is it important for health?",
+        "answer": {
+            "type": "text",
+            "content": "**Human Microbiome:**\nAll microorganisms living in/on human body\n\n**Statistics:**\n- ~38 trillion bacterial cells (similar to human cells)\n- ~1,000 species in gut alone\n- 2-6 pounds of microbes in body\n\n**Importance:**\n| Function | Details |\n|----------|--------|\n| Digestion | Break down fiber, produce vitamins (K, B12) |\n| Immunity | Train immune system, outcompete pathogens |\n| Metabolism | Affect nutrient absorption, weight |\n| Brain | Gut-brain axis affects mood (serotonin) |\n\n**Dysbiosis (imbalance)** linked to: obesity, IBD, allergies, depression"
+        },
+        "explanation": "Microbiome research is revolutionizing medicine. Fecal transplants successfully treat C. diff infections. Probiotics support beneficial bacteria."
     }
 ]

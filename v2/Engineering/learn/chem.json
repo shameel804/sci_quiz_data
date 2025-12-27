@@ -2,58 +2,138 @@
     "id": "learn_chem",
     "topicId": "chem",
     "topicTitle": "Chemical Engineering",
-    "description": "Explore chemical reactors, mass transfer, thermodynamics, and polymer engineering",
-    "baseKP": 75,
+    "description": "Lab chemistry at industrial scale.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "chem_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Chemical Engineering 🧪\n\n## Topics\n- Chemical reactors\n- Mass transfer\n- Thermodynamics\n- Polymer engineering"
+            "title": "What is Chemical Engineering?",
+            "content": "# Scaling Up ⚗️\n\nTaking reactions from a test tube to a factory.\n- Converting raw materials into useful products.\n- Fuels, Plastics, Medicine, Food."
         },
         {
             "id": "chem_2",
             "type": "content",
-            "title": "Reactors",
-            "content": "# Chemical Reactors ⚗️\n\n| Type | Flow |\n|------|------|\n| Batch | None |\n| CSTR | Continuous, mixed |\n| PFR | Continuous, plug flow |\n\n## Design\n- Conversion\n- Residence time\n- Temperature control"
+            "title": "Process Flow Diagrams (PFD)",
+            "content": "# The Map 🗺️\n\nSchematic of the plant.\n- Shows reactors, pipes, valves, sensors.\n- Used to design and control the process."
         },
         {
             "id": "chem_3",
             "type": "content",
-            "title": "Mass Transfer",
-            "content": "# Mass Transfer 💨\n\n## Processes\n| Process | Principle |\n|---------|----------|\n| Distillation | Volatility |\n| Absorption | Solubility |\n| Extraction | Partition |\n| Adsorption | Surface binding |\n\n## Fick's Law\nJ = -D(dC/dx)"
-        },
-        {
-            "id": "chem_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "CSTR stands for:",
-            "quizOptions": [
-                "Batch reactor",
-                "Continuous Stirred Tank Reactor",
-                "Plug flow",
-                "None"
-            ],
-            "correctOptionIndex": 1
+            "title": "Chemical Reactors",
+            "content": "# Mixing Pot 🍲\n\nWhere the magic happens.\n- **Batch Reactor**: Fill, cook, empty (Pharma).\n- **CSTR (Continuous)**: Flow in, flow out continuously (Oil Refineries).\n- **Plug Flow**: Pipe reactor."
         },
         {
             "id": "chem_4",
             "type": "content",
-            "title": "Thermo",
-            "content": "# Process Thermodynamics 🌡️\n\n## Key Concepts\n- Energy balance\n- Phase equilibria\n- Chemical equilibrium\n- Reaction kinetics\n\n## Applications\n- Heat exchangers\n- Separation processes\n- Reaction optimization"
+            "title": "Mass Transfer",
+            "content": "# Moving Molecules 🚚\n\nMovement of specific ingredients.\n- **Distillation**: Separating liquids by boiling point (Alcohol/Fuel).\n- **Filtration**: Separating solids from liquids.\n- **Extraction**: Pulling a chemical out using a solvent."
         },
         {
             "id": "chem_5",
             "type": "content",
-            "title": "Polymers",
-            "content": "# Polymer Engineering 🔗\n\n## Types\n| Polymer | Example |\n|---------|--------|\n| Thermoplastic | PET, HDPE |\n| Thermoset | Epoxy |\n| Elastomer | Rubber |\n\n## Processing\n- Extrusion\n- Injection molding\n- Blow molding"
+            "title": "Heat Transfer in Process",
+            "content": "# Temperature Control 🌡️\n\n- **Heat Exchangers**: Transferring heat from hot fluid to cold fluid without mixing them.\n- Essential for safety (prevent explosions) and efficiency."
+        },
+        {
+            "id": "chem_quiz_1",
+            "type": "quiz",
+            "title": "Process Quiz",
+            "content": "Separation check.",
+            "quizQuestion": "Which process separates liquids based on their boiling points?",
+            "quizOptions": [
+                "Filtration",
+                "Centrifugation",
+                "Distillation",
+                "Sedimentation"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "chem_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Reactors: Batch, CSTR, PFR\n- Mass transfer: Distillation, extraction\n- Thermodynamics: Energy balance\n- Polymers: Thermoplastic vs thermoset"
+            "title": "Thermodynamics in ChemE",
+            "content": "# Energy Balance ⚖️\n\n- How much energy does the reaction release (Exothermic)?\n- How much energy must we add (Endothermic)?\n- Optimizing energy use saves millions."
+        },
+        {
+            "id": "chem_7",
+            "type": "content",
+            "title": "Fluid Dynamics",
+            "content": "# Pumps and Pipes 🚿\n\nMoving goo around.\n- **Viscosity**: Thickness (Honey vs Water).\n- **Reynolds Number**: Turbulent (messy) or Laminar (smooth) flow.\n- Sizing pumps correctly."
+        },
+        {
+            "id": "chem_8",
+            "type": "content",
+            "title": "Catalysts",
+            "content": "# Speed Boost 🚀\n\nSubstance that speeds up reaction without being consumed.\n- Industrial gold.\n- Makes processes cheaper and faster.\n- Example: Catalytic converter in cars."
+        },
+        {
+            "id": "chem_9",
+            "type": "content",
+            "title": "Polymer Engineering",
+            "content": "# Plastics 🧴\n\nCreating long chains of molecules.\n- **Thermoplastics**: Melt & reshape (PET bottles).\n- **Thermosets**: Burn if heated (Tires).\n- Tailoring properties (hard, soft, stretchy)."
+        },
+        {
+            "id": "chem_10",
+            "type": "content",
+            "title": "Process Control",
+            "content": "# Automation 🎛️\n\nUsing sensors and computers to keep the plant safe.\n- Maintaining Pressure, Temp, Flow.\n- Alarms and emergency shutdowns."
+        },
+        {
+            "id": "chem_11",
+            "type": "content",
+            "title": "Safety (HAZOP)",
+            "content": "# Safety First 🦺\n\n- **HAZOP**: Hazard and Operability Study.\n- \"What if this valve fails?\" \"What if power cuts?\"\n- Chemical plants have layers of protection."
+        },
+        {
+            "id": "chem_12",
+            "type": "content",
+            "title": "Separation Processes",
+            "content": "# Pure Product 💎\n\nWe usually make a mess, then clean it up.\n- **Crystallization**: Making sugar/salt.\n- **Chromatography**: Precision separation (Medicines).\n- **Membranes**: Reverse Osmosis (Desalination)."
+        },
+        {
+            "id": "chem_quiz_2",
+            "type": "quiz",
+            "title": "Reaction Quiz",
+            "content": "Type check.",
+            "quizQuestion": "What do we call a reaction that releases heat energy?",
+            "quizOptions": [
+                "Endothermic",
+                "Exothermic",
+                "Hypothermic",
+                "Isothermic"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_13",
+            "type": "content",
+            "title": "Biochemical Engineering",
+            "content": "# Bio-Factories 🦠\n\nUsing living cells (yeast/bacteria) to make products.\n- **Fermentation**: Beer, Yogurt.\n- **Insulin**: Made by modified bacteria.\n- Growing meat in labs."
+        },
+        {
+            "id": "chem_14",
+            "type": "content",
+            "title": "Petrochemicals",
+            "content": "# Oil Legacy 🛢️\n\nRefining crude oil.\n- Fractionating column separates Diesel, Petrol, Jet Fuel.\n- Basis for almost all modern plastics."
+        },
+        {
+            "id": "chem_15",
+            "type": "content",
+            "title": "Food Engineering",
+            "content": "# Tasty Tech 🍫\n\n- Pasteurization (Safe milk).\n- Freeze drying.\n- Flavor encapsulation.\n- Shelf life extension."
+        },
+        {
+            "id": "chem_16",
+            "type": "content",
+            "title": "Green Engineering",
+            "content": "# Clean Up ♻️\n\n- Designing processes with less waste.\n- Using renewable feedstocks (Bio-plastics).\n- Carbon Capture."
+        },
+        {
+            "id": "chem_17",
+            "type": "content",
+            "title": "Chem Eng Summary",
+            "content": "# Recap 📝\n\n- **Reactors** make it.\n- **Separators** clean it.\n- **Scale** makes it cheap.\n- Everything you touch (Phone case, Shirt, Shampoo) passed through a ChemE."
         }
     ]
 }

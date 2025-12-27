@@ -1,59 +1,139 @@
 {
     "id": "learn_milestones",
     "topicId": "milestones",
-    "topicTitle": "Milestones in Science",
-    "description": "Explore scientific milestones from ancient times to modern era",
-    "baseKP": 75,
+    "topicTitle": "Scientific Milestones",
+    "description": "Events that marked progress.",
+    "baseKP": 100,
     "slides": [
         {
-            "id": "milestones_1",
+            "id": "mile_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Milestones in Science 🏆\n\n## Key Moments\nTurning points in scientific history."
+            "title": "Measuring Earth (240 BC)",
+            "content": "# Eratosthenes 🌍\n\nGreek librarian.\n- Noticed shadows differed in two cities.\n- Used Geometry to calculate Earth's circumference.\n- Only 1% error! (Ancient people knew Earth was round)."
         },
         {
-            "id": "milestones_2",
+            "id": "mile_2",
             "type": "content",
-            "title": "Ancient",
-            "content": "# Ancient Milestones 📜\n\n| Year | Event |\n|------|-------|\n| ~300 BCE | Euclid's Elements |\n| ~250 BCE | Archimedes' principles |\n| ~150 CE | Ptolemaic astronomy |\n| 105 CE | Paper invented (China) |"
+            "title": "Printing Press (1440)",
+            "content": "# Spread of Ideas 🖨️\n\nGutenberg.\n- Before: Hand-copying books (Rare/Error-prone).\n- After: Mass production.\n- Enabled Scientific Revolution."
         },
         {
-            "id": "milestones_3",
+            "id": "mile_3",
             "type": "content",
-            "title": "Early Modern",
-            "content": "# Early Modern Milestones 🔭\n\n| Year | Event |\n|------|-------|\n| 1543 | Copernican heliocentrism |\n| 1609 | Galileo's telescope |\n| 1687 | Newton's Principia |\n| 1789 | Lavoisier's chemistry |"
+            "title": "Principia Mathematica (1687)",
+            "content": "# The Book 📕\n\nNewton.\n- Defined heavy physics math.\n- Shifted view of universe to a deterministic machine."
         },
         {
-            "id": "milestones_quiz_1",
+            "id": "mile_4",
+            "type": "content",
+            "title": "Smallpox Vaccine (1796)",
+            "content": "# First Shot 💉\n\nJenner.\n- First scientific attempt to control disease.\n- Established Immunology."
+        },
+        {
+            "id": "mile_5",
+            "type": "content",
+            "title": "Synthesis of Urea (1828)",
+            "content": "# End of Vitalism ⚗️\n\nWöhler.\n- Created organic chemical (Urea) from inorganic stuff.\n- Proved life isn't made of special \"magic\" matter, just chemistry."
+        },
+        {
+            "id": "mile_6",
+            "type": "content",
+            "title": "The Origin of Species (1859)",
+            "content": "# Evolution 🧬\n\nDarwin.\n- Published his theory.\n- Huge controversy.\n- Foundation of modern biology."
+        },
+        {
+            "id": "mile_quiz_1",
             "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Newton's Principia was published in:",
+            "title": "Chem Quiz",
+            "content": "Life check.",
+            "quizQuestion": "The synthesis of Urea proved that organic compounds could be created from:",
             "quizOptions": [
-                "1543",
-                "1609",
-                "1687",
-                "1789"
+                "Magic",
+                "Inorganic compounds",
+                "Plants only",
+                "Animals only"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "milestones_4",
+            "id": "mile_7",
             "type": "content",
-            "title": "19th Century",
-            "content": "# 19th Century Milestones ⚙️\n\n| Year | Event |\n|------|-------|\n| 1859 | Darwin's Origin of Species |\n| 1865 | Maxwell's equations |\n| 1869 | Periodic table |\n| 1895 | X-rays discovered |"
+            "title": "Periodic Table (1869)",
+            "content": "# The Map 🗺️\n\nMendeleev.\n- Organized elements by weight and property.\n- Turned Chemistry from list of facts into a system."
         },
         {
-            "id": "milestones_5",
+            "id": "mile_8",
             "type": "content",
-            "title": "20th-21st Century",
-            "content": "# Modern Milestones 🚀\n\n| Year | Event |\n|------|-------|\n| 1905 | Special relativity |\n| 1953 | DNA structure |\n| 1969 | Moon landing |\n| 2012 | Higgs boson |\n| 2022 | JWST launched |"
+            "title": "Wright Brothers (1903)",
+            "content": "# Flight ✈️\n\nFirst powered, controlled flight.\n- Kitty Hawk, NC.\n- 12 seconds.\n- Within 66 years, we were on the Moon."
         },
         {
-            "id": "milestones_6",
+            "id": "mile_9",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Ancient: Math, astronomy foundations\n- Revolution: Copernicus to Newton\n- 19th C: Evolution, electromagnetism\n- 20th-21st: Relativity, DNA, space"
+            "title": "Penicillin (1928)",
+            "content": "# Magic Bullet 💊\n\nFleming.\n- Start of Antibiotic era.\n- Previously, a scratch could kill you."
+        },
+        {
+            "id": "mile_10",
+            "type": "content",
+            "title": "The Moon Landing (1969)",
+            "content": "# Apollo 11 🌕\n\n\"One small step for man.\"\n- Neil Armstrong, Buzz Aldrin.\n- Pinnacle of engineering and physics.\n- Viewed by 600 million people."
+        },
+        {
+            "id": "mile_11",
+            "type": "content",
+            "title": "Elimination of Smallpox (1980)",
+            "content": "# Victory 🏁\n\nWHO declared Smallpox eradicated.\n- First (and only human) disease completely wiped out by science.\n- Triumph of global cooperation."
+        },
+        {
+            "id": "mile_quiz_2",
+            "type": "quiz",
+            "title": "Space Quiz",
+            "content": "Moon check.",
+            "quizQuestion": "Which mission famously landed humans on the Moon in 1969?",
+            "quizOptions": [
+                "Sputnik 1",
+                "Apollo 11",
+                "Voyager 1",
+                "Gemini 5"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "mile_12",
+            "type": "content",
+            "title": "Human Genome Project (2003)",
+            "content": "# Reading the Book 🧬\n\nSequencing all 3 billion letters of human DNA.\n- 13 years, $3 Billion.\n- Opened door to personalized medicine."
+        },
+        {
+            "id": "mile_13",
+            "type": "content",
+            "title": "Higgs Boson (2012)",
+            "content": "# God Particle ⚛️\n\nFound at CERN (LHC).\n- Confirmed Standard Model of Physics.\n- Explains why things have mass."
+        },
+        {
+            "id": "mile_14",
+            "type": "content",
+            "title": "LIGO (2015)",
+            "content": "# Gravitational Waves 🌊\n\nDetecting ripples in space-time from colliding black holes.\n- Confirmed Einstein 100 years later.\n- New way to \"hear\" the universe."
+        },
+        {
+            "id": "mile_15",
+            "type": "content",
+            "title": "CRISPR (2012)",
+            "content": "# Gene Editing ✂️\n\nDoudna & Charpentier.\n- Cheap, easy way to edit DNA.\n- Potential to cure genetic diseases.\n- Ethical dilemmas."
+        },
+        {
+            "id": "mile_16",
+            "type": "content",
+            "title": "COVID-19 Vaccine (2020)",
+            "content": "# Speed 💉\n\nmRNA technology.\n- Developed in <1 year (usually takes 10).\n- Saved millions of lives.\n- Power of modern biotech."
+        },
+        {
+            "id": "mile_17",
+            "type": "content",
+            "title": "Milestones Summary",
+            "content": "# Recap 📝\n\n- Progress is accelerating.\n- **Communication** (Print/Internet) fuels science.\n- We are solving harder problems (Genes/Space/Particles).\n- What is next?"
         }
     ]
 }

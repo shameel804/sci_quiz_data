@@ -1,62 +1,93 @@
 [
     {
         "title": "Variables and Types 📦",
-        "ques": "In Python:\n1. Declare integer, string, boolean\n2. What is dynamic typing?\n3. Check type of a variable",
+        "ques": "Explain the difference between **static typing** and **dynamic typing** with examples.",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Variable declarations\nage = 25          # integer\nname = \"Alice\"    # string\nis_student = True # boolean\n\n# 2. Dynamic typing: Type determined at runtime,\n#    can change during execution\nage = \"twenty-five\"  # Now it's a string!\n\n# 3. Check type\nprint(type(age))  # <class 'str'>"
+            "type": "text",
+            "content": "**Static Typing:**\nType checked at compile time\n```java\nint x = 5;      // x must be int\nString s = 10;  // Error at compile time!\n```\n*Languages:* Java, C, C++, TypeScript\n\n**Dynamic Typing:**\nType checked at runtime\n```python\nx = 5       # x is int\nx = \"hello\" # x is now string - OK!\n```\n*Languages:* Python, JavaScript, Ruby\n\n**Trade-offs:**\n- Static: Catches errors early, better tooling\n- Dynamic: More flexible, faster development"
         },
-        "explanation": "**Python is dynamically typed** - no need to declare types explicitly. Contrast with Java/C++."
+        "explanation": "Strong vs weak typing is different: strong prevents implicit conversions, weak allows them."
     },
     {
-        "title": "Control Structures 🔀",
-        "ques": "Write code for:\n1. If-else statement\n2. For loop (1 to 5)\n3. While loop (countdown)",
+        "title": "OOP Principles 🏗️",
+        "ques": "Explain the **4 pillars** of Object-Oriented Programming.",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. If-else\nage = 18\nif age >= 18:\n    print(\"Adult\")\nelse:\n    print(\"Minor\")\n\n# 2. For loop\nfor i in range(1, 6):\n    print(i)  # 1, 2, 3, 4, 5\n\n# 3. While loop\ncount = 5\nwhile count > 0:\n    print(count)\n    count -= 1\nprint(\"Liftoff!\")"
+            "type": "text",
+            "content": "**Four Pillars of OOP:**\n\n| Pillar | Definition | Example |\n|--------|------------|--------|\n| **Encapsulation** | Bundle data + methods, hide internals | Private variables, getters/setters |\n| **Abstraction** | Hide complexity, show essentials | Abstract classes, interfaces |\n| **Inheritance** | Classes inherit from parent classes | Dog extends Animal |\n| **Polymorphism** | Same interface, different behaviors | Method overriding |"
         },
-        "explanation": "**Control structures** direct program flow. Use for when count known, while when condition-based."
+        "explanation": "OOP models real-world entities. Promotes code reuse, maintainability, and modular design."
     },
     {
-        "title": "Functions 🔧",
-        "ques": "1. Define a function with parameters\n2. Return value\n3. Default parameters",
+        "title": "Functions and Scope 🔲",
+        "ques": "Explain **variable scope** and the difference between local and global variables.",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Function with parameters\ndef greet(name):\n    print(f\"Hello, {name}!\")\n\n# 2. Return value\ndef add(a, b):\n    return a + b\n\nresult = add(3, 4)  # result = 7\n\n# 3. Default parameters\ndef greet(name=\"World\"):\n    return f\"Hello, {name}!\"\n\nprint(greet())        # Hello, World!\nprint(greet(\"Alice\")) # Hello, Alice!"
+            "type": "text",
+            "content": "**Scope:** Where a variable is accessible\n\n**Global Variables:**\n- Defined outside functions\n- Accessible everywhere\n- Persist for program lifetime\n\n**Local Variables:**\n- Defined inside functions\n- Only accessible within that function\n- Created/destroyed with function call\n\n```python\nglobal_var = 10  # Global\n\ndef foo():\n    local_var = 5  # Local\n    print(global_var)  # OK\n    \nprint(local_var)  # Error!\n```"
         },
-        "explanation": "**Functions** are reusable code blocks. Parameters make them flexible; return sends values back."
+        "explanation": "Avoid global variables when possible—they make code harder to debug and test."
     },
     {
-        "title": "OOP Basics 🏗️",
-        "ques": "1. What is a class?\n2. Create a simple class\n3. Instantiate an object",
+        "title": "Control Flow 🔀",
+        "ques": "Compare **if-else, switch, and loops** (for, while, do-while).",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Class: Blueprint for creating objects\n\n# 2. Simple class\nclass Dog:\n    def __init__(self, name, age):\n        self.name = name  # Attribute\n        self.age = age\n    \n    def bark(self):  # Method\n        return f\"{self.name} says Woof!\"\n\n# 3. Instantiate\nmy_dog = Dog(\"Buddy\", 3)\nprint(my_dog.name)   # Buddy\nprint(my_dog.bark()) # Buddy says Woof!"
+            "type": "text",
+            "content": "**Conditional Statements:**\n```\nif (condition):\n    // code\nelif (condition2):\n    // code\nelse:\n    // code\n```\n\n**Switch (multiple cases):**\n```\nswitch(value):\n    case 1: // code; break\n    case 2: // code; break\n    default: // code\n```\n\n**Loops:**\n| Loop | Use When |\n|------|----------|\n| **for** | Known number of iterations |\n| **while** | Unknown iterations, check first |\n| **do-while** | Unknown iterations, run at least once |"
         },
-        "explanation": "**OOP** organizes code around objects. Classes define attributes (data) and methods (behavior)."
+        "explanation": "break exits loop, continue skips to next iteration. Avoid infinite loops!"
     },
     {
-        "title": "Inheritance 🧬",
-        "ques": "1. What is inheritance?\n2. Create parent and child class\n3. Override a method",
+        "title": "Debugging 🐛",
+        "ques": "What are common **debugging techniques** and types of errors?",
         "answer": {
-            "type": "code",
-            "lang": "python",
-            "content": "# 1. Inheritance: Child class inherits from parent\n\n# 2. Parent class\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        return \"Some sound\"\n\n# Child class\nclass Cat(Animal):\n    # 3. Override method\n    def speak(self):\n        return f\"{self.name} says Meow!\"\n\ncat = Cat(\"Whiskers\")\nprint(cat.speak())  # Whiskers says Meow!"
+            "type": "text",
+            "content": "**Error Types:**\n| Type | When | Example |\n|------|------|--------|\n| **Syntax** | Compile time | Missing semicolon |\n| **Runtime** | During execution | Division by zero |\n| **Logic** | Wrong output | Off-by-one error |\n\n**Debugging Techniques:**\n1. **Print statements** - Check variable values\n2. **Debugger** - Step through code\n3. **Rubber duck** - Explain code aloud\n4. **Binary search** - Comment out code sections\n5. **Stack trace** - Follow error path"
         },
-        "explanation": "**Inheritance** promotes code reuse. Child classes can override parent methods."
+        "explanation": "Logic errors are hardest—program runs but gives wrong results. Tests help catch them."
     },
     {
         "title": "Error Handling ⚠️",
-        "ques": "1. What are exceptions?\n2. Try-except block\n3. Handle specific exception",
+        "ques": "Explain **try-catch-finally** exception handling.",
         "answer": {
             "type": "code",
-            "lang": "python",
-            "content": "# 1. Exceptions: Errors during execution\n\n# 2. Try-except\ntry:\n    result = 10 / 0\nexcept:\n    print(\"An error occurred\")\n\n# 3. Specific exception\ntry:\n    num = int(\"abc\")\nexcept ValueError:\n    print(\"Invalid number format\")\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")\nfinally:\n    print(\"This always runs\")"
+            "content": "try:\n    # Code that might throw exception\n    result = 10 / 0\n    \nexcept ZeroDivisionError:\n    # Handle specific error\n    print(\"Cannot divide by zero!\")\n    \nexcept Exception as e:\n    # Handle any other error\n    print(f\"Error: {e}\")\n    \nfinally:\n    # Always executes (cleanup)\n    print(\"Cleanup complete\")",
+            "lang": "python"
         },
-        "explanation": "**Exception handling** prevents crashes. Always catch specific exceptions when possible."
+        "explanation": "Exceptions allow graceful error recovery. finally runs even if an exception is raised—good for closing files/connections."
+    },
+    {
+        "title": "Recursion vs Iteration 🔁",
+        "ques": "When should you use **recursion** vs **iteration**?",
+        "answer": {
+            "type": "text",
+            "content": "**Recursion:**\n- Function calls itself\n- Uses call stack\n- Good for: trees, divide & conquer\n- Risk: stack overflow\n\n**Iteration:**\n- Uses loops\n- Generally more efficient\n- Good for: simple repetition\n\n**Example: Factorial**\n```\n// Recursive\nfact(n) = n * fact(n-1)\n\n// Iterative\nresult = 1\nfor i in 1 to n:\n    result *= i\n```\n\n**Tail recursion** can be optimized to iteration by compilers."
+        },
+        "explanation": "Any recursive solution can be converted to iterative (and vice versa). Choose based on readability and efficiency."
+    },
+    {
+        "title": "Memory Management 💾",
+        "ques": "Explain **stack vs heap** memory and garbage collection.",
+        "answer": {
+            "type": "text",
+            "content": "**Stack Memory:**\n- LIFO (Last In, First Out)\n- Stores local variables, function calls\n- Fast allocation\n- Limited size (stack overflow)\n- Automatically managed\n\n**Heap Memory:**\n- Stores objects, dynamic allocations\n- Slower allocation\n- Larger, flexible size\n- Must be managed (or garbage collected)\n\n**Garbage Collection:**\n- Automatically frees unused memory\n- Languages: Java, Python, C#, Go\n- Manual: C, C++ (malloc/free)"
+        },
+        "explanation": "Memory leaks occur when allocated memory isn't freed. Use smart pointers in C++."
+    },
+    {
+        "title": "APIs and Interfaces 🔌",
+        "ques": "What is an **API** and why are interfaces important?",
+        "answer": {
+            "type": "text",
+            "content": "**API (Application Programming Interface):**\nContract specifying how software components interact\n\n**Types:**\n| Type | Example |\n|------|--------|\n| Library API | Python's `math.sqrt()` |\n| Web API | Twitter API, REST |\n| OS API | File system calls |\n\n**Interfaces:**\n- Define what methods a class must implement\n- Allow different implementations\n- Enable loose coupling\n\n```java\ninterface Drawable {\n    void draw();\n}\n```"
+        },
+        "explanation": "Good APIs are stable, documented, and hide implementation details. Program to interfaces, not implementations."
+    },
+    {
+        "title": "Version Control 📝",
+        "ques": "Explain **Git** basics: commit, branch, merge, pull request.",
+        "answer": {
+            "type": "text",
+            "content": "**Git Concepts:**\n\n| Concept | Description |\n|---------|------------|\n| **Repository** | Project folder with history |\n| **Commit** | Snapshot of changes |\n| **Branch** | Parallel development line |\n| **Merge** | Combine branches |\n| **Pull Request** | Request to merge changes |\n\n**Common Commands:**\n```bash\ngit init          # Create repo\ngit add .         # Stage changes\ngit commit -m \"\" # Save snapshot\ngit branch feat   # Create branch\ngit checkout feat # Switch branch\ngit merge feat    # Merge into current\n```"
+        },
+        "explanation": "Version control enables collaboration and maintains history. GitHub, GitLab are hosting services."
     }
 ]

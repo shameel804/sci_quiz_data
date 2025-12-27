@@ -1,56 +1,92 @@
 [
     {
-        "title": "Orbital Elements 🛰️",
-        "ques": "1. What are Kepler's orbital elements?\n2. What do they describe?\n3. How many needed for complete orbit?",
+        "title": "Orbital Elements 🛤️",
+        "ques": "List and explain the **6 Keplerian orbital elements** that define an orbit.",
         "answer": {
             "type": "text",
-            "content": "**1 & 2. Elements:**\n- Semi-major axis (a): Size of orbit\n- Eccentricity (e): Shape (0 = circle)\n- Inclination (i): Tilt from reference plane\n- Longitude of ascending node (Ω): Where orbit crosses reference\n- Argument of periapsis (ω): Orientation of ellipse\n- True anomaly (ν): Position on orbit\n\n**3.** 6 elements fully describe orbit and position"
+            "content": "**Keplerian Orbital Elements:**\n\n| Element | Description |\n|---------|------------|\n| **a** (semi-major axis) | Size of ellipse |\n| **e** (eccentricity) | Shape (0=circle, 1=parabola) |\n| **i** (inclination) | Tilt to reference plane |\n| **Ω** (longitude of ascending node) | Where orbit crosses reference plane (upward) |\n| **ω** (argument of periapsis) | Orientation within orbital plane |\n| **ν** (true anomaly) | Position on orbit at given time |\n\nThese uniquely define position and velocity at any time."
         },
-        "explanation": "**Orbital elements** are used to predict positions. Can calculate future positions for any time."
+        "explanation": "Orbital mechanics uses these elements because they're nearly constant (for unperturbed orbits). Changes indicate perturbations."
     },
     {
-        "title": "Tidal Forces 🌊",
-        "ques": "1. What causes tides?\n2. Why two high tides per day?\n3. What is tidal locking?",
+        "title": "Two-Body Problem ⚖️",
+        "ques": "Solve the **two-body problem**: Find the orbital period of a planet at 4 AU from a Sun-like star.",
         "answer": {
             "type": "text",
-            "content": "**1. Cause:** Differential gravitational pull (near side stronger than far side)\n\n**2. Two high tides:** Bulge on near side (stronger pull) AND far side (weaker pull, inertia)\n\n**3. Tidal locking:** Rotation synchronized with orbit (same face always toward partner) - Moon is tidally locked to Earth"
+            "content": "**Kepler's Third Law:**\n$$T^2 = \\frac{4π^2}{G(M_1+M_2)}a^3$$\n\nFor Sun-like star (M >> m):\n$$T^2 = a^3$$ (with T in years, a in AU)\n\n**Calculation:**\n$$T^2 = 4^3 = 64$$\n$$T = \\sqrt{64} = \\mathbf{8\\ years}$$\n\n**This matches Jupiter-like distance!**\n\n*Note: Exact formula accounts for both masses*"
         },
-        "explanation": "**Tidal forces** cause energy dissipation. Moon slowly receding from Earth (3.8 cm/year)."
+        "explanation": "Two-body problem has exact solution (ellipse, parabola, hyperbola). Three-body has no general solution."
     },
     {
-        "title": "N-Body Problem 🔢",
-        "ques": "1. What is the N-body problem?\n2. Why can't it be solved exactly?\n3. How do we handle it?",
+        "title": "Tidal Locking 🔒",
+        "ques": "Explain **tidal locking** and why the Moon always shows the same face to Earth.",
         "answer": {
             "type": "text",
-            "content": "**1. N-body problem:** Predicting motion of N gravitationally interacting bodies\n\n**2. Cannot solve exactly:** For N ≥ 3, no general analytical solution (chaos)\n\n**3. Methods:**\n- Numerical integration (computer simulations)\n- Perturbation theory (approximate)\n- Restricted 3-body (one mass negligible)"
+            "content": "**Tidal Locking (Synchronous Rotation):**\nBody's rotation period = orbital period\n\n**Mechanism:**\n1. Tidal bulge raised by gravity\n2. If rotating faster than orbiting, bulge drags behind\n3. Creates torque slowing rotation\n4. Eventually rotation = orbit (locked)\n\n**Timescale:**\n$$t_{lock} ∝ \\frac{a^6}{M_{primary}}$$\n\n**Examples:**\n- Moon to Earth (locked)\n- Likely: Close-in exoplanets to their stars\n- Pluto-Charon (both locked to each other)"
         },
-        "explanation": "**Henri Poincaré** proved the 3-body problem has no closed-form solution. Led to chaos theory."
+        "explanation": "Tidal locking has major habitability implications—permanent day/night sides. May still be habitable via atmosphere circulation."
     },
     {
-        "title": "Lagrange Points ⚖️",
-        "ques": "1. What are Lagrange points?\n2. How many exist?\n3. Why are L1, L2 useful?",
+        "title": "Lagrange Points 📍",
+        "ques": "What are **Lagrange points** and why are they useful for space missions?",
         "answer": {
             "type": "text",
-            "content": "**1. Lagrange points:** Positions where gravitational forces and orbital motion balance → object stays stationary relative to two large bodies\n\n**2. Number:** 5 points (L1 through L5)\n\n**3. Uses:**\n- L1: Solar observation (SOHO)\n- L2: Deep space observation (JWST) - always faces away from Sun\n- L4, L5: Collect asteroids (Trojans)"
+            "content": "**Lagrange Points (L1-L5):**\nLocations where gravitational forces and orbital motion balance\n\n| Point | Location | Stability | Use |\n|-------|----------|-----------|-----|\n| L1 | Between bodies | Unstable | Solar observation (SOHO) |\n| L2 | Beyond smaller body | Unstable | Deep space (JWST) |\n| L3 | Opposite side | Unstable | Rarely used |\n| L4 | 60° ahead | Stable | Trojan asteroids |\n| L5 | 60° behind | Stable | Trojan asteroids |\n\n**JWST at L2:** Always behind Earth, away from Sun"
         },
-        "explanation": "**JWST** is at L2, 1.5 million km from Earth. L4 and L5 are stable; L1, L2, L3 are unstable."
+        "explanation": "Stable L4/L5 points collect debris. Jupiter has thousands of Trojan asteroids at its Lagrange points."
     },
     {
-        "title": "Orbital Maneuvers 🚀",
-        "ques": "1. What is a Hohmann transfer?\n2. Why is it efficient?\n3. What is a gravity assist?",
+        "title": "N-Body Problem 🎱",
+        "ques": "Why is the **N-body problem** unsolvable analytically and how do we handle it?",
         "answer": {
             "type": "text",
-            "content": "**1. Hohmann transfer:** Elliptical orbit connecting two circular orbits with just two engine burns\n\n**2. Efficient:** Uses minimum fuel for transfer between coplanar circular orbits\n\n**3. Gravity assist:** Use planet's gravity to change spacecraft velocity without fuel (\"slingshot\")"
+            "content": "**N-Body Problem:**\n- For N≥3, no general closed-form solution\n- System is chaotic—tiny changes → big differences\n\n**Why Unsolvable:**\n- Mutual interactions create coupled equations\n- First integrals insufficient to solve\n- Poincaré proved for N=3 (1890)\n\n**Solutions:**\n1. **Numerical integration:** Step-by-step computation\n2. **Perturbation theory:** Small deviations from 2-body\n3. **Statistical mechanics:** For large N (galaxies)\n\n**Applications:** Planetary system stability, galaxy dynamics"
         },
-        "explanation": "**Voyager** used multiple gravity assists to visit outer planets. Gained speed from Jupiter and Saturn."
+        "explanation": "The Solar System is chaotic on ~10 million year timescales. Mercury could be ejected eventually!"
     },
     {
-        "title": "Orbital Resonances 🔄",
-        "ques": "1. What is orbital resonance?\n2. Example in solar system\n3. Stability effects",
+        "title": "Orbital Resonances 🎵",
+        "ques": "Explain **orbital resonances** with examples from our Solar System.",
         "answer": {
             "type": "text",
-            "content": "**1. Orbital resonance:** Two orbiting bodies have periods in integer ratio (like 2:1, 3:2)\n\n**2. Examples:**\n- Pluto:Neptune = 2:3\n- Io:Europa:Ganymede = 1:2:4\n- Kirkwood gaps in asteroid belt\n\n**3. Effects:**\n- Can be stabilizing (Plutinos)\n- Can be destabilizing (Kirkwood gaps - ejected asteroids)"
+            "content": "**Orbital Resonance:**\nOrbital periods in simple integer ratios → regular gravitational interactions\n\n**Examples:**\n| Bodies | Ratio | Effect |\n|--------|-------|--------|\n| Jupiter-Io-Europa-Ganymede | 1:2:4 | Laplace resonance, tidal heating |\n| Pluto-Neptune | 2:3 | Prevents close approach |\n| Saturn's Mimas-gaps | 2:1 | Cassini Division |\n\n**Types:**\n- **Mean-motion:** Period ratios\n- **Secular:** Precession rates\n- **Spin-orbit:** Mercury (3:2)"
         },
-        "explanation": "**Resonances** shape solar system structure. Same physics as pushing a child on a swing!"
+        "explanation": "Resonances can stabilize OR destabilize orbits. Kirkwood gaps in asteroid belt show destabilizing resonances."
+    },
+    {
+        "title": "Escape Velocity 🚀",
+        "ques": "Derive the **escape velocity** formula and calculate it for Earth.",
+        "answer": {
+            "type": "text",
+            "content": "**Derivation:**\nKinetic energy must equal gravitational potential energy:\n$$\\frac{1}{2}mv^2 = \\frac{GMm}{r}$$\n\n$$v_{esc} = \\sqrt{\\frac{2GM}{r}}$$\n\n**Earth:**\n- M = 5.97 × 10²⁴ kg\n- r = 6.37 × 10⁶ m\n- G = 6.67 × 10⁻¹¹\n\n$$v_{esc} = \\sqrt{\\frac{2 × 6.67 × 10^{-11} × 5.97 × 10^{24}}{6.37 × 10^6}}$$\n$$v_{esc} = \\mathbf{11.2\\ km/s}$$"
+        },
+        "explanation": "At escape velocity, object reaches infinity with zero velocity. Independent of direction and mass of escaping object."
+    },
+    {
+        "title": "Hohmann Transfer 🛸",
+        "ques": "Describe a **Hohmann transfer orbit** and why it's energy-efficient.",
+        "answer": {
+            "type": "text",
+            "content": "**Hohmann Transfer:**\nElliptical orbit tangent to both initial and final circular orbits\n\n**Process:**\n1. At periapsis of transfer orbit: burn to increase velocity\n2. Coast along ellipse\n3. At apoapsis: burn to circularize\n\n**Why Efficient:**\n- Minimum total Δv for coplanar transfers\n- Burns at extreme points (tangent velocity change)\n\n**Earth-Mars:**\n- Δv ≈ 3.6 km/s (LEO to transfer)\n- + 2.1 km/s (Mars orbit insertion)\n- Travel time: ~9 months"
+        },
+        "explanation": "Hohmann is fuel-optimal but slow. Faster trajectories exist but require more fuel (trade-off)."
+    },
+    {
+        "title": "Perturbation Theory 📊",
+        "ques": "How does **perturbation theory** help analyze orbital mechanics?",
+        "answer": {
+            "type": "text",
+            "content": "**Perturbation Theory:**\nTreat additional forces as small corrections to two-body orbit\n\n**Perturbations:**\n| Source | Effect |\n|--------|--------|\n| Other planets | Secular evolution, resonances |\n| Oblateness | Precession (Earth J₂) |\n| Relativity | Perihelion precession |\n| Solar radiation | Small drift |\n| Tidal forces | Energy dissipation |\n\n**Method:**\n- Write solution as: unperturbed + small corrections\n- Expand in power series\n- Calculate average evolution"
+        },
+        "explanation": "Mercury's perihelion precession couldn't be fully explained until General Relativity (43\"/century contribution)."
+    },
+    {
+        "title": "Roche Limit 💥",
+        "ques": "What is the **Roche limit** and what happens when an object crosses it?",
+        "answer": {
+            "type": "text",
+            "content": "**Roche Limit:**\nDistance within which tidal forces overcome self-gravity\n\n**Formula (fluid body):**\n$$d = 2.44 R \\left(\\frac{ρ_M}{ρ_m}\\right)^{1/3}$$\n\n**What Happens:**\n- Object is torn apart\n- Forms ring system or debris\n\n**Examples:**\n- Saturn's rings inside Roche limit\n- Comet Shoemaker-Levy 9 disrupted by Jupiter\n- Tidal disruption events (stars near black holes)\n\n**Earth's Roche limit:** ~18,500 km (Moon is at 384,400 km—safe!)"
+        },
+        "explanation": "Moons outside Roche limit can exist. Inside, only small bodies held together by tensile strength survive."
     }
 ]

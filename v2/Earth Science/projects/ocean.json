@@ -1,56 +1,92 @@
 [
     {
-        "title": "Ocean Currents 🌊",
-        "ques": "1. What drives surface currents?\n2. What drives deep currents?\n3. What is the Gulf Stream?",
+        "title": "Ocean Layers 🌊",
+        "ques": "Describe the **vertical structure** of the ocean (temperature and depth zones).",
         "answer": {
             "type": "text",
-            "content": "**1. Surface currents:** Wind (primarily trade winds and westerlies)\n\n**2. Deep currents:** Thermohaline circulation (temperature and salinity differences)\n\n**3. Gulf Stream:** Warm current from Gulf of Mexico to Europe; keeps Western Europe mild"
+            "content": "**Temperature Zones:**\n| Zone | Depth | Characteristics |\n|------|-------|----------------|\n| **Surface/Mixed Layer** | 0-200 m | Warm, well-mixed by wind/waves |\n| **Thermocline** | 200-1000 m | Rapid temperature decrease |\n| **Deep Zone** | 1000+ m | Cold (~4°C), stable |\n\n**Light Zones:**\n| Zone | Depth | Light |\n|------|-------|-------|\n| **Photic** | 0-200 m | Sunlight, photosynthesis |\n| **Aphotic** | 200+ m | No light, chemosynthesis |"
         },
-        "explanation": "**Ocean conveyor belt** circulates water globally over 1000 years. Critical for climate regulation."
+        "explanation": "The thermocline acts as a barrier preventing mixing between surface and deep waters."
+    },
+    {
+        "title": "Ocean Currents 🌀",
+        "ques": "Differentiate between **surface currents** and **thermohaline circulation**.",
+        "answer": {
+            "type": "text",
+            "content": "**Surface Currents:**\n- Driven by wind\n- Affect upper 400 m\n- Form gyres (circular patterns)\n- Coriolis deflects them\n- *Examples:* Gulf Stream, California Current\n\n**Thermohaline Circulation:**\n- Driven by density differences (temperature + salinity)\n- Deep water formation at poles\n- \"Global conveyor belt\"\n- Cycle takes ~1000 years\n- Distributes heat globally\n\n**Gulf Stream:** Warm surface current → heats Western Europe\n**NADW:** Cold, dense water sinks in North Atlantic"
+        },
+        "explanation": "Thermohaline circulation could slow with climate change as Arctic ice melt reduces salinity."
+    },
+    {
+        "title": "Tides 🌕",
+        "ques": "Explain what causes **tides** and the difference between spring and neap tides.",
+        "answer": {
+            "type": "text",
+            "content": "**Tide Causes:**\n- Gravitational pull of Moon (primary)\n- Gravitational pull of Sun (secondary)\n- Earth's rotation\n\n**Two bulges:** One toward Moon, one away (differential gravity)\n\n**Spring Tides:**\n- Sun and Moon aligned (new/full moon)\n- Gravitational forces add\n- **Highest highs, lowest lows**\n\n**Neap Tides:**\n- Sun and Moon at 90° (quarter moons)\n- Forces partially cancel\n- **Moderate tidal range**\n\n*Tidal range varies: Bay of Fundy up to 16 m!*"
+        },
+        "explanation": "Tides occur ~50 minutes later each day because Moon advances in its orbit."
+    },
+    {
+        "title": "Wave Dynamics 🌊",
+        "ques": "Explain how **ocean waves** form and behave. What happens when waves approach shore?",
+        "answer": {
+            "type": "text",
+            "content": "**Wave Formation:**\n- Wind transfers energy to water surface\n- Wave height depends on: wind speed, duration, fetch (distance)\n\n**Wave Properties:**\n| Term | Definition |\n|------|------------|\n| Crest | Highest point |\n| Trough | Lowest point |\n| Wavelength | Crest to crest distance |\n| Period | Time for one wavelength to pass |\n\n**Approaching Shore:**\n1. Wave \"feels bottom\" when depth < λ/2\n2. Wavelength decreases, height increases\n3. Wave breaks when height/depth ratio ~0.8\n4. Energy dissipates in surf zone"
+        },
+        "explanation": "In deep water, water particles move in circles. In shallow water, they flatten into ellipses."
     },
     {
         "title": "Marine Ecosystems 🐠",
-        "ques": "1. Ocean zones by depth\n2. Where is most marine life?\n3. What is a coral reef?",
+        "ques": "Compare ocean **benthic** and **pelagic** zones and their organisms.",
         "answer": {
             "type": "text",
-            "content": "**1. Zones:**\n- Epipelagic (0-200m): Sunlit\n- Mesopelagic (200-1000m): Twilight\n- Bathypelagic (1000-4000m): Dark\n- Abyssopelagic (>4000m): Abyss\n\n**2. Most life:** Epipelagic zone (has light for photosynthesis)\n\n**3. Coral reef:** Structure built by coral polyps; \"rainforest of the sea\" - high biodiversity"
+            "content": "**Pelagic Zone (Open Water):**\n| Division | Organisms |\n|----------|----------|\n| Epipelagic (0-200 m) | Phytoplankton, fish, whales |\n| Mesopelagic (200-1000 m) | Bioluminescent fish |\n| Bathypelagic (1000-4000 m) | Squid, anglerfish |\n| Abyssopelagic (4000+ m) | Giant isopods |\n\n**Benthic Zone (Sea Floor):**\n- Organisms live on or in sediment\n- Filter feeders, scavengers, decomposers\n- Hydrothermal vent communities (chemosynthesis)\n- *Examples:* Crabs, sea stars, tube worms"
         },
-        "explanation": "**Coral reefs** support 25% of marine species but cover <1% of ocean floor."
+        "explanation": "Deep sea vents support life without sunlight—bacteria use hydrogen sulfide as energy source."
     },
     {
-        "title": "Tides and Waves 🌙",
-        "ques": "1. What causes tides?\n2. Spring vs neap tides\n3. How do waves form?",
+        "title": "Seafloor Features 🏔️",
+        "ques": "Describe the major **features of the ocean floor**.",
         "answer": {
             "type": "text",
-            "content": "**1. Tide causes:** Moon's gravity (mainly) + Sun's gravity\n\n**2. Types:**\n- Spring: Sun+Moon aligned, extreme high/low (full/new moon)\n- Neap: Sun+Moon at 90°, moderate tides (quarter moons)\n\n**3. Wave formation:** Wind transfers energy to water surface"
+            "content": "**Continental Margin:**\n| Feature | Description |\n|---------|------------|\n| Shelf | Shallow extension of continent |\n| Slope | Steep drop to deep ocean |\n| Rise | Gentle slope to abyssal plain |\n\n**Deep Ocean:**\n| Feature | Description |\n|---------|------------|\n| Abyssal plain | Flat, sediment-covered floor |\n| Mid-ocean ridge | Underwater mountain chain, divergent boundary |\n| Trench | Deepest areas, subduction zones |\n| Seamounts | Underwater volcanoes |\n| Guyots | Flat-topped seamounts |"
         },
-        "explanation": "**Tides** are predictable (astronomical); **waves** depend on wind conditions."
+        "explanation": "Mid-Atlantic Ridge is 65,000 km long. Mariana Trench is 11,034 m deep (Challenger Deep)."
     },
     {
-        "title": "Ocean Floor 🗺️",
-        "ques": "1. Features of ocean floor\n2. What is a mid-ocean ridge?\n3. What is an ocean trench?",
+        "title": "Ocean Acidification 🧪",
+        "ques": "Explain **ocean acidification** and its effects on marine life.",
         "answer": {
             "type": "text",
-            "content": "**1. Features:**\n- Continental shelf\n- Continental slope\n- Abyssal plain\n- Mid-ocean ridges\n- Trenches\n- Seamounts\n\n**2. Mid-ocean ridge:** Underwater mountain chain where new seafloor forms (divergent boundary)\n\n**3. Trench:** Deep valley where plate subducts (convergent boundary) - Mariana Trench deepest (11 km)"
+            "content": "**Process:**\n$$CO_2 + H_2O → H_2CO_3 → H^+ + HCO_3^-$$\n\nAs CO₂ increases in atmosphere:\n1. Ocean absorbs ~30% of CO₂\n2. Carbonic acid forms\n3. pH decreases (more acidic)\n\n**Current Status:**\n- pH dropped from 8.2 to ~8.1 since 1800s\n- 26% increase in acidity\n\n**Effects on Marine Life:**\n- Harder for shellfish to form CaCO₃ shells\n- Coral reef degradation\n- Fish behavior changes\n- Food web disruption"
         },
-        "explanation": "**Seafloor spreading** at ridges creates new crust; subduction at trenches destroys old crust."
+        "explanation": "Called \"the other CO₂ problem.\" Rate of acidification unprecedented in 300 million years."
     },
     {
-        "title": "Ocean Chemistry 🧪",
-        "ques": "1. What makes seawater salty?\n2. Average salinity\n3. What is ocean acidification?",
+        "title": "Salinity 🧂",
+        "ques": "What affects ocean **salinity** and how is it measured?",
         "answer": {
             "type": "text",
-            "content": "**1. Sources of salt:**\n- River minerals washing to sea\n- Underwater volcanic vents\n- Weathered rock\n\n**2. Salinity:** ~35 ppt (parts per thousand) or 3.5%\n\n**3. Ocean acidification:** CO₂ dissolves → carbonic acid → pH drops; harms shell-forming organisms"
+            "content": "**Average Salinity:** 35 ppt (parts per thousand)\n\n**Factors Increasing Salinity:**\n- Evaporation\n- Sea ice formation (salt excluded)\n- Reduced freshwater input\n\n**Factors Decreasing Salinity:**\n- Precipitation\n- River input\n- Ice melt\n\n**Geographic Variation:**\n- Highest: Red Sea, Persian Gulf (~40 ppt)\n- Lowest: Baltic Sea (~10 ppt)\n- Equatorial: Lower (high rainfall)\n- Subtropical: Higher (high evaporation)"
         },
-        "explanation": "**Ocean pH** has dropped 0.1 since industrial era (30% more acidic). Threatens coral and shellfish."
+        "explanation": "Salinity affects water density, which drives thermohaline circulation. Major ions: Na⁺, Cl⁻."
     },
     {
-        "title": "El Niño/La Niña 🌡️",
-        "ques": "1. What is El Niño?\n2. What is La Niña?\n3. Global effects",
+        "title": "Tsunamis 🌊",
+        "ques": "Explain how **tsunamis** form and why they're so destructive.",
         "answer": {
             "type": "text",
-            "content": "**1. El Niño:** Warming of eastern Pacific; weakened trade winds\n\n**2. La Niña:** Cooling of eastern Pacific; stronger trade winds\n\n**3. Effects:**\n- El Niño: Droughts in Australia, floods in South America\n- La Niña: More Atlantic hurricanes, colder winters in N. America"
+            "content": "**Causes:**\n- Underwater earthquakes (most common)\n- Submarine landslides\n- Volcanic eruptions\n- Asteroid impacts\n\n**In Deep Ocean:**\n- Speed: 500-800 km/h\n- Height: <1 m\n- Wavelength: 100s of km\n- Barely noticeable\n\n**Approaching Shore:**\n- Water shallows, wave slows\n- Energy compressed\n- Height increases (10-30+ m)\n- Water often recedes first (warning sign!)\n\n**Destructive Power:** Enormous volume of water, long wavelength = sustained flooding"
         },
-        "explanation": "**ENSO** (El Niño Southern Oscillation) affects global weather patterns every 2-7 years."
+        "explanation": "2004 Indian Ocean tsunami killed ~230,000. Warning systems now monitor seismic activity and sea level."
+    },
+    {
+        "title": "Coral Reefs 🐙",
+        "ques": "Explain why **coral reefs** are important and what threatens them.",
+        "answer": {
+            "type": "text",
+            "content": "**Importance (\"Rainforests of the Sea\"):**\n- 25% of marine species depend on them\n- Protect coastlines from waves\n- Tourism and fishing economy\n- Source of potential medicines\n\n**Threats:**\n| Threat | Effect |\n|--------|--------|\n| **Ocean warming** | Coral bleaching (expels symbiotic algae) |\n| **Acidification** | Dissolves calcium carbonate |\n| **Pollution** | Nutrient runoff → algae overgrowth |\n| **Overfishing** | Disrupts ecosystem balance |\n| **Sedimentation** | Smothers corals |\n\n**Great Barrier Reef:** 50% coral cover loss since 1995"
+        },
+        "explanation": "Corals are animals with symbiotic zooxanthellae algae. Bleaching can be recovered from if stressors removed quickly."
     }
 ]

@@ -1,56 +1,92 @@
 [
     {
-        "title": "Star Formation ⭐",
-        "ques": "Describe star formation:\n1. Starting material\n2. Key stages\n3. When does fusion begin?",
+        "title": "Stellar Classification 🌟",
+        "ques": "Explain the **Harvard spectral classification** system (OBAFGKM). What determines a star's spectral type?",
         "answer": {
             "type": "text",
-            "content": "**1. Material:** Molecular cloud (hydrogen gas + dust)\n\n**2. Stages:**\n- Cloud collapses under gravity\n- Forms protostar (heats up)\n- Core reaches 10 million K\n- Fusion begins → main sequence star\n\n**3. Fusion begins:** When core temperature reaches ~10 million K (hydrogen → helium)"
+            "content": "**Spectral Types (hot → cool):**\n- **O:** 30,000+ K, Blue, ionized He\n- **B:** 10,000-30,000 K, Blue-white\n- **A:** 7,500-10,000 K, White, strong H\n- **F:** 6,000-7,500 K, Yellow-white\n- **G:** 5,200-6,000 K, Yellow (Sun!)\n- **K:** 3,700-5,200 K, Orange\n- **M:** 2,400-3,700 K, Red, molecules\n\n*Mnemonic: Oh Be A Fine Girl/Guy, Kiss Me*\n\n**Determined by:** Surface temperature (affects which spectral lines appear)"
         },
-        "explanation": "**Protostars** take millions of years to form. Mass determines star's temperature, color, and lifespan."
+        "explanation": "Originally alphabetical by hydrogen line strength. Rearranged by temperature. Most stars are M-type red dwarfs."
     },
     {
         "title": "H-R Diagram 📊",
-        "ques": "For the Hertzsprung-Russell diagram:\n1. What axes?\n2. Where is the Sun?\n3. What are the main regions?",
+        "ques": "Sketch and label the main regions of the **Hertzsprung-Russell diagram**.",
         "answer": {
             "type": "text",
-            "content": "**1. Axes:**\n- X: Temperature (hot→cool, left→right)\n- Y: Luminosity (low→high, bottom→top)\n\n**2. Sun:** Middle of main sequence (G-type star)\n\n**3. Regions:**\n- Main sequence (diagonal band)\n- Red giants (upper right)\n- White dwarfs (lower left)\n- Supergiants (top)"
+            "content": "**H-R Diagram Regions:**\n\n| Region | Location | Stars |\n|--------|----------|-------|\n| **Main Sequence** | Diagonal band | 90% of stars, H fusion |\n| **Red Giants** | Upper right | Cool, luminous, expanded |\n| **Supergiants** | Top | Most luminous, rare |\n| **White Dwarfs** | Lower left | Hot, dim, dead cores |\n\n**Axes:**\n- X: Temperature (decreasing →) or Spectral Class\n- Y: Luminosity (increasing ↑) or Absolute Magnitude\n\n**Sun:** G2V star on main sequence"
         },
-        "explanation": "**H-R diagram** is fundamental to stellar astronomy. Position reveals star's age and evolutionary state."
+        "explanation": "Position on H-R diagram reveals a star's evolutionary stage. Stars spend most of their lives on the main sequence."
     },
     {
-        "title": "Stellar Evolution 💫",
-        "ques": "Compare end states for:\n1. Low-mass star (like Sun)\n2. High-mass star\n3. What determines the end state?",
+        "title": "Stellar Evolution 🔄",
+        "ques": "Trace the evolution of a **Sun-like star** from birth to death.",
         "answer": {
             "type": "text",
-            "content": "**1. Low-mass (< 8 M☉):**\nMain sequence → Red giant → Planetary nebula → White dwarf\n\n**2. High-mass (> 8 M☉):**\nMain sequence → Supergiant → Supernova → Neutron star or Black hole\n\n**3. Determining factor:** Mass (specifically, mass at end of life)"
+            "content": "**Sun-like Star Evolution:**\n\n1. **Nebula collapse** → protostar\n2. **Main sequence** (~10 billion years): H → He in core\n3. **Subgiant:** Core H exhausted, shell burning begins\n4. **Red Giant:** Core contracts, envelope expands\n5. **Helium flash:** Core He ignition\n6. **Horizontal branch:** He core fusion\n7. **Asymptotic Giant Branch:** Double shell burning\n8. **Planetary nebula:** Outer layers ejected\n9. **White dwarf:** Hot core remains, slowly cools\n\n*Sun is currently ~4.6 billion years old (halfway)*"
         },
-        "explanation": "**Mass is destiny** for stars. More massive = hotter, brighter, shorter life, more dramatic death."
+        "explanation": "Mass determines fate. Sun-like stars end as white dwarfs. More massive stars become neutron stars or black holes."
     },
     {
-        "title": "Supernovae 💥",
-        "ques": "1. What triggers a supernova?\n2. What elements form?\n3. Why are supernovae important?",
+        "title": "Massive Star Death 💥",
+        "ques": "Describe what happens in a **core-collapse supernova** (Type II).",
         "answer": {
             "type": "text",
-            "content": "**1. Trigger:** Core collapse when fusion stops (iron core can't fuse)\n\n**2. Elements formed:** Heavy elements (gold, uranium) - only in supernova conditions\n\n**3. Importance:**\n- Creates heavy elements\n- Triggers new star formation\n- Leaves neutron stars/black holes\n- Spreads elements through galaxy"
+            "content": "**Type II Supernova Sequence:**\n\n1. Massive star (>8 M☉) fuses elements up to iron\n2. Iron core can't fuse—no energy release\n3. Core exceeds Chandrasekhar limit (~1.4 M☉)\n4. **Core collapse** in seconds\n5. Electrons + protons → neutrons + neutrinos\n6. Core rebounds → shockwave\n7. **Explosion:** 10⁴⁴ joules released\n8. Heavy elements created (r-process nucleosynthesis)\n\n**Remnant:**\n- Core becomes **neutron star** (1.4-3 M☉)\n- Or **black hole** (>3 M☉)"
         },
-        "explanation": "**We are stardust** - elements in our bodies (carbon, oxygen) were made in stars."
+        "explanation": "Supernovae create elements heavier than iron. We are literally made of stardust from ancient supernovae."
     },
     {
-        "title": "Binary Stars ⭐⭐",
-        "ques": "1. Types of binary star systems\n2. How do we detect binaries?\n3. Why are they useful?",
+        "title": "Neutron Star Properties ⚫",
+        "ques": "Describe the extreme properties of **neutron stars** and **pulsars**.",
         "answer": {
             "type": "text",
-            "content": "**1. Types:**\n- Visual: Can see both stars\n- Spectroscopic: Detect from Doppler shift\n- Eclipsing: Stars pass in front of each other\n\n**2. Detection:**\n- Direct observation\n- Periodic brightness changes\n- Spectral line shifts\n\n**3. Useful for:** Determining stellar masses (only direct method)"
+            "content": "**Neutron Star Properties:**\n- Mass: 1.4-2 M☉\n- Radius: ~10 km (city-sized!)\n- Density: 10¹⁴ g/cm³ (nuclear density)\n- Magnetic field: 10⁸-10¹⁵ Gauss\n- Surface gravity: ~10¹¹ g\n\n**Pulsars:**\n- Rapidly rotating neutron stars\n- Emitting beams of radio waves from magnetic poles\n- \"Lighthouse effect\" as they spin\n- Periods: milliseconds to seconds\n- Very precise—used as cosmic clocks"
         },
-        "explanation": "**Binary stars** let us directly measure stellar masses by observing their orbits and applying Kepler's laws."
+        "explanation": "Pulsars discovered 1967 by Jocelyn Bell Burnell. First thought to be alien signals (\"Little Green Men\")."
     },
     {
-        "title": "Star Classification 🌟",
-        "ques": "About spectral types (OBAFGKM):\n1. What does classification mean?\n2. Order by temperature\n3. What type is the Sun?",
+        "title": "Binary Star Systems ⭐⭐",
+        "ques": "List **types of binary star systems** and how they are detected.",
         "answer": {
             "type": "text",
-            "content": "**1. Classification:** Based on spectral lines (temperature indicator)\n\n**2. Temperature order:**\nO (hottest, blue) → B → A → F → G → K → M (coolest, red)\n\nMnemonic: \"Oh Be A Fine Guy/Girl, Kiss Me\"\n\n**3. Sun:** G-type (yellow, ~5500°C surface)"
+            "content": "**Binary Star Types:**\n\n| Type | Detection Method |\n|------|------------------|\n| **Visual** | Resolved through telescope |\n| **Astrometric** | One star wobbles |\n| **Eclipsing** | Light curve dips during eclipses |\n| **Spectroscopic** | Doppler shifts in spectra |\n\n**Importance:**\n- Only way to directly measure stellar masses\n- Kepler's 3rd law: M₁ + M₂ = a³/P²\n- ~85% of stars may be in multiple systems"
         },
-        "explanation": "**Spectral type** determines color, temperature, and mass. O stars live millions of years; M stars live trillions."
+        "explanation": "Many black holes detected in X-ray binaries when material from companion is heated as it falls onto the compact object."
+    },
+    {
+        "title": "Stellar Nucleosynthesis 🔥",
+        "ques": "Explain how stars produce elements through **nuclear fusion**.",
+        "answer": {
+            "type": "text",
+            "content": "**Fusion in Stars (by mass):**\n\n| Star Mass | Fusion Products |\n|-----------|----------------|\n| <0.5 M☉ | H → He only |\n| 0.5-8 M☉ | H → He → C, O |\n| >8 M☉ | H → He → C → O → Ne → Si → Fe |\n\n**Why stop at Iron?**\n- Fe-56 has highest binding energy\n- Fusion beyond Fe absorbs energy\n- Heavier elements made in supernovae (r-process)\n\n**pp chain (Sun):** 4H → He + 2e⁺ + 2ν + 26.7 MeV"
+        },
+        "explanation": "We are carbon-based life forms made in stellar cores. \"We are stardust\" is literally true."
+    },
+    {
+        "title": "Star Formation ⭐",
+        "ques": "Describe the process of **star formation** from molecular cloud to main sequence.",
+        "answer": {
+            "type": "text",
+            "content": "**Star Formation Stages:**\n\n1. **Molecular cloud:** Cold (10-20 K), dense gas\n2. **Core collapse:** Gravity > pressure (trigger needed)\n3. **Protostar:** Heating from gravitational contraction\n4. **T Tauri stage:** PMS star with disk, outflows\n5. **Main sequence:** Hydrogen fusion begins (~10⁷ K)\n\n**Jeans Mass:** Minimum mass for collapse\n$$M_J ∝ T^{3/2} / ρ^{1/2}$$\n\n**Timescale:** 10⁵-10⁷ years depending on mass"
+        },
+        "explanation": "Massive stars form and die faster (10 million years) while red dwarfs can last trillions of years."
+    },
+    {
+        "title": "Cepheid Variables 🔆",
+        "ques": "How are **Cepheid variables** used as cosmic distance indicators?",
+        "answer": {
+            "type": "text",
+            "content": "**Cepheid Variables:**\nPulsating supergiant stars with regular brightness variations\n\n**Period-Luminosity Relation:**\n- Longer period = more luminous\n- Discovered by Henrietta Leavitt (1912)\n\n**Distance Measurement:**\n1. Measure pulsation period\n2. Calculate absolute luminosity from P-L relation\n3. Measure apparent brightness\n4. Use distance modulus: m - M = 5 log(d/10)\n\n**Range:** Out to ~30 Mpc (Virgo Cluster)"
+        },
+        "explanation": "Cepheids are \"standard candles.\" Edwin Hubble used them to prove Andromeda is a separate galaxy."
+    },
+    {
+        "title": "White Dwarf End States 💀",
+        "ques": "What is the **Chandrasekhar limit** and what happens if exceeded?",
+        "answer": {
+            "type": "text",
+            "content": "**Chandrasekhar Limit:** ~1.4 M☉\n\nMaximum mass supported by electron degeneracy pressure\n\n**If exceeded:**\n- Electrons forced into protons\n- Forms neutron star (neutron degeneracy pressure)\n- If that fails → black hole\n\n**Type Ia Supernova:**\n- White dwarf in binary accretes mass\n- Exceeds Chandrasekhar limit\n- Runaway carbon fusion → complete destruction\n- Consistent peak brightness → standard candle for cosmology"
+        },
+        "explanation": "Type Ia supernovae were used to discover the accelerating expansion of the universe (1998 Nobel Prize)."
     }
 ]

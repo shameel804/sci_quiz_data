@@ -2,58 +2,138 @@
     "id": "learn_meteo",
     "topicId": "meteo",
     "topicTitle": "Meteorology",
-    "description": "Explore weather patterns, climate zones, atmosphere, and forecasting",
-    "baseKP": 75,
+    "description": "The study of the atmosphere and weather.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "meteo_1",
             "type": "content",
-            "title": "Welcome to Meteorology",
-            "content": "# Meteorology ⛅\n\n## What you'll learn:\n- Weather patterns\n- Climate zones\n- Atmospheric layers\n- Weather forecasting\n\n## Weather vs Climate\n| Term | Time Scale |\n|------|------------|\n| Weather | Short-term |\n| Climate | Long-term average |"
+            "title": "What is Meteorology?",
+            "content": "# Looking Up ☁️\n\nScience dealing with the atmosphere and its phenomena, including weather and climate.\n- **Weather**: Short term (Raining now).\n- **Climate**: Long term average (Tropical)."
         },
         {
             "id": "meteo_2",
             "type": "content",
-            "title": "Atmosphere",
-            "content": "# Atmospheric Layers 🌡️\n\n| Layer | Height | Features |\n|-------|--------|----------|\n| Troposphere | 0-12 km | Weather occurs |\n| Stratosphere | 12-50 km | Ozone layer |\n| Mesosphere | 50-80 km | Meteors burn |\n| Thermosphere | 80-700 km | Aurora |\n| Exosphere | 700+ km | Space boundary |"
+            "title": "Atmosphere Layers",
+            "content": "# Onion Earth 🧅\n\n1. **Troposphere**: Surface to 10km. All weather happens here.\n2. **Stratosphere**: Ozone layer. Planes fly here.\n3. **Mesosphere**: Meteors burn up.\n4. **Thermosphere**: ISS orbits, Auroras.\n5. **Exosphere**: Fades to space."
         },
         {
             "id": "meteo_3",
             "type": "content",
-            "title": "Weather Patterns",
-            "content": "# Weather Patterns 🌀\n\n## Fronts\n| Type | Symbol | Weather |\n|------|--------|--------|\n| Cold | ▲▲▲ | Sharp temp drop |\n| Warm | ●●● | Gradual warming |\n| Stationary | ▲●▲● | Prolonged rain |\n| Occluded | ▲●▲● | Mixed |\n\n## Pressure\n- High pressure → Clear skies\n- Low pressure → Clouds/rain"
-        },
-        {
-            "id": "meteo_quiz_1",
-            "type": "quiz",
-            "title": "Meteorology Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "In which layer does weather occur?",
-            "quizOptions": [
-                "Stratosphere",
-                "Troposphere",
-                "Mesosphere",
-                "Thermosphere"
-            ],
-            "correctOptionIndex": 1
+            "title": "Atmosphere Composition",
+            "content": "# Air Mix 🌬️\n\n- **Nitrogen ($N_2$)**: 78%\n- **Oxygen ($O_2$)**: 21%\n- **Argon**: 0.9%\n- **$CO_2$**: 0.04% (Rising).\n- **Water Vapor**: 0-4% (Variable)."
         },
         {
             "id": "meteo_4",
             "type": "content",
-            "title": "Climate Zones",
-            "content": "# Climate Zones 🌍\n\n| Zone | Location | Features |\n|------|----------|----------|\n| Tropical | Equator | Hot, wet |\n| Temperate | Mid-latitudes | Seasons |\n| Polar | High latitudes | Cold |\n| Desert | Subtropics | Dry |\n| Mediterranean | West coasts | Dry summers |"
+            "title": "The Water Cycle",
+            "content": "# Hydrologic Cycle 🚲\n\n1. **Evaporation**: Liquid $\\to$ Gas.\n2. **Condensation**: Gas $\\to$ Liquid (Clouds).\n3. **Precipitation**: Rain/Snow falling.\n4. **Runoff/Collection**: Rivers/Oceans."
         },
         {
             "id": "meteo_5",
             "type": "content",
-            "title": "Forecasting",
-            "content": "# Weather Forecasting 📊\n\n## Tools\n| Tool | Measures |\n|------|----------|\n| Thermometer | Temperature |\n| Barometer | Pressure |\n| Anemometer | Wind speed |\n| Hygrometer | Humidity |\n| Radar | Precipitation |\n\n## Methods\n- Satellite imagery\n- Computer models\n- Weather balloons"
+            "title": "Clouds",
+            "content": "# Floating Water 🐑\n\n- **Cumulus**: Puffy white cotton balls (Fair weather).\n- **Stratus**: Flat gray blanket (Overcast).\n- **Cirrus**: High, thin wisps of ice (Change coming).\n- **Cumulonimbus**: Tall anvil thunderheads (Storms)."
+        },
+        {
+            "id": "meteo_quiz_1",
+            "type": "quiz",
+            "title": "Layer Quiz",
+            "content": "Height check.",
+            "quizQuestion": "In which layer of the atmosphere does all weather occur?",
+            "quizOptions": [
+                "Stratosphere",
+                "Mesosphere",
+                "Troposphere",
+                "Thermosphere"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "meteo_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Troposphere: Weather layer\n- High/Low pressure systems\n- Fronts cause weather changes\n- Climate = long-term patterns"
+            "title": "Air Pressure",
+            "content": "# Weight of Air 🏋️\n\nMeasured with Barometer.\n- **High Pressure (H)**: Air sinks. Clear sunny skies.\n- **Low Pressure (L)**: Air rises. Clouds and storms form.\nWind blows from High to Low."
+        },
+        {
+            "id": "meteo_7",
+            "type": "content",
+            "title": "Wind Systems",
+            "content": "# Global Circulation 🌎\n\n- **Trade Winds**: Blow East to West near equator.\n- **Westerlies**: Blow West to East (Mid latitudes).\n- **Coriolis Effect**: Curvature due to Earth's rotation (Right in North, Left in South)."
+        },
+        {
+            "id": "meteo_8",
+            "type": "content",
+            "title": "Fronts",
+            "content": "# Battle Lines ⚔️\n\nBoundary between air masses.\n- **Cold Front**: Cold air shoves warm air up. Fast storms.\n- **Warm Front**: Warm air slides over cold. Long drizzle.\n- **Stationary Front**: Standoff."
+        },
+        {
+            "id": "meteo_9",
+            "type": "content",
+            "title": "Thunderstorms",
+            "content": "# Boom ⚡\n\nNeed: Moisture, Instability, Lift.\n- **Lightning**: Static discharge ($30,000^\\circ C$).\n- **Thunder**: Sonic boom from expanding air.\n\nWARNING: If you hear thunder, you are close enough to be struck."
+        },
+        {
+            "id": "meteo_10",
+            "type": "content",
+            "title": "Tornadoes",
+            "content": "# Twisters 🌪️\n\nViolent rotating column of air.\n- Form from Supercell thunderstorms.\n- **Fujita Scale (EF0-EF5)**: Based on damage.\n- USA \"Tornado Alley\" has most in world."
+        },
+        {
+            "id": "meteo_11",
+            "type": "content",
+            "title": "Hurricanes",
+            "content": "# Giant Engines 🌀\n\nMassive storm systems over warm oceans.\n- Also called Typhoons/Cyclones.\n- Eye is calm.\n- **Storm Surge**: Wall of water pushed ashore (Deadliest part)."
+        },
+        {
+            "id": "meteo_quiz_2",
+            "type": "quiz",
+            "title": "Storm Quiz",
+            "content": "Safety check.",
+            "quizQuestion": "Where is the calmest part of a hurricane?",
+            "quizOptions": [
+                "The Eye Wall",
+                "The Eye",
+                "Outer Bands",
+                "The Surge"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "meteo_12",
+            "type": "content",
+            "title": "Climate Zones",
+            "content": "# Biomes 🌵🌲\n\n- **Tropical**: Hot/Wet (Rainforest).\n- **Dry**: Arid (Desert).\n- **Temperate**: Mild (Forests).\n- **Continental**: Extremes.\n- **Polar**: Freezing (Tundra)."
+        },
+        {
+            "id": "meteo_13",
+            "type": "content",
+            "title": "El Niño / La Niña",
+            "content": "# Ocean-Air Link 🌊\n\nPeriodic warming/cooling of Pacific Ocean.\n- **El Niño**: Warm water. Disrupts global weather.\n- **La Niña**: Cool water.\nExample of how connected Earth systems are."
+        },
+        {
+            "id": "meteo_14",
+            "type": "content",
+            "title": "Forecasting",
+            "content": "# Predicting Future 🔮\n\nUsing supercomputers to model fluid dynamics.\n- **Radar**: Sees rain.\n- **Satellite**: Sees clouds.\n- Accuracy decreases with time (Chaos Theory)."
+        },
+        {
+            "id": "meteo_15",
+            "type": "content",
+            "title": "Greenhouse Effect",
+            "content": "# Heat Trap 🌡️\n\nGases ($CO_2$, Methane) trap heat radiating from Earth.\n- Natural effect keeps Earth habitable.\n- **Global Warming**: Excess gases overheating the planet."
+        },
+        {
+            "id": "meteo_16",
+            "type": "content",
+            "title": "Ozone Layer",
+            "content": "# Sunscreen 🧴\n\n$O_3$ in Stratosphere blocks harmful UV radiation.\n- CFC chemicals caused a \"Hole\".\n- Montreal Protocol banned them, hole is healing."
+        },
+        {
+            "id": "meteo_17",
+            "type": "content",
+            "title": "Meteorology Summary",
+            "content": "# Recap 📝\n\n- **Troposphere** is the weather stage.\n- Sun heats Earth unevenly $\\to$ **Wind**.\n- Water presence determines **Precipitation**.\n- Understanding atmosphere protects lives."
         }
     ]
 }

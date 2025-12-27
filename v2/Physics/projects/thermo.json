@@ -1,65 +1,92 @@
 [
     {
-        "title": "Laws of Thermodynamics Basics 🌡️",
-        "ques": "Explain each of the **four laws of thermodynamics** in simple terms. For each law, provide:\n\n1. A one-sentence statement\n2. A real-world example or analogy\n3. What the law implies about energy or heat",
+        "title": "Understanding Temperature Scales 🌡️",
+        "ques": "Convert **100°F** to both **Celsius** and **Kelvin**. Show your work and explain when each temperature scale is commonly used.",
         "answer": {
             "type": "text",
-            "content": "### The Four Laws of Thermodynamics:\n\n**Zeroth Law:**\n- *Statement:* If A is in thermal equilibrium with B, and B with C, then A is in equilibrium with C.\n- *Example:* A thermometer reaches the same temperature as your body, and both reach equilibrium with the air.\n- *Implication:* Temperature is a well-defined, transitive property.\n\n**First Law (Conservation of Energy):**\n- *Statement:* Energy cannot be created or destroyed, only transformed.\n- *Example:* A car engine converts chemical energy (fuel) into kinetic energy and heat.\n- *Implication:* ΔU = Q - W (internal energy change = heat added - work done)\n\n**Second Law (Entropy):**\n- *Statement:* Heat flows spontaneously from hot to cold, never the reverse without work.\n- *Example:* Ice melts in warm water; water never spontaneously freezes in a warm room.\n- *Implication:* Entropy of an isolated system always increases.\n\n**Third Law:**\n- *Statement:* As temperature approaches absolute zero, entropy approaches a minimum.\n- *Example:* A perfect crystal at 0 K has exactly zero entropy.\n- *Implication:* Absolute zero (0 K) is unattainable in finite steps."
+            "content": "**Conversions:**\n\n**Fahrenheit to Celsius:**\n$$C = \\frac{5}{9}(F - 32) = \\frac{5}{9}(100 - 32) = \\frac{5}{9}(68) = \\mathbf{37.78°C}$$\n\n**Celsius to Kelvin:**\n$$K = C + 273.15 = 37.78 + 273.15 = \\mathbf{310.93\\ K}$$\n\n**Common Uses:**\n- **Fahrenheit:** Used in the USA for weather and cooking\n- **Celsius:** International standard for everyday use\n- **Kelvin:** Scientific applications (absolute temperature scale)"
         },
-        "explanation": "The laws of thermodynamics are **universal principles** governing energy and heat transfer. They explain everything from why engines can't be 100% efficient to why time has a direction (entropy always increases)."
+        "explanation": "The Kelvin scale has **no negative values** because 0 K is **absolute zero** — the lowest possible temperature where all molecular motion stops."
     },
     {
-        "title": "Heat Transfer Modes ♨️",
-        "ques": "A metal rod has one end placed in a fire while the other end remains cool.\n\n1. Name the **three modes of heat transfer**\n2. Explain which mode(s) are involved in:\n   - Heat traveling through the metal rod\n   - Heat radiating from the fire\n   - Warm air rising above the fire\n3. Why does a metal spoon get hot faster than a wooden one?",
+        "title": "Heat Transfer Calculation 🔥",
+        "ques": "A **2 kg** block of aluminum at **100°C** is placed in **5 kg** of water at **20°C**. Find the **final equilibrium temperature**.\n\n**Given:**\n- Specific heat of aluminum: 900 J/kg·K\n- Specific heat of water: 4186 J/kg·K",
         "answer": {
             "type": "text",
-            "content": "### 1. Three Modes of Heat Transfer:\n\n| Mode | Medium Required | Mechanism |\n|------|-----------------|----------|\n| **Conduction** | Solid (mainly) | Molecular vibrations & electron flow |\n| **Convection** | Fluid (liquid/gas) | Bulk fluid movement |\n| **Radiation** | None (works in vacuum) | Electromagnetic waves |\n\n### 2. Heat Transfer in Each Scenario:\n\n**Heat through metal rod:** → **Conduction**\n- Free electrons and lattice vibrations transfer energy atom-to-atom.\n\n**Heat radiating from fire:** → **Radiation**\n- Electromagnetic waves (infrared) travel outward; no medium needed.\n\n**Warm air rising:** → **Convection**\n- Hot air is less dense, rises; cooler air sinks (natural convection).\n\n### 3. Metal vs. Wooden Spoon:\n\n| Property | Metal | Wood |\n|----------|-------|------|\n| Thermal Conductivity | High (~200 W/m·K for steel) | Low (~0.1 W/m·K) |\n| Free Electrons | Many | None |\n| Result | Conducts heat rapidly | Insulates well |\n\nMetal spoons conduct heat quickly because of **free electrons** that rapidly transfer thermal energy."
+            "content": "**Using heat balance:**\nHeat lost by aluminum = Heat gained by water\n\n$$m_{Al}c_{Al}(T_{hot} - T_f) = m_{water}c_{water}(T_f - T_{cold})$$\n\n$$2(900)(100 - T_f) = 5(4186)(T_f - 20)$$\n\n$$1800(100 - T_f) = 20930(T_f - 20)$$\n\n$$180000 - 1800T_f = 20930T_f - 418600$$\n\n$$180000 + 418600 = 20930T_f + 1800T_f$$\n\n$$598600 = 22730T_f$$\n\n$$T_f = \\mathbf{26.34°C}$$"
         },
-        "explanation": "Understanding heat transfer modes is essential for engineering applications like **insulation**, **cooling systems**, and **cooking**. Conduction dominates in solids, convection in fluids, and radiation can occur in vacuum (how the Sun heats Earth)."
+        "explanation": "The final temperature is closer to water's initial temperature because water has a **much higher specific heat capacity** and there's more water than aluminum. This is why water is excellent for **thermal storage**."
     },
     {
-        "title": "Specific Heat Calculations 🔥",
-        "ques": "You want to heat **500 g** of water from **20°C to 100°C**.\n\n*Specific heat of water: c = 4.18 J/g·°C*\n\n1. Calculate the heat energy required\n2. If you use a **1000 W** heater, how long will it take?\n3. If the same amount of heat is given to **500 g of aluminum** (c = 0.90 J/g·°C) at 20°C, what will be its final temperature?",
+        "title": "First Law of Thermodynamics 💨",
+        "ques": "A gas in a cylinder absorbs **500 J** of heat. If the gas expands and does **200 J** of work on the surroundings:\n\n1. Calculate the **change in internal energy**\n2. Does the gas temperature increase or decrease?\n3. Explain using the First Law",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Mass (m) = 500 g\n- Initial temp (T₁) = 20°C\n- Final temp (T₂) = 100°C\n- c_water = 4.18 J/g·°C\n- c_aluminum = 0.90 J/g·°C\n- Power (P) = 1000 W\n\n### Solutions:\n\n**1. Heat Required for Water:**\n```\nQ = mcΔT\nQ = 500 × 4.18 × (100 - 20)\nQ = 500 × 4.18 × 80\nQ = 167,200 J = 167.2 kJ\n```\n\n**2. Time with 1000 W Heater:**\n```\nP = Q/t  →  t = Q/P\nt = 167,200 / 1000\nt = 167.2 seconds ≈ 2.8 minutes\n```\n\n**3. Final Temperature of Aluminum:**\nSame heat (167,200 J) applied to aluminum:\n```\nQ = mcΔT\n167,200 = 500 × 0.90 × ΔT\n167,200 = 450 × ΔT\nΔT = 371.6°C\n\nT_final = 20 + 371.6 = 391.6°C\n```\n\n*Aluminum heats up much more because of its lower specific heat!*"
+            "content": "**First Law of Thermodynamics:**\n$$\\Delta U = Q - W$$\n\nWhere:\n- Q = Heat added to system (+500 J)\n- W = Work done **by** system (+200 J)\n- ΔU = Change in internal energy\n\n**Solution:**\n\n1. **Change in Internal Energy:**\n   $$\\Delta U = 500 - 200 = \\mathbf{300\\ J}$$\n\n2. **Temperature Change:**\n   Since ΔU > 0, the internal energy increased.\n   For an ideal gas, internal energy is proportional to temperature.\n   Therefore, temperature **increases**.\n\n3. **Explanation:**\n   The gas received 500 J of heat but only used 200 J for expansion work. The remaining 300 J increased the gas's internal energy (kinetic energy of molecules)."
         },
-        "explanation": "**Specific heat capacity** measures how much energy is needed to raise the temperature of a substance. Water has a remarkably high specific heat, which is why it's excellent for cooling and why coastal areas have moderate climates."
+        "explanation": "The First Law is essentially **conservation of energy** for thermal systems. Energy in (heat) minus energy out (work) equals the change in stored energy."
     },
     {
         "title": "Thermal Expansion Problem 📏",
-        "ques": "A steel bridge is **500 m** long at **10°C**. On a summer day, the temperature rises to **40°C**.\n\n*Coefficient of linear expansion for steel: α = 12 × 10⁻⁶ /°C*\n\n1. Calculate the change in length of the bridge\n2. Why do bridges have expansion joints?\n3. A circular steel disk has a hole in the center. When heated, does the hole get bigger or smaller? Explain.",
+        "ques": "A steel bridge is **500 m** long at **20°C**. How much longer will it be on a **40°C** summer day?\n\n**Given:** Coefficient of linear expansion for steel: α = 1.2 × 10⁻⁵ /°C",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Original length (L₀) = 500 m\n- Initial temperature (T₁) = 10°C\n- Final temperature (T₂) = 40°C\n- α = 12 × 10⁻⁶ /°C\n\n### Solutions:\n\n**1. Change in Length:**\n```\nΔL = α × L₀ × ΔT\nΔL = (12 × 10⁻⁶) × 500 × (40 - 10)\nΔL = (12 × 10⁻⁶) × 500 × 30\nΔL = 0.18 m = 18 cm\n```\n\n**2. Why Expansion Joints?**\n- Without joints, thermal expansion would create **enormous internal stresses**\n- These stresses could buckle or crack the bridge\n- Expansion joints allow the bridge to expand/contract freely\n- They absorb the 18 cm of movement without structural damage\n\n**3. The Hole gets BIGGER!** 🔴→⭕\n\nWhen heated:\n- Every part of the steel expands proportionally\n- Think of drawing a circle on a rubber sheet and stretching it\n- The entire disk scales up, including the hole\n- The hole expands as if it were made of the same material\n\n*This is why metal lids can be loosened by heating!*"
+            "content": "**Formula for Linear Expansion:**\n$$\\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T$$\n\n**Given:**\n- L₀ = 500 m\n- α = 1.2 × 10⁻⁵ /°C\n- ΔT = 40 - 20 = 20°C\n\n**Calculation:**\n$$\\Delta L = 500 × (1.2 × 10^{-5}) × 20$$\n$$\\Delta L = 500 × 2.4 × 10^{-4}$$\n$$\\Delta L = \\mathbf{0.12\\ m\\ =\\ 12\\ cm}$$\n\n**The bridge expands by 12 centimeters!**"
         },
-        "explanation": "Thermal expansion is critical in engineering design. The **counterintuitive** result about holes expanding is important - heating a metal ring makes it larger, not smaller. This principle is used in fitting metal components (shrink fitting)."
+        "explanation": "This is why bridges have **expansion joints** — gaps that allow the structure to expand and contract without cracking. Without these joints, the thermal stress could cause structural damage."
     },
     {
-        "title": "Heat Engine Efficiency ⚙️",
-        "ques": "A heat engine operates between a hot reservoir at **600 K** and a cold reservoir at **300 K**.\n\n1. Calculate the **maximum possible efficiency** (Carnot efficiency)\n2. If the engine actually operates at 40% efficiency and absorbs **1000 J** of heat per cycle, calculate:\n   - Work done per cycle\n   - Heat rejected to the cold reservoir\n3. Why can't any real engine achieve Carnot efficiency?",
+        "title": "Carnot Engine Efficiency ⚙️",
+        "ques": "A Carnot heat engine operates between a hot reservoir at **600 K** and a cold reservoir at **300 K**.\n\n1. Calculate the **maximum efficiency**\n2. If the engine receives **1000 J** of heat, how much **work** can it produce?\n3. How much heat is **rejected** to the cold reservoir?",
         "answer": {
             "type": "text",
-            "content": "### Given:\n- Hot reservoir: Tₕ = 600 K\n- Cold reservoir: Tₓ = 300 K\n- Actual efficiency: η = 40% = 0.40\n- Heat absorbed: Qₕ = 1000 J\n\n### Solutions:\n\n**1. Carnot (Maximum) Efficiency:**\n```\nη_Carnot = 1 - Tₓ/Tₕ\nη_Carnot = 1 - 300/600\nη_Carnot = 1 - 0.5\nη_Carnot = 0.5 = 50%\n```\n\n**2. Actual Engine Performance:**\n\n*Work done per cycle:*\n```\nη = W/Qₕ\nW = η × Qₕ\nW = 0.40 × 1000\nW = 400 J\n```\n\n*Heat rejected:*\n```\nQₓ = Qₕ - W\nQₓ = 1000 - 400\nQₓ = 600 J\n```\n\n**3. Why Carnot Efficiency is Impossible:**\n\n| Factor | Effect |\n|--------|--------|\n| Friction | Converts useful work to heat |\n| Heat leakage | Energy lost to surroundings |\n| Irreversible processes | Increase entropy wastefully |\n| Finite cycle time | Can't achieve perfect heat transfer |\n| Turbulence | Energy dissipated in fluid flow |\n\nCarnot efficiency requires **perfectly reversible** processes, which are **idealized and unattainable** in practice."
+            "content": "**Carnot Efficiency Formula:**\n$$\\eta_{max} = 1 - \\frac{T_C}{T_H}$$\n\n**Solutions:**\n\n1. **Maximum Efficiency:**\n   $$\\eta = 1 - \\frac{300}{600} = 1 - 0.5 = \\mathbf{50\\%\\ or\\ 0.5}$$\n\n2. **Work Produced:**\n   $$W = \\eta × Q_H = 0.5 × 1000 = \\mathbf{500\\ J}$$\n\n3. **Heat Rejected:**\n   $$Q_C = Q_H - W = 1000 - 500 = \\mathbf{500\\ J}$$\n\n   *Or using:* $Q_C = Q_H \\cdot \\frac{T_C}{T_H} = 1000 × 0.5 = 500\\ J$"
         },
-        "explanation": "The **Carnot efficiency** sets the theoretical upper limit for any heat engine. Real engines typically achieve 30-50% of Carnot efficiency. This is why engineers work hard to increase Tₕ (hotter combustion) and decrease Tₓ (better cooling) to improve engine performance."
+        "explanation": "The Carnot engine represents the **theoretical maximum efficiency** for any heat engine. Real engines always have lower efficiency due to friction, heat losses, and irreversibilities."
     },
     {
-        "title": "Entropy and the Second Law 🔄",
-        "ques": "Consider the following processes and determine whether each is **possible or impossible** according to the Second Law of Thermodynamics:\n\n1. Heat flows from a cold object to a hot object spontaneously\n2. A refrigerator moves heat from inside (cold) to outside (hot)\n3. An ice cube at 0°C melts in a room at 25°C\n4. A broken egg spontaneously reassembles\n5. All air molecules in a room gather in one corner\n\nFor each, explain your reasoning in terms of **entropy**.",
+        "title": "Entropy and the Second Law 🔀",
+        "ques": "Calculate the **change in entropy** when **2 kg** of ice at **0°C** melts completely.\n\n**Given:**\n- Latent heat of fusion: L_f = 334,000 J/kg\n- Temperature: T = 273 K",
         "answer": {
             "type": "text",
-            "content": "### Process Analysis:\n\n**1. Heat: Cold → Hot spontaneously**\n- ❌ **IMPOSSIBLE**\n- Would require ΔS_universe < 0\n- Violates 2nd Law directly\n\n**2. Refrigerator moves heat from cold to hot**\n- ✅ **POSSIBLE**\n- Requires **external work input**\n- ΔS_cold < 0, but ΔS_hot > 0 more\n- Total ΔS_universe > 0 ✓\n\n**3. Ice melting at 25°C**\n- ✅ **POSSIBLE (spontaneous)**\n- Heat flows from hot (room) to cold (ice)\n- Entropy increases: solid → liquid more disordered\n- ΔS_universe > 0 ✓\n\n**4. Broken egg reassembling**\n- ❌ **IMPOSSIBLE (spontaneously)**\n- Would require massive entropy decrease\n- Probability ≈ 0 (but not truly forbidden, just astronomically unlikely)\n- ΔS_universe would be << 0\n\n**5. All air molecules in one corner**\n- ❌ **IMPOSSIBLE (spontaneously)**\n- Probability: (1/2)^(10²³) ≈ 0\n- Would be enormous entropy decrease\n- Statistically will never happen in age of universe\n\n### Summary:\n| Process | Possible? | Entropy Change |\n|---------|-----------|----------------|\n| 1 | ❌ No | Would decrease |\n| 2 | ✅ Yes | Net increase (work input) |\n| 3 | ✅ Yes | Increases |\n| 4 | ❌ No | Would decrease dramatically |\n| 5 | ❌ No | Would decrease dramatically |"
+            "content": "**Entropy Change Formula (isothermal process):**\n$$\\Delta S = \\frac{Q}{T}$$\n\n**Calculate heat absorbed:**\n$$Q = m × L_f = 2 × 334000 = 668000\\ J$$\n\n**Calculate entropy change:**\n$$\\Delta S = \\frac{668000}{273}$$\n$$\\Delta S = \\mathbf{2447\\ J/K}$$\n\n**Interpretation:**\n- Positive ΔS means entropy **increased**\n- This is expected — ice (ordered solid) → water (disordered liquid)\n- Consistent with the **Second Law of Thermodynamics**"
         },
-        "explanation": "The **Second Law** states entropy of an isolated system never decreases. Processes (4) and (5) aren't truly \"forbidden\" by physics - they're just so improbable they effectively never happen. This is why time has a direction: systems evolve toward higher probability (more entropy) states."
+        "explanation": "Entropy measures **disorder** or the number of possible microstates. When ice melts, molecules gain freedom to move, increasing the system's entropy. The universe's total entropy always increases."
     },
     {
-        "title": "Phase Change Energy Calculations 🧊",
-        "ques": "Calculate the total energy required to convert **200 g of ice at -20°C** to **steam at 120°C**.\n\n*Given:*\n- Specific heat of ice: 2.1 J/g·°C\n- Specific heat of water: 4.18 J/g·°C\n- Specific heat of steam: 2.0 J/g·°C\n- Latent heat of fusion: 334 J/g\n- Latent heat of vaporization: 2260 J/g\n\nShow each step clearly.",
+        "title": "Conduction Through Composite Wall 🧱",
+        "ques": "A wall consists of **10 cm** brick (k = 0.8 W/m·K) and **5 cm** insulation (k = 0.04 W/m·K). The inner surface is at **25°C** and outer at **0°C**.\n\nFind the **heat transfer rate** per square meter.",
         "answer": {
             "type": "text",
-            "content": "### Step-by-Step Calculation:\n\n**Step 1: Heat ice from -20°C to 0°C**\n```\nQ₁ = m × c_ice × ΔT\nQ₁ = 200 × 2.1 × 20\nQ₁ = 8,400 J\n```\n\n**Step 2: Melt ice at 0°C (phase change)**\n```\nQ₂ = m × Lf\nQ₂ = 200 × 334\nQ₂ = 66,800 J\n```\n\n**Step 3: Heat water from 0°C to 100°C**\n```\nQ₃ = m × c_water × ΔT\nQ₃ = 200 × 4.18 × 100\nQ₃ = 83,600 J\n```\n\n**Step 4: Vaporize water at 100°C (phase change)**\n```\nQ₄ = m × Lv\nQ₄ = 200 × 2260\nQ₄ = 452,000 J\n```\n\n**Step 5: Heat steam from 100°C to 120°C**\n```\nQ₅ = m × c_steam × ΔT\nQ₅ = 200 × 2.0 × 20\nQ₅ = 8,000 J\n```\n\n### Total Energy:\n```\nQ_total = Q₁ + Q₂ + Q₃ + Q₄ + Q₅\nQ_total = 8,400 + 66,800 + 83,600 + 452,000 + 8,000\nQ_total = 618,800 J ≈ 619 kJ\n```\n\n### Energy Distribution:\n| Step | Energy | Percentage |\n|------|--------|------------|\n| Heating ice | 8.4 kJ | 1.4% |\n| Melting | 66.8 kJ | 10.8% |\n| Heating water | 83.6 kJ | 13.5% |\n| Vaporization | 452 kJ | **73.0%** |\n| Heating steam | 8 kJ | 1.3% |"
+            "content": "**For series thermal resistance:**\n$$\\frac{Q}{A} = \\frac{\\Delta T}{R_{total}}$$\n\nWhere: $R = \\frac{L}{k}$ (thermal resistance)\n\n**Calculate individual resistances:**\n$$R_{brick} = \\frac{0.10}{0.8} = 0.125\\ m^2·K/W$$\n$$R_{insulation} = \\frac{0.05}{0.04} = 1.25\\ m^2·K/W$$\n\n**Total resistance:**\n$$R_{total} = 0.125 + 1.25 = 1.375\\ m^2·K/W$$\n\n**Heat transfer rate:**\n$$\\frac{Q}{A} = \\frac{25 - 0}{1.375} = \\mathbf{18.18\\ W/m^2}$$"
         },
-        "explanation": "**Vaporization requires the most energy** (73%!) because breaking all hydrogen bonds between water molecules requires significant energy. This is why steam burns are more severe than hot water burns - steam releases enormous energy when condensing."
+        "explanation": "Despite being thinner, the insulation contributes **10 times more** thermal resistance than the brick. This shows why thin insulation layers are so effective — it's the **thermal conductivity**, not thickness, that matters most."
+    },
+    {
+        "title": "Stefan-Boltzmann Radiation 🌟",
+        "ques": "A black body sphere of radius **5 cm** is heated to **1000 K**.\n\n1. Calculate the **power radiated**\n2. If the surrounding temperature is **300 K**, find the **net power radiated**\n\n**Given:** σ = 5.67 × 10⁻⁸ W/m²·K⁴",
+        "answer": {
+            "type": "text",
+            "content": "**Stefan-Boltzmann Law:**\n$$P = \\sigma A T^4$$\n\n**Calculate surface area:**\n$$A = 4\\pi r^2 = 4\\pi(0.05)^2 = 0.0314\\ m^2$$\n\n**Solutions:**\n\n1. **Power Radiated:**\n   $$P = 5.67 × 10^{-8} × 0.0314 × (1000)^4$$\n   $$P = 5.67 × 10^{-8} × 0.0314 × 10^{12}$$\n   $$P = \\mathbf{1780\\ W}$$\n\n2. **Net Power Radiated:**\n   $$P_{net} = \\sigma A (T_{hot}^4 - T_{cold}^4)$$\n   $$P_{net} = 5.67 × 10^{-8} × 0.0314 × (10^{12} - 8.1 × 10^9)$$\n   $$P_{net} = 5.67 × 10^{-8} × 0.0314 × 9.919 × 10^{11}$$\n   $$P_{net} = \\mathbf{1765\\ W}$$"
+        },
+        "explanation": "Radiation power scales with **T⁴**, so hot objects radiate much more than cool ones. The net radiation considers both emission and absorption from the surroundings."
+    },
+    {
+        "title": "Ideal Gas Law Application 🎈",
+        "ques": "A gas cylinder contains **2 moles** of oxygen at **27°C** and **2 atm**.\n\n1. Calculate the **volume** of the gas\n2. If the temperature increases to **127°C** at constant volume, find the **new pressure**\n\n**Given:** R = 8.314 J/mol·K, 1 atm = 101325 Pa",
+        "answer": {
+            "type": "text",
+            "content": "**Ideal Gas Law:** PV = nRT\n\n**Convert to SI units:**\n- T₁ = 27 + 273 = 300 K\n- T₂ = 127 + 273 = 400 K\n- P₁ = 2 × 101325 = 202650 Pa\n\n**Solutions:**\n\n1. **Volume:**\n   $$V = \\frac{nRT}{P} = \\frac{2 × 8.314 × 300}{202650}$$\n   $$V = \\frac{4988.4}{202650} = 0.0246\\ m^3 = \\mathbf{24.6\\ L}$$\n\n2. **New Pressure** (at constant V, n):\n   Using Gay-Lussac's Law: $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$\n   $$P_2 = P_1 × \\frac{T_2}{T_1} = 2 × \\frac{400}{300} = \\mathbf{2.67\\ atm}$$"
+        },
+        "explanation": "At constant volume, pressure is directly proportional to absolute temperature. This is why pressurized containers warn against exposure to heat — pressure increases can cause explosions."
+    },
+    {
+        "title": "Adiabatic Process Analysis 🔄",
+        "ques": "An ideal monatomic gas (γ = 5/3) expands adiabatically from **V₁ = 1 L** at **P₁ = 8 atm** to **V₂ = 4 L**.\n\n1. Find the **final pressure**\n2. If the initial temperature was **600 K**, find the **final temperature**\n3. Calculate the **work done** by the gas",
+        "answer": {
+            "type": "text",
+            "content": "**Adiabatic Relations:**\n$$P_1V_1^\\gamma = P_2V_2^\\gamma$$\n$$T_1V_1^{\\gamma-1} = T_2V_2^{\\gamma-1}$$\n\n**Given:** γ = 5/3 = 1.667\n\n**Solutions:**\n\n1. **Final Pressure:**\n   $$P_2 = P_1\\left(\\frac{V_1}{V_2}\\right)^\\gamma = 8\\left(\\frac{1}{4}\\right)^{1.667}$$\n   $$P_2 = 8 × (0.25)^{1.667} = 8 × 0.099 = \\mathbf{0.79\\ atm}$$\n\n2. **Final Temperature:**\n   $$T_2 = T_1\\left(\\frac{V_1}{V_2}\\right)^{\\gamma-1} = 600\\left(\\frac{1}{4}\\right)^{0.667}$$\n   $$T_2 = 600 × 0.397 = \\mathbf{238\\ K}$$\n\n3. **Work Done** (for adiabatic process, Q = 0):\n   $$W = \\frac{P_1V_1 - P_2V_2}{\\gamma - 1}$$\n   $$W = \\frac{8(1) - 0.79(4)}{0.667} = \\frac{8 - 3.16}{0.667}$$\n   $$W = \\mathbf{7.25\\ L·atm ≈ 735\\ J}$$"
+        },
+        "explanation": "In an adiabatic process, **no heat is exchanged** with surroundings (Q = 0). The work is done at the expense of internal energy, causing the gas to **cool significantly** during expansion."
     }
 ]

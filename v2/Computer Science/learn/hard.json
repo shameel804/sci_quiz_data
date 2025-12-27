@@ -2,58 +2,138 @@
     "id": "learn_hard",
     "topicId": "hard",
     "topicTitle": "Computer Hardware",
-    "description": "Explore CPU, memory, logic gates, storage, and I/O systems",
-    "baseKP": 75,
+    "description": "The physical parts of a computer.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "hard_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Computer Hardware ⚙️\n\n## Main Components\n| Component | Function |\n|-----------|----------|\n| CPU | Processing |\n| RAM | Temporary memory |\n| Storage | Permanent memory |\n| Motherboard | Connects all |"
+            "title": "What is Hardware?",
+            "content": "# The Body 🦴\n\nPhysical components that make up a computer system.\n- If you can kick it, it's hardware.\n- Software is the instructions (soul) that run on it."
         },
         {
             "id": "hard_2",
             "type": "content",
-            "title": "CPU",
-            "content": "# CPU & Memory 🧠\n\n## CPU Components\n- ALU: Arithmetic/logic\n- Control Unit: Instructions\n- Registers: Fast storage\n- Cache: Quick access\n\n## Memory Hierarchy\n```\nRegisters → Cache → RAM → SSD → HDD\n(Fastest)                  (Largest)\n```"
+            "title": "CPU (Central Processing Unit)",
+            "content": "# The Brain 🧠\n\nExecutes instructions.\n- **Gigahertz (GHz)**: Billions of cycles per second.\n- **Cores**: Independent processing units (Dual-core, Quad-core)."
         },
         {
             "id": "hard_3",
             "type": "content",
-            "title": "Logic Gates",
-            "content": "# Logic Gates 🔌\n\n| Gate | Symbol | Output |\n|------|--------|--------|\n| AND | ∧ | Both 1 |\n| OR | ∨ | Either 1 |\n| NOT | ¬ | Inverted |\n| XOR | ⊕ | One 1 |\n| NAND | ⊼ | NOT AND |\n| NOR | ⊽ | NOT OR |"
-        },
-        {
-            "id": "hard_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Which gate outputs 1 only when both inputs are 1?",
-            "quizOptions": [
-                "OR",
-                "AND",
-                "XOR",
-                "NOT"
-            ],
-            "correctOptionIndex": 1
+            "title": "RAM (Random Access Memory)",
+            "content": "# Short-term Memory 💭\n\nVolatile memory for active tasks.\n- Fast but erased when power off.\n- More RAM = More apps open at once."
         },
         {
             "id": "hard_4",
             "type": "content",
-            "title": "Storage",
-            "content": "# Storage Devices 💾\n\n| Type | Speed | Durability |\n|------|-------|------------|\n| HDD | Slow | Moving parts |\n| SSD | Fast | No moving parts |\n| NVMe | Very fast | Direct PCIe |\n\n## Units\n8 bits = 1 byte\n1 KB = 1024 bytes"
+            "title": "Storage: HDD vs SSD",
+            "content": "# Long-term Memory 📚\n\n- **HDD (Hard Disk)**: Spinning magnetic platters. Cheap, slow.\n- **SSD (Solid State)**: Flash chips (like USB). Fast, silent, durable.\n- Always choose SSD for your OS."
         },
         {
             "id": "hard_5",
             "type": "content",
-            "title": "I/O Systems",
-            "content": "# Input/Output Systems 🖱️\n\n## Input\n- Keyboard, mouse\n- Microphone, camera\n- Touchscreen\n\n## Output\n- Monitor, printer\n- Speakers\n\n## Ports\n- USB, HDMI\n- Ethernet, Audio"
+            "title": "Motherboard",
+            "content": "# The Spine 🦴\n\nMain circuit board connecting everything.\n- CPU socket, RAM slots, GPU slots.\n- **BIOS/UEFI**: Tiny firmware to start the boot process."
         },
         {
             "id": "hard_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- CPU: Brain of computer\n- RAM: Fast, temporary\n- Logic gates: AND, OR, NOT\n- Storage: HDD → SSD → NVMe"
+            "title": "GPU (Graphics Card)",
+            "content": "# The Artist 🎨\n\nSpecialized processor for rendering images.\n- Thousands of tiny cores.\n- Essential for Gaming, Video Editing, and AI/Machine Learning."
+        },
+        {
+            "id": "hard_quiz_1",
+            "type": "quiz",
+            "title": "Memory Quiz",
+            "content": "Type check.",
+            "quizQuestion": "Which component loses its data when the computer is turned off?",
+            "quizOptions": [
+                "SSD",
+                "HDD",
+                "RAM",
+                "Flash Drive"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "hard_7",
+            "type": "content",
+            "title": "Input/Output Devices",
+            "content": "# Talk and Listen 🗣️\n\n- **Input**: Mouse, Keyboard, Mic.\n- **Output**: Monitor, Speakers, Printer."
+        },
+        {
+            "id": "hard_8",
+            "type": "content",
+            "title": "Binary and Bits",
+            "content": "# 0s and 1s 👾\n\nComputers run on electricity (On/Off).\n- **Bit**: 0 or 1.\n- **Byte**: 8 bits (Can represent one character).\n- **Kilobyte**: 1024 bytes."
+        },
+        {
+            "id": "hard_9",
+            "type": "content",
+            "title": "Logic Gates",
+            "content": "# Digital Logic 🚪\n\nPhysical transistors forming logic.\n- **AND**: Both on $\\to$ On.\n- **OR**: One on $\\to$ On.\n- **NOT**: On $\\to$ Off.\nBillions of these make a CPU."
+        },
+        {
+            "id": "hard_10",
+            "type": "content",
+            "title": "Moore's Law",
+            "content": "# Shrinking 🔬\n\n\"The number of transistors on a chip doubles every ~2 years.\"\n- Why computers get faster and smaller.\n- Slowing down recently due to physical limits (atoms are small!)."
+        },
+        {
+            "id": "hard_11",
+            "type": "content",
+            "title": "Cooling Systems",
+            "content": "# Heat Management ❄️\n\nElectricity causes heat.\n- **Heat Sink**: Metal fins to dissipate heat.\n- **Fans**: Move air.\n- **Liquid Cooling**: Water loop for high performance."
+        },
+        {
+            "id": "hard_12",
+            "type": "content",
+            "title": "Power Supply (PSU)",
+            "content": "# Food ⚡\n\nConverts AC wall power to DC for PC components.\n- Must be stable.\n- Modular cables allow cleaner builds."
+        },
+        {
+            "id": "hard_quiz_2",
+            "type": "quiz",
+            "title": "Brain Quiz",
+            "content": "Component check.",
+            "quizQuestion": "Which component is primarily responsible for executing program instructions?",
+            "quizOptions": [
+                "GPU",
+                "RAM",
+                "CPU",
+                "Motherboard"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "hard_13",
+            "type": "content",
+            "title": "Ports and Interfaces",
+            "content": "# Connections 🔌\n\n- **USB**: Universal Serial Bus (Connects everything).\n- **HDMI/DisplayPort**: Video.\n- **Ethernet**: Wired Internet.\n- **Thunderbolt**: High speed data/video."
+        },
+        {
+            "id": "hard_14",
+            "type": "content",
+            "title": "Embedded Systems",
+            "content": "# Hidden Computers 📟\n\nTiny computers inside other devices.\n- Washing machines, Cars, Traffic lights.\n- Usually Low power, Real-time OS."
+        },
+        {
+            "id": "hard_15",
+            "type": "content",
+            "title": "Quantum Computing",
+            "content": "# The Future? ⚛️\n\nUses Quantum Bits (Qubits).\n- Superposition: Can be 0 and 1 at same time.\n- Exponentially faster for specific math problems.\n- Still experimental."
+        },
+        {
+            "id": "hard_16",
+            "type": "content",
+            "title": "Von Neumann Architecture",
+            "content": "# The Standard 🏛️\n\nDesign of almost all modern computers.\n- Shared memory for Data and Instructions.\n- Fetch-Decode-Execute cycle."
+        },
+        {
+            "id": "hard_17",
+            "type": "content",
+            "title": "Hardware Summary",
+            "content": "# Recap 📝\n\n- **CPU** thinks, **RAM** remembers now, **SSD** remembers forever.\n- **Binary** underlies everything.\n- Hardware relies on physics (electricity)."
         }
     ]
 }

@@ -2,122 +2,138 @@
     "id": "learn_phys",
     "topicId": "phys",
     "topicTitle": "Physical Chemistry",
-    "description": "Explore atomic structure, chemical bonding, states of matter, and reaction kinetics through the lens of physics",
-    "baseKP": 75,
+    "description": "Understand the fundamental physical principles governing chemical systems.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "phys_1",
             "type": "content",
-            "title": "Welcome to Physical Chemistry",
-            "content": "# Introduction to Physical Chemistry ⚛️\n\nWelcome to **Physical Chemistry** - where chemistry meets physics!\n\n## What you'll learn:\n- **Atomic Structure** - Electrons, orbitals, and quantum numbers\n- **Chemical Bonding** - How atoms stick together\n- **States of Matter** - Gases, liquids, and phase changes\n- **Reaction Rates** - How fast reactions happen\n- **Chemical Equilibrium** - Balance in reactions\n\n> 💡 **Fun Fact:** Physical chemistry explains WHY chemistry works using principles from physics!\n\n## Why Study Physical Chemistry?\n- 🔬 **Understand reactions** - Predict behavior at molecular level\n- ⚡ **Energy** - Batteries, fuel cells, solar cells\n- 💊 **Drug design** - Molecular interactions\n- 🌡️ **Materials** - Polymers, semiconductors, nanomaterials\n\n## The Physical Chemistry Approach\n\n| Traditional Chemistry | Physical Chemistry |\n|----------------------|-------------------|\n| What happens? | Why does it happen? |\n| Descriptive | Quantitative |\n| Recipes | Predictions |\n| Phenomena | Mathematical models |\n\nLet's explore the physics behind chemistry!"
+            "title": "What is Physical Chemistry?",
+            "content": "# Physics Meets Chemistry ⚛️\n\nPhysical Chemistry uses the principles of physics to understand chemical systems.\n\nKey areas:\n- **Thermodynamics**: Energy changes.\n- **Kinetics**: Rates of reactions.\n- **Quantum Mechanics**: Electron behavior.\n- **Spectroscopy**: Interaction with light."
         },
         {
             "id": "phys_2",
             "type": "content",
             "title": "Atomic Structure",
-            "content": "# Atomic Structure 🔵\n\n## The Atom\n\n```\n                      Electron cloud\n                    ●     ●     ●\n                  ●               ●\n                ●    ┌───────┐    ●\n               ●     │Nucleus│     ●\n                ●    │ p+ n  │    ●\n                  ●  └───────┘  ●\n                    ●    ●    ●\n```\n\n## Subatomic Particles\n\n| Particle | Symbol | Charge | Mass (u) | Location |\n|----------|--------|--------|----------|----------|\n| Proton | p⁺ | +1 | 1.007 | Nucleus |\n| Neutron | n | 0 | 1.009 | Nucleus |\n| Electron | e⁻ | -1 | 0.00055 | Orbitals |\n\n## Atomic Number & Mass Number\n\n```\n    Mass number (A) = protons + neutrons\n    ᴬ\n    ₂X   Example: ¹²₆C\n        \n    Atomic number (Z) = protons\n```\n\n## Isotopes\n\nSame element, different number of neutrons:\n\n| Isotope | Protons | Neutrons | Mass Number |\n|---------|---------|----------|-------------|\n| ¹H (hydrogen) | 1 | 0 | 1 |\n| ²H (deuterium) | 1 | 1 | 2 |\n| ³H (tritium) | 1 | 2 | 3 |\n\n## Atomic Mass\n\nWeighted average of all isotopes based on natural abundance.\n\nExample: Chlorine has 75% ³⁵Cl and 25% ³⁷Cl\nAtomic mass = 0.75(35) + 0.25(37) = **35.5 u**\n\n> 🎯 **Key Point:** The nucleus contains 99.9% of the atom's mass but only 0.00001% of its volume!"
+            "content": "# The Building Blocks 🧱\n\nAtoms consist of:\n- **Nucleus**: Protons (+) and Neutrons (0).\n- **Electron Cloud**: Electrons (-) orbiting the nucleus.\n\n**Atomic Number ($Z$)**: Number of protons (defines the element).\n**Mass Number ($A$)**: Protons + Neutrons."
         },
         {
             "id": "phys_3",
             "type": "content",
             "title": "Electron Configuration",
-            "content": "# Electron Configuration 📊\n\n## Quantum Numbers\n\nEach electron is described by four quantum numbers:\n\n| Number | Symbol | Values | Describes |\n|--------|--------|--------|----------|\n| Principal | n | 1, 2, 3... | Energy level/shell |\n| Angular momentum | l | 0 to n-1 | Subshell shape |\n| Magnetic | ml | -l to +l | Orbital orientation |\n| Spin | ms | +½ or -½ | Electron spin |\n\n## Subshell Shapes\n\n| l | Subshell | Shape | Max electrons |\n|---|----------|-------|---------------|\n| 0 | s | Sphere | 2 |\n| 1 | p | Dumbbell | 6 |\n| 2 | d | Cloverleaf | 10 |\n| 3 | f | Complex | 14 |\n\n## Filling Order (Aufbau Principle)\n\n```\n1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s...\n```\n\n## Rules for Electron Configuration\n\n### 1. Aufbau Principle\nElectrons fill lowest energy orbitals first.\n\n### 2. Pauli Exclusion Principle\nNo two electrons can have the same four quantum numbers.\n\n### 3. Hund's Rule\nElectrons occupy empty orbitals before pairing.\n\n## Example: Iron (Fe, Z=26)\n\n```\n1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶\n\nOr: [Ar] 4s² 3d⁶\n```\n\n> 💡 **Shortcut:** Use noble gas notation for simpler writing!"
-        },
-        {
-            "id": "phys_quiz_1",
-            "type": "quiz",
-            "title": "Atomic Structure Quiz",
-            "content": "Test your understanding of atomic structure!",
-            "quizQuestion": "How many electrons can the 3d subshell hold?",
-            "quizOptions": [
-                "2",
-                "6",
-                "10",
-                "14"
-            ],
-            "correctOptionIndex": 2
+            "content": "# Where Electrons Live 🏠\n\nElectrons occupy specific energy levels (shells) and sublevels ($s, p, d, f$).\n\n**Rules:**\n- **Aufbau Principle**: Fill lowest energy first ($1s \\to 2s \\to 2p...$).\n- **Pauli Exclusion**: Max 2 electrons per orbital (opposite spins).\n- **Hund's Rule**: Fill orbitals singly before pairing."
         },
         {
             "id": "phys_4",
             "type": "content",
-            "title": "Ionic Bonding",
-            "content": "# Ionic Bonding 🔋\n\n## What is Ionic Bonding?\n\nElectrostatic attraction between **positive** and **negative ions** formed by electron transfer.\n\n## How Ionic Bonds Form\n\n```\n    Na (11 e⁻)  +  Cl (17 e⁻)\n         ↓              ↓\n    Na⁺ (10 e⁻) + Cl⁻ (18 e⁻)\n         ↓              ↓\n    Noble gas      Noble gas\n    config (Ne)    config (Ar)\n```\n\n## Electron Transfer\n\n| Metal atoms | Non-metal atoms |\n|-------------|----------------|\n| Lose electrons | Gain electrons |\n| Form cations (+) | Form anions (-) |\n| Left side of table | Right side of table |\n\n## Properties of Ionic Compounds\n\n| Property | Explanation |\n|----------|-------------|\n| High melting point | Strong electrostatic forces |\n| Hard and brittle | Rigid crystal lattice |\n| Conduct electricity (molten/dissolved) | Free ions move |\n| Soluble in water | Water molecules separate ions |\n\n## Crystal Lattice Structure\n\n```\n    + - + - +\n    - + - + -\n    + - + - +\n       NaCl lattice\n```\n\nEach Na⁺ surrounded by 6 Cl⁻ and vice versa!\n\n## Lattice Energy\n\nEnergy released when gaseous ions form solid crystal.\n\n**Higher lattice energy = Stronger ionic compound**\n\nFactors: Smaller ions & higher charges → Higher lattice energy\n\n> 🎯 **Key Point:** Ionic bonds form between metals and non-metals!"
+            "title": "Chemical Bonding Intro",
+            "content": "# Sticking Together 🤝\n\nAtoms bond to achieve a stable electron configuration (Octet Rule).\n\nMain types:\n1. **Ionic**: Transfer of electrons (Salt).\n2. **Covalent**: Sharing of electrons (Water).\n3. **Metallic**: Sea of electrons (Copper)."
+        },
+        {
+            "id": "phys_quiz_1",
+            "type": "quiz",
+            "title": "Structure Quiz",
+            "content": "Check your atomic knowledge.",
+            "quizQuestion": "Which principle states that you fill the lowest energy orbitals first?",
+            "quizOptions": [
+                "Pauli Exclusion Principle",
+                "Hund's Rule",
+                "Aufbau Principle",
+                "Heisenberg Uncertainty Principle"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "phys_5",
             "type": "content",
-            "title": "Covalent Bonding",
-            "content": "# Covalent Bonding 🤝\n\n## What is Covalent Bonding?\n\nAtoms **share electrons** to achieve stable electron configurations.\n\n## How Covalent Bonds Form\n\n```\n    H· + ·H → H:H (or H-H)\n    \n    Each H now has 2 electrons (like He)\n```\n\n## Types of Covalent Bonds\n\n| Bond Type | Electrons Shared | Example |\n|-----------|------------------|--------|\n| Single | 2 | H-H |\n| Double | 4 | O=O |\n| Triple | 6 | N≡N |\n\n## Bond Strength and Length\n\n| Bond | Strength | Length |\n|------|----------|--------|\n| Single | Weakest | Longest |\n| Double | Medium | Medium |\n| Triple | Strongest | Shortest |\n\n## Polar vs Non-Polar Covalent\n\n### Non-polar\n- Equal sharing of electrons\n- Same or similar electronegativity\n- Examples: H₂, O₂, CH₄\n\n### Polar\n- Unequal sharing of electrons\n- Different electronegativity\n- Examples: H₂O, HCl, NH₃\n\n```\n         δ-\n          O\n         / \\\n      δ+ H   H δ+\n      \n    (Water is polar!)\n```\n\n## Properties of Covalent Compounds\n\n| Property | Explanation |\n|----------|-------------|\n| Low melting/boiling point | Weak intermolecular forces |\n| Poor conductors | No free ions |\n| Often gases/liquids | Weak forces between molecules |\n| Insoluble in water (usually) | Non-polar |\n\n> 💡 **Key Point:** Covalent bonds form between non-metals!"
+            "title": "Ionic Bonding",
+            "content": "# Give and Take 🎁\n\nOccurs between a **Metal** and a **Non-metal**.\n\n- Metal loses electron $\\to$ Cation (+).\n- Non-metal gains electron $\\to$ Anion (-).\n- Electrostatic attraction holds them together.\n\nExample: $Na^+ + Cl^- \\to NaCl$."
         },
         {
             "id": "phys_6",
             "type": "content",
-            "title": "Metallic Bonding",
-            "content": "# Metallic Bonding 🔩\n\n## What is Metallic Bonding?\n\nMetal cations in a \"sea\" of delocalized electrons.\n\n```\n    + e⁻ + e⁻ + e⁻ +\n    e⁻ + e⁻ + e⁻ + e⁻\n    + e⁻ + e⁻ + e⁻ +\n    e⁻ + e⁻ + e⁻ + e⁻\n    \n    Metal cations (+) in electron sea (e⁻)\n```\n\n## How Metallic Bonds Form\n\n1. Metal atoms release valence electrons\n2. Electrons become delocalized\n3. Positive ions held together by electron sea\n\n## Properties Explained\n\n| Property | Explanation |\n|----------|-------------|\n| **Electrical conductivity** | Electrons move freely |\n| **Thermal conductivity** | Electrons transfer energy |\n| **Malleability** | Layers can slide |\n| **Ductility** | Can be drawn into wires |\n| **Lustrous** | Electrons reflect light |\n| **High melting point** | Strong attraction |\n\n## Why Metals are Malleable\n\n```\n    + + +         + + +\n    + + +   →     + + +\n    + + +           + + +\n    \n    Layers slide without breaking bonds!\n```\n\n## Comparing Bond Types\n\n| Property | Ionic | Covalent | Metallic |\n|----------|-------|----------|----------|\n| Particles | Ions | Molecules | Cations + e⁻ |\n| Bonding | Electrostatic | Shared electrons | Electron sea |\n| Melting point | High | Low | Variable |\n| Conductivity | Molten/solution | No | Yes |\n\n> 🎯 **Key Point:** The \"sea of electrons\" explains all metallic properties!"
-        },
-        {
-            "id": "phys_quiz_2",
-            "type": "quiz",
-            "title": "Bonding Quiz",
-            "content": "Test your understanding of chemical bonds!",
-            "quizQuestion": "Which type of bond involves the transfer of electrons?",
-            "quizOptions": [
-                "Covalent bond",
-                "Ionic bond",
-                "Metallic bond",
-                "Hydrogen bond"
-            ],
-            "correctOptionIndex": 1
+            "title": "Covalent Bonding",
+            "content": "# Sharing is Caring 👫\n\nOccurs between **Non-metals**.\n\n- Atoms share pairs of electrons.\n- **Single Bond**: 1 pair ($H-H$).\n- **Double Bond**: 2 pairs ($O=O$).\n- **Triple Bond**: 3 pairs ($N\\equiv N$).\n\nCreates discrete molecules."
         },
         {
             "id": "phys_7",
             "type": "content",
             "title": "States of Matter",
-            "content": "# States of Matter 🧊💧💨\n\n## The Three Main States\n\n| State | Particle Arrangement | Properties |\n|-------|---------------------|------------|\n| **Solid** | Fixed, close together | Fixed shape & volume |\n| **Liquid** | Close but can move | Fixed volume, takes container shape |\n| **Gas** | Far apart, random motion | Fills container |\n\n## Kinetic Molecular Theory\n\n1. Matter is made of particles in constant motion\n2. Temperature = average kinetic energy\n3. Higher temperature = faster particles\n\n## Phase Changes\n\n```\n                    Sublimation\n            ┌────────────────────────┐\n            │                        │\n            ↓                        ↑\n    SOLID ←────→ LIQUID ←────→ GAS\n          Melting    Vaporization\n          Freezing   Condensation\n            ↑                        ↓\n            │                        │\n            └────────────────────────┘\n                    Deposition\n```\n\n## Energy During Phase Changes\n\n| Term | Definition | Formula |\n|------|------------|--------|\n| Heat of fusion (Hf) | Energy to melt | Q = m × Hf |\n| Heat of vaporization (Hv) | Energy to boil | Q = m × Hv |\n\n## Heating Curve\n\n```\nTemp │               ______ Boiling\n     │              /\n     │     ________/\n     │    /\n     │___/ Melting\n     │\n     └────────────────────→ Heat added\n```\n\n**Flat sections:** Phase change (temperature constant)\n**Sloped sections:** Warming within a phase\n\n> 💡 **Key Insight:** During phase changes, energy changes the arrangement of particles, not their temperature!"
+            "content": "# Solid, Liquid, Gas 🧊💧☁️\n\nDefined by particle arrangement and energy.\n\n- **Solid**: Fixed shape/volume. Vibrating particles.\n- **Liquid**: Fixed volume, variable shape. Flowing particles.\n- **Gas**: Variable shape/volume. Fast, random motion.\n- **Plasma**: Ionized gas (Stars)."
         },
         {
             "id": "phys_8",
             "type": "content",
             "title": "Gas Laws",
-            "content": "# Gas Laws ⛽\n\n## Ideal Gas Behavior\n\nAssumptions:\n- Particles have no volume\n- No intermolecular forces\n- Elastic collisions\n\n## The Gas Laws\n\n### Boyle's Law (T constant)\n```\nP₁V₁ = P₂V₂\n```\nPressure and volume are inversely proportional.\n\n### Charles's Law (P constant)\n```\nV₁/T₁ = V₂/T₂\n```\nVolume and temperature are directly proportional.\n\n### Gay-Lussac's Law (V constant)\n```\nP₁/T₁ = P₂/T₂\n```\nPressure and temperature are directly proportional.\n\n### Combined Gas Law\n```\n(P₁V₁)/T₁ = (P₂V₂)/T₂\n```\n\n## Ideal Gas Law\n\n```\nPV = nRT\n```\n\n| Symbol | Meaning | Unit |\n|--------|---------|------|\n| P | Pressure | Pa or atm |\n| V | Volume | L or m³ |\n| n | Moles | mol |\n| R | Gas constant | 8.314 J/(mol·K) |\n| T | Temperature | K (Kelvin!) |\n\n## Standard Conditions\n\n| Condition | STP | SATP |\n|-----------|-----|------|\n| Temperature | 273.15 K | 298.15 K |\n| Pressure | 1 atm | 1 bar |\n| Molar volume | 22.4 L/mol | 24.8 L/mol |\n\n## Example\n\n**How many moles in 5 L of gas at STP?**\n\nn = PV/RT = (101325)(0.005)/(8.314)(273) = **0.22 mol**\n\n> 🎯 **Always use Kelvin for temperature in gas laws!"
+            "content": "# Pressure and Volume 🎈\n\n**Ideal Gas Law:**\n$$PV = nRT$$\n\n- Boyle's Law: $P \\propto 1/V$ (Squeeze creates pressure).\n- Charles's Law: $V \\propto T$ (Heat expands).\n- Avogadro's Law: $V \\propto n$ (More gas = more space)."
         },
         {
             "id": "phys_9",
             "type": "content",
-            "title": "Reaction Rates",
-            "content": "# Reaction Rates & Kinetics ⏱️\n\n## What is Reaction Rate?\n\nThe speed at which reactants are consumed or products are formed.\n\n```\nRate = -Δ[Reactant]/Δt = +Δ[Product]/Δt\n```\n\n## Factors Affecting Rate\n\n| Factor | Effect | Why? |\n|--------|--------|------|\n| **Concentration** | ↑ Rate | More collisions |\n| **Temperature** | ↑ Rate | Faster particles |\n| **Surface area** | ↑ Rate | More contact |\n| **Catalyst** | ↑ Rate | Lower activation energy |\n| **Pressure (gases)** | ↑ Rate | More collisions |\n\n## Collision Theory\n\nFor reaction to occur:\n1. Particles must **collide**\n2. With enough **energy** (≥ activation energy)\n3. In the correct **orientation**\n\n## Activation Energy (Ea)\n\n```\nEnergy │    Ea\n       │   /\\  ← Transition state\n       │  /  \\\n       │ /    \\____\n       │/     Products\n       │Reactants\n       └────────────────→ Reaction progress\n```\n\n## Rate Laws\n\n```\nRate = k[A]^m[B]^n\n```\n\n| Symbol | Meaning |\n|--------|--------|\n| k | Rate constant |\n| [A], [B] | Concentrations |\n| m, n | Reaction orders |\n\n## Arrhenius Equation\n\n```\nk = Ae^(-Ea/RT)\n```\n\nHigher T or lower Ea → Larger k → Faster reaction\n\n> 💡 **10°C Rule:** Roughly, reaction rate doubles for every 10°C increase!"
+            "title": "Intermolecular Forces",
+            "content": "# Sticky Molecules 🕸️\n\nForces *between* molecules determine boiling points.\n\n1. **London Dispersion**: Weak, temporary shifts (All molecules).\n2. **Dipole-Dipole**: Attraction between polar molecules.\n3. **Hydrogen Bonding**: Strong attraction ($H$ with $N, O, F$). Why water is liquid!"
         },
         {
             "id": "phys_10",
             "type": "content",
-            "title": "Chemical Equilibrium",
-            "content": "# Chemical Equilibrium ⚖️\n\n## What is Equilibrium?\n\nWhen forward and reverse reactions occur at **equal rates**.\n\n```\naA + bB ⇌ cC + dD\n\nAt equilibrium:\nRate(forward) = Rate(reverse)\n```\n\n## Dynamic Equilibrium\n\n- Reactions don't stop!\n- Continuously converting both directions\n- Concentrations remain constant\n\n## Equilibrium Constant (K)\n\n```\nK = [C]^c[D]^d / [A]^a[B]^b\n```\n\n| K value | Meaning |\n|---------|--------|\n| K >> 1 | Products favored |\n| K << 1 | Reactants favored |\n| K ≈ 1 | Neither favored |\n\n## Le Chatelier's Principle\n\n> *When a system at equilibrium is disturbed, it shifts to counteract the change.*\n\n| Change | System Response |\n|--------|----------------|\n| ↑ Reactant concentration | Shifts right (→) |\n| ↑ Product concentration | Shifts left (←) |\n| ↑ Temperature (exothermic) | Shifts left (←) |\n| ↑ Temperature (endothermic) | Shifts right (→) |\n| ↑ Pressure | Shifts to fewer gas moles |\n\n## Example\n\n**N₂ + 3H₂ ⇌ 2NH₃ + heat**\n\n- Add N₂ → Shifts right, more NH₃\n- Add heat → Shifts left, less NH₃\n- Increase pressure → Shifts right (4 mol → 2 mol)\n\n> 🎯 **Key Point:** Equilibrium is dynamic - reactions continue but cancel out!"
-        },
-        {
-            "id": "phys_quiz_3",
-            "type": "quiz",
-            "title": "Kinetics Quiz",
-            "content": "Test your understanding of reaction rates!",
-            "quizQuestion": "A catalyst increases reaction rate by:",
-            "quizOptions": [
-                "Increasing temperature",
-                "Lowering activation energy",
-                "Adding more reactants",
-                "Increasing pressure"
-            ],
-            "correctOptionIndex": 1
+            "title": "Reaction Rates (Kinetics)",
+            "content": "# How Fast? ⏱️\n\nStudy of reaction speed.\n\nFactors affecting rate:\n- **Concentration**: More collisions.\n- **Temperature**: Higher energy collisions.\n- **Surface Area**: More exposure.\n- **Catalyst**: Lowers activation energy."
         },
         {
             "id": "phys_11",
             "type": "content",
-            "title": "Thermochemistry Basics",
-            "content": "# Thermochemistry 🔥\n\n## Energy in Chemical Reactions\n\n### Enthalpy (H)\nHeat content of a system at constant pressure.\n\n```\nΔH = H_products - H_reactants\n```\n\n## Exothermic vs Endothermic\n\n| Type | ΔH | Energy | Example |\n|------|----|---------|---------|\n| Exothermic | Negative | Released to surroundings | Combustion |\n| Endothermic | Positive | Absorbed from surroundings | Photosynthesis |\n\n## Energy Diagrams\n\n**Exothermic:**\n```\nEnergy │ Reactants\n       │    \\___\n       │        \\___ Products\n       │         ΔH < 0\n       └─────────────────→\n```\n\n**Endothermic:**\n```\nEnergy │         Products\n       │    ___/\n       │___/      ΔH > 0\n       │ Reactants\n       └─────────────────→\n```\n\n## Hess's Law\n\n> *The enthalpy change of a reaction is independent of the pathway.*\n\nWe can add up ΔH values for multiple steps!\n\n## Standard Enthalpy Changes\n\n| Type | Symbol | Meaning |\n|------|--------|--------|\n| Formation | ΔHf° | Form 1 mol from elements |\n| Combustion | ΔHc° | Complete burning |\n| Neutralization | ΔHn° | Acid + base → salt + water |\n\n## Calculating ΔH\n\n```\nΔH°reaction = ΣΔHf°(products) - ΣΔHf°(reactants)\n```\n\n> 💡 **Key Insight:** Energy is always conserved - if a reaction releases energy, surrounding temperature increases!"
+            "title": "Activation Energy",
+            "content": "# The Energy Hill ⛰️\n\n**Activation Energy ($E_a$)**: The minimum energy required to start a reaction.\n\n- Molecules must hit hard enough to break bonds.\n- **Arrhenius Equation**: relates rate constant to temperature and $E_a$."
+        },
+        {
+            "id": "phys_quiz_2",
+            "type": "quiz",
+            "title": "Kinetics Quiz",
+            "content": "Speed check.",
+            "quizQuestion": "How does a catalyst increase reaction rate?",
+            "quizOptions": [
+                "Increases temperature",
+                "Updates concentration",
+                "Lowers activation energy",
+                "Increases pressure"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "phys_12",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Physical Chemistry! Here's what you've mastered:\n\n## Atomic Structure\n- ✅ Protons, neutrons, electrons\n- ✅ Quantum numbers (n, l, ml, ms)\n- ✅ Electron configuration rules\n\n## Chemical Bonding\n- ✅ **Ionic:** Electron transfer, metal + non-metal\n- ✅ **Covalent:** Electron sharing, non-metals\n- ✅ **Metallic:** Electron sea, metals\n\n## States of Matter\n- ✅ Solid, liquid, gas properties\n- ✅ Phase changes and energy\n- ✅ Kinetic molecular theory\n\n## Gas Laws\n- ✅ Boyle's, Charles's, Gay-Lussac's\n- ✅ **Ideal Gas Law: PV = nRT**\n\n## Reaction Rates\n- ✅ Collision theory\n- ✅ Factors affecting rate\n- ✅ Activation energy and catalysts\n\n## Equilibrium\n- ✅ Dynamic equilibrium\n- ✅ Equilibrium constant K\n- ✅ Le Chatelier's principle\n\n## Thermochemistry\n- ✅ Enthalpy (ΔH)\n- ✅ Exothermic vs endothermic\n- ✅ Hess's Law\n\n> 🚀 **Next Steps:** Explore Inorganic Chemistry to dive into the periodic table and its trends!\n\nYou now understand the physical principles underlying chemical behavior!"
+            "title": "Chemical Equilibrium",
+            "content": "# Balance ⚖️\n\nReversible reactions: $A + B \\rightleftharpoons C + D$\n\n**Equilibrium**: Rate of forward reaction = Rate of reverse reaction.\n- Concentrations stop changing (but reaction keeps going!).\n\n**Equilibrium Constant ($K_{eq}$)** describes ratio of Products/Reactants."
+        },
+        {
+            "id": "phys_13",
+            "type": "content",
+            "title": "Le Chatelier's Principle",
+            "content": "# Shifting Balance 🌊\n\nIf you stress a system at equilibrium, it shifts to counteract the stress.\n\n- **Add Reactant**: Shift Right (Make more product).\n- **Remove Product**: Shift Right.\n- **Increase Pressure**: Shift to side with fewer gas moles."
+        },
+        {
+            "id": "phys_14",
+            "type": "content",
+            "title": "Thermodynamics in Chemistry",
+            "content": "# Energy Flow 🎢\n\n- **Enthalpy ($\\Delta H$)**: Heat content. (Exothermic vs Endothermic).\n- **Entropy ($\\Delta S$)**: Disorder.\n- **Gibbs Free Energy ($\\Delta G$)**: Determines spontaneity.\n\n$$\\Delta G = \\Delta H - T\\Delta S$$\n\nIf $\\Delta G < 0$, reaction is spontaneous."
+        },
+        {
+            "id": "phys_15",
+            "type": "content",
+            "title": "Phase Changes",
+            "content": "# Melting & Boiling 🌡️\n\n**Phase Diagrams** map states based on Pressure and Temperature.\n\n- **Triple Point**: All three phases coexist.\n- **Critical Point**: Gas and liquid become indistinguishable (Supercritical fluid)."
+        },
+        {
+            "id": "phys_16",
+            "type": "content",
+            "title": "Solutions",
+            "content": "# Mixing it Up 🥛\n\n- **Solute**: Being dissolved (Salt).\n- **Solvent**: Doing the dissolving (Water).\n- **Molarity ($M$)**: Moles of solute / Liters of solution.\n\n\"Like dissolves like\" (Polar dissolves polar)."
+        },
+        {
+            "id": "phys_17",
+            "type": "content",
+            "title": "Physical Chemistry Summary",
+            "content": "# Recap 📝\n\n- **Atoms** bond via electrons.\n- **Gases** follow ideal laws.\n- **Kinetics** tells us how fast; **Thermodynamics** tells us if it happens.\n- **Equilibrium** is a dynamic balance.\n\nPhysical chemistry explains the \"why\" and \"how\" of chemical reactions!"
         }
     ]
 }

@@ -2,90 +2,138 @@
     "id": "learn_applied",
     "topicId": "applied",
     "topicTitle": "Applied Chemistry",
-    "description": "Explore industrial chemical processes, everyday chemistry, and nanotechnology applications",
-    "baseKP": 75,
+    "description": "From industrial factories to your laundry room, see chemistry at work.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "applied_1",
             "type": "content",
-            "title": "Welcome to Applied Chemistry",
-            "content": "# Introduction to Applied Chemistry 🏭\n\nWelcome to **Applied Chemistry** - where chemical knowledge becomes real-world products!\n\n## What you'll learn:\n- **Industrial Processes** - Haber, electrolysis, and more\n- **Everyday Chemistry** - Soaps, detergents, household products\n- **Materials Science** - Nanotechnology and advanced materials\n\n> 💡 **Fun Fact:** The Haber process produces 150 million tons of ammonia yearly, feeding about half the world's population through fertilizers!\n\n## Chemistry in Industry\n\n| Industry | Chemical Products |\n|----------|------------------|\n| Agriculture | Fertilizers, pesticides |\n| Pharmaceuticals | Medicines, vaccines |\n| Materials | Plastics, metals, ceramics |\n| Energy | Fuels, batteries |\n| Electronics | Semiconductors, displays |\n\n## Scale Matters!\n\n| Scale | Amount | Example |\n|-------|--------|--------|\n| Laboratory | grams | Research |\n| Pilot plant | kilograms | Testing |\n| Industrial | tons/megatons | Production |\n\n## Key Industrial Considerations\n\n- Yield and selectivity\n- Energy efficiency\n- Safety\n- Environmental impact\n- Economics\n\nLet's see how chemistry powers our world!"
+            "title": "Chemistry Uses",
+            "content": "# Making Stuff 🏭\n\nApplied chemistry focuses on how chemical principles are used to create products and solve real-world problems.\n\n- Industry\n- Consumer Products\n- Materials\n- Food"
         },
         {
             "id": "applied_2",
             "type": "content",
             "title": "The Haber Process",
-            "content": "# The Haber Process ⚗️\n\nProducing ammonia (NH₃) from nitrogen and hydrogen.\n\n## The Reaction\n\n```\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)    ΔH = -92 kJ/mol\n```\n\n## Conditions\n\n| Factor | Condition | Why? |\n|--------|-----------|------|\n| Temperature | 400-500°C | Speed vs. equilibrium |\n| Pressure | 150-300 atm | Shifts right (fewer moles) |\n| Catalyst | Iron (Fe) | Speeds up both directions |\n\n## Le Chatelier Analysis\n\n### Pressure\n- High pressure favors products (4 mol → 2 mol)\n- Limited by cost and safety\n\n### Temperature\n- Low temperature favors products (exothermic)\n- BUT: Reaction too slow at low T\n- **Compromise:** 400-500°C\n\n## The Compromise\n\n```\n    Want: High yield (low T, high P)\n    Need: Fast rate (high T, catalyst)\n    \n    Solution: Medium T + catalyst + high P\n    \n    Yield: ~15% per pass\n    BUT: Recycle unreacted gases!\n```\n\n## Importance\n\n- 80% of ammonia → Fertilizers\n- Also: Explosives, plastics, cleaning products\n- Supports ~50% of world food production\n\n## Fritz Haber\n\n- Developed process 1909\n- Nobel Prize 1918\n- Controversial figure (chemical weapons in WWI)\n\n> 🎯 **Key Point:** The Haber process is perhaps the most important industrial reaction ever developed!"
+            "content": "# Feeding the World 🌾\n\nProduction of Ammonia ($NH_3$) from Nitrogen ($N_2$) and Hydrogen ($H_2$).\n\n$$N_2 + 3H_2 \\rightleftharpoons 2NH_3$$\n\n- Uses high Pressure and Temp + Iron Catalyst.\n- Used to make **Fertilizer**.\n- Sustains 50% of the global population."
         },
         {
             "id": "applied_3",
             "type": "content",
-            "title": "Electrolysis",
-            "content": "# Electrolysis ⚡\n\nUsing electricity to drive non-spontaneous chemical reactions.\n\n## Basic Setup\n\n```\n         Power supply\n          (+)   (-)\n           │     │\n    Cathode ○     ○ Anode\n           │     │\n    ════════════════\n        Electrolyte\n    ════════════════\n    \n    Cations → Cathode (reduction)\n    Anions → Anode (oxidation)\n```\n\n## Key Terminology\n\n| Term | Definition |\n|------|------------|\n| Electrolyte | Ionic compound (molten or dissolved) |\n| Cathode | Negative electrode (reduction) |\n| Anode | Positive electrode (oxidation) |\n\n## Electrolysis of Water\n\n```\n2H₂O(l) → 2H₂(g) + O₂(g)\n\nAt cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻\nAt anode: 2H₂O → O₂ + 4H⁺ + 4e⁻\n```\n\nVolume ratio: H₂ : O₂ = 2 : 1\n\n## Industrial Electrolysis\n\n### Aluminum Production (Hall-Héroult)\n\n```\n2Al₂O₃ → 4Al + 3O₂\n```\n- Dissolved in molten cryolite\n- Very energy intensive\n- ~5% of global electricity!\n\n### Chlor-Alkali Process\n\n```\n2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂\n```\n- Products: Sodium hydroxide, chlorine, hydrogen\n\n## Faraday's Laws\n\n```\nm = (MIt)/(nF)\n\nF = 96,485 C/mol (Faraday constant)\n```\n\n> 💡 **Application:** Electroplating uses electrolysis to coat objects with metal!"
-        },
-        {
-            "id": "applied_quiz_1",
-            "type": "quiz",
-            "title": "Industrial Chemistry Quiz",
-            "content": "Test your understanding of industrial processes!",
-            "quizQuestion": "In the Haber process, why is an iron catalyst used?",
-            "quizOptions": [
-                "To increase the yield",
-                "To speed up reaching equilibrium",
-                "To lower the pressure needed",
-                "To make the reaction exothermic"
-            ],
-            "correctOptionIndex": 1
+            "title": "Polymers and Plastics",
+            "content": "# Moldable World 🧴\n\n- **Thermoplastics**: Melt on heating (Recyclable). PET, PE.\n- **Thermosets**: Hard on heating (Cannot remelt). Epoxy, Vulcanized rubber.\n- **Cross-linking**: Sulfur bridges in rubber make tires tough."
         },
         {
             "id": "applied_4",
             "type": "content",
-            "title": "Contact Process & Sulfuric Acid",
-            "content": "# Contact Process 🧪\n\nProducing sulfuric acid - the most produced chemical!\n\n## Why Sulfuric Acid?\n\n> \"A nation's industrial development can be measured by its H₂SO₄ production.\"\n\n| Use | % of production |\n|-----|----------------|\n| Fertilizers (phosphates) | 60% |\n| Chemical manufacturing | 20% |\n| Metal processing | 10% |\n| Other | 10% |\n\n## The Process\n\n### Step 1: Burning Sulfur\n```\nS + O₂ → SO₂\n```\n\n### Step 2: Oxidation (Contact step)\n```\n2SO₂ + O₂ ⇌ 2SO₃    ΔH = -196 kJ/mol\n```\n\nConditions:\n- Temperature: 400-450°C\n- Pressure: 1-2 atm\n- Catalyst: V₂O₅ (vanadium pentoxide)\n\n### Step 3: Absorption\n```\nSO₃ + H₂SO₄ → H₂S₂O₇ (oleum)\nH₂S₂O₇ + H₂O → 2H₂SO₄\n```\n\n(Not directly: SO₃ + H₂O creates dangerous acid mist)\n\n## Similar to Haber Process\n\n| Factor | Haber | Contact |\n|--------|-------|--------|\n| Exothermic? | Yes | Yes |\n| Catalyst | Fe | V₂O₅ |\n| Compromise T? | Yes | Yes |\n| High pressure? | Yes | No (already high yield) |\n\n## Environmental Concern\n\n- SO₂ emissions cause acid rain\n- Modern plants capture 99.5%+ of SO₂\n\n> 🎯 **Key Point:** Sulfuric acid is used to make almost everything else!"
+            "title": "Soaps and Detergents",
+            "content": "# Cleaning Chemistry 🧼\n\n**Surfactants**: Molecules with two ends.\n- **Hydrophilic Head**: Loves water.\n- **Hydrophobic Tail**: Loves grease/oil.\n\nThey form **micelles** around grease, allowing water to wash it away."
         },
         {
             "id": "applied_5",
             "type": "content",
-            "title": "Soaps and Detergents",
-            "content": "# Soaps and Detergents 🧼\n\n## How Cleaning Works\n\nDirt is often oily/greasy – water alone can't remove it.\n\n## Surfactants\n\nMolecules with:\n- **Hydrophilic head** - Loves water\n- **Hydrophobic tail** - Loves oil/grease\n\n```\n    Hydrophobic        Hydrophilic\n       tail               head\n    ~~~~~~~~~~            O\n                          │\n    Non-polar           Polar\n```\n\n## How It Works\n\n```\n1. Surfactant surrounds grease droplet\n2. Tails insert into grease\n3. Heads face water\n4. Forms micelle\n5. Grease washes away!\n\n           Water\n         ↗  ↑  ↖\n    ○──~~/  │  \\~~○\n   Head ●  GREASE  ● Tail in grease\n    ○──~~\\  │  /~~○\n         ↘  ↓  ↙\n           Water\n```\n\n## Soap vs Detergent\n\n| Property | Soap | Detergent |\n|----------|------|-----------|\n| Made from | Natural fats + NaOH | Synthetic |\n| In hard water | Forms scum | Works well |\n| Biodegradable | Yes | Some yes, some no |\n| Cost | Higher | Lower |\n\n## Soap Making (Saponification)\n\n```\nFat + NaOH → Soap + Glycerol\n```\n\n## Hard Water Problem\n\n```\n2RCOONa + Ca²⁺ → (RCOO)₂Ca↓ + 2Na⁺\n  Soap            Insoluble scum\n```\n\nDetergents don't have this problem!\n\n## Ingredients in Products\n\n| Ingredient | Purpose |\n|------------|--------|\n| Surfactants | Cleaning |\n| Builders | Soften water |\n| Bleaches | Remove stains |\n| Enzymes | Break down proteins |\n| Fragrances | Pleasant smell |\n\n> 💡 **Tip:** Look for biodegradable detergents to protect waterways!"
+            "title": "Electrolysis",
+            "content": "# Splitting with Zap ⚡\n\nUsing electricity to drive non-spontaneous reactions.\n- **Chlor-Alkali Process**: Electrolysis of Saltwater ($NaCl$). Produces Chlorine, Hydrogen, and NaOH (Lye).\n- **Aluminum Smelting**: Extracting Al from bauxite ore."
         },
         {
-            "id": "applied_6",
-            "type": "content",
-            "title": "Everyday Chemistry",
-            "content": "# Everyday Chemistry 🏠\n\n## Kitchen Chemistry\n\n### Baking Powder\n```\nNaHCO₃ + H⁺ → Na⁺ + H₂O + CO₂↑\n                     (makes bubbles)\n```\n\n### Vinegar + Baking Soda\n```\nCH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂↑\n```\n\n### Cooking\n- Maillard reaction: Brown crusts on bread\n- Caramelization: Sugar → Brown, sweet flavor\n- Denaturing proteins: Cooking eggs\n\n## Cleaning Products\n\n| Product | Active Ingredient | Function |\n|---------|-------------------|----------|\n| Bleach | NaClO | Oxidizes stains |\n| Drain cleaner | NaOH | Dissolves organic matter |\n| Descaler | HCl or citric acid | Removes limescale |\n| Glass cleaner | Ammonia | Streak-free shine |\n| Rust remover | Phosphoric acid | Dissolves iron oxide |\n\n## Safety Warning!\n\n⚠️ **Never mix:**\n- Bleach + Ammonia → Toxic chloramine gas\n- Bleach + Acid → Chlorine gas\n\n## Personal Care\n\n| Product | Chemistry |\n|---------|----------|\n| Shampoo | Surfactants (SLS) |\n| Conditioner | Cationic surfactants |\n| Toothpaste | Fluoride, abrasives |\n| Sunscreen | UV absorbers (organic or ZnO) |\n| Deodorant | Aluminum salts (block sweat) |\n\n## Batteries\n\n| Type | Reaction | Use |\n|------|----------|-----|\n| Alkaline | Zn/MnO₂ | Remotes, toys |\n| Lithium-ion | Li insertion | Phones, laptops |\n| Lead-acid | Pb/PbO₂ | Cars |\n\n> 🎯 **Key Point:** Chemistry is everywhere in your daily life!"
-        },
-        {
-            "id": "applied_7",
-            "type": "content",
-            "title": "Nanotechnology",
-            "content": "# Nanotechnology 🔬\n\n## What is Nanotechnology?\n\nManipulating matter at the nanometer scale (1-100 nm).\n\n```\n1 nm = 10⁻⁹ m = one-billionth of a meter\n\nFor scale:\n- Human hair: 80,000 nm wide\n- DNA: 2 nm wide\n- Atom: 0.1-0.5 nm\n```\n\n## Why Nano is Special\n\n| Property | Changes at nanoscale |\n|----------|---------------------|\n| Surface area | Massively increased |\n| Optical | Color changes (gold: red) |\n| Electrical | Quantum effects |\n| Mechanical | Stronger per weight |\n| Chemical | More reactive |\n\n## Nanomaterials\n\n### Carbon Nanotubes\n- Rolled graphene sheets\n- Strongest material known\n- Excellent electrical conductivity\n\n### Graphene\n- Single layer of carbon atoms\n- 200× stronger than steel\n- Nobel Prize 2010\n\n### Quantum Dots\n- Semiconductor nanoparticles\n- Size determines color\n- Used in displays\n\n### Nanoparticles\n- Silver: Antimicrobial\n- Gold: Medical imaging\n- TiO₂: Sunscreen, self-cleaning\n\n## Applications\n\n| Field | Application |\n|-------|------------|\n| Medicine | Drug delivery, imaging |\n| Electronics | Smaller, faster chips |\n| Energy | Better solar cells, batteries |\n| Materials | Stronger, lighter composites |\n| Environment | Water purification |\n\n## Concerns\n\n- Unknown health effects\n- Environmental fate\n- Regulation challenges\n\n> 💡 **Future:** Nanotechnology may revolutionize medicine, computing, and materials!"
-        },
-        {
-            "id": "applied_quiz_2",
+            "id": "applied_quiz_1",
             "type": "quiz",
-            "title": "Applied Chemistry Quiz",
-            "content": "Test your knowledge of everyday chemistry!",
-            "quizQuestion": "Why does soap form scum in hard water?",
+            "title": "Process Quiz",
+            "content": "Industrial check.",
+            "quizQuestion": "The Haber process produces Ammonia primarily for what use?",
             "quizOptions": [
-                "Hard water is too cold",
-                "Soap reacts with calcium/magnesium ions",
-                "Hard water has too much oxygen",
-                "The pH is wrong"
+                "Rocket Fuel",
+                "Fertilizer",
+                "Plastics",
+                "Soap"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "applied_6",
+            "type": "content",
+            "title": "Batteries",
+            "content": "# Portable Energy 🔋\n\n- **Primary Cells**: Single use (Alkaline).\n- **Secondary Cells**: Rechargeable (Li-ion, Lead-acid).\n\n**Lithium-Ion**: Li ions move from Anode ($C$) to Cathode ($CoO_2$) during discharge, providing lightweight power for phones/cars."
+        },
+        {
+            "id": "applied_7",
+            "type": "content",
+            "title": "Petroleum Refining",
+            "content": "# Black Gold 🛢️\n\nCrude oil is a mix of hydrocarbons. Separated by **Fractional Distillation**.\n\n- Top (Cool): LPG, Gasoline.\n- Middle: Kerosene, Diesel.\n- Bottom (Hot): Asphalt, Tar.\n\n**Cracking**: Breaking big chains into smaller, useful ones (Gasoline)."
+        },
+        {
             "id": "applied_8",
             "type": "content",
-            "title": "Materials Science",
-            "content": "# Materials Science 🔩\n\n## Types of Materials\n\n| Type | Examples | Properties |\n|------|----------|------------|\n| Metals | Iron, aluminum, copper | Conductive, ductile |\n| Ceramics | Glass, porcelain, concrete | Hard, brittle |\n| Polymers | Plastics, rubber | Flexible, moldable |\n| Composites | Fiberglass, carbon fiber | Combined properties |\n\n## Alloys\n\nMixture of metals (or metal + non-metal).\n\n| Alloy | Composition | Use |\n|-------|-------------|-----|\n| Steel | Fe + C | Construction |\n| Bronze | Cu + Sn | Bearings |\n| Brass | Cu + Zn | Fittings |\n| Stainless steel | Fe + Cr + Ni | Cutlery |\n\n### Why Alloys?\n- Stronger than pure metals\n- Different layers slide less easily\n- Tailored properties\n\n## Smart Materials\n\n| Material | Property | Application |\n|----------|----------|-------------|\n| Shape memory alloys | Return to original shape | Stents, glasses frames |\n| Piezoelectric | Electricity ↔ pressure | Sensors, speakers |\n| Photochromic | Darken in light | Sunglasses |\n| Thermochromic | Color changes with temperature | Thermometers |\n\n## Composites\n\n```\n    Matrix (continuous)  +  Reinforcement\n    (e.g., plastic)        (e.g., carbon fiber)\n                ↓\n         Composite\n    (stronger than either alone)\n```\n\n### Examples\n- Carbon fiber reinforced plastic (CFRP)\n- Fiberglass\n- Reinforced concrete\n\n## Selection Criteria\n\n- Mechanical properties\n- Thermal properties\n- Cost\n- Weight\n- Environmental impact\n- Availability\n\n> 🎯 **Key Insight:** Materials science is where chemistry meets engineering!"
+            "title": "Medicinal Chemistry",
+            "content": "# Drug Design 💊\n\nCreating molecules to bind to biological targets (receptors/enzymes).\n- **Aspirin**: Modified Willow bark.\n- **Penicillin**: Antibiotic from mold.\n- **Structure-Activity Relationship (SAR)**: Tweaking molecules to improve efficacy and reduce side effects."
         },
         {
             "id": "applied_9",
             "type": "content",
-            "title": "Summary",
-            "content": "# Congratulations! 🎉\n\nYou've completed Applied Chemistry! Here's what you've mastered:\n\n## Industrial Processes\n\n### Haber Process\n- ✅ N₂ + 3H₂ ⇌ 2NH₃\n- ✅ Compromise: 400-500°C, 150-300 atm, Fe catalyst\n- ✅ Feeds ~50% of world population\n\n### Electrolysis\n- ✅ Electricity drives non-spontaneous reactions\n- ✅ Cathode = reduction, Anode = oxidation\n- ✅ Aluminum production, chlor-alkali\n\n### Contact Process\n- ✅ 2SO₂ + O₂ ⇌ 2SO₃ (then → H₂SO₄)\n- ✅ V₂O₅ catalyst\n\n## Everyday Chemistry\n- ✅ Soaps: Saponification, surfactants\n- ✅ Detergents: Work in hard water\n- ✅ Cleaning products: Bleach, acids, bases\n- ✅ Batteries: Electrochemical cells\n\n## Nanotechnology\n- ✅ 1-100 nm scale\n- ✅ Unique properties due to size\n- ✅ Carbon nanotubes, graphene, quantum dots\n\n## Materials Science\n- ✅ Metals, ceramics, polymers, composites\n- ✅ Alloys improve properties\n- ✅ Smart materials respond to stimuli\n\n> 🏭 **Applied Chemistry:** Turning knowledge into products!\n\n> 🎓 **You've completed Chemistry!**\n\nCongratulations on mastering all aspects of chemistry from atomic structure to industrial applications!"
+            "title": "Food Chemistry",
+            "content": "# Edible Science 🍔\n\n- **Fermentation**: Yeast turns sugar to alcohol/CO2 (Bread, Beer).\n- **Emulsions**: Mayonnaise (Oil in water).\n- **Maillard Reaction**: Browning of meat/bread (Flavor!).\n- **Preservatives**: Prevent spoilage (Salt, Sodium Benzoate)."
+        },
+        {
+            "id": "applied_10",
+            "type": "content",
+            "title": "Forensic Chemistry",
+            "content": "# Crime Scene 🔍\n\n- **Fingerprints**: Developed with cyanoacrylate (Super glue).\n- **Blood**: Luminol glows with iron in hemoglobin.\n- **Breathalyzer**: Redox reaction measures alcohol in breath."
+        },
+        {
+            "id": "applied_11",
+            "type": "content",
+            "title": "Materials Science",
+            "content": "# Better Stuff 🛹\n\n- **Ceramics**: Heat resistant, brittle (Tiles, Space Shuttle).\n- **Composites**: Carbon Fiber (Strong + Light).\n- **Alloys**: Steel (Fe + C), Bronze (Cu + Sn)."
+        },
+        {
+            "id": "applied_quiz_2",
+            "type": "quiz",
+            "title": "Materials Quiz",
+            "content": "Check your materials.",
+            "quizQuestion": "Which is an alloy?",
+            "quizOptions": [
+                "Iron",
+                "Steel",
+                "Carbon",
+                "Copper"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "applied_12",
+            "type": "content",
+            "title": "Nanotechnology",
+            "content": "# Tiny Tech 🤖\n\nManipulating matter at 1-100nm.\n- **Graphene**: Single layer of carbon. Stronger than steel, conductive.\n- **Self-cleaning glass**: Titanium dioxide coating.\n- **Drug Delivery**: Nanoparticles targeting cancer cells."
+        },
+        {
+            "id": "applied_13",
+            "type": "content",
+            "title": "Explosives",
+            "content": "# Boom 🧨\n\nRapid release of gas and heat.\n- **Nitroglycerin**: Unstable liquid.\n- **TNT**: Stable solid.\n- Nitrogen wants to become $N_2$ gas (very stable) very badly, releasing huge energy."
+        },
+        {
+            "id": "applied_14",
+            "type": "content",
+            "title": "Paints and Coatings",
+            "content": "# Color and Protection 🎨\n\n- **Pigment**: Color particles ($TiO_2$ for white).\n- **Binder**: Glue holding it together (Acrylic).\n- **Solvent**: Evaporates to set the paint.\n\nAnti-corrosion coatings save billions in rust damage."
+        },
+        {
+            "id": "applied_15",
+            "type": "content",
+            "title": "Cosmetics",
+            "content": "# Looking Good 💄\n\n- **Lotions**: Emulsions of oil and water.\n- **Sunscreen**: Absorbs UV light ($ZnO$).\n- **Hair Dye**: Oxidation reactions.\n- Safety and stability are key challenges."
+        },
+        {
+            "id": "applied_16",
+            "type": "content",
+            "title": "Green Technology",
+            "content": "# Clean Tech ♻️\n\n- **Catalytic Converters**: Turn car exhaust ($NO_x, CO$) into safer gases ($N_2, CO_2$).\n- **Water Desalination**: Reverse Osmosis membranes.\n- **Hydrogen Fuel Cells**: $H_2 + O_2 \\to H_2O$ + Electricity."
+        },
+        {
+            "id": "applied_17",
+            "type": "content",
+            "title": "Applied Chemistry Summary",
+            "content": "# Recap 📝\n\n- Chemistry is the bridge between physics and biology.\n- It feeds us (Ammonia).\n- It heals us (Drugs).\n- It powers us (Batteries/Fuel).\n- It builds our world (Plastics/Steel).\n\nApplied chemistry is the engine of modern civilization."
         }
     ]
 }

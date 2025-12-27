@@ -2,58 +2,138 @@
     "id": "learn_mater",
     "topicId": "mater",
     "topicTitle": "Materials Science",
-    "description": "Explore material properties, nanomaterials, composites, and corrosion",
-    "baseKP": 75,
+    "description": "The stuff things are made of.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "mater_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Materials Science 🔬\n\n## Topics\n- Material properties\n- Nanomaterials\n- Composites\n- Corrosion & degradation"
+            "title": "What is Materials Science?",
+            "content": "# The Ingredients 🧬\n\nUnderstanding relations between Structure, Properties, and Processing of materials.\n- Metals, Ceramics, Polymers, Composites."
         },
         {
             "id": "mater_2",
             "type": "content",
-            "title": "Properties",
-            "content": "# Material Properties 💪\n\n| Property | Description |\n|----------|-------------|\n| Strength | Resist deformation |\n| Ductility | Stretch before break |\n| Hardness | Resist scratching |\n| Toughness | Resist fracture |\n| Stiffness | Resist bending |"
+            "title": "Material Properties",
+            "content": "# Behavior 🧪\n\n- **Mechanical**: Strength, Ductility (stretch), Hardness.\n- **Thermal**: Conductivity, Expansion.\n- **Electrical**: Conductor, Insulator, Semiconductor."
         },
         {
             "id": "mater_3",
             "type": "content",
-            "title": "Nanomaterials",
-            "content": "# Nanomaterials 🔍\n\n## What is Nano?\n1-100 nanometers\n\n## Types\n| Type | Example |\n|------|--------|\n| Nanoparticles | Gold, silver |\n| Nanotubes | Carbon |\n| Graphene | 2D carbon |\n\n## Applications\n- Electronics\n- Medicine\n- Energy"
-        },
-        {
-            "id": "mater_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Ductility measures ability to:",
-            "quizOptions": [
-                "Resist scratching",
-                "Stretch before breaking",
-                "Resist corrosion",
-                "Conduct electricity"
-            ],
-            "correctOptionIndex": 1
+            "title": "Structure: Atomic",
+            "content": "# Crystal Lattice 💎\n\nHow atoms are packed.\n- **Crystalline**: Ordered grid (Metals). Strong.\n- **Amorphous**: Random mess (Glass). Brittle."
         },
         {
             "id": "mater_4",
             "type": "content",
-            "title": "Composites",
-            "content": "# Composites 🧱\n\n## Definition\nTwo+ materials combined for better properties.\n\n## Types\n| Composite | Example |\n|-----------|--------|\n| Fiber-reinforced | Carbon fiber |\n| Metal matrix | Al + SiC |\n| Ceramic matrix | SiC + SiC |\n\n## Benefits\n- High strength-to-weight"
+            "title": "Metals",
+            "content": "# Shiny & Strong ⚔️\n\n- Sea of electrons (conducts electricity).\n- **Alloys**: Mixing metals for better properties.\n- **Steel**: Iron + Carbon.\n- **Bronze**: Copper + Tin."
         },
         {
             "id": "mater_5",
             "type": "content",
-            "title": "Corrosion",
-            "content": "# Corrosion & Degradation 🔧\n\n## Types\n| Type | Cause |\n|------|-------|\n| Uniform | General attack |\n| Galvanic | Dissimilar metals |\n| Pitting | Localized |\n| Stress | Tension + corrosion |\n\n## Prevention\n- Coating\n- Cathodic protection\n- Material selection"
+            "title": "Ceramics",
+            "content": "# Hard & Brittle 🏺\n\nClay, Glass, Porcelain.\n- High melting point.\n- Insulators.\n- **Advanced Ceramics**: Used in spaceships and artificial bones."
         },
         {
             "id": "mater_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Properties: Strength, ductility, toughness\n- Nano: 1-100 nm, unique properties\n- Composites: Combined materials\n- Corrosion: Types & prevention"
+            "title": "Polymers",
+            "content": "# Long Chains 🔗\n\nPlastics and Rubbers.\n- Made of organics (Carbon/Hydrogen).\n- Lightweight, cheap, moldable.\n- **Elastomers**: Rubber that bounces back."
+        },
+        {
+            "id": "mater_quiz_1",
+            "type": "quiz",
+            "title": "Mix Quiz",
+            "content": "Composition check.",
+            "quizQuestion": "An alloy is a mixture involving at least one:",
+            "quizOptions": [
+                "Plastic",
+                "Ceramic",
+                "Metal",
+                "Gas"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mater_7",
+            "type": "content",
+            "title": "Composites",
+            "content": "# Best of Both 🥪\n\nCombine two materials.\n- **Carbon Fiber**: Fabric in glue. Extremely strong and light.\n- **Concrete**: Stones in cement.\n- **Fiberglass**: Glass wool in plastic."
+        },
+        {
+            "id": "mater_8",
+            "type": "content",
+            "title": "Stress-Strain Curve",
+            "content": "# Breaking Point 📉\n\nThe Graph of Engineering.\n- **Elastic Region**: Bounces back.\n- **Yield Point**: Permanently bent.\n- **Fracture Point**: Snap."
+        },
+        {
+            "id": "mater_9",
+            "type": "content",
+            "title": "Failure Mechanisms",
+            "content": "# Why stuff breaks 💔\n\n- **Fatigue**: Repeated small stress leads to crack (Paperclip bending).\n- **Creep**: Slow stretch under heat (Turbine blades).\n- **Impact**: Sudden blow."
+        },
+        {
+            "id": "mater_10",
+            "type": "content",
+            "title": "Corrosion",
+            "content": "# Rust 🍂\n\nMaterial reacting with environment.\n- Iron $\\to$ Rust (Oxidation).\n- Prevention: Painting, Galvanizing (Zinc coating), Stainless Steel."
+        },
+        {
+            "id": "mater_11",
+            "type": "content",
+            "title": "Nanomaterials",
+            "content": "# Tiny Tech 🔬\n\nMaterials at nanoscale (1-100nm).\n- **Graphene**: Single layer of carbon. Strongest material known.\n- **Carbon Nanotubes**: Super wires.\n- Quantum Dots: TV screens."
+        },
+        {
+            "id": "mater_12",
+            "type": "content",
+            "title": "Semiconductors",
+            "content": "# Silicon 💻\n\nBasis of electronics.\n- Conducts only when told to.\n- Doping (adding impurities) controls conductivity.\n- Moore's Law depends on making these smaller."
+        },
+        {
+            "id": "mater_quiz_2",
+            "type": "quiz",
+            "title": "Nano Quiz",
+            "content": "Future check.",
+            "quizQuestion": "Graphene is made of a single layer of which element?",
+            "quizOptions": [
+                "Iron",
+                "Silicon",
+                "Carbon",
+                "Gold"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mater_13",
+            "type": "content",
+            "title": "Biomaterials",
+            "content": "# Body Parts 🦴\n\nMaterials compatible with body.\n- Titanium hips.\n- Contact lenses.\n- Dissolvable stitches."
+        },
+        {
+            "id": "mater_14",
+            "type": "content",
+            "title": "Smart Materials",
+            "content": "# Magic ✨\n\nResponse to stimuli.\n- **Shape Memory Alloy**: Returns to shape when heated (Nitinol).\n- **Piezoelectric**: Squeezing creates electricity (Lighters)."
+        },
+        {
+            "id": "mater_15",
+            "type": "content",
+            "title": "Recycling",
+            "content": "# Circular Economy ♻️\n\n- Metals: Easy to melt and reuse.\n- Thermoplastics: Can be reused.\n- Thermosets/Composites: Very hard to recycle (Wind turbine blades)."
+        },
+        {
+            "id": "mater_16",
+            "type": "content",
+            "title": "Processing",
+            "content": "# Making It 🔨\n\n- **Annealing**: Heating to soften metal.\n- **Quenching**: Rapid cooling to harden metal (Sword making).\n- **Sintering**: Powdering and baking ceramics."
+        },
+        {
+            "id": "mater_17",
+            "type": "content",
+            "title": "Materials Summary",
+            "content": "# Recap 📝\n\n- Structure determines Property.\n- **Steel** builds cities.\n- **Silicon** builds brains.\n- **Plastics** are everywhere.\n- New materials = New tech."
         }
     ]
 }

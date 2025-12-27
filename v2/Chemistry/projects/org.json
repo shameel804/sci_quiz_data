@@ -1,56 +1,92 @@
 [
     {
-        "title": "Hydrocarbon Naming 🔗",
-        "ques": "Name these compounds:\n1. CH₃-CH₂-CH₂-CH₃\n2. CH₂=CH-CH₃\n3. CH≡C-CH₃",
+        "title": "IUPAC Naming - Alkanes 📝",
+        "ques": "Name the following compound using IUPAC nomenclature:\n\n```\n     CH₃\n      |\nCH₃-CH-CH₂-CH-CH₃\n          |\n         CH₂-CH₃\n```",
         "answer": {
             "type": "text",
-            "content": "**1.** Butane (4 carbons, single bonds only)\n\n**2.** Propene (3 carbons, one double bond)\n\n**3.** Propyne (3 carbons, one triple bond)"
+            "content": "**Step-by-step naming:**\n\n1. **Longest chain:** 6 carbons (hexane)\n2. **Substituents:**\n   - Methyl at C-2\n   - Ethyl at C-4\n3. **Alphabetical order:** Ethyl before Methyl\n\n**Name:** **4-Ethyl-2-methylhexane**"
         },
-        "explanation": "**IUPAC naming:** Count carbons for prefix (meth-, eth-, prop-, but-). Suffix shows bond type (-ane, -ene, -yne)."
+        "explanation": "Always find longest chain, number from end nearest to substituent, list alphabetically (ignoring di-, tri- prefixes)."
     },
     {
-        "title": "Functional Groups 🧬",
-        "ques": "Identify the functional group:\n1. CH₃OH\n2. CH₃COOH\n3. CH₃CHO\n4. CH₃COCH₃",
+        "title": "Functional Groups Identification 🔍",
+        "ques": "Identify all functional groups in aspirin (acetylsalicylic acid):\n\n```\n     O    O\n     ‖    ‖\nCH₃-C-O-⬡-C-OH\n```",
         "answer": {
             "type": "text",
-            "content": "**1.** CH₃OH → **Alcohol** (-OH)\n\n**2.** CH₃COOH → **Carboxylic acid** (-COOH)\n\n**3.** CH₃CHO → **Aldehyde** (-CHO)\n\n**4.** CH₃COCH₃ → **Ketone** (C=O between carbons)"
+            "content": "**Functional groups in aspirin:**\n\n1. **Ester** (R-COO-R'): CH₃-CO-O-\n2. **Carboxylic acid** (-COOH): -C(=O)-OH\n3. **Benzene ring** (aromatic): The hexagon (⬡)\n\n*These groups determine aspirin's properties: ester makes it less irritating than pure salicylic acid, carboxylic acid provides acidity*"
         },
-        "explanation": "**Functional groups** determine chemical properties. Aldehydes have C=O at end; ketones have C=O in middle."
+        "explanation": "Functional groups determine chemical behavior. Aspirin is an ester of acetic acid and salicylic acid."
     },
     {
-        "title": "IUPAC Nomenclature 📝",
-        "ques": "Name: CH₃-CH(CH₃)-CH₂-CH₃\n\n1. Identify parent chain\n2. Number carbons\n3. Give full IUPAC name",
+        "title": "Reaction Types 🔄",
+        "ques": "Classify these reactions: (a) Ethene + HBr, (b) Ethanol → Ethene, (c) Methane + Cl₂ with UV",
         "answer": {
             "type": "text",
-            "content": "**1. Parent chain:** 4 carbons (butane)\n\n**2. Numbering:** Start from end nearest branch\n```\n    CH₃\n     |\n1   2   3   4\nCH₃-CH-CH₂-CH₃\n```\n\n**3. Name: 2-methylbutane**"
+            "content": "**(a) Ethene + HBr:**\n- Type: **Electrophilic Addition**\n- Product: CH₃CH₂Br (bromoethane)\n- Markovnikov's rule applies\n\n**(b) Ethanol → Ethene:**\n- Type: **Elimination** (dehydration)\n- Requires: Acid catalyst, heat\n- Loses H₂O\n\n**(c) Methane + Cl₂ (UV):**\n- Type: **Free Radical Substitution**\n- Products: CH₃Cl, CH₂Cl₂, CHCl₃, CCl₄\n- Requires UV to initiate"
         },
-        "explanation": "**IUPAC rules:** Find longest chain, number from end nearest substituent, name substituents with position numbers."
-    },
-    {
-        "title": "Polymer Types 🔄",
-        "ques": "Compare addition and condensation polymers:\n1. Define each type\n2. Give one example of each\n3. What byproduct forms in condensation?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Addition polymer:** Monomers add directly; no byproduct\n**Condensation polymer:** Monomers join by removing small molecule\n\n**2. Examples:**\n- Addition: Polyethylene (from ethene)\n- Condensation: Nylon (from diamine + diacid)\n\n**3. Byproduct:** Usually water (H₂O) or HCl"
-        },
-        "explanation": "**Addition polymers** form from alkenes (C=C opens). **Condensation polymers** join by eliminating small molecules between functional groups."
-    },
-    {
-        "title": "Biomolecules 🧬",
-        "ques": "Match the biomolecule with its monomer:\n1. Proteins\n2. Carbohydrates\n3. Nucleic acids",
-        "answer": {
-            "type": "text",
-            "content": "**1. Proteins** → Amino acids (20 types)\n\n**2. Carbohydrates** → Monosaccharides (glucose, fructose)\n\n**3. Nucleic acids** → Nucleotides (sugar + phosphate + base)"
-        },
-        "explanation": "**Biomolecules** are polymers of smaller units. Proteins have peptide bonds; carbohydrates have glycosidic bonds."
+        "explanation": "Alkenes undergo addition, alcohols can eliminate, saturated hydrocarbons require radical substitution."
     },
     {
         "title": "Isomerism 🔀",
-        "ques": "Draw structural isomers of C₄H₁₀:\n1. How many isomers exist?\n2. Name both isomers\n3. Which has higher boiling point and why?",
+        "ques": "Draw all structural isomers of **C₄H₁₀O** that are alcohols. Name each one.",
         "answer": {
             "type": "text",
-            "content": "**1.** Two isomers exist\n\n**2. Names:**\n- n-Butane: CH₃-CH₂-CH₂-CH₃\n- Isobutane: CH₃-CH(CH₃)-CH₃\n\n**3.** n-Butane has higher bp (more surface area for van der Waals forces)"
+            "content": "**Four alcohol isomers:**\n\n1. **1-Butanol** (primary)\n   CH₃-CH₂-CH₂-CH₂-OH\n\n2. **2-Butanol** (secondary)\n   CH₃-CH(OH)-CH₂-CH₃\n\n3. **2-Methyl-1-propanol** (primary)\n   (CH₃)₂CH-CH₂-OH\n\n4. **2-Methyl-2-propanol** (tertiary)\n   (CH₃)₃C-OH\n\n*Note: There's also an ether isomer: diethyl ether*"
         },
-        "explanation": "**Structural isomers** have same formula, different arrangement. Branching reduces surface area → weaker intermolecular forces → lower bp."
+        "explanation": "Structural isomers have same formula but different connectivity. Alcohol classification affects reactivity."
+    },
+    {
+        "title": "Polymers - Addition 🔗",
+        "ques": "Draw the repeating unit of **polypropylene** and explain why it's used for containers.",
+        "answer": {
+            "type": "text",
+            "content": "**Monomer:** Propylene (propene)\nCH₂=CH-CH₃\n\n**Repeating unit:**\n```\n  H   CH₃\n  |   |\n-[C - C]ₙ-\n  |   |\n  H   H\n```\n\n**Properties making it useful for containers:**\n- **High chemical resistance** (no reactive groups)\n- **Low density** (lightweight)\n- **High melting point** (~160°C)\n- **Food-safe** (chemically inert)\n- **Recyclable** (thermoplastic)"
+        },
+        "explanation": "Addition polymers form by breaking double bonds. No byproducts formed. Polypropylene is one of the most common plastics."
+    },
+    {
+        "title": "Carboxylic Acid Reactions 🧪",
+        "ques": "Write the reaction between **ethanoic acid** and **methanol**. Name the product and catalyst needed.",
+        "answer": {
+            "type": "text",
+            "content": "**Esterification reaction:**\n\n$$CH_3COOH + CH_3OH \\xrightarrow{H_2SO_4} CH_3COOCH_3 + H_2O$$\n\n**Product:** Methyl ethanoate (methyl acetate)\n\n**Catalyst:** Concentrated sulfuric acid (H₂SO₄)\n\n**Conditions:**\n- Heat under reflux\n- Reversible reaction\n- Remove water to shift equilibrium right"
+        },
+        "explanation": "Esterification: acid + alcohol → ester + water. Many esters have fruity smells (flavoring industry)."
+    },
+    {
+        "title": "Stereochemistry - Chirality ✋",
+        "ques": "Is 2-butanol chiral? If yes, draw both enantiomers and mark the chiral center.",
+        "answer": {
+            "type": "text",
+            "content": "**Yes, 2-butanol is chiral!**\n\n**Structure:** CH₃-**C**(OH)(H)-CH₂-CH₃\n\n**Chiral center:** Carbon 2 (marked with *) has 4 different groups:\n- H\n- OH\n- CH₃\n- CH₂CH₃\n\n**Enantiomers:**\n- (R)-2-butanol\n- (S)-2-butanol\n\n*These are mirror images, rotate plane-polarized light in opposite directions*"
+        },
+        "explanation": "A carbon with 4 different substituents is a chiral center. Enantiomers have identical physical properties except optical rotation."
+    },
+    {
+        "title": "Amino Acids and Peptides 🧬",
+        "ques": "Draw the dipeptide formed when **glycine** (H₂N-CH₂-COOH) bonds with **alanine** (H₂N-CH(CH₃)-COOH).",
+        "answer": {
+            "type": "text",
+            "content": "**Peptide bond formation (condensation):**\n\n```\n        O           O\n        ‖           ‖\nH₂N-CH₂-C-OH + H-NH-CH-COOH\n                   |\n                  CH₃\n         ↓ -H₂O\n        O    O\n        ‖    ‖\nH₂N-CH₂-C-NH-CH-COOH\n             |\n            CH₃\n```\n\n**Product:** Glycylalanine (Gly-Ala)\n\n**The C-N bond formed is the peptide bond**"
+        },
+        "explanation": "Peptide bonds link amino acids in proteins. The bond is planar due to partial double-bond character."
+    },
+    {
+        "title": "Carbonyl Reduction 🔽",
+        "ques": "What products form when **butanal** and **2-butanone** are reduced with NaBH₄?",
+        "answer": {
+            "type": "text",
+            "content": "**Butanal (aldehyde) reduction:**\n$$CH_3CH_2CH_2CHO \\xrightarrow{NaBH_4} CH_3CH_2CH_2CH_2OH$$\n**Product:** 1-Butanol (primary alcohol)\n\n**2-Butanone (ketone) reduction:**\n$$CH_3COCH_2CH_3 \\xrightarrow{NaBH_4} CH_3CH(OH)CH_2CH_3$$\n**Product:** 2-Butanol (secondary alcohol)\n\n*Aldehydes → 1° alcohols, Ketones → 2° alcohols*"
+        },
+        "explanation": "NaBH₄ is a mild reducing agent for carbonyl groups. LiAlH₄ is stronger and can also reduce esters and carboxylic acids."
+    },
+    {
+        "title": "Benzene Reactions 🔷",
+        "ques": "Write the reaction for nitration of benzene. Include reagents and conditions.",
+        "answer": {
+            "type": "text",
+            "content": "**Nitration of Benzene:**\n\n$$C_6H_6 + HNO_3 \\xrightarrow{H_2SO_4, 50°C} C_6H_5NO_2 + H_2O$$\n\n**Reagents:** Concentrated HNO₃ + H₂SO₄ (nitrating mixture)\n\n**Mechanism:** Electrophilic Aromatic Substitution\n\n**Active electrophile:** NO₂⁺ (nitronium ion)\nFormed by: HNO₃ + H₂SO₄ → NO₂⁺ + HSO₄⁻ + H₂O\n\n**Product:** Nitrobenzene (yellow oily liquid)"
+        },
+        "explanation": "Benzene undergoes substitution (not addition) to preserve aromatic stability. The 6π electrons are delocalized."
     }
 ]

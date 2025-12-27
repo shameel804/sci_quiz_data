@@ -1,56 +1,92 @@
 [
     {
         "title": "DNA Structure 🧬",
-        "ques": "1. What are the 4 DNA bases?\n2. What base pairs with what?\n3. What holds the double helix together?",
+        "ques": "Describe the structure of DNA. What are the base-pairing rules?",
         "answer": {
             "type": "text",
-            "content": "**1. Bases:** Adenine, Thymine, Guanine, Cytosine (A, T, G, C)\n\n**2. Base pairing:**\n- A pairs with T (2 H-bonds)\n- G pairs with C (3 H-bonds)\n\n**3. Held together by:**\n- Hydrogen bonds between bases\n- Sugar-phosphate backbone"
+            "content": "**DNA Structure (Watson & Crick, 1953):**\n- Double helix (two strands wound together)\n- Sugar-phosphate backbone (deoxyribose)\n- Bases point inward like rungs on ladder\n- Antiparallel strands (5' → 3' and 3' → 5')\n\n**Base Pairing Rules:**\n| Purine | Pairs with | Pyrimidine |\n|--------|------------|------------|\n| **A** (Adenine) | 2 H-bonds | **T** (Thymine) |\n| **G** (Guanine) | 3 H-bonds | **C** (Cytosine) |\n\n*Mnemonic: Apple Tree, Guava Cherry*"
         },
-        "explanation": "**Chargaff's rules:** A=T and G=C. The double helix was discovered by Watson & Crick in 1953."
-    },
-    {
-        "title": "Mendelian Inheritance 🎲",
-        "ques": "Two heterozygous tall plants (Tt) are crossed.\n\n1. Draw the Punnett square\n2. What is the phenotype ratio?\n3. What is the genotype ratio?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Punnett square:**\n```\n     T    t\n   +----+----+\nT  | TT | Tt |\n   +----+----+\nt  | Tt | tt |\n   +----+----+\n```\n\n**2. Phenotype:** 3 tall : 1 short (3:1)\n\n**3. Genotype:** 1 TT : 2 Tt : 1 tt (1:2:1)"
-        },
-        "explanation": "**Monohybrid cross** of heterozygotes gives 3:1 phenotype ratio. This was Mendel's key discovery."
-    },
-    {
-        "title": "Genetic Mutations 🔀",
-        "ques": "Classify:\n1. Point mutation vs chromosomal mutation\n2. Give example of each\n3. What is a frameshift mutation?",
-        "answer": {
-            "type": "text",
-            "content": "**1. Types:**\n- Point: Single nucleotide change\n- Chromosomal: Large DNA segment affected\n\n**2. Examples:**\n- Point: Sickle cell (A→T substitution)\n- Chromosomal: Down syndrome (extra chr. 21)\n\n**3. Frameshift:** Insertion/deletion shifts reading frame → all codons after are wrong"
-        },
-        "explanation": "**Mutations** can be neutral, harmful, or beneficial. Frameshift mutations usually have severe effects."
-    },
-    {
-        "title": "CRISPR Technology ✂️",
-        "ques": "1. What does CRISPR stand for?\n2. How does Cas9 work?\n3. Name 2 potential applications",
-        "answer": {
-            "type": "text",
-            "content": "**1.** Clustered Regularly Interspaced Short Palindromic Repeats\n\n**2. Cas9 mechanism:**\n- Guide RNA directs Cas9 to target DNA\n- Cas9 cuts both DNA strands\n- Cell repairs with new sequence\n\n**3. Applications:**\n- Gene therapy (cure genetic diseases)\n- Disease-resistant crops\n- Creating disease models"
-        },
-        "explanation": "**CRISPR** is a revolutionary gene-editing tool. It's cheaper and more precise than previous methods."
+        "explanation": "Chargaff's rules: A=T and G=C percentages are equal. The 3 hydrogen bonds in G-C make GC-rich DNA more stable (higher melting point)."
     },
     {
         "title": "DNA Replication 🔄",
-        "ques": "1. Why is replication called 'semi-conservative'?\n2. What enzyme unwinds DNA?\n3. What enzyme synthesizes new DNA?",
+        "ques": "Explain **semi-conservative** replication. What enzymes are involved?",
         "answer": {
             "type": "text",
-            "content": "**1. Semi-conservative:** Each new DNA molecule has one original strand and one new strand\n\n**2. Unwinds:** Helicase (breaks H-bonds)\n\n**3. Synthesizes:** DNA Polymerase (adds nucleotides 5'→3')"
+            "content": "**Semi-conservative Replication:**\nEach new DNA molecule has one original strand and one new strand\n\n**Key Enzymes:**\n| Enzyme | Function |\n|--------|----------|\n| **Helicase** | Unwinds double helix |\n| **SSB proteins** | Keep strands separated |\n| **Primase** | Makes RNA primer |\n| **DNA Polymerase III** | Adds nucleotides (5'→3' only) |\n| **Ligase** | Joins Okazaki fragments |\n\n**Leading strand:** Continuous synthesis\n**Lagging strand:** Okazaki fragments"
         },
-        "explanation": "**DNA replication** is extremely accurate (1 error per 10⁹ nucleotides) thanks to proofreading by DNA polymerase."
+        "explanation": "Meselson-Stahl experiment (1958) proved semi-conservative model using ¹⁵N-labeled DNA. Replication is incredibly accurate: ~1 error per billion bases."
     },
     {
-        "title": "Genetic Disorders 🏥",
-        "ques": "Match with inheritance pattern:\n1. Cystic fibrosis\n2. Huntington's disease\n3. Hemophilia",
+        "title": "Punnett Square Practice 📊",
+        "ques": "In pea plants, yellow (Y) is dominant over green (y). Cross two heterozygous plants. What are the genotype and phenotype ratios?",
         "answer": {
             "type": "text",
-            "content": "**1. Cystic fibrosis** → Autosomal recessive (need 2 copies)\n\n**2. Huntington's disease** → Autosomal dominant (1 copy causes disease)\n\n**3. Hemophilia** → X-linked recessive (more common in males)"
+            "content": "**Cross:** Yy × Yy\n\n**Punnett Square:**\n```\n      Y      y\n  ┌──────┬──────┐\nY │  YY  │  Yy  │\n  ├──────┼──────┤\ny │  Yy  │  yy  │\n  └──────┴──────┘\n```\n\n**Genotype Ratio:** 1 YY : 2 Yy : 1 yy\n\n**Phenotype Ratio:** 3 Yellow : 1 Green (3:1)"
         },
-        "explanation": "**Inheritance patterns** determine disease risk. X-linked recessive affects males more because they have only one X chromosome."
+        "explanation": "This is a monohybrid cross. The 3:1 phenotype ratio is classic Mendelian inheritance. Mendel derived his laws from pea plant experiments."
+    },
+    {
+        "title": "Types of Mutations 🎯",
+        "ques": "Describe **point mutations**: substitution, insertion, and deletion. Which is most harmful?",
+        "answer": {
+            "type": "text",
+            "content": "**1. Substitution (one base → another):**\n- *Silent:* No amino acid change (degeneracy)\n- *Missense:* Different amino acid\n- *Nonsense:* Creates stop codon\n\n**2. Insertion:** Extra base(s) added\n\n**3. Deletion:** Base(s) removed\n\n**Frameshift Mutations (insertion/deletion):**\nShift the reading frame → all amino acids after mutation are wrong\n\n**Most harmful:** Frameshift and nonsense mutations\n\n*Example:* THE CAT ATE → (delete A) → THE CTA TE..."
+        },
+        "explanation": "Frameshift mutations are usually devastating because they alter the entire protein sequence downstream. Many cause genetic diseases."
+    },
+    {
+        "title": "CRISPR Basics ✂️",
+        "ques": "Explain how **CRISPR-Cas9** gene editing works in simple terms.",
+        "answer": {
+            "type": "text",
+            "content": "**CRISPR-Cas9 System:**\n\n**Components:**\n1. **Guide RNA (gRNA):** 20-nucleotide sequence matching target\n2. **Cas9:** Molecular \"scissors\" (endonuclease)\n\n**Process:**\n1. gRNA binds to target DNA sequence\n2. Cas9 makes double-strand break\n3. Cell's repair mechanism activates:\n   - **NHEJ:** Error-prone → gene knockout\n   - **HDR:** Precise editing with template\n\n**Applications:**\n- Genetic disease treatment\n- Agriculture (disease-resistant crops)\n- Research (gene function studies)"
+        },
+        "explanation": "CRISPR was discovered in bacteria as immune defense against viruses. 2020 Nobel Prize awarded to Doudna and Charpentier."
+    },
+    {
+        "title": "Codominance vs Incomplete Dominance 🎨",
+        "ques": "Explain the difference with examples: **codominance** vs **incomplete dominance**.",
+        "answer": {
+            "type": "text",
+            "content": "**Incomplete Dominance:**\n- Heterozygote shows **blend** of traits\n- Example: Red (RR) × White (WW) → **Pink** (RW)\n- *Snapdragons, four o'clock flowers*\n\n**Codominance:**\n- Heterozygote shows **both** traits equally\n- Example: Red (R) + White (W) → **Red AND White** spots\n- *Roan cattle (red/white hairs), ABO blood type*\n\n**ABO Blood Type:**\n- Iᴬ and Iᴮ are codominant (Type AB)\n- Both are dominant over i (Type O)"
+        },
+        "explanation": "Neither complete dominance—both alleles are expressed. Key difference: blend vs. both distinct phenotypes."
+    },
+    {
+        "title": "Gene Expression Central Dogma 🔀",
+        "ques": "Draw the **central dogma** of molecular biology. What molecules are involved at each step?",
+        "answer": {
+            "type": "text",
+            "content": "**Central Dogma:**\n```\nDNA  →  RNA  →  Protein\n  (Transcription) (Translation)\n```\n\n| Step | Location | Key Molecules |\n|------|----------|---------------|\n| **Transcription** | Nucleus | RNA polymerase, mRNA |\n| **RNA Processing** | Nucleus | Spliceosome, snRNAs |\n| **Translation** | Ribosome | mRNA, tRNA, amino acids |\n\n**Exceptions:**\n- Retroviruses: RNA → DNA (reverse transcriptase)\n- Prions: Protein → Protein (misfolding)"
+        },
+        "explanation": "Proposed by Francis Crick (1958). Information flows from nucleic acids to proteins, not the reverse (with exceptions)."
+    },
+    {
+        "title": "Sex-Linked Inheritance 👫",
+        "ques": "Explain why **color blindness** is more common in males. Show a cross.",
+        "answer": {
+            "type": "text",
+            "content": "**X-Linked Recessive Trait:**\n- Gene for color vision is on X chromosome\n- Males: X^Y (only one copy—any recessive allele is expressed)\n- Females: XX (need two copies to express)\n\n**Cross:** Carrier female × Normal male\n```\n        Xᴮ      Y\n   ┌──────┬──────┐\nXᴮ │ XᴮXᴮ │ XᴮY  │  (normal)\n   ├──────┼──────┤\nXᵇ │ XᴮXᵇ │ XᵇY  │  (carrier girl, colorblind boy)\n   └──────┴──────┘\n```\n\n**Result:** 50% of sons are colorblind, 50% daughters are carriers"
+        },
+        "explanation": "~8% of males vs ~0.5% of females are colorblind. Hemophilia and Duchenne muscular dystrophy are also X-linked recessive conditions."
+    },
+    {
+        "title": "Polymerase Chain Reaction (PCR) 🧪",
+        "ques": "Describe the **3 steps** of PCR and explain why it's useful.",
+        "answer": {
+            "type": "text",
+            "content": "**PCR Steps (repeated 25-35 cycles):**\n\n| Step | Temperature | What Happens |\n|------|-------------|---------------|\n| **Denaturation** | 94-98°C | DNA strands separate |\n| **Annealing** | 50-65°C | Primers bind to target |\n| **Extension** | 72°C | Taq polymerase copies DNA |\n\n**After 30 cycles:** 2³⁰ = ~1 billion copies!\n\n**Uses:**\n- Forensics (DNA fingerprinting)\n- Disease diagnosis (COVID tests)\n- Paternity testing\n- Ancient DNA analysis"
+        },
+        "explanation": "Invented by Kary Mullis (1983 Nobel Prize). Taq polymerase from Thermus aquaticus survives the high temperatures."
+    },
+    {
+        "title": "Epigenetics Basics 🔐",
+        "ques": "What is **epigenetics**? How can environment affect gene expression without changing DNA?",
+        "answer": {
+            "type": "text",
+            "content": "**Epigenetics:** Changes in gene expression without changing DNA sequence\n\n**Mechanisms:**\n\n| Modification | Effect | Example |\n|--------------|--------|--------|\n| **DNA methylation** | Silences genes | Add CH₃ to cytosine |\n| **Histone modification** | Opens/closes chromatin | Acetylation, methylation |\n| **Non-coding RNA** | Regulates expression | miRNA, siRNA |\n\n**Environmental influences:**\n- Diet, stress, toxins can alter epigenome\n- Some changes are heritable\n- Example: Dutch Hunger Winter—grandchildren affected"
+        },
+        "explanation": "Identical twins diverge epigenetically over time. Explains how same DNA produces different cell types and disease susceptibility."
     }
 ]

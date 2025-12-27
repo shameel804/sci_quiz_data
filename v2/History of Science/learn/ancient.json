@@ -2,58 +2,138 @@
     "id": "learn_ancient",
     "topicId": "ancient",
     "topicTitle": "Ancient Science",
-    "description": "Explore Greek, Egyptian, Chinese, and Indian contributions to early science",
-    "baseKP": 75,
+    "description": "Scientific thought before the modern era.",
+    "baseKP": 100,
     "slides": [
         {
             "id": "ancient_1",
             "type": "content",
-            "title": "Introduction",
-            "content": "# Ancient Science 📜\n\n## Civilizations\n- Greek\n- Egyptian\n- Chinese\n- Indian\n- Mesopotamian"
+            "title": "Origins of Science",
+            "content": "# Observing Nature 👁️\n\nAncient humans needed to understand nature for survival.\n- **Agriculture**: Needed calendars for planting (Astronomy).\n- **Medicine**: Treating wounds and illness.\n- **Engineering**: Building pyramids and ziggurats."
         },
         {
             "id": "ancient_2",
             "type": "content",
-            "title": "Greek Science",
-            "content": "# Greek Science 🏛️\n\n## Key Figures\n| Scientist | Contribution |\n|-----------|-------------|\n| Aristotle | Logic, biology |\n| Archimedes | Physics, math |\n| Pythagoras | Mathematics |\n| Hippocrates | Medicine |\n| Euclid | Geometry |"
+            "title": "Mesopotamia and Egypt",
+            "content": "# The Cradle 🏛️\n\n- **Babylonians**: Advanced math (Base 60 system - why we have 60 seconds).\n- **Egyptians**: Geometry for surveying land after Nile floods. Anatomy from mummification."
         },
         {
             "id": "ancient_3",
             "type": "content",
-            "title": "Other Civilizations",
-            "content": "# Other Ancient Sciences 🌍\n\n## Egyptian\n- Medicine, mummification\n- Mathematics, surveying\n\n## Chinese\n- Compass, paper, gunpowder\n- Astronomy, alchemy\n\n## Indian\n- Zero, decimal system\n- Astronomy, metallurgy"
-        },
-        {
-            "id": "ancient_quiz_1",
-            "type": "quiz",
-            "title": "Quiz",
-            "content": "Test yourself!",
-            "quizQuestion": "Who wrote the Elements of geometry?",
-            "quizOptions": [
-                "Aristotle",
-                "Archimedes",
-                "Euclid",
-                "Pythagoras"
-            ],
-            "correctOptionIndex": 2
+            "title": "Greek Natural Philosophy",
+            "content": "# The Thinkers 💭\n\nGreeks tried to explain nature without gods/myths.\n- **Thales**: Water is the fundamental substance.\n- **Democritus**: Proposed \"Atomos\" (Uncuttable particles).\n- **Pythagoras**: Mathematics is the language of nature."
         },
         {
             "id": "ancient_4",
             "type": "content",
-            "title": "Early Astronomy",
-            "content": "# Ancient Astronomy ⭐\n\n## Observations\n- Solar/lunar cycles\n- Eclipses predicted\n- Star catalogues\n\n## Models\n| Civilization | Model |\n|--------------|-------|\n| Greek | Earth-centered |\n| Babylonian | Zodiac |\n| Mayan | Accurate calendars |"
+            "title": "Aristotle",
+            "content": "# The Master 🎓\n\nWrote about everything (Biology, Physics, Logic).\n- Believed Earth was center of universe (Geocentric).\n- Believed matter made of 4 elements: Earth, Air, Fire, Water.\n- His ideas ruled for 2000 years (even the wrong ones)."
         },
         {
             "id": "ancient_5",
             "type": "content",
-            "title": "Medicine",
-            "content": "# Ancient Medicine 💊\n\n## Hippocrates\n- \"Father of medicine\"\n- Hippocratic oath\n- Natural causes of disease\n\n## Practices\n- Herbal remedies\n- Surgery (Egypt, India)\n- Acupuncture (China)"
+            "title": "Ancient Astronomy",
+            "content": "# Star Gazers ✨\n\n- **Eratosthenes**: Calculated circumference of Earth using shadows (Very accurate!).\n- **Ptolemy**: Formalized the Geocentric Model (Earth-centered). Used complex \"epicycles\" to explain backward motion of planets."
+        },
+        {
+            "id": "ancient_quiz_1",
+            "type": "quiz",
+            "title": "Astronomy Quiz",
+            "content": "Model check.",
+            "quizQuestion": "Which ancient model placed Earth at the center of the universe?",
+            "quizOptions": [
+                "Heliocentric",
+                "Geocentric",
+                "Egocentric",
+                "Eccentric"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "ancient_6",
             "type": "content",
-            "title": "Summary",
-            "content": "# Summary 🎉\n\n- Greeks: Logic, math, science foundations\n- Chinese: Practical inventions\n- Indians: Mathematics, zero\n- All: Astronomy, medicine advances"
+            "title": "Ancient Medicine",
+            "content": "# Hippocrates ⚕️\n\n\"Father of Medicine\".\n- Separated medicine from religion (sickness is not divine punishment).\n- **Hippocratic Oath**: \"First, do no harm.\"\n- Humorism: Health is balance of 4 fluids (Blood, Phlegm, Yellow Bile, Black Bile)."
+        },
+        {
+            "id": "ancient_7",
+            "type": "content",
+            "title": "Archimedes",
+            "content": "# Eureka! 🛁\n\nGreatest mathematician of antiquity.\n- **Buoyancy**: Principle of floating.\n- **Levers**: \"Give me a place to stand and I will move the Earth.\"\n- **War Machines**: Claw, Death Ray (Mirrors)."
+        },
+        {
+            "id": "ancient_8",
+            "type": "content",
+            "title": "Chinese Science",
+            "content": "# The East 🏮\n\nIndependent discoveries.\n- **Compass**: For feng shui, then navigation.\n- **Gunpowder**: For fireworks, then war.\n- **Paper & Printing**: Before Gutenberg.\n- **Seismoscope**: Dragon jar detecting earthquakes."
+        },
+        {
+            "id": "ancient_9",
+            "type": "content",
+            "title": "Indian Science",
+            "content": "# The Zero 0️⃣\n\n- **Mathematics**: Invention of Zero and Decimal system.\n- **Ayurveda**: Traditional holistic medicine.\n- **Metallurgy**: Rust-free iron pillars."
+        },
+        {
+            "id": "ancient_10",
+            "type": "content",
+            "title": "Euclid",
+            "content": "# Geometry 📐\n\nWrote \"The Elements\".\n- Systemized geometry.\n- Used proofs and axioms.\n- Still used as the textbook for 2000 years."
+        },
+        {
+            "id": "ancient_11",
+            "type": "content",
+            "title": "Alchemy Origins",
+            "content": "# Proto-Chemistry ⚗️\n\nQuest to turn lead into gold (Transmutation) and find Elixir of Life.\n- Egypt/China/Greece.\n- Failed at magic, but invented distillation, glassware, and acids."
+        },
+        {
+            "id": "ancient_12",
+            "type": "content",
+            "title": "Roman Engineering",
+            "content": "# Builders 🧱\n\nMore practical than theoretical Greeks.\n- **Aqueducts**: Moving water miles.\n- **Concrete**: Waterproof and durable (Pantheon still stands).\n- **Roads**: \"All roads lead to Rome\"."
+        },
+        {
+            "id": "ancient_quiz_2",
+            "type": "quiz",
+            "title": "Math Quiz",
+            "content": "Invention check.",
+            "quizQuestion": "Which civilization is credited with inventing the concept of Zero?",
+            "quizOptions": [
+                "Greek",
+                "Mayan",
+                "Indian",
+                "Roman"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ancient_13",
+            "type": "content",
+            "title": "The Library of Alexandria",
+            "content": "# Knowledge Hub 📚\n\nMassive collection of scrolls in Egypt.\n- Center of learning.\n- Burned down (multiple times).\n- Symbol of lost knowledge."
+        },
+        {
+            "id": "ancient_14",
+            "type": "content",
+            "title": "Galen",
+            "content": "# Anatomy 💀\n\nRoman physician.\n- Dissected animals (monkeys/pigs) to understand humans.\n- Made mistakes (thought liver pumped blood), but dominated medicine for 1300 years."
+        },
+        {
+            "id": "ancient_15",
+            "type": "content",
+            "title": "Mayan Astronomy",
+            "content": "# Timekeepers 🗓️\n\n- Extremely accurate calendars.\n- Tracked Venus perfectly.\n- Concept of Zero (independently)."
+        },
+        {
+            "id": "ancient_16",
+            "type": "content",
+            "title": "Loss of Knowledge",
+            "content": "# Dark Ages? 🌑\n\nFall of Rome led to loss of texts in Europe.\n- Knowledge moved East (Byzantine and Islamic Empires).\n- Monasteries kept some books alive."
+        },
+        {
+            "id": "ancient_17",
+            "type": "content",
+            "title": "Ancient Summary",
+            "content": "# Recap 📝\n\n- Science began as observation.\n- **Greeks** asked \"Why?\".\n- **Romans** asked \"How?\".\n- Foundations of Math and Astronomy were laid."
         }
     ]
 }

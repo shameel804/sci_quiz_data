@@ -2,138 +2,128 @@
     "id": "learn_hard",
     "topicId": "hard",
     "topicTitle": "Computer Hardware",
-    "description": "The physical parts of a computer.",
-    "baseKP": 100,
+    "description": "Explore CPU architecture, memory, logic gates, and I/O systems",
+    "baseKP": 75,
     "slides": [
         {
             "id": "hard_1",
             "type": "content",
-            "title": "What is Hardware?",
-            "content": "# The Body 🦴\n\nPhysical components that make up a computer system.\n- If you can kick it, it's hardware.\n- Software is the instructions (soul) that run on it."
+            "title": "Welcome to Computer Hardware",
+            "content": "# Introduction to Computer Hardware\n\nWelcome to **Computer Hardware** - the physical side of computing!\n\n## What You Will Learn:\n- **CPU** - The processor\n- **Memory** - RAM and storage\n- **Logic Gates** - Building blocks\n- **Storage** - HDD, SSD\n- **I/O Systems** - Input and output\n\n> **Fun Fact:** Modern CPUs have billions of transistors smaller than a virus!"
         },
         {
             "id": "hard_2",
             "type": "content",
-            "title": "CPU (Central Processing Unit)",
-            "content": "# The Brain 🧠\n\nExecutes instructions.\n- **Gigahertz (GHz)**: Billions of cycles per second.\n- **Cores**: Independent processing units (Dual-core, Quad-core)."
+            "title": "CPU Basics",
+            "content": "# Central Processing Unit (CPU)\n\n## Functions:\n- Fetch instructions\n- Decode instructions\n- Execute operations\n- Store results\n\n## Components:\n| Component | Function |\n|-----------|----------|\n| ALU | Arithmetic/logic operations |\n| Control Unit | Coordinates execution |\n| Registers | Fast temporary storage |\n| Cache | Quick access memory |\n\n## Performance Factors:\n- Clock speed (GHz)\n- Number of cores\n- Cache size\n- Architecture efficiency"
         },
         {
             "id": "hard_3",
             "type": "content",
-            "title": "RAM (Random Access Memory)",
-            "content": "# Short-term Memory 💭\n\nVolatile memory for active tasks.\n- Fast but erased when power off.\n- More RAM = More apps open at once."
-        },
-        {
-            "id": "hard_4",
-            "type": "content",
-            "title": "Storage: HDD vs SSD",
-            "content": "# Long-term Memory 📚\n\n- **HDD (Hard Disk)**: Spinning magnetic platters. Cheap, slow.\n- **SSD (Solid State)**: Flash chips (like USB). Fast, silent, durable.\n- Always choose SSD for your OS."
-        },
-        {
-            "id": "hard_5",
-            "type": "content",
-            "title": "Motherboard",
-            "content": "# The Spine 🦴\n\nMain circuit board connecting everything.\n- CPU socket, RAM slots, GPU slots.\n- **BIOS/UEFI**: Tiny firmware to start the boot process."
-        },
-        {
-            "id": "hard_6",
-            "type": "content",
-            "title": "GPU (Graphics Card)",
-            "content": "# The Artist 🎨\n\nSpecialized processor for rendering images.\n- Thousands of tiny cores.\n- Essential for Gaming, Video Editing, and AI/Machine Learning."
+            "title": "CPU Architecture",
+            "content": "# CPU Architecture\n\n## Instruction Cycle:\n1. **Fetch:** Get instruction from memory\n2. **Decode:** Interpret instruction\n3. **Execute:** Perform operation\n4. **Store:** Write result\n\n## Pipelining:\n- Multiple instructions in progress\n- Increases throughput\n- Hazards can cause stalls\n\n## Multi-core:\n- Multiple processors on one chip\n- Parallel processing\n- Shared cache\n\n## RISC vs CISC:\n| RISC | CISC |\n|------|------|\n| Simple instructions | Complex instructions |\n| Fixed length | Variable length |\n| ARM | x86 |"
         },
         {
             "id": "hard_quiz_1",
             "type": "quiz",
-            "title": "Memory Quiz",
-            "content": "Type check.",
-            "quizQuestion": "Which component loses its data when the computer is turned off?",
+            "title": "CPU Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The ALU performs:",
             "quizOptions": [
-                "SSD",
-                "HDD",
-                "RAM",
-                "Flash Drive"
+                "Memory storage",
+                "Arithmetic and logic operations",
+                "Display output",
+                "Network connections"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "hard_7",
+            "id": "hard_4",
             "type": "content",
-            "title": "Input/Output Devices",
-            "content": "# Talk and Listen 🗣️\n\n- **Input**: Mouse, Keyboard, Mic.\n- **Output**: Monitor, Speakers, Printer."
+            "title": "Memory Hierarchy",
+            "content": "# Memory Hierarchy\n\n## Levels (fastest to slowest):\n\n| Level | Type | Size | Speed |\n|-------|------|------|-------|\n| 1 | Registers | Bytes | Fastest |\n| 2 | Cache (L1/L2/L3) | KB-MB | Very fast |\n| 3 | RAM | GB | Fast |\n| 4 | SSD | TB | Medium |\n| 5 | HDD | TB | Slow |\n\n## Trade-offs:\n- Faster = More expensive\n- Faster = Smaller capacity\n\n## Cache Levels:\n- L1: Smallest, fastest, per core\n- L2: Larger, slower\n- L3: Shared between cores"
         },
         {
-            "id": "hard_8",
+            "id": "hard_5",
             "type": "content",
-            "title": "Binary and Bits",
-            "content": "# 0s and 1s 👾\n\nComputers run on electricity (On/Off).\n- **Bit**: 0 or 1.\n- **Byte**: 8 bits (Can represent one character).\n- **Kilobyte**: 1024 bytes."
+            "title": "RAM and Types",
+            "content": "# RAM (Random Access Memory)\n\n## Characteristics:\n- Volatile (data lost when power off)\n- Fast random access\n- Temporary storage\n\n## Types:\n\n| Type | Description |\n|------|-------------|\n| DRAM | Dynamic, needs refresh |\n| SRAM | Static, faster, cache |\n| DDR | Double data rate |\n| DDR5 | Latest generation |\n\n## DDR Generations:\n- DDR3: 1066-2133 MT/s\n- DDR4: 2133-3200 MT/s\n- DDR5: 4800-8400+ MT/s\n\n## Dual Channel:\n- Two memory modules\n- Double bandwidth"
         },
         {
-            "id": "hard_9",
+            "id": "hard_6",
             "type": "content",
             "title": "Logic Gates",
-            "content": "# Digital Logic 🚪\n\nPhysical transistors forming logic.\n- **AND**: Both on $\\to$ On.\n- **OR**: One on $\\to$ On.\n- **NOT**: On $\\to$ Off.\nBillions of these make a CPU."
-        },
-        {
-            "id": "hard_10",
-            "type": "content",
-            "title": "Moore's Law",
-            "content": "# Shrinking 🔬\n\n\"The number of transistors on a chip doubles every ~2 years.\"\n- Why computers get faster and smaller.\n- Slowing down recently due to physical limits (atoms are small!)."
-        },
-        {
-            "id": "hard_11",
-            "type": "content",
-            "title": "Cooling Systems",
-            "content": "# Heat Management ❄️\n\nElectricity causes heat.\n- **Heat Sink**: Metal fins to dissipate heat.\n- **Fans**: Move air.\n- **Liquid Cooling**: Water loop for high performance."
-        },
-        {
-            "id": "hard_12",
-            "type": "content",
-            "title": "Power Supply (PSU)",
-            "content": "# Food ⚡\n\nConverts AC wall power to DC for PC components.\n- Must be stable.\n- Modular cables allow cleaner builds."
+            "content": "# Logic Gates\n\n## Basic Gates:\n\n| Gate | Function | Output 1 when |\n|------|----------|---------------|\n| AND | A and B | Both inputs 1 |\n| OR | A or B | Either input 1 |\n| NOT | Invert | Input is 0 |\n| NAND | NOT AND | Not both 1 |\n| NOR | NOT OR | Neither is 1 |\n| XOR | Exclusive OR | Exactly one is 1 |\n\n## Universal Gates:\n- NAND can make any gate\n- NOR can make any gate\n\n## Building Blocks:\n- Gates -> Adders -> ALU\n- Gates -> Flip-flops -> Memory"
         },
         {
             "id": "hard_quiz_2",
             "type": "quiz",
-            "title": "Brain Quiz",
-            "content": "Component check.",
-            "quizQuestion": "Which component is primarily responsible for executing program instructions?",
+            "title": "Memory Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "RAM is:",
             "quizOptions": [
-                "GPU",
-                "RAM",
-                "CPU",
-                "Motherboard"
+                "Permanent storage",
+                "Volatile memory",
+                "Part of the CPU",
+                "An output device"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "hard_7",
+            "type": "content",
+            "title": "Boolean Algebra",
+            "content": "# Boolean Algebra\n\n## Basic Operations:\n```\nAND: A dot B or AB\nOR: A + B\nNOT: A' or ~A\n```\n\n## Laws:\n```\nIdentity: A + 0 = A, A dot 1 = A\nNull: A + 1 = 1, A dot 0 = 0\nComplement: A + A' = 1, A dot A' = 0\n```\n\n## De Morgan's Laws:\n```\n(AB)' = A' + B'\n(A + B)' = A' dot B'\n```\n\n## Applications:\n- Circuit simplification\n- Code optimization\n- Logic design"
+        },
+        {
+            "id": "hard_8",
+            "type": "content",
+            "title": "Storage Devices - HDD",
+            "content": "# Hard Disk Drive (HDD)\n\n## How It Works:\n- Spinning magnetic platters\n- Read/write head on arm\n- Data stored magnetically\n\n## Specifications:\n| Spec | Typical |\n|------|--------|\n| Capacity | 1-20 TB |\n| Speed | 5400-7200 RPM |\n| Read speed | 100-200 MB/s |\n| Access time | 5-10 ms |\n\n## Advantages:\n- Large capacity\n- Low cost per GB\n- Good for archives\n\n## Disadvantages:\n- Mechanical = fragile\n- Slower than SSD\n- More power consumption"
+        },
+        {
+            "id": "hard_9",
+            "type": "content",
+            "title": "Storage Devices - SSD",
+            "content": "# Solid State Drive (SSD)\n\n## How It Works:\n- Flash memory (NAND)\n- No moving parts\n- Electrical storage\n\n## Specifications:\n| Spec | Typical |\n|------|--------|\n| Capacity | 128 GB - 8 TB |\n| Read speed | 500-7000 MB/s |\n| Write speed | 400-5000 MB/s |\n| Access time | 0.05-0.1 ms |\n\n## Types:\n- SATA SSD: ~550 MB/s\n- NVMe SSD: 3000-7000 MB/s\n\n## Advantages:\n- Much faster\n- No moving parts\n- Silent, durable\n\n## Disadvantages:\n- Higher cost per GB\n- Write endurance limits"
+        },
+        {
+            "id": "hard_10",
+            "type": "content",
+            "title": "Input/Output Systems",
+            "content": "# Input/Output (I/O) Systems\n\n## Input Devices:\n- Keyboard\n- Mouse\n- Scanner\n- Microphone\n- Camera\n\n## Output Devices:\n- Monitor\n- Printer\n- Speakers\n- Projector\n\n## I/O Communication:\n| Method | Description |\n|--------|------------|\n| Polling | CPU checks device status |\n| Interrupts | Device signals CPU |\n| DMA | Direct memory access |\n\n## Buses:\n- Address bus: Location\n- Data bus: Information\n- Control bus: Commands"
+        },
+        {
+            "id": "hard_quiz_3",
+            "type": "quiz",
+            "title": "Storage Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "SSDs are faster than HDDs because:",
+            "quizOptions": [
+                "They spin faster",
+                "They have no moving parts",
+                "They are larger",
+                "They use magnetic storage"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "hard_11",
+            "type": "content",
+            "title": "Ports and Interfaces",
+            "content": "# Ports and Interfaces\n\n## Common Ports:\n\n| Port | Speed | Use |\n|------|-------|-----|\n| USB 2.0 | 480 Mbps | Peripherals |\n| USB 3.0 | 5 Gbps | Fast transfer |\n| USB-C | Up to 40 Gbps | Universal |\n| HDMI | N/A | Video/audio |\n| DisplayPort | N/A | High-res display |\n| Ethernet | 1-10 Gbps | Network |\n| SATA | 6 Gbps | Storage |\n| PCIe | 16+ GB/s | Expansion cards |\n\n## Thunderbolt:\n- High speed (40 Gbps+)\n- Daisy chaining\n- Power delivery"
+        },
+        {
+            "id": "hard_12",
+            "type": "content",
+            "title": "Motherboard",
+            "content": "# Motherboard\n\n## Main PCB connecting all components.\n\n## Key Components:\n| Component | Function |\n|-----------|----------|\n| CPU socket | Processor mounting |\n| RAM slots | Memory modules |\n| PCIe slots | Graphics, expansion |\n| Chipset | Communication hub |\n| BIOS/UEFI | Boot firmware |\n| Power connectors | Electricity |\n\n## Form Factors:\n- ATX: Standard desktop\n- Micro-ATX: Smaller\n- Mini-ITX: Compact builds\n\n## BIOS/UEFI:\n- Basic Input/Output System\n- Boot sequence\n- Hardware configuration"
         },
         {
             "id": "hard_13",
             "type": "content",
-            "title": "Ports and Interfaces",
-            "content": "# Connections 🔌\n\n- **USB**: Universal Serial Bus (Connects everything).\n- **HDMI/DisplayPort**: Video.\n- **Ethernet**: Wired Internet.\n- **Thunderbolt**: High speed data/video."
-        },
-        {
-            "id": "hard_14",
-            "type": "content",
-            "title": "Embedded Systems",
-            "content": "# Hidden Computers 📟\n\nTiny computers inside other devices.\n- Washing machines, Cars, Traffic lights.\n- Usually Low power, Real-time OS."
-        },
-        {
-            "id": "hard_15",
-            "type": "content",
-            "title": "Quantum Computing",
-            "content": "# The Future? ⚛️\n\nUses Quantum Bits (Qubits).\n- Superposition: Can be 0 and 1 at same time.\n- Exponentially faster for specific math problems.\n- Still experimental."
-        },
-        {
-            "id": "hard_16",
-            "type": "content",
-            "title": "Von Neumann Architecture",
-            "content": "# The Standard 🏛️\n\nDesign of almost all modern computers.\n- Shared memory for Data and Instructions.\n- Fetch-Decode-Execute cycle."
-        },
-        {
-            "id": "hard_17",
-            "type": "content",
-            "title": "Hardware Summary",
-            "content": "# Recap 📝\n\n- **CPU** thinks, **RAM** remembers now, **SSD** remembers forever.\n- **Binary** underlies everything.\n- Hardware relies on physics (electricity)."
+            "title": "Summary",
+            "content": "# Computer Hardware Summary\n\n## CPU:\n- Fetch, decode, execute, store\n- Cores, cache, clock speed\n\n## Memory:\n| Type | Purpose |\n|------|--------|\n| Cache | Fastest, CPU-close |\n| RAM | Volatile, working memory |\n| SSD/HDD | Permanent storage |\n\n## Logic Gates:\n- AND, OR, NOT, NAND, XOR\n- Build all digital circuits\n\n## Storage:\n- HDD: Large, cheap, slow\n- SSD: Fast, no moving parts\n\n## I/O:\n- Buses connect components\n- Ports for external devices\n\n> **Congratulations!** You've completed Computer Hardware!"
         }
     ]
 }

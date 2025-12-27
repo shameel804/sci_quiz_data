@@ -2,138 +2,148 @@
     "id": "learn_civil",
     "topicId": "civil",
     "topicTitle": "Civil Engineering",
-    "description": "Building civilization, literally.",
-    "baseKP": 100,
+    "description": "Explore structures, materials, and infrastructure design",
+    "baseKP": 75,
     "slides": [
         {
             "id": "civil_1",
             "type": "content",
-            "title": "What is Civil Engineering?",
-            "content": "# Infrastructure 🏗️\n\nOldest engineering discipline (after Military).\n- Designing and building public works.\n- Roads, Bridges, Dams, Airports, Water Supply."
+            "title": "Welcome to Civil Engineering",
+            "content": "# Introduction to Civil Engineering\n\nWelcome to **Civil Engineering** - building infrastructure!\n\n## What You Will Learn:\n- **Structures** - Buildings and bridges\n- **Materials** - Concrete, steel, etc.\n- **Geotechnical** - Foundations and soil\n- **Transportation** - Roads and systems\n- **Water Resources** - Dams and supply\n\n> **Fun Fact:** The pyramids of Egypt are civil engineering marvels over 4,500 years old!"
         },
         {
             "id": "civil_2",
             "type": "content",
-            "title": "Structural Engineering",
-            "content": "# Standing Up 🏢\n\nEnsuring buildings don't fall down.\n- **Dead Load**: Weight of the building itself.\n- **Live Load**: Weight of people/furniture.\n- **Environmental Load**: Wind/Snow/Earthquake."
+            "title": "Types of Loads",
+            "content": "# Types of Loads\n\n## Structural Loads:\n\n| Load Type | Description | Examples |\n|-----------|------------|----------|\n| Dead load | Permanent (structure weight) | Walls, floors, roof |\n| Live load | Variable (temporary) | People, furniture |\n| Wind load | Horizontal pressure | Storms |\n| Seismic | Earthquake forces | Ground motion |\n| Snow load | Seasonal | Winter accumulation |\n| Impact | Dynamic | Vehicle collision |\n\n## Load Combinations:\n- Design considers multiple loads\n- Safety factors applied\n- Building codes specify requirements"
         },
         {
             "id": "civil_3",
             "type": "content",
-            "title": "Geotechnical Engineering",
-            "content": "# Soil & Rock 🪨\n\nBuilding on the ground.\n- Everything sits on soil.\n- **Foundation**: Spreading load to prevent sinking.\n- **Soil Mechanics**: Testing dirt strength."
-        },
-        {
-            "id": "civil_4",
-            "type": "content",
-            "title": "Transportation Engineering",
-            "content": "# Moving People 🛣️\n\n- **Highway Design**: Curves, banking, traffic flow.\n- **Traffic Engineering**: Timing lights to reduce jams.\n- **Railways & Airports**."
-        },
-        {
-            "id": "civil_5",
-            "type": "content",
-            "title": "Bridge Design",
-            "content": "# Crossing Gaps 🌉\n\n- **Beam Bridge**: Simple plank.\n- **Arch Bridge**: Uses compression (Stone/Roman).\n- **Suspension Bridge**: Cables (Golden Gate).\n- **Cable-Stayed**: Cables directly from tower."
-        },
-        {
-            "id": "civil_6",
-            "type": "content",
-            "title": "Materials: Concrete",
-            "content": "# Liquid Stone 🧱\n\nCement + Sand + Gravel + Water.\n- **Hydration**: Chemical reaction that hardens it (It generates heat!).\n- Great in Compression (Squeezing).\n- Weak in Tension (Pulling)."
-        },
-        {
-            "id": "civil_7",
-            "type": "content",
-            "title": "Reinforced Concrete",
-            "content": "# Steel + Stone 🤝\n\nConcrete loves Compression. Steel loves Tension.\n- Adding steel bars (Rebar) inside concrete makes it strong everywhere.\n- Used in almost all modern construction."
+            "title": "Structural Elements",
+            "content": "# Structural Elements\n\n## Main Components:\n\n| Element | Function | Forces |\n|---------|----------|--------|\n| Beams | Horizontal spanning | Bending, shear |\n| Columns | Vertical support | Compression |\n| Trusses | Triangular frameworks | Tension, compression |\n| Slabs | Horizontal surfaces | Bending |\n| Arches | Curved spanning | Compression |\n| Cables | Suspension | Tension |\n\n## Structural Systems:\n- Frame structures\n- Shell structures\n- Tensile structures\n- Hybrid systems"
         },
         {
             "id": "civil_quiz_1",
             "type": "quiz",
-            "title": "Material Quiz",
-            "content": "Strength check.",
-            "quizQuestion": "Concrete is extremely strong under which type of force?",
+            "title": "Loads Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Dead load refers to:",
             "quizOptions": [
-                "Tension (Pulling)",
-                "Torsion (Twisting)",
-                "Compression (Squeezing)",
-                "Shear (Sliding)"
+                "People in building",
+                "Wind pressure",
+                "Structure's own weight",
+                "Earthquake forces"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "civil_8",
+            "id": "civil_4",
             "type": "content",
-            "title": "Water Resources",
-            "content": "# Water Cycle Use 💧\n\n- **Hydrology**: Predicting rainfall and flood/droughts.\n- **Dams**: Storage and Power.\n- **Canals**: Moving water for irrigation."
+            "title": "Concrete",
+            "content": "# Concrete\n\n## Composition:\n- Cement (10-15%)\n- Water (15-20%)\n- Fine aggregate - sand (25-30%)\n- Coite aggregate - gravel (40-50%)\n\n## Properties:\n- Compressive strength: 20-50 MPa typical\n- Weak in tension\n- Durable, fire-resistant\n- Moldable when fresh\n\n## Types:\n| Type | Use |\n|------|-----|\n| Plain | Non-structural |\n| Reinforced | Structural (with steel) |\n| Prestressed | Long spans |\n| High-performance | Special applications |"
         },
         {
-            "id": "civil_9",
+            "id": "civil_5",
             "type": "content",
-            "title": "Environmental Engineering",
-            "content": "# Sanitation 🚽\n\n- **Water Treatment**: Making river water drinkable (Filtering/Chlorine).\n- **Wastewater Treatment**: Making sewage safe to return to river.\n- Saved more lives than doctors in history."
+            "title": "Steel Construction",
+            "content": "# Steel Construction\n\n## Properties:\n- High strength-to-weight ratio\n- Ductile (bends before breaking)\n- Yield strength: 250-400 MPa\n- Uniform, predictable\n\n## Structural Shapes:\n- I-beams (W-shapes)\n- Channels (C-shapes)\n- Angles (L-shapes)\n- Tubes (hollow sections)\n\n## Connections:\n| Type | Advantages |\n|------|------------|\n| Bolted | Easy to assemble |\n| Welded | Strong, rigid |\n| Riveted | Historical |\n\n## Applications:\n- High-rise buildings\n- Long-span bridges\n- Industrial structures"
         },
         {
-            "id": "civil_10",
+            "id": "civil_6",
             "type": "content",
-            "title": "Surveying",
-            "content": "# Measuring Land 🔭\n\nDetailed mapping of terrain.\n- **Total Station**: Laser measurement tool.\n- **GPS**: Satellite positioning.\n- **GIS**: Mapping software."
-        },
-        {
-            "id": "civil_11",
-            "type": "content",
-            "title": "Construction Management",
-            "content": "# The Plan 👷\n\n- Scheduling (Gantt Charts).\n- Cost Estimation.\n- Safety Management.\n- Bringing the blueprint to life."
-        },
-        {
-            "id": "civil_12",
-            "type": "content",
-            "title": "Urban Planning",
-            "content": "# City Design 🏙️\n\nZoning land use (Residential vs Industrial).\n- Designing transit networks.\n- Creating sustainable, livable cities."
+            "title": "Other Materials",
+            "content": "# Other Construction Materials\n\n## Timber:\n- Renewable, sustainable\n- Good strength-to-weight\n- Vulnerable to moisture, fire\n- Cross-laminated timber (CLT) is growing\n\n## Masonry:\n- Bricks, blocks, stone\n- Durable, fire-resistant\n- Good in compression\n- Heavy\n\n## Composites:\n- Fiber-reinforced polymers (FRP)\n- High strength, lightweight\n- Corrosion resistant\n- Carbon fiber, fiberglass\n\n## Sustainability:\n- Recycled materials\n- Low-carbon concrete\n- Life-cycle assessment"
         },
         {
             "id": "civil_quiz_2",
             "type": "quiz",
-            "title": "Environment Quiz",
-            "content": "Health check.",
-            "quizQuestion": "What process removes solids and kills bacteria in water supplies?",
+            "title": "Materials Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Concrete is strong in:",
             "quizOptions": [
-                "Hydrology",
-                "Water Treatment",
-                "Traffic Engineering",
-                "Surveying"
+                "Tension",
+                "Compression",
+                "Both equally",
+                "Neither"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "civil_7",
+            "type": "content",
+            "title": "Beam and Column Design",
+            "content": "# Beam and Column Design\n\n## Beam Design:\n- Calculate bending moment (M)\n- Calculate shear force (V)\n- Select appropriate section\n- Check deflection limits\n\n## Column Design:\n- Axial compression\n- Buckling consideration\n- Slenderness ratio: L/r\n- Euler buckling formula\n\n## Design Codes:\n- ACI (concrete)\n- AISC (steel)\n- Eurocode\n- Local building codes\n\n## Safety Factors:\n- Load factors (increase loads)\n- Resistance factors (reduce capacity)"
+        },
+        {
+            "id": "civil_8",
+            "type": "content",
+            "title": "Bridge Types",
+            "content": "# Bridge Types\n\n## Classification by Structure:\n\n| Type | Span | Principle |\n|------|------|----------|\n| Beam/Girder | Short-Medium | Simple bending |\n| Arch | Medium | Compression |\n| Truss | Medium-Long | Triangles |\n| Suspension | Very Long | Cables in tension |\n| Cable-stayed | Long | Direct cables |\n| Cantilever | Medium-Long | Balanced sections |\n\n## Famous Examples:\n- Golden Gate (suspension, 1280m)\n- Sydney Harbour (arch, 503m)\n- Millau Viaduct (cable-stayed, 2460m)\n- Akashi Kaikyo (suspension, 1991m)"
+        },
+        {
+            "id": "civil_9",
+            "type": "content",
+            "title": "Bridge Design",
+            "content": "# Bridge Design Considerations\n\n## Design Factors:\n- Traffic loads\n- Environmental conditions\n- Span length\n- Soil conditions\n- Aesthetics\n- Budget\n\n## Components:\n- Deck: Traffic surface\n- Superstructure: Main spanning\n- Substructure: Piers, abutments\n- Foundation: Support in ground\n\n## Analysis:\n- Static analysis\n- Dynamic (wind, earthquake)\n- Fatigue considerations\n- Long-term effects"
+        },
+        {
+            "id": "civil_quiz_3",
+            "type": "quiz",
+            "title": "Bridges Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Suspension bridges are best for:",
+            "quizOptions": [
+                "Short spans",
+                "Very long spans",
+                "Underground",
+                "Temporary use"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "civil_10",
+            "type": "content",
+            "title": "Geotechnical Engineering",
+            "content": "# Geotechnical Engineering\n\n## Soil Types:\n\n| Type | Properties |\n|------|------------|\n| Clay | Fine, plastic, low permeability |\n| Sand | Coarse, granular, high permeability |\n| Silt | Medium, low plasticity |\n| Gravel | Large particles, strong |\n| Rock | Very strong, stable |\n\n## Soil Properties:\n- Bearing capacity\n- Shear strength\n- Compressibility\n- Permeability\n\n## Site Investigation:\n- Boring and sampling\n- Standard penetration test (SPT)\n- Cone penetration test (CPT)"
+        },
+        {
+            "id": "civil_11",
+            "type": "content",
+            "title": "Foundations",
+            "content": "# Foundations\n\n## Shallow Foundations:\n- Spread footings\n- Mat/raft foundations\n- Combined footings\n- Used when good soil is near surface\n\n## Deep Foundations:\n- Driven piles\n- Drilled shafts\n- Caissons\n- Used when good soil is deep\n\n## Selection Factors:\n- Soil conditions\n- Load magnitude\n- Water table\n- Adjacent structures\n- Cost\n\n## Settlement:\n- Immediate settlement\n- Consolidation (long-term)\n- Differential settlement (problematic)"
+        },
+        {
+            "id": "civil_12",
+            "type": "content",
+            "title": "Transportation Engineering",
+            "content": "# Transportation Engineering\n\n## Road Design:\n- Geometric design (curves, grades)\n- Pavement design\n- Drainage\n- Signage and markings\n\n## Design Speed:\n- Determines geometry\n- Stopping sight distance\n- Horizontal curves\n- Vertical curves\n\n## Pavement Types:\n| Type | Materials |\n|------|----------|\n| Flexible | Asphalt layers |\n| Rigid | Concrete slabs |\n| Composite | Both |\n\n## Traffic Engineering:\n- Capacity analysis\n- Signal timing\n- Intersection design"
+        },
+        {
             "id": "civil_13",
             "type": "content",
-            "title": "Failures",
-            "content": "# Learning from Errors ⚠️\n\n- **Tacoma Narrows**: Wind resonance destroyed bridge.\n- **Hyatt Regency**: Walkway collapsed due to design change.\n- Civil Engineers hold public safety in their hands."
+            "title": "Water Resources",
+            "content": "# Water Resources Engineering\n\n## Components:\n- Water supply systems\n- Wastewater treatment\n- Stormwater management\n- Dams and reservoirs\n\n## Hydraulics:\n- Open channel flow\n- Pipe flow\n- Pumping systems\n\n## Water Treatment:\n- Coagulation/flocculation\n- Sedimentation\n- Filtration\n- Disinfection\n\n## Dams:\n| Type | Material |\n|------|----------|\n| Gravity | Concrete |\n| Arch | Concrete |\n| Embankment | Earth, rock |\n| Buttress | Concrete |"
+        },
+        {
+            "id": "civil_quiz_4",
+            "type": "quiz",
+            "title": "Foundations Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Piles are used when:",
+            "quizOptions": [
+                "Soil is strong near surface",
+                "Good soil is deep below",
+                "No water present",
+                "Only for small buildings"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "civil_14",
             "type": "content",
-            "title": "Earthquake Design",
-            "content": "# Seismic Safery 📉\n\n- **Ductility**: Ability to bend without breaking.\n- **Base Isolation**: Building floats on pads.\n- **Tuned Mass Damper**: Giant pendulum to counter swaying."
-        },
-        {
-            "id": "civil_15",
-            "type": "content",
-            "title": "Sustainability in Civil",
-            "content": "# Green Building 🌿\n\nLEED Certification.\n- Using recycled materials.\n- Energy efficient design.\n- Green roofs and rain gardens."
-        },
-        {
-            "id": "civil_16",
-            "type": "content",
-            "title": "Coastal Engineering",
-            "content": "# Sea Defense 🌊\n\n- Protecting land from erosion.\n- **Seawalls**, **Breakwaters**, **Jetties**.\n- Managing rising sea levels."
-        },
-        {
-            "id": "civil_17",
-            "type": "content",
-            "title": "Civil Eng Summary",
-            "content": "# Recap 📝\n\n- **Structures** resist gravity.\n- **Water** is managed for life.\n- **Transport** moves society.\n- We build the stage for human life."
+            "title": "Summary",
+            "content": "# Civil Engineering Summary\n\n## Loads:\n- Dead (permanent), Live (variable)\n- Wind, Seismic, Snow\n\n## Materials:\n| Material | Strength |\n|----------|----------|\n| Concrete | Compression |\n| Steel | Tension and compression |\n| Timber | Variable |\n\n## Bridge Types:\n- Beam, Arch, Truss, Suspension, Cable-stayed\n\n## Foundations:\n- Shallow vs Deep\n- Depends on soil and load\n\n## Other Areas:\n- Transportation\n- Water resources\n- Environmental\n\n> **Congratulations!** You've completed Civil Engineering!"
         }
     ]
 }

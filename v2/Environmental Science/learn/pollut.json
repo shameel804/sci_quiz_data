@@ -1,139 +1,53 @@
 {
     "id": "learn_pollut",
     "topicId": "pollut",
-    "topicTitle": "Pollution Control",
-    "description": "Cleaning up the mess.",
-    "baseKP": 100,
+    "topicTitle": "Pollution",
+    "description": "Explore types of pollution, sources, and mitigation strategies",
+    "baseKP": 75,
     "slides": [
         {
             "id": "pollut_1",
             "type": "content",
-            "title": "What is Pollution?",
-            "content": "# Contamination 🌫️\n\nIntroduction of harmful materials into the environment.\n- **Point Source**: From a specific pipe (Factory).\n- **Non-Point Source**: Scattered (Runoff from city streets)."
+            "title": "Welcome to Pollution",
+            "content": "# Introduction to Pollution\n\nWelcome to **Pollution** - understanding environmental contamination!\n\n## What You Will Learn:\n- **Air Pollution** - Atmospheric contaminants\n- **Water Pollution** - Aquatic contamination\n- **Soil Pollution** - Land contamination\n- **Solutions** - Prevention and cleanup\n\n> **Fun Fact:** Air pollution causes more deaths annually than car accidents!"
         },
         {
             "id": "pollut_2",
             "type": "content",
             "title": "Air Pollution",
-            "content": "# Bad Air 😷\n\n- **Particulates (PM2.5)**: Tiny dust entering lungs.\n- **NOx / SOx**: Acid rain precursors.\n- **Smog**: Sunlight + Pollutants = Ozone at ground level.\n- Causes asthma and heart disease."
+            "content": "# Air Pollution\n\n## Major Pollutants:\n\n| Pollutant | Source |\n|-----------|--------|\n| CO | Combustion |\n| SO2 | Coal burning |\n| NOx | Vehicles |\n| Particulates | Industry, fires |\n| Ozone (O3) | Secondary (smog) |\n| VOCs | Solvents, fuels |\n\n## Effects:\n- Respiratory disease\n- Acid rain (SO2, NOx)\n- Smog\n- Ozone depletion\n- Climate change\n\n## Indoor Air:\n- Radon\n- Formaldehyde\n- CO from stoves"
         },
         {
             "id": "pollut_3",
             "type": "content",
-            "title": "Water Pollution",
-            "content": "# Dirty Water 🚰\n\n- **Sewage**: Disease (Cholera).\n- **Industrial Waste**: Heavy metals (Mercury, Lead).\n- **Oil Spills**: Coats birds/fish.\n- **Nutrient Runoff**: Fertilizer."
-        },
-        {
-            "id": "pollut_4",
-            "type": "content",
-            "title": "Eutrophication",
-            "content": "# Dead Zones 💀\n\nToo many nutrients (Nitrogen/Phosphorus) in water.\n1. Algae Bloom.\n2. Algae die and rot.\n3. Bacteria eat them and use all Oxygen.\n4. Fish suffocate."
-        },
-        {
-            "id": "pollut_5",
-            "type": "content",
-            "title": "Soil Pollution",
-            "content": "# Toxic Ground ☢️\n\n- Pesticides/Herbicides.\n- Landfills leaking (Leachate).\n- Industrial dumping.\n- Contaminates food we grow."
+            "title": "Water and Soil Pollution",
+            "content": "# Water and Soil Pollution\n\n## Water Pollutants:\n\n| Type | Source |\n|------|--------|\n| Pathogens | Sewage |\n| Nutrients | Agriculture |\n| Heavy metals | Industry |\n| Pesticides | Farming |\n| Oil | Spills |\n| Plastics | Everywhere |\n\n## Eutrophication:\n- Excess nutrients (N, P)\n- Algal blooms\n- Oxygen depletion\n- Dead zones\n\n## Soil Contamination:\n- Heavy metals\n- Pesticides\n- Industrial waste\n- Affects food safety"
         },
         {
             "id": "pollut_quiz_1",
             "type": "quiz",
-            "title": "Source Quiz",
-            "content": "Origin check.",
-            "quizQuestion": "Runoff from a large city parking lot is an example of:",
+            "title": "Pollution Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Eutrophication is caused by excess:",
             "quizOptions": [
-                "Point Source Pollution",
-                "Non-Point Source Pollution",
-                "Clean Energy",
-                "Filtering"
+                "Heavy metals",
+                "Nutrients",
+                "Plastics",
+                "Carbon dioxide"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "pollut_6",
+            "id": "pollut_4",
             "type": "content",
-            "title": "Plastic Pollution",
-            "content": "# Forever Trash 🥡\n\nPlastic doesn't degrade, it breaks into **Microplastics**.\n- Found in Marianas Trench and human blood.\n- Animals eat it mistaking it for food."
+            "title": "Solutions",
+            "content": "# Pollution Solutions\n\n## Prevention:\n- Cleaner technology\n- Reduce consumption\n- Substitute less harmful materials\n\n## Control:\n- Emission limits\n- Treatment facilities\n- Filters, scrubbers\n\n## Remediation:\n- Soil cleanup\n- Water treatment\n- Bioremediation\n\n## Policy:\n- Clean Air/Water Acts\n- International agreements\n- Cap and trade"
         },
         {
-            "id": "pollut_7",
+            "id": "pollut_5",
             "type": "content",
-            "title": "Waste Management",
-            "content": "# Bin It 🗑️\n\n- **Landfill**: Burying it (Methane risk).\n- **Incineration**: Burning it (Energy, but ash/gases).\n- **Recycling**: Melt and reuse.\n- **Composting**: Rotting organic waste."
-        },
-        {
-            "id": "pollut_8",
-            "type": "content",
-            "title": "Bioremediation",
-            "content": "# Bug Cleanup 🦠\n\nUsing microbes/plants to clean pollution.\n- Bacteria that eat oil spills.\n- Sunflowers absorbing radiation (Chernobyl).\n- Nature healing nature."
-        },
-        {
-            "id": "pollut_9",
-            "type": "content",
-            "title": "Noise Pollution",
-            "content": "# Loud 🔊\n\nExcessive noise harms health.\n- Stress, Sleep loss, Hearing loss.\n- Disturbs animals (Whales using sonar)."
-        },
-        {
-            "id": "pollut_10",
-            "type": "content",
-            "title": "Light Pollution",
-            "content": "# Bright Nights 💡\n\nArtificial light at night.\n- Disrupts circadian rhythms.\n- Confuses baby turtles.\n- Can't see stars."
-        },
-        {
-            "id": "pollut_11",
-            "type": "content",
-            "title": "Thermal Pollution",
-            "content": "# Hot Water 🛁\n\nFactories dumping hot water into rivers.\n- Warmer water holds less Oxygen.\n- Kills fish."
-        },
-        {
-            "id": "pollut_quiz_2",
-            "type": "quiz",
-            "title": "Tech Quiz",
-            "content": "Cleanup check.",
-            "quizQuestion": "The use of bacteria to clean up an oil spill is called:",
-            "quizOptions": [
-                "Bioremediation",
-                "Incineration",
-                "Filtration",
-                "Dilution"
-            ],
-            "correctOptionIndex": 0
-        },
-        {
-            "id": "pollut_12",
-            "type": "content",
-            "title": "Mercury and Bioaccumulation",
-            "content": "# Up the Chain 🎣\n\nToxins build up in the food chain.\n- Plankton eat mercury.\n- Small fish eat plankton.\n- Big fish eat small fish (More mercury).\n- You eat Tuna (Most mercury)."
-        },
-        {
-            "id": "pollut_13",
-            "type": "content",
-            "title": "London Smog",
-            "content": "# History Lesson 🌫️\n\n1952 Great Smog.\n- Coal smoke trapped by weather.\n- Killed 12,000 people.\n- Led to Clean Air Acts."
-        },
-        {
-            "id": "pollut_14",
-            "type": "content",
-            "title": "Acid Rain",
-            "content": "# Burning Rain ☔\n\nSOx and NOx mix with clouds $\\to$ Sulfuric/Nitric Acid.\n- Kills forests and lakes.\n- Dissolves statues.\n- Solved by scrubbers on smokestacks."
-        },
-        {
-            "id": "pollut_15",
-            "type": "content",
-            "title": "Radioactive Waste",
-            "content": "# Long Hazard ☢️\n\nWaste from nuclear power/weapons.\n- Dangerous for 10,000+ years.\n- Storage in deep geological repositories."
-        },
-        {
-            "id": "pollut_16",
-            "type": "content",
-            "title": "The Solution: Prevention",
-            "content": "# Stop at Source 🛑\n\nCleaning up is hard/expensive.\n- Prevent pollution before it happens.\n- Green Engineering.\n- Ban harmful chemicals (CFCs, DDT)."
-        },
-        {
-            "id": "pollut_17",
-            "type": "content",
-            "title": "Pollution Summary",
-            "content": "# Recap 📝\n\n- **Air, Water, Soil** are all vulnerable.\n- **Plastic** doesn't go away.\n- Technology and Regulation have cleaned up a lot (Acid Rain, Ozone).\n- Still much to do."
+            "title": "Summary",
+            "content": "# Pollution Summary\n\n## Types:\n| Medium | Key Pollutants |\n|--------|---------------|\n| Air | CO, SO2, NOx, PM |\n| Water | Nutrients, pathogens |\n| Soil | Heavy metals, pesticides |\n\n## Key Issues:\n- Climate change\n- Acid rain\n- Eutrophication\n- Microplastics\n\n## Solutions:\n- Prevention > Control > Cleanup\n- Regulation and policy\n\n> **Congratulations!** You've completed Pollution!"
         }
     ]
 }

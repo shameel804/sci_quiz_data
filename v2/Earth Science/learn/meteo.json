@@ -2,138 +2,78 @@
     "id": "learn_meteo",
     "topicId": "meteo",
     "topicTitle": "Meteorology",
-    "description": "The study of the atmosphere and weather.",
-    "baseKP": 100,
+    "description": "Explore weather patterns, climate, and atmospheric phenomena",
+    "baseKP": 75,
     "slides": [
         {
             "id": "meteo_1",
             "type": "content",
-            "title": "What is Meteorology?",
-            "content": "# Looking Up ☁️\n\nScience dealing with the atmosphere and its phenomena, including weather and climate.\n- **Weather**: Short term (Raining now).\n- **Climate**: Long term average (Tropical)."
+            "title": "Welcome to Meteorology",
+            "content": "# Introduction to Meteorology\n\nWelcome to **Meteorology** - the study of weather and atmosphere!\n\n## What You Will Learn:\n- **Atmosphere** - Layers and composition\n- **Weather** - Short-term conditions\n- **Climate** - Long-term patterns\n- **Severe Weather** - Storms and hazards\n\n> **Fun Fact:** Weather vs Climate: Weather is what you wear today, climate is what clothes you have!"
         },
         {
             "id": "meteo_2",
             "type": "content",
-            "title": "Atmosphere Layers",
-            "content": "# Onion Earth 🧅\n\n1. **Troposphere**: Surface to 10km. All weather happens here.\n2. **Stratosphere**: Ozone layer. Planes fly here.\n3. **Mesosphere**: Meteors burn up.\n4. **Thermosphere**: ISS orbits, Auroras.\n5. **Exosphere**: Fades to space."
+            "title": "The Atmosphere",
+            "content": "# The Atmosphere\n\n## Composition:\n- Nitrogen: 78%\n- Oxygen: 21%\n- Argon: 0.9%\n- CO2, water vapor, trace gases: 0.1%\n\n## Layers:\n\n| Layer | Altitude | Features |\n|-------|----------|----------|\n| Troposphere | 0-12 km | Weather occurs here |\n| Stratosphere | 12-50 km | Ozone layer |\n| Mesosphere | 50-80 km | Meteors burn up |\n| Thermosphere | 80-700 km | Aurora, ISS |\n| Exosphere | 700+ km | Fades to space |\n\n## Key Properties:\n- Temperature decreases with altitude (troposphere)\n- Pressure decreases with altitude\n- Most mass in troposphere"
         },
         {
             "id": "meteo_3",
             "type": "content",
-            "title": "Atmosphere Composition",
-            "content": "# Air Mix 🌬️\n\n- **Nitrogen ($N_2$)**: 78%\n- **Oxygen ($O_2$)**: 21%\n- **Argon**: 0.9%\n- **$CO_2$**: 0.04% (Rising).\n- **Water Vapor**: 0-4% (Variable)."
-        },
-        {
-            "id": "meteo_4",
-            "type": "content",
-            "title": "The Water Cycle",
-            "content": "# Hydrologic Cycle 🚲\n\n1. **Evaporation**: Liquid $\\to$ Gas.\n2. **Condensation**: Gas $\\to$ Liquid (Clouds).\n3. **Precipitation**: Rain/Snow falling.\n4. **Runoff/Collection**: Rivers/Oceans."
-        },
-        {
-            "id": "meteo_5",
-            "type": "content",
-            "title": "Clouds",
-            "content": "# Floating Water 🐑\n\n- **Cumulus**: Puffy white cotton balls (Fair weather).\n- **Stratus**: Flat gray blanket (Overcast).\n- **Cirrus**: High, thin wisps of ice (Change coming).\n- **Cumulonimbus**: Tall anvil thunderheads (Storms)."
+            "title": "Weather Factors",
+            "content": "# Weather Factors\n\n## Temperature:\n- Sun heats Earth unevenly\n- Warm air rises, cool air sinks\n\n## Humidity:\n- Amount of water vapor\n- Relative humidity: % of maximum\n- Dew point: Temperature for condensation\n\n## Pressure:\n- High pressure: Clear, calm\n- Low pressure: Clouds, storms\n- Wind flows from high to low\n\n## Wind:\n- Caused by pressure differences\n- Coriolis effect: Curves due to Earth's rotation\n\n## Clouds:\n\n| Type | Altitude | Appearance |\n|------|----------|------------|\n| Cumulus | Low | Puffy, fair weather |\n| Stratus | Low | Layered, overcast |\n| Cirrus | High | Wispy, ice crystals |\n| Cumulonimbus | Tall | Thunderstorms |"
         },
         {
             "id": "meteo_quiz_1",
             "type": "quiz",
-            "title": "Layer Quiz",
-            "content": "Height check.",
-            "quizQuestion": "In which layer of the atmosphere does all weather occur?",
+            "title": "Weather Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In which atmospheric layer does weather occur?",
             "quizOptions": [
                 "Stratosphere",
-                "Mesosphere",
                 "Troposphere",
+                "Mesosphere",
                 "Thermosphere"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "meteo_6",
-            "type": "content",
-            "title": "Air Pressure",
-            "content": "# Weight of Air 🏋️\n\nMeasured with Barometer.\n- **High Pressure (H)**: Air sinks. Clear sunny skies.\n- **Low Pressure (L)**: Air rises. Clouds and storms form.\nWind blows from High to Low."
-        },
-        {
-            "id": "meteo_7",
-            "type": "content",
-            "title": "Wind Systems",
-            "content": "# Global Circulation 🌎\n\n- **Trade Winds**: Blow East to West near equator.\n- **Westerlies**: Blow West to East (Mid latitudes).\n- **Coriolis Effect**: Curvature due to Earth's rotation (Right in North, Left in South)."
-        },
-        {
-            "id": "meteo_8",
-            "type": "content",
-            "title": "Fronts",
-            "content": "# Battle Lines ⚔️\n\nBoundary between air masses.\n- **Cold Front**: Cold air shoves warm air up. Fast storms.\n- **Warm Front**: Warm air slides over cold. Long drizzle.\n- **Stationary Front**: Standoff."
-        },
-        {
-            "id": "meteo_9",
-            "type": "content",
-            "title": "Thunderstorms",
-            "content": "# Boom ⚡\n\nNeed: Moisture, Instability, Lift.\n- **Lightning**: Static discharge ($30,000^\\circ C$).\n- **Thunder**: Sonic boom from expanding air.\n\nWARNING: If you hear thunder, you are close enough to be struck."
-        },
-        {
-            "id": "meteo_10",
-            "type": "content",
-            "title": "Tornadoes",
-            "content": "# Twisters 🌪️\n\nViolent rotating column of air.\n- Form from Supercell thunderstorms.\n- **Fujita Scale (EF0-EF5)**: Based on damage.\n- USA \"Tornado Alley\" has most in world."
-        },
-        {
-            "id": "meteo_11",
-            "type": "content",
-            "title": "Hurricanes",
-            "content": "# Giant Engines 🌀\n\nMassive storm systems over warm oceans.\n- Also called Typhoons/Cyclones.\n- Eye is calm.\n- **Storm Surge**: Wall of water pushed ashore (Deadliest part)."
-        },
-        {
-            "id": "meteo_quiz_2",
-            "type": "quiz",
-            "title": "Storm Quiz",
-            "content": "Safety check.",
-            "quizQuestion": "Where is the calmest part of a hurricane?",
-            "quizOptions": [
-                "The Eye Wall",
-                "The Eye",
-                "Outer Bands",
-                "The Surge"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "meteo_12",
+            "id": "meteo_4",
             "type": "content",
-            "title": "Climate Zones",
-            "content": "# Biomes 🌵🌲\n\n- **Tropical**: Hot/Wet (Rainforest).\n- **Dry**: Arid (Desert).\n- **Temperate**: Mild (Forests).\n- **Continental**: Extremes.\n- **Polar**: Freezing (Tundra)."
+            "title": "Air Masses and Fronts",
+            "content": "# Air Masses and Fronts\n\n## Air Masses:\nLarge bodies of air with uniform properties.\n\n| Type | Origin | Properties |\n|------|--------|------------|\n| Continental Polar (cP) | Land, high lat | Cold, dry |\n| Maritime Polar (mP) | Ocean, high lat | Cold, moist |\n| Continental Tropical (cT) | Land, low lat | Hot, dry |\n| Maritime Tropical (mT) | Ocean, low lat | Warm, moist |\n\n## Fronts:\nBoundaries between air masses.\n\n| Front | Symbol | Weather |\n|-------|--------|--------|\n| Cold | Blue triangles | Quick storms, temp drop |\n| Warm | Red semicircles | Gradual rain, temp rise |\n| Stationary | Both alternating | Prolonged rain |\n| Occluded | Purple both | Complex weather |"
         },
         {
-            "id": "meteo_13",
+            "id": "meteo_5",
             "type": "content",
-            "title": "El Niño / La Niña",
-            "content": "# Ocean-Air Link 🌊\n\nPeriodic warming/cooling of Pacific Ocean.\n- **El Niño**: Warm water. Disrupts global weather.\n- **La Niña**: Cool water.\nExample of how connected Earth systems are."
+            "title": "Severe Weather",
+            "content": "# Severe Weather\n\n## Thunderstorms:\n- Cumulonimbus clouds\n- Lightning, thunder, heavy rain\n- Updrafts and downdrafts\n\n## Tornadoes:\n- Violently rotating column\n- Fujita scale (F0-F5)\n- Tornado Alley (US Great Plains)\n\n## Hurricanes:\n- Tropical cyclones\n- Form over warm ocean (>26 C)\n- Eye, eyewall, rainbands\n- Saffir-Simpson scale (Cat 1-5)\n\n## Winter Storms:\n- Blizzards: heavy snow + wind\n- Ice storms\n- Lake effect snow\n\n## Safety:\n- Tornado: Shelter in interior room\n- Hurricane: Evacuate or shelter\n- Lightning: Stay indoors"
         },
         {
-            "id": "meteo_14",
+            "id": "meteo_6",
             "type": "content",
-            "title": "Forecasting",
-            "content": "# Predicting Future 🔮\n\nUsing supercomputers to model fluid dynamics.\n- **Radar**: Sees rain.\n- **Satellite**: Sees clouds.\n- Accuracy decreases with time (Chaos Theory)."
+            "title": "Climate",
+            "content": "# Climate\n\n## Definition:\nLong-term average weather patterns.\n\n## Climate Factors:\n- Latitude\n- Altitude\n- Ocean proximity\n- Ocean currents\n- Prevailing winds\n- Mountains (rain shadow)\n\n## Climate Zones:\n\n| Zone | Location | Characteristics |\n|------|----------|----------------|\n| Tropical | Equator | Hot, wet year-round |\n| Dry | Subtropics | Low precipitation |\n| Temperate | Mid-latitudes | Seasonal variation |\n| Continental | Interior | Extreme seasons |\n| Polar | High latitudes | Cold year-round |\n\n## Climate Change:\n- Rising global temperatures\n- Greenhouse effect enhanced\n- Melting ice, rising seas\n- Changed weather patterns"
         },
         {
-            "id": "meteo_15",
-            "type": "content",
-            "title": "Greenhouse Effect",
-            "content": "# Heat Trap 🌡️\n\nGases ($CO_2$, Methane) trap heat radiating from Earth.\n- Natural effect keeps Earth habitable.\n- **Global Warming**: Excess gases overheating the planet."
+            "id": "meteo_quiz_2",
+            "type": "quiz",
+            "title": "Climate Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Hurricanes form over water that is at least:",
+            "quizOptions": [
+                "15 C",
+                "20 C",
+                "26 C",
+                "35 C"
+            ],
+            "correctOptionIndex": 2
         },
         {
-            "id": "meteo_16",
+            "id": "meteo_7",
             "type": "content",
-            "title": "Ozone Layer",
-            "content": "# Sunscreen 🧴\n\n$O_3$ in Stratosphere blocks harmful UV radiation.\n- CFC chemicals caused a \"Hole\".\n- Montreal Protocol banned them, hole is healing."
-        },
-        {
-            "id": "meteo_17",
-            "type": "content",
-            "title": "Meteorology Summary",
-            "content": "# Recap 📝\n\n- **Troposphere** is the weather stage.\n- Sun heats Earth unevenly $\\to$ **Wind**.\n- Water presence determines **Precipitation**.\n- Understanding atmosphere protects lives."
+            "title": "Summary",
+            "content": "# Meteorology Summary\n\n## Atmosphere:\n- 78% N2, 21% O2\n- Weather in troposphere\n- Ozone in stratosphere\n\n## Weather Factors:\n- Temperature, humidity, pressure, wind\n- High pressure = fair; Low = storms\n\n## Severe Weather:\n| Type | Cause |\n|------|-------|\n| Thunderstorms | Unstable air |\n| Tornadoes | Rotating updrafts |\n| Hurricanes | Warm ocean |\n\n## Climate vs Weather:\n- Weather: Short-term\n- Climate: Long-term average\n\n> **Congratulations!** You've completed Meteorology!"
         }
     ]
 }

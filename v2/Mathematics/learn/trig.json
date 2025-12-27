@@ -2,138 +2,128 @@
     "id": "learn_trig",
     "topicId": "trig",
     "topicTitle": "Trigonometry",
-    "description": "Triangle Measure. Relationships between angles and sides.",
-    "baseKP": 100,
+    "description": "Explore trigonometric functions, identities, and applications",
+    "baseKP": 75,
     "slides": [
         {
             "id": "trig_1",
             "type": "content",
-            "title": "What is Trigonometry?",
-            "content": "# Triangles 📐\n\nDeals with relationships between side lengths and angles of triangles.\nEssential for:\n- Navigation (GPS)\n- Construction\n- Physics (Waves)"
+            "title": "Welcome to Trigonometry",
+            "content": "# Introduction to Trigonometry\n\nWelcome to **Trigonometry** - the study of triangles and waves!\n\n## What You Will Learn:\n- **Trigonometric Ratios** - sin, cos, tan\n- **Unit Circle** - Angles and coordinates\n- **Identities** - Key relationships\n- **Inverse Functions** - Finding angles\n- **Applications** - Real-world uses\n\n> **Fun Fact:** Ancient astronomers used trigonometry to calculate distances to stars!"
         },
         {
             "id": "trig_2",
             "type": "content",
-            "title": "SOH CAH TOA",
-            "content": "# Right Triangles 💡\n\nFor angle $\\theta$:\n- **S**ine = **O**pposite / **H**ypotenuse\n- **C**osine = **A**djacent / **H**ypotenuse\n- **T**angent = **O**pposite / **A**djacent"
+            "title": "Right Triangle Ratios",
+            "content": "# Right Triangle Trigonometry\n\n## SOH-CAH-TOA:\n\n| Function | Definition |\n|----------|------------|\n| sin(theta) | Opposite / Hypotenuse |\n| cos(theta) | Adjacent / Hypotenuse |\n| tan(theta) | Opposite / Adjacent |\n\n## Reciprocal Functions:\n| Function | Definition |\n|----------|------------|\n| csc(theta) | 1 / sin |\n| sec(theta) | 1 / cos |\n| cot(theta) | 1 / tan |\n\n## Remember:\n- The angle determines the ratios\n- Hypotenuse is always longest"
         },
         {
             "id": "trig_3",
             "type": "content",
-            "title": "The Unit Circle",
-            "content": "# Circle of Radius 1 ⭕\n\nExtends trig beyond 90 degrees.\n- X-coordinate = $\\cos(\\theta)$\n- Y-coordinate = $\\sin(\\theta)$\n- Radius hypotenuse = 1"
-        },
-        {
-            "id": "trig_4",
-            "type": "content",
-            "title": "Radians vs Degrees",
-            "content": "# Slices of Pi 🥧\n\n- **Degrees**: 360 in circle.\n- **Radians**: $2\\pi$ in circle.\n\n$180^\\circ = \\pi$ radians.\nMath formulas (Calculus) work much better with radians."
+            "title": "Special Angles",
+            "content": "# Special Angles\n\n## Common Values:\n\n| Angle | sin | cos | tan |\n|-------|-----|-----|-----|\n| 0 | 0 | 1 | 0 |\n| 30 | 1/2 | sqrt(3)/2 | sqrt(3)/3 |\n| 45 | sqrt(2)/2 | sqrt(2)/2 | 1 |\n| 60 | sqrt(3)/2 | 1/2 | sqrt(3) |\n| 90 | 1 | 0 | undefined |\n\n## Memory Tricks:\n- 30-60-90 triangle: sides 1, sqrt(3), 2\n- 45-45-90 triangle: sides 1, 1, sqrt(2)"
         },
         {
             "id": "trig_quiz_1",
             "type": "quiz",
-            "title": "Ratio Quiz",
-            "content": "Definition check.",
-            "quizQuestion": "Tangent (Tan) is defined as:",
+            "title": "Ratios Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "sin(30 degrees) equals:",
             "quizOptions": [
-                "Adj / Hyp",
-                "Opp / Hyp",
-                "Opp / Adj",
-                "Hyp / Opp"
+                "0",
+                "1/2",
+                "sqrt(3)/2",
+                "1"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "trig_4",
+            "type": "content",
+            "title": "Unit Circle",
+            "content": "# The Unit Circle\n\n## Definition:\nCircle with radius 1 centered at origin.\n\n## Key Points:\nFor angle theta, the point is (cos(theta), sin(theta)).\n\n## Quadrants:\n| Quadrant | Signs (sin, cos) |\n|----------|------------------|\n| I | +, + |\n| II | +, - |\n| III | -, - |\n| IV | -, + |\n\n## Reference Angles:\n- Acute angle to x-axis\n- Same trig value magnitudes\n\n## Memory: All Students Take Calculus\n- All positive in I\n- Sin positive in II\n- Tan positive in III\n- Cos positive in IV"
         },
         {
             "id": "trig_5",
             "type": "content",
-            "title": "Pythagorean Identity",
-            "content": "# The Big One 🔑\n\n$$\\sin^2 \\theta + \\cos^2 \\theta = 1$$\n\nIdeally derived from the Unit Circle ($x^2 + y^2 = 1$).\nAllows converting between sin and cos."
+            "title": "Radians",
+            "content": "# Radians\n\n## Definition:\nAngle measure based on arc length.\n\n## Conversion:\n```\n180 degrees = pi radians\n1 radian = 180/pi degrees ≈ 57.3 degrees\n```\n\n## Common Values:\n| Degrees | Radians |\n|---------|--------|\n| 0 | 0 |\n| 30 | pi/6 |\n| 45 | pi/4 |\n| 60 | pi/3 |\n| 90 | pi/2 |\n| 180 | pi |\n| 360 | 2*pi |\n\n## Why Radians:\n- Simpler calculus formulas\n- Natural for circular motion"
         },
         {
             "id": "trig_6",
             "type": "content",
-            "title": "Graphs of Sin and Cos",
-            "content": "# Waves 〰️\n\nPeriodic functions.\n- **Amplitude**: Height from center.\n- **Period**: Length of one cycle ($2\\pi$).\n- **Phase Shift**: Horizontal shift.\nSound and Light are modeled with these waves."
-        },
-        {
-            "id": "trig_7",
-            "type": "content",
-            "title": "Inverse Trig Functions",
-            "content": "# Going Backwards 🔙\n\nIf $\\sin(30^\\circ) = 0.5$, then:\n$\\arcsin(0.5) = 30^\\circ$ (or $\\sin^{-1}$).\n\nUsed to find the Angle if you know the Sides."
-        },
-        {
-            "id": "trig_8",
-            "type": "content",
-            "title": "Law of Sines",
-            "content": "# Non-Right Triangles 1 📐\n\nFor any triangle ABC:\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nUse when you know pairs of opposite angles/sides."
-        },
-        {
-            "id": "trig_9",
-            "type": "content",
-            "title": "Law of Cosines",
-            "content": "# Non-Right Triangles 2 📐\n\n$$c^2 = a^2 + b^2 - 2ab \\cos C$$\n\nGeneralization of Pythagoras.\nUse when you know 3 sides (SSS) or Side-Angle-Side (SAS)."
-        },
-        {
-            "id": "trig_10",
-            "type": "content",
-            "title": "Reciprocal Identities",
-            "content": "# The Other Three 3️⃣\n\n- **Cosecant (csc)**: $1 / \\sin$\n- **Secant (sec)**: $1 / \\cos$\n- **Cotangent (cot)**: $1 / \\tan$"
+            "title": "Graphing Trig Functions",
+            "content": "# Graphing Trigonometric Functions\n\n## Sine and Cosine:\n- Period: 2*pi\n- Amplitude: 1\n- Range: [-1, 1]\n\n## General Form:\n```\ny = A*sin(B(x - C)) + D\n```\n- A = Amplitude\n- Period = 2*pi/B\n- C = Phase shift\n- D = Vertical shift\n\n## Tangent:\n- Period: pi\n- Vertical asymptotes at pi/2 + n*pi\n- Range: All real numbers"
         },
         {
             "id": "trig_quiz_2",
             "type": "quiz",
-            "title": "Identity Quiz",
-            "content": "Formula check.",
-            "quizQuestion": "Sin-squared + Cos-squared equals:",
+            "title": "Unit Circle Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "cos(pi) equals:",
             "quizOptions": [
                 "0",
-                "Tan-squared",
                 "1",
-                "Infinity"
+                "-1",
+                "undefined"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "trig_7",
+            "type": "content",
+            "title": "Pythagorean Identities",
+            "content": "# Pythagorean Identities\n\n## Main Identity:\n```\nsin^2(x) + cos^2(x) = 1\n```\n\n## Derived Identities:\n```\n1 + tan^2(x) = sec^2(x)\n1 + cot^2(x) = csc^2(x)\n```\n\n## Rearrangements:\n```\nsin^2(x) = 1 - cos^2(x)\ncos^2(x) = 1 - sin^2(x)\n```\n\n## Using These:\n- Simplify expressions\n- Verify identities\n- Solve equations"
+        },
+        {
+            "id": "trig_8",
+            "type": "content",
+            "title": "Sum and Difference Formulas",
+            "content": "# Sum and Difference Formulas\n\n## Sine:\n```\nsin(A + B) = sin(A)cos(B) + cos(A)sin(B)\nsin(A - B) = sin(A)cos(B) - cos(A)sin(B)\n```\n\n## Cosine:\n```\ncos(A + B) = cos(A)cos(B) - sin(A)sin(B)\ncos(A - B) = cos(A)cos(B) + sin(A)sin(B)\n```\n\n## Tangent:\n```\ntan(A + B) = (tan(A) + tan(B)) / (1 - tan(A)tan(B))\n```\n\n## Uses:\n- Find exact values\n- Simplify expressions"
+        },
+        {
+            "id": "trig_9",
+            "type": "content",
+            "title": "Double and Half Angle",
+            "content": "# Double and Half Angle Formulas\n\n## Double Angle:\n```\nsin(2x) = 2*sin(x)*cos(x)\ncos(2x) = cos^2(x) - sin^2(x)\n       = 2*cos^2(x) - 1\n       = 1 - 2*sin^2(x)\ntan(2x) = 2*tan(x) / (1 - tan^2(x))\n```\n\n## Half Angle:\n```\nsin(x/2) = +/- sqrt((1 - cos(x)) / 2)\ncos(x/2) = +/- sqrt((1 + cos(x)) / 2)\n```\n\n## Sign Choice:\nDepends on quadrant of x/2."
+        },
+        {
+            "id": "trig_10",
+            "type": "content",
+            "title": "Inverse Trig Functions",
+            "content": "# Inverse Trigonometric Functions\n\n## Notation:\n```\narcsin(x) = sin^(-1)(x)\narccos(x) = cos^(-1)(x)\narctan(x) = tan^(-1)(x)\n```\n\n## Domains and Ranges:\n| Function | Domain | Range |\n|----------|--------|-------|\n| arcsin | [-1, 1] | [-pi/2, pi/2] |\n| arccos | [-1, 1] | [0, pi] |\n| arctan | All R | (-pi/2, pi/2) |\n\n## Purpose:\n- Find angle given ratio\n- Solve trig equations"
+        },
+        {
+            "id": "trig_quiz_3",
+            "type": "quiz",
+            "title": "Identities Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "sin^2(x) + cos^2(x) equals:",
+            "quizOptions": [
+                "0",
+                "1",
+                "2",
+                "sin(2x)"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
             "id": "trig_11",
             "type": "content",
-            "title": "Double Angle Formulas",
-            "content": "# Doubling Up ✖️\n\n$\\sin(2\\theta) = 2 \\sin \\theta \\cos \\theta$\n$\\cos(2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta$\n\nUseful for simplifying complex expressions."
+            "title": "Law of Sines and Cosines",
+            "content": "# Law of Sines and Cosines\n\n## Law of Sines:\n```\na/sin(A) = b/sin(B) = c/sin(C)\n```\n\n## Use When:\n- AAS, ASA, SSA cases\n\n## Law of Cosines:\n```\nc^2 = a^2 + b^2 - 2*a*b*cos(C)\n```\n\n## Use When:\n- SAS, SSS cases\n\n## Area Formula:\n```\nArea = (1/2)*a*b*sin(C)\n```"
         },
         {
             "id": "trig_12",
             "type": "content",
-            "title": "Applications: Navigation",
-            "content": "# Bearing 🧭\n\nUse trig to calculate position from heading and distance.\nIf you walk 10km NE, how far North are you?\n$10 \\times \\cos(45^\\circ)$."
+            "title": "Applications",
+            "content": "# Applications of Trigonometry\n\n## Navigation:\n- Finding distances\n- Bearing calculations\n\n## Physics:\n- Waves and oscillations\n- Projectile motion\n- Circular motion\n\n## Engineering:\n- Structural analysis\n- Electrical circuits (AC)\n\n## Astronomy:\n- Measuring distances\n- Satellite orbits\n\n## Sound and Music:\n- Wave analysis\n- Harmonics"
         },
         {
             "id": "trig_13",
             "type": "content",
-            "title": "Applications: Physics",
-            "content": "# Forces 🏗️\n\nResolving vectors into X and Y components.\n- $F_x = F \\cos \\theta$\n- $F_y = F \\sin \\theta$\n\nSliding down a ramp, tension in wires."
-        },
-        {
-            "id": "trig_14",
-            "type": "content",
-            "title": "Polar Coordinates",
-            "content": "# Circular Grid 🎯\n\nInstead of $(x, y)$, use $(r, \\theta)$.\n- $r$: Distance from center.\n- $\\theta$: Angle.\n\n$x = r \\cos \\theta, y = r \\sin \\theta$.\nGreat for spirals and circular motion."
-        },
-        {
-            "id": "trig_15",
-            "type": "content",
-            "title": "Analytic Trigonometry",
-            "content": "# Proofs 🛡️\n\nProving one side equals the other using identities.\nLike a puzzle game to simplify equations."
-        },
-        {
-            "id": "trig_16",
-            "type": "content",
-            "title": "Oscilliation",
-            "content": "# Springs and Pendulums 🕰️\n\nSimple Harmonic Motion.\n$x(t) = A \\cos(\\omega t + \\phi)$\n\nTrig models anything that vibrates or swings."
-        },
-        {
-            "id": "trig_17",
-            "type": "content",
-            "title": "Trig Summary",
-            "content": "# Recap 📝\n\n- **SOH CAH TOA** for right triangles.\n- **Unit Circle** for all angles.\n- **Waves** describe sound and light.\n- Laws of Sines/Cosines solve any triangle."
+            "title": "Summary",
+            "content": "# Trigonometry Summary\n\n## Basic Ratios:\n- sin = Opp/Hyp\n- cos = Adj/Hyp\n- tan = Opp/Adj\n\n## Key Identities:\n```\nsin^2 + cos^2 = 1\nsin(2x) = 2*sin(x)*cos(x)\ncos(2x) = cos^2(x) - sin^2(x)\n```\n\n## Unit Circle:\n- (cos(theta), sin(theta))\n- Radians vs degrees\n\n## Triangle Laws:\n| Law | Formula |\n|-----|--------|\n| Sines | a/sin(A) = b/sin(B) |\n| Cosines | c^2 = a^2 + b^2 - 2ab*cos(C) |\n\n> **Congratulations!** You've completed Trigonometry!"
         }
     ]
 }

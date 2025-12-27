@@ -2,138 +2,110 @@
     "id": "learn_gene",
     "topicId": "gene",
     "topicTitle": "Genetics",
-    "description": "Decode the blueprint of life.",
-    "baseKP": 100,
+    "description": "Explore DNA structure, replication, gene expression, inheritance patterns, and mutations",
+    "baseKP": 75,
     "slides": [
         {
             "id": "gene_1",
             "type": "content",
-            "title": "What is Genetics?",
-            "content": "# The Instructions 📜\n\nGenetics is the study of heredity and the variation of inherited characteristics.\n\n- **Gene**: A segment of DNA that codes for a protein.\n- **Genome**: An organism's complete set of DNA."
+            "title": "Welcome to Genetics",
+            "content": "# Introduction to Genetics\n\nWelcome to **Genetics** - the study of heredity and variation!\n\n## What You Will Learn:\n- **DNA Structure** - The genetic blueprint\n- **DNA Replication** - Copying genetic material\n- **Gene Expression** - DNA to protein\n- **Mendelian Genetics** - Inheritance patterns\n- **Mutations** - Changes in DNA\n\n> **Fun Fact:** You share 99.9% of your DNA with every other human!\n\n## Key Terms:\n- **Gene:** Segment of DNA coding for a trait\n- **Allele:** Different versions of a gene\n- **Genotype:** Genetic makeup (AA, Aa, aa)\n- **Phenotype:** Physical expression\n- **Chromosome:** DNA packaged with proteins\n\n## History:\n- 1866: Mendel's laws of inheritance\n- 1953: Watson and Crick - DNA structure\n- 2003: Human Genome Project completed"
         },
         {
             "id": "gene_2",
             "type": "content",
             "title": "DNA Structure",
-            "content": "# The Double Helix 🧬\n\nDeoxyribonucleic Acid.\n- Discovered by Watson, Crick, and Franklin.\n- Sugar-Phosphate backbone.\n- 4 Nitrogen Bases: **A**denine, **T**hymine, **C**ytosine, **G**uanine.\n\nPairing Rule: **A pairs with T**, **C pairs with G**."
+            "content": "# DNA Structure\n\n**DNA = Deoxyribonucleic Acid**\n\n## Double Helix:\n- Two strands twisted together\n- Antiparallel (run opposite directions)\n- Sugar-phosphate backbone outside\n- Bases paired inside\n\n## Nucleotide Components:\n1. Phosphate group\n2. Deoxyribose sugar (5-carbon)\n3. Nitrogenous base\n\n## The Bases:\n\n**Purines (2 rings):**\n- Adenine (A)\n- Guanine (G)\n\n**Pyrimidines (1 ring):**\n- Cytosine (C)\n- Thymine (T)\n\n## Base Pairing Rules:\n```\nA pairs with T (2 hydrogen bonds)\nC pairs with G (3 hydrogen bonds)\n```\n\n## Complementary Strands:\n```\n5' - A T G C C A T - 3'\n3' - T A C G G T A - 5'\n```\n\n## Key Features:\n- Stores genetic information\n- Can be replicated\n- Directs protein synthesis\n- Can undergo mutations"
         },
         {
             "id": "gene_3",
             "type": "content",
             "title": "DNA Replication",
-            "content": "# Copying the Code 📠\n\nBefore cell division, DNA must copy itself.\n- Helicase unzips the helix.\n- DNA Polymerase adds new bases.\n- Result: Two identical strands (Semi-conservative: half old, half new)."
-        },
-        {
-            "id": "gene_4",
-            "type": "content",
-            "title": "RNA vs DNA",
-            "content": "# The Messenger 📨\n\nRNA (Ribonucleic Acid):\n- Single stranded.\n- Sugar is Ribose.\n- Has **Uracil (U)** instead of Thymine (T).\n\nRoles: mRNA (messenger), tRNA (transfer), rRNA (ribosomal)."
-        },
-        {
-            "id": "gene_5",
-            "type": "content",
-            "title": "Central Dogma",
-            "content": "# Flow of Info ➡️\n\n**DNA $\\to$ RNA $\\to$ Protein**\n\n1. **Transcription**: DNA copied to mRNA in nucleus.\n2. **Translation**: mRNA read by ribosome to build protein in cytoplasm."
+            "content": "# DNA Replication\n\n**Purpose:** Make exact copy before cell division\n\n## Process:\n\n### 1. Initiation:\n- Origin of replication\n- Helicase unwinds DNA\n- Replication bubble forms\n\n### 2. Elongation:\n- DNA polymerase adds nucleotides\n- 5' to 3' direction only\n\n**Leading strand:** Continuous synthesis\n**Lagging strand:** Okazaki fragments, joined by ligase\n\n### 3. Termination:\n- Strands complete\n- Proofreading and repair\n\n## Key Enzymes:\n\n| Enzyme | Function |\n|--------|----------|\n| Helicase | Unwinds DNA |\n| Primase | Makes RNA primer |\n| DNA Polymerase | Adds nucleotides |\n| Ligase | Joins fragments |\n\n## Result:\n- Semiconservative replication\n- Each new DNA has one old strand, one new\n- Very accurate (1 error per billion bases)\n\n## Why 5' to 3'?\n- DNA polymerase can only add to 3'-OH group\n- Creates leading/lagging strand problem"
         },
         {
             "id": "gene_quiz_1",
             "type": "quiz",
-            "title": "Code Quiz",
-            "content": "Base pairing check.",
-            "quizQuestion": "In DNA, Adenine (A) always pairs with:",
+            "title": "DNA Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "If one strand of DNA reads 5'-ATGC-3', what is the complementary strand?",
             "quizOptions": [
-                "Cytosine (C)",
-                "Guanine (G)",
-                "Thymine (T)",
-                "Uracil (U)"
+                "5'-ATGC-3'",
+                "3'-TACG-5'",
+                "5'-TACG-3'",
+                "3'-ATGC-5'"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "gene_4",
+            "type": "content",
+            "title": "Transcription",
+            "content": "# Transcription\n\n**Purpose:** Copy DNA information to mRNA\n\n## Process:\n\n### 1. Initiation:\n- RNA polymerase binds promoter\n- DNA unwinds\n\n### 2. Elongation:\n- RNA polymerase reads template strand (3' to 5')\n- Builds mRNA (5' to 3')\n- Uses uracil (U) instead of thymine\n\n### 3. Termination:\n- Reaches terminator sequence\n- mRNA released\n\n## RNA vs DNA:\n\n| Feature | DNA | RNA |\n|---------|-----|-----|\n| Sugar | Deoxyribose | Ribose |\n| Bases | A, T, G, C | A, U, G, C |\n| Strands | Double | Single |\n| Location | Nucleus | Nucleus to cytoplasm |\n\n## mRNA Processing (Eukaryotes):\n\n1. **5' cap:** Modified G added\n2. **Poly-A tail:** ~200 A's added at 3' end\n3. **Splicing:** Introns removed, exons joined\n\n**Introns:** Non-coding (removed)\n**Exons:** Coding (expressed)\n\n## Template vs Coding:\n- Template strand: Read by RNA polymerase\n- Coding strand: Same sequence as mRNA (except T->U)"
+        },
+        {
+            "id": "gene_5",
+            "type": "content",
+            "title": "Translation",
+            "content": "# Translation\n\n**Purpose:** Build protein from mRNA instructions\n\n## Location: Ribosomes (cytoplasm)\n\n## The Genetic Code:\n- 3-base codons specify amino acids\n- 64 codons total\n- 20 amino acids\n- Redundant (multiple codons per amino acid)\n- Universal (same in all organisms)\n\n## Key Codons:\n```\nAUG - Start (Methionine)\nUAA, UAG, UGA - Stop\n```\n\n## Process:\n\n### 1. Initiation:\n- mRNA binds ribosome\n- Start codon (AUG) recognized\n- tRNA brings first amino acid\n\n### 2. Elongation:\n- tRNA brings amino acids\n- Anticodon matches codon\n- Peptide bonds form\n- Ribosome moves along mRNA\n\n### 3. Termination:\n- Stop codon reached\n- Protein released\n- Ribosome dissociates\n\n## Transfer RNA (tRNA):\n- Cloverleaf shape\n- Anticodon: complements mRNA codon\n- Carries specific amino acid\n\n## Central Dogma:\n```\nDNA -> RNA -> Protein\n(Replication) (Transcription) (Translation)\n```"
         },
         {
             "id": "gene_6",
             "type": "content",
             "title": "Mendelian Genetics",
-            "content": "# Gregor Mendel 🫛\n\nThe Father of Genetics (studied pea plants).\n\n- **Allele**: Variant form of a gene (e.g., Purple or White flower).\n- **Dominant**: Masks recessive (Capital letter, P).\n- **Recessive**: Hidden if dominant is present (Lowercase, p)."
-        },
-        {
-            "id": "gene_7",
-            "type": "content",
-            "title": "Genotype vs Phenotype",
-            "content": "# Inside vs Outside 🎭\n\n- **Genotype**: The genetic makeup.\n  - *Homozygous Dominant (PP)*\n  - *Heterozygous (Pp)*\n  - *Homozygous Recessive (pp)*\n\n- **Phenotype**: The physical appearance (Purple or White)."
-        },
-        {
-            "id": "gene_8",
-            "type": "content",
-            "title": "Punnett Squares",
-            "content": "# Predicting Kids 👶\n\nA grid used to predict offspring genotypes.\n\nExample: Pp x Pp\n- 25% PP\n- 50% Pp\n- 25% pp\n\nRatio: 3 Purple : 1 White."
-        },
-        {
-            "id": "gene_9",
-            "type": "content",
-            "title": "Non-Mendelian Genetics",
-            "content": "# Usually it's Complicated 😵‍💫\n\n- **Incomplete Dominance**: Blending (Red + White = Pink).\n- **Codominance**: Both show up (Spots).\n- **Multiple Alleles**: Blood types (A, B, O).\n- **Polygenic**: Many genes for one trait (Height, Skin color)."
-        },
-        {
-            "id": "gene_10",
-            "type": "content",
-            "title": "Sex-Linked Traits",
-            "content": "# X and Y 🚻\n\nGenes on sex chromosomes.\n- Females: XX, Males: XY.\n- Males are more affected by X-linked recessive traits (Color blindness, Hemophilia) because they only have one X."
-        },
-        {
-            "id": "gene_11",
-            "type": "content",
-            "title": "Mutations",
-            "content": "# Mistakes Happen ⚠️\n\nChanges in DNA sequence.\n- **Point Mutation**: Single base change.\n- **Frameshift**: Insertion/Deletion shifts everything (Major damage!).\n- Causes: UV, Radiation, Chemicals, Random errors."
+            "content": "# Mendelian Genetics\n\n**Gregor Mendel** - Father of Genetics (1866)\n\n## Key Terms:\n- **Dominant:** Expressed when present (capital letter)\n- **Recessive:** Only expressed when homozygous (lowercase)\n- **Homozygous:** Same alleles (AA or aa)\n- **Heterozygous:** Different alleles (Aa)\n\n## Mendel's Laws:\n\n### 1. Law of Segregation:\n- Two alleles separate during gamete formation\n- Each gamete gets one allele\n\n### 2. Law of Independent Assortment:\n- Genes for different traits separate independently\n- (When on different chromosomes)\n\n## Punnett Square:\n\nCross: Aa x Aa\n```\n       A    a\n   +-------+\n A | AA | Aa |\n   +-------+\n a | Aa | aa |\n   +-------+\n```\n\nRatio: 3 dominant : 1 recessive (phenotype)\nRatio: 1 AA : 2 Aa : 1 aa (genotype)\n\n## Test Cross:\n- Cross unknown with homozygous recessive (aa)\n- If any recessive offspring, unknown is heterozygous"
         },
         {
             "id": "gene_quiz_2",
             "type": "quiz",
-            "title": "Inheritance Quiz",
-            "content": "Predict the trait.",
-            "quizQuestion": "If Red (RR) and White (WW) make Pink (RW) flowers, this is an example of:",
+            "title": "Mendelian Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What is the phenotype ratio of a monohybrid cross (Aa x Aa)?",
             "quizOptions": [
-                "Complete Dominance",
-                "Codominance",
-                "Incomplete Dominance",
-                "Sex-linked"
+                "1:1",
+                "1:2:1",
+                "3:1",
+                "9:3:3:1"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "gene_12",
+            "id": "gene_7",
             "type": "content",
-            "title": "Genetic Disorders",
-            "content": "# When Genes Break 🏥\n\n- **Down Syndrome**: Extra chromosome 21 (Trisomy).\n- **Cystic Fibrosis**: Recessive gene defect.\n- **Huntington's**: Dominant lethal gene.\n- **Sickle Cell**: Point mutation affecting hemoglobin."
+            "title": "Beyond Mendel",
+            "content": "# Beyond Mendelian Genetics\n\n## Incomplete Dominance:\n- Neither allele completely dominant\n- Heterozygote is intermediate\n- Example: Red x White = Pink flowers\n\n## Codominance:\n- Both alleles fully expressed\n- Example: Blood type AB\n\n## Multiple Alleles:\n- More than 2 alleles exist in population\n- Example: ABO blood types (3 alleles: I^A, I^B, i)\n\n## Polygenic Traits:\n- Multiple genes control one trait\n- Continuous variation\n- Example: Height, skin color\n\n## Epistasis:\n- One gene affects another gene's expression\n- Example: Coat color in mice\n\n## Sex-Linked Traits:\n\n| Inheritance | Pattern |\n|------------|--------|\n| X-linked recessive | More common in males |\n| X-linked dominant | Affects both, lethal in males sometimes |\n| Y-linked | Only males |\n\n**Examples:**\n- Color blindness (X-linked recessive)\n- Hemophilia (X-linked recessive)\n\n## Pedigrees:\n- Family tree showing trait inheritance\n- Circles = females, Squares = males\n- Filled = affected"
         },
         {
-            "id": "gene_13",
+            "id": "gene_8",
             "type": "content",
-            "title": "Biotechnology",
-            "content": "# Hacking Life 💻\n\nUsing biology for technology.\n- **PCR**: Copying DNA rapidly.\n- **Gel Electrophoresis**: Separating DNA (CSI style).\n- **Cloning**: Dolly the sheep."
+            "title": "Mutations",
+            "content": "# Mutations\n\n**Mutation:** Permanent change in DNA sequence\n\n## Types of Point Mutations:\n\n### Substitution:\n- One base replaced by another\n\n**Outcomes:**\n- **Silent:** Same amino acid (redundancy)\n- **Missense:** Different amino acid\n- **Nonsense:** Creates stop codon\n\n### Insertion:\n- Extra base(s) added\n- Causes frameshift\n\n### Deletion:\n- Base(s) removed\n- Causes frameshift\n\n## Frameshift Mutations:\n- Insertion/deletion not multiple of 3\n- All codons after mutation changed\n- Usually non-functional protein\n\n## Chromosomal Mutations:\n\n| Type | Description |\n|------|-------------|\n| Deletion | Piece lost |\n| Duplication | Piece copied |\n| Inversion | Piece reversed |\n| Translocation | Piece moved to another chromosome |\n\n## Causes:\n- Spontaneous errors in replication\n- Mutagens (chemicals, radiation)\n- Viruses\n\n## Effects:\n- Harmful (most)\n- Neutral\n- Beneficial (rare - basis for evolution)"
         },
         {
-            "id": "gene_14",
+            "id": "gene_9",
             "type": "content",
-            "title": "GMOs",
-            "content": "# Modified Food 🌽\n\nGenetically Modified Organisms.\n- Inserting genes (e.g., bacteria gene into corn to kill bugs).\n- Pros: Higher yield, nutrition, pest resistance.\n- Cons: Unknown ecosystem effects, patenting life."
+            "title": "Genetic Technology",
+            "content": "# Genetic Technology\n\n## PCR (Polymerase Chain Reaction):\n- Amplifies (copies) specific DNA\n- Uses heat and DNA polymerase\n- Millions of copies from small sample\n\n**Uses:** Forensics, diagnosis, research\n\n## Gel Electrophoresis:\n- Separates DNA fragments by size\n- Smaller fragments move faster\n- Creates banding pattern\n\n**Uses:** DNA fingerprinting, comparing samples\n\n## Gene Cloning:\n1. Cut gene with restriction enzymes\n2. Insert into vector (plasmid)\n3. Transform into bacteria\n4. Bacteria reproduce with gene\n\n## CRISPR-Cas9:\n- Gene editing tool\n- Cut DNA at specific location\n- Delete, insert, or modify genes\n\n**Applications:**\n- Disease treatment\n- Agriculture\n- Research\n\n## Genetic Engineering:\n- Transgenic organisms contain foreign genes\n- GMO crops (pest resistance, nutrition)\n- Medicine production (insulin from bacteria)\n\n## Gene Therapy:\n- Insert functional genes to treat disease\n- Replace or supplement defective genes"
         },
         {
-            "id": "gene_15",
-            "type": "content",
-            "title": "CRISPR-Cas9",
-            "content": "# Gene Editing ✂️\n\nRevolutionary tool to cut and paste DNA precisely.\n- Potential to cure genetic diseases.\n- Ethical concerns: \"Designer Babies\"?"
+            "id": "gene_quiz_3",
+            "type": "quiz",
+            "title": "Mutations Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A frameshift mutation is caused by:",
+            "quizOptions": [
+                "Substitution",
+                "Insertion or deletion",
+                "Silent mutation",
+                "Replication"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "gene_16",
+            "id": "gene_10",
             "type": "content",
-            "title": "Epigenetics",
-            "content": "# Above Genetics 👻\n\nChemical markers on top of DNA can turn genes on or off without changing the sequence.\n- Environment (Diet, Stress) affects these markers.\n- You can pass these to your kids!"
-        },
-        {
-            "id": "gene_17",
-            "type": "content",
-            "title": "Genetics Summary",
-            "content": "# Recap 📝\n\n- **DNA** creates **RNA** which creates **Proteins**.\n- **Alleles** determine traits (Mendel).\n- **Mutations** drive variation and disease.\n- **Modern Biotech** allows us to read and rewrite the code of life."
+            "title": "Summary",
+            "content": "# Genetics Summary\n\n## DNA Structure:\n- Double helix\n- A-T, C-G base pairing\n- Sugar-phosphate backbone\n\n## Gene Expression:\n```\nDNA -> [Transcription] -> mRNA -> [Translation] -> Protein\n```\n\n## Mendelian Genetics:\n\n| Cross | Phenotype Ratio |\n|-------|----------------|\n| Monohybrid (Aa x Aa) | 3:1 |\n| Dihybrid (AaBb x AaBb) | 9:3:3:1 |\n| Test cross (Aa x aa) | 1:1 |\n\n## Beyond Mendel:\n- Incomplete dominance\n- Codominance\n- Polygenic inheritance\n- Sex linkage\n\n## Mutations:\n| Type | Effect |\n|------|--------|\n| Substitution | Silent, missense, or nonsense |\n| Insertion/Deletion | Frameshift |\n\n## Biotechnology:\n- PCR: amplify DNA\n- Gel electrophoresis: separate DNA\n- CRISPR: edit genes\n\n> **Congratulations!** You've completed Genetics!"
         }
     ]
 }

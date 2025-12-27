@@ -2,138 +2,58 @@
     "id": "learn_ai",
     "topicId": "ai",
     "topicTitle": "Artificial Intelligence",
-    "description": "Machines that think (or pretend to).",
-    "baseKP": 100,
+    "description": "Explore machine learning, neural networks, and AI applications",
+    "baseKP": 75,
     "slides": [
         {
             "id": "ai_1",
             "type": "content",
-            "title": "What is AI?",
-            "content": "# Smart Machines 🤖\n\nSimulation of human intelligence by machines.\n- **Narrow AI**: Good at one task (Chess, Face ID). We have this.\n- **General AI (AGI)**: Good at everything (Human-level). We don't have this yet."
+            "title": "Welcome to AI",
+            "content": "# Introduction to Artificial Intelligence\n\nWelcome to **Artificial Intelligence** - machines that learn!\n\n## What You Will Learn:\n- **AI Basics** - What is AI?\n- **Machine Learning** - Learning from data\n- **Neural Networks** - Brain-inspired computing\n- **Applications** - Real-world uses\n\n> **Fun Fact:** ChatGPT has over 100 million users!"
         },
         {
             "id": "ai_2",
             "type": "content",
-            "title": "Machine Learning (ML)",
-            "content": "# Learning from Data 📚\n\nInstead of programming rules (\"If red, stop\"), we show data and let computer find rules.\n- Training Data $\\to$ Model $\\to$ Predictions."
+            "title": "AI Basics",
+            "content": "# AI Basics\n\n## Definition:\nSystems that can perform tasks requiring human intelligence.\n\n## Types of AI:\n\n| Type | Description |\n|------|------------|\n| Narrow AI | Specific task (current) |\n| General AI | Human-level (future) |\n| Super AI | Beyond human (hypothetical) |\n\n## AI vs ML vs DL:\n```\nAI (broadest)\n  -> Machine Learning\n       -> Deep Learning (neural networks)\n```\n\n## Brief History:\n- 1950: Turing Test\n- 1956: AI term coined\n- 1980s: Expert systems\n- 2012: Deep learning revolution\n- 2020s: Large language models"
         },
         {
             "id": "ai_3",
             "type": "content",
-            "title": "Supervised Learning",
-            "content": "# Teacher Included 👩‍🏫\n\nTraining with labeled data.\n- Show 1000 pics of cats labeled \"Cat\".\n- Show 1000 pics of dogs labeled \"Dog\".\n- AI learns to distinguish them."
-        },
-        {
-            "id": "ai_4",
-            "type": "content",
-            "title": "Unsupervised Learning",
-            "content": "# Exploring 🗺️\n\nTraining with NO labels.\n- Give AI huge pile of data.\n- It finds patterns/clusters on its own.\n- \"These customers buy similar things.\""
-        },
-        {
-            "id": "ai_5",
-            "type": "content",
-            "title": "Reinforcement Learning",
-            "content": "# Pavlov's Dog 🐕\n\nLearning by Trial and Error.\n- Valid Action = Reward (+1).\n- Bad Action = Punishment (-1).\n- How AI learns to play video games (Mario) or walk."
+            "title": "Machine Learning",
+            "content": "# Machine Learning\n\n## Definition:\nAlgorithms that improve through experience (data).\n\n## Types:\n\n| Type | Training | Example |\n|------|----------|--------|\n| Supervised | Labeled data | Classification |\n| Unsupervised | No labels | Clustering |\n| Reinforcement | Rewards/penalties | Games |\n\n## Supervised Learning:\n- Classification: Categorize (spam/not spam)\n- Regression: Predict continuous value (price)\n\n## Common Algorithms:\n\n| Algorithm | Use |\n|-----------|-----|\n| Linear Regression | Predict values |\n| Decision Trees | Classification |\n| Random Forest | Ensemble method |\n| SVM | Classification |\n| k-NN | Classification |"
         },
         {
             "id": "ai_quiz_1",
             "type": "quiz",
-            "title": "Method Quiz",
-            "content": "Type check.",
-            "quizQuestion": "Training an AI with labeled examples (Input/Output pairs) is called:",
+            "title": "AI Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Machine learning that uses labeled data is called:",
             "quizOptions": [
-                "Unsupervised Learning",
-                "Reinforcement Learning",
-                "Supervised Learning",
-                "Magic"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "ai_6",
-            "type": "content",
-            "title": "Neural Networks",
-            "content": "# Digital Brain 🧠\n\nInspired by biological neurons.\n- Layers of nodes connected by \"weights\".\n- Data flows through layers, getting processed.\n- **Deep Learning**: Many, many layers."
-        },
-        {
-            "id": "ai_7",
-            "type": "content",
-            "title": "Backpropagation",
-            "content": "# Learning from Mistakes 📉\n\nThe algorithm that trains Neural Nets.\n1. Make a guess.\n2. Calculate Error (Loss).\n3. Go backward through network, adjusting weights to reduce error."
-        },
-        {
-            "id": "ai_8",
-            "type": "content",
-            "title": "Natural Language Processing (NLP)",
-            "content": "# Talking 🗣️\n\nAI understanding and generating human language.\n- Translation (Google Translate).\n- Chatbots (ChatGPT).\n- Sentiment Analysis."
-        },
-        {
-            "id": "ai_9",
-            "type": "content",
-            "title": "Computer Vision",
-            "content": "# Seeing 👁️\n\nAI interpreting images.\n- Facial Recognition.\n- Self-driving cars seeing stop signs.\n- Medical diagnosis from X-Rays."
-        },
-        {
-            "id": "ai_10",
-            "type": "content",
-            "title": "LLMs (Large Language Models)",
-            "content": "# Predict the Next Word 🔮\n\nModels trained on vast text (internet).\n- They don't \"know\" facts, they predict likely continuations.\n- \"The cat sat on the _____\" -> \"Mat\"."
-        },
-        {
-            "id": "ai_quiz_2",
-            "type": "quiz",
-            "title": "Brain Quiz",
-            "content": "Structure check.",
-            "quizQuestion": "Deep Learning relies on multi-layered structures called:",
-            "quizOptions": [
-                "Decision Trees",
-                "Neural Networks",
-                "If-Else Chains",
-                "Databases"
+                "Unsupervised",
+                "Supervised",
+                "Reinforcement",
+                "Deep"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "ai_11",
+            "id": "ai_4",
             "type": "content",
-            "title": "Bias and Ethics",
-            "content": "# Mirror of Us 🪞\n\nAI learns from data.\n- If data is biased (e.g., historical hiring records), AI becomes biased.\n- Ethical issue: Facial recognition failing on minorities."
+            "title": "Neural Networks",
+            "content": "# Neural Networks\n\n## Structure:\n- Input layer\n- Hidden layers\n- Output layer\n- Neurons connected by weights\n\n## How They Learn:\n1. Forward pass: Compute output\n2. Calculate error (loss)\n3. Backpropagation: Adjust weights\n4. Repeat until good performance\n\n## Deep Learning:\n- Many hidden layers\n- Learns complex features\n- Requires lots of data and compute\n\n## Types:\n\n| Architecture | Use |\n|--------------|-----|\n| CNN | Images |\n| RNN/LSTM | Sequences, text |\n| Transformer | Language, attention |\n| GAN | Generate content |"
         },
         {
-            "id": "ai_12",
+            "id": "ai_5",
             "type": "content",
-            "title": "Turing Test",
-            "content": "# Human or Machine? 🕵️\n\nProposed by Alan Turing (1950).\n- Can a machine converse well enough to fool a human into thinking it's human?\n- Modern AI passes this easily, but is it \"thinking\"?"
+            "title": "AI Applications",
+            "content": "# AI Applications\n\n## Computer Vision:\n- Image recognition\n- Object detection\n- Facial recognition\n- Medical imaging\n\n## Natural Language Processing:\n- Translation\n- Chatbots\n- Sentiment analysis\n- Text generation (GPT)\n\n## Other Applications:\n\n| Field | Application |\n|-------|------------|\n| Healthcare | Diagnosis, drug discovery |\n| Finance | Fraud detection, trading |\n| Transportation | Self-driving cars |\n| Entertainment | Recommendations |\n\n## Ethics Concerns:\n- Bias in data/models\n- Privacy\n- Job displacement\n- Deepfakes\n- Explainability"
         },
         {
-            "id": "ai_13",
+            "id": "ai_6",
             "type": "content",
-            "title": "Generative AI",
-            "content": "# Creator 🎨\n\nAI creating new content.\n- Images (Midjourney).\n- Text (GPT).\n- Music.\nRaises copyright and creativity questions."
-        },
-        {
-            "id": "ai_14",
-            "type": "content",
-            "title": "Robotics and AI",
-            "content": "# Body and Brain 🦾\n\nPutting the brain (AI) inside a body (Robot).\n- Harder than it looks.\n- \"Moravec's Paradox\": Hard stuff (Chess) is easy for AI; Easy stuff (Walking, Folding laundry) is hard."
-        },
-        {
-            "id": "ai_15",
-            "type": "content",
-            "title": "The Singularity",
-            "content": "# Explosion 💥\n\nHypothetical point where AI becomes smarter than humans and improves itself rapidly.\n- Could lead to solving all problems OR extinction."
-        },
-        {
-            "id": "ai_16",
-            "type": "content",
-            "title": "Explainability",
-            "content": "# Black Box 📦\n\nWe often don't know *why* a Neural Net made a decision.\n- \"Why did you deny this loan?\"\n- Important for trust and law."
-        },
-        {
-            "id": "ai_17",
-            "type": "content",
-            "title": "AI Summary",
-            "content": "# Recap 📝\n\n- **ML** finds patterns in data.\n- **Neural Nets** power the revolution.\n- **GenAI** creates.\n- Powerful tool requiring responsible use."
+            "title": "Summary",
+            "content": "# AI Summary\n\n## Machine Learning Types:\n| Type | Data |\n|------|------|\n| Supervised | Labeled |\n| Unsupervised | Unlabeled |\n| Reinforcement | Rewards |\n\n## Neural Networks:\n- Layers of connected neurons\n- Learn through backpropagation\n- Deep learning: Many layers\n\n## Key Architectures:\n- CNN: Images\n- RNN/Transformer: Text/sequences\n\n## Applications:\n- Vision, language, healthcare, autonomous systems\n\n## Ethics:\n- Bias, privacy, transparency\n\n> **Congratulations!** You've completed Artificial Intelligence!"
         }
     ]
 }

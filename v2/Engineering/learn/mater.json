@@ -2,138 +2,122 @@
     "id": "learn_mater",
     "topicId": "mater",
     "topicTitle": "Materials Science",
-    "description": "The stuff things are made of.",
-    "baseKP": 100,
+    "description": "Explore material properties, nanomaterials, composites, and degradation",
+    "baseKP": 75,
     "slides": [
         {
             "id": "mater_1",
             "type": "content",
-            "title": "What is Materials Science?",
-            "content": "# The Ingredients 🧬\n\nUnderstanding relations between Structure, Properties, and Processing of materials.\n- Metals, Ceramics, Polymers, Composites."
+            "title": "Welcome to Materials Science",
+            "content": "# Introduction to Materials Science\n\nWelcome to **Materials Science** - understanding matter!\n\n## What You Will Learn:\n- **Material Properties** - Strength, ductility\n- **Material Types** - Metals, polymers, ceramics\n- **Nanomaterials** - Very small scale\n- **Composites** - Combining materials\n- **Degradation** - Failure and corrosion\n\n> **Fun Fact:** Graphene is just one atom thick but 200 times stronger than steel!"
         },
         {
             "id": "mater_2",
             "type": "content",
-            "title": "Material Properties",
-            "content": "# Behavior 🧪\n\n- **Mechanical**: Strength, Ductility (stretch), Hardness.\n- **Thermal**: Conductivity, Expansion.\n- **Electrical**: Conductor, Insulator, Semiconductor."
+            "title": "Mechanical Properties",
+            "content": "# Mechanical Properties\n\n## Key Properties:\n\n| Property | Definition |\n|----------|------------|\n| Strength | Resistance to deformation |\n| Hardness | Resistance to indentation |\n| Ductility | Ability to deform without breaking |\n| Toughness | Energy absorption before fracture |\n| Stiffness | Resistance to elastic deformation |\n| Fatigue | Failure under cyclic loading |\n\n## Stress-Strain:\n- Elastic region (reversible)\n- Yield point\n- Plastic region (permanent)\n- Ultimate strength\n- Fracture"
         },
         {
             "id": "mater_3",
             "type": "content",
-            "title": "Structure: Atomic",
-            "content": "# Crystal Lattice 💎\n\nHow atoms are packed.\n- **Crystalline**: Ordered grid (Metals). Strong.\n- **Amorphous**: Random mess (Glass). Brittle."
-        },
-        {
-            "id": "mater_4",
-            "type": "content",
-            "title": "Metals",
-            "content": "# Shiny & Strong ⚔️\n\n- Sea of electrons (conducts electricity).\n- **Alloys**: Mixing metals for better properties.\n- **Steel**: Iron + Carbon.\n- **Bronze**: Copper + Tin."
-        },
-        {
-            "id": "mater_5",
-            "type": "content",
-            "title": "Ceramics",
-            "content": "# Hard & Brittle 🏺\n\nClay, Glass, Porcelain.\n- High melting point.\n- Insulators.\n- **Advanced Ceramics**: Used in spaceships and artificial bones."
-        },
-        {
-            "id": "mater_6",
-            "type": "content",
-            "title": "Polymers",
-            "content": "# Long Chains 🔗\n\nPlastics and Rubbers.\n- Made of organics (Carbon/Hydrogen).\n- Lightweight, cheap, moldable.\n- **Elastomers**: Rubber that bounces back."
+            "title": "Types of Materials",
+            "content": "# Types of Materials\n\n## Four Classes:\n\n| Type | Examples | Properties |\n|------|----------|------------|\n| Metals | Steel, aluminum | Strong, conductive |\n| Polymers | Plastic, rubber | Light, flexible |\n| Ceramics | Glass, alumina | Hard, brittle |\n| Composites | Fiberglass, carbon fiber | Tailored properties |\n\n## Bonding Types:\n- Metallic: Electron sea\n- Ionic: Charge transfer\n- Covalent: Electron sharing\n- Van der Waals: Weak attraction\n\n## Selection:\n- Application requirements\n- Cost considerations\n- Processing capability"
         },
         {
             "id": "mater_quiz_1",
             "type": "quiz",
-            "title": "Mix Quiz",
-            "content": "Composition check.",
-            "quizQuestion": "An alloy is a mixture involving at least one:",
+            "title": "Properties Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Ductility refers to a material's ability to:",
             "quizOptions": [
-                "Plastic",
-                "Ceramic",
-                "Metal",
-                "Gas"
+                "Conduct electricity",
+                "Resist heat",
+                "Deform without breaking",
+                "Float on water"
             ],
             "correctOptionIndex": 2
+        },
+        {
+            "id": "mater_4",
+            "type": "content",
+            "title": "Metals and Alloys",
+            "content": "# Metals and Alloys\n\n## Pure Metals:\n- Good conductors\n- Often soft\n- Ductile\n\n## Alloys:\n- Mixtures of metals\n- Improved properties\n\n## Common Alloys:\n\n| Alloy | Components | Use |\n|-------|------------|-----|\n| Steel | Iron + carbon | Construction |\n| Stainless | Steel + chromium | Food, medical |\n| Brass | Copper + zinc | Fittings |\n| Bronze | Copper + tin | Bearings |\n| Titanium alloy | Ti + Al + V | Aerospace |\n\n## Heat Treatment:\n- Annealing, quenching, tempering\n- Change microstructure\n- Alter properties"
+        },
+        {
+            "id": "mater_5",
+            "type": "content",
+            "title": "Polymers",
+            "content": "# Polymers\n\n## Structure:\n- Long chain molecules\n- Repeating units (monomers)\n\n## Types:\n\n| Type | Properties | Example |\n|------|------------|--------|\n| Thermoplastic | Melt and reform | PE, PVC, PP |\n| Thermoset | Permanent shape | Epoxy, polyester |\n| Elastomer | Stretchy, return | Rubber |\n\n## Properties:\n- Low density\n- Good insulators\n- Chemically resistant\n- Variable strength\n\n## Processing:\n- Injection molding\n- Extrusion\n- Blow molding\n- 3D printing"
+        },
+        {
+            "id": "mater_6",
+            "type": "content",
+            "title": "Ceramics",
+            "content": "# Ceramics\n\n## Characteristics:\n- Inorganic, non-metallic\n- Hard but brittle\n- High melting point\n- Good insulators\n\n## Types:\n\n| Type | Examples | Use |\n|------|----------|-----|\n| Traditional | Clay, porcelain | Pottery |\n| Engineering | Alumina, silicon carbide | Tools, abrasives |\n| Glass | Soda-lime, borosilicate | Windows, containers |\n| Cement | Portland cement | Construction |\n\n## Applications:\n- Cutting tools\n- Thermal barriers\n- Electronics (insulators)\n- Biomedical implants"
+        },
+        {
+            "id": "mater_quiz_2",
+            "type": "quiz",
+            "title": "Materials Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Thermoplastics can be:",
+            "quizOptions": [
+                "Only used once",
+                "Melted and reformed",
+                "Never melted",
+                "Only made naturally"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "mater_7",
             "type": "content",
             "title": "Composites",
-            "content": "# Best of Both 🥪\n\nCombine two materials.\n- **Carbon Fiber**: Fabric in glue. Extremely strong and light.\n- **Concrete**: Stones in cement.\n- **Fiberglass**: Glass wool in plastic."
+            "content": "# Composite Materials\n\n## Definition:\nTwo or more materials combined for enhanced properties.\n\n## Components:\n- Matrix: Continuous phase\n- Reinforcement: Embedded phase\n\n## Types:\n\n| Composite | Matrix | Reinforcement |\n|-----------|--------|---------------|\n| Fiberglass | Polymer | Glass fibers |\n| CFRP | Polymer | Carbon fiber |\n| Metal matrix | Metal | Ceramic particles |\n| Concrete | Cement | Aggregate |\n\n## Advantages:\n- High strength-to-weight\n- Tailored properties\n- Corrosion resistance\n\n## Applications:\n- Aerospace structures\n- Sports equipment\n- Wind turbine blades"
         },
         {
             "id": "mater_8",
             "type": "content",
-            "title": "Stress-Strain Curve",
-            "content": "# Breaking Point 📉\n\nThe Graph of Engineering.\n- **Elastic Region**: Bounces back.\n- **Yield Point**: Permanently bent.\n- **Fracture Point**: Snap."
+            "title": "Nanomaterials",
+            "content": "# Nanomaterials\n\n## Definition:\nMaterials with features at nanoscale (1-100 nm).\n\n## Types:\n\n| Type | Dimension |\n|------|----------|\n| Nanoparticles | 0D (all nano) |\n| Nanotubes/wires | 1D |\n| Nanosheets | 2D |\n| Nanocomposites | Nano in bulk |\n\n## Key Materials:\n- Carbon nanotubes\n- Graphene\n- Quantum dots\n- Nano-silver\n\n## Properties:\n- High surface area\n- Quantum effects\n- Enhanced strength\n- Different behavior than bulk"
         },
         {
             "id": "mater_9",
             "type": "content",
-            "title": "Failure Mechanisms",
-            "content": "# Why stuff breaks 💔\n\n- **Fatigue**: Repeated small stress leads to crack (Paperclip bending).\n- **Creep**: Slow stretch under heat (Turbine blades).\n- **Impact**: Sudden blow."
+            "title": "Corrosion",
+            "content": "# Corrosion\n\n## Definition:\nDegradation of material due to environment.\n\n## Types:\n\n| Type | Description |\n|------|-------------|\n| Uniform | Even attack |\n| Galvanic | Two different metals |\n| Pitting | Localized holes |\n| Crevice | Narrow gaps |\n| Stress | Under stress |\n\n## Prevention:\n- Protective coatings\n- Cathodic protection\n- Material selection\n- Corrosion inhibitors\n- Galvanizing (zinc coating)\n\n## Corrosion Rate:\n- Affected by environment\n- pH, temperature, chemicals"
         },
         {
             "id": "mater_10",
             "type": "content",
-            "title": "Corrosion",
-            "content": "# Rust 🍂\n\nMaterial reacting with environment.\n- Iron $\\to$ Rust (Oxidation).\n- Prevention: Painting, Galvanizing (Zinc coating), Stainless Steel."
+            "title": "Material Failure",
+            "content": "# Material Failure\n\n## Failure Modes:\n\n| Mode | Cause |\n|------|-------|\n| Ductile | Gradual deformation |\n| Brittle | Sudden fracture |\n| Fatigue | Cyclic loading |\n| Creep | High temperature, time |\n| Wear | Surface contact |\n\n## Fatigue:\n- S-N curve\n- Crack initiation and growth\n- Stress concentration\n\n## Creep:\n- Time-dependent deformation\n- High temperature\n- Three stages\n\n## Analysis:\n- Fractography\n- Root cause analysis"
+        },
+        {
+            "id": "mater_quiz_3",
+            "type": "quiz",
+            "title": "Failure Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Fatigue failure occurs under:",
+            "quizOptions": [
+                "Constant load",
+                "Cyclic loading",
+                "No load",
+                "Static load only"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "mater_11",
             "type": "content",
-            "title": "Nanomaterials",
-            "content": "# Tiny Tech 🔬\n\nMaterials at nanoscale (1-100nm).\n- **Graphene**: Single layer of carbon. Strongest material known.\n- **Carbon Nanotubes**: Super wires.\n- Quantum Dots: TV screens."
+            "title": "Material Testing",
+            "content": "# Material Testing\n\n## Mechanical Tests:\n\n| Test | Measures |\n|------|----------|\n| Tensile | Strength, ductility |\n| Hardness | Surface hardness |\n| Impact | Toughness |\n| Fatigue | Cyclic life |\n| Creep | Time-dependent deformation |\n\n## Non-Destructive Testing (NDT):\n- X-ray radiography\n- Ultrasonic testing\n- Magnetic particle\n- Dye penetrant\n\n## Microstructure:\n- Optical microscopy\n- Electron microscopy\n- X-ray diffraction"
         },
         {
             "id": "mater_12",
             "type": "content",
-            "title": "Semiconductors",
-            "content": "# Silicon 💻\n\nBasis of electronics.\n- Conducts only when told to.\n- Doping (adding impurities) controls conductivity.\n- Moore's Law depends on making these smaller."
-        },
-        {
-            "id": "mater_quiz_2",
-            "type": "quiz",
-            "title": "Nano Quiz",
-            "content": "Future check.",
-            "quizQuestion": "Graphene is made of a single layer of which element?",
-            "quizOptions": [
-                "Iron",
-                "Silicon",
-                "Carbon",
-                "Gold"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "mater_13",
-            "type": "content",
-            "title": "Biomaterials",
-            "content": "# Body Parts 🦴\n\nMaterials compatible with body.\n- Titanium hips.\n- Contact lenses.\n- Dissolvable stitches."
-        },
-        {
-            "id": "mater_14",
-            "type": "content",
-            "title": "Smart Materials",
-            "content": "# Magic ✨\n\nResponse to stimuli.\n- **Shape Memory Alloy**: Returns to shape when heated (Nitinol).\n- **Piezoelectric**: Squeezing creates electricity (Lighters)."
-        },
-        {
-            "id": "mater_15",
-            "type": "content",
-            "title": "Recycling",
-            "content": "# Circular Economy ♻️\n\n- Metals: Easy to melt and reuse.\n- Thermoplastics: Can be reused.\n- Thermosets/Composites: Very hard to recycle (Wind turbine blades)."
-        },
-        {
-            "id": "mater_16",
-            "type": "content",
-            "title": "Processing",
-            "content": "# Making It 🔨\n\n- **Annealing**: Heating to soften metal.\n- **Quenching**: Rapid cooling to harden metal (Sword making).\n- **Sintering**: Powdering and baking ceramics."
-        },
-        {
-            "id": "mater_17",
-            "type": "content",
-            "title": "Materials Summary",
-            "content": "# Recap 📝\n\n- Structure determines Property.\n- **Steel** builds cities.\n- **Silicon** builds brains.\n- **Plastics** are everywhere.\n- New materials = New tech."
+            "title": "Summary",
+            "content": "# Materials Science Summary\n\n## Material Types:\n| Type | Key Property |\n|------|-------------|\n| Metals | Strong, conductive |\n| Polymers | Light, flexible |\n| Ceramics | Hard, brittle |\n| Composites | Tailored |\n\n## Properties:\n- Strength, hardness, ductility\n- Stress-strain behavior\n\n## Advanced Materials:\n- Nanomaterials\n- Carbon fiber composites\n\n## Degradation:\n- Corrosion (chemical)\n- Fatigue (mechanical)\n- Creep (thermal)\n\n> **Congratulations!** You've completed Materials Science!"
         }
     ]
 }

@@ -2,138 +2,122 @@
     "id": "learn_robo",
     "topicId": "robo",
     "topicTitle": "Robotics",
-    "description": "Machines that sense, think, and act.",
-    "baseKP": 100,
+    "description": "Explore robot kinematics, control systems, sensors, and autonomous systems",
+    "baseKP": 75,
     "slides": [
         {
             "id": "robo_1",
             "type": "content",
-            "title": "What is a Robot?",
-            "content": "# Sense-Think-Act 🤖\n\nA machine capable of interacting with its environment.\n1. **Sensors**: Gather data (Eyes).\n2. **Controller**: Process data (Brain).\n3. **Actuators**: Move/Do (Muscles)."
+            "title": "Welcome to Robotics",
+            "content": "# Introduction to Robotics\n\nWelcome to **Robotics** - machines that move and think!\n\n## What You Will Learn:\n- **Robot Kinematics** - Motion and geometry\n- **Control Systems** - Making robots move\n- **Sensors** - Robot perception\n- **Actuators** - Creating motion\n- **Autonomous Systems** - Self-driving robots\n\n> **Fun Fact:** The word 'robot' comes from the Czech word 'robota' meaning forced labor!"
         },
         {
             "id": "robo_2",
             "type": "content",
-            "title": "Kinematics",
-            "content": "# Moving Arms 🦾\n\nMath of robot position.\n- **Forward Kinematics**: \"If I turn shoulder $30\\degree$, where is my hand?\"\n- **Inverse Kinematics**: \"I want hand at (X, Y), what angles do I need?\" (Harder)."
+            "title": "Types of Robots",
+            "content": "# Types of Robots\n\n## By Application:\n\n| Type | Application |\n|------|-------------|\n| Industrial | Manufacturing, assembly |\n| Service | Healthcare, hospitality |\n| Mobile | Exploration, delivery |\n| Humanoid | Research, entertainment |\n| Medical | Surgery, rehabilitation |\n\n## By Configuration:\n- Articulated (arm-like)\n- Cartesian (XYZ axes)\n- SCARA (horizontal plane)\n- Delta (parallel linkages)\n- Mobile (wheels, legs)\n\n## Degrees of Freedom (DOF):\n- Number of independent motions\n- Typical arm: 6 DOF"
         },
         {
             "id": "robo_3",
             "type": "content",
-            "title": "Actuators",
-            "content": "# Muscles 💪\n\n- **DC Motor**: Spinning wheels.\n- **Servo**: Precise angle control (Joints).\n- **Stepper Motor**: Precise rotation ticks (3D printers).\n- **Pneumatics/Hydraulics**: Fluid power."
-        },
-        {
-            "id": "robo_4",
-            "type": "content",
-            "title": "Sensors",
-            "content": "# Senses 👁️\n\n- **Lidar**: Laser scanning distance.\n- **Ultrasonic**: Sound echolocation.\n- **IMU**: Gyroscope/Accelerometer (Balance).\n- **Cameras**: Computer Vision."
-        },
-        {
-            "id": "robo_5",
-            "type": "content",
-            "title": "Degrees of Freedom (DOF)",
-            "content": "# Flexibility 🤸\n\nNumber of independent ways a robot moves.\n- Human arm: ~7 DOF.\n- Industrial arm: usually 6 DOF (Can reach any point at any angle)."
+            "title": "Robot Kinematics",
+            "content": "# Robot Kinematics\n\n## Definition:\nStudy of motion without considering forces.\n\n## Forward Kinematics:\n- Given: Joint angles\n- Find: End effector position\n\n## Inverse Kinematics:\n- Given: Desired position\n- Find: Required joint angles\n- Often multiple solutions\n\n## Coordinate Frames:\n- Base frame (fixed)\n- End effector frame\n- Transformation matrices\n\n## Denavit-Hartenberg:\n- Standard notation for robot links\n- 4 parameters per joint\n- Chain transformations"
         },
         {
             "id": "robo_quiz_1",
             "type": "quiz",
-            "title": "Component Quiz",
-            "content": "Parts check.",
-            "quizQuestion": "Which component allows a robot to physically move?",
+            "title": "Kinematics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Forward kinematics calculates:",
             "quizOptions": [
-                "Sensor",
-                "Processor",
-                "Actuator",
-                "Battery"
+                "Joint angles from position",
+                "Position from joint angles",
+                "Force from motion",
+                "Speed from time"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "robo_4",
+            "type": "content",
+            "title": "Control Systems Basics",
+            "content": "# Control Systems\n\n## Open Loop:\n- No feedback\n- Command sent, hope for best\n\n## Closed Loop:\n- Feedback from sensors\n- Compare to desired state\n- Adjust accordingly\n\n## PID Control:\n```\nu(t) = Kp*e + Ki*integral(e) + Kd*de/dt\n```\n- P: Proportional to error\n- I: Integral of past errors\n- D: Rate of change of error\n\n## Tuning:\n- Adjust Kp, Ki, Kd\n- Trade-offs: Speed vs stability\n- Ziegler-Nichols method"
+        },
+        {
+            "id": "robo_5",
+            "type": "content",
+            "title": "Sensors",
+            "content": "# Robot Sensors\n\n## Proprioceptive (Internal):\n\n| Sensor | Measures |\n|--------|----------|\n| Encoder | Joint position |\n| Potentiometer | Angular position |\n| IMU | Orientation, acceleration |\n| Force/Torque | Interaction forces |\n\n## Exteroceptive (External):\n\n| Sensor | Measures |\n|--------|----------|\n| Camera | Vision |\n| Lidar | Distance (laser) |\n| Ultrasonic | Distance (sound) |\n| Infrared | Proximity |\n| Touch | Contact |\n\n## Sensor Fusion:\n- Combine multiple sensors\n- Improve accuracy\n- Kalman filter"
         },
         {
             "id": "robo_6",
             "type": "content",
-            "title": "Control Systems",
-            "content": "# Feedback Loop 🔁\n\n\"Am I there yet?\"\n- **Open Loop**: Tell motor to spin 5s. Hope it worked.\n- **Closed Loop**: Spin, check encoder, adjust speed. Precise."
+            "title": "Actuators",
+            "content": "# Actuators\n\n## Electric Motors:\n\n| Type | Properties |\n|------|------------|\n| DC | Simple, variable speed |\n| Stepper | Precise positioning |\n| Servo | Feedback controlled |\n| Brushless DC | High efficiency |\n\n## Hydraulic:\n- High force output\n- Heavy machinery\n- Requires fluid system\n\n## Pneumatic:\n- Compressed air\n- Fast, simple\n- Lower precision\n\n## Other:\n- Piezoelectric\n- Shape memory alloy\n- Artificial muscles"
+        },
+        {
+            "id": "robo_quiz_2",
+            "type": "quiz",
+            "title": "Sensors Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "An encoder measures:",
+            "quizOptions": [
+                "Temperature",
+                "Joint position",
+                "Color",
+                "Weight"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "robo_7",
             "type": "content",
-            "title": "Industrial Robots",
-            "content": "# Factory Workers 🏭\n\n- **Articulated Arms**: Welding, Painting.\n- **SCARA**: Pick and place (Fast horizontal).\n- **Delta**: Spider-like, very fast sorting.\n- Dangerous: Stay out of their cage."
+            "title": "Computer Vision",
+            "content": "# Computer Vision\n\n## Tasks:\n- Object detection\n- Object recognition\n- Tracking\n- Pose estimation\n\n## Techniques:\n\n| Technique | Use |\n|-----------|-----|\n| Edge detection | Find boundaries |\n| Feature matching | Identify objects |\n| Stereo vision | 3D depth |\n| Deep learning | Complex recognition |\n\n## Cameras:\n- RGB cameras\n- Depth cameras (ToF, structured light)\n- Stereo pairs\n\n## Applications:\n- Pick and place\n- Navigation\n- Quality inspection"
         },
         {
             "id": "robo_8",
             "type": "content",
-            "title": "Mobile Robots",
-            "content": "# Rovers 🚌\n\nRobots that move around.\n- Wheels (Mars Rover).\n- Tracks (Tanks).\n- Legs (Boston Dynamics).\n- Flight (Drones)."
+            "title": "Path Planning",
+            "content": "# Path Planning\n\n## Goal:\nFind path from start to goal avoiding obstacles.\n\n## Configuration Space:\n- All possible robot configurations\n- Obstacles mapped to C-space\n\n## Algorithms:\n\n| Algorithm | Type |\n|-----------|------|\n| A* | Graph search |\n| Dijkstra | Shortest path |\n| RRT | Random sampling |\n| PRM | Probabilistic roadmap |\n| Potential fields | Gradient following |\n\n## Motion Planning:\n- Path + timing\n- Velocity profiles\n- Trajectory optimization"
         },
         {
             "id": "robo_9",
             "type": "content",
             "title": "SLAM",
-            "content": "# Mapping 🗺️\n\n**S**imultaneous **L**ocalization **A**nd **M**apping.\n- Robot enters unknown room.\n- Builds a map WHILE figuring out where it is in that map.\n- Roomba uses this."
+            "content": "# SLAM\n\n**Simultaneous Localization and Mapping**\n\n## Challenge:\n- Where am I?\n- What does environment look like?\n- Chicken and egg problem\n\n## Approaches:\n- Extended Kalman Filter (EKF)\n- Particle filter\n- Graph-based SLAM\n\n## Sensors Used:\n- Lidar (common)\n- Camera (visual SLAM)\n- IMU (assist)\n\n## Applications:\n- Autonomous vehicles\n- Vacuum robots\n- Drones\n- AR/VR"
         },
         {
             "id": "robo_10",
             "type": "content",
-            "title": "Human-Robot Interaction (HRI)",
-            "content": "# Friendly Bots 🤝\n\n- **Cobots**: Collaborative Robots safe to work next to humans.\n- Force sensors detect bumps and stop instantly.\n- Social robots (Pepper) for service."
+            "title": "Autonomous Systems",
+            "content": "# Autonomous Systems\n\n## Levels of Autonomy:\n\n| Level | Description |\n|-------|-------------|\n| 0 | Manual control |\n| 1 | Assisted |\n| 2 | Partial automation |\n| 3 | Conditional automation |\n| 4 | High automation |\n| 5 | Full automation |\n\n## Components:\n- Perception\n- Localization\n- Planning\n- Control\n- Decision making\n\n## Examples:\n- Self-driving cars\n- Delivery drones\n- Warehouse robots\n- Mars rovers"
         },
         {
-            "id": "robo_11",
-            "type": "content",
-            "title": "Autonomous Vehicles",
-            "content": "# Self Driving 🚗\n\nLevels of Autonomy (0-5).\n- Level 2: Lane assist (Tesla).\n- Level 5: No steering wheel (Future).\n- Relies on sensor fusion (Camera + Radar + Lidar)."
-        },
-        {
-            "id": "robo_12",
-            "type": "content",
-            "title": "Soft Robotics",
-            "content": "# Squishy 🐙\n\nMade of silicone/rubber.\n- Air inflated muscles.\n- Good for handling delicate fruit or exploring tight spaces.\n- Inspired by octopuses."
-        },
-        {
-            "id": "robo_quiz_2",
+            "id": "robo_quiz_3",
             "type": "quiz",
-            "title": "Nav Quiz",
-            "content": "Tech check.",
-            "quizQuestion": "What does SLAM stand for in robotics?",
+            "title": "Planning Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "SLAM stands for:",
             "quizOptions": [
-                "Super Large Area Map",
-                "Simultaneous Localization And Mapping",
-                "Sensor Light Analysis Method",
-                "Servo Linear Actuation Motion"
+                "Simple Linear Automatic Motion",
+                "Simultaneous Localization and Mapping",
+                "Sensor Layer Actuator Module",
+                "Sequential Learning Algorithm Method"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "robo_13",
+            "id": "robo_11",
             "type": "content",
-            "title": "Swarm Robotics",
-            "content": "# Hive Mind 🐝\n\nMany simple robots working together.\n- No central leader.\n- Pattern formation.\n- Robust: If one dies, swarm continues."
+            "title": "Industrial Robotics",
+            "content": "# Industrial Robotics\n\n## Applications:\n- Welding\n- Painting\n- Assembly\n- Pick and place\n- Material handling\n\n## Key Specs:\n- Payload capacity\n- Reach\n- Repeatability\n- Speed\n\n## Safety:\n- Fenced cells\n- Light curtains\n- Collaborative robots (cobots)\n- Force limiting\n\n## Programming:\n- Teach pendant\n- Offline programming\n- Lead-through teaching"
         },
         {
-            "id": "robo_14",
+            "id": "robo_12",
             "type": "content",
-            "title": "Medical Robotics",
-            "content": "# Surgeon Bot 🩺\n\n- **Da Vinci System**: Remote surgery.\n- Surgeon controls joysticks, robot moves tiny tools inside patient.\n- Removes hand tremors."
-        },
-        {
-            "id": "robo_15",
-            "type": "content",
-            "title": "Robot Ethics",
-            "content": "# Three Laws ⚖️\n\nAsimov's rules (Fiction) vs Reality.\n- Weaponization (Drones).\n- 1Job displacement.\n- \"Trolley Problem\" for self-driving cars."
-        },
-        {
-            "id": "robo_16",
-            "type": "content",
-            "title": "History",
-            "content": "# Origins 🕰️\n\n- 1961: **Unimate** (First industrial robot, GM).\n- 2000s: Roomba (Domestic).\n- 2020s: Humanoids (Tesla Optimus)."
-        },
-        {
-            "id": "robo_17",
-            "type": "content",
-            "title": "Robotics Summary",
-            "content": "# Recap 📝\n\n- **Sensors** perceive.\n- **Algorithms** plan.\n- **Actuators** execute.\n- Robots extend human capability into the dangerous, dull, and dirty."
+            "title": "Summary",
+            "content": "# Robotics Summary\n\n## Kinematics:\n- Forward: Angles -> Position\n- Inverse: Position -> Angles\n\n## Control:\n- PID: Proportional, Integral, Derivative\n- Feedback loops\n\n## Sensors and Actuators:\n| Sensors | Actuators |\n|---------|----------|\n| Encoders, cameras | DC motors |\n| Lidar, IMU | Servos, steppers |\n\n## Autonomous:\n- SLAM for mapping\n- Path planning\n- Computer vision\n\n## Applications:\n- Industrial, service, mobile\n\n> **Congratulations!** You've completed Robotics!"
         }
     ]
 }

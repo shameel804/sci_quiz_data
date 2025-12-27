@@ -2,138 +2,148 @@
     "id": "learn_org",
     "topicId": "org",
     "topicTitle": "Organic Chemistry",
-    "description": "Dive into the carbon-based confusion that forms the basis of life.",
-    "baseKP": 100,
+    "description": "Explore hydrocarbons, functional groups, IUPAC nomenclature, and biomolecules",
+    "baseKP": 75,
     "slides": [
         {
             "id": "org_1",
             "type": "content",
-            "title": "What is Organic Chemistry?",
-            "content": "# Carbon is King 👑\n\nThe study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds.\n\nWhy Carbon?\n- Can form 4 stable bonds.\n- Can bond to itself (catenate) to form long chains and rings.\n- Basis of all life on Earth."
+            "title": "Welcome to Organic Chemistry",
+            "content": "# Introduction to Organic Chemistry\n\nWelcome to **Organic Chemistry** - the study of carbon-containing compounds!\n\n## What You Will Learn:\n- **Hydrocarbons** - Compounds of C and H only\n- **Functional Groups** - Reactive parts of molecules\n- **IUPAC Naming** - Systematic nomenclature\n- **Polymers** - Long chain molecules\n- **Biomolecules** - Molecules of life\n\n> **Fun Fact:** There are more organic compounds than all other types combined - over 10 million known!\n\n## Why Organic Chemistry Matters:\n- All living things are made of organic compounds\n- Medicines, plastics, fuels are organic\n- Food, clothing, cosmetics\n- Understanding biochemistry\n\n## Carbon's Unique Properties:\n\n| Property | Significance |\n|----------|-------------|\n| 4 bonds | Forms many compounds |\n| Catenation | C-C chains possible |\n| Small size | Strong bonds |\n| Electronegativity | Stable bonds with many elements |"
         },
         {
             "id": "org_2",
             "type": "content",
-            "title": "Hydrocarbons",
-            "content": "# Just C and H ⛽\n\nSimplest organic compounds.\n\n1. **Alkanes**: Single bonds ($C-C$). Saturated. (Methane, Propane).\n2. **Alkenes**: Double bonds ($C=C$). Unsaturated. (Ethene typical in plastics).\n3. **Alkynes**: Triple bonds ($C\\equiv C$). (Acetylene torches)."
+            "title": "Hydrocarbons: Alkanes",
+            "content": "# Alkanes\n\n**Alkanes** are saturated hydrocarbons with only single bonds.\n\n## General Formula: CnH2n+2\n\n## First Ten Alkanes:\n\n| Name | Formula | Carbons |\n|------|---------|--------|\n| Methane | CH4 | 1 |\n| Ethane | C2H6 | 2 |\n| Propane | C3H8 | 3 |\n| Butane | C4H10 | 4 |\n| Pentane | C5H12 | 5 |\n| Hexane | C6H14 | 6 |\n| Heptane | C7H16 | 7 |\n| Octane | C8H18 | 8 |\n| Nonane | C9H20 | 9 |\n| Decane | C10H22 | 10 |\n\n## Properties:\n- Low reactivity (saturated)\n- Burn in oxygen (combustion)\n- Insoluble in water\n- Boiling point increases with chain length\n\n## Isomers:\n\nSame formula, different structure.\n\nC4H10 has 2 isomers:\n- n-butane (straight chain)\n- isobutane (branched)\n\n> **Fuel:** Natural gas is mainly methane, LPG is propane/butane."
         },
         {
             "id": "org_3",
             "type": "content",
-            "title": "Representing Molecules",
-            "content": "# Art Class 🎨\n\n- **Lewis Structure**: Shows all atoms and lone pairs.\n- **Condensed**: $CH_3CH_2OH$\n- **Skeletal Structure**: Lines represent bonds. Corners/Ends are Carbons. Hydrogens on Carbons are implied/hidden.\n\nSkeletal is the lazy chemist's best friend."
-        },
-        {
-            "id": "org_4",
-            "type": "content",
-            "title": "Isomers",
-            "content": "# Same Parts, Different Build 🧩\n\nMolecules with the same formula but different arrangement.\n\n- **Structural Isomers**: Different connectivity (butane vs isobutane).\n- **Stereoisomers**: Same connectivity, different spatial arrangement (Cis/Trans, Enantiomers).\n\nMirror-image isomers (Enantiomers) can act very differently in drugs!"
+            "title": "Alkenes and Alkynes",
+            "content": "# Alkenes and Alkynes\n\n## Alkenes (C=C double bond)\n\n**General Formula:** CnH2n\n\n| Name | Formula |\n|------|--------|\n| Ethene | C2H4 |\n| Propene | C3H6 |\n| Butene | C4H8 |\n\n### Properties:\n- Unsaturated (can add more atoms)\n- More reactive than alkanes\n- Undergo addition reactions\n\n## Alkynes (C:::C triple bond)\n\n**General Formula:** CnH2n-2\n\n| Name | Formula |\n|------|--------|\n| Ethyne | C2H2 |\n| Propyne | C3H4 |\n\n## Reactions:\n\n### Addition to Alkenes:\n```\nC2H4 + H2 -> C2H6 (hydrogenation)\nC2H4 + Br2 -> C2H4Br2 (bromination)\nC2H4 + H2O -> C2H5OH (hydration)\n```\n\n### Test for Unsaturation:\nBromine water: orange -> colorless\n\n## Polymerization:\n\n```\nn(CH2=CH2) -> (-CH2-CH2-)n\nEthene -> Polyethene (plastic)\n```"
         },
         {
             "id": "org_quiz_1",
             "type": "quiz",
             "title": "Hydrocarbon Quiz",
-            "content": "Identify the bond.",
+            "content": "Test your knowledge!",
             "quizQuestion": "Which hydrocarbon contains a triple bond?",
             "quizOptions": [
                 "Alkane",
                 "Alkene",
                 "Alkyne",
-                "Benzene"
+                "Cycloalkane"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "org_4",
+            "type": "content",
+            "title": "Functional Groups",
+            "content": "# Functional Groups\n\n**Functional groups** determine chemical properties of organic compounds.\n\n## Common Functional Groups:\n\n| Group | Structure | Example |\n|-------|-----------|--------|\n| Alcohol | -OH | Ethanol (C2H5OH) |\n| Aldehyde | -CHO | Methanal (HCHO) |\n| Ketone | -CO- | Propanone (acetone) |\n| Carboxylic acid | -COOH | Ethanoic acid (vinegar) |\n| Ester | -COO- | Ethyl ethanoate |\n| Amine | -NH2 | Methylamine |\n| Amide | -CONH2 | Ethanamide |\n| Ether | -O- | Diethyl ether |\n| Halogenoalkane | -X | Chloromethane |\n\n## Identifying Functional Groups:\n\nLook for characteristic atoms:\n- O-H: Alcohol or carboxylic acid\n- C=O: Aldehyde, ketone, or carboxylic acid\n- N: Amine or amide\n- Halogen: Halogenoalkane\n\n## Reactivity:\n\nFunctional groups are the reactive sites of molecules."
+        },
+        {
             "id": "org_5",
             "type": "content",
-            "title": "Functional Groups 1",
-            "content": "# The Active Sites ⚡\n\nGroups of atoms that give molecules their characteristic reactions.\n\n- **Alcohols ($R-OH$)**: Ethanol.\n- **Ethers ($R-O-R$)**: Anesthetics.\n- **Amines ($R-NH_2$)**: Fishy smell, bases."
+            "title": "Alcohols",
+            "content": "# Alcohols\n\n**Alcohols** contain the hydroxyl (-OH) group.\n\n## Classification:\n\n| Type | -OH attached to | Example |\n|------|-----------------|--------|\n| Primary (1) | C with 1 alkyl group | Ethanol |\n| Secondary (2) | C with 2 alkyl groups | Propan-2-ol |\n| Tertiary (3) | C with 3 alkyl groups | 2-methylpropan-2-ol |\n\n## Naming:\n- Replace -e with -ol\n- Number position of -OH\n- Example: CH3CH2OH = ethanol\n\n## Reactions:\n\n### Combustion:\n```\nC2H5OH + 3O2 -> 2CO2 + 3H2O\n```\n\n### Oxidation:\n- Primary -> Aldehyde -> Carboxylic acid\n- Secondary -> Ketone\n- Tertiary -> Resistant to oxidation\n\n### Dehydration:\n```\nC2H5OH -> C2H4 + H2O (heated with H2SO4)\n```\n\n### Esterification:\n```\nAlcohol + Acid -> Ester + Water\n```\n\n## Uses:\n- Ethanol: Beverages, fuel, solvent\n- Methanol: Industrial solvent\n- Glycerol: Cosmetics, food"
         },
         {
             "id": "org_6",
             "type": "content",
-            "title": "Functional Groups 2",
-            "content": "# Carbonyls ($C=O$) 🍬\n\n- **Aldehydes**: Carbonyl at the end ($R-CHO$). Vanilla.\n- **Ketones**: Carbonyl in the middle ($R-CO-R$). Acetone.\n- **Carboxylic Acids**: Acidic group ($R-COOH$). Vinegar.\n- **Esters**: Sweet smelling ($R-COOR$). Fruits."
+            "title": "Carboxylic Acids",
+            "content": "# Carboxylic Acids\n\n**Carboxylic acids** contain the -COOH group.\n\n## Naming:\n- Replace -e with -oic acid\n- Example: CH3COOH = ethanoic acid (acetic acid)\n\n## Common Carboxylic Acids:\n\n| Name | Formula | Found in |\n|------|---------|----------|\n| Methanoic | HCOOH | Ant stings |\n| Ethanoic | CH3COOH | Vinegar |\n| Citric | C6H8O7 | Citrus fruits |\n| Lactic | C3H6O3 | Sour milk |\n\n## Properties:\n- Weak acids (partially ionize)\n- Sour taste\n- React with metals, bases, carbonates\n\n## Reactions:\n\n### With metals:\n```\n2CH3COOH + Mg -> (CH3COO)2Mg + H2\n```\n\n### With bases:\n```\nCH3COOH + NaOH -> CH3COONa + H2O\n```\n\n### Esterification:\n```\nCH3COOH + C2H5OH -> CH3COOC2H5 + H2O\n```\n\n## Esters:\n- Sweet/fruity smell\n- Used in perfumes, flavorings\n- Biodiesel is fatty acid esters"
+        },
+        {
+            "id": "org_quiz_2",
+            "type": "quiz",
+            "title": "Functional Groups Quiz",
+            "content": "Test your understanding!",
+            "quizQuestion": "What functional group is in CH3COOH?",
+            "quizOptions": [
+                "Alcohol",
+                "Aldehyde",
+                "Ketone",
+                "Carboxylic acid"
+            ],
+            "correctOptionIndex": 3
         },
         {
             "id": "org_7",
             "type": "content",
             "title": "IUPAC Nomenclature",
-            "content": "# Naming Rules 📛\n\nSystematic way to name anything.\n\n1. Find longest carbon chain Parent (Meth, Eth, Prop, But, Pent...)\n2. Identify functional groups (Suffix: -ane, -ol, -oic acid).\n3. Number chain to give groups lowest number.\n4. Add prefixes for branches (methyl, ethyl)."
+            "content": "# IUPAC Nomenclature\n\nSystematic naming of organic compounds.\n\n## Rules:\n\n### 1. Find longest carbon chain:\nThis is the parent name.\n\n### 2. Number carbons:\nFrom end nearest to substituent/functional group.\n\n### 3. Name substituents:\n| Group | Name |\n|-------|------|\n| CH3- | methyl |\n| C2H5- | ethyl |\n| Cl- | chloro |\n| Br- | bromo |\n| OH- | hydroxy |\n\n### 4. Assemble name:\nSubstituents (alphabetically) + parent + suffix\n\n## Examples:\n\n```\nCH3-CH2-CH2-CH3 = butane\nCH3-CH(CH3)-CH3 = 2-methylpropane\nCH3-CH2-OH = ethanol\nCH3-CHO = ethanal\nCH3-COOH = ethanoic acid\n```\n\n## Common Suffixes:\n\n| Compound | Suffix |\n|----------|--------|\n| Alkane | -ane |\n| Alkene | -ene |\n| Alkyne | -yne |\n| Alcohol | -ol |\n| Aldehyde | -al |\n| Ketone | -one |\n| Carboxylic acid | -oic acid |"
         },
         {
             "id": "org_8",
             "type": "content",
-            "title": "Aromatic Compounds",
-            "content": "# Benzene Rings 🍩\n\n**Benzene ($C_6H_6$)**: A hexagon with alternating double bonds... actually, the electrons are delocalized around the ring.\n\n- Very stable.\n- \"Aromatic\" because many smell strong.\n- Found in DNA bases, aspirin, and vanilla."
+            "title": "Polymers",
+            "content": "# Polymers\n\n**Polymers** are large molecules made of repeating units (monomers).\n\n## Addition Polymers:\n\nUnsaturated monomers join without losing atoms.\n\n| Monomer | Polymer | Use |\n|---------|---------|-----|\n| Ethene | Polyethene | Bags, bottles |\n| Propene | Polypropene | Rope, containers |\n| Styrene | Polystyrene | Packaging |\n| Chloroethene | PVC | Pipes, flooring |\n| Tetrafluoroethene | PTFE (Teflon) | Non-stick |\n\n## Condensation Polymers:\n\nMonomers join with loss of small molecule (usually H2O).\n\n| Polymer | Monomers | Use |\n|---------|----------|-----|\n| Nylon | Diamine + diacid | Clothing, rope |\n| Polyester | Diol + diacid | Clothing, bottles |\n| Proteins | Amino acids | Biological |\n\n## Properties:\n\n| Type | Properties |\n|------|------------|\n| Thermoplastic | Softens on heating, recyclable |\n| Thermosetting | Does not soften, stronger |\n\n## Environmental Issues:\n- Non-biodegradable\n- Microplastics\n- Recycling important\n- Bioplastics being developed"
         },
         {
             "id": "org_9",
             "type": "content",
-            "title": "Nucleophiles and Electrophiles",
-            "content": "# Chemical Dating ❤️\n\nReactions are often \"Attacker\" vs \"Target\".\n\n- **Nucleophile (Nu)**: Nucleus lover. Electron rich ($OH^-$). Attacks positive spots.\n- **Electrophile (E)**: Electron lover. Electron poor ($H^+$). Gets attacked.\n\nCurly arrows show electron movement from Nu to E."
+            "title": "Proteins",
+            "content": "# Proteins\n\n**Proteins** are polymers of amino acids.\n\n## Amino Acids:\n\nGeneral structure:\n- Amino group (-NH2)\n- Carboxylic acid group (-COOH)\n- R group (side chain)\n\n20 different amino acids in proteins.\n\n## Peptide Bond:\n\n```\n-CO-NH- (amide bond)\n```\n\nFormed by condensation between amino acids.\n\n## Protein Structure:\n\n| Level | Description |\n|-------|-------------|\n| Primary | Amino acid sequence |\n| Secondary | Alpha helix, beta sheet |\n| Tertiary | 3D folded shape |\n| Quaternary | Multiple polypeptide chains |\n\n## Functions:\n\n| Function | Example |\n|----------|--------|\n| Enzymes | Amylase, catalase |\n| Structure | Collagen, keratin |\n| Transport | Hemoglobin |\n| Defense | Antibodies |\n| Hormones | Insulin |\n\n## Denaturation:\n\nLoss of 3D structure due to:\n- Heat\n- pH change\n- Chemicals\n\n> **Example:** Cooking egg - proteins denature and solidify."
         },
         {
             "id": "org_10",
             "type": "content",
-            "title": "Substitution Reactions",
-            "content": "# Swapping Partners 🔄\n\n**SN1 vs SN2**\n- **SN2**: Backside attack. One step. Inverts geometry (Umbrella flip).\n- **SN1**: Leaving group leaves first. Two steps. Forms carbocation intermediate.\n\nCrucial for synthesis."
+            "title": "Carbohydrates",
+            "content": "# Carbohydrates\n\n**Carbohydrates** contain C, H, and O in ratio Cn(H2O)m.\n\n## Classification:\n\n### Monosaccharides (simple sugars):\n| Name | Formula | Source |\n|------|---------|--------|\n| Glucose | C6H12O6 | Fruits, blood |\n| Fructose | C6H12O6 | Fruits, honey |\n| Galactose | C6H12O6 | Milk |\n\n### Disaccharides (two monosaccharides):\n| Name | Components | Source |\n|------|------------|--------|\n| Sucrose | Glucose + Fructose | Table sugar |\n| Maltose | Glucose + Glucose | Malt |\n| Lactose | Glucose + Galactose | Milk |\n\n### Polysaccharides (many monosaccharides):\n| Name | Function |\n|------|----------|\n| Starch | Energy storage (plants) |\n| Glycogen | Energy storage (animals) |\n| Cellulose | Structure (plant cell walls) |\n\n## Glycosidic Bond:\n\nLinks monosaccharides together.\n\n## Tests:\n\n| Test | Positive Result | Detects |\n|------|----------------|--------|\n| Benedict's | Orange ppt | Reducing sugars |\n| Iodine | Blue-black | Starch |"
         },
         {
-            "id": "org_quiz_2",
+            "id": "org_quiz_3",
             "type": "quiz",
-            "title": "Mechanism Quiz",
-            "content": "Reaction types.",
-            "quizQuestion": "In an SN2 reaction, how many steps are there?",
+            "title": "Biomolecules Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Proteins are polymers of:",
             "quizOptions": [
-                "Two",
-                "One",
-                "Three",
-                "Zero"
+                "Monosaccharides",
+                "Amino acids",
+                "Nucleotides",
+                "Fatty acids"
             ],
             "correctOptionIndex": 1
         },
         {
             "id": "org_11",
             "type": "content",
-            "title": "Elimination Reactions",
-            "content": "# Making Double Bonds 🛤️\n\nRemoving atoms to form a pi bond (alkene).\n- E1 and E2 mechanisms (parallels SN1/SN2).\n- Base takes a proton, leaving group leaves, double bond forms."
+            "title": "Lipids and Fats",
+            "content": "# Lipids and Fats\n\n**Lipids** are fats and oils - esters of fatty acids and glycerol.\n\n## Structure:\n\nGlycerol + 3 Fatty acids -> Triglyceride + 3 H2O\n\n## Types of Fatty Acids:\n\n| Type | Bonds | Example |\n|------|-------|--------|\n| Saturated | No C=C | Stearic acid |\n| Unsaturated | Has C=C | Oleic acid |\n| Polyunsaturated | Multiple C=C | Linoleic acid |\n\n## Fats vs Oils:\n\n| Property | Fats | Oils |\n|----------|------|------|\n| State at RT | Solid | Liquid |\n| Source | Animal | Plant |\n| Fatty acids | Saturated | Unsaturated |\n\n## Reactions:\n\n### Hydrolysis (saponification):\n```\nFat + NaOH -> Glycerol + Soap (sodium salt of fatty acid)\n```\n\n### Hydrogenation:\n```\nOil + H2 -> Fat (solid)\n```\n\n## Functions:\n- Energy storage (9 kcal/g)\n- Insulation\n- Protection\n- Cell membranes (phospholipids)"
         },
         {
             "id": "org_12",
             "type": "content",
-            "title": "Addition Reactions",
-            "content": "# Breaking Double Bonds 🔨\n\nAdding atoms across a double bond.\n- **Hydrogenation**: Adding $H_2$ (Making margarine from oil).\n- **Hydration**: Adding $H_2O$ (Making alcohol from alkene).\n\nReverse of elimination."
+            "title": "Isomerism",
+            "content": "# Isomerism\n\n**Isomers** have same molecular formula but different arrangements.\n\n## Structural Isomers:\n\nDifferent connectivity of atoms.\n\n### Chain Isomers:\nDifferent carbon skeleton.\n```\nC4H10: n-butane, isobutane\n```\n\n### Position Isomers:\nSame functional group, different position.\n```\nC3H7OH: propan-1-ol, propan-2-ol\n```\n\n### Functional Group Isomers:\nDifferent functional groups.\n```\nC2H6O: ethanol (alcohol), dimethyl ether\n```\n\n## Stereoisomers:\n\nSame connectivity, different spatial arrangement.\n\n### Geometric (cis-trans) Isomers:\n- Occur around C=C bond\n- cis: same side\n- trans: opposite sides\n\n### Optical Isomers:\n- Mirror images (enantiomers)\n- Chiral center (4 different groups on C)\n- Rotate plane-polarized light\n\n## Importance:\n- Different isomers can have different properties\n- Important in drug design\n- One isomer may be active, other inactive"
         },
         {
             "id": "org_13",
             "type": "content",
-            "title": "Polymers",
-            "content": "# Plastics 🔗\n\nLong chains of repeating units (monomers).\n- **Addition Polymers**: Polyethylene, PVC.\n- **Condensation Polymers**: Nylon, Polyester (releases water).\n\nSynthetic: Plastics, Rubber.\nNatural: DNA, Proteins, Cellulose."
+            "title": "Reaction Types",
+            "content": "# Organic Reaction Types\n\n## Substitution:\n\nOne atom/group replaces another.\n\n```\nCH4 + Cl2 -> CH3Cl + HCl (UV light)\n```\n\n## Addition:\n\nAtoms add across double/triple bond.\n\n```\nC2H4 + Br2 -> C2H4Br2\n```\n\n## Elimination:\n\nAtoms removed to form double bond.\n\n```\nC2H5OH -> C2H4 + H2O (H2SO4, heat)\n```\n\n## Oxidation:\n\nAddition of oxygen or removal of hydrogen.\n\n```\nC2H5OH -> CH3CHO -> CH3COOH\nAlcohol -> Aldehyde -> Carboxylic acid\n```\n\n## Reduction:\n\nAddition of hydrogen or removal of oxygen.\n\n```\nCH3CHO + H2 -> C2H5OH\n```\n\n## Condensation:\n\nTwo molecules join with loss of small molecule.\n\n```\nAlcohol + Acid -> Ester + H2O\n```\n\n## Hydrolysis:\n\nBreaking with water.\n\n```\nEster + H2O -> Alcohol + Acid\n```"
+        },
+        {
+            "id": "org_quiz_4",
+            "type": "quiz",
+            "title": "Reactions Quiz",
+            "content": "Final quiz!",
+            "quizQuestion": "When an alkene reacts with bromine, what type of reaction occurs?",
+            "quizOptions": [
+                "Substitution",
+                "Addition",
+                "Elimination",
+                "Oxidation"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "org_14",
             "type": "content",
-            "title": "Carbohydrates",
-            "content": "# Sugars 🍬\n\nBio-organic chemistry.\n- **Monosaccharides**: Glucose, Fructose.$C_6H_{12}O_6$.\n- **Polysaccharides**: Starch (Energy storage), Cellulose (Plant structure).\n- Lots of alcohol ($OH$) groups."
-        },
-        {
-            "id": "org_15",
-            "type": "content",
-            "title": "Proteins",
-            "content": "# Molecular Machines 🦾\n\nPolymers of **Amino Acids**.\n- Linked by Peptide Bonds (Amide).\n- Fold into complex 3D shapes to function.\n- Enzymes are protein catalysts."
-        },
-        {
-            "id": "org_16",
-            "type": "content",
-            "title": "Lipids & Nucleic Acids",
-            "content": "# Fats and DNA 🧬\n\n- **Lipids**: Fats, oils, cell membranes. Hydrophobic (hate water).\n- **Nucleic Acids**: DNA/RNA. Polymers of nucleotides. Stores genetic info.\n\nOrganic chemistry explains the code of life!"
-        },
-        {
-            "id": "org_17",
-            "type": "content",
-            "title": "Organic Chemistry Summary",
-            "content": "# Recap 📝\n\n- **Carbon** builds complex shapes.\n- **Functional Groups** dictate reactivity.\n- **Drawing structures** is the language.\n- **Mechanisms** explain how bonds break and form.\n\nFrom medicine to plastic to your own DNA, organic chemistry is everywhere."
+            "title": "Summary",
+            "content": "# Organic Chemistry Summary\n\n## Hydrocarbons:\n\n| Type | Bonds | Formula |\n|------|-------|--------|\n| Alkane | Single | CnH2n+2 |\n| Alkene | Double | CnH2n |\n| Alkyne | Triple | CnH2n-2 |\n\n## Key Functional Groups:\n- Alcohol: -OH\n- Aldehyde: -CHO\n- Ketone: -CO-\n- Carboxylic acid: -COOH\n- Ester: -COO-\n\n## Biomolecules:\n\n| Type | Monomers |\n|------|----------|\n| Proteins | Amino acids |\n| Carbohydrates | Monosaccharides |\n| Lipids | Fatty acids + glycerol |\n\n## Reaction Types:\n- Substitution, Addition, Elimination\n- Oxidation, Reduction\n- Condensation, Hydrolysis\n\n## IUPAC Naming:\n1. Find longest chain\n2. Number from nearest substituent\n3. Name substituents + parent + suffix\n\n> **Congratulations!** You've completed Organic Chemistry!"
         }
     ]
 }

@@ -2,136 +2,128 @@
     "id": "learn_logic",
     "topicId": "logic",
     "topicTitle": "Logic and Set Theory",
-    "description": "The foundation of mathematics and computer science.",
-    "baseKP": 100,
+    "description": "Explore logical reasoning, set operations, and proof techniques",
+    "baseKP": 75,
     "slides": [
         {
             "id": "logic_1",
             "type": "content",
-            "title": "What is Logic?",
-            "content": "# Rules of Reason 🧠\n\nFormal system for determining the truth of statements.\n- **Premise**: If it rains, the grass gets wet.\n- **Fact**: It rained.\n- **Conclusion**: The grass is wet."
+            "title": "Welcome to Logic and Set Theory",
+            "content": "# Introduction to Logic and Set Theory\n\nWelcome to **Logic and Set Theory** - the foundations of mathematics!\n\n## What You Will Learn:\n- **Propositions** - True/false statements\n- **Logical Connectives** - AND, OR, NOT\n- **Sets** - Collections of objects\n- **Set Operations** - Union, intersection\n- **Proofs** - Mathematical reasoning\n\n> **Fun Fact:** Georg Cantor proved there are different sizes of infinity!"
         },
         {
             "id": "logic_2",
             "type": "content",
-            "title": "Set Theory Basics",
-            "content": "# Collections 📦\n\nA **Set** is a collection of distinct objects.\n$A = \\{1, 2, 3\\}$\n- $\\in$: \"Is an element of\" ($1 \\in A$).\n- $\\subset$: \"Is a subset of\" ($\\{1, 2\\} \\subset A$).\n- $\\emptyset$: Empty set."
+            "title": "Propositions",
+            "content": "# Propositions\n\n## Definition:\nA statement that is either true or false.\n\n## Examples:\n- \"2 + 2 = 4\" (TRUE)\n- \"Paris is in Germany\" (FALSE)\n- \"5 > 3\" (TRUE)\n\n## Non-Propositions:\n- \"What time is it?\" (question)\n- \"Close the door.\" (command)\n- \"x + 1 = 5\" (depends on x)\n\n## Notation:\n- p, q, r for propositions\n- T or 1 for true\n- F or 0 for false"
         },
         {
             "id": "logic_3",
             "type": "content",
-            "title": "Set Operations",
-            "content": "# Venn Diagrams 🥨\n\n- **Union ($A \\cup B$)**: Everything in A OR B.\n- **Intersection ($A \\cap B$)**: Everything in A AND B.\n- **Difference ($A - B$)**: Everything in A that is NOT in B."
-        },
-        {
-            "id": "logic_4",
-            "type": "content",
-            "title": "Boolean Logic",
-            "content": "# True or False 0/1\n\nBasis of digital circuits.\n- **AND**: True only if both are True.\n- **OR**: True if at least one is True.\n- **NOT**: Flips value (True $\\to$ False)."
+            "title": "Logical Connectives",
+            "content": "# Logical Connectives\n\n## Main Connectives:\n\n| Connective | Symbol | Meaning |\n|------------|--------|--------|\n| NOT | ~ or not | Negation |\n| AND | /\\ or & | Conjunction |\n| OR | \\/ or | | Disjunction |\n| IF...THEN | -> | Implication |\n| IF AND ONLY IF | <-> | Biconditional |\n\n## Truth Tables:\n\n**NOT p:**\n| p | ~p |\n|---|----|\n| T | F |\n| F | T |\n\n**p AND q:**\nTrue only when BOTH are true."
         },
         {
             "id": "logic_quiz_1",
             "type": "quiz",
-            "title": "Operator Quiz",
-            "content": "Check tables.",
-            "quizQuestion": "In Boolean logic, False OR True evaluates to:",
+            "title": "Propositions Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "p AND q is true when:",
             "quizOptions": [
-                "False",
-                "True",
-                "Null",
-                "Zero"
+                "Either is true",
+                "Both are true",
+                "Both are false",
+                "p is true"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "logic_4",
+            "type": "content",
+            "title": "Truth Tables",
+            "content": "# Truth Tables\n\n## p OR q:\n| p | q | p OR q |\n|---|---|--------|\n| T | T | T |\n| T | F | T |\n| F | T | T |\n| F | F | F |\n\n## p -> q (Implication):\n| p | q | p -> q |\n|---|---|--------|\n| T | T | T |\n| T | F | F |\n| F | T | T |\n| F | F | T |\n\n## Key Insight:\nImplication is false ONLY when:\n- Hypothesis is true\n- Conclusion is false"
+        },
+        {
             "id": "logic_5",
             "type": "content",
-            "title": "Propositional Logic",
-            "content": "# Dealing with Sentences 🗣️\n\n$P \\to Q$ (If P then Q).\n- **P**: Hypothesis.\n- **Q**: Conclusion.\n- **Inverse**: $\\neg P \\to \\neg Q$ (Not P implies Not Q).\n- **Contrapositive**: $\\neg Q \\to \\neg P$ (Not Q implies Not P). Logically equivalent to original!"
+            "title": "Logical Equivalences",
+            "content": "# Logical Equivalences\n\n## Important Laws:\n\n**De Morgan's Laws:**\n```\n~(p AND q) = (~p) OR (~q)\n~(p OR q) = (~p) AND (~q)\n```\n\n**Double Negation:**\n```\n~~p = p\n```\n\n**Contrapositive:**\n```\n(p -> q) = (~q -> ~p)\n```\n\n**Distributive:**\n```\np AND (q OR r) = (p AND q) OR (p AND r)\n```"
         },
         {
             "id": "logic_6",
             "type": "content",
             "title": "Quantifiers",
-            "content": "# All or Some ∃ ∀\n\n- **Universal ($\\forall$)**: \"For all...\" ($\\forall x, x+1 > x$).\n- **Existential ($\\exists$)**: \"There exists...\" ($\\exists x, x^2 = 4$).\n\nUsed to write precise mathematical proofs."
-        },
-        {
-            "id": "logic_7",
-            "type": "content",
-            "title": "Truth Tables",
-            "content": "# Mapping Truth 🗺️\n\nA table showing all possible inputs and resulting output.\nUsed to prove logical equivalence (e.g., showing De Morgan's Laws work)."
-        },
-        {
-            "id": "logic_8",
-            "type": "content",
-            "title": "De Morgan's Laws",
-            "content": "# Negating Groups 🚫\n\n1. $\\neg(A \\text{ and } B) = \\neg A \\text{ or } \\neg B$\n2. $\\neg(A \\text{ or } B) = \\neg A \\text{ and } \\neg B$\n\n\"Not (A and B)\" is the same as \"(Not A) or (Not B)\"."
-        },
-        {
-            "id": "logic_9",
-            "type": "content",
-            "title": "Russell's Paradox",
-            "content": "# The Barber 💈\n\n\"The set of all sets that do not contain themselves.\"\n- Does it contain itself?\n- If yes, then no.\n- If no, then yes.\n- Broke math in early 20th century. Led to Axiomatic Set Theory (ZFC)."
-        },
-        {
-            "id": "logic_10",
-            "type": "content",
-            "title": "Cardinality",
-            "content": "# Size of Infinity ♾️\n\n- $|A|$: Number of elements.\n- Two sets have same cardinality if you can pair elements 1-to-1.\n- Integers and Evens have *same* size (Countable infinity).\n- Reals are *bigger* (Uncountable infinity)."
+            "content": "# Quantifiers\n\n## Universal Quantifier:\n\"For all\" - denoted by forall symbol\n```\nFor all x, P(x)\n```\nTrue if P(x) is true for EVERY x.\n\n## Existential Quantifier:\n\"There exists\" - denoted by exists symbol\n```\nThere exists x such that P(x)\n```\nTrue if P(x) is true for AT LEAST ONE x.\n\n## Negation:\n```\n~(For all x, P(x)) = There exists x, ~P(x)\n~(There exists x, P(x)) = For all x, ~P(x)\n```"
         },
         {
             "id": "logic_quiz_2",
             "type": "quiz",
-            "title": "Infinity Quiz",
-            "content": "Size check.",
-            "quizQuestion": "According to Cantor, are all infinities the same size?",
+            "title": "Logic Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "According to De Morgan's law, ~(p AND q) equals:",
             "quizOptions": [
-                "Yes",
-                "No"
+                "~p AND ~q",
+                "~p OR ~q",
+                "p OR q",
+                "~p -> ~q"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "logic_7",
+            "type": "content",
+            "title": "Introduction to Sets",
+            "content": "# Sets\n\n## Definition:\nA collection of distinct objects.\n\n## Notation:\n- A = {1, 2, 3}\n- B = {x | x is even}\n- Empty set: {} or null set symbol\n\n## Membership:\n- 2 in A (2 is a member of A)\n- 5 not in A\n\n## Important Sets:\n| Symbol | Set |\n|--------|-----|\n| N | Natural numbers {0, 1, 2, ...} |\n| Z | Integers |\n| Q | Rationals |\n| R | Real numbers |"
+        },
+        {
+            "id": "logic_8",
+            "type": "content",
+            "title": "Set Operations",
+            "content": "# Set Operations\n\n## Union:\nA union B = {x | x in A OR x in B}\n\n## Intersection:\nA intersect B = {x | x in A AND x in B}\n\n## Difference:\nA - B = {x | x in A AND x not in B}\n\n## Complement:\nA' = {x | x not in A}\n\n## Example:\nA = {1, 2, 3}, B = {2, 3, 4}\n- A union B = {1, 2, 3, 4}\n- A intersect B = {2, 3}\n- A - B = {1}"
+        },
+        {
+            "id": "logic_9",
+            "type": "content",
+            "title": "Subsets and Cardinality",
+            "content": "# Subsets and Cardinality\n\n## Subset:\nA subset of B means every element of A is in B.\n\n## Proper Subset:\nA is proper subset of B means A subset of B and A != B.\n\n## Cardinality:\nNumber of elements in a set.\n|A| = cardinality of A\n\n## Examples:\n- {1, 2} subset of {1, 2, 3}\n- |{a, b, c}| = 3\n- |empty set| = 0\n\n## Power Set:\nSet of all subsets.\n|P(A)| = 2^|A|"
+        },
+        {
+            "id": "logic_10",
+            "type": "content",
+            "title": "Venn Diagrams",
+            "content": "# Venn Diagrams\n\n## Purpose:\nVisualize set relationships.\n\n## Two Sets:\n- Two overlapping circles\n- Intersection in overlap\n- A - B in A only\n- B - A in B only\n\n## Three Sets:\n- Three overlapping circles\n- 8 possible regions\n\n## Uses:\n- Solving counting problems\n- Visualizing logic\n- Set operation verification\n\n## Inclusion-Exclusion:\n|A union B| = |A| + |B| - |A intersect B|"
+        },
+        {
+            "id": "logic_quiz_3",
+            "type": "quiz",
+            "title": "Sets Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "If A = {1, 2} and B = {2, 3}, then A intersect B =",
+            "quizOptions": [
+                "{1, 2, 3}",
+                "{2}",
+                "{1, 3}",
+                "empty set"
             ],
             "correctOptionIndex": 1
         },
         {
             "id": "logic_11",
             "type": "content",
-            "title": "Proof Methods",
-            "content": "# QED ∎\n\n- **Direct Proof**: $A \\to B \\to C$.\n- **Proof by Induction**: Prove for 1, Prove if $n$ is true then $n+1$ is true. Dominoes.\n- **Proof by Contradiction**: Assume False, show this breaks math ($\\sqrt{2}$ is irrational)."
+            "title": "Proof Techniques",
+            "content": "# Proof Techniques\n\n## Direct Proof:\n1. Assume hypothesis\n2. Use definitions and theorems\n3. Arrive at conclusion\n\n## Proof by Contradiction:\n1. Assume statement is FALSE\n2. Derive a contradiction\n3. Therefore statement is TRUE\n\n## Proof by Contrapositive:\nProve ~q -> ~p instead of p -> q\n\n## Mathematical Induction:\n1. Base case: Prove for n = 1\n2. Inductive step: If true for n, prove for n + 1\n3. Conclusion: True for all n"
         },
         {
             "id": "logic_12",
             "type": "content",
-            "title": "Fuzzy Logic",
-            "content": "# Shades of Gray 🌫️\n\nStandard logic is True/False (1/0).\nFuzzy logic allows values between 0 and 1.\n- \"Is it hot?\" $\\to$ 0.7 True.\n- Used in washing machines and rice cookers."
+            "title": "Mathematical Induction",
+            "content": "# Mathematical Induction\n\n## Structure:\n**Base Case:** Verify for n = 1 (or first value).\n\n**Inductive Hypothesis:** Assume true for n = k.\n\n**Inductive Step:** Prove true for n = k + 1.\n\n**Conclusion:** True for all n >= 1.\n\n## Example:\nProve 1 + 2 + ... + n = n(n+1)/2\n\n**Base:** n = 1: 1 = 1(2)/2 = 1. TRUE.\n\n**Step:** Assume true for k.\n1 + 2 + ... + k + (k+1)\n= k(k+1)/2 + (k+1)\n= (k+1)(k+2)/2. TRUE."
         },
         {
             "id": "logic_13",
             "type": "content",
-            "title": "Godel's Incompleteness",
-            "content": "# Limits of Knowledge 🚧\n\nIn any consistent formal system capable of arithmetic, there are statements that are true but cannot be proven within the system.\n- Math cannot prove everything."
-        },
-        {
-            "id": "logic_14",
-            "type": "content",
-            "title": "Functions and Relations",
-            "content": "# Mappings 🗺️\n\n- **Relation**: Link between sets.\n- **Function**: One output per input.\n- **Injection**: One-to-one.\n- **Surjection**: Onto (Hits all targets).\n- **Bijection**: Both (Perfect pairing)."
-        },
-        {
-            "id": "logic_15",
-            "type": "content",
-            "title": "Logical Fallacies",
-            "content": "# Bad Arguments ⛔\n\n- **Ad Hominem**: Attacking the person.\n- **Straw Man**: Attacking a weaker version of the argument.\n- **Circular Reasoning**: Conclusion is in the premise.\n- Important for critical thinking."
-        },
-        {
-            "id": "logic_16",
-            "type": "content",
-            "title": "Computer Logic",
-            "content": "# Circuits 🔌\n\nLogic gates (AND, OR, XOR) are built with transistors.\nMillions of these gates make a CPU.\nSoftware code is just complex logic steps."
-        },
-        {
-            "id": "logic_17",
-            "type": "content",
-            "title": "Logic Summary",
-            "content": "# Recap 📝\n\n- **Sets** group things.\n- **Logic** connects truths ($P \\to Q$).\n- **Proofs** verify truth.\n- **Computation** is built on Boolean logic."
+            "title": "Summary",
+            "content": "# Logic and Set Theory Summary\n\n## Logic:\n- Propositions: True or false\n- Connectives: AND, OR, NOT, IF-THEN\n- De Morgan's Laws\n\n## Sets:\n| Operation | Result |\n|-----------|--------|\n| Union | All in either |\n| Intersection | All in both |\n| Difference | In A but not B |\n\n## Proofs:\n- Direct\n- Contradiction\n- Induction\n\n## Foundation:\nLogic and sets underpin all mathematics.\n\n> **Congratulations!** You've completed Logic and Set Theory!"
         }
     ]
 }

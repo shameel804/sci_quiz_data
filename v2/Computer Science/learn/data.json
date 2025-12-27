@@ -2,138 +2,78 @@
     "id": "learn_data",
     "topicId": "data",
     "topicTitle": "Data Structures",
-    "description": "Organizing information efficiently.",
-    "baseKP": 100,
+    "description": "Explore arrays, linked lists, trees, graphs, and other fundamental structures",
+    "baseKP": 75,
     "slides": [
         {
-            "id": "data_1",
+            "id": "datastruct_1",
             "type": "content",
-            "title": "Why Structure Data?",
-            "content": "# Organization 🗄️\n\nA Data Structure is a way to store and organize data so it can be used efficiently.\n- Choosing the right one makes code fast ($O(1)$).\n- Choosing the wrong one makes code slow ($O(n)$)."
+            "title": "Welcome to Data Structures",
+            "content": "# Introduction to Data Structures\n\nWelcome to **Data Structures** - organizing data efficiently!\n\n## What You Will Learn:\n- **Linear Structures** - Arrays, lists, stacks, queues\n- **Trees** - Hierarchical data\n- **Graphs** - Networks\n- **Hash Tables** - Fast lookup\n\n> **Fun Fact:** Choosing the right data structure can make your code 1000x faster!"
         },
         {
-            "id": "data_2",
+            "id": "datastruct_2",
             "type": "content",
-            "title": "Arrays",
-            "content": "# The Shelf 📏\n\nA collection of items stored in contiguous memory.\n- **Access**: Instant ($O(1)$) if you know index.\n- **Search**: Slow ($O(n)$) unless sorted.\n- **Resize**: Hard (Fixed size usually)."
+            "title": "Arrays and Linked Lists",
+            "content": "# Arrays and Linked Lists\n\n## Arrays:\n- Contiguous memory\n- Fixed size (usually)\n- Random access O(1)\n- Insert/delete O(n)\n\n## Linked Lists:\n- Nodes with pointers\n- Dynamic size\n- Access O(n)\n- Insert/delete O(1) if position known\n\n## Comparison:\n\n| Operation | Array | Linked List |\n|-----------|-------|-------------|\n| Access | O(1) | O(n) |\n| Search | O(n) | O(n) |\n| Insert at front | O(n) | O(1) |\n| Insert at end | O(1)* | O(n) or O(1) |\n| Delete | O(n) | O(1) |\n\n*If space available\n\n## Types of Linked Lists:\n- Singly linked\n- Doubly linked\n- Circular"
         },
         {
-            "id": "data_3",
+            "id": "datastruct_3",
             "type": "content",
-            "title": "Linked Lists",
-            "content": "# The Chain 🔗\n\nItems (Nodes) scattered in memory, each pointing to the next.\n- **Resize**: Easy (Just change pointers).\n- **Access**: Slow ($O(n)$) - must follow the chain.\n- **Insert/Delete**: Fast."
+            "title": "Stacks and Queues",
+            "content": "# Stacks and Queues\n\n## Stack:\n- LIFO (Last In, First Out)\n- Operations: push, pop, peek\n- All O(1)\n\n**Uses:**\n- Function call stack\n- Undo operations\n- Expression evaluation\n- Backtracking\n\n## Queue:\n- FIFO (First In, First Out)\n- Operations: enqueue, dequeue, front\n- All O(1)\n\n**Uses:**\n- Task scheduling\n- Print queue\n- BFS traversal\n- Buffering\n\n## Deque:\n- Double-ended queue\n- Insert/remove at both ends\n\n## Priority Queue:\n- Elements have priority\n- Highest priority dequeued first\n- Usually implemented with heap"
         },
         {
-            "id": "data_4",
-            "type": "content",
-            "title": "Stacks",
-            "content": "# Stack of Plates 🍽️\n\nLIFO (Last In, First Out).\n- **Push**: Add to top.\n- **Pop**: Remove from top.\n- Used in: Undo button, Backtracking algorithms."
-        },
-        {
-            "id": "data_5",
-            "type": "content",
-            "title": "Queues",
-            "content": "# The Line 🚶🚶🚶\n\nFIFO (First In, First Out).\n- **Enqueue**: Add to back.\n- **Dequeue**: Remove from front.\n- Used in: Printer tasks, Web server requests."
-        },
-        {
-            "id": "data_quiz_1",
+            "id": "datastruct_quiz_1",
             "type": "quiz",
-            "title": "Order Quiz",
-            "content": "Structure check.",
-            "quizQuestion": "Which data structure follows the LIFO (Last In, First Out) principle?",
+            "title": "Data Structures Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A stack follows which principle?",
             "quizOptions": [
-                "Queue",
-                "Linked List",
-                "Stack",
-                "Array"
+                "FIFO",
+                "LIFO",
+                "Random",
+                "Sorted"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "data_6",
-            "type": "content",
-            "title": "Hash Tables / Maps",
-            "content": "# Key-Value Pairs 🔑\n\n- Uses a Hash Function to compute index.\n- **Lookup**: Super fast ($O(1)$).\n- Example: Phone book (Name $\\to$ Number).\n- The most useful general-purpose structure."
-        },
-        {
-            "id": "data_7",
+            "id": "datastruct_4",
             "type": "content",
             "title": "Trees",
-            "content": "# Hierarchy 🌳\n\n- **Root**: Top node.\n- **Leaves**: Nodes with no children.\n- Used in: File systems, DOM (HTML)."
+            "content": "# Trees\n\n## Basic Concepts:\n- Root: Top node\n- Parent/Child relationships\n- Leaf: Node with no children\n- Height: Longest path to leaf\n\n## Binary Tree:\n- Each node has at most 2 children\n- Left and right child\n\n## Binary Search Tree (BST):\n- Left subtree < node < right subtree\n- Search, insert, delete: O(log n) average\n- Can degrade to O(n) if unbalanced\n\n## Balanced Trees:\n- AVL: Height-balanced\n- Red-Black: Color-based balancing\n- Guarantee O(log n) operations\n\n## Traversals:\n- In-order: left, root, right (sorted for BST)\n- Pre-order: root, left, right\n- Post-order: left, right, root\n- Level-order: BFS"
         },
         {
-            "id": "data_8",
-            "type": "content",
-            "title": "Binary Search Trees (BST)",
-            "content": "# Organized Tree 🌲\n\nLeft child is smaller, Right child is bigger.\n- Allows fast searching ($O(\\log n)$), like a sorted list but easier to insert into."
-        },
-        {
-            "id": "data_9",
-            "type": "content",
-            "title": "Heaps",
-            "content": "# Priority Queue 🏔️\n\nTree where parent is always bigger (Max Heap) or smaller (Min Heap) than children.\n- **Access**: Instant access to Max/Min item.\n- Used in: Scheduling, Pathfinding (Dijkstra)."
-        },
-        {
-            "id": "data_10",
+            "id": "datastruct_5",
             "type": "content",
             "title": "Graphs",
-            "content": "# Networks 🕸️\n\nNodes (Vertices) connected by Edges.\n- **Directed**: One-way streets (Twitter follow).\n- **Undirected**: Two-way streets (Facebook friend).\n- **Weighted**: Distances (Google Maps)."
+            "content": "# Graphs\n\n## Definition:\n- Vertices (nodes) and edges (connections)\n- Directed or undirected\n- Weighted or unweighted\n\n## Representations:\n\n**Adjacency Matrix:**\n- 2D array\n- Space: O(V^2)\n- Edge lookup: O(1)\n\n**Adjacency List:**\n- Array of lists\n- Space: O(V + E)\n- Edge lookup: O(degree)\n\n## Graph Traversals:\n\n**Depth-First Search (DFS):**\n- Use stack (or recursion)\n- Go deep before wide\n\n**Breadth-First Search (BFS):**\n- Use queue\n- Go wide before deep\n- Finds shortest path (unweighted)\n\n## Classic Algorithms:\n- Dijkstra's: Shortest path\n- Topological sort: Dependencies\n- Minimum spanning tree"
         },
         {
-            "id": "data_11",
+            "id": "datastruct_6",
             "type": "content",
-            "title": "Trie (Prefix Tree)",
-            "content": "# Autocomplete ⌨️\n\nTree optimized for searching strings.\n- Shared prefixes branch off.\n- Fast way to find all words starting with \"App_\"."
+            "title": "Hash Tables",
+            "content": "# Hash Tables\n\n## Concept:\n- Key-value pairs\n- Hash function maps key to index\n- O(1) average operations\n\n## Hash Function:\n- Maps key to integer\n- Should distribute evenly\n- Example: hashCode() % size\n\n## Collision Handling:\n\n**Chaining:**\n- Each slot has a list\n- Collisions stored in list\n\n**Open Addressing:**\n- Find next available slot\n- Linear, quadratic, double hashing\n\n## Performance:\n\n| Operation | Average | Worst |\n|-----------|---------|-------|\n| Insert | O(1) | O(n) |\n| Search | O(1) | O(n) |\n| Delete | O(1) | O(n) |\n\n## Load Factor:\n- Elements / slots\n- Resize when too high (~0.75)"
         },
         {
-            "id": "data_quiz_2",
+            "id": "datastruct_quiz_2",
             "type": "quiz",
-            "title": "Look up Quiz",
-            "content": "Speed check.",
-            "quizQuestion": "Which data structure typically offers O(1) average lookup time?",
+            "title": "Trees Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In a BST, all values in the left subtree are:",
             "quizOptions": [
-                "Binary Search Tree",
-                "Linked List",
-                "Hash Table",
-                "Stack"
+                "Greater than the root",
+                "Less than the root",
+                "Equal to the root",
+                "Random"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "data_12",
+            "id": "datastruct_7",
             "type": "content",
-            "title": "Bloom Filters",
-            "content": "# Probabilistic 🎲\n\nSpace-efficient set.\n- Can say \"Definitely No\" or \"Maybe Yes\".\n- Never gives false negatives.\n- Used in caching."
-        },
-        {
-            "id": "data_13",
-            "type": "content",
-            "title": "JSON",
-            "content": "# Web Data 🌐\n\nJavaScript Object Notation.\n- Tree-like structure of Key-Values.\n- Standard for API responses.\n- You are reading JSON right now!"
-        },
-        {
-            "id": "data_14",
-            "type": "content",
-            "title": "Databases (SQL)",
-            "content": "# Tables 📑\n\nRelational Data.\n- Rows and Columns.\n- Good for structured data with relationships (Users, Orders)."
-        },
-        {
-            "id": "data_15",
-            "type": "content",
-            "title": "NoSQL",
-            "content": "# Documents 📄\n\nUnstructured Data (MongoDB, Firebase).\n- Just giant collections of JSON documents.\n- Flexible, scales well."
-        },
-        {
-            "id": "data_16",
-            "type": "content",
-            "title": "Memory Management",
-            "content": "# Clean Up 🧹\n\n- **Stack**: Fast, temporary variables.\n- **Heap**: Slow, large objects.\n- **Garbage Collection**: Automatic cleanup of unused memory."
-        },
-        {
-            "id": "data_17",
-            "type": "content",
-            "title": "Data Structures Summary",
-            "content": "# Recap 📝\n\n- **Hash Maps** for speed.\n- **Trees** for hierarchy.\n- **Graphs** for connections.\n- Know your tools to write fast code."
+            "title": "Summary",
+            "content": "# Data Structures Summary\n\n## Linear Structures:\n| Structure | Best Use |\n|-----------|----------|\n| Array | Random access |\n| Linked List | Frequent insertion |\n| Stack | LIFO operations |\n| Queue | FIFO operations |\n\n## Hierarchical:\n- Binary Search Tree: Sorted data\n- Balanced trees: Guaranteed O(log n)\n- Heap: Priority queue\n\n## Graphs:\n- Adjacency list vs matrix\n- DFS (stack) vs BFS (queue)\n\n## Hash Table:\n- O(1) average lookup\n- Collision handling important\n\n> **Congratulations!** You've completed Data Structures!"
         }
     ]
 }

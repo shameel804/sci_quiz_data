@@ -2,132 +2,116 @@
     "id": "learn_medieval",
     "topicId": "medieval",
     "topicTitle": "Medieval Science",
-    "description": "Science during the Middle Ages.",
-    "baseKP": 100,
+    "description": "Explore the Islamic Golden Age, medieval astronomy, scholasticism, and early optics",
+    "baseKP": 75,
     "slides": [
         {
             "id": "medieval_1",
             "type": "content",
-            "title": "The Golden Age",
-            "content": "# Islamic Science 🕌\n\nWhile Europe was in \"Dark Ages\", science flourished in the Middle East (8th-13th Century).\n- Baghdad (House of Wisdom).\n- Translated Greek texts to Arabic, saving them."
+            "title": "Welcome to Medieval Science",
+            "content": "# Introduction to Medieval Science\n\nWelcome to **Medieval Science** - 500-1500 CE!\n\n## What You Will Learn:\n- **Islamic Golden Age** - Preservation and innovation\n- **Medieval Astronomy** - Building towards Copernicus\n- **Scholasticism** - Reason and faith\n- **Early Optics** - Understanding light\n\n> **Fun Fact:** The word 'algorithm' comes from the name of Persian mathematician al-Khwarizmi!"
         },
         {
             "id": "medieval_2",
             "type": "content",
-            "title": "Algorithm and Algebra",
-            "content": "# Al-Khwarizmi ➗\n\nPersian mathematician.\n- Wrote \"Al-Jabr\" (Algebra).\n- His name is root of \"Algorithm\".\n- Introducted Hindu-Arabic numerals (0-9) to West."
+            "title": "Islamic Golden Age",
+            "content": "# The Islamic Golden Age (750-1258 CE)\n\n## Key Contributions:\n\n| Field | Advances |\n|-------|----------|\n| Mathematics | Algebra, algorithms |\n| Astronomy | Star catalogs, instruments |\n| Medicine | Hospitals, pharmacology |\n| Chemistry | Distillation, acids |\n| Optics | Light and vision |\n\n## Major Scholars:\n- Al-Khwarizmi (mathematics)\n- Ibn Sina/Avicenna (medicine)\n- Ibn al-Haytham/Alhazen (optics)\n- Al-Razi (chemistry)\n\n## Preservation:\n- Translated Greek texts\n- Preserved and expanded knowledge"
         },
         {
             "id": "medieval_3",
             "type": "content",
-            "title": "Ibn Sina (Avicenna)",
-            "content": "# The Canon of Medicine 📖\n\n- Wrote definitive medical encyclopedia used in Europe until 1650.\n- Described quarantine, contagion, and testing drugs."
-        },
-        {
-            "id": "medieval_4",
-            "type": "content",
-            "title": "Optics",
-            "content": "# Ibn al-Haytham 👁️\n\nFather of modern optics.\n- Proved light travels in straight lines into the eye (Intromission) rather than eye shooting beams (Emission).\n- Invented Camera Obscura."
-        },
-        {
-            "id": "medieval_5",
-            "type": "content",
-            "title": "Medieval Europe",
-            "content": "# Scholasticism ✝️\n\nUniversity system began (Oxford, Paris).\n- Using reason to understand God.\n- Thomas Aquinas: Reconciling Aristotle's logic with Christian faith."
+            "title": "Islamic Mathematics",
+            "content": "# Islamic Mathematics\n\n## Al-Khwarizmi (780-850):\n- Father of algebra\n- 'Al-jabr' = algebra\n- 'Algorithm' from his name\n- Hindu-Arabic numerals\n\n## Contributions:\n- Quadratic equations\n- Decimal system spread\n- Trigonometry advances\n\n## Other Mathematicians:\n- Omar Khayyam (cubic equations)\n- Al-Karaji (polynomials)\n- Nasir al-Din Tusi (trigonometry)\n\n## Legacy:\n- Foundation for modern math\n- Number system we use today"
         },
         {
             "id": "medieval_quiz_1",
             "type": "quiz",
-            "title": "Math Quiz",
-            "content": "Origin check.",
-            "quizQuestion": "Where does the word 'Algebra' come from?",
+            "title": "Islamic Age Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The word 'algebra' comes from which language?",
             "quizOptions": [
-                "Latin (Al-Gebros)",
-                "Arabic (Al-Jabr)",
-                "Greek (Alpha-Beta)",
-                "Hindi (Al-Gebra)"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "medieval_6",
-            "type": "content",
-            "title": "Medieval Technology",
-            "content": "# Inventions ⚙️\n\n- **Heavy Plough**: Revolutionized farming in North.\n- **Watermills/Windmills**: Mechanical power.\n- **Mechanical Clock**: Controlled time (and life)."
-        },
-        {
-            "id": "medieval_7",
-            "type": "content",
-            "title": "Alchemy Continues",
-            "content": "# Quest for Stone 💎\n\nPhilosopher's Stone.\n- Jabir ibn Hayyan (Geber): Father of chemistry. Distilled alcohol and sulfur.\n- Roger Bacon: English friar/alchemist, emphasized experimentation."
-        },
-        {
-            "id": "medieval_8",
-            "type": "content",
-            "title": "Hospitals",
-            "content": "# Care Centers 🏥\n\n- First general hospitals built in Islamic world (Bimaristans).\n- Separated patients by disease.\n- Paid staff and pharmacies."
-        },
-        {
-            "id": "medieval_9",
-            "type": "content",
-            "title": "Astronomy",
-            "content": "# The Stars 🌟\n\n- Improved Astrolabes (Navigation/Time).\n- Named many stars (Aldebaran, Betelgeuse, Rigel - all Arabic names).\n- Critiqued Ptolemy, setting stage for Copernicus."
-        },
-        {
-            "id": "medieval_10",
-            "type": "content",
-            "title": "Ockham's Razor",
-            "content": "# Simplicity 🪒\n\nWilliam of Ockham.\n- \"Entities should not be multiplied beyond necessity.\"\n- The simplest explanation is usually the correct one.\n- Key scientific principle."
-        },
-        {
-            "id": "medieval_11",
-            "type": "content",
-            "title": "Brief Renaissance",
-            "content": "# Carolingian 👑\n\nCharlemagne (800 AD) promoted literacy and schools.\n- Alcuin of York.\n- Standardized writing (Carolingian minuscule)."
-        },
-        {
-            "id": "medieval_12",
-            "type": "content",
-            "title": "The Black Death",
-            "content": "# Plague 🐀\n\n1347. Killing 30-60% of Europe.\n- Slowed science momentarily.\n- But shook trust in ancient authorities (Galen) who couldn't cure it.\n- Led to social changes allowing Renaissance."
-        },
-        {
-            "id": "medieval_quiz_2",
-            "type": "quiz",
-            "title": "Logic Quiz",
-            "content": "Razor check.",
-            "quizQuestion": "Ockham's Razor suggests that when facing two explanations, you should choose the:",
-            "quizOptions": [
-                "Most Complex",
-                "Most Religious",
-                "Simplest",
-                "Most Ancient"
+                "Greek",
+                "Latin",
+                "Arabic",
+                "Persian"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "medieval_13",
+            "id": "medieval_4",
             "type": "content",
-            "title": "Printing Press",
-            "content": "# Information Age 🖨️\n\nGutenberg (1440).\n- Not strictly science, but enabled it.\n- Books became cheap.\n- Ideas (and diagrams) could spread accurately and fast."
+            "title": "Medieval Astronomy",
+            "content": "# Medieval Astronomy\n\n## Islamic Astronomy:\n- Improved Ptolemaic model\n- Better observations\n- New instruments\n\n## Instruments:\n| Instrument | Use |\n|------------|-----|\n| Astrolabe | Position, time |\n| Quadrant | Angle measurement |\n| Armillary sphere | Celestial model |\n\n## Star Names:\nMany stars have Arabic names:\n- Aldebaran, Betelgeuse\n- Rigel, Vega, Altair\n\n## Copernicus Precursors:\n- Tusi couple\n- Ibn al-Shatir's models\n- Influenced later revolution"
         },
         {
-            "id": "medieval_14",
+            "id": "medieval_5",
             "type": "content",
-            "title": "Leonardo da Vinci",
-            "content": "# Polymath 🎨\n\nBridge to Renaissance.\n- Artist, Engineer, Anatomist.\n- Designed flying machines, tanks.\n- Dissected bodies in secret (drawings were centuries ahead)."
+            "title": "Medieval Medicine",
+            "content": "# Medieval Medicine\n\n## Ibn Sina/Avicenna (980-1037):\n- Canon of Medicine\n- Used for 600 years\n- Systematic medical knowledge\n\n## Al-Razi/Rhazes (854-925):\n- Differentiated measles and smallpox\n- Clinical observation\n\n## Hospitals:\n- Bimaristans\n- First teaching hospitals\n- Treatment for all\n\n## Medical Advances:\n- Surgical techniques\n- Pharmacology\n- Ophthalmology\n- Anatomy knowledge"
         },
         {
-            "id": "medieval_15",
+            "id": "medieval_6",
             "type": "content",
-            "title": "Navigation",
-            "content": "# Exploration ⛵\n\n- Magnetic Compass adopted.\n- Lateen Sail (Triangular) allowed sailing against wind.\n- Age of Discovery followed."
+            "title": "Optics",
+            "content": "# Medieval Optics\n\n## Ibn al-Haytham (965-1040):\n- Book of Optics\n- Father of modern optics\n- Scientific method pioneer\n\n## Discoveries:\n- Light travels in straight lines\n- Reflection and refraction\n- Camera obscura\n- Eye receives light (not emits)\n\n## Vision Theory:\n- Disproved emission theory\n- Eye as receiving device\n- Analysis of perception\n\n## Legacy:\n- Influenced Kepler, Newton\n- Foundation of optical science"
         },
         {
-            "id": "medieval_16",
+            "id": "medieval_quiz_2",
+            "type": "quiz",
+            "title": "Optics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Ibn al-Haytham proved that the eye:",
+            "quizOptions": [
+                "Emits light rays",
+                "Receives light",
+                "Creates images",
+                "Is spherical"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "medieval_7",
             "type": "content",
-            "title": "Medieval Summary",
-            "content": "# Recap 📝\n\n- Not strictly \"Dark\".\n- **Islamic Golden Age** preserved and advanced knowledge.\n- **Universities** were born.\n- **Experimentation** began to challenge Authority."
+            "title": "European Medieval Science",
+            "content": "# European Medieval Science\n\n## Translation Movement:\n- Arabic works to Latin\n- Toledo, Spain center\n- 12th century renaissance\n\n## Universities:\n- Bologna (1088)\n- Paris (1150)\n- Oxford (1167)\n- Cambridge (1209)\n\n## Curriculum:\n- Trivium (grammar, rhetoric, logic)\n- Quadrivium (arithmetic, geometry, music, astronomy)\n\n## Key Figures:\n- Thomas Aquinas (theology and reason)\n- Roger Bacon (experimentation)\n- Robert Grosseteste (optics)"
+        },
+        {
+            "id": "medieval_8",
+            "type": "content",
+            "title": "Scholasticism",
+            "content": "# Scholasticism\n\n## Definition:\n- Philosophical method\n- Reconcile faith and reason\n- Aristotle + Christianity\n\n## Key Figures:\n- Thomas Aquinas (1225-1274)\n- Peter Abelard (1079-1142)\n- Albertus Magnus (1200-1280)\n\n## Method:\n- Question proposed\n- Objections listed\n- Counter-arguments given\n- Analysis and synthesis\n\n## Science Impact:\n- Rational inquiry encouraged\n- Natural philosophy studied\n- Prepared ground for Scientific Revolution"
+        },
+        {
+            "id": "medieval_9",
+            "type": "content",
+            "title": "Medieval Technology",
+            "content": "# Medieval Technology\n\n## Innovations:\n\n| Technology | Impact |\n|------------|--------|\n| Heavy plow | Agriculture |\n| Horse collar | Transportation |\n| Windmills | Power |\n| Mechanical clock | Timekeeping |\n| Eyeglasses | Vision |\n| Printing press | Knowledge |\n\n## Gunpowder:\n- From China via Islamic world\n- Changed warfare\n- Required new engineering\n\n## Architecture:\n- Gothic cathedrals\n- Flying buttresses\n- Stained glass technology"
+        },
+        {
+            "id": "medieval_quiz_3",
+            "type": "quiz",
+            "title": "Europe Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The first European university was founded in:",
+            "quizOptions": [
+                "Paris",
+                "Oxford",
+                "Bologna",
+                "Cambridge"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "medieval_10",
+            "type": "content",
+            "title": "Legacy",
+            "content": "# Legacy of Medieval Science\n\n## Transmission of Knowledge:\n- Greek -> Arabic -> Latin\n- Preservation during 'Dark Ages'\n- Foundation for Renaissance\n\n## Institutional Developments:\n- Universities\n- Libraries\n- Scholarly networks\n\n## Scientific Ideas:\n- Mathematical analysis\n- Experimental approach\n- Systematic observation\n\n## Path to Revolution:\n- Medieval contributions often overlooked\n- Continuous development\n- Not a sudden awakening"
+        },
+        {
+            "id": "medieval_11",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Medieval Science Summary\n\n## Islamic Golden Age:\n| Scholar | Field |\n|---------|-------|\n| Al-Khwarizmi | Mathematics |\n| Ibn Sina | Medicine |\n| Ibn al-Haytham | Optics |\n\n## Key Developments:\n- Algebra and algorithms\n- Hospitals and medicine\n- Understanding of light\n- Universities founded\n\n## European Contributions:\n- Scholasticism\n- Translation movement\n- Technological innovation\n\n## Legacy:\n- Preserved ancient knowledge\n- Advanced multiple fields\n- Set stage for Scientific Revolution\n\n> **Congratulations!** You've completed Medieval Science!"
         }
     ]
 }

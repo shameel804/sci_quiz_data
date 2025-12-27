@@ -2,138 +2,166 @@
     "id": "learn_elec",
     "topicId": "elec",
     "topicTitle": "Electromagnetism",
-    "description": "Explore the powerful forces of electricity and magnetism that power our world.",
-    "baseKP": 100,
+    "description": "Explore electric fields, circuits, magnetism, electromagnetic induction, and electromagnetic waves that power our modern world",
+    "baseKP": 75,
     "slides": [
         {
             "id": "elec_1",
             "type": "content",
-            "title": "Introduction to Electromagnetism",
-            "content": "# The Power of Charge ⚡\n\n**Electromagnetism** is the study of the electromagnetic force, one of the four fundamental forces of nature.\n\nIt deals with:\n- **Electric fields**: Created by stationary charges.\n- **Magnetic fields**: Created by moving charges (currents).\n\nIt holds atoms together and powers our modern civilization."
+            "title": "Welcome to Electromagnetism",
+            "content": "# Introduction to Electromagnetism\n\nWelcome to **Electromagnetism** - the force that powers our modern world!\n\n## What You Will Learn:\n- **Electric Fields and Charges** - The basis of electricity\n- **Electric Circuits** - How current flows\n- **Magnetism** - Magnetic fields and forces\n- **Electromagnetic Induction** - Generating electricity\n- **AC/DC Circuits** - Types of electrical current\n- **Electromagnetic Waves** - Light, radio, and more\n\n> **Fun Fact:** Electricity and magnetism were once thought to be separate forces. James Clerk Maxwell unified them in the 1860s!\n\n## Why Electromagnetism Matters:\n- Powers every electronic device you use\n- Enables wireless communication\n- Light itself is electromagnetic\n- Essential for motors, generators, and transformers\n\n## The Four Fundamental Forces:\n\n| Force | Relative Strength |\n|-------|------------------|\n| Strong nuclear | 10^38 |\n| Electromagnetic | 10^36 |\n| Weak nuclear | 10^25 |\n| Gravity | 1 |\n\nLet's explore this powerful force!"
         },
         {
             "id": "elec_2",
             "type": "content",
             "title": "Electric Charge",
-            "content": "# Positive and Negative ➕➖\n\n**Charge ($q$)** is a property of matter.\n- **Protons**: Positive (+)\n- **Electrons**: Negative (-)\n- **Neutrons**: Neutral (0)\n\n**Fundamental Law:**\nResulting forces:\n- Like charges **repel**.\n- Opposite charges **attract**.\n\nMeasured in Coulombs ($C$)."
+            "content": "# Electric Charge\n\n**Electric charge** is a fundamental property of matter.\n\n## Types of Charge:\n\n- **Positive charge** - Protons carry it\n- **Negative charge** - Electrons carry it\n\n## Properties of Charge:\n\n### Like charges repel, opposite charges attract\n\n```\n(+) and (+) = Repel\n(-) and (-) = Repel\n(+) and (-) = Attract\n```\n\n### Charge is quantized\n- Charge comes in discrete amounts\n- Elementary charge: e = 1.6 x 10^-19 Coulombs\n- All charges are multiples of e\n\n### Charge is conserved\n- Total charge in isolated system stays constant\n- Charge can transfer but not be created or destroyed\n\n## Coulomb's Law:\n\n```\nF = k x (q1 x q2) / r^2\n```\n\nWhere:\n- **F** = Force (Newtons)\n- **k** = 8.99 x 10^9 N m^2/C^2\n- **q1, q2** = Charges (Coulombs)\n- **r** = Distance (meters)\n\n## Conductors vs Insulators:\n\n| Type | Charge Movement | Examples |\n|------|-----------------|----------|\n| Conductor | Free | Metals, salt water |\n| Insulator | Restricted | Plastic, rubber, glass |\n| Semiconductor | Controllable | Silicon, germanium |\n\n> **Static Electricity:** When you get shocked touching a doorknob, about 20,000-30,000 volts are involved!"
         },
         {
             "id": "elec_3",
             "type": "content",
-            "title": "Coulomb's Law",
-            "content": "# The Electric Force 📏\n\nCalculates the force between two point charges.\n\n$$F = k \\frac{q_1 q_2}{r^2}$$\n\n- $k$: Coulomb's constant\n- $q$: Charges\n- $r$: Distance separation\n\nNotice it looks just like gravity! But electric force is vastly stronger."
-        },
-        {
-            "id": "elec_4",
-            "type": "content",
             "title": "Electric Fields",
-            "content": "# Action at a Distance 🕸️\n\nAn **Electric Field ($E$)** is a region around a charged particle where a force would be exerted on other charges.\n\n$$E = \\frac{F}{q}$$\n\n- Field lines point **AWAY** from positive charges.\n- Field lines point **TOWARDS** negative charges."
-        },
-        {
-            "id": "elec_5",
-            "type": "content",
-            "title": "Electric Potential",
-            "content": "# Voltage 🔋\n\n**Electric Potential ($V$)** (or Voltage) is the potential energy per unit charge.\n\n$$V = \\frac{PE}{q}$$\n\n- Measured in Volts ($V$).\n- Think of voltage as \"electrical pressure\" pushing charges through a circuit."
+            "content": "# Electric Fields\n\nAn **electric field** is the region around a charge where other charges experience a force.\n\n## Electric Field Definition:\n\n```\nE = F / q\n```\n\nWhere:\n- **E** = Electric field (N/C or V/m)\n- **F** = Force on test charge\n- **q** = Test charge\n\n## Field of a Point Charge:\n\n```\nE = k x Q / r^2\n```\n\n## Electric Field Lines:\n\n### Properties:\n- Point away from positive charges\n- Point toward negative charges\n- Never cross each other\n- Closer lines = stronger field\n\n### Patterns:\n- **Single positive charge:** Lines radiate outward\n- **Single negative charge:** Lines point inward\n- **Dipole:** Lines go from + to -\n- **Parallel plates:** Uniform field between\n\n## Electric Potential (Voltage):\n\n```\nV = W / q = k x Q / r\n```\n\nWhere:\n- **V** = Voltage (Volts)\n- **W** = Work to move charge\n\n## Relationship:\n\n```\nE = -Change in V / Change in x\n```\n\nField points from high to low potential.\n\n> **Key Insight:** Electric fields exert forces on charges without touching them - this is \"action at a distance\"!"
         },
         {
             "id": "elec_quiz_1",
             "type": "quiz",
-            "title": "Charge Quiz",
-            "content": "Test your fundamentals.",
-            "quizQuestion": "What happens when you bring two electrons close to each other?",
+            "title": "Electric Field Quiz",
+            "content": "Test your understanding of electric fields!",
+            "quizQuestion": "Electric field lines around a positive charge point:",
             "quizOptions": [
-                "They attract",
-                "They repel",
-                "Nothing happens",
-                "They spin"
+                "Toward the charge",
+                "Away from the charge",
+                "In circles around the charge",
+                "Parallel to the charge"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Electric Current",
+            "content": "# Electric Current\n\n**Electric current** is the flow of electric charge.\n\n## Definition:\n\n```\nI = Q / t\n```\n\nWhere:\n- **I** = Current (Amperes, A)\n- **Q** = Charge (Coulombs)\n- **t** = Time (seconds)\n\n## Current Direction:\n\n- **Conventional current:** Flows from + to - (positive charges)\n- **Electron flow:** Actual electrons flow - to +\n- We typically use conventional current in circuits\n\n## Types of Current:\n\n| Type | Description | Source |\n|------|-------------|--------|\n| DC (Direct Current) | Flows one direction | Batteries |\n| AC (Alternating Current) | Reverses direction | Wall outlets |\n\n## Current in Conductors:\n\n### Drift Velocity:\n- Electrons move slowly (mm/s)\n- Electric signal travels near light speed\n- Like a water pipe - pressure wave is instant\n\n### Factors Affecting Current:\n- Voltage (more voltage = more current)\n- Resistance (more resistance = less current)\n- Temperature (affects resistance)\n\n## Current Safety:\n\n| Current (mA) | Effect on Human Body |\n|--------------|---------------------|\n| 1 | Can barely feel |\n| 10-20 | Muscle contractions |\n| 100-300 | Potentially fatal |\n\n> **Warning:** It's the current, not voltage, that's dangerous. Low voltage with high current can be deadly!"
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Ohm's Law and Resistance",
+            "content": "# Ohm's Law and Resistance\n\n## Ohm's Law:\n\nThe most important equation in circuit analysis:\n\n```\nV = I x R\n```\n\nWhere:\n- **V** = Voltage (Volts)\n- **I** = Current (Amperes)\n- **R** = Resistance (Ohms, symbol: omega -> written as \"ohm\")\n\n## Rearranged Forms:\n\n```\nI = V / R\nR = V / I\n```\n\n## Resistance:\n\n**Resistance** opposes the flow of current.\n\n### Factors Affecting Resistance:\n\n```\nR = rho x L / A\n```\n\nWhere:\n- **rho** = Resistivity (material property)\n- **L** = Length (longer = more resistance)\n- **A** = Cross-sectional area (larger = less resistance)\n\n### Resistivity of Materials:\n\n| Material | Resistivity (ohm x m) |\n|----------|----------------------|\n| Silver | 1.6 x 10^-8 |\n| Copper | 1.7 x 10^-8 |\n| Aluminum | 2.8 x 10^-8 |\n| Tungsten | 5.6 x 10^-8 |\n| Glass | 10^10 to 10^14 |\n\n## Example:\nA circuit has 12 V and 3 ohm resistance.\n```\nI = V / R = 12 / 3 = 4 A\n```\n\n## Temperature Effect:\n- Metals: Resistance INCREASES with temperature\n- Semiconductors: Resistance DECREASES with temperature\n\n> **Why copper wires?** Copper has low resistivity, is flexible, affordable, and doesn't corrode easily."
+        },
+        {
             "id": "elec_6",
             "type": "content",
-            "title": "Current and Resistance",
-            "content": "# Flowing Charge 🌊\n\n**Current ($I$):** The flow of electric charge.\n- Measured in Amperes ($A$).\n\n**Resistance ($R$):** Opposition to the flow.\n- Measured in Ohms ($\\Omega$).\n- Depends on material, length, and thickness of wire."
+            "title": "Resistors in Circuits",
+            "content": "# Resistors in Circuits\n\nResistors can be connected in **series** or **parallel**.\n\n## Series Connection:\n\nResistors connected end-to-end (same current flows through all).\n\n```\nR_total = R1 + R2 + R3 + ...\n```\n\n### Properties:\n- Same current through all resistors\n- Voltage divides among resistors\n- Total resistance INCREASES\n- If one breaks, circuit opens\n\n## Parallel Connection:\n\nResistors connected across same two points.\n\n```\n1/R_total = 1/R1 + 1/R2 + 1/R3 + ...\n```\n\nFor two resistors:\n```\nR_total = (R1 x R2) / (R1 + R2)\n```\n\n### Properties:\n- Same voltage across all resistors\n- Current divides among resistors\n- Total resistance DECREASES\n- If one breaks, others still work\n\n## Comparison:\n\n| Property | Series | Parallel |\n|----------|--------|----------|\n| Current | Same everywhere | Divides |\n| Voltage | Divides | Same everywhere |\n| Total R | R1 + R2 | Less than smallest |\n| If one breaks | All stop | Others work |\n\n## Example:\nTwo 10 ohm resistors:\n- In series: R = 10 + 10 = 20 ohm\n- In parallel: R = (10 x 10)/(10 + 10) = 100/20 = 5 ohm\n\n> **Real World:** Home circuits are parallel so each device gets full voltage and works independently!"
         },
         {
             "id": "elec_7",
             "type": "content",
-            "title": "Ohm's Law",
-            "content": "# The Golden Rule 🌟\n\nRelates Voltage, Current, and Resistance.\n\n$$V = I \\cdot R$$\n\n- Higher Voltage $\\to$ More Current\n- Higher Resistance $\\to$ Less Current\n\nThis simple formula allows us to design circuits."
-        },
-        {
-            "id": "elec_8",
-            "type": "content",
-            "title": "Circuits: Series vs Parallel",
-            "content": "# Wiring Paths 🛣️\n\n**Series Circuit**:\n- One path for current.\n- Current is same everywhere.\n- $R_{total} = R_1 + R_2$\n\n**Parallel Circuit**:\n- Multiple paths.\n- Voltage is same across branches.\n- $\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2}$\n- Your house is wired in parallel!"
-        },
-        {
-            "id": "elec_9",
-            "type": "content",
             "title": "Capacitors",
-            "content": "# Storing Charge 🪫\n\nA **Capacitor** stores electrical energy in an electric field.\n\n$$C = \\frac{Q}{V}$$\n\n- Measured in Farads ($F$).\n- Used in camera flashes, touch screens, and smoothing power supplies."
-        },
-        {
-            "id": "elec_10",
-            "type": "content",
-            "title": "Magnetism",
-            "content": "# Magnetic Fields 🧲\n\nMagnets have **North** and **South** poles.\n- Like poles repel, opposites attract.\n- Magnetic field lines move North $\\to$ South.\n\n**Key Source:** Moving charges (Currents) produce magnetic fields!"
-        },
-        {
-            "id": "elec_11",
-            "type": "content",
-            "title": "Electromagnetic Induction",
-            "content": "# Making Electricity 💡\n\n**Faraday's Law:**\nChanging a magnetic field through a wire loop induces a voltage (and thus current) in the wire.\n\nThis is how **generators** work: turning a magnet inside a coil of wire produces electricity for our cities."
+            "content": "# Capacitors\n\nA **capacitor** stores electrical energy in an electric field.\n\n## Structure:\n- Two conducting plates\n- Separated by insulator (dielectric)\n- Stores charge on plates\n\n## Capacitance:\n\n```\nC = Q / V\n```\n\nWhere:\n- **C** = Capacitance (Farads, F)\n- **Q** = Charge stored (Coulombs)\n- **V** = Voltage (Volts)\n\n## Parallel Plate Capacitor:\n\n```\nC = epsilon_0 x A / d\n```\n\nWhere:\n- **epsilon_0** = 8.85 x 10^-12 F/m\n- **A** = Plate area\n- **d** = Plate separation\n\n## Energy Stored:\n\n```\nE = (1/2) x C x V^2\n```\n\n## Capacitors in Circuits:\n\n| Connection | Formula |\n|------------|--------|\n| Parallel | C_total = C1 + C2 + C3 |\n| Series | 1/C_total = 1/C1 + 1/C2 + 1/C3 |\n\n(Note: Opposite of resistors!)\n\n## Charging and Discharging:\n\n- Capacitors don't charge/discharge instantly\n- Time constant: tau = R x C\n- After 5 x tau, nearly complete\n\n## Applications:\n\n| Application | Purpose |\n|------------|--------|\n| Camera flash | Stores energy for quick release |\n| Computer memory | Stores data bits |\n| Power supplies | Smooths voltage fluctuations |\n| Tuning circuits | Selects radio frequencies |\n\n> **Key Insight:** Capacitors block DC but pass AC - they resist changes in voltage!"
         },
         {
             "id": "elec_quiz_2",
             "type": "quiz",
-            "title": "Induction Quiz",
-            "content": "Power generation check.",
-            "quizQuestion": "Which of these devices relies on electromagnetic induction?",
+            "title": "Circuits Quiz",
+            "content": "Test your knowledge of electric circuits!",
+            "quizQuestion": "Three 6 ohm resistors in parallel have a total resistance of:",
             "quizOptions": [
-                "Battery",
-                "Resistor",
-                "Generator",
-                "Capacitor"
+                "18 ohm",
+                "6 ohm",
+                "2 ohm",
+                "0.5 ohm"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Magnetism Basics",
+            "content": "# Magnetism\n\n**Magnetism** is a force caused by moving electric charges.\n\n## Magnetic Poles:\n\n- Every magnet has **North** and **South** poles\n- Like poles repel, opposite poles attract\n- Magnetic poles always come in pairs\n- You cannot isolate a single pole\n\n## Magnetic Fields:\n\n### Properties:\n- Represented by field lines\n- Lines go from North to South (outside magnet)\n- Closer lines = stronger field\n- Measured in Tesla (T) or Gauss (G)\n- 1 T = 10,000 G\n\n### Typical Field Strengths:\n\n| Source | Field Strength |\n|--------|---------------|\n| Earth's surface | 0.00005 T (0.5 G) |\n| Bar magnet | 0.01 T |\n| MRI machine | 1.5-3 T |\n| Best lab magnets | 45 T |\n\n## Sources of Magnetism:\n\n### 1. Permanent Magnets:\n- Made from ferromagnetic materials\n- Iron, cobalt, nickel, and their alloys\n- Atomic domains aligned\n\n### 2. Electromagnets:\n- Current flowing through wire creates magnetic field\n- Can be turned on/off\n- Strength can be controlled\n\n## Earth's Magnetic Field:\n\n- Geographic North is near magnetic South\n- Compass points to magnetic North\n- Field protects us from solar radiation\n- Field reverses periodically (over millennia)\n\n> **Fun Fact:** Some animals (birds, sea turtles) can sense Earth's magnetic field for navigation!"
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Magnetic Force",
+            "content": "# Magnetic Force\n\nMagnetic fields exert forces on moving charges and currents.\n\n## Force on Moving Charge:\n\n```\nF = q x v x B x sin(theta)\n```\n\nWhere:\n- **F** = Force (Newtons)\n- **q** = Charge (Coulombs)\n- **v** = Velocity (m/s)\n- **B** = Magnetic field (Tesla)\n- **theta** = Angle between v and B\n\n## Direction - Right Hand Rule:\n\n1. Point fingers in velocity direction\n2. Curl toward B field direction\n3. Thumb points in force direction (for positive charge)\n\n## Force on Current-Carrying Wire:\n\n```\nF = I x L x B x sin(theta)\n```\n\nWhere:\n- **I** = Current\n- **L** = Length of wire\n\n## Key Points:\n\n- Force is zero if charge moves parallel to field\n- Force is maximum if charge moves perpendicular to field\n- Force is PERPENDICULAR to both v and B\n- Magnetic force does NO work (changes direction, not speed)\n\n## Applications:\n\n| Device | How It Uses Magnetic Force |\n|--------|---------------------------|\n| Electric motor | Force on current-carrying coil |\n| Loudspeaker | Force on voice coil |\n| Mass spectrometer | Separates ions by mass |\n| CRT (old TVs) | Deflects electron beam |\n\n## Charged Particle in Uniform Field:\n\n- Moves in a circle (if perpendicular)\n- Radius: r = m x v / (q x B)\n\n> **Aurora:** Charged particles from the Sun spiral along Earth's magnetic field lines, creating the Northern/Southern Lights!"
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Electromagnetic Induction",
+            "content": "# Electromagnetic Induction\n\n**Electromagnetic induction** is the production of voltage by changing magnetic flux.\n\n## Faraday's Law:\n\n```\nEMF = -N x (Change in flux) / (Change in t)\n```\n\nWhere:\n- **EMF** = Induced voltage\n- **N** = Number of loops\n- **Magnetic flux** = B x A x cos(theta)\n\n## Lenz's Law:\n\nThe induced current opposes the change that caused it.\n\n### Examples:\n- Magnet approaching coil: Induced current creates repelling field\n- Magnet leaving coil: Induced current creates attracting field\n\n## Ways to Induce EMF:\n\n1. **Change B:** Vary the magnetic field strength\n2. **Change A:** Change the area of the loop\n3. **Change theta:** Rotate the loop\n4. **Move conductor:** Move wire through field\n\n## Motional EMF:\n\nFor wire moving through field:\n```\nEMF = B x L x v\n```\n\n## Applications:\n\n| Device | How It Uses Induction |\n|--------|----------------------|\n| Generator | Rotating coil in magnetic field |\n| Transformer | Changing flux in iron core |\n| Induction cooktop | Changing field heats pot |\n| Wireless charging | Changing flux transfers energy |\n| Credit card reader | Moving magnetic strip |\n\n> **Generator vs Motor:** A generator converts mechanical energy to electrical; a motor does the opposite. They're essentially the same device run differently!"
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "AC and DC Circuits",
+            "content": "# AC and DC Circuits\n\n## Direct Current (DC):\n\nCurrent flows in one direction only.\n\n### Characteristics:\n- Constant magnitude and direction\n- Easy to store (batteries)\n- Used in electronics, low-voltage devices\n\n### Sources:\n- Batteries\n- Solar cells\n- Rectified AC\n\n## Alternating Current (AC):\n\nCurrent reverses direction periodically.\n\n### Characteristics:\n- Sinusoidal waveform (usually)\n- Frequency: 60 Hz (US) or 50 Hz (Europe)\n- Easy to transform voltages\n- Efficient for long-distance transmission\n\n### AC Equations:\n```\nV = V_max x sin(2 x pi x f x t)\nI = I_max x sin(2 x pi x f x t)\n```\n\n## RMS (Root Mean Square) Values:\n\n```\nV_rms = V_max / sqrt(2) = 0.707 x V_max\nI_rms = I_max / sqrt(2) = 0.707 x I_max\n```\n\n### Example:\n- US wall outlet: 170 V peak, 120 V RMS\n- Europe: 340 V peak, 240 V RMS\n\n## Why AC for Power Distribution:\n\n| Advantage | Explanation |\n|-----------|-------------|\n| Transformers work | Easy to step up/down voltage |\n| Less power loss | High voltage = low current = less I^2 x R loss |\n| Easy to generate | Rotating generators naturally produce AC |\n\n> **War of Currents:** Edison championed DC, Tesla/Westinghouse championed AC. AC won for power distribution!"
+        },
+        {
             "id": "elec_12",
             "type": "content",
-            "title": "AC vs DC",
-            "content": "# The War of Currents ⚔️\n\n**Direct Current (DC)**:\n- Flows in one direction.\n- Source: Batteries, Solar panels.\n\n**Alternating Current (AC)**:\n- Reverses direction periodically.\n- Source: Outlets, Power grid.\n- Easier to transmit over long distances."
+            "title": "Transformers",
+            "content": "# Transformers\n\nA **transformer** changes AC voltage levels using electromagnetic induction.\n\n## Structure:\n- Primary coil (input)\n- Secondary coil (output)\n- Shared iron core\n\n## How It Works:\n1. AC in primary creates changing magnetic field\n2. Iron core carries changing flux to secondary\n3. Changing flux induces EMF in secondary\n\n## Transformer Equation:\n\n```\nV_s / V_p = N_s / N_p = I_p / I_s\n```\n\nWhere:\n- **V_s, V_p** = Secondary and primary voltages\n- **N_s, N_p** = Number of turns\n- **I_s, I_p** = Currents\n\n## Types:\n\n| Type | Ns vs Np | Voltage | Current |\n|------|----------|---------|--------|\n| Step-up | Ns > Np | Increases | Decreases |\n| Step-down | Ns < Np | Decreases | Increases |\n\n## Power Conservation:\n\nFor ideal transformer:\n```\nP_in = P_out\nV_p x I_p = V_s x I_s\n```\n\n## Example:\n\nA transformer has 100 primary turns and 500 secondary turns. Input is 120 V.\n\n```\nV_s / 120 = 500 / 100\nV_s = 120 x 5 = 600 V\n```\n\n## Applications:\n\n| Application | Type |\n|------------|------|\n| Power lines | Step-up (to high voltage) |\n| Phone chargers | Step-down (to low voltage) |\n| Welding | Step-down (high current) |\n| Ignition coil | Step-up (to create spark) |\n\n> **Key Limitation:** Transformers only work with AC, not DC. This is why DC cannot be easily transmitted over long distances."
+        },
+        {
+            "id": "elec_quiz_3",
+            "type": "quiz",
+            "title": "Induction Quiz",
+            "content": "Test your knowledge of electromagnetic induction!",
+            "quizQuestion": "According to Faraday's Law, increasing the number of coil loops will:",
+            "quizOptions": [
+                "Decrease the induced EMF",
+                "Not affect the induced EMF",
+                "Increase the induced EMF",
+                "Stop induction completely"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "elec_13",
             "type": "content",
-            "title": "Transformers",
-            "content": "# Changing Voltage 🤖\n\nDevice that increases (step-up) or decreases (step-down) AC voltage.\n\n$$\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$$\n\n- Uses induction between two coils.\n- Crucial for power distribution."
+            "title": "Electromagnetic Waves",
+            "content": "# Electromagnetic Waves\n\n**Electromagnetic waves** are self-propagating oscillations of electric and magnetic fields.\n\n## Properties:\n\n- Travel at speed of light: c = 3 x 10^8 m/s\n- Do NOT need a medium\n- Transverse waves (E and B perpendicular to motion)\n- E and B perpendicular to each other\n- Carry energy and momentum\n\n## Wave Equation:\n\n```\nc = f x lambda\n```\n\nWhere:\n- **c** = Speed of light\n- **f** = Frequency (Hz)\n- **lambda** = Wavelength (m)\n\n## The Electromagnetic Spectrum:\n\n| Type | Wavelength | Frequency | Uses |\n|------|------------|-----------|------|\n| Radio | > 1 m | < 300 MHz | Broadcasting |\n| Microwave | 1 mm - 1 m | 300 MHz - 300 GHz | Cooking, radar |\n| Infrared | 700 nm - 1 mm | 300 GHz - 430 THz | Heat, remote controls |\n| Visible | 400-700 nm | 430-750 THz | Seeing! |\n| Ultraviolet | 10-400 nm | 750 THz - 30 PHz | Sterilization |\n| X-rays | 0.01-10 nm | 30 PHz - 30 EHz | Medical imaging |\n| Gamma | < 0.01 nm | > 30 EHz | Cancer treatment |\n\n## Visible Light Spectrum:\n\n**ROY G BIV:**\n- Red (longest wavelength)\n- Orange\n- Yellow\n- Green\n- Blue\n- Indigo\n- Violet (shortest wavelength)\n\n> **Key Insight:** All EM waves are the same phenomenon - just different frequencies. Radio waves and gamma rays differ only in frequency!"
         },
         {
             "id": "elec_14",
             "type": "content",
-            "title": "Electromagnetic Waves",
-            "content": "# Light is a Wave 🌈\n\nMaxwell showed that changing electric fields create magnetic fields, and vice versa. This self-propagating wave is **Light**.\n\nSpeed of light: $c \\approx 3 \\times 10^8 m/s$.\n\nIncludes: Radio, Microwaves, Infrared, Visible, UV, X-Rays, Gamma Rays."
+            "title": "Maxwell's Equations",
+            "content": "# Maxwell's Equations\n\nMaxwell's four equations describe all of electromagnetism.\n\n## The Four Equations (Conceptual):\n\n### 1. Gauss's Law for Electricity:\n**Electric charges create electric fields.**\n- Electric field lines begin on positive charges\n- Electric field lines end on negative charges\n- Net flux through closed surface = charge enclosed\n\n### 2. Gauss's Law for Magnetism:\n**No magnetic monopoles exist.**\n- Magnetic field lines form closed loops\n- No isolated North or South poles\n- Net magnetic flux through closed surface = 0\n\n### 3. Faraday's Law:\n**Changing magnetic fields create electric fields.**\n- Time-varying B creates curling E\n- Basis for generators and induction\n\n### 4. Ampere-Maxwell Law:\n**Electric currents AND changing electric fields create magnetic fields.**\n- Current creates encircling B (Ampere)\n- Changing E also creates B (Maxwell's addition)\n\n## Maxwell's Key Insight:\n\nChanging E creates B, and changing B creates E.\n\nThis self-sustaining cycle IS electromagnetic radiation!\n\n## Prediction of Light:\n\nMaxwell calculated the speed of EM waves:\n```\nc = 1 / sqrt(epsilon_0 x mu_0) = 3 x 10^8 m/s\n```\n\nThis matched the measured speed of light!\n\n**Conclusion:** Light is an electromagnetic wave.\n\n> **Historical Impact:** Maxwell's equations unified electricity, magnetism, and optics into one theory - one of the greatest achievements in physics!"
         },
         {
             "id": "elec_15",
             "type": "content",
-            "title": "Maxwell's Equations",
-            "content": "# The Big Four 📜\n\nFour equations that describe ALL electromagnetic phenomena:\n1. Gauss's Law (Electric)\n2. Gauss's Law (Magnetic)\n3. Faraday's Law\n4. Ampere-Maxwell Law\n\n\"Let there be light\" equations."
+            "title": "Electric Power",
+            "content": "# Electric Power\n\n**Electric power** is the rate at which electrical energy is consumed or produced.\n\n## Power Equations:\n\n### Basic:\n```\nP = V x I\n```\n\n### Using Ohm's Law:\n```\nP = I^2 x R\nP = V^2 / R\n```\n\nWhere:\n- **P** = Power (Watts)\n- **V** = Voltage (Volts)\n- **I** = Current (Amperes)\n- **R** = Resistance (Ohms)\n\n## Electrical Energy:\n\n```\nE = P x t\n```\n\n| Unit | Equivalent |\n|------|------------|\n| 1 Watt | 1 Joule/second |\n| 1 kilowatt-hour | 3,600,000 J |\n\n## Power in AC Circuits:\n\n### Resistive Load:\n```\nP_avg = V_rms x I_rms\n```\n\n### With Phase Angle:\n```\nP = V x I x cos(phi)\n```\n\nWhere phi is phase angle between V and I.\n\n## Household Power:\n\n| Appliance | Typical Power |\n|-----------|---------------|\n| LED bulb | 10 W |\n| Laptop | 50 W |\n| TV | 100 W |\n| Refrigerator | 150 W |\n| Hair dryer | 1500 W |\n| Electric heater | 1500 W |\n| Air conditioner | 3000 W |\n\n## Example:\nA 100 W bulb runs for 10 hours.\n```\nEnergy = 100 W x 10 h = 1000 Wh = 1 kWh\n```\n\n> **Power Bill:** You pay for kilowatt-hours (kWh), not kilowatts. At $0.15/kWh, that bulb costs $0.15 for 10 hours."
         },
         {
             "id": "elec_16",
             "type": "content",
-            "title": "Semiconductors Intro",
-            "content": "# The Silicon Age 💻\n\nMaterials between conductors and insulators (e.g., Silicon).\n- **Doping**: Adding impurities to modify conductivity.\n- **P-N Junction**: Creating diodes and transistors.\n\nThis technology is the bedrock of all modern electronics."
+            "title": "Kirchhoff's Laws",
+            "content": "# Kirchhoff's Laws\n\nKirchhoff's laws are essential for analyzing complex circuits.\n\n## Kirchhoff's Current Law (KCL):\n\n> **\"The sum of currents entering a node equals the sum leaving.\"**\n\n```\nSum of I_in = Sum of I_out\n```\n\n### Principle:\n- Based on charge conservation\n- Current cannot accumulate at a point\n- What goes in must come out\n\n## Kirchhoff's Voltage Law (KVL):\n\n> **\"The sum of all voltages around any closed loop is zero.\"**\n\n```\nSum of V_loop = 0\n```\n\n### Principle:\n- Based on energy conservation\n- Energy gained = Energy lost in a loop\n- Voltage rises - Voltage drops = 0\n\n## Applying KVL:\n\n1. Choose a direction around the loop\n2. Voltage RISES are positive (going through battery - to +)\n3. Voltage DROPS are negative (going through resistor with current)\n\n## Example Circuit:\n\nBattery (12 V) connected to two resistors (4 ohm and 2 ohm) in series.\n\n**Find current:**\n```\nUsing KVL:\n12 V - 4I - 2I = 0\n12 = 6I\nI = 2 A\n```\n\n## Sign Conventions:\n\n| Element | Traversing with current | Traversing against current |\n|---------|------------------------|---------------------------|\n| Resistor | -IR (drop) | +IR (rise) |\n| Battery (+ to -) | +V (rise) | -V (drop) |\n\n> **Problem Solving:** For complex circuits, write KCL for each node and KVL for each loop. You'll get enough equations to solve for all unknowns!"
+        },
+        {
+            "id": "elec_quiz_4",
+            "type": "quiz",
+            "title": "Power and Circuits Quiz",
+            "content": "Test your understanding of electric power and circuits!",
+            "quizQuestion": "If you double the voltage across a resistor, the power dissipated:",
+            "quizOptions": [
+                "Doubles",
+                "Stays the same",
+                "Quadruples",
+                "Halves"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "elec_17",
             "type": "content",
-            "title": "Electromagnetism Summary",
-            "content": "# Summary 📝\n\n- Charges create Electric fields.\n- Moving charges (Currents) create Magnetic fields.\n- Changing Magnetic fields create Electric currents (Induction).\n- Light is an Electromagnetic wave.\n\nYou now understand the force that holds atoms together and powers our gadgets!"
+            "title": "Summary and Key Concepts",
+            "content": "# Electromagnetism Summary\n\n## Core Concepts:\n\n### Electric Fields and Charges:\n- Coulomb's Law: F = k x q1 x q2 / r^2\n- Electric field: E = F / q\n- Like charges repel, opposite attract\n\n### Circuits:\n- Ohm's Law: V = IR\n- Power: P = IV = I^2R = V^2/R\n- Series: R_total = R1 + R2\n- Parallel: 1/R_total = 1/R1 + 1/R2\n\n### Magnetism:\n- Moving charges create magnetic fields\n- Magnetic force on moving charge: F = qvB sin(theta)\n- Right-hand rules for direction\n\n### Electromagnetic Induction:\n- Faraday's Law: EMF from changing flux\n- Lenz's Law: Induced current opposes change\n- Transformers: V_s/V_p = N_s/N_p\n\n### EM Waves:\n- Travel at speed of light\n- c = f x wavelength\n- Spectrum from radio to gamma rays\n\n## Key Equations:\n\n| Concept | Equation |\n|---------|----------|\n| Coulomb's Law | F = k x q1 x q2 / r^2 |\n| Ohm's Law | V = IR |\n| Power | P = IV |\n| Wave equation | c = f x lambda |\n| Transformer | V_s/V_p = N_s/N_p |\n\n> **Congratulations!** You have completed the Electromagnetism module. These principles power our entire technological civilization!"
         }
     ]
 }

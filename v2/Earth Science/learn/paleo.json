@@ -2,138 +2,58 @@
     "id": "learn_paleo",
     "topicId": "paleo",
     "topicTitle": "Paleontology",
-    "description": "Life of the past.",
-    "baseKP": 100,
+    "description": "Explore fossils, geologic time, and the history of life on Earth",
+    "baseKP": 75,
     "slides": [
         {
             "id": "paleo_1",
             "type": "content",
-            "title": "What is Paleontology?",
-            "content": "# Ancient Life 🦕\n\nStudy of life prior to the Holocene Epoch (11,700 years ago).\n- Uses **Fossils** to understand evolution and interaction with ancient environments."
+            "title": "Welcome to Paleontology",
+            "content": "# Introduction to Paleontology\n\nWelcome to **Paleontology** - studying ancient life through fossils!\n\n## What You Will Learn:\n- **Fossils** - Types and formation\n- **Geologic Time** - Earth's timeline\n- **Mass Extinctions** - Major die-offs\n- **Evolution of Life** - Through the ages\n\n> **Fun Fact:** The dinosaurs lived from 230 to 66 million years ago!"
         },
         {
             "id": "paleo_2",
             "type": "content",
-            "title": "Fossilization",
-            "content": "# Getting Stoned 🦴\n\nRare process.\n1. Death.\n2. Rapid burial (sediment).\n3. Permineralization: Minerals replace organic tissue.\n4. Erosion exposes it millions of years later."
+            "title": "Fossils",
+            "content": "# Fossils\n\n## Definition:\nPreserved remains or traces of ancient organisms.\n\n## Types:\n\n| Type | Description |\n|------|------------|\n| Body fossils | Actual remains |\n| Trace fossils | Footprints, burrows |\n| Molds | Impression in rock |\n| Casts | Mineral fills mold |\n| Amber | Preserved in resin |\n| Frozen | Ice preservation |\n\n## Formation Requirements:\n- Rapid burial\n- Hard parts (bones, shells)\n- Right conditions (no oxygen)\n\n## Index Fossils:\n- Widespread, short time period\n- Used to date rock layers\n- Examples: Trilobites, ammonites"
         },
         {
             "id": "paleo_3",
             "type": "content",
-            "title": "Dating Methods",
-            "content": "# Time Clocks 🕰️\n\n- **Relative Dating**: Stratigraphy (Lower layers are older).\n- **Absolute Dating**: Radiometric ($C^{14}$ for recent, Uranium-Lead for old rocks).\n- Allows us to build the Geologic Time Scale."
-        },
-        {
-            "id": "paleo_4",
-            "type": "content",
-            "title": "Precambrian Life",
-            "content": "# The Beginning 🦠\n\n- First life: 3.5+ Billion years ago (Cyanobacteria - Stromatolites).\n- Great Oxidation Event: Oxygen killed anaerobic life.\n- Ediacaran Fauna: First soft-bodied multicellular animals."
-        },
-        {
-            "id": "paleo_5",
-            "type": "content",
-            "title": "Cambrian Explosion",
-            "content": "# Life Booms 💥\n\n~540 MYA.\nRapid appearance of most major animal body plans.\n- Hard shells appeared (Trilobites).\n- Eyes evolved.\n- Predation started."
-        },
-        {
-            "id": "paleo_6",
-            "type": "content",
-            "title": "The Big 5 Extinctions",
-            "content": "# Mass Death ☠️\n\n1. Ordovician-Silurian\n2. Late Devonian\n3. **Permian-Triassic** (The Great Dying - 96% marine species lost).\n4. Triassic-Jurassic\n5. **Cretaceous-Paleogene** (Dinosaurs gone)."
+            "title": "Geologic Time Scale",
+            "content": "# Geologic Time Scale\n\n## Major Divisions:\n\n| Era | Period | Major Events |\n|-----|--------|-------------|\n| Cenozoic | Quaternary, Neogene, Paleogene | Mammals, humans |\n| Mesozoic | Cretaceous, Jurassic, Triassic | Dinosaurs |\n| Paleozoic | Permian to Cambrian | Fish, amphibians, plants |\n| Precambrian | Proterozoic, Archean, Hadean | First life |\n\n## Key Dates:\n\n| Event | Time Ago |\n|-------|----------|\n| Earth forms | 4.5 bya |\n| First life | 3.8 bya |\n| Cambrian explosion | 541 mya |\n| First land plants | 470 mya |\n| First dinosaurs | 230 mya |\n| K-T extinction | 66 mya |\n| First humans | 300,000 ya |\n\nbya = billion years ago\nmya = million years ago"
         },
         {
             "id": "paleo_quiz_1",
             "type": "quiz",
-            "title": "Epoch Quiz",
-            "content": "Time check.",
-            "quizQuestion": "Which extinction event killed the non-avian dinosaurs?",
+            "title": "Fossils Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Dinosaurs lived during which era?",
             "quizOptions": [
-                "Permian-Triassic",
-                "Cambrian",
-                "Cretaceous-Paleogene (K-Pg)",
-                "Devonian"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "paleo_7",
-            "type": "content",
-            "title": "Dinosaurs",
-            "content": "# Terrible Lizards 🦖\n\nDominated Mesozoic Era (Triassic, Jurassic, Cretaceous).\n- **Saurischian**: Lizard-hipped (T-Rex, Sauropods).\n- **Ornithischian**: Bird-hipped (Triceratops, Stegosaurus).\nIronically, birds evolved from Lizard-hipped ones."
-        },
-        {
-            "id": "paleo_8",
-            "type": "content",
-            "title": "Feathered Dinosaurs",
-            "content": "# Birds are dinos 🐦\n\nArchaeopteryx (1861) was the link.\n- Many theropods (Raptors) had feathers.\n- Feathers evolved for insulation/display *before* flight.\n- Modern birds ARE dinosaurs."
-        },
-        {
-            "id": "paleo_9",
-            "type": "content",
-            "title": "Marine Reptiles",
-            "content": "# Sea Monsters 🐍\n\nNOT Dinosaurs.\n- **Ichthyosaurs**: Looked like dolphins.\n- **Plesiosaurs**: Long necks (Loch Ness style).\n- **Mosasaurs**: Giant lizards (Jurassic World)."
-        },
-        {
-            "id": "paleo_10",
-            "type": "content",
-            "title": "Pterosaurs",
-            "content": "# Flying Reptiles 🦇\n\nNOT Dinosaurs.\n- First vertebrates to fly.\n- Ranged from sparrow-size to giraffe-size (Quetzalcoatlus).\n- Wing made of skin membrane."
-        },
-        {
-            "id": "paleo_11",
-            "type": "content",
-            "title": "Mammal Evolution",
-            "content": "# Furry Survivors 🐭\n\n- Evolved alongside dinosaurs (small, nocturnal).\n- After K-Pg extinction, they exploded in diversity.\n- Whales evolved from land mammals walking back into sea."
-        },
-        {
-            "id": "paleo_12",
-            "type": "content",
-            "title": "Human Evolution",
-            "content": "# Hominids 🚶\n\n- **Australopithecus** (Lucy): Bipedal apes.\n- **Homo habilis**: Tool users.\n- **Homo erectus**: Fire, spread out of Africa.\n- **Neanderthals**: Cousins in Europe.\n- **Homo sapiens**: Us (~300k years ago)."
-        },
-        {
-            "id": "paleo_quiz_2",
-            "type": "quiz",
-            "title": "Human Quiz",
-            "content": "Ancestor check.",
-            "quizQuestion": "Which hominid is famous for being the first to use stone tools?",
-            "quizOptions": [
-                "Homo erectus",
-                "Homo habilis",
-                "Australopithecus",
-                "Neanderthals"
+                "Cenozoic",
+                "Mesozoic",
+                "Paleozoic",
+                "Precambrian"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "paleo_13",
+            "id": "paleo_4",
             "type": "content",
-            "title": "Paleoclimate",
-            "content": "# Ancient Weather 🌡️\n\n- Earth has historically been much hotter (No ice caps).\n- **Ice Ages**: Periodic cooling.\n- Proxies: Ice cores, tree rings, pollen."
+            "title": "Dating Methods",
+            "content": "# Dating Fossils\n\n## Relative Dating:\n- Order of events, not specific ages\n- **Superposition:** Older layers below\n- **Cross-cutting:** Intrusions younger than what they cut\n- **Index fossils:** Known time ranges\n\n## Absolute Dating:\n- Specific numerical ages\n- Radiometric dating\n\n## Radioactive Decay:\n\n| Isotope | Half-Life | Use |\n|---------|-----------|-----|\n| Carbon-14 | 5,730 years | Recent (<50,000 years) |\n| Potassium-40 | 1.3 billion years | Old rocks |\n| Uranium-238 | 4.5 billion years | Ancient rocks |\n\n## Half-Life:\nTime for half the parent isotope to decay.\n\n```\nAfter 1 half-life: 50% remains\nAfter 2 half-lives: 25% remains\nAfter 3 half-lives: 12.5% remains\n```"
         },
         {
-            "id": "paleo_14",
+            "id": "paleo_5",
             "type": "content",
-            "title": "Taphonomy",
-            "content": "# Grave Laws ⚰️\n\nStudy of decaying organisms over time regarding how they become fossilized.\n- Scavenging, scattering, weathering.\n- Helps distinguish biology from geology."
+            "title": "Mass Extinctions",
+            "content": "# Mass Extinctions\n\n## The Big Five:\n\n| Extinction | Time | Cause | Lost |\n|------------|------|-------|------|\n| Ordovician | 444 mya | Glaciation | 86% |\n| Devonian | 375 mya | Unknown | 75% |\n| Permian | 252 mya | Volcanism | 96% |\n| Triassic | 201 mya | Volcanism | 80% |\n| Cretaceous | 66 mya | Asteroid | 76% |\n\n## K-T Extinction:\n- Asteroid impact (Chicxulub crater)\n- Killed dinosaurs (non-avian)\n- Allowed mammals to diversify\n\n## Permian Extinction:\n- Largest mass extinction\n- Siberian Traps volcanism\n- Nearly ended complex life\n\n## Recovery:\n- Takes millions of years\n- New groups fill niches\n- Leads to evolutionary radiation"
         },
         {
-            "id": "paleo_15",
+            "id": "paleo_6",
             "type": "content",
-            "title": "Amber",
-            "content": "# Tree Sap Wonder 🦟\n\nFossilized tree resin.\n- Traps insects/small lizards perfectly in 3D.\n- Used in Jurassic Park premise (extracting DNA - not actually possible yet due to DNA degradation)."
-        },
-        {
-            "id": "paleo_16",
-            "type": "content",
-            "title": "Living Fossils",
-            "content": "# Still Here 🐟\n\nSpecies unchanged for millions of years.\n- Coelacanth (Thought extinct 66MYA, found 1938).\n- Horseshoe Crab.\n- Ginkgo Tree."
-        },
-        {
-            "id": "paleo_17",
-            "type": "content",
-            "title": "Paleo Summary",
-            "content": "# Recap 📝\n\n- Life evolves and goes extinct.\n- **Dinosaurs** ruled for 150M years.\n- **Mass Extinctions** reset the stage.\n- We are the result of billions of years of survival."
+            "title": "Summary",
+            "content": "# Paleontology Summary\n\n## Fossils:\n- Body fossils, trace fossils\n- Require rapid burial\n- Index fossils date rocks\n\n## Geologic Time:\n| Era | Key Life |\n|-----|----------|\n| Cenozoic | Mammals, humans |\n| Mesozoic | Dinosaurs |\n| Paleozoic | Fish, amphibians |\n| Precambrian | First life |\n\n## Dating:\n- Relative: Order (superposition)\n- Absolute: Radiometric (half-lives)\n\n## Mass Extinctions:\n- 5 major events\n- Permian: 96% lost\n- K-T: Dinosaurs extinct\n\n> **Congratulations!** You've completed Paleontology!"
         }
     ]
 }

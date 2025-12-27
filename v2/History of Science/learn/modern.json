@@ -2,138 +2,58 @@
     "id": "learn_modern",
     "topicId": "modern",
     "topicTitle": "Modern Science",
-    "description": "The Scientific Revolution and beyond.",
-    "baseKP": 100,
+    "description": "Explore scientific developments from the 19th century to today",
+    "baseKP": 75,
     "slides": [
         {
             "id": "modern_1",
             "type": "content",
-            "title": "The Scientific Revolution",
-            "content": "# New Way 🔭\n\n1543-1687.\nA shift from trusting Authority (Aristotle/Bible) to trusting Observation and Reason.\n- Copernicus to Newton."
+            "title": "Welcome to Modern Science",
+            "content": "# Introduction to Modern Science\n\nWelcome to **Modern Science** - the last 200 years!\n\n## What You Will Learn:\n- **19th Century** - Darwin, thermodynamics, electromagnetism\n- **20th Century** - Relativity, quantum, DNA\n- **21st Century** - Current frontiers\n\n> **Fun Fact:** More scientists are alive today than have ever lived in all of human history!"
         },
         {
             "id": "modern_2",
             "type": "content",
-            "title": "Copernicus",
-            "content": "# Sun Center ☀️\n\n1543: *On the Revolutions of the Celestial Spheres*.\n- **Heliocentric Model**: Earth goes around Sun.\n- Challenged 1000 years of belief.\n- Published on his deathbed to avoid persecution."
+            "title": "19th Century",
+            "content": "# 19th Century\n\n## Major Developments:\n\n| Field | Discovery |\n|-------|----------|\n| Biology | Evolution (Darwin) |\n| Chemistry | Periodic table (Mendeleev) |\n| Physics | Electromagnetism (Maxwell) |\n| Physics | Thermodynamics |\n| Medicine | Germ theory (Pasteur, Koch) |\n\n## Darwin (1809-1882):\n- Origin of Species (1859)\n- Natural selection\n- Common descent\n\n## Maxwell (1831-1879):\n- Unified electricity and magnetism\n- Light is electromagnetic wave"
         },
         {
             "id": "modern_3",
             "type": "content",
-            "title": "Galileo Galilei",
-            "content": "# The Observer 🔭\n\n- Improved Telescope.\n- Saw: Moons of Jupiter (Earth not only center!), Phases of Venus, Sunspots.\n- Tried by Inquisition: \"And yet it moves.\""
-        },
-        {
-            "id": "modern_4",
-            "type": "content",
-            "title": "Francis Bacon",
-            "content": "# Scientific Method 🧪\n\n- **Empiricism**: Knowledge comes from sensory experience.\n- Inductive Reasoning.\n- \"Knowledge is Power\"."
-        },
-        {
-            "id": "modern_5",
-            "type": "content",
-            "title": "Isaac Newton",
-            "content": "# Gravity 🍎\n\n1687: *Principia Mathematica*.\n- **Laws of Motion**.\n- **Universal Gravitation**: Same force pulls apple and keeps Moon in orbit.\n- Invented Calculus (with Leibniz).\n- Unified Heaven and Earth physics."
+            "title": "20th Century Physics",
+            "content": "# 20th Century Physics\n\n## Einstein (1879-1955):\n\n| Theory | Significance |\n|--------|-------------|\n| Special Relativity | E = mc^2 |\n| General Relativity | Gravity = curved spacetime |\n| Photoelectric | Light is particles too |\n\n## Quantum Mechanics:\n- Planck: Energy quanta (1900)\n- Bohr: Atomic model (1913)\n- Heisenberg: Uncertainty (1927)\n- Schrodinger: Wave equation\n\n## Nuclear Physics:\n- Rutherford: Nucleus (1911)\n- Fission discovered (1938)\n- Manhattan Project\n- Particle physics: Standard Model"
         },
         {
             "id": "modern_quiz_1",
             "type": "quiz",
-            "title": "Motion Quiz",
-            "content": "Person check.",
-            "quizQuestion": "Who formulated the Laws of Motion and Universal Gravitation?",
+            "title": "Modern Science Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "E = mc^2 was proposed by:",
             "quizOptions": [
-                "Einstein",
                 "Newton",
-                "Galileo",
+                "Einstein",
+                "Bohr",
                 "Darwin"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "modern_4",
+            "type": "content",
+            "title": "20th Century Life Sciences",
+            "content": "# 20th Century Life Sciences\n\n## DNA:\n- Watson & Crick: Structure (1953)\n- Double helix\n- Genetic code\n\n## Molecular Biology:\n- Central dogma: DNA -> RNA -> Protein\n- Genetic engineering\n\n## Medicine:\n- Antibiotics (penicillin, 1928)\n- Vaccines\n- Imaging (X-ray, MRI, CT)\n\n## Computers:\n- Electronic computers (1940s)\n- Transistors (1947)\n- Integrated circuits (1958)\n- Internet (1990s)"
+        },
+        {
+            "id": "modern_5",
+            "type": "content",
+            "title": "21st Century and Beyond",
+            "content": "# 21st Century Science\n\n## Current Frontiers:\n\n| Field | Frontier |\n|-------|----------|\n| Physics | Dark matter, dark energy |\n| Biology | Gene editing (CRISPR) |\n| Medicine | Personalized medicine |\n| Computing | Quantum computers, AI |\n| Astronomy | Exoplanets, James Webb |\n\n## Recent Achievements:\n- Higgs boson (2012)\n- Gravitational waves (2015)\n- Black hole image (2019)\n- CRISPR therapies\n- COVID vaccines (mRNA)"
+        },
+        {
             "id": "modern_6",
             "type": "content",
-            "title": "Chemistry Revolution",
-            "content": "# Elements ⚛️\n\n- **Antoine Lavoisier**: Identified Oxygen. Law of Conservation of Mass.\n- **Dmitri Mendeleev**: Periodic Table (1869). Predicted missing elements.\n- Alchemy finally became Chemistry."
-        },
-        {
-            "id": "modern_7",
-            "type": "content",
-            "title": "Darwin and Evolution",
-            "content": "# Origin of Species 🐢\n\n1859.\n- **Natural Selection**: Survival of the fittest.\n- All life shares a common ancestor.\n- Changed Biology forever."
-        },
-        {
-            "id": "modern_8",
-            "type": "content",
-            "title": "Germ Theory",
-            "content": "# Invisible Enemies 🦠\n\n- **Louis Pasteur**: Germs cause disease (not bad smells/miasma). Pasteurization.\n- **Robert Koch**: Identifies specific bacteria for Anthrax, TB.\n- **Joseph Lister**: Antiseptic surgery."
-        },
-        {
-            "id": "modern_9",
-            "type": "content",
-            "title": "Electromagnetism",
-            "content": "# Sparks ⚡\n\n- **Michael Faraday**: Induction (Motor/Generator).\n- **James Clerk Maxwell**: Equations uniting Electricity, Magnetism, and Light.\n- Powered the industrial world."
-        },
-        {
-            "id": "modern_10",
-            "type": "content",
-            "title": "Industrial Revolution",
-            "content": "# Machines 🚂\n\n- **Steam Engine** (James Watt): Heat $\\to$ Work.\n- Factories, Trains, Electricity.\n- Science applied to production."
-        },
-        {
-            "id": "modern_11",
-            "type": "content",
-            "title": "Marie Curie",
-            "content": "# Radioactivity ☢️\n\n- Discovered Radium and Polonium.\n- Only person to win Nobel Prize in two different sciences (Physics & Chemistry).\n- Died from her own discovery."
-        },
-        {
-            "id": "modern_quiz_2",
-            "type": "quiz",
-            "title": "Bio Quiz",
-            "content": "Theory check.",
-            "quizQuestion": "Was Germ Theory accepted before the 19th Century?",
-            "quizOptions": [
-                "Yes, Greeks knew it",
-                "No, Miasma theory ruled",
-                "Yes, Romans confirmed it",
-                "No, they believed in viruses"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "modern_12",
-            "type": "content",
-            "title": "Quantum Mechanics",
-            "content": "# Weird Physics 🎲\n\nEarly 20th Century.\n- Planck, Einstein, Bohr, Heisenberg.\n- Energy is quantized.\n- Particles are Probability waves.\n- Uncertainty Principle."
-        },
-        {
-            "id": "modern_13",
-            "type": "content",
-            "title": "Einstein's Relativity",
-            "content": "# Space-Time ⏳\n\n1905/1915.\n- **Special**: Time slows down when you move fast ($E=mc^2$).\n- **General**: Gravity is bending of space-time.\n- Replaced Newton's fixed universe."
-        },
-        {
-            "id": "modern_14",
-            "type": "content",
-            "title": "DNA Structure",
-            "content": "# Double Helix 🧬\n\n1953: Watson, Crick, Franklin, Wilkins.\n- Mechanism of heredity found.\n- Molecular Biology begins.\n- Genome sequencing follows."
-        },
-        {
-            "id": "modern_15",
-            "type": "content",
-            "title": "The Digital Age",
-            "content": "# Computers 💻\n\n- **Turing**: Mathematical logic.\n- **Transistor** (1947): Bell Labs.\n- **Internet**.\n- Information Revolution."
-        },
-        {
-            "id": "modern_16",
-            "type": "content",
-            "title": "Big Science",
-            "content": "# Megaprojects 🚀\n\nScience became too big for one person.\n- **Manhattan Project** (nuke).\n- **Apollo** (Moon).\n- **CERN** (Particle Accelerator).\n- **Human Genome Project**."
-        },
-        {
-            "id": "modern_17",
-            "type": "content",
-            "title": "Modern Summary",
-            "content": "# Recap 📝\n\n- We moved from **Philosophy** to **Experiment**.\n- Technology exploded.\n- We unlocked the atom and the gene.\n- Exponential growth of knowledge."
+            "title": "Summary",
+            "content": "# Modern Science Summary\n\n## 19th Century:\n- Evolution, electromagnetism, germ theory\n\n## 20th Century:\n| Field | Revolution |\n|-------|------------|\n| Physics | Relativity, quantum |\n| Biology | DNA, molecular biology |\n| Technology | Computers, space |\n\n## 21st Century:\n- CRISPR, AI, gravitational waves\n- Big data, interdisciplinary research\n\n> **Congratulations!** You've completed Modern Science!"
         }
     ]
 }

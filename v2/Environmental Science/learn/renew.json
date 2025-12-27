@@ -2,138 +2,116 @@
     "id": "learn_renew",
     "topicId": "renew",
     "topicTitle": "Renewable Energy",
-    "description": "Infinite power from nature.",
-    "baseKP": 100,
+    "description": "Explore solar, wind, hydropower, biofuels, and energy storage",
+    "baseKP": 75,
     "slides": [
         {
             "id": "renew_1",
             "type": "content",
-            "title": "What is Renewable Energy?",
-            "content": "# Free Refills 🔄\n\nEnergy from sources that replenish naturally.\n- Sun, Wind, Water, Earth Heat.\n- Unlimited supply.\n- Usually Low Carbon."
+            "title": "Welcome to Renewable Energy",
+            "content": "# Introduction to Renewable Energy\n\nWelcome to **Renewable Energy** - power from nature!\n\n## What You Will Learn:\n- **Solar Energy** - Power from the sun\n- **Wind Energy** - Power from air movement\n- **Hydropower** - Power from water\n- **Biofuels** - Power from biomass\n- **Energy Storage** - Saving energy for later\n\n> **Fun Fact:** Renewable energy supplied 29% of global electricity in 2023!"
         },
         {
             "id": "renew_2",
             "type": "content",
-            "title": "Solar Energy (PV)",
-            "content": "# Sun Power ☀️\n\n**Photovoltaics**: Converting light directly to electricity.\n- Silicon panels.\n- Cost has dropped 90% in 10 years.\n- Works best in sunny places, but works everywhere."
+            "title": "Solar Energy",
+            "content": "# Solar Energy\n\n## Photovoltaics (PV):\n- Convert sunlight directly to electricity\n- Solar cells made of silicon\n- Efficiency: 15-22% (commercial)\n\n## Concentrated Solar Power (CSP):\n- Mirrors focus sunlight\n- Heat drives steam turbine\n- Can store thermal energy\n\n## Advantages:\n- Abundant, free fuel\n- Low operating costs\n- Modular and scalable\n\n## Challenges:\n- Intermittent (night, clouds)\n- Land use\n- Manufacturing energy\n\n## Applications:\n- Rooftop, utility scale\n- Off-grid systems"
         },
         {
             "id": "renew_3",
             "type": "content",
-            "title": "Concentrated Solar Power (CSP)",
-            "content": "# Mirrors 🪞\n\nFocusing sunlight to heat salt/water $\\to$ Steam $\\to$ Turbine.\n- Can store heat to produce power at night.\n- Used in deserts."
-        },
-        {
-            "id": "renew_4",
-            "type": "content",
             "title": "Wind Energy",
-            "content": "# Spinning Giants 🌬️\n\nTurbines capture kinetic energy of air.\n- **Onshore**: Cheaper.\n- **Offshore**: Stronger/consistent winds, but expensive.\n- Bigger blades = More power."
-        },
-        {
-            "id": "renew_5",
-            "type": "content",
-            "title": "Hydropower",
-            "content": "# Water Power 💧\n\nDams.\n- Gravity pulls water through turbine.\n- Provides \"Baseload\" (constant) power.\n- Environmental issue: Blocks fish migration."
+            "content": "# Wind Energy\n\n## How It Works:\n- Wind turns turbine blades\n- Generator converts to electricity\n\n## Turbine Types:\n| Type | Axis | Use |\n|------|------|-----|\n| Horizontal | Horizontal | Most common |\n| Vertical | Vertical | Urban |\n\n## Performance:\n- Power proportional to wind speed^3\n- Capacity factor: 25-45%\n\n## Advantages:\n- Clean, no fuel cost\n- Competitive price\n\n## Challenges:\n- Variable wind\n- Visual impact\n- Bird/bat impacts\n- Noise\n\n## Offshore Wind:\n- Stronger, steadier winds\n- Higher cost\n- Larger turbines"
         },
         {
             "id": "renew_quiz_1",
             "type": "quiz",
-            "title": "Solar Quiz",
-            "content": "Tech check.",
-            "quizQuestion": "Photovoltaic cells convert sunlight directly into:",
+            "title": "Renewable Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Wind turbine power is proportional to wind speed:",
             "quizOptions": [
-                "Heat",
-                "Electricity",
-                "Steam",
-                "Motion"
+                "Linearly",
+                "Squared",
+                "Cubed",
+                "To the fourth power"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "renew_4",
+            "type": "content",
+            "title": "Hydropower",
+            "content": "# Hydropower\n\n## How It Works:\n- Water flows through turbine\n- Potential energy -> Kinetic -> Electrical\n\n## Types:\n\n| Type | Description |\n|------|-------------|\n| Conventional | Dam and reservoir |\n| Run-of-river | No large reservoir |\n| Pumped storage | Energy storage |\n| Tidal | Ocean tides |\n| Wave | Ocean waves |\n\n## Advantages:\n- Reliable, dispatchable\n- Long lifespan\n- Low operating cost\n\n## Challenges:\n- Ecosystem impacts\n- Displacement of people\n- Drought vulnerability\n- Large upfront cost"
+        },
+        {
+            "id": "renew_5",
+            "type": "content",
+            "title": "Bioenergy",
+            "content": "# Bioenergy\n\n## Sources:\n- Agricultural residues\n- Wood and forestry waste\n- Energy crops\n- Organic waste\n- Algae\n\n## Biofuels:\n\n| Type | Source | Use |\n|------|--------|-----|\n| Ethanol | Corn, sugarcane | Transport fuel |\n| Biodiesel | Vegetable oils | Diesel replacement |\n| Biogas | Anaerobic digestion | Heat, electricity |\n\n## Advantages:\n- Carbon neutral (in theory)\n- Uses waste\n- Dispatchable\n\n## Challenges:\n- Land use competition\n- Food vs fuel debate\n- Lifecycle emissions"
         },
         {
             "id": "renew_6",
             "type": "content",
-            "title": "Geothermal",
-            "content": "# Earth Heat 🌋\n\nTapping heat from crust.\n- Iceland runs on this.\n- Clean, constant, reliable.\n- Limited to volcanic areas usually."
-        },
-        {
-            "id": "renew_7",
-            "type": "content",
-            "title": "Biomass / Biofuels",
-            "content": "# Burning Plants 🌽\n\n- **Ethanol**: Corn/Sugarcane alcohol (in your car gas).\n- **Biogas**: Methane from rotting waste.\n- Carbon Neutral? (Plants absorbed CO2 while growing, burning releases it back)."
-        },
-        {
-            "id": "renew_8",
-            "type": "content",
-            "title": "Tidal and Wave Energy",
-            "content": "# Moon Power 🌊\n\n- **Tidal**: Underwater turbines driven by tides (Reliable).\n- **Wave**: Bobbing buoys capturing motion.\n- Harsh saltwater environment makes maintenance hard."
-        },
-        {
-            "id": "renew_9",
-            "type": "content",
-            "title": "Intermittency Problem",
-            "content": "# Sun doesn't shine at night 🌙\n\nThe main challenge.\n- Need **Storage** (Batteries) or **Baseload** backup.\n- Grid must be smarter to handle fluctuating power."
-        },
-        {
-            "id": "renew_10",
-            "type": "content",
-            "title": "Energy Storage",
-            "content": "# Batteries 🔋\n\n- **Lithium-Ion**: Phones, Cars, Grid.\n- **Pumped Hydro**: Pumping water uphill when extra power, letting it flow down when needed (Biggest battery on Earth).\n- **Green Hydrogen**: Storing energy as gas."
-        },
-        {
-            "id": "renew_11",
-            "type": "content",
-            "title": "Nuclear Energy",
-            "content": "# The Controversial Cousin ☢️\n\n- Not strictly \"Renewable\" (Uranium runs out).\n- But **Carbon Free**.\n- Massive power density.\n- Dangerous waste and accident risk (Chernobyl/Fukushima)."
-        },
-        {
-            "id": "renew_12",
-            "type": "content",
-            "title": "Hydrogen Economy",
-            "content": "# Fuel of Future? 💧\n\nSplitting water ($H_2O$) into $H_2$ and $O_2$.\n- **Green Hydrogen**: Uses solar/wind.\n- Clean burning (Waste is water).\n- Good for steel, shipping, and planes."
+            "title": "Geothermal Energy",
+            "content": "# Geothermal Energy\n\n## How It Works:\n- Heat from Earth's interior\n- Steam drives turbines\n\n## Types:\n| Type | Temperature | Use |\n|------|-------------|-----|\n| High temp | >150 C | Electricity |\n| Low temp | <150 C | Direct heat |\n| Ground source | Constant | Heat pumps |\n\n## Advantages:\n- Constant, reliable\n- Small footprint\n- Low emissions\n\n## Challenges:\n- Location-limited\n- Drilling costs\n- Induced seismicity (rare)\n\n## Hotspots:\n- Iceland, New Zealand\n- Philippines, Indonesia"
         },
         {
             "id": "renew_quiz_2",
             "type": "quiz",
-            "title": "Storage Quiz",
-            "content": "Battery check.",
-            "quizQuestion": "What is currently the most common form of grid-scale energy storage?",
+            "title": "Sources Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Pumped hydro storage is used for:",
             "quizOptions": [
-                "Giant Springs",
-                "Pumped Hydro",
-                "Lithium Batteries",
-                "Flywheels"
+                "Generating more water",
+                "Energy storage",
+                "Water treatment",
+                "Irrigation"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "renew_13",
+            "id": "renew_7",
             "type": "content",
-            "title": "Smart Grid",
-            "content": "# Intelligent Network 🧠\n\nDigital communication used on power lines.\n- Detecting outages instantly.\n- Balancing local solar (your roof) with grid demand.\n- Charging EVs when power is cheap."
+            "title": "Energy Storage",
+            "content": "# Energy Storage\n\n## Why Needed:\n- Renewables are variable\n- Match supply to demand\n- Grid stability\n\n## Technologies:\n\n| Type | Duration | Scale |\n|------|----------|-------|\n| Batteries | Hours | Any |\n| Pumped hydro | Hours-days | Large |\n| Compressed air | Hours | Large |\n| Flywheel | Seconds-min | Medium |\n| Hydrogen | Long-term | Any |\n\n## Lithium-ion Batteries:\n- Most common\n- Declining costs\n- EVs and grid scale\n\n## Hydrogen:\n- Store as H2 gas\n- Long duration\n- Green hydrogen from electrolysis"
         },
         {
-            "id": "renew_14",
+            "id": "renew_8",
             "type": "content",
-            "title": "Energy Efficiency",
-            "content": "# Fifth Fuel 📉\n\nThe best energy is the energy you don't use.\n- LED lights (Use 90% less).\n- Insulation.\n- Efficient motors."
+            "title": "Grid Integration",
+            "content": "# Grid Integration\n\n## Challenges:\n- Variable generation\n- Grid stability\n- Transmission needs\n\n## Solutions:\n\n| Solution | Purpose |\n|----------|--------|\n| Storage | Smooth variability |\n| Demand response | Shift consumption |\n| Smart grids | Better control |\n| Interconnection | Share resources |\n| Forecasting | Predict generation |\n\n## Capacity Factor:\n- Actual vs maximum output\n- Solar: ~15-25%\n- Wind: ~25-45%\n- Hydro: ~30-60%\n\n## Duck Curve:\n- Solar creates midday surplus\n- Evening ramp needed"
         },
         {
-            "id": "renew_15",
+            "id": "renew_9",
             "type": "content",
-            "title": "Fusion",
-            "content": "# Star Power ⭐\n\nSmashed atoms together (H + H $\\to$ He).\n- Same as Sun.\n- Infinite clean energy, no meltdown risk.\n- \"Always 30 years away\" (Hard to do)."
+            "title": "Economics",
+            "content": "# Renewable Energy Economics\n\n## Levelized Cost of Energy (LCOE):\n- Total cost / lifetime energy\n- Renewables now competitive\n\n## Cost Trends:\n| Source | Change since 2010 |\n|--------|------------------|\n| Solar PV | -90% |\n| Onshore wind | -70% |\n| Batteries | -90% |\n\n## Incentives:\n- Feed-in tariffs\n- Tax credits\n- Renewable portfolio standards\n- Carbon pricing\n\n## Jobs:\n- 12+ million globally\n- Growing sector"
         },
         {
-            "id": "renew_16",
-            "type": "content",
-            "title": "Electrification",
-            "content": "# Plug Everything In 🔌\n\nDecarbonizing society means electrifying everything.\n- Cars (EVs).\n- Heating (Heat Pumps).\n- Cooking (Induction)."
+            "id": "renew_quiz_3",
+            "type": "quiz",
+            "title": "Storage Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The most common grid-scale battery technology is:",
+            "quizOptions": [
+                "Lead-acid",
+                "Lithium-ion",
+                "Nickel-cadmium",
+                "Sodium-sulfur"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "renew_17",
+            "id": "renew_10",
             "type": "content",
-            "title": "Renewable Summary",
-            "content": "# Recap 📝\n\n- Sun and Wind are now cheapest energy.\n- **Storage** is the key.\n- Transition is happening fast.\n- The future is electric."
+            "title": "Future of Renewables",
+            "content": "# Future Outlook\n\n## Growth Projections:\n- Renewables to dominate by 2050\n- Solar fastest growing\n- Wind second fastest\n\n## Emerging Technologies:\n- Floating offshore wind\n- Perovskite solar cells\n- Green hydrogen\n- Ocean thermal\n- Advanced geothermal\n\n## Net Zero Goals:\n- Paris Agreement targets\n- Many countries 2050 net zero\n- Electrification of everything\n\n## Challenges Remaining:\n- Seasonal storage\n- Hard-to-decarbonize sectors\n- Developing world access"
+        },
+        {
+            "id": "renew_11",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Renewable Energy Summary\n\n## Sources:\n| Source | Key Feature |\n|--------|------------|\n| Solar | Most abundant |\n| Wind | Cost competitive |\n| Hydro | Reliable, storage |\n| Geothermal | Constant |\n| Bioenergy | Dispatchable |\n\n## Storage:\n- Batteries, pumped hydro\n- Hydrogen for long-term\n\n## Economics:\n- Costs dropping rapidly\n- Now cheapest in many regions\n\n## Future:\n- Growing share of energy\n- Key to climate goals\n\n> **Congratulations!** You've completed Renewable Energy!"
         }
     ]
 }

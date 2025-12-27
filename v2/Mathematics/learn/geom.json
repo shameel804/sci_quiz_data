@@ -2,138 +2,134 @@
     "id": "learn_geom",
     "topicId": "geom",
     "topicTitle": "Geometry",
-    "description": "Understand shapes, sizes, and the properties of space.",
-    "baseKP": 100,
+    "description": "Explore shapes, angles, area, volume, and geometric proofs",
+    "baseKP": 75,
     "slides": [
         {
             "id": "geom_1",
             "type": "content",
-            "title": "What is Geometry?",
-            "content": "# Earth Measure 🌍\n\nGeo (Earth) + Metron (Measure).\nStudy of points, lines, surfaces, and solids.\n\nTwo main types:\n- **Plane Geometry**: Flat (2D).\n- **Solid Geometry**: Space (3D)."
+            "title": "Welcome to Geometry",
+            "content": "# Introduction to Geometry\n\nWelcome to **Geometry** - the study of shapes and space!\n\n## What You Will Learn:\n- **Basic Elements** - Points, lines, angles\n- **Triangles** - Types and properties\n- **Polygons** - Multi-sided shapes\n- **Circles** - Curves and arcs\n- **3D Shapes** - Volume and surface area\n\n> **Fun Fact:** Geometry means \"Earth measurement\" in Greek!"
         },
         {
             "id": "geom_2",
             "type": "content",
-            "title": "Points, Lines, Angles",
-            "content": "# The Basics ✏️\n\n- **Point**: Location, no size.\n- **Line**: Infinite length, no width.\n- **Ray**: Starts point, one infinite direction.\n- **Angle**: Two rays meeting at a vertex. Measured in degrees."
+            "title": "Points, Lines, and Planes",
+            "content": "# Basic Elements\n\n## Definitions:\n- **Point:** Location, no size\n- **Line:** Infinite in both directions\n- **Ray:** One endpoint, infinite one direction\n- **Line segment:** Two endpoints\n- **Plane:** Flat surface, infinite\n\n## Line Relationships:\n| Type | Description |\n|------|-------------|\n| Parallel | Same direction, never meet |\n| Perpendicular | Meet at 90 degrees |\n| Intersecting | Cross at a point |\n\n## Notation:\n- Point: Capital letter (A)\n- Line: Two points or lowercase (AB or l)"
         },
         {
             "id": "geom_3",
             "type": "content",
-            "title": "Triangles",
-            "content": "# Three Sides 📐\n\nSum of angles = 180°.\nTYPES:\n- **Equilateral**: All sides/angles equal (60°).\n- **Isosceles**: Two sides equal.\n- **Scalene**: No sides equal.\n- **Right**: One 90° angle."
-        },
-        {
-            "id": "geom_4",
-            "type": "content",
-            "title": "Pythagorean Theorem",
-            "content": "# Right Triangle Rule 📐\n\n$$a^2 + b^2 = c^2$$\n\n- $a, b$: Legs.\n- $c$: Hypotenuse (Longest side).\n- Only works for Right Triangles.\nUsed to find distance between points."
+            "title": "Angles",
+            "content": "# Angles\n\n## Types by Measure:\n\n| Type | Degrees |\n|------|--------|\n| Acute | < 90 |\n| Right | = 90 |\n| Obtuse | 90 < x < 180 |\n| Straight | = 180 |\n| Reflex | > 180 |\n\n## Angle Pairs:\n- **Complementary:** Sum = 90\n- **Supplementary:** Sum = 180\n- **Vertical:** Equal, formed by intersecting lines\n\n## Measuring:\n- Use protractor\n- Units: degrees"
         },
         {
             "id": "geom_quiz_1",
             "type": "quiz",
-            "title": "Triangle Quiz",
-            "content": "Check formula.",
-            "quizQuestion": "If legs are 3 and 4, what is the hypotenuse?",
+            "title": "Angles Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Two angles that sum to 90 degrees are:",
             "quizOptions": [
-                "5",
-                "6",
-                "7",
-                "25"
+                "Supplementary",
+                "Complementary",
+                "Vertical",
+                "Adjacent"
             ],
-            "correctOptionIndex": 0
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geom_4",
+            "type": "content",
+            "title": "Triangles Classification",
+            "content": "# Triangles\n\n## By Sides:\n| Type | Sides |\n|------|-------|\n| Equilateral | All equal |\n| Isosceles | Two equal |\n| Scalene | None equal |\n\n## By Angles:\n| Type | Angles |\n|------|--------|\n| Acute | All < 90 |\n| Right | One = 90 |\n| Obtuse | One > 90 |\n\n## Key Facts:\n- Sum of angles = 180\n- Longest side opposite largest angle\n- Triangle inequality"
         },
         {
             "id": "geom_5",
             "type": "content",
-            "title": "Polygons",
-            "content": "# Many Angles 🛑\n\nClosed shapes with straight sides.\n- Quadrilateral (4)\n- Pentagon (5)\n- Hexagon (6)\n- Octagon (8)\n\nSum of interior angles = $(n-2) \\times 180$."
+            "title": "Triangle Properties",
+            "content": "# Triangle Properties\n\n## Pythagorean Theorem:\nFor right triangles:\n```\na^2 + b^2 = c^2\n```\nwhere c is the hypotenuse.\n\n## Special Right Triangles:\n| Angles | Sides |\n|--------|-------|\n| 45-45-90 | 1 : 1 : sqrt(2) |\n| 30-60-90 | 1 : sqrt(3) : 2 |\n\n## Congruence:\n- SSS (Side-Side-Side)\n- SAS (Side-Angle-Side)\n- ASA (Angle-Side-Angle)\n- AAS (Angle-Angle-Side)"
         },
         {
             "id": "geom_6",
             "type": "content",
-            "title": "Circles",
-            "content": "# Infinite Corners 🟣\n\nSet of points equidistant from a center.\n- **Radius ($r$)**: Center to edge.\n- **Diameter ($d$)**: Edge to edge through center ($2r$).\n- **Circumference ($C$)**: Distance around ($2\\pi r$ or $\\pi d$).\n- **Area ($A$)**: $\\pi r^2$."
-        },
-        {
-            "id": "geom_7",
-            "type": "content",
-            "title": "Coordinate Geometry",
-            "content": "# Cartesian Plane 🗺️\n\nRene Descartes combined Algebra and Geometry.\n- X-axis and Y-axis.\n- Every point is $(x, y)$.\n- Distance formula: $\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ (Just Pythagoras!)."
-        },
-        {
-            "id": "geom_8",
-            "type": "content",
-            "title": "Slope",
-            "content": "# Steepness ⛷️\n\n$$m = \\frac{Rise}{Run} = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n- Positive: Uphill.\n- Negative: Downhill.\n- Zero: Horizontal.\n- Undefined: Vertical."
-        },
-        {
-            "id": "geom_9",
-            "type": "content",
-            "title": "Thales' Basic Proportionality",
-            "content": "# Similar Shapes 📏\n\nIf a line is parallel to one side of a triangle intersecting other sides, then it divides the two sides in the same ratio.\n- Basis for scaling images and maps."
-        },
-        {
-            "id": "geom_10",
-            "type": "content",
-            "title": "Congruence vs Similarity",
-            "content": "# Same vs Scaled 👯\n\n- **Congruent ($\\cong$)**: Exact same shape and size. (Clone).\n- **Similar ($\\sim$)**: Same shape, different size. (Zoom).\n  - Angles are equal, sides are proportional."
-        },
-        {
-            "id": "geom_11",
-            "type": "content",
-            "title": "3D Solids",
-            "content": "# Volume and Surface 📦\n\n- **Prism**: Box ($V = l \\cdot w \\cdot h$).\n- **Cylinder**: Can ($V = \\pi r^2 h$).\n- **Sphere**: Ball ($V = \\frac{4}{3} \\pi r^3$).\n- **Surface Area**: Total area of outside skin."
+            "title": "Triangle Formulas",
+            "content": "# Triangle Formulas\n\n## Area:\n```\nArea = (1/2) x base x height\n```\n\n## Heron's Formula:\n```\nArea = sqrt(s(s-a)(s-b)(s-c))\ns = (a + b + c) / 2\n```\n\n## Perimeter:\n```\nP = a + b + c\n```\n\n## Centers:\n- Centroid: Medians meet\n- Incenter: Angle bisectors meet\n- Circumcenter: Perpendicular bisectors\n- Orthocenter: Altitudes meet"
         },
         {
             "id": "geom_quiz_2",
             "type": "quiz",
-            "title": "3D Quiz",
-            "content": "Formula check.",
-            "quizQuestion": "Which shape has Volume = 4/3 * pi * r-cubed?",
+            "title": "Triangles Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A triangle with all sides equal is:",
             "quizOptions": [
-                "Cylinder",
-                "Cone",
-                "Sphere",
-                "Cube"
+                "Isosceles",
+                "Scalene",
+                "Equilateral",
+                "Right"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "geom_7",
+            "type": "content",
+            "title": "Quadrilaterals",
+            "content": "# Quadrilaterals\n\n## Types:\n\n| Shape | Properties |\n|-------|------------|\n| Square | 4 equal sides, 4 right angles |\n| Rectangle | Opposite sides equal, 4 right angles |\n| Rhombus | 4 equal sides |\n| Parallelogram | Opposite sides parallel and equal |\n| Trapezoid | Exactly one pair parallel |\n| Kite | Two pairs adjacent sides equal |\n\n## Sum of Angles:\n```\n(n - 2) x 180 for n-gon\nQuadrilateral: 360 degrees\n```"
+        },
+        {
+            "id": "geom_8",
+            "type": "content",
+            "title": "Polygons",
+            "content": "# Polygons\n\n## Regular Polygons:\nAll sides and angles equal.\n\n| Sides | Name | Interior Angle |\n|-------|------|----------------|\n| 3 | Triangle | 60 |\n| 4 | Square | 90 |\n| 5 | Pentagon | 108 |\n| 6 | Hexagon | 120 |\n| 8 | Octagon | 135 |\n\n## Interior Angle Formula:\n```\n(n - 2) x 180 / n\n```\n\n## Exterior Angles:\nAlways sum to 360 degrees."
+        },
+        {
+            "id": "geom_9",
+            "type": "content",
+            "title": "Circles",
+            "content": "# Circles\n\n## Parts:\n- **Center:** Middle point\n- **Radius:** Center to edge\n- **Diameter:** Edge to edge through center (d = 2r)\n- **Chord:** Line segment across circle\n- **Arc:** Part of circumference\n- **Sector:** \"Pizza slice\"\n\n## Formulas:\n```\nCircumference = 2 x pi x r = pi x d\nArea = pi x r^2\n```\n\n## pi:\n- Ratio of circumference to diameter\n- Approximately 3.14159..."
+        },
+        {
+            "id": "geom_10",
+            "type": "content",
+            "title": "Circle Theorems",
+            "content": "# Circle Theorems\n\n## Key Theorems:\n\n| Theorem | Statement |\n|---------|----------|\n| Inscribed angle | Half central angle |\n| Tangent | Perpendicular to radius |\n| Chord | Perpendicular bisector through center |\n\n## Arc Length:\n```\nArc = (theta / 360) x 2 x pi x r\n```\n\n## Sector Area:\n```\nArea = (theta / 360) x pi x r^2\n```\n\n## Inscribed Shapes:\n- Inscribed angle = (1/2) x central angle\n- Angle in semicircle = 90"
+        },
+        {
+            "id": "geom_quiz_3",
+            "type": "quiz",
+            "title": "Circles Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The area of a circle with radius 5 is:",
+            "quizOptions": [
+                "10*pi",
+                "25*pi",
+                "5*pi",
+                "50*pi"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geom_11",
+            "type": "content",
+            "title": "3D Shapes - Prisms and Cylinders",
+            "content": "# Prisms and Cylinders\n\n## Prisms:\n- Two parallel, congruent bases\n- Rectangular sides\n\n```\nVolume = Base Area x Height\nSurface Area = 2B + Ph\n```\n\n## Cylinders:\n- Circular bases\n\n```\nVolume = pi x r^2 x h\nSurface Area = 2 x pi x r^2 + 2 x pi x r x h\n```\n\n## Examples:\n- Rectangular prism (box)\n- Triangular prism\n- Cylinder (can)"
+        },
+        {
             "id": "geom_12",
             "type": "content",
-            "title": "Transformations",
-            "content": "# Moving Shapes 🔄\n\n- **Translation**: Slide.\n- **Rotation**: Turn.\n- **Reflection**: Flip (Mirror).\n- **Dilation**: Resize.\n\nRigid transformations preserve size/shape (Isometric)."
+            "title": "3D Shapes - Pyramids and Cones",
+            "content": "# Pyramids and Cones\n\n## Pyramids:\n- One base, triangular sides meeting at apex\n\n```\nVolume = (1/3) x Base Area x Height\n```\n\n## Cones:\n- Circular base, point at top\n\n```\nVolume = (1/3) x pi x r^2 x h\nSurface Area = pi x r^2 + pi x r x l\n```\n(l = slant height)\n\n## Spheres:\n```\nVolume = (4/3) x pi x r^3\nSurface Area = 4 x pi x r^2\n```"
         },
         {
             "id": "geom_13",
             "type": "content",
-            "title": "Euclidean vs Non-Euclidean",
-            "content": "# Curved Space 🪐\n\n- **Euclidean**: Flat space. Parallel lines never meet. Triangles = 180.\n- **Spherical**: Globe. Parallel lines meet at poles. Triangles > 180.\n- **Hyperbolic**: Saddles. Parallel lines diverge. Triangles < 180."
+            "title": "Coordinate Geometry",
+            "content": "# Coordinate Geometry\n\n## Distance Formula:\n```\nd = sqrt((x2-x1)^2 + (y2-y1)^2)\n```\n\n## Midpoint Formula:\n```\nM = ((x1+x2)/2, (y1+y2)/2)\n```\n\n## Slope:\n```\nm = (y2 - y1) / (x2 - x1)\n```\n\n## Line Equation:\n```\ny - y1 = m(x - x1)\n```\n\n## Circle Equation:\n```\n(x - h)^2 + (y - k)^2 = r^2\n```\nCenter (h, k), radius r"
         },
         {
             "id": "geom_14",
             "type": "content",
-            "title": "Constructions",
-            "content": "# Compass and Ruler 🧭\n\nAncient Greek game.\n- Draw perfect shapes using only straight edge and compass.\n- No measuring numbers allowed!\n- E.g., Bisecting an angle."
-        },
-        {
-            "id": "geom_15",
-            "type": "content",
-            "title": "Vectors",
-            "content": "# Arrow Math 🏹\n\nQuantity with Magnitude (Leghth) and Direction.\n- Velocity is a vector.\n- Used extensively in Physics and Video Game graphics."
-        },
-        {
-            "id": "geom_16",
-            "type": "content",
-            "title": "Topology",
-            "content": "# Rubber Geometry 🍩\n\nStudy of properties preserved under stretching (no tearing/gluing).\n- To a topologist, a Coffee Mug = A Donut (Both have 1 hole).\n- A Sphere $\\neq$ A Donut."
-        },
-        {
-            "id": "geom_17",
-            "type": "content",
-            "title": "Geometry Summary",
-            "content": "# Recap 📝\n\n- **Shapes** have rules (Angles, Sides).\n- **Pythagoras** links coordinates to distance.\n- **Formulas** quantify space (Area, Volume).\n- From architecture to GPS, geometry maps our world."
+            "title": "Summary",
+            "content": "# Geometry Summary\n\n## 2D Shapes:\n| Shape | Area |\n|-------|------|\n| Triangle | (1/2)bh |\n| Rectangle | lw |\n| Circle | pi*r^2 |\n| Trapezoid | (1/2)(b1+b2)h |\n\n## 3D Shapes:\n| Shape | Volume |\n|-------|--------|\n| Prism | Bh |\n| Cylinder | pi*r^2*h |\n| Cone | (1/3)pi*r^2*h |\n| Sphere | (4/3)pi*r^3 |\n\n## Key Theorems:\n- Pythagorean: a^2 + b^2 = c^2\n- Triangle angles sum to 180\n\n> **Congratulations!** You've completed Geometry!"
         }
     ]
 }

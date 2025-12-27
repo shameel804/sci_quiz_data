@@ -2,138 +2,52 @@
     "id": "learn_sustain",
     "topicId": "sustain",
     "topicTitle": "Sustainability",
-    "description": "Meeting needs without compromising the future.",
-    "baseKP": 100,
+    "description": "Explore sustainable development and environmental stewardship",
+    "baseKP": 75,
     "slides": [
         {
             "id": "sustain_1",
             "type": "content",
-            "title": "What is Sustainability?",
-            "content": "# Forever ♾️\n\nMeeting the needs of the present without compromising the ability of future generations to meet their own needs.\n- Three Pillars: **Environment**, **Economy**, **Society**."
+            "title": "Welcome to Sustainability",
+            "content": "# Introduction to Sustainability\n\nWelcome to **Sustainability** - living within limits!\n\n## What You Will Learn:\n- **Definition** - What sustainability means\n- **Three Pillars** - Environment, economy, society\n- **SDGs** - Global goals\n- **Actions** - What you can do\n\n> **Fun Fact:** We need 1.7 Earths to sustain current consumption!"
         },
         {
             "id": "sustain_2",
             "type": "content",
-            "title": "The Triple Bottom Line",
-            "content": "# 3 Ps ⚖️\n\nCompanies should measure success by:\n1. **People**: Social responsibility.\n2. **Planet**: Environmental stewardship.\n3. **Profit**: Economic viability."
+            "title": "Concepts",
+            "content": "# Sustainability Concepts\n\n## Definition:\nMeeting present needs without compromising future generations.\n\n## Three Pillars:\n\n| Pillar | Focus |\n|--------|-------|\n| Environmental | Ecosystems, resources |\n| Economic | Prosperity, jobs |\n| Social | Equity, health, education |\n\n## All three must be balanced.\n\n## Ecological Footprint:\n- Resources consumed\n- Waste generated\n- Measured in global hectares"
         },
         {
             "id": "sustain_3",
             "type": "content",
-            "title": "Renewable vs Non-Renewable",
-            "content": "# Resources 🪨\n\n- **Renewable**: Replenished naturally (Sun, Wind, Timber - if managed).\n- **Non-Renewable**: Finite supply (Oil, Coal, Rare Earth Metals)."
-        },
-        {
-            "id": "sustain_4",
-            "type": "content",
-            "title": "Circular Economy",
-            "content": "# Loop it 🔄\n\nMoving away from \"Take-Make-Waste\".\n- Designing products to be repaired, reused, and recycled.\n- Waste from one process becomes food for another."
-        },
-        {
-            "id": "sustain_5",
-            "type": "content",
             "title": "SDGs",
-            "content": "# Global Goals 🇺🇳\n\nUN Sustainable Development Goals (17 Goals).\n- No Poverty, Zero Hunger, Clean Water, Climate Action.\n- Blueprint for a better world by 2030."
+            "content": "# Sustainable Development Goals\n\n## 17 Goals by UN (2015-2030):\n\n**People:**\n1. No Poverty\n2. Zero Hunger\n3. Good Health\n4. Quality Education\n5. Gender Equality\n\n**Planet:**\n6. Clean Water\n7. Affordable Energy\n12. Responsible Consumption\n13. Climate Action\n14. Life Below Water\n15. Life on Land\n\n**Prosperity:**\n8. Decent Work\n9. Industry Innovation\n10. Reduced Inequalities\n11. Sustainable Cities\n\n**Peace + Partnership:**\n16. Peace and Justice\n17. Partnerships"
         },
         {
             "id": "sustain_quiz_1",
             "type": "quiz",
-            "title": "Economy Quiz",
-            "content": "Concept check.",
-            "quizQuestion": "Which economic model focuses on designing out waste?",
+            "title": "Sustainability Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The three pillars of sustainability are:",
             "quizOptions": [
-                "Linear Economy",
-                "Circular Economy",
-                "Capitalism",
-                "Planned Economy"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "sustain_6",
-            "type": "content",
-            "title": "Life Cycle Assessment (LCA)",
-            "content": "# Cradle to Grave ⚰️\n\nAssessing environmental impact of a product from raw material extraction to disposal.\n- Mining $\\to$ Manufacturing $\\to$ Transport $\\to$ Use $\\to$ Landfill."
-        },
-        {
-            "id": "sustain_7",
-            "type": "content",
-            "title": "Sustainable Agriculture",
-            "content": "# Green Farming 🚜\n\n- **Permaculture**: Mimicking nature.\n- **Crop Rotation**: Keeping soil healthy.\n- **Drip Irrigation**: Saving water.\n- Reducing pesticides."
-        },
-        {
-            "id": "sustain_8",
-            "type": "content",
-            "title": "Water Footprint",
-            "content": "# Hidden Water 💧\n\nAmount of water used to produce goods.\n- 1 Cotton Shirt = 2,700 Liters.\n- 1 kg Beef = 15,000 Liters.\n- Consuming smartly saves water."
-        },
-        {
-            "id": "sustain_9",
-            "type": "content",
-            "title": "Fair Trade",
-            "content": "# Ethical Buying ☕\n\nEnsuring producers (farmers) in developing countries get a fair price.\n- Better working conditions.\n- No child labor.\n- Look for the logo."
-        },
-        {
-            "id": "sustain_10",
-            "type": "content",
-            "title": "Greenwashing",
-            "content": "# Fake News 🤥\n\nCompanies claiming to be eco-friendly when they are not.\n- \"Natural\" labels with no meaning.\n- Vague promises.\n- Be a critical consumer."
-        },
-        {
-            "id": "sustain_11",
-            "type": "content",
-            "title": "Planned Obsolescence",
-            "content": "# Built to Break 🏚️\n\nDesigning goods to fail quickly so you buy new ones.\n- Unreplaceable batteries.\n- Fast fashion.\n- Enemy of sustainability."
-        },
-        {
-            "id": "sustain_quiz_2",
-            "type": "quiz",
-            "title": "Action Quiz",
-            "content": "Consumer check.",
-            "quizQuestion": "Which practice involves buying products that ensure fair wages for farmers?",
-            "quizOptions": [
-                "Black Market",
-                "Free Trade",
-                "Fair Trade",
-                "Stock Market"
+                "Land, water, air",
+                "Past, present, future",
+                "Environment, economy, society",
+                "Energy, materials, waste"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "sustain_12",
+            "id": "sustain_4",
             "type": "content",
-            "title": "Biomimicry",
-            "content": "# Copying Nature 🦎\n\nSolving human problems by imitating nature's designs.\n- Velcro (Burrs from plants).\n- Bullet train (Kingfisher beak).\n- Nature has 3.8 billion years of R&D."
+            "title": "Actions",
+            "content": "# Sustainable Actions\n\n## Individual:\n- Reduce, reuse, recycle\n- Energy efficiency\n- Sustainable transportation\n- Conscious consumption\n- Plant-rich diet\n\n## Business:\n- Life cycle assessment\n- Green supply chains\n- Circular economy\n- Corporate responsibility\n\n## Government:\n- Environmental regulations\n- Renewable energy policy\n- Sustainable infrastructure\n- International agreements\n\n## Circular Economy:\n- Design out waste\n- Keep products in use\n- Regenerate natural systems"
         },
         {
-            "id": "sustain_13",
+            "id": "sustain_5",
             "type": "content",
-            "title": "Urban Sustainability",
-            "content": "# Smart Cities 🏙️\n\n- Public transit.\n- Bike lanes.\n- Green spaces.\n- Vertical farming.\n- Reducing reliance on cars."
-        },
-        {
-            "id": "sustain_14",
-            "type": "content",
-            "title": "Tragedy of the Commons",
-            "content": "# Shared Resource 🎣\n\nIndividuals acting in self-interest deplete a shared resource.\n- Overfishing international waters.\n- Solution: Regulation and privatization."
-        },
-        {
-            "id": "sustain_15",
-            "type": "content",
-            "title": "Carbon Offsets",
-            "content": "# Balancing Act ⚖️\n\nPaying to remove $CO_2$ to cancel out your emissions.\n- Planting trees.\n- Funding wind farms.\n- Should be last resort (Reduce first!)."
-        },
-        {
-            "id": "sustain_16",
-            "type": "content",
-            "title": "Degrowth",
-            "content": "# Less is More 📉\n\nTheory that infinite economic growth is impossible on a finite planet.\n- Focus on well-being instead of GDP.\n- Prioritizing quality of life over material consumption."
-        },
-        {
-            "id": "sustain_17",
-            "type": "content",
-            "title": "Sustainability Summary",
-            "content": "# Recap 📝\n\n- It's about **Balance**.\n- **Reduce, Reuse, Recycle** (in that order).\n- Every choice you make has an impact.\n- We have one planet."
+            "title": "Summary",
+            "content": "# Sustainability Summary\n\n## Definition:\n- Meet present needs\n- Don't compromise future\n\n## Three Pillars:\n- Environment, Economy, Society\n\n## SDGs:\n- 17 goals for 2030\n- Global cooperation needed\n\n## Action Levels:\n| Level | Examples |\n|-------|----------|\n| Individual | Reduce waste |\n| Business | Circular economy |\n| Government | Policy, regulation |\n\n> **Congratulations!** You've completed Sustainability!"
         }
     ]
 }

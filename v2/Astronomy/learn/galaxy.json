@@ -2,138 +2,128 @@
     "id": "learn_galaxy",
     "topicId": "galaxy",
     "topicTitle": "Galaxies and Cosmology",
-    "description": "Zoom out to the largest scales: Billions of stars, billions of years.",
-    "baseKP": 100,
+    "description": "Explore galaxy types, the Big Bang, and the fate of the universe",
+    "baseKP": 75,
     "slides": [
         {
             "id": "galaxy_1",
             "type": "content",
-            "title": "What is a Galaxy?",
-            "content": "# Island Universes 🏝️\n\nA massive system of stars, stellar remnants, interstellar gas, dust, and dark matter bound together by gravity.\n\nWe live in the **Milky Way**."
+            "title": "Welcome to Galaxies and Cosmology",
+            "content": "# Introduction to Galaxies and Cosmology\n\nWelcome to **Galaxies and Cosmology** - the large-scale universe!\n\n## What You Will Learn:\n- **Galaxy Types** - Spirals, ellipticals, irregulars\n- **Galaxy Evolution** - How galaxies change\n- **The Big Bang** - Origin of the universe\n- **Dark Matter and Energy** - The invisible universe\n- **Fate of the Universe** - How it might end\n\n> **Fun Fact:** There are more galaxies in the observable universe than grains of sand on Earth!"
         },
         {
             "id": "galaxy_2",
             "type": "content",
-            "title": "Galaxy Types",
-            "content": "# Hubble Classification 🔱\n\n1. **Spiral (S)**: Flat disk with arms (Milky Way). New stars forming.\n2. **Elliptical (E)**: Round/Oval blob. Old stars. No gas/dust.\n3. **Irregular (Irr)**: Chaos. Often result of collisions."
+            "title": "Galaxy Classification",
+            "content": "# Galaxy Classification\n\n## Hubble Sequence (Tuning Fork):\n\n| Type | Shape | Features |\n|------|-------|----------|\n| Elliptical (E0-E7) | Spheroidal | Old stars, little gas |\n| Spiral (Sa-Sc) | Disk + arms | Young stars, gas, dust |\n| Barred Spiral (SBa-SBc) | Spiral + bar | Central bar structure |\n| Lenticular (S0) | Disk, no arms | Intermediate |\n| Irregular (Irr) | No structure | Gas-rich, chaotic |\n\n## Numbers:\n- ~70% are spirals\n- ~20% are ellipticals\n- ~10% are irregulars"
         },
         {
             "id": "galaxy_3",
             "type": "content",
-            "title": "The Milky Way",
-            "content": "# Home Sweet Home 🥛\n\n- Barred Spiral Galaxy.\n- ~100-400 Billion stars.\n- 100,000 light-years across.\n- Sun is in the Orion Arm, 26,000 ly from center.\n- Supermassive Black Hole (Sagittarius A*) at the core."
-        },
-        {
-            "id": "galaxy_4",
-            "type": "content",
-            "title": "Active Galactic Nuclei (AGN)",
-            "content": "# Monsters in the Middle 👹\n\nSupermassive Black Holes feeding voraciously.\n- **Quasars**: Most luminous objects in universe.\n- **Blazars**: Jets pointed at Earth.\n- Outshine their entire galaxy."
-        },
-        {
-            "id": "galaxy_5",
-            "type": "content",
-            "title": "Galaxy Collisions",
-            "content": "# Cosmic Dance 💃\n\nGalaxies pass through each other.\n- Stars rarely hit (space is empty).\n- Gas clouds collide $\\to$ Starburst (baby boom).\n- Milky Way will collide with Andromeda in 4.5 billion years."
+            "title": "Spiral Galaxies",
+            "content": "# Spiral Galaxies\n\n## Structure:\n- **Nucleus:** Dense center, old stars\n- **Bulge:** Spherical, old stars\n- **Disk:** Flat, spiral arms\n- **Halo:** Globular clusters, dark matter\n\n## Spiral Arms:\n- Sites of star formation\n- Young, blue stars\n- Density wave theory\n\n## The Milky Way:\n- Barred spiral (SBbc)\n- ~200-400 billion stars\n- ~100,000 light-years diameter\n- ~2,000 light-years thick (disk)"
         },
         {
             "id": "galaxy_quiz_1",
             "type": "quiz",
-            "title": "Type Quiz",
-            "content": "Identify the shape.",
-            "quizQuestion": "Which galaxy type typically contains the oldest stars and least gas?",
+            "title": "Galaxy Types Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Elliptical galaxies typically contain:",
             "quizOptions": [
-                "Spiral",
-                "Irregular",
-                "Elliptical",
-                "Barred Spiral"
+                "Young blue stars",
+                "Old red stars",
+                "Lots of gas and dust",
+                "Spiral arms"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "galaxy_4",
+            "type": "content",
+            "title": "Elliptical Galaxies",
+            "content": "# Elliptical Galaxies\n\n## Properties:\n- Spheroidal shape (E0-E7)\n- Old, red stars\n- Little gas or dust\n- No ongoing star formation\n\n## Size Range:\n- Giant ellipticals: Millions of light-years\n- Dwarf ellipticals: Thousands of light-years\n\n## Formation:\n- Result of galaxy mergers\n- Spirals merge -> Elliptical\n\n## Examples:\n- M87 (giant, hosts massive black hole)\n- Cen A (radio galaxy)"
+        },
+        {
+            "id": "galaxy_5",
+            "type": "content",
+            "title": "Galaxy Interactions",
+            "content": "# Galaxy Interactions\n\n## Types:\n- Fly-by: Tidal distortions\n- Collision: Pass through each other\n- Merger: Combine into one\n\n## Effects:\n- Tidal tails and bridges\n- Triggered star formation (starbursts)\n- Central black hole growth\n- Transformation of galaxy type\n\n## Andromeda-Milky Way:\n- Approaching at 110 km/s\n- Collision in ~4.5 billion years\n- Will form \"Milkomeda\"\n\n## Starburst Galaxies:\n- Extreme star formation\n- Often from interactions"
         },
         {
             "id": "galaxy_6",
             "type": "content",
-            "title": "Expansion of Universe",
-            "content": "# Hubble's Law 🎈\n\nObserved that distant galaxies are moving away from us.\n- **Redshift**: Light stretched to red end of spectrum.\n- Farther away = Moving faster.\n- Conclusion: The Universe is expanding."
+            "title": "Active Galactic Nuclei",
+            "content": "# Active Galactic Nuclei (AGN)\n\n## Definition:\n- Supermassive black hole accreting\n- Extremely luminous center\n\n## Types:\n\n| Type | Properties |\n|------|------------|\n| Quasar | Very distant, very bright |\n| Seyfert | Spiral galaxy, active nucleus |\n| Radio galaxy | Powerful radio jets |\n| Blazar | Jet pointed at Earth |\n\n## Unified Model:\n- All are same phenomenon\n- Viewing angle determines appearance\n\n## Supermassive Black Holes:\n- Every large galaxy has one\n- Millions to billions of solar masses"
+        },
+        {
+            "id": "galaxy_quiz_2",
+            "type": "quiz",
+            "title": "AGN Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Active galactic nuclei are powered by:",
+            "quizOptions": [
+                "Star formation",
+                "Nuclear fusion",
+                "Supermassive black holes",
+                "Stellar explosions"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "galaxy_7",
             "type": "content",
             "title": "The Big Bang",
-            "content": "# The Beginning 💥\n\n~13.8 Billion years ago.\n- Universe started as a hot, dense point.\n- Rapid expansion.\n- Not an explosion *in* space, but an explosion *of* space."
+            "content": "# The Big Bang Theory\n\n## Core Idea:\n- Universe began ~13.8 billion years ago\n- Expansion from hot, dense state\n\n## Timeline:\n| Time | Event |\n|------|-------|\n| 0 | Big Bang singularity |\n| 10^-43 s | Planck time |\n| 3 min | Nucleosynthesis (H, He, Li) |\n| 380,000 years | CMB released |\n| 400 million years | First stars |\n| 13.8 billion years | Today |\n\n## NOT an Explosion:\n- Space itself expanding\n- No center, no edge\n- Everything was everywhere"
         },
         {
             "id": "galaxy_8",
             "type": "content",
-            "title": "Cosmic Microwave Background",
-            "content": "# The Afterglow 📺\n\n**CMB**: Radiation left over from the Big Bang.\n- Visible everywhere in the sky.\n- Cooled down to 2.7 Kelvin.\n- The static on old TVs includes CMB photons!\n- Strongest evidence for Big Bang model."
+            "title": "Evidence for Big Bang",
+            "content": "# Evidence for the Big Bang\n\n## 1. Hubble Expansion:\n- Galaxies receding from us\n- Farther = faster\n- v = H x d\n\n## 2. Cosmic Microwave Background:\n- Afterglow of hot universe\n- 2.725 K blackbody\n- Nearly uniform (+/- 0.00001 K)\n\n## 3. Light Element Abundances:\n- 75% H, 25% He by mass\n- Matches predictions\n\n## 4. Structure Formation:\n- Tiny CMB fluctuations\n- Grew into galaxies\n\n## 5. Time Dilation:\n- Distant supernovae last longer\n- Confirms expansion"
         },
         {
             "id": "galaxy_9",
             "type": "content",
             "title": "Dark Matter",
-            "content": "# Invisible Glue 👻\n\nGalaxies spin too fast; they should fly apart.\n- Something invisible provides extra gravity.\n- **Dark Matter**: 85% of matter in universe.\n- Doesn't interact with light. We only know it's there by gravity."
+            "content": "# Dark Matter\n\n## Evidence:\n- Galaxy rotation curves\n- Galaxy cluster masses\n- Gravitational lensing\n- CMB fluctuations\n\n## Properties:\n- ~27% of universe\n- Doesn't interact with light\n- Only gravity detected\n\n## Candidates:\n- WIMPs (Weakly Interacting Massive Particles)\n- Axions\n- Primordial black holes\n\n## Distribution:\n- Halos around galaxies\n- Web-like structure (cosmic web)"
         },
         {
             "id": "galaxy_10",
             "type": "content",
             "title": "Dark Energy",
-            "content": "# The Pusher 🌬️\n\nThe expansion of the universe is **accelerating**.\n- Dark Energy is the mysterious force pushing space apart.\n- Makes up ~68% of total energy of universe.\n- We have no idea what it is."
+            "content": "# Dark Energy\n\n## Discovery:\n- 1998: Type Ia supernovae observations\n- Expansion is ACCELERATING\n- Nobel Prize 2011\n\n## Properties:\n- ~68% of universe\n- Causes accelerated expansion\n- Nature unknown\n\n## Possibilities:\n- Cosmological constant (Lambda)\n- Vacuum energy\n- Quintessence (varying field)\n- Modified gravity\n\n## Equation of State:\n- w = P / (rho x c^2)\n- w = -1 for cosmological constant\n- Current measurements: w ~ -1"
         },
         {
-            "id": "galaxy_quiz_2",
+            "id": "galaxy_quiz_3",
             "type": "quiz",
-            "title": "Cosmo Quiz",
-            "content": "Dark stuff.",
-            "quizQuestion": "What is causing the expansion of the universe to accelerate?",
+            "title": "Dark Energy Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Dark energy causes the universe's expansion to:",
             "quizOptions": [
-                "Dark Matter",
-                "Gravity",
-                "Dark Energy",
-                "Supernovae"
+                "Slow down",
+                "Stay constant",
+                "Accelerate",
+                "Reverse"
             ],
             "correctOptionIndex": 2
         },
         {
             "id": "galaxy_11",
             "type": "content",
-            "title": "Structure of Universe",
-            "content": "# Cosmic Web 🕸️\n\n- Galaxies group into **Clusters**.\n- Clusters group into **Superclusters**.\n- Arranged in filaments with giant **Voids** in between.\n- Looks like a brain's neural network."
+            "title": "Fate of the Universe",
+            "content": "# Fate of the Universe\n\n## Possible Scenarios:\n\n| Scenario | Description |\n|----------|------------|\n| Big Freeze | Expansion forever, cold death |\n| Big Rip | Dark energy tears apart everything |\n| Big Crunch | Gravity reverses expansion |\n| Big Bounce | Crunch followed by new bang |\n\n## Current View:\n- Big Freeze most likely\n- Dark energy dominates forever\n- Stars burn out, galaxies isolated\n- Heat death in ~10^100 years\n\n## Uncertainties:\n- Dark energy behavior unknown\n- Quantum effects at edges"
         },
         {
             "id": "galaxy_12",
             "type": "content",
-            "title": "Likely Fate of Universe",
-            "content": "# The End? 🔚\n\nBased on Dark Energy:\n- **Big Freeze / Heat Death**: Expansion continues forever. Stars die. Everything gets cold and dark. (Most likely).\n- **Big Crunch**: Gravity wins, universe collapses back.\n- **Big Rip**: Dark energy tears atoms apart."
+            "title": "Large Scale Structure",
+            "content": "# Large Scale Structure\n\n## Cosmic Web:\n- Galaxies not randomly distributed\n- Filaments and walls\n- Clusters at intersections\n- Voids between\n\n## Hierarchy:\n- Galaxies\n- Galaxy groups (~50 galaxies)\n- Galaxy clusters (~1000 galaxies)\n- Superclusters\n- Cosmic web filaments\n\n## Local Group:\n- Milky Way + Andromeda + ~80 others\n- ~10 million light-years across\n\n## Observable Universe:\n- ~93 billion light-years diameter\n- ~200 billion galaxies"
         },
         {
             "id": "galaxy_13",
             "type": "content",
-            "title": "Distance Ladder",
-            "content": "# Measuring Space 📏\n\nHow do we know how far?\n1. **Parallax**: Geometry (Nearby stars).\n2. **Cepheid Variables**: Standard candles (Nearby galaxies).\n3. **Type Ia Supernovae**: Standard explosions (Distant galaxies).\n4. **Redshift**: Hubble's Law (Edge of universe)."
-        },
-        {
-            "id": "galaxy_14",
-            "type": "content",
-            "title": "Gravitational Lensing",
-            "content": "# Space Zoom 🔍\n\nMassive objects (clusters) bend space-time.\n- Light from background galaxies curves around them.\n- Acts as a natural telescope lens to see early universe."
-        },
-        {
-            "id": "galaxy_15",
-            "type": "content",
-            "title": "Early Universe",
-            "content": "# First Light 🕯️\n\n- **Inflation**: Instant expansion.\n- **Recombination**: 380,000 years later, atoms formed, light could finally travel (CMB).\n- **Dark Ages**: Before stars formed."
-        },
-        {
-            "id": "galaxy_16",
-            "type": "content",
-            "title": "Multiverse?",
-            "content": "# Bubbles 🫧\n\nHypothesis: Is our universe just one bubble in a cosmic foam?\n- String theory and Inflation suggest it's possible.\n- Untestable currently, but fun to think about."
-        },
-        {
-            "id": "galaxy_17",
-            "type": "content",
-            "title": "Cosmology Summary",
-            "content": "# Recap 📝\n\n- **Big Bang**: Origin.\n- **Galaxies**: Building blocks.\n- **Expansion**: Driven by Dark Energy.\n- We are a tiny part of a grand, expanding mystery."
+            "title": "Summary",
+            "content": "# Galaxies and Cosmology Summary\n\n## Galaxy Types:\n- Spiral: Arms, disk, young stars\n- Elliptical: Spheroidal, old stars\n- Irregular: Chaotic\n\n## Big Bang:\n- Universe began 13.8 billion years ago\n- Evidence: CMB, expansion, abundances\n\n## Composition:\n| Component | Percentage |\n|-----------|------------|\n| Dark energy | 68% |\n| Dark matter | 27% |\n| Ordinary matter | 5% |\n\n## Fate:\n- Big Freeze most likely\n- Eternal expansion\n\n> **Congratulations!** You've completed Galaxies and Cosmology!"
         }
     ]
 }

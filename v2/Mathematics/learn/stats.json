@@ -2,138 +2,122 @@
     "id": "learn_stats",
     "topicId": "stats",
     "topicTitle": "Statistics and Probability",
-    "description": "Making sense of data and predicting the future.",
-    "baseKP": 100,
+    "description": "Explore data analysis, probability, and statistical inference",
+    "baseKP": 75,
     "slides": [
         {
             "id": "stats_1",
             "type": "content",
-            "title": "Stats vs Probability",
-            "content": "# Head or Tails? 🪙\n\n- **Probability**: Predicting the likelihood of future events based on theory. (Chance).\n- **Statistics**: Analyzing past data to understand what happened. (Analysis)."
+            "title": "Welcome to Statistics",
+            "content": "# Introduction to Statistics and Probability\n\nWelcome to **Statistics** - making sense of data!\n\n## What You Will Learn:\n- **Descriptive Statistics** - Summarizing data\n- **Probability** - Chance and randomness\n- **Distributions** - Patterns in data\n- **Inference** - Drawing conclusions\n\n> **Fun Fact:** Modern statistics began with analyzing games of chance in the 1600s!"
         },
         {
             "id": "stats_2",
             "type": "content",
-            "title": "Descriptive Statistics",
-            "content": "# Central Tendency 🎯\n\n- **Mean**: Average (Sum / Count).\n- **Median**: Middle number (sorted).\n- **Mode**: Most frequent number.\n\nMedian is better if there are outliers (Bill Gates walks into a bar...)."
+            "title": "Measures of Center",
+            "content": "# Measures of Center\n\n## Mean (Average):\n```\nx-bar = Sum(x_i) / n\n```\n\n## Median:\nMiddle value when sorted.\n- Odd n: Middle number\n- Even n: Average of two middle\n\n## Mode:\nMost frequent value.\n\n## Comparison:\n| Measure | Best When |\n|---------|----------|\n| Mean | Symmetric data |\n| Median | Skewed data |\n| Mode | Categorical data |"
         },
         {
             "id": "stats_3",
             "type": "content",
-            "title": "Variance and Standard Deviation",
-            "content": "# Spread 🧈\n\nHow far is data from the mean?\n- **Variance ($ s^2 $)**: Average squared difference.\n- **Std Deviation ($ s $)**: Square root of variance.\n  - High SD = Data spread out.\n  - Low SD = Data clustered."
-        },
-        {
-            "id": "stats_4",
-            "type": "content",
-            "title": "Probability Basics",
-            "content": "# Chance 🎲\n\n$P(Event)$ ranges from 0 (Impossible) to 1 (Certain).\n\n- **Independent Events**: Coin flips. Previous result doesn't change next.\n- **Dependent Events**: Drawing cards without replacement."
+            "title": "Measures of Spread",
+            "content": "# Measures of Spread\n\n## Range:\n```\nRange = Maximum - Minimum\n```\n\n## Variance:\n```\ns^2 = Sum((x_i - x-bar)^2) / (n-1)\n```\n\n## Standard Deviation:\n```\ns = sqrt(variance)\n```\n\n## Interquartile Range (IQR):\n```\nIQR = Q3 - Q1\n```\n\n## Five-Number Summary:\n- Minimum, Q1, Median, Q3, Maximum"
         },
         {
             "id": "stats_quiz_1",
             "type": "quiz",
-            "title": "Range Quiz",
-            "content": "Scale check.",
-            "quizQuestion": "A probability of 0.5 means:",
+            "title": "Descriptive Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The median is preferred over the mean when:",
             "quizOptions": [
-                "Impossible",
-                "Certain",
-                "50/50 Chance",
-                "Rare"
+                "All data are similar",
+                "Data is skewed",
+                "n is large",
+                "Data is categorical"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "stats_4",
+            "type": "content",
+            "title": "Basic Probability",
+            "content": "# Basic Probability\n\n## Definition:\n```\nP(A) = (Favorable outcomes) / (Total outcomes)\n```\n\n## Properties:\n- 0 <= P(A) <= 1\n- P(certain) = 1\n- P(impossible) = 0\n\n## Complement:\n```\nP(not A) = 1 - P(A)\n```\n\n## Example:\nRolling a die:\n- P(3) = 1/6\n- P(even) = 3/6 = 1/2\n- P(less than 5) = 4/6 = 2/3"
         },
         {
             "id": "stats_5",
             "type": "content",
-            "title": "Distributions",
-            "content": "# The Shape of Data 🔔\n\n- **Normal Distribution**: Bell Curve. (Height, IQ). 68-95-99.7 Rule.\n- **Uniform**: Flat (Rolling a die).\n- **Binomial**: Success/Fail (Coin flips)."
+            "title": "Probability Rules",
+            "content": "# Probability Rules\n\n## Addition Rule:\n```\nP(A or B) = P(A) + P(B) - P(A and B)\n```\n\n## Mutually Exclusive:\nIf A and B cannot both occur:\n```\nP(A or B) = P(A) + P(B)\n```\n\n## Multiplication Rule:\n```\nP(A and B) = P(A) x P(B|A)\n```\n\n## Independent Events:\nIf A doesn't affect B:\n```\nP(A and B) = P(A) x P(B)\n```\n\n## Conditional Probability:\n```\nP(A|B) = P(A and B) / P(B)\n```"
         },
         {
             "id": "stats_6",
             "type": "content",
-            "title": "Hypothesis Testing",
-            "content": "# Science Proof 🧪\n\n1. **Null Hypothesis ($H_0$)**: Nothing interesting is happening (Change was luck).\n2. **Alternative ($H_1$)**: The change is real.\n3. Calculate **p-value**.\n4. If $p < 0.05$, reject Null (Statistically Significant)."
-        },
-        {
-            "id": "stats_7",
-            "type": "content",
-            "title": "Combinatorics",
-            "content": "# Counting Ways 🔢\n\n- **Permutations**: Order matters ($nPr$). Code 123 $\\neq$ 321.\n- **Combinations**: Order doesn't matter ($nCr$). Fruit salad Apple-Banana = Banana-Apple."
-        },
-        {
-            "id": "stats_8",
-            "type": "content",
-            "title": "Correlation vs Causation",
-            "content": "# Warning ⚠️\n\n**Correlation**: Two things move together.\n**Causation**: One causes the other.\n\nEx: Ice cream sales and Shark attacks are correlated (Both go up in Summer), but Ice cream doesn't cause Sharks!"
-        },
-        {
-            "id": "stats_9",
-            "type": "content",
-            "title": "Bayes' Theorem",
-            "content": "# Updating Beliefs 🧠\n\n$$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$$\n\nHow to update probability based on new evidence.\n(e.g., Accuracy of medical test given you tested positive)."
-        },
-        {
-            "id": "stats_10",
-            "type": "content",
-            "title": "Law of Large Numbers",
-            "content": "# Long Run 🏃\n\nAs you repeat an experiment more times, the average result gets closer to the expected value.\n- Casino always wins in the long run.\n- 10 coin flips might be 80% heads; 1 million flips will be 50%."
+            "title": "Counting Principles",
+            "content": "# Counting Principles\n\n## Fundamental Counting:\nIf task A has m ways and task B has n ways:\n```\nTotal ways = m x n\n```\n\n## Permutations (order matters):\n```\nnPr = n! / (n-r)!\n```\n\n## Combinations (order doesn't matter):\n```\nnCr = n! / (r! x (n-r)!)\n```\n\n## Factorial:\n```\nn! = n x (n-1) x (n-2) x ... x 1\n```\n\n## Example:\n- Arrange 5 people in line: 5! = 120\n- Choose 3 from 10: 10C3 = 120"
         },
         {
             "id": "stats_quiz_2",
             "type": "quiz",
-            "title": "Logic Quiz",
-            "content": "Interpretation check.",
-            "quizQuestion": "If p-value < 0.05, we typically:",
+            "title": "Probability Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Two events are independent if:",
             "quizOptions": [
-                "Reject the Null Hypothesis",
-                "Accept the Null Hypothesis",
-                "Assume error",
-                "Redo the test"
+                "They are mutually exclusive",
+                "One doesn't affect the other's probability",
+                "They always occur together",
+                "P(A) = P(B)"
             ],
-            "correctOptionIndex": 0
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "stats_7",
+            "type": "content",
+            "title": "Random Variables",
+            "content": "# Random Variables\n\n## Definition:\nVariable whose value is determined by chance.\n\n## Types:\n- Discrete: Countable values\n- Continuous: Any value in interval\n\n## Expected Value:\n```\nE(X) = Sum(x_i x P(x_i))\n```\n\n## Variance:\n```\nVar(X) = E(X^2) - [E(X)]^2\n```\n\n## Example:\nDie roll:\n```\nE(X) = (1+2+3+4+5+6)/6 = 3.5\n```"
+        },
+        {
+            "id": "stats_8",
+            "type": "content",
+            "title": "Binomial Distribution",
+            "content": "# Binomial Distribution\n\n## Requirements:\n- Fixed number of trials (n)\n- Two outcomes (success/failure)\n- Constant probability (p)\n- Independent trials\n\n## Formula:\n```\nP(X = k) = nCk x p^k x (1-p)^(n-k)\n```\n\n## Parameters:\n- Mean: mu = np\n- Standard Deviation: sigma = sqrt(np(1-p))\n\n## Example:\nFlip 10 coins, P(exactly 6 heads):\n```\n10C6 x (0.5)^6 x (0.5)^4 = 0.205\n```"
+        },
+        {
+            "id": "stats_9",
+            "type": "content",
+            "title": "Normal Distribution",
+            "content": "# Normal Distribution\n\n## Properties:\n- Bell-shaped curve\n- Symmetric about mean\n- Mean = Median = Mode\n\n## Parameters:\n- mu (mean): Center\n- sigma (standard deviation): Spread\n\n## Standard Normal:\n- mu = 0, sigma = 1\n- Z-score: z = (x - mu) / sigma\n\n## Empirical Rule:\n- 68% within 1 sigma\n- 95% within 2 sigma\n- 99.7% within 3 sigma"
+        },
+        {
+            "id": "stats_10",
+            "type": "content",
+            "title": "Sampling Distributions",
+            "content": "# Sampling Distributions\n\n## Sample Mean Distribution:\n- Mean of sampling distribution = mu\n- Standard Error: SE = sigma / sqrt(n)\n\n## Central Limit Theorem:\nFor large n (>30), sample means are normally distributed, regardless of population shape.\n\n## Implications:\n- Larger n -> Smaller spread\n- Can use normal methods\n\n## Confidence Interval:\n```\nx-bar +/- z* x (s / sqrt(n))\n```"
+        },
+        {
+            "id": "stats_quiz_3",
+            "type": "quiz",
+            "title": "Distributions Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The Central Limit Theorem states that sample means are approximately:",
+            "quizOptions": [
+                "Uniform",
+                "Binomial",
+                "Normal",
+                "Exponential"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "stats_11",
             "type": "content",
-            "title": "Regression",
-            "content": "# Line of Best Fit 📉\n\nFinding the trend line ($y = mx + b$) that minimizes error.\n- $R^2$: How well line fits data (0 to 1).\n- Used for prediction (Machine Learning)."
+            "title": "Hypothesis Testing",
+            "content": "# Hypothesis Testing\n\n## Steps:\n1. State H0 (null) and Ha (alternative)\n2. Choose significance level (alpha)\n3. Calculate test statistic\n4. Find p-value\n5. Compare and conclude\n\n## Hypotheses:\n- H0: No effect/difference\n- Ha: There is an effect\n\n## Decision:\n- p < alpha: Reject H0\n- p >= alpha: Fail to reject H0\n\n## Type I Error: Reject true H0\n## Type II Error: Fail to reject false H0"
         },
         {
             "id": "stats_12",
             "type": "content",
-            "title": "Sampling Bias",
-            "content": "# Bad Data 🗑️\n\nIf sample isn't random, results are wrong.\n- **Selection Bias**: Polling only landlines (Older demo).\n- **Survivorship Bias**: Looking only at success stories (WW2 planes)."
-        },
-        {
-            "id": "stats_13",
-            "type": "content",
-            "title": "Monte Carlo Simulation",
-            "content": "# Rolling Dice 🎰\n\nUsing random sampling to solve problems.\n- Running a model 10,000 times with random inputs to see range of outcomes.\n- Used in finance and physics."
-        },
-        {
-            "id": "stats_14",
-            "type": "content",
-            "title": "Conditional Probability",
-            "content": "# Given That... 🚦\n\nProbability of A *given that* B occurred.\n$P(Rain | Clouds)$ is higher than just $P(Rain)$."
-        },
-        {
-            "id": "stats_15",
-            "type": "content",
-            "title": "Gambler's Fallacy",
-            "content": "# It's Due! 🎰\n\nBelief that if something happened frequently (Red 5 times), the opposite is \"due\" (Black).\n- False! Coin has no memory.\n- Each event is Independent."
-        },
-        {
-            "id": "stats_16",
-            "type": "content",
-            "title": "Data Visualization",
-            "content": "# Seeing is Believing 📊\n\n- Histogram (Frequency).\n- Box Plot (Quartiles).\n- Scatter Plot (Correlation).\n\nGood charts reveal patterns hidden in tables."
-        },
-        {
-            "id": "stats_17",
-            "type": "content",
-            "title": "Stats Summary",
-            "content": "# Recap 📝\n\n- **Descriptive** summarizes data.\n- **Inferential** makes predictions.\n- **Probability** quantifies uncertainty.\n- Data literacy is a superpower in the information age."
+            "title": "Summary",
+            "content": "# Statistics Summary\n\n## Descriptive:\n| Measure | Center | Spread |\n|---------|--------|--------|\n| Common | Mean | Std Dev |\n| Robust | Median | IQR |\n\n## Probability:\n- P(A or B) = P(A) + P(B) - P(A and B)\n- P(A and B) = P(A) x P(B) if independent\n\n## Distributions:\n- Binomial: Discrete, success/failure\n- Normal: Continuous, bell curve\n\n## Inference:\n- Confidence intervals\n- Hypothesis tests\n\n> **Congratulations!** You've completed Statistics!"
         }
     ]
 }

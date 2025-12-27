@@ -2,138 +2,128 @@
     "id": "learn_model",
     "topicId": "model",
     "topicTitle": "Mathematical Modeling",
-    "description": "Translating real world problems into math to find solutions.",
-    "baseKP": 100,
+    "description": "Explore how mathematics describes real-world phenomena",
+    "baseKP": 75,
     "slides": [
         {
             "id": "model_1",
             "type": "content",
-            "title": "What is Modeling?",
-            "content": "# Abstracting Reality 🌍 $\\to$ 📝\n\nThe process of using mathematics to represent, analyze, and make predictions about real-world phenomena.\nSteps:\n1. Real Problem $\\to$ Math Model\n2. Solve Math\n3. Math Solution $\\to$ Real Interpretation"
+            "title": "Welcome to Mathematical Modeling",
+            "content": "# Introduction to Mathematical Modeling\n\nWelcome to **Mathematical Modeling** - mathematics meets the real world!\n\n## What You Will Learn:\n- **What is Modeling** - The process\n- **Types of Models** - Different approaches\n- **Population Models** - Growth and decay\n- **Optimization** - Finding the best\n- **Simulation** - Running models\n\n> **Fun Fact:** Weather forecasts use mathematical models with millions of equations!"
         },
         {
             "id": "model_2",
             "type": "content",
-            "title": "Linear Models",
-            "content": "# Constant Rate 📏\n\n$y = mx + b$\n\nSimplest model.\nExample: Cost of taxi ride.\n- $b$: Base fee.\n- $m$: Cost per mile.\n- $x$: Miles."
+            "title": "The Modeling Process",
+            "content": "# The Modeling Process\n\n## Steps:\n\n1. **Identify the Problem**\n   - What question needs answering?\n\n2. **Make Assumptions**\n   - Simplify reality\n\n3. **Formulate Model**\n   - Write equations\n\n4. **Solve/Analyze**\n   - Find solutions\n\n5. **Validate**\n   - Compare to real data\n\n6. **Refine**\n   - Improve if needed\n\n## Key Principle:\nAll models are wrong, but some are useful."
         },
         {
             "id": "model_3",
             "type": "content",
-            "title": "Exponential Models",
-            "content": "# Growth and Decay 🦠\n\n$y = A e^{kt}$\n\nRate depends on current size.\n- **Population Growth**: Bacteria doubling.\n- **Radioactive Decay**: Uranium half-life.\n- **Compound Interest**: Money."
-        },
-        {
-            "id": "model_4",
-            "type": "content",
-            "title": "Logistic Growth",
-            "content": "# Realistic Growth 🛑\n\nPopulations can't grow forever (Run out of food).\nStart exponential, then level off at **Carrying Capacity** ($K$).\nS-Curve."
+            "title": "Types of Models",
+            "content": "# Types of Mathematical Models\n\n## By Approach:\n\n| Type | Description |\n|------|-------------|\n| Deterministic | Same input = same output |\n| Stochastic | Includes randomness |\n| Discrete | Countable values |\n| Continuous | Any value in range |\n| Linear | Proportional relationships |\n| Nonlinear | Complex relationships |\n\n## By Form:\n- Algebraic equations\n- Differential equations\n- Difference equations\n- Statistical models"
         },
         {
             "id": "model_quiz_1",
             "type": "quiz",
-            "title": "Growth Quiz",
-            "content": "Identify the proper model.",
-            "quizQuestion": "Which model best describes unlimited bacteria growth in a petri dish?",
+            "title": "Modeling Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A model that includes randomness is called:",
             "quizOptions": [
+                "Deterministic",
+                "Stochastic",
                 "Linear",
-                "Exponential",
-                "Logarithmic",
-                "Constant"
+                "Static"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "model_4",
+            "type": "content",
+            "title": "Linear Models",
+            "content": "# Linear Models\n\n## Form:\n```\ny = mx + b\n```\n\n## Applications:\n- Cost = Fixed + Variable x Quantity\n- Distance = Speed x Time\n- Simple depreciation\n\n## Linear Regression:\n- Best fit line through data\n- Minimizes squared errors\n\n## Example:\n```\nCost = 500 + 15 x (units)\n```\nFixed cost: $500\nVariable cost: $15/unit\n\n## Limitations:\n- Many real phenomena are nonlinear"
+        },
+        {
             "id": "model_5",
             "type": "content",
-            "title": "Optimization Problems",
-            "content": "# Best Outcome 🏆\n\nFinding Maxima or Minima.\n- Maximize profit.\n- Minimize material usage.\n- Methodology: Define constraints, write objective function, use Calculus (derivative = 0) or Linear Programming."
+            "title": "Exponential Growth",
+            "content": "# Exponential Growth\n\n## Model:\n```\nP(t) = P_0 x e^(rt)\n```\nor\n```\nP(t) = P_0 x (1 + r)^t\n```\n\n## Characteristics:\n- Constant growth rate\n- Doubling time = ln(2)/r\n\n## Applications:\n- Population growth\n- Compound interest\n- Bacterial growth\n- Viral spread\n\n## Example:\n$1000 at 5% annual:\n```\nA = 1000 x (1.05)^10 = $1,628.89\n```"
         },
         {
             "id": "model_6",
             "type": "content",
-            "title": "Predator-Prey Model",
-            "content": "# Fox and Rabbit 🐇🦊\n\nLotka-Volterra equations.\n- Coupled differential equations.\n- Rabbits go up $\\to$ Foxes go up.\n- Foxes eat rabbits $\\to$ Rabbits go down.\n- Foxes starve $\\to$ Foxes go down.\n- Repeat (Oscillation)."
-        },
-        {
-            "id": "model_7",
-            "type": "content",
-            "title": "SIR Model",
-            "content": "# Epidemiology 😷\n\nModeling disease spread.\n- **S**: Susceptible.\n- **I**: Infected.\n- **R**: Recovered.\nUsed to predict COVID peaks and herd immunity threshold."
-        },
-        {
-            "id": "model_8",
-            "type": "content",
-            "title": "Financial Modeling",
-            "content": "# Money Math 💰\n\n- **Amortization**: Calculating mortgage payments.\n- **Black-Scholes**: Pricing stock options.\n- **Risk Analysis**: Monte Carlo simulations."
-        },
-        {
-            "id": "model_9",
-            "type": "content",
-            "title": "Physics Modeling",
-            "content": "# Projectile Motion 🏹\n\nIgnoring air resistance: Parabola.\nAdding air resistance: Complex differential equation requiring numerical definition."
-        },
-        {
-            "id": "model_10",
-            "type": "content",
-            "title": "Network Models",
-            "content": "# Graph Theory 🕸️\n\nNodes and Edges.\n- **Shortest Path**: GPS routing (Dijkstra's algo).\n- **Social Networks**: Viral marketing/Influence."
+            "title": "Exponential Decay",
+            "content": "# Exponential Decay\n\n## Model:\n```\nN(t) = N_0 x e^(-kt)\n```\n\n## Half-Life:\nTime for quantity to halve.\n```\nt_half = ln(2) / k\n```\n\n## Applications:\n\n| Application | Example |\n|-------------|--------|\n| Radioactive decay | Carbon-14 dating |\n| Drug metabolism | Medication dosing |\n| Depreciation | Asset value |\n| Cooling | Newton's law |\n\n## Carbon-14 Dating:\n- Half-life: 5,730 years\n- Measure remaining C-14"
         },
         {
             "id": "model_quiz_2",
             "type": "quiz",
-            "title": "Disease Quiz",
-            "content": "SIR Check.",
-            "quizQuestion": "In the SIR model, R stands for:",
+            "title": "Growth Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In exponential growth, the doubling time is:",
             "quizOptions": [
-                "Rate",
-                "Recovered",
-                "Ratio",
-                "Reinfected"
+                "r/2",
+                "2r",
+                "ln(2)/r",
+                "r*ln(2)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "model_7",
+            "type": "content",
+            "title": "Logistic Growth",
+            "content": "# Logistic Growth Model\n\n## Equation:\n```\ndP/dt = rP(1 - P/K)\n```\n\n## Solution:\n```\nP(t) = K / (1 + ((K-P_0)/P_0) x e^(-rt))\n```\n\n## Parameters:\n- P_0 = Initial population\n- r = Growth rate\n- K = Carrying capacity\n\n## Behavior:\n- Starts exponential\n- Slows as approaching K\n- Levels off at K\n\n## Applications:\n- Realistic population growth\n- Market saturation\n- Disease spread"
+        },
+        {
+            "id": "model_8",
+            "type": "content",
+            "title": "Optimization",
+            "content": "# Optimization\n\n## Goal:\nFind maximum or minimum of a function.\n\n## Method:\n1. Define objective function\n2. Identify constraints\n3. Find critical points\n4. Test for max/min\n5. Check boundaries\n\n## Calculus Approach:\n```\nSet f'(x) = 0\nSolve for x\nCheck f''(x) for max/min\n```\n\n## Linear Programming:\n- Linear objective function\n- Linear constraints\n- Feasible region\n- Corner point solutions"
+        },
+        {
+            "id": "model_9",
+            "type": "content",
+            "title": "Optimization Examples",
+            "content": "# Optimization Examples\n\n## Profit Maximization:\n```\nProfit = Revenue - Cost\n= p*q - C(q)\n```\nFind q where dP/dq = 0.\n\n## Container Design:\nMaximize volume with fixed surface area.\n\n## Shortest Path:\nMinimize distance or time.\n\n## Resource Allocation:\nMaximize output given budget.\n\n## Real Applications:\n- Supply chain logistics\n- Portfolio optimization\n- Engineering design\n- Machine learning"
+        },
+        {
+            "id": "model_10",
+            "type": "content",
+            "title": "Predator-Prey Models",
+            "content": "# Lotka-Volterra Model\n\n## Equations:\n```\ndx/dt = ax - bxy (prey)\ndy/dt = cxy - dy (predator)\n```\n\n## Interpretation:\n- x = prey population\n- y = predator population\n- a = prey growth rate\n- b = predation rate\n- c = predator reproduction from prey\n- d = predator death rate\n\n## Behavior:\n- Oscillating populations\n- Peaks and crashes\n- Delayed response\n\n## Examples:\n- Lynx-hare cycle\n- Fish populations"
+        },
+        {
+            "id": "model_quiz_3",
+            "type": "quiz",
+            "title": "Optimization Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "To find maximum of f(x), we first:",
+            "quizOptions": [
+                "Set f(x) = 0",
+                "Set f'(x) = 0",
+                "Set f''(x) = 0",
+                "Integrate f(x)"
             ],
             "correctOptionIndex": 1
         },
         {
             "id": "model_11",
             "type": "content",
-            "title": "Stochastic vs Deterministic",
-            "content": "# Standard vs Random 🎲\n\n- **Deterministic**: Same input $\\to$ Same output (Physics).\n- **Stochastic**: Includes randomness (Stock market, Weather).\n  - Output is a probability distribution."
+            "title": "Simulation",
+            "content": "# Simulation\n\n## Purpose:\nWhen analytical solutions difficult or impossible.\n\n## Types:\n\n| Type | Description |\n|------|-------------|\n| Monte Carlo | Random sampling |\n| Agent-based | Individual entities |\n| Discrete event | System state changes |\n| Continuous | Differential equations |\n\n## Monte Carlo:\n- Generate random scenarios\n- Run many times\n- Analyze distribution of outcomes\n\n## Applications:\n- Risk analysis\n- Weather prediction\n- Traffic flow\n- Stock prices"
         },
         {
             "id": "model_12",
             "type": "content",
-            "title": "Climate Models",
-            "content": "# Planet Sim 🌍\n\nGrid-based simulation of atmosphere and ocean.\n- Massive complexity.\n- Energy balance (Sun in vs Heat out).\n- Feedback loops (Ice melt $\\to$ Less reflection $\\to$ More beat)."
+            "title": "Model Validation",
+            "content": "# Model Validation\n\n## Questions:\n- Does model fit known data?\n- Does it predict new data?\n- Are assumptions reasonable?\n\n## Methods:\n\n| Method | Purpose |\n|--------|--------|\n| Residual analysis | Check errors |\n| Cross-validation | Predict held-out data |\n| Sensitivity analysis | Effect of parameter changes |\n| Comparison | Against simpler models |\n\n## Common Errors:\n- Overfitting\n- Wrong assumptions\n- Missing variables\n- Data errors"
         },
         {
             "id": "model_13",
             "type": "content",
-            "title": "Game Theory",
-            "content": "# Strategy ♟️\n\nModeling conflict and cooperation.\n- **Prisoner's Dilemma**: Rationally selfish behavior leads to bad outcome for all.\n- Nash Equilibrium."
-        },
-        {
-            "id": "model_14",
-            "type": "content",
-            "title": "Machine Learning",
-            "content": "# Data Modeling 🤖\n\nInstead of writing the formula, the computer *learns* the formula from data.\n- Neural Networks are universal function approximators."
-        },
-        {
-            "id": "model_15",
-            "type": "content",
-            "title": "Verification and Validation",
-            "content": "# Is it right? ✅\n\n- **Verification**: Did we solve the equations correctly?\n- **Validation**: Does the model match reality?\nA model is a simplification; all models are wrong, but some are useful."
-        },
-        {
-            "id": "model_16",
-            "type": "content",
-            "title": "Chaos Theory",
-            "content": "# Butterfly Effect 🦋\n\nSensitivity to initial conditions.\n- Tiny change in input $\\to$ Huge change in output.\n- Why weather is impossible to predict past 10 days."
-        },
-        {
-            "id": "model_17",
-            "type": "content",
-            "title": "Modeling Summary",
-            "content": "# Recap 📝\n\n- Translate Real $\\to$ Math.\n- **Linear**, **Exponential**, **Logistic** are basics.\n- Used for **Populations**, **Disease**, **Finance**.\n- Helps us make better decisions."
+            "title": "Summary",
+            "content": "# Mathematical Modeling Summary\n\n## Process:\n1. Problem -> Assumptions -> Model -> Solve -> Validate -> Refine\n\n## Key Models:\n\n| Model | Equation |\n|-------|----------|\n| Linear | y = mx + b |\n| Exponential | P = P_0*e^(rt) |\n| Logistic | dP/dt = rP(1-P/K) |\n\n## Optimization:\n- Find critical points\n- Check second derivative\n\n## Simulation:\n- When analytical fails\n- Monte Carlo for probability\n\n## Remember:\nAll models are approximations.\n\n> **Congratulations!** You've completed Mathematical Modeling!"
         }
     ]
 }

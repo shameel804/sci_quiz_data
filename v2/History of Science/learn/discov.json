@@ -2,138 +2,52 @@
     "id": "learn_discov",
     "topicId": "discov",
     "topicTitle": "Key Discoveries",
-    "description": "Moments that changed everything.",
-    "baseKP": 100,
+    "description": "Explore the breakthrough discoveries that changed science forever",
+    "baseKP": 75,
     "slides": [
         {
             "id": "discov_1",
             "type": "content",
-            "title": "Fire",
-            "content": "# The First Tech 🔥\n\nControlled use of fire (Homo erectus, ~1MYA).\n- Warmth, Cooking (Brain growth), Protection.\n- The spark of civilization."
+            "title": "Welcome to Key Discoveries",
+            "content": "# Introduction to Key Discoveries\n\nWelcome to **Key Discoveries** - the breakthroughs that changed everything!\n\n## What You Will Learn:\n- **Paradigm Shifts** - Revolutionary ideas\n- **Accidental Discoveries** - Lucky findings\n- **Technological Breakthroughs** - Enabling discoveries\n\n> **Fun Fact:** Penicillin was discovered when a scientist left a petri dish uncovered!"
         },
         {
             "id": "discov_2",
             "type": "content",
-            "title": "The Wheel",
-            "content": "# Rolling 🎡\n\n~3500 BC (Mesopotamia).\n- Originally for pottery, then chariots.\n- Revolutionized transport and machinery."
+            "title": "Physics Discoveries",
+            "content": "# Physics Discoveries\n\n## Gravity (1687):\n- Newton's Principia\n- Unified terrestrial and celestial\n\n## Electromagnetism (1865):\n- Maxwell's equations\n- Light is EM wave\n\n## X-rays (1895):\n- Roentgen, accidental\n- Medical imaging revolution\n\n## Radioactivity (1896):\n- Becquerel, Curie\n- Led to nuclear physics\n\n## Relativity (1905, 1915):\n- Einstein\n- Space, time, mass, energy\n\n## Quantum Mechanics (1920s):\n- Heisenberg, Schrodinger, Dirac\n- Subatomic world"
         },
         {
             "id": "discov_3",
             "type": "content",
-            "title": "Agriculture",
-            "content": "# Farming 🌾\n\nNeolithic Revolution (~10,000 BC).\n- Shift from hunter-gatherer to settled life.\n- Allowed surplus food $\\to$ Cities $\\to$ Specialization (Scientists!)."
-        },
-        {
-            "id": "discov_4",
-            "type": "content",
-            "title": "Writing",
-            "content": "# Memory 📜\n\n~3400 BC (Sumerian Cuneiform).\n- Storing information outside the brain.\n- Passing knowledge across generations."
-        },
-        {
-            "id": "discov_5",
-            "type": "content",
-            "title": "Helicentrism",
-            "content": "# Earth Moves 🌎\n\nCopernicus (1543).\n- We are not the center.\n- Humbling and revolutionary.\n- Started modern astronomy."
+            "title": "Biology Discoveries",
+            "content": "# Biology Discoveries\n\n## Evolution (1859):\n- Darwin's Origin of Species\n- Natural selection\n- All life connected\n\n## DNA Structure (1953):\n- Watson, Crick (with Franklin's data)\n- Double helix\n- Genetic code\n\n## Antibiotics (1928):\n- Penicillin (Fleming)\n- Saved millions of lives\n\n## Vaccination (1796):\n- Jenner, smallpox\n- Eradicated diseases\n\n## Cell Theory (1838):\n- All life made of cells\n- Fundamental biology"
         },
         {
             "id": "discov_quiz_1",
             "type": "quiz",
-            "title": "Space Quiz",
-            "content": "Center check.",
-            "quizQuestion": "Heliocentrism proposes that what is at the center of the solar system?",
+            "title": "Discoveries Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The structure of DNA was discovered in:",
             "quizOptions": [
-                "Earth",
-                "Sun",
-                "Moon",
-                "Mars"
+                "1953",
+                "1859",
+                "1928",
+                "1687"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 0
         },
         {
-            "id": "discov_6",
+            "id": "discov_4",
             "type": "content",
-            "title": "Microscope",
-            "content": "# Tiny Worlds 🔬\n\nLeeuwenhoek (1670s).\n- Discovered \"Animalcules\" (Bacteria/Protozoa) in water.\n- Nobody knew this life existed.\n- Led to Germ Theory."
+            "title": "Chemistry and Technology",
+            "content": "# Chemistry and Technology\n\n## Periodic Table (1869):\n- Mendeleev organized elements\n- Predicted undiscovered elements\n\n## Transistor (1947):\n- Bell Labs\n- Enabled modern electronics\n\n## Internet (1969/1990s):\n- ARPANET, then WWW\n- Changed civilization\n\n## CRISPR (2012):\n- Gene editing tool\n- Revolutionary for medicine"
         },
         {
-            "id": "discov_7",
+            "id": "discov_5",
             "type": "content",
-            "title": "Electricity",
-            "content": "# The Force ⚡\n\nFranklin (Kite), Volta (Battery), Faraday (Motor).\n- From parlor trick to powering the planet.\n- Instant communication (Telegraph)."
-        },
-        {
-            "id": "discov_8",
-            "type": "content",
-            "title": "Vaccination",
-            "content": "# Immunity 💉\n\nEdward Jenner (1796).\n- Used Cowpox to protect against Smallpox.\n- Louis Pasteur perfected it.\n- Eradicated Smallpox, saved billions."
-        },
-        {
-            "id": "discov_9",
-            "type": "content",
-            "title": "Evolution",
-            "content": "# Natural Selection  Darwin\n\n1859.\n- Explains diversity of life without magic.\n- We are related to all living things."
-        },
-        {
-            "id": "discov_10",
-            "type": "content",
-            "title": "Penicillin",
-            "content": "# Antibiotics 💊\n\nAlexander Fleming (1928).\n- Accidental discovery of mold killing bacteria.\n- Turned fatal infections (strep throat, cuts) into minor nuisances."
-        },
-        {
-            "id": "discov_quiz_2",
-            "type": "quiz",
-            "title": "Med Quiz",
-            "content": "Discoverer check.",
-            "quizQuestion": "Who discovered Penicillin by accident?",
-            "quizOptions": [
-                "Louis Pasteur",
-                "Marie Curie",
-                "Alexander Fleming",
-                "Joseph Lister"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "discov_11",
-            "type": "content",
-            "title": "DNA",
-            "content": "# Code of Life 🧬\n\n1953.\n- The instruction manual for building a human.\n- Opened door to genetic engineering."
-        },
-        {
-            "id": "discov_12",
-            "type": "content",
-            "title": "Plate Tectonics",
-            "content": "# Moving Earth 🗺️\n\n1960s (Wegener proposed earlier).\n- Earth's crust moves.\n- Explains volcanoes, earthquakes, mountains."
-        },
-        {
-            "id": "discov_13",
-            "type": "content",
-            "title": "Big Bang Theory",
-            "content": "# The Beginning 💥\n\nHubble (1929) saw universe expanding.\n- Penzias & Wilson (1964) heard the echo (CMB).\n- Universe had a start ~13.8 Billion years ago."
-        },
-        {
-            "id": "discov_14",
-            "type": "content",
-            "title": "Transistor",
-            "content": "# Digital Switch 💾\n\n1947.\n- Replaced bulky vacuum tubes.\n- Allowed computers to shrink from room-size to phone-size.\n- Most manufactured object in history."
-        },
-        {
-            "id": "discov_15",
-            "type": "content",
-            "title": "Relativity",
-            "content": "# E=mc² 🌌\n\nEinstein.\n- Mass and Energy are interchangeable.\n- Led to Nuclear Power (and bombs).\n- Changed understanding of Space and Time."
-        },
-        {
-            "id": "discov_16",
-            "type": "content",
-            "title": "The Internet",
-            "content": "# Connection 🌐\n\nARPANET (1969) $\\to$ WWW (1989, Tim Berners-Lee).\n- Democratized information.\n- Connected the human species."
-        },
-        {
-            "id": "discov_17",
-            "type": "content",
-            "title": "Discoveries Summary",
-            "content": "# Recap 📝\n\n- **Tools** (Fire, Wheel) gave us power.\n- **Germs & DNA** saved our lives.\n- **Physics** gave us the stars.\n- Curiosity pays off."
+            "title": "Summary",
+            "content": "# Key Discoveries Summary\n\n## Paradigm Shifts:\n| Discovery | Impact |\n|-----------|--------|\n| Evolution | Origin of species |\n| Relativity | Space-time |\n| Quantum | Subatomic reality |\n| DNA | Code of life |\n\n## Technology Enablers:\n- Microscope, telescope\n- X-rays, MRI\n- Computers, internet\n\n## Accidental Discoveries:\n- X-rays, penicillin, radioactivity\n\n> **Congratulations!** You've completed Key Discoveries!"
         }
     ]
 }

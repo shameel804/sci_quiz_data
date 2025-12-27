@@ -2,138 +2,128 @@
     "id": "learn_chem",
     "topicId": "chem",
     "topicTitle": "Chemical Engineering",
-    "description": "Lab chemistry at industrial scale.",
-    "baseKP": 100,
+    "description": "Explore process design, reaction engineering, and industrial chemistry",
+    "baseKP": 75,
     "slides": [
         {
             "id": "chem_1",
             "type": "content",
-            "title": "What is Chemical Engineering?",
-            "content": "# Scaling Up ⚗️\n\nTaking reactions from a test tube to a factory.\n- Converting raw materials into useful products.\n- Fuels, Plastics, Medicine, Food."
+            "title": "Welcome to Chemical Engineering",
+            "content": "# Introduction to Chemical Engineering\n\nWelcome to **Chemical Engineering** - transforming materials!\n\n## What You Will Learn:\n- **Process Design** - Industrial systems\n- **Mass and Energy Balances** - Conservation principles\n- **Reaction Engineering** - Chemical reactions\n- **Separations** - Purifying products\n- **Transport Phenomena** - Mass, heat, momentum\n\n> **Fun Fact:** Chemical engineers make everything from medicine to fuel to food!"
         },
         {
             "id": "chem_2",
             "type": "content",
-            "title": "Process Flow Diagrams (PFD)",
-            "content": "# The Map 🗺️\n\nSchematic of the plant.\n- Shows reactors, pipes, valves, sensors.\n- Used to design and control the process."
+            "title": "Mass Balance",
+            "content": "# Mass Balance\n\n## Conservation of Mass:\n```\nInput = Output + Accumulation\n```\n\n## For Steady State:\n```\nInput = Output\n```\n\n## General Approach:\n1. Draw process flowsheet\n2. Identify streams and components\n3. Write balance equations\n4. Solve for unknowns\n\n## Types:\n- Overall balance (all components)\n- Component balance (single species)\n\n## Units:\n- kg/s, lb/hr, mol/min, etc."
         },
         {
             "id": "chem_3",
             "type": "content",
-            "title": "Chemical Reactors",
-            "content": "# Mixing Pot 🍲\n\nWhere the magic happens.\n- **Batch Reactor**: Fill, cook, empty (Pharma).\n- **CSTR (Continuous)**: Flow in, flow out continuously (Oil Refineries).\n- **Plug Flow**: Pipe reactor."
-        },
-        {
-            "id": "chem_4",
-            "type": "content",
-            "title": "Mass Transfer",
-            "content": "# Moving Molecules 🚚\n\nMovement of specific ingredients.\n- **Distillation**: Separating liquids by boiling point (Alcohol/Fuel).\n- **Filtration**: Separating solids from liquids.\n- **Extraction**: Pulling a chemical out using a solvent."
-        },
-        {
-            "id": "chem_5",
-            "type": "content",
-            "title": "Heat Transfer in Process",
-            "content": "# Temperature Control 🌡️\n\n- **Heat Exchangers**: Transferring heat from hot fluid to cold fluid without mixing them.\n- Essential for safety (prevent explosions) and efficiency."
+            "title": "Energy Balance",
+            "content": "# Energy Balance\n\n## First Law:\n```\nQ - W = delta_H + delta_KE + delta_PE\n```\n\n## Simplified (no work, negligible KE/PE):\n```\nQ = delta_H\n```\n\n## Enthalpy:\n- Sensible heat: H = m x Cp x delta_T\n- Latent heat: H = m x delta_H_vap\n- Heat of reaction: delta_H_rxn\n\n## Reference States:\n- Elements at 25C, 1 atm\n- Consistent basis required\n\n## Heat of Formation:\n- Energy to form compound from elements"
         },
         {
             "id": "chem_quiz_1",
             "type": "quiz",
-            "title": "Process Quiz",
-            "content": "Separation check.",
-            "quizQuestion": "Which process separates liquids based on their boiling points?",
+            "title": "Balances Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In steady-state operation, accumulation equals:",
             "quizOptions": [
-                "Filtration",
-                "Centrifugation",
-                "Distillation",
-                "Sedimentation"
+                "Maximum",
+                "Minimum",
+                "Zero",
+                "Input"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "chem_4",
+            "type": "content",
+            "title": "Unit Operations",
+            "content": "# Unit Operations\n\n## Definition:\nBasic steps in chemical processing.\n\n## Categories:\n\n| Category | Examples |\n|----------|----------|\n| Fluid flow | Pumping, piping |\n| Heat transfer | Exchangers, boilers |\n| Mass transfer | Distillation, absorption |\n| Reactions | Reactors |\n| Mechanical | Mixing, size reduction |\n\n## Process Flow Diagram (PFD):\n- Shows major equipment\n- Stream flows\n- Operating conditions"
+        },
+        {
+            "id": "chem_5",
+            "type": "content",
+            "title": "Reaction Kinetics",
+            "content": "# Reaction Kinetics\n\n## Reaction Rate:\n```\nr_A = -dC_A/dt\n```\nRate of disappearance of reactant A.\n\n## Rate Law:\n```\nr = k x [A]^n x [B]^m\n```\n- k = rate constant\n- n, m = reaction orders\n\n## Temperature Effect:\nArrhenius equation:\n```\nk = A x e^(-Ea/RT)\n```\n- A = pre-exponential factor\n- Ea = activation energy\n- R = gas constant\n- T = temperature (K)"
+        },
+        {
             "id": "chem_6",
             "type": "content",
-            "title": "Thermodynamics in ChemE",
-            "content": "# Energy Balance ⚖️\n\n- How much energy does the reaction release (Exothermic)?\n- How much energy must we add (Endothermic)?\n- Optimizing energy use saves millions."
-        },
-        {
-            "id": "chem_7",
-            "type": "content",
-            "title": "Fluid Dynamics",
-            "content": "# Pumps and Pipes 🚿\n\nMoving goo around.\n- **Viscosity**: Thickness (Honey vs Water).\n- **Reynolds Number**: Turbulent (messy) or Laminar (smooth) flow.\n- Sizing pumps correctly."
-        },
-        {
-            "id": "chem_8",
-            "type": "content",
-            "title": "Catalysts",
-            "content": "# Speed Boost 🚀\n\nSubstance that speeds up reaction without being consumed.\n- Industrial gold.\n- Makes processes cheaper and faster.\n- Example: Catalytic converter in cars."
-        },
-        {
-            "id": "chem_9",
-            "type": "content",
-            "title": "Polymer Engineering",
-            "content": "# Plastics 🧴\n\nCreating long chains of molecules.\n- **Thermoplastics**: Melt & reshape (PET bottles).\n- **Thermosets**: Burn if heated (Tires).\n- Tailoring properties (hard, soft, stretchy)."
-        },
-        {
-            "id": "chem_10",
-            "type": "content",
-            "title": "Process Control",
-            "content": "# Automation 🎛️\n\nUsing sensors and computers to keep the plant safe.\n- Maintaining Pressure, Temp, Flow.\n- Alarms and emergency shutdowns."
-        },
-        {
-            "id": "chem_11",
-            "type": "content",
-            "title": "Safety (HAZOP)",
-            "content": "# Safety First 🦺\n\n- **HAZOP**: Hazard and Operability Study.\n- \"What if this valve fails?\" \"What if power cuts?\"\n- Chemical plants have layers of protection."
-        },
-        {
-            "id": "chem_12",
-            "type": "content",
-            "title": "Separation Processes",
-            "content": "# Pure Product 💎\n\nWe usually make a mess, then clean it up.\n- **Crystallization**: Making sugar/salt.\n- **Chromatography**: Precision separation (Medicines).\n- **Membranes**: Reverse Osmosis (Desalination)."
+            "title": "Reactor Types",
+            "content": "# Reactor Types\n\n## Batch Reactor:\n- Load, react, unload\n- Good for small quantities\n- Flexible\n\n## Continuous Stirred Tank (CSTR):\n- Continuous operation\n- Well-mixed\n- Uniform composition\n\n## Plug Flow Reactor (PFR):\n- Tubular\n- No mixing in flow direction\n- Concentration varies along length\n\n## Comparison:\n\n| Factor | Batch | CSTR | PFR |\n|--------|-------|------|-----|\n| Mixing | Good | Perfect | None (axial) |\n| Scale | Small | Large | Large |\n| Conversion | Varies with time | Uniform | Varies with position |"
         },
         {
             "id": "chem_quiz_2",
             "type": "quiz",
-            "title": "Reaction Quiz",
-            "content": "Type check.",
-            "quizQuestion": "What do we call a reaction that releases heat energy?",
+            "title": "Reactors Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A CSTR reactor has:",
             "quizOptions": [
-                "Endothermic",
-                "Exothermic",
-                "Hypothermic",
-                "Isothermic"
+                "Varying composition",
+                "Uniform composition",
+                "No mixing",
+                "Batch operation"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "chem_7",
+            "type": "content",
+            "title": "Distillation",
+            "content": "# Distillation\n\n## Principle:\nSeparation based on boiling point difference.\n\n## Components:\n- Column (trays or packing)\n- Reboiler (provides heat)\n- Condenser (cools overhead)\n- Reflux drum\n\n## Key Terms:\n- Volatility: Tendency to vaporize\n- Relative volatility: alpha = K_A / K_B\n- Reflux ratio: L/D\n\n## Design:\n- McCabe-Thiele method\n- Number of theoretical stages\n- Column diameter and height"
+        },
+        {
+            "id": "chem_8",
+            "type": "content",
+            "title": "Other Separations",
+            "content": "# Other Separation Processes\n\n| Method | Principle | Application |\n|--------|-----------|-------------|\n| Absorption | Gas dissolves in liquid | Remove CO2 |\n| Adsorption | Molecules stick to surface | Purification |\n| Extraction | Solute transfers to solvent | Pharmaceuticals |\n| Filtration | Particle size | Solids removal |\n| Crystallization | Solubility limit | Purification |\n| Membrane | Selective permeation | Desalination |\n\n## Selection Factors:\n- Separation difficulty\n- Throughput\n- Energy requirements\n- Cost"
+        },
+        {
+            "id": "chem_9",
+            "type": "content",
+            "title": "Heat Exchangers",
+            "content": "# Heat Exchangers\n\n## Types:\n\n| Type | Description |\n|------|------------|\n| Shell and tube | Most common industrial |\n| Plate | Compact, high efficiency |\n| Double pipe | Simple, small scale |\n| Finned tube | Air cooling |\n\n## Heat Transfer:\n```\nQ = U x A x delta_T_lm\n```\n- U = overall heat transfer coefficient\n- A = heat transfer area\n- delta_T_lm = log mean temperature difference\n\n## Flow Arrangements:\n- Countercurrent (most efficient)\n- Co-current\n- Crossflow"
+        },
+        {
+            "id": "chem_10",
+            "type": "content",
+            "title": "Fluid Mechanics",
+            "content": "# Fluid Mechanics for ChemE\n\n## Key Equations:\n\nBernoulli:\n```\nP1/rho + v1^2/2 + gz1 = P2/rho + v2^2/2 + gz2 + losses\n```\n\n## Pressure Drop:\n- Friction in pipes\n- Darcy-Weisbach equation\n- Fittings and valves\n\n## Pumps:\n- Centrifugal (most common)\n- Positive displacement\n- Sizing: Flow rate and head\n\n## Compressors:\n- For gases\n- Centrifugal, reciprocating, rotary"
+        },
+        {
+            "id": "chem_quiz_3",
+            "type": "quiz",
+            "title": "Separations Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Distillation separates based on:",
+            "quizOptions": [
+                "Particle size",
+                "Boiling point",
+                "Color",
+                "Density only"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_11",
+            "type": "content",
+            "title": "Process Control",
+            "content": "# Process Control\n\n## Why Control:\n- Safety\n- Product quality\n- Environmental compliance\n- Economic operation\n\n## Control Loop:\n1. Measure process variable\n2. Compare to setpoint\n3. Calculate error\n4. Adjust manipulated variable\n\n## Controllers:\n- PID (Proportional, Integral, Derivative)\n- Most common in industry\n\n## Instrumentation:\n- Sensors (temperature, pressure, flow, level)\n- Transmitters\n- Control valves"
+        },
+        {
+            "id": "chem_12",
+            "type": "content",
+            "title": "Safety and Environment",
+            "content": "# Process Safety and Environment\n\n## Hazards:\n- Fire and explosion\n- Toxic release\n- Runaway reactions\n- Equipment failure\n\n## Safety Systems:\n- Relief valves\n- Rupture disks\n- Safety interlocks\n- Emergency shutdown\n\n## Risk Analysis:\n- HAZOP\n- Fault tree\n- LOPA\n\n## Environmental:\n- Emissions control\n- Wastewater treatment\n- Waste minimization\n- Green chemistry principles"
+        },
+        {
             "id": "chem_13",
             "type": "content",
-            "title": "Biochemical Engineering",
-            "content": "# Bio-Factories 🦠\n\nUsing living cells (yeast/bacteria) to make products.\n- **Fermentation**: Beer, Yogurt.\n- **Insulin**: Made by modified bacteria.\n- Growing meat in labs."
-        },
-        {
-            "id": "chem_14",
-            "type": "content",
-            "title": "Petrochemicals",
-            "content": "# Oil Legacy 🛢️\n\nRefining crude oil.\n- Fractionating column separates Diesel, Petrol, Jet Fuel.\n- Basis for almost all modern plastics."
-        },
-        {
-            "id": "chem_15",
-            "type": "content",
-            "title": "Food Engineering",
-            "content": "# Tasty Tech 🍫\n\n- Pasteurization (Safe milk).\n- Freeze drying.\n- Flavor encapsulation.\n- Shelf life extension."
-        },
-        {
-            "id": "chem_16",
-            "type": "content",
-            "title": "Green Engineering",
-            "content": "# Clean Up ♻️\n\n- Designing processes with less waste.\n- Using renewable feedstocks (Bio-plastics).\n- Carbon Capture."
-        },
-        {
-            "id": "chem_17",
-            "type": "content",
-            "title": "Chem Eng Summary",
-            "content": "# Recap 📝\n\n- **Reactors** make it.\n- **Separators** clean it.\n- **Scale** makes it cheap.\n- Everything you touch (Phone case, Shirt, Shampoo) passed through a ChemE."
+            "title": "Summary",
+            "content": "# Chemical Engineering Summary\n\n## Balances:\n- Mass: Input = Output + Accumulation\n- Energy: First law of thermodynamics\n\n## Reactions:\n- Rate law: r = k[A]^n\n- Arrhenius: k = A*e^(-Ea/RT)\n- Reactor types: Batch, CSTR, PFR\n\n## Separations:\n| Method | Based On |\n|--------|----------|\n| Distillation | Boiling point |\n| Extraction | Solubility |\n| Membrane | Size/charge |\n\n## Unit Operations:\n- Heat exchangers\n- Pumps and compressors\n- Process control\n\n> **Congratulations!** You've completed Chemical Engineering!"
         }
     ]
 }

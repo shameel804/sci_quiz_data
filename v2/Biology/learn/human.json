@@ -2,138 +2,110 @@
     "id": "learn_human",
     "topicId": "human",
     "topicTitle": "Human Physiology",
-    "description": "A tour of the miraculous machine that is your body.",
-    "baseKP": 100,
+    "description": "Explore the major organ systems, homeostasis, and how the human body functions",
+    "baseKP": 75,
     "slides": [
         {
             "id": "human_1",
             "type": "content",
-            "title": "Organization of Body",
-            "content": "# Hierarchy 🪜\n\n1. **Cells** (Neuron)\n2. **Tissues** (Nerve tissue)\n3. **Organs** (Brain)\n4. **Organ Systems** (Nervous System)\n5. **Organism** (You!)\n\nHomeostasis: Keeping internal conditions stable (Temp, pH, Sugar) despite outside changes."
+            "title": "Welcome to Human Physiology",
+            "content": "# Introduction to Human Physiology\n\nWelcome to **Human Physiology** - how your body works!\n\n## What You Will Learn:\n- **Organ Systems** - Body systems working together\n- **Homeostasis** - Maintaining balance\n- **Nervous System** - Control and communication\n- **Circulatory System** - Transport network\n- **Respiratory System** - Gas exchange\n\n> **Fun Fact:** Your body has about 78 organs and 11 organ systems!\n\n## Levels of Organization:\n1. Cells -> Tissues -> Organs -> Organ Systems -> Organism\n\n## Major Organ Systems:\n\n| System | Main Function |\n|--------|---------------|\n| Nervous | Control, communication |\n| Circulatory | Transport |\n| Respiratory | Gas exchange |\n| Digestive | Nutrient processing |\n| Immune | Defense |\n| Endocrine | Hormones |\n| Muscular | Movement |\n| Skeletal | Support, protection |"
         },
         {
             "id": "human_2",
             "type": "content",
-            "title": "Digestive System",
-            "content": "# Fuel Processing 🍔\n\n- **Mouth**: Mechanical chew + Enzyme (Amylase).\n- **Stomach**: Acid bath (HCL) + Pepsin.\n- **Small Intestine**: Nutrient absorption (Villi).\n- **Large Intestine**: Water absorption.\n- **Liver/Pancreas**: Chemical factories assisting digestion."
+            "title": "Homeostasis",
+            "content": "# Homeostasis\n\n**Homeostasis:** Maintaining stable internal conditions\n\n## Key Variables Regulated:\n- Temperature (37 C / 98.6 F)\n- Blood glucose (70-110 mg/dL)\n- Blood pH (7.35-7.45)\n- Water/salt balance\n- Blood pressure\n\n## Feedback Loops:\n\n### Negative Feedback:\n- Response opposes change\n- Maintains set point\n- Most common\n\n**Example - Temperature:**\n1. Temperature rises\n2. Sensors detect change\n3. Brain signals response\n4. Sweating, vasodilation\n5. Temperature decreases\n\n### Positive Feedback:\n- Response amplifies change\n- Rare, specific situations\n\n**Examples:**\n- Childbirth contractions\n- Blood clotting\n- Lactation\n\n## Components:\n\n| Component | Function |\n|-----------|----------|\n| Receptor | Detects change |\n| Control center | Processes information |\n| Effector | Makes response |"
         },
         {
             "id": "human_3",
             "type": "content",
-            "title": "Circulatory System",
-            "content": "# The Transport Network ❤️\n\n- **Heart**: 4-chambered pump.\n- **Arteries**: Carry Oxygenated blood AWAY.\n- **Veins**: Carry Deoxygenated blood TOWARD.\n- **Capillaries**: Tiny exchange points for gases/nutrients."
-        },
-        {
-            "id": "human_4",
-            "type": "content",
-            "title": "Respiratory System",
-            "content": "# Gas Exchange 🫁\n\nGoal: Get $O_2$ In, $CO_2$ Out.\n- **Alveoli**: Tiny air sacs in lungs where exchange happens.\n- **Diaphragm**: Muscle that pulls air in (negative pressure)."
+            "title": "Nervous System",
+            "content": "# Nervous System\n\n## Divisions:\n\n**Central Nervous System (CNS):**\n- Brain and spinal cord\n- Processing center\n\n**Peripheral Nervous System (PNS):**\n- Nerves throughout body\n- Carries signals to/from CNS\n\n## Neurons:\n\n**Structure:**\n- Dendrites: Receive signals\n- Cell body: Contains nucleus\n- Axon: Transmits signal\n- Synaptic terminals: Release neurotransmitters\n\n## Signal Transmission:\n\n**Action Potential:**\n1. Resting potential (-70 mV)\n2. Stimulus opens Na+ channels\n3. Depolarization (Na+ rushes in)\n4. Repolarization (K+ rushes out)\n5. Signal travels down axon\n\n**Synapse:**\n1. Action potential arrives\n2. Neurotransmitters released\n3. Bind to receptors on next neuron\n4. New signal generated\n\n## Brain Regions:\n\n| Region | Function |\n|--------|----------|\n| Cerebrum | Thinking, senses |\n| Cerebellum | Coordination |\n| Brainstem | Vital functions |\n| Hypothalamus | Homeostasis |"
         },
         {
             "id": "human_quiz_1",
             "type": "quiz",
-            "title": "Systems Quiz",
-            "content": "Check connections.",
-            "quizQuestion": "Where does oxygen enter the blood stream?",
+            "title": "Nervous System Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The resting potential of a neuron is approximately:",
             "quizOptions": [
-                "Heart",
-                "Stomach",
-                "Alveoli",
-                "Kidney"
+                "+70 mV",
+                "-70 mV",
+                "0 mV",
+                "+30 mV"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "human_4",
+            "type": "content",
+            "title": "Circulatory System",
+            "content": "# Circulatory System\n\n## Components:\n- Heart (pump)\n- Blood vessels (transport)\n- Blood (medium)\n\n## The Heart:\n- Four chambers: 2 atria, 2 ventricles\n- Right side: deoxygenated blood to lungs\n- Left side: oxygenated blood to body\n\n## Blood Flow Path:\n```\nBody -> Right atrium -> Right ventricle\n-> Lungs -> Left atrium -> Left ventricle\n-> Body\n```\n\n## Blood Vessels:\n\n| Type | Function | Features |\n|------|----------|----------|\n| Arteries | Away from heart | Thick walls, elastic |\n| Veins | To heart | Valves, thin walls |\n| Capillaries | Exchange | Thin, one cell thick |\n\n## Blood Composition:\n\n| Component | Function |\n|-----------|----------|\n| Red blood cells | Carry O2 |\n| White blood cells | Immune defense |\n| Platelets | Clotting |\n| Plasma | Transport medium |\n\n## Blood Pressure:\n- Systolic: Heart contracting (120 mmHg normal)\n- Diastolic: Heart relaxing (80 mmHg normal)\n- Hypertension: High blood pressure (>140/90)"
         },
         {
             "id": "human_5",
             "type": "content",
-            "title": "Nervous System 1",
-            "content": "# The Control Center 🧠\n\n**CNS (Central)**: Brain + Spinal Cord.\n**PNS (Peripheral)**: Nerves to body.\n\n- **Neuron**: The messenger cell.\n- **Synapse**: Gap between neurons where chemicals (Neurotransmitters) jump."
+            "title": "Respiratory System",
+            "content": "# Respiratory System\n\n## Function:\n- Gas exchange (O2 in, CO2 out)\n- pH regulation\n- Voice production\n\n## Pathway:\n```\nNose/Mouth -> Pharynx -> Larynx -> Trachea\n-> Bronchi -> Bronchioles -> Alveoli\n```\n\n## Alveoli:\n- Site of gas exchange\n- Thin walls (one cell)\n- Surrounded by capillaries\n- Large surface area (~70 m^2)\n\n## Gas Exchange:\n- Diffusion based on concentration gradients\n- O2: Alveoli -> Blood\n- CO2: Blood -> Alveoli\n\n## Breathing Mechanics:\n\n**Inhalation:**\n- Diaphragm contracts (flattens)\n- Ribcage expands\n- Lung volume increases\n- Pressure decreases, air flows in\n\n**Exhalation:**\n- Diaphragm relaxes\n- Ribcage contracts\n- Lung volume decreases\n- Pressure increases, air flows out\n\n## Oxygen Transport:\n- Hemoglobin in red blood cells\n- Each hemoglobin carries 4 O2\n- Oxyhemoglobin (with O2)\n- Deoxyhemoglobin (without O2)"
         },
         {
             "id": "human_6",
             "type": "content",
-            "title": "Nervous System 2",
-            "content": "# Fight or Flight 🐯\n\nAutonomic Nervous System (Automatic):\n- **Sympathetic**: \"Fight or Flight\" (High heart rate, pupils dilate).\n- **Parasympathetic**: \"Rest and Digest\" (Calm down, digestion on)."
-        },
-        {
-            "id": "human_7",
-            "type": "content",
-            "title": "Musculoskeletal System",
-            "content": "# Support and Move 💪\n\n- **Bones**: Structure, blood cell factory (Marrow).\n- **Muscles**: Only pull, never push.\n  - Skeletal (Voluntary)\n  - Smooth (Involuntary - guts)\n  - Cardiac (Heart)\n- **Tendons**: Muscle to Bone.\n- **Ligaments**: Bone to Bone."
-        },
-        {
-            "id": "human_8",
-            "type": "content",
-            "title": "Excretory System",
-            "content": "# Waste Removal 🚽\n\n**Kidneys**: Filter blood.\n- **Nephron**: Filtering unit.\n- Removes Urea, excess salts, water.\n- Produces Urine.\n\nCrucial for water balance and blood pressure."
-        },
-        {
-            "id": "human_9",
-            "type": "content",
-            "title": "Endocrine System",
-            "content": "# Chemical Messengers ✉️\n\n**Hormones**: Slow, long-lasting signals in blood.\n- **Pituitary**: Master gland (Growth).\n- **Thyroid**: Metabolism.\n- **Adrenal**: Adrenaline/Cortisol (Stress).\n- **Pancreas**: Insulin (Sugar)."
-        },
-        {
-            "id": "human_10",
-            "type": "content",
-            "title": "Immune System 1",
-            "content": "# Defense Force 🛡️\n\n- **Innate**: Barriers (Skin), Fever, Inflammation. (General).\n- **Adaptive**: Specialized hunters. (Specific)."
-        },
-        {
-            "id": "human_11",
-            "type": "content",
-            "title": "Immune System 2",
-            "content": "# Special Ops 🦠\n\n- **B-Cells**: Make **Antibodies** (Missiles that tag invaders).\n- **T-Cells**: Kill infected cells directly.\n- **Memory Cells**: Remember enemies for next time (Immunity)."
+            "title": "Digestive System",
+            "content": "# Digestive System\n\n## Function:\n- Break down food\n- Absorb nutrients\n- Eliminate waste\n\n## GI Tract:\n\n| Organ | Function |\n|-------|----------|\n| Mouth | Mechanical, begin starch digestion |\n| Esophagus | Transport |\n| Stomach | Protein digestion, acid |\n| Small intestine | Most digestion and absorption |\n| Large intestine | Water absorption, waste |\n\n## Accessory Organs:\n\n| Organ | Secretion |\n|-------|----------|\n| Salivary glands | Amylase |\n| Liver | Bile |\n| Pancreas | Enzymes, bicarbonate |\n| Gallbladder | Stores bile |\n\n## Enzymes:\n\n| Enzyme | Substrate | Product |\n|--------|-----------|--------|\n| Amylase | Starch | Maltose |\n| Pepsin | Proteins | Peptides |\n| Lipase | Fats | Fatty acids |\n| Trypsin | Proteins | Amino acids |\n\n## Small Intestine:\n- Villi increase surface area\n- Microvilli on cells\n- Nutrients absorbed into blood/lymph"
         },
         {
             "id": "human_quiz_2",
             "type": "quiz",
-            "title": "Defense Quiz",
-            "content": "Immunity check.",
-            "quizQuestion": "Which cells produce antibodies?",
+            "title": "Digestion Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Where does most nutrient absorption occur?",
             "quizOptions": [
-                "Red Blood Cells",
-                "T-Cells",
-                "B-Cells",
-                "Neurons"
+                "Stomach",
+                "Mouth",
+                "Small intestine",
+                "Large intestine"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "human_12",
+            "id": "human_7",
             "type": "content",
-            "title": "Reproductive System",
-            "content": "# Next Generation 👶\n\n- **Gametes**: Sperm (Testes) and Eggs (Ovaries).\n- **Fertilization**: Meet in Fallopian tube forms Zygote.\n- Hormones (Testosterone, Estrogen) drive changes."
+            "title": "Immune System",
+            "content": "# Immune System\n\n## Lines of Defense:\n\n### 1st Line: Physical Barriers\n- Skin\n- Mucous membranes\n- Stomach acid\n\n### 2nd Line: Innate Immunity\n- Non-specific\n- Phagocytes (macrophages, neutrophils)\n- Inflammation\n- Fever\n\n### 3rd Line: Adaptive Immunity\n- Specific to pathogen\n- Memory\n- B cells and T cells\n\n## Lymphocytes:\n\n**B Cells:**\n- Make antibodies\n- Humoral immunity\n\n**T Cells:**\n- Helper T cells (coordinate response)\n- Cytotoxic T cells (kill infected cells)\n- Cell-mediated immunity\n\n## Antibodies:\n- Y-shaped proteins\n- Specific to antigens\n- Neutralize, mark for destruction\n\n## Immunity Types:\n\n| Type | Source | Example |\n|------|--------|--------|\n| Active natural | Infection | Getting sick |\n| Active artificial | Vaccine | Immunization |\n| Passive natural | Mother | Breast milk |\n| Passive artificial | Injection | Antivenom |"
         },
         {
-            "id": "human_13",
+            "id": "human_8",
             "type": "content",
-            "title": "Integumentary System",
-            "content": "# The Wrapper 🧴\n\n**Skin**: Largest organ.\n- Protection against pathogens/UV.\n- Temperature regulation (Sweat).\n- Sensation (Touch)."
+            "title": "Endocrine System",
+            "content": "# Endocrine System\n\n## Function:\n- Hormone production\n- Long-term regulation\n- Works with nervous system\n\n## Major Glands:\n\n| Gland | Hormones | Functions |\n|-------|----------|----------|\n| Pituitary | Growth hormone, TSH | Master gland |\n| Thyroid | Thyroxine | Metabolism |\n| Adrenal | Adrenaline, cortisol | Stress response |\n| Pancreas | Insulin, glucagon | Blood sugar |\n| Gonads | Testosterone, estrogen | Reproduction |\n\n## Hormone Types:\n\n**Steroid hormones:**\n- Enter cell\n- Bind receptors in nucleus\n- Example: Testosterone, estrogen\n\n**Peptide hormones:**\n- Cannot enter cell\n- Bind membrane receptors\n- Second messenger system\n- Example: Insulin\n\n## Blood Sugar Regulation:\n\n**High glucose:**\n- Pancreas releases insulin\n- Cells take up glucose\n- Glucose stored as glycogen\n\n**Low glucose:**\n- Pancreas releases glucagon\n- Glycogen broken down\n- Glucose released"
         },
         {
-            "id": "human_14",
+            "id": "human_9",
             "type": "content",
-            "title": "Senses",
-            "content": "# Input Devices 👁️\n\n- **Vision**: Rods (Light) & Cones (Color) in Retina.\n- **Hearing**: Cochlea hairs vibrate.\n- **Smell/Taste**: Chemical receptors.\n- **Touch**: Pressure/Heat/Pain sensors."
+            "title": "Excretory System",
+            "content": "# Excretory System\n\n## Function:\n- Remove metabolic wastes\n- Regulate water/salt balance\n- Maintain blood pH\n\n## Kidneys:\n\n**Nephron structure:**\n- Glomerulus: Filtration\n- Proximal tubule: Reabsorption\n- Loop of Henle: Concentration\n- Distal tubule: Secretion\n- Collecting duct: Final concentration\n\n## Urine Formation:\n\n### 1. Filtration:\n- Blood filtered in glomerulus\n- Small molecules pass through\n- Cells and proteins stay\n\n### 2. Reabsorption:\n- Useful substances returned to blood\n- Glucose, amino acids, water, salts\n\n### 3. Secretion:\n- Additional wastes added to filtrate\n- H+, K+, drugs\n\n## Regulation:\n\n**ADH (Antidiuretic hormone):**\n- Increases water reabsorption\n- Concentrated urine when dehydrated\n\n**Aldosterone:**\n- Increases Na+ reabsorption\n- Water follows Na+"
         },
         {
-            "id": "human_15",
-            "type": "content",
-            "title": "Energy Metabolism",
-            "content": "# Burning Calories 🔥\n\n- **BMR (Basal Metabolic Rate)**: Energy to exist at rest.\n- **ATP**: The energy currency.\n- Excess energy stored as Glycogen (short term) or Fat (long term)."
+            "id": "human_quiz_3",
+            "type": "quiz",
+            "title": "Systems Quiz",
+            "content": "Final quiz!",
+            "quizQuestion": "Which hormone increases water reabsorption in the kidneys?",
+            "quizOptions": [
+                "Insulin",
+                "ADH",
+                "Glucagon",
+                "Thyroxine"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "human_16",
+            "id": "human_10",
             "type": "content",
-            "title": "Homeostasis Examples",
-            "content": "# Balance Beam 🧘\n\n- **Too Hot**: Sweat, blood vessels widen (Vasodilation).\n- **Too Cold**: Shiver, vessels shrink (Vasoconstriction).\n- **High Sugar**: Insulin stores it.\n- **Low Sugar**: Glucagon releases it."
-        },
-        {
-            "id": "human_17",
-            "type": "content",
-            "title": "Physiology Summary",
-            "content": "# Recap 📝\n\n- 11 Organ Systems work in harmony.\n- **Homeostasis** is the goal.\n- **Communication** happens via Nerves (Fast) and Hormones (Slow).\n- **Defense** keeps invaders out.\n\nYour body is the most complex machine in the known universe!"
+            "title": "Summary",
+            "content": "# Human Physiology Summary\n\n## Homeostasis:\n- Maintaining stable internal conditions\n- Negative feedback (most common)\n- Set points for temperature, pH, glucose\n\n## Major Systems:\n\n| System | Key Function |\n|--------|-------------|\n| Nervous | Rapid communication |\n| Circulatory | Transport |\n| Respiratory | Gas exchange |\n| Digestive | Nutrient processing |\n| Immune | Defense |\n| Endocrine | Hormone regulation |\n| Excretory | Waste removal |\n\n## Key Comparisons:\n\n| Nervous | Endocrine |\n|---------|----------|\n| Fast | Slow |\n| Electrical | Chemical |\n| Short-term | Long-term |\n\n## Blood Glucose:\n- Insulin: decreases glucose\n- Glucagon: increases glucose\n\n> **Congratulations!** You've completed Human Physiology!"
         }
     ]
 }

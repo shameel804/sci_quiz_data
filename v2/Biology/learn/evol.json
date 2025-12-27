@@ -2,138 +2,84 @@
     "id": "learn_evol",
     "topicId": "evol",
     "topicTitle": "Evolution",
-    "description": "Discover the mechanism of life's diversity and adaptation.",
-    "baseKP": 100,
+    "description": "Explore natural selection, speciation, evidence for evolution, and the history of life on Earth",
+    "baseKP": 75,
     "slides": [
         {
             "id": "evol_1",
             "type": "content",
-            "title": "What is Evolution?",
-            "content": "# Change Over Time 🐢\n\nBiological evolution is the change in the characteristics of a species over several generations and relies on the process of natural selection.\n\nIt explains biodiversity and adaptation."
+            "title": "Welcome to Evolution",
+            "content": "# Introduction to Evolution\n\nWelcome to **Evolution** - the unifying theory of biology!\n\n## What You Will Learn:\n- **Natural Selection** - Mechanism of evolution\n- **Evidence for Evolution** - Fossils, DNA, anatomy\n- **Speciation** - How new species form\n- **History of Life** - Timeline of Earth's life\n\n> **Fun Fact:** All life on Earth shares a common ancestor!\n\n## What is Evolution?\n- Change in allele frequencies over generations\n- Descent with modification\n- Explains diversity of life\n\n## Key Figures:\n- **Charles Darwin:** Natural selection theory\n- **Alfred Wallace:** Independently discovered natural selection\n- **Jean-Baptiste Lamarck:** Early evolution ideas (incorrect mechanism)"
         },
         {
             "id": "evol_2",
             "type": "content",
-            "title": "Charles Darwin",
-            "content": "# The Voyage of the Beagle ⛵\n\nDarwin visited the Galapagos Islands.\nHe noticed finches had different beaks perfectly suited for their specific food source (seeds, insects, cactus).\n\nPublished *On the Origin of Species* in 1859."
+            "title": "Natural Selection",
+            "content": "# Natural Selection\n\n**Darwin's Key Observations:**\n\n1. **Variation:** Individuals differ in traits\n2. **Inheritance:** Traits passed to offspring\n3. **Overproduction:** More offspring than survive\n4. **Differential survival:** Best adapted survive more\n\n## The Process:\n\n1. Variation exists in population\n2. Some variants better suited to environment\n3. Better-adapted individuals survive and reproduce more\n4. Favorable traits become more common\n5. Over time, population changes\n\n## Types of Selection:\n\n| Type | Effect | Example |\n|------|--------|--------|\n| Stabilizing | Reduces variation, favors average | Birth weight |\n| Directional | Shifts toward one extreme | Giraffe necks |\n| Disruptive | Favors both extremes | Beak sizes |\n\n## Fitness:\n- Reproductive success\n- Passing genes to next generation\n- Not about strength or speed\n\n## Adaptation:\n- Inherited trait that increases survival/reproduction\n- Result of natural selection\n- Matches organism to environment"
         },
         {
             "id": "evol_3",
             "type": "content",
-            "title": "Natural Selection 1",
-            "content": "# Survival of the Fittest 🦁\n\nFour Principles:\n1. **Variation**: Individuals differ (size, color).\n2. **Heritability**: Traits are passed to offspring.\n3. **Overproduction**: More born than can survive.\n4. **Reproductive Advantage**: Better traits = More babies."
-        },
-        {
-            "id": "evol_4",
-            "type": "content",
-            "title": "Natural Selection 2",
-            "content": "# Not Just Strongest 💪\n\n\"Fittest\" means best adapted to the **current environment**.\n\nExample: Peppered Moths.\n- Light trees $\\to$ Light moths lived.\n- Soot covered trees $\\to$ Dark moths lived.\nNature selected the color that hid them best."
+            "title": "Evidence for Evolution",
+            "content": "# Evidence for Evolution\n\n## 1. Fossil Record:\n- Shows change over time\n- Transitional forms (Archaeopteryx)\n- Relative dating by layers\n\n## 2. Comparative Anatomy:\n\n**Homologous Structures:**\n- Same structure, different function\n- Common ancestor\n- Example: Arm bones in mammals, birds, whales\n\n**Analogous Structures:**\n- Different structure, same function\n- Convergent evolution\n- Example: Wings of birds and insects\n\n**Vestigial Structures:**\n- Reduced, non-functional structures\n- Example: Human appendix, whale hip bones\n\n## 3. Comparative Embryology:\n- Similar embryonic development\n- Suggests common ancestry\n- Example: All vertebrate embryos have gill slits, tails\n\n## 4. Molecular Evidence:\n- DNA similarities\n- More similar DNA = more closely related\n- Universal genetic code\n\n## 5. Biogeography:\n- Geographic distribution of species\n- Island species related to mainland\n- Example: Darwin's finches"
         },
         {
             "id": "evol_quiz_1",
             "type": "quiz",
-            "title": "Darwin Quiz",
-            "content": "Theory check.",
-            "quizQuestion": "Natural Selection is driven by:",
+            "title": "Evidence Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Homologous structures indicate:",
             "quizOptions": [
-                "Human choice",
-                "Random chance",
-                "Environmental pressure",
-                "Use and disuse"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "evol_5",
-            "type": "content",
-            "title": "Evidence: Fossils",
-            "content": "# Rock Records 🦖\n\nFossils show a progression from simple to complex life.\n- **Transitional Fossils**: Missing links (e.g., Archaeopteryx: Dinosaur $\\to$ Bird).\n- Radiometric dating tells us exactly how old they are."
-        },
-        {
-            "id": "evol_6",
-            "type": "content",
-            "title": "Evidence: Anatomy",
-            "content": "# Shared Parts 🦴\n\n- **Homologous Structures**: Same bone layout (Arm of human, wing of bat, flipper of whale) suggests common ancestor.\n- **Vestigial Structures**: Useless leftovers (Human appendix, Whale hip bones)."
-        },
-        {
-            "id": "evol_7",
-            "type": "content",
-            "title": "Evidence: Embryology",
-            "content": "# Growing Up 🥚\n\nEmbryos of different species look remarkably similar in early stages.\n- Humans have gill slits and tails in the womb!\n- Suggests shared evolutionary history."
-        },
-        {
-            "id": "evol_8",
-            "type": "content",
-            "title": "Evidence: Biochemistry",
-            "content": "# The Code 🧬\n\n- All life uses DNA and RNA.\n- The genetic code is universal.\n- DNA comparison detects exact relatedness (Humans and Chimps share ~98% DNA)."
-        },
-        {
-            "id": "evol_9",
-            "type": "content",
-            "title": "Mechanisms of Evolution",
-            "content": "# How it Happens ⚙️\n\nBesides Natural Selection:\n- **Mutation**: Creates new traits (Random).\n- **Gene Flow**: Migration introduces new genes.\n- **Genetic Drift**: Random chance events (Volcano kills half the island), affects small populations."
-        },
-        {
-            "id": "evol_10",
-            "type": "content",
-            "title": "Sexual Selection",
-            "content": "# Looking Good 🦚\n\nTraits that help find a mate, even if they hurt survival.\n- Peacock tail: Heavy and easy to spot by tigers, but ladies love it.\n- Indicates strong genes (&quot;I can survive despite this handicap&quot;)."
-        },
-        {
-            "id": "evol_11",
-            "type": "content",
-            "title": "Speciation",
-            "content": "# New Species 🦕\n\nWhen one population splits into two that can no longer breed together.\n- **Allopatric**: Physical barrier (mountains, oceans).\n- **Sympatric**: Behavioral difference (mating calls)."
-        },
-        {
-            "id": "evol_12",
-            "type": "content",
-            "title": "Coevolution",
-            "content": "# Arms Race ⚔️\n\nSpecies evolve in response to each other.\n- **Predator/Prey**: Faster cheetahs $\\to$ Faster gazelles.\n- **Flowers/Pollinators**: Deep flowers $\\to$ Long moth tongues."
-        },
-        {
-            "id": "evol_quiz_2",
-            "type": "quiz",
-            "title": "Mechanism Quiz",
-            "content": "Process check.",
-            "quizQuestion": "Which mechanism is pure luck/random chance?",
-            "quizOptions": [
-                "Natural Selection",
-                "Genetic Drift",
-                "Sexual Selection",
-                "Artificial Selection"
+                "Convergent evolution",
+                "Common ancestry",
+                "Same function",
+                "No relationship"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "evol_13",
+            "id": "evol_4",
             "type": "content",
-            "title": "Patterns of Evolution",
-            "content": "# Directions 🌳\n\n- **Divergent**: Common ancestor splits (Wolf $\\to$ Dog/Fox).\n- **Convergent**: Unrelated species develop similar traits (Shark/Dolphin/Penguin all have stream-lined bodies for water)."
+            "title": "Mechanisms of Evolution",
+            "content": "# Mechanisms of Evolution\n\n## 1. Natural Selection:\n- Non-random\n- Favors adaptations\n- Most important mechanism\n\n## 2. Genetic Drift:\n- Random changes in allele frequencies\n- Stronger in small populations\n\n**Bottleneck Effect:**\n- Population drastically reduced\n- Lost genetic variation\n\n**Founder Effect:**\n- Small group colonizes new area\n- Different allele frequencies than parent population\n\n## 3. Gene Flow:\n- Movement of alleles between populations\n- Migration\n- Reduces differences between populations\n\n## 4. Mutation:\n- Ultimate source of variation\n- Random\n- Provides raw material for selection\n\n## 5. Non-random Mating:\n- Sexual selection\n- Mate choice\n- Example: Peacock tails\n\n## Hardy-Weinberg Equilibrium:\n- No evolution occurring\n- Conditions: Large population, random mating, no mutation, no migration, no selection\n- Real populations rarely meet these"
         },
         {
-            "id": "evol_14",
+            "id": "evol_5",
             "type": "content",
-            "title": "Human Evolution",
-            "content": "# Our Story 🚶\n\nWe are Hominids (Great Apes).\n- Common ancestor with Chimps ~6-7 million years ago.\n- **Australopithecus**: \"Lucy\" (Bipedal).\n- **Homo habilis**: Tool users.\n- **Homo sapiens**: Big brains, language."
+            "title": "Speciation",
+            "content": "# Speciation\n\n**Species:** Group that can interbreed and produce fertile offspring\n\n## Types of Speciation:\n\n### Allopatric Speciation:\n- Geographic isolation\n- Physical barrier separates populations\n- Most common type\n\n**Process:**\n1. Population separated (river, mountain)\n2. Different environments, different selection\n3. Genetic differences accumulate\n4. Reproductive isolation develops\n5. New species formed\n\n### Sympatric Speciation:\n- Same geographic area\n- No physical barrier\n- Less common\n\n**Mechanisms:**\n- Polyploidy (plants)\n- Habitat differentiation\n- Sexual selection\n\n## Reproductive Isolation:\n\n### Prezygotic barriers:\n- Before fertilization\n- Temporal, behavioral, mechanical, gametic\n\n### Postzygotic barriers:\n- After fertilization\n- Hybrid inviability, sterility\n- Example: Mule (horse x donkey) is sterile\n\n## Tempo of Evolution:\n\n**Gradualism:** Slow, steady change\n**Punctuated Equilibrium:** Long stability, rapid change"
         },
         {
-            "id": "evol_15",
+            "id": "evol_6",
             "type": "content",
-            "title": "Antibiotic Resistance",
-            "content": "# Evolution in Action 💊\n\nBacteria evolve FAST.\n1. Take antibiotic.\n2. Kills 99%.\n3. The 1% resistant bacteria survive and multiply.\n4. Antibiotic no longer works.\n\nReal-time natural selection threatening modern medicine."
+            "title": "History of Life",
+            "content": "# History of Life on Earth\n\n## Timeline:\n\n| Era | Time (mya) | Key Events |\n|-----|------------|------------|\n| Precambrian | 4600-541 | Life begins, prokaryotes, O2 |\n| Paleozoic | 541-252 | Fish, amphibians, reptiles, land plants |\n| Mesozoic | 252-66 | Dinosaurs, first mammals, flowering plants |\n| Cenozoic | 66-present | Mammals diversify, humans |\n\n## Major Events:\n\n**Origin of Life (~3.8 bya):**\n- Organic molecules from simple chemicals\n- RNA world hypothesis\n- First cells (prokaryotes)\n\n**Great Oxygenation Event (~2.4 bya):**\n- Cyanobacteria produce O2\n- Atmosphere changes\n- Allows aerobic life\n\n**Cambrian Explosion (~541 mya):**\n- Rapid diversification of animals\n- Most major phyla appear\n\n**Mass Extinctions:**\n\n| Extinction | When | Cause |\n|------------|------|-------|\n| Permian | 252 mya | Volcanoes (96% species) |\n| K-T | 66 mya | Asteroid (dinosaurs) |\n\n## Human Evolution:\n- Primates: ~65 mya\n- Hominids: ~7 mya\n- Homo sapiens: ~300,000 years"
         },
         {
-            "id": "evol_16",
-            "type": "content",
-            "title": "Origin of Life",
-            "content": "# Abiogenesis 🧪\n\nLife from non-life.\n- **Miller-Urey Experiment**: Simulated early Earth $\\to$ Created Amino Acids (building blocks of life).\n- First life was likely simple RNA molecules."
+            "id": "evol_quiz_2",
+            "type": "quiz",
+            "title": "Speciation Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Allopatric speciation requires:",
+            "quizOptions": [
+                "Genetic mutations",
+                "Geographic isolation",
+                "Sexual selection",
+                "Symbiosis"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "evol_17",
+            "id": "evol_7",
             "type": "content",
-            "title": "Evolution Summary",
-            "content": "# Recap 📝\n\n- **Variation + Selection = Adaptation**.\n- Evidence is everywhere: Rocks, Bodies, DNA.\n- We share a common ancestor with all life on Earth.\n- Evolution is ongoing right now!"
+            "title": "Phylogenetics",
+            "content": "# Phylogenetics\n\n## Phylogenetic Trees:\n- Show evolutionary relationships\n- Branch points = common ancestors\n- Tip = living species\n\n## Cladistics:\n- Classify by shared derived characters\n- Group organisms by common ancestry\n\n**Terms:**\n- **Clade:** Group sharing common ancestor\n- **Synapomorphy:** Shared derived trait\n- **Outgroup:** Reference group outside clade\n\n## Domains of Life:\n\n| Domain | Characteristics |\n|--------|----------------|\n| Bacteria | Prokaryotic, no nucleus |\n| Archaea | Prokaryotic, extreme environments |\n| Eukarya | Eukaryotic, nucleus |\n\n## Kingdoms (Eukarya):\n- Protista\n- Fungi\n- Plantae\n- Animalia\n\n## Molecular Phylogeny:\n- Compare DNA/protein sequences\n- More differences = more time since divergence\n- Molecular clock: mutation rate over time"
+        },
+        {
+            "id": "evol_8",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Evolution Summary\n\n## Natural Selection:\n1. Variation exists\n2. Variation is heritable\n3. More offspring than survive\n4. Best adapted survive more\n5. Population changes over time\n\n## Evidence:\n- Fossils\n- Homologous structures\n- Embryology\n- DNA similarities\n- Biogeography\n\n## Mechanisms:\n| Mechanism | Effect |\n|-----------|--------|\n| Natural selection | Adaptive change |\n| Genetic drift | Random change |\n| Gene flow | Reduces differences |\n| Mutation | Provides variation |\n\n## Speciation:\n- Allopatric: Geographic isolation\n- Sympatric: Same location\n- Requires reproductive isolation\n\n## History:\n- Life: ~3.8 billion years old\n- Major transitions: O2, multicellular, land\n- Mass extinctions reset biodiversity\n\n> **Congratulations!** You've completed Evolution!"
         }
     ]
 }

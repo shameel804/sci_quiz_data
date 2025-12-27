@@ -2,138 +2,52 @@
     "id": "learn_conserv",
     "topicId": "conserv",
     "topicTitle": "Conservation",
-    "description": "Saving nature.",
-    "baseKP": 100,
+    "description": "Explore biodiversity protection, habitat preservation, and conservation strategies",
+    "baseKP": 75,
     "slides": [
         {
             "id": "conserv_1",
             "type": "content",
-            "title": "What is Conservation?",
-            "content": "# Protection 🛡️\n\nThe preservation and careful management of the environment and natural resources.\n- Goal: Prevent extinction and maintain biodiversity."
+            "title": "Welcome to Conservation",
+            "content": "# Introduction to Conservation\n\nWelcome to **Conservation** - protecting biodiversity!\n\n## What You Will Learn:\n- **Biodiversity** - Why it matters\n- **Threats** - What endangers species\n- **Strategies** - Protection methods\n- **Success Stories** - Conservation wins\n\n> **Fun Fact:** We're losing species 1000x faster than natural rates!"
         },
         {
             "id": "conserv_2",
             "type": "content",
-            "title": "Extinction Crisis",
-            "content": "# The Sixth Extinction 🦕\n\nSpecies are dying out 1000x faster than normal background rate.\n- Cause: Humans (Habitat loss, Hunting, Climate Change, Pollution).\n- We are the asteroid."
+            "title": "Biodiversity",
+            "content": "# Biodiversity\n\n## Levels:\n- Genetic diversity\n- Species diversity\n- Ecosystem diversity\n\n## Importance:\n- Ecosystem services\n- Food security\n- Medicine sources\n- Climate regulation\n- Aesthetic value\n\n## Hotspots:\n- High species richness\n- High threat level\n- Examples: Amazon, Madagascar, Coral Triangle\n\n## Numbers:\n- ~8.7 million species estimated\n- ~2 million described\n- Many still undiscovered"
         },
         {
             "id": "conserv_3",
             "type": "content",
-            "title": "Protected Areas",
-            "content": "# Safe Zones 🏞️\n\nNational Parks, Marine Reserves.\n- Land set aside where nature comes first.\n- **Yellowstone**: World's first National Park (1872).\n- Goal: Protect 30% of Earth by 2030 (30x30)."
-        },
-        {
-            "id": "conserv_4",
-            "type": "content",
-            "title": "Endangered Species",
-            "content": "# Red List 📕\n\nIUCN Classification:\n- **Least Concern** (Pigeons).\n- **Vulnerable** (Lion).\n- **Endangered** (Tiger).\n- **Critically Endangered** (Rhino).\n- **Extinct in Wild**.\n- **Extinct** (Dodo)."
-        },
-        {
-            "id": "conserv_5",
-            "type": "content",
-            "title": "Habitat Fragmentation",
-            "content": "# Broken Homes 🧩\n\nRoads/Farms cutting up wild areas.\n- Animals can't find mates or food.\n- Solution: **Wildlife Corridors** (Bridges over highways)."
+            "title": "Threats",
+            "content": "# Threats to Biodiversity\n\n## HIPPO:\n\n| Threat | Description |\n|--------|------------|\n| Habitat loss | Deforestation, development |\n| Invasive species | Non-native competitors |\n| Pollution | Contamination |\n| Population growth | Resource demand |\n| Overexploitation | Hunting, fishing |\n\n## Additional:\n- Climate change\n- Disease\n\n## Endangered Species:\n- IUCN Red List\n- Categories: Vulnerable -> Endangered -> Critically Endangered -> Extinct"
         },
         {
             "id": "conserv_quiz_1",
             "type": "quiz",
-            "title": "Status Quiz",
-            "content": "List check.",
-            "quizQuestion": "Which organization manages the 'Red List' of threatened species?",
+            "title": "Conservation Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The biggest threat to biodiversity is:",
             "quizOptions": [
-                "NASA",
-                "IUCN",
-                "WHO",
-                "FIFA"
+                "Pollution",
+                "Habitat loss",
+                "Climate change",
+                "Invasive species"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "conserv_6",
+            "id": "conserv_4",
             "type": "content",
-            "title": "Invasive Species Control",
-            "content": "# Weeding 🌿\n\nRemoving non-natives.\n- Pulling weeds.\n- Hunting destructive animals (Rats on islands).\n- Biocontrol (Releasing a natural enemy - Risky!)."
+            "title": "Conservation Strategies",
+            "content": "# Conservation Strategies\n\n## Protected Areas:\n- National parks\n- Wildlife reserves\n- Marine protected areas\n- World Heritage Sites\n\n## Species-Based:\n- Captive breeding\n- Reintroduction\n- Ex-situ conservation (zoos)\n- Genetic banking\n\n## Ecosystem-Based:\n- Habitat restoration\n- Wildlife corridors\n- Sustainable management\n\n## Community:\n- Involvement of local people\n- Ecotourism\n- Sustainable livelihoods"
         },
         {
-            "id": "conserv_7",
+            "id": "conserv_5",
             "type": "content",
-            "title": "Ex Situ Conservation",
-            "content": "# Off Site 🦁\n\nSaving species outside their habitat.\n- **Zoos**: Breeding programs.\n- **Seed Banks**: Storing seeds in ice (Svalbard Doomsday Vault).\n- **Botanical Gardens**."
-        },
-        {
-            "id": "conserv_8",
-            "type": "content",
-            "title": "Restoration Ecology",
-            "content": "# Fixing It 🛠️\n\nRepairing damaged ecosystems.\n- Reforestation (Planting trees).\n- Wetland restoration.\n- Rewilding (Bringing back wolves to Yellowstone)."
-        },
-        {
-            "id": "conserv_9",
-            "type": "content",
-            "title": "Poaching",
-            "content": "# Illegal Hunting 🔫\n\nKilling for parts (Ivory, Rhino Horn).\n- Driven by black market demand.\n- Anti-poaching rangers protect animals."
-        },
-        {
-            "id": "conserv_10",
-            "type": "content",
-            "title": "Keystone Species",
-            "content": "# Arch Stone 🏛️\n\nSpecies that holds the ecosystem together.\n- **Beavers**: Build dams, create wetlands.\n- **Wolves**: Control deer, protect plants.\n- **Bees**: Pollinate everything."
-        },
-        {
-            "id": "conserv_11",
-            "type": "content",
-            "title": "Genetic Bottleneck",
-            "content": "# Inbreeding 🧬\n\nWhen population drops too low, genetic diversity is lost.\n- Makes population weak to disease.\n- Cheetahs are all almost clones."
-        },
-        {
-            "id": "conserv_quiz_2",
-            "type": "quiz",
-            "title": "Pillar Quiz",
-            "content": "Species check.",
-            "quizQuestion": "A species that has a disproportionately large effect on its environment is called a:",
-            "quizOptions": [
-                "Invasive Species",
-                "Keystone Species",
-                "Endangered Species",
-                "Flagship Species"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "conserv_12",
-            "type": "content",
-            "title": "The Ocean Cleanup",
-            "content": "# Plastic Soup 🥤\n\nRemoving plastic from the GPGP (Great Pacific Garbage Patch).\n- Difficult task.\n- Better to stop plastic at source (Rivers)."
-        },
-        {
-            "id": "conserv_13",
-            "type": "content",
-            "title": "Citizen Science",
-            "content": "# You Help 🤳\n\nNormal people helping science.\n- Counting birds in backyard.\n- Measuring water quality.\n- Apps like iNaturalist."
-        },
-        {
-            "id": "conserv_14",
-            "type": "content",
-            "title": "Ecotourism",
-            "content": "# Paying to See 📸\n\nMaking animals worth more alive than dead.\n- Money from safaris encourages locals to protect lions.\n- Must be managed to not disturb animals."
-        },
-        {
-            "id": "conserv_15",
-            "type": "content",
-            "title": "Flagship Species",
-            "content": "# The Poster Child 🐼\n\nCharismatic animals used to raise support.\n- Panda (WWF).\n- Tiger.\n- Saving them saves their habitat (Umbrella Effect)."
-        },
-        {
-            "id": "conserv_16",
-            "type": "content",
-            "title": "Indigenous Knowledge",
-            "content": "# Ancient Wisdom 🛖\n\nIndigenous people protect 80% of remaining biodiversity.\n- Working with them is essential for conservation."
-        },
-        {
-            "id": "conserv_17",
-            "type": "content",
-            "title": "Conservation Summary",
-            "content": "# Recap 📝\n\n- Biodiversity is our life support.\n- Habitat protection is key.\n- Restoration can heal the land.\n- Can we share the Earth?"
+            "title": "Summary",
+            "content": "# Conservation Summary\n\n## Biodiversity:\n- Genetic, species, ecosystem\n- Essential for human welfare\n\n## Main Threats:\n- Habitat loss (biggest)\n- HIPPO framework\n\n## Strategies:\n| Approach | Example |\n|----------|--------|\n| Protected areas | National parks |\n| Species-based | Captive breeding |\n| Ecosystem-based | Restoration |\n| Community | Ecotourism |\n\n> **Congratulations!** You've completed Conservation!"
         }
     ]
 }

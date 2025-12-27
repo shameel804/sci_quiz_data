@@ -2,138 +2,128 @@
     "id": "learn_astrophys",
     "topicId": "astrophys",
     "topicTitle": "Astrophysics",
-    "description": "Understanding the physical laws that govern the universe.",
-    "baseKP": 100,
+    "description": "Explore gravity, radiation, black holes, and high-energy phenomena",
+    "baseKP": 75,
     "slides": [
         {
             "id": "astrophys_1",
             "type": "content",
-            "title": "What is Astrophysics?",
-            "content": "# Physics of the Cosmos 🌌\n\nApplying laws of physics (gravity, thermodynamics, quantum mechanics) to understand astronomical objects.\n\nAstronomers ask \"What is it?\"\nAstrophysicists ask \"How does it work?\""
+            "title": "Welcome to Astrophysics",
+            "content": "# Introduction to Astrophysics\n\nWelcome to **Astrophysics** - the physics of the cosmos!\n\n## What You Will Learn:\n- **Gravity** - Newton to Einstein\n- **Radiation** - Light and electromagnetic spectrum\n- **Stellar Physics** - Inside stars\n- **Black Holes** - Extreme gravity\n- **High-Energy Phenomena** - Extreme universe\n\n> **Fun Fact:** The first black hole image was captured in 2019!"
         },
         {
             "id": "astrophys_2",
             "type": "content",
-            "title": "Gravity",
-            "content": "# The Master Force 🍎\n\n- Newton: Force between masses.\n- Einstein (**General Relativity**): Curvature of spacetime.\n- Dominates at large scales.\n- Holds planets, stars, and galaxies together."
+            "title": "Newtonian Gravity",
+            "content": "# Newtonian Gravitation\n\n## Newton's Law:\n```\nF = G x M x m / r^2\n```\n- G = 6.67 x 10^-11 N m^2/kg^2\n- M, m = masses\n- r = separation distance\n\n## Orbital Velocity:\n```\nv = sqrt(GM/r)\n```\n\n## Escape Velocity:\n```\nv_escape = sqrt(2GM/r)\n```\n\n## Kepler's Laws:\n1. Elliptical orbits\n2. Equal areas, equal times\n3. T^2 proportional to a^3"
         },
         {
             "id": "astrophys_3",
             "type": "content",
-            "title": "Electromagnetic Radiation",
-            "content": "# Light 💡\n\nOur main source of info.\n- From Gamma rays (high energy) to Radio waves (low energy).\n- **Blackbody Radiation**: Hotter objects emit bluer, more intense light."
-        },
-        {
-            "id": "astrophys_4",
-            "type": "content",
-            "title": "Special Relativity",
-            "content": "# Speed Limit 🚦\n\nEinstein (1905).\n1. Speed of light ($c$) is constant.\n2. **Time Dilation**: Moving clocks run slow.\n3. **$E=mc^2$**: Mass and Energy are interchangeable."
-        },
-        {
-            "id": "astrophys_5",
-            "type": "content",
             "title": "General Relativity",
-            "content": "# Space-Time Fabric 🕸️\n\nEinstein (1915).\n- Mass warps space-time.\n- \"Matter tells space how to curve; Space tells matter how to move.\"\n- Predicted Black Holes and Gravitational Lensing."
+            "content": "# Einstein's General Relativity\n\n## Core Idea:\nMass curves spacetime.\n\n## Key Predictions:\n\n| Effect | Description |\n|--------|-------------|\n| Gravitational time dilation | Clocks slow near mass |\n| Gravitational lensing | Light bends around mass |\n| Gravitational redshift | Light loses energy climbing out |\n| Gravitational waves | Ripples in spacetime |\n| Black holes | Complete collapse |\n\n## Confirmation:\n- Mercury's orbit precession\n- Light bending by Sun (1919)\n- Gravitational waves (2015)"
         },
         {
             "id": "astrophys_quiz_1",
             "type": "quiz",
-            "title": "Relativity Quiz",
-            "content": "Einstein check.",
-            "quizQuestion": "According to General Relativity, what is Gravity?",
+            "title": "Gravity Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "According to general relativity, mass:",
             "quizOptions": [
-                "A magnetic force",
-                "Curvature of spacetime",
-                "Exchange of gravitons",
-                "Solar wind"
+                "Creates particles",
+                "Curves spacetime",
+                "Generates electricity",
+                "Stops light"
             ],
             "correctOptionIndex": 1
+        },
+        {
+            "id": "astrophys_4",
+            "type": "content",
+            "title": "Electromagnetic Spectrum",
+            "content": "# The Electromagnetic Spectrum\n\n## Wavelength Order:\n\n| Type | Wavelength | Detects |\n|------|-----------|--------|\n| Radio | > 1 mm | Cold gas |\n| Infrared | 700 nm - 1 mm | Star formation |\n| Visible | 400-700 nm | Stars, galaxies |\n| Ultraviolet | 10-400 nm | Hot stars |\n| X-ray | 0.01-10 nm | Very hot gas |\n| Gamma ray | < 0.01 nm | Extreme events |\n\n## Multi-wavelength:\n- Different physics visible\n- Combined picture\n- Space telescopes for many bands"
+        },
+        {
+            "id": "astrophys_5",
+            "type": "content",
+            "title": "Radiation Processes",
+            "content": "# Radiation Processes\n\n## Thermal Radiation:\n- Blackbody radiation\n- Stefan-Boltzmann: L = 4*pi*R^2*sigma*T^4\n- Wien's law: peak wavelength ~ 1/T\n\n## Non-Thermal:\n\n| Process | Cause |\n|---------|-------|\n| Synchrotron | Electrons in magnetic field |\n| Bremsstrahlung | Electron-ion interactions |\n| Compton | Photon-electron scattering |\n\n## Line Emission:\n- Atomic transitions\n- Identifies elements\n- Temperature indicator"
         },
         {
             "id": "astrophys_6",
             "type": "content",
-            "title": "Black Hole Physics",
-            "content": "# Event Horizon 🕳️\n\n- **Schwarzschild Radius**: Radius where escape velocity = $c$.\n- **Spaghettification**: Tidal forces stretch you into a noodle near the center.\n- Time stops at the edge (relative to outside)."
-        },
-        {
-            "id": "astrophys_7",
-            "type": "content",
-            "title": "Gravitational Waves",
-            "content": "# Ripples in Pond 〰️\n\nViolent events (colliding black holes) cause ripples in spacetime itself.\n- Detected by **LIGO** (2015).\n- Like \"hearing\" the universe for the first time."
-        },
-        {
-            "id": "astrophys_8",
-            "type": "content",
-            "title": "Neutrinos",
-            "content": "# Ghost Particles 👻\n\n- Tiny mass, no charge.\n- Pass through Earth (and you) by the trillions.\n- Born in fusion (Sun) and supernovae.\n- Hard to detect (IceCube detector in Antarctica)."
-        },
-        {
-            "id": "astrophys_9",
-            "type": "content",
-            "title": "Cosmic Rays",
-            "content": "# Bullets from Space 🔫\n\nHigh energy protons/nuclei traveling near light speed.\n- From Supernovae and Black Holes.\n- Atmosphere protects us (creates Carbon-14 and mutations)."
-        },
-        {
-            "id": "astrophys_10",
-            "type": "content",
-            "title": "Plasma Physics",
-            "content": "# The 4th State ⚡\n\n- 99% of visible universe is plasma (Stars, ISM).\n- Ionized gas (electrons stripped).\n- Controlled by Magnetic Fields (**Magnetohydrodynamics**)."
-        },
-        {
-            "id": "astrophys_11",
-            "type": "content",
-            "title": "Dark Matter Evidence",
-            "content": "# Rotation Curves 🌀\n\nVera Rubin noticed outer stars in galaxies orbit as fast as inner ones.\n- Expected: Slower (Kepler).\n- Implied invisible mass halo."
-        },
-        {
-            "id": "astrophys_12",
-            "type": "content",
-            "title": "Accretion Disks",
-            "content": "# Feeding Time 🍽️\n\nGas spiraling into a compact object (Black Hole/Star).\n- Friction heats it to millions of degrees.\n- Emits X-rays.\n- Method to \"see\" black holes."
+            "title": "Stellar Structure",
+            "content": "# Inside Stars\n\n## Hydrostatic Equilibrium:\n- Gravity pulls in\n- Pressure pushes out\n- Balance = stable star\n\n## Energy Transport:\n- Radiative: Photons carry energy\n- Convective: Gas circulates\n\n## Stellar Layers:\n- Core (fusion)\n- Radiative zone\n- Convective zone\n- Photosphere (surface)\n- Atmosphere (chromosphere, corona)\n\n## Mass-Luminosity:\n```\nL ~ M^3.5 (approximately)\n```"
         },
         {
             "id": "astrophys_quiz_2",
             "type": "quiz",
-            "title": "Detection Quiz",
-            "content": "Tool check.",
-            "quizQuestion": "Gravitational Waves are generated by:",
+            "title": "Radiation Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which wavelength is best to observe cold gas?",
             "quizOptions": [
-                "Burning candles",
-                "Accelerating massive objects",
-                "Static magnets",
-                "Radio towers"
+                "X-ray",
+                "Visible",
+                "Radio",
+                "Gamma ray"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "astrophys_7",
+            "type": "content",
+            "title": "Black Holes",
+            "content": "# Black Holes\n\n## Definition:\nObject whose escape velocity exceeds light speed.\n\n## Schwarzschild Radius:\n```\nRs = 2GM/c^2\n```\n\n## Types:\n\n| Type | Mass | Formation |\n|------|------|----------|\n| Stellar | 3-100 Msun | Star death |\n| Intermediate | 100-100,000 | Uncertain |\n| Supermassive | 10^6-10^10 | Galaxy centers |\n\n## Properties:\n- Event horizon: Point of no return\n- Singularity: Central point\n- No hair theorem: Mass, spin, charge only"
+        },
+        {
+            "id": "astrophys_8",
+            "type": "content",
+            "title": "Black Hole Effects",
+            "content": "# Black Hole Phenomena\n\n## Accretion Disks:\n- Material spirals in\n- Heats up intensely\n- Emits X-rays\n\n## Jets:\n- Relativistic outflows\n- Perpendicular to disk\n- Radio and X-ray emission\n\n## Hawking Radiation:\n- Quantum effect\n- Black holes evaporate\n- Very slow for large black holes\n\n## Gravitational Waves:\n- Black hole mergers\n- Detected by LIGO/Virgo"
+        },
+        {
+            "id": "astrophys_9",
+            "type": "content",
+            "title": "Neutron Stars",
+            "content": "# Neutron Stars\n\n## Formation:\n- Core-collapse supernovae\n- Remnant of massive star\n\n## Properties:\n- Mass: 1.4-2 Msun\n- Radius: ~10 km\n- Density: Nuclear density\n- Magnetic field: 10^8-10^15 G\n\n## Types:\n\n| Type | Feature |\n|------|--------|\n| Pulsar | Regular radio pulses |\n| Magnetar | Extreme magnetic field |\n| X-ray binary | Accreting material |\n\n## Pulsars:\n- Rotating beacon\n- Extremely precise clocks"
+        },
+        {
+            "id": "astrophys_10",
+            "type": "content",
+            "title": "High-Energy Phenomena",
+            "content": "# High-Energy Astrophysics\n\n## Gamma-Ray Bursts:\n- Most energetic explosions\n- Short: Neutron star mergers\n- Long: Massive star collapse\n\n## Active Galactic Nuclei:\n- Supermassive black holes accreting\n- Quasars brightest\n- Jets span galaxies\n\n## Cosmic Rays:\n- High-energy particles\n- From supernovae, AGN\n- Hit Earth's atmosphere\n\n## Supernovae:\n- Type Ia: Thermonuclear\n- Core-collapse: Massive stars\n- Create heavy elements"
+        },
+        {
+            "id": "astrophys_quiz_3",
+            "type": "quiz",
+            "title": "Black Holes Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The event horizon of a black hole is where:",
+            "quizOptions": [
+                "The star explodes",
+                "Escape velocity equals light speed",
+                "Fusion occurs",
+                "Gravity is zero"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "astrophys_11",
+            "type": "content",
+            "title": "Gravitational Waves",
+            "content": "# Gravitational Waves\n\n## Definition:\nRipples in spacetime fabric.\n\n## Sources:\n- Binary neutron stars\n- Binary black holes\n- Supernovae (asymmetric)\n\n## Detection:\n- LIGO (ground)\n- Virgo (ground)\n- LISA (future, space)\n\n## First Detection:\n- September 2015\n- Two black holes merging\n- GW150914\n\n## Nobel Prize:\n- 2017: Weiss, Barish, Thorne\n- Multi-messenger astronomy born"
+        },
+        {
+            "id": "astrophys_12",
+            "type": "content",
+            "title": "Cosmology Basics",
+            "content": "# Cosmology\n\n## Big Bang:\n- Universe began ~13.8 billion years ago\n- Expansion from hot, dense state\n\n## Evidence:\n- Cosmic microwave background\n- Hubble expansion\n- Light element abundances\n\n## Dark Matter:\n- ~27% of universe\n- Doesn't emit light\n- Detected by gravity\n\n## Dark Energy:\n- ~68% of universe\n- Accelerating expansion\n- Unknown nature"
+        },
+        {
             "id": "astrophys_13",
             "type": "content",
-            "title": "Jets",
-            "content": "# Cosmic Beams 🔦\n\nMatter ejected from poles of accreting objects at near light speed.\n- Powered by magnetic fields twisting up.\n- Can span hundreds of thousands of light years."
-        },
-        {
-            "id": "astrophys_14",
-            "type": "content",
-            "title": "Gamma Ray Bursts",
-            "content": "# Biggest Bangs 💥\n\nShort, intense flashes of Gamma rays.\n- Most energetic events since Big Bang.\n- Likely from black hole birth or neutron star collision.\n- Could sterilize a galaxy nearby."
-        },
-        {
-            "id": "astrophys_15",
-            "type": "content",
-            "title": "Standard Model",
-            "content": "# Particle Zoo 🦁\n\nPhysics of the very small.\n- Quarks, Leptons, Bosons.\n- Astrophysics tests these limits (e.g., dense neutron stars)."
-        },
-        {
-            "id": "astrophys_16",
-            "type": "content",
-            "title": "Inflation Theory",
-            "content": "# The Bang's Bang 🐡\n\nUniverse expanded exponentially ($10^{26}$x) in fraction of a second ($10^{-35}$ s).\n- Explains why universe looks smooth and flat.\n- Quantum fluctuations stretched to become seeds of galaxies."
-        },
-        {
-            "id": "astrophys_17",
-            "type": "content",
-            "title": "Astrophysics Summary",
-            "content": "# Recap 📝\n\n- **Relativity** governs the heavy/fast.\n- **Quantum Mechanics** governs the small.\n- **Gravity** rules structure.\n- Extreme objects (Black Holes) test our physics to the breaking point."
+            "title": "Summary",
+            "content": "# Astrophysics Summary\n\n## Gravity:\n- Newton: F = GMm/r^2\n- Einstein: Mass curves spacetime\n- Gravitational waves detected\n\n## Radiation:\n- All electromagnetic wavelengths\n- Thermal and non-thermal\n\n## Compact Objects:\n| Object | Endpoint of |\n|--------|------------|\n| White dwarf | Low-mass stars |\n| Neutron star | Massive stars |\n| Black hole | Very massive |\n\n## High-Energy:\n- GRBs, AGN, cosmic rays\n- X-ray and gamma-ray astronomy\n\n> **Congratulations!** You've completed Astrophysics!"
         }
     ]
 }

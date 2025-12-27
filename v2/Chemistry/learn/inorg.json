@@ -2,138 +2,148 @@
     "id": "learn_inorg",
     "topicId": "inorg",
     "topicTitle": "Inorganic Chemistry",
-    "description": "Explore the elements of the periodic table, metals, acids, and coordination complexes.",
-    "baseKP": 100,
+    "description": "Explore periodic table trends, acids and bases, redox reactions, and coordination compounds",
+    "baseKP": 75,
     "slides": [
         {
             "id": "inorg_1",
             "type": "content",
-            "title": "What is Inorganic Chemistry?",
-            "content": "# Beyond Carbon 💎\n\nInorganic chemistry covers the properties and behavior of inorganic compounds—which allow for minerals, metals, and organometallic compounds.\n\nBasically, **everything except standard carbon-chain biology stuff**.\n\nApplications: Catalysts, coatings, fuels, surfactants, materials, superconductors, and drugs."
+            "title": "Welcome to Inorganic Chemistry",
+            "content": "# Introduction to Inorganic Chemistry\n\nWelcome to **Inorganic Chemistry** - the study of all elements and their compounds!\n\n## What You Will Learn:\n- **Periodic Table Trends** - Patterns across elements\n- **Acids and Bases** - Proton donors and acceptors\n- **Redox Reactions** - Electron transfer processes\n- **Coordination Compounds** - Metal complexes\n\n> **Fun Fact:** Inorganic chemistry covers about 95% of all known compounds!\n\n## Why Inorganic Chemistry Matters:\n- Catalysts for industrial processes\n- Medicines and medical imaging\n- Electronics and semiconductors\n- Environmental chemistry\n\n## Elements Overview:\n\n| Category | Examples | Properties |\n|----------|----------|------------|\n| Metals | Na, Fe, Cu | Shiny, conductive |\n| Non-metals | O, N, Cl | Varied, often gases |\n| Metalloids | Si, Ge | Properties of both |\n| Noble gases | He, Ne, Ar | Unreactive |"
         },
         {
             "id": "inorg_2",
             "type": "content",
-            "title": "The Periodic Table",
-            "content": "# The Chemist's Map 🗺️\n\nOrganized by Atomic Number ($Z$) and electron configuration.\n\n- **Groups (Columns)**: Similar valence electrons $\\to$ Similar properties.\n- **Periods (Rows)**: Adding electron shells.\n\nKey Groups:\n- 1: Alkali Metals (Explosive with water)\n- 17: Halogens (Reactive non-metals)\n- 18: Noble Gases (Inert)"
+            "title": "Periodic Table Organization",
+            "content": "# Periodic Table Organization\n\nThe **periodic table** organizes elements by atomic number and properties.\n\n## Structure:\n\n### Periods (Rows 1-7):\n- Same number of electron shells\n- Properties change across period\n\n### Groups (Columns 1-18):\n- Same number of valence electrons\n- Similar chemical properties\n\n## Important Groups:\n\n| Group | Name | Valence e- |\n|-------|------|------------|\n| 1 | Alkali metals | 1 |\n| 2 | Alkaline earth | 2 |\n| 17 | Halogens | 7 |\n| 18 | Noble gases | 8 |\n\n## Blocks:\n\n| Block | Elements | Filling Orbital |\n|-------|----------|----------------|\n| s-block | Groups 1-2 | s orbital |\n| p-block | Groups 13-18 | p orbital |\n| d-block | Groups 3-12 | d orbital |\n| f-block | Lanthanides, Actinides | f orbital |\n\n> **Mendeleev's brilliance:** He left gaps for undiscovered elements and predicted their properties!"
         },
         {
             "id": "inorg_3",
             "type": "content",
-            "title": "Periodic Trends: Size",
-            "content": "# Atomic Radius ⭕\n\n- **Down a Group**: Increases (Adding shells).\n- **Across a Period**: Decreases (More protons pull electrons tighter).\n\nFrancium is huge; Helium is tiny."
-        },
-        {
-            "id": "inorg_4",
-            "type": "content",
-            "title": "Periodic Trends: Energy",
-            "content": "# Holding on ⚡\n\n**Ionization Energy**: Energy needed to remove an electron.\n- Increases up and to the right.\n\n**Electronegativity**: Ability to attract electrons in a bond.\n- Fluorine is the bully (most electronegative).\n- Francium is the giver (least)."
+            "title": "Periodic Trends",
+            "content": "# Periodic Trends\n\n## Atomic Radius:\n\n### Across Period (Left to Right): **DECREASES**\n- More protons = stronger pull on same shell electrons\n\n### Down Group (Top to Bottom): **INCREASES**\n- More electron shells added\n\n## Electronegativity:\n\n**Electronegativity** = ability to attract electrons in a bond.\n\n- **Increases** across a period\n- **Decreases** down a group\n- Highest: Fluorine (4.0)\n\n## Ionization Energy:\n\n**Ionization energy** = energy to remove an electron.\n\n- **Increases** across a period\n- **Decreases** down a group\n\n## Summary Table:\n\n| Property | Across Period | Down Group |\n|----------|--------------|------------|\n| Atomic radius | Decreases | Increases |\n| Ionization energy | Increases | Decreases |\n| Electronegativity | Increases | Decreases |\n\n## Ionic Radius:\n\n- **Cations:** Smaller than parent atom\n- **Anions:** Larger than parent atom"
         },
         {
             "id": "inorg_quiz_1",
             "type": "quiz",
-            "title": "Trends Quiz",
-            "content": "Test your periodic knowledge.",
-            "quizQuestion": "Which element has the highest electronegativity?",
+            "title": "Periodic Trends Quiz",
+            "content": "Test your understanding!",
+            "quizQuestion": "Which atom has the largest atomic radius?",
             "quizOptions": [
-                "Oxygen",
-                "Fluorine",
-                "Chlorine",
-                "Francium"
+                "Li",
+                "Na",
+                "K",
+                "Rb"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "inorg_4",
+            "type": "content",
+            "title": "Acids and Bases",
+            "content": "# Acids and Bases\n\n## Definitions:\n\n### Arrhenius:\n- **Acid:** Produces H+ in water\n- **Base:** Produces OH- in water\n\n### Bronsted-Lowry:\n- **Acid:** Proton (H+) donor\n- **Base:** Proton (H+) acceptor\n\n## pH Scale:\n\n```\npH = -log[H+]\n```\n\n| pH | Nature |\n|-----|--------|\n| 0-6 | Acidic |\n| 7 | Neutral |\n| 8-14 | Basic |\n\n## Strong vs Weak:\n\n| Type | Ionization | Examples |\n|------|------------|----------|\n| Strong acid | 100% | HCl, HNO3, H2SO4 |\n| Weak acid | Partial | CH3COOH, HF |\n| Strong base | 100% | NaOH, KOH |\n| Weak base | Partial | NH3 |\n\n## Neutralization:\n\n```\nAcid + Base -> Salt + Water\nHCl + NaOH -> NaCl + H2O\n```"
         },
         {
             "id": "inorg_5",
             "type": "content",
-            "title": "Acids and Bases",
-            "content": "# Proton Wars 🍋🧼\n\n**Bronsted-Lowry Definition:**\n- **Acid**: Proton ($H^+$) Donor.\n- **Base**: Proton ($H^+$) Acceptor.\n\n**Lewis Definition:**\n- **Acid**: Electron pair acceptor.\n- **Base**: Electron pair donor."
+            "title": "pH Calculations",
+            "content": "# pH Calculations\n\n## Key Equations:\n\n```\npH = -log[H+]\npOH = -log[OH-]\npH + pOH = 14\n```\n\n## Common pH Values:\n\n| Substance | pH |\n|-----------|-----|\n| Stomach acid | 1-2 |\n| Lemon juice | 2.4 |\n| Pure water | 7.0 |\n| Blood | 7.4 |\n| Bleach | 12.5 |\n\n## Example Calculations:\n\n**Find pH:** [H+] = 0.001 M\n```\npH = -log(0.001) = 3\n```\n\n**Find [H+]:** pH = 5\n```\n[H+] = 10^-5 M\n```\n\n## Buffers:\n\nResist pH change when acid/base added.\n\n**Components:** Weak acid + conjugate base\n\n**Henderson-Hasselbalch:**\n```\npH = pKa + log([A-]/[HA])\n```\n\n> **Blood buffer:** H2CO3/HCO3- maintains blood pH at 7.4"
         },
         {
             "id": "inorg_6",
             "type": "content",
-            "title": "pH Scale",
-            "content": "# Power of Hydrogen 📉\n\nMeasure of acidity.\n$$pH = -\\log[H^+]$$\n\n- **< 7**: Acidic (Lemon, Stomach acid)\n- **7**: Neutral (Water)\n- **> 7**: Basic (Soap, Bleach)\n\nLogarithmic scale: pH 3 is 10x more acidic than pH 4."
-        },
-        {
-            "id": "inorg_7",
-            "type": "content",
-            "title": "Salts",
-            "content": "# Neutralization 🧂\n\nAcid + Base $\\to$ Salt + Water\n\n$$HCl + NaOH \\to NaCl + H_2O$$\n\nSalts are ionic compounds composed of related numbers of cations and anions so that the product is electrically neutral."
-        },
-        {
-            "id": "inorg_8",
-            "type": "content",
             "title": "Redox Reactions",
-            "content": "# Moving Electrons 🔋\n\n**Red**uction-**Ox**idation reactions.\n\n- **Oxidation**: Loss of electrons (OIL).\n- **Reduction**: Gain of electrons (RIG).\n\n$$Zn + Cu^{2+} \\to Zn^{2+} + Cu$$\n\nZinc is oxidized (loses e-), Copper is reduced (gains e-)."
-        },
-        {
-            "id": "inorg_9",
-            "type": "content",
-            "title": "Oxidation States",
-            "content": "# Bookkeeping 📚\n\nHypothetical charge an atom would have if all bonds were ionic.\n\nRules:\n- Pure elements = 0 ($O_2, Fe$)\n- Fluorine = -1\n- Oxygen = -2 (usually)\n- Sum adds up to molecule's charge."
+            "content": "# Redox Reactions\n\n**Redox** = electron transfer reactions.\n\n## Definitions:\n\n### Oxidation:\n- LOSS of electrons\n- Oxidation state INCREASES\n- **OIL:** Oxidation Is Loss\n\n### Reduction:\n- GAIN of electrons\n- Oxidation state DECREASES\n- **RIG:** Reduction Is Gain\n\n## Oxidation States Rules:\n\n| Rule | State |\n|------|-------|\n| Element | 0 |\n| Monatomic ion | Charge |\n| H (usually) | +1 |\n| O (usually) | -2 |\n| Sum in compound | 0 |\n\n## Example: Mg + Cl2 -> MgCl2\n\n```\nMg: 0 -> +2 (oxidized)\nCl: 0 -> -1 (reduced)\n```\n\n## Agents:\n\n| Agent | Does What | Happens to It |\n|-------|-----------|---------------|\n| Oxidizing | Causes oxidation | Gets reduced |\n| Reducing | Causes reduction | Gets oxidized |"
         },
         {
             "id": "inorg_quiz_2",
             "type": "quiz",
             "title": "Redox Quiz",
-            "content": "OIL RIG check.",
-            "quizQuestion": "In redox, oxidation refers to:",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In oxidation, electrons are:",
             "quizOptions": [
-                "Gain of Oxygen",
-                "Loss of Electrons",
-                "Gain of Electrons",
-                "Loss of Hydrogens"
+                "Gained",
+                "Lost",
+                "Shared",
+                "Destroyed"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "inorg_10",
+            "id": "inorg_7",
+            "type": "content",
+            "title": "Electrochemistry",
+            "content": "# Electrochemistry\n\n## Galvanic (Voltaic) Cells:\n\nConvert chemical energy to electrical energy.\n\n### Components:\n- **Anode:** Oxidation occurs (- terminal)\n- **Cathode:** Reduction occurs (+ terminal)\n- **Salt bridge:** Maintains neutrality\n\n## Cell Potential:\n\n```\nE_cell = E_cathode - E_anode\n```\n\nPositive E_cell = spontaneous\n\n## Standard Reduction Potentials:\n\n| Half-Reaction | E (V) |\n|---------------|-------|\n| F2 + 2e- -> 2F- | +2.87 |\n| Cu2+ + 2e- -> Cu | +0.34 |\n| 2H+ + 2e- -> H2 | 0.00 |\n| Zn2+ + 2e- -> Zn | -0.76 |\n\n## Electrolytic Cells:\n\nUse electrical energy for non-spontaneous reactions.\n\n| Process | Product |\n|---------|--------|\n| Electrolysis of water | H2 and O2 |\n| Electrolysis of NaCl | Na and Cl2 |\n| Electroplating | Metal coating |"
+        },
+        {
+            "id": "inorg_8",
             "type": "content",
             "title": "Coordination Compounds",
-            "content": "# Metal Complexes 🏗️\n\nA central metal atom/ion bonded to surrounding molecules or anions (**Ligands**).\n\n- **Coordination Number**: bonds to central atom.\n- Example: Hemoglobin (Iron complex), Chlorophyll (Magnesium complex).\n- Often vividly colored!"
+            "content": "# Coordination Compounds\n\n**Coordination compounds** = central metal + surrounding ligands.\n\n## Terminology:\n\n- **Central metal:** Transition metal atom/ion\n- **Ligands:** Molecules/ions bonded to metal\n- **Coordination number:** Bonds to metal\n\n## Common Geometries:\n\n| Coord # | Geometry |\n|---------|----------|\n| 2 | Linear |\n| 4 | Tetrahedral or Square planar |\n| 6 | Octahedral |\n\n## Types of Ligands:\n\n| Type | Bonds | Examples |\n|------|-------|----------|\n| Monodentate | 1 | NH3, Cl-, H2O |\n| Bidentate | 2 | ethylenediamine |\n| Polydentate | Many | EDTA |\n\n## Common Ligands:\n\n| Ligand | Name in Complex |\n|--------|----------------|\n| H2O | aqua |\n| NH3 | ammine |\n| Cl- | chloro |\n| CN- | cyano |"
+        },
+        {
+            "id": "inorg_9",
+            "type": "content",
+            "title": "Crystal Field Theory",
+            "content": "# Crystal Field Theory\n\nExplains bonding and properties of coordination compounds.\n\n## d Orbital Splitting:\n\nLigands cause energy splitting of d orbitals.\n\n### Octahedral Field:\n- Higher energy: eg (dx2-y2, dz2)\n- Lower energy: t2g (dxy, dxz, dyz)\n\n## Spectrochemical Series:\n\n```\nI- < Br- < Cl- < F- < H2O < NH3 < CN- < CO\n(weak field)         (strong field)\n```\n\n## High Spin vs Low Spin:\n\n| Configuration | Condition |\n|---------------|----------|\n| High spin | Weak field ligand |\n| Low spin | Strong field ligand |\n\n## Color in Complexes:\n\n| Complex | Color |\n|---------|-------|\n| [Cu(H2O)6]2+ | Blue |\n| [Cu(NH3)4]2+ | Deep blue |\n| [Fe(SCN)]2+ | Blood red |\n\n> **Why gems are colored:** Transition metal impurities create d-d transitions!"
+        },
+        {
+            "id": "inorg_10",
+            "type": "content",
+            "title": "Transition Metals",
+            "content": "# Transition Metals\n\n**Transition metals** = d-block elements with partially filled d orbitals.\n\n## Properties:\n\n| Property | Explanation |\n|----------|-------------|\n| High melting points | Strong metallic bonding |\n| Colored compounds | d-d transitions |\n| Catalytic activity | Variable oxidation states |\n| Form complex ions | Available d orbitals |\n\n## Variable Oxidation States:\n\n| Element | States |\n|---------|--------|\n| Fe | +2, +3 |\n| Cu | +1, +2 |\n| Mn | +2, +3, +4, +6, +7 |\n\n## Catalysis:\n\n| Metal | Use |\n|-------|-----|\n| Fe | Haber process (NH3) |\n| Pt, Pd | Catalytic converters |\n| Ni | Hydrogenation |\n\n## Colored Compounds:\n\n| Compound | Color |\n|----------|-------|\n| CuSO4.5H2O | Blue |\n| Fe2O3 | Red-brown |\n| KMnO4 | Purple |"
+        },
+        {
+            "id": "inorg_quiz_3",
+            "type": "quiz",
+            "title": "Coordination Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What is the coordination number in [Co(NH3)6]3+?",
+            "quizOptions": [
+                "3",
+                "6",
+                "9",
+                "12"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "inorg_11",
             "type": "content",
-            "title": "Crystal Field Theory",
-            "content": "# Colors of Gems 💎\n\nExplains colors and magnetism of coordination complexes.\n\n- Ligands split the d-orbital energies of the metal.\n- Electrons jumping between these split levels absorb light.\n- The unabsorbed light is the color we see (e.g., Ruby = Chromium)."
+            "title": "Main Group Elements",
+            "content": "# Main Group Elements\n\n## Group 1: Alkali Metals\n\n- Very reactive, soft metals\n- Form +1 ions\n- React vigorously with water\n\n```\n2Na + 2H2O -> 2NaOH + H2\n```\n\n## Group 2: Alkaline Earth\n\n- Less reactive than alkali metals\n- Form +2 ions\n- Ca, Mg biologically important\n\n## Group 17: Halogens\n\n| Element | State | Color |\n|---------|-------|-------|\n| F2 | Gas | Pale yellow |\n| Cl2 | Gas | Yellow-green |\n| Br2 | Liquid | Red-brown |\n| I2 | Solid | Purple-black |\n\nReactivity **decreases** down group!\n\n## Group 18: Noble Gases\n\n- Full valence shells\n- Very unreactive\n- Used in lighting, MRI\n\n## Important Compounds:\n\n| Compound | Use |\n|----------|-----|\n| NaCl | Table salt |\n| CaCO3 | Limestone |\n| NaHCO3 | Baking soda |"
         },
         {
             "id": "inorg_12",
             "type": "content",
-            "title": "Main Group Elements",
-            "content": "# The Standard Blocks 🧱\n\nS and P block elements.\n- **Alkali Metals**: Very reactive.\n- **Alkaline Earth Metals**: Magnesium, Calcium.\n- **Nitrogen/Phosphorus**: Essential for life (DNA, Fertilizer).\n- **Sulfur**: Cross-links proteins."
+            "title": "Metallurgy",
+            "content": "# Metallurgy\n\n**Metallurgy** = extracting metals from ores.\n\n## Steps:\n\n### 1. Concentration:\n- Froth flotation\n- Gravity separation\n- Magnetic separation\n\n### 2. Extraction:\n\n| Method | Metal Type |\n|--------|------------|\n| Electrolysis | Very reactive (Na, Al) |\n| Carbon reduction | Moderate (Fe, Zn) |\n| Roasting | Low reactivity (Cu) |\n\n### 3. Refining:\n- Electrolytic (high purity)\n- Zone refining (ultra-pure)\n\n## Iron Extraction:\n\n```\nFe2O3 + 3CO -> 2Fe + 3CO2\n```\n\n## Aluminum Extraction:\n\n- Cannot use carbon (too reactive)\n- Electrolysis of Al2O3 in cryolite\n- Very energy intensive\n\n> **Recycling:** Aluminum from cans uses only 5% of energy needed from ore!"
         },
         {
             "id": "inorg_13",
             "type": "content",
-            "title": "Transition Metals",
-            "content": "# The D-Block ⚙️\n\nGroups 3-12.\n- Variable oxidation states ($Fe^{2+}, Fe^{3+}$).\n- Form colored compounds.\n- Good catalysts.\n- Magnetic properties (Iron, Cobalt, Nickel)."
+            "title": "Environmental Chemistry",
+            "content": "# Environmental Inorganic Chemistry\n\n## Ozone Layer:\n\n```\nFormation: 3O2 -> 2O3 (UV)\nDepletion: O3 + Cl -> ClO + O2\n```\n\nCFCs damage ozone layer.\n\n## Acid Rain:\n\n```\nSO2 + H2O -> H2SO3\nNO2 + H2O -> HNO3\n```\n\n## Heavy Metal Pollution:\n\n| Metal | Source | Effect |\n|-------|--------|--------|\n| Pb | Paint, pipes | Neurological |\n| Hg | Industry | Brain damage |\n| Cd | Batteries | Kidney damage |\n\n## Water Treatment:\n\n- Al2(SO4)3 as coagulant\n- Cl2 for disinfection\n- Ca(OH)2 for pH adjustment\n\n## Catalytic Converters:\n\n```\n2CO + O2 -> 2CO2\n2NO -> N2 + O2\n```\n\nUse Pt, Pd, Rh catalysts.\n\n> **Success:** Montreal Protocol banned CFCs, ozone layer now recovering!"
+        },
+        {
+            "id": "inorg_quiz_4",
+            "type": "quiz",
+            "title": "Final Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In a galvanic cell, oxidation occurs at the:",
+            "quizOptions": [
+                "Cathode",
+                "Anode",
+                "Salt bridge",
+                "Electrolyte"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "inorg_14",
             "type": "content",
-            "title": "Bioinorganic Chemistry",
-            "content": "# Metals in Life 🌿\n\nLife isn't just organic!\n- **Iron**: Oxygen transport in blood.\n- **Calcium**: Bones and signaling.\n- **Zinc**: Enzyme function.\n- **Sodium/Potassium**: Nerve impulses."
-        },
-        {
-            "id": "inorg_15",
-            "type": "content",
-            "title": "Industrial Inorganic Chem",
-            "content": "# Big Scale 🏭\n\n- **Sulfuric Acid ($H_2SO_4$)**: #1 chemical produced globally (Fertilizer, refining).\n- **Ammonia ($NH_3$)**: Haber process (Fertilizer).\n- **Chlorine**: Sanitation and plastics."
-        },
-        {
-            "id": "inorg_16",
-            "type": "content",
-            "title": "Nanomaterials",
-            "content": "# Tiny Chemistry 🔬\n\nInorganic materials at the nanoscale (1-100 nm).\n- Quantum Dots (TV displays).\n- Gold nanoparticles (Medicine).\n- Carbon Nanotubes (Super strong materials)."
-        },
-        {
-            "id": "inorg_17",
-            "type": "content",
-            "title": "Inorganic Chemistry Summary",
-            "content": "# Recap 📝\n\n- **Periodic Trends** guide reactivity.\n- **Acids/Bases** and **Redox** are key reaction types.\n- **Transition Metals** create colorful complexes and catalyze reactions.\n- Inorganic chemistry powers industry, technology, and biology."
+            "title": "Summary",
+            "content": "# Inorganic Chemistry Summary\n\n## Periodic Trends:\n\n| Property | Across Period | Down Group |\n|----------|--------------|------------|\n| Atomic radius | Decreases | Increases |\n| IE | Increases | Decreases |\n| EN | Increases | Decreases |\n\n## Acids/Bases:\n- pH = -log[H+]\n- pH + pOH = 14\n- Neutralization produces salt + water\n\n## Redox:\n- Oxidation = electron loss\n- Reduction = electron gain\n- E_cell = E_cathode - E_anode\n\n## Coordination Compounds:\n- Central metal + ligands\n- Crystal field theory explains color\n- Spectrochemical series orders ligands\n\n## Key Points:\n- Transition metals: variable oxidation states, colored, catalytic\n- Main group elements: predictable behavior by group\n- Metallurgy: extraction and refining of metals\n\n> **Congratulations!** You've completed Inorganic Chemistry!"
         }
     ]
 }

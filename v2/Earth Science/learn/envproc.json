@@ -2,138 +2,58 @@
     "id": "learn_envproc",
     "topicId": "envproc",
     "topicTitle": "Environmental Processes",
-    "description": "How the Earth's systems interact and shape our environment.",
-    "baseKP": 100,
+    "description": "Explore weathering, erosion, soil formation, and the water cycle",
+    "baseKP": 75,
     "slides": [
         {
             "id": "envproc_1",
             "type": "content",
-            "title": "What are Environmental Processes?",
-            "content": "# Systems Thinking 🔄\n\nInteractions between the Lithosphere (Land), Hydrosphere (Water), Atmosphere (Air), and Biosphere (Life).\n- Earth is a dynamic system.\n- Changes in one sphere affect all others."
+            "title": "Welcome to Environmental Processes",
+            "content": "# Introduction to Environmental Processes\n\nWelcome to **Environmental Processes** - how Earth's surface changes!\n\n## What You Will Learn:\n- **Weathering** - Breaking down rocks\n- **Erosion** - Moving sediment\n- **Water Cycle** - Global water movement\n- **Soil Formation** - Creating earth\n\n> **Fun Fact:** The Grand Canyon was carved over 5-6 million years!"
         },
         {
             "id": "envproc_2",
             "type": "content",
-            "title": "Soil Formation",
-            "content": "# Pedogenesis 🪴\n\n- **Parent Material**: Bedrock breaks down.\n- **Climate**: Temp/Rain affects rate.\n- **Organisms**: Worms mix, bacteria decompose.\n- **Topography**: Hills vs valleys.\n- **Time**: Takes centuries."
+            "title": "Weathering",
+            "content": "# Weathering\n\n## Physical Weathering:\nBreaking rock without changing composition.\n\n| Type | Mechanism |\n|------|----------|\n| Frost wedging | Water freezes, expands |\n| Root growth | Plants split rock |\n| Thermal expansion | Heating/cooling |\n| Abrasion | Particles grind rock |\n\n## Chemical Weathering:\nChanging rock's chemical structure.\n\n| Type | Mechanism |\n|------|----------|\n| Oxidation | Reaction with O2 |\n| Hydrolysis | Reaction with H2O |\n| Carbonation | Reaction with CO2 |\n| Acid rain | Dissolves limestone |\n\n## Biological Weathering:\n- Organisms produce acids\n- Lichens on rocks\n- Burrowing animals"
         },
         {
             "id": "envproc_3",
             "type": "content",
-            "title": "Soil Types",
-            "content": "# Dirt Diversity 🎨\n\n- **Sandy**: Drains fast, low nutrients.\n- **Clay**: Holds water, heavy.\n- **Silt**: Smooth, fertile.\n- **Loam**: Perfect mix for farming (40-40-20).\n- **Peat**: High organic matter."
-        },
-        {
-            "id": "envproc_4",
-            "type": "content",
-            "title": "The Hydrologic Cycle",
-            "content": "# Water on the Move 💧\n\nContinuous movement of water.\n- **Transpiration**: Plants releasing vapor.\n- **Infiltration**: Water soaking into ground.\n- **Runoff**: Flowing over land to rivers.\nDriven by Sun energy and Gravity."
-        },
-        {
-            "id": "envproc_5",
-            "type": "content",
-            "title": "Erosion vs Deposition",
-            "content": "# Give and Take ⚖️\n\n- **Erosion**: Wearing away (River cutting canyon).\n- **Deposition**: Building up (River delta causing land).\nWind, Water, and Ice are the agents."
-        },
-        {
-            "id": "envproc_6",
-            "type": "content",
-            "title": "River Systems",
-            "content": "# Pathways 🏞️\n\n- **Watershed**: Area of land that drains into a river.\n- **Meander**: Curving loops in flat land.\n- **Oxbow Lake**: Cut-off loop.\n- **Delta**: Sediment fan at mouth."
+            "title": "Erosion and Deposition",
+            "content": "# Erosion and Deposition\n\n## Agents of Erosion:\n\n| Agent | Features Created |\n|-------|----------------|\n| Water | Valleys, canyons, deltas |\n| Wind | Dunes, desert polishing |\n| Glaciers | U-valleys, moraines |\n| Waves | Beaches, sea cliffs |\n| Gravity | Landslides, rockfalls |\n\n## River Erosion:\n- Headward erosion\n- Downcutting\n- Lateral erosion\n- Creates V-shaped valleys\n\n## Deposition:\n- When energy decreases\n- Larger particles drop first\n- Deltas, alluvial fans\n\n## Glacial Erosion:\n- Plucking and abrasion\n- U-shaped valleys\n- Cirques, aretes, horns"
         },
         {
             "id": "envproc_quiz_1",
             "type": "quiz",
-            "title": "Cycle Quiz",
-            "content": "Process check.",
-            "quizQuestion": "The release of water vapor from plants is called:",
+            "title": "Weathering Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Frost wedging is an example of:",
             "quizOptions": [
-                "Evaporation",
-                "Condensation",
-                "Transpiration",
-                "Precipitation"
+                "Chemical weathering",
+                "Physical weathering",
+                "Biological weathering",
+                "Erosion"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "envproc_7",
+            "id": "envproc_4",
             "type": "content",
-            "title": "Natural Disasters: Floods",
-            "content": "# Too Much Water 🌊\n\nMost common natural disaster.\n- **Flash Flood**: Sudden heavy rain in steep area.\n- **Riverine Flood**: Slow rise over days.\n- **Floodplains**: Flat fertile lands risking inundation (bad for building)."
+            "title": "The Water Cycle",
+            "content": "# The Water Cycle\n\n## Processes:\n\n| Process | Description |\n|---------|------------|\n| Evaporation | Water to vapor |\n| Transpiration | Plants release water |\n| Condensation | Vapor to water |\n| Precipitation | Rain, snow, sleet |\n| Runoff | Surface water flow |\n| Infiltration | Water enters ground |\n\n## Reservoirs:\n\n| Reservoir | Percentage |\n|-----------|------------|\n| Oceans | 97.5% |\n| Ice/Glaciers | 1.7% |\n| Groundwater | 0.8% |\n| Lakes/Rivers | 0.01% |\n| Atmosphere | 0.001% |\n\n## Groundwater:\n- Aquifer: Water-bearing rock\n- Water table: Top of saturated zone\n- Recharge: Water entering aquifer"
         },
         {
-            "id": "envproc_8",
+            "id": "envproc_5",
             "type": "content",
-            "title": "Natural Disasters: Landslides",
-            "content": "# Gravity Wins 📉\n\nMovement of rock/debris down a slope.\n- Triggers: Rain, Earthquakes, Deforestation.\n- **Mudslide**: Wet and fast.\n- **Rockfall**: Dry and sudden."
+            "title": "Soil Formation",
+            "content": "# Soil Formation\n\n## Soil Composition:\n- Minerals (45%)\n- Organic matter (5%)\n- Air (25%)\n- Water (25%)\n\n## Soil Horizons:\n\n| Horizon | Layer |\n|---------|-------|\n| O | Organic, leaf litter |\n| A | Topsoil, humus |\n| E | Leached, pale |\n| B | Subsoil, accumulation |\n| C | Weathered parent material |\n| R | Bedrock |\n\n## Soil Formation Factors:\n1. Parent material\n2. Climate\n3. Organisms\n4. Topography\n5. Time\n\nMemory: CLORPT\n\n## Soil Types:\n- Sandy: Large particles, drains fast\n- Clay: Small particles, holds water\n- Loam: Mix, best for plants"
         },
         {
-            "id": "envproc_9",
+            "id": "envproc_6",
             "type": "content",
-            "title": "Natural Disasters: Tsunami",
-            "content": "# Harbor Wave 🌊\n\nDisplaced water column.\n- Cause: Undersea earthquake or landslide.\n- Not a tidal wave!\n- Can cross entire oceans."
-        },
-        {
-            "id": "envproc_10",
-            "type": "content",
-            "title": "Glaciers",
-            "content": "# Rivers of Ice 🧊\n\n- **Alpine**: Mountain valleys.\n- **Continental**: Ice sheets (Greenland/Antarctica).\n- Move slowly, carving U-shaped valleys.\n- Store 69% of Earth's fresh water!"
-        },
-        {
-            "id": "envproc_11",
-            "type": "content",
-            "title": "Desertification",
-            "content": "# Land Loss 🌵\n\nFertile land turning into desert.\n- Causes: Overgrazing, Deforestation, Drought.\n- Example: The Sahel in Africa.\n- Prevention: Planting trees (Green Wall)."
-        },
-        {
-            "id": "envproc_12",
-            "type": "content",
-            "title": "Carbon Cycle",
-            "content": "# Nature's Balance ♻️\n\n- **Sources**: Respiration, Volcanoes, Burning Fuels.\n- **Sinks**: Photosynthesis, Oceans, Rocks.\n- Human activity is overloading the atmosphere ($CO_2$)."
-        },
-        {
-            "id": "envproc_quiz_2",
-            "type": "quiz",
-            "title": "Storage Quiz",
-            "content": "Water check.",
-            "quizQuestion": "Where is most of Earth's fresh water stored?",
-            "quizOptions": [
-                "Lakes",
-                "Rivers",
-                "Underground",
-                "Glaciers/Ice Sheets"
-            ],
-            "correctOptionIndex": 3
-        },
-        {
-            "id": "envproc_13",
-            "type": "content",
-            "title": "Nitrogen Cycle",
-            "content": "# Essential Nutrient 🥜\n\nAir is 78% Nitrogen, but plants can't use it.\n- **Fixation**: Bacteria turn $N_2$ into Ammonia ($NH_3$).\n- **Assimilation**: Plants eat Ammonia.\n- **Denitrification**: Bacteria turn it back to gas."
-        },
-        {
-            "id": "envproc_14",
-            "type": "content",
-            "title": "Phosphorus Cycle",
-            "content": "# Rock Cycle 🪨\n\nNo gas phase! Very slow.\n- Released by weathering rocks.\n- Needed for DNA and ATP.\n- Often the limiting factor in ecosystems."
-        },
-        {
-            "id": "envproc_15",
-            "type": "content",
-            "title": "Feedback Loops",
-            "content": "# Spirals 🌀\n\n- **Negative**: Self-correcting (Sweating cools you).\n- **Positive**: Amplifying (Ice melts $\\to$ Less reflection $\\to$ More Heat $\\to$ More Melt). Dangerous!"
-        },
-        {
-            "id": "envproc_16",
-            "type": "content",
-            "title": "Human Impact",
-            "content": "# Anthropocene 🏗️\n\nHumans are now a major geological force.\n- Moving more earth than rivers.\n- Altering atmosphere chemistry.\n- Changing biodiversity."
-        },
-        {
-            "id": "envproc_17",
-            "type": "content",
-            "title": "Env Process Summary",
-            "content": "# Recap 📝\n\n- **Cycles** (Water, Carbon, Nitrogen) keep life going.\n- **Disasters** shape the land rapidly.\n- **Erosion/Deposition** shape the land slowly.\n- Everything is connected."
+            "title": "Summary",
+            "content": "# Environmental Processes Summary\n\n## Weathering:\n| Type | Mechanism |\n|------|----------|\n| Physical | Ice, roots, temperature |\n| Chemical | Oxidation, hydrolysis |\n\n## Erosion Agents:\n- Water, wind, ice, waves, gravity\n\n## Water Cycle:\n- Evaporation, condensation, precipitation\n- 97.5% in oceans\n- Groundwater in aquifers\n\n## Soil:\n- O, A, E, B, C, R horizons\n- CLORPT factors\n- Takes thousands of years to form\n\n> **Congratulations!** You've completed Environmental Processes!"
         }
     ]
 }

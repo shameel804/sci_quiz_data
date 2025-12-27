@@ -2,138 +2,78 @@
     "id": "learn_algo",
     "topicId": "algo",
     "topicTitle": "Algorithms",
-    "description": "Step-by-step recipes for solving problems.",
-    "baseKP": 100,
+    "description": "Explore sorting, searching, complexity analysis, and algorithm design",
+    "baseKP": 75,
     "slides": [
         {
             "id": "algo_1",
             "type": "content",
-            "title": "What is an Algorithm?",
-            "content": "# A Recipe 🥘\n\nA precise sequence of instructions to solve a problem or perform a computation.\n- Input $\\to$ Algorithm $\\to$ Output.\n- Like a cooking recipe, but for computers."
+            "title": "Welcome to Algorithms",
+            "content": "# Introduction to Algorithms\n\nWelcome to **Algorithms** - step-by-step problem solving!\n\n## What You Will Learn:\n- **Algorithm Basics** - What they are and why they matter\n- **Complexity Analysis** - Big O notation\n- **Sorting** - Organizing data\n- **Searching** - Finding data\n- **Algorithm Design** - Strategies\n\n> **Fun Fact:** The word 'algorithm' comes from the Persian mathematician al-Khwarizmi!"
         },
         {
             "id": "algo_2",
             "type": "content",
-            "title": "Big O Notation",
-            "content": "# Measuring Speed ⏱️\n\nHow does the runtime grow as input size ($n$) grows?\n- $O(1)$: Constant (Instant).\n- $O(\\log n)$: Fast (Binary Search).\n- $O(n)$: Linear (Loop through list).\n- $O(n^2)$: Quadratic (Nested loops).\n- $O(2^n)$: Exponential (Too slow)."
+            "title": "Algorithm Basics",
+            "content": "# Algorithm Basics\n\n## Definition:\nA finite set of well-defined instructions to solve a problem.\n\n## Properties:\n- **Input:** Zero or more inputs\n- **Output:** At least one output\n- **Definiteness:** Clear, unambiguous steps\n- **Finiteness:** Terminates after finite steps\n- **Effectiveness:** Each step is basic and doable\n\n## Representation:\n- Natural language\n- Pseudocode\n- Flowcharts\n- Programming code\n\n## Example (Finding Maximum):\n```\n1. Set max = first element\n2. For each remaining element:\n   a. If element > max, set max = element\n3. Return max\n```"
         },
         {
             "id": "algo_3",
             "type": "content",
-            "title": "Linear Search",
-            "content": "# Check One by One 🔍\n\nLooking for an item in an unsorted list.\n1. Check first item.\n2. Check second item.\n3. ...\nWorst case: $O(n)$ (Item is last or not there)."
-        },
-        {
-            "id": "algo_4",
-            "type": "content",
-            "title": "Binary Search",
-            "content": "# Divide and Conquer 🔪\n\nLooking in a **Sorted** list.\n1. Check middle.\n2. If target > middle, discard left half.\n3. Repeat.\nRuntime: $O(\\log n)$. Much faster than linear!"
+            "title": "Complexity Analysis",
+            "content": "# Complexity Analysis\n\n## Big O Notation:\nDescribes how runtime grows with input size.\n\n| Notation | Name | Example |\n|----------|------|--------|\n| O(1) | Constant | Array access |\n| O(log n) | Logarithmic | Binary search |\n| O(n) | Linear | Linear search |\n| O(n log n) | Linearithmic | Merge sort |\n| O(n^2) | Quadratic | Bubble sort |\n| O(2^n) | Exponential | Fibonacci recursive |\n| O(n!) | Factorial | Permutations |\n\n## Rules:\n- Drop constants: O(2n) = O(n)\n- Drop lower terms: O(n^2 + n) = O(n^2)\n- Worst case usually considered\n\n## Space Complexity:\n- Memory used by algorithm\n- Also measured in Big O"
         },
         {
             "id": "algo_quiz_1",
             "type": "quiz",
-            "title": "Speed Quiz",
-            "content": "Complexity check.",
-            "quizQuestion": "Which Big O represents the fastest algorithm?",
+            "title": "Complexity Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Binary search has time complexity:",
             "quizOptions": [
                 "O(n)",
-                "O(2^n)",
-                "O(1)",
-                "O(log n)"
+                "O(log n)",
+                "O(n^2)",
+                "O(1)"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "algo_4",
+            "type": "content",
+            "title": "Sorting Algorithms",
+            "content": "# Sorting Algorithms\n\n## Comparison:\n\n| Algorithm | Best | Average | Worst | Space |\n|-----------|------|---------|-------|-------|\n| Bubble | O(n) | O(n^2) | O(n^2) | O(1) |\n| Selection | O(n^2) | O(n^2) | O(n^2) | O(1) |\n| Insertion | O(n) | O(n^2) | O(n^2) | O(1) |\n| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) |\n| Quick | O(n log n) | O(n log n) | O(n^2) | O(log n) |\n| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) |\n\n## Bubble Sort:\n- Compare adjacent, swap if wrong order\n- Repeat until sorted\n\n## Merge Sort:\n- Divide array in half\n- Sort each half recursively\n- Merge sorted halves\n\n## Quick Sort:\n- Choose pivot\n- Partition around pivot\n- Sort partitions recursively"
         },
         {
             "id": "algo_5",
             "type": "content",
-            "title": "Sorting: Bubble Sort",
-            "content": "# Bubbling Up 🛁\n\nSimple but slow ($O(n^2)$).\n1. Compare adjacent pair.\n2. Swap if wrong order.\n3. Repeat until no swaps needed.\nGood for learning, bad for real use."
+            "title": "Searching Algorithms",
+            "content": "# Searching Algorithms\n\n## Linear Search:\n- Check each element in order\n- O(n) time\n- Works on unsorted data\n\n```\nfor i = 0 to n-1:\n    if array[i] == target:\n        return i\nreturn not found\n```\n\n## Binary Search:\n- Requires sorted data\n- O(log n) time\n- Divide and conquer\n\n```\nlow = 0, high = n-1\nwhile low <= high:\n    mid = (low + high) / 2\n    if array[mid] == target:\n        return mid\n    else if array[mid] < target:\n        low = mid + 1\n    else:\n        high = mid - 1\nreturn not found\n```\n\n## Hash Table Lookup:\n- O(1) average time\n- Uses hash function"
         },
         {
             "id": "algo_6",
             "type": "content",
-            "title": "Sorting: Merge Sort",
-            "content": "# Split and Join 🤝\n\nEfficient ($O(n \\log n)$).\n1. Split list in half until 1 item left.\n2. Merge sorted halves back together.\nRecursive approach."
-        },
-        {
-            "id": "algo_7",
-            "type": "content",
-            "title": "Graph Algorithms: BFS",
-            "content": "# Breadth First Search 🌊\n\nExploring a graph layer by layer.\n- Visit neighbors first, then neighbors' neighbors.\n- Finds **shortest path** in unweighted graphs.\n- Uses a Queue."
-        },
-        {
-            "id": "algo_8",
-            "type": "content",
-            "title": "Graph Algorithms: DFS",
-            "content": "# Depth First Search 🕳️\n\nExploring as deep as possible first.\n- Go down one path to the end, then backtrack.\n- Good for solving mazes.\n- Uses a Stack (or Recursion)."
-        },
-        {
-            "id": "algo_9",
-            "type": "content",
-            "title": "Dijkstra's Algorithm",
-            "content": "# Best Path 📍\n\nFinds shortest path in a **Weighted** graph (like a map with road distances).\n- Basis for Google Maps / GPS.\n- \"Greedy\" approach (Always take closest node)."
-        },
-        {
-            "id": "algo_10",
-            "type": "content",
-            "title": "Recursion",
-            "content": "# Calling Self 📞\n\nA function that calls itself.\n- Must have a **Base Case** (Stop condition) to avoid Infinite Loop.\n- Factorial: $5! = 5 \\times 4!$.\n- Elegant solution for tree structures."
+            "title": "Algorithm Design Strategies",
+            "content": "# Algorithm Design Strategies\n\n## Brute Force:\n- Try all possibilities\n- Simple but often slow\n\n## Divide and Conquer:\n- Break into subproblems\n- Solve recursively\n- Combine solutions\n- Examples: Merge sort, binary search\n\n## Greedy:\n- Make locally optimal choice\n- Hope for global optimum\n- Examples: Dijkstra's, Huffman coding\n\n## Dynamic Programming:\n- Break into overlapping subproblems\n- Store solutions (memoization)\n- Build up solution\n- Examples: Fibonacci, shortest paths\n\n## Backtracking:\n- Explore possibilities\n- Abandon bad paths early\n- Examples: N-queens, Sudoku"
         },
         {
             "id": "algo_quiz_2",
             "type": "quiz",
-            "title": "Search Quiz",
-            "content": "Graph check.",
-            "quizQuestion": "Which algorithm is best for finding the shortest path on a map?",
+            "title": "Sorting Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which sorting algorithm has O(n log n) worst case?",
             "quizOptions": [
                 "Bubble Sort",
-                "Binary Search",
-                "Dijkstra's Algorithm",
-                "DFS"
+                "Quick Sort",
+                "Merge Sort",
+                "Insertion Sort"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "algo_11",
+            "id": "algo_7",
             "type": "content",
-            "title": "Dynamic Programming",
-            "content": "# Remembering Past 🧠\n\nBreaking complex problem into subproblems and saving results (Memoization).\n- Don't calculate Fibonacci(5) twice!\n- Trade memory for speed."
-        },
-        {
-            "id": "algo_12",
-            "type": "content",
-            "title": "Greedy Algorithms",
-            "content": "# In the Moment 😋\n\nMaking the locally optimal choice at each step.\n- Making change: Pick biggest coin first.\n- Doesn't always give best global solution (Knapsack problem)."
-        },
-        {
-            "id": "algo_13",
-            "type": "content",
-            "title": "Hashing",
-            "content": "# Instant Access 🏷️\n\nMapping data to a fixed-size table.\n- Allows looking up items in $O(1)$ time.\n- Used in Dictionaries/HashMaps.\n- Needs to handle Collisions."
-        },
-        {
-            "id": "algo_14",
-            "type": "content",
-            "title": "Space Complexity",
-            "content": "# Memory Cost 💾\n\nNot just time, but RAM matters.\n- Does your algorithm need to copy the whole list ($O(n)$ space)?\n- Or does it swap in place ($O(1)$ space)?"
-        },
-        {
-            "id": "algo_15",
-            "type": "content",
-            "title": "Encryption Algorithms",
-            "content": "# Secret Math 🔒\n\n- **Symmetric**: Same key locks and unlocks (AES).\n- **Asymmetric**: Public key locks, Private key unlocks (RSA).\nRelies on math being easy one way, hard the other (Factoring)."
-        },
-        {
-            "id": "algo_16",
-            "type": "content",
-            "title": "P vs NP",
-            "content": "# The Million Dollar Question 💰\n\n- **P**: Problems solvable quickly.\n- **NP**: Problems verifiable quickly.\n- Does $P = NP$?\n- If yes, we could crack all encryption instantly. Most think No."
-        },
-        {
-            "id": "algo_17",
-            "type": "content",
-            "title": "Algo Summary",
-            "content": "# Recap 📝\n\n- **Searching** and **Sorting** are improved.\n- **Graphs** model connections.\n- **Recursion** divides problems.\n- Efficiency ($O$) is king."
+            "title": "Summary",
+            "content": "# Algorithms Summary\n\n## Big O Hierarchy:\nO(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n)\n\n## Sorting:\n| Algorithm | Time | When to Use |\n|-----------|------|-------------|\n| Quick Sort | O(n log n) avg | General purpose |\n| Merge Sort | O(n log n) | Stable, guaranteed |\n| Insertion | O(n^2) | Small/nearly sorted |\n\n## Searching:\n- Linear: O(n), any data\n- Binary: O(log n), sorted data\n\n## Design Strategies:\n- Divide and conquer\n- Greedy\n- Dynamic programming\n- Backtracking\n\n> **Congratulations!** You've completed Algorithms!"
         }
     ]
 }

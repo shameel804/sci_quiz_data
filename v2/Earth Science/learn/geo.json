@@ -2,138 +2,78 @@
     "id": "learn_geo",
     "topicId": "geo",
     "topicTitle": "Geology",
-    "description": "Study of the Earth, its rocks, and its history.",
-    "baseKP": 100,
+    "description": "Explore Earth's structure, rocks, minerals, and geological processes",
+    "baseKP": 75,
     "slides": [
         {
             "id": "geo_1",
             "type": "content",
-            "title": "What is Geology?",
-            "content": "# Earth Science 🪨\n\nThe study of solid Earth, the rocks of which it is composed, and the processes by which they change over time.\n- **Physical Geology**: Processes (Volcanoes, Earthquakes).\n- **Historical Geology**: Timeline (Fossils, Evolution)."
+            "title": "Welcome to Geology",
+            "content": "# Introduction to Geology\n\nWelcome to **Geology** - the study of Earth!\n\n## What You Will Learn:\n- **Earth's Structure** - Layers of our planet\n- **Plate Tectonics** - Moving continents\n- **Rocks and Minerals** - Earth's building blocks\n- **Geological Processes** - Volcanoes, earthquakes\n\n> **Fun Fact:** Earth is about 4.54 billion years old!"
         },
         {
             "id": "geo_2",
             "type": "content",
-            "title": "Structure of the Earth",
-            "content": "# Layers 🧅\n\n1. **Crust**: Thin outer skin (Oceanic & Continental).\n2. **Mantle**: Thick, flowing solid (Magma).\n3. **Outer Core**: Liquid Iron/Nickel (Generates magnetic field).\n4. **Inner Core**: Solid Iron (Hotter than sun's surface)."
+            "title": "Earth's Structure",
+            "content": "# Earth's Structure\n\n## Layers:\n\n| Layer | Depth | Composition |\n|-------|-------|-------------|\n| Crust | 0-70 km | Silicate rocks |\n| Mantle | 70-2900 km | Silicates, semi-solid |\n| Outer Core | 2900-5100 km | Liquid iron |\n| Inner Core | 5100-6371 km | Solid iron |\n\n## Crust Types:\n- **Continental:** 30-70 km thick, less dense\n- **Oceanic:** 5-10 km thick, more dense\n\n## Mantle:\n- Upper mantle: Asthenosphere (plastic)\n- Lower mantle: Solid but flows slowly\n\n## Core:\n- Generates Earth's magnetic field\n- Temperature: 5000-6000 C"
         },
         {
             "id": "geo_3",
             "type": "content",
             "title": "Plate Tectonics",
-            "content": "# Moving Puzzle 🧩\n\nThe lithosphere is broken into plates that float on the mantle.\n- **Divergent**: Moving apart (Mid-Atlantic Ridge).\n- **Convergent**: Crashing (Himalayas).\n- **Transform**: Sliding (San Andreas Fault)."
+            "content": "# Plate Tectonics\n\n## Theory:\n- Earth's surface divided into plates\n- Plates float on asthenosphere\n- Move slowly (cm/year)\n\n## Plate Boundaries:\n\n| Type | Movement | Features |\n|------|----------|----------|\n| Divergent | Apart | Mid-ocean ridges, rift valleys |\n| Convergent | Together | Mountains, trenches, volcanoes |\n| Transform | Slide past | Earthquakes |\n\n## Evidence:\n- Continental fit (puzzle pieces)\n- Fossil distribution\n- Matching rock formations\n- Seafloor spreading\n\n## Driving Forces:\n- Convection in mantle\n- Ridge push\n- Slab pull"
+        },
+        {
+            "id": "geo_quiz_1",
+            "type": "quiz",
+            "title": "Tectonics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Mountains form at which type of plate boundary?",
+            "quizOptions": [
+                "Divergent",
+                "Convergent",
+                "Transform",
+                "All types"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "geo_4",
             "type": "content",
-            "title": "Continental Drift",
-            "content": "# Pangea 🗺️\n\nProposed by Alfred Wegener (1912).\n- Continents fit like puzzle pieces.\n- Fossils found on separated continents.\n- Initially rejected, now accepted as Plate Tectonics."
+            "title": "Minerals",
+            "content": "# Minerals\n\n## Definition:\n- Naturally occurring\n- Inorganic\n- Solid\n- Crystalline structure\n- Definite chemical composition\n\n## Properties:\n\n| Property | Description |\n|----------|------------|\n| Hardness | Mohs scale (1-10) |\n| Luster | Metallic, glassy, earthy |\n| Color | Variable, not reliable |\n| Streak | Powder color |\n| Cleavage | How it breaks |\n\n## Common Minerals:\n\n| Mineral | Composition | Use |\n|---------|-------------|-----|\n| Quartz | SiO2 | Glass, electronics |\n| Feldspar | Aluminosilicate | Ceramics |\n| Calcite | CaCite | Cement |\n| Mica | Silicate | Insulation |"
         },
         {
             "id": "geo_5",
             "type": "content",
             "title": "Rock Cycle",
-            "content": "# Recycling ♻️\n\nRocks endlessly change form.\n1. **Igneous**: Melts & Cools.\n2. **Sedimentary**: Erodes & Cements.\n3. **Metamorphic**: Heat & Pressure.\nNo rock is permanent!"
-        },
-        {
-            "id": "geo_quiz_1",
-            "type": "quiz",
-            "title": "Rock Quiz",
-            "content": "Identify the type.",
-            "quizQuestion": "Which rock type is formed from cooling magma?",
-            "quizOptions": [
-                "Sedimentary",
-                "Metamorphic",
-                "Igneous",
-                "Limestone"
-            ],
-            "correctOptionIndex": 2
+            "content": "# Rock Cycle\n\n## Three Rock Types:\n\n### Igneous:\n- From cooled magma/lava\n- Intrusive (slow cooling, large crystals)\n- Extrusive (fast cooling, small crystals)\n- Examples: Granite, basalt\n\n### Sedimentary:\n- From deposited sediments\n- Layers, fossils\n- Examples: Sandstone, limestone, shale\n\n### Metamorphic:\n- Changed by heat and pressure\n- New minerals form\n- Examples: Marble (from limestone), slate (from shale)\n\n## The Cycle:\n```\nIgneous -> Weathering -> Sediment\nSediment -> Compaction -> Sedimentary\nAny rock + Heat/Pressure -> Metamorphic\nAny rock + Melting -> Magma -> Igneous\n```"
         },
         {
             "id": "geo_6",
             "type": "content",
-            "title": "Igneous Rocks",
-            "content": "# Fire Rocks 🔥\n\n- **Intrusive**: Cooled slowly underground (Granite). Large crystals.\n- **Extrusive**: Cooled quickly on surface (Basalt, Obsidian). Small/No crystals."
-        },
-        {
-            "id": "geo_7",
-            "type": "content",
-            "title": "Sedimentary Rocks",
-            "content": "# Layers 🍰\n\nFormed from sand, mud, and organic matter compressed over time.\n- **Sandstone**: From sand.\n- **Limestone**: From shells/coral.\n- Only type that contains **Fossils**."
-        },
-        {
-            "id": "geo_8",
-            "type": "content",
-            "title": "Metamorphic Rocks",
-            "content": "# Changed Form 🦋\n\nRocks altered by extreme heat/pressure (without melting).\n- Limestone $\\to$ Marble.\n- Shale $\\to$ Slate.\n- Granite $\\to$ Gneiss."
-        },
-        {
-            "id": "geo_9",
-            "type": "content",
-            "title": "Volcanoes",
-            "content": "# Earth's Vents 🌋\n\n- **Shield**: Gentle lava flow (Hawaii).\n- **Composite (Stratovolcano)**: Explosive (St. Helens, Fuji).\n- **Caldera**: Collapsed giant (Yellowstone).\nLava cools into new land."
-        },
-        {
-            "id": "geo_10",
-            "type": "content",
-            "title": "Earthquakes",
-            "content": "# Shaking Ground 📉\n\nSudden release of energy in crust.\n- **Focus**: Origin point underground.\n- **Epicenter**: Point on surface above focus.\n- Measured by **Richter Scale** (Logarithmic: 7 is 10x stronger than 6)."
-        },
-        {
-            "id": "geo_11",
-            "type": "content",
-            "title": "Minerals",
-            "content": "# Building Blocks 💎\n\nNatural, inorganic solids with crystal structure.\n- **Hardness**: Mohs Scale (Talc=1, Diamond=10).\n- **Luster**: Shiny?\n- **Cleavage**: How it breaks.\nRocks are made of minerals."
+            "title": "Earthquakes and Volcanoes",
+            "content": "# Earthquakes and Volcanoes\n\n## Earthquakes:\n\n**Cause:** Sudden release of stress in rocks\n\n**Terms:**\n- Focus: Underground origin\n- Epicenter: Surface above focus\n- Seismic waves: P, S, surface waves\n\n**Measurement:**\n- Richter scale (magnitude)\n- Mercalli scale (intensity)\n\n## Volcanoes:\n\n| Type | Shape | Eruption |\n|------|-------|----------|\n| Shield | Broad, flat | Gentle, lava flows |\n| Cinder cone | Steep, small | Moderate |\n| Composite | Tall, steep | Explosive |\n\n**Volcanic Materials:**\n- Lava, ash, pyroclastic flows\n- Gases (H2O, CO2, SO2)\n\n**Ring of Fire:**\n- Pacific rim\n- 75% of world's volcanoes"
         },
         {
             "id": "geo_quiz_2",
             "type": "quiz",
-            "title": "Mineral Quiz",
-            "content": "Hardness check.",
-            "quizQuestion": "What is the hardest natural mineral on Mohs scale?",
+            "title": "Rocks Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Granite is what type of rock?",
             "quizOptions": [
-                "Quartz",
-                "Steel",
-                "Diamond",
-                "Corundum"
+                "Sedimentary",
+                "Metamorphic",
+                "Igneous",
+                "Volcanic"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "geo_12",
+            "id": "geo_7",
             "type": "content",
-            "title": "Weathering vs Erosion",
-            "content": "# Breaking Down 🌧️\n\n- **Weathering**: Breaking rocks *in place* (Rust, Freeze-thaw).\n- **Erosion**: Moving the pieces away (Water, Wind, Ice)."
-        },
-        {
-            "id": "geo_13",
-            "type": "content",
-            "title": "Geologic Time",
-            "content": "# Deep Time ⏳\n\nEarth is 4.54 Billion years old.\n- **Eons** $\\to$ **Eras** $\\to$ **Periods**.\n- **Precambrian**: 88% of history (Single cells).\n- **Phanerozoic**: Visible life (Paleozoic, Mesozoic, Cenozoic)."
-        },
-        {
-            "id": "geo_14",
-            "type": "content",
-            "title": "Fossils",
-            "content": "# Stone Bones 🦴\n\nPreserved remains of ancient life.\n- **Body Fossils**: Bones, Shells.\n- **Trace Fossils**: Footprints, Burrows.\n- **Index Fossils**: Used to date rock layers (Trilobites)."
-        },
-        {
-            "id": "geo_15",
-            "type": "content",
-            "title": "Soil",
-            "content": "# Dirt 🪴\n\nMixture of weathered rock and organic matter (Humus).\n- Supports all plant life.\n- Takes centuries to form 1 inch.\n- Horizon layers: O (Organic), A (Topsoil), B (Subsoil), C (Parent)."
-        },
-        {
-            "id": "geo_16",
-            "type": "content",
-            "title": "Groundwater",
-            "content": "# Hidden Water 💧\n\nWater stored in **Aquifers** (porous rock).\n- **Water Table**: Top level of saturation.\n- Cave formation (Karst topography) happens when acid water dissolves limestone."
-        },
-        {
-            "id": "geo_17",
-            "type": "content",
-            "title": "Geology Summary",
-            "content": "# Recap 📝\n\n- Earth is active (**Tectonics**).\n- Rocks cycle (**Igneous/Sedimentary/Metamorphic**).\n- **Time** is vast.\n- Landscape is shaped by build-up (Volcanoes) and wear-down (Erosion)."
+            "title": "Summary",
+            "content": "# Geology Summary\n\n## Earth's Layers:\n- Crust, Mantle, Outer Core, Inner Core\n\n## Plate Tectonics:\n| Boundary | Result |\n|----------|--------|\n| Divergent | Ridges, rifts |\n| Convergent | Mountains, trenches |\n| Transform | Earthquakes |\n\n## Rock Types:\n| Type | Formation |\n|------|----------|\n| Igneous | Cooled magma |\n| Sedimentary | Deposited layers |\n| Metamorphic | Heat/pressure |\n\n## Natural Hazards:\n- Earthquakes at plate boundaries\n- Volcanoes at convergent/divergent\n\n> **Congratulations!** You've completed Geology!"
         }
     ]
 }

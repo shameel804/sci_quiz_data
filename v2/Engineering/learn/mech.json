@@ -2,138 +2,134 @@
     "id": "learn_mech",
     "topicId": "mech",
     "topicTitle": "Mechanical Engineering",
-    "description": "Designing and building machines.",
-    "baseKP": 100,
+    "description": "Explore mechanics, thermodynamics, and machine design",
+    "baseKP": 75,
     "slides": [
         {
             "id": "mech_1",
             "type": "content",
-            "title": "What is Mechanical Engineering?",
-            "content": "# Moving Parts ⚙️\n\nThe branch of engineering dealing with the design, construction, and use of machines.\n- Anything that moves: Cars, Robots, Engines, HVAC systems."
+            "title": "Welcome to Mechanical Engineering",
+            "content": "# Introduction to Mechanical Engineering\n\nWelcome to **Mechanical Engineering** - designing machines!\n\n## What You Will Learn:\n- **Statics and Dynamics** - Forces and motion\n- **Mechanics of Materials** - Stress and strain\n- **Thermodynamics** - Heat and energy\n- **Machine Design** - Creating systems\n- **Manufacturing** - Making things\n\n> **Fun Fact:** Mechanical engineering is one of the oldest and broadest engineering disciplines!"
         },
         {
             "id": "mech_2",
             "type": "content",
-            "title": "Mechanics of Materials",
-            "content": "# Strength & Stress 🏋️\n\nHow materials deform under load.\n- **Stress**: Force per unit area.\n- **Strain**: Deformation.\n- **Elasticity**: Returning to original shape (Spring).\n- **Plasticity**: Permenant deformation (Bent metal)."
+            "title": "Statics",
+            "content": "# Statics\n\n## Equilibrium Conditions:\n- Sum of forces = 0\n- Sum of moments = 0\n\n## Free Body Diagrams:\n1. Isolate the object\n2. Show all external forces\n3. Apply equilibrium equations\n\n## Types of Supports:\n\n| Support | Reactions |\n|---------|----------|\n| Roller | 1 force (perpendicular) |\n| Pin | 2 forces (any direction) |\n| Fixed | 2 forces + 1 moment |\n\n## Applications:\n- Trusses\n- Frames\n- Machines"
         },
         {
             "id": "mech_3",
             "type": "content",
-            "title": "Thermodynamics",
-            "content": "# Heat Power 🔥\n\nEnergy conversion.\n- **1st Law**: Energy cannot be created/destroyed.\n- **2nd Law**: Entropy increases (Perpetual motion is impossible).\n- Applications: Car engines, Refrigerators, Power plants."
-        },
-        {
-            "id": "mech_4",
-            "type": "content",
-            "title": "Fluid Mechanics",
-            "content": "# Flow 🌊\n\nHow liquids and gases move.\n- **Aerodynamics**: Airflow over cars/planes.\n- **Hydraulics**: Using fluid pressure to lift heavy loads (Excavators).\n- **Bernoulli's Principle**: Faster fluid $\\to$ Lower pressure (Why planes fly)."
-        },
-        {
-            "id": "mech_5",
-            "type": "content",
-            "title": "Kinematics of Machinery",
-            "content": "# Geometry of Motion 📐\n\nAnalyzing motion without considering forces.\n- **Linkages**: Connecting bars to create movement paths.\n- **Cams**: Converting rotating motion to linear motion (Valves in engine)."
+            "title": "Dynamics",
+            "content": "# Dynamics\n\n## Kinematics (motion description):\n- Position, velocity, acceleration\n- Linear and angular motion\n\n## Kinetics (forces and motion):\n- F = ma (Newton's second law)\n- Moment = I x alpha\n\n## Energy Methods:\n- Kinetic energy: KE = 0.5 x m x v^2\n- Potential energy: PE = m x g x h\n- Work-energy theorem\n\n## Momentum:\n- Linear: p = m x v\n- Conservation in collisions\n\n## Rotation:\n- Angular velocity: omega\n- Angular acceleration: alpha\n- Moment of inertia: I"
         },
         {
             "id": "mech_quiz_1",
             "type": "quiz",
-            "title": "Law Quiz",
-            "content": "Physics check.",
-            "quizQuestion": "Which law states that energy cannot be created or destroyed?",
+            "title": "Statics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In static equilibrium, the sum of forces equals:",
             "quizOptions": [
-                "Murphy's Law",
-                "1st Law of Thermodynamics",
-                "Newton's 3rd Law",
-                "2nd Law of Thermodynamics"
+                "Maximum",
+                "Zero",
+                "One",
+                "Mass times acceleration"
             ],
             "correctOptionIndex": 1
+        },
+        {
+            "id": "mech_4",
+            "type": "content",
+            "title": "Stress and Strain",
+            "content": "# Stress and Strain\n\n## Stress (sigma):\n```\nsigma = F / A\n```\nUnits: Pa (N/m^2) or psi\n\n## Strain (epsilon):\n```\nepsilon = delta_L / L\n```\nDimensionless\n\n## Hooke's Law:\n```\nsigma = E x epsilon\n```\nE = Young's modulus (material stiffness)\n\n## Stress-Strain Curve:\n- Elastic region (linear)\n- Yield point\n- Plastic region\n- Ultimate strength\n- Fracture"
+        },
+        {
+            "id": "mech_5",
+            "type": "content",
+            "title": "Types of Loading",
+            "content": "# Types of Loading\n\n| Type | Description | Formula |\n|------|------------|--------|\n| Tension | Pulling apart | sigma = F/A |\n| Compression | Pushing together | sigma = F/A |\n| Shear | Sliding forces | tau = F/A |\n| Torsion | Twisting | tau = T*r/J |\n| Bending | Curving | sigma = M*y/I |\n\n## Material Properties:\n- Yield strength\n- Ultimate tensile strength\n- Modulus of elasticity\n- Poisson's ratio\n- Ductility vs brittleness"
         },
         {
             "id": "mech_6",
             "type": "content",
-            "title": "Manufacturing Processes",
-            "content": "# Making Things 🏭\n\n- **Casting**: Pouring molten metal into mold.\n- **Machining**: Cutting away material (Lathe, Mill).\n- **Forging**: Hammering hot metal (Stronger).\n- **3D Printing**: Adding material layer by layer."
-        },
-        {
-            "id": "mech_7",
-            "type": "content",
-            "title": "Gears",
-            "content": "# Torque vs Speed ⚙️\n\n- **Small driving Big**: Increases Torque (Strength), decreases Speed.\n- **Big driving Small**: Increases Speed, decreases Torque.\n- Types: Spur, Helical, Bevel, Worm."
-        },
-        {
-            "id": "mech_8",
-            "type": "content",
-            "title": "Internal Combustion Engine",
-            "content": "# 4 Strokes 🚗\n\n1. **Intake**: Fuel/Air in.\n2. **Compression**: Squeeze it.\n3. **Combustion**: Bang! (Power stroke).\n4. **Exhaust**: Smoke out.\n\"Suck, Squeeze, Bang, Blow\"."
-        },
-        {
-            "id": "mech_9",
-            "type": "content",
-            "title": "Bearings",
-            "content": "# Smooth Spin ⛸️\n\nReducing friction between moving parts.\n- **Ball Bearings**: Rolling spheres.\n- **Roller Bearings**: Rolling cylinders (High load).\n- Without them, machines would grind to a halt."
-        },
-        {
-            "id": "mech_10",
-            "type": "content",
-            "title": "CAD / CAM",
-            "content": "# Digital Design 💻\n\n- **CAD**: Computer Aided Design (Drawing in 3D).\n- **CAM**: Computer Aided Manufacturing (Robots building from CAD).\n- Replaced drafting tables."
-        },
-        {
-            "id": "mech_11",
-            "type": "content",
-            "title": "Heat Transfer",
-            "content": "# Cooling Down ❄️\n\nremoving heat from where it's not wanted.\n- **Conduction**: Through solid (Processor to heatsink).\n- **Convection**: Through fluid/air (Fan blowing).\n- **Radiation**: Through space (Sun)."
+            "title": "Thermodynamics Laws",
+            "content": "# Laws of Thermodynamics\n\n## Zeroth Law:\nIf A and B are in thermal equilibrium with C, then A and B are in equilibrium.\n\n## First Law:\nEnergy conservation:\n```\ndU = Q - W\n```\n- dU = change in internal energy\n- Q = heat added\n- W = work done by system\n\n## Second Law:\nEntropy of isolated system never decreases.\n- Heat flows from hot to cold\n- No 100% efficient heat engine\n\n## Third Law:\nEntropy approaches zero as temperature approaches absolute zero."
         },
         {
             "id": "mech_quiz_2",
             "type": "quiz",
-            "title": "Force Quiz",
-            "content": "Application check.",
-            "quizQuestion": "Which system uses liquid pressure to lift heavy loads?",
+            "title": "Mechanics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Stress is defined as:",
             "quizOptions": [
-                "Pneumatics",
-                "Hydraulics",
-                "Aerodynamics",
-                "Electronics"
+                "Force / Area",
+                "Force x Distance",
+                "Mass x Acceleration",
+                "Change in length"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "mech_7",
+            "type": "content",
+            "title": "Heat Transfer",
+            "content": "# Heat Transfer\n\n## Conduction:\n- Through solid material\n- Fourier's Law: q = -k x dT/dx\n- k = thermal conductivity\n\n## Convection:\n- Through fluid motion\n- q = h x A x delta_T\n- h = convection coefficient\n\n## Radiation:\n- Electromagnetic waves\n- Stefan-Boltzmann: q = epsilon x sigma x A x T^4\n- No medium required\n\n## Applications:\n- Heat exchangers\n- Insulation design\n- Cooling systems"
+        },
+        {
+            "id": "mech_8",
+            "type": "content",
+            "title": "Thermodynamic Cycles",
+            "content": "# Thermodynamic Cycles\n\n| Cycle | Application | Efficiency |\n|-------|-------------|------------|\n| Carnot | Ideal (maximum) | 1 - Tc/Th |\n| Otto | Gasoline engines | ~25-30% |\n| Diesel | Diesel engines | ~35-40% |\n| Rankine | Steam power plants | ~35-45% |\n| Brayton | Gas turbines | ~30-40% |\n| Refrigeration | Cooling systems | COP |\n\n## Key Components:\n- Compressor\n- Heat exchangers\n- Turbine/expander\n- Pump"
+        },
+        {
+            "id": "mech_9",
+            "type": "content",
+            "title": "Machine Elements",
+            "content": "# Machine Elements\n\n## Power Transmission:\n\n| Element | Function |\n|---------|-----------|\n| Gears | Transfer rotation, change speed/torque |\n| Belts | Flexible power transfer |\n| Chains | Positive drive |\n| Shafts | Transmit torque |\n| Couplings | Connect shafts |\n\n## Support Elements:\n- Bearings (reduce friction)\n- Bushings\n- Seals\n\n## Fasteners:\n- Bolts and screws\n- Rivets\n- Welds"
+        },
+        {
+            "id": "mech_10",
+            "type": "content",
+            "title": "Gear Systems",
+            "content": "# Gear Systems\n\n## Gear Types:\n\n| Type | Application |\n|------|-------------|\n| Spur | Parallel shafts |\n| Helical | Smooth, quiet |\n| Bevel | Intersecting shafts |\n| Worm | High reduction |\n| Rack and pinion | Linear motion |\n\n## Gear Ratio:\n```\nGR = N_driven / N_driver = omega_in / omega_out\n```\n\n## Torque Relationship:\n```\nT_out / T_in = GR\n```\n\n## Applications:\n- Transmissions\n- Clocks\n- Industrial machinery"
+        },
+        {
+            "id": "mech_quiz_3",
+            "type": "quiz",
+            "title": "Thermo Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The Carnot cycle represents:",
+            "quizOptions": [
+                "Minimum efficiency",
+                "Maximum efficiency",
+                "Average efficiency",
+                "Zero efficiency"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "mech_11",
+            "type": "content",
+            "title": "Fatigue and Failure",
+            "content": "# Fatigue and Failure\n\n## Fatigue:\n- Failure under repeated loading\n- Below ultimate strength\n- Progressive crack growth\n\n## S-N Curve:\n- Stress vs Number of cycles\n- Endurance limit (some materials)\n- Design for fatigue life\n\n## Failure Modes:\n- Yielding (permanent deformation)\n- Fracture (breaking)\n- Fatigue (cyclic loading)\n- Creep (high temperature)\n- Corrosion\n\n## Design Approach:\n- Factor of safety\n- Stress concentration avoidance\n- Material selection"
+        },
+        {
             "id": "mech_12",
             "type": "content",
-            "title": "Vibrations",
-            "content": "# Shake 📳\n\nOscillations in machines.\n- Can destroy structures (Resonance).\n- Engineers design \"Dampers\" to absorb energy.\n- Important for bridges and tall buildings."
+            "title": "Manufacturing Processes",
+            "content": "# Manufacturing Processes\n\n## Shaping:\n\n| Process | Description |\n|---------|-------------|\n| Casting | Pour molten metal |\n| Forging | Shape by compression |\n| Rolling | Reduce thickness |\n| Extrusion | Push through die |\n| Drawing | Pull through die |\n\n## Material Removal:\n- Turning (lathe)\n- Milling\n- Drilling\n- Grinding\n\n## Joining:\n- Welding\n- Brazing\n- Adhesives\n- Mechanical fasteners"
         },
         {
             "id": "mech_13",
             "type": "content",
-            "title": "Finite Element Analysis (FEA)",
-            "content": "# Simulation 🎮\n\nUsing computers to simulate stress/heat on a part.\n- Breaks complex shape into millions of tiny cubes.\n- \"Will this bridge beak?\" (Test on PC before building)."
+            "title": "CAD/CAE",
+            "content": "# Computer-Aided Design and Engineering\n\n## CAD (Design):\n- 2D drafting\n- 3D solid modeling\n- Assembly design\n- Drawing generation\n\n## CAE (Analysis):\n- Finite Element Analysis (FEA)\n- Computational Fluid Dynamics (CFD)\n- Multibody dynamics\n- Optimization\n\n## FEA Process:\n1. Create geometry\n2. Mesh the model\n3. Apply boundary conditions\n4. Solve\n5. Post-process results\n\n## Common Software:\n- SolidWorks, CATIA, AutoCAD\n- ANSYS, Abaqus, NASTRAN"
         },
         {
             "id": "mech_14",
             "type": "content",
-            "title": "HVAC",
-            "content": "# Air Control 🌡️\n\nHeating, Ventilation, and Air Conditioning.\n- Managing Temperature, Humidity, and Air Quality.\n- Critical for skyscrapers and hospitals."
-        },
-        {
-            "id": "mech_15",
-            "type": "content",
-            "title": "Turbomachinery",
-            "content": "# Spinners 🌀\n\nMachines that transfer energy between rotor and fluid.\n- **Turbines**: Fluid $\\to$ Energy (Jet engine, Power plant).\n- **Pumps/Compressors**: Energy $\\to$ Fluid."
-        },
-        {
-            "id": "mech_16",
-            "type": "content",
-            "title": "Mechatronics",
-            "content": "# Integration 🤖\n\nMerging Mechanical with Electronics and Code.\n- Anti-lock Brakes (ABS).\n- Drones.\n- Modern cars are computers on wheels."
-        },
-        {
-            "id": "mech_17",
-            "type": "content",
-            "title": "Mech Eng Summary",
-            "content": "# Recap 📝\n\n- **Forces** and **Materials** dictate design.\n- **Heat** and **Energy** power movement.\n- Precise manufacturing builds our world."
+            "title": "Summary",
+            "content": "# Mechanical Engineering Summary\n\n## Mechanics:\n- Statics: F = 0, M = 0\n- Dynamics: F = ma\n- Stress = F/A, Strain = dL/L\n\n## Thermodynamics:\n- Energy conservation (1st law)\n- Entropy increases (2nd law)\n- Heat engines and refrigeration\n\n## Machine Design:\n- Gears, bearings, shafts\n- Fatigue analysis\n- CAD/CAE tools\n\n## Manufacturing:\n- Casting, forging, machining\n- Joining methods\n\n> **Congratulations!** You've completed Mechanical Engineering!"
         }
     ]
 }

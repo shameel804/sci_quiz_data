@@ -2,138 +2,90 @@
     "id": "learn_eco",
     "topicId": "eco",
     "topicTitle": "Ecology",
-    "description": "Examine the interactions between organisms and their environment.",
-    "baseKP": 100,
+    "description": "Explore ecosystems, food webs, nutrient cycles, and population dynamics",
+    "baseKP": 75,
     "slides": [
         {
             "id": "eco_1",
             "type": "content",
-            "title": "What is Ecology?",
-            "content": "# The Web of Life 🕸️\n\nThe study of interactions between organisms (Biotic) and their environment (Abiotic).\n\nLevels:\nOrganism $\\to$ Population $\\to$ Community $\\to$ Ecosystem $\\to$ Biosphere."
+            "title": "Welcome to Ecology",
+            "content": "# Introduction to Ecology\n\nWelcome to **Ecology** - the study of organisms and their environment!\n\n## What You Will Learn:\n- **Ecosystems** - Components and interactions\n- **Food Webs** - Energy flow\n- **Nutrient Cycles** - Matter cycling\n- **Populations** - Growth and dynamics\n- **Communities** - Species interactions\n\n> **Fun Fact:** The word 'ecology' comes from Greek 'oikos' meaning 'house'!\n\n## Levels of Organization:\n1. Organism\n2. Population (same species)\n3. Community (different species)\n4. Ecosystem (community + environment)\n5. Biome (similar ecosystems)\n6. Biosphere (all life on Earth)"
         },
         {
             "id": "eco_2",
             "type": "content",
-            "title": "Energy Flow",
-            "content": "# Sun Power ☀️\n\nAll energy starts from the Sun.\n- **Producers (Autotrophs)**: Make food (Plants/Algae).\n- **Consumers (Heterotrophs)**: Eat food.\n- **Decomposers**: Break down waste (Fungi/Bacteria)."
+            "title": "Ecosystems",
+            "content": "# Ecosystems\n\n## Components:\n\n### Biotic (Living):\n- Producers (plants, algae)\n- Consumers (animals)\n- Decomposers (fungi, bacteria)\n\n### Abiotic (Non-living):\n- Sunlight\n- Water\n- Temperature\n- Soil\n- Nutrients\n\n## Biomes:\n\n| Biome | Climate | Organisms |\n|-------|---------|----------|\n| Tropical rainforest | Hot, wet | High diversity |\n| Desert | Hot, dry | Cacti, reptiles |\n| Grassland | Seasonal | Grasses, grazers |\n| Temperate forest | Four seasons | Deciduous trees |\n| Taiga | Cold, snowy | Conifers |\n| Tundra | Very cold | Lichens, mosses |\n\n## Aquatic Ecosystems:\n\n**Freshwater:** Lakes, rivers, streams\n**Marine:** Oceans, estuaries, coral reefs\n\n## Primary Production:\n- Rate of biomass production by plants\n- High: Rainforests, estuaries\n- Low: Deserts, open ocean"
         },
         {
             "id": "eco_3",
             "type": "content",
-            "title": "Food Chains & Webs",
-            "content": "# Who eats Whom? 🍽️\n\n- **Chain**: Linear (Grass $\\to$ Rabbit $\\to$ Fox).\n- **Web**: Complex network of all feedings in an area.\n\n**Trophic Levels**: Steps in the chain.\n1. Primary Producer\n2. Primary Consumer (Herbivore)\n3. Secondary Consumer (Carnivore)\n4. Tertiary Consumer (Top Predator)"
-        },
-        {
-            "id": "eco_4",
-            "type": "content",
-            "title": "The 10% Rule",
-            "content": "# Energy Loss 📉\n\nOnly ~10% of energy is passed to the next level.\n- 90% is lost as Head, Metabolism, or Waste.\n- This is why there are millions of blades of grass but only a few lions."
+            "title": "Energy Flow",
+            "content": "# Energy Flow in Ecosystems\n\n## Trophic Levels:\n\n| Level | Role | Examples |\n|-------|------|----------|\n| 1 | Producers | Plants, algae |\n| 2 | Primary consumers | Herbivores |\n| 3 | Secondary consumers | Carnivores |\n| 4 | Tertiary consumers | Top predators |\n| - | Decomposers | Fungi, bacteria |\n\n## Food Chains:\n```\nGrass -> Grasshopper -> Frog -> Snake -> Hawk\n```\n\n## Food Webs:\n- Interconnected food chains\n- More realistic representation\n- Multiple energy pathways\n\n## 10% Rule:\n- Only ~10% of energy transfers to next level\n- 90% lost as heat (metabolism)\n- Limits length of food chains\n\n## Energy Pyramid:\n```\n    Tertiary (1 kcal)\n   Secondary (10 kcal)\n  Primary (100 kcal)\n Producers (1000 kcal)\n```\n\n## Biomass and Numbers:\n- Biomass pyramid usually upright\n- Numbers pyramid can be inverted (tree with parasites)"
         },
         {
             "id": "eco_quiz_1",
             "type": "quiz",
             "title": "Energy Quiz",
-            "content": "Check efficiency.",
-            "quizQuestion": "If grass has 10,000 units of energy, how much reaches the Primary Consumer (Cow)?",
+            "content": "Test your knowledge!",
+            "quizQuestion": "How much energy typically transfers between trophic levels?",
             "quizOptions": [
-                "10,000",
-                "1,000",
-                "100",
-                "10"
+                "1%",
+                "10%",
+                "50%",
+                "90%"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "eco_4",
+            "type": "content",
+            "title": "Nutrient Cycles",
+            "content": "# Nutrient Cycles\n\nMatter cycles through ecosystems (unlike energy).\n\n## Carbon Cycle:\n\n**Into atmosphere:**\n- Respiration\n- Combustion\n- Decomposition\n\n**Out of atmosphere:**\n- Photosynthesis\n- Ocean absorption\n\n**Long-term storage:**\n- Fossil fuels\n- Limestone\n\n## Nitrogen Cycle:\n\n| Process | Description |\n|---------|------------|\n| Nitrogen fixation | N2 -> NH3 (bacteria) |\n| Nitrification | NH3 -> NO3- |\n| Assimilation | Plants absorb NO3- |\n| Ammonification | Dead matter -> NH3 |\n| Denitrification | NO3- -> N2 |\n\n## Phosphorus Cycle:\n- No atmospheric component\n- Rocks -> Soil -> Organisms -> Decomposition\n- Often limiting nutrient\n- Fertilizer runoff causes problems\n\n## Water Cycle:\n- Evaporation\n- Condensation\n- Precipitation\n- Transpiration\n- Runoff\n- Infiltration"
+        },
+        {
             "id": "eco_5",
             "type": "content",
-            "title": "Biogeochemical Cycles",
-            "content": "# Recycling Matter ♻️\n\nEnergy flows one way, but Matter cycles.\n\n1. **Water Cycle**: Evaporation, Condensation, Precipitation.\n2. **Carbon Cycle**: Photosynthesis, Respiration, Combustion.\n3. **Nitrogen Cycle**: Bacteria fix nitrogen for plants."
+            "title": "Population Ecology",
+            "content": "# Population Ecology\n\n## Population Growth:\n\n**Exponential Growth:**\n```\ndN/dt = rN\n```\n- Unlimited resources\n- J-shaped curve\n- Rarely sustained\n\n**Logistic Growth:**\n```\ndN/dt = rN(K-N)/K\n```\n- Limited resources\n- S-shaped curve\n- Levels off at carrying capacity (K)\n\n## Carrying Capacity (K):\n- Maximum population environment can support\n- Determined by resources\n- Can change over time\n\n## Limiting Factors:\n\n**Density-dependent:**\n- Competition\n- Predation\n- Disease\n- Parasites\n\n**Density-independent:**\n- Weather\n- Natural disasters\n- Human activities\n\n## Life History Strategies:\n\n| r-selected | K-selected |\n|------------|------------|\n| Many offspring | Few offspring |\n| Little parental care | Much parental care |\n| Short lifespan | Long lifespan |\n| Early reproduction | Later reproduction |\n| Bacteria, insects | Elephants, whales |"
         },
         {
             "id": "eco_6",
             "type": "content",
-            "title": "Community Interactions",
-            "content": "# Relationships 🤝\n\n- **Competition**: (-/-) Both fight for resources.\n- **Predation**: (+/-) One eats other.\n- **Symbiosis**:\n  - **Mutualism**: (+/+) Both win (Bees/Flowers).\n  - **Commensalism**: (+/0) One wins, other unaffected (Barnacle/Whale).\n  - **Parasitism**: (+/-) One wins, other hurt (Tick/Dog)."
+            "title": "Species Interactions",
+            "content": "# Species Interactions\n\n## Types:\n\n| Interaction | Species 1 | Species 2 |\n|-------------|-----------|----------|\n| Competition | - | - |\n| Predation | + | - |\n| Parasitism | + | - |\n| Mutualism | + | + |\n| Commensalism | + | 0 |\n\n## Competition:\n- Same resources\n- Intraspecific (within species) or interspecific\n- Competitive exclusion principle\n\n## Predation:\n- Predator kills prey\n- Coevolution of defenses and hunting\n\n**Defenses:**\n- Camouflage\n- Warning coloration\n- Mimicry\n- Chemical defenses\n\n## Symbiosis:\n\n**Mutualism:** Both benefit\n- Bees and flowers\n- Mycorrhizae\n\n**Commensalism:** One benefits, other neutral\n- Remora on shark\n\n**Parasitism:** One benefits, other harmed\n- Tapeworms\n- Mistletoe\n\n## Keystone Species:\n- Disproportionate effect on ecosystem\n- Removal causes major changes\n- Example: Sea otters, wolves"
+        },
+        {
+            "id": "eco_quiz_2",
+            "type": "quiz",
+            "title": "Interactions Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In mutualism, how are both species affected?",
+            "quizOptions": [
+                "Both harmed",
+                "Both benefit",
+                "One benefits, one harmed",
+                "No effect"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "eco_7",
             "type": "content",
             "title": "Ecological Succession",
-            "content": "# Healing Nature 🌱\n\n- **Primary**: Starting from bare rock (Volcano/Glacier). Lichens $\\to$ Moss $\\to$ Grass... $\\to$ Forest.\n- **Secondary**: Soil exists (Fire/Farm). Grows back faster.\n- **Climax Community**: Stable endpoint."
+            "content": "# Ecological Succession\n\n**Succession:** Gradual change in community over time\n\n## Primary Succession:\n- Starts on bare rock/new surface\n- No soil present\n- Pioneer species (lichens, mosses)\n- Very slow process\n\n**Sequence:**\n1. Bare rock\n2. Lichens\n3. Mosses, small plants\n4. Grasses, shrubs\n5. Trees\n6. Climax community\n\n## Secondary Succession:\n- Starts after disturbance\n- Soil already present\n- Faster than primary\n\n**Examples:**\n- After fire\n- Abandoned farmland\n- After hurricane\n\n## Climax Community:\n- Stable, mature community\n- Relatively unchanging\n- Determined by climate\n\n## Pioneer Species:\n- First to colonize\n- Tolerant of harsh conditions\n- Modify environment for others"
         },
         {
             "id": "eco_8",
             "type": "content",
-            "title": "Populations",
-            "content": "# Adding Up 📈\n\nFactors:\n- Births/Immigration (+)\n- Deaths/Emigration (-)\n\n**Carrying Capacity ($K$)**: Max population an environment can support. Growth levels off here."
+            "title": "Biodiversity",
+            "content": "# Biodiversity\n\n## Types:\n\n**Genetic diversity:**\n- Variation within species\n- Important for adaptation\n\n**Species diversity:**\n- Number and variety of species\n- Richness + evenness\n\n**Ecosystem diversity:**\n- Variety of habitats\n\n## Importance:\n- Ecosystem services\n- Medicine sources\n- Food security\n- Climate regulation\n- Aesthetic value\n\n## Threats:\n\n| Threat | Example |\n|--------|--------|\n| Habitat loss | Deforestation |\n| Invasive species | Kudzu, cane toads |\n| Pollution | Pesticides, oil spills |\n| Overexploitation | Overfishing |\n| Climate change | Coral bleaching |\n\n## Conservation:\n- Protected areas\n- Habitat restoration\n- Breeding programs\n- Reducing pollution\n- Sustainable use"
         },
         {
             "id": "eco_9",
             "type": "content",
-            "title": "Keystone Species",
-            "content": "# The Arch Holder 🦦\n\nA species typically not abundant but has immense impact.\n\nExample: **Sea Otters** eat urchins. Without otters, urchins eat ALL the kelp forests, destroying the ecosystem."
-        },
-        {
-            "id": "eco_10",
-            "type": "content",
-            "title": "Biodiversity",
-            "content": "# Variety is Life 🌈\n\n- **Genetic**: Variation in DNA.\n- **Species**: Number of different species.\n- **Ecosystem**: Variety of habitats.\n\nHigher biodiversity = More resilience to disaster."
-        },
-        {
-            "id": "eco_quiz_2",
-            "type": "quiz",
-            "title": "Interaction Quiz",
-            "content": "Identify the bond.",
-            "quizQuestion": "A clownfish living in an anemone (protection for fish, cleaning for anemone) is:",
-            "quizOptions": [
-                "Parasitism",
-                "Mutualism",
-                "Commensalism",
-                "Competition"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "eco_11",
-            "type": "content",
-            "title": "Biomes",
-            "content": "# Major Habitats 🏔️\n\nDefined by Temperature and Precipitation.\n- **Tundra**: Cold/Dry.\n- **Rainforest**: Hot/Wet (Most bio-diverse).\n- **Desert**: Hot (or cold)/Dry.\n- **Taiga**: Cold forests."
-        },
-        {
-            "id": "eco_12",
-            "type": "content",
-            "title": "Human Impact",
-            "content": "# The Anthropocene 🏗️\n\n- **Habitat Loss**: #1 cause of extinction.\n- **Invasive Species**: Introduced species outcompete locals.\n- **Pollution**: Biomagnification.\n- **Climate Change**: Changing ranges faster than life can adapt."
-        },
-        {
-            "id": "eco_13",
-            "type": "content",
-            "title": "Conservation Biology",
-            "content": "# Saving Nature 🐼\n\nStrategies:\n- Protected Areas (Parks).\n- Corridors (Connecting fragments).\n- Restoration (Replanting).\n- Sustainable use."
-        },
-        {
-            "id": "eco_14",
-            "type": "content",
-            "title": "Adaptations",
-            "content": "# Survival Skills 🌵\n\n- **Structural**: Body parts (Camouflage, Thorns).\n- **Behavioral**: Actions (Migration, Hibernation).\n- **Physiological**: Chemistry (Venom, Antifreeze blood)."
-        },
-        {
-            "id": "eco_15",
-            "type": "content",
-            "title": "Niche",
-            "content": "# Your Job 👔\n\n- **Habitat**: Where you live.\n- **Niche**: What you do (Role).\n\n**Competitive Exclusion Principle**: No two species can occupy the exact same niche. One will win."
-        },
-        {
-            "id": "eco_16",
-            "type": "content",
-            "title": "Aquatic Ecosystems",
-            "content": "# Wet Worlds 🐠\n\n- **Freshwater**: Rivers/Lakes.\n- **Estuaries**: Mix of salt/fresh (Nurseries of the sea).\n- **Marine**: \n  - Photic Zone (Light, Surface)\n  - Aphotic Zone (Deep, Dark)"
-        },
-        {
-            "id": "eco_17",
-            "type": "content",
-            "title": "Ecology Summary",
-            "content": "# Recap 📝\n\n- Energy flows, Matter cycles.\n- Everything is connected.\n- **Biodiversity** is crucial for health.\n- Humans have a massive responsibility as stewards of the biosphere."
+            "title": "Summary",
+            "content": "# Ecology Summary\n\n## Ecosystem Components:\n- Biotic: living organisms\n- Abiotic: non-living factors\n\n## Energy Flow:\n- Sun -> Producers -> Consumers\n- 10% transfer between levels\n- Decomposers recycle nutrients\n\n## Nutrient Cycles:\n| Cycle | Reservoir |\n|-------|----------|\n| Carbon | Atmosphere, oceans |\n| Nitrogen | Atmosphere |\n| Phosphorus | Rocks |\n| Water | Oceans |\n\n## Population Growth:\n- Exponential: unlimited resources (J-curve)\n- Logistic: limited resources (S-curve)\n\n## Interactions:\n| Type | Effect |\n|------|--------|\n| Competition | -/- |\n| Predation | +/- |\n| Mutualism | +/+ |\n\n## Succession:\n- Primary: bare rock\n- Secondary: after disturbance\n\n> **Congratulations!** You've completed Ecology!"
         }
     ]
 }

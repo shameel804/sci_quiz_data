@@ -2,138 +2,122 @@
     "id": "learn_space",
     "topicId": "space",
     "topicTitle": "Space Exploration",
-    "description": "Humanity's quest to leave the cradle and explore the void.",
-    "baseKP": 100,
+    "description": "Explore the history and future of human and robotic space exploration",
+    "baseKP": 75,
     "slides": [
         {
             "id": "space_1",
             "type": "content",
-            "title": "History of Spaceflight",
-            "content": "# The Space Race 🚀\n\nCold War competition between USA and USSR.\n- **Sputnik 1** (1957): First satellite (USSR).\n- **Yuri Gagarin** (1961): First human in space (USSR).\n- **Apollo 11** (1969): First humans on Moon (USA)."
+            "title": "Welcome to Space Exploration",
+            "content": "# Introduction to Space Exploration\n\nWelcome to **Space Exploration** - humanity's journey to the stars!\n\n## What You Will Learn:\n- **Early Space Age** - Sputnik to Apollo\n- **Space Stations** - Living in space\n- **Robotic Exploration** - Probes and rovers\n- **Current Missions** - Active exploration\n- **Future Plans** - Moon, Mars, and beyond\n\n> **Fun Fact:** Voyager 1 is the most distant human-made object, over 15 billion miles away!"
         },
         {
             "id": "space_2",
             "type": "content",
-            "title": "Rocket Science",
-            "content": "# Newton's Third Law 🍎\n\n\"For every action, there is an equal and opposite reaction.\"\n- Rocket throws gas One way, Rocket moves Other way.\n- **Thrust**: The force pushing up.\n- **Payload**: The stuff carrying up."
+            "title": "The Space Race",
+            "content": "# The Space Race (1957-1975)\n\n## Key Milestones:\n\n| Year | Event | Nation |\n|------|-------|--------|\n| 1957 | Sputnik 1 (first satellite) | USSR |\n| 1961 | First human in space (Gagarin) | USSR |\n| 1961 | First American in space (Shepard) | USA |\n| 1963 | First woman in space (Tereshkova) | USSR |\n| 1965 | First spacewalk | USSR |\n| 1969 | First Moon landing (Apollo 11) | USA |\n| 1975 | Apollo-Soyuz (end of rivalry) | Joint |\n\n## Motivations:\n- Cold War competition\n- National prestige\n- Technology development"
         },
         {
             "id": "space_3",
             "type": "content",
-            "title": "Escape Velocity",
-            "content": "# Breaking Free ⛓️\n\nSpeed needed to break free from a planet's gravity.\n- Earth: ~11.2 km/s (25,000 mph).\n- Requires immense energy, hence giant multi-stage rockets."
-        },
-        {
-            "id": "space_4",
-            "type": "content",
-            "title": "Orbit Types",
-            "content": "# Traffic Lanes 🛣️\n\n- **LEO (Low Earth Orbit)**: ISS, Hubble. (close, fast).\n- **GEO (Geostationary)**: Stays over one spot (TV/Communication sats).\n- **Polar**: Goes over poles (Spy/Weather sats)."
-        },
-        {
-            "id": "space_5",
-            "type": "content",
             "title": "Apollo Program",
-            "content": "# To the Moon 🌕\n\nNASA's program 1961-1972.\n- **Saturn V**: Most powerful rocket ever flown.\n- **Apollo 11**: Neil Armstrong & Buzz Aldrin walked on moon.\n- Total of 12 men have walked on the moon."
+            "content": "# Apollo Program\n\n## Goal:\nLand humans on Moon and return safely.\n\n## Key Missions:\n\n| Mission | Achievement |\n|---------|-------------|\n| Apollo 1 | Fire tragedy (1967) |\n| Apollo 8 | First lunar orbit |\n| Apollo 11 | First landing (July 20, 1969) |\n| Apollo 13 | Survived explosion |\n| Apollo 17 | Last Moon mission (1972) |\n\n## Apollo 11 Crew:\n- Neil Armstrong (commander)\n- Buzz Aldrin (lunar module pilot)\n- Michael Collins (command module pilot)\n\n## Legacy:\n- 12 astronauts walked on Moon\n- 842 lbs of lunar samples returned"
         },
         {
             "id": "space_quiz_1",
             "type": "quiz",
-            "title": "History Quiz",
-            "content": "Firsts check.",
-            "quizQuestion": "Who was the first human in space?",
+            "title": "Early Space Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The first human in space was:",
             "quizOptions": [
                 "Neil Armstrong",
+                "John Glenn",
                 "Yuri Gagarin",
-                "Buzz Aldrin",
-                "John Glenn"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "space_6",
-            "type": "content",
-            "title": "Space Shuttle",
-            "content": "# Reusable Ship ✈️\n\nNASA's workhorse (1981-2011).\n- Launched like a rocket, landed like a plane.\n- Built the ISS.\n- Two tragedies: Challenger and Columbia."
-        },
-        {
-            "id": "space_7",
-            "type": "content",
-            "title": "International Space Station",
-            "content": "# Lab in the Sky 🛰️\n\nHabitable artificial satellite.\n- Joint project (US, Russia, Europe, Japan, Canada).\n- Research in microgravity (Medicine, Materials).\n- Continuously occupied since 2000."
-        },
-        {
-            "id": "space_8",
-            "type": "content",
-            "title": "Robotic Explorers 1",
-            "content": "# The Voyagers 📡\n\n**Voyager 1 & 2** (Launched 1977).\n- Toured Jupiter, Saturn, Uranus, Neptune.\n- Carrying the \"Golden Record\" (Message to aliens).\n- Now in Interstellar Space (First human objects to leave solar system)."
-        },
-        {
-            "id": "space_9",
-            "type": "content",
-            "title": "Robotic Explorers 2",
-            "content": "# Mars Rovers 🤖\n\n- Sojourner, Spirit, Opportunity, Curiosity, Perseverance.\n- Geology labs on wheels.\n- Hunting for signs of ancient water and life."
-        },
-        {
-            "id": "space_10",
-            "type": "content",
-            "title": "Telescopes",
-            "content": "# Eyes on Sky 🔭\n\n- **Optical**: Hubble (Visible light).\n- **Radio**: Arecibo (Radio waves).\n- **Infrared**: James Webb (Heat/Early universe).\n- Space telescopes avoid atmospheric blur."
-        },
-        {
-            "id": "space_11",
-            "type": "content",
-            "title": "Falcon 9 & SpaceX",
-            "content": "# New Era 🔄\n\nReusable rockets landing vertically.\n- Dramatically lowered cost of launch.\n- Aiming for Mars (Starship)."
-        },
-        {
-            "id": "space_12",
-            "type": "content",
-            "title": "Propulsion Systems",
-            "content": "# Going Faster 🏎️\n\n- **Chemical**: Burning fuel (High thrust, low efficiency).\n- **Ion Drive**: Shooting ions (Low thrust, high efficiency). Used for long deep space missions.\n- **Solar Sails**: Pushed by light pressure."
-        },
-        {
-            "id": "space_quiz_2",
-            "type": "quiz",
-            "title": "Tech Quiz",
-            "content": "Engine check.",
-            "quizQuestion": "Which propulsion is best for landing on a planet (needs high thrust)?",
-            "quizOptions": [
-                "Ion Drive",
-                "Solar Sail",
-                "Chemical Rocket",
-                "Gravity Assist"
+                "Alan Shepard"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "space_13",
+            "id": "space_4",
             "type": "content",
-            "title": "Gravity Assist",
-            "content": "# Slingshot 🏹\n\nUsing a planet's gravity to speed up (steal momentum).\n- Voyager used Jupiter to fling to Saturn.\n- Saves fuel and time."
+            "title": "Space Shuttle Era",
+            "content": "# Space Shuttle (1981-2011)\n\n## Design:\n- Reusable orbiter\n- External tank (discarded)\n- Solid rocket boosters\n\n## Missions:\n- 135 total flights\n- ISS construction\n- Hubble deployment and repairs\n- Spacelab missions\n\n## Fleet:\n- Columbia (lost 2003)\n- Challenger (lost 1986)\n- Discovery\n- Atlantis\n- Endeavour\n\n## Achievements:\n- First reusable spacecraft\n- Carried diverse crews\n- Built International Space Station"
         },
         {
-            "id": "space_14",
+            "id": "space_5",
             "type": "content",
-            "title": "Hazards of Space",
-            "content": "# Danger Zone ⚠️\n\n- **Vacuum**: No air.\n- **Radiation**: Cancer risk.\n- **Microgravity**: Bone/Muscle loss.\n- **Debris**: Tiny junk hitting at bullet speeds."
+            "title": "International Space Station",
+            "content": "# International Space Station (ISS)\n\n## Quick Facts:\n- Launched: 1998 (first module)\n- Size: Football field length\n- Orbit: ~400 km altitude\n- Crew: 6-7 astronauts\n\n## Partners:\n- NASA (USA)\n- Roscosmos (Russia)\n- ESA (Europe)\n- JAXA (Japan)\n- CSA (Canada)\n\n## Science:\n- Microgravity research\n- Biology, materials, physics\n- Earth observation\n\n## Future:\n- Operating until 2030+\n- Commercial stations planned"
         },
         {
-            "id": "space_15",
+            "id": "space_6",
             "type": "content",
-            "title": "Future Missions",
-            "content": "# What's Next? 🔮\n\n- **Artemis**: Return humans to Moon.\n- **Mars Sample Return**: Bring rocks back.\n- **Europa Clipper**: Visit Jupiter's ocean moon."
+            "title": "Robotic Mars Exploration",
+            "content": "# Mars Exploration\n\n## Rovers:\n\n| Rover | Years | Key Finding |\n|-------|-------|-------------|\n| Sojourner | 1997 | Proof of concept |\n| Spirit | 2004-2010 | Ancient water evidence |\n| Opportunity | 2004-2018 | 28 miles traveled! |\n| Curiosity | 2012-present | Habitable conditions |\n| Perseverance | 2021-present | Collects samples |\n\n## Orbiters:\n- Mars Odyssey\n- Mars Reconnaissance Orbiter\n- MAVEN\n\n## Landers:\n- InSight (seismology)\n- Phoenix (polar ice)\n\n## Ingenuity:\n- First helicopter on another planet"
         },
         {
-            "id": "space_16",
-            "type": "content",
-            "title": "SETI",
-            "content": "# Hello? 👽\n\nSearch for Extraterrestrial Intelligence.\n- Listening for radio signals.\n- **Drake Equation**: Estimates N of civilizations.\n- So far... silence."
+            "id": "space_quiz_2",
+            "type": "quiz",
+            "title": "Mars Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The longest-operating Mars rover was:",
+            "quizOptions": [
+                "Sojourner",
+                "Spirit",
+                "Opportunity",
+                "Curiosity"
+            ],
+            "correctOptionIndex": 2
         },
         {
-            "id": "space_17",
+            "id": "space_7",
             "type": "content",
-            "title": "Exploration Summary",
-            "content": "# Recap 📝\n\n- Rockets overcome gravity.\n- **Robots** lead the way (Voyager, Rovers).\n- **Humans** follow (Apollo, ISS, Artemis).\n- Exploration drives technology and inspires humanity."
+            "title": "Outer Solar System Exploration",
+            "content": "# Outer Solar System Missions\n\n## Pioneer:\n- Pioneer 10 & 11 (1970s)\n- First to Jupiter, Saturn\n- Carry plaques for aliens\n\n## Voyager:\n- Voyager 1 & 2 (1977)\n- Grand Tour of outer planets\n- Still transmitting!\n- Interstellar space reached\n\n## Cassini-Huygens:\n- Saturn orbiter (2004-2017)\n- Huygens landed on Titan\n- Discovered Enceladus geysers\n\n## Juno:\n- Jupiter orbiter (2016-present)\n- Studies interior and atmosphere\n\n## New Horizons:\n- Pluto flyby (2015)\n- Arrokoth flyby (2019)"
+        },
+        {
+            "id": "space_8",
+            "type": "content",
+            "title": "Space Telescopes",
+            "content": "# Space Telescopes\n\n## Major Telescopes:\n\n| Telescope | Wavelength | Launch |\n|-----------|-----------|--------|\n| Hubble | Visible, UV, near-IR | 1990 |\n| Chandra | X-ray | 1999 |\n| Spitzer | Infrared | 2003 |\n| Kepler/TESS | Visible | 2009/2018 |\n| JWST | Infrared | 2021 |\n\n## James Webb Space Telescope:\n- Largest space telescope\n- 6.5 meter mirror\n- Infrared observations\n- L2 Lagrange point\n- First images: July 2022"
+        },
+        {
+            "id": "space_9",
+            "type": "content",
+            "title": "Current Commercial Spaceflight",
+            "content": "# Commercial Spaceflight\n\n## SpaceX:\n- Falcon 9 (reusable)\n- Falcon Heavy\n- Dragon (crew and cargo)\n- Starship (development)\n\n## Blue Origin:\n- New Shepard (suborbital tourism)\n- New Glenn (heavy lift)\n\n## Boeing:\n- Starliner (crew capsule)\n\n## Others:\n- Rocket Lab\n- Virgin Galactic\n- Sierra Space\n\n## Achievements:\n- Reusable rockets (SpaceX)\n- Commercial ISS resupply\n- Private astronaut missions"
+        },
+        {
+            "id": "space_10",
+            "type": "content",
+            "title": "Artemis Program",
+            "content": "# Artemis Program\n\n## Goal:\nReturn humans to Moon, establish sustainable presence.\n\n## Key Elements:\n- SLS rocket (heavy lift)\n- Orion capsule\n- Gateway (lunar station)\n- Human Landing System\n\n## Timeline:\n- Artemis I: Uncrewed test (2022)\n- Artemis II: Crewed lunar flyby\n- Artemis III: First woman on Moon\n\n## Partners:\n- NASA + international partners\n- Commercial: SpaceX HLS\n\n## Goals:\n- First woman on Moon\n- First person of color on Moon\n- Prepare for Mars missions"
+        },
+        {
+            "id": "space_quiz_3",
+            "type": "quiz",
+            "title": "Current Space Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The Artemis program aims to return humans to:",
+            "quizOptions": [
+                "Mars",
+                "The Moon",
+                "The ISS",
+                "Venus"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "space_11",
+            "type": "content",
+            "title": "Mars - The Next Frontier",
+            "content": "# Human Mars Exploration\n\n## Challenges:\n- 6-9 month journey\n- Radiation exposure\n- Life support\n- Landing on thin atmosphere\n- Communication delay (4-24 min)\n\n## Timeline Estimates:\n- 2030s-2040s for first humans\n\n## Key Players:\n- NASA (Moon to Mars)\n- SpaceX (Starship)\n- China (planned missions)\n\n## Requirements:\n- Reliable heavy-lift rockets\n- In-situ resource utilization\n- Long-duration life support\n- Radiation shielding"
+        },
+        {
+            "id": "space_12",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Space Exploration Summary\n\n## History:\n| Era | Highlight |\n|-----|----------|\n| 1960s | Moon race |\n| 1970s | Skylab, Voyager |\n| 1980s-2000s | Shuttle, ISS |\n| 2010s-present | Commercial, JWST |\n\n## Current Focus:\n- ISS operations\n- Mars rovers (Perseverance)\n- JWST discoveries\n- Artemis returning to Moon\n\n## Future:\n- Sustainable lunar presence\n- Human Mars missions\n- Commercial space growth\n\n> **Congratulations!** You've completed Space Exploration!"
         }
     ]
 }

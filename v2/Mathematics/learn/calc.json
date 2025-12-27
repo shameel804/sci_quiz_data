@@ -2,138 +2,128 @@
     "id": "learn_calc",
     "topicId": "calc",
     "topicTitle": "Calculus",
-    "description": "The mathematics of change and motion.",
-    "baseKP": 100,
+    "description": "Explore limits, derivatives, integrals, and their applications",
+    "baseKP": 75,
     "slides": [
         {
             "id": "calc_1",
             "type": "content",
-            "title": "What is Calculus?",
-            "content": "# Math of Change 🌊\n\nInvented by Newton and Leibniz.\nUsed to study things that change continuously.\n\nTwo halves:\n1. **Differentiation**: How fast it changes (Slope).\n2. **Integration**: How much it accumulates (Area)."
+            "title": "Welcome to Calculus",
+            "content": "# Introduction to Calculus\n\nWelcome to **Calculus** - the mathematics of change!\n\n## What You Will Learn:\n- **Limits** - Approaching values\n- **Derivatives** - Rates of change\n- **Integrals** - Accumulation\n- **Applications** - Real-world uses\n\n> **Fun Fact:** Newton and Leibniz independently invented calculus in the 1600s!"
         },
         {
             "id": "calc_2",
             "type": "content",
             "title": "Limits",
-            "content": "# Approaching 🚧\n\nAsking: \"What value does the function get closer to as x gets closer to $a$?\"\n\n$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$\n\nEven if input is undefined (0/0), the limit can exist. Basis of all calculus."
+            "content": "# Limits\n\n## Definition:\nValue a function approaches as input approaches some value.\n\n## Notation:\n```\nlim (x -> a) f(x) = L\n```\n\n## Finding Limits:\n\n| Method | When to Use |\n|--------|-------------|\n| Direct substitution | If no 0/0 |\n| Factoring | Cancel common factors |\n| Rationalize | Square roots |\n| L'Hopital's Rule | 0/0 or inf/inf |\n\n## Example:\n```\nlim (x -> 2) (x^2 - 4)/(x - 2) = lim (x -> 2) (x+2) = 4\n```"
         },
         {
             "id": "calc_3",
             "type": "content",
             "title": "Continuity",
-            "content": "# Unbroken Line ✏️\n\nA function is continuous if you can draw it without lifting your pencil.\n- No holes.\n- No jumps.\n- No vertical asymptotes."
-        },
-        {
-            "id": "calc_4",
-            "type": "content",
-            "title": "The Derivative",
-            "content": "# Instant Slope ⛷️\n\n$f'(x)$ or $\\frac{dy}{dx}$.\n\nThe slope of the tangent line at a specific point.\n- Velocity is the derivative of Position.\n- Acceleration is the derivative of Velocity."
+            "content": "# Continuity\n\n## Definition:\nFunction is continuous at x = a if:\n1. f(a) is defined\n2. lim (x -> a) f(x) exists\n3. lim (x -> a) f(x) = f(a)\n\n## Types of Discontinuity:\n- Removable (hole)\n- Jump\n- Infinite (asymptote)\n\n## Continuous Functions:\n- Polynomials\n- sin(x), cos(x)\n- e^x, ln(x) (on domain)\n\n## Intermediate Value Theorem:\nIf f is continuous on [a,b] and k is between f(a) and f(b), then f(c) = k for some c in [a,b]."
         },
         {
             "id": "calc_quiz_1",
             "type": "quiz",
-            "title": "Rate Quiz",
-            "content": "Concept check.",
-            "quizQuestion": "The derivative represents the:",
+            "title": "Limits Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What is lim (x -> 3) of (x^2 - 9)/(x - 3)?",
             "quizOptions": [
-                "Area under curve",
-                "Instantaneous Rate of Change",
-                "Average value",
-                "Y-intercept"
+                "0",
+                "3",
+                "6",
+                "Does not exist"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "calc_4",
+            "type": "content",
+            "title": "Definition of Derivative",
+            "content": "# Derivatives\n\n## Definition:\nInstantaneous rate of change.\n\n## Limit Definition:\n```\nf'(x) = lim (h -> 0) [f(x+h) - f(x)] / h\n```\n\n## Notation:\n```\nf'(x) = df/dx = d/dx[f(x)]\n```\n\n## Geometric Meaning:\nSlope of tangent line.\n\n## Physical Meaning:\n- Position -> Velocity\n- Velocity -> Acceleration"
         },
         {
             "id": "calc_5",
             "type": "content",
-            "title": "Power Rule",
-            "content": "# Easy Derivatives ⚡\n\nIf $f(x) = x^n$, then:\n$$f'(x) = n \\cdot x^{n-1}$$\n\nExample:\n$x^2 \\to 2x$\n$x^3 \\to 3x^2$"
+            "title": "Basic Derivative Rules",
+            "content": "# Derivative Rules\n\n## Basic Rules:\n\n| Function | Derivative |\n|----------|------------|\n| c (constant) | 0 |\n| x^n | n*x^(n-1) |\n| e^x | e^x |\n| ln(x) | 1/x |\n| sin(x) | cos(x) |\n| cos(x) | -sin(x) |\n\n## Combination Rules:\n```\n[f + g]' = f' + g'\n[c*f]' = c*f'\n[fg]' = f'g + fg' (Product)\n[f/g]' = (f'g - fg') / g^2 (Quotient)\n```"
         },
         {
             "id": "calc_6",
             "type": "content",
             "title": "Chain Rule",
-            "content": "# Functions inside Functions ⛓️\n\nUsed for composition $f(g(x))$.\n\n$$ \\frac{d}{dx} f(g(x)) = f'(g(x)) \\cdot g'(x) $$\n\n\"Derivative of outside $\\times$ Derivative of inside\".\nCrucial for Deep Learning backpropagation!"
-        },
-        {
-            "id": "calc_7",
-            "type": "content",
-            "title": "Optimization",
-            "content": "# Max and Min 🏔️\n\nAt the peak of a hill, the slope is zero.\n- Set derivative to 0 ($f'(x) = 0$).\n- Solve for $x$.\n- Used to maximize profit, minimize fuel, etc."
-        },
-        {
-            "id": "calc_8",
-            "type": "content",
-            "title": "The Integral",
-            "content": "# Finding Area 🧺\n\n$\\int f(x) dx$.\nCalculates the area under the curve.\n- Reverse of differentiation (Antiderivative).\n- Summing up infinitely many tiny rectangles."
-        },
-        {
-            "id": "calc_9",
-            "type": "content",
-            "title": "Fundamental Theorem of Calculus",
-            "content": "# The Bridge 🌉\n\nConnects Derivatives and Integrals.\n\n$$\\int_a^b f(x) dx = F(b) - F(a)$$\n\nwhere $F$ is the antiderivative of $f$. Area can be found by evaluating the endpoints."
-        },
-        {
-            "id": "calc_10",
-            "type": "content",
-            "title": "Definite vs Indefinite",
-            "content": "# Limits or No Limits 🛑\n\n- **Indefinite**: $\\int x dx = \\frac{x^2}{2} + C$. (Result is a function + Constant).\n- **Definite**: $\\int_0^3 x dx = 4.5$. (Result is a number)."
+            "content": "# Chain Rule\n\n## Statement:\nFor composite functions:\n```\n[f(g(x))]' = f'(g(x)) * g'(x)\n```\n\n## Alternative Notation:\n```\ndy/dx = dy/du * du/dx\n```\n\n## Examples:\n```\nd/dx[sin(2x)] = cos(2x) * 2 = 2cos(2x)\n\nd/dx[(x^2 + 1)^5] = 5(x^2+1)^4 * 2x = 10x(x^2+1)^4\n```\n\n## Key Insight:\n- Differentiate outer function\n- Multiply by derivative of inner"
         },
         {
             "id": "calc_quiz_2",
             "type": "quiz",
-            "title": "Opposite Quiz",
-            "content": "Concept check.",
-            "quizQuestion": "Integration is essentially the reverse process of:",
+            "title": "Derivatives Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The derivative of x^3 is:",
             "quizOptions": [
-                "Addition",
-                "Differentiation",
-                "Division",
-                "Limit"
+                "x^2",
+                "3x^2",
+                "3x^3",
+                "x^4/4"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "calc_7",
+            "type": "content",
+            "title": "Applications of Derivatives",
+            "content": "# Applications of Derivatives\n\n## Finding Extrema:\n1. Find f'(x)\n2. Set f'(x) = 0\n3. Solve for critical points\n4. Test with second derivative or sign change\n\n## Second Derivative Test:\n- f''(c) > 0: Local minimum\n- f''(c) < 0: Local maximum\n\n## Related Rates:\n- Multiple quantities changing\n- Use chain rule\n\n## Optimization:\n1. Write function to optimize\n2. Find derivative\n3. Set to zero\n4. Verify max/min"
+        },
+        {
+            "id": "calc_8",
+            "type": "content",
+            "title": "Integrals Introduction",
+            "content": "# Integration\n\n## Definition:\nReverse of differentiation.\n\n## Indefinite Integral:\n```\nint f(x) dx = F(x) + C\n```\nwhere F'(x) = f(x)\n\n## Definite Integral:\n```\nint (a to b) f(x) dx = F(b) - F(a)\n```\n\n## Geometric Meaning:\nArea under curve.\n\n## Fundamental Theorem:\nLinks derivatives and integrals."
+        },
+        {
+            "id": "calc_9",
+            "type": "content",
+            "title": "Basic Integration Rules",
+            "content": "# Integration Rules\n\n## Basic Antiderivatives:\n\n| Function | Integral |\n|----------|----------|\n| x^n (n != -1) | x^(n+1)/(n+1) |\n| 1/x | ln|x| |\n| e^x | e^x |\n| cos(x) | sin(x) |\n| sin(x) | -cos(x) |\n\n## Properties:\n```\nint [f + g] dx = int f dx + int g dx\nint c*f dx = c * int f dx\n```\n\n## Don't Forget +C!\n(for indefinite integrals)"
+        },
+        {
+            "id": "calc_10",
+            "type": "content",
+            "title": "Integration Techniques",
+            "content": "# Integration Techniques\n\n## Substitution:\n```\nint f(g(x)) * g'(x) dx\n```\nLet u = g(x)\n\n## Example:\n```\nint 2x * cos(x^2) dx\nu = x^2, du = 2x dx\n= int cos(u) du = sin(u) + C = sin(x^2) + C\n```\n\n## Integration by Parts:\n```\nint u dv = uv - int v du\n```\n\n## Partial Fractions:\nFor rational functions."
+        },
+        {
+            "id": "calc_quiz_3",
+            "type": "quiz",
+            "title": "Integrals Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The integral of 3x^2 is:",
+            "quizOptions": [
+                "6x",
+                "x^3",
+                "x^3 + C",
+                "9x^2"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
             "id": "calc_11",
             "type": "content",
-            "title": "Applications: Physics",
-            "content": "# Motion 🏎️\n\n- **Position** ($s$)\n- **Velocity** ($v = s'$)\n- **Acceleration** ($a = v' = s''$)\n\nCalculus allows us to predict planetary motion and rocket trajectories."
+            "title": "Applications of Integrals",
+            "content": "# Applications of Integrals\n\n## Area Between Curves:\n```\nArea = int (a to b) [f(x) - g(x)] dx\n```\n\n## Volume of Revolution:\n\n**Disk Method:**\n```\nV = pi * int (a to b) [r(x)]^2 dx\n```\n\n**Shell Method:**\n```\nV = 2*pi * int (a to b) x * f(x) dx\n```\n\n## Other Applications:\n- Arc length\n- Work\n- Average value\n- Probability"
         },
         {
             "id": "calc_12",
             "type": "content",
-            "title": "Integration by Parts",
-            "content": "# Reverse Product Rule 🧩\n\n$$\\int u dv = uv - \\int v du$$\n\nUsed when integrating product of two different functions (e.g., $x \\cdot \\sin x$)."
+            "title": "Differential Equations",
+            "content": "# Differential Equations\n\n## Definition:\nEquation involving derivatives.\n\n## Simple Example:\n```\ndy/dx = 2x\ny = x^2 + C\n```\n\n## Separable Equations:\n```\ndy/dx = f(x) * g(y)\n```\nSeparate variables and integrate.\n\n## Exponential Growth/Decay:\n```\ndy/dt = ky\ny = y_0 * e^(kt)\n```\n\n## Applications:\n- Population growth\n- Radioactive decay\n- Newton's cooling"
         },
         {
             "id": "calc_13",
             "type": "content",
-            "title": "Differential Equations",
-            "content": "# Solving Relations ⚙️\n\nEquations containing derivatives.\nExample: Population growth where Rate depends on Size.\n$$P' = kP$$\nSolution involves exponentials ($e^x$)."
-        },
-        {
-            "id": "calc_14",
-            "type": "content",
-            "title": "Multivariable Calculus",
-            "content": "# 3D Space 📦\n\npartial derivatives ($\\partial$).\n- Handling $z = f(x, y)$.\n- **Gradient**: Vector pointing to steepest ascent.\n- Used in Machine Learning gradient descent."
-        },
-        {
-            "id": "calc_15",
-            "type": "content",
-            "title": "Taylor Series",
-            "content": "# Approximation 〰️\n\nRepresenting complicated functions ($\\sin x, e^x$)..."
-        },
-        {
-            "id": "calc_16",
-            "type": "content",
-            "title": "Calculus History",
-            "content": "# Controversy 🥊\n\nNewton and Leibniz both invented it independently ~1660s.\n- Fought bitterly over credit.\n- Leibniz gave us the notation ($\\int, dy/dx$).\n- Newton used it for gravity."
-        },
-        {
-            "id": "calc_17",
-            "type": "content",
-            "title": "Calculus Summary",
-            "content": "# Recap 📝\n\n- **Limits** define the edge.\n- **Derivatives** measure rate.\n- **Integrals** measure accumulation.\n- It is the language of the physical universe."
+            "title": "Summary",
+            "content": "# Calculus Summary\n\n## Derivatives:\n- Rate of change\n- d/dx[x^n] = n*x^(n-1)\n- Chain rule: [f(g(x))]' = f'(g)*g'\n\n## Integrals:\n- Area under curve\n- int x^n dx = x^(n+1)/(n+1) + C\n- Substitution for composition\n\n## Fundamental Theorem:\nint (a to b) f(x) dx = F(b) - F(a)\n\n## Applications:\n| Topic | Uses |\n|-------|------|\n| Derivatives | Optimization, rates |\n| Integrals | Area, volume, work |\n\n> **Congratulations!** You've completed Calculus!"
         }
     ]
 }

@@ -2,138 +2,58 @@
     "id": "learn_geoeng",
     "topicId": "geoeng",
     "topicTitle": "Geological Engineering",
-    "description": "Building with and on the Earth safely.",
-    "baseKP": 100,
+    "description": "Explore resource extraction, hazard assessment, and geological applications",
+    "baseKP": 75,
     "slides": [
         {
             "id": "geoeng_1",
             "type": "content",
-            "title": "What is Geo-Engineering?",
-            "content": "# Rock & Build 🏗️\n\nApplying geological science to engineering projects.\n- Assessing ground conditions.\n- Designing foundations, tunnels, and dams.\n- Mitigating geological hazards."
+            "title": "Welcome to Geological Engineering",
+            "content": "# Introduction to Geological Engineering\n\nWelcome to **Geological Engineering** - applying geology to solve problems!\n\n## What You Will Learn:\n- **Resource Extraction** - Mining and drilling\n- **Hazard Assessment** - Earthquakes, landslides\n- **Groundwater** - Finding and managing water\n- **Site Investigation** - Building foundations\n\n> **Fun Fact:** Geological engineers help find everything from water to gold!"
         },
         {
             "id": "geoeng_2",
             "type": "content",
-            "title": "Site Investigation",
-            "content": "# Look Before Leap 🧐\n\nCrucial first step.\n- **Drilling**: Taking core samples.\n- **Geophysics**: Scanning underground (Radar, Seismic).\n- Failure to investigate leads to disaster (Leaning Tower of Pisa)."
+            "title": "Mineral Resources",
+            "content": "# Mineral Resources\n\n## Types:\n\n| Category | Examples |\n|----------|----------|\n| Metallic | Iron, copper, gold, aluminum |\n| Non-metallic | Sand, gravel, limestone |\n| Energy | Coal, uranium |\n| Gemstones | Diamonds, emeralds |\n\n## Ore Formation:\n- Magmatic concentration\n- Hydrothermal deposits\n- Sedimentary processes\n- Weathering (bauxite)\n\n## Mining Methods:\n\n| Method | Use |\n|--------|-----|\n| Open pit | Large, shallow deposits |\n| Underground | Deep deposits |\n| Placer | River sediments |\n| Solution | Dissolve minerals in place |"
         },
         {
             "id": "geoeng_3",
             "type": "content",
-            "title": "Rock Mechanics",
-            "content": "# Stress and Strain 🪨\n\nHow rocks deform under load.\n- **Intact Rock**: Strength of the stone itself.\n- **Rock Mass**: Strength of large block (includes cracks/joints).\n- Important for tunnels and mines."
-        },
-        {
-            "id": "geoeng_4",
-            "type": "content",
-            "title": "Soil Mechanics",
-            "content": "# Dirt Math 🧱\n\nSoil behaves like a fluid, solid, or particulate.\n- **Liquefaction**: Saturated soil turning to liquid during earthquake.\n- **Consolidation**: Soil settling under weight (Sinking buildings)."
-        },
-        {
-            "id": "geoeng_5",
-            "type": "content",
-            "title": "Slope Stability",
-            "content": "# Don't Slide 📉\n\nCalculated 'Factor of Safety'.\n- Increasing slope angle reduces stability.\n- Water is the enemy (Lubricates slip plane).\n- Solutions: Retaining walls, drainage, bolts."
+            "title": "Fossil Fuels",
+            "content": "# Fossil Fuels\n\n## Types:\n\n| Fuel | Formation |\n|------|----------|\n| Coal | Swamp plants, pressure |\n| Oil | Marine organisms, heat/pressure |\n| Natural Gas | Same as oil, more heat |\n\n## Oil Traps:\n- Structural: Anticlines, faults\n- Stratigraphic: Pinch-outs, reefs\n- Impermeable cap rock required\n\n## Extraction:\n- Drilling (conventional)\n- Hydraulic fracturing (fracking)\n- Enhanced oil recovery\n\n## Environmental Concerns:\n- Greenhouse gases\n- Oil spills\n- Groundwater contamination\n- Habitat disruption"
         },
         {
             "id": "geoeng_quiz_1",
             "type": "quiz",
-            "title": "Stability Quiz",
-            "content": "Safety check.",
-            "quizQuestion": "What is the most common trigger for landslides?",
+            "title": "Resources Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Oil is formed from:",
             "quizOptions": [
-                "Wind",
-                "Water",
-                "Sunlight",
-                "Traffic"
+                "Plants in swamps",
+                "Marine organisms",
+                "Volcanic activity",
+                "Meteorites"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "geoeng_4",
+            "type": "content",
+            "title": "Hazard Assessment",
+            "content": "# Hazard Assessment\n\n## Earthquake Hazards:\n- Seismic risk maps\n- Building codes\n- Fault identification\n- Liquefaction potential\n\n## Landslides:\n- Slope stability analysis\n- Warning signs: cracks, tilting\n- Mitigation: drainage, retaining walls\n\n## Volcanoes:\n- Hazard zones mapping\n- Monitoring (seismic, gas, tilt)\n- Evacuation planning\n\n## Floods:\n- Floodplain mapping\n- Return periods\n- Levees, dams, diversion\n\n## Subsidence:\n- Groundwater withdrawal\n- Mining\n- Sinkholes"
+        },
+        {
+            "id": "geoeng_5",
+            "type": "content",
+            "title": "Groundwater Engineering",
+            "content": "# Groundwater Engineering\n\n## Finding Water:\n- Geophysical surveys\n- Well logs\n- Aquifer mapping\n\n## Well Design:\n- Drill to aquifer\n- Screen in productive zone\n- Pump testing\n\n## Aquifer Properties:\n\n| Property | Meaning |\n|----------|--------|\n| Porosity | % void space |\n| Permeability | How water flows |\n| Transmissivity | Flow capacity |\n| Storativity | Water released |\n\n## Contamination:\n- Point sources (spills, landfills)\n- Non-point (agriculture)\n- Remediation methods\n\n## Sustainable Use:\n- Recharge rate\n- Overdraft problems\n- Saltwater intrusion"
+        },
+        {
             "id": "geoeng_6",
             "type": "content",
-            "title": "Mining Methods",
-            "content": "# Digging Deep ⛏️\n\n- **Surface Mining**: Open pit. Removing overburden to get ore.\n- **Underground Mining**: Shafts and tunnels. Follows veins.\n- **Placer Mining**: Sifting riverbeds (Gold rush)."
-        },
-        {
-            "id": "geoeng_7",
-            "type": "content",
-            "title": "Seismic Surveying",
-            "content": "# Sound Pictures 🔊\n\nUsed to find Oil/Gas.\n- Send shockwaves (Truck or Explosive).\n- Listen to reflections.\n- Maps underground layers in 3D."
-        },
-        {
-            "id": "geoeng_8",
-            "type": "content",
-            "title": "Groundwater Manage",
-            "content": "# Aqua Engineering 💧\n\n- **Extraction**: Wells and pumps.\n- **Contamination**: Preventing landfill leaks into aquifer.\n- **Subsidence**: Ground sinking due to over-pumping (Venice, Mexico City)."
-        },
-        {
-            "id": "geoeng_9",
-            "type": "content",
-            "title": "Geothermal Energy",
-            "content": "# Earth Heat ♨️\n\nUsing Earth's heat for power.\n- Hot water pumped up $\\to$ Steam $\\to$ Turbine.\n- Renewable and constant (Baseload).\n- Iceland uses it for almost everything."
-        },
-        {
-            "id": "geoeng_10",
-            "type": "content",
-            "title": "Tunnelling",
-            "content": "# Boring 🚇\n\n- **TBM**: Tunnel Boring Machine (Giant drill).\n- **NATM**: New Austrian Tunneling Method (Using rock's own stress to support itself).\n- Channel Tunnel connects UK and France."
-        },
-        {
-            "id": "geoeng_11",
-            "type": "content",
-            "title": "Dam Construction",
-            "content": "# Holding Water 🧱\n\n- **Gravity Dam**: Holds water by sheer weight (Concrete).\n- **Arch Dam**: Curvature pushes force into canyon walls (Hoover Dam).\n- Requires solid bedrock foundation."
-        },
-        {
-            "id": "geoeng_quiz_2",
-            "type": "quiz",
-            "title": "Energy Quiz",
-            "content": "Source check.",
-            "quizQuestion": "Geothermal energy is powered by:",
-            "quizOptions": [
-                "Sun",
-                "Wind",
-                "Heat from Earth's core",
-                "Fossil Fuels"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "geoeng_12",
-            "type": "content",
-            "title": "Earthquake Engineering",
-            "content": "# Quake Proof 🏠\n\n- **Base Isolation**: Building sits on rubber pads.\n- **Dampers**: Huge pendulums to absorb sway (Taipei 101).\n- **Retrofitting**: Adding cross-braces to old buildings."
-        },
-        {
-            "id": "geoeng_13",
-            "type": "content",
-            "title": "Fracking",
-            "content": "# Hydraulic Fracturing ⛽\n\nInjecting fluid at high pressure to crack shale rock and release gas.\n- Revolutionized energy.\n- Controversial: Can cause small quakes and groundwater pollution."
-        },
-        {
-            "id": "geoeng_14",
-            "type": "content",
-            "title": "Carbon Sequestration",
-            "content": "# Burying CO2 📉\n\nCapturing Carbon from factories and pumping it deep underground (into empty oil wells).\n- Geo-engineering solution for Climate Change."
-        },
-        {
-            "id": "geoeng_15",
-            "type": "content",
-            "title": "Land Reclamation",
-            "content": "# Making Land 🏝️\n\nDredging sand from sea to build new islands.\n- Dubai (Palm Islands), Netherlands, Singapore.\n- Issues: Coastal erosion and ecosystem damage."
-        },
-        {
-            "id": "geoeng_16",
-            "type": "content",
-            "title": "Remote Sensing",
-            "content": "# Eyes in Space 🛰️\n\nUsing satellites (LiDAR, Radar) to monitor ground movement.\n- Can detect sinking of millimeters per year.\n- Monitors landslide risks."
-        },
-        {
-            "id": "geoeng_17",
-            "type": "content",
-            "title": "GeoEng Summary",
-            "content": "# Recap 📝\n\n- We build **ON** and **IN** the Earth.\n- Understanding rocks prevents collapse.\n- **Resources** (Mining, Water, Heat) require engineering.\n- Balances human needs with safety."
+            "title": "Summary",
+            "content": "# Geological Engineering Summary\n\n## Resources:\n| Type | Examples |\n|------|----------|\n| Metallic ores | Iron, copper, gold |\n| Fossil fuels | Coal, oil, gas |\n| Construction | Sand, gravel |\n\n## Hazards:\n- Earthquakes, landslides, volcanoes\n- Assessment and mitigation\n- Building codes and mapping\n\n## Groundwater:\n- Aquifer properties\n- Well design\n- Contamination prevention\n\n## Applications:\n- Mining and drilling\n- Site investigation\n- Environmental protection\n\n> **Congratulations!** You've completed Geological Engineering!"
         }
     ]
 }

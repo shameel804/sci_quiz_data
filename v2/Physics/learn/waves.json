@@ -2,138 +2,166 @@
     "id": "learn_waves",
     "topicId": "waves",
     "topicTitle": "Waves and Optics",
-    "description": "Dive into the physics of sound, light, and the behavior of waves.",
-    "baseKP": 100,
+    "description": "Explore wave properties, sound waves, the Doppler effect, light behavior including reflection and refraction, and interference phenomena",
+    "baseKP": 75,
     "slides": [
         {
             "id": "waves_1",
             "type": "content",
-            "title": "What is a Wave?",
-            "content": "# Energy in Motion 🌊\n\nA **Wave** is a disturbance that transfers energy from one place to another without transporting matter.\n\n- **Mechanical Waves**: Need a medium (Sound, Water).\n- **Electromagnetic Waves**: No medium needed (Light, Radio)."
+            "title": "Welcome to Waves and Optics",
+            "content": "# Introduction to Waves and Optics\n\nWelcome to **Waves and Optics** - the study of oscillations and light!\n\n## What You Will Learn:\n- **Wave Properties** - Frequency, wavelength, amplitude\n- **Sound Waves** - How we hear the world\n- **Doppler Effect** - Why ambulances sound different\n- **Light and Optics** - Reflection, refraction, lenses\n- **Interference and Diffraction** - Wave behavior\n\n> **Fun Fact:** Light was debated for centuries - is it a wave or a particle? The answer: it's BOTH!\n\n## Why Waves Matter:\n- All sound and light are waves\n- Wireless communication uses radio waves\n- Medical imaging uses ultrasound waves\n- Fiber optic cables carry light waves\n- Music and vision depend on wave physics\n\n## Two Types of Waves:\n\n| Wave Type | Examples | Medium |\n|-----------|----------|--------|\n| Mechanical | Sound, water, seismic | Required |\n| Electromagnetic | Light, radio, X-rays | Not required |\n\nLet's explore the fascinating world of waves!"
         },
         {
             "id": "waves_2",
             "type": "content",
             "title": "Wave Properties",
-            "content": "# Measuring Waves 📏\n\n- **Wavelength ($\\lambda$)**: Distance between peaks.\n- **Amplitude ($A$)**: Height of the wave (energy).\n- **Frequency ($f$)**: Cycles per second (Hertz, $Hz$).\n- **Period ($T$)**: Time for one cycle ($T = 1/f$).\n\n**The Wave Equation:**\n$$v = f \\lambda$$"
+            "content": "# Wave Properties\n\nAll waves share certain fundamental characteristics.\n\n## Types of Waves:\n\n### Transverse Waves:\n- Vibration perpendicular to direction of travel\n- Examples: Light, water surface waves\n\n### Longitudinal Waves:\n- Vibration parallel to direction of travel\n- Examples: Sound, compression springs\n\n## Key Wave Terms:\n\n### Amplitude (A):\n- Maximum displacement from equilibrium\n- Determines intensity/loudness/brightness\n\n### Wavelength (lambda):\n- Distance between adjacent crests (or troughs)\n- Measured in meters\n\n### Frequency (f):\n- Number of complete oscillations per second\n- Measured in Hertz (Hz)\n\n### Period (T):\n- Time for one complete oscillation\n- T = 1/f\n\n## The Wave Equation:\n\n```\nv = f x lambda\n```\n\nWhere:\n- **v** = Wave speed (m/s)\n- **f** = Frequency (Hz)\n- **lambda** = Wavelength (m)\n\n## Example:\nA wave has frequency 500 Hz and wavelength 0.68 m.\n```\nSpeed = 500 x 0.68 = 340 m/s\n```\n(This is the speed of sound in air!)\n\n> **Key Insight:** Wave speed depends on the MEDIUM, not on frequency or wavelength!"
         },
         {
             "id": "waves_3",
             "type": "content",
-            "title": "Types of Waves",
-            "content": "# Directions of Wiggle 〰️\n\n1. **Transverse Waves**: Particles move perpendicular to wave direction. (e.g., Light, Guitar string).\n2. **Longitudinal Waves**: Particles move parallel to wave direction. (e.g., Sound, P-waves)."
-        },
-        {
-            "id": "waves_4",
-            "type": "content",
             "title": "Sound Waves",
-            "content": "# Hearing Vibrations 🔊\n\nSound is a **Longitudinal Mechanical Wave**.\n- Needs a medium (air, water, solid).\n- Speed of sound in air $\\approx 343 m/s$.\n- **Pitch** depends on Frequency.\n- **Loudness** depends on Amplitude."
-        },
-        {
-            "id": "waves_5",
-            "type": "content",
-            "title": "Doppler Effect",
-            "content": "# eeeeeeerrrrrroooooom 🏍️\n\nThe apparent change in frequency of a wave due to relative motion between source and observer.\n\n- **Approaching**: Frequency increases (Higher pitch).\n- **Receding**: Frequency decreases (Lower pitch).\n\nUsed in police radar and measuring galaxy speeds!"
+            "content": "# Sound Waves\n\n**Sound** is a mechanical longitudinal wave that travels through matter.\n\n## How Sound Works:\n\n1. Source vibrates (guitar string, vocal cords)\n2. Creates compressions and rarefactions in air\n3. Pressure waves travel through medium\n4. Ear detects pressure changes\n5. Brain interprets as sound\n\n## Speed of Sound:\n\n| Medium | Speed (m/s) |\n|--------|------------|\n| Air (20 C) | 343 |\n| Water | 1,480 |\n| Wood | 3,800 |\n| Steel | 5,960 |\n| Vacuum | 0 (cannot travel) |\n\n### Temperature Effect:\n```\nv = 331 + 0.6 x T\n```\nWhere T is temperature in Celsius.\n\n## Characteristics of Sound:\n\n### Pitch:\n- Determined by frequency\n- Higher frequency = higher pitch\n- Human hearing: 20 Hz to 20,000 Hz\n\n### Loudness:\n- Determined by amplitude/intensity\n- Measured in decibels (dB)\n\n### Quality (Timbre):\n- Determined by waveform shape\n- Why instruments sound different\n\n## Sound Intensity Levels:\n\n| Sound | Intensity (dB) |\n|-------|---------------|\n| Whisper | 30 |\n| Normal conversation | 60 |\n| Vacuum cleaner | 80 |\n| Rock concert | 110 |\n| Jet engine (30 m) | 140 |\n\n> **Warning:** Sounds above 85 dB can cause hearing damage with prolonged exposure!"
         },
         {
             "id": "waves_quiz_1",
             "type": "quiz",
-            "title": "Wave Basics Check",
-            "content": "Testing your wave knowledge.",
-            "quizQuestion": "Which property of a sound wave corresponds to its volume?",
+            "title": "Wave Properties Quiz",
+            "content": "Test your understanding of wave basics!",
+            "quizQuestion": "If you double the frequency of a wave while keeping the medium the same, the wavelength will:",
             "quizOptions": [
-                "Frequency",
-                "Wavelength",
-                "Amplitude",
-                "Period"
+                "Double",
+                "Stay the same",
+                "Halve",
+                "Quadruple"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "waves_4",
+            "type": "content",
+            "title": "The Doppler Effect",
+            "content": "# The Doppler Effect\n\nThe **Doppler effect** is the change in observed frequency due to relative motion between source and observer.\n\n## Common Experience:\n\n- Ambulance siren sounds higher approaching, lower receding\n- Car horn pitch changes as it passes by\n- Same for light (redshift and blueshift)\n\n## For Sound:\n\n### Source Approaching:\n```\nf_observed = f_source x (v + v_observer) / (v - v_source)\n```\n\n### Source Receding:\n```\nf_observed = f_source x (v - v_observer) / (v + v_source)\n```\n\nWhere v is speed of sound.\n\n## Key Points:\n\n| Motion | Frequency | Wavelength |\n|--------|-----------|------------|\n| Approaching | Increases (higher pitch) | Decreases |\n| Receding | Decreases (lower pitch) | Increases |\n\n## Example:\nPolice car with 800 Hz siren approaches you at 30 m/s.\n```\nf = 800 x 340 / (340 - 30)\nf = 800 x 340 / 310\nf = 877 Hz\n```\n\n## Applications:\n\n| Technology | Use |\n|------------|-----|\n| Doppler radar | Weather tracking |\n| Speed guns | Traffic enforcement |\n| Medical ultrasound | Blood flow measurement |\n| Astronomy | Star/galaxy motion |\n\n> **Redshift:** Light from distant galaxies is redshifted, showing they're moving away - evidence for expanding universe!"
+        },
+        {
+            "id": "waves_5",
+            "type": "content",
+            "title": "Reflection of Light",
+            "content": "# Reflection of Light\n\n**Reflection** is the bouncing of light off a surface.\n\n## Law of Reflection:\n\n> **\"The angle of incidence equals the angle of reflection.\"**\n\n```\ntheta_i = theta_r\n```\n\nAngles measured from the normal (perpendicular to surface).\n\n## Types of Reflection:\n\n### Specular (Regular) Reflection:\n- Smooth surfaces (mirrors, still water)\n- Parallel rays stay parallel\n- Clear image formed\n\n### Diffuse Reflection:\n- Rough surfaces (paper, walls)\n- Parallel rays scatter in all directions\n- No clear image\n\n## Plane Mirror Images:\n\n### Properties:\n- Same size as object\n- Same distance behind mirror as object is in front\n- Virtual (cannot be projected)\n- Laterally inverted (left-right swap)\n\n## Curved Mirrors:\n\n### Concave Mirror (Converging):\n- Curves inward (like inside of spoon)\n- Real or virtual images depending on object position\n- Used: Makeup mirrors, flashlights, telescopes\n\n### Convex Mirror (Diverging):\n- Curves outward (like back of spoon)\n- Always virtual, upright, smaller images\n- Used: Car side mirrors, security mirrors\n\n## Mirror Equation:\n\n```\n1/f = 1/d_o + 1/d_i\n```\n\nWhere:\n- **f** = Focal length\n- **d_o** = Object distance\n- **d_i** = Image distance\n\n> **Safety Mirrors:** Convex mirrors give a wider field of view but show \"objects may be closer than they appear\"!"
+        },
+        {
             "id": "waves_6",
             "type": "content",
-            "title": "The Nature of Light",
-            "content": "# Particle or Wave? 🤔\n\nLight behaves as **BOTH**!\n- **Wave Theory**: Explains interference, diffraction.\n- **Particle Theory**: Explains photoelectric effect (Photons).\n\nLight travels in straight lines (Rays) in a uniform medium."
+            "title": "Refraction of Light",
+            "content": "# Refraction of Light\n\n**Refraction** is the bending of light as it passes between media with different densities.\n\n## Why Refraction Occurs:\n\n- Light travels at different speeds in different media\n- Faster in less dense media\n- When light changes speed, it changes direction\n\n## Refractive Index:\n\n```\nn = c / v\n```\n\nWhere:\n- **n** = Refractive index (dimensionless)\n- **c** = Speed of light in vacuum\n- **v** = Speed of light in medium\n\n### Common Refractive Indices:\n\n| Material | n |\n|----------|---|\n| Vacuum | 1.00 |\n| Air | 1.0003 |\n| Water | 1.33 |\n| Glass | 1.5 |\n| Diamond | 2.42 |\n\n## Snell's Law:\n\n```\nn1 x sin(theta_1) = n2 x sin(theta_2)\n```\n\n## Key Principles:\n\n- Light bends TOWARD normal when entering denser medium\n- Light bends AWAY from normal when entering less dense medium\n- More change in n = more bending\n\n## Examples:\n\n| Phenomenon | Explanation |\n|------------|-------------|\n| Straw appears bent in water | Refraction at air-water interface |\n| Pool looks shallower | Light bends when leaving water |\n| Mirage | Refraction in hot air layers |\n| Rainbow | Refraction and dispersion in droplets |\n\n> **Fiber Optics:** Light bounces inside glass fibers using total internal reflection, carrying data at light speed!"
         },
         {
             "id": "waves_7",
             "type": "content",
-            "title": "Reflection",
-            "content": "# Bouncing Back 🪞\n\n**Law of Reflection:**\nMeasured from the normal line (perpendicular to surface).\n\n$$\\theta_{incident} = \\theta_{reflected}$$\n\n- **Specular**: Smooth surface, clear image (Mirror).\n- **Diffuse**: Rough surface, scattered light (Paper)."
-        },
-        {
-            "id": "waves_8",
-            "type": "content",
-            "title": "Refraction",
-            "content": "# Bending Light ✏️\n\nBending of light when passing from one medium to another (e.g., air to water).\n\n**Snell's Law:**\n$$n_1 \\sin(\\theta_1) = n_2 \\sin(\\theta_2)$$\n\n- $n$: Index of refraction (measure of optical density).\n- Light slows down and bends **towards normal** in denser media."
-        },
-        {
-            "id": "waves_9",
-            "type": "content",
-            "title": "Lenses",
-            "content": "# Focusing Light 🔍\n\n1. **Convex Lens (Converging)**: Thicker in middle. Focuses light to a point. Used in cameras, eyes.\n2. **Concave Lens (Diverging)**: Thinner in middle. Spreads light out. Used for correcting nearsightedness."
-        },
-        {
-            "id": "waves_10",
-            "type": "content",
             "title": "Total Internal Reflection",
-            "content": "# Trapped Light 💎\n\nIf light hits a boundary at a steep enough angle (Critical Angle) going from dense $\\to$ less dense, it reflects entirely!\n\nApplications:\n- **Fiber Optics**: Internet cables.\n- **Diamonds**: Sparkle."
-        },
-        {
-            "id": "waves_11",
-            "type": "content",
-            "title": "Interference",
-            "content": "# Waves Colliding 💥\n\nWhen waves overlap:\n1. **Constructive**: Peak meets Peak. Amplitude adds up (Louder/Brighter).\n2. **Destructive**: Peak meets Trough. Cancel out (Silence/Darkness).\n\nThis creates interaction patterns."
-        },
-        {
-            "id": "waves_12",
-            "type": "content",
-            "title": "Diffraction",
-            "content": "# Bending Around Corners 🚪\n\nThe bending of waves around obstacles or through openings.\n\n- Significant when opening size $\\approx$ wavelength.\n- Why you can hear someone around a corner but can't see them (Sound $\\lambda$ is big, Light $\\lambda$ is tiny)."
+            "content": "# Total Internal Reflection\n\n**Total internal reflection (TIR)** occurs when light cannot exit a denser medium.\n\n## Conditions for TIR:\n\n1. Light traveling from denser to less dense medium\n2. Angle of incidence greater than critical angle\n\n## Critical Angle:\n\n```\nsin(theta_c) = n2 / n1\n```\n\nWhere n1 > n2 (light going from denser to less dense).\n\n### Critical Angles:\n\n| Interface | Critical Angle |\n|-----------|---------------|\n| Glass to Air | 42 degrees |\n| Water to Air | 49 degrees |\n| Diamond to Air | 24 degrees |\n\n## What Happens:\n\n| Angle vs Critical | Result |\n|-------------------|--------|\n| Less than critical | Some refraction, some reflection |\n| Equal to critical | Light travels along boundary |\n| Greater than critical | 100% reflection - TIR |\n\n## Applications:\n\n### Fiber Optic Cables:\n- Glass core with cladding\n- Light bounces along fiber\n- Data transmitted over thousands of km\n- Used in internet, medical scopes\n\n### Diamonds:\n- Very low critical angle (24 degrees)\n- Light gets trapped by TIR\n- Creates brilliant sparkle\n\n### Prisms:\n- Right-angle prisms use TIR\n- Better than mirrors (no coating needed)\n- Used in binoculars, periscopes\n\n> **Why diamonds sparkle:** Their high refractive index means a very low critical angle, trapping light and bouncing it around inside!"
         },
         {
             "id": "waves_quiz_2",
             "type": "quiz",
-            "title": "Optics Quiz",
-            "content": "Check your optics.",
-            "quizQuestion": "Why does a straw look broken in a glass of water?",
+            "title": "Refraction Quiz",
+            "content": "Test your knowledge of refraction!",
+            "quizQuestion": "When light passes from air into water, it bends:",
             "quizOptions": [
-                "Reflection",
-                "Refraction",
-                "Diffraction",
-                "Interference"
+                "Away from the normal",
+                "Toward the normal",
+                "Not at all",
+                "In a circle"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "waves_8",
+            "type": "content",
+            "title": "Lenses",
+            "content": "# Lenses\n\n**Lenses** are transparent objects that refract light to form images.\n\n## Types of Lenses:\n\n### Convex (Converging) Lens:\n- Thicker in middle\n- Parallel rays converge to focal point\n- Can form real or virtual images\n\n### Concave (Diverging) Lens:\n- Thinner in middle\n- Parallel rays diverge\n- Always forms virtual, upright, smaller images\n\n## Key Terms:\n\n- **Focal point (F):** Where parallel rays meet (convex) or appear to come from (concave)\n- **Focal length (f):** Distance from lens center to focal point\n- **Principal axis:** Line through center of lens\n\n## Lens Equation:\n\n```\n1/f = 1/d_o + 1/d_i\n```\n\n## Magnification:\n\n```\nM = -d_i / d_o = h_i / h_o\n```\n\n## Image Characteristics (Convex Lens):\n\n| Object Position | Image Position | Image Type |\n|-----------------|----------------|------------|\n| Beyond 2F | Between F and 2F | Real, inverted, smaller |\n| At 2F | At 2F | Real, inverted, same size |\n| Between F and 2F | Beyond 2F | Real, inverted, larger |\n| At F | At infinity | (No image) |\n| Inside F | Same side | Virtual, upright, larger |\n\n## Lens Power:\n\n```\nPower (diopters) = 1 / f (in meters)\n```\n\n- Positive power for convex lenses\n- Negative power for concave lenses\n- Eyeglass prescriptions use diopters\n\n> **Application:** Your eye has a convex lens that focuses images on your retina. Glasses correct focusing errors!"
+        },
+        {
+            "id": "waves_9",
+            "type": "content",
+            "title": "Optical Instruments",
+            "content": "# Optical Instruments\n\nOptical instruments use lenses and mirrors to enhance vision.\n\n## The Human Eye:\n\n### Parts:\n- **Cornea:** First refraction\n- **Lens:** Adjustable focus (accommodation)\n- **Retina:** Light-sensitive surface\n- **Iris:** Controls light entry (pupil size)\n\n### Vision Defects:\n\n| Defect | Description | Correction |\n|--------|-------------|------------|\n| Myopia (nearsighted) | Image forms before retina | Concave lens |\n| Hyperopia (farsighted) | Image forms after retina | Convex lens |\n| Astigmatism | Irregular cornea | Cylindrical lens |\n| Presbyopia | Age-related focus loss | Bifocals |\n\n## Simple Magnifying Glass:\n\n- Single convex lens\n- Object inside focal length\n- Virtual, magnified image\n- Magnification: M = 25 cm / f\n\n## Compound Microscope:\n\n- Two convex lenses\n- Objective lens: creates real, magnified image\n- Eyepiece: magnifies that image\n- Total magnification = M_objective x M_eyepiece\n\n## Telescope:\n\n### Refracting Telescope:\n- Large objective lens collects light\n- Eyepiece magnifies image\n- Magnification = f_objective / f_eyepiece\n\n### Reflecting Telescope:\n- Concave mirror collects light\n- Avoids chromatic aberration\n- Can be made larger\n\n> **Fun Fact:** The largest optical telescopes use mirrors over 10 meters in diameter!"
+        },
+        {
+            "id": "waves_10",
+            "type": "content",
+            "title": "Interference",
+            "content": "# Interference\n\n**Interference** occurs when two or more waves overlap in space.\n\n## Principle of Superposition:\n\n> **When waves meet, their displacements add algebraically.**\n\n## Types of Interference:\n\n### Constructive Interference:\n- Waves in phase (crests meet crests)\n- Amplitudes add\n- Resulting amplitude is LARGER\n- Path difference = 0, 1, 2, 3... wavelengths\n\n### Destructive Interference:\n- Waves out of phase (crests meet troughs)\n- Amplitudes subtract\n- Resulting amplitude is SMALLER\n- Path difference = 0.5, 1.5, 2.5... wavelengths\n\n## Young's Double Slit Experiment:\n\nLight passes through two slits, creating interference pattern.\n\n### Bright fringes (constructive):\n```\nd x sin(theta) = m x lambda\n```\n\nWhere m = 0, 1, 2, 3...\n\n### Dark fringes (destructive):\n```\nd x sin(theta) = (m + 0.5) x lambda\n```\n\n## Evidence Light is a Wave:\n\nYoung's experiment proved light is a wave:\n- Particles would not create interference patterns\n- Only waves can cancel out\n\n## Thin Film Interference:\n\n- Soap bubbles show colors\n- Oil slicks on water are colorful\n- Light reflects from top and bottom of film\n- Different wavelengths interfere differently\n\n> **Anti-reflective Coatings:** Thin films on glasses use destructive interference to reduce reflections!"
+        },
+        {
+            "id": "waves_11",
+            "type": "content",
+            "title": "Diffraction",
+            "content": "# Diffraction\n\n**Diffraction** is the bending of waves around obstacles or through openings.\n\n## When Diffraction Is Noticeable:\n\n- Opening size is comparable to wavelength\n- Smaller opening = more diffraction\n- Larger wavelength = more diffraction\n\n## Single Slit Diffraction:\n\nLight through a single slit creates a pattern:\n\n### Central maximum:\n- Brightest\n- Width = 2 x lambda x L / a\n- Where a = slit width, L = screen distance\n\n### Dark fringes:\n```\na x sin(theta) = m x lambda\n```\nWhere m = 1, 2, 3...\n\n## Diffraction Grating:\n\nMany parallel slits create sharp interference patterns.\n\n```\nd x sin(theta) = m x lambda\n```\n\nWhere d = distance between slits.\n\n### Uses:\n- Separating light into spectrum\n- Spectroscopy\n- CDs and DVDs (act as gratings)\n\n## Resolution Limit:\n\n### Rayleigh Criterion:\n```\ntheta_min = 1.22 x lambda / D\n```\n\nWhere D = diameter of aperture.\n\n- Larger aperture = better resolution\n- Shorter wavelength = better resolution\n\n## Why Diffraction Matters:\n\n| Application | Diffraction Role |\n|-------------|------------------|\n| Microscopy | Limits resolution |\n| Telescopes | Limits star separation |\n| Speakers | Sound bends around corners |\n| Radio waves | Can reach behind buildings |\n\n> **Why radio goes around corners:** Radio wavelengths (meters) are much larger than obstacles, so they diffract strongly!"
+        },
+        {
+            "id": "waves_quiz_3",
+            "type": "quiz",
+            "title": "Interference Quiz",
+            "content": "Test your understanding of wave interference!",
+            "quizQuestion": "When two waves of equal amplitude are exactly out of phase, the result is:",
+            "quizOptions": [
+                "Amplitude doubles",
+                "Complete cancellation",
+                "No change",
+                "Frequency doubles"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "waves_12",
+            "type": "content",
+            "title": "Wave Polarization",
+            "content": "# Polarization\n\n**Polarization** is the orientation of oscillation in transverse waves.\n\n## Unpolarized vs Polarized Light:\n\n### Unpolarized:\n- Oscillations in all directions perpendicular to travel\n- Sunlight, most artificial light\n\n### Polarized:\n- Oscillations in only one direction\n- Filtered or reflected light\n\n## Methods of Polarization:\n\n### 1. Polarizing Filters:\n- Transmit only one orientation\n- Block perpendicular orientation\n- Two perpendicular filters block ALL light\n\n### 2. Reflection:\n- Reflected light is partially polarized\n- At Brewster's angle, fully polarized\n- Brewster's angle: tan(theta_B) = n\n\n### 3. Scattering:\n- Light scattered by atmosphere is polarized\n- Blue sky is partially polarized\n\n## Malus's Law:\n\nFor polarized light through analyzer:\n\n```\nI = I_0 x cos^2(theta)\n```\n\nWhere theta is angle between polarizer axes.\n\n## Applications:\n\n| Application | How Polarization Helps |\n|-------------|------------------------|\n| Sunglasses | Reduce glare from surfaces |\n| Photography | Reduce reflections |\n| LCD screens | Control light passage |\n| 3D movies | Separate left/right images |\n| Stress analysis | Show stress patterns |\n\n## Key Points:\n\n- Only transverse waves can be polarized\n- Sound waves CANNOT be polarized (longitudinal)\n- This proved light is a transverse wave\n\n> **Polarized Sunglasses:** They block horizontally polarized light reflecting off roads and water, reducing glare!"
+        },
+        {
             "id": "waves_13",
             "type": "content",
-            "title": "Dispersion",
-            "content": "# Rainbows 🌈\n\nSeparation of white light into colors.\n- Different colors have different wavelengths.\n- Refractive index ($n$) varies slightly by wavelength.\n- Violet bends most, Red bends least.\n\nPrisms and raindrops cause dispersion."
+            "title": "Standing Waves",
+            "content": "# Standing Waves\n\n**Standing waves** form when two identical waves travel in opposite directions.\n\n## Characteristics:\n\n### Nodes:\n- Points of zero amplitude\n- No motion at these points\n- Always destructive interference\n\n### Antinodes:\n- Points of maximum amplitude\n- Maximum motion\n- Always constructive interference\n\n## Standing Waves on Strings:\n\n### Fundamental frequency (first harmonic):\n```\nf_1 = v / (2L)\n```\n\n### Harmonics:\n```\nf_n = n x f_1 = n x v / (2L)\n```\n\nWhere n = 1, 2, 3...\n\n### Wave speed on string:\n```\nv = sqrt(T / mu)\n```\n\nWhere T = tension, mu = mass per unit length\n\n## Standing Waves in Pipes:\n\n### Open pipe (both ends open):\n```\nf_n = n x v / (2L)\n```\nn = 1, 2, 3... (all harmonics)\n\n### Closed pipe (one end closed):\n```\nf_n = n x v / (4L)\n```\nn = 1, 3, 5... (odd harmonics only)\n\n## Musical Applications:\n\n| Instrument | Standing Wave Type |\n|------------|-------------------|\n| Guitar | String |\n| Flute | Open pipe |\n| Clarinet | Closed pipe |\n| Drums | 2D standing waves |\n\n> **Why instruments have different sounds:** They produce different combinations of harmonics, creating unique timbres!"
         },
         {
             "id": "waves_14",
             "type": "content",
-            "title": "The Electromagnetic Spectrum",
-            "content": "# The Full Picture 📻☢️\n\nFrom low energy to high energy:\n1. Radio Waves\n2. Microwaves\n3. Infrared\n4. Visible Light (ROYGBIV)\n5. Ultraviolet\n6. X-Rays\n7. Gamma Rays"
+            "title": "Resonance",
+            "content": "# Resonance\n\n**Resonance** is the tendency of a system to oscillate at maximum amplitude at certain frequencies.\n\n## Natural Frequency:\n\n- Every object has natural frequencies\n- These depend on physical properties\n- System oscillates freely at natural frequency when disturbed\n\n## Resonance Conditions:\n\n- Driving frequency = natural frequency\n- Energy input matches natural oscillation\n- Amplitude builds dramatically\n\n## Examples of Resonance:\n\n### Positive Examples:\n- Musical instruments (sound production)\n- Radio tuning (selecting stations)\n- MRI machines (imaging)\n- Microwave ovens (water molecules)\n\n### Destructive Examples:\n- Bridge collapse (Tacoma Narrows, 1940)\n- Building damage during earthquakes\n- Wine glass shattering from sound\n\n## Tacoma Narrows Bridge:\n\n- Wind created oscillations at bridge's natural frequency\n- Amplitude grew until bridge collapsed\n- Classic engineering lesson on resonance dangers\n\n## Quality Factor (Q):\n\nMeasures how \"sharp\" the resonance is.\n\n```\nQ = f_0 / Delta f\n```\n\nWhere:\n- **f_0** = Resonant frequency\n- **Delta f** = Bandwidth at half power\n\n### High Q:\n- Sharp resonance peak\n- Long-lasting oscillations\n- Little damping\n\n### Low Q:\n- Broad resonance peak\n- Quick decay\n- High damping\n\n> **Tuning a Radio:** You're matching the receiver's resonant frequency to the station's broadcast frequency!"
         },
         {
             "id": "waves_15",
             "type": "content",
-            "title": "Polarization",
-            "content": "# Filtering Light 🕶️\n\nLight waves oscillate in all directions. **Polarization** restricts vibrations to a single plane.\n\n- Polarized Sunglasses: Block horizontal glare from roads or water."
+            "title": "Dispersion and Color",
+            "content": "# Dispersion and Color\n\n**Dispersion** is the separation of light into its component colors due to wavelength-dependent refraction.\n\n## Why Dispersion Occurs:\n\n- Refractive index varies with wavelength\n- Shorter wavelengths (blue/violet) refract more\n- Longer wavelengths (red) refract less\n\n## Rainbow Formation:\n\n1. Sunlight enters raindrop\n2. Refraction separates colors\n3. Light reflects inside droplet\n4. More refraction upon exit\n5. Different colors exit at different angles\n\n### Rainbow Colors:\n- **Red** on outside (42 degrees)\n- **Violet** on inside (40 degrees)\n- Full spectrum between: **ROYGBIV**\n\n## Prism Dispersion:\n\n- White light enters prism\n- Each color bends differently\n- Spectrum spreads out on exit\n- Newton used this to study light\n\n## Visible Spectrum Wavelengths:\n\n| Color | Wavelength (nm) |\n|-------|----------------|\n| Red | 620-750 |\n| Orange | 590-620 |\n| Yellow | 570-590 |\n| Green | 495-570 |\n| Blue | 450-495 |\n| Violet | 380-450 |\n\n## Applications:\n\n| Technology | Use of Dispersion |\n|------------|-------------------|\n| Spectroscopy | Analyzing starlight composition |\n| Fiber optics | Can cause signal distortion |\n| Cameras | Chromatic aberration (must correct) |\n| Diamond cutting | Maximizes \"fire\" (color flashes) |\n\n> **Why is the sky blue?** Short wavelengths (blue) scatter more than long wavelengths (red) - this is Rayleigh scattering, related to dispersion!"
         },
         {
             "id": "waves_16",
             "type": "content",
-            "title": "Mirrors",
-            "content": "# Image Formation 🪞\n\n- **Plane Mirror**: Virtual, upright, same size.\n- **Concave Mirror**: Can magnify or flip image (Makeup mirror).\n- **Convex Mirror**: Wide field of view (Store security mirror)."
+            "title": "Beats and Sound Effects",
+            "content": "# Beats and Sound Effects\n\n## Beats:\n\n**Beats** are periodic variations in loudness when two similar frequencies combine.\n\n### Beat Frequency:\n```\nf_beat = |f_1 - f_2|\n```\n\n### Example:\nTwo tuning forks at 440 Hz and 444 Hz create:\n```\nf_beat = |440 - 444| = 4 beats per second\n```\n\n### Applications:\n- Tuning musical instruments\n- Piano tuner listens for zero beats\n- Testing frequency calibration\n\n## Ultrasound:\n\nSound above 20,000 Hz (above human hearing)\n\n### Applications:\n- Medical imaging (prenatal, organs)\n- Sonar (submarine navigation)\n- Cleaning (ultrasonic cleaners)\n- Distance measurement\n\n## Infrasound:\n\nSound below 20 Hz (below human hearing)\n\n### Sources:\n- Earthquakes\n- Elephants (communication)\n- Whales\n- Severe weather\n\n## Sound in Different Media:\n\n| Effect | Explanation |\n|--------|-------------|\n| Echoes | Reflection from surfaces |\n| Reverberation | Multiple reflections overlapping |\n| Soundproofing | Absorbing sound waves |\n| Sonar | Timing echo returns |\n\n## Shock Waves:\n\n- Occur when source exceeds sound speed\n- Sonic boom is a shock wave\n- Mach number = v/c (ratio to sound speed)\n\n> **Concert Halls:** Acoustic engineers carefully design reverb time for optimal music experience - too little sounds dead, too much sounds muddy!"
+        },
+        {
+            "id": "waves_quiz_4",
+            "type": "quiz",
+            "title": "Optics Applications Quiz",
+            "content": "Test your understanding of practical optics!",
+            "quizQuestion": "A nearsighted person needs what type of lens to correct their vision?",
+            "quizOptions": [
+                "Convex lens",
+                "Concave lens",
+                "Cylindrical lens",
+                "No lens needed"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "waves_17",
             "type": "content",
-            "title": "Waves Summary",
-            "content": "# Recap 📝\n\n- Waves transfer **energy**.\n- **Sound** is mechanical; **Light** is electromagnetic.\n- **Refraction** bends light; **Reflection** bounces it.\n- Waves can interfere, diffract, and disperse.\n\nFrom the music we hear to the colors we see, waves explain our sensory world!"
+            "title": "Summary and Key Concepts",
+            "content": "# Waves and Optics Summary\n\n## Wave Fundamentals:\n- Wave equation: v = f x lambda\n- Transverse: vibration perpendicular to travel\n- Longitudinal: vibration parallel to travel\n- Speed depends on medium, not wave properties\n\n## Sound:\n- Mechanical longitudinal wave\n- Speed in air: about 343 m/s (20 C)\n- Cannot travel in vacuum\n- Doppler effect: frequency change due to motion\n\n## Light Behavior:\n\n| Phenomenon | Law/Principle |\n|------------|---------------|\n| Reflection | Angle in = Angle out |\n| Refraction | Snell's Law: n1 sin(1) = n2 sin(2) |\n| Total Internal Reflection | Angle > Critical angle |\n| Dispersion | n depends on wavelength |\n\n## Lenses and Mirrors:\n- Lens/Mirror equation: 1/f = 1/do + 1/di\n- Convex lens/concave mirror: converging\n- Concave lens/convex mirror: diverging\n\n## Wave Phenomena:\n- Interference: waves adding constructively or destructively\n- Diffraction: waves bending around obstacles\n- Polarization: orientation of transverse wave oscillation\n- Standing waves: fixed patterns from superposition\n\n## Key Equations:\n\n| Concept | Equation |\n|---------|----------|\n| Wave speed | v = f x lambda |\n| Snell's Law | n1 sin(1) = n2 sin(2) |\n| Lens equation | 1/f = 1/do + 1/di |\n| Beats | f_beat = f1 - f2 |\n\n> **Congratulations!** You've completed the Waves and Optics module. These principles explain how we see and hear the world!"
         }
     ]
 }

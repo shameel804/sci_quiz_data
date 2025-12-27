@@ -2,138 +2,166 @@
     "id": "learn_appl",
     "topicId": "appl",
     "topicTitle": "Applied Physics",
-    "description": "See physics in action through machines, fluids, and astrophysics.",
-    "baseKP": 100,
+    "description": "Explore simple machines, fluid dynamics, and the basics of astrophysics including black holes and cosmic rays",
+    "baseKP": 75,
     "slides": [
         {
             "id": "appl_1",
             "type": "content",
-            "title": "Physics in the Real World",
-            "content": "# Putting Theory to Work 🛠️\n\nApplied physics bridges the gap between pure physics and engineering. It involves using physical principles to solve practical problems.\n\nKey areas:\n- Machines\n- Fluid Dynamics\n- Astrophysics"
+            "title": "Welcome to Applied Physics",
+            "content": "# Introduction to Applied Physics\n\nWelcome to **Applied Physics** - where fundamental physics principles meet real-world applications!\n\n## What You Will Learn:\n- **Simple Machines** - Levers, pulleys, and mechanical advantage\n- **Fluid Dynamics** - How fluids behave and flow\n- **Bernoulli's Principle** - The physics of flight\n- **Basics of Astrophysics** - Black holes and cosmic phenomena\n- **Cosmic Rays** - High-energy visitors from space\n\n> **Fun Fact:** Every technology around you, from your car to your phone, relies on applied physics principles!\n\n## Why Applied Physics Matters:\n- Engineering uses physics to build structures and machines\n- Aviation relies on fluid dynamics\n- Medicine uses physics in imaging and treatment\n- Space exploration applies physics beyond Earth\n- Everyday tools are simple machines\n\n## The Bridge Between Theory and Practice:\n\n| Pure Physics | Applied Physics |\n|-------------|----------------|\n| Understand forces | Design machines |\n| Study fluids | Build aircraft |\n| Model gravity | Navigate space |\n| Analyze waves | Create sensors |\n\nLet's explore how physics shapes our world!"
         },
         {
             "id": "appl_2",
             "type": "content",
-            "title": "Simple Machines",
-            "content": "# Work Smarter, Not Harder 🏗️\n\nDevices that change the magnitude or direction of force.\n\n**Mechanical Advantage (MA):**\n$$MA = \\frac{Output Force}{Input Force}$$\n\nIf $MA > 1$, you lift heavy loads with less force (but over more distance)."
+            "title": "Simple Machines Introduction",
+            "content": "# Simple Machines\n\n**Simple machines** are devices that multiply force or change its direction.\n\n## The Six Simple Machines:\n\n1. **Lever** - Bar that pivots on fulcrum\n2. **Wheel and Axle** - Rotating wheel attached to axle\n3. **Pulley** - Wheel with rope/chain\n4. **Inclined Plane** - Ramp or slope\n5. **Wedge** - Two inclined planes back-to-back\n6. **Screw** - Inclined plane wrapped around cylinder\n\n## Mechanical Advantage (MA):\n\n```\nMA = Output Force / Input Force\nMA = Input Distance / Output Distance\n```\n\n### Key Principle:\n- You cannot get MORE work out than you put in\n- Machines trade force for distance (or vice versa)\n- Work input = Work output (ideal machine)\n\n## Efficiency:\n\n```\nEfficiency = (Work Output / Work Input) x 100%\n```\n\n### Real Machines:\n- Always less than 100% efficient\n- Energy lost to friction, heat, sound\n- Well-designed machines minimize losses\n\n## Why Simple Machines Matter:\n\n| Machine | Everyday Examples |\n|---------|------------------|\n| Lever | Scissors, seesaw, crowbar |\n| Wheel/Axle | Doorknobs, cars, bicycles |\n| Pulley | Elevators, cranes, blinds |\n| Inclined Plane | Ramps, roads, slides |\n| Wedge | Knife, axe, zipper |\n| Screw | Jar lids, bolts, drills |\n\n> **Ancient Innovation:** Simple machines have been used for thousands of years - pyramids were built using levers, inclined planes, and pulleys!"
         },
         {
             "id": "appl_3",
             "type": "content",
-            "title": "The Lever",
-            "content": "# The Pivot Point ⚖️\n\n\"Give me a lever long enough... and I shall move the world.\" - Archimedes\n\nThree Classes:\n1. **Seesaw/Crowbar**: Fulcrum in middle.\n2. **Wheelbarrow**: Load in middle.\n3. **Bicep/Tongs**: Effort in middle."
+            "title": "Levers",
+            "content": "# Levers\n\nA **lever** is a rigid bar that rotates around a fixed point called the **fulcrum**.\n\n## Lever Principle:\n\n```\nF1 x d1 = F2 x d2\n```\n\nWhere:\n- **F1** = Input force (effort)\n- **d1** = Distance from effort to fulcrum\n- **F2** = Output force (load)\n- **d2** = Distance from load to fulcrum\n\n## Mechanical Advantage:\n\n```\nMA = d1 / d2\n```\n\nLonger effort arm = greater mechanical advantage.\n\n## Three Classes of Levers:\n\n### Class 1: Fulcrum in middle\n- Effort and Load on opposite sides\n- Examples: Seesaw, scissors, crowbar\n- Can multiply force OR speed\n\n### Class 2: Load in middle\n- Fulcrum at one end, effort at other\n- Examples: Wheelbarrow, nutcracker, bottle opener\n- Always multiplies force (MA > 1)\n\n### Class 3: Effort in middle\n- Fulcrum at one end, load at other\n- Examples: Broom, fishing rod, tweezers\n- Always multiplies speed/distance (MA < 1)\n\n## Summary Table:\n\n| Class | Order | MA | Examples |\n|-------|-------|-----|----------|\n| 1 | F-L-E or E-L-F | Variable | Scissors, seesaw |\n| 2 | F-E-L | > 1 | Wheelbarrow |\n| 3 | F-L-E | < 1 | Tweezers |\n\nF = Fulcrum, L = Load, E = Effort\n\n## Example:\nA lever has effort arm 3 m and load arm 0.5 m.\n```\nMA = 3 / 0.5 = 6\n```\nWith 100 N effort, you can lift: 100 x 6 = 600 N\n\n> **Archimedes:** \"Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.\""
+        },
+        {
+            "id": "appl_quiz_1",
+            "type": "quiz",
+            "title": "Levers Quiz",
+            "content": "Test your understanding of levers!",
+            "quizQuestion": "A wheelbarrow is an example of which class of lever?",
+            "quizOptions": [
+                "Class 1",
+                "Class 2",
+                "Class 3",
+                "Not a lever"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "appl_4",
             "type": "content",
             "title": "Pulleys",
-            "content": "# Hoisting Helper 🎣\n\n- **Fixed Pulley**: Changes direction. MA = 1.\n- **Movable Pulley**: Doubles force. MA = 2.\n- **Block and Tackle**: System of pulleys. MA = Number of rope segments.\n\nAllows lifting engines, elevators, and sails."
+            "content": "# Pulleys\n\nA **pulley** is a wheel with a grooved rim that holds a rope, chain, or belt.\n\n## Types of Pulleys:\n\n### Fixed Pulley:\n- Attached to fixed point (ceiling, beam)\n- Changes direction of force\n- MA = 1 (no force multiplication)\n- Makes lifting more convenient\n\n### Movable Pulley:\n- Attached to the load\n- Moves with the load\n- MA = 2 (halves the force needed)\n- Doubles the distance pulled\n\n### Compound (Block and Tackle):\n- Combination of fixed and movable\n- Multiple pulleys increase MA\n- Each rope segment adds to MA\n\n## Mechanical Advantage:\n\n```\nMA = Number of rope segments supporting the load\n```\n\n### Examples:\n| System | Rope Segments | MA |\n|--------|--------------|----|\n| Fixed pulley | 1 | 1 |\n| Movable pulley | 2 | 2 |\n| 2 fixed + 1 movable | 3 | 3 |\n| 2 fixed + 2 movable | 4 | 4 |\n\n## Trade-off:\n\n- Higher MA = more rope to pull\n- For MA = 4: pull 4 m of rope to lift load 1 m\n- Work input still equals work output\n\n## Applications:\n\n| Application | Type Used |\n|------------|----------|\n| Flag pole | Fixed pulley |\n| Rock climbing | Fixed + movable |\n| Crane | Block and tackle |\n| Elevator | Multiple pulleys |\n| Sailing | Compound system |\n\n> **Heavy Lifting:** Ancient Greeks used compound pulleys. With a 10:1 MA, one person could lift 5000 N!"
         },
         {
             "id": "appl_5",
             "type": "content",
-            "title": "Inclined Plane & Screw",
-            "content": "# Ramps and Spirals 🔩\n\n**Inclined Plane (Ramp):**\nLifting straight up is hard. Pushing up a ramp is easier.\n\n**Screw:**\nAn inclined plane wrapped around a cylinder.\n- Converts rotational force $\\to$ linear force with HUGE mechanical advantage."
-        },
-        {
-            "id": "appl_quiz_1",
-            "type": "quiz",
-            "title": "Machines Quiz",
-            "content": "Test your mechanical advantage.",
-            "quizQuestion": "Which machine is simply an inclined plane wrapped around a cylinder?",
-            "quizOptions": [
-                "Lever",
-                "Pulley",
-                "Screw",
-                "Wedge"
-            ],
-            "correctOptionIndex": 2
+            "title": "Other Simple Machines",
+            "content": "# Other Simple Machines\n\n## Wheel and Axle:\n\nA large wheel attached to a smaller axle.\n\n### How It Works:\n- Force applied to wheel rim\n- Smaller force at axle creates larger force\n\n### Mechanical Advantage:\n```\nMA = Radius of wheel / Radius of axle\n```\n\n### Examples:\n- Car steering wheel (MA ~ 4)\n- Doorknob (MA ~ 4)\n- Screwdriver handle\n- Bicycle pedals and gears\n\n## Inclined Plane:\n\nA flat surface set at an angle.\n\n### How It Works:\n- Spreads vertical lift over longer distance\n- Less force needed, but more distance\n\n### Mechanical Advantage:\n```\nMA = Length of slope / Height\n```\n\n### Example:\nRamp 10 m long, 2 m high: MA = 10/2 = 5\n\n### Applications:\n- Wheelchair ramps\n- Highway hills\n- Loading docks\n\n## Wedge:\n\nTwo inclined planes joined at their bases.\n\n### How It Works:\n- Converts input force to splitting force\n- Force amplified perpendicular to input\n\n### Examples:\n- Knife and axe blades\n- Zipper teeth\n- Door stops\n- Chisels\n\n## Screw:\n\nAn inclined plane wrapped around a cylinder.\n\n### Mechanical Advantage:\n```\nMA = 2 x pi x radius / pitch\n```\n\nWhere pitch = distance between threads.\n\n### Examples:\n- Bolts and screws\n- Jar lids\n- Car jack\n- Drill bits\n\n> **Combination Machines:** Most tools combine simple machines. A scissors is two levers joined with a wedge (the blade)!"
         },
         {
             "id": "appl_6",
             "type": "content",
-            "title": "Fluid Dynamics",
-            "content": "# Flowing Physics 🚰\n\nStudy of fluids (liquids and gases) in motion.\n\nProperties:\n- **Density**: $\\rho = mass/volume$\n- **Pressure**: $P = Force/Area$\n- **Viscosity**: Resistance to flow (thickness)."
+            "title": "Fluid Statics",
+            "content": "# Fluid Statics\n\n**Fluid statics** (hydrostatics) is the study of fluids at rest.\n\n## What Is a Fluid?\n\nA substance that flows and takes the shape of its container:\n- Liquids (water, oil)\n- Gases (air, helium)\n\n## Pressure:\n\n```\nPressure = Force / Area\nP = F / A\n```\n\nUnit: Pascal (Pa) = N/m^2\n\n### Pressure in a Fluid:\n```\nP = rho x g x h\n```\n\nWhere:\n- **rho** = Fluid density (kg/m^3)\n- **g** = Gravitational acceleration\n- **h** = Depth\n\n## Pascal's Principle:\n\n> **Pressure applied to an enclosed fluid is transmitted equally in all directions.**\n\n### Hydraulic Systems:\n```\nF1/A1 = F2/A2\n```\n\n- Small force on small piston\n- Creates large force on large piston\n- Used in car brakes, lifts, heavy machinery\n\n## Buoyancy and Archimedes' Principle:\n\n> **An object in fluid experiences upward force equal to weight of fluid displaced.**\n\n```\nBuoyant force = rho_fluid x g x V_displaced\n```\n\n### Float or Sink:\n| Condition | Result |\n|-----------|--------|\n| Object density < Fluid density | Float |\n| Object density > Fluid density | Sink |\n| Object density = Fluid density | Neutrally buoyant |\n\n## Applications:\n\n| Device | Principle Used |\n|--------|---------------|\n| Hydraulic lift | Pascal's principle |\n| Ships | Buoyancy |\n| Submarines | Variable buoyancy |\n| Hot air balloon | Air buoyancy |\n\n> **Why ships float:** Steel is denser than water, but hollow ship shape displaces more water than ship's weight!"
         },
         {
             "id": "appl_7",
             "type": "content",
-            "title": "Buoyancy",
-            "content": "# Why Ships Float 🚢\n\n**Archimedes' Principle:**\nThe buoyant force on an object is equal to the weight of the fluid dispersed.\n\n- Object Density < Fluid Density $\\to$ **Float**\n- Object Density > Fluid Density $\\to$ **Sink**"
-        },
-        {
-            "id": "appl_8",
-            "type": "content",
-            "title": "Pascal's Principle",
-            "content": "# Hydraulic Power 🚜\n\nPressure applied to a confined fluid is transmitted undiminished to every part of the fluid.\n\n$$P_1 = P_2 \\implies \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$\n\nSmall force on small piston $\\to$ Large force on large piston. This is how brakes and excavators work."
-        },
-        {
-            "id": "appl_9",
-            "type": "content",
-            "title": "Bernoulli's Principle",
-            "content": "# Flight Physics ✈️\n\n**Faster fluid = Lower pressure.**\n\nAirplane Wings (Airfoils):\n- Air moves faster over the curved top $\\to$ Low Pressure.\n- Air moves slower under the bottom $\\to$ High Pressure.\n- Net result: **LIFT**."
-        },
-        {
-            "id": "appl_10",
-            "type": "content",
-            "title": "Astrophysics Basics",
-            "content": "# The Physics of Stars ✨\n\nApplying physics to the universe.\n- **Gravity**: Holds stars/galaxies together.\n- **Fusion**: Powers stars.\n- **Spectroscopy**: Analyzing light to determine composition."
-        },
-        {
-            "id": "appl_11",
-            "type": "content",
-            "title": "Stellar Lifecycle",
-            "content": "# Born of Stardust 🌟\n\n1. **Nebula**: Gas cloud collapses.\n2. **Main Sequence**: Sun-like fusion.\n3. **Red Giant**: Fuel runs out, expands.\n4. **End State**:\n   - White Dwarf (Small stars)\n   - Neutron Star (Medium stars)\n   - Black Hole (Massive stars)"
-        },
-        {
-            "id": "appl_12",
-            "type": "content",
-            "title": "Black Holes",
-            "content": "# Gravity Gone Wild 🕳️\n\nRegion where gravity is so strong nothing, not even light, can escape.\n- **Event Horizon**: Point of no return.\n- **Singularity**: Center point of infinite density.\n\nPredicted by General Relativity."
+            "title": "Fluid Dynamics Basics",
+            "content": "# Fluid Dynamics\n\n**Fluid dynamics** is the study of fluids in motion.\n\n## Types of Flow:\n\n### Laminar Flow:\n- Smooth, orderly layers\n- Low velocity\n- No mixing between layers\n- Energy efficient\n\n### Turbulent Flow:\n- Chaotic, swirling motion\n- High velocity\n- Mixing and eddies\n- More friction/resistance\n\n## Reynolds Number:\n\nPredicts flow type:\n```\nRe = (rho x v x L) / mu\n```\n\n| Re Value | Flow Type |\n|----------|----------|\n| < 2000 | Laminar |\n| > 4000 | Turbulent |\n| 2000-4000 | Transitional |\n\n## Continuity Equation:\n\nFor incompressible flow in a pipe:\n```\nA1 x v1 = A2 x v2\n```\n\n### Meaning:\n- Where pipe narrows, velocity increases\n- Flow rate (volume/time) is constant\n- Half the area = double the speed\n\n## Viscosity:\n\n**Viscosity** is a fluid's resistance to flow.\n\n| Fluid | Relative Viscosity |\n|-------|-------------------|\n| Water | Low |\n| Olive oil | Medium |\n| Honey | High |\n| Tar | Very high |\n\n### Temperature Effect:\n- Liquids: viscosity DECREASES with temperature\n- Gases: viscosity INCREASES with temperature\n\n## Real-World Applications:\n\n| Application | Fluid Dynamics Role |\n|------------|--------------------|\n| Plumbing | Pipe sizing, flow rates |\n| Blood flow | Vessel diameter, viscosity |\n| Aircraft | Aerodynamics |\n| Weather | Atmospheric flow |\n\n> **Your circulatory system:** Blood flows through vessels ranging from 25 mm (aorta) to 0.008 mm (capillaries)!"
         },
         {
             "id": "appl_quiz_2",
             "type": "quiz",
-            "title": "Astro Quiz",
-            "content": "Space check.",
-            "quizQuestion": "What does a massive star become after a supernova?",
+            "title": "Fluids Quiz",
+            "content": "Test your knowledge of fluid physics!",
+            "quizQuestion": "According to the continuity equation, when a pipe narrows, the fluid velocity:",
             "quizOptions": [
-                "Planet",
-                "Black Hole or Neutron Star",
-                "White Dwarf",
-                "Red Giant"
+                "Decreases",
+                "Stays the same",
+                "Increases",
+                "Becomes zero"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "appl_8",
+            "type": "content",
+            "title": "Bernoulli's Principle",
+            "content": "# Bernoulli's Principle\n\n**Bernoulli's Principle** relates pressure, velocity, and height in a flowing fluid.\n\n## The Bernoulli Equation:\n\n```\nP + (1/2) x rho x v^2 + rho x g x h = constant\n```\n\nWhere:\n- **P** = Pressure\n- **rho** = Fluid density\n- **v** = Fluid velocity\n- **h** = Height\n\n## The Key Insight:\n\n> **In a fluid flow, where velocity increases, pressure decreases.**\n\n### Why?\n- Total energy must be conserved\n- Higher kinetic energy (velocity) = lower pressure energy\n- This is energy conservation for fluids\n\n## Demonstrations:\n\n### Blowing Over Paper:\n- Hold paper strip below lips\n- Blow over the top\n- Paper rises (lower pressure above)\n\n### Two Pieces of Paper:\n- Hold two sheets parallel\n- Blow between them\n- They come together (lower pressure between)\n\n## Applications:\n\n| Application | How Bernoulli Applies |\n|------------|----------------------|\n| Airplane wings | Faster air above = lower pressure = lift |\n| Curve ball | Spinning ball creates pressure difference |\n| Carburetor | Fast air draws fuel in |\n| Venturi meter | Measures flow rate |\n| Atomizer | Fast air sprays liquid |\n| Chimney draft | Wind creates low pressure |\n\n## Lift Force on Wing:\n\n- Air flows faster over curved top\n- Creates lower pressure above wing\n- Higher pressure below pushes up\n- Net upward force = LIFT\n\n> **Not the whole story:** Modern aerodynamics shows that angle of attack and air deflection are also critical for lift. Bernoulli is part of the explanation!"
+        },
+        {
+            "id": "appl_9",
+            "type": "content",
+            "title": "Aerodynamics",
+            "content": "# Aerodynamics\n\n**Aerodynamics** is the study of air (and other gases) in motion.\n\n## Four Forces of Flight:\n\n### 1. Lift:\n- Upward force opposing weight\n- Created by wings\n- Depends on shape, angle, speed\n\n### 2. Weight:\n- Downward gravitational force\n- Must be balanced by lift for level flight\n\n### 3. Thrust:\n- Forward force from engines\n- Overcomes drag\n- Propellers, jets, rockets\n\n### 4. Drag:\n- Resistance from air\n- Opposes motion\n- Affected by shape and speed\n\n## Level Flight Conditions:\n- Lift = Weight\n- Thrust = Drag\n\n## Lift Equation:\n\n```\nLift = (1/2) x rho x v^2 x A x C_L\n```\n\nWhere:\n- **rho** = Air density\n- **v** = Velocity\n- **A** = Wing area\n- **C_L** = Lift coefficient (depends on shape and angle)\n\n## Drag Equation:\n\n```\nDrag = (1/2) x rho x v^2 x A x C_D\n```\n\n## Streamlining:\n\n| Shape | Drag Coefficient (C_D) |\n|-------|------------------------|\n| Sphere | 0.47 |\n| Cylinder | 1.17 |\n| Flat plate | 1.28 |\n| Car | 0.25-0.35 |\n| Streamlined body | 0.04 |\n\n## Applications:\n\n| Field | Aerodynamic Design |\n|-------|--------------------|\n| Cars | Lower fuel consumption |\n| Buildings | Wind load resistance |\n| Sports | Helmets, bicycles, balls |\n| Wind turbines | Blade efficiency |\n\n> **Speed Matters:** Drag increases with velocity SQUARED. Doubling speed quadruples drag force!"
+        },
+        {
+            "id": "appl_10",
+            "type": "content",
+            "title": "Introduction to Astrophysics",
+            "content": "# Introduction to Astrophysics\n\n**Astrophysics** applies physics to understand celestial objects and phenomena.\n\n## What Astrophysics Studies:\n\n- Stars (formation, evolution, death)\n- Galaxies and their structures\n- Black holes and neutron stars\n- Dark matter and dark energy\n- Cosmic expansion and Big Bang\n- Gravity on cosmic scales\n\n## Gravity in Space:\n\n### Newton's Law of Gravitation:\n```\nF = G x m1 x m2 / r^2\n```\n\n### Orbital Mechanics:\n```\nv_orbital = sqrt(G x M / r)\n```\n\n### Escape Velocity:\n```\nv_escape = sqrt(2 x G x M / r)\n```\n\n## Energy in Stars:\n\n### Core Fusion:\n- Stars fuse hydrogen into helium\n- Mass converted to energy (E = mc^2)\n- Powers stars for billions of years\n\n### Energy Transport:\n| Zone | Mechanism |\n|------|----------|\n| Core | Generation |\n| Radiative zone | Photon diffusion |\n| Convective zone | Bulk motion |\n| Photosphere | Emission to space |\n\n## Stellar Life Cycle:\n\n1. **Nebula** - Gas cloud collapses\n2. **Protostar** - Core heats\n3. **Main Sequence** - Stable hydrogen fusion\n4. **Red Giant** - Core contracts, outer layers expand\n5. **Final Stage** - Depends on mass:\n   - Small: White dwarf\n   - Medium: Neutron star\n   - Large: Black hole\n\n> **Cosmic Timescales:** Our Sun is 4.6 billion years old and will last another 5 billion years on the main sequence!"
+        },
+        {
+            "id": "appl_11",
+            "type": "content",
+            "title": "Black Holes",
+            "content": "# Black Holes\n\n**Black holes** are regions of space where gravity is so strong that nothing, not even light, can escape.\n\n## Formation:\n\n### Stellar Black Holes:\n- Form when massive stars (>20 solar masses) collapse\n- Core implodes after supernova\n- Mass squeezed into tiny volume\n\n### Supermassive Black Holes:\n- Found at galaxy centers\n- Millions to billions of solar masses\n- Formation still being studied\n\n## Structure:\n\n### Event Horizon:\n- The \"point of no return\"\n- Boundary where escape velocity equals c\n- Radius = Schwarzschild radius\n\n### Schwarzschild Radius:\n```\nr_s = 2GM / c^2\n```\n\n| Object | Schwarzschild Radius |\n|--------|-----------------------|\n| Earth | 9 mm |\n| Sun | 3 km |\n| Milky Way center | 12 million km |\n\n### Singularity:\n- Center of black hole\n- All mass compressed to a point\n- Density approaches infinity\n\n## Effects:\n\n### Time Dilation:\n- Near black hole, time slows dramatically\n- Observer at distance sees clock slow near horizon\n- At horizon, clock appears to stop\n\n### Gravitational Lensing:\n- Light bends around black hole\n- Creates distorted images of background objects\n- Used to detect black holes\n\n### Tidal Forces:\n- Extreme stretching effect\n- \"Spaghettification\" of falling objects\n- Stronger for smaller black holes\n\n## Detection:\n\n- X-rays from accretion disk\n- Gravitational waves from mergers\n- Star orbital motions\n- Direct imaging (Event Horizon Telescope)\n\n> **First Image:** In 2019, the Event Horizon Telescope captured the first image of a black hole in galaxy M87!"
+        },
+        {
+            "id": "appl_12",
+            "type": "content",
+            "title": "Neutron Stars and Pulsars",
+            "content": "# Neutron Stars and Pulsars\n\n## Neutron Stars:\n\n**Neutron stars** are the collapsed cores of massive stars.\n\n### Properties:\n- Mass: 1.4 to 2 solar masses\n- Radius: only 10-20 km\n- Density: 10^14 g/cm^3 (teaspoon weighs 1 billion tons)\n- Surface gravity: 10^11 times Earth\n\n### Formation:\n1. Massive star runs out of fuel\n2. Core collapses\n3. Protons and electrons combine to form neutrons\n4. Neutron degeneracy pressure stops collapse\n\n### Composition:\n| Layer | Content |\n|-------|--------|\n| Crust | Iron nuclei, neutrons |\n| Outer core | Neutron fluid |\n| Inner core | Unknown (possibly quark matter) |\n\n## Pulsars:\n\n**Pulsars** are rotating neutron stars that emit beams of radiation.\n\n### How Pulsars Work:\n- Magnetic axis misaligned with rotation axis\n- Radiation beams sweep like lighthouse\n- We see pulses when beam points at Earth\n\n### Properties:\n- Rotation periods: 0.001 to several seconds\n- Extremely regular timing\n- Gradually slow down over time\n\n### Types:\n| Type | Period | Notes |\n|------|--------|---------|\n| Normal pulsar | 0.1-1 s | Standard rotation |\n| Millisecond pulsar | <10 ms | Spun up by companion |\n| Magnetar | ~10 s | Extreme magnetic field |\n\n## Applications:\n\n- **GPS of space:** Pulsar timing for navigation\n- **Gravitational wave detection:** Binary pulsars\n- **Physics laboratory:** Extreme conditions\n\n> **Discovery:** Jocelyn Bell Burnell discovered pulsars in 1967. The signal was initially called \"LGM-1\" (Little Green Men)!"
+        },
+        {
+            "id": "appl_quiz_3",
+            "type": "quiz",
+            "title": "Astrophysics Quiz",
+            "content": "Test your knowledge of astrophysics!",
+            "quizQuestion": "The event horizon of a black hole is:",
+            "quizOptions": [
+                "The center where all mass is located",
+                "The boundary beyond which light cannot escape",
+                "The outer edge of the accretion disk",
+                "A region of intense light"
             ],
             "correctOptionIndex": 1
         },
         {
             "id": "appl_13",
             "type": "content",
-            "title": "The Big Bang",
-            "content": "# The Beginning 💥\n\nUniverse started as a hot, dense point ~13.8 billion years ago and has been expanding ever since.\n\nEvidence:\n1. Galaxies moving away (Redshift).\n2. Cosmic Microwave Background Radiation (CMB)."
+            "title": "Cosmic Rays",
+            "content": "# Cosmic Rays\n\n**Cosmic rays** are high-energy particles from outer space that bombard Earth.\n\n## What Are Cosmic Rays?\n\n### Composition:\n- ~90% protons\n- ~9% alpha particles (helium nuclei)\n- ~1% heavier nuclei\n- Some electrons and positrons\n\n### Energy Ranges:\n| Type | Energy |\n|------|--------|\n| Solar cosmic rays | 10^6 - 10^10 eV |\n| Galactic cosmic rays | 10^9 - 10^15 eV |\n| Ultra-high energy | >10^18 eV |\n\n## Sources:\n\n### Solar System:\n- Solar flares\n- Solar wind\n- Lower energy particles\n\n### Galactic:\n- Supernova remnants\n- Neutron stars\n- Acceleration by magnetic fields\n\n### Extragalactic:\n- Active galactic nuclei\n- Gamma-ray bursts\n- Highest energy particles\n\n## Interaction with Earth:\n\n### Atmospheric Showers:\n1. Primary cosmic ray hits atmosphere\n2. Produces secondary particles\n3. Cascade continues downward\n4. Creates shower of particles at ground\n\n### Protection:\n- Atmosphere blocks most particles\n- Earth's magnetic field deflects charged particles\n- High-altitude exposure is greater\n\n## Effects:\n\n| Effect | Description |\n|--------|------------|\n| Ionization | Creates ions in atmosphere |\n| Aviation radiation | Increased dose at altitude |\n| Electronics | Can cause bit flips (SEU) |\n| DNA damage | Potential health risk |\n| C-14 production | Used in carbon dating |\n\n## Detection:\n\n- Ground arrays (particle detectors)\n- Cherenkov telescopes (light flashes)\n- Balloon experiments\n- Satellite detectors\n\n> **Amazing Energy:** The highest-energy cosmic ray detected had energy of 3 x 10^20 eV - equivalent to a tennis ball at 100 km/h, concentrated in one proton!"
         },
         {
             "id": "appl_14",
             "type": "content",
-            "title": "Dark Matter & Energy",
-            "content": "# The Invisible Universe 👻\n\n- **Normal Matter**: 5% (Stars, us)\n- **Dark Matter**: 27% (Invisible, holds galaxies together)\n- **Dark Energy**: 68% (Accelerating expansion)\n\nWe know they exist by their effects, but don't know what they are!"
+            "title": "Gravitational Waves",
+            "content": "# Gravitational Waves\n\n**Gravitational waves** are ripples in spacetime caused by accelerating massive objects.\n\n## Einstein's Prediction:\n\n- Predicted by General Relativity in 1916\n- Space itself can wave\n- Travel at speed of light\n- Extremely weak - hard to detect\n\n## Sources:\n\n| Source | Wave Type |\n|--------|-----------|\n| Binary black holes | Strongest |\n| Binary neutron stars | Strong |\n| Supernovae | Burst |\n| Spinning neutron stars | Continuous |\n\n## Detection:\n\n### LIGO and Virgo:\n- Laser Interferometer Gravitational-wave Observatory\n- Uses laser interference to detect tiny length changes\n- Arms 4 km long\n- Detects changes of 10^-19 meters\n\n### How It Works:\n1. Laser split into two perpendicular beams\n2. Beams reflect off distant mirrors\n3. Gravitational wave stretches one arm, compresses other\n4. Interference pattern changes\n\n## First Detection (2015):\n\n- Two black holes merging\n- 36 and 29 solar masses\n- 1.3 billion light-years away\n- Signal lasted 0.2 seconds\n- Nobel Prize 2017\n\n## What We Learn:\n\n| Discovery | Significance |\n|-----------|-------------|\n| Black hole mergers | Proves they exist in pairs |\n| Neutron star mergers | Origin of heavy elements |\n| Speed of gravity | Equals speed of light |\n| General Relativity | Confirmed again |\n\n## Future Detection:\n\n- LISA (space-based interferometer)\n- Einstein Telescope (next-generation ground)\n- Pulsar timing arrays (very low frequency)\n\n> **New Astronomy:** Gravitational waves opened a new window on the universe - we can now \"hear\" events invisible to light!"
         },
         {
             "id": "appl_15",
             "type": "content",
-            "title": "Aerodynamics",
-            "content": "# Moving Through Air 🏎️\n\nForces on a moving object:\n1. **Thrust**: Push forward.\n2. **Drag**: Air resistance (opposes motion).\n3. **Lift**: Upward force.\n4. **Weight**: Gravity down.\n\nStreamlining shapes reduces drag."
+            "title": "Energy in Astrophysics",
+            "content": "# Energy in Astrophysics\n\n## Energy Scales:\n\n| Event | Energy (Joules) |\n|-------|-----------------|\n| TNT explosion (1 kg) | 4 x 10^6 |\n| Hiroshima bomb | 6 x 10^13 |\n| Annual world energy | 5 x 10^20 |\n| Supernova | 10^44 |\n| Gamma-ray burst | 10^47 |\n| Quasar (per second) | 10^40 |\n\n## Nuclear Energy in Stars:\n\n### Hydrogen Fusion:\n```\n4 H -> He + Energy\n```\n\n- 0.7% of mass converted to energy\n- Sun converts 600 million tons H per second\n- Output: 3.8 x 10^26 Watts\n\n### Heavier Element Fusion:\n\n| Fusion Stage | Temperature (K) | Product |\n|-------------|-----------------|--------|\n| H -> He | 10 million | Helium |\n| He -> C | 100 million | Carbon |\n| C -> O | 500 million | Oxygen |\n| ... | ... | ... |\n| Si -> Fe | 3 billion | Iron |\n\nFusion STOPS at iron (no net energy release).\n\n## Gravitational Energy:\n\n### Accretion Disks:\n- Matter falling into black hole\n- Gravitational potential energy converts to kinetic\n- Friction heats disk to millions of degrees\n- Extremely efficient: up to 40% mass to energy\n\n### Gravitational Collapse:\n- Powers supernovae\n- Forms neutron stars\n- Releases ~10^46 J in seconds\n\n## Relativistic Jets:\n\n- Narrow beams from black holes\n- Particles accelerated to near light speed\n- Can extend thousands of light-years\n- Powered by rotation and magnetic fields\n\n> **Efficiency:** Black hole accretion is the most efficient energy source known - converting up to 40% of rest mass to energy, compared to ~0.7% for fusion!"
         },
         {
             "id": "appl_16",
             "type": "content",
-            "title": "Geophysics",
-            "content": "# Physics of Earth 🌍\n\nUsing waves to see underground.\n- **Seismology**: Using earthquake waves to map the core/mantle.\n- **Magnetism**: Earth exists as a giant magnet, protecting us from solar wind."
+            "title": "Practical Applications Summary",
+            "content": "# Practical Applications of Physics\n\n## Engineering Applications:\n\n### Simple Machines:\n| Machine | Modern Use |\n|---------|----------|\n| Lever | Cranes, excavators, brakes |\n| Pulley | Elevators, construction |\n| Screw | Fasteners, car jacks |\n| Inclined plane | Escalators, gear ramps |\n| Wheel/axle | Vehicles, turbines |\n\n### Fluid Applications:\n| Application | Physics Principle |\n|-------------|------------------|\n| Aircraft | Bernoulli, aerodynamics |\n| Hydraulic systems | Pascal's principle |\n| Wind turbines | Fluid dynamics |\n| Pipelines | Continuity, viscosity |\n| Ships | Buoyancy |\n\n## Astrophysics Applications:\n\n### Navigation:\n- GPS satellite positioning\n- Pulsar timing for deep space\n- Gravitational assists for missions\n\n### Technology Spinoffs:\n| Space Technology | Everyday Use |\n|-----------------|-------------|\n| CCD sensors | Digital cameras |\n| Memory foam | Mattresses, shoes |\n| Water filtration | Home filters |\n| Miniaturization | Electronics |\n\n### Energy:\n- Nuclear fusion research\n- Solar cell improvements\n- Understanding plasma physics\n\n## Medical Applications:\n\n- MRI (magnetic fields)\n- X-ray and CT (radiation)\n- Radiation therapy (nuclear)\n- Ultrasound (acoustics)\n\n> **The connection:** Applied physics bridges the gap between fundamental discoveries and technologies that improve daily life!"
+        },
+        {
+            "id": "appl_quiz_4",
+            "type": "quiz",
+            "title": "Applied Physics Quiz",
+            "content": "Test your overall understanding of applied physics!",
+            "quizQuestion": "Which simple machine has the highest mechanical advantage if the screw has pitch of 2 mm and handle radius of 10 cm?",
+            "quizOptions": [
+                "MA = 5",
+                "MA = 50",
+                "MA = 314",
+                "MA = 3140"
+            ],
+            "correctOptionIndex": 2
         },
         {
             "id": "appl_17",
             "type": "content",
-            "title": "Applied Physics Summary",
-            "content": "# Recap 📝\n\n- **Simple Machines** multiply force.\n- **Fluid Dynamics** explains flight and hydraulics.\n- **Astrophysics** reveals the life of stars and the universe.\n\nPhysics isn't just equations; it's the operating system of reality!"
+            "title": "Summary and Key Concepts",
+            "content": "# Applied Physics Summary\n\n## Simple Machines:\n\n| Machine | MA Formula |\n|---------|-----------|\n| Lever | d_effort / d_load |\n| Pulley | Number of supporting ropes |\n| Wheel/Axle | R_wheel / R_axle |\n| Inclined Plane | Length / Height |\n| Screw | 2 x pi x radius / pitch |\n\n### Key Principle:\n- Cannot get more work out than put in\n- Trade force for distance or vice versa\n- Efficiency always < 100% due to friction\n\n## Fluid Physics:\n\n| Concept | Equation/Principle |\n|---------|--------------------|\n| Pressure | P = F/A |\n| Fluid pressure | P = rho x g x h |\n| Pascal's law | Pressure transmitted equally |\n| Archimedes | Buoyant force = weight of displaced fluid |\n| Continuity | A1 x v1 = A2 x v2 |\n| Bernoulli | Higher velocity = lower pressure |\n\n## Astrophysics:\n\n| Topic | Key Concept |\n|-------|------------|\n| Black holes | Event horizon, singularity |\n| Neutron stars | Extreme density, pulsars |\n| Cosmic rays | High-energy particles from space |\n| Gravitational waves | Ripples in spacetime |\n\n## Key Numbers:\n\n- Speed of light: 3 x 10^8 m/s\n- Schwarzschild radius: 2GM/c^2\n- Sun's power output: 3.8 x 10^26 W\n\n> **Congratulations!** You've completed Applied Physics. These principles connect theoretical physics to the technologies and phenomena that shape our world and universe!"
         }
     ]
 }

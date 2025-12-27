@@ -1,139 +1,65 @@
 {
     "id": "learn_prog",
     "topicId": "prog",
-    "topicTitle": "Programming Concepts",
-    "description": "The building blocks of code.",
-    "baseKP": 100,
+    "topicTitle": "Programming Fundamentals",
+    "description": "Explore variables, control flow, functions, and programming concepts",
+    "baseKP": 75,
     "slides": [
         {
             "id": "prog_1",
             "type": "content",
-            "title": "What is Programming?",
-            "content": "# Talking to Machines 🗣️\n\nWriting instructions for a computer to execute.\n- Code is written in high-level languages (Python, Java, Dart).\n- Compiled/Interpreted into machine code (0s and 1s)."
+            "title": "Welcome to Programming",
+            "content": "# Introduction to Programming Fundamentals\n\nWelcome to **Programming** - teaching computers to solve problems!\n\n## What You Will Learn:\n- **Variables and Types** - Storing data\n- **Control Flow** - Making decisions\n- **Functions** - Reusable code\n- **OOP** - Object-oriented concepts\n\n> **Fun Fact:** The first programmer was Ada Lovelace in the 1840s!"
         },
         {
             "id": "prog_2",
             "type": "content",
-            "title": "Variables",
-            "content": "# Boxes 📦\n\nNamed storage for data.\n- **Integer**: Whole numbers (5).\n- **Float/Double**: Decimals (3.14).\n- **String**: Text (\"Hello\").\n- **Boolean**: True/False."
+            "title": "Variables and Data Types",
+            "content": "# Variables and Data Types\n\n## Variables:\n- Named storage for data\n- Can change value\n\n## Common Data Types:\n\n| Type | Description | Example |\n|------|-------------|--------|\n| Integer | Whole numbers | 42, -7 |\n| Float | Decimals | 3.14, -0.001 |\n| Boolean | True/False | true, false |\n| Character | Single letter | 'A', '9' |\n| String | Text | \"Hello\" |\n\n## Type Systems:\n- **Static:** Types checked at compile time\n- **Dynamic:** Types checked at runtime\n- **Strong:** No implicit conversions\n- **Weak:** Allows conversions\n\n## Declaration:\n```\nint age = 25;\nString name = \"Alice\";\nbool isStudent = true;\n```"
         },
         {
             "id": "prog_3",
             "type": "content",
-            "title": "Control Flow: Conditionals",
-            "content": "# Fork in Road 🍴\n\nMaking decisions.\n```python\nif hungry:\n  eat()\nelse:\n  sleep()\n```"
-        },
-        {
-            "id": "prog_4",
-            "type": "content",
-            "title": "Control Flow: Loops",
-            "content": "# Repeat 🔁\n\nDoing things many times.\n- **For Loop**: Repeat N times.\n- **While Loop**: Repeat until condition is false.\n\"Don't Repeat Yourself (DRY)\" principle."
-        },
-        {
-            "id": "prog_5",
-            "type": "content",
-            "title": "Functions",
-            "content": "# Reusable Tools 🔨\n\nA block of code that performs a specific task.\n- Input: Arguments.\n- Output: Return value.\nAllows breaking big problems into small pieces."
+            "title": "Control Flow",
+            "content": "# Control Flow\n\n## Conditionals:\n\n```\nif (condition) {\n    // do something\n} else if (other) {\n    // do other\n} else {\n    // default\n}\n```\n\n## Switch/Case:\n```\nswitch (value) {\n    case 1: ... break;\n    case 2: ... break;\n    default: ...\n}\n```\n\n## Loops:\n\n**For loop:**\n```\nfor (i = 0; i < n; i++) {\n    // repeat n times\n}\n```\n\n**While loop:**\n```\nwhile (condition) {\n    // repeat while true\n}\n```\n\n**Do-While:**\n```\ndo {\n    // execute at least once\n} while (condition);\n```\n\n## Control Statements:\n- break: Exit loop\n- continue: Skip to next iteration"
         },
         {
             "id": "prog_quiz_1",
             "type": "quiz",
-            "title": "Loop Quiz",
-            "content": "Control check.",
-            "quizQuestion": "Which loop is best when you know exactly how many times you want to repeat?",
+            "title": "Programming Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which loop always executes at least once?",
             "quizOptions": [
-                "While Loop",
-                "For Loop",
-                "If Statement",
-                "Try/Catch"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "prog_6",
-            "type": "content",
-            "title": "Object-Oriented Programming (OOP)",
-            "content": "# Class & Objects 🏗️\n\nModeling code on real world things.\n- **Class**: Blueprint (Car).\n- **Object**: Instance (My Red Toyota).\n- **Attributes**: Variables (Color, Speed).\n- **Methods**: Functions (Drive, Stop)."
-        },
-        {
-            "id": "prog_7",
-            "type": "content",
-            "title": "Inheritance",
-            "content": "# Passing Down 🧬\n\nChild class takes features from Parent class.\n- Parent: `Animal` (has `eat`).\n- Child: `Dog` (inherits `eat`, adds `bark`).\nCode reuse!"
-        },
-        {
-            "id": "prog_8",
-            "type": "content",
-            "title": "Encapsulation",
-            "content": "# Secret Sauce 🥫\n\nHiding internal details.\n- Public Interface: Buttons you can press.\n- Private Data: Wiring you shouldn't touch.\nProtects code from breaking."
-        },
-        {
-            "id": "prog_9",
-            "type": "content",
-            "title": "Polymorphism",
-            "content": "# Many Forms 🎭\n\nDifferent objects responding to same function call differently.\n`Animal.speak()`\n- Dog: \"Woof\"\n- Cat: \"Meow\""
-        },
-        {
-            "id": "prog_10",
-            "type": "content",
-            "title": "Debugging",
-            "content": "# Squashing Bugs 🐛\n\nFixing errors in logic or syntax.\n- **Syntax Error**: Typo (Computer doesn't understand).\n- **Logic Error**: Code runs, but does wrong thing.\n- Print statements vary helpful."
-        },
-        {
-            "id": "prog_quiz_2",
-            "type": "quiz",
-            "title": "OOP Quiz",
-            "content": "Structure check.",
-            "quizQuestion": "In OOP, a 'Blueprint' for creating objects is called a:",
-            "quizOptions": [
-                "Method",
-                "Variable",
-                "Class",
-                "Loop"
+                "for",
+                "while",
+                "do-while",
+                "foreach"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "prog_11",
+            "id": "prog_4",
             "type": "content",
-            "title": "Compilers vs Interpreters",
-            "content": "# Translation 🗣️\n\n- **Compiler** (C++): Translates entire code to machine code at once. Runs fast.\n- **Interpreter** (Python): Translates line-by-line. Easier to test."
+            "title": "Functions",
+            "content": "# Functions\n\n## Definition:\nReusable block of code that performs a task.\n\n## Anatomy:\n```\nreturnType functionName(parameters) {\n    // body\n    return value;\n}\n```\n\n## Example:\n```\nint add(int a, int b) {\n    return a + b;\n}\n\nint result = add(3, 5);  // result = 8\n```\n\n## Concepts:\n\n| Term | Meaning |\n|------|--------|\n| Parameter | Variable in definition |\n| Argument | Value passed when calling |\n| Return | Output value |\n| void | No return value |\n\n## Scope:\n- Local: Inside function only\n- Global: Accessible everywhere\n\n## Recursion:\n- Function calls itself\n- Needs base case to stop"
         },
         {
-            "id": "prog_12",
+            "id": "prog_5",
             "type": "content",
-            "title": "Version Control",
-            "content": "# Time Machine 🕰️\n\nGit / GitHub.\n- Tracking changes to code.\n- Allows returning to previous versions.\n- Essential for teams working together."
+            "title": "Object-Oriented Programming",
+            "content": "# Object-Oriented Programming\n\n## Core Concepts:\n\n**Class:**\n- Blueprint for objects\n- Contains attributes and methods\n\n**Object:**\n- Instance of a class\n- Has state and behavior\n\n## Four Pillars:\n\n| Pillar | Description |\n|--------|------------|\n| Encapsulation | Hide internal details |\n| Inheritance | Child class inherits from parent |\n| Polymorphism | Same interface, different behavior |\n| Abstraction | Hide complexity |\n\n## Example:\n```\nclass Animal {\n    String name;\n    \n    void speak() {\n        // override in subclass\n    }\n}\n\nclass Dog extends Animal {\n    void speak() {\n        print(\"Woof!\");\n    }\n}\n```"
         },
         {
-            "id": "prog_13",
+            "id": "prog_6",
             "type": "content",
-            "title": "APIs",
-            "content": "# Waiter 🤵\n\nApplication Programming Interface.\n- Way for two programs to talk.\n- You ask API for \"Weather\", it returns data.\nYou don't need to know *how* it got the weather."
+            "title": "Best Practices",
+            "content": "# Programming Best Practices\n\n## Code Quality:\n- Meaningful variable names\n- Consistent formatting\n- Comments for complex logic\n- Small, focused functions\n\n## DRY Principle:\nDon't Repeat Yourself\n- Extract common code to functions\n- Avoid copy-paste\n\n## Error Handling:\n```\ntry {\n    // risky code\n} catch (Exception e) {\n    // handle error\n} finally {\n    // cleanup\n}\n```\n\n## Testing:\n- Unit tests: Test individual functions\n- Integration tests: Test components together\n- Test edge cases\n\n## Version Control:\n- Track changes (Git)\n- Branches for features\n- Commit often"
         },
         {
-            "id": "prog_14",
+            "id": "prog_7",
             "type": "content",
-            "title": "Functional Programming",
-            "content": "# Pure Logic 🧠\n\nParadigm treating computation as math functions.\n- No changing state (Immutability).\n- Fewer bugs, easy to parallelize.\n- Examples: Haskell, Lisp."
-        },
-        {
-            "id": "prog_15",
-            "type": "content",
-            "title": "Libraries and Frameworks",
-            "content": "# Don't Reinvent Wheel 🎡\n\n- **Library**: Collection of functions you call (jQuery).\n- **Framework**: Structure calling your code (Flutter, React)."
-        },
-        {
-            "id": "prog_16",
-            "type": "content",
-            "title": "Clean Code",
-            "content": "# Readability 📖\n\nWriting code for humans, not just machines.\n- Good variable names.\n- Comments where needed.\n- Consistent formatting."
-        },
-        {
-            "id": "prog_17",
-            "type": "content",
-            "title": "Progamming Summary",
-            "content": "# Recap 📝\n\n- **Variables** store data.\n- **Loops/Conditions** control flow.\n- **OOP** organizes large code.\n- Programming is solving puzzles with logic."
+            "title": "Summary",
+            "content": "# Programming Summary\n\n## Data Types:\n- int, float, bool, char, String\n\n## Control Flow:\n- if/else, switch\n- for, while, do-while\n\n## Functions:\n- Reusable code blocks\n- Parameters and return values\n- Recursion\n\n## OOP Pillars:\n| Pillar | Key Concept |\n|--------|------------|\n| Encapsulation | Hide data |\n| Inheritance | Extend classes |\n| Polymorphism | Override methods |\n| Abstraction | Hide complexity |\n\n## Best Practices:\n- Clean code, DRY, testing\n\n> **Congratulations!** You've completed Programming Fundamentals!"
         }
     ]
 }

@@ -2,138 +2,166 @@
     "id": "learn_thermo",
     "topicId": "thermo",
     "topicTitle": "Thermodynamics",
-    "description": "Understand heat, temperature, and the fundamental laws that govern energy in the universe.",
-    "baseKP": 100,
+    "description": "Explore the laws of thermodynamics, heat transfer mechanisms, thermal properties, and the principles of heat engines and entropy",
+    "baseKP": 75,
     "slides": [
         {
             "id": "thermo_1",
             "type": "content",
-            "title": "What is Thermodynamics?",
-            "content": "# The Science of Heat 🔥\n\n**Thermodynamics** is the branch of physics dealing with heat, work, and temperature, and their relation to energy, radiation, and physical properties of matter.\n\n## History\nIt developed locally out of the desire to increase the efficiency of early steam engines.\n\n## Why it matters\nIt governs everything from car engines to black holes!"
+            "title": "Welcome to Thermodynamics",
+            "content": "# Introduction to Thermodynamics\n\nWelcome to **Thermodynamics** - the science of heat, energy, and the transformations between them!\n\n## What You Will Learn:\n- **Laws of Thermodynamics** - The fundamental rules governing heat and energy\n- **Heat Transfer** - How thermal energy moves\n- **Thermal Properties** - Expansion and specific heat\n- **Heat Engines** - Converting heat to work\n- **Entropy** - The arrow of time\n\n> **Fun Fact:** The word \"thermodynamics\" comes from Greek words meaning \"heat\" and \"power\"!\n\n## Why Thermodynamics Matters:\n- Powers our cars, power plants, and refrigerators\n- Explains why perpetual motion machines are impossible\n- Essential for understanding climate and weather\n- Critical for designing efficient engines and cooling systems\n\n## Key Concepts to Understand:\n- **System:** The part of universe we are studying\n- **Surroundings:** Everything outside the system\n- **Temperature:** Measure of average kinetic energy of molecules\n- **Heat:** Energy transfer due to temperature difference\n\nLet's explore the fascinating world of thermal physics!"
         },
         {
             "id": "thermo_2",
             "type": "content",
-            "title": "Temperature vs. Heat",
-            "content": "# Are they the same? 🤔\n\nNo, they are distinct concepts!\n\n## Temperature ($T$)\n- A measure of the average **kinetic energy** of the particles in a substance.\n- Measured in Celsius ($^{\\circ}C$), Fahrenheit ($^{\\circ}F$), or Kelvin ($K$).\n\n## Heat ($Q$)\n- The **transfer of energy** from a hotter object to a colder one.\n- Measured in Joules ($J$).\n\n> ❄️ **Note:** Cold does not exist fundamentally; it's just the absence of heat energy."
+            "title": "Temperature and Heat",
+            "content": "# Temperature and Heat\n\n## Temperature\n\n**Temperature** is a measure of the average kinetic energy of particles in a substance.\n\n### Temperature Scales:\n\n| Scale | Freezing Point of Water | Boiling Point of Water |\n|-------|------------------------|------------------------|\n| Celsius (C) | 0 C | 100 C |\n| Fahrenheit (F) | 32 F | 212 F |\n| Kelvin (K) | 273 K | 373 K |\n\n### Conversions:\n```\nK = C + 273\nF = (9/5)C + 32\nC = (5/9)(F - 32)\n```\n\n## Heat\n\n**Heat (Q)** is energy transferred between objects due to temperature difference.\n\n### Key Points:\n- Heat flows from HOT to COLD\n- Heat is measured in Joules (J) or calories (cal)\n- 1 calorie = 4.186 Joules\n\n## Thermal Equilibrium:\n\nWhen two objects reach the same temperature, they are in **thermal equilibrium**.\n\nNo net heat transfer occurs at equilibrium.\n\n> **Zeroth Law of Thermodynamics:** If A is in thermal equilibrium with C, and B is in thermal equilibrium with C, then A and B are in thermal equilibrium with each other."
         },
         {
             "id": "thermo_3",
             "type": "content",
-            "title": "Thermal Equilibrium",
-            "content": "# The Zeroth Law 0️⃣\n\n**Zeroth Law of Thermodynamics:**\nIf object A is in thermal equilibrium with object B, and B is in equilibrium with object C, then A and C are in equilibrium with each other.\n\n- **Thermal Equilibrium**: No net heat flow (same temperature).\n\nThis law defines **Temperature**. It's why thermometers work!"
-        },
-        {
-            "id": "thermo_4",
-            "type": "content",
             "title": "First Law of Thermodynamics",
-            "content": "# Law of Conservation 🛡️\n\n**The First Law:**\nEnergy cannot be created or destroyed, only transformed.\n\n$$(\\Delta U = Q - W)$$\n\n- $\\Delta U$: Change in internal energy\n- $Q$: Heat added TO the system\n- $W$: Work done BY the system\n\nIf you heat a gas, it gets hotter ($\u0394U$), expands ($W$), or both."
+            "content": "# First Law of Thermodynamics\n\n## The Law of Energy Conservation\n\n> **\"Energy cannot be created or destroyed, only transformed from one form to another.\"**\n\n## Mathematical Form:\n\n```\nChange in U = Q - W\n```\n\nWhere:\n- **U** = Internal energy of system\n- **Q** = Heat added to system (positive if heat enters)\n- **W** = Work done by system (positive if system does work)\n\n## Understanding the Components:\n\n### Internal Energy (U):\n- Total kinetic and potential energy of molecules\n- Depends on temperature and state\n- A state function (depends only on current state)\n\n### Heat (Q):\n- Energy transfer due to temperature difference\n- Q > 0: Heat enters system\n- Q < 0: Heat leaves system\n\n### Work (W):\n- Energy transfer through mechanical means\n- W > 0: System does work on surroundings\n- W < 0: Surroundings do work on system\n\n## Example:\nIf 500 J of heat is added to a gas and it does 200 J of work:\n```\nChange in U = 500 - 200 = 300 J\n```\n\n> **Key Insight:** This law tells us we cannot get more energy out than we put in - no perpetual motion machines!"
         },
         {
             "id": "thermo_quiz_1",
             "type": "quiz",
-            "title": "First Law Check",
-            "content": "Check your understanding of energy conservation.",
-            "quizQuestion": "If you add 100J of heat to a system and it does 40J of work, what is the change in internal energy?",
+            "title": "First Law Quiz",
+            "content": "Test your understanding of the First Law!",
+            "quizQuestion": "A gas absorbs 1000 J of heat and does 400 J of work. What is the change in internal energy?",
             "quizOptions": [
-                "140 J",
-                "60 J",
-                "100 J",
-                "-60 J"
+                "1400 J",
+                "600 J",
+                "400 J",
+                "-600 J"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "thermo_4",
+            "type": "content",
+            "title": "Second Law of Thermodynamics",
+            "content": "# Second Law of Thermodynamics\n\n## The Law of Entropy\n\nThere are several equivalent statements of the Second Law:\n\n### Kelvin-Planck Statement:\n> **\"No heat engine can convert heat completely into work.\"**\n\n### Clausius Statement:\n> **\"Heat cannot spontaneously flow from cold to hot.\"**\n\n### Entropy Statement:\n> **\"The total entropy of an isolated system always increases or remains constant.\"**\n\n## Understanding Entropy:\n\n**Entropy (S)** is a measure of disorder or randomness in a system.\n\n### Key Points:\n- Natural processes tend toward greater disorder\n- Entropy provides \"direction\" to time\n- High entropy = more disorder = more probable state\n\n## Examples of Entropy Increase:\n\n| Process | Entropy Change |\n|---------|--------------|\n| Ice melting | Increases |\n| Egg breaking | Increases |\n| Gas expanding | Increases |\n| Coffee cooling | Increases |\n| Mixing ink in water | Increases |\n\n## Mathematical Definition:\n```\nChange in S = Q / T\n```\n\n(For reversible processes at constant temperature T)\n\n> **The Arrow of Time:** Entropy explains why videos look wrong when played backward - broken eggs don't reassemble!"
+        },
+        {
             "id": "thermo_5",
             "type": "content",
-            "title": "Modes of Heat Transfer",
-            "content": "# Moving Heat 🚚\n\nHeat moves in three ways:\n\n1. **Conduction** 🍳\n   - Direct contact. Vibrating atoms bump neighbors. (e.g., Frying pan handle)\n2. **Convection** 💨\n   - Fluid movement. Hot fluid rises, cold sinks. (e.g., Boiling water, wind)\n3. **Radiation** ☀️\n   - Electromagnetic waves. Needs no medium. (e.g., Sunlight, campfire warmth)"
+            "title": "Third Law of Thermodynamics",
+            "content": "# Third Law of Thermodynamics\n\n## The Absolute Zero Law\n\n> **\"As temperature approaches absolute zero, the entropy of a perfect crystal approaches zero.\"**\n\n## Absolute Zero:\n\n**Absolute Zero** = 0 K = -273.15 C = -459.67 F\n\n### Key Points:\n- Lowest possible temperature\n- Perfect crystals have zero entropy at 0 K\n- Impossible to reach exactly 0 K\n\n## Implications:\n\n### Cannot Reach Absolute Zero:\n- Each step toward 0 K requires more energy\n- Infinite number of steps needed to reach 0 K\n- Scientists have gotten within billionths of a degree!\n\n### Near Absolute Zero:\n- Classical physics breaks down\n- Quantum effects dominate\n- Superconductivity and superfluidity occur\n\n## Comparison of Laws:\n\n| Law | Summary |\n|-----|--------|\n| Zeroth | Defines thermal equilibrium |\n| First | Energy is conserved |\n| Second | Entropy always increases (isolated systems) |\n| Third | Absolute zero is unattainable |\n\n## Record Low Temperatures:\n- Laboratories: 0.0000000001 K achieved\n- Outer space: about 2.7 K (cosmic microwave background)\n- Coldest natural place: Boomerang Nebula at 1 K\n\n> **Fun Analogy:** The laws can be summarized as: (1) You can't win, (2) You can't break even, (3) You can't quit the game!"
         },
         {
             "id": "thermo_6",
             "type": "content",
-            "title": "Thermal Expansion",
-            "content": "# Things Get Bigger 🎈\n\nMost substances expand when heated and contract when cooled.\n\n**Linear Expansion:**\n$$\\Delta L = \\alpha L_0 \\Delta T$$\n\n- $\\alpha$: Coefficient of linear expansion.\n\n> 🌉 **Real World:** Bridges have expansion joints to prevent buckling on hot summer days!"
+            "title": "Heat Transfer: Conduction",
+            "content": "# Heat Transfer by Conduction\n\n**Conduction** is heat transfer through direct contact between particles.\n\n## How Conduction Works:\n\n1. Hot particles vibrate faster\n2. They collide with neighboring cooler particles\n3. Energy transfers from hot to cold\n4. No bulk movement of material\n\n## Fourier's Law of Conduction:\n\n```\nQ/t = kA(T_hot - T_cold) / d\n```\n\nWhere:\n- **Q/t** = Rate of heat transfer (Watts)\n- **k** = Thermal conductivity (W/m K)\n- **A** = Cross-sectional area (m^2)\n- **d** = Thickness (m)\n- **T** = Temperature (K or C)\n\n## Thermal Conductivity of Materials:\n\n| Material | k (W/m K) | Type |\n|----------|-----------|------|\n| Silver | 429 | Excellent conductor |\n| Copper | 385 | Excellent conductor |\n| Aluminum | 205 | Good conductor |\n| Glass | 0.8 | Poor conductor |\n| Wood | 0.1 | Insulator |\n| Styrofoam | 0.03 | Excellent insulator |\n| Air | 0.025 | Very poor conductor |\n\n## Applications:\n- Cooking pans made of metals (good conductors)\n- Pot handles made of wood or plastic (insulators)\n- Double-pane windows (air gap reduces conduction)\n\n> **Why metals feel cold:** Metals conduct heat away from your warm hand quickly, making them feel cold!"
         },
         {
             "id": "thermo_7",
             "type": "content",
-            "title": "Specific Heat",
-            "content": "# Holding Heat 🌡️\n\n**Specific Heat Capacity ($c$):**\nThe amount of heat required to raise the temperature of 1kg of a substance by 1 Kelvin.\n\n$$Q = mc\\Delta T$$\n\n- **Water** has a very high specific heat. This is why the ocean stays cool in summer and warm in winter, moderating Earth's climate."
+            "title": "Heat Transfer: Convection",
+            "content": "# Heat Transfer by Convection\n\n**Convection** is heat transfer through bulk movement of fluids (liquids and gases).\n\n## How Convection Works:\n\n1. Fluid near heat source warms up\n2. Warm fluid expands and becomes less dense\n3. Warm fluid rises, cool fluid sinks\n4. Creates circulation pattern (convection current)\n\n## Types of Convection:\n\n### Natural (Free) Convection:\n- Driven by density differences due to temperature\n- Examples: Hot air rising, sea breezes\n\n### Forced Convection:\n- Driven by external means (fans, pumps)\n- Examples: Hair dryer, car radiator with fan\n\n## Newton's Law of Cooling:\n\n```\nQ/t = hA(T_surface - T_fluid)\n```\n\nWhere:\n- **h** = Convection heat transfer coefficient\n- **A** = Surface area\n- **T** = Temperatures\n\n## Examples of Convection:\n\n| Phenomenon | Explanation |\n|------------|-------------|\n| Sea breeze | Land heats faster, air rises, sea air moves in |\n| Boiling water | Hot water rises, cool water sinks |\n| Room heating | Warm air from heater rises, circulates |\n| Atmospheric circulation | Equator heats more, creates wind patterns |\n\n## Convection in Cooking:\n- Boiling pasta: Water circulates to cook evenly\n- Convection oven: Fan forces hot air circulation\n\n> **Key Difference:** Conduction transfers heat through stationary material; convection moves the material itself!"
         },
         {
             "id": "thermo_8",
             "type": "content",
-            "title": "Second Law of Thermodynamics",
-            "content": "# The Arrow of Time 🕰️\n\n**The Second Law:**\nHeat naturally flows from hot to cold, never the reverse spontaneously.\n\nAlso stated as: **Total entropy of an isolated system always increases over time.**\n\nThis law implies that perpetual motion machines are impossible."
-        },
-        {
-            "id": "thermo_9",
-            "type": "content",
-            "title": "Entropy",
-            "content": "# Disorder 🎲\n\n**Entropy ($S$)** is a measure of disorder or randomness in a system.\n\n- Low Entropy: Organized structure (Ice crystal)\n- High Entropy: Disorganized inputs (Steam)\n\nThe universe is constantly trending toward higher disorder."
-        },
-        {
-            "id": "thermo_10",
-            "type": "content",
-            "title": "Heat Engines",
-            "content": "# Turning Heat to Work 🚂\n\nA **Heat Engine** converts thermal energy into mechanical work.\n\n**Efficiency ($\\eta$):**\n$$\\eta = \\frac{Work}{Q_{in}} = 1 - \\frac{Q_{out}}{Q_{in}}$$\n\nNo engine can be 100% efficient due to the Second Law. There is always some waste heat ($Q_{out}$)."
-        },
-        {
-            "id": "thermo_11",
-            "type": "content",
-            "title": "Carnot Cycle",
-            "content": "# Perfect Efficiency? 🏆\n\nThe **Carnot Engine** is a theoretical ideal engine with the maximum possible efficiency.\n\n$$\\eta_{max} = 1 - \\frac{T_{cold}}{T_{hot}}$$\n\nTo increase efficiency, you must run an engine hotter or exhaust it colder."
+            "title": "Heat Transfer: Radiation",
+            "content": "# Heat Transfer by Radiation\n\n**Radiation** is heat transfer through electromagnetic waves, requiring no medium.\n\n## How Radiation Works:\n\n- All objects emit thermal radiation\n- Hotter objects emit more radiation\n- Radiation can travel through vacuum\n- Travels at speed of light\n\n## Stefan-Boltzmann Law:\n\n```\nP = e x sigma x A x T^4\n```\n\nWhere:\n- **P** = Power radiated (Watts)\n- **e** = Emissivity (0 to 1)\n- **sigma** = Stefan-Boltzmann constant = 5.67 x 10^-8 W/m^2 K^4\n- **A** = Surface area (m^2)\n- **T** = Absolute temperature (K)\n\n## Emissivity:\n\n| Surface | Emissivity |\n|---------|------------|\n| Perfect black body | 1.0 |\n| Human skin | 0.97 |\n| Black paint | 0.95 |\n| White paint | 0.9 |\n| Polished aluminum | 0.05 |\n| Polished silver | 0.02 |\n\n## Key Points:\n- **Black surfaces:** Good absorbers AND emitters\n- **Shiny surfaces:** Poor absorbers AND emitters\n- Temperature has HUGE effect (T^4)\n\n## Applications:\n- Thermos bottles: Reflective coating reduces radiation\n- Solar panels: Dark surface absorbs radiation\n- Infrared cameras: Detect thermal radiation\n- Space: Only way to transfer heat in vacuum\n\n> **Why the Sun heats us:** Radiation is the ONLY way heat can cross space - no conduction or convection in vacuum!"
         },
         {
             "id": "thermo_quiz_2",
             "type": "quiz",
-            "title": "Entropy Check",
-            "content": "Do you understand disorder?",
-            "quizQuestion": "Which state has higher entropy?",
+            "title": "Heat Transfer Quiz",
+            "content": "Test your knowledge of heat transfer mechanisms!",
+            "quizQuestion": "Which type of heat transfer does NOT require a medium (matter)?",
             "quizOptions": [
-                "Ice",
-                "Liquid Water",
-                "Water Vapor (Steam)",
-                "They are equal"
+                "Conduction",
+                "Convection",
+                "Radiation",
+                "All require a medium"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "thermo_9",
+            "type": "content",
+            "title": "Thermal Expansion",
+            "content": "# Thermal Expansion\n\nMost materials **expand when heated** and **contract when cooled**.\n\n## Why Expansion Occurs:\n\n- Heat increases molecular kinetic energy\n- Molecules vibrate more vigorously\n- Average distance between molecules increases\n- Object gets larger\n\n## Linear Expansion:\n\nFor solids changing in one dimension:\n\n```\nChange in L = alpha x L_0 x Change in T\n```\n\nWhere:\n- **alpha** = Coefficient of linear expansion\n- **L_0** = Original length\n- **Change in T** = Temperature change\n\n## Coefficients of Linear Expansion:\n\n| Material | alpha (per degree C) |\n|----------|---------------------|\n| Aluminum | 23 x 10^-6 |\n| Steel | 12 x 10^-6 |\n| Concrete | 12 x 10^-6 |\n| Glass | 9 x 10^-6 |\n| Invar | 0.9 x 10^-6 |\n\n## Volume Expansion:\n\n```\nChange in V = beta x V_0 x Change in T\n```\n\nFor most solids: beta = 3 x alpha\n\n## Applications:\n\n| Application | How It Uses Expansion |\n|-------------|----------------------|\n| Bimetallic strip | Two metals expand differently, causing bending |\n| Expansion joints | Gaps in bridges for expansion |\n| Rivets | Heated rivets shrink tight when cooled |\n| Thermometers | Liquid expands up narrow tube |\n\n> **Anomalous Expansion of Water:** Water is MOST dense at 4 C. This is why ice floats and lakes freeze from the top!"
+        },
+        {
+            "id": "thermo_10",
+            "type": "content",
+            "title": "Specific Heat",
+            "content": "# Specific Heat Capacity\n\n**Specific heat** is the amount of heat needed to raise 1 kg of a substance by 1 K (or 1 C).\n\n## Heat Equation:\n\n```\nQ = m x c x Change in T\n```\n\nWhere:\n- **Q** = Heat energy (Joules)\n- **m** = Mass (kg)\n- **c** = Specific heat capacity (J/kg K)\n- **Change in T** = Temperature change (K or C)\n\n## Specific Heat Values:\n\n| Substance | c (J/kg K) | Notes |\n|-----------|-----------|-------|\n| Water | 4186 | Very high! |\n| Ice | 2090 | |\n| Steam | 2010 | |\n| Aluminum | 900 | |\n| Iron | 450 | |\n| Copper | 385 | |\n| Lead | 128 | Very low |\n\n## Why Water's High Specific Heat Matters:\n\n1. **Climate moderation:** Oceans absorb/release heat slowly\n2. **Cooking:** Water is good for heating food evenly\n3. **Cooling systems:** Used in car radiators, power plants\n4. **Body temperature:** Human body is mostly water\n\n## Example:\nHow much heat to warm 2 kg of water from 20 C to 80 C?\n```\nQ = m x c x Change in T\nQ = 2 x 4186 x (80 - 20)\nQ = 2 x 4186 x 60\nQ = 502,320 J = 502 kJ\n```\n\n> **Cooking Tip:** Metals heat quickly (low specific heat) but burn food easily. Water-based cooking is more even!"
+        },
+        {
+            "id": "thermo_11",
+            "type": "content",
+            "title": "Phase Changes",
+            "content": "# Phase Changes and Latent Heat\n\nDuring phase changes, temperature remains constant while heat is absorbed or released.\n\n## Types of Phase Changes:\n\n| Change | Name | Heat |\n|--------|------|------|\n| Solid to Liquid | Melting | Absorbed |\n| Liquid to Solid | Freezing | Released |\n| Liquid to Gas | Vaporization | Absorbed |\n| Gas to Liquid | Condensation | Released |\n| Solid to Gas | Sublimation | Absorbed |\n| Gas to Solid | Deposition | Released |\n\n## Latent Heat:\n\n**Latent heat** is the heat required for phase change at constant temperature.\n\n```\nQ = m x L\n```\n\nWhere:\n- **L** = Latent heat (J/kg)\n\n## Latent Heat Values for Water:\n\n| Phase Change | L (J/kg) |\n|-------------|----------|\n| Fusion (melting) | 334,000 |\n| Vaporization (boiling) | 2,260,000 |\n\n## Understanding the Phase Diagram:\n\n1. **Heating ice:** Temperature rises (specific heat)\n2. **Melting:** Temperature stays at 0 C (latent heat of fusion)\n3. **Heating water:** Temperature rises (specific heat)\n4. **Boiling:** Temperature stays at 100 C (latent heat of vaporization)\n5. **Heating steam:** Temperature rises (specific heat)\n\n## Why Latent Heat of Vaporization is High:\n\n- Breaking liquid bonds requires lots of energy\n- Steam burns are worse than water burns at same temperature\n- Sweating cools you by carrying away heat when sweat evaporates\n\n> **Example:** Ice at 0 C to steam at 100 C requires: melting heat + heating water + boiling heat!"
+        },
+        {
+            "id": "thermo_quiz_3",
+            "type": "quiz",
+            "title": "Thermal Properties Quiz",
+            "content": "Test your knowledge of thermal properties!",
+            "quizQuestion": "During melting, adding heat to a substance causes:",
+            "quizOptions": [
+                "Temperature to increase",
+                "Temperature to stay constant",
+                "Temperature to decrease",
+                "Volume to decrease"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
             "id": "thermo_12",
             "type": "content",
-            "title": "Phases of Matter",
-            "content": "# Transformation 🧊💧☁️\n\nSubstances change phase at constant temperature.\n\n- **Melting**: Solid $\\to$ Liquid\n- **Freezing**: Liquid $\\to$ Solid\n- **Vaporization**: Liquid $\\to$ Gas\n- **Condensation**: Gas $\\to$ Liquid\n- **Sublimation**: Solid $\\to$ Gas\n\n**Latent Heat ($L$)**: Energy absorbed/released during phase change.\n$$Q = mL$$"
+            "title": "Heat Engines",
+            "content": "# Heat Engines\n\nA **heat engine** converts thermal energy into mechanical work.\n\n## Basic Principle:\n\n1. Absorb heat Q_H from hot reservoir\n2. Convert some to work W\n3. Reject remaining heat Q_C to cold reservoir\n\n## Energy Balance:\n```\nQ_H = W + Q_C\n```\n\n## Efficiency:\n\n```\nEfficiency = W / Q_H = (Q_H - Q_C) / Q_H\n```\n\nEfficiency is always less than 100%!\n\n## Carnot Engine:\n\nThe **Carnot engine** is the most efficient possible heat engine.\n\n### Carnot Efficiency:\n```\nEfficiency_max = 1 - (T_C / T_H)\n```\n\nWhere T_C and T_H are in Kelvin.\n\n## Example:\nHot reservoir: 500 K, Cold reservoir: 300 K\n```\nEfficiency_max = 1 - (300/500) = 1 - 0.6 = 0.4 = 40%\n```\n\n## Types of Heat Engines:\n\n| Engine Type | Application | Typical Efficiency |\n|-------------|-------------|-------------------|\n| Car engine | Automobiles | 20-30% |\n| Diesel engine | Trucks, trains | 35-45% |\n| Steam turbine | Power plants | 35-40% |\n| Gas turbine | Jet engines | 35-40% |\n\n> **Why 100% efficiency is impossible:** The Second Law says you must reject some heat. Only if T_C = 0 K could efficiency be 100%!"
         },
         {
             "id": "thermo_13",
             "type": "content",
-            "title": "Gas Laws",
-            "content": "# Behavior of Gases 🎈\n\nIdeal Gas Law combines Boyle's, Charles's, and Avogadro's laws:\n\n$$PV = nRT$$\n\n- $P$: Pressure\n- $V$: Volume\n- $n$: Moles of gas\n- $R$: Gas constant\n- $T$: Temperature (Kelvin)\n\nThis equation predicts how gases behave under different conditions."
+            "title": "Refrigerators and Heat Pumps",
+            "content": "# Refrigerators and Heat Pumps\n\nThese devices move heat from cold to hot (opposite of natural flow).\n\n## How They Work:\n\n1. Work is done ON the system\n2. Heat is absorbed from cold reservoir\n3. Heat is rejected to hot reservoir\n\n## Refrigerator:\n\nMoves heat from cold (inside) to hot (outside).\n\n### Coefficient of Performance (COP):\n```\nCOP_refrigerator = Q_C / W\n```\n\nWhere:\n- Q_C = Heat removed from cold space\n- W = Work input\n\n## Heat Pump:\n\nMoves heat from cold (outside) to hot (inside) for heating.\n\n### Coefficient of Performance:\n```\nCOP_heat pump = Q_H / W\n```\n\n## Typical COP Values:\n\n| Device | COP |\n|--------|-----|\n| Refrigerator | 2-5 |\n| Air conditioner | 2-4 |\n| Heat pump (heating) | 2-5 |\n\n## Why COP > 1?\n\nUnlike efficiency (always < 1), COP can exceed 1 because:\n- You're not converting heat to work\n- You're moving heat using work\n- You get more heat delivered than work input\n\n## Refrigeration Cycle:\n1. **Compressor:** Compresses gas (gets hot)\n2. **Condenser:** Gas releases heat to surroundings\n3. **Expansion valve:** Gas expands (gets cold)\n4. **Evaporator:** Cold gas absorbs heat from inside\n\n> **Energy Savings:** Heat pumps are more efficient than electric heaters because they move heat instead of creating it!"
         },
         {
             "id": "thermo_14",
             "type": "content",
-            "title": "Kinetic Theory of Gases",
-            "content": "# Microscopic View 🔬\n\nExplains macroscopic properties (pressure, temp) by considering molecular motion.\n\nAssumptions:\n1. Gases are large numbers of particles in random motion.\n2. Collisions are perfectly elastic.\n3. Particles take up negligible volume.\n\nPressure is simply billions of molecules hitting the container walls!"
+            "title": "Thermodynamic Processes",
+            "content": "# Thermodynamic Processes\n\nDifferent types of processes have different characteristics.\n\n## Types of Processes:\n\n### 1. Isothermal (Constant Temperature)\n- Change in T = 0\n- Heat can be exchanged\n- For ideal gas: PV = constant\n- Example: Slow compression with heat removal\n\n### 2. Adiabatic (No Heat Exchange)\n- Q = 0\n- Temperature can change\n- Change in U = -W\n- Example: Rapid compression/expansion\n\n### 3. Isobaric (Constant Pressure)\n- Change in P = 0\n- W = P x Change in V\n- Example: Heating water in open container\n\n### 4. Isochoric (Constant Volume)\n- Change in V = 0\n- W = 0\n- Change in U = Q\n- Example: Heating gas in rigid container\n\n## Summary Table:\n\n| Process | Constant | Work Done | Heat Exchange |\n|---------|----------|-----------|---------------|\n| Isothermal | T | P x V changes | Q = W |\n| Adiabatic | Q = 0 | U decreases | None |\n| Isobaric | P | P x Change in V | Yes |\n| Isochoric | V | Zero | Change in U = Q |\n\n## P-V Diagrams:\n\nWork done = Area under the curve on P-V diagram\n\n- Clockwise cycle: Positive work (engine)\n- Counterclockwise cycle: Negative work (refrigerator)\n\n> **Key Insight:** Real engines use combinations of these processes. The Carnot cycle uses two isothermal and two adiabatic processes!"
         },
         {
             "id": "thermo_15",
             "type": "content",
-            "title": "Third Law of Thermodynamics",
-            "content": "# Absolute Zero ❄️\n\n**The Third Law:**\nAs the temperature of a system approaches absolute zero (0 K), the entropy of the system approaches a minimum value.\n\n- **Absolute Zero (0 K or -273.15$^{\\circ}$C)**: Molecular motion stops. It is theoretically impossible to reach."
+            "title": "Ideal Gas Law",
+            "content": "# Ideal Gas Law\n\nThe **ideal gas law** relates pressure, volume, temperature, and amount of gas.\n\n## The Equation:\n\n```\nPV = nRT\n```\n\nWhere:\n- **P** = Pressure (Pascals, Pa)\n- **V** = Volume (m^3)\n- **n** = Number of moles\n- **R** = Gas constant = 8.314 J/mol K\n- **T** = Temperature (Kelvin)\n\n## Alternative Form:\n\n```\nPV = NkT\n```\n\nWhere:\n- **N** = Number of molecules\n- **k** = Boltzmann constant = 1.38 x 10^-23 J/K\n\n## Special Cases:\n\n| Law | Conditions | Relationship |\n|-----|------------|-------------|\n| Boyle's Law | T constant | P1 x V1 = P2 x V2 |\n| Charles's Law | P constant | V1/T1 = V2/T2 |\n| Gay-Lussac's Law | V constant | P1/T1 = P2/T2 |\n\n## Kinetic Theory:\n\n### Average Kinetic Energy:\n```\nKE_avg = (3/2) x k x T\n```\n\n### Root Mean Square Speed:\n```\nv_rms = sqrt(3RT/M)\n```\n\nWhere M = molar mass\n\n## Assumptions of Ideal Gas:\n1. Molecules are point particles (no volume)\n2. No intermolecular forces\n3. Collisions are elastic\n4. Random motion\n\n> **Real Gases:** At high pressure or low temperature, gases deviate from ideal behavior due to molecular size and attractions."
         },
         {
             "id": "thermo_16",
             "type": "content",
-            "title": "Blackbody Radiation",
-            "content": "# Glowing Heat 💡\n\nAll objects above absolute zero emit thermal radiation.\n\n- **Stefan-Boltzmann Law**: Power radiated $\\propto T^4$. small temp increase = huge radiation increase.\n- **Wien's Law**: Hotter objects emit bluer light (shorter wavelength). \n\nThis is why stars have different colors!"
+            "title": "Entropy in Detail",
+            "content": "# Understanding Entropy\n\n**Entropy** is one of the most profound concepts in physics.\n\n## Statistical Definition:\n\n```\nS = k x ln(W)\n```\n\nWhere:\n- **k** = Boltzmann constant\n- **W** = Number of microstates (arrangements)\n\n## Thermodynamic Definition:\n\n```\nChange in S = Q_rev / T\n```\n\nFor reversible heat transfer at temperature T.\n\n## Entropy Examples:\n\n| System | Lower Entropy | Higher Entropy |\n|--------|--------------|----------------|\n| Matter | Solid | Liquid | Gas |\n| Deck | Ordered | Shuffled |\n| Room | Clean | Messy |\n| Molecules | Clustered | Spread out |\n\n## Second Law Revisited:\n\nFor isolated system:\n```\nChange in S_total >= 0\n```\n\n- Equal sign for reversible processes\n- Greater than for irreversible (real) processes\n\n## Entropy and Probability:\n\n- High entropy states are MORE probable\n- Systems evolve toward more probable states\n- A broken egg has more possible arrangements than whole egg\n\n## Heat Death of Universe:\n\nIf total entropy always increases:\n- Eventually, maximum entropy is reached\n- No more energy gradients for work\n- No more useful processes possible\n- This is the \"heat death\" scenario\n\n> **Time's Arrow:** Entropy is the ONLY physical law that distinguishes past from future. It gives time its direction!"
+        },
+        {
+            "id": "thermo_quiz_4",
+            "type": "quiz",
+            "title": "Engines and Entropy Quiz",
+            "content": "Test your understanding of thermodynamic systems!",
+            "quizQuestion": "A Carnot engine operates between 600 K and 300 K. What is its maximum efficiency?",
+            "quizOptions": [
+                "25%",
+                "50%",
+                "75%",
+                "100%"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "thermo_17",
             "type": "content",
-            "title": "Thermodynamics Summary",
-            "content": "# Recap 📝\n\n- **Zeroth Law**: Defines temperature.\n- **First Law**: Conservation of energy.\n- **Second Law**: Entropy increases, heat flows hot $\\to$ cold.\n- **Third Law**: Absolute zero limits.\n\nThermodynamics allows us to understand engines, refrigerators, chemical reactions, and the ultimate fate of the universe."
+            "title": "Summary and Applications",
+            "content": "# Thermodynamics Summary\n\n## The Four Laws:\n\n| Law | Statement |\n|-----|----------|\n| Zeroth | Thermal equilibrium is transitive |\n| First | Energy is conserved: Change in U = Q - W |\n| Second | Total entropy always increases (isolated systems) |\n| Third | Absolute zero is unattainable |\n\n## Heat Transfer Methods:\n\n| Method | Medium Required | Mechanism |\n|--------|-----------------|----------|\n| Conduction | Yes (solid best) | Molecular vibration |\n| Convection | Yes (fluids) | Bulk fluid motion |\n| Radiation | No | Electromagnetic waves |\n\n## Key Equations:\n\n| Concept | Equation |\n|---------|----------|\n| Heat | Q = mc x Change in T |\n| Linear expansion | Change in L = alpha x L x Change in T |\n| Ideal gas | PV = nRT |\n| Carnot efficiency | 1 - T_C/T_H |\n| Latent heat | Q = mL |\n\n## Real-World Applications:\n- **Power plants:** Heat engines converting fuel to electricity\n- **Refrigeration:** Moving heat against natural flow\n- **Insulation:** Reducing heat transfer in buildings\n- **Weather:** Convection drives atmospheric circulation\n- **Cooking:** All three heat transfer modes used\n\n> **Congratulations!** You have completed the Thermodynamics module. These principles govern everything from your coffee cooling to the fate of the universe!"
         }
     ]
 }

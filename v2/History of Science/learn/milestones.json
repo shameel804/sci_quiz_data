@@ -2,138 +2,116 @@
     "id": "learn_milestones",
     "topicId": "milestones",
     "topicTitle": "Scientific Milestones",
-    "description": "Events that marked progress.",
-    "baseKP": 100,
+    "description": "Explore key inventions and discoveries that shaped science",
+    "baseKP": 75,
     "slides": [
         {
-            "id": "mile_1",
+            "id": "milestones_1",
             "type": "content",
-            "title": "Measuring Earth (240 BC)",
-            "content": "# Eratosthenes 🌍\n\nGreek librarian.\n- Noticed shadows differed in two cities.\n- Used Geometry to calculate Earth's circumference.\n- Only 1% error! (Ancient people knew Earth was round)."
+            "title": "Welcome to Scientific Milestones",
+            "content": "# Introduction to Scientific Milestones\n\nWelcome to **Scientific Milestones** - breakthroughs that changed everything!\n\n## What You Will Learn:\n- **Microscope** - Seeing the tiny world\n- **Periodic Table** - Organizing elements\n- **Penicillin** - Fighting infection\n- **Internet** - Connecting the world\n\n> **Fun Fact:** Fleming almost threw away the mold that would become penicillin!"
         },
         {
-            "id": "mile_2",
+            "id": "milestones_2",
             "type": "content",
-            "title": "Printing Press (1440)",
-            "content": "# Spread of Ideas 🖨️\n\nGutenberg.\n- Before: Hand-copying books (Rare/Error-prone).\n- After: Mass production.\n- Enabled Scientific Revolution."
+            "title": "The Microscope",
+            "content": "# Invention of the Microscope\n\n## Timeline:\n- 1590s: Dutch lens makers (Janssen)\n- 1665: Hooke's Micrographia (cells)\n- 1670s: Leeuwenhoek (bacteria)\n\n## Robert Hooke:\n- Coined term 'cell'\n- Drew detailed observations\n- Compound microscope\n\n## Leeuwenhoek:\n- Simple but powerful lenses\n- Discovered microorganisms\n- 'Animalcules'\n\n## Impact:\n- Revealed invisible world\n- Foundation of microbiology\n- Cell theory development"
         },
         {
-            "id": "mile_3",
+            "id": "milestones_3",
             "type": "content",
-            "title": "Principia Mathematica (1687)",
-            "content": "# The Book 📕\n\nNewton.\n- Defined heavy physics math.\n- Shifted view of universe to a deterministic machine."
+            "title": "The Periodic Table",
+            "content": "# Development of Periodic Table\n\n## Dmitri Mendeleev (1869):\n- Arranged by atomic weight\n- Predicted unknown elements\n- Left gaps in table\n\n## Key Predictions:\n| Predicted | Actual (Found) |\n|-----------|----------------|\n| Eka-aluminum | Gallium (1875) |\n| Eka-silicon | Germanium (1886) |\n| Eka-boron | Scandium (1879) |\n\n## Modern Table:\n- Arranged by atomic number\n- 118 elements\n- Mendeleev's structure preserved\n\n## Impact:\n- Organized chemistry\n- Predicted new elements\n- Understanding of atomic structure"
         },
         {
-            "id": "mile_4",
-            "type": "content",
-            "title": "Smallpox Vaccine (1796)",
-            "content": "# First Shot 💉\n\nJenner.\n- First scientific attempt to control disease.\n- Established Immunology."
-        },
-        {
-            "id": "mile_5",
-            "type": "content",
-            "title": "Synthesis of Urea (1828)",
-            "content": "# End of Vitalism ⚗️\n\nWöhler.\n- Created organic chemical (Urea) from inorganic stuff.\n- Proved life isn't made of special \"magic\" matter, just chemistry."
-        },
-        {
-            "id": "mile_6",
-            "type": "content",
-            "title": "The Origin of Species (1859)",
-            "content": "# Evolution 🧬\n\nDarwin.\n- Published his theory.\n- Huge controversy.\n- Foundation of modern biology."
-        },
-        {
-            "id": "mile_quiz_1",
+            "id": "milestones_quiz_1",
             "type": "quiz",
-            "title": "Chem Quiz",
-            "content": "Life check.",
-            "quizQuestion": "The synthesis of Urea proved that organic compounds could be created from:",
+            "title": "Early Milestones Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Who coined the term 'cell'?",
             "quizOptions": [
-                "Magic",
-                "Inorganic compounds",
-                "Plants only",
-                "Animals only"
+                "Leeuwenhoek",
+                "Mendeleev",
+                "Hooke",
+                "Janssen"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "milestones_4",
+            "type": "content",
+            "title": "Penicillin Discovery",
+            "content": "# Discovery of Penicillin\n\n## Alexander Fleming (1928):\n- Noticed mold killing bacteria\n- Staphylococcus cultures\n- Penicillium mold contamination\n\n## Development:\n- Fleming identified but couldn't purify\n- Florey and Chain (1940s)\n- Mass production for WWII\n\n## Impact:\n- First true antibiotic\n- Saved millions of lives\n- Nobel Prize 1945\n- Era of antibiotics began\n\n## Challenges Today:\n- Antibiotic resistance\n- Need for new drugs\n- Superbugs (MRSA)"
+        },
+        {
+            "id": "milestones_5",
+            "type": "content",
+            "title": "DNA Structure",
+            "content": "# Discovery of DNA Structure\n\n## 1953: Watson and Crick\n- Double helix structure\n- Cambridge University\n\n## Key Contributors:\n| Scientist | Contribution |\n|-----------|-------------|\n| Rosalind Franklin | X-ray crystallography |\n| Maurice Wilkins | X-ray images |\n| Watson & Crick | Model building |\n| Chargaff | Base pairing rules |\n\n## The Structure:\n- Double helix\n- A pairs with T\n- G pairs with C\n- Base sequence = genetic code\n\n## Impact:\n- Modern genetics founded\n- Biotechnology enabled\n- Human genome project"
+        },
+        {
+            "id": "milestones_6",
+            "type": "content",
+            "title": "Internet Creation",
+            "content": "# Creation of the Internet\n\n## Timeline:\n| Year | Event |\n|------|-------|\n| 1969 | ARPANET (4 nodes) |\n| 1971 | First email |\n| 1983 | TCP/IP adopted |\n| 1989 | WWW proposed (Berners-Lee) |\n| 1991 | WWW goes public |\n\n## Key Figures:\n- Vint Cerf & Bob Kahn (TCP/IP)\n- Tim Berners-Lee (WWW)\n- DARPA funding\n\n## Impact:\n- Global communication\n- Information access\n- E-commerce\n- Social transformation\n\n## Today:\n- 5+ billion users\n- Foundation of digital economy"
+        },
+        {
+            "id": "milestones_quiz_2",
+            "type": "quiz",
+            "title": "Modern Milestones Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The World Wide Web was invented by:",
+            "quizOptions": [
+                "Vint Cerf",
+                "Tim Berners-Lee",
+                "Bill Gates",
+                "Steve Jobs"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "mile_7",
+            "id": "milestones_7",
             "type": "content",
-            "title": "Periodic Table (1869)",
-            "content": "# The Map 🗺️\n\nMendeleev.\n- Organized elements by weight and property.\n- Turned Chemistry from list of facts into a system."
+            "title": "Vaccine Development",
+            "content": "# Vaccine Development\n\n## First Vaccine:\n- Edward Jenner (1796)\n- Smallpox vaccine\n- Cowpox as protection\n\n## Pasteur's Contributions:\n- Rabies vaccine (1885)\n- Germ theory application\n- Attenuated viruses\n\n## Modern Vaccines:\n| Disease | Vaccine |\n|---------|--------|\n| Polio | Salk (1955), Sabin oral |\n| Measles | 1963 |\n| COVID-19 | mRNA (2020) |\n\n## Impact:\n- Smallpox eradicated (1980)\n- Billions of lives saved\n- Herd immunity concept"
         },
         {
-            "id": "mile_8",
+            "id": "milestones_8",
             "type": "content",
-            "title": "Wright Brothers (1903)",
-            "content": "# Flight ✈️\n\nFirst powered, controlled flight.\n- Kitty Hawk, NC.\n- 12 seconds.\n- Within 66 years, we were on the Moon."
+            "title": "Nuclear Energy",
+            "content": "# Nuclear Energy Discovery\n\n## Key Events:\n| Year | Milestone |\n|------|----------|\n| 1896 | Radioactivity (Becquerel) |\n| 1938 | Nuclear fission discovered |\n| 1942 | First reactor (Chicago Pile-1) |\n| 1945 | Atomic bombs |\n| 1954 | First nuclear power plant |\n\n## Scientists:\n- Marie & Pierre Curie (radioactivity)\n- Enrico Fermi (reactor)\n- Otto Hahn (fission)\n\n## Dual Nature:\n- Power generation\n- Medical applications\n- Weapons potential\n- Waste challenges"
         },
         {
-            "id": "mile_9",
+            "id": "milestones_9",
             "type": "content",
-            "title": "Penicillin (1928)",
-            "content": "# Magic Bullet 💊\n\nFleming.\n- Start of Antibiotic era.\n- Previously, a scratch could kill you."
+            "title": "Space Exploration",
+            "content": "# Space Exploration Milestones\n\n## Key Events:\n| Year | Achievement |\n|------|------------|\n| 1957 | Sputnik 1 |\n| 1961 | First human (Gagarin) |\n| 1969 | Moon landing |\n| 1990 | Hubble Telescope |\n| 2021 | James Webb Telescope |\n\n## Impact:\n- Satellites (GPS, weather, comm)\n- Scientific discoveries\n- International cooperation\n- Technology spinoffs\n\n## Future:\n- Mars exploration\n- Commercial space\n- Artemis program"
         },
         {
-            "id": "mile_10",
-            "type": "content",
-            "title": "The Moon Landing (1969)",
-            "content": "# Apollo 11 🌕\n\n\"One small step for man.\"\n- Neil Armstrong, Buzz Aldrin.\n- Pinnacle of engineering and physics.\n- Viewed by 600 million people."
-        },
-        {
-            "id": "mile_11",
-            "type": "content",
-            "title": "Elimination of Smallpox (1980)",
-            "content": "# Victory 🏁\n\nWHO declared Smallpox eradicated.\n- First (and only human) disease completely wiped out by science.\n- Triumph of global cooperation."
-        },
-        {
-            "id": "mile_quiz_2",
+            "id": "milestones_quiz_3",
             "type": "quiz",
             "title": "Space Quiz",
-            "content": "Moon check.",
-            "quizQuestion": "Which mission famously landed humans on the Moon in 1969?",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The first artificial satellite was:",
             "quizOptions": [
+                "Explorer 1",
                 "Sputnik 1",
-                "Apollo 11",
-                "Voyager 1",
-                "Gemini 5"
+                "Vanguard 1",
+                "Apollo 1"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "mile_12",
+            "id": "milestones_10",
             "type": "content",
-            "title": "Human Genome Project (2003)",
-            "content": "# Reading the Book 🧬\n\nSequencing all 3 billion letters of human DNA.\n- 13 years, $3 Billion.\n- Opened door to personalized medicine."
+            "title": "Modern Computing",
+            "content": "# Computing Milestones\n\n## Early Computers:\n- ENIAC (1945): First electronic\n- Turing's theoretical work\n- Von Neumann architecture\n\n## Personal Computing:\n| Year | Milestone |\n|------|----------|\n| 1971 | Microprocessor (Intel 4004) |\n| 1976 | Apple I |\n| 1981 | IBM PC |\n| 1984 | Macintosh GUI |\n\n## Modern Era:\n- Smartphones (2007+)\n- Cloud computing\n- AI and machine learning\n\n## Impact:\n- Transformed every industry\n- Information revolution"
         },
         {
-            "id": "mile_13",
+            "id": "milestones_11",
             "type": "content",
-            "title": "Higgs Boson (2012)",
-            "content": "# God Particle ⚛️\n\nFound at CERN (LHC).\n- Confirmed Standard Model of Physics.\n- Explains why things have mass."
-        },
-        {
-            "id": "mile_14",
-            "type": "content",
-            "title": "LIGO (2015)",
-            "content": "# Gravitational Waves 🌊\n\nDetecting ripples in space-time from colliding black holes.\n- Confirmed Einstein 100 years later.\n- New way to \"hear\" the universe."
-        },
-        {
-            "id": "mile_15",
-            "type": "content",
-            "title": "CRISPR (2012)",
-            "content": "# Gene Editing ✂️\n\nDoudna & Charpentier.\n- Cheap, easy way to edit DNA.\n- Potential to cure genetic diseases.\n- Ethical dilemmas."
-        },
-        {
-            "id": "mile_16",
-            "type": "content",
-            "title": "COVID-19 Vaccine (2020)",
-            "content": "# Speed 💉\n\nmRNA technology.\n- Developed in <1 year (usually takes 10).\n- Saved millions of lives.\n- Power of modern biotech."
-        },
-        {
-            "id": "mile_17",
-            "type": "content",
-            "title": "Milestones Summary",
-            "content": "# Recap 📝\n\n- Progress is accelerating.\n- **Communication** (Print/Internet) fuels science.\n- We are solving harder problems (Genes/Space/Particles).\n- What is next?"
+            "title": "Summary",
+            "content": "# Scientific Milestones Summary\n\n## Key Discoveries:\n| Milestone | Year | Impact |\n|-----------|------|--------|\n| Microscope | 1590s | Revealed microworld |\n| Periodic Table | 1869 | Organized chemistry |\n| Penicillin | 1928 | Saved millions |\n| DNA Structure | 1953 | Modern genetics |\n| Internet | 1969-91 | Connected world |\n\n## Common Themes:\n- Often accidental discoveries\n- Build on earlier work\n- Transform society\n- Enable further breakthroughs\n\n> **Congratulations!** You've completed Scientific Milestones!"
         }
     ]
 }

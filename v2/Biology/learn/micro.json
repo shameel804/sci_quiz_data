@@ -2,138 +2,84 @@
     "id": "learn_micro",
     "topicId": "micro",
     "topicTitle": "Microbiology & Biotechnology",
-    "description": "Explore the invisible world of microbes and how we use them.",
-    "baseKP": 100,
+    "description": "Explore microorganisms, viruses, and applications of biotechnology",
+    "baseKP": 75,
     "slides": [
         {
             "id": "micro_1",
             "type": "content",
-            "title": "The Invisible World",
-            "content": "# Small but Mighty 🔬\n\nMicrobiology is the study of microscopic organisms:\n- Bacteria\n- Viruses\n- Fungi\n- Protozoa\n\nThey are everywhere: In air, soil, water, and YOU."
+            "title": "Welcome to Microbiology",
+            "content": "# Introduction to Microbiology & Biotechnology\n\nWelcome to **Microbiology** - the study of microscopic life!\n\n## What You Will Learn:\n- **Bacteria** - Prokaryotic microbes\n- **Viruses** - Non-living pathogens\n- **Fungi and Protists** - Eukaryotic microbes\n- **Biotechnology** - Using organisms for benefit\n\n> **Fun Fact:** There are more bacteria in your body than human cells!\n\n## Types of Microorganisms:\n\n| Group | Cell Type | Examples |\n|-------|-----------|----------|\n| Bacteria | Prokaryotic | E. coli, Streptococcus |\n| Archaea | Prokaryotic | Methanogens |\n| Fungi | Eukaryotic | Yeast, mold |\n| Protists | Eukaryotic | Amoeba, algae |\n| Viruses | Non-cellular | HIV, influenza |"
         },
         {
             "id": "micro_2",
             "type": "content",
             "title": "Bacteria",
-            "content": "# Prokaryotes 🦠\n\n- Single-celled, no nucleus.\n- Shapes: Cocci (Spheres), Bacilli (Rods), Spirilla (Spirals).\n- Divide by **Binary Fission** (Cloning).\n- Most are helpful (Gut bacteria), some are harmful (Pathogens)."
+            "content": "# Bacteria\n\n**Prokaryotes** - no membrane-bound nucleus\n\n## Structure:\n\n| Part | Function |\n|------|----------|\n| Cell wall | Protection, shape |\n| Cell membrane | Selective barrier |\n| Cytoplasm | Cell contents |\n| Ribosome | Protein synthesis |\n| Nucleoid | DNA region |\n| Plasmid | Extra circular DNA |\n| Flagella | Movement |\n| Pili | Attachment, transfer |\n\n## Shapes:\n- **Coccus:** Spherical\n- **Bacillus:** Rod-shaped\n- **Spirillum:** Spiral\n\n## Gram Staining:\n\n| Type | Cell Wall | Color |\n|------|-----------|-------|\n| Gram-positive | Thick peptidoglycan | Purple |\n| Gram-negative | Thin + outer membrane | Pink |\n\n## Reproduction:\n- Binary fission (asexual)\n- Can double every 20 minutes\n- Genetic variation through conjugation, transformation, transduction\n\n## Importance:\n- Decomposition\n- Nitrogen fixation\n- Gut flora\n- Disease (pathogens)"
         },
         {
             "id": "micro_3",
             "type": "content",
             "title": "Viruses",
-            "content": "# The Hijackers 👽\n\n- Not strictly \"alive\" (Can't reproduce on their own).\n- Genetic material (DNA/RNA) in a protein coat.\n- Must hijack a host cell to copy themselves.\n- Examples: Flu, HIV, COVID-19."
-        },
-        {
-            "id": "micro_4",
-            "type": "content",
-            "title": "Fungi",
-            "content": "# The Decomposers 🍄\n\n- Eukaryotes (Have nucleus).\n- Yeasts (Single cell) and Molds (Multicellular).\n- Absorb nutrients from environment.\n- Penicillin comes from a mold!"
-        },
-        {
-            "id": "micro_5",
-            "type": "content",
-            "title": "Protists",
-            "content": "# The Misfits 🪱\n\n- Eukaryotes that aren't Plant/Animal/Fungus.\n- **Algae**: Plant-like (Photosynthesis).\n- **Protozoa**: Animal-like (Amoeba, Paramecium).\n- **Malaria** is caused by a protist."
+            "content": "# Viruses\n\n**Not considered living** - cannot reproduce independently\n\n## Structure:\n- Genetic material (DNA or RNA)\n- Protein coat (capsid)\n- Some have envelope (lipid layer)\n\n## Characteristics:\n- Obligate intracellular parasites\n- Host-specific\n- Much smaller than bacteria\n\n## Viral Replication:\n\n### Lytic Cycle:\n1. Attachment to host cell\n2. Entry (injection of DNA/RNA)\n3. Replication of viral components\n4. Assembly of new viruses\n5. Lysis (cell bursts)\n\n### Lysogenic Cycle:\n1. Viral DNA integrates into host genome\n2. Replicated with host DNA\n3. Can later enter lytic cycle\n\n## Types of Viruses:\n\n| Genetic Material | Examples |\n|------------------|----------|\n| DNA | Herpes, smallpox |\n| RNA | Influenza, HIV |\n| Retrovirus | HIV (RNA -> DNA) |\n\n## Control:\n- Vaccines (prevention)\n- Antivirals (treatment)\n- No antibiotics work on viruses"
         },
         {
             "id": "micro_quiz_1",
             "type": "quiz",
-            "title": "Microbe Quiz",
-            "content": "Identify the bug.",
-            "quizQuestion": "Which microbe requires a host cell to reproduce?",
+            "title": "Microbes Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Viruses are considered:",
             "quizOptions": [
-                "Bacteria",
-                "Fungus",
-                "Virus",
-                "Algae"
+                "Living organisms",
+                "Prokaryotes",
+                "Not living",
+                "Eukaryotes"
             ],
             "correctOptionIndex": 2
+        },
+        {
+            "id": "micro_4",
+            "type": "content",
+            "title": "Fungi and Protists",
+            "content": "# Fungi and Protists\n\n## Fungi:\n\n**Eukaryotes** with cell walls (chitin)\n\n**Types:**\n- Yeasts (single-celled)\n- Molds (multicellular, filamentous)\n- Mushrooms (fruiting bodies)\n\n**Structure:**\n- Hyphae (filaments)\n- Mycelium (network of hyphae)\n\n**Characteristics:**\n- Heterotrophs (absorb nutrients)\n- Decomposers\n- Some parasites, some mutualistic\n\n**Examples:**\n- Bread yeast (Saccharomyces)\n- Penicillium (antibiotics)\n- Athlete's foot (pathogen)\n\n## Protists:\n\nDiverse group of eukaryotes.\n\n| Type | Mode | Examples |\n|------|------|----------|\n| Protozoa | Heterotroph | Amoeba, Paramecium |\n| Algae | Autotroph | Diatoms, kelp |\n| Slime molds | Decomposer | Physarum |\n\n**Movement:**\n- Cilia (Paramecium)\n- Flagella (Euglena)\n- Pseudopods (Amoeba)\n\n**Importance:**\n- Produce O2 (algae)\n- Base of aquatic food webs\n- Some cause disease (malaria)"
+        },
+        {
+            "id": "micro_5",
+            "type": "content",
+            "title": "Disease and Immunity",
+            "content": "# Microbial Disease\n\n## Pathogens:\n\n| Type | Examples | Treatment |\n|------|----------|----------|\n| Bacteria | Tuberculosis, strep | Antibiotics |\n| Virus | Flu, COVID | Antivirals, vaccines |\n| Fungi | Ringworm | Antifungals |\n| Protozoa | Malaria | Antiparasitics |\n\n## Transmission:\n\n- Direct contact\n- Airborne (droplets)\n- Waterborne\n- Vector (mosquitoes, ticks)\n- Contaminated food\n\n## Koch's Postulates:\n1. Microbe found in all disease cases\n2. Isolated and grown in pure culture\n3. Causes disease when introduced to healthy host\n4. Same microbe re-isolated\n\n## Antibiotics:\n\n**Mode of action:**\n- Inhibit cell wall synthesis\n- Disrupt protein synthesis\n- Interfere with DNA replication\n\n**Resistance:**\n- Overuse promotes resistance\n- MRSA, superbugs\n- Need new antibiotics\n\n## Prevention:\n- Vaccination\n- Hygiene\n- Sanitation\n- Food safety"
         },
         {
             "id": "micro_6",
             "type": "content",
-            "title": "Microbiome",
-            "content": "# You are a Planet 🌍\n\nYou have more bacterial cells in/on you than human cells!\n- Aid digestion.\n- Produce vitamins (K).\n- Train immune system.\n- Protect against bad bugs."
-        },
-        {
-            "id": "micro_7",
-            "type": "content",
-            "title": "Germ Theory",
-            "content": "# Louis Pasteur 🥛\n\nProved that diseases are caused by microorganisms, not \"bad air\" (Miasma).\n- **Pasteurization**: Heating to kill microbes.\n- Led to sterilization and hygiene revolution."
-        },
-        {
-            "id": "micro_8",
-            "type": "content",
-            "title": "Antibiotics",
-            "content": "# Magic Bullet 💊\n\nChemicals that kill Bacteria (NOT viruses).\n- Attack cell walls or ribosomes specific to bacteria.\n- **Fleming** discovered Penicillin.\n- Overuse leads to resistance."
-        },
-        {
-            "id": "micro_9",
-            "type": "content",
-            "title": "Vaccines",
-            "content": "# Training Day 🏋️\n\nExposing immune system to a harmless version of a pathogen.\n- Body builds memory cells.\n- Real infection is defeated instantly later.\n- Eradicated Smallpox."
-        },
-        {
-            "id": "micro_10",
-            "type": "content",
-            "title": "Fermentation",
-            "content": "# Tasty Microbes 🍞\n\nUsing microbes to make food.\n- **Yeast**: Alcohol (Beer/Wine) + CO2 (Bread rise).\n- **Bacteria**: Lactic Acid (Yogurt, Cheese, Sauerkraut)."
-        },
-        {
-            "id": "micro_11",
-            "type": "content",
-            "title": "Bioremediation",
-            "content": "# Cleanup Crew 🧹\n\nUsing microbes to clean up pollution.\n- Bacteria eating oil spills.\n- Microbes breaking down plastic.\n- Treating sewage water."
-        },
-        {
-            "id": "micro_12",
-            "type": "content",
-            "title": "Genetic Engineering",
-            "content": "# GMOs 🧬\n\nTaking a gene from one organism and putting it in another.\n- **Insulin**: produced by E. coli bacteria with human insulin gene.\n- **Bt Corn**: Corn with bacteria gene toxic to pests."
+            "title": "Biotechnology Basics",
+            "content": "# Biotechnology\n\n**Using organisms to make products or solve problems**\n\n## Traditional Biotechnology:\n\n| Product | Organism |\n|---------|----------|\n| Bread | Yeast |\n| Beer/Wine | Yeast |\n| Yogurt | Bacteria |\n| Cheese | Bacteria, fungi |\n\n## Modern Biotechnology:\n\n### Recombinant DNA:\n1. Cut gene (restriction enzymes)\n2. Insert into vector (plasmid)\n3. Transform into host (bacteria)\n4. Express gene, make product\n\n### Applications:\n\n| Field | Application |\n|-------|-------------|\n| Medicine | Insulin, vaccines |\n| Agriculture | GM crops |\n| Industry | Enzymes |\n| Environment | Bioremediation |\n\n## Gene Cloning:\n- Make many copies of gene\n- Study gene function\n- Produce proteins\n\n## Genetic Engineering:\n- Add/remove/modify genes\n- Create transgenic organisms\n- Gene therapy for diseases"
         },
         {
             "id": "micro_quiz_2",
             "type": "quiz",
-            "title": "Tech Quiz",
-            "content": "Application check.",
-            "quizQuestion": "Bioremediation uses microbes to:",
+            "title": "Biotech Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What is used to cut DNA at specific sites?",
             "quizOptions": [
-                "Make food",
-                "Cause disease",
-                "Clean pollution",
-                "Edit genes"
+                "Ligase",
+                "Polymerase",
+                "Restriction enzymes",
+                "Helicase"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "micro_13",
+            "id": "micro_7",
             "type": "content",
-            "title": "Cloning",
-            "content": "# Copy Paste 🐑\n\n- **Reproductive Cloning**: Making a whole copy (Dolly).\n- **Therapeutic Cloning**: Making tissues/organs.\n- High failure rate and ethical issues."
+            "title": "Applications",
+            "content": "# Biotechnology Applications\n\n## Medicine:\n\n**Recombinant products:**\n- Human insulin (for diabetes)\n- Growth hormone\n- Clotting factors\n- Vaccines\n\n**Gene therapy:**\n- Insert functional genes\n- Treat genetic diseases\n\n## Agriculture:\n\n**GM Crops:**\n- Pest resistance (Bt crops)\n- Herbicide tolerance\n- Enhanced nutrition (Golden Rice)\n- Drought resistance\n\n**Concerns:**\n- Environmental impact\n- Food safety\n- Labeling\n\n## Industry:\n\n**Enzymes:**\n- Laundry detergents\n- Food processing\n- Biofuels\n\n**Bioremediation:**\n- Clean up oil spills\n- Treat wastewater\n- Remove pollutants\n\n## Forensics:\n\n**DNA fingerprinting:**\n- Crime scenes\n- Paternity testing\n- Identification"
         },
         {
-            "id": "micro_14",
+            "id": "micro_8",
             "type": "content",
-            "title": "Stem Cells",
-            "content": "# Blank Slates ⬜\n\nCells that can turn into any tissue.\n- **Embryonic**: Pluripotent (Any cell).\n- **Adult**: Multipotent (Limited types).\n- Hope for curing paralysis, Parkinson's."
-        },
-        {
-            "id": "micro_15",
-            "type": "content",
-            "title": "Forensic DNA",
-            "content": "# Catching Criminals 🕵️\n\n- **DNA Fingerprinting**: Unique pattern for every person (except identical twins).\n- Matches suspect to crime scene blood/hair."
-        },
-        {
-            "id": "micro_16",
-            "type": "content",
-            "title": "Pandemics",
-            "content": "# Going Global 😷\n\nWhen an epidemic spreads worldwide.\n- **Zoonosis**: Disease jumping from animal to human (Spillover).\n- Monitoring and global cooperation are key defenses."
-        },
-        {
-            "id": "micro_17",
-            "type": "content",
-            "title": "Microbiology Summary",
-            "content": "# Recap 📝\n\n- Microbes usually help us (Food, Digestion).\n- **Germ Theory** saved billions of lives.\n- **Biotechnology** harnesses cellular machinery for medicine and industry.\n- The small things run the world."
+            "title": "Summary",
+            "content": "# Microbiology & Biotechnology Summary\n\n## Microorganisms:\n\n| Type | Cell Type | Example |\n|------|-----------|--------|\n| Bacteria | Prokaryote | E. coli |\n| Archaea | Prokaryote | Methanogens |\n| Fungi | Eukaryote | Yeast |\n| Protists | Eukaryote | Amoeba |\n| Viruses | Non-cellular | Influenza |\n\n## Viruses:\n- Not living\n- Need host to reproduce\n- Lytic vs lysogenic cycle\n\n## Disease:\n- Pathogens cause disease\n- Antibiotics for bacteria only\n- Vaccines prevent infection\n\n## Biotechnology:\n- Recombinant DNA technology\n- Gene cloning\n- GMOs\n- Applications in medicine, agriculture, industry\n\n## Key Tools:\n- Restriction enzymes (cut)\n- Ligase (join)\n- Plasmids (vectors)\n- PCR (amplify)\n\n> **Congratulations!** You've completed Microbiology & Biotechnology!"
         }
     ]
 }

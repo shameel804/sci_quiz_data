@@ -2,138 +2,142 @@
     "id": "learn_analy",
     "topicId": "analy",
     "topicTitle": "Analytical Chemistry",
-    "description": "The detective work of chemistry: figuring out what is in a sample and how much.",
-    "baseKP": 100,
+    "description": "Explore stoichiometry, titration, pH calculations, and instrumental analysis techniques",
+    "baseKP": 75,
     "slides": [
         {
             "id": "analy_1",
             "type": "content",
-            "title": "What is Analytical Chemistry?",
-            "content": "# Chemical Detective Work 🕵️‍♀️\n\nThe science of obtaining, processing, and communicating information about the composition and structure of matter.\n\nTwo main questions:\n1. **Qualitative**: \"What is it?\" (Identity)\n2. **Quantitative**: \"How much is there?\" (Amount)"
+            "title": "Welcome to Analytical Chemistry",
+            "content": "# Introduction to Analytical Chemistry\n\nWelcome to **Analytical Chemistry** - the science of measuring and identifying substances!\n\n## What You Will Learn:\n- **Stoichiometry** - Quantitative relationships in reactions\n- **Mole Concept** - Counting atoms and molecules\n- **Titration** - Measuring unknown concentrations\n- **pH Calculations** - Acidity and basicity\n- **Chromatography and Spectroscopy** - Instrumental analysis\n\n> **Fun Fact:** Analytical chemistry is used in everything from crime labs to food safety!\n\n## Why Analytical Chemistry Matters:\n- Quality control in manufacturing\n- Environmental monitoring\n- Medical diagnostics\n- Forensic science\n- Drug testing\n\n## Qualitative vs Quantitative:\n\n| Type | Question | Example |\n|------|----------|--------|\n| Qualitative | What is present? | Is lead in water? |\n| Quantitative | How much? | Lead concentration in ppm |"
         },
         {
             "id": "analy_2",
             "type": "content",
             "title": "The Mole Concept",
-            "content": "# Counting Atoms 🔢\n\nAtoms are too small to count singly. We use the **Mole**.\n\n$$1 \\text{ mole} = 6.022 \\times 10^{23} \\text{ particles}$$\n\n**Avogadro's Number**.\n- Molar Mass ($g/mol$): Sum of atomic masses from periodic table.\n- Allows us to weigh powder and know how many atoms we have."
+            "content": "# The Mole Concept\n\n**Mole** = Avogadro's number of particles = 6.022 x 10^23\n\n## Key Relationships:\n\n### Molar Mass:\nMass of 1 mole of substance (g/mol)\n\n```\nMoles = Mass / Molar Mass\nn = m / M\n```\n\n### At STP (gases):\n1 mole of ideal gas = 22.4 L\n\n```\nMoles = Volume / 22.4\n```\n\n### In Solution:\n```\nMoles = Molarity x Volume (L)\nn = M x V\n```\n\n## Examples:\n\n**How many moles in 36 g of water (M = 18 g/mol)?**\n```\nn = 36 / 18 = 2 mol\n```\n\n**How many molecules?**\n```\n2 x 6.022 x 10^23 = 1.2 x 10^24 molecules\n```\n\n## Molar Masses:\n\n| Substance | Molar Mass |\n|-----------|------------|\n| H2 | 2 g/mol |\n| O2 | 32 g/mol |\n| H2O | 18 g/mol |\n| NaCl | 58.5 g/mol |\n| CaCO3 | 100 g/mol |"
         },
         {
             "id": "analy_3",
             "type": "content",
             "title": "Stoichiometry",
-            "content": "# Recipe Ratios 🍰\n\nBalancing chemical equations to calculate yields.\n\n$$2H_2 + O_2 \\to 2H_2O$$\n\n- 2 moles of Hydrogen + 1 mole of Oxygen = 2 moles Water.\n- **Limiting Reactant**: The ingredient that runs out first stops the reaction."
-        },
-        {
-            "id": "analy_4",
-            "type": "content",
-            "title": "Precision vs Accuracy",
-            "content": "# Bullseye 🎯\n\n- **Accuracy**: How close to the *true* value.\n- **Precision**: How reproducible the results are (clustering).\n\nGood analysis needs both. Systemic errors affect accuracy; Random errors affect precision."
+            "content": "# Stoichiometry\n\n**Stoichiometry** uses balanced equations to calculate quantities.\n\n## Steps:\n\n1. Write balanced equation\n2. Convert known quantity to moles\n3. Use mole ratio from equation\n4. Convert to required units\n\n## Example:\n\nHow much CO2 forms when 10 g of CaCO3 decomposes?\n\n```\nCaCO3 -> CaO + CO2\n```\n\n**Step 1:** Equation is balanced (1:1:1 ratio)\n\n**Step 2:** Moles CaCO3 = 10/100 = 0.1 mol\n\n**Step 3:** Ratio 1:1, so 0.1 mol CO2\n\n**Step 4:** Mass CO2 = 0.1 x 44 = 4.4 g\n\n## Limiting Reactant:\n\nReactant that runs out first and limits product.\n\n**Example:** 2H2 + O2 -> 2H2O\n\nIf you have 3 mol H2 and 2 mol O2:\n- H2 would need 1.5 mol O2 (have 2, OK)\n- O2 would need 4 mol H2 (have 3, NOT enough)\n- H2 is limiting reactant\n\n## Percent Yield:\n\n```\n% Yield = (Actual yield / Theoretical yield) x 100\n```"
         },
         {
             "id": "analy_quiz_1",
             "type": "quiz",
-            "title": "Data Quiz",
-            "content": "Check your measurement concepts.",
-            "quizQuestion": "If you weigh a 5.0g weight and get 4.2g, 4.2g, and 4.2g, your measurement is:",
+            "title": "Moles Quiz",
+            "content": "Test your understanding!",
+            "quizQuestion": "How many moles are in 44 g of CO2 (M = 44 g/mol)?",
             "quizOptions": [
-                "Accurate but not Precise",
-                "Precise but not Accurate",
-                "Both Accurate and Precise",
-                "Neither"
+                "0.5 mol",
+                "1 mol",
+                "2 mol",
+                "44 mol"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "analy_4",
+            "type": "content",
+            "title": "Concentration Calculations",
+            "content": "# Concentration Calculations\n\n## Molarity (M):\n\n```\nM = moles of solute / liters of solution\n```\n\n**Example:** 5.85 g NaCl in 500 mL solution\n```\nMoles NaCl = 5.85 / 58.5 = 0.1 mol\nM = 0.1 / 0.5 = 0.2 M\n```\n\n## Dilution:\n\n```\nM1 x V1 = M2 x V2\n```\n\n**Example:** Dilute 50 mL of 6 M HCl to 1 M\n```\n6 x 50 = 1 x V2\nV2 = 300 mL total\n```\nAdd 250 mL water to 50 mL acid.\n\n## Other Units:\n\n| Unit | Formula |\n|------|--------|\n| Mass percent | (mass solute/mass solution) x 100 |\n| ppm | (mass solute/mass solution) x 10^6 |\n| Molality | mol solute / kg solvent |\n\n## Converting:\n\nmol/L -> g/L: Multiply by molar mass\ng/L -> mol/L: Divide by molar mass\n\n## Preparing Solutions:\n\n1. Calculate required moles\n2. Weigh out solid (or measure liquid)\n3. Dissolve in less than final volume\n4. Transfer to volumetric flask\n5. Add water to mark"
+        },
+        {
             "id": "analy_5",
             "type": "content",
-            "title": "Titration",
-            "content": "# Measuring with Volume 💧\n\nA technique to determine unknown concentration.\n\n- Add a known solution (**Titrant**) slowly to the unknown (**Analyte**).\n- Stop at the **Endpoint** (color change via Indicator).\n\n$$M_1V_1 = M_2V_2$$\n(For 1:1 mole ratio)"
+            "title": "Titration Basics",
+            "content": "# Titration Basics\n\n**Titration** = technique to find unknown concentration.\n\n## Setup:\n\n- **Burette:** Contains titrant (known concentration)\n- **Flask:** Contains analyte (unknown)\n- **Indicator:** Shows endpoint\n\n## Key Terms:\n\n| Term | Meaning |\n|------|--------|\n| Titrant | Solution of known concentration |\n| Analyte | Solution of unknown concentration |\n| Equivalence point | Stoichiometric amounts react |\n| Endpoint | Indicator color change |\n\n## Acid-Base Titration:\n\n```\nAcid + Base -> Salt + Water\nH+ + OH- -> H2O\n```\n\n## Calculation:\n\nAt equivalence: moles acid = moles base (for 1:1)\n\n```\nM_acid x V_acid = M_base x V_base\n```\n\n**Example:**\n25 mL of HCl neutralized by 20 mL of 0.5 M NaOH.\n\n```\nM_HCl x 25 = 0.5 x 20\nM_HCl = 10 / 25 = 0.4 M\n```\n\n## Common Indicators:\n\n| Indicator | pH Range | Color Change |\n|-----------|----------|-------------|\n| Phenolphthalein | 8-10 | Colorless to pink |\n| Methyl orange | 3-4 | Red to yellow |\n| Litmus | 5-8 | Red to blue |"
         },
         {
             "id": "analy_6",
             "type": "content",
-            "title": "Gravimetric Analysis",
-            "content": "# Measuring with Mass ⚖️\n\nDetermining amount by isolating a solid.\n1. Dissolve sample.\n2. React to form a precipitate.\n3. Filter, dry, and weigh the solid.\n\nVery accurate... but very slow."
-        },
-        {
-            "id": "analy_7",
-            "type": "content",
-            "title": "Spectroscopy",
-            "content": "# Interaction with Light 🌈\n\nLight absorption/emission depends on energy levels.\n\n- **UV-Vis**: Electronic transitions. Colored compounds. Beer-Lambert Law ($A = \\epsilon lc$): Concentration $\\propto$ Absorbance.\n- **IR (Infrared)**: Bond vibrations. Identifies functional groups.\n- **NMR**: Nuclear spin. Maps C and H skeleton."
-        },
-        {
-            "id": "analy_8",
-            "type": "content",
-            "title": "Atomic Absorption (AAS)",
-            "content": "# Metal Detection 🤘\n\nUsed to detect trace metals (Lead in water, Calcium in blood).\n- Atomizes sample in a flame.\n- Measures light absorbed by specific atoms.\n- Very sensitive (ppm or ppb levels)."
-        },
-        {
-            "id": "analy_9",
-            "type": "content",
-            "title": "Chromatography",
-            "content": "# Separation Science 🏃\n\nSeparating mixtures based on differential affinity.\n\n- **Stationary Phase**: Stays put.\n- **Mobile Phase**: Moves through.\n- Components travel at different speeds based on how much they \"stick\" to the stationary phase."
-        },
-        {
-            "id": "analy_10",
-            "type": "content",
-            "title": "Types of Chromatography",
-            "content": "# Flavors of Separation 🍦\n\n- **Paper/TLC**: Ink spots on paper.\n- **GC (Gas Chromatography)**: Volatile compounds. Drug testing.\n- **HPLC (High-Performance Liquid Chromatography)**: Pharmaceuticals, proteins.\n\nCoupled with Mass Spec (GC-MS) for ultimate identification."
+            "title": "Types of Titration",
+            "content": "# Types of Titration\n\n## Acid-Base Titration:\n\n**Strong acid + Strong base:**\n- Equivalence pH = 7\n- Use any indicator\n\n**Weak acid + Strong base:**\n- Equivalence pH > 7\n- Use phenolphthalein\n\n**Strong acid + Weak base:**\n- Equivalence pH < 7\n- Use methyl orange\n\n## Redox Titration:\n\nElectron transfer reactions.\n\n**Example:** KMnO4 titration\n- MnO4- is purple\n- Mn2+ is colorless\n- End point: faint purple persists\n\n## Complexometric Titration:\n\nMetal ion with ligand (usually EDTA).\n\n**Uses:** Water hardness, metal analysis\n\n## Precipitation Titration:\n\nFormation of insoluble salt.\n\n**Example:** AgNO3 + NaCl -> AgCl (ppt)\n\n## Back Titration:\n\nWhen:\n- Reaction is slow\n- Analyte is insoluble\n- End point hard to detect\n\n**Method:**\n1. Add excess reagent\n2. Titrate remaining reagent\n3. Calculate by difference"
         },
         {
             "id": "analy_quiz_2",
             "type": "quiz",
-            "title": "Separation Quiz",
-            "content": "Method check.",
-            "quizQuestion": "Which method is best for separating volatile organic compounds?",
+            "title": "Titration Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What indicator is best for titrating a weak acid with a strong base?",
             "quizOptions": [
-                "Titration",
-                "Filtration",
-                "Gas Chromatography",
-                "Centrifugation"
+                "Methyl orange",
+                "Litmus",
+                "Phenolphthalein",
+                "No indicator needed"
             ],
             "correctOptionIndex": 2
         },
         {
+            "id": "analy_7",
+            "type": "content",
+            "title": "pH Calculations",
+            "content": "# pH Calculations\n\n## Strong Acids:\n\nCompletely ionize.\n```\n[H+] = concentration of acid\npH = -log[H+]\n```\n\n**Example:** 0.01 M HCl\n```\n[H+] = 0.01 M\npH = -log(0.01) = 2\n```\n\n## Strong Bases:\n\nCompletely ionize.\n```\n[OH-] = concentration of base\npOH = -log[OH-]\npH = 14 - pOH\n```\n\n**Example:** 0.1 M NaOH\n```\n[OH-] = 0.1 M\npOH = 1\npH = 14 - 1 = 13\n```\n\n## Weak Acids:\n\nPartially ionize. Use Ka.\n```\nKa = [H+][A-]/[HA]\n```\n\nFor weak acid HA:\n```\n[H+] = sqrt(Ka x C)\n```\n\n**Example:** 0.1 M acetic acid, Ka = 1.8 x 10^-5\n```\n[H+] = sqrt(1.8 x 10^-5 x 0.1)\n[H+] = 1.34 x 10^-3 M\npH = 2.87\n```\n\n## pKa and pKb:\n\n```\npKa = -log(Ka)\npKb = -log(Kb)\npKa + pKb = 14\n```"
+        },
+        {
+            "id": "analy_8",
+            "type": "content",
+            "title": "Chromatography",
+            "content": "# Chromatography\n\n**Chromatography** separates mixtures based on distribution between phases.\n\n## Components:\n\n- **Mobile phase:** Moves (gas or liquid)\n- **Stationary phase:** Fixed (solid or liquid)\n\n## Types:\n\n### Paper Chromatography:\n- Stationary: Paper (cellulose)\n- Mobile: Solvent\n- Use: Separate dyes, inks\n\n### Thin Layer (TLC):\n- Stationary: Silica on plate\n- Mobile: Solvent\n- Use: Quick analysis, purity check\n\n### Column Chromatography:\n- Stationary: Packed column\n- Mobile: Solvent\n- Use: Larger scale separation\n\n### Gas Chromatography (GC):\n- Stationary: Coated column\n- Mobile: Inert gas\n- Use: Volatile compounds\n\n### HPLC:\n- High-Performance Liquid Chromatography\n- High pressure, faster, more precise\n- Use: Drug analysis, proteins\n\n## Rf Value:\n\n```\nRf = Distance of compound / Distance of solvent front\n```\n\nRf is characteristic of compound under fixed conditions."
+        },
+        {
+            "id": "analy_9",
+            "type": "content",
+            "title": "Spectroscopy Basics",
+            "content": "# Spectroscopy\n\n**Spectroscopy** uses interaction of matter with electromagnetic radiation.\n\n## Types:\n\n### UV-Visible Spectroscopy:\n- Absorbs UV/visible light\n- Detects conjugated systems\n- Quantitative analysis (Beer's Law)\n\n**Beer's Law:**\n```\nA = e x b x c\n```\nA = absorbance, e = molar absorptivity, b = path length, c = concentration\n\n### Infrared (IR) Spectroscopy:\n- Measures bond vibrations\n- Identifies functional groups\n\n| Wavenumber (cm^-1) | Bond |\n|--------------------|------|\n| 3200-3600 | O-H, N-H |\n| 2850-3000 | C-H |\n| 1650-1750 | C=O |\n| 1600-1680 | C=C |\n\n### Mass Spectrometry:\n- Measures mass-to-charge ratio\n- Molecular weight determination\n- Fragmentation pattern\n\n### NMR Spectroscopy:\n- Nuclear Magnetic Resonance\n- Atomic environment\n- Structure determination\n\n## Choosing Technique:\n\n| Question | Technique |\n|----------|----------|\n| Molecular weight? | Mass spec |\n| Functional groups? | IR |\n| Structure? | NMR |\n| Concentration? | UV-Vis |"
+        },
+        {
+            "id": "analy_10",
+            "type": "content",
+            "title": "Gravimetric Analysis",
+            "content": "# Gravimetric Analysis\n\n**Gravimetric analysis** determines quantity by weighing.\n\n## Steps:\n\n1. Dissolve sample\n2. Precipitate analyte\n3. Filter and wash precipitate\n4. Dry/ignite to constant mass\n5. Weigh and calculate\n\n## Example:\n\nDetermine sulfate in sample by precipitating BaSO4.\n\n```\nBa2+ + SO4 2- -> BaSO4 (ppt)\n```\n\n**Calculation:**\n```\nmol BaSO4 = mass BaSO4 / 233\nmol SO4 2- = mol BaSO4 (1:1 ratio)\nmass SO4 2- = mol x 96\n```\n\n## Requirements for Precipitate:\n\n- Low solubility\n- Stable composition\n- Easy to filter\n- High purity\n\n## Common Determinations:\n\n| Ion | Precipitate |\n|-----|------------|\n| Cl- | AgCl |\n| SO4 2- | BaSO4 |\n| Fe3+ | Fe2O3 |\n| Ca2+ | CaC2O4 |\n\n## Advantages:\n- Accurate\n- Simple equipment\n- No calibration needed"
+        },
+        {
+            "id": "analy_quiz_3",
+            "type": "quiz",
+            "title": "Instruments Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which technique identifies functional groups in molecules?",
+            "quizOptions": [
+                "Mass spectrometry",
+                "IR spectroscopy",
+                "UV-Vis spectroscopy",
+                "NMR spectroscopy"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
             "id": "analy_11",
             "type": "content",
-            "title": "Mass Spectrometry",
-            "content": "# Weighing Molecules ⚖️\n\n- Ionize molecules (smash them).\n- Accelerate them.\n- Separate by **Mass-to-Charge Ratio ($m/z$)**.\n\nGives the molecular weight and fragmentation pattern (fingerprint) of the molecule."
+            "title": "Electroanalytical Methods",
+            "content": "# Electroanalytical Methods\n\n## Potentiometry:\n\nMeasures potential (voltage) of electrode.\n\n**pH Meter:**\n- Glass electrode sensitive to H+\n- Reference electrode\n- Measures potential difference\n\n**Ion-Selective Electrodes:**\n- Specific to certain ions (F-, Na+, K+)\n- Used in clinical labs, water quality\n\n## Conductometry:\n\nMeasures electrical conductivity.\n\n**Uses:**\n- Water purity\n- Salt concentration\n- Conductometric titration\n\n## Coulometry:\n\nMeasures charge (electrons) transferred.\n\n```\nmoles = Q / (n x F)\n```\nQ = charge, n = electrons, F = Faraday constant (96485 C/mol)\n\n## Voltammetry:\n\nMeasures current as voltage changes.\n\n**Types:**\n- Polarography\n- Cyclic voltammetry\n- Stripping analysis\n\n**Uses:**\n- Trace metal analysis\n- Electrochemical studies"
         },
         {
             "id": "analy_12",
             "type": "content",
-            "title": "Electrochemistry",
-            "content": "# Electric Analysis 🔋\n\nUsing electrical response to measure chemicals.\n- **Ph meter**: Measure voltage potential of $H^+$ ions.\n- **Glucose meter**: Amperometric sensor for blood sugar.\n- **Cyclic Voltammetry**: Study redox properties."
+            "title": "Quality Assurance",
+            "content": "# Quality Assurance in Analysis\n\n## Accuracy vs Precision:\n\n| Term | Meaning |\n|------|--------|\n| Accuracy | How close to true value |\n| Precision | How reproducible |\n\n## Errors:\n\n### Systematic Errors:\n- Consistent bias\n- Affect accuracy\n- Can be corrected\n\n### Random Errors:\n- Vary unpredictably\n- Affect precision\n- Reduced by repetition\n\n## Statistical Terms:\n\n```\nMean (x-bar) = Sum of values / n\nStandard deviation (s) = sqrt(Sum(x - x-bar)^2 / (n-1))\n```\n\n## Significant Figures:\n\n- Report appropriate number\n- Limited by least precise measurement\n\n## Calibration:\n\n- Use standards of known value\n- Create calibration curve\n- Check regularly\n\n## Validation:\n\n- Linearity\n- Detection limit\n- Quantitation limit\n- Recovery\n- Reproducibility"
+        },
+        {
+            "id": "analy_quiz_4",
+            "type": "quiz",
+            "title": "Final Quiz",
+            "content": "Test your overall understanding!",
+            "quizQuestion": "If a measurement is precise but not accurate, it has:",
+            "quizOptions": [
+                "Random error",
+                "Systematic error",
+                "No error",
+                "Both types"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "analy_13",
             "type": "content",
-            "title": "Sampling",
-            "content": "# The First Error 🥄\n\nAnalysis is only as good as the sample.\n- **Representative Sample**: Must reflect the whole batch.\n- Homogenizing non-uniform mixtures is crucial.\n- Errors here are usually the biggest source of inaccuracy."
-        },
-        {
-            "id": "analy_14",
-            "type": "content",
-            "title": "Quality Control (QA/QC)",
-            "content": "# Trust Issues 🛡️\n\nHow do we know data is good?\n- **Blanks**: Check for contamination.\n- **Standards**: Known concentrations to calibrate instrument.\n- **Spikes**: Adding known amount to check recovery.\n\nEssential in forensic and pharmaceutical labs."
-        },
-        {
-            "id": "analy_15",
-            "type": "content",
-            "title": "Errors and Statistics",
-            "content": "# Math of Uncertainty 📊\n\n- **Standard Deviation**: Spread of data.\n- **Confidence Intervals**: \"We are 95% sure the value is X $\\pm$ Y\".\n- **Significant Figures**: Reporting digits that actually have meaning."
-        },
-        {
-            "id": "analy_16",
-            "type": "content",
-            "title": "Modern Applications",
-            "content": "# Real World CSI 🚓\n\n- **Forensics**: DNA profiling, drug ID.\n- **Environmental**: Water quality, air pollution monitoring.\n- **Medicine**: Blood tests, drug development.\n- **Space**: Mars rovers analyzing soil."
-        },
-        {
-            "id": "analy_17",
-            "type": "content",
-            "title": "Analytical Summary",
-            "content": "# Recap 📝\n\n- **Stoichiometry** counts atoms.\n- **Titration** measures concentration.\n- **Spectroscopy** identifies structure.\n- **Chromatography** separates mixtures.\n- **QA/QC** ensures truth.\n\nAnalytical chemistry provides the hard data for all other sciences."
+            "title": "Summary",
+            "content": "# Analytical Chemistry Summary\n\n## Mole Concept:\n- Avogadro's number: 6.022 x 10^23\n- n = m/M = M x V = V/22.4\n\n## Stoichiometry:\n- Use balanced equations\n- Convert to moles, use ratio, convert back\n\n## Titration:\n- M1V1 = M2V2 (for 1:1)\n- Choose correct indicator\n\n## pH:\n- pH = -log[H+]\n- pH + pOH = 14\n\n## Separation Techniques:\n- Chromatography: Paper, TLC, GC, HPLC\n\n## Spectroscopy:\n| Technique | Information |\n|-----------|------------|\n| IR | Functional groups |\n| MS | Molecular weight |\n| NMR | Structure |\n| UV-Vis | Concentration |\n\n## Quality:\n- Accuracy: close to true value\n- Precision: reproducible\n\n> **Congratulations!** You've completed Analytical Chemistry!"
         }
     ]
 }

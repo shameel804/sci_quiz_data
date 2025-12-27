@@ -2,138 +2,134 @@
     "id": "learn_elec",
     "topicId": "elec",
     "topicTitle": "Electrical Engineering",
-    "description": "Powering the modern world.",
-    "baseKP": 100,
+    "description": "Explore circuits, electronics, and power systems",
+    "baseKP": 75,
     "slides": [
         {
             "id": "elec_1",
             "type": "content",
-            "title": "What is Electrical Engineering?",
-            "content": "# Sparks ⚡\n\nStudy and application of electricity, electronics, and electromagnetism.\n- **Power**: Generating/Moving electricity.\n- **Electronics**: Controlling electricity (Chips).\n- **Signals**: Communication."
+            "title": "Welcome to Electrical Engineering",
+            "content": "# Introduction to Electrical Engineering\n\nWelcome to **Electrical Engineering** - powering the world!\n\n## What You Will Learn:\n- **Circuit Theory** - Basic components and laws\n- **AC/DC Analysis** - Different current types\n- **Electronics** - Semiconductors and digital\n- **Power Systems** - Generation and distribution\n- **Signals** - Processing information\n\n> **Fun Fact:** The electrical grid is often called the largest machine ever built!"
         },
         {
             "id": "elec_2",
             "type": "content",
-            "title": "Circuit Basics",
-            "content": "# The Loop ⭕\n\n- **Voltage (V)**: Pressure (Volts).\n- **Current (I)**: Flow (Amps).\n- **Resistance (R)**: Obstacle (Ohms).\n- **Ohm's Law**: $V = I \\times R$."
+            "title": "Basic Quantities",
+            "content": "# Basic Electrical Quantities\n\n## Fundamental Units:\n\n| Quantity | Symbol | Unit | Definition |\n|----------|--------|------|------------|\n| Charge | Q | Coulombs (C) | 1 C = 6.24 x 10^18 electrons |\n| Current | I | Amperes (A) | Charge flow rate |\n| Voltage | V | Volts (V) | Energy per charge |\n| Resistance | R | Ohms | Opposition to current |\n| Power | P | Watts (W) | Energy rate |\n\n## Ohm's Law:\n```\nV = I x R\n```\n\n## Power:\n```\nP = V x I = I^2 x R = V^2 / R\n```"
         },
         {
             "id": "elec_3",
             "type": "content",
-            "title": "Kirchhoff's Laws",
-            "content": "# Conservation ⚖️\n\n1. **KCL (Current)**: Current entering a junction = Current leaving.\n2. **KVL (Voltage)**: Sum of voltages around any loop is zero.\nBase rules for all circuit analysis."
-        },
-        {
-            "id": "elec_4",
-            "type": "content",
-            "title": "Semiconductors",
-            "content": "# Silicon Valley 💻\n\nMaterials that can switch between conducting and insulating.\n- **Doping**: Adding impurities (P-type, N-type).\n- **Diode**: One-way valve for current.\n- **Transistor**: Digital switch (0 or 1)."
-        },
-        {
-            "id": "elec_5",
-            "type": "content",
-            "title": "AC vs DC",
-            "content": "# The War of Currents 🥊\n\n- **DC (Direct Current)**: Battery. Electrons flow one way. Edison.\n- **AC (Alternating Current)**: Wall outlet. Electrons wiggle back and forth. Tesla.\n- AC is better for long distance transmission."
+            "title": "Circuit Components",
+            "content": "# Circuit Components\n\n## Passive Components:\n\n| Component | Symbol | Function |\n|-----------|--------|----------|\n| Resistor | R | Limits current |\n| Capacitor | C | Stores charge |\n| Inductor | L | Stores magnetic energy |\n\n## Active Components:\n- Diodes\n- Transistors\n- Operational amplifiers\n- Integrated circuits\n\n## Component Equations:\n```\nResistor: V = IR\nCapacitor: i = C(dv/dt)\nInductor: v = L(di/dt)\n```"
         },
         {
             "id": "elec_quiz_1",
             "type": "quiz",
-            "title": "Law Quiz",
-            "content": "Formula check.",
-            "quizQuestion": "What is the formula for Ohm's Law?",
+            "title": "Basics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "According to Ohm's Law, if voltage doubles and resistance stays the same:",
             "quizOptions": [
-                "E = mc^2",
-                "F = ma",
-                "V = IR",
-                "P = IV"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "elec_6",
-            "type": "content",
-            "title": "Power Systems",
-            "content": "# The Grid 🔋\n\n1. **Generation**: Power Plant (12kV).\n2. **Step Up**: Transformer (400kV for travel).\n3. **Transmission**: High voltage lines.\n4. **Step Down**: Substation (11kV).\n5. **Distribution**: To your house (240V/120V)."
-        },
-        {
-            "id": "elec_7",
-            "type": "content",
-            "title": "Signal Processing",
-            "content": "# Filtering Noise 📻\n\nAnalyzing and modifying signals (Sound, Radio, Images).\n- **Analog**: Continuous wave (Vinyl).\n- **Digital**: 0s and 1s (MP3).\n- **DAC/ADC**: Converting between them."
-        },
-        {
-            "id": "elec_8",
-            "type": "content",
-            "title": "Control Systems",
-            "content": "# Automation 🎮\n\nManaging behavior of devices.\n- **Open Loop**: Toaster (Runs for time, doesn't check if bread is burnt).\n- **Closed Loop**: AC (Checks temp, adjusts cooling).\n- **PID Controller**: Common algorithm for smooth control."
-        },
-        {
-            "id": "elec_9",
-            "type": "content",
-            "title": "Electric Motors",
-            "content": "# Turning Wheels 🚗\n\nUsing magnetism to create motion.\n- **Stator**: Stationary magnets.\n- **Rotor**: Spinning coil.\n- **Induction Motor**: Workhorse of industry (Tesla cars use this)."
-        },
-        {
-            "id": "elec_10",
-            "type": "content",
-            "title": "Transformers",
-            "content": "# Voltage Changer 🤖\n\nTwo coils of wire around a magnetic core.\n- Changes Voltage/Current levels using Induction.\n- Only works with **AC**.\n- Essential for power grid."
-        },
-        {
-            "id": "elec_11",
-            "type": "content",
-            "title": "Capacitors and Inductors",
-            "content": "# Energy Storage 🔋\n\n- **Capacitor**: Stores energy in Electric Field (Fast burst).\n- **Inductor**: Stores energy in Magnetic Field (Resists change in current)."
-        },
-        {
-            "id": "elec_quiz_2",
-            "type": "quiz",
-            "title": "Motor Quiz",
-            "content": "Motion check.",
-            "quizQuestion": "Which part of an electric motor spins?",
-            "quizOptions": [
-                "Stator",
-                "Rotor",
-                "Brush",
-                "Transformer"
+                "Current halves",
+                "Current doubles",
+                "Current stays same",
+                "Current quadruples"
             ],
             "correctOptionIndex": 1
         },
         {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Series and Parallel",
+            "content": "# Series and Parallel Circuits\n\n## Resistors:\n\n| Configuration | Resistance | Current | Voltage |\n|---------------|------------|---------|--------|\n| Series | R_total = R1 + R2 + R3 | Same | Divides |\n| Parallel | 1/R_total = 1/R1 + 1/R2 | Divides | Same |\n\n## Capacitors:\n\n| Configuration | Capacitance |\n|---------------|-------------|\n| Series | 1/C_total = 1/C1 + 1/C2 |\n| Parallel | C_total = C1 + C2 |\n\n## Inductors:\n\n| Configuration | Inductance |\n|---------------|------------|\n| Series | L_total = L1 + L2 |\n| Parallel | 1/L_total = 1/L1 + 1/L2 |"
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Kirchhoff's Laws",
+            "content": "# Kirchhoff's Laws\n\n## Kirchhoff's Current Law (KCL):\n**At any node, sum of currents entering = sum leaving**\n\n```\nSum(I_in) = Sum(I_out)\n```\n\n## Kirchhoff's Voltage Law (KVL):\n**Around any closed loop, sum of voltages = 0**\n\n```\nSum(V) = 0\n```\n\n## Analysis Methods:\n- Node voltage method\n- Mesh current method\n- Superposition\n- Thevenin/Norton equivalents"
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "AC Circuits",
+            "content": "# AC Circuits\n\n## AC vs DC:\n- DC: Constant voltage/current\n- AC: Sinusoidal, varies with time\n\n## AC Parameters:\n```\nv(t) = V_m x sin(omega x t + phi)\n```\n- V_m = peak voltage\n- omega = 2 x pi x f (angular frequency)\n- f = frequency (Hz)\n- phi = phase angle\n\n## RMS Values:\n```\nV_rms = V_m / sqrt(2) = 0.707 x V_m\n```\n\n## Power:\n- Real power (W): P = V x I x cos(phi)\n- Reactive power (VAR): Q = V x I x sin(phi)\n- Apparent power (VA): S = V x I"
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Circuits Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "In a series circuit, current is:",
+            "quizOptions": [
+                "Different at each component",
+                "Same at all points",
+                "Zero",
+                "Infinite"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Impedance",
+            "content": "# Impedance\n\n## Definition:\nTotal opposition to AC current flow.\n\n```\nZ = R + jX\n```\n\n## Component Impedances:\n\n| Component | Impedance |\n|-----------|----------|\n| Resistor | Z = R |\n| Capacitor | Z = 1/(j x omega x C) = -j/(omega x C) |\n| Inductor | Z = j x omega x L |\n\n## Magnitude:\n```\n|Z| = sqrt(R^2 + X^2)\n```\n\n## Phase Angle:\n```\ntheta = arctan(X/R)\n```"
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Semiconductors",
+            "content": "# Semiconductors\n\n## Silicon:\n- Basis of modern electronics\n- Intrinsic vs doped\n\n## Doping:\n- n-type: Extra electrons (phosphorus)\n- p-type: Extra holes (boron)\n\n## PN Junction:\n- Diode formed\n- Forward bias: Conducts\n- Reverse bias: Blocks\n\n## Key Devices:\n\n| Device | Function |\n|--------|----------|\n| Diode | One-way conductor |\n| LED | Light emitter |\n| BJT | Current amplifier |\n| MOSFET | Voltage-controlled switch |\n| Op-amp | Signal processing |"
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Digital Electronics",
+            "content": "# Digital Electronics\n\n## Binary System:\n- 0 and 1 only\n- High voltage = 1, Low = 0\n\n## Logic Gates:\n\n| Gate | Function | Output |\n|------|----------|--------|\n| AND | A AND B | 1 only if both 1 |\n| OR | A OR B | 1 if either 1 |\n| NOT | NOT A | Inverts |\n| NAND | NOT (A AND B) | Universal gate |\n| XOR | A XOR B | 1 if exactly one 1 |\n\n## Sequential Logic:\n- Flip-flops (memory)\n- Registers\n- Counters\n\n## Microcontrollers:\n- Programmable\n- Arduino, PIC, ARM"
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Power Generation",
+            "content": "# Power Generation\n\n## Generation Types:\n\n| Type | Principle |\n|------|----------|\n| Thermal | Steam turbine (coal, gas, nuclear) |\n| Hydro | Water turbine |\n| Wind | Wind turbine |\n| Solar PV | Photovoltaic effect |\n| Geothermal | Earth's heat |\n\n## Generator:\n- Faraday's law\n- Rotating magnetic field\n- Produces AC\n\n## Efficiency:\n- Thermal: 35-45%\n- Hydro: 80-90%\n- Wind: 30-45%\n- Solar: 15-22%"
+        },
+        {
+            "id": "elec_quiz_3",
+            "type": "quiz",
+            "title": "Electronics Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A MOSFET is:",
+            "quizOptions": [
+                "Current-controlled",
+                "Voltage-controlled",
+                "Light-controlled",
+                "Temperature-controlled"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Power Transmission",
+            "content": "# Power Transmission\n\n## Why High Voltage:\n- Power loss = I^2 x R\n- Higher V = Lower I for same power\n- Less loss over distance\n\n## Transmission Voltages:\n- Generation: ~20 kV\n- Transmission: 110-765 kV\n- Distribution: 4-35 kV\n- Consumer: 120/240 V\n\n## Transformers:\n```\nV1/V2 = N1/N2\n```\n- Step-up for transmission\n- Step-down for distribution\n\n## Grid:\n- Interconnected network\n- Load balancing\n- Reliability"
+        },
+        {
             "id": "elec_12",
             "type": "content",
-            "title": "Printed Circuit Boards (PCB)",
-            "content": "# Green Boards 🟩\n\nPhysical platform for circuits.\n- **Copper Traces**: Wires printed on board.\n- **Solder**: Metal glue connecting components.\n- Multi-layered (Phone boards have 10+ layers)."
+            "title": "Electrical Safety",
+            "content": "# Electrical Safety\n\n## Hazards:\n- Electric shock\n- Burns\n- Fire\n- Arc flash\n\n## Current Effects:\n\n| Current (mA) | Effect |\n|--------------|--------|\n| 1 | Perception |\n| 10-20 | Muscle freeze |\n| 100+ | Ventricular fibrillation |\n\n## Protection:\n- Grounding\n- Circuit breakers\n- Fuses\n- GFCI/RCD\n- Insulation\n\n## Safe Practices:\n- Lock-out/tag-out\n- Test before touch\n- Personal protective equipment"
         },
         {
             "id": "elec_13",
             "type": "content",
-            "title": "Communication Systems",
-            "content": "# Connecting 📡\n\n- **Modulation**: Encoding info onto a carrier wave (AM/FM, WiFi).\n- **Fiber Optics**: Sending light down glass tubes (Speed of light internet).\n- **5G**: High frequency radio waves."
+            "title": "Control Systems",
+            "content": "# Control Systems\n\n## Open Loop:\n- No feedback\n- Output not measured\n- Example: Toaster\n\n## Closed Loop:\n- Feedback present\n- Error = Setpoint - Output\n- Controller adjusts\n\n## PID Control:\n```\nu(t) = Kp*e + Ki*int(e) + Kd*de/dt\n```\n- P = Proportional\n- I = Integral\n- D = Derivative\n\n## Applications:\n- Temperature control\n- Motor speed control\n- Position control"
         },
         {
             "id": "elec_14",
             "type": "content",
-            "title": "Renewable Integration",
-            "content": "# Green Grid ☀️\n\nChallenge: Sun/Wind aren't constant.\n- **Smart Grid**: Two-way communication.\n- **Inverters**: Converting DC solar to AC grid."
-        },
-        {
-            "id": "elec_15",
-            "type": "content",
-            "title": "Embedded Electronics",
-            "content": "# Microcontrollers 🕹️\n\nTiny computers (Arduino, ESP32).\n- Interfacing with sensors and actuators.\n- Internet of Things (IoT)."
-        },
-        {
-            "id": "elec_16",
-            "type": "content",
-            "title": "Electromagnetic Compatibility (EMC)",
-            "content": "# No Interference 🔇\n\nEnsuring devices don't mess up others nearby.\n- Shielding (Metal cages).\n- Why you have to turn off phones on planes (mostly usage precaution now)."
-        },
-        {
-            "id": "elec_17",
-            "type": "content",
-            "title": "Elec Eng Summary",
-            "content": "# Recap 📝\n\n- **Ohm's Law** rules all.\n- **Transistors** enable computing.\n- **AC Power** runs civilization.\n- **Electromagnetism** connects us."
+            "title": "Summary",
+            "content": "# Electrical Engineering Summary\n\n## Circuits:\n- Ohm's Law: V = IR\n- Power: P = VI\n- Kirchhoff's laws (KCL, KVL)\n\n## Electronics:\n- Semiconductors (diodes, transistors)\n- Digital logic gates\n- Analog signals\n\n## Power Systems:\n- Generation, transmission, distribution\n- High voltage for efficiency\n- Safety: Grounding, breakers\n\n## Applications:\n- Control systems\n- Communications\n- Renewable energy\n\n> **Congratulations!** You've completed Electrical Engineering!"
         }
     ]
 }

@@ -2,138 +2,122 @@
     "id": "learn_applied",
     "topicId": "applied",
     "topicTitle": "Applied Chemistry",
-    "description": "From industrial factories to your laundry room, see chemistry at work.",
-    "baseKP": 100,
+    "description": "Explore fuels, food chemistry, pharmaceutical chemistry, and materials science",
+    "baseKP": 75,
     "slides": [
         {
             "id": "applied_1",
             "type": "content",
-            "title": "Chemistry Uses",
-            "content": "# Making Stuff 🏭\n\nApplied chemistry focuses on how chemical principles are used to create products and solve real-world problems.\n\n- Industry\n- Consumer Products\n- Materials\n- Food"
+            "title": "Welcome to Applied Chemistry",
+            "content": "# Introduction to Applied Chemistry\n\nWelcome to **Applied Chemistry** - where chemistry meets everyday life!\n\n## What You Will Learn:\n- **Fuels and Energy** - Combustion and energy sources\n- **Food Chemistry** - Nutrients and additives\n- **Pharmaceuticals** - Drug chemistry\n- **Materials Science** - Polymers and composites\n\n> **Fun Fact:** Everything you eat, wear, and use involves applied chemistry!\n\n## Areas of Applied Chemistry:\n\n| Field | Applications |\n|-------|-------------|\n| Energy | Fuels, batteries |\n| Medicine | Drugs, diagnostics |\n| Agriculture | Fertilizers, pesticides |\n| Materials | Plastics, metals |\n| Food | Preservation, nutrition |"
         },
         {
             "id": "applied_2",
             "type": "content",
-            "title": "The Haber Process",
-            "content": "# Feeding the World 🌾\n\nProduction of Ammonia ($NH_3$) from Nitrogen ($N_2$) and Hydrogen ($H_2$).\n\n$$N_2 + 3H_2 \\rightleftharpoons 2NH_3$$\n\n- Uses high Pressure and Temp + Iron Catalyst.\n- Used to make **Fertilizer**.\n- Sustains 50% of the global population."
+            "title": "Fuels",
+            "content": "# Fuels and Combustion\n\n## Types of Fuels:\n\n| Type | Examples | Source |\n|------|----------|--------|\n| Fossil | Coal, oil, gas | Ancient organisms |\n| Biofuel | Biodiesel, ethanol | Plants |\n| Nuclear | Uranium | Radioactive decay |\n| Hydrogen | H2 | Electrolysis |\n\n## Combustion:\n\n```\nFuel + O2 -> CO2 + H2O + Energy\n```\n\n**Complete combustion:** Enough O2, produces CO2\n**Incomplete:** Limited O2, produces CO or soot\n\n## Calorific Value:\n\nEnergy released per unit mass (kJ/g).\n\n| Fuel | Calorific Value |\n|------|----------------|\n| Hydrogen | 142 kJ/g |\n| Natural gas | 55 kJ/g |\n| Gasoline | 47 kJ/g |\n| Coal | 30 kJ/g |\n| Wood | 17 kJ/g |\n\n## Octane Rating:\n\nResistance to engine knock.\n- Higher octane = more compression before ignition\n- Iso-octane = 100\n- n-heptane = 0\n\n## Alternative Fuels:\n- Biodiesel (from vegetable oil)\n- Bioethanol (from fermentation)\n- Hydrogen fuel cells"
         },
         {
             "id": "applied_3",
             "type": "content",
-            "title": "Polymers and Plastics",
-            "content": "# Moldable World 🧴\n\n- **Thermoplastics**: Melt on heating (Recyclable). PET, PE.\n- **Thermosets**: Hard on heating (Cannot remelt). Epoxy, Vulcanized rubber.\n- **Cross-linking**: Sulfur bridges in rubber make tires tough."
-        },
-        {
-            "id": "applied_4",
-            "type": "content",
-            "title": "Soaps and Detergents",
-            "content": "# Cleaning Chemistry 🧼\n\n**Surfactants**: Molecules with two ends.\n- **Hydrophilic Head**: Loves water.\n- **Hydrophobic Tail**: Loves grease/oil.\n\nThey form **micelles** around grease, allowing water to wash it away."
-        },
-        {
-            "id": "applied_5",
-            "type": "content",
-            "title": "Electrolysis",
-            "content": "# Splitting with Zap ⚡\n\nUsing electricity to drive non-spontaneous reactions.\n- **Chlor-Alkali Process**: Electrolysis of Saltwater ($NaCl$). Produces Chlorine, Hydrogen, and NaOH (Lye).\n- **Aluminum Smelting**: Extracting Al from bauxite ore."
+            "title": "Batteries",
+            "content": "# Batteries and Energy Storage\n\n## Battery Basics:\n\n**Anode:** Oxidation (- terminal)\n**Cathode:** Reduction (+ terminal)\n**Electrolyte:** Ion transport\n\n## Types:\n\n| Type | Chemistry | Rechargeable |\n|------|-----------|-------------|\n| Alkaline | Zn/MnO2 | No |\n| Lead-acid | Pb/PbO2 | Yes |\n| Lithium-ion | Li compounds | Yes |\n| NiMH | Ni/Metal hydride | Yes |\n\n## Lithium-ion Battery:\n\n- High energy density\n- Lightweight\n- Used in phones, laptops, EVs\n- Cathode: LiCoO2\n- Anode: Graphite\n\n## Lead-Acid Battery:\n\n```\nPb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O\n```\n\nUsed in cars.\n\n## Fuel Cells:\n\n```\n2H2 + O2 -> 2H2O + electricity\n```\n\n- Continuous fuel supply\n- Water is only byproduct\n- Used in space, vehicles"
         },
         {
             "id": "applied_quiz_1",
             "type": "quiz",
-            "title": "Process Quiz",
-            "content": "Industrial check.",
-            "quizQuestion": "The Haber process produces Ammonia primarily for what use?",
+            "title": "Energy Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which fuel has the highest calorific value?",
             "quizOptions": [
-                "Rocket Fuel",
-                "Fertilizer",
-                "Plastics",
-                "Soap"
+                "Coal",
+                "Gasoline",
+                "Hydrogen",
+                "Wood"
             ],
-            "correctOptionIndex": 1
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "applied_4",
+            "type": "content",
+            "title": "Food Chemistry",
+            "content": "# Food Chemistry\n\n## Major Nutrients:\n\n| Nutrient | Function | Source |\n|----------|----------|--------|\n| Carbohydrates | Energy | Grains, fruits |\n| Proteins | Growth, repair | Meat, beans |\n| Fats | Energy, insulation | Oils, dairy |\n| Vitamins | Various functions | Fruits, vegetables |\n| Minerals | Bones, metabolism | Various foods |\n\n## Energy Content:\n\n| Nutrient | Energy (kcal/g) |\n|----------|----------------|\n| Carbohydrates | 4 |\n| Proteins | 4 |\n| Fats | 9 |\n| Alcohol | 7 |\n\n## Food Additives:\n\n| Type | Purpose | Examples |\n|------|---------|----------|\n| Preservatives | Prevent spoilage | Salt, nitrates |\n| Antioxidants | Prevent oxidation | Vitamin E, BHT |\n| Colorants | Appearance | Caramel, FD&C dyes |\n| Flavors | Taste | MSG, vanilla |\n| Emulsifiers | Mix oil/water | Lecithin |\n\n## Food Processing:\n\n- Pasteurization (heat kills bacteria)\n- Fermentation (alcohol, yogurt)\n- Irradiation (kills microbes)\n- Canning (sterilization)"
+        },
+        {
+            "id": "applied_5",
+            "type": "content",
+            "title": "Pharmaceutical Chemistry",
+            "content": "# Pharmaceutical Chemistry\n\n## Drug Development:\n\n1. Target identification\n2. Lead compound discovery\n3. Optimization\n4. Preclinical testing\n5. Clinical trials (Phases I-III)\n6. Regulatory approval\n7. Market\n\n## Drug Action:\n\n**Receptor binding:**\n- Agonists: activate receptor\n- Antagonists: block receptor\n\n**Enzyme inhibition:**\n- Competitive\n- Non-competitive\n\n## Common Drug Classes:\n\n| Class | Action | Examples |\n|-------|--------|----------|\n| Analgesics | Pain relief | Aspirin, morphine |\n| Antibiotics | Kill bacteria | Penicillin |\n| Antivirals | Fight viruses | Acyclovir |\n| Antacids | Neutralize acid | Mg(OH)2 |\n\n## Aspirin:\n\n```\nC9H8O4 (acetylsalicylic acid)\n```\n\n- Inhibits COX enzymes\n- Reduces pain, fever, inflammation\n- Blood thinner\n\n## Drug Delivery:\n\n- Oral tablets/capsules\n- Injections\n- Transdermal patches\n- Inhalers"
         },
         {
             "id": "applied_6",
             "type": "content",
-            "title": "Batteries",
-            "content": "# Portable Energy 🔋\n\n- **Primary Cells**: Single use (Alkaline).\n- **Secondary Cells**: Rechargeable (Li-ion, Lead-acid).\n\n**Lithium-Ion**: Li ions move from Anode ($C$) to Cathode ($CoO_2$) during discharge, providing lightweight power for phones/cars."
-        },
-        {
-            "id": "applied_7",
-            "type": "content",
-            "title": "Petroleum Refining",
-            "content": "# Black Gold 🛢️\n\nCrude oil is a mix of hydrocarbons. Separated by **Fractional Distillation**.\n\n- Top (Cool): LPG, Gasoline.\n- Middle: Kerosene, Diesel.\n- Bottom (Hot): Asphalt, Tar.\n\n**Cracking**: Breaking big chains into smaller, useful ones (Gasoline)."
-        },
-        {
-            "id": "applied_8",
-            "type": "content",
-            "title": "Medicinal Chemistry",
-            "content": "# Drug Design 💊\n\nCreating molecules to bind to biological targets (receptors/enzymes).\n- **Aspirin**: Modified Willow bark.\n- **Penicillin**: Antibiotic from mold.\n- **Structure-Activity Relationship (SAR)**: Tweaking molecules to improve efficacy and reduce side effects."
-        },
-        {
-            "id": "applied_9",
-            "type": "content",
-            "title": "Food Chemistry",
-            "content": "# Edible Science 🍔\n\n- **Fermentation**: Yeast turns sugar to alcohol/CO2 (Bread, Beer).\n- **Emulsions**: Mayonnaise (Oil in water).\n- **Maillard Reaction**: Browning of meat/bread (Flavor!).\n- **Preservatives**: Prevent spoilage (Salt, Sodium Benzoate)."
-        },
-        {
-            "id": "applied_10",
-            "type": "content",
-            "title": "Forensic Chemistry",
-            "content": "# Crime Scene 🔍\n\n- **Fingerprints**: Developed with cyanoacrylate (Super glue).\n- **Blood**: Luminol glows with iron in hemoglobin.\n- **Breathalyzer**: Redox reaction measures alcohol in breath."
-        },
-        {
-            "id": "applied_11",
-            "type": "content",
             "title": "Materials Science",
-            "content": "# Better Stuff 🛹\n\n- **Ceramics**: Heat resistant, brittle (Tiles, Space Shuttle).\n- **Composites**: Carbon Fiber (Strong + Light).\n- **Alloys**: Steel (Fe + C), Bronze (Cu + Sn)."
+            "content": "# Materials Science\n\n## Material Categories:\n\n| Type | Properties | Examples |\n|------|------------|----------|\n| Metals | Conductive, strong | Steel, Al |\n| Ceramics | Hard, heat-resistant | Glass, pottery |\n| Polymers | Flexible, light | Plastics, rubber |\n| Composites | Combined properties | Fiberglass, carbon fiber |\n\n## Metals and Alloys:\n\n| Alloy | Components | Properties |\n|-------|------------|------------|\n| Steel | Fe + C | Strong |\n| Stainless | Fe + Cr + Ni | Corrosion-resistant |\n| Bronze | Cu + Sn | Hard |\n| Brass | Cu + Zn | Machinable |\n\n## Polymers:\n\n| Polymer | Use |\n|---------|-----|\n| Polyethylene | Bags, bottles |\n| PVC | Pipes, flooring |\n| Nylon | Clothing, rope |\n| Kevlar | Body armor |\n\n## Composites:\n\nTwo or more materials combined.\n\n- **Fiberglass:** Glass fibers in polymer\n- **Carbon fiber:** Carbon fibers in epoxy\n- **Concrete:** Cement + aggregate\n\n## Smart Materials:\n\n- Shape memory alloys\n- Piezoelectric materials\n- Self-healing polymers"
         },
         {
             "id": "applied_quiz_2",
             "type": "quiz",
             "title": "Materials Quiz",
-            "content": "Check your materials.",
-            "quizQuestion": "Which is an alloy?",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Stainless steel contains which element that provides corrosion resistance?",
             "quizOptions": [
-                "Iron",
-                "Steel",
                 "Carbon",
-                "Copper"
+                "Chromium",
+                "Copper",
+                "Zinc"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "applied_12",
+            "id": "applied_7",
             "type": "content",
-            "title": "Nanotechnology",
-            "content": "# Tiny Tech 🤖\n\nManipulating matter at 1-100nm.\n- **Graphene**: Single layer of carbon. Stronger than steel, conductive.\n- **Self-cleaning glass**: Titanium dioxide coating.\n- **Drug Delivery**: Nanoparticles targeting cancer cells."
+            "title": "Fertilizers",
+            "content": "# Fertilizers\n\n## Essential Plant Nutrients:\n\n**Primary (NPK):**\n- N (Nitrogen): Leaf growth\n- P (Phosphorus): Roots, flowers\n- K (Potassium): Overall health\n\n**Secondary:**\n- Calcium, Magnesium, Sulfur\n\n## Common Fertilizers:\n\n| Fertilizer | Formula | Nutrient |\n|------------|---------|----------|\n| Ammonium nitrate | NH4NO3 | N |\n| Urea | CO(NH2)2 | N |\n| Superphosphate | Ca(H2PO4)2 | P |\n| Potassium chloride | KCl | K |\n\n## NPK Rating:\n\nExample: 10-10-10\n- 10% N, 10% P2O5, 10% K2O\n\n## Haber Process:\n\n```\nN2 + 3H2 <-> 2NH3\n```\n\nConditions: 450 C, 200 atm, Fe catalyst\n\n## Environmental Concerns:\n\n- Runoff causes eutrophication\n- N2O is greenhouse gas\n- Groundwater contamination\n\n## Organic Alternatives:\n\n- Compost\n- Manure\n- Bone meal\n- Fish emulsion"
         },
         {
-            "id": "applied_13",
+            "id": "applied_8",
             "type": "content",
-            "title": "Explosives",
-            "content": "# Boom 🧨\n\nRapid release of gas and heat.\n- **Nitroglycerin**: Unstable liquid.\n- **TNT**: Stable solid.\n- Nitrogen wants to become $N_2$ gas (very stable) very badly, releasing huge energy."
+            "title": "Soaps and Detergents",
+            "content": "# Soaps and Detergents\n\n## Soap:\n\n**Made by saponification:**\n```\nFat + NaOH -> Soap + Glycerol\n```\n\n**Structure:**\n- Hydrophilic head (carboxylate)\n- Hydrophobic tail (hydrocarbon)\n\n## How Cleaning Works:\n\n1. Hydrophobic tails attach to grease\n2. Form micelles around dirt\n3. Water carries micelles away\n\n## Soap vs Detergent:\n\n| Property | Soap | Detergent |\n|----------|------|----------|\n| Source | Natural fats | Petroleum |\n| Hard water | Forms scum | Works well |\n| Biodegradable | Yes | Varies |\n| pH | Basic | Can be neutral |\n\n## Detergent Structure:\n\n- Sodium lauryl sulfate (SLS)\n- Linear alkyl benzenesulfonate (LAS)\n\n## Additives:\n\n| Additive | Purpose |\n|----------|--------|\n| Builders | Soften water |\n| Brighteners | UV fluorescence |\n| Enzymes | Break down stains |\n| Bleaches | Whitening |\n| Fragrances | Smell |"
         },
         {
-            "id": "applied_14",
+            "id": "applied_9",
             "type": "content",
-            "title": "Paints and Coatings",
-            "content": "# Color and Protection 🎨\n\n- **Pigment**: Color particles ($TiO_2$ for white).\n- **Binder**: Glue holding it together (Acrylic).\n- **Solvent**: Evaporates to set the paint.\n\nAnti-corrosion coatings save billions in rust damage."
+            "title": "Corrosion",
+            "content": "# Corrosion\n\n**Corrosion** = oxidation of metals by environment.\n\n## Rusting of Iron:\n\n```\n4Fe + 3O2 + 6H2O -> 4Fe(OH)3\n```\n\nRequires:\n- Oxygen\n- Water\n- Electrolyte (salt speeds it up)\n\n## Electrochemical Mechanism:\n\n**Anode:** Fe -> Fe2+ + 2e-\n**Cathode:** O2 + 2H2O + 4e- -> 4OH-\n\n## Prevention Methods:\n\n| Method | How It Works |\n|--------|-------------|\n| Painting | Barrier |\n| Oiling/Greasing | Barrier |\n| Galvanizing | Zinc coating |\n| Electroplating | Metal coating |\n| Cathodic protection | Sacrificial anode |\n| Alloying | Stainless steel |\n\n## Galvanizing:\n\nZinc coating on iron.\n- Even if scratched, Zn corrodes preferentially\n- Zn is more reactive than Fe\n\n## Cathodic Protection:\n\n- Attach more reactive metal (Mg, Zn)\n- This metal corrodes instead\n- Used on ships, pipelines"
         },
         {
-            "id": "applied_15",
+            "id": "applied_10",
             "type": "content",
             "title": "Cosmetics",
-            "content": "# Looking Good 💄\n\n- **Lotions**: Emulsions of oil and water.\n- **Sunscreen**: Absorbs UV light ($ZnO$).\n- **Hair Dye**: Oxidation reactions.\n- Safety and stability are key challenges."
+            "content": "# Chemistry of Cosmetics\n\n## Skin Care:\n\n| Product | Key Ingredients |\n|---------|----------------|\n| Moisturizer | Glycerin, oils |\n| Sunscreen | Zinc oxide, avobenzone |\n| Anti-aging | Retinol, peptides |\n| Cleanser | Surfactants |\n\n## Sunscreen:\n\n**Physical:** Zinc oxide, titanium dioxide\n- Reflect/scatter UV\n\n**Chemical:** Avobenzone, oxybenzone\n- Absorb UV\n\n**SPF:** Sun Protection Factor\n- SPF 30 blocks 97% UVB\n\n## Hair Products:\n\n**Shampoo:** Surfactants remove oil\n**Conditioner:** Cationic agents smooth cuticle\n**Hair dye:**\n- Temporary: coats hair\n- Permanent: penetrates cortex\n\n## Nail Polish:\n\n- Film former (nitrocellulose)\n- Plasticizer (flexibility)\n- Colorants\n- Solvent (evaporates to dry)\n\n## Testing:\n\n- pH testing\n- Stability testing\n- Safety testing\n- Efficacy testing"
         },
         {
-            "id": "applied_16",
-            "type": "content",
-            "title": "Green Technology",
-            "content": "# Clean Tech ♻️\n\n- **Catalytic Converters**: Turn car exhaust ($NO_x, CO$) into safer gases ($N_2, CO_2$).\n- **Water Desalination**: Reverse Osmosis membranes.\n- **Hydrogen Fuel Cells**: $H_2 + O_2 \\to H_2O$ + Electricity."
+            "id": "applied_quiz_3",
+            "type": "quiz",
+            "title": "Applied Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "What is needed for iron to rust?",
+            "quizOptions": [
+                "Only oxygen",
+                "Only water",
+                "Oxygen and water",
+                "Neither"
+            ],
+            "correctOptionIndex": 2
         },
         {
-            "id": "applied_17",
+            "id": "applied_11",
             "type": "content",
-            "title": "Applied Chemistry Summary",
-            "content": "# Recap 📝\n\n- Chemistry is the bridge between physics and biology.\n- It feeds us (Ammonia).\n- It heals us (Drugs).\n- It powers us (Batteries/Fuel).\n- It builds our world (Plastics/Steel).\n\nApplied chemistry is the engine of modern civilization."
+            "title": "Industrial Chemistry",
+            "content": "# Industrial Chemistry\n\n## Important Industrial Processes:\n\n### Haber Process (Ammonia):\n```\nN2 + 3H2 <-> 2NH3\n```\nConditions: 450 C, 200 atm, Fe catalyst\n\n### Contact Process (Sulfuric Acid):\n```\n2SO2 + O2 -> 2SO3 (V2O5 catalyst)\nSO3 + H2O -> H2SO4\n```\n\n### Chlor-Alkali Process:\nElectrolysis of NaCl solution:\n```\nProducts: Cl2, NaOH, H2\n```\n\n## Sulfuric Acid Uses:\n\n| Use | Percentage |\n|-----|------------|\n| Fertilizers | 60% |\n| Chemicals | 15% |\n| Petroleum refining | 5% |\n| Batteries | 5% |\n\n## Industrial Catalysts:\n\n| Process | Catalyst |\n|---------|----------|\n| Haber | Iron |\n| Contact | V2O5 |\n| Hydrogenation | Nickel |\n| Catalytic cracking | Zeolites |"
+        },
+        {
+            "id": "applied_12",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Applied Chemistry Summary\n\n## Fuels:\n- Combustion releases energy\n- Calorific value = energy per gram\n- Alternatives: biofuels, hydrogen\n\n## Batteries:\n- Electrochemical cells store energy\n- Lithium-ion dominant today\n- Fuel cells use continuous fuel\n\n## Food Chemistry:\n- Macronutrients: carbs, proteins, fats\n- Additives preserve, color, flavor\n\n## Pharmaceuticals:\n- Drug development is multi-stage\n- Drugs work via receptors/enzymes\n\n## Materials:\n| Type | Examples |\n|------|----------|\n| Metals/Alloys | Steel, brass |\n| Polymers | Plastics |\n| Composites | Carbon fiber |\n\n## Industrial:\n- Haber, Contact, Chlor-alkali processes\n- Catalysts enable efficient production\n\n> **Congratulations!** You've completed Applied Chemistry!"
         }
     ]
 }

@@ -2,138 +2,122 @@
     "id": "learn_cell",
     "topicId": "cell",
     "topicTitle": "Cell Biology",
-    "description": "Explore the fundamental unit of life, from organelles to division.",
-    "baseKP": 100,
+    "description": "Explore cell structure, organelles, membrane transport, cellular respiration, and photosynthesis",
+    "baseKP": 75,
     "slides": [
         {
             "id": "cell_1",
             "type": "content",
-            "title": "The Cell Theory",
-            "content": "# Life's Lego Blocks 🧱\n\n1. All living things are composed of one or more cells.\n2. The cell is the basic unit of life.\n3. All cells arise from pre-existing cells.\n\nFrom bacteria to blue whales, it's all cells!"
+            "title": "Welcome to Cell Biology",
+            "content": "# Introduction to Cell Biology\n\nWelcome to **Cell Biology** - the study of life's fundamental unit!\n\n## What You Will Learn:\n- **Cell Structure** - Components of cells\n- **Organelles** - Specialized structures\n- **Membrane Transport** - How substances move\n- **Cellular Respiration** - Energy production\n- **Photosynthesis** - Making food from light\n- **Cell Division** - How cells reproduce\n\n> **Fun Fact:** Your body contains about 37 trillion cells!\n\n## Cell Theory:\n1. All living things are made of cells\n2. Cells are the basic unit of life\n3. All cells come from pre-existing cells\n\n## Prokaryotes vs Eukaryotes:\n\n| Feature | Prokaryote | Eukaryote |\n|---------|------------|----------|\n| Nucleus | No | Yes |\n| Size | 1-10 um | 10-100 um |\n| Organelles | Few | Many |\n| Examples | Bacteria | Animals, plants |"
         },
         {
             "id": "cell_2",
             "type": "content",
-            "title": "Prokaryotes vs. Eukaryotes",
-            "content": "# Simple vs Complex 🦠\n\n**Prokaryotes** (Bacteria, Archaea):\n- No nucleus.\n- No membrane-bound organelles.\n- Small and simple.\n\n**Eukaryotes** (Plants, Animals, Fungi):\n- Have a nucleus (DNA vault).\n- Complex organelles.\n- Larger size."
+            "title": "Cell Organelles",
+            "content": "# Cell Organelles\n\n## Nucleus:\n- Contains DNA\n- Controls cell activities\n- Nuclear envelope with pores\n- Nucleolus makes ribosomes\n\n## Mitochondria:\n- Powerhouse of the cell\n- ATP production\n- Double membrane\n- Own DNA (maternal)\n\n## Ribosomes:\n- Protein synthesis\n- Free or on rough ER\n\n## Endoplasmic Reticulum:\n**Rough ER:** Has ribosomes, makes proteins\n**Smooth ER:** Makes lipids, detoxifies\n\n## Golgi Apparatus:\n- Packages and modifies proteins\n- Sends to destinations\n\n## Lysosomes:\n- Digestive enzymes\n- Break down waste\n\n## Vacuoles:\n- Storage\n- Large central vacuole in plants\n\n## Chloroplasts (plants):\n- Photosynthesis\n- Contains chlorophyll\n\n## Cell Wall (plants, fungi, bacteria):\n- Rigid outer layer\n- Support and protection"
         },
         {
             "id": "cell_3",
             "type": "content",
-            "title": "The Plasma Membrane",
-            "content": "# The Gatekeeper 🚪\n\n**Phospholipid Bilayer**:\n- Hydrophilic heads (Water loving) face out.\n- Hydrophobic tails (Water fearing) face in.\n\n**Fluid Mosaic Model**: Proteins float in this layer to transport molecules in and out."
-        },
-        {
-            "id": "cell_4",
-            "type": "content",
-            "title": "The Nucleus",
-            "content": "# The Command Center 🧠\n\nContains the cell's genetic code (**DNA**).\n- **Nuclear Envelope**: Double membrane protection.\n- **Nucleolus**: Makes ribosomes.\n- **Chromatin**: DNA wrapped around proteins."
-        },
-        {
-            "id": "cell_5",
-            "type": "content",
-            "title": "Ribosomes",
-            "content": "# Protein Factories 🏭\n\nSmall structures that read RNA instructions to build proteins.\n- Found floating in cytoplasm OR attached to the Rough ER.\n- Not membrane-bound."
+            "title": "Cell Membrane",
+            "content": "# Cell Membrane\n\n## Structure:\n\n**Fluid Mosaic Model:**\n- Phospholipid bilayer\n- Proteins embedded (mosaic)\n- Fluid - molecules move laterally\n\n## Phospholipids:\n- Hydrophilic head (polar)\n- Hydrophobic tails (nonpolar)\n- Self-assemble in water\n\n## Membrane Proteins:\n\n| Type | Function |\n|------|----------|\n| Channel | Allow specific ions through |\n| Carrier | Transport molecules |\n| Receptor | Receive signals |\n| Enzyme | Catalyze reactions |\n| Recognition | Cell identity (glycoproteins) |\n\n## Other Components:\n\n**Cholesterol:**\n- Maintains fluidity\n- Stabilizes membrane\n\n**Carbohydrates:**\n- Attached to proteins/lipids\n- Cell recognition\n\n## Functions:\n1. Selective barrier\n2. Transport\n3. Communication\n4. Cell recognition\n5. Enzyme activity\n6. Cell adhesion"
         },
         {
             "id": "cell_quiz_1",
             "type": "quiz",
-            "title": "Organelle Quiz",
-            "content": "Identify the part.",
-            "quizQuestion": "Which structure contains the cell's DNA?",
+            "title": "Cell Structure Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Which organelle is called the 'powerhouse of the cell'?",
             "quizOptions": [
+                "Nucleus",
+                "Mitochondria",
                 "Ribosome",
-                "Mitochondria",
-                "Nucleus",
-                "Golgi Apparatus"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "cell_6",
-            "type": "content",
-            "title": "Endoplasmic Reticulum (ER)",
-            "content": "# The Highway 🛣️\n\n**Rough ER**:\n- Studded with ribosomes.\n- Modifies and transports proteins.\n\n**Smooth ER**:\n- No ribosomes.\n- Makes lipids (fats) and detoxifies poisons (Liver has lots of Smooth ER)."
-        },
-        {
-            "id": "cell_7",
-            "type": "content",
-            "title": "Golgi Apparatus",
-            "content": "# The Post Office 📦\n\n- Receives proteins from the ER.\n- Modifies, sorts, and packages them into vesicles.\n- Ships them to destination (inside or outside cell)."
-        },
-        {
-            "id": "cell_8",
-            "type": "content",
-            "title": "Mitochondria",
-            "content": "# Powerhouse of the Cell ⚡\n\nSite of **Cellular Respiration**.\n- Converts Glucose + Oxygen $\\to$ ATP (Energy).\n- Has its own DNA (mtDNA) inherited only from your mother.\n- Double membrane structure."
-        },
-        {
-            "id": "cell_9",
-            "type": "content",
-            "title": "Chloroplasts",
-            "content": "# Solar Panels ☀️\n\nFound ONLY in Plant cells (and some algae).\n- Site of **Photosynthesis**.\n- Contains Chlorophyll (green pigment).\n- Converts Sunlight + CO2 $\\to$ Glucose."
-        },
-        {
-            "id": "cell_10",
-            "type": "content",
-            "title": "Lysosomes",
-            "content": "# Recycling Center ♻️\n\nSacks of digestive enzymes.\n- Break down waste, old organelles, and food.\n- Can trigger cell suicide (**Apoptosis**) if cell is damaged."
-        },
-        {
-            "id": "cell_11",
-            "type": "content",
-            "title": "Cytoskeleton",
-            "content": "# Skeleton and Muscles 🦴\n\nNetwork of protein fibers:\n- **Microtubules**: Tracks for transport.\n- **Actin Filaments**: Movement and shape.\n- **Intermediate Filaments**: Strength.\n\nKeeps organelle in place and helps cell move."
-        },
-        {
-            "id": "cell_quiz_2",
-            "type": "quiz",
-            "title": "Function Quiz",
-            "content": "Match the job.",
-            "quizQuestion": "Which organelle creates ATP energy?",
-            "quizOptions": [
-                "Nucleus",
-                "Mitochondria",
-                "Lysosome",
-                "Chloroplast"
+                "Golgi apparatus"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "cell_12",
+            "id": "cell_4",
             "type": "content",
-            "title": "Transport",
-            "content": "# Moving Stuff 🚚\n\n- **Passive Transport**: High $\\to$ Low conc. No energy needed. (Diffusion, Osmosis).\n- **Active Transport**: Low $\\to$ High conc. Requires Energy (ATP). (Sodium-Potassium Pump)."
+            "title": "Membrane Transport",
+            "content": "# Membrane Transport\n\n## Passive Transport (no energy):\n\n### Diffusion:\n- Movement from high to low concentration\n- Down concentration gradient\n- Until equilibrium\n\n### Osmosis:\n- Diffusion of water\n- Through selectively permeable membrane\n\n**Solution Types:**\n- **Hypertonic:** Higher solute outside (cell shrinks)\n- **Hypotonic:** Lower solute outside (cell swells)\n- **Isotonic:** Equal concentrations (no change)\n\n### Facilitated Diffusion:\n- Uses membrane proteins\n- Still no energy required\n- Channel or carrier proteins\n\n## Active Transport (requires energy):\n\n### Sodium-Potassium Pump:\n- 3 Na+ out, 2 K+ in\n- Uses ATP\n- Maintains cell potential\n\n### Bulk Transport:\n\n**Endocytosis:** Taking in\n- Phagocytosis (cell eating)\n- Pinocytosis (cell drinking)\n- Receptor-mediated\n\n**Exocytosis:** Releasing\n- Vesicles fuse with membrane\n- Contents released outside"
         },
         {
-            "id": "cell_13",
+            "id": "cell_5",
             "type": "content",
-            "title": "Osmosis",
-            "content": "# Water Flow 💧\n\nDiffusion of water across a membrane.\n- **Hypertonic**: Saltier outside $\\to$ Water leaves (Cell shrinks).\n- **Hypotonic**: Saltier inside $\\to$ Water enters (Cell swells/bursts).\n- **Isotonic**: Equal balance."
+            "title": "Cellular Respiration Overview",
+            "content": "# Cellular Respiration\n\n**Purpose:** Convert glucose to ATP (usable energy)\n\n## Overall Equation:\n```\nC6H12O6 + 6O2 -> 6CO2 + 6H2O + ATP\n```\n\n## Three Stages:\n\n### 1. Glycolysis (cytoplasm):\n- Glucose -> 2 Pyruvate\n- Net: 2 ATP, 2 NADH\n- Anaerobic (no O2 needed)\n\n### 2. Krebs Cycle (mitochondrial matrix):\n- Pyruvate -> CO2\n- Produces: 2 ATP, 8 NADH, 2 FADH2\n- Per glucose molecule\n\n### 3. Electron Transport Chain (inner membrane):\n- NADH, FADH2 donate electrons\n- Produces: 34 ATP\n- Requires O2 (final electron acceptor)\n\n## ATP Yield:\n\n| Stage | ATP |\n|-------|-----|\n| Glycolysis | 2 |\n| Krebs Cycle | 2 |\n| ETC | 34 |\n| **Total** | **38** |\n\n(Theoretical maximum, actual ~30-32)\n\n## Key Molecules:\n- NAD+/NADH - electron carrier\n- FAD/FADH2 - electron carrier\n- ATP/ADP - energy currency"
         },
         {
-            "id": "cell_14",
+            "id": "cell_6",
+            "type": "content",
+            "title": "Fermentation",
+            "content": "# Fermentation\n\nWhen oxygen is unavailable, cells use **fermentation**.\n\n## Why Fermentation?\n- Regenerates NAD+ for glycolysis\n- Allows continued ATP production\n- Only 2 ATP (vs 38 aerobic)\n\n## Types:\n\n### Lactic Acid Fermentation:\n```\nGlucose -> 2 Lactate + 2 ATP\n```\n\n**Occurs in:**\n- Muscle cells (during intense exercise)\n- Some bacteria (yogurt, cheese)\n\n**Effect:** Causes muscle fatigue and burning\n\n### Alcoholic Fermentation:\n```\nGlucose -> 2 Ethanol + 2 CO2 + 2 ATP\n```\n\n**Occurs in:**\n- Yeast\n- Some plants\n\n**Uses:**\n- Bread (CO2 causes rising)\n- Beer, wine (alcohol production)\n- Biofuel (ethanol)\n\n## Comparison:\n\n| Type | Product | ATP | Organisms |\n|------|---------|-----|----------|\n| Aerobic | CO2, H2O | 38 | Most eukaryotes |\n| Lactic acid | Lactate | 2 | Muscles, bacteria |\n| Alcoholic | Ethanol, CO2 | 2 | Yeast |"
+        },
+        {
+            "id": "cell_quiz_2",
+            "type": "quiz",
+            "title": "Respiration Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Where does glycolysis occur?",
+            "quizOptions": [
+                "Nucleus",
+                "Mitochondria",
+                "Cytoplasm",
+                "Cell membrane"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_7",
+            "type": "content",
+            "title": "Photosynthesis",
+            "content": "# Photosynthesis\n\n**Purpose:** Convert light energy to chemical energy (glucose)\n\n## Overall Equation:\n```\n6CO2 + 6H2O + Light -> C6H12O6 + 6O2\n```\n\n## Location:\n- Chloroplasts (in leaves)\n- Thylakoid membranes (light reactions)\n- Stroma (Calvin cycle)\n\n## Two Stages:\n\n### Light Reactions (thylakoid):\n- Capture light energy\n- Split water (O2 released)\n- Produce ATP and NADPH\n\n**Key steps:**\n1. Light hits chlorophyll\n2. Electrons excited\n3. Electron transport chain\n4. Chemiosmosis makes ATP\n5. NADP+ reduced to NADPH\n\n### Calvin Cycle (stroma):\n- Uses ATP and NADPH\n- Fixes CO2 into glucose\n- Also called C3 pathway\n\n**Key steps:**\n1. Carbon fixation (CO2 + RuBP)\n2. Reduction (uses ATP, NADPH)\n3. Regeneration of RuBP\n\n## Factors Affecting:\n- Light intensity\n- CO2 concentration\n- Temperature\n- Water availability"
+        },
+        {
+            "id": "cell_8",
             "type": "content",
             "title": "Cell Cycle",
-            "content": "# Life of a Cell ⏳\n\n1. **Interphase**: Growth and DNA replication (90% of time).\n2. **Mitosis**: Division of nucleus.\n3. **Cytokinesis**: Division of cytoplasm."
+            "content": "# Cell Cycle\n\n## Stages:\n\n### Interphase (90% of cycle):\n\n**G1 Phase:**\n- Cell growth\n- Normal functions\n- Prepares for DNA replication\n\n**S Phase:**\n- DNA synthesis (replication)\n- Chromosomes duplicated\n\n**G2 Phase:**\n- More growth\n- Prepares for mitosis\n\n### M Phase (Mitosis):\n- Nuclear division\n- 4 stages\n\n## Cell Cycle Control:\n\n**Checkpoints:**\n- G1 checkpoint (most important)\n- G2 checkpoint\n- M checkpoint\n\n**Regulators:**\n- Cyclins\n- CDKs (cyclin-dependent kinases)\n\n**Growth Factors:**\n- External signals to divide\n\n## Cell Cycle Problems:\n\n**Cancer:**\n- Uncontrolled cell division\n- Checkpoints fail\n- Mutations in regulatory genes"
         },
         {
-            "id": "cell_15",
+            "id": "cell_9",
             "type": "content",
             "title": "Mitosis",
-            "content": "# Cloning 🐑\n\nMaking identical body cells (Somatic).\nStages (PMAT):\n1. **Prophase**: Chromosomes condense.\n2. **Metaphase**: Line up in middle.\n3. **Anaphase**: Pulled apart.\n4. **Telophase**: New nuclei form.\nResult: 2 Identical Diploid cells."
+            "content": "# Mitosis\n\n**Purpose:** Make identical copies for growth/repair\n\n## Stages:\n\n### 1. Prophase:\n- Chromatin condenses to chromosomes\n- Nuclear envelope breaks down\n- Spindle forms\n\n### 2. Metaphase:\n- Chromosomes line up at equator\n- Spindle attached to centromeres\n\n### 3. Anaphase:\n- Sister chromatids separate\n- Move to opposite poles\n\n### 4. Telophase:\n- Nuclear envelopes reform\n- Chromosomes decondense\n- Spindle disappears\n\n### Cytokinesis:\n- Cytoplasm divides\n- Animal: cleavage furrow\n- Plant: cell plate\n\n## Result:\n- 2 identical daughter cells\n- Same chromosome number as parent\n- Diploid -> Diploid\n\n## Memory Aid:\n**PMAT:** Prophase, Metaphase, Anaphase, Telophase"
         },
         {
-            "id": "cell_16",
+            "id": "cell_10",
             "type": "content",
             "title": "Meiosis",
-            "content": "# Making Gametes 🥚\n\nMaking sex cells (Sperm/Egg).\n- Two rounds of division.\n- **Crossing Over**: Mixes DNA for variety.\nResult: 4 Unique Haploid cells (Half the DNA)."
+            "content": "# Meiosis\n\n**Purpose:** Make gametes (sex cells) with half chromosomes\n\n## Two Divisions:\n\n### Meiosis I (Reductional):\n\n**Prophase I:**\n- Homologous pairs synapse\n- Crossing over occurs\n\n**Metaphase I:**\n- Homologous pairs line up\n\n**Anaphase I:**\n- Homologous chromosomes separate\n\n**Telophase I:**\n- Two haploid cells\n\n### Meiosis II (Like mitosis):\n\n**Prophase II, Metaphase II, Anaphase II, Telophase II**\n- Sister chromatids separate\n\n## Result:\n- 4 haploid daughter cells\n- Genetically different\n- Diploid -> Haploid\n\n## Sources of Variation:\n\n1. **Crossing over:** Genes exchanged between homologs\n2. **Independent assortment:** Random orientation of pairs\n3. **Random fertilization:** Any sperm + any egg\n\n## Comparison:\n\n| Feature | Mitosis | Meiosis |\n|---------|---------|--------|\n| Purpose | Growth | Gametes |\n| Divisions | 1 | 2 |\n| Daughters | 2 | 4 |\n| Ploidy | Same | Half |\n| Identical | Yes | No |"
         },
         {
-            "id": "cell_17",
+            "id": "cell_quiz_3",
+            "type": "quiz",
+            "title": "Division Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "How many daughter cells result from meiosis?",
+            "quizOptions": [
+                "1",
+                "2",
+                "4",
+                "8"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_11",
             "type": "content",
-            "title": "Cell Biology Summary",
-            "content": "# Recap 📝\n\n- **Organelles** (Nucleus, Mitochondria, etc.) work together like a city.\n- **Membranes** control what enters/exits.\n- **Mitosis** for growth; **Meiosis** for reproduction.\n\nCells are the marvelous microscopic machines that make you, YOU."
+            "title": "Enzymes",
+            "content": "# Enzymes\n\n**Enzymes** are biological catalysts (usually proteins).\n\n## How Enzymes Work:\n\n1. Substrate binds to active site\n2. Enzyme-substrate complex forms\n3. Reaction occurs\n4. Products released\n5. Enzyme unchanged\n\n## Models:\n\n**Lock and Key:** Rigid fit\n**Induced Fit:** Enzyme changes shape slightly\n\n## Properties:\n- Specific (one enzyme, one reaction)\n- Reusable\n- Not consumed\n- Lower activation energy\n\n## Factors Affecting:\n\n| Factor | Effect |\n|--------|--------|\n| Temperature | Increases rate to optimum, then denatures |\n| pH | Optimum varies by enzyme |\n| Substrate conc | Increases rate until saturation |\n| Enzyme conc | Increases rate |\n| Inhibitors | Decrease rate |\n\n## Inhibition:\n\n**Competitive:**\n- Inhibitor binds active site\n- Competes with substrate\n\n**Non-competitive:**\n- Binds elsewhere (allosteric site)\n- Changes enzyme shape"
+        },
+        {
+            "id": "cell_12",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Cell Biology Summary\n\n## Cell Structure:\n- Prokaryotes: no nucleus\n- Eukaryotes: membrane-bound organelles\n\n## Key Organelles:\n| Organelle | Function |\n|-----------|----------|\n| Nucleus | DNA storage, control |\n| Mitochondria | ATP production |\n| Ribosome | Protein synthesis |\n| ER | Protein/lipid synthesis |\n| Golgi | Packaging, modification |\n| Chloroplast | Photosynthesis |\n\n## Transport:\n- Passive: No energy (diffusion, osmosis)\n- Active: Requires ATP\n\n## Energy:\n\n| Process | Equation Summary |\n|---------|-----------------|\n| Respiration | Glucose + O2 -> CO2 + H2O + ATP |\n| Photosynthesis | CO2 + H2O + Light -> Glucose + O2 |\n\n## Cell Division:\n| Type | Cells | Ploidy |\n|------|-------|--------|\n| Mitosis | 2 identical | Same |\n| Meiosis | 4 different | Half |\n\n> **Congratulations!** You've completed Cell Biology!"
         }
     ]
 }

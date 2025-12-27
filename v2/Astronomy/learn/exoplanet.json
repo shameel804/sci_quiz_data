@@ -2,138 +2,122 @@
     "id": "learn_exoplanet",
     "topicId": "exoplanet",
     "topicTitle": "Exoplanets",
-    "description": "The search for worlds beyond our Sun.",
-    "baseKP": 100,
+    "description": "Explore planets around other stars, detection methods, and habitability",
+    "baseKP": 75,
     "slides": [
         {
             "id": "exoplanet_1",
             "type": "content",
-            "title": "What is an Exoplanet?",
-            "content": "# Alien Worlds 👽\n\nA planet orbiting a star other than our Sun.\n- First confirmed in 1992 (around a pulsar).\n- First sun-like star planet in 1995 (51 Pegasi b).\n- We now know thousands exist."
+            "title": "Welcome to Exoplanets",
+            "content": "# Introduction to Exoplanets\n\nWelcome to **Exoplanets** - worlds beyond our solar system!\n\n## What You Will Learn:\n- **Detection Methods** - How we find them\n- **Types of Exoplanets** - Hot Jupiters to super-Earths\n- **Habitability** - Goldilocks zone\n- **Atmospheres** - What they contain\n- **Statistics** - How common are planets\n\n> **Fun Fact:** Over 5,500 exoplanets have been confirmed as of 2024!"
         },
         {
             "id": "exoplanet_2",
             "type": "content",
-            "title": "Detection: Transit Method",
-            "content": "# The Mini Eclipse 🌔\n\nPlanet passes *in front* of the star.\n- Star's brightness dips slightly.\n- Tells us the **Size** (Radius) and Orbit period.\n- Kepler and TESS missions used this."
+            "title": "Transit Method",
+            "content": "# Transit Detection Method\n\n## How It Works:\n- Planet passes in front of star\n- Star's light dims slightly\n- Periodic dimming = planet orbit\n\n## What We Learn:\n- Planet size (depth of dip)\n- Orbital period (time between transits)\n- Orbital distance (from Kepler's law)\n\n## Advantages:\n- Can study atmospheres during transit\n- Detects many planets at once\n\n## Limitations:\n- Need orbital alignment (rare)\n- ~1% of planets transit their star\n\n## Kepler Mission:\n- Discovered thousands of planets\n- TESS now continuing the work"
         },
         {
             "id": "exoplanet_3",
             "type": "content",
-            "title": "Detection: Radial Velocity",
-            "content": "# The Wobble 💃\n\nPlanet's gravity tugs the star back and forth.\n- Starlight shifts color (Doppler shift).\n- Tells us the **Mass** of the planet.\n- Bias towards big plants near stars."
-        },
-        {
-            "id": "exoplanet_4",
-            "type": "content",
-            "title": "Direct Imaging",
-            "content": "# Taking a Photo 📸\n\nBlocking the star's light (Coronagraph) to see the faint planet.\n- Very hard (Like seeing a firefly next to a spotlight).\n- Works best for hot, young, distant planets."
-        },
-        {
-            "id": "exoplanet_5",
-            "type": "content",
-            "title": "Hot Jupiters",
-            "content": "# Surprise Giants 🌋\n\nFirst planets found were Gas Giants orbiting extremely close (days) to their stars.\n- Tidally locked (one side always hot).\n- Proved planets can migrate."
+            "title": "Radial Velocity Method",
+            "content": "# Radial Velocity (Doppler) Method\n\n## How It Works:\n- Planet tugs on star\n- Star wobbles back and forth\n- Doppler shift of starlight\n\n## What We Learn:\n- Minimum planet mass\n- Orbital period\n- Orbital eccentricity\n\n## Detection:\n- Measure spectral lines\n- Shift toward blue = approaching\n- Shift toward red = receding\n\n## Advantages:\n- First successful method (1995)\n- Works for edge-on and inclined orbits\n\n## Limitations:\n- Better for massive, close planets\n- Cannot measure true mass alone"
         },
         {
             "id": "exoplanet_quiz_1",
             "type": "quiz",
             "title": "Detection Quiz",
-            "content": "Method check.",
-            "quizQuestion": "The Transit Method detects a planet by observing:",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The transit method detects exoplanets by measuring:",
             "quizOptions": [
-                "Color shift of star",
-                "Wobble of star",
-                "Dip in brightness",
-                "Radio signals"
+                "Star wobble",
+                "Star dimming",
+                "Infrared emission",
+                "Gravitational waves"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "exoplanet_4",
+            "type": "content",
+            "title": "Other Detection Methods",
+            "content": "# Other Detection Methods\n\n## Direct Imaging:\n- Take picture of planet\n- Block star's light\n- Best for far, massive, young planets\n\n## Gravitational Microlensing:\n- Star bends background star's light\n- Planet adds extra distortion\n- One-time events\n\n## Astrometry:\n- Measure star position precisely\n- Detect wobble from planet\n- Gaia mission uses this\n\n## Timing Variations:\n- Pulsars: Precise timing\n- Transit timing: Multiple planets"
+        },
+        {
+            "id": "exoplanet_5",
+            "type": "content",
+            "title": "Types of Exoplanets",
+            "content": "# Types of Exoplanets\n\n## Classification:\n\n| Type | Size | Description |\n|------|------|-------------|\n| Hot Jupiter | Jupiter-size | Close to star, very hot |\n| Warm Jupiter | Jupiter-size | Moderate distance |\n| Mini-Neptune | 2-4 Earth | Thick atmosphere |\n| Super-Earth | 1-2 Earth | Rocky, larger |\n| Earth-like | Earth-size | Potentially habitable |\n\n## Most Common:\n- Mini-Neptunes and super-Earths\n- More common than gas giants\n\n## Strange Worlds:\n- Lava planets\n- Water worlds\n- Diamond planets (carbon-rich)"
         },
         {
             "id": "exoplanet_6",
             "type": "content",
-            "title": "Super-Earths",
-            "content": "# The Missing Size 🌎\n\nPlanets between Earth and Neptune in size.\n- Most common type in galaxy.\n- Not found in our solar system.\n- Could be rocky giants or mini-gas planets."
+            "title": "Hot Jupiters",
+            "content": "# Hot Jupiters\n\n## Definition:\n- Gas giants\n- Very close to star (< 0.1 AU)\n- Orbital period: days\n\n## Properties:\n- Surface temp: 1000-3000 K\n- Tidally locked (same side faces star)\n- Inflated radius (bloated)\n\n## Formation Mystery:\n- Cannot form close to star\n- Must migrate inward\n- Disk migration or scattering\n\n## First Discovery:\n- 51 Pegasi b (1995)\n- Mayor and Queloz\n- Nobel Prize 2019"
+        },
+        {
+            "id": "exoplanet_quiz_2",
+            "type": "quiz",
+            "title": "Types Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "A super-Earth is:",
+            "quizOptions": [
+                "Larger than Jupiter",
+                "A rocky planet larger than Earth",
+                "Earth's moon",
+                "The Sun"
+            ],
+            "correctOptionIndex": 1
         },
         {
             "id": "exoplanet_7",
             "type": "content",
             "title": "Habitable Zone",
-            "content": "# Goldilocks Zone 🐻\n\nDistance where water can exist as liquid.\n- Too Close: Steam (Venus).\n- Too Far: Ice (Mars).\n- Just Right: Liquid (Earth).\nDependent on star's heat (Red dwarfs have close zones)."
+            "content": "# The Habitable Zone\n\n## Definition:\n- Distance where liquid water can exist\n- \"Goldilocks zone\"\n- Not too hot, not too cold\n\n## Factors:\n- Star luminosity\n- Planet atmosphere\n- Greenhouse effect\n\n## Solar System:\n- Inner edge: ~0.95 AU\n- Outer edge: ~1.67 AU\n- Earth at 1 AU\n\n## Other Stars:\n- Closer for red dwarfs\n- Farther for hot stars\n\n## Caveats:\n- Zone is necessary but not sufficient\n- Atmosphere crucial"
         },
         {
             "id": "exoplanet_8",
             "type": "content",
-            "title": "Red Dwarf Systems",
-            "content": "# Common Neighbors 🔴\n\nM-Dwarfs are 75% of stars.\n- Planets orbit close (Year = few days).\n- **TRAPPIST-1**: System with 7 Earth-sized planets packed tight.\n- Risk: Solar flares might strip atmosphere."
+            "title": "Potentially Habitable Worlds",
+            "content": "# Potentially Habitable Exoplanets\n\n## Proxima Centauri b:\n- Nearest exoplanet (4.2 light-years)\n- In habitable zone\n- Around red dwarf\n\n## TRAPPIST-1 System:\n- 7 Earth-size planets\n- 3-4 in habitable zone\n- 40 light-years away\n\n## Kepler-442b:\n- Super-Earth\n- Good habitability score\n- 112 light-years\n\n## Challenges:\n- Red dwarf flares\n- Tidal locking\n- Unknown atmospheres"
         },
         {
             "id": "exoplanet_9",
             "type": "content",
-            "title": "Rogue Planets",
-            "content": "# Orphans 🌑\n\nPlanets without a star.\n- Ejected during chaotic formation.\n- Wandering the dark galaxy alone.\n- Might outnumber stars!"
+            "title": "Exoplanet Atmospheres",
+            "content": "# Exoplanet Atmospheres\n\n## Detection Methods:\n- Transit spectroscopy\n- Eclipse spectroscopy\n- Reflected light\n\n## Detected Species:\n- H2O (water vapor)\n- CO2, CO\n- Na, K (alkali metals)\n- He\n\n## JWST Revolution:\n- First exoplanet spectra\n- CO2 detected\n- Detailed compositions possible\n\n## Biosignatures:\n- O2 + CH4 together\n- Ozone (O3)\n- Unusual combinations\n- Would indicate life (possibly)"
         },
         {
             "id": "exoplanet_10",
             "type": "content",
-            "title": "Atmopsheric Analysis",
-            "content": "# Tasting the Air 👅\n\nTransit Spectroscopy.\n- Starlight filters through planet rim.\n- Missing colors reveal chemicals ($H_2O, CO_2, CH_4$).\n- JWST is doing this now."
+            "title": "Exoplanet Statistics",
+            "content": "# How Common Are Planets?\n\n## Key Finding:\nPlanets are common!\n\n## Statistics:\n- Nearly every star has at least one planet\n- Small planets more common than large\n- Multi-planet systems common\n\n## Earth-like Planets:\n- Billions in Milky Way (estimated)\n- Many in habitable zones\n- Question: Are any inhabited?\n\n## Discovery Rate:\n- Accelerating with TESS\n- JWST characterizing atmospheres\n- Future: Ground-based giants, space missions"
         },
         {
             "id": "exoplanet_11",
             "type": "content",
-            "title": "Biosignatures",
-            "content": "# Signs of Life 🦠\n\nGases that shouldn't be together unless life maintains them.\n- Example: Oxygen + Methane.\n- They react quickly, so something is replenishing them."
+            "title": "Future of Exoplanet Science",
+            "content": "# The Future\n\n## Current Missions:\n- TESS (transits)\n- JWST (atmospheres)\n- Gaia (astrometry)\n\n## Planned Missions:\n- PLATO (ESA, 2026)\n- Roman Space Telescope (NASA)\n- ARIEL (atmospheres)\n\n## Ground-Based:\n- Extremely Large Telescopes\n- Direct imaging of Earth-like planets\n\n## Ultimate Goal:\n- Find life signs\n- Characterize Earth twins\n- Answer: Are we alone?"
         },
         {
-            "id": "exoplanet_quiz_2",
+            "id": "exoplanet_quiz_3",
             "type": "quiz",
-            "title": "Life Quiz",
-            "content": "Habitat check.",
-            "quizQuestion": "The Habitable Zone is defined by the possibility of:",
+            "title": "Habitable Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "The habitable zone is where:",
             "quizOptions": [
-                "Oxygen",
-                "Liquid Water",
-                "Trees",
-                "Gravity"
+                "Stars form",
+                "Liquid water can exist",
+                "Planets have rings",
+                "Black holes are found"
             ],
             "correctOptionIndex": 1
         },
         {
             "id": "exoplanet_12",
             "type": "content",
-            "title": "Drake Equation",
-            "content": "# Are we alone? 👽\n\n$$N = R_* \\cdot f_p \\cdot n_e \\cdot f_l \\cdot f_i \\cdot f_c \\cdot L$$\n\nEstimates active civilizations.\nWe know planets are common ($f_p \\approx 1$). We don't know lifespan ($L$).\n\nFermi Paradox: \"Where is everybody?\""
-        },
-        {
-            "id": "exoplanet_13",
-            "type": "content",
-            "title": "Earth 2.0",
-            "content": "# The Holy Grail 🏆\n\nGoal: Find an Earth-sized planet, in habitable zone, around a Sun-like star, with an atmosphere.\n- Haven't found a perfect twin yet.\n- Found many \"cousins\"."
-        },
-        {
-            "id": "exoplanet_14",
-            "type": "content",
-            "title": "Proxima Centauri b",
-            "content": "# Next Door 🚪\n\nClosest exoplanet (4.2 light-years).\n- Earth-mass.\n- Habitable zone of Red Dwarf.\n- Likely tidally locked and blasted by flares.\n- Destination for Breakthrough Starshot probes."
-        },
-        {
-            "id": "exoplanet_15",
-            "type": "content",
-            "title": "Formation Theories",
-            "content": "# Rethinking 💭\n\nData challenged models.\n- **Migration**: Planets move.\n- **Instability**: Planets scatter.\n- Solar systems are diverse!"
-        },
-        {
-            "id": "exoplanet_16",
-            "type": "content",
-            "title": "Technosignatures",
-            "content": "# Advanced Aliens 🗼\n\nLooking for pollution, artificial lights, or mega-structures (Dyson Spheres).\n- Distinguishing from natural phenomena is hard."
-        },
-        {
-            "id": "exoplanet_17",
-            "type": "content",
-            "title": "Exoplanet Summary",
-            "content": "# Recap 📝\n\n- Planets are **Everywhere** (more planets than stars).\n- Most are weird (Hot Jupiters, Super Earths).\n- **Transit** and **Wobble** find them.\n- The hunt for life is on!"
+            "title": "Summary",
+            "content": "# Exoplanets Summary\n\n## Detection Methods:\n| Method | Measures |\n|--------|----------|\n| Transit | Size, period |\n| Radial velocity | Mass, period |\n| Direct imaging | Location, temp |\n\n## Types:\n- Hot Jupiters, mini-Neptunes, super-Earths\n\n## Habitability:\n- Goldilocks zone\n- Liquid water requirement\n- Atmosphere critical\n\n## Statistics:\n- Planets are common\n- Billions of Earth-like possible\n\n## Future:\n- JWST characterizing atmospheres\n- Search for biosignatures\n\n> **Congratulations!** You've completed Exoplanets!"
         }
     ]
 }

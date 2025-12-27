@@ -2,132 +2,52 @@
     "id": "learn_scientists",
     "topicId": "scientists",
     "topicTitle": "Famous Scientists",
-    "description": "Giants upon whose shoulders we stand.",
-    "baseKP": 100,
+    "description": "Explore the lives and achievements of history's greatest scientists",
+    "baseKP": 75,
     "slides": [
         {
-            "id": "sci_1",
+            "id": "scient_1",
             "type": "content",
-            "title": "Isaac Newton (1643-1727)",
-            "content": "# The Unifier 🍎\n\nEnglish Physicist/Mathematician.\n- **Laws of Motion**.\n- **Gravity**.\n- **Calculus**.\n- **Optics** (Prisms).\nOften considered greatest scientist ever."
+            "title": "Welcome to Famous Scientists",
+            "content": "# Introduction to Famous Scientists\n\nWelcome to **Famous Scientists** - the people behind the discoveries!\n\n## What You Will Learn:\n- **Pioneers** - Those who founded fields\n- **Revolutionaries** - Those who changed everything\n- **Modern Heroes** - Recent contributors\n\n> **Fun Fact:** Marie Curie is the only person to win Nobel Prizes in two different sciences!"
         },
         {
-            "id": "sci_2",
+            "id": "scient_2",
             "type": "content",
-            "title": "Albert Einstein (1879-1955)",
-            "content": "# The Genius 🧠\n\nGerman Theoretical Physicist.\n- **Theory of Relativity**.\n- $E=mc^2$.\n- **Photoelectric Effect** (won Nobel for this, not relativity).\n- Redefined gravity and time."
+            "title": "Physics Giants",
+            "content": "# Physics Giants\n\n## Isaac Newton (1642-1727):\n- Laws of motion, gravitation\n- Calculus\n- Optics\n\n## Albert Einstein (1879-1955):\n- Relativity (special and general)\n- E = mc^2\n- Photoelectric effect\n\n## Marie Curie (1867-1934):\n- Radioactivity\n- Discovered polonium, radium\n- Two Nobel Prizes\n\n## Richard Feynman (1918-1988):\n- Quantum electrodynamics\n- Nobel Prize 1965\n- Great teacher"
         },
         {
-            "id": "sci_3",
+            "id": "scient_3",
             "type": "content",
-            "title": "Marie Curie (1867-1934)",
-            "content": "# Radioactive ☢️\n\nPolish-French Physicist/Chemist.\n- Discovered **Radium** and **Polonium**.\n- Coined \"Radioactivity\".\n- First woman to win Nobel. Only person to win in two sciences."
+            "title": "Biology and Medicine",
+            "content": "# Biology and Medicine\n\n## Charles Darwin (1809-1882):\n- Theory of evolution\n- Natural selection\n- Origin of Species\n\n## Louis Pasteur (1822-1895):\n- Germ theory\n- Pasteurization\n- Vaccines\n\n## Gregor Mendel (1822-1884):\n- Laws of inheritance\n- Father of genetics\n\n## Rosalind Franklin (1920-1958):\n- X-ray crystallography of DNA\n- Key to understanding structure"
         },
         {
-            "id": "sci_4",
-            "type": "content",
-            "title": "Charles Darwin (1809-1882)",
-            "content": "# The Naturalist 🐢\n\nEnglish Biologist.\n- Voyage of the Beagle.\n- **Theory of Evolution by Natural Selection**.\n- Changed how we see our place in nature."
-        },
-        {
-            "id": "sci_5",
-            "type": "content",
-            "title": "Galileo Galilei (1564-1642)",
-            "content": "# Father of Modern Science 🔭\n\nItalian Astronomer.\n- Championed **Heliocentrism**.\n- Studied speed and velocity.\n- Persecuted for truth."
-        },
-        {
-            "id": "sci_quiz_1",
+            "id": "scient_quiz_1",
             "type": "quiz",
-            "title": "Prize Quiz",
-            "content": "Award check.",
-            "quizQuestion": "Who is the only person to win Nobel Prizes in two different scientific fields?",
+            "title": "Scientists Quiz",
+            "content": "Test your knowledge!",
+            "quizQuestion": "Who is known as the father of genetics?",
             "quizOptions": [
-                "Einstein",
-                "Newton",
-                "Marie Curie",
-                "Tesla"
+                "Darwin",
+                "Mendel",
+                "Pasteur",
+                "Watson"
             ],
-            "correctOptionIndex": 2
+            "correctOptionIndex": 1
         },
         {
-            "id": "sci_6",
+            "id": "scient_4",
             "type": "content",
-            "title": "Nikola Tesla (1856-1943)",
-            "content": "# The Wizard ⚡\n\nSerbian-American Inventor.\n- **AC Current** (The modern grid).\n- Induction  Motor.\n- Radio (Marconi got credit, but Tesla invented basics).\n- Died penniless."
+            "title": "Chemistry and More",
+            "content": "# Chemistry and Other Sciences\n\n## Dmitri Mendeleev (1834-1907):\n- Periodic table\n- Predicted unknown elements\n\n## Nikola Tesla (1856-1943):\n- AC electricity\n- Induction motor\n- Radio pioneer\n\n## Stephen Hawking (1942-2018):\n- Black hole radiation\n- Popular science books\n- A Brief History of Time\n\n## Jane Goodall (1934-):\n- Chimpanzee behavior\n- Conservation\n- 60+ years of research"
         },
         {
-            "id": "sci_7",
+            "id": "scient_5",
             "type": "content",
-            "title": "Ada Lovelace (1815-1852)",
-            "content": "# First Programmer 👩‍💻\n\nEnglish Mathematician.\n- Worked with Babbage on Analytical Engine.\n- Wrote the first algorithm intended for a machine.\n- Saw computers could do more than math (music, art)."
-        },
-        {
-            "id": "sci_8",
-            "type": "content",
-            "title": "Louis Pasteur (1822-1895)",
-            "content": "# Germs 🦠\n\nFrench Chemist.\n- **Pasteurization**.\n- **Germ Theory**.\n- Vaccines for Rabies and Anthrax."
-        },
-        {
-            "id": "sci_9",
-            "type": "content",
-            "title": "Alan Turing (1912-1954)",
-            "content": "# Computer Father 💻\n\nEnglish Mathematician.\n- Cracked Enigma Code (WW2).\n- **Turing Machine** (Concept of computer).\n- **AI** (Turing Test).\n- Persecuted for being gay."
-        },
-        {
-            "id": "sci_10",
-            "type": "content",
-            "title": "Niels Bohr (1885-1962)",
-            "content": "# Quantum Architect ⚛️\n\nDanish Physicist.\n- **Bohr Model** of atom (Electrons in orbits).\n- Pioneer of Quantum Mechanics."
-        },
-        {
-            "id": "sci_11",
-            "type": "content",
-            "title": "Rosalind Franklin (1920-1958)",
-            "content": "# DNA Photographer 🧬\n\nBritish Chemist.\n- **Photo 51**: X-ray image that proved DNA double helix.\n- Died young; Watson & Crick got the Nobel."
-        },
-        {
-            "id": "sci_quiz_2",
-            "type": "quiz",
-            "title": "Code Quiz",
-            "content": "War hero check.",
-            "quizQuestion": "Biographer Andrew Hodges called him the 'founder of computer science'. Who broke the Enigma code?",
-            "quizOptions": [
-                "Bill Gates",
-                "Steve Jobs",
-                "Alan Turing",
-                "Charles Babbage"
-            ],
-            "correctOptionIndex": 2
-        },
-        {
-            "id": "sci_12",
-            "type": "content",
-            "title": "Stephen Hawking (1942-2018)",
-            "content": "# Cosmology ♿\n\nBritish Physicist.\n- **Black Holes** emit radiation (Hawking Radiation).\n- Brought physics to masses (*A Brief History of Time*).\n- Example of mind overcoming body (ALS)."
-        },
-        {
-            "id": "sci_13",
-            "type": "content",
-            "title": "Dmitri Mendeleev (1834-1907)",
-            "content": "# The Table 📊\n\nRussian Chemist.\n- Created **Periodic Table**.\n- Genius move: Left gaps for elements not yet discovered (Germanium, Gallium) and predicted their properties."
-        },
-        {
-            "id": "sci_14",
-            "type": "content",
-            "title": "Jane Goodall (1934-Present)",
-            "content": "# Primatologist 🦍\n\nBritish Ethologist.\n- Studied Chimps in Tanzania.\n- Discovered Chimps make tools (redefined \"Human\").\n- Conservationist."
-        },
-        {
-            "id": "sci_15",
-            "type": "content",
-            "title": "Carl Sagan (1934-1996)",
-            "content": "# The Communicator 🌍\n\nAmerican Astronomer.\n- \"Cosmos\" TV series.\n- Pale Blue Dot.\n- Search for ET (SETI).\n- Inspired a generation."
-        },
-        {
-            "id": "sci_16",
-            "type": "content",
-            "title": "Top Scientists Summary",
-            "content": "# Recap 📝\n\n- **Newton/Einstein**: Physics.\n- **Darwin**: Biology.\n- **Curie/Pasteur**: Medicine/Chem.\n- **Turing/Lovelace**: Computing.\n- Diversity of minds advancing humanity."
+            "title": "Summary",
+            "content": "# Famous Scientists Summary\n\n## Physics:\n| Scientist | Contribution |\n|-----------|-------------|\n| Newton | Laws of motion |\n| Einstein | Relativity |\n| Curie | Radioactivity |\n\n## Biology:\n| Scientist | Contribution |\n|-----------|-------------|\n| Darwin | Evolution |\n| Mendel | Genetics |\n| Pasteur | Germ theory |\n\n## Their Legacy:\n- Changed how we understand the world\n- Inspired generations\n- Science as a human endeavor\n\n> **Congratulations!** You've completed Famous Scientists!"
         }
     ]
 }

@@ -22,8 +22,14 @@
     {
         "q": "Object at rest stays at rest unless acted by ______.",
         "type": "fill_blank",
-        "answers": ["external force"],
-        "other_options": ["gravity", "friction", "motion"]
+        "answers": [
+            "external force"
+        ],
+        "other_options": [
+            "gravity",
+            "friction",
+            "motion"
+        ]
     },
     {
         "q": "Which has only magnitude?",
@@ -48,13 +54,26 @@
     {
         "q": "Every action has equal opposite ______.",
         "type": "fill_blank",
-        "answers": ["reaction"],
-        "other_options": ["force", "motion", "push"]
+        "answers": [
+            "reaction"
+        ],
+        "other_options": [
+            "force",
+            "motion",
+            "push"
+        ]
     },
     {
         "q": "Rearrange to define inertia:",
         "type": "rearrange",
-        "words": ["Tendency", "to", "resist", "change", "in", "motion"]
+        "words": [
+            "Tendency",
+            "to",
+            "resist",
+            "change",
+            "in",
+            "motion"
+        ]
     },
     {
         "q": "Work needs force and ______.",
@@ -69,8 +88,18 @@
     {
         "q": "Match terms to definitions:",
         "type": "match",
-        "left": ["Speed", "Velocity", "Acceleration", "Force"],
-        "right": ["Distance per time", "Displacement per time with direction", "Change in velocity per time", "Push or pull"]
+        "left": [
+            "Speed",
+            "Velocity",
+            "Acceleration",
+            "Force"
+        ],
+        "right": [
+            "Distance per time",
+            "Displacement per time with direction",
+            "Change in velocity per time",
+            "Push or pull"
+        ]
     },
     {
         "q": "Which is scalar?",
@@ -85,13 +114,25 @@
     {
         "q": "Rearrange kinetic energy formula:",
         "type": "rearrange",
-        "words": ["KE", "=", "1/2", "m", "v²"]
+        "words": [
+            "KE",
+            "=",
+            "1/2",
+            "m",
+            "v²"
+        ]
     },
     {
         "q": "Work = force × ______ × cosθ.",
         "type": "fill_blank",
-        "answers": ["displacement"],
-        "other_options": ["velocity", "time", "distance"]
+        "answers": [
+            "displacement"
+        ],
+        "other_options": [
+            "velocity",
+            "time",
+            "distance"
+        ]
     },
     {
         "q": "Gravity acceleration is 9.8 m/s² on Earth.",
@@ -106,8 +147,15 @@
     {
         "q": "______ = m × a is Newton’s ______ law.",
         "type": "fill_blank",
-        "answers": ["Force", "second"],
-        "other_options": ["first", "third", "zero"]
+        "answers": [
+            "Force",
+            "second"
+        ],
+        "other_options": [
+            "first",
+            "third",
+            "zero"
+        ]
     },
     {
         "q": "Projectile has horizontal constant ______.",
@@ -122,8 +170,14 @@
     {
         "q": "Momentum = mass × ______.",
         "type": "fill_blank",
-        "answers": ["velocity"],
-        "other_options": ["speed", "force", "time"]
+        "answers": [
+            "velocity"
+        ],
+        "other_options": [
+            "speed",
+            "force",
+            "time"
+        ]
     },
     {
         "q": "In elastic collision, ______ is conserved.",
@@ -148,8 +202,14 @@
     {
         "q": "Gravitational force follows ______ square law.",
         "type": "fill_blank",
-        "answers": ["inverse"],
-        "other_options": ["direct", "linear", "constant"]
+        "answers": [
+            "inverse"
+        ],
+        "other_options": [
+            "direct",
+            "linear",
+            "constant"
+        ]
     },
     {
         "q": "Displacement is a ______ quantity.",
@@ -164,8 +224,14 @@
     {
         "q": "Average velocity = total displacement / ______.",
         "type": "fill_blank",
-        "answers": ["time"],
-        "other_options": ["distance", "speed", "force"]
+        "answers": [
+            "time"
+        ],
+        "other_options": [
+            "distance",
+            "speed",
+            "force"
+        ]
     },
     {
         "q": "Instantaneous velocity is velocity at a ______ instant.",
@@ -190,8 +256,14 @@
     {
         "q": "Static friction prevents ______ motion.",
         "type": "fill_blank",
-        "answers": ["starting"],
-        "other_options": ["stopping", "constant", "uniform"]
+        "answers": [
+            "starting"
+        ],
+        "other_options": [
+            "stopping",
+            "constant",
+            "uniform"
+        ]
     },
     {
         "q": "Kinetic energy depends on mass and ______.",
@@ -216,13 +288,29 @@
     {
         "q": "Rearrange to form power formula:",
         "type": "rearrange",
-        "words": ["P", "=", "W", "/", "t"]
+        "words": [
+            "P",
+            "=",
+            "W",
+            "/",
+            "t"
+        ]
     },
     {
         "q": "Match energy types:",
         "type": "match",
-        "left": ["Kinetic", "Potential", "Mechanical", "Thermal"],
-        "right": ["Energy of motion", "Energy of position", "Sum of KE and PE", "Heat energy"]
+        "left": [
+            "Kinetic",
+            "Potential",
+            "Mechanical",
+            "Thermal"
+        ],
+        "right": [
+            "Energy of motion",
+            "Energy of position",
+            "Sum of KE and PE",
+            "Heat energy"
+        ]
     },
     {
         "q": "Projectile motion is ______ motion.",
@@ -237,8 +325,14 @@
     {
         "q": "Range is maximum at ______ angle.",
         "type": "fill_blank",
-        "answers": ["45 degrees"],
-        "other_options": ["30 degrees", "60 degrees", "90 degrees"]
+        "answers": [
+            "45 degrees"
+        ],
+        "other_options": [
+            "30 degrees",
+            "60 degrees",
+            "90 degrees"
+        ]
     },
     {
         "q": "Momentum is conserved in ______ systems.",
@@ -253,8 +347,14 @@
     {
         "q": "Impulse = force × ______.",
         "type": "fill_blank",
-        "answers": ["time"],
-        "other_options": ["distance", "mass", "velocity"]
+        "answers": [
+            "time"
+        ],
+        "other_options": [
+            "distance",
+            "mass",
+            "velocity"
+        ]
     },
     {
         "q": "Newton’s first law is law of ______.",
@@ -269,8 +369,14 @@
     {
         "q": "Friction opposes ______ motion.",
         "type": "fill_blank",
-        "answers": ["relative"],
-        "other_options": ["absolute", "uniform", "zero"]
+        "answers": [
+            "relative"
+        ],
+        "other_options": [
+            "absolute",
+            "uniform",
+            "zero"
+        ]
     },
     {
         "q": "Work done by gravity is ______ of path.",
@@ -284,8 +390,15 @@
     },
     {
         "q": "Total energy remains ______ in isolated system.",
-        "type": "true_false",
-        "correct": "True"
+        "type": "fill_blank",
+        "answers": [
+            "conserved"
+        ],
+        "other_options": [
+            "variable",
+            "zero",
+            "infinite"
+        ]
     },
     {
         "q": "Acceleration is zero in uniform circular motion.",
@@ -325,8 +438,14 @@
     {
         "q": "Velocity changes if ______ changes.",
         "type": "fill_blank",
-        "answers": ["direction"],
-        "other_options": ["distance", "time", "mass"]
+        "answers": [
+            "direction"
+        ],
+        "other_options": [
+            "distance",
+            "time",
+            "mass"
+        ]
     },
     {
         "q": "Deceleration means negative ______.",
@@ -341,8 +460,14 @@
     {
         "q": "Balanced forces give zero ______ acceleration.",
         "type": "fill_blank",
-        "answers": ["net"],
-        "other_options": ["total", "gross", "zero"]
+        "answers": [
+            "net"
+        ],
+        "other_options": [
+            "total",
+            "gross",
+            "zero"
+        ]
     },
     {
         "q": "Rolling friction is ______ than sliding.",
@@ -357,8 +482,14 @@
     {
         "q": "Energy can be ______ but not destroyed.",
         "type": "fill_blank",
-        "answers": ["transferred"],
-        "other_options": ["created", "lost", "hidden"]
+        "answers": [
+            "transferred"
+        ],
+        "other_options": [
+            "created",
+            "lost",
+            "hidden"
+        ]
     },
     {
         "q": "Power unit is ______.",
@@ -373,13 +504,31 @@
     {
         "q": "Rearrange gravitational force formula:",
         "type": "rearrange",
-        "words": ["F", "=", "G", "m1", "m2", "/", "r²"]
+        "words": [
+            "F",
+            "=",
+            "G",
+            "m1",
+            "m2",
+            "/",
+            "r²"
+        ]
     },
     {
         "q": "Match projectile terms:",
         "type": "match",
-        "left": ["Trajectory", "Range", "Time of flight", "Max height"],
-        "right": ["Horizontal distance", "Path curve", "Total air time", "Peak position"]
+        "left": [
+            "Trajectory",
+            "Range",
+            "Time of flight",
+            "Max height"
+        ],
+        "right": [
+            "Horizontal distance",
+            "Path curve",
+            "Total air time",
+            "Peak position"
+        ]
     },
     {
         "q": "Centripetal force acts toward ______.",
@@ -394,8 +543,14 @@
     {
         "q": "Escape velocity depends on planet’s ______.",
         "type": "fill_blank",
-        "answers": ["mass"],
-        "other_options": ["size", "color", "shape"]
+        "answers": [
+            "mass"
+        ],
+        "other_options": [
+            "size",
+            "color",
+            "shape"
+        ]
     },
     {
         "q": "Inelastic collision loses ______ energy.",
@@ -410,8 +565,14 @@
     {
         "q": "Action-reaction forces act on ______ bodies.",
         "type": "fill_blank",
-        "answers": ["different"],
-        "other_options": ["same", "one", "zero"]
+        "answers": [
+            "different"
+        ],
+        "other_options": [
+            "same",
+            "one",
+            "zero"
+        ]
     },
     {
         "q": "Weight is a ______ force.",
@@ -426,8 +587,14 @@
     {
         "q": "Air resistance is ______ force.",
         "type": "fill_blank",
-        "answers": ["non-contact"],
-        "other_options": ["contact", "zero", "constant"]
+        "answers": [
+            "non-contact"
+        ],
+        "other_options": [
+            "contact",
+            "zero",
+            "constant"
+        ]
     },
     {
         "q": "Work by friction is usually ______.",
@@ -482,8 +649,14 @@
     {
         "q": "Uniform acceleration means constant ______.",
         "type": "fill_blank",
-        "answers": ["acceleration"],
-        "other_options": ["velocity", "distance", "force"]
+        "answers": [
+            "acceleration"
+        ],
+        "other_options": [
+            "velocity",
+            "distance",
+            "force"
+        ]
     },
     {
         "q": "Distance-time graph slope gives ______.",
@@ -498,8 +671,14 @@
     {
         "q": "Normal force acts ______ to surface.",
         "type": "fill_blank",
-        "answers": ["perpendicular"],
-        "other_options": ["parallel", "diagonal", "opposite"]
+        "answers": [
+            "perpendicular"
+        ],
+        "other_options": [
+            "parallel",
+            "diagonal",
+            "opposite"
+        ]
     },
     {
         "q": "Tension is always ______ in direction.",
@@ -524,19 +703,43 @@
     {
         "q": "Efficiency is output / ______ × 100.",
         "type": "fill_blank",
-        "answers": ["input"],
-        "other_options": ["work", "power", "force"]
+        "answers": [
+            "input"
+        ],
+        "other_options": [
+            "work",
+            "power",
+            "force"
+        ]
     },
     {
         "q": "Rearrange for acceleration:",
         "type": "rearrange",
-        "words": ["a", "=", "v", "-", "u", "/", "t"]
+        "words": [
+            "a",
+            "=",
+            "v",
+            "-",
+            "u",
+            "/",
+            "t"
+        ]
     },
     {
         "q": "Match motion types:",
         "type": "match",
-        "left": ["Rectilinear", "Curvilinear", "Rotational", "Oscillatory"],
-        "right": ["Straight line", "Curved path", "About axis", "To and fro"]
+        "left": [
+            "Rectilinear",
+            "Curvilinear",
+            "Rotational",
+            "Oscillatory"
+        ],
+        "right": [
+            "Straight line",
+            "Curved path",
+            "About axis",
+            "To and fro"
+        ]
     },
     {
         "q": "Time of flight depends on ______ velocity.",
@@ -551,8 +754,14 @@
     {
         "q": "Orbital velocity is ______ near surface.",
         "type": "fill_blank",
-        "answers": ["less"],
-        "other_options": ["more", "equal", "zero"]
+        "answers": [
+            "less"
+        ],
+        "other_options": [
+            "more",
+            "equal",
+            "zero"
+        ]
     },
     {
         "q": "Coefficient of restitution is 1 for ______ collision.",
@@ -567,8 +776,14 @@
     {
         "q": "Recoil happens due to momentum ______.",
         "type": "fill_blank",
-        "answers": ["conservation"],
-        "other_options": ["loss", "gain", "force"]
+        "answers": [
+            "conservation"
+        ],
+        "other_options": [
+            "loss",
+            "gain",
+            "force"
+        ]
     },
     {
         "q": "Thrust is force by ______ expulsion.",
@@ -583,8 +798,14 @@
     {
         "q": "Apparent weight reduces in ______ lift.",
         "type": "fill_blank",
-        "answers": ["falling"],
-        "other_options": ["rising", "still", "fast"]
+        "answers": [
+            "falling"
+        ],
+        "other_options": [
+            "rising",
+            "still",
+            "fast"
+        ]
     },
     {
         "q": "Spring force follows ______ law.",
@@ -639,8 +860,14 @@
     {
         "q": "Equation v² = u² + 2as is ______ equation.",
         "type": "fill_blank",
-        "answers": ["third"],
-        "other_options": ["first", "second", "fourth"]
+        "answers": [
+            "third"
+        ],
+        "other_options": [
+            "first",
+            "second",
+            "fourth"
+        ]
     },
     {
         "q": "Inertia depends only on ______.",
@@ -655,8 +882,14 @@
     {
         "q": "Free body diagram shows all ______ forces.",
         "type": "fill_blank",
-        "answers": ["external"],
-        "other_options": ["internal", "net", "zero"]
+        "answers": [
+            "external"
+        ],
+        "other_options": [
+            "internal",
+            "net",
+            "zero"
+        ]
     },
     {
         "q": "Viscous drag increases with ______.",
@@ -681,19 +914,41 @@
     {
         "q": "Gravitational PE is zero at ______.",
         "type": "fill_blank",
-        "answers": ["infinity"],
-        "other_options": ["ground", "center", "surface"]
+        "answers": [
+            "infinity"
+        ],
+        "other_options": [
+            "ground",
+            "center",
+            "surface"
+        ]
     },
     {
         "q": "Rearrange for work done:",
         "type": "rearrange",
-        "words": ["W", "=", "F", "d", "cosθ"]
+        "words": [
+            "W",
+            "=",
+            "F",
+            "d",
+            "cosθ"
+        ]
     },
     {
         "q": "Match force types:",
         "type": "match",
-        "left": ["Contact", "Tension", "Normal", "Friction"],
-        "right": ["Opposes motion", "Perpendicular push", "Along string", "Requires touch"]
+        "left": [
+            "Contact",
+            "Tension",
+            "Normal",
+            "Friction"
+        ],
+        "right": [
+            "Opposes motion",
+            "Perpendicular push",
+            "Along string",
+            "Requires touch"
+        ]
     },
     {
         "q": "Angle of projection for max height is ______.",
@@ -708,8 +963,14 @@
     {
         "q": "Kepler’s first law says orbits are ______.",
         "type": "fill_blank",
-        "answers": ["elliptical"],
-        "other_options": ["circular", "linear", "parabolic"]
+        "answers": [
+            "elliptical"
+        ],
+        "other_options": [
+            "circular",
+            "linear",
+            "parabolic"
+        ]
     },
     {
         "q": "Head-on collision is ______ dimensional.",
@@ -724,8 +985,14 @@
     {
         "q": "Rocket works on ______ conservation.",
         "type": "fill_blank",
-        "answers": ["momentum"],
-        "other_options": ["energy", "mass", "force"]
+        "answers": [
+            "momentum"
+        ],
+        "other_options": [
+            "energy",
+            "mass",
+            "force"
+        ]
     },
     {
         "q": "Pseudo force appears in ______ frame.",
@@ -740,8 +1007,14 @@
     {
         "q": "Limiting friction is ______ proportional to normal.",
         "type": "fill_blank",
-        "answers": ["directly"],
-        "other_options": ["inversely", "square", "zero"]
+        "answers": [
+            "directly"
+        ],
+        "other_options": [
+            "inversely",
+            "square",
+            "zero"
+        ]
     },
     {
         "q": "Energy conversion in generator is mechanical to ______.",
@@ -796,8 +1069,14 @@
     {
         "q": "Coriolis force affects ______ motion.",
         "type": "fill_blank",
-        "answers": ["rotating frame"],
-        "other_options": ["linear", "static", "uniform"]
+        "answers": [
+            "rotating frame"
+        ],
+        "other_options": [
+            "linear",
+            "static",
+            "uniform"
+        ]
     },
     {
         "q": "Maximum friction is ______ × normal force.",
@@ -812,8 +1091,14 @@
     {
         "q": "Inclined plane reduces ______ needed.",
         "type": "fill_blank",
-        "answers": ["force"],
-        "other_options": ["time", "speed", "height"]
+        "answers": [
+            "force"
+        ],
+        "other_options": [
+            "time",
+            "speed",
+            "height"
+        ]
     },
     {
         "q": "Simple pendulum period depends on ______.",
@@ -828,19 +1113,43 @@
     {
         "q": "Elastic PE = ½ k ______.",
         "type": "fill_blank",
-        "answers": ["x²"],
-        "other_options": ["x", "v", "t"]
+        "answers": [
+            "x²"
+        ],
+        "other_options": [
+            "x",
+            "v",
+            "t"
+        ]
     },
     {
         "q": "Rearrange for velocity in circular motion:",
         "type": "rearrange",
-        "words": ["v", "=", "2", "π", "r", "/", "T"]
+        "words": [
+            "v",
+            "=",
+            "2",
+            "π",
+            "r",
+            "/",
+            "T"
+        ]
     },
     {
         "q": "Match simple machines:",
         "type": "match",
-        "left": ["Lever", "Pulley", "Wedge", "Screw"],
-        "right": ["Rotates on fulcrum", "Changes direction of force", "Two inclined planes", "Inclined plane wrapped"]
+        "left": [
+            "Lever",
+            "Pulley",
+            "Wedge",
+            "Screw"
+        ],
+        "right": [
+            "Rotates on fulcrum",
+            "Changes direction of force",
+            "Two inclined planes",
+            "Inclined plane wrapped"
+        ]
     },
     {
         "q": "Escape velocity from Earth is about ______ km/s.",
@@ -855,8 +1164,14 @@
     {
         "q": "Geocentric model had Earth at ______.",
         "type": "fill_blank",
-        "answers": ["center"],
-        "other_options": ["orbit", "edge", "top"]
+        "answers": [
+            "center"
+        ],
+        "other_options": [
+            "orbit",
+            "edge",
+            "top"
+        ]
     },
     {
         "q": "Oblique collision conserves ______ in components.",
@@ -871,8 +1186,14 @@
     {
         "q": "Jet plane uses ______ principle.",
         "type": "fill_blank",
-        "answers": ["Newton’s third"],
-        "other_options": ["first", "second", "gravity"]
+        "answers": [
+            "Newton’s third"
+        ],
+        "other_options": [
+            "first",
+            "second",
+            "gravity"
+        ]
     },
     {
         "q": "Equilibrium needs zero net ______ and torque.",
@@ -887,8 +1208,14 @@
     {
         "q": "Torque = force × ______ arm.",
         "type": "fill_blank",
-        "answers": ["perpendicular"],
-        "other_options": ["parallel", "total", "zero"]
+        "answers": [
+            "perpendicular"
+        ],
+        "other_options": [
+            "parallel",
+            "total",
+            "zero"
+        ]
     },
     {
         "q": "Atwood machine uses ______ to find g.",
@@ -903,8 +1230,14 @@
     {
         "q": "Buoyant force equals weight of ______ displaced.",
         "type": "fill_blank",
-        "answers": ["fluid"],
-        "other_options": ["object", "air", "solid"]
+        "answers": [
+            "fluid"
+        ],
+        "other_options": [
+            "object",
+            "air",
+            "solid"
+        ]
     },
     {
         "q": "Hydraulic lift works on ______ principle.",
@@ -919,8 +1252,14 @@
     {
         "q": "Moment of inertia measures ______ to rotation.",
         "type": "fill_blank",
-        "answers": ["resistance"],
-        "other_options": ["speed", "force", "energy"]
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "speed",
+            "force",
+            "energy"
+        ]
     },
     {
         "q": "Angular momentum = I ______.",
@@ -935,19 +1274,41 @@
     {
         "q": "Physical pendulum period uses ______ of mass.",
         "type": "fill_blank",
-        "answers": ["distance"],
-        "other_options": ["size", "shape", "color"]
+        "answers": [
+            "distance"
+        ],
+        "other_options": [
+            "size",
+            "shape",
+            "color"
+        ]
     },
     {
         "q": "Rearrange for centripetal acceleration:",
         "type": "rearrange",
-        "words": ["a", "=", "v²", "/", "r"]
+        "words": [
+            "a",
+            "=",
+            "v²",
+            "/",
+            "r"
+        ]
     },
     {
         "q": "Match rotational terms:",
         "type": "match",
-        "left": ["Torque", "Angular velocity", "Moment of inertia", "Angular acceleration"],
-        "right": ["Rate of change of angular velocity", "Rotational equivalent of mass", "Twisting force", "Radians per second"]
+        "left": [
+            "Torque",
+            "Angular velocity",
+            "Moment of inertia",
+            "Angular acceleration"
+        ],
+        "right": [
+            "Rate of change of angular velocity",
+            "Rotational equivalent of mass",
+            "Twisting force",
+            "Radians per second"
+        ]
     },
     {
         "q": "Laminar flow is ______ flow.",
@@ -962,8 +1323,14 @@
     {
         "q": "Streamline shows path of ______ particle.",
         "type": "fill_blank",
-        "answers": ["fluid"],
-        "other_options": ["solid", "gas", "light"]
+        "answers": [
+            "fluid"
+        ],
+        "other_options": [
+            "solid",
+            "gas",
+            "light"
+        ]
     },
     {
         "q": "Bernoulli’s principle relates pressure and ______.",
@@ -978,8 +1345,14 @@
     {
         "q": "Viscosity causes ______ in fluids.",
         "type": "fill_blank",
-        "answers": ["internal friction"],
-        "other_options": ["buoyancy", "pressure", "flow"]
+        "answers": [
+            "internal friction"
+        ],
+        "other_options": [
+            "buoyancy",
+            "pressure",
+            "flow"
+        ]
     },
     {
         "q": "Terminal velocity in fluid depends on ______ drag.",
@@ -994,8 +1367,14 @@
     {
         "q": "Surface tension makes droplets ______.",
         "type": "fill_blank",
-        "answers": ["spherical"],
-        "other_options": ["flat", "cubic", "long"]
+        "answers": [
+            "spherical"
+        ],
+        "other_options": [
+            "flat",
+            "cubic",
+            "long"
+        ]
     },
     {
         "q": "Capillary rise is higher in ______ tube.",
@@ -1060,8 +1439,14 @@
     {
         "q": "Torsional pendulum uses ______ wire.",
         "type": "fill_blank",
-        "answers": ["twisted"],
-        "other_options": ["stretched", "bent", "cut"]
+        "answers": [
+            "twisted"
+        ],
+        "other_options": [
+            "stretched",
+            "bent",
+            "cut"
+        ]
     },
     {
         "q": "Precession occurs in ______ top.",
@@ -1076,8 +1461,14 @@
     {
         "q": "Gyroscope maintains ______.",
         "type": "fill_blank",
-        "answers": ["orientation"],
-        "other_options": ["speed", "height", "weight"]
+        "answers": [
+            "orientation"
+        ],
+        "other_options": [
+            "speed",
+            "height",
+            "weight"
+        ]
     },
     {
         "q": "Parallel axis theorem adds ______ term.",
@@ -1092,19 +1483,40 @@
     {
         "q": "Perpendicular axis theorem for ______ bodies.",
         "type": "fill_blank",
-        "answers": ["planar"],
-        "other_options": ["solid", "hollow", "spherical"]
+        "answers": [
+            "planar"
+        ],
+        "other_options": [
+            "solid",
+            "hollow",
+            "spherical"
+        ]
     },
     {
         "q": "Rearrange for angular momentum:",
         "type": "rearrange",
-        "words": ["L", "=", "I", "ω"]
+        "words": [
+            "L",
+            "=",
+            "I",
+            "ω"
+        ]
     },
     {
         "q": "Match wave types in SHM:",
         "type": "match",
-        "left": ["Transverse", "Longitudinal", "Damped", "Forced"],
-        "right": ["Vibration in direction of wave", "External periodic force", "Vibration perpendicular to wave", "Energy loss over time"]
+        "left": [
+            "Transverse",
+            "Longitudinal",
+            "Damped",
+            "Forced"
+        ],
+        "right": [
+            "Vibration in direction of wave",
+            "External periodic force",
+            "Vibration perpendicular to wave",
+            "Energy loss over time"
+        ]
     },
     {
         "q": "Resonance occurs at ______ frequency.",
@@ -1119,8 +1531,14 @@
     {
         "q": "Damping reduces ______ in oscillation.",
         "type": "fill_blank",
-        "answers": ["amplitude"],
-        "other_options": ["frequency", "period", "phase"]
+        "answers": [
+            "amplitude"
+        ],
+        "other_options": [
+            "frequency",
+            "period",
+            "phase"
+        ]
     },
     {
         "q": "Kepler’s second law implies ______ speed near sun.",
@@ -1135,8 +1553,14 @@
     {
         "q": "Reduced mass used in ______ body problem.",
         "type": "fill_blank",
-        "answers": ["two"],
-        "other_options": ["one", "three", "many"]
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "many"
+        ]
     },
     {
         "q": "Lagrangian point L4 forms ______ triangle.",
@@ -1151,8 +1575,14 @@
     {
         "q": "Tidal locking makes moon show ______ face.",
         "type": "fill_blank",
-        "answers": ["one"],
-        "other_options": ["two", "all", "none"]
+        "answers": [
+            "one"
+        ],
+        "other_options": [
+            "two",
+            "all",
+            "none"
+        ]
     },
     {
         "q": "Drag crisis happens at high ______ number.",
@@ -1217,8 +1647,14 @@
     {
         "q": "Frequency of SHM is ______ of period.",
         "type": "fill_blank",
-        "answers": ["reciprocal"],
-        "other_options": ["double", "square", "same"]
+        "answers": [
+            "reciprocal"
+        ],
+        "other_options": [
+            "double",
+            "square",
+            "same"
+        ]
     },
     {
         "q": "In SHM, acceleration is maximum at ______.",
@@ -1233,8 +1669,14 @@
     {
         "q": "Spring constant k has unit ______.",
         "type": "fill_blank",
-        "answers": ["N/m"],
-        "other_options": ["kg", "J", "m/s"]
+        "answers": [
+            "N/m"
+        ],
+        "other_options": [
+            "kg",
+            "J",
+            "m/s"
+        ]
     },
     {
         "q": "Angular frequency ω = 2π ______.",
@@ -1249,19 +1691,41 @@
     {
         "q": "Total energy in SHM is ______.",
         "type": "fill_blank",
-        "answers": ["constant"],
-        "other_options": ["increasing", "decreasing", "zero"]
+        "answers": [
+            "constant"
+        ],
+        "other_options": [
+            "increasing",
+            "decreasing",
+            "zero"
+        ]
     },
     {
         "q": "Rearrange for period of simple pendulum:",
         "type": "rearrange",
-        "words": ["T", "=", "2", "π", "√(l/g)"]
+        "words": [
+            "T",
+            "=",
+            "2",
+            "π",
+            "√(l/g)"
+        ]
     },
     {
         "q": "Match SHM parameters:",
         "type": "match",
-        "left": ["Amplitude", "Phase", "Frequency", "Damping"],
-        "right": ["Maximum displacement", "Time shift", "Cycles per second", "Energy loss factor"]
+        "left": [
+            "Amplitude",
+            "Phase",
+            "Frequency",
+            "Damping"
+        ],
+        "right": [
+            "Maximum displacement",
+            "Time shift",
+            "Cycles per second",
+            "Energy loss factor"
+        ]
     },
     {
         "q": "Forced oscillation without damping leads to ______.",
@@ -1276,8 +1740,14 @@
     {
         "q": "Quality factor Q is high in ______ damping.",
         "type": "fill_blank",
-        "answers": ["light"],
-        "other_options": ["heavy", "zero", "critical"]
+        "answers": [
+            "light"
+        ],
+        "other_options": [
+            "heavy",
+            "zero",
+            "critical"
+        ]
     },
     {
         "q": "Universal gravitational constant G value is ______.",
@@ -1292,8 +1762,14 @@
     {
         "q": "Gravitational field inside hollow sphere is ______.",
         "type": "fill_blank",
-        "answers": ["zero"],
-        "other_options": ["maximum", "uniform", "infinite"]
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "maximum",
+            "uniform",
+            "infinite"
+        ]
     },
     {
         "q": "Weightlessness in orbit is due to ______ acceleration.",
@@ -1308,8 +1784,14 @@
     {
         "q": "Variation of g with depth is ______ at center.",
         "type": "fill_blank",
-        "answers": ["zero"],
-        "other_options": ["maximum", "same", "infinite"]
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "maximum",
+            "same",
+            "infinite"
+        ]
     },
     {
         "q": "Black hole event horizon is ______ radius.",
@@ -1374,8 +1856,14 @@
     {
         "q": "Phase difference of π means ______ motion.",
         "type": "fill_blank",
-        "answers": ["opposite"],
-        "other_options": ["same", "perpendicular", "zero"]
+        "answers": [
+            "opposite"
+        ],
+        "other_options": [
+            "same",
+            "perpendicular",
+            "zero"
+        ]
     },
     {
         "q": "Superposition in SHM creates ______ waves.",
@@ -1390,8 +1878,14 @@
     {
         "q": "Seconds pendulum has period ______ s.",
         "type": "fill_blank",
-        "answers": ["2"],
-        "other_options": ["1", "4", "0.5"]
+        "answers": [
+            "2"
+        ],
+        "other_options": [
+            "1",
+            "4",
+            "0.5"
+        ]
     },
     {
         "q": "Mass on spring period is ______ of amplitude.",
@@ -1406,19 +1900,41 @@
     {
         "q": "Critical damping returns to equilibrium ______ oscillation.",
         "type": "fill_blank",
-        "answers": ["without"],
-        "other_options": ["with", "slow", "fast"]
+        "answers": [
+            "without"
+        ],
+        "other_options": [
+            "with",
+            "slow",
+            "fast"
+        ]
     },
     {
         "q": "Rearrange for spring energy:",
         "type": "rearrange",
-        "words": ["PE", "=", "1/2", "k", "x²"]
+        "words": [
+            "PE",
+            "=",
+            "1/2",
+            "k",
+            "x²"
+        ]
     },
     {
         "q": "Match oscillation types:",
         "type": "match",
-        "left": ["Free", "Damped", "Driven", "Coupled"],
-        "right": ["No external force", "Two connected oscillators", "Energy dissipates", "External periodic force"]
+        "left": [
+            "Free",
+            "Damped",
+            "Driven",
+            "Coupled"
+        ],
+        "right": [
+            "No external force",
+            "Two connected oscillators",
+            "Energy dissipates",
+            "External periodic force"
+        ]
     },
     {
         "q": "Resonance in bridge caused by ______ marching.",
@@ -1433,8 +1949,14 @@
     {
         "q": "Overdamping returns ______ than critical.",
         "type": "fill_blank",
-        "answers": ["slower"],
-        "other_options": ["faster", "same", "zero"]
+        "answers": [
+            "slower"
+        ],
+        "other_options": [
+            "faster",
+            "same",
+            "zero"
+        ]
     },
     {
         "q": "Gravitational redshift occurs due to ______ field.",
@@ -1449,8 +1971,14 @@
     {
         "q": "Roche limit defines ______ breakup distance.",
         "type": "fill_blank",
-        "answers": ["tidal"],
-        "other_options": ["orbital", "escape", "impact"]
+        "answers": [
+            "tidal"
+        ],
+        "other_options": [
+            "orbital",
+            "escape",
+            "impact"
+        ]
     },
     {
         "q": "Satellite in lower orbit has ______ period.",
@@ -1465,8 +1993,14 @@
     {
         "q": "g is maximum at Earth’s ______.",
         "type": "fill_blank",
-        "answers": ["poles"],
-        "other_options": ["equator", "core", "space"]
+        "answers": [
+            "poles"
+        ],
+        "other_options": [
+            "equator",
+            "core",
+            "space"
+        ]
     },
     {
         "q": "GPS satellites are in ______ orbit.",
@@ -1531,8 +2065,14 @@
     {
         "q": "Lissajous figures form from ______ SHMs.",
         "type": "fill_blank",
-        "answers": ["perpendicular"],
-        "other_options": ["parallel", "same", "opposite"]
+        "answers": [
+            "perpendicular"
+        ],
+        "other_options": [
+            "parallel",
+            "same",
+            "opposite"
+        ]
     },
     {
         "q": "Wave equation in SHM is ______ function.",
@@ -1547,8 +2087,14 @@
     {
         "q": "Undamped oscillator has ______ Q factor.",
         "type": "fill_blank",
-        "answers": ["infinite"],
-        "other_options": ["zero", "one", "variable"]
+        "answers": [
+            "infinite"
+        ],
+        "other_options": [
+            "zero",
+            "one",
+            "variable"
+        ]
     },
     {
         "q": "Barton's pendulum demonstrates ______.",
@@ -1563,19 +2109,41 @@
     {
         "q": "Transverse SHM needs ______ medium.",
         "type": "fill_blank",
-        "answers": ["elastic"],
-        "other_options": ["fluid", "vacuum", "rigid"]
+        "answers": [
+            "elastic"
+        ],
+        "other_options": [
+            "fluid",
+            "vacuum",
+            "rigid"
+        ]
     },
     {
         "q": "Rearrange for damping factor:",
         "type": "rearrange",
-        "words": ["b", "=", "2", "√(m", "k)"]
+        "words": [
+            "b",
+            "=",
+            "2",
+            "√(m",
+            "k)"
+        ]
     },
     {
         "q": "Match pendulum types:",
         "type": "match",
-        "left": ["Simple", "Compound", "Torsional", "Ballistic"],
-        "right": ["Point mass on string", "Rigid body pivot", "Twist in wire", "Projectile timing"]
+        "left": [
+            "Simple",
+            "Compound",
+            "Torsional",
+            "Ballistic"
+        ],
+        "right": [
+            "Point mass on string",
+            "Rigid body pivot",
+            "Twist in wire",
+            "Projectile timing"
+        ]
     },
     {
         "q": "Tacoma bridge collapsed due to ______ resonance.",
@@ -1590,8 +2158,14 @@
     {
         "q": "Logarithmic decrement measures ______ loss.",
         "type": "fill_blank",
-        "answers": ["energy"],
-        "other_options": ["mass", "time", "phase"]
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "mass",
+            "time",
+            "phase"
+        ]
     },
     {
         "q": "Gravitational slingshot uses planet ______.",
@@ -1606,8 +2180,14 @@
     {
         "q": "Hill sphere defines ______ influence zone.",
         "type": "fill_blank",
-        "answers": ["gravitational"],
-        "other_options": ["magnetic", "thermal", "nuclear"]
+        "answers": [
+            "gravitational"
+        ],
+        "other_options": [
+            "magnetic",
+            "thermal",
+            "nuclear"
+        ]
     },
     {
         "q": "Apsides are ______ points in orbit.",
@@ -1622,8 +2202,14 @@
     {
         "q": "Oblateness causes ______ precession.",
         "type": "fill_blank",
-        "answers": ["nodal"],
-        "other_options": ["apsidal", "axial", "zero"]
+        "answers": [
+            "nodal"
+        ],
+        "other_options": [
+            "apsidal",
+            "axial",
+            "zero"
+        ]
     },
     {
         "q": "Virial theorem links kinetic and ______ energy.",
@@ -1688,8 +2274,14 @@
     {
         "q": "Isochronism means period independent of ______.",
         "type": "fill_blank",
-        "answers": ["amplitude"],
-        "other_options": ["mass", "length", "gravity"]
+        "answers": [
+            "amplitude"
+        ],
+        "other_options": [
+            "mass",
+            "length",
+            "gravity"
+        ]
     },
     {
         "q": "Melting ice in water causes no ______ change.",
@@ -1704,8 +2296,14 @@
     {
         "q": "Anemometer measures wind ______.",
         "type": "fill_blank",
-        "answers": ["speed"],
-        "other_options": ["direction", "pressure", "humidity"]
+        "answers": [
+            "speed"
+        ],
+        "other_options": [
+            "direction",
+            "pressure",
+            "humidity"
+        ]
     },
     {
         "q": "Cavitation occurs at low ______ in fluids.",
@@ -1720,19 +2318,41 @@
     {
         "q": "Efflux velocity = √(2gh) is ______ theorem.",
         "type": "fill_blank",
-        "answers": ["Torricelli’s"],
-        "other_options": ["Bernoulli’s", "Pascal’s", "Stokes’"]
+        "answers": [
+            "Torricelli’s"
+        ],
+        "other_options": [
+            "Bernoulli’s",
+            "Pascal’s",
+            "Stokes’"
+        ]
     },
     {
         "q": "Rearrange for buoyant force:",
         "type": "rearrange",
-        "words": ["F_b", "=", "ρ", "V", "g"]
+        "words": [
+            "F_b",
+            "=",
+            "ρ",
+            "V",
+            "g"
+        ]
     },
     {
         "q": "Match fluid properties:",
         "type": "match",
-        "left": ["Compressibility", "Viscosity", "Surface tension", "Density"],
-        "right": ["Mass per volume", "Resistance to flow", "Liquid surface contraction", "Volume change under pressure"]
+        "left": [
+            "Compressibility",
+            "Viscosity",
+            "Surface tension",
+            "Density"
+        ],
+        "right": [
+            "Mass per volume",
+            "Resistance to flow",
+            "Liquid surface contraction",
+            "Volume change under pressure"
+        ]
     },
     {
         "q": "Plimsoll line marks safe ______ limit.",
@@ -1747,8 +2367,14 @@
     {
         "q": "Hydraulic jack uses ______ area ratio.",
         "type": "fill_blank",
-        "answers": ["piston"],
-        "other_options": ["height", "length", "volume"]
+        "answers": [
+            "piston"
+        ],
+        "other_options": [
+            "height",
+            "length",
+            "volume"
+        ]
     },
     {
         "q": "Gravitational assist increases spacecraft ______.",
@@ -1763,8 +2389,14 @@
     {
         "q": "Lagrange point L1 is between ______ bodies.",
         "type": "fill_blank",
-        "answers": ["two"],
-        "other_options": ["three", "one", "four"]
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "three",
+            "one",
+            "four"
+        ]
     },
     {
         "q": "Perihelion is closest point to ______.",
@@ -1779,8 +2411,14 @@
     {
         "q": "Eccentricity zero means ______ orbit.",
         "type": "fill_blank",
-        "answers": ["circular"],
-        "other_options": ["elliptical", "parabolic", "hyperbolic"]
+        "answers": [
+            "circular"
+        ],
+        "other_options": [
+            "elliptical",
+            "parabolic",
+            "hyperbolic"
+        ]
     },
     {
         "q": "Tidal bulge occurs due to ______ difference.",
@@ -1845,8 +2483,14 @@
     {
         "q": "SHM equation: x = A cos(ωt + ______).",
         "type": "fill_blank",
-        "answers": ["φ"],
-        "other_options": ["A", "ω", "t"]
+        "answers": [
+            "φ"
+        ],
+        "other_options": [
+            "A",
+            "ω",
+            "t"
+        ]
     },
     {
         "q": "Vector sum of two SHMs can give ______ motion.",
@@ -1861,8 +2505,14 @@
     {
         "q": "Dunkerley’s method approximates ______ frequency.",
         "type": "fill_blank",
-        "answers": ["natural"],
-        "other_options": ["forced", "resonant", "zero"]
+        "answers": [
+            "natural"
+        ],
+        "other_options": [
+            "forced",
+            "resonant",
+            "zero"
+        ]
     },
     {
         "q": "Helmholtz resonator works on ______ principle.",
@@ -1877,19 +2527,41 @@
     {
         "q": "Bessel’s pendulum corrects ______ error.",
         "type": "fill_blank",
-        "answers": ["air buoyancy"],
-        "other_options": ["friction", "temperature", "length"]
+        "answers": [
+            "air buoyancy"
+        ],
+        "other_options": [
+            "friction",
+            "temperature",
+            "length"
+        ]
     },
     {
         "q": "Rearrange for resonance frequency:",
         "type": "rearrange",
-        "words": ["f", "=", "1/(2", "π", "√(LC))"]
+        "words": [
+            "f",
+            "=",
+            "1/(2",
+            "π",
+            "√(LC))"
+        ]
     },
     {
         "q": "Match vibration modes:",
         "type": "match",
-        "left": ["Fundamental", "Harmonic", "Node", "Antinode"],
-        "right": ["Point of zero displacement", "Lowest frequency", "Maximum displacement", "Integer multiple of fundamental"]
+        "left": [
+            "Fundamental",
+            "Harmonic",
+            "Node",
+            "Antinode"
+        ],
+        "right": [
+            "Point of zero displacement",
+            "Lowest frequency",
+            "Maximum displacement",
+            "Integer multiple of fundamental"
+        ]
     },
     {
         "q": "Sharpness of resonance depends on ______.",
@@ -1904,8 +2576,14 @@
     {
         "q": "Seismic isolation uses ______ damping.",
         "type": "fill_blank",
-        "answers": ["base"],
-        "other_options": ["top", "side", "zero"]
+        "answers": [
+            "base"
+        ],
+        "other_options": [
+            "top",
+            "side",
+            "zero"
+        ]
     },
     {
         "q": "Three-body problem has no ______ solution.",
@@ -1920,8 +2598,14 @@
     {
         "q": "Hohmann transfer is ______ efficient orbit change.",
         "type": "fill_blank",
-        "answers": ["fuel"],
-        "other_options": ["time", "speed", "mass"]
+        "answers": [
+            "fuel"
+        ],
+        "other_options": [
+            "time",
+            "speed",
+            "mass"
+        ]
     },
     {
         "q": "Synodic period is time between ______ alignments.",
@@ -1936,8 +2620,14 @@
     {
         "q": "Gravitational lens bends ______ around mass.",
         "type": "fill_blank",
-        "answers": ["light"],
-        "other_options": ["sound", "air", "water"]
+        "answers": [
+            "light"
+        ],
+        "other_options": [
+            "sound",
+            "air",
+            "water"
+        ]
     },
     {
         "q": "Eddington limit sets maximum ______ luminosity.",
@@ -2002,8 +2692,14 @@
     {
         "q": "Velocity in SHM: v = ω √(A² - ______).",
         "type": "fill_blank",
-        "answers": ["x²"],
-        "other_options": ["A", "t", "ω"]
+        "answers": [
+            "x²"
+        ],
+        "other_options": [
+            "A",
+            "t",
+            "ω"
+        ]
     },
     {
         "q": "Two equal SHMs 90° apart give ______ path.",
@@ -2018,8 +2714,14 @@
     {
         "q": "Rayleigh’s method estimates ______ frequency.",
         "type": "fill_blank",
-        "answers": ["fundamental"],
-        "other_options": ["harmonic", "forced", "damped"]
+        "answers": [
+            "fundamental"
+        ],
+        "other_options": [
+            "harmonic",
+            "forced",
+            "damped"
+        ]
     },
     {
         "q": "Tuned mass damper reduces ______ vibration.",
@@ -2034,19 +2736,39 @@
     {
         "q": "Kater’s pendulum measures ______ accurately.",
         "type": "fill_blank",
-        "answers": ["g"],
-        "other_options": ["l", "T", "m"]
+        "answers": [
+            "g"
+        ],
+        "other_options": [
+            "l",
+            "T",
+            "m"
+        ]
     },
     {
         "q": "Rearrange for wave speed on string:",
         "type": "rearrange",
-        "words": ["v", "=", "√(T/μ)"]
+        "words": [
+            "v",
+            "=",
+            "√(T/μ)"
+        ]
     },
     {
         "q": "Match SHM systems:",
         "type": "match",
-        "left": ["LC circuit", "Floating object", "Torsion wire", "U-tube"],
-        "right": ["Electrical SHM", "Buoyancy SHM", "Torsional SHM", "Liquid column SHM"]
+        "left": [
+            "LC circuit",
+            "Floating object",
+            "Torsion wire",
+            "U-tube"
+        ],
+        "right": [
+            "Electrical SHM",
+            "Buoyancy SHM",
+            "Torsional SHM",
+            "Liquid column SHM"
+        ]
     },
     {
         "q": "Power resonance occurs at ______ damping.",
@@ -2061,8 +2783,14 @@
     {
         "q": "Degree of freedom in SHM is ______.",
         "type": "fill_blank",
-        "answers": ["1"],
-        "other_options": ["2", "3", "0"]
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "0"
+        ]
     },
     {
         "q": "Perturbation theory handles ______ orbits.",
@@ -2077,8 +2805,14 @@
     {
         "q": "Barycenter is ______ of masses.",
         "type": "fill_blank",
-        "answers": ["center"],
-        "other_options": ["edge", "top", "orbit"]
+        "answers": [
+            "center"
+        ],
+        "other_options": [
+            "edge",
+            "top",
+            "orbit"
+        ]
     },
     {
         "q": "Inclination defines orbital ______.",
@@ -2093,8 +2827,14 @@
     {
         "q": "Escape parabola has eccentricity ______.",
         "type": "fill_blank",
-        "answers": ["1"],
-        "other_options": ["0", "<1", ">1"]
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "<1",
+            ">1"
+        ]
     },
     {
         "q": "Frame dragging is ______ relativity effect.",
@@ -2309,13 +3049,31 @@
     {
         "q": "Rearrange to form the equation for orbital period:",
         "type": "rearrange",
-        "words": ["T²", "=", "4", "π²", "r³", "/", "GM"]
+        "words": [
+            "T²",
+            "=",
+            "4",
+            "π²",
+            "r³",
+            "/",
+            "GM"
+        ]
     },
     {
         "q": "Match the following:",
         "type": "match",
-        "left": ["Aphelion", "Perigee", "Node", "Apoapsis"],
-        "right": ["Farthest from focus", "Closest to Earth", "Farthest general", "Orbit plane intersection"]
+        "left": [
+            "Aphelion",
+            "Perigee",
+            "Node",
+            "Apoapsis"
+        ],
+        "right": [
+            "Farthest from focus",
+            "Closest to Earth",
+            "Farthest general",
+            "Orbit plane intersection"
+        ]
     },
     {
         "q": "Which has higher viscosity: honey or water?",
@@ -2490,13 +3248,33 @@
     {
         "q": "Rearrange to form the formula for capillary rise:",
         "type": "rearrange",
-        "words": ["h", "=", "2", "σ", "cosθ", "/", "ρ", "g", "r"]
+        "words": [
+            "h",
+            "=",
+            "2",
+            "σ",
+            "cosθ",
+            "/",
+            "ρ",
+            "g",
+            "r"
+        ]
     },
     {
         "q": "Match the following fluid devices:",
         "type": "match",
-        "left": ["Orifice meter", "Pitot tube", "Rotameter", "Weir"],
-        "right": ["Variable area flow", "Open channel flow", "Velocity from pressure", "Flow from head difference"]
+        "left": [
+            "Orifice meter",
+            "Pitot tube",
+            "Rotameter",
+            "Weir"
+        ],
+        "right": [
+            "Variable area flow",
+            "Open channel flow",
+            "Velocity from pressure",
+            "Flow from head difference"
+        ]
     },
     {
         "q": "Which has higher terminal velocity: feather or steel ball in air?",
@@ -2671,13 +3449,29 @@
     {
         "q": "Rearrange to form the formula for critical velocity in vertical circle:",
         "type": "rearrange",
-        "words": ["v", "=", "√(5", "g", "r)"]
+        "words": [
+            "v",
+            "=",
+            "√(5",
+            "g",
+            "r)"
+        ]
     },
     {
         "q": "Match the following stability terms:",
         "type": "match",
-        "left": ["Stable", "Unstable", "Neutral", "Metacentric height"],
-        "right": ["CG = CB", "GM > 0", "GM < 0", "Distance between metacenter and CG"]
+        "left": [
+            "Stable",
+            "Unstable",
+            "Neutral",
+            "Metacentric height"
+        ],
+        "right": [
+            "CG = CB",
+            "GM > 0",
+            "GM < 0",
+            "Distance between metacenter and CG"
+        ]
     },
     {
         "q": "Which has greater moment of inertia: solid sphere or hollow sphere of same mass and radius?",
@@ -2852,13 +3646,31 @@
     {
         "q": "Rearrange to form the formula for maximum height in projectile motion:",
         "type": "rearrange",
-        "words": ["H", "=", "u²", "sin²θ", "/", "2", "g"]
+        "words": [
+            "H",
+            "=",
+            "u²",
+            "sin²θ",
+            "/",
+            "2",
+            "g"
+        ]
     },
     {
         "q": "Match the following systems with their energy type:",
         "type": "match",
-        "left": ["Rolling ball", "Stretched spring", "Moving car", "Raised weight"],
-        "right": ["Kinetic", "Elastic potential", "Kinetic + potential", "Gravitational potential"]
+        "left": [
+            "Rolling ball",
+            "Stretched spring",
+            "Moving car",
+            "Raised weight"
+        ],
+        "right": [
+            "Kinetic",
+            "Elastic potential",
+            "Kinetic + potential",
+            "Gravitational potential"
+        ]
     },
     {
         "q": "Which has greater range on an inclined plane: up or down at same angle?",
@@ -3033,13 +3845,31 @@
     {
         "q": "Rearrange to form the equation for range of a projectile:",
         "type": "rearrange",
-        "words": ["R", "=", "u²", "sin", "2θ", "/", "g"]
+        "words": [
+            "R",
+            "=",
+            "u²",
+            "sin",
+            "2θ",
+            "/",
+            "g"
+        ]
     },
     {
         "q": "Match the quantity with its SI unit:",
         "type": "match",
-        "left": ["Impulse", "Torque", "Angular momentum", "Pressure"],
-        "right": ["N·s", "N·m", "kg·m²/s", "Pa"]
+        "left": [
+            "Impulse",
+            "Torque",
+            "Angular momentum",
+            "Pressure"
+        ],
+        "right": [
+            "N·s",
+            "N·m",
+            "kg·m²/s",
+            "Pa"
+        ]
     },
     {
         "q": "A force of 10 N acts at 60° to displacement of 5 m. Work done is:",
@@ -3214,13 +4044,29 @@
     {
         "q": "Rearrange to form the equation for tension in conical pendulum:",
         "type": "rearrange",
-        "words": ["T", "cosθ", "=", "m", "g"]
+        "words": [
+            "T",
+            "cosθ",
+            "=",
+            "m",
+            "g"
+        ]
     },
     {
         "q": "Match the system with conserved quantity in absence of external force:",
         "type": "match",
-        "left": ["Isolated collision", "Planet orbit", "Free fall", "Frictionless pulley"],
-        "right": ["Momentum", "Angular momentum", "Mechanical energy", "Tension equal"]
+        "left": [
+            "Isolated collision",
+            "Planet orbit",
+            "Free fall",
+            "Frictionless pulley"
+        ],
+        "right": [
+            "Momentum",
+            "Angular momentum",
+            "Mechanical energy",
+            "Tension equal"
+        ]
     },
     {
         "q": "A 2 kg pendulum bob swings from 30° to horizontal. Speed at bottom if length 1 m:",
@@ -3395,13 +4241,38 @@
     {
         "q": "Rearrange to form the equation for velocity in Atwood’s machine (m1 > m2):",
         "type": "rearrange",
-        "words": ["a", "=", "(", "m1", "-", "m2", ")", "g", "/", "(", "m1", "+", "m2", ")"]
+        "words": [
+            "a",
+            "=",
+            "(",
+            "m1",
+            "-",
+            "m2",
+            ")",
+            "g",
+            "/",
+            "(",
+            "m1",
+            "+",
+            "m2",
+            ")"
+        ]
     },
     {
         "q": "Match the motion with its energy conservation type:",
         "type": "match",
-        "left": ["Roller coaster", "Pendulum", "Satellite", "Damped oscillator"],
-        "right": ["Mechanical energy", "Mechanical + heat", "Total energy", "Decreasing amplitude"]
+        "left": [
+            "Roller coaster",
+            "Pendulum",
+            "Satellite",
+            "Damped oscillator"
+        ],
+        "right": [
+            "Mechanical energy",
+            "Mechanical + heat",
+            "Total energy",
+            "Decreasing amplitude"
+        ]
     },
     {
         "q": "A 2 kg box is pushed with 30 N at 37° to horizontal on rough surface (μ = 0.25). Normal force is:",
@@ -3576,13 +4447,28 @@
     {
         "q": "Rearrange to form the formula for minimum speed at highest point in vertical circle:",
         "type": "rearrange",
-        "words": ["v", "=", "√(g", "r)"]
+        "words": [
+            "v",
+            "=",
+            "√(g",
+            "r)"
+        ]
     },
     {
         "q": "Match the collision type with its property:",
         "type": "match",
-        "left": ["Elastic", "Inelastic", "Perfectly inelastic", "Superelastic"],
-        "right": ["KE conserved", "KE not conserved", "Objects stick", "KE increases"]
+        "left": [
+            "Elastic",
+            "Inelastic",
+            "Perfectly inelastic",
+            "Superelastic"
+        ],
+        "right": [
+            "KE conserved",
+            "KE not conserved",
+            "Objects stick",
+            "KE increases"
+        ]
     },
     {
         "q": "A 5 kg crate is dragged 10 m across floor with 40 N force at 53° upward (μ = 0.3). Net work done:",
@@ -3757,13 +4643,31 @@
     {
         "q": "Rearrange to form the formula for time period of physical pendulum:",
         "type": "rearrange",
-        "words": ["T", "=", "2", "π", "√(I/(m", "g", "d))"]
+        "words": [
+            "T",
+            "=",
+            "2",
+            "π",
+            "√(I/(m",
+            "g",
+            "d))"
+        ]
     },
     {
         "q": "Match the work-energy scenario:",
         "type": "match",
-        "left": ["Lifting box", "Pushing wall", "Catching ball", "Rolling uphill"],
-        "right": ["Positive work", "Zero work", "Negative work by hand", "KE to PE"]
+        "left": [
+            "Lifting box",
+            "Pushing wall",
+            "Catching ball",
+            "Rolling uphill"
+        ],
+        "right": [
+            "Positive work",
+            "Zero work",
+            "Negative work by hand",
+            "KE to PE"
+        ]
     },
     {
         "q": "A 3 kg block pulled by 50 N at 30° to horizontal on rough floor (μ = 0.4). Acceleration:",
@@ -3938,13 +4842,29 @@
     {
         "q": "Rearrange to define Newton's second law:",
         "type": "rearrange",
-        "words": ["Force", "equals", "mass", "times", "acceleration"]
+        "words": [
+            "Force",
+            "equals",
+            "mass",
+            "times",
+            "acceleration"
+        ]
     },
     {
         "q": "Match the concept with its example:",
         "type": "match",
-        "left": ["Inertia", "Action-reaction", "Centripetal force", "Conservation of energy"],
-        "right": ["Seatbelt in crash", "Rocket launch", "Car on curve", "Pendulum swing"]
+        "left": [
+            "Inertia",
+            "Action-reaction",
+            "Centripetal force",
+            "Conservation of energy"
+        ],
+        "right": [
+            "Seatbelt in crash",
+            "Rocket launch",
+            "Car on curve",
+            "Pendulum swing"
+        ]
     },
     {
         "q": "Which is true for a body in uniform circular motion?",
@@ -4119,13 +5039,36 @@
     {
         "q": "Rearrange to define the law of inertia:",
         "type": "rearrange",
-        "words": ["Object", "continues", "in", "state", "of", "rest", "or", "motion", "unless", "acted", "by", "force"]
+        "words": [
+            "Object",
+            "continues",
+            "in",
+            "state",
+            "of",
+            "rest",
+            "or",
+            "motion",
+            "unless",
+            "acted",
+            "by",
+            "force"
+        ]
     },
     {
         "q": "Match the force with its nature:",
         "type": "match",
-        "left": ["Gravity", "Friction", "Tension", "Normal"],
-        "right": ["Non-contact", "Opposes relative motion", "Along string", "Perpendicular to surface"]
+        "left": [
+            "Gravity",
+            "Friction",
+            "Tension",
+            "Normal"
+        ],
+        "right": [
+            "Non-contact",
+            "Opposes relative motion",
+            "Along string",
+            "Perpendicular to surface"
+        ]
     },
     {
         "q": "Which is true for a geostationary satellite?",
@@ -4300,13 +5243,31 @@
     {
         "q": "Rearrange to define conservation of momentum:",
         "type": "rearrange",
-        "words": ["Total", "momentum", "before", "equals", "total", "momentum", "after"]
+        "words": [
+            "Total",
+            "momentum",
+            "before",
+            "equals",
+            "total",
+            "momentum",
+            "after"
+        ]
     },
     {
         "q": "Match the motion with its requirement:",
         "type": "match",
-        "left": ["Projectile", "Circular", "Oscillatory", "Free fall"],
-        "right": ["Initial velocity at angle", "Centripetal force", "Restoring force", "Only gravity"]
+        "left": [
+            "Projectile",
+            "Circular",
+            "Oscillatory",
+            "Free fall"
+        ],
+        "right": [
+            "Initial velocity at angle",
+            "Centripetal force",
+            "Restoring force",
+            "Only gravity"
+        ]
     },
     {
         "q": "Which is true for a body moving with constant velocity?",
@@ -4341,14 +5302,26 @@
     {
         "q": "The work-energy theorem states that the net work done on an object equals its change in ______ energy.",
         "type": "fill_blank",
-        "answers": ["kinetic"],
-        "other_options": ["potential", "thermal", "mechanical"]
+        "answers": [
+            "kinetic"
+        ],
+        "other_options": [
+            "potential",
+            "thermal",
+            "mechanical"
+        ]
     },
     {
         "q": "On an inclined plane at 30°, the component of gravitational acceleration parallel to the plane is ______ m/s².",
         "type": "fill_blank",
-        "answers": ["4.9"],
-        "other_options": ["8.5", "9.8", "5.7"]
+        "answers": [
+            "4.9"
+        ],
+        "other_options": [
+            "8.5",
+            "9.8",
+            "5.7"
+        ]
     },
     {
         "q": "A car accelerates uniformly from rest to 25 m/s in 8 seconds. What distance does it cover?",
@@ -4363,8 +5336,14 @@
     {
         "q": "The gravitational force between two masses is inversely proportional to the ______ of the distance between them.",
         "type": "fill_blank",
-        "answers": ["square"],
-        "other_options": ["cube", "root", "reciprocal"]
+        "answers": [
+            "square"
+        ],
+        "other_options": [
+            "cube",
+            "root",
+            "reciprocal"
+        ]
     },
     {
         "q": "Power is defined as the rate of doing ______.",
@@ -4379,7 +5358,13 @@
     {
         "q": "Rearrange the words to form Newton's second law:",
         "type": "rearrange",
-        "words": ["Force", "equals", "mass", "times", "acceleration"]
+        "words": [
+            "Force",
+            "equals",
+            "mass",
+            "times",
+            "acceleration"
+        ]
     },
     {
         "q": "In the absence of air resistance, all objects fall with the same acceleration regardless of mass.",
@@ -4394,8 +5379,16 @@
     {
         "q": "Match the following collision types with their characteristics:",
         "type": "match",
-        "left": ["Perfectly Inelastic", "Elastic", "Inelastic"],
-        "right": ["Objects stick together", "Kinetic energy conserved", "Kinetic energy not conserved but objects separate"]
+        "left": [
+            "Perfectly Inelastic",
+            "Elastic",
+            "Inelastic"
+        ],
+        "right": [
+            "Objects stick together",
+            "Kinetic energy conserved",
+            "Kinetic energy not conserved but objects separate"
+        ]
     },
     {
         "q": "A 500 N force is applied to push a 50 kg crate 10 m across a horizontal surface. If μ_k = 0.2, how much work is done against friction?",
@@ -4410,13 +5403,25 @@
     {
         "q": "The time of flight for a projectile launched and landing at the same height depends only on the ______ component of velocity.",
         "type": "fill_blank",
-        "answers": ["vertical"],
-        "other_options": ["horizontal", "resultant", "tangential"]
+        "answers": [
+            "vertical"
+        ],
+        "other_options": [
+            "horizontal",
+            "resultant",
+            "tangential"
+        ]
     },
     {
         "q": "Rearrange the words to form the impulse-momentum theorem:",
         "type": "rearrange",
-        "words": ["Impulse", "equals", "change", "in", "momentum"]
+        "words": [
+            "Impulse",
+            "equals",
+            "change",
+            "in",
+            "momentum"
+        ]
     },
     {
         "q": "A satellite in circular orbit experiences ______ acceleration despite constant speed.",
@@ -4441,8 +5446,14 @@
     {
         "q": "The minimum horizontal force required to make a 10 kg box just start moving on a surface with μ_s = 0.6 is ______ N.",
         "type": "fill_blank",
-        "answers": ["58.8"],
-        "other_options": ["60", "98", "9.8"]
+        "answers": [
+            "58.8"
+        ],
+        "other_options": [
+            "60",
+            "98",
+            "9.8"
+        ]
     },
     {
         "q": "A roller coaster car needs what minimum speed at the top of a 15 m radius loop to stay on the track?",
@@ -4467,13 +5478,29 @@
     {
         "q": "Rearrange the words to state the condition for conservation of mechanical energy:",
         "type": "rearrange",
-        "words": ["Mechanical", "energy", "is", "conserved", "when", "only", "conservative", "forces", "act"]
+        "words": [
+            "Mechanical",
+            "energy",
+            "is",
+            "conserved",
+            "when",
+            "only",
+            "conservative",
+            "forces",
+            "act"
+        ]
     },
     {
         "q": "A spring with k = 200 N/m is compressed by 0.1 m. The potential energy stored is ______ J.",
         "type": "fill_blank",
-        "answers": ["1"],
-        "other_options": ["2", "10", "20"]
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "2",
+            "10",
+            "20"
+        ]
     },
     {
         "q": "The range of a projectile is maximum when the launch angle is 45°.",
@@ -4498,14 +5525,28 @@
     {
         "q": "Match the following energy types with their formulas:",
         "type": "match",
-        "left": ["Kinetic Energy", "Gravitational Potential Energy", "Spring Potential Energy"],
-        "right": ["½mv²", "mgh", "½kx²"]
+        "left": [
+            "Kinetic Energy",
+            "Gravitational Potential Energy",
+            "Spring Potential Energy"
+        ],
+        "right": [
+            "½mv²",
+            "mgh",
+            "½kx²"
+        ]
     },
     {
         "q": "The centripetal force required to keep a 2 kg object moving in a 3 m radius circle at 6 m/s is ______ N.",
         "type": "fill_blank",
-        "answers": ["24"],
-        "other_options": ["12", "36", "4"]
+        "answers": [
+            "24"
+        ],
+        "other_options": [
+            "12",
+            "36",
+            "4"
+        ]
     },
     {
         "q": "A 1000 kg car accelerates from 20 m/s to 30 m/s. What is the magnitude of its change in momentum?",
@@ -4520,7 +5561,31 @@
     {
         "q": "Rearrange the words to describe Newton's First Law:",
         "type": "rearrange",
-        "words": ["An", "object", "at", "rest", "stays", "at", "rest", "and", "an", "object", "in", "motion", "stays", "in", "motion", "unless", "acted", "upon", "by", "a", "net", "external", "force"]
+        "words": [
+            "An",
+            "object",
+            "at",
+            "rest",
+            "stays",
+            "at",
+            "rest",
+            "and",
+            "an",
+            "object",
+            "in",
+            "motion",
+            "stays",
+            "in",
+            "motion",
+            "unless",
+            "acted",
+            "upon",
+            "by",
+            "a",
+            "net",
+            "external",
+            "force"
+        ]
     },
     {
         "q": "For maximum range on an inclined plane, the projectile should be launched at an angle bisecting the angle between the plane and the vertical.",
@@ -4550,8 +5615,14 @@
     {
         "q": "The area under a Force-Displacement graph represents ______.",
         "type": "fill_blank",
-        "answers": ["work"],
-        "other_options": ["power", "impulse", "energy"]
+        "answers": [
+            "work"
+        ],
+        "other_options": [
+            "power",
+            "impulse",
+            "energy"
+        ]
     },
     {
         "q": "A man stands on a scale in a stationary elevator. If the elevator accelerates upward, the scale reading will be ______ his actual weight.",
@@ -4566,7 +5637,22 @@
     {
         "q": "Rearrange the words to define the center of mass:",
         "type": "rearrange",
-        "words": ["The", "point", "where", "the", "entire", "mass", "of", "a", "body", "is", "considered", "to", "be", "concentrated"]
+        "words": [
+            "The",
+            "point",
+            "where",
+            "the",
+            "entire",
+            "mass",
+            "of",
+            "a",
+            "body",
+            "is",
+            "considered",
+            "to",
+            "be",
+            "concentrated"
+        ]
     },
     {
         "q": "For a given initial speed, two complementary launch angles will yield the same range in projectile motion.",
@@ -4586,14 +5672,28 @@
     {
         "q": "In a system with no external forces, the velocity of the ______ remains constant.",
         "type": "fill_blank",
-        "answers": ["center of mass"],
-        "other_options": ["heaviest object", "fastest object", "total momentum"]
+        "answers": [
+            "center of mass"
+        ],
+        "other_options": [
+            "heaviest object",
+            "fastest object",
+            "total momentum"
+        ]
     },
     {
         "q": "Match the following terms with their units:",
         "type": "match",
-        "left": ["Impulse", "Power", "Momentum"],
-        "right": ["N·s", "Watt", "kg·m/s"]
+        "left": [
+            "Impulse",
+            "Power",
+            "Momentum"
+        ],
+        "right": [
+            "N·s",
+            "Watt",
+            "kg·m/s"
+        ]
     },
     {
         "q": "A ball is thrown vertically upwards. At the highest point of its trajectory, its velocity is zero and its acceleration is -9.8 m/s².",
@@ -4613,13 +5713,35 @@
     {
         "q": "A bullet of mass 0.01 kg is fired into a wooden block. If the average resisting force is 5000 N and the bullet penetrates 0.1 m, the initial speed of the bullet was ______ m/s.",
         "type": "fill_blank",
-        "answers": ["316"],
-        "other_options": ["224", "447", "100"]
+        "answers": [
+            "316"
+        ],
+        "other_options": [
+            "224",
+            "447",
+            "100"
+        ]
     },
     {
         "q": "Rearrange the words to state the work-energy theorem:",
         "type": "rearrange",
-        "words": ["The", "net", "work", "done", "on", "an", "object", "is", "equal", "to", "its", "change", "in", "kinetic", "energy"]
+        "words": [
+            "The",
+            "net",
+            "work",
+            "done",
+            "on",
+            "an",
+            "object",
+            "is",
+            "equal",
+            "to",
+            "its",
+            "change",
+            "in",
+            "kinetic",
+            "energy"
+        ]
     },
     {
         "q": "The tension in the string of a conical pendulum is always greater than the weight of the bob.",
@@ -4639,8 +5761,14 @@
     {
         "q": "The rate of change of angular momentum is equal to the net ______.",
         "type": "fill_blank",
-        "answers": ["torque"],
-        "other_options": ["force", "impulse", "power"]
+        "answers": [
+            "torque"
+        ],
+        "other_options": [
+            "force",
+            "impulse",
+            "power"
+        ]
     },
     {
         "q": "A block is pushed up a rough incline at constant speed. The work done by the gravitational force is:",
@@ -4655,8 +5783,14 @@
     {
         "q": "For a satellite in elliptical orbit, its speed is ______ when it is closest to the planet.",
         "type": "fill_blank",
-        "answers": ["greatest"],
-        "other_options": ["lowest", "constant", "zero"]
+        "answers": [
+            "greatest"
+        ],
+        "other_options": [
+            "lowest",
+            "constant",
+            "zero"
+        ]
     },
     {
         "q": "A 3 kg mass and a 1 kg mass are connected by a light string over a frictionless pulley. The acceleration of the system is:",
@@ -4671,7 +5805,15 @@
     {
         "q": "Rearrange the words to describe terminal velocity:",
         "type": "rearrange",
-        "words": ["Constant", "speed", "when", "drag", "force", "equals", "weight"]
+        "words": [
+            "Constant",
+            "speed",
+            "when",
+            "drag",
+            "force",
+            "equals",
+            "weight"
+        ]
     },
     {
         "q": "The normal force always acts perpendicular to the surface of contact.",
@@ -4691,14 +5833,28 @@
     {
         "q": "In a banked curve without friction, the ______ component of the normal force provides the centripetal force.",
         "type": "fill_blank",
-        "answers": ["horizontal"],
-        "other_options": ["vertical", "tangential", "radial"]
+        "answers": [
+            "horizontal"
+        ],
+        "other_options": [
+            "vertical",
+            "tangential",
+            "radial"
+        ]
     },
     {
         "q": "Match the following physical situations with the primary conservation law applied:",
         "type": "match",
-        "left": ["Elastic collision", "Satellite orbit", "Object sliding down incline"],
-        "right": ["Momentum & Kinetic Energy", "Energy & Angular Momentum", "Mechanical Energy"]
+        "left": [
+            "Elastic collision",
+            "Satellite orbit",
+            "Object sliding down incline"
+        ],
+        "right": [
+            "Momentum & Kinetic Energy",
+            "Energy & Angular Momentum",
+            "Mechanical Energy"
+        ]
     },
     {
         "q": "The coefficient of restitution for a perfectly inelastic collision is 0.",
@@ -4718,13 +5874,27 @@
     {
         "q": "The period of a simple pendulum depends on its ______ and the acceleration due to gravity.",
         "type": "fill_blank",
-        "answers": ["length"],
-        "other_options": ["mass", "amplitude", "velocity"]
+        "answers": [
+            "length"
+        ],
+        "other_options": [
+            "mass",
+            "amplitude",
+            "velocity"
+        ]
     },
     {
         "q": "Rearrange the words to describe static friction:",
         "type": "rearrange",
-        "words": ["Friction", "that", "prevents", "relative", "motion", "between", "surfaces"]
+        "words": [
+            "Friction",
+            "that",
+            "prevents",
+            "relative",
+            "motion",
+            "between",
+            "surfaces"
+        ]
     },
     {
         "q": "For a given total impulse, a smaller force acting over a longer time produces the same momentum change as a larger force acting over a shorter time.",
@@ -4744,8 +5914,14 @@
     {
         "q": "The ______ of a system of particles is the point that moves as if all external forces were applied there.",
         "type": "fill_blank",
-        "answers": ["center of mass"],
-        "other_options": ["centroid", "balance point", "pivot"]
+        "answers": [
+            "center of mass"
+        ],
+        "other_options": [
+            "centroid",
+            "balance point",
+            "pivot"
+        ]
     },
     {
         "q": "A physical pendulum has a period that depends on its:",
@@ -4760,8 +5936,14 @@
     {
         "q": "The principle of virtual work states that for a system in equilibrium, the virtual work done by all forces is ______.",
         "type": "fill_blank",
-        "answers": ["zero"],
-        "other_options": ["maximum", "minimum", "constant"]
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "maximum",
+            "minimum",
+            "constant"
+        ]
     },
     {
         "q": "For a rigid body rotating about a fixed axis, all points have the same:",
@@ -4776,7 +5958,28 @@
     {
         "q": "Rearrange the words to describe the parallel axis theorem:",
         "type": "rearrange",
-        "words": ["Moment", "of", "inertia", "about", "any", "axis", "equals", "moment", "about", "parallel", "axis", "through", "center", "of", "mass", "plus", "mass", "times", "distance", "squared"]
+        "words": [
+            "Moment",
+            "of",
+            "inertia",
+            "about",
+            "any",
+            "axis",
+            "equals",
+            "moment",
+            "about",
+            "parallel",
+            "axis",
+            "through",
+            "center",
+            "of",
+            "mass",
+            "plus",
+            "mass",
+            "times",
+            "distance",
+            "squared"
+        ]
     },
     {
         "q": "The radius of gyration has units of length.",
@@ -4796,14 +5999,28 @@
     {
         "q": "In rotational motion, the quantity analogous to mass in linear motion is ______.",
         "type": "fill_blank",
-        "answers": ["moment of inertia"],
-        "other_options": ["torque", "angular momentum", "angular velocity"]
+        "answers": [
+            "moment of inertia"
+        ],
+        "other_options": [
+            "torque",
+            "angular momentum",
+            "angular velocity"
+        ]
     },
     {
         "q": "Match the following rotational quantities with their linear analogs:",
         "type": "match",
-        "left": ["Torque", "Angular momentum", "Moment of inertia"],
-        "right": ["Force", "Momentum", "Mass"]
+        "left": [
+            "Torque",
+            "Angular momentum",
+            "Moment of inertia"
+        ],
+        "right": [
+            "Force",
+            "Momentum",
+            "Mass"
+        ]
     },
     {
         "q": "For a given torque, a larger moment of inertia results in a smaller angular acceleration.",
@@ -4823,13 +6040,27 @@
     {
         "q": "The product of a force and the perpendicular distance to the pivot point is called ______.",
         "type": "fill_blank",
-        "answers": ["torque"],
-        "other_options": ["work", "momentum", "impulse"]
+        "answers": [
+            "torque"
+        ],
+        "other_options": [
+            "work",
+            "momentum",
+            "impulse"
+        ]
     },
     {
         "q": "Rearrange the words to state the condition for rolling without slipping:",
         "type": "rearrange",
-        "words": ["Linear", "velocity", "equals", "angular", "velocity", "times", "radius"]
+        "words": [
+            "Linear",
+            "velocity",
+            "equals",
+            "angular",
+            "velocity",
+            "times",
+            "radius"
+        ]
     },
     {
         "q": "A sphere and a hoop of the same mass and radius released down an incline will reach the bottom at different times.",
@@ -4849,8 +6080,14 @@
     {
         "q": "For a given angular momentum, kinetic energy is ______ when moment of inertia is smallest.",
         "type": "fill_blank",
-        "answers": ["greatest"],
-        "other_options": ["smallest", "constant", "zero"]
+        "answers": [
+            "greatest"
+        ],
+        "other_options": [
+            "smallest",
+            "constant",
+            "zero"
+        ]
     },
     {
         "q": "A figure skater pulls in their arms during a spin. This demonstrates conservation of:",
@@ -4865,13 +6102,32 @@
     {
         "q": "The work done by a torque τ through an angular displacement θ is ______.",
         "type": "fill_blank",
-        "answers": ["τθ"],
-        "other_options": ["τ/θ", "τ²θ", "τθ²"]
+        "answers": [
+            "τθ"
+        ],
+        "other_options": [
+            "τ/θ",
+            "τ²θ",
+            "τθ²"
+        ]
     },
     {
         "q": "Rearrange the words to describe precession:",
         "type": "rearrange",
-        "words": ["The", "slow", "circular", "motion", "of", "the", "rotation", "axis", "of", "a", "spinning", "body"]
+        "words": [
+            "The",
+            "slow",
+            "circular",
+            "motion",
+            "of",
+            "the",
+            "rotation",
+            "axis",
+            "of",
+            "a",
+            "spinning",
+            "body"
+        ]
     },
     {
         "q": "The center of percussion is the point where an impulse produces no reaction force at the pivot.",
@@ -4901,8 +6157,14 @@
     {
         "q": "The Coriolis force acts ______ to the velocity of a moving object in a rotating frame.",
         "type": "fill_blank",
-        "answers": ["perpendicular"],
-        "other_options": ["parallel", "opposite", "at 45 degrees"]
+        "answers": [
+            "perpendicular"
+        ],
+        "other_options": [
+            "parallel",
+            "opposite",
+            "at 45 degrees"
+        ]
     },
     {
         "q": "A mass oscillates in 1D with potential energy U(x) = ½kx². The force law is:",
@@ -4917,7 +6179,15 @@
     {
         "q": "Rearrange the words to describe a conservative force:",
         "type": "rearrange",
-        "words": ["Work", "done", "is", "independent", "of", "path", "taken"]
+        "words": [
+            "Work",
+            "done",
+            "is",
+            "independent",
+            "of",
+            "path",
+            "taken"
+        ]
     },
     {
         "q": "The effective value of g is zero at the center of the Earth.",
@@ -4937,14 +6207,28 @@
     {
         "q": "The reduced mass μ for two bodies m₁ and m₂ is given by ______.",
         "type": "fill_blank",
-        "answers": ["m₁m₂/(m₁+m₂)"],
-        "other_options": ["m₁+m₂", "m₁m₂", "(m₁+m₂)/m₁m₂"]
+        "answers": [
+            "m₁m₂/(m₁+m₂)"
+        ],
+        "other_options": [
+            "m₁+m₂",
+            "m₁m₂",
+            "(m₁+m₂)/m₁m₂"
+        ]
     },
     {
         "q": "Match the following oscillatory systems with their restoring forces:",
         "type": "match",
-        "left": ["Simple pendulum", "Spring-mass", "Physical pendulum"],
-        "right": ["Gravity component", "Spring force", "Torque due to gravity"]
+        "left": [
+            "Simple pendulum",
+            "Spring-mass",
+            "Physical pendulum"
+        ],
+        "right": [
+            "Gravity component",
+            "Spring force",
+            "Torque due to gravity"
+        ]
     },
     {
         "q": "All central forces are conservative.",
@@ -4964,13 +6248,27 @@
     {
         "q": "For a damped harmonic oscillator, critical damping occurs when the damping coefficient γ = ______.",
         "type": "fill_blank",
-        "answers": ["2ω₀"],
-        "other_options": ["ω₀", "½ω₀", "ω₀²"]
+        "answers": [
+            "2ω₀"
+        ],
+        "other_options": [
+            "ω₀",
+            "½ω₀",
+            "ω₀²"
+        ]
     },
     {
         "q": "Rearrange the words to state the principle of least action:",
         "type": "rearrange",
-        "words": ["The", "path", "taken", "minimizes", "the", "action", "integral"]
+        "words": [
+            "The",
+            "path",
+            "taken",
+            "minimizes",
+            "the",
+            "action",
+            "integral"
+        ]
     },
     {
         "q": "A cyclotron requires a magnetic field that increases with particle energy.",
@@ -4990,8 +6288,14 @@
     {
         "q": "In Hamiltonian mechanics, the equations of motion are expressed in terms of ______ and momenta.",
         "type": "fill_blank",
-        "answers": ["coordinates"],
-        "other_options": ["velocities", "accelerations", "energies"]
+        "answers": [
+            "coordinates"
+        ],
+        "other_options": [
+            "velocities",
+            "accelerations",
+            "energies"
+        ]
     },
     {
         "q": "A mass m moves in a potential V(x) = ax⁴. The period of small oscillations:",
@@ -5006,13 +6310,29 @@
     {
         "q": "The virial theorem for bound gravitational systems relates average kinetic and ______ energies.",
         "type": "fill_blank",
-        "answers": ["potential"],
-        "other_options": ["thermal", "rotational", "spring"]
+        "answers": [
+            "potential"
+        ],
+        "other_options": [
+            "thermal",
+            "rotational",
+            "spring"
+        ]
     },
     {
         "q": "Rearrange the words to describe a driven harmonic oscillator at resonance:",
         "type": "rearrange",
-        "words": ["Amplitude", "is", "maximum", "when", "driving", "frequency", "equals", "natural", "frequency"]
+        "words": [
+            "Amplitude",
+            "is",
+            "maximum",
+            "when",
+            "driving",
+            "frequency",
+            "equals",
+            "natural",
+            "frequency"
+        ]
     },
     {
         "q": "The Foucault pendulum demonstrates the rotation of the Earth.",
@@ -5042,8 +6362,14 @@
     {
         "q": "The Poisson bracket {q, p} for canonical coordinates equals ______.",
         "type": "fill_blank",
-        "answers": ["1"],
-        "other_options": ["0", "q", "p"]
+        "answers": [
+            "1"
+        ],
+        "other_options": [
+            "0",
+            "q",
+            "p"
+        ]
     },
     {
         "q": "A rheonomic constraint explicitly depends on:",
@@ -5058,7 +6384,18 @@
     {
         "q": "Rearrange the words to define a cyclic coordinate:",
         "type": "rearrange",
-        "words": ["A", "coordinate", "that", "does", "not", "appear", "explicitly", "in", "the", "Lagrangian"]
+        "words": [
+            "A",
+            "coordinate",
+            "that",
+            "does",
+            "not",
+            "appear",
+            "explicitly",
+            "in",
+            "the",
+            "Lagrangian"
+        ]
     },
     {
         "q": "D'Alembert's principle allows applying the methods of statics to dynamics problems.",
@@ -5078,14 +6415,28 @@
     {
         "q": "The Hamilton-Jacobi equation is a partial differential equation for the ______ function.",
         "type": "fill_blank",
-        "answers": ["action"],
-        "other_options": ["Lagrangian", "Hamiltonian", "potential"]
+        "answers": [
+            "action"
+        ],
+        "other_options": [
+            "Lagrangian",
+            "Hamiltonian",
+            "potential"
+        ]
     },
     {
         "q": "Match the following mechanics formulations with their fundamental quantities:",
         "type": "match",
-        "left": ["Newtonian", "Lagrangian", "Hamiltonian"],
-        "right": ["Forces", "Energy (T-V)", "Canonical variables"]
+        "left": [
+            "Newtonian",
+            "Lagrangian",
+            "Hamiltonian"
+        ],
+        "right": [
+            "Forces",
+            "Energy (T-V)",
+            "Canonical variables"
+        ]
     },
     {
         "q": "All scleronomic constraints are necessarily holonomic.",
@@ -5105,13 +6456,28 @@
     {
         "q": "For small oscillations about stable equilibrium, the normal modes are found by solving the ______ equation.",
         "type": "fill_blank",
-        "answers": ["secular"],
-        "other_options": ["characteristic", "Hamilton", "Lagrange"]
+        "answers": [
+            "secular"
+        ],
+        "other_options": [
+            "characteristic",
+            "Hamilton",
+            "Lagrange"
+        ]
     },
     {
         "q": "Rearrange the words to describe Liouville's theorem:",
         "type": "rearrange",
-        "words": ["Phase", "space", "volume", "is", "conserved", "for", "Hamiltonian", "systems"]
+        "words": [
+            "Phase",
+            "space",
+            "volume",
+            "is",
+            "conserved",
+            "for",
+            "Hamiltonian",
+            "systems"
+        ]
     },
     {
         "q": "The Routhian function is useful for separating cyclic and non-cyclic coordinates.",
@@ -5131,8 +6497,14 @@
     {
         "q": "The ______ tensor relates generalized forces to generalized accelerations in Lagrangian mechanics.",
         "type": "fill_blank",
-        "answers": ["mass"],
-        "other_options": ["metric", "inertia", "force"]
+        "answers": [
+            "mass"
+        ],
+        "other_options": [
+            "metric",
+            "inertia",
+            "force"
+        ]
     },
     {
         "q": "A system with n degrees of freedom has how many second-order Lagrange equations?",
@@ -5147,13 +6519,26 @@
     {
         "q": "The action integral has dimensions of ______ times time.",
         "type": "fill_blank",
-        "answers": ["energy"],
-        "other_options": ["momentum", "force", "power"]
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "momentum",
+            "force",
+            "power"
+        ]
     },
     {
         "q": "Rearrange the words to state Noether's theorem:",
         "type": "rearrange",
-        "words": ["Continuous", "symmetry", "implies", "a", "conservation", "law"]
+        "words": [
+            "Continuous",
+            "symmetry",
+            "implies",
+            "a",
+            "conservation",
+            "law"
+        ]
     },
     {
         "q": "The Hamilton equations preserve the symplectic structure of phase space.",
@@ -5183,8 +6568,14 @@
     {
         "q": "The Navier-Stokes equation describes the motion of ______ fluids.",
         "type": "fill_blank",
-        "answers": ["viscous"],
-        "other_options": ["ideal", "compressible", "inviscid"]
+        "answers": [
+            "viscous"
+        ],
+        "other_options": [
+            "ideal",
+            "compressible",
+            "inviscid"
+        ]
     },
     {
         "q": "For a perfectly plastic collision, the coefficient of restitution is:",
@@ -5199,7 +6590,18 @@
     {
         "q": "Rearrange the words to state the Kelvin circulation theorem:",
         "type": "rearrange",
-        "words": ["Circulation", "around", "a", "closed", "curve", "is", "constant", "for", "inviscid", "flow"]
+        "words": [
+            "Circulation",
+            "around",
+            "a",
+            "closed",
+            "curve",
+            "is",
+            "constant",
+            "for",
+            "inviscid",
+            "flow"
+        ]
     },
     {
         "q": "The Reynolds number compares inertial forces to viscous forces.",
@@ -5219,14 +6621,28 @@
     {
         "q": "The four-momentum in relativity combines energy and ______ into one vector.",
         "type": "fill_blank",
-        "answers": ["momentum"],
-        "other_options": ["force", "velocity", "mass"]
+        "answers": [
+            "momentum"
+        ],
+        "other_options": [
+            "force",
+            "velocity",
+            "mass"
+        ]
     },
     {
         "q": "Match the following fluid flow types with their descriptions:",
         "type": "match",
-        "left": ["Laminar flow", "Turbulent flow", "Steady flow"],
-        "right": ["Smooth, ordered layers", "Chaotic, mixing motion", "Properties constant at each point"]
+        "left": [
+            "Laminar flow",
+            "Turbulent flow",
+            "Steady flow"
+        ],
+        "right": [
+            "Smooth, ordered layers",
+            "Chaotic, mixing motion",
+            "Properties constant at each point"
+        ]
     },
     {
         "q": "The stress-energy tensor in general relativity has 10 independent components.",
@@ -5246,13 +6662,27 @@
     {
         "q": "Bernoulli's equation applies along a ______ for inviscid, incompressible flow.",
         "type": "fill_blank",
-        "answers": ["streamline"],
-        "other_options": ["pathline", "streakline", "any path"]
+        "answers": [
+            "streamline"
+        ],
+        "other_options": [
+            "pathline",
+            "streakline",
+            "any path"
+        ]
     },
     {
         "q": "Rearrange the words to describe the equivalence principle:",
         "type": "rearrange",
-        "words": ["Gravitational", "effects", "are", "locally", "indistinguishable", "from", "acceleration"]
+        "words": [
+            "Gravitational",
+            "effects",
+            "are",
+            "locally",
+            "indistinguishable",
+            "from",
+            "acceleration"
+        ]
     },
     {
         "q": "The Lorentz factor γ goes to infinity as velocity approaches c.",
@@ -5272,8 +6702,14 @@
     {
         "q": "The geodesic equation describes the motion of ______ particles in general relativity.",
         "type": "fill_blank",
-        "answers": ["test"],
-        "other_options": ["charged", "massive", "all"]
+        "answers": [
+            "test"
+        ],
+        "other_options": [
+            "charged",
+            "massive",
+            "all"
+        ]
     },
     {
         "q": "For a relativistic rocket with constant proper acceleration, the onboard time to reach a star:",
@@ -5288,13 +6724,28 @@
     {
         "q": "The ______ number characterizes compressibility effects in fluid flow.",
         "type": "fill_blank",
-        "answers": ["Mach"],
-        "other_options": ["Reynolds", "Froude", "Prandtl"]
+        "answers": [
+            "Mach"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Froude",
+            "Prandtl"
+        ]
     },
     {
         "q": "Rearrange the words to describe time dilation:",
         "type": "rearrange",
-        "words": ["Moving", "clocks", "run", "slow", "compared", "to", "rest", "clocks"]
+        "words": [
+            "Moving",
+            "clocks",
+            "run",
+            "slow",
+            "compared",
+            "to",
+            "rest",
+            "clocks"
+        ]
     },
     {
         "q": "The stress tensor is always symmetric in the absence of body torques.",
@@ -5324,8 +6775,14 @@
     {
         "q": "The Jacobi integral is conserved in the ______ restricted three-body problem.",
         "type": "fill_blank",
-        "answers": ["circular"],
-        "other_options": ["elliptical", "general", "planar"]
+        "answers": [
+            "circular"
+        ],
+        "other_options": [
+            "elliptical",
+            "general",
+            "planar"
+        ]
     },
     {
         "q": "For a non-holonomic system, the constraints involve:",
@@ -5340,7 +6797,20 @@
     {
         "q": "Rearrange the words to define the virial theorem:",
         "type": "rearrange",
-        "words": ["Time", "average", "of", "kinetic", "energy", "equals", "-½", "times", "average", "of", "potential", "energy"]
+        "words": [
+            "Time",
+            "average",
+            "of",
+            "kinetic",
+            "energy",
+            "equals",
+            "-½",
+            "times",
+            "average",
+            "of",
+            "potential",
+            "energy"
+        ]
     },
     {
         "q": "Appell's equations use the energy of acceleration as their fundamental function.",
@@ -5360,14 +6830,28 @@
     {
         "q": "In the Gibbs-Appell formulation, the ______ function plays a role analogous to the Lagrangian.",
         "type": "fill_blank",
-        "answers": ["acceleration energy"],
-        "other_options": ["constraint", "dissipation", "potential"]
+        "answers": [
+            "acceleration energy"
+        ],
+        "other_options": [
+            "constraint",
+            "dissipation",
+            "potential"
+        ]
     },
     {
         "q": "Match the following variational principles with their functions:",
         "type": "match",
-        "left": ["Hamilton's Principle", "Maupertuis' Principle", "Gauss' Principle"],
-        "right": ["Action integral", "Reduced action", "Constraint function"]
+        "left": [
+            "Hamilton's Principle",
+            "Maupertuis' Principle",
+            "Gauss' Principle"
+        ],
+        "right": [
+            "Action integral",
+            "Reduced action",
+            "Constraint function"
+        ]
     },
     {
         "q": "The Hertz principle of least curvature applies to conservative holonomic systems.",
@@ -5387,13 +6871,28 @@
     {
         "q": "The ______ bracket generalizes the Poisson bracket for non-conservative systems.",
         "type": "fill_blank",
-        "answers": ["Nambu"],
-        "other_options": ["Lagrange", "Jacobi", "Dirac"]
+        "answers": [
+            "Nambu"
+        ],
+        "other_options": [
+            "Lagrange",
+            "Jacobi",
+            "Dirac"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of a gauge transformation:",
         "type": "rearrange",
-        "words": ["Transformation", "that", "does", "not", "change", "the", "physical", "state"]
+        "words": [
+            "Transformation",
+            "that",
+            "does",
+            "not",
+            "change",
+            "the",
+            "physical",
+            "state"
+        ]
     },
     {
         "q": "The Vlasov equation describes the evolution of a distribution function in phase space.",
@@ -5413,8 +6912,14 @@
     {
         "q": "The ______ equations describe rigid body rotation using Euler angles.",
         "type": "fill_blank",
-        "answers": ["Euler's"],
-        "other_options": ["Lagrange's", "Hamilton's", "Newton's"]
+        "answers": [
+            "Euler's"
+        ],
+        "other_options": [
+            "Lagrange's",
+            "Hamilton's",
+            "Newton's"
+        ]
     },
     {
         "q": "For a charged particle in electromagnetic fields, the canonical momentum includes:",
@@ -5429,13 +6934,28 @@
     {
         "q": "The Lie-Poisson bracket preserves the ______ structure for rigid body dynamics.",
         "type": "fill_blank",
-        "answers": ["symplectic"],
-        "other_options": ["algebraic", "geometric", "topological"]
+        "answers": [
+            "symplectic"
+        ],
+        "other_options": [
+            "algebraic",
+            "geometric",
+            "topological"
+        ]
     },
     {
         "q": "Rearrange the words to describe adiabatic invariance:",
         "type": "rearrange",
-        "words": ["Quantity", "that", "remains", "constant", "when", "parameters", "change", "slowly"]
+        "words": [
+            "Quantity",
+            "that",
+            "remains",
+            "constant",
+            "when",
+            "parameters",
+            "change",
+            "slowly"
+        ]
     },
     {
         "q": "The Chaplygin sleigh is an example of a non-holonomic system with an integrable reduced dynamics.",
@@ -5465,8 +6985,14 @@
     {
         "q": "The Weiss variation principle extends Hamilton's principle to include ______ variations.",
         "type": "fill_blank",
-        "answers": ["non-holonomic"],
-        "other_options": ["holonomic", "rheonomic", "scleronomic"]
+        "answers": [
+            "non-holonomic"
+        ],
+        "other_options": [
+            "holonomic",
+            "rheonomic",
+            "scleronomic"
+        ]
     },
     {
         "q": "For a system with symmetry, the reduced phase space is obtained by:",
@@ -5481,7 +7007,14 @@
     {
         "q": "Rearrange the words to describe the concept of a Dirac bracket:",
         "type": "rearrange",
-        "words": ["Modified", "Poisson", "bracket", "for", "constrained", "systems"]
+        "words": [
+            "Modified",
+            "Poisson",
+            "bracket",
+            "for",
+            "constrained",
+            "systems"
+        ]
     },
     {
         "q": "The Maslov index counts the number of conjugate points along a trajectory.",
@@ -5501,14 +7034,28 @@
     {
         "q": "The ______ tensor characterizes the anholonomy of non-holonomic constraints.",
         "type": "fill_blank",
-        "answers": ["curvature"],
-        "other_options": ["torsion", "metric", "stress"]
+        "answers": [
+            "curvature"
+        ],
+        "other_options": [
+            "torsion",
+            "metric",
+            "stress"
+        ]
     },
     {
         "q": "Match the following geometric structures with their descriptions:",
         "type": "match",
-        "left": ["Symplectic manifold", "Contact manifold", "Poisson manifold"],
-        "right": ["Closed non-degenerate 2-form", "Odd-dimensional with contact form", "Lie bracket on functions"]
+        "left": [
+            "Symplectic manifold",
+            "Contact manifold",
+            "Poisson manifold"
+        ],
+        "right": [
+            "Closed non-degenerate 2-form",
+            "Odd-dimensional with contact form",
+            "Lie bracket on functions"
+        ]
     },
     {
         "q": "The Moser trick proves the Darboux theorem for symplectic forms.",
@@ -5528,13 +7075,27 @@
     {
         "q": "The ______ theorem relates closed forms to exact forms on contractible spaces.",
         "type": "fill_blank",
-        "answers": ["Poincaré"],
-        "other_options": ["Noether", "Darboux", "Liouville"]
+        "answers": [
+            "Poincaré"
+        ],
+        "other_options": [
+            "Noether",
+            "Darboux",
+            "Liouville"
+        ]
     },
     {
         "q": "Rearrange the words to describe the Kolmogorov-Arnold-Moser theorem:",
         "type": "rearrange",
-        "words": ["Persistance", "of", "quasiperiodic", "motion", "under", "small", "perturbations"]
+        "words": [
+            "Persistance",
+            "of",
+            "quasiperiodic",
+            "motion",
+            "under",
+            "small",
+            "perturbations"
+        ]
     },
     {
         "q": "A bi-Hamiltonian system possesses two compatible Poisson structures.",
@@ -5554,8 +7115,14 @@
     {
         "q": "The ______ index theorem relates analytical and topological data for Dirac operators.",
         "type": "fill_blank",
-        "answers": ["Atiyah-Singer"],
-        "other_options": ["Gauss-Bonnet", "Riemann-Roch", "Hodge"]
+        "answers": [
+            "Atiyah-Singer"
+        ],
+        "other_options": [
+            "Gauss-Bonnet",
+            "Riemann-Roch",
+            "Hodge"
+        ]
     },
     {
         "q": "In geometric quantization, the prequantization line bundle has curvature proportional to the:",
@@ -5570,13 +7137,27 @@
     {
         "q": "The ______ complex computes the cohomology of Poisson manifolds.",
         "type": "fill_blank",
-        "answers": ["Poisson"],
-        "other_options": ["de Rham", "Dolbeault", "Čech"]
+        "answers": [
+            "Poisson"
+        ],
+        "other_options": [
+            "de Rham",
+            "Dolbeault",
+            "Čech"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of a moment map:",
         "type": "rearrange",
-        "words": ["Map", "generating", "symmetry", "actions", "on", "phase", "space"]
+        "words": [
+            "Map",
+            "generating",
+            "symmetry",
+            "actions",
+            "on",
+            "phase",
+            "space"
+        ]
     },
     {
         "q": "The Arnold conjecture concerns the number of fixed points of Hamiltonian diffeomorphisms.",
@@ -5606,8 +7187,14 @@
     {
         "q": "The Melnikov method detects the splitting of ______ manifolds under perturbation.",
         "type": "fill_blank",
-        "answers": ["separatrix"],
-        "other_options": ["stable", "unstable", "homoclinic"]
+        "answers": [
+            "separatrix"
+        ],
+        "other_options": [
+            "stable",
+            "unstable",
+            "homoclinic"
+        ]
     },
     {
         "q": "For a Hamiltonian system with n degrees of freedom, complete integrability requires n:",
@@ -5622,7 +7209,13 @@
     {
         "q": "Rearrange the words to describe the Painlevé property:",
         "type": "rearrange",
-        "words": ["Movable", "singularities", "are", "only", "poles"]
+        "words": [
+            "Movable",
+            "singularities",
+            "are",
+            "only",
+            "poles"
+        ]
     },
     {
         "q": "The Kowalevski top is characterized by an extra quartic integral of motion.",
@@ -5642,14 +7235,28 @@
     {
         "q": "The ______ bracket generalizes Poisson brackets for non-commutative algebras.",
         "type": "fill_blank",
-        "answers": ["Moyal"],
-        "other_options": ["Dirac", "Nambu", "Lagrange"]
+        "answers": [
+            "Moyal"
+        ],
+        "other_options": [
+            "Dirac",
+            "Nambu",
+            "Lagrange"
+        ]
     },
     {
         "q": "Match the following soliton equations with their characteristics:",
         "type": "match",
-        "left": ["KdV equation", "Nonlinear Schrödinger", "Sine-Gordon equation"],
-        "right": ["Shallow water waves", "Optical pulses", "Relativistic field theory"]
+        "left": [
+            "KdV equation",
+            "Nonlinear Schrödinger",
+            "Sine-Gordon equation"
+        ],
+        "right": [
+            "Shallow water waves",
+            "Optical pulses",
+            "Relativistic field theory"
+        ]
     },
     {
         "q": "The Bäcklund transformation generates new solutions from known ones.",
@@ -5669,13 +7276,26 @@
     {
         "q": "The ______ invariant distinguishes different topological phases of matter.",
         "type": "fill_blank",
-        "answers": ["Chern"],
-        "other_options": ["Maslov", "Berry", "Morse"]
+        "answers": [
+            "Chern"
+        ],
+        "other_options": [
+            "Maslov",
+            "Berry",
+            "Morse"
+        ]
     },
     {
         "q": "Rearrange the words to describe Berry's phase:",
         "type": "rearrange",
-        "words": ["Geometric", "phase", "from", "cyclic", "adiabatic", "evolution"]
+        "words": [
+            "Geometric",
+            "phase",
+            "from",
+            "cyclic",
+            "adiabatic",
+            "evolution"
+        ]
     },
     {
         "q": "The Bogomol'nyi-Prasad-Sommerfield bound is saturated by self-dual solitons.",
@@ -5695,8 +7315,14 @@
     {
         "q": "The ______ index counts zero modes in Dirac operators.",
         "type": "fill_blank",
-        "answers": ["analytical"],
-        "other_options": ["topological", "geometric", "symplectic"]
+        "answers": [
+            "analytical"
+        ],
+        "other_options": [
+            "topological",
+            "geometric",
+            "symplectic"
+        ]
     },
     {
         "q": "For a mechanical system with dissipation, the quality factor Q is proportional to:",
@@ -5711,13 +7337,27 @@
     {
         "q": "The ______ effect describes symmetry breaking in stochastic systems.",
         "type": "fill_blank",
-        "answers": ["Kramers"],
-        "other_options": ["Berry", "Aharonov-Bohm", "Casimir"]
+        "answers": [
+            "Kramers"
+        ],
+        "other_options": [
+            "Berry",
+            "Aharonov-Bohm",
+            "Casimir"
+        ]
     },
     {
         "q": "Rearrange the words to describe the Floquet theorem:",
         "type": "rearrange",
-        "words": ["Solutions", "of", "periodic", "linear", "systems", "are", "quasiperiodic"]
+        "words": [
+            "Solutions",
+            "of",
+            "periodic",
+            "linear",
+            "systems",
+            "are",
+            "quasiperiodic"
+        ]
     },
     {
         "q": "The Lyapunov exponent measures the rate of divergence of nearby trajectories.",
@@ -5747,8 +7387,16 @@
     {
         "q": "The Witten index counts the difference between the number of ______ and ______ supersymmetric ground states.",
         "type": "fill_blank",
-        "answers": ["bosonic", "fermionic"],
-        "other_options": ["stable", "unstable", "symmetric", "asymmetric"]
+        "answers": [
+            "bosonic",
+            "fermionic"
+        ],
+        "other_options": [
+            "stable",
+            "unstable",
+            "symmetric",
+            "asymmetric"
+        ]
     },
     {
         "q": "For a system with shape space SO(3), the number of rotational degrees of freedom is:",
@@ -5763,7 +7411,16 @@
     {
         "q": "Rearrange the words to describe the Jellett invariant:",
         "type": "rearrange",
-        "words": ["Conserved", "quantity", "for", "rolling", "ball", "on", "rotating", "surface"]
+        "words": [
+            "Conserved",
+            "quantity",
+            "for",
+            "rolling",
+            "ball",
+            "on",
+            "rotating",
+            "surface"
+        ]
     },
     {
         "q": "The Routh reduction procedure separates cyclic and non-cyclic coordinates.",
@@ -5783,14 +7440,28 @@
     {
         "q": "The ______ equations describe the dynamics of a rigid body in a fluid.",
         "type": "fill_blank",
-        "answers": ["Kirchhoff"],
-        "other_options": ["Navier-Stokes", "Euler", "Lagrange"]
+        "answers": [
+            "Kirchhoff"
+        ],
+        "other_options": [
+            "Navier-Stokes",
+            "Euler",
+            "Lagrange"
+        ]
     },
     {
         "q": "Match the following mechanical systems with their constraint types:",
         "type": "match",
-        "left": ["Ice skate", "Rolling wheel", "Vertical disk"],
-        "right": ["Nonholonomic", "Nonholonomic", "Holonomic"]
+        "left": [
+            "Ice skate",
+            "Rolling wheel",
+            "Vertical disk"
+        ],
+        "right": [
+            "Nonholonomic",
+            "Nonholonomic",
+            "Holonomic"
+        ]
     },
     {
         "q": "The Suslov problem involves a rigid body with a nonholonomic constraint on angular velocity.",
@@ -5810,13 +7481,25 @@
     {
         "q": "The ______ number characterizes the non-integrability of a distribution.",
         "type": "fill_blank",
-        "answers": ["step"],
-        "other_options": ["rank", "degree", "order"]
+        "answers": [
+            "step"
+        ],
+        "other_options": [
+            "rank",
+            "degree",
+            "order"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of a vakonomic system:",
         "type": "rearrange",
-        "words": ["Variational", "approach", "to", "constrained", "dynamics"]
+        "words": [
+            "Variational",
+            "approach",
+            "to",
+            "constrained",
+            "dynamics"
+        ]
     },
     {
         "q": "The Carathéodory-Chaplygin sleigh exhibits Hamiltonian dynamics on a reduced space.",
@@ -5836,8 +7519,14 @@
     {
         "q": "The ______ form appears in the reconstruction of dynamics from reduced space.",
         "type": "fill_blank",
-        "answers": ["connection"],
-        "other_options": ["symplectic", "Poisson", "metric"]
+        "answers": [
+            "connection"
+        ],
+        "other_options": [
+            "symplectic",
+            "Poisson",
+            "metric"
+        ]
     },
     {
         "q": "In the Veselova system, the constraint involves the angular velocity and a:",
@@ -5852,13 +7541,26 @@
     {
         "q": "The ______ tensor measures the failure of constraints to be holonomic.",
         "type": "fill_blank",
-        "answers": ["curvature"],
-        "other_options": ["torsion", "metric", "symplectic"]
+        "answers": [
+            "curvature"
+        ],
+        "other_options": [
+            "torsion",
+            "metric",
+            "symplectic"
+        ]
     },
     {
         "q": "Rearrange the words to describe the Lagrange-d'Alembert principle:",
         "type": "rearrange",
-        "words": ["Virtual", "work", "vanishes", "for", "allowed", "variations"]
+        "words": [
+            "Virtual",
+            "work",
+            "vanishes",
+            "for",
+            "allowed",
+            "variations"
+        ]
     },
     {
         "q": "The nonholonomic momentum equation generalizes the Euler-Poincaré equations.",
@@ -5888,8 +7590,14 @@
     {
         "q": "The ______ oscillator exhibits dynamics governed by fractional calculus.",
         "type": "fill_blank",
-        "answers": ["Bagley-Torvik"],
-        "other_options": ["Van der Pol", "Duffing", "Harmonic"]
+        "answers": [
+            "Bagley-Torvik"
+        ],
+        "other_options": [
+            "Van der Pol",
+            "Duffing",
+            "Harmonic"
+        ]
     },
     {
         "q": "In stochastic thermodynamics, the Hatano-Sasa relation generalizes the second law for:",
@@ -5904,7 +7612,14 @@
     {
         "q": "Rearrange the words to describe the Jarzynski equality:",
         "type": "rearrange",
-        "words": ["Free", "energy", "difference", "from", "nonequilibrium", "work"]
+        "words": [
+            "Free",
+            "energy",
+            "difference",
+            "from",
+            "nonequilibrium",
+            "work"
+        ]
     },
     {
         "q": "The Crooks fluctuation theorem relates forward and reverse work distributions.",
@@ -5924,14 +7639,28 @@
     {
         "q": "The ______ number characterizes activity in self-propelled particles.",
         "type": "fill_blank",
-        "answers": ["Péclet"],
-        "other_options": ["Reynolds", "Mach", "Grashof"]
+        "answers": [
+            "Péclet"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Mach",
+            "Grashof"
+        ]
     },
     {
         "q": "Match the following non-equilibrium systems with their characteristic phenomena:",
         "type": "match",
-        "left": ["Active nematics", "Granular gases", "Sheared suspensions"],
-        "right": ["Spontaneous flow", "Hysteresis", "Shear thickening"]
+        "left": [
+            "Active nematics",
+            "Granular gases",
+            "Sheared suspensions"
+        ],
+        "right": [
+            "Spontaneous flow",
+            "Hysteresis",
+            "Shear thickening"
+        ]
     },
     {
         "q": "The Mpemba effect describes hot water freezing faster than cold water.",
@@ -5951,13 +7680,27 @@
     {
         "q": "The ______ tensor describes odd viscosity in active fluids.",
         "type": "fill_blank",
-        "answers": ["viscosity"],
-        "other_options": ["stress", "strain", "elasticity"]
+        "answers": [
+            "viscosity"
+        ],
+        "other_options": [
+            "stress",
+            "strain",
+            "elasticity"
+        ]
     },
     {
         "q": "Rearrange the words to describe topological protection in mechanical systems:",
         "type": "rearrange",
-        "words": ["Robust", "edge", "states", "protected", "by", "topological", "invariants"]
+        "words": [
+            "Robust",
+            "edge",
+            "states",
+            "protected",
+            "by",
+            "topological",
+            "invariants"
+        ]
     },
     {
         "q": "The Maxwell-Cattaneo equation modifies Fourier's law for heat conduction.",
@@ -5977,8 +7720,14 @@
     {
         "q": "The ______ length characterizes polymer flexibility.",
         "type": "fill_blank",
-        "answers": ["persistence"],
-        "other_options": ["correlation", "Debye", "Kuhn"]
+        "answers": [
+            "persistence"
+        ],
+        "other_options": [
+            "correlation",
+            "Debye",
+            "Kuhn"
+        ]
     },
     {
         "q": "For a system with memory, the constitutive relation involves:",
@@ -5993,13 +7742,27 @@
     {
         "q": "The ______ effect describes stress-induced diffusion in solids.",
         "type": "fill_blank",
-        "answers": ["Soret"],
-        "other_options": ["Thomson", "Peltier", "Seebeck"]
+        "answers": [
+            "Soret"
+        ],
+        "other_options": [
+            "Thomson",
+            "Peltier",
+            "Seebeck"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of mechanochemistry:",
         "type": "rearrange",
-        "words": ["Coupling", "between", "mechanical", "forces", "and", "chemical", "reactions"]
+        "words": [
+            "Coupling",
+            "between",
+            "mechanical",
+            "forces",
+            "and",
+            "chemical",
+            "reactions"
+        ]
     },
     {
         "q": "The Flory-Huggins theory describes polymer solutions.",
@@ -6029,8 +7792,14 @@
     {
         "q": "The motion of a variable-mass system, like a rocket, is described by the ______ equation.",
         "type": "fill_blank",
-        "answers": ["Tsiolkovsky rocket"],
-        "other_options": ["Lagrange", "Navier-Stokes", "Bernoulli"]
+        "answers": [
+            "Tsiolkovsky rocket"
+        ],
+        "other_options": [
+            "Lagrange",
+            "Navier-Stokes",
+            "Bernoulli"
+        ]
     },
     {
         "q": "In a rotating frame, the centrifugal force on a particle is directed:",
@@ -6045,7 +7814,20 @@
     {
         "q": "Rearrange the words to form the correct statement about kinetic energy:",
         "type": "rearrange",
-        "words": ["Kinetic", "energy", "is", "frame-dependent", "but", "energy", "conservation", "holds", "in", "all", "inertial", "frames"]
+        "words": [
+            "Kinetic",
+            "energy",
+            "is",
+            "frame-dependent",
+            "but",
+            "energy",
+            "conservation",
+            "holds",
+            "in",
+            "all",
+            "inertial",
+            "frames"
+        ]
     },
     {
         "q": "The effective potential in central force motion includes a centrifugal barrier term.",
@@ -6065,14 +7847,28 @@
     {
         "q": "The principle of ______ states that the equations of motion are invariant under a shift in the zero of potential energy.",
         "type": "fill_blank",
-        "answers": ["Galilean invariance"],
-        "other_options": ["energy conservation", "relativity", "superposition"]
+        "answers": [
+            "Galilean invariance"
+        ],
+        "other_options": [
+            "energy conservation",
+            "relativity",
+            "superposition"
+        ]
     },
     {
         "q": "Match the following oscillators with their characteristic frequency dependence:",
         "type": "match",
-        "left": ["Simple pendulum", "Spring-mass", "Conical pendulum"],
-        "right": ["Independent of mass", "Independent of gravity", "Independent of string length"]
+        "left": [
+            "Simple pendulum",
+            "Spring-mass",
+            "Conical pendulum"
+        ],
+        "right": [
+            "Independent of mass",
+            "Independent of gravity",
+            "Independent of string length"
+        ]
     },
     {
         "q": "The tension in the string of a simple pendulum is maximum at the bottom of its swing.",
@@ -6092,13 +7888,25 @@
     {
         "q": "The ______ paradox highlights the apparent violation of energy conservation in variable-mass systems when analyzed naively.",
         "type": "fill_blank",
-        "answers": ["chain fountain"],
-        "other_options": ["rocket", "belt", "pulley"]
+        "answers": [
+            "chain fountain"
+        ],
+        "other_options": [
+            "rocket",
+            "belt",
+            "pulley"
+        ]
     },
     {
         "q": "Rearrange the words to describe the condition for stable circular orbit in central force motion:",
         "type": "rearrange",
-        "words": ["Effective", "potential", "has", "a", "minimum"]
+        "words": [
+            "Effective",
+            "potential",
+            "has",
+            "a",
+            "minimum"
+        ]
     },
     {
         "q": "A gyroscope precesses because the gravitational torque changes its angular momentum direction, not its magnitude.",
@@ -6118,8 +7926,14 @@
     {
         "q": "The ______ force is a fictitious force that acts perpendicular to the velocity in a rotating frame.",
         "type": "fill_blank",
-        "answers": ["Coriolis"],
-        "other_options": ["centrifugal", "Euler", "inertial"]
+        "answers": [
+            "Coriolis"
+        ],
+        "other_options": [
+            "centrifugal",
+            "Euler",
+            "inertial"
+        ]
     },
     {
         "q": "A particle is projected vertically upward from the equator. Due to the Coriolis effect, it deflects towards the:",
@@ -6134,13 +7948,29 @@
     {
         "q": "The parallel axis theorem relates the moment of inertia about any axis to the moment of inertia about a parallel axis through the ______.",
         "type": "fill_blank",
-        "answers": ["center of mass"],
-        "other_options": ["pivot point", "geometric center", "fixed point"]
+        "answers": [
+            "center of mass"
+        ],
+        "other_options": [
+            "pivot point",
+            "geometric center",
+            "fixed point"
+        ]
     },
     {
         "q": "Rearrange the words to state the work-energy theorem for rotational motion:",
         "type": "rearrange",
-        "words": ["Net", "rotational", "work", "equals", "change", "in", "rotational", "kinetic", "energy"]
+        "words": [
+            "Net",
+            "rotational",
+            "work",
+            "equals",
+            "change",
+            "in",
+            "rotational",
+            "kinetic",
+            "energy"
+        ]
     },
     {
         "q": "For a rigid body rolling without slipping, the point of contact with the ground has zero instantaneous velocity.",
@@ -6170,8 +8000,14 @@
     {
         "q": "The ______ tensor describes the coupling between translational and rotational motions in a non-spherical body in a fluid.",
         "type": "fill_blank",
-        "answers": ["resistance"],
-        "other_options": ["inertia", "stress", "diffusion"]
+        "answers": [
+            "resistance"
+        ],
+        "other_options": [
+            "inertia",
+            "stress",
+            "diffusion"
+        ]
     },
     {
         "q": "For a system with Casimir invariants, these quantities are conserved due to:",
@@ -6186,7 +8022,17 @@
     {
         "q": "Rearrange the words to describe the phenomenon of autoresonance:",
         "type": "rearrange",
-        "words": ["System", "locks", "into", "resonance", "with", "slowly", "changing", "drive", "frequency"]
+        "words": [
+            "System",
+            "locks",
+            "into",
+            "resonance",
+            "with",
+            "slowly",
+            "changing",
+            "drive",
+            "frequency"
+        ]
     },
     {
         "q": "The Kramers turnover describes the transition between energy-controlled and spatial-diffusion-controlled reaction rates.",
@@ -6206,14 +8052,28 @@
     {
         "q": "The ______ instability occurs when a flexible filament is subjected to a follower force.",
         "type": "fill_blank",
-        "answers": ["flutter"],
-        "other_options": ["buckling", "shear", "Kelvin-Helmholtz"]
+        "answers": [
+            "flutter"
+        ],
+        "other_options": [
+            "buckling",
+            "shear",
+            "Kelvin-Helmholtz"
+        ]
     },
     {
         "q": "Match the following non-conservative systems with their characteristic features:",
         "type": "match",
-        "left": ["Van der Pol oscillator", "Rayleigh oscillator", "Duffing oscillator"],
-        "right": ["Self-sustained oscillations", "Limit cycle with energy-dependent damping", "Cubic nonlinearity in restoring force"]
+        "left": [
+            "Van der Pol oscillator",
+            "Rayleigh oscillator",
+            "Duffing oscillator"
+        ],
+        "right": [
+            "Self-sustained oscillations",
+            "Limit cycle with energy-dependent damping",
+            "Cubic nonlinearity in restoring force"
+        ]
     },
     {
         "q": "The phenomenon of 'jumping' in a forced Duffing oscillator with hardening stiffness is an example of a subcritical bifurcation.",
@@ -6233,13 +8093,27 @@
     {
         "q": "The ______ drift arises from a force perpendicular to the magnetic field.",
         "type": "fill_blank",
-        "answers": ["E×B"],
-        "other_options": ["grad-B", "curvature", "polarization"]
+        "answers": [
+            "E×B"
+        ],
+        "other_options": [
+            "grad-B",
+            "curvature",
+            "polarization"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of a strange attractor:",
         "type": "rearrange",
-        "words": ["Attractor", "with", "fractal", "dimension", "in", "phase", "space"]
+        "words": [
+            "Attractor",
+            "with",
+            "fractal",
+            "dimension",
+            "in",
+            "phase",
+            "space"
+        ]
     },
     {
         "q": "The Magnus effect explains the lateral force on a spinning cylinder moving through a fluid.",
@@ -6259,8 +8133,14 @@
     {
         "q": "The ______ number characterizes the ratio of Brownian motion to electrophoretic motion.",
         "type": "fill_blank",
-        "answers": ["Péclet"],
-        "other_options": ["Reynolds", "Schmidt", "Lewis"]
+        "answers": [
+            "Péclet"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Schmidt",
+            "Lewis"
+        ]
     },
     {
         "q": "In the context of granular flows, the Janssen effect describes:",
@@ -6275,13 +8155,25 @@
     {
         "q": "The ______ instability occurs when a fluid layer is heated from below.",
         "type": "fill_blank",
-        "answers": ["Rayleigh-Bénard"],
-        "other_options": ["Taylor-Couette", "Saffman-Taylor", "Kelvin-Helmholtz"]
+        "answers": [
+            "Rayleigh-Bénard"
+        ],
+        "other_options": [
+            "Taylor-Couette",
+            "Saffman-Taylor",
+            "Kelvin-Helmholtz"
+        ]
     },
     {
         "q": "Rearrange the words to describe the principle of detailed balance:",
         "type": "rearrange",
-        "words": ["Microscopic", "reversibility", "in", "equilibrium", "systems"]
+        "words": [
+            "Microscopic",
+            "reversibility",
+            "in",
+            "equilibrium",
+            "systems"
+        ]
     },
     {
         "q": "The Lorentz gas model considers a particle moving among fixed scatterers.",
@@ -6311,8 +8203,14 @@
     {
         "q": "The ______ effect causes a spinning egg to rise to its large end.",
         "type": "fill_blank",
-        "answers": ["tipping"],
-        "other_options": ["gyroscopic", "precessional", "inertial"]
+        "answers": [
+            "tipping"
+        ],
+        "other_options": [
+            "gyroscopic",
+            "precessional",
+            "inertial"
+        ]
     },
     {
         "q": "For a system with nonholonomic constraints, the Chetaev condition specifies that virtual displacements satisfy:",
@@ -6327,7 +8225,14 @@
     {
         "q": "Rearrange the words to describe the phenomenon of dynamic buckling:",
         "type": "rearrange",
-        "words": ["Loss", "of", "stability", "under", "time-dependent", "loading"]
+        "words": [
+            "Loss",
+            "of",
+            "stability",
+            "under",
+            "time-dependent",
+            "loading"
+        ]
     },
     {
         "q": "The Tennis Racket Theorem describes the unstable rotation of a rigid body about its intermediate axis.",
@@ -6347,14 +8252,28 @@
     {
         "q": "The ______ number characterizes the elasticity of capsule membranes in flow.",
         "type": "fill_blank",
-        "answers": ["capillary"],
-        "other_options": ["Reynolds", "Deborah", "Weber"]
+        "answers": [
+            "capillary"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Deborah",
+            "Weber"
+        ]
     },
     {
         "q": "Match the following biomechanical systems with their dominant forces:",
         "type": "match",
-        "left": ["Bacterial flagella", "Plant cell growth", "Bird flight"],
-        "right": ["Viscous drag", "Turgor pressure", "Aerodynamic lift"]
+        "left": [
+            "Bacterial flagella",
+            "Plant cell growth",
+            "Bird flight"
+        ],
+        "right": [
+            "Viscous drag",
+            "Turgor pressure",
+            "Aerodynamic lift"
+        ]
     },
     {
         "q": "The Purcell swimmer achieves net displacement using non-reciprocal motion in a low Reynolds number environment.",
@@ -6374,13 +8293,27 @@
     {
         "q": "The ______ instability occurs when a viscous fluid displaces a less viscous one in a Hele-Shaw cell.",
         "type": "fill_blank",
-        "answers": ["Saffman-Taylor"],
-        "other_options": ["Rayleigh-Taylor", "Plateau-Rayleigh", "Kelvin-Helmholtz"]
+        "answers": [
+            "Saffman-Taylor"
+        ],
+        "other_options": [
+            "Rayleigh-Taylor",
+            "Plateau-Rayleigh",
+            "Kelvin-Helmholtz"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of phononic band gaps:",
         "type": "rearrange",
-        "words": ["Frequency", "ranges", "where", "elastic", "waves", "cannot", "propagate"]
+        "words": [
+            "Frequency",
+            "ranges",
+            "where",
+            "elastic",
+            "waves",
+            "cannot",
+            "propagate"
+        ]
     },
     {
         "q": "The Kaye effect explains the bouncing stream of a shear-thinning fluid.",
@@ -6400,8 +8333,14 @@
     {
         "q": "The ______ analogy relates heat conduction to electrostatic potential.",
         "type": "fill_blank",
-        "answers": ["thermoelastic"],
-        "other_options": ["Reynolds", "Ohm's", "Fourier"]
+        "answers": [
+            "thermoelastic"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Ohm's",
+            "Fourier"
+        ]
     },
     {
         "q": "In the context of fracture mechanics, the J-integral is:",
@@ -6416,13 +8355,28 @@
     {
         "q": "The ______ transition describes the jamming of granular materials under compression.",
         "type": "fill_blank",
-        "answers": ["jamming"],
-        "other_options": ["glass", "yielding", "buckling"]
+        "answers": [
+            "jamming"
+        ],
+        "other_options": [
+            "glass",
+            "yielding",
+            "buckling"
+        ]
     },
     {
         "q": "Rearrange the words to describe the principle of kinematic reversibility in Stokes flow:",
         "type": "rearrange",
-        "words": ["Reversing", "motion", "boundaries", "reverses", "all", "fluid", "particle", "paths"]
+        "words": [
+            "Reversing",
+            "motion",
+            "boundaries",
+            "reverses",
+            "all",
+            "fluid",
+            "particle",
+            "paths"
+        ]
     },
     {
         "q": "The Plateau borders in foam structure are governed by surface tension minimization.",
@@ -6452,8 +8406,14 @@
     {
         "q": "The ______ tensor describes the coupling between stress and entropy in thermoelastic materials.",
         "type": "fill_blank",
-        "answers": ["thermoelastic"],
-        "other_options": ["piezoelectric", "photoclastic", "magnetoelastic"]
+        "answers": [
+            "thermoelastic"
+        ],
+        "other_options": [
+            "piezoelectric",
+            "photoclastic",
+            "magnetoelastic"
+        ]
     },
     {
         "q": "For a system undergoing superradiant scattering, energy extraction occurs when:",
@@ -6468,7 +8428,14 @@
     {
         "q": "Rearrange the words to describe the phenomenon of sonoluminescence:",
         "type": "rearrange",
-        "words": ["Light", "emission", "from", "collapsing", "cavitation", "bubbles"]
+        "words": [
+            "Light",
+            "emission",
+            "from",
+            "collapsing",
+            "cavitation",
+            "bubbles"
+        ]
     },
     {
         "q": "The Abraham-Lorentz force accounts for radiation reaction in classical electrodynamics.",
@@ -6488,14 +8455,28 @@
     {
         "q": "The ______ instability drives the breakup of liquid jets into droplets.",
         "type": "fill_blank",
-        "answers": ["Plateau-Rayleigh"],
-        "other_options": ["Kelvin-Helmholtz", "Saffman-Taylor", "Taylor-Couette"]
+        "answers": [
+            "Plateau-Rayleigh"
+        ],
+        "other_options": [
+            "Kelvin-Helmholtz",
+            "Saffman-Taylor",
+            "Taylor-Couette"
+        ]
     },
     {
         "q": "Match the following exotic materials with their mechanical properties:",
         "type": "match",
-        "left": ["Auxetic materials", "Dilatant fluids", "Shape memory alloys"],
-        "right": ["Negative Poisson's ratio", "Shear thickening", "Superelasticity"]
+        "left": [
+            "Auxetic materials",
+            "Dilatant fluids",
+            "Shape memory alloys"
+        ],
+        "right": [
+            "Negative Poisson's ratio",
+            "Shear thickening",
+            "Superelasticity"
+        ]
     },
     {
         "q": "The Earnshaw theorem prohibits stable levitation using only static electric fields.",
@@ -6515,13 +8496,28 @@
     {
         "q": "The ______ effect describes the rotation of a liquid helium film in a rotating container.",
         "type": "fill_blank",
-        "answers": ["Hess-Fairbank"],
-        "other_options": ["Meissner", "Josephson", "Andronikashvili"]
+        "answers": [
+            "Hess-Fairbank"
+        ],
+        "other_options": [
+            "Meissner",
+            "Josephson",
+            "Andronikashvili"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of topological solitons:",
         "type": "rearrange",
-        "words": ["Solitons", "characterized", "by", "topological", "invariants", "like", "winding", "number"]
+        "words": [
+            "Solitons",
+            "characterized",
+            "by",
+            "topological",
+            "invariants",
+            "like",
+            "winding",
+            "number"
+        ]
     },
     {
         "q": "The Kibble-Zurek mechanism describes defect formation in rapid phase transitions.",
@@ -6541,8 +8537,14 @@
     {
         "q": "The ______ instability occurs when a magnetic field supports a fluid against gravity.",
         "type": "fill_blank",
-        "answers": ["magnetic buoyancy"],
-        "other_options": ["magnetorotational", "tearing mode", "Parker"]
+        "answers": [
+            "magnetic buoyancy"
+        ],
+        "other_options": [
+            "magnetorotational",
+            "tearing mode",
+            "Parker"
+        ]
     },
     {
         "q": "For a system with PT-symmetric potentials, real energy eigenvalues can occur even for:",
@@ -6557,13 +8559,27 @@
     {
         "q": "The ______ number characterizes the relative importance of magnetic to fluid forces.",
         "type": "fill_blank",
-        "answers": ["Alfvén"],
-        "other_options": ["Mach", "Reynolds", "Prandtl"]
+        "answers": [
+            "Alfvén"
+        ],
+        "other_options": [
+            "Mach",
+            "Reynolds",
+            "Prandtl"
+        ]
     },
     {
         "q": "Rearrange the words to describe the phenomenon of stochastic resonance:",
         "type": "rearrange",
-        "words": ["Noise", "enhances", "detection", "of", "weak", "periodic", "signals"]
+        "words": [
+            "Noise",
+            "enhances",
+            "detection",
+            "of",
+            "weak",
+            "periodic",
+            "signals"
+        ]
     },
     {
         "q": "The Magnus expansion approximates time-evolution operators for time-dependent Hamiltonians.",
@@ -6593,8 +8609,14 @@
     {
         "q": "The ______ instability occurs when a flexible sheet moves through a fluid at high speed.",
         "type": "fill_blank",
-        "answers": ["flapping"],
-        "other_options": ["wrinkling", "buckling", "tearing"]
+        "answers": [
+            "flapping"
+        ],
+        "other_options": [
+            "wrinkling",
+            "buckling",
+            "tearing"
+        ]
     },
     {
         "q": "For a system with non-ideal constraints, the Appell-Chetaev equations incorporate:",
@@ -6609,7 +8631,15 @@
     {
         "q": "Rearrange the words to describe the phenomenon of elastocapillarity:",
         "type": "rearrange",
-        "words": ["Coupling", "between", "elastic", "deformation", "and", "surface", "tension"]
+        "words": [
+            "Coupling",
+            "between",
+            "elastic",
+            "deformation",
+            "and",
+            "surface",
+            "tension"
+        ]
     },
     {
         "q": "The Green-Kubo relations connect transport coefficients to equilibrium fluctuations.",
@@ -6629,14 +8659,28 @@
     {
         "q": "The ______ effect describes the spontaneous rotation of a liquid-filled sphere under vibration.",
         "type": "fill_blank",
-        "answers": ["Brazil nut"],
-        "other_options": ["coffee ring", "Cheerios", "granular convection"]
+        "answers": [
+            "Brazil nut"
+        ],
+        "other_options": [
+            "coffee ring",
+            "Cheerios",
+            "granular convection"
+        ]
     },
     {
         "q": "Match the following microfluidic phenomena with their descriptions:",
         "type": "match",
-        "left": ["Dielectrophoresis", "Electroosmosis", "Acoustophoresis"],
-        "right": ["Particle motion in non-uniform electric fields", "Fluid flow induced by surface charges", "Particle manipulation using sound waves"]
+        "left": [
+            "Dielectrophoresis",
+            "Electroosmosis",
+            "Acoustophoresis"
+        ],
+        "right": [
+            "Particle motion in non-uniform electric fields",
+            "Fluid flow induced by surface charges",
+            "Particle manipulation using sound waves"
+        ]
     },
     {
         "q": "The Prandtl-Glauert singularity predicts infinite pressure at Mach 1.",
@@ -6656,13 +8700,27 @@
     {
         "q": "The ______ number characterizes the competition between magnetic diffusion and advection.",
         "type": "fill_blank",
-        "answers": ["magnetic Reynolds"],
-        "other_options": ["Alfvén", "Lundquist", "Hartmann"]
+        "answers": [
+            "magnetic Reynolds"
+        ],
+        "other_options": [
+            "Alfvén",
+            "Lundquist",
+            "Hartmann"
+        ]
     },
     {
         "q": "Rearrange the words to describe the concept of a non-Markovian process:",
         "type": "rearrange",
-        "words": ["Future", "evolution", "depends", "on", "the", "entire", "history"]
+        "words": [
+            "Future",
+            "evolution",
+            "depends",
+            "on",
+            "the",
+            "entire",
+            "history"
+        ]
     },
     {
         "q": "The Taylor-Proudman theorem states that slow steady inviscid flow becomes two-dimensional in rapidly rotating systems.",
@@ -6682,8 +8740,14 @@
     {
         "q": "The ______ instability drives pattern formation in reaction-diffusion systems.",
         "type": "fill_blank",
-        "answers": ["Turing"],
-        "other_options": ["Rayleigh-Bénard", "Belousov-Zhabotinsky", "Faraday"]
+        "answers": [
+            "Turing"
+        ],
+        "other_options": [
+            "Rayleigh-Bénard",
+            "Belousov-Zhabotinsky",
+            "Faraday"
+        ]
     },
     {
         "q": "For a system with fractional derivatives, the memory kernel represents:",
@@ -6698,13 +8762,27 @@
     {
         "q": "The ______ transition describes the onset of collective motion in active matter.",
         "type": "fill_blank",
-        "answers": ["flocking"],
-        "other_options": ["jamming", "glass", "nematic"]
+        "answers": [
+            "flocking"
+        ],
+        "other_options": [
+            "jamming",
+            "glass",
+            "nematic"
+        ]
     },
     {
         "q": "Rearrange the words to describe the phenomenon of durotaxis:",
         "type": "rearrange",
-        "words": ["Cell", "migration", "guided", "by", "substrate", "stiffness", "gradients"]
+        "words": [
+            "Cell",
+            "migration",
+            "guided",
+            "by",
+            "substrate",
+            "stiffness",
+            "gradients"
+        ]
     },
     {
         "q": "The Mason-Weaver equation describes sedimentation equilibrium under gravity and diffusion.",
